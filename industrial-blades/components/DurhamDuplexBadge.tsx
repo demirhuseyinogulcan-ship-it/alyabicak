@@ -70,7 +70,7 @@ export default function DurhamDuplexBadge() {
             </div>
 
             <Link
-              href="/durham-duplex"
+              href="/sheffield-kalitesi#durham-duplex"
               className="inline-flex items-center gap-2 px-8 py-4 bg-green-700 hover:bg-green-800 text-white font-semibold rounded-lg transition-all hover:scale-105"
             >
               <span>Daha Fazla Bilgi</span>

@@ -128,7 +128,7 @@ export default function SheffieldKalitesiPage() {
       </section>
 
       {/* Durham Duplex Section */}
-      <section className="py-20 bg-black text-white">
+      <section id="durham-duplex" className="py-20 bg-black text-white">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
