@@ -91,7 +91,7 @@ export const siteConfig = {
     enableBlog: false, // TODO: Blog eklendiğinde true yap
     enableMultiLanguage: false, // TODO: Çoklu dil eklendiğinde true yap
     enableAnalytics: false, // TODO: Analytics eklendiğinde true yap
-    enableCookieConsent: false, // TODO: Cookie consent eklendiğinde true yap
+    enableCookieConsent: true, // KVKK uyumu için aktif
   },
 } as const;
 

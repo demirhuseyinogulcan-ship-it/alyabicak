@@ -1,5 +1,6 @@
 // SEO ve Metadata yardımcı fonksiyonları
 import { Metadata } from 'next'
+import { siteConfig } from './config'
 
 export interface SEOConfig {
   title: string
@@ -53,26 +54,30 @@ export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Alya Tekstil Sanayi Ticaret Ltd.Şti.',
-    alternateName: 'Alya Bıçak',
-    url: 'https://www.alyabicak.com',
-    logo: 'https://www.alyabicak.com/images/logo.png',
-    description: 'Endüstriyel kesici bıçaklar, makina bıçakları ve sanayi jiletleri üreticisi ve distribütörü.',
+    name: siteConfig.company.legalName,
+    alternateName: siteConfig.name,
+    url: siteConfig.url,
+    logo: `${siteConfig.url}/images/logo.png`,
+    description: siteConfig.description,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: siteConfig.contact.address.full,
+      addressLocality: siteConfig.contact.address.city,
+      postalCode: siteConfig.contact.address.postalCode,
       addressCountry: 'TR',
-      addressLocality: 'İstanbul',
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+90-555-123-45-67',
+      telephone: siteConfig.contact.phoneRaw,
       contactType: 'customer service',
       areaServed: 'TR',
       availableLanguage: ['Turkish'],
     },
     sameAs: [
-      // Sosyal medya linkleri buraya eklenecek
-    ],
+      siteConfig.social.facebook,
+      siteConfig.social.instagram,
+      siteConfig.social.linkedin,
+    ].filter(Boolean),
   }
 }
 
@@ -92,11 +97,11 @@ export function generateProductSchema(product: {
     category: product.category,
     brand: {
       '@type': 'Brand',
-      name: product.brand || 'Alya Bıçak',
+      name: product.brand || siteConfig.name,
     },
     manufacturer: {
       '@type': 'Organization',
-      name: 'Alya Tekstil Sanayi Ticaret Ltd.Şti.',
+      name: siteConfig.company.legalName,
     },
     offers: {
       '@type': 'Offer',

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Eye, Star, ArrowRight, ChevronLeft, ChevronRight, Package } from 'lucide-react'
@@ -8,12 +8,12 @@ import { productService } from '@/lib/services'
 
 export default function BestSellers() {
   const featuredProducts = productService.getFeaturedCards()
+  const sliderRef = useRef<HTMLDivElement>(null)
   
   const scroll = (direction: 'left' | 'right') => {
-    const container = document.getElementById('products-slider')
-    if (container) {
+    if (sliderRef.current) {
       const scrollAmount = direction === 'left' ? -400 : 400
-      container.scrollBy({ left: scrollAmount, behavior: 'smooth' })
+      sliderRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' })
     }
   }
 
@@ -56,7 +56,7 @@ export default function BestSellers() {
 
           {/* Products Slider */}
           <div 
-            id="products-slider"
+            ref={sliderRef}
             className="overflow-x-auto scrollbar-hide scroll-smooth"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >

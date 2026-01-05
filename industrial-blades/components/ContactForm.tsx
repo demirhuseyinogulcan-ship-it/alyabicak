@@ -62,9 +62,20 @@ export default function ContactForm() {
     setErrors({})
 
     try {
-      // TODO: API endpoint'e gönderilecek
-      // Şimdilik simüle ediyoruz
-      await new Promise(resolve => setTimeout(resolve, 1000))
+      // API endpoint'e gönder
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const result = await response.json()
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.error || 'Bir hata oluştu')
+      }
       
       setStatus('success')
       setFormData(initialFormData)
@@ -72,7 +83,8 @@ export default function ContactForm() {
       
       // 5 saniye sonra başarı mesajını kaldır
       setTimeout(() => setStatus('idle'), 5000)
-    } catch {
+    } catch (error) {
+      console.error('Form submit error:', error)
       setStatus('error')
     }
   }

@@ -8,6 +8,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { siteConfig } from '@/lib/config'
 
 type CookiePreferences = {
   necessary: boolean // Her zaman true
@@ -28,6 +29,9 @@ export default function CookieConsent() {
   })
 
   useEffect(() => {
+    // siteConfig'de kapalıysa gösterme
+    if (!siteConfig.features.enableCookieConsent) return
+    
     // Daha önce onay verilmiş mi kontrol et
     const consent = localStorage.getItem(COOKIE_CONSENT_KEY)
     if (!consent) {
