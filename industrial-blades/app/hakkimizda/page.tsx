@@ -211,22 +211,26 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-steel-900 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-3">
-            Bizimle Çalışmak İster misiniz?
-          </h2>
-          <p className="text-xl text-steel-300 mb-8 max-w-2xl mx-auto">
-            28 yıllık deneyimimizle size en uygun çözümü sunmaya hazırız.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <Button href="/iletisim" size="lg">
-              İletişime Geçin
-            </Button>
-            <Button href={getWhatsAppUrl('Merhaba, Alya Bıçak hakkında bilgi almak istiyorum.')} variant="whatsapp" size="lg">
-              WhatsApp ile Ulaşın
-            </Button>
+      {/* CTA Section - Sheffield style minimal */}
+      <section className="py-10 bg-steel-900 border-t border-steel-800">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <h2 className="text-xl md:text-2xl font-semibold text-white mb-1">
+                Bizimle Çalışmak İster misiniz?
+              </h2>
+              <p className="text-steel-400 text-sm">
+                28 yıllık deneyimimizle size en uygun çözümü sunmaya hazırız.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <Button href="/iletisim" size="md">
+                İletişime Geçin
+              </Button>
+              <Button href={getWhatsAppUrl('Merhaba, Alya Bıçak hakkında bilgi almak istiyorum.')} variant="whatsapp" size="md">
+                WhatsApp ile Ulaşın
+              </Button>
+            </div>
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import { generateMetadata } from '@/lib/seo'
+import Link from 'next/link'
 import { MessageCircle, CheckCircle, ArrowRight, Phone } from 'lucide-react'
 import { Button, PageHeader } from '@/components/ui'
 
@@ -183,35 +184,35 @@ export default function ConsultingPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-primary-600 text-white">
+      {/* CTA Section - Sheffield style minimal */}
+      <section className="py-10 bg-primary-600 border-t border-primary-500">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-              Ücretsiz Danışmanlık Alın
-            </h2>
-            <p className="text-xl text-primary-100 mb-8">
-              Hangi malzeme için hangi bıçak? Uzmanlarımız size yol gösteriyor.
-            </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Button 
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <h2 className="text-xl md:text-2xl font-semibold text-white mb-1">
+                Ücretsiz Danışmanlık Alın
+              </h2>
+              <p className="text-primary-100 text-sm">
+                Hangi malzeme için hangi bıçak? Uzmanlarımız size yol gösteriyor.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <Link 
                 href="/iletisim" 
-                variant="outline" 
-                size="lg" 
-                icon={ArrowRight}
-                className="bg-white text-primary-600 border-white hover:bg-steel-50"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-primary-600 text-sm font-medium rounded-lg hover:bg-steel-50 transition-all"
               >
                 İletişim Formu
-              </Button>
-              <Button
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <a
                 href="https://wa.me/905551234567?text=Merhaba, kesim danışmanlığı almak istiyorum."
-                variant="whatsapp"
-                size="lg"
-                icon={Phone}
-                iconPosition="left"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-green-500 text-white text-sm font-medium rounded-lg hover:bg-green-600 transition-all"
               >
+                <Phone className="w-4 h-4" />
                 WhatsApp ile İletişim
-              </Button>
+              </a>
             </div>
           </div>
         </div>
