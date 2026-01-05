@@ -1,9 +1,15 @@
 /**
  * Alya Bıçak - Genişletilmiş Ürün Verileri
  * Profesyonel ürün detay sayfaları için
+ * 
+ * Bu dosya iki veri kaynağını birleştirir:
+ * 1. PRODUCTS_EXTENDED - Manuel olarak zenginleştirilmiş ürünler
+ * 2. products.ts - Temel ürün verileri (fallback olarak kullanılır)
  */
 
-import type { ProductExtended, ProductCardData, PLACEHOLDER_IMAGES } from '../types/product.types';
+import type { ProductExtended, ProductCardData } from '../types/product.types';
+import { getProductBySlug as getBaseProductBySlug, getAllProducts } from './products';
+import { getCategoryById, getSubcategoryById } from './categories';
 
 // =============================================================================
 // ÖRNEK ÜRÜNLER (Placeholder görsellerle)
@@ -311,19 +317,153 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 // YARDIMCI FONKSİYONLAR
 // =============================================================================
 
+/** Base product'ı ProductExtended tipine dönüştür (fallback için) */
+function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySlug>): ProductExtended | undefined {
+  if (!baseProduct) return undefined;
+  
+  const category = getCategoryById(baseProduct.categoryId);
+  const subcategory = getSubcategoryById(baseProduct.subcategoryId);
+  
+  // Specifications'ı ProductSpec[] formatına çevir
+  const specs: ProductExtended['specs'] = [];
+  if (baseProduct.specifications) {
+    const specLabels: Record<string, string> = {
+      material: 'Malzeme',
+      hardness: 'Sertlik',
+      thickness: 'Kalınlık',
+      width: 'Genişlik',
+      length: 'Uzunluk',
+      coating: 'Kaplama',
+      edge: 'Ağız Tipi',
+      weight: 'Ağırlık',
+    };
+    
+    Object.entries(baseProduct.specifications).forEach(([key, value]) => {
+      if (value) {
+        specs.push({
+          label: specLabels[key] || key.charAt(0).toUpperCase() + key.slice(1),
+          value: String(value),
+        });
+      }
+    });
+  }
+  
+  // Placeholder görsel URL
+  const placeholderImage = '/images/products/placeholder.jpg';
+  const productImage = baseProduct.image || placeholderImage;
+  
+  return {
+    id: baseProduct.id,
+    slug: baseProduct.slug,
+    code: baseProduct.code,
+    name: baseProduct.name,
+    subtitle: undefined,
+    
+    categoryId: baseProduct.categoryId,
+    subcategoryId: baseProduct.subcategoryId,
+    tags: baseProduct.features?.slice(0, 3),
+    
+    shortDescription: baseProduct.description,
+    longDescription: undefined,
+    
+    images: {
+      main: {
+        src: productImage,
+        alt: `${baseProduct.name} - ${baseProduct.code}`,
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: productImage,
+        alt: baseProduct.name,
+        width: 400,
+        height: 400,
+      },
+    },
+    
+    specs,
+    
+    origin: {
+      brand: 'Sheffield Steel',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+    
+    applications: baseProduct.applications?.map(app => ({
+      title: app,
+      description: '',
+    })),
+    
+    benefits: [
+      {
+        title: 'Yüksek Kalite',
+        description: 'Sheffield çeliğinden üretim',
+      },
+      {
+        title: 'Uzun Ömür',
+        description: 'Dayanıklı malzeme',
+      },
+    ],
+    
+    features: baseProduct.features,
+    
+    relatedProductIds: undefined,
+    
+    seo: {
+      title: `${baseProduct.name} | ${baseProduct.code} | Alya Bıçak`,
+      description: baseProduct.description,
+    },
+    
+    isActive: baseProduct.isActive,
+    isFeatured: baseProduct.isFeatured,
+    isNew: false,
+    inStock: baseProduct.variants?.some(v => v.inStock) ?? true,
+    order: baseProduct.order,
+  };
+}
+
 /** Tüm aktif ürünleri getir */
 export function getAllProductsExtended(): ProductExtended[] {
   return PRODUCTS_EXTENDED.filter(p => p.isActive);
 }
 
-/** Slug'a göre ürün getir */
+/** 
+ * Slug'a göre ürün getir 
+ * Önce PRODUCTS_EXTENDED'da arar, bulamazsa base products'tan dönüştürür
+ */
 export function getProductBySlug(slug: string): ProductExtended | undefined {
-  return PRODUCTS_EXTENDED.find(p => p.slug === slug && p.isActive);
+  // Önce extended ürünlerde ara
+  const extendedProduct = PRODUCTS_EXTENDED.find(p => p.slug === slug && p.isActive);
+  if (extendedProduct) {
+    return extendedProduct;
+  }
+  
+  // Extended'da yoksa base product'tan dönüştür
+  const baseProduct = getBaseProductBySlug(slug);
+  if (baseProduct && baseProduct.isActive) {
+    return convertBaseToExtended(baseProduct);
+  }
+  
+  return undefined;
 }
 
-/** ID'ye göre ürün getir */
+/** ID'ye göre ürün getir (fallback ile) */
 export function getProductById(id: string): ProductExtended | undefined {
-  return PRODUCTS_EXTENDED.find(p => p.id === id && p.isActive);
+  // Önce extended ürünlerde ara
+  const extendedProduct = PRODUCTS_EXTENDED.find(p => p.id === id && p.isActive);
+  if (extendedProduct) {
+    return extendedProduct;
+  }
+  
+  // Extended'da yoksa base product'tan dönüştür
+  const allBaseProducts = getAllProducts();
+  const baseProduct = allBaseProducts.find(p => p.id === id && p.isActive);
+  if (baseProduct) {
+    return convertBaseToExtended(baseProduct);
+  }
+  
+  return undefined;
 }
 
 /** Kategoriye göre ürünleri getir */
@@ -361,16 +501,16 @@ export function getFeaturedProductsExtended(): ProductExtended[] {
 
 /** Kategori adını getir (basit mapping) */
 function getCategoryName(categoryId: string): string {
-  const categoryNames: Record<string, string> = {
-    'is-guvenligi-el-bicaklari': 'İş Güvenliği El Bıçakları',
-    'sanayi-jiletleri': 'Sanayi Jiletleri',
-    'makina-bicaklari': 'Makina Bıçakları',
-  };
-  return categoryNames[categoryId] || categoryId;
+  const category = getCategoryById(categoryId);
+  return category?.name || categoryId;
 }
 
-/** Tüm ürün slug'larını getir (static generation için) */
+/** 
+ * Tüm ürün slug'larını getir (static generation için)
+ * Hem extended hem de base products'tan alır
+ */
 export function getAllProductSlugs(): string[] {
-  return PRODUCTS_EXTENDED.filter(p => p.isActive).map(p => p.slug);
+  const allBaseProducts = getAllProducts();
+  return allBaseProducts.filter(p => p.isActive).map(p => p.slug);
 }
 

@@ -60,7 +60,7 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // Mega menu handlers
+  // Mega menu handlers - hover ile aç/kapa
   const handleMenuOpen = useCallback(() => {
     if (closeTimer) clearTimeout(closeTimer)
     setIsMegaMenuOpen(true)
@@ -69,7 +69,7 @@ export default function Header() {
   const handleMenuClose = useCallback(() => {
     const timer = setTimeout(() => {
       setIsMegaMenuOpen(false)
-    }, 200)
+    }, 150)
     setCloseTimer(timer)
   }, [])
 
@@ -102,6 +102,7 @@ export default function Header() {
             items={mainNavigation}
             onMenuOpen={handleMenuOpen}
             onMenuClose={handleMenuClose}
+            isMegaMenuOpen={isMegaMenuOpen}
           />
 
           {/* Desktop CTA */}
@@ -155,7 +156,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mega Menu */}
+      {/* Mega Menu - Hover ile aç/kapa */}
       <div
         onMouseEnter={handleMenuOpen}
         onMouseLeave={handleMenuClose}
