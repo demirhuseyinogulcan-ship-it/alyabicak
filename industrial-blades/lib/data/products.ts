@@ -335,18 +335,68 @@ export function getProductCountBySubcategory(subcategoryId: string): number {
   return PRODUCTS.filter(p => p.isActive && p.subcategoryId === subcategoryId).length;
 }
 
-/** Arama yap */
+/** Arama yap - Kelime bazlı akıllı arama */
 export function searchProducts(query: string): Product[] {
   const searchTerm = query.toLowerCase().trim();
   if (!searchTerm) return [];
   
-  return PRODUCTS.filter(p => 
-    p.isActive && (
-      p.name.toLowerCase().includes(searchTerm) ||
-      p.code.toLowerCase().includes(searchTerm) ||
-      p.description.toLowerCase().includes(searchTerm)
-    )
-  );
+  // Kelime sınırı regex'i oluştur (Türkçe karakterler dahil)
+  // "ok" araması "çok" içinde eşleşmemeli ama "OK Bıçak" içinde eşleşmeli
+  const wordBoundaryRegex = new RegExp(`(^|[\\s\\-\\_\\/\\(\\)])${escapeRegex(searchTerm)}($|[\\s\\-\\_\\/\\(\\)])`, 'i');
+  const containsRegex = new RegExp(escapeRegex(searchTerm), 'i');
+  
+  // Skorlama: tam kelime eşleşmesi > kod eşleşmesi > isim içinde > açıklama içinde
+  const results = PRODUCTS
+    .filter(p => p.isActive)
+    .map(p => {
+      let score = 0;
+      const nameLower = p.name.toLowerCase();
+      const codeLower = p.code.toLowerCase();
+      const descLower = p.description.toLowerCase();
+      
+      // Kod tam eşleşme (en yüksek öncelik)
+      if (codeLower === searchTerm || codeLower.replace(/[\s\-]/g, '') === searchTerm.replace(/[\s\-]/g, '')) {
+        score += 100;
+      }
+      // Kod içinde kelime olarak geçiyor
+      else if (wordBoundaryRegex.test(p.code)) {
+        score += 80;
+      }
+      // Kod içinde herhangi bir yerde geçiyor
+      else if (containsRegex.test(p.code)) {
+        score += 60;
+      }
+      
+      // İsim tam kelime eşleşmesi
+      if (wordBoundaryRegex.test(p.name)) {
+        score += 50;
+      }
+      // İsim içinde geçiyor
+      else if (containsRegex.test(p.name)) {
+        score += 30;
+      }
+      
+      // Açıklama tam kelime eşleşmesi
+      if (wordBoundaryRegex.test(p.description)) {
+        score += 20;
+      }
+      // Açıklama içinde geçiyor (en düşük öncelik)
+      else if (containsRegex.test(p.description)) {
+        score += 5;
+      }
+      
+      return { product: p, score };
+    })
+    .filter(r => r.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map(r => r.product);
+  
+  return results;
+}
+
+/** Regex özel karakterlerini escape et */
+function escapeRegex(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 /** Stokta olan ürünleri getir */

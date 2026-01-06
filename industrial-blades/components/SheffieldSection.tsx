@@ -110,24 +110,6 @@ export default function SheffieldSection() {
                 fill
                 className="object-cover"
               />
-              
-              {/* Stats Overlay */}
-              <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-steel-900 to-transparent">
-                <div className="grid grid-cols-3 gap-4">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-white mb-1">1910</div>
-                    <div className="text-sm text-steel-300">Durham Duplex Mirası</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-white mb-1">30</div>
-                    <div className="text-sm text-steel-300">Yıllık Alya Deneyimi</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-white mb-1">35+</div>
-                    <div className="text-sm text-steel-300">İhracat Ülkesi</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
