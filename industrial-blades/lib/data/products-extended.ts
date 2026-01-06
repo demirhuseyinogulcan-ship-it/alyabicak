@@ -237,9 +237,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         width: 800,
         height: 800,
       },
-      gallery: [
-        { src: '/images/products/3-delikli-jilet.jpg', alt: 'Detay görünüm', width: 800, height: 800 },
-      ],
+      gallery: [],
       thumbnail: {
         src: '/images/products/3-delikli-jilet.jpg',
         alt: '3 Delikli Dilme Jileti',
