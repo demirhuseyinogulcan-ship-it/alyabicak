@@ -24,7 +24,7 @@ export default function SheffieldSection() {
     {
       icon: Clock,
       title: 'Hızlı Teslimat',
-      description: 'Stoktan anında gönderim'
+      description: 'Dünya geneline hızlı gönderim'
     }
   ]
 
@@ -49,7 +49,7 @@ export default function SheffieldSection() {
           {/* Left: Content */}
           <div>
             <h2 className="text-2xl md:text-3xl font-medium mb-4">
-              Sheffield Çelik Kalitesi ile Üretilmiş Bıçaklar
+              Kalite Standartlarımız
             </h2>
             
             <p className="text-base text-steel-300 leading-relaxed mb-8">
@@ -93,7 +93,7 @@ export default function SheffieldSection() {
             </div>
 
             <Link
-              href="/sheffield-kalitesi"
+              href="/kalite-standartlarimiz"
               className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all hover:scale-105"
             >
               <span>Daha Fazla Bilgi</span>

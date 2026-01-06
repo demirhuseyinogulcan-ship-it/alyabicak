@@ -1,6 +1,6 @@
 /**
- * Sheffield Kalitesi Sayfası
- * Made in Sheffield markası ve kalite standartları hakkında bilgi
+ * Kalite Standartlarımız Sayfası
+ * Alya kalite standartları ve Sheffield çelik kalitesi hakkında bilgi
  */
 
 import { Metadata } from 'next'
@@ -11,10 +11,10 @@ import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
 import VideoBackground from '@/components/VideoBackground'
 
 export const metadata: Metadata = generateSeoMetadata({
-  title: 'Sheffield Kalitesi',
-  description: 'Made in Sheffield markası ve İngiltere Sheffield çelik kalitesi hakkında bilgi. Dünya genelinde tanınan kalite standardı.',
-  keywords: ['sheffield kalitesi', 'made in sheffield', 'sheffield çelik', 'ingiltere bıçak', 'kalite standardı'],
-  url: 'https://www.alyabicak.com/sheffield-kalitesi',
+  title: 'Kalite Standartlarımız',
+  description: 'Alya kalite standartları ve endüstriyel kesicilerde dünya çapında tanınan kalite güvencesi.',
+  keywords: ['kalite standartları', 'alya kalitesi', 'sheffield çelik', 'endüstriyel bıçak kalitesi'],
+  url: 'https://www.alyabicak.com/kalite-standartlarimiz',
 })
 
 const qualityPoints = [
@@ -40,7 +40,7 @@ const qualityPoints = [
   },
 ]
 
-export default function SheffieldKalitesiPage() {
+export default function KaliteStandartlariPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Video */}
@@ -65,11 +65,11 @@ export default function SheffieldKalitesiPage() {
             </div>
             
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-6 text-white">
-              Quality Recognised Worldwide
+              Kalite Standartlarımız
             </h1>
             <p className="text-lg md:text-xl text-steel-200 max-w-3xl mx-auto mb-8">
-              Made in Sheffield, dünya genelinde kalite ve güvenilirliğin simgesi olarak tanınan, 
-              İngiltere Sheffield şehrinin üretim mirasını temsil eden prestijli bir markadır.
+              Dünya genelinde tanınan kalite standartlarıyla, endüstriyel kesici çözümlerimizi 
+              dünya geneline sunuyoruz.
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center">

@@ -18,8 +18,8 @@ export const mainNavigation: NavItem[] = [
     hasMegaMenu: true,
   },
   {
-    title: 'Sheffield Kalitesi',
-    href: '/sheffield-kalitesi',
+    title: 'Kalite Standartlarımız',
+    href: '/kalite-standartlarimiz',
   },
   {
     title: 'Bülten',

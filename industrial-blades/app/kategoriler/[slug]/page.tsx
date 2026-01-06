@@ -115,29 +115,33 @@ export default async function CategoryPage({ params }: PageProps) {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-20 bg-primary-600 text-white">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">
-              Size Özel Çözümler
-            </h2>
-            <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              Standart ürünler dışında özel tasarım ve üretim hizmeti sunuyoruz.
-            </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link
-                href="/danismanlik"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-steel-50 transition-all"
-              >
-                <span>Danışmanlık Alın</span>
-                <ArrowRight className="w-5 h-5" />
-              </Link>
-              <Link
-                href="/iletisim"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-primary-700 hover:bg-primary-800 font-semibold rounded-lg transition-all"
-              >
-                <span>İletişime Geçin</span>
-              </Link>
+        {/* CTA Section - Minimal ve uyumlu */}
+        <section className="py-10 bg-primary-600 border-t border-primary-500">
+          <div className="container mx-auto px-4">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold text-white mb-1">
+                  Size Özel Çözümler
+                </h2>
+                <p className="text-primary-100 text-sm">
+                  Standart ürünler dışında özel tasarım ve üretim hizmeti sunuyoruz.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  href="/danismanlik"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-primary-600 text-sm font-medium rounded-lg hover:bg-steel-50 transition-all"
+                >
+                  Danışmanlık Alın
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  href="/iletisim"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary-700 text-white text-sm font-medium rounded-lg hover:bg-primary-800 transition-all"
+                >
+                  İletişime Geçin
+                </Link>
+              </div>
             </div>
           </div>
         </section>

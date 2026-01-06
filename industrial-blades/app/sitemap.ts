@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/hakkimizda',
     '/iletisim',
     '/danismanlik',
-    '/sheffield-kalitesi',
+    '/kalite-standartlarimiz',
     '/urunler',
     '/kategoriler',
   ].map((route) => ({

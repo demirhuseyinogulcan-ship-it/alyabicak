@@ -27,8 +27,7 @@ export default function Footer() {
               {siteConfig.company.legalName}
             </h3>
             <p className="text-steel-400 text-sm mb-3 leading-relaxed">
-              {siteConfig.company.yearsOfExperience} yılı aşkın süredir endüstriyel kesiciler tedarik ediyoruz. 
-              Sheffield kalitesinde profesyonel çözümler.
+              {siteConfig.company.yearsOfExperience} yılı aşkın süredir Sanayi Jiletleri ve Makine Bıçakları alanında endüstrinin lider firmalarına hizmet veriyoruz.
             </p>
             <a
               href={siteConfig.mainSiteUrl}

@@ -214,30 +214,34 @@ export default async function SubcategoryPage({ params }: PageProps) {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-16 bg-primary-600 text-white">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-2xl font-bold mb-4">
-              Aradığınızı bulamadınız mı?
-            </h2>
-            <p className="text-primary-100 mb-6 max-w-xl mx-auto">
-              Özel üretim ve tasarım hizmetlerimizle ihtiyacınıza özel çözümler sunuyoruz.
-            </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link
-                href="/danismanlik"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg hover:bg-steel-50 transition-all"
-              >
-                Danışmanlık Alın
-              </Link>
-              <a
-                href="https://wa.me/905551234567"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 font-semibold rounded-lg transition-all"
-              >
-                WhatsApp ile İletişim
-              </a>
+        {/* CTA Section - Minimal ve uyumlu */}
+        <section className="py-10 bg-primary-600 border-t border-primary-500">
+          <div className="container mx-auto px-4">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold text-white mb-1">
+                  Aradığınızı bulamadınız mı?
+                </h2>
+                <p className="text-primary-100 text-sm">
+                  Özel üretim ve tasarım hizmetlerimizle ihtiyacınıza özel çözümler sunuyoruz.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  href="/danismanlik"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-primary-600 text-sm font-medium rounded-lg hover:bg-steel-50 transition-all"
+                >
+                  Danışmanlık Alın
+                </Link>
+                <a
+                  href="https://wa.me/905551234567"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-green-500 text-white text-sm font-medium rounded-lg hover:bg-green-600 transition-all"
+                >
+                  WhatsApp ile İletişim
+                </a>
+              </div>
             </div>
           </div>
         </section>
