@@ -30,7 +30,7 @@ const valueProps = [
   },
   {
     icon: Wrench,
-    title: '28+ Yıl Sektör Deneyimi',
+    title: '30 Yıllık Sektör Deneyimi',
     description: 'Türkiye\'nin lider firmaları ile çalışıyoruz. Teknik danışmanlık ve satış sonrası destek.',
     highlight: 'Uzman Destek',
   },

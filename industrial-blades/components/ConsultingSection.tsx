@@ -90,7 +90,7 @@ export default function ConsultingSection() {
                 size="lg" 
                 icon={ArrowRight}
               >
-                Danışmanlık Alın
+                Ücretsiz Danışmanlık Alın
               </Button>
 
               <Button

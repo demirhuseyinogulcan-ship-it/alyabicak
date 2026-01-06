@@ -17,7 +17,7 @@ const certifications = [
 
 const stats = [
   { value: '35+', label: 'Ülkeye İhracat' },
-  { value: '28', label: 'Yıllık Deneyim' },
+  { value: '30', label: 'Yıllık Deneyim' },
   { value: '500+', label: 'Ürün Çeşidi' },
 ]
 

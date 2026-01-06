@@ -237,7 +237,7 @@ export default async function SubcategoryPage({ params }: PageProps) {
                   href="/danismanlik"
                   className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-primary-600 text-sm font-medium rounded-lg hover:bg-steel-50 transition-all"
                 >
-                  Danışmanlık Alın
+                  Ücretsiz Danışmanlık Alın
                 </Link>
                 <a
                   href="https://wa.me/905551234567"

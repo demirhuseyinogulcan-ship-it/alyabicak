@@ -114,7 +114,7 @@ export default function CategoriesPage() {
                 href="/danismanlik"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-all"
               >
-                Danışmanlık Alın
+                Ücretsiz Danışmanlık Alın
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

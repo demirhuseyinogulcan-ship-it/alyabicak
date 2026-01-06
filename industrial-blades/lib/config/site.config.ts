@@ -13,7 +13,7 @@ export const siteConfig = {
   // Site Bilgileri
   name: 'Alya Bıçak',
   tagline: 'Endüstriyel Kesici Bıçaklar | Sheffield Kalitesi',
-  description: 'Alya Bıçak - Endüstriyel kesici bıçaklar, makina bıçakları, sanayi jiletleri. Sheffield kalitesi ile üretilmiş profesyonel bıçaklar. 28+ yıllık tecrübe.',
+  description: 'Alya Bıçak - Endüstriyel kesici bıçaklar, makina bıçakları, sanayi jiletleri. Sheffield kalitesi ile üretilmiş profesyonel bıçaklar. 30 yıllık tecrübe.',
   
   // URL'ler
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.alyabicak.com',
@@ -56,8 +56,8 @@ export const siteConfig = {
   // Sosyal Medya
   social: {
     facebook: '',
-    instagram: '',
-    linkedin: '',
+    instagram: 'https://www.instagram.com/alya_tekstil_sanayi/',
+    linkedin: 'https://www.linkedin.com/company/alya-ltd./',
     twitter: '',
     youtube: '',
   },
@@ -87,7 +87,7 @@ export const siteConfig = {
   features: {
     enableWhatsApp: true,
     enableContactForm: true,
-    enableProductSearch: false, // TODO: Arama özelliği eklendiğinde true yap
+    enableProductSearch: true, // Aktif
     enableBlog: false, // TODO: Blog eklendiğinde true yap
     enableMultiLanguage: false, // TODO: Çoklu dil eklendiğinde true yap
     enableAnalytics: false, // TODO: Analytics eklendiğinde true yap

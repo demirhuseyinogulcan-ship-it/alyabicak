@@ -132,7 +132,7 @@ export default async function CategoryPage({ params }: PageProps) {
                   href="/danismanlik"
                   className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-primary-600 text-sm font-medium rounded-lg hover:bg-steel-50 transition-all"
                 >
-                  Danışmanlık Alın
+                  Ücretsiz Danışmanlık Alın
                   <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link

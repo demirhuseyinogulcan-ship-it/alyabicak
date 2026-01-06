@@ -6,7 +6,7 @@ import { getWhatsAppUrl } from '@/lib/config'
 
 export const metadata = generateMetadata({
   title: 'Hakkımızda',
-  description: 'Alya Bıçak - 28 yılı aşkın süredir endüstriyel kesiciler tedarik ediyoruz. Tekstil makinesi üretimi ve 35 ülkeye ihracat. Sheffield kalitesi ile profesyonel çözümler.',
+  description: 'Alya Bıçak - 30 yıldır endüstriyel kesiciler tedarik ediyoruz. Tekstil makinesi üretimi ve 35 ülkeye ihracat. Sheffield kalitesi ile profesyonel çözümler.',
   keywords: ['hakkımızda', 'alya tekstil', 'endüstriyel kesici', 'sheffield', 'ihracat', 'tekstil makinesi'],
   url: 'https://www.alyabicak.com/hakkimizda',
 })
@@ -17,7 +17,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <PageHeader
         title="Hakkımızda"
-        description="28 yılı aşkın deneyim, 35 ülkeye ihracat, dünya standartlarında kalite"
+        description="30 yıllık deneyim, 35 ülkeye ihracat, dünya standartlarında kalite"
         backgroundImage="/images/pages/hakkimizda-header.jpg"
       />
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge variant="primary" size="md" rounded="full" className="mb-6">
-                28+ Yıllık Deneyim
+                30 Yıllık Deneyim
               </Badge>
               
               <h2 className="text-2xl md:text-3xl font-semibold text-steel-900 mb-5">
@@ -36,7 +36,7 @@ export default function AboutPage() {
               
               <div className="space-y-4 text-steel-600 leading-relaxed">
                 <p>
-                  <strong className="text-steel-900">Alya</strong> olarak 28 yılı aşkın süredir 
+                  <strong className="text-steel-900">Alya</strong> olarak 30 yıldır 
                   endüstriyel kesiciler tedarik ediyoruz. Endüstrinin hemen hemen her sektörüne 
                   lider firmalarla işbirliğimizi sürdürüyoruz.
                 </p>
@@ -195,7 +195,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-steel-900 mb-2">Uzman Ekip</h3>
               <p className="text-steel-600">
-                28 yıllık tecrübeyle profesyonel danışmanlık ve destek
+                30 yıllık tecrübeyle profesyonel danışmanlık ve destek
               </p>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function AboutPage() {
                 Bizimle Çalışmak İster misiniz?
               </h2>
               <p className="text-steel-400 text-sm">
-                28 yıllık deneyimimizle size en uygun çözümü sunmaya hazırız.
+                30 yıllık deneyimimizle size en uygun çözümü sunmaya hazırız.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">

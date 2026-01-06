@@ -126,7 +126,7 @@ export default function HeroSlider() {
                       href={slide.ctaLink || '/kategoriler'}
                       className="group inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all shadow-elevated hover:shadow-floating"
                     >
-                      <span>{slide.ctaText || 'Detaylı Bilgi Al'}</span>
+                      <span>{slide.ctaText || 'Ücretsiz Danışmanlık Alın'}</span>
                       <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                     </Link>
 
