@@ -78,6 +78,7 @@ export default function SectionHeader({
 }
 
 // Page Header - Sayfa başlıkları için (Hero alanı)
+// STANDART: py-16, text-3xl md:text-4xl font-medium, text-base description
 export interface PageHeaderProps {
   title: string
   description?: string
@@ -97,7 +98,7 @@ export function PageHeader({
 }: PageHeaderProps) {
   return (
     <section 
-      className="relative text-white py-20 overflow-hidden"
+      className="relative text-white py-16 overflow-hidden"
       style={backgroundImage ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : undefined}
     >
       {/* Background gradient if no image */}
@@ -118,18 +119,18 @@ export function PageHeader({
         )}
         
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-semibold mb-5">
+          <h1 className="text-3xl md:text-4xl font-medium mb-3">
             {title}
           </h1>
           
           {description && (
-            <p className="text-xl text-white/90">
+            <p className="text-base text-steel-300 leading-relaxed">
               {description}
             </p>
           )}
           
           {children && (
-            <div className="mt-8">
+            <div className="mt-6">
               {children}
             </div>
           )}

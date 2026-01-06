@@ -69,7 +69,7 @@ export default function Header() {
   const handleMenuClose = useCallback(() => {
     const timer = setTimeout(() => {
       setIsMegaMenuOpen(false)
-    }, 150)
+    }, 100) // ⚡ Reduced from 150ms for snappier feel
     setCloseTimer(timer)
   }, [])
 
@@ -85,7 +85,8 @@ export default function Header() {
   return (
     <header 
       className={`
-        fixed top-0 left-0 right-0 z-50 transition-all duration-300
+        fixed top-0 left-0 right-0 z-50 
+        transition-[background-color,box-shadow,padding] duration-200 ease-out
         ${isScrolled 
           ? 'bg-white shadow-lg py-2' 
           : 'bg-white/95 backdrop-blur-sm py-4'

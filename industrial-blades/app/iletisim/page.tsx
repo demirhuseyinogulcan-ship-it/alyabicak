@@ -17,13 +17,13 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-steel-900 to-steel-800 text-white py-20">
+      <section className="bg-gradient-to-br from-steel-900 to-steel-800 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-3xl md:text-4xl font-medium mb-3">
               İletişime Geçin
             </h1>
-            <p className="text-xl text-steel-200">
+            <p className="text-base text-steel-300 leading-relaxed">
               Endüstriyel kesici bıçaklar hakkında sorularınız mı var? 
               Size yardımcı olmaktan mutluluk duyarız.
             </p>

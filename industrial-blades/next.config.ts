@@ -15,6 +15,12 @@ const nextConfig: NextConfig = {
   // Performans optimizasyonları
   reactStrictMode: true,
   
+  // ⚡ Experimental: PPR (Partial Prerendering) ve diğer optimizasyonlar
+  experimental: {
+    // Optimize package imports - tree shaking için
+    optimizePackageImports: ['lucide-react', 'framer-motion'],
+  },
+  
   // Trailing slash (SEO için tutarlılık)
   trailingSlash: false,
   

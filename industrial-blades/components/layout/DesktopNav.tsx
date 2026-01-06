@@ -36,8 +36,9 @@ export default function DesktopNav({
         >
           <Link
             href={item.href}
+            prefetch={true}
             className={`
-              flex items-center gap-1 px-4 py-2 font-medium transition-colors rounded-lg
+              flex items-center gap-1 px-4 py-2 font-medium transition-colors duration-150 rounded-lg
               ${item.hasMegaMenu && isMegaMenuOpen
                 ? 'text-primary-600 bg-primary-50'
                 : pathname === item.href 

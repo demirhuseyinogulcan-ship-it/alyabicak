@@ -47,8 +47,8 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Sheffield, İngiltere&apos;nin kalp merkezinde 1910&apos;dan bu yana dünya 
-                  standartlarında endüstriyel bıçak üretimi yapan <strong className="text-steel-900">Durham 
-                  Duplex&apos;in yetkili distribütörüyüz</strong>.
+                  standartlarında endüstriyel bıçak üretimi yapan Durham 
+                  Duplex&apos;in yetkili distribütörüyüz.
                 </p>
               </div>
 
@@ -81,25 +81,66 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-primary-600 text-white">
+      {/* Credentials Bar - Müşteri Odaklı Değerler */}
+      <section className="py-10 bg-steel-900 text-white">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">28+</div>
-              <div className="text-primary-100">Yıllık Deneyim</div>
+          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-12 text-sm">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+                <span className="text-lg font-bold">96</span>
+              </div>
+              <div>
+                <div className="font-medium">Kuruluş</div>
+                <div className="text-steel-400 text-xs">1996, İstanbul</div>
+              </div>
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">35</div>
-              <div className="text-primary-100">Ülkeye İhracat</div>
+            
+            <div className="hidden md:block w-px h-10 bg-white/20" />
+            
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+                <Globe className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="font-medium">35 Ülke</div>
+                <div className="text-steel-400 text-xs">İhracat</div>
+              </div>
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">500+</div>
-              <div className="text-primary-100">Ürün Çeşidi</div>
+            
+            <div className="hidden md:block w-px h-10 bg-white/20" />
+            
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+                <Truck className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="font-medium">Aynı Gün</div>
+                <div className="text-steel-400 text-xs">Kargo</div>
+              </div>
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">5000+</div>
-              <div className="text-primary-100">Mutlu Müşteri</div>
+            
+            <div className="hidden md:block w-px h-10 bg-white/20" />
+            
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+                <Users className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="font-medium">5000+</div>
+                <div className="text-steel-400 text-xs">Müşteri</div>
+              </div>
+            </div>
+            
+            <div className="hidden md:block w-px h-10 bg-white/20" />
+            
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+                <Factory className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="font-medium">500+</div>
+                <div className="text-steel-400 text-xs">Ürün</div>
+              </div>
             </div>
           </div>
         </div>
