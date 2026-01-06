@@ -232,16 +232,16 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     
     images: {
       main: {
-        src: '/images/3-delikli titanyum kaplamalı jilet.jpg',
+        src: '/images/products/3-delikli-jilet.jpg',
         alt: '3 Delikli Dilme Jileti - Titanyum Kaplamalı',
         width: 800,
         height: 800,
       },
       gallery: [
-        { src: '/images/3-delikli titanyum kaplamalı jilet.jpg', alt: 'Detay görünüm', width: 800, height: 800 },
+        { src: '/images/products/3-delikli-jilet.jpg', alt: 'Detay görünüm', width: 800, height: 800 },
       ],
       thumbnail: {
-        src: '/images/3-delikli titanyum kaplamalı jilet.jpg',
+        src: '/images/products/3-delikli-jilet.jpg',
         alt: '3 Delikli Dilme Jileti',
         width: 400,
         height: 400,
