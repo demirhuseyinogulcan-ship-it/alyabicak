@@ -3,6 +3,7 @@ import { categoryService, productService } from '@/lib/services'
 import { getAllCategories, getAllSubcategories } from '@/lib/data/categories'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, Package, Filter } from 'lucide-react'
 
 interface PageProps {
@@ -127,14 +128,19 @@ export default async function SubcategoryPage({ params }: PageProps) {
                     href={`/urunler/${product.slug}`}
                     className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-1"
                   >
-                    {/* Image Placeholder */}
-                    <div className="relative h-48 bg-gradient-to-br from-steel-100 to-steel-200">
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <Package className="w-16 h-16 text-steel-300 group-hover:text-primary-500 transition-colors" />
-                      </div>
-                      {product.isFeatured && (
-                        <div className="absolute top-3 left-3 px-2 py-1 bg-yellow-500 text-white text-xs font-semibold rounded">
-                          Öne Çıkan
+                    {/* Image - 16:9 aspect ratio, Lutz tarzı */}
+                    <div className="relative aspect-video bg-white overflow-hidden">
+                      {product.image ? (
+                        <Image
+                          src={product.image}
+                          alt={product.name}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 300px"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-steel-50 to-steel-100">
+                          <Package className="w-12 h-12 text-steel-300 group-hover:text-primary-400 transition-colors" />
                         </div>
                       )}
                       {!product.inStock && (

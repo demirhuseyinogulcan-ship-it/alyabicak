@@ -217,12 +217,6 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                       <span className="text-xs px-2 py-0.5 bg-primary-100 text-primary-700 rounded-full font-medium">
                         {product.categoryName}
                       </span>
-                      {product.isFeatured && (
-                        <span className="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full font-medium flex items-center gap-1">
-                          <Sparkles className="w-3 h-3" />
-                          Öne Çıkan
-                        </span>
-                      )}
                     </div>
                     <h4 className="font-semibold text-steel-900 truncate">
                       {product.name}

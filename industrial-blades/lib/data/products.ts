@@ -107,7 +107,7 @@ const MANUAL_PRODUCTS: Product[] = [
     description: '3 delikli titanyum kaplamalı dilme jileti, 0.20mm kalınlık. Endüstriyel dilme makineleri için yüksek performanslı kesim.',
     categoryId: 'sanayi-jiletleri',
     subcategoryId: '3-delikli-dilme',
-    image: '/images/3-delikli titanyum kaplamalı jilet.jpg',
+    image: '/images/products/3-delikli-jilet.jpg',
     variants: [
       {
         id: '3dj-020-standard',

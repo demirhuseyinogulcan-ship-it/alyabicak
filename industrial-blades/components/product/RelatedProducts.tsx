@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { Package } from 'lucide-react';
 import type { ProductCardData } from '@/lib/types/product.types';
 
 interface RelatedProductsProps {
@@ -35,19 +36,25 @@ export function RelatedProducts({
               href={`/urunler/${product.slug}`}
               className="group bg-white rounded-lg border border-steel-100 overflow-hidden hover:border-steel-200 hover:shadow-sm transition-all"
             >
-              {/* Görsel */}
-              <div className="relative aspect-square bg-steel-50">
-                <Image
-                  src={product.thumbnail || '/images/products/placeholder-thumb.jpg'}
-                  alt={product.name}
-                  fill
-                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
-                  sizes="(max-width: 768px) 50vw, 25vw"
-                />
+              {/* Görsel - 16:9 aspect ratio, Lutz tarzı */}
+              <div className="relative aspect-video bg-white overflow-hidden">
+                {product.thumbnail ? (
+                  <Image
+                    src={product.thumbnail}
+                    alt={product.name}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 768px) 50vw, 25vw"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-steel-50 to-steel-100">
+                    <Package className="w-10 h-10 text-steel-300 group-hover:text-primary-400 transition-colors" />
+                  </div>
+                )}
                 
                 {/* Yeni Badge */}
                 {product.isNew && (
-                  <span className="absolute top-2 left-2 px-2 py-0.5 bg-primary-600 text-white text-xs font-medium rounded">
+                  <span className="absolute top-2 left-2 px-2 py-0.5 bg-primary-600 text-white text-xs font-medium rounded z-10">
                     Yeni
                   </span>
                 )}
