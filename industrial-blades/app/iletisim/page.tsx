@@ -3,6 +3,7 @@ import ContactForm from '@/components/ContactForm'
 import { MapPin, Phone, Mail, Clock, Printer, ExternalLink } from 'lucide-react'
 import { siteConfig, getWhatsAppUrl, getPhoneUrl, getEmailUrl, getGoogleMapsUrl } from '@/lib/config'
 import { WhatsAppIcon } from '@/components/icons'
+import { PageHeader } from '@/components/ui'
 
 export const metadata = generateMetadata({
   title: 'İletişim',
@@ -17,19 +18,11 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-steel-900 to-steel-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-3xl md:text-4xl font-medium mb-3">
-              İletişime Geçin
-            </h1>
-            <p className="text-base text-steel-300 leading-relaxed">
-              Endüstriyel kesici bıçaklar hakkında sorularınız mı var? 
-              Size yardımcı olmaktan mutluluk duyarız.
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHeader
+        title="İletişime Geçin"
+        description="Sorularınız için bize ulaşın, size yardımcı olmaktan mutluluk duyarız."
+        backgroundImage="/images/pages/iletisim.jpg"
+      />
 
       {/* Contact Section */}
       <section className="py-20 bg-steel-50">

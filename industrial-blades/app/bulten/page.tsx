@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Calendar, Clock, ArrowRight } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
 import { BLOG_CATEGORIES } from '@/lib/types/blog'
+import { PageHeader } from '@/components/ui'
 
 export const metadata = genMeta({
   title: 'Bülten',
@@ -19,19 +20,11 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-steel-50">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-steel-900 to-steel-800 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-3xl md:text-4xl font-medium mb-3">
-              Bülten
-            </h1>
-            <p className="text-base text-steel-300 leading-relaxed">
-              Endüstriyel kesiciler hakkında güncel haberler, 
-              rehberler ve teknik yazılar
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHeader
+        title="Bülten"
+        description="Endüstriyel kesiciler hakkında güncel haberler, rehberler ve teknik yazılar"
+        backgroundImage="/images/pages/bulten.jpg"
+      />
 
       {/* Categories */}
       <section className="py-8 bg-white border-b border-steel-200">
