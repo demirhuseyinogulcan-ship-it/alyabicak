@@ -147,47 +147,44 @@ export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps)
                         )}
                       </div>
 
-                      {/* Alt Kategori Kartları */}
-                      <div className="grid grid-cols-3 gap-3">
-                        {activeCategoryData.subcategories.map((subcategory) => (
-                          <Link
-                            key={subcategory.id}
-                            href={`/kategoriler/${activeCategoryData.slug}/${subcategory.slug}`}
-                            onClick={onClose}
-                            className="group relative overflow-hidden rounded-lg border border-steel-200 hover:border-primary-300 hover:shadow-md transition-all duration-300 min-h-[100px]"
-                          >
-                            {/* Arka plan görseli */}
-                            {subcategory.image && (
-                              <div className="absolute inset-0 z-0">
-                                <Image
-                                  src={subcategory.image}
-                                  alt={subcategory.name}
-                                  fill
-                                  className="object-cover opacity-20 group-hover:opacity-30 group-hover:scale-105 transition-all duration-500"
-                                  sizes="(max-width: 768px) 100vw, 25vw"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-white/90 to-white/80" />
-                              </div>
-                            )}
+                      {/* Alt Kategori Kartları - Scroll ile */}
+                      <div className="max-h-[400px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-steel-300 scrollbar-track-steel-100">
+                        <div className="grid grid-cols-4 gap-2">
+                          {activeCategoryData.subcategories.map((subcategory) => (
+                            <Link
+                              key={subcategory.id}
+                              href={`/kategoriler/${activeCategoryData.slug}/${subcategory.slug}`}
+                              onClick={onClose}
+                              className="group relative overflow-hidden rounded-lg border border-steel-200 hover:border-primary-300 hover:shadow-md transition-all duration-300"
+                            >
+                              {/* Arka plan görseli */}
+                              {subcategory.image && (
+                                <div className="absolute inset-0 z-0">
+                                  <Image
+                                    src={subcategory.image}
+                                    alt={subcategory.name}
+                                    fill
+                                    className="object-cover opacity-20 group-hover:opacity-30 group-hover:scale-105 transition-all duration-500"
+                                    sizes="(max-width: 768px) 100vw, 20vw"
+                                  />
+                                  <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-white/90 to-white/80" />
+                                </div>
+                              )}
 
-                            {/* İçerik */}
-                            <div className="relative z-10 p-3 h-full flex flex-col justify-between">
-                              <div>
-                                <h4 className="font-medium text-sm text-steel-900 group-hover:text-primary-600 transition-colors">
-                                  {subcategory.name}
-                                </h4>
-                                {subcategory.description && (
-                                  <p className="text-xs text-steel-500 line-clamp-2 mt-1">
-                                    {subcategory.description}
-                                  </p>
-                                )}
+                              {/* İçerik - Daha kompakt */}
+                              <div className="relative z-10 p-2.5 h-full flex flex-col justify-between min-h-[70px]">
+                                <div>
+                                  <h4 className="font-medium text-xs text-steel-900 group-hover:text-primary-600 transition-colors line-clamp-2">
+                                    {subcategory.name}
+                                  </h4>
+                                </div>
+                                <div className="mt-1 text-[10px] font-medium text-primary-600">
+                                  {subcategory.productCount} ürün
+                                </div>
                               </div>
-                              <div className="mt-2 text-xs font-medium text-primary-600">
-                                {subcategory.productCount} ürün
-                              </div>
-                            </div>
-                          </Link>
-                        ))}
+                            </Link>
+                          ))}
+                        </div>
                       </div>
 
                       {/* Tümünü Gör */}
