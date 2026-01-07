@@ -1,6 +1,6 @@
 /**
  * Mobile Menu Component
- * Mobil navigasyon menüsü
+ * Mobil navigasyon menüsü - i18n destekli
  */
 
 'use client'
@@ -18,6 +18,8 @@ export interface MobileMenuProps {
   items: NavItem[]
   categories: CategoryView[]
   onClose: () => void
+  locale?: string
+  dictionary?: any
 }
 
 export default function MobileMenu({ 
@@ -25,12 +27,14 @@ export default function MobileMenu({
   items, 
   categories,
   onClose,
+  locale = 'tr',
+  dictionary,
 }: MobileMenuProps) {
   const pathname = usePathname()
 
   // Anasayfada kategoriler bölümüne scroll
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, item: NavItem) => {
-    if (item.hasMegaMenu && pathname === '/') {
+    if (item.hasMegaMenu && (pathname === `/${locale}` || pathname === '/')) {
       e.preventDefault()
       const kategorilerSection = document.getElementById('kategoriler')
       if (kategorilerSection) {
@@ -67,7 +71,7 @@ export default function MobileMenu({
                 {categories.map((category) => (
                   <Link
                     key={category.id}
-                    href={`/kategoriler/${category.slug}`}
+                    href={`/${locale}/kategoriler/${category.slug}`}
                     className="block px-4 py-2 text-sm text-steel-600 hover:text-primary-600 hover:bg-steel-50 rounded-lg"
                     onClick={onClose}
                   >
@@ -78,11 +82,11 @@ export default function MobileMenu({
                   </Link>
                 ))}
                 <Link
-                  href="/kategoriler"
+                  href={`/${locale}/kategoriler`}
                   className="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-primary-50 rounded-lg"
                   onClick={onClose}
                 >
-                  Tüm Kategorileri Gör →
+                  {dictionary?.nav?.viewAllCategories || (locale === 'tr' ? 'Tüm Kategorileri Gör →' : 'View All Categories →')}
                 </Link>
               </div>
             )}
@@ -101,11 +105,11 @@ export default function MobileMenu({
         </a>
         
         <Button
-          href={getWhatsAppUrl()}
+          href={getWhatsAppUrl(dictionary?.whatsapp?.defaultMessage || (locale === 'tr' ? 'Merhaba' : 'Hello'))}
           variant="whatsapp"
           fullWidth
         >
-          WhatsApp ile İletişim
+          {dictionary?.nav?.whatsappContact || (locale === 'tr' ? 'WhatsApp ile İletişim' : 'Contact via WhatsApp')}
         </Button>
       </div>
     </div>

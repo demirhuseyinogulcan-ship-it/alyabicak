@@ -8,38 +8,41 @@
 import { TrendingUp, Clock, Shield, Wrench, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import VideoBackground from './VideoBackground'
-
-const valueProps = [
-  {
-    icon: TrendingUp,
-    title: 'Daha Az Makine Duruşu',
-    description: 'Kaliteli çelik = uzun bıçak ömrü = daha az değişim. Üretim hattınız kesintisiz çalışır.',
-    highlight: 'Verimlilik',
-  },
-  {
-    icon: Clock,
-    title: 'Uzun Bıçak Ömrü',
-    description: 'Yüksek kalite hammadde ve hassas üretim prosesi ile standart bıçaklardan çok daha uzun ömür.',
-    highlight: 'Dayanıklılık',
-  },
-  {
-    icon: Shield,
-    title: 'FDA & USDA Uyumlu',
-    description: 'Gıda, ilaç ve hijyen gerektiren tüm sektörlerde güvenle kullanım. Uluslararası sertifikalar.',
-    highlight: 'Gıda Güvenliği',
-  },
-  {
-    icon: Wrench,
-    title: '30 Yıllık Sektör Deneyimi',
-    description: 'Türkiye\'nin lider firmaları ile çalışıyoruz. Teknik danışmanlık ve satış sonrası destek.',
-    highlight: 'Uzman Destek',
-  },
-]
+import { useLocale } from '@/lib/i18n/client'
 
 // Video arka plan kullanmak için bu değeri true yapın, kapatmak için false
 const USE_VIDEO_BACKGROUND = true
 
 export default function ValueProposition() {
+  const { locale, dictionary: dict } = useLocale();
+  const t = dict.valueProposition;
+  
+  const valueProps = [
+    {
+      icon: TrendingUp,
+      title: t.props.lessDowntime,
+      description: t.props.lessDowntimeDesc,
+      highlight: t.props.lessDowntimeHighlight,
+    },
+    {
+      icon: Clock,
+      title: t.props.longLife,
+      description: t.props.longLifeDesc,
+      highlight: t.props.longLifeHighlight,
+    },
+    {
+      icon: Shield,
+      title: t.props.fdaCompliant,
+      description: t.props.fdaCompliantDesc,
+      highlight: t.props.fdaCompliantHighlight,
+    },
+    {
+      icon: Wrench,
+      title: t.props.experience,
+      description: t.props.experienceDesc,
+      highlight: t.props.experienceHighlight,
+    },
+  ]
   return (
     <section className="py-20 lg:py-24 relative overflow-hidden">
       {/* Video Background - Progressive Loading */}
@@ -68,15 +71,14 @@ export default function ValueProposition() {
         {/* Header */}
         <div className="text-center mb-16">
           <span className={`inline-block px-4 py-2 text-sm font-semibold rounded-full mb-4 ${USE_VIDEO_BACKGROUND ? 'bg-white/20 text-white' : 'bg-primary-100 text-primary-700'}`}>
-            Neden Alya Bıçak?
+            {t.badge}
           </span>
           <h2 className={`text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 ${USE_VIDEO_BACKGROUND ? 'text-white' : 'text-steel-900'}`}>
-            Kaliteli Hammadde, <br className="hidden md:block" />
-            <span className={USE_VIDEO_BACKGROUND ? 'text-primary-400' : 'text-primary-600'}>Uzun Vadede Tasarruf</span>
+            {t.title} <br className="hidden md:block" />
+            <span className={USE_VIDEO_BACKGROUND ? 'text-primary-400' : 'text-primary-600'}>{t.titleHighlight}</span>
           </h2>
           <p className={`text-lg max-w-3xl mx-auto ${USE_VIDEO_BACKGROUND ? 'text-white/90' : 'text-steel-600'}`}>
-            Hammadde ve proses kalitesinde en yüksek seviyedeki çeliklerden üretilen endüstriyel kesiciler,<br className="hidden md:block" />
-            makine duruşlarını azaltır ve üretim verimliliğinizi artırır.
+            {t.description}
           </p>
         </div>
 
@@ -113,10 +115,10 @@ export default function ValueProposition() {
         {/* Simple CTA */}
         <div className="text-center mt-12">
           <Link
-            href="/danismanlik"
+            href={`/${locale}/danismanlik`}
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all hover:scale-105"
           >
-            Ücretsiz Danışmanlık Alın
+            {dict.consulting.cta}
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>

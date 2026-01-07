@@ -13,6 +13,7 @@ import {
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductBenefit } from '@/lib/types/product.types';
+import { useLocale } from '@/lib/i18n/client';
 
 // Icon mapping
 const iconMap: Record<string, LucideIcon> = {
@@ -27,42 +28,45 @@ const iconMap: Record<string, LucideIcon> = {
   Gauge,
 };
 
-// Default benefits (eğer ürün için özel tanımlanmadıysa)
-const DEFAULT_BENEFITS: ProductBenefit[] = [
-  {
-    title: 'Uzun Ömür',
-    description: 'Daha az bıçak değişimi, daha düşük toplam maliyet',
-    icon: 'Clock',
-  },
-  {
-    title: 'Üretim Sürekliliği',
-    description: 'Makine duruş sürelerini minimize eder',
-    icon: 'TrendingUp',
-  },
-  {
-    title: 'Teknik Destek',
-    description: 'Türkiye\'de yetkili distribütör garantisi',
-    icon: 'Wrench',
-  },
-];
-
 interface WhyThisProductProps {
   benefits?: ProductBenefit[];
   title?: string;
 }
 
 export function WhyThisProduct({ 
-  benefits = DEFAULT_BENEFITS, 
-  title = 'Neden Bu Ürün?' 
+  benefits, 
+  title 
 }: WhyThisProductProps) {
-  const displayBenefits = benefits.length > 0 ? benefits : DEFAULT_BENEFITS;
+  const { dictionary: t } = useLocale();
+  
+  // Default benefits - çeviri destekli
+  const defaultBenefits: ProductBenefit[] = [
+    {
+      title: t.productDetail.benefits.longLife,
+      description: t.productDetail.benefits.longLifeDesc,
+      icon: 'Clock',
+    },
+    {
+      title: t.productDetail.benefits.continuity,
+      description: t.productDetail.benefits.continuityDesc,
+      icon: 'TrendingUp',
+    },
+    {
+      title: t.productDetail.benefits.support,
+      description: t.productDetail.benefits.supportDesc,
+      icon: 'Wrench',
+    },
+  ];
+  
+  const displayTitle = title || t.productDetail.whyThisProduct;
+  const displayBenefits = benefits && benefits.length > 0 ? benefits : defaultBenefits;
 
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <h2 className="text-xl font-semibold text-steel-900 mb-8">
-          {title}
+          {displayTitle}
         </h2>
         
         {/* Benefit Cards */}

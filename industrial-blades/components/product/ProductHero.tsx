@@ -5,20 +5,24 @@ import Image from 'next/image';
 import { MessageCircle, FileText, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { ProductExtended } from '@/lib/types/product.types';
 import { siteConfig, getWhatsAppUrl } from '@/lib/config/site.config';
+import { useLocale } from '@/lib/i18n/client';
 
 interface ProductHeroProps {
   product: ProductExtended;
 }
 
 export function ProductHero({ product }: ProductHeroProps) {
+  const { locale, dictionary: t } = useLocale();
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   
   // Tüm görselleri birleştir (ana görsel + galeri)
   const allImages = [product.images.main, ...product.images.gallery];
   const activeImage = allImages[activeImageIndex] || product.images.main;
   
-  // WhatsApp mesajı
-  const whatsappMessage = `Merhaba, ${product.code} - ${product.name} ürünü hakkında bilgi almak istiyorum.`;
+  // WhatsApp mesajı - çeviri destekli
+  const whatsappMessage = t.productDetail.whatsappMessage
+    .replace('{{code}}', product.code)
+    .replace('{{name}}', product.name);
   const whatsappUrl = getWhatsAppUrl(whatsappMessage);
   
   // Orijin badge metni
@@ -52,7 +56,7 @@ export function ProductHero({ product }: ProductHeroProps) {
                       prev === 0 ? allImages.length - 1 : prev - 1
                     )}
                     className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity"
-                    aria-label="Önceki görsel"
+                    aria-label={t.productDetail.prevImage}
                   >
                     <ChevronLeft className="w-5 h-5 text-steel-700" />
                   </button>
@@ -61,7 +65,7 @@ export function ProductHero({ product }: ProductHeroProps) {
                       prev === allImages.length - 1 ? 0 : prev + 1
                     )}
                     className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity"
-                    aria-label="Sonraki görsel"
+                    aria-label={t.productDetail.nextImage}
                   >
                     <ChevronRight className="w-5 h-5 text-steel-700" />
                   </button>
@@ -71,7 +75,7 @@ export function ProductHero({ product }: ProductHeroProps) {
               {/* Yeni Ürün Badge */}
               {product.isNew && (
                 <span className="absolute top-4 left-4 px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded">
-                  Yeni
+                  {t.productDetail.new}
                 </span>
               )}
             </div>
@@ -167,11 +171,11 @@ export function ProductHero({ product }: ProductHeroProps) {
             {/* CTA Butonları */}
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a
-                href={`mailto:${siteConfig.contact.email}?subject=Teklif Talebi: ${product.code} - ${product.name}&body=Merhaba,%0A%0A${product.code} - ${product.name} ürünü için teklif almak istiyorum.%0A%0ASaygılarımla`}
+                href={`mailto:${siteConfig.contact.email}?subject=${encodeURIComponent(t.productDetail.emailSubject.replace('{{code}}', product.code).replace('{{name}}', product.name))}&body=${encodeURIComponent(t.productDetail.emailBody.replace(/{{code}}/g, product.code).replace(/{{name}}/g, product.name))}`}
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-steel-900 text-white font-medium rounded-lg hover:bg-steel-800 transition-colors"
               >
                 <FileText className="w-5 h-5" />
-                Teklif İste
+                {t.productDetail.requestQuote}
               </a>
               <a
                 href={whatsappUrl}
@@ -180,13 +184,13 @@ export function ProductHero({ product }: ProductHeroProps) {
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors"
               >
                 <MessageCircle className="w-5 h-5" />
-                WhatsApp ile Yazın
+                {t.productDetail.whatsappChat}
               </a>
             </div>
             
             {/* Alt Bilgi */}
             <p className="mt-4 text-sm text-steel-500">
-              Toplu sipariş veya teknik danışmanlık için bizimle iletişime geçin.
+              {t.productDetail.bulkOrderInfo}
             </p>
             
             {/* Stok Durumu */}
@@ -195,7 +199,7 @@ export function ProductHero({ product }: ProductHeroProps) {
                 <div className="flex items-center gap-2">
                   <span className={`w-2 h-2 rounded-full ${product.inStock ? 'bg-green-500' : 'bg-red-500'}`} />
                   <span className="text-sm text-steel-600">
-                    {product.inStock ? 'Stokta mevcut' : 'Stok sorunuz'}
+                    {product.inStock ? t.productDetail.inStock : t.productDetail.askStock}
                   </span>
                 </div>
               </div>

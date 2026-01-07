@@ -5,9 +5,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Eye, Star, ArrowRight, ChevronLeft, ChevronRight, Package } from 'lucide-react'
 import { productService } from '@/lib/services'
+import { useLocale } from '@/lib/i18n/client'
 
 export default function BestSellers() {
-  const featuredProducts = productService.getFeaturedCards()
+  const { locale, dictionary: dict } = useLocale()
+  const t = dict.bestSellers
+  
+  // Ürünleri locale ile al (artık çevrilmiş olarak gelir)
+  const featuredProducts = productService.getFeaturedCards(locale)
   const sliderRef = useRef<HTMLDivElement>(null)
   
   const scroll = (direction: 'left' | 'right') => {
@@ -20,7 +25,7 @@ export default function BestSellers() {
   // Eğer öne çıkan ürün yoksa, tüm ürünlerden ilk 6'sını göster
   const displayProducts = featuredProducts.length > 0 
     ? featuredProducts 
-    : productService.getAll().slice(0, 6).map(p => productService.toCardView(p))
+    : productService.getAll(locale).slice(0, 6).map(p => productService.toCardView(p, locale))
 
   return (
     <section className="py-20 lg:py-24 bg-steel-50">
@@ -28,10 +33,10 @@ export default function BestSellers() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-2">
-            Öne Çıkan Ürünler
+            {t.title}
           </h2>
           <p className="text-steel-600 max-w-2xl mx-auto">
-            Müşterilerimizin favorileri, profesyonellerin tercihi
+            {t.subtitle}
           </p>
         </div>
 
@@ -41,7 +46,7 @@ export default function BestSellers() {
           <button
             onClick={() => scroll('left')}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-steel-50 transition-colors"
-            aria-label="Önceki"
+            aria-label={dict.common.previous}
           >
             <ChevronLeft className="w-6 h-6 text-steel-700" />
           </button>
@@ -49,7 +54,7 @@ export default function BestSellers() {
           <button
             onClick={() => scroll('right')}
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-steel-50 transition-colors"
-            aria-label="Sonraki"
+            aria-label={dict.common.next}
           >
             <ChevronRight className="w-6 h-6 text-steel-700" />
           </button>
@@ -85,11 +90,11 @@ export default function BestSellers() {
                     {/* Quick View */}
                     <div className="absolute inset-0 bg-steel-900/0 group-hover:bg-steel-900/40 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100 z-10">
                       <Link
-                        href={`/urunler/${product.slug}`}
+                        href={`/${locale}/urunler/${product.slug}`}
                         className="px-6 py-3 bg-white hover:bg-primary-600 hover:text-white text-steel-900 rounded-lg font-semibold transition-all flex items-center gap-2"
                       >
                         <Eye className="w-5 h-5" />
-                        Ürünü İncele
+                        {t.viewProduct}
                       </Link>
                     </div>
                   </div>
@@ -106,8 +111,8 @@ export default function BestSellers() {
                       {product.code}
                     </div>
 
-                    {/* Title - Font ağırlığı azaltıldı */}
-                    <Link href={`/urunler/${product.slug}`}>
+                    {/* Title */}
+                    <Link href={`/${locale}/urunler/${product.slug}`}>
                       <h3 className="text-base font-semibold text-steel-900 mb-3 line-clamp-2 group-hover:text-primary-600 transition-colors">
                         {product.name}
                       </h3>
@@ -116,7 +121,7 @@ export default function BestSellers() {
                     {/* Variants */}
                     {product.hasVariants && (
                       <div className="flex items-center gap-2 mb-4 text-sm text-steel-600">
-                        <span>{product.variantCount} farklı seçenek</span>
+                        <span>{product.variantCount} {t.variantOptions}</span>
                       </div>
                     )}
 
@@ -124,16 +129,16 @@ export default function BestSellers() {
                     <div className="flex items-center gap-2 mb-4">
                       <span className={`w-2 h-2 rounded-full ${product.inStock ? 'bg-green-500' : 'bg-red-500'}`}></span>
                       <span className={`text-sm ${product.inStock ? 'text-green-600' : 'text-red-600'}`}>
-                        {product.inStock ? 'Stokta Var' : 'Stokta Yok'}
+                        {product.inStock ? t.inStock : t.outOfStock}
                       </span>
                     </div>
 
                     {/* CTA Button */}
                     <Link
-                      href={`/urunler/${product.slug}`}
+                      href={`/${locale}/urunler/${product.slug}`}
                       className="w-full px-4 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
                     >
-                      Detayları Gör
+                      {t.viewDetails}
                       <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>
@@ -146,10 +151,10 @@ export default function BestSellers() {
         {/* View All Link */}
         <div className="text-center mt-12">
           <Link
-            href="/kategoriler"
+            href={`/${locale}/kategoriler`}
             className="inline-flex items-center gap-2 px-8 py-4 bg-steel-900 hover:bg-primary-600 text-white font-semibold rounded-lg transition-all hover:scale-105"
           >
-            Tüm Ürün Kategorilerini Görüntüle
+            {t.viewAllCategories}
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>

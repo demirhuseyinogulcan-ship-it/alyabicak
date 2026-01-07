@@ -5,11 +5,17 @@
  * Bu dosya iki veri kaynağını birleştirir:
  * 1. PRODUCTS_EXTENDED - Manuel olarak zenginleştirilmiş ürünler
  * 2. products.ts - Temel ürün verileri (fallback olarak kullanılır)
+ * 
+ * i18n: Tüm fonksiyonlar locale parametresi alarak çevrilmiş veri döner.
  */
 
 import type { ProductExtended, ProductCardData } from '../types/product.types';
 import { getProductBySlug as getBaseProductBySlug, getAllProducts } from './products';
 import { getCategoryById, getSubcategoryById } from './categories';
+import { getProductTranslation, getCategoryTranslation } from '../i18n/translations';
+
+// Default locale
+const DEFAULT_LOCALE = 'tr';
 
 // =============================================================================
 // ÖRNEK ÜRÜNLER (Placeholder görsellerle)
@@ -421,61 +427,98 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
   };
 }
 
+/**
+ * Ürünü locale'e göre çevir
+ */
+function translateProductExtended(product: ProductExtended, locale: string): ProductExtended {
+  if (locale === 'tr') return product; // Türkçe master data, çevirmeye gerek yok
+  
+  const translation = getProductTranslation(product.id, locale);
+  if (translation) {
+    return {
+      ...product,
+      name: translation.name,
+      shortDescription: translation.description || product.shortDescription,
+      features: translation.features || product.features,
+      applications: translation.applications 
+        ? translation.applications.map(app => ({ title: app, description: '' }))
+        : product.applications,
+      // Alt text'i de güncelle (image SEO için)
+      images: {
+        ...product.images,
+        main: {
+          ...product.images.main,
+          alt: `${translation.name} - ${product.code}`,
+        },
+        thumbnail: {
+          ...product.images.thumbnail,
+          alt: translation.name,
+        },
+      },
+    };
+  }
+  return product;
+}
+
 /** Tüm aktif ürünleri getir */
-export function getAllProductsExtended(): ProductExtended[] {
-  return PRODUCTS_EXTENDED.filter(p => p.isActive);
+export function getAllProductsExtended(locale: string = DEFAULT_LOCALE): ProductExtended[] {
+  return PRODUCTS_EXTENDED.filter(p => p.isActive).map(p => translateProductExtended(p, locale));
 }
 
 /** 
  * Slug'a göre ürün getir 
  * Önce PRODUCTS_EXTENDED'da arar, bulamazsa base products'tan dönüştürür
  */
-export function getProductBySlug(slug: string): ProductExtended | undefined {
+export function getProductBySlug(slug: string, locale: string = DEFAULT_LOCALE): ProductExtended | undefined {
   // Önce extended ürünlerde ara
   const extendedProduct = PRODUCTS_EXTENDED.find(p => p.slug === slug && p.isActive);
   if (extendedProduct) {
-    return extendedProduct;
+    return translateProductExtended(extendedProduct, locale);
   }
   
   // Extended'da yoksa base product'tan dönüştür
   const baseProduct = getBaseProductBySlug(slug);
   if (baseProduct && baseProduct.isActive) {
-    return convertBaseToExtended(baseProduct);
+    const converted = convertBaseToExtended(baseProduct);
+    return translateProductExtended(converted, locale);
   }
   
   return undefined;
 }
 
 /** ID'ye göre ürün getir (fallback ile) */
-export function getProductById(id: string): ProductExtended | undefined {
+export function getProductById(id: string, locale: string = DEFAULT_LOCALE): ProductExtended | undefined {
   // Önce extended ürünlerde ara
   const extendedProduct = PRODUCTS_EXTENDED.find(p => p.id === id && p.isActive);
   if (extendedProduct) {
-    return extendedProduct;
+    return translateProductExtended(extendedProduct, locale);
   }
   
   // Extended'da yoksa base product'tan dönüştür
   const allBaseProducts = getAllProducts();
   const baseProduct = allBaseProducts.find(p => p.id === id && p.isActive);
   if (baseProduct) {
-    return convertBaseToExtended(baseProduct);
+    const converted = convertBaseToExtended(baseProduct);
+    return translateProductExtended(converted, locale);
   }
   
   return undefined;
 }
 
 /** Kategoriye göre ürünleri getir */
-export function getProductsByCategory(categoryId: string): ProductExtended[] {
-  return PRODUCTS_EXTENDED.filter(p => p.categoryId === categoryId && p.isActive);
+export function getProductsByCategory(categoryId: string, locale: string = DEFAULT_LOCALE): ProductExtended[] {
+  return PRODUCTS_EXTENDED
+    .filter(p => p.categoryId === categoryId && p.isActive)
+    .map(p => translateProductExtended(p, locale));
 }
 
 /** İlgili ürünleri getir (ProductCardData formatında) */
-export function getRelatedProducts(productId: string): ProductCardData[] {
-  const product = getProductById(productId);
+export function getRelatedProducts(productId: string, locale: string = DEFAULT_LOCALE): ProductCardData[] {
+  const product = getProductById(productId, locale);
   if (!product || !product.relatedProductIds) return [];
   
   return product.relatedProductIds
-    .map(id => getProductById(id))
+    .map(id => getProductById(id, locale))
     .filter((p): p is ProductExtended => p !== undefined)
     .map(p => ({
       id: p.id,
@@ -485,7 +528,7 @@ export function getRelatedProducts(productId: string): ProductCardData[] {
       subtitle: p.subtitle,
       thumbnail: p.images.thumbnail.src,
       categorySlug: p.categoryId,
-      categoryName: getCategoryName(p.categoryId),
+      categoryName: getCategoryName(p.categoryId, locale),
       origin: p.origin ? `${p.origin.city}, ${p.origin.country}` : undefined,
       isFeatured: p.isFeatured,
       isNew: p.isNew,
@@ -493,12 +536,17 @@ export function getRelatedProducts(productId: string): ProductCardData[] {
 }
 
 /** Öne çıkan ürünleri getir */
-export function getFeaturedProductsExtended(): ProductExtended[] {
-  return PRODUCTS_EXTENDED.filter(p => p.isFeatured && p.isActive);
+export function getFeaturedProductsExtended(locale: string = DEFAULT_LOCALE): ProductExtended[] {
+  return PRODUCTS_EXTENDED
+    .filter(p => p.isFeatured && p.isActive)
+    .map(p => translateProductExtended(p, locale));
 }
 
-/** Kategori adını getir (basit mapping) */
-function getCategoryName(categoryId: string): string {
+/** Kategori adını getir (locale aware) */
+function getCategoryName(categoryId: string, locale: string = DEFAULT_LOCALE): string {
+  const catTranslation = getCategoryTranslation(categoryId, locale);
+  if (catTranslation) return catTranslation.name;
+  
   const category = getCategoryById(categoryId);
   return category?.name || categoryId;
 }

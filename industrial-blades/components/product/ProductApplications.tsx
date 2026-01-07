@@ -14,6 +14,7 @@ import {
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductApplication } from '@/lib/types/product.types';
+import { useLocale } from '@/lib/i18n/client';
 
 // Icon mapping
 const iconMap: Record<string, LucideIcon> = {
@@ -36,8 +37,11 @@ interface ProductApplicationsProps {
 
 export function ProductApplications({ 
   applications, 
-  title = 'Kullanım Alanları' 
+  title 
 }: ProductApplicationsProps) {
+  const { dictionary: t } = useLocale();
+  const displayTitle = title || t.productDetail.applications;
+  
   if (!applications || applications.length === 0) return null;
 
   return (
@@ -45,7 +49,7 @@ export function ProductApplications({
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <h2 className="text-xl font-semibold text-steel-900 mb-6">
-          {title}
+          {displayTitle}
         </h2>
         
         {/* Application Tags */}

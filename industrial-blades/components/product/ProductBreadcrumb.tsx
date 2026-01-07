@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
+import { useLocale } from '@/lib/i18n/client';
 
 interface BreadcrumbItem {
   label: string;
@@ -13,6 +14,9 @@ interface ProductBreadcrumbProps {
 }
 
 export function ProductBreadcrumb({ items }: ProductBreadcrumbProps) {
+  const { locale, dictionary: dict } = useLocale();
+  const homeLabel = dict.nav.home;
+  
   return (
     <nav 
       aria-label="Breadcrumb" 
@@ -20,14 +24,14 @@ export function ProductBreadcrumb({ items }: ProductBreadcrumbProps) {
     >
       <div className="container mx-auto px-4">
         <ol className="flex items-center gap-1 text-sm flex-wrap">
-          {/* Anasayfa */}
+          {/* Home */}
           <li>
             <Link 
-              href="/" 
+              href={`/${locale}`}
               className="flex items-center gap-1 text-steel-500 hover:text-steel-700 transition-colors"
             >
               <Home className="w-4 h-4" />
-              <span className="sr-only sm:not-sr-only">Anasayfa</span>
+              <span className="sr-only sm:not-sr-only">{homeLabel}</span>
             </Link>
           </li>
           
@@ -72,12 +76,12 @@ export function ProductBreadcrumb({ items }: ProductBreadcrumbProps) {
 }
 
 // JSON-LD Schema için yardımcı
-export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
+export function generateBreadcrumbSchema(items: BreadcrumbItem[], homeLabel: string = 'Home') {
   const itemListElement = [
     {
       '@type': 'ListItem',
       position: 1,
-      name: 'Anasayfa',
+      name: homeLabel,
       item: 'https://alyabicak.com',
     },
     ...items.map((item, index) => ({

@@ -60,6 +60,7 @@ export const siteConfig = {
     linkedin: 'https://www.linkedin.com/company/alya-ltd./',
     twitter: '',
     youtube: '',
+    wechat: '+90 535 050 46 13', // WeChat ID
   },
   
   // SEO
@@ -89,7 +90,7 @@ export const siteConfig = {
     enableContactForm: true,
     enableProductSearch: true, // Aktif
     enableBlog: false, // TODO: Blog eklendiğinde true yap
-    enableMultiLanguage: false, // TODO: Çoklu dil eklendiğinde true yap
+    enableMultiLanguage: true, // ✅ Çoklu dil AKTIF
     enableAnalytics: false, // TODO: Analytics eklendiğinde true yap
     enableCookieConsent: true, // KVKK uyumu için aktif
   },

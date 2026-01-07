@@ -7,20 +7,38 @@ import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react'
 import { getActiveSlides } from '@/lib/data/hero-slides'
 import { siteConfig, getWhatsAppUrl } from '@/lib/config'
 import { WhatsAppIcon, CheckIcon } from '@/components/icons'
+import { useLocale } from '@/lib/i18n/client'
+import { getHeroSlideTranslation } from '@/lib/i18n/translations'
 
 export default function HeroSlider() {
+  const { locale, dictionary: dict } = useLocale();
   const heroSlides = getActiveSlides()
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
 
+  // Slide verilerini locale'e göre çevir
+  const translatedSlides = heroSlides.map(slide => {
+    const translation = getHeroSlideTranslation(slide.id, locale);
+    if (translation) {
+      return {
+        ...slide,
+        title: translation.title,
+        subtitle: translation.subtitle,
+        description: translation.description,
+        ctaText: translation.ctaText,
+      };
+    }
+    return slide;
+  });
+
   // useCallback ile fonksiyonları memo'la - gereksiz re-render'ları önler
   const nextSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev + 1) % heroSlides.length)
-  }, [heroSlides.length])
+    setCurrentSlide((prev) => (prev + 1) % translatedSlides.length)
+  }, [translatedSlides.length])
 
   const prevSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length)
-  }, [heroSlides.length])
+    setCurrentSlide((prev) => (prev - 1 + translatedSlides.length) % translatedSlides.length)
+  }, [translatedSlides.length])
 
   const goToSlide = useCallback((index: number) => {
     setCurrentSlide(index)
@@ -41,7 +59,7 @@ export default function HeroSlider() {
     >
       {/* Slides */}
       <div className="relative h-full w-full">
-        {heroSlides.map((slide, index) => (
+        {translatedSlides.map((slide, index) => (
           <div
             key={slide.id}
             className={`absolute inset-0 transition-opacity duration-1000 ${
@@ -123,16 +141,16 @@ export default function HeroSlider() {
                   >
                     {/* Primary CTA */}
                     <Link
-                      href={slide.ctaLink || '/kategoriler'}
+                      href={slide.ctaLink || `/${locale}/kategoriler`}
                       className="group inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all shadow-elevated hover:shadow-floating"
                     >
-                      <span>{slide.ctaText || 'Ücretsiz Danışmanlık Alın'}</span>
+                      <span>{slide.ctaText || dict.consulting.cta}</span>
                       <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                     </Link>
 
                     {/* WhatsApp */}
                     <a
-                      href={getWhatsAppUrl(`Merhaba, ${slide.title} hakkında bilgi almak istiyorum.`)}
+                      href={getWhatsAppUrl(dict.heroSlider.whatsappMessage.replace('{{title}}', slide.title))}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-all shadow-elevated hover:shadow-floating"
@@ -153,7 +171,7 @@ export default function HeroSlider() {
                       transitionDelay: index === currentSlide ? '800ms' : '0ms' 
                     }}
                   >
-                    {['Sheffield Kalitesi', 'Özel Üretim', 'Hızlı Teslimat'].map((feature) => (
+                    {[dict.heroFeatures.sheffieldQuality, dict.heroFeatures.customProduction, dict.heroFeatures.fastDelivery].map((feature) => (
                       <div key={feature} className="flex items-center gap-2 text-white/80">
                         <CheckIcon className="w-6 h-6" />
                         <span className="text-sm font-medium">{feature}</span>
@@ -171,7 +189,7 @@ export default function HeroSlider() {
       <button
         onClick={prevSlide}
         className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 p-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition-all hover:scale-110"
-        aria-label="Önceki Slayt"
+        aria-label={dict.heroFeatures.prevSlide}
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
@@ -179,14 +197,14 @@ export default function HeroSlider() {
       <button
         onClick={nextSlide}
         className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 p-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition-all hover:scale-110"
-        aria-label="Sonraki Slayt"
+        aria-label={dict.heroFeatures.nextSlide}
       >
         <ChevronRight className="w-6 h-6" />
       </button>
 
       {/* Dots Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-3">
-        {heroSlides.map((_, index) => (
+        {translatedSlides.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
@@ -195,7 +213,7 @@ export default function HeroSlider() {
                 ? 'w-12 bg-white'
                 : 'w-3 bg-white/50 hover:bg-white/70'
             } h-3 rounded-full`}
-            aria-label={`Slayt ${index + 1}'e git`}
+            aria-label={`${index + 1}`}
           />
         ))}
       </div>
@@ -205,7 +223,7 @@ export default function HeroSlider() {
         <div 
           className="h-full bg-primary-500 transition-all duration-300"
           style={{ 
-            width: `${((currentSlide + 1) / heroSlides.length) * 100}%` 
+            width: `${((currentSlide + 1) / translatedSlides.length) * 100}%` 
           }}
         />
       </div>

@@ -12,6 +12,7 @@ import {
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductSpec } from '@/lib/types/product.types';
+import { useLocale } from '@/lib/i18n/client';
 
 // Icon mapping
 const iconMap: Record<string, LucideIcon> = {
@@ -30,7 +31,10 @@ interface ProductSpecsProps {
   title?: string;
 }
 
-export function ProductSpecs({ specs, title = 'Teknik Özellikler' }: ProductSpecsProps) {
+export function ProductSpecs({ specs, title }: ProductSpecsProps) {
+  const { dictionary: t } = useLocale();
+  const displayTitle = title || t.productDetail.technicalSpecs;
+  
   if (!specs || specs.length === 0) return null;
 
   return (
@@ -38,7 +42,7 @@ export function ProductSpecs({ specs, title = 'Teknik Özellikler' }: ProductSpe
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <h2 className="text-xl font-semibold text-steel-900 mb-6">
-          {title}
+          {displayTitle}
         </h2>
         
         {/* Özellik Grid */}
@@ -84,14 +88,17 @@ export function ProductSpecs({ specs, title = 'Teknik Özellikler' }: ProductSpe
 }
 
 // Alternatif: Tablo formatında
-export function ProductSpecsTable({ specs, title = 'Teknik Özellikler' }: ProductSpecsProps) {
+export function ProductSpecsTable({ specs, title }: ProductSpecsProps) {
+  const { dictionary: t } = useLocale();
+  const displayTitle = title || t.productDetail.technicalSpecs;
+  
   if (!specs || specs.length === 0) return null;
 
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-xl font-semibold text-steel-900 mb-6">
-          {title}
+          {displayTitle}
         </h2>
         
         <div className="bg-white rounded-lg border border-steel-100 overflow-hidden">

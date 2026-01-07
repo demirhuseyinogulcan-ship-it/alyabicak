@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Package } from 'lucide-react';
 import type { ProductCardData } from '@/lib/types/product.types';
+import { useLocale } from '@/lib/i18n/client';
 
 interface RelatedProductsProps {
   products: ProductCardData[];
@@ -13,9 +14,12 @@ interface RelatedProductsProps {
 
 export function RelatedProducts({ 
   products, 
-  title = 'İlgili Ürünler',
+  title,
   maxItems = 4 
 }: RelatedProductsProps) {
+  const { locale, dictionary: t } = useLocale();
+  const displayTitle = title || t.productDetail.relatedProducts;
+  
   if (!products || products.length === 0) return null;
   
   const displayProducts = products.slice(0, maxItems);
@@ -25,7 +29,7 @@ export function RelatedProducts({
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <h2 className="text-xl font-semibold text-steel-900 mb-8">
-          {title}
+          {displayTitle}
         </h2>
         
         {/* Ürün Grid */}
@@ -33,7 +37,7 @@ export function RelatedProducts({
           {displayProducts.map((product) => (
             <Link
               key={product.id}
-              href={`/urunler/${product.slug}`}
+              href={`/${locale}/urunler/${product.slug}`}
               className="group bg-white rounded-lg border border-steel-100 overflow-hidden hover:border-steel-200 hover:shadow-sm transition-all"
             >
               {/* Görsel - 16:9 aspect ratio, Lutz tarzı */}
@@ -55,7 +59,7 @@ export function RelatedProducts({
                 {/* Yeni Badge */}
                 {product.isNew && (
                   <span className="absolute top-2 left-2 px-2 py-0.5 bg-primary-600 text-white text-xs font-medium rounded z-10">
-                    Yeni
+                    {t.productDetail.new}
                   </span>
                 )}
               </div>
@@ -92,10 +96,10 @@ export function RelatedProducts({
         {products.length > maxItems && (
           <div className="mt-8 text-center">
             <Link
-              href="/kategoriler"
+              href={`/${locale}/kategoriler`}
               className="inline-flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
             >
-              Tüm ürünleri görüntüle
+              {t.productDetail.viewAllProducts}
               <span aria-hidden="true">→</span>
             </Link>
           </div>
@@ -108,9 +112,12 @@ export function RelatedProducts({
 // Kompakt versiyon (sidebar için)
 export function RelatedProductsCompact({ 
   products, 
-  title = 'Benzer Ürünler',
+  title,
   maxItems = 3 
 }: RelatedProductsProps) {
+  const { locale, dictionary: t } = useLocale();
+  const displayTitle = title || t.productDetail.relatedProducts;
+  
   if (!products || products.length === 0) return null;
   
   const displayProducts = products.slice(0, maxItems);
@@ -118,14 +125,14 @@ export function RelatedProductsCompact({
   return (
     <div className="bg-white rounded-lg border border-steel-100 p-4">
       <h3 className="text-sm font-semibold text-steel-900 mb-4">
-        {title}
+        {displayTitle}
       </h3>
       
       <div className="space-y-3">
         {displayProducts.map((product) => (
           <Link
             key={product.id}
-            href={`/urunler/${product.slug}`}
+            href={`/${locale}/urunler/${product.slug}`}
             className="flex gap-3 group"
           >
             {/* Thumbnail */}

@@ -1,23 +1,15 @@
-import { generateMetadata as genMeta } from '@/lib/seo'
-import Link from 'next/link'
-import Image from 'next/image'
-import { Calendar, Clock, ArrowRight } from 'lucide-react'
-import { blogService } from '@/lib/data/blog'
-import { BLOG_CATEGORIES } from '@/lib/types/blog'
-import { PageHeader } from '@/components/ui'
+import { redirect, permanentRedirect } from 'next/navigation'
+import { i18nConfig } from '@/lib/i18n/config'
 
-export const metadata = genMeta({
-  title: 'Bülten',
-  description: 'Endüstriyel kesiciler hakkında güncel haberler, ürün rehberleri, teknik yazılar ve sektör haberleri. Alya Bıçak blog.',
-  keywords: ['endüstriyel bıçak blog', 'bıçak rehberi', 'sektör haberleri', 'teknik yazılar'],
-  url: 'https://www.alyabicak.com/bulten',
-})
-
-export default function BlogPage() {
-  const posts = blogService.getAllPosts()
-  const featuredPosts = blogService.getFeaturedPosts(2)
-
-  return (
+/**
+ * Legacy Blog Page - Permanent Redirect to localized version
+ * 
+ * SEO: 308 permanent redirect - arama motorları yeni URL'yi indeksler
+ * Eski /bulten linklerinden gelen trafiği korur
+ */
+export default function LegacyBlogPage() {
+  permanentRedirect(`/${i18nConfig.defaultLocale}/bulten`)
+}
     <div className="min-h-screen bg-steel-50">
       {/* Hero */}
       <PageHeader

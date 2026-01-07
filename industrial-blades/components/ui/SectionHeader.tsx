@@ -85,6 +85,8 @@ export interface PageHeaderProps {
   breadcrumb?: ReactNode
   backgroundImage?: string
   overlay?: boolean
+  centered?: boolean
+  stats?: string
   children?: ReactNode
 }
 
@@ -94,6 +96,8 @@ export function PageHeader({
   breadcrumb,
   backgroundImage,
   overlay = true,
+  centered = true,
+  stats,
   children,
 }: PageHeaderProps) {
   return (
@@ -108,7 +112,7 @@ export function PageHeader({
       
       {/* Overlay */}
       {backgroundImage && overlay && (
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/50" />
       )}
       
       <div className="container mx-auto px-4 relative z-10">
@@ -118,15 +122,21 @@ export function PageHeader({
           </div>
         )}
         
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl md:text-4xl font-medium mb-3">
+        <div className={centered ? "max-w-3xl mx-auto text-center" : "max-w-3xl"}>
+          <h1 className={`${centered ? 'text-3xl md:text-4xl' : 'text-4xl md:text-5xl'} font-bold mb-3`}>
             {title}
           </h1>
           
           {description && (
-            <p className="text-base text-steel-300 leading-relaxed">
+            <p className={`text-base ${centered ? 'text-steel-300' : 'text-xl text-steel-200'} leading-relaxed`}>
               {description}
             </p>
+          )}
+          
+          {stats && (
+            <div className="mt-4 text-steel-300">
+              {stats}
+            </div>
           )}
           
           {children && (

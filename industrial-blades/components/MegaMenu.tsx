@@ -17,6 +17,7 @@ import { ChevronRight } from 'lucide-react'
 import { CategoryView } from '@/lib/types'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useLocale } from '@/lib/i18n/client'
 
 interface MegaMenuProps {
   categories: CategoryView[]
@@ -29,14 +30,18 @@ const SubcategoryCard = memo(function SubcategoryCard({
   subcategory,
   categorySlug,
   onClose,
+  locale = 'tr',
+  dictionary,
 }: {
   subcategory: CategoryView['subcategories'][0]
   categorySlug: string
   onClose: () => void
+  locale?: string
+  dictionary?: any
 }) {
   return (
     <Link
-      href={`/kategoriler/${categorySlug}/${subcategory.slug}`}
+      href={`/${locale}/kategoriler/${categorySlug}/${subcategory.slug}`}
       prefetch={false} // ⚡ Critical: Prevent mass prefetching
       onClick={onClose}
       className="group relative overflow-hidden rounded-lg border border-steel-200 
@@ -69,7 +74,7 @@ const SubcategoryCard = memo(function SubcategoryCard({
           </h4>
         </div>
         <div className="mt-1 text-[10px] font-medium text-primary-600">
-          {subcategory.productCount} ürün
+          {subcategory.productCount} {dictionary?.common?.products || 'products'}
         </div>
       </div>
     </Link>
@@ -83,17 +88,19 @@ const CategoryItem = memo(function CategoryItem({
   onEnter,
   onLeave,
   onClose,
+  locale = 'tr',
 }: {
   category: CategoryView
   isActive: boolean
   onEnter: () => void
   onLeave: () => void
   onClose: () => void
+  locale?: string
 }) {
   return (
     <div onMouseEnter={onEnter} onMouseLeave={onLeave}>
       <Link
-        href={`/kategoriler/${category.slug}`}
+        href={`/${locale}/kategoriler/${category.slug}`}
         prefetch={false}
         onClick={onClose}
         className={`
@@ -122,6 +129,7 @@ const CategoryItem = memo(function CategoryItem({
 })
 
 export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps) {
+  const { locale, dictionary } = useLocale()
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
   const [isVisible, setIsVisible] = useState(false)
   const menuRef = useRef<HTMLDivElement>(null)
@@ -206,7 +214,7 @@ export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps)
           {/* Ana Kategoriler - Sol taraf */}
           <div className="col-span-3 border-r border-steel-200 pr-4">
             <h3 className="text-xs font-semibold text-steel-500 uppercase tracking-wider mb-3">
-              Kategoriler
+              {dictionary?.nav?.categories || 'Categories'}
             </h3>
             <nav className="space-y-0.5">
               {categories.map((category) => (
@@ -217,6 +225,7 @@ export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps)
                   onEnter={() => handleCategoryEnter(category.id)}
                   onLeave={handleCategoryLeave}
                   onClose={onClose}
+                  locale={locale}
                 />
               ))}
             </nav>
@@ -255,6 +264,8 @@ export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps)
                         subcategory={subcategory}
                         categorySlug={activeCategoryData.slug}
                         onClose={onClose}
+                        locale={locale}
+                        dictionary={dictionary}
                       />
                     ))}
                   </div>
@@ -263,12 +274,12 @@ export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps)
                 {/* Tümünü Gör */}
                 <div className="mt-4 pt-4 border-t border-steel-100">
                   <Link
-                    href={`/kategoriler/${activeCategoryData.slug}`}
+                    href={`/${locale}/kategoriler/${activeCategoryData.slug}`}
                     prefetch={false}
                     onClick={onClose}
                     className="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors duration-150"
                   >
-                    Tüm {activeCategoryData.name} Ürünlerini Gör
+                    {dictionary?.nav?.viewAllProducts?.replace('{{category}}', activeCategoryData.name) || `View All ${activeCategoryData.name} Products`}
                     <ChevronRight className="w-4 h-4 ml-1" />
                   </Link>
                 </div>

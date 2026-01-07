@@ -10,6 +10,7 @@ export interface LogoProps {
   variant?: 'default' | 'white'
   size?: 'sm' | 'md' | 'lg'
   href?: string
+  locale?: string
   className?: string
 }
 
@@ -22,11 +23,13 @@ const sizes = {
 export default function Logo({ 
   variant = 'default', 
   size = 'md',
-  href = '/',
+  href,
+  locale = 'tr',
   className = '',
 }: LogoProps) {
   const { width, height } = sizes[size]
   const logoSrc = variant === 'white' ? '/images/logo-white.svg' : '/images/logo.png'
+  const logoHref = href || `/${locale}`
 
   const logoImage = (
     <Image
@@ -39,14 +42,10 @@ export default function Logo({
     />
   )
 
-  if (href) {
-    return (
-      <Link href={href} className="flex-shrink-0">
-        {logoImage}
-      </Link>
-    )
-  }
-
-  return logoImage
+  return (
+    <Link href={logoHref} className="flex-shrink-0">
+      {logoImage}
+    </Link>
+  )
 }
 

@@ -8,20 +8,24 @@
 
 'use client'
 
-const certifications = [
-  { name: 'ISO 9001:2015', desc: 'Kalite Yönetimi' },
-  { name: 'FDA', desc: 'Gıda Güvenliği' },
-  { name: 'USDA', desc: 'ABD Onaylı' },
-  { name: 'Made in Sheffield', desc: 'İngiltere' },
-]
-
-const stats = [
-  { value: '35+', label: 'Ülkeye İhracat' },
-  { value: '30', label: 'Yıllık Deneyim' },
-  { value: '500+', label: 'Ürün Çeşidi' },
-]
+import { useLocale } from '@/lib/i18n/client'
 
 export default function TrustLogos() {
+  const { dictionary: t } = useLocale()
+  
+  const certifications = [
+    { name: t.trustLogos.certifications.iso.name, desc: t.trustLogos.certifications.iso.desc },
+    { name: t.trustLogos.certifications.fda.name, desc: t.trustLogos.certifications.fda.desc },
+    { name: t.trustLogos.certifications.usda.name, desc: t.trustLogos.certifications.usda.desc },
+    { name: t.trustLogos.certifications.sheffield.name, desc: t.trustLogos.certifications.sheffield.desc },
+  ]
+
+  const stats = [
+    { value: t.trustLogos.stats.exportCountries.value, label: t.trustLogos.stats.exportCountries.label },
+    { value: t.trustLogos.stats.yearsExperience.value, label: t.trustLogos.stats.yearsExperience.label },
+    { value: t.trustLogos.stats.productVariety.value, label: t.trustLogos.stats.productVariety.label },
+  ]
+
   return (
     <section className="py-6 bg-steel-900 border-y border-steel-800">
       <div className="container mx-auto px-4">

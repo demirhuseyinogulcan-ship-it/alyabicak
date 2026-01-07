@@ -3,36 +3,40 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Award, Zap, Shield, Clock, ArrowRight, CheckCircle } from 'lucide-react'
+import { useLocale } from '@/lib/i18n/client'
 
 export default function SheffieldSection() {
+  const { locale, dictionary: dict } = useLocale();
+  const t = dict.sheffield;
+  
   const features = [
     {
       icon: Award,
-      title: 'Sheffield Kalitesi',
-      description: 'İngiltere Sheffield çelik standardı'
+      title: t.features.sheffieldQuality,
+      description: t.features.sheffieldQualityDesc
     },
     {
       icon: Zap,
-      title: 'Yüksek Performans',
-      description: 'Uzun ömür ve keskin performans'
+      title: t.features.highPerformance,
+      description: t.features.highPerformanceDesc
     },
     {
       icon: Shield,
-      title: 'Dayanıklılık',
-      description: 'Aşınmaya karşı maksimum direnç'
+      title: t.features.durability,
+      description: t.features.durabilityDesc
     },
     {
       icon: Clock,
-      title: 'Hızlı Teslimat',
-      description: 'Dünya geneline hızlı gönderim'
+      title: t.features.fastDelivery,
+      description: t.features.fastDeliveryDesc
     }
   ]
 
   const qualityStandards = [
-    { name: 'FDA Uyumlu', desc: 'Gıda güvenliği standartları' },
-    { name: 'USDA Onaylı', desc: 'ABD tarım bakanlığı sertifikası' },
-    { name: 'ISO 9001:2015', desc: 'Kalite yönetim sistemi' },
-    { name: 'Made in Sheffield', desc: 'Dünya standartlarında üretim' }
+    { name: t.standards.fda, desc: t.standards.fdaDesc },
+    { name: t.standards.usda, desc: t.standards.usdaDesc },
+    { name: t.standards.iso, desc: t.standards.isoDesc },
+    { name: t.standards.sheffield, desc: t.standards.sheffieldDesc }
   ]
 
   return (
@@ -49,13 +53,11 @@ export default function SheffieldSection() {
           {/* Left: Content */}
           <div>
             <h2 className="text-2xl md:text-3xl font-medium mb-4">
-              Kalite Standartlarımız
+              {t.title}
             </h2>
             
             <p className="text-base text-steel-300 leading-relaxed mb-8">
-              Sheffield, yüzyıllardır dünyanın en kaliteli çelik ve bıçak üretim merkezi olarak bilinir. 
-              1910&apos;dan bu yana İngiltere&apos;nin kalp merkezinde, precision engineering ile üretilen 
-              endüstriyel bıçaklar, gıda güvenliği standartlarına tam uyumluluk ile sizlere sunuluyor.
+              {t.description}
             </p>
 
             {/* Features Grid */}
@@ -77,7 +79,7 @@ export default function SheffieldSection() {
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 mb-8 border border-white/10">
               <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
                 <Shield className="w-5 h-5 text-primary-400" />
-                Kalite Standartları
+                {t.qualityTitle}
               </h3>
               <div className="grid grid-cols-2 gap-3">
                 {qualityStandards.map((standard) => (
@@ -93,10 +95,10 @@ export default function SheffieldSection() {
             </div>
 
             <Link
-              href="/kalite-standartlarimiz"
+              href={`/${locale}/kalite-standartlarimiz`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all hover:scale-105"
             >
-              <span>Daha Fazla Bilgi</span>
+              <span>{t.moreInfo}</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

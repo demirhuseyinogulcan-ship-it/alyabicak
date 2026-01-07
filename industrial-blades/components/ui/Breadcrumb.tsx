@@ -17,6 +17,7 @@ export interface BreadcrumbProps {
   separator?: 'chevron' | 'slash'
   className?: string
   variant?: 'default' | 'light'
+  homeLabel?: string
 }
 
 export default function Breadcrumb({
@@ -25,9 +26,10 @@ export default function Breadcrumb({
   separator = 'chevron',
   className = '',
   variant = 'default',
+  homeLabel = 'Home',
 }: BreadcrumbProps) {
   const allItems: BreadcrumbItem[] = showHome 
-    ? [{ label: 'Ana Sayfa', href: '/' }, ...items]
+    ? [{ label: homeLabel, href: '/' }, ...items]
     : items
 
   const textColor = variant === 'light' 
@@ -97,8 +99,8 @@ export default function Breadcrumb({
 }
 
 // Schema.org BreadcrumbList için JSON-LD oluşturucu
-export function generateBreadcrumbSchema(items: BreadcrumbItem[], baseUrl: string) {
-  const allItems = [{ label: 'Ana Sayfa', href: '/' }, ...items]
+export function generateBreadcrumbSchema(items: BreadcrumbItem[], baseUrl: string, homeLabel: string = 'Home') {
+  const allItems = [{ label: homeLabel, href: '/' }, ...items]
   
   return {
     '@context': 'https://schema.org',

@@ -3,8 +3,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { useLocale } from '@/lib/i18n/client'
 
 export default function DurhamDuplexBadge() {
+  const { locale, dictionary: dict } = useLocale();
+  const t = dict.durhamDuplex;
+
   return (
     <section className="py-24 lg:py-32 bg-steel-50 relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
@@ -21,12 +25,11 @@ export default function DurhamDuplexBadge() {
             </div>
             
             <p className="text-xl text-gray-600 mb-6 font-medium">
-              Razor Sharp Since 1910
+              {t.tagline}
             </p>
             
             <p className="text-lg text-gray-700 mb-8">
-              <span className="font-bold text-gray-900">115 yıllık</span> İngiliz mühendislik geleneği ile 
-              Sheffield&apos;da üretilen dünya standartlarında endüstriyel bıçakların Türkiye distribütörüyüz.
+              <span className="font-bold text-gray-900">{t.intro}</span> {t.description}
             </p>
 
             {/* Features Grid */}
@@ -36,8 +39,8 @@ export default function DurhamDuplexBadge() {
                   <span className="text-white font-bold text-sm">ISO</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-1">ISO 9001:2015</h3>
-                  <p className="text-sm text-gray-600">Kalite yönetim sistemi</p>
+                  <h3 className="font-semibold text-gray-900 mb-1">{t.certifications.isoTitle}</h3>
+                  <p className="text-sm text-gray-600">{t.certifications.isoDesc}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -45,8 +48,8 @@ export default function DurhamDuplexBadge() {
                   <span className="text-white font-bold text-sm">FDA</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-1">FDA Compliant</h3>
-                  <p className="text-sm text-gray-600">Gıda güvenliği onaylı</p>
+                  <h3 className="font-semibold text-gray-900 mb-1">{t.certifications.fdaTitle}</h3>
+                  <p className="text-sm text-gray-600">{t.certifications.fdaDesc}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -54,8 +57,8 @@ export default function DurhamDuplexBadge() {
                   <span className="text-white font-bold text-xs">USDA</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-1">USDA Approved</h3>
-                  <p className="text-sm text-gray-600">ABD tarım bakanlığı onaylı</p>
+                  <h3 className="font-semibold text-gray-900 mb-1">{t.certifications.usdaTitle}</h3>
+                  <p className="text-sm text-gray-600">{t.certifications.usdaDesc}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -63,17 +66,17 @@ export default function DurhamDuplexBadge() {
                   <span className="text-white font-bold text-xs">UK</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-1">Made in Sheffield</h3>
-                  <p className="text-sm text-gray-600">İngiltere üretimi</p>
+                  <h3 className="font-semibold text-gray-900 mb-1">{t.certifications.ukTitle}</h3>
+                  <p className="text-sm text-gray-600">{t.certifications.ukDesc}</p>
                 </div>
               </div>
             </div>
 
             <Link
-              href="/durham-duplex"
+              href={`/${locale}/durham-duplex`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-green-700 hover:bg-green-800 text-white font-semibold rounded-lg transition-all hover:scale-105"
             >
-              <span>Daha Fazla Bilgi</span>
+              <span>{t.cta}</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
@@ -83,7 +86,7 @@ export default function DurhamDuplexBadge() {
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/brand/durham-duplex-bicaklari.jpg"
-                alt="Durham Duplex Bıçakları"
+                alt={t.imageAlt}
                 fill
                 className="object-cover"
               />
@@ -92,15 +95,15 @@ export default function DurhamDuplexBadge() {
                 <div className="grid grid-cols-3 gap-4">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-white mb-1">115+</div>
-                    <div className="text-sm text-gray-300">Yıllık Deneyim</div>
+                    <div className="text-sm text-gray-300">{t.stats.experience}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-white mb-1">500+</div>
-                    <div className="text-sm text-gray-300">Ürün Çeşidi</div>
+                    <div className="text-sm text-gray-300">{t.stats.products}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-white mb-1">UK</div>
-                    <div className="text-sm text-gray-300">Sheffield</div>
+                    <div className="text-sm text-gray-300">{t.stats.location}</div>
                   </div>
                 </div>
               </div>

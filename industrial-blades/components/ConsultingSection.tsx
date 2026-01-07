@@ -4,8 +4,12 @@ import Image from 'next/image'
 import { MessageCircle, ArrowRight } from 'lucide-react'
 import { Button, Badge } from '@/components/ui'
 import { getWhatsAppUrl } from '@/lib/config'
+import { useLocale } from '@/lib/i18n/client'
 
 export default function ConsultingSection() {
+  const { locale, dictionary: dict } = useLocale()
+  const t = dict.consultingSection
+  
   return (
     <section className="py-16 lg:py-20 bg-gradient-to-br from-primary-50 to-white">
       <div className="container mx-auto px-4">
@@ -15,7 +19,7 @@ export default function ConsultingSection() {
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
               <Image
                 src="/images/pages/profesyonel-destek.jpg"
-                alt="Kesim Danışmanlığı"
+                alt={t.title}
                 fill
                 className="object-cover"
               />
@@ -27,12 +31,12 @@ export default function ConsultingSection() {
                   <MessageCircle className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <div className="font-semibold text-steel-900">Ücretsiz Danışmanlık</div>
-                  <div className="text-sm text-steel-600">7/24 Destek</div>
+                  <div className="font-semibold text-steel-900">{t.freeConsulting}</div>
+                  <div className="text-sm text-steel-600">{t.support247}</div>
                 </div>
               </div>
               <p className="text-sm text-steel-600">
-                Hangi malzeme için hangi bıçak? Uzmanlarımız size yol gösteriyor.
+                {t.helpText}
               </p>
             </div>
           </div>
@@ -40,16 +44,15 @@ export default function ConsultingSection() {
           {/* Right: Content */}
           <div className="order-1 lg:order-2">
             <Badge variant="primary" size="md" rounded="full" className="mb-6">
-              Uzman Danışmanlık
+              {t.badge}
             </Badge>
             
             <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-4">
-              Doğru Bıçak Seçimi İçin Profesyonel Destek
+              {t.title}
             </h2>
             
             <p className="text-base text-steel-600 leading-relaxed mb-8">
-              Her malzeme farklı bir kesim tekniği gerektirir. Plastik, metal, kağıt, gıda... 
-              Hangi ürünü kesiyorsanız kesin, size en uygun bıçağı bulmanıza yardımcı oluyoruz.
+              {t.description}
             </p>
 
             <div className="space-y-4 mb-8">
@@ -58,8 +61,8 @@ export default function ConsultingSection() {
                   <span className="text-primary-600 font-bold">1</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-steel-900 mb-1">Malzeme Analizi</h3>
-                  <p className="text-sm text-steel-600">Kesim yapacağınız malzemeyi analiz ediyoruz</p>
+                  <h3 className="font-semibold text-steel-900 mb-1">{t.steps.step1Title}</h3>
+                  <p className="text-sm text-steel-600">{t.steps.step1Desc}</p>
                 </div>
               </div>
 
@@ -68,8 +71,8 @@ export default function ConsultingSection() {
                   <span className="text-primary-600 font-bold">2</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-steel-900 mb-1">Bıçak Önerisi</h3>
-                  <p className="text-sm text-steel-600">Size özel bıçak modeli öneriyoruz</p>
+                  <h3 className="font-semibold text-steel-900 mb-1">{t.steps.step2Title}</h3>
+                  <p className="text-sm text-steel-600">{t.steps.step2Desc}</p>
                 </div>
               </div>
 
@@ -78,27 +81,27 @@ export default function ConsultingSection() {
                   <span className="text-primary-600 font-bold">3</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-steel-900 mb-1">Test ve Optimizasyon</h3>
-                  <p className="text-sm text-steel-600">Kesim performansını optimize ediyoruz</p>
+                  <h3 className="font-semibold text-steel-900 mb-1">{t.steps.step3Title}</h3>
+                  <p className="text-sm text-steel-600">{t.steps.step3Desc}</p>
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-4">
               <Button 
-                href="/danismanlik" 
+                href={`/${locale}/danismanlik`}
                 size="lg" 
                 icon={ArrowRight}
               >
-                Ücretsiz Danışmanlık Alın
+                {t.cta}
               </Button>
 
               <Button
-                href={getWhatsAppUrl('Merhaba, kesim danışmanlığı almak istiyorum.')}
+                href={getWhatsAppUrl(dict.whatsapp.consultingMessage)}
                 variant="whatsapp"
                 size="lg"
               >
-                WhatsApp
+                {t.whatsappCta}
               </Button>
             </div>
           </div>

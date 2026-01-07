@@ -2,6 +2,7 @@
  * Contact Form API Route
  * 
  * İletişim formu verilerini işler ve e-posta gönderir.
+ * i18n: Request header'dan locale alarak çok dilli hata mesajları
  * 
  * Kullanım:
  * 1. Formspree: FORMSPREE_ENDPOINT env variable'ı ile
@@ -17,6 +18,27 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import { contactFormSchema } from '@/lib/validations'
+import { i18nConfig, type Locale } from '@/lib/i18n/config'
+
+// i18n API messages
+const apiMessages = {
+  tr: {
+    rateLimited: 'Çok fazla istek gönderdiniz. Lütfen bir dakika bekleyin.',
+    invalidFormData: 'Geçersiz form verisi',
+    successMessage: 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.',
+    developmentMode: 'Mesajınız alındı (development mode).',
+    emailNotConfigured: 'E-posta servisi yapılandırılmamış.',
+    genericError: 'Bir hata oluştu. Lütfen daha sonra tekrar deneyin.',
+  },
+  en: {
+    rateLimited: 'Too many requests. Please wait a minute.',
+    invalidFormData: 'Invalid form data',
+    successMessage: 'Your message has been sent successfully. We will get back to you shortly.',
+    developmentMode: 'Message received (development mode).',
+    emailNotConfigured: 'Email service not configured.',
+    genericError: 'An error occurred. Please try again later.',
+  },
+}
 
 // Rate limiting için basit in-memory store
 const rateLimitStore = new Map<string, { count: number; timestamp: number }>()
@@ -40,7 +62,32 @@ function isRateLimited(ip: string): boolean {
   return false
 }
 
+// Helper to get locale from request
+function getLocaleFromRequest(request: NextRequest): Locale {
+  // 1. Cookie'den kontrol et
+  const localeCookie = request.cookies.get('NEXT_LOCALE')?.value
+  if (localeCookie && i18nConfig.locales.includes(localeCookie as Locale)) {
+    return localeCookie as Locale
+  }
+  
+  // 2. Accept-Language header'dan kontrol et
+  const acceptLanguage = request.headers.get('accept-language')
+  if (acceptLanguage) {
+    const preferredLocale = acceptLanguage
+      .split(',')
+      .map((lang) => lang.split(';')[0].trim().substring(0, 2))
+      .find((lang) => i18nConfig.locales.includes(lang as Locale))
+    
+    if (preferredLocale) return preferredLocale as Locale
+  }
+  
+  return i18nConfig.defaultLocale
+}
+
 export async function POST(request: NextRequest) {
+  const locale = getLocaleFromRequest(request)
+  const t = apiMessages[locale]
+  
   try {
     // Rate limiting kontrolü
     const ip = request.headers.get('x-forwarded-for') || 
@@ -49,7 +96,7 @@ export async function POST(request: NextRequest) {
     
     if (isRateLimited(ip)) {
       return NextResponse.json(
-        { success: false, error: 'Çok fazla istek gönderdiniz. Lütfen bir dakika bekleyin.' },
+        { success: false, error: t.rateLimited },
         { status: 429 }
       )
     }
@@ -64,7 +111,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { 
           success: false, 
-          error: 'Geçersiz form verisi',
+          error: t.invalidFormData,
           details: validation.error.flatten().fieldErrors 
         },
         { status: 400 }
@@ -99,7 +146,7 @@ export async function POST(request: NextRequest) {
 
       return NextResponse.json({ 
         success: true, 
-        message: 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.' 
+        message: t.successMessage 
       })
     }
 
@@ -112,20 +159,20 @@ export async function POST(request: NextRequest) {
       console.log('📧 Contact Form Submission:', formData)
       return NextResponse.json({ 
         success: true, 
-        message: 'Mesajınız alındı (development mode).' 
+        message: t.developmentMode 
       })
     }
 
     // Production'da hata ver
     return NextResponse.json(
-      { success: false, error: 'E-posta servisi yapılandırılmamış.' },
+      { success: false, error: t.emailNotConfigured },
       { status: 500 }
     )
 
   } catch (error) {
     console.error('Contact form error:', error)
     return NextResponse.json(
-      { success: false, error: 'Bir hata oluştu. Lütfen daha sonra tekrar deneyin.' },
+      { success: false, error: t.genericError },
       { status: 500 }
     )
   }

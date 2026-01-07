@@ -1,0 +1,88 @@
+/**
+ * Language Switcher Component
+ * Dil değiştirme butonu
+ */
+
+'use client';
+
+import { usePathname, useRouter } from 'next/navigation';
+import { useState, useRef, useEffect, useMemo } from 'react';
+import { Globe, ChevronDown, Check } from 'lucide-react';
+import { i18nConfig, type Locale } from '@/lib/i18n';
+
+export function LanguageSwitcher() {
+  const pathname = usePathname();
+  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // URL'den mevcut locale'i al
+  const currentLocale = useMemo(() => {
+    const segments = pathname.split('/');
+    const localeFromPath = segments[1] as Locale;
+    return i18nConfig.locales.includes(localeFromPath) ? localeFromPath : i18nConfig.defaultLocale;
+  }, [pathname]);
+
+  // Dışarı tıklandığında kapat
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const switchLocale = (newLocale: Locale) => {
+    // Mevcut path'ten locale'i çıkar ve yeni locale ile değiştir
+    const segments = pathname.split('/');
+    segments[1] = newLocale;
+    const newPath = segments.join('/');
+    
+    // Cookie'yi güncelle
+    document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
+    
+    router.push(newPath);
+    setIsOpen(false);
+  };
+
+  return (
+    <div className="relative" ref={dropdownRef}>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center gap-1 px-2 py-1.5 text-sm font-medium text-steel-600 hover:text-primary-600 transition-colors rounded-md hover:bg-steel-50"
+        aria-label="Dil seçin"
+        aria-expanded={isOpen}
+      >
+        <Globe className="w-3.5 h-3.5" />
+        <span className="uppercase text-xs font-semibold">{currentLocale}</span>
+        <ChevronDown className={`w-3 h-3 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+      </button>
+
+      {isOpen && (
+        <div className="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-steel-200 py-1 z-50">
+          {i18nConfig.locales.map((locale) => (
+            <button
+              key={locale}
+              onClick={() => switchLocale(locale)}
+              className={`
+                w-full flex items-center gap-3 px-4 py-2.5 text-sm transition-colors
+                ${currentLocale === locale 
+                  ? 'bg-primary-50 text-primary-700' 
+                  : 'text-steel-700 hover:bg-steel-50'
+                }
+              `}
+            >
+              <span className="text-lg">{i18nConfig.localeFlags[locale]}</span>
+              <span className="flex-1 text-left">{i18nConfig.localeNames[locale]}</span>
+              {currentLocale === locale && (
+                <Check className="w-4 h-4 text-primary-600" />
+              )}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}

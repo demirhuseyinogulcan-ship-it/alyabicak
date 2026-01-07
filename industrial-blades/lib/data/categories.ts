@@ -435,6 +435,15 @@ export const SUBCATEGORIES: Record<string, SubCategory> = {
     order: 8,
     isActive: true,
   },
+  'muhafaza-atik-kutulari': {
+    id: 'muhafaza-atik-kutulari',
+    slug: 'muhafaza-atik-kutulari',
+    name: 'Muhafaza & Atık Kutuları',
+    description: 'Kesici alet atıklarının güvenli şekilde toplanması için muhafaza kutuları. İş güvenliği denetimleri için uygundur.',
+    parentId: 'is-guvenligi-el-bicaklari',
+    order: 9,
+    isActive: true,
+  },
 };
 
 // =============================================================================
@@ -519,6 +528,7 @@ export const CATEGORIES: Record<string, Category> = {
       'olfa-dairesel',
       'olfa-falcata',
       'olfa-is-guvenligi',
+      'muhafaza-atik-kutulari',
     ],
     order: 3,
     isFeatured: true,

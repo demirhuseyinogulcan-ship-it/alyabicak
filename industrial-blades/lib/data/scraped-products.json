@@ -3616,32 +3616,35 @@
     "order": 212
   },
   {
-    "id": "i-gvenlii-muhafaza-atik-kutusu",
-    "slug": "na-is-guvenligi-muhafaza-atik-kutusu",
-    "code": "N/A",
-    "name": "N/A - İŞ GÜVENLİĞİ MUHAFAZA ATIK KUTUSU",
-    "description": "İŞ GÜVENLİĞİ MUHAFAZA ATIK KUTUSU. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "is-guvenligi-muhafaza-atik-kutusu",
+    "slug": "is-guvenligi-muhafaza-atik-kutusu",
+    "code": "MAK-001",
+    "name": "İş Güvenliği Muhafaza Atık Kutusu",
+    "description": "Kesici alet atıklarının güvenli şekilde toplanması ve imha edilmesi için özel tasarlanmış muhafaza kutusu. İş güvenliği denetimleri için uygundur.",
     "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
-    "image": "/images/products/na-is-guvenligi-muhafaza-atik-kutusu.jpg",
+    "subcategoryId": "muhafaza-atik-kutulari",
+    "image": "/images/products/is-guvenligi-muhafaza-atik-kutusu.jpg",
     "variants": [
       {
-        "id": "na-is-guvenligi-muhafaza-atik-kutusu-standard",
-        "sku": "N/A",
+        "id": "is-guvenligi-muhafaza-atik-kutusu-standard",
+        "sku": "MAK-001",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Dayanıklı Plastik",
+      "capacity": "Standart Kapasite"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Güvenli atık toplama",
+      "İş güvenliği denetimlerine uygun",
+      "Kolay kullanım",
+      "Dayanıklı yapı"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kesici alet atık toplama",
+      "İş güvenliği uygulamaları",
+      "Endüstriyel tesisler"
     ],
     "isFeatured": false,
     "isActive": true,
