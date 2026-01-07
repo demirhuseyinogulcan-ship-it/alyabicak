@@ -23,6 +23,7 @@ interface MegaMenuProps {
   categories: CategoryView[]
   isOpen: boolean
   onClose: () => void
+  locale?: string
 }
 
 // Subcategory Card - Memoized for performance
