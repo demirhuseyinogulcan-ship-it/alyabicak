@@ -102,37 +102,3 @@ export function WhyThisProduct({
   );
 }
 
-// Alternatif: Minimal liste versiyonu
-export function WhyThisProductList({ 
-  benefits = DEFAULT_BENEFITS, 
-  title = 'Neden Bu Ürün?' 
-}: WhyThisProductProps) {
-  const displayBenefits = benefits.length > 0 ? benefits : DEFAULT_BENEFITS;
-
-  return (
-    <section className="py-8">
-      <div className="container mx-auto px-4">
-        <h2 className="text-lg font-medium text-steel-900 mb-4">
-          {title}
-        </h2>
-        
-        <ul className="space-y-3">
-          {displayBenefits.map((benefit, index) => (
-            <li 
-              key={index}
-              className="flex items-start gap-3"
-            >
-              <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0" />
-              <div>
-                <span className="font-medium text-steel-800">{benefit.title}</span>
-                <span className="text-steel-500"> — </span>
-                <span className="text-steel-600">{benefit.description}</span>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  );
-}
-
