@@ -480,7 +480,9 @@ export function getProductBySlug(slug: string, locale: string = DEFAULT_LOCALE):
   const baseProduct = getBaseProductBySlug(slug);
   if (baseProduct && baseProduct.isActive) {
     const converted = convertBaseToExtended(baseProduct);
-    return translateProductExtended(converted, locale);
+    if (converted) {
+      return translateProductExtended(converted, locale);
+    }
   }
   
   return undefined;
@@ -499,7 +501,9 @@ export function getProductById(id: string, locale: string = DEFAULT_LOCALE): Pro
   const baseProduct = allBaseProducts.find(p => p.id === id && p.isActive);
   if (baseProduct) {
     const converted = convertBaseToExtended(baseProduct);
-    return translateProductExtended(converted, locale);
+    if (converted) {
+      return translateProductExtended(converted, locale);
+    }
   }
   
   return undefined;
