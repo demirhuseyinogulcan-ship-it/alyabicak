@@ -1,10 +1,14 @@
 /**
- * Global Image Protection
- * Tüm site görsellerini koruma altına alır
+ * Global Site Protection
+ * Tüm siteyi koruma altına alır (sağ tık, dev tools, kaynak kodu vb.)
  * Layout.tsx'e eklenerek çalışır
  * 
- * NOT: Hydration hatası önlemek için görsellere doğrudan style eklemiyoruz
- * Bunun yerine event listener'lar ve CSS kullanıyoruz
+ * Koruma Özellikleri:
+ * - Sağ tık engelleme (tüm sayfa) - sessiz, uyarı yok
+ * - F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U engelleme
+ * - Ctrl+S (sayfa kaydetme) engelleme
+ * - Görsel sürükleme engelleme
+ * - Metin seçimi kısıtlama (görseller üzerinde)
  */
 
 'use client'
@@ -13,18 +17,10 @@ import { useEffect } from 'react'
 
 export default function GlobalImageProtection() {
   useEffect(() => {
-    // Sağ tık engelleme (sadece görseller için)
+    // Tüm sayfa için sağ tık engelleme (sessiz - uyarı yok)
     const handleContextMenu = (e: MouseEvent) => {
-      const target = e.target as HTMLElement
-      
-      // Görsel mi kontrol et
-      if (target.tagName === 'IMG' || target.closest('img')) {
-        e.preventDefault()
-        
-        // Kısa uyarı göster (opsiyonel)
-        showProtectionWarning(e.clientX, e.clientY)
-        return false
-      }
+      e.preventDefault()
+      return false
     }
 
     // Sürükleme engelleme
@@ -36,11 +32,42 @@ export default function GlobalImageProtection() {
       }
     }
 
-    // Klavye kısayolları (görselleri kaydetme girişimleri)
+    // Klavye kısayolları engelleme
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Ctrl+S engelleme (sayfa kaydetme)
+      // F12 - DevTools
+      if (e.key === 'F12') {
+        e.preventDefault()
+        return false
+      }
+      
+      // Ctrl+Shift+I - DevTools
+      if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+        e.preventDefault()
+        return false
+      }
+      
+      // Ctrl+Shift+J - Console
+      if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+        e.preventDefault()
+        return false
+      }
+      
+      // Ctrl+Shift+C - Inspect element
+      if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+        e.preventDefault()
+        return false
+      }
+      
+      // Ctrl+U - View source
+      if (e.ctrlKey && e.key === 'u') {
+        e.preventDefault()
+        return false
+      }
+      
+      // Ctrl+S - Save page
       if (e.ctrlKey && e.key === 's') {
         e.preventDefault()
+        return false
       }
     }
 
@@ -58,52 +85,5 @@ export default function GlobalImageProtection() {
   }, [])
 
   return null // Bu component görsel render etmez, sadece koruma sağlar
-}
-
-// Koruma uyarısı göster
-function showProtectionWarning(x: number, y: number) {
-  // Mevcut uyarıyı kaldır
-  const existingWarning = document.getElementById('image-protection-warning')
-  if (existingWarning) {
-    existingWarning.remove()
-  }
-
-  // Yeni uyarı oluştur
-  const warning = document.createElement('div')
-  warning.id = 'image-protection-warning'
-  warning.innerHTML = `
-    <div style="
-      position: fixed;
-      left: ${x}px;
-      top: ${y}px;
-      transform: translate(-50%, -50%);
-      background: rgba(0, 0, 0, 0.8);
-      color: white;
-      padding: 8px 16px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 500;
-      z-index: 99999;
-      pointer-events: none;
-      animation: fadeInOut 2s ease-in-out forwards;
-    ">
-      Bu görsel korumalıdır
-    </div>
-    <style>
-      @keyframes fadeInOut {
-        0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
-        15% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-        85% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-        100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
-      }
-    </style>
-  `
-  
-  document.body.appendChild(warning)
-  
-  // 2 saniye sonra kaldır
-  setTimeout(() => {
-    warning.remove()
-  }, 2000)
 }
 
