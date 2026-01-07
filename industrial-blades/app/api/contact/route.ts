@@ -38,6 +38,14 @@ const apiMessages = {
     emailNotConfigured: 'Email service not configured.',
     genericError: 'An error occurred. Please try again later.',
   },
+  ar: {
+    rateLimited: 'طلبات كثيرة جداً. يرجى الانتظار دقيقة.',
+    invalidFormData: 'بيانات النموذج غير صالحة',
+    successMessage: 'تم إرسال رسالتك بنجاح. سنعود إليك قريباً.',
+    developmentMode: 'تم استلام الرسالة (وضع التطوير).',
+    emailNotConfigured: 'خدمة البريد الإلكتروني غير مهيأة.',
+    genericError: 'حدث خطأ. يرجى المحاولة لاحقاً.',
+  },
 }
 
 // Rate limiting için basit in-memory store
