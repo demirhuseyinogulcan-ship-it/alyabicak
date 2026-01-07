@@ -12,6 +12,7 @@ import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import CookieConsent from '@/components/CookieConsent';
 import GlobalImageProtection from '@/components/GlobalImageProtection';
+import AnalyticsProvider from '@/components/analytics/AnalyticsProvider';
 import { SkipLink } from '@/components/ui';
 import { generateOrganizationSchema, generateLocalBusinessSchema } from '@/lib/seo';
 import { siteConfig } from '@/lib/config';
@@ -148,6 +149,7 @@ export default async function LocaleLayout({
           <WhatsAppButton />
           <CookieConsent />
           <GlobalImageProtection />
+          <AnalyticsProvider />
         </LocaleProvider>
       </body>
     </html>

@@ -15,6 +15,7 @@ import { productService } from '@/lib/services'
 import { categoryService } from '@/lib/services'
 import { ProductCardView } from '@/lib/types'
 import { useLocale } from '@/lib/i18n/client'
+import { trackSearch, trackProductClick } from '@/lib/analytics'
 
 interface SearchModalProps {
   isOpen: boolean
@@ -77,6 +78,9 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         setResults(cardViews)
         setIsSearching(false)
         setSelectedIndex(0)
+        
+        // Track search query in analytics
+        trackSearch(query.trim(), cardViews.length)
       } else {
         setResults([])
       }

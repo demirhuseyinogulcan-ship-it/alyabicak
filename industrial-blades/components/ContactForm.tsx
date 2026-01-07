@@ -10,6 +10,7 @@ import { Send, CheckCircle, AlertCircle } from 'lucide-react'
 import { contactFormSchema, type ContactFormData, validateForm } from '@/lib/validations'
 import { Button } from '@/components/ui'
 import { useLocale } from '@/lib/i18n/client'
+import { trackContactFormSubmit } from '@/lib/analytics'
 
 type FormErrors = Partial<Record<keyof ContactFormData, string>>
 
@@ -80,6 +81,13 @@ export default function ContactForm() {
       if (!response.ok || !result.success) {
         throw new Error(result.error || 'Bir hata oluştu')
       }
+      
+      // Track successful form submission in analytics
+      trackContactFormSubmit({
+        subject: formData.subject,
+        hasCompany: !!formData.company,
+        locale: locale,
+      })
       
       setStatus('success')
       setFormData(initialFormData)

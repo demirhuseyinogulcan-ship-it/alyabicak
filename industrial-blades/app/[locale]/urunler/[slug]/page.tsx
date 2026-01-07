@@ -16,6 +16,7 @@ import {
   RelatedProducts,
   ProductBreadcrumb,
 } from '@/components/product';
+import { ProductViewTracker } from '@/components/analytics';
 import { siteConfig } from '@/lib/config/site.config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 
@@ -151,6 +152,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      
+      {/* Analytics - Track product view */}
+      <ProductViewTracker
+        productId={product.id}
+        productName={product.name}
+        category={product.categoryId}
+        subcategory={product.subcategoryId}
       />
       
       {/* Breadcrumb */}
