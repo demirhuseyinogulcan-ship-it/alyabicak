@@ -1,6 +1,10 @@
 /**
  * i18n Middleware
- * Dil algılama ve URL yönlendirmesi
+ * Domain ve dil algılama ile URL yönlendirmesi
+ * 
+ * Domain Strategy:
+ * - alyabicak.com → Türkçe (tr)
+ * - alyablade.com → English/Arabic (global)
  */
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -11,33 +15,59 @@ function isValidLocale(value: string): value is Locale {
   return (i18nConfig.locales as readonly string[]).includes(value);
 }
 
+// Domain'den locale belirle
+function getLocaleFromDomain(hostname: string): Locale | null {
+  const domains = i18nConfig.domains as Record<string, string>;
+  const domainLocale = domains[hostname];
+  if (domainLocale && isValidLocale(domainLocale)) {
+    return domainLocale;
+  }
+  return null;
+}
+
 function getLocale(request: NextRequest): string {
-  // 1. URL'den locale kontrol et
+  const hostname = request.headers.get('host') || '';
+  
+  // 1. Domain'den locale kontrol et (en yüksek öncelik)
+  const domainLocale = getLocaleFromDomain(hostname);
+  
+  // 2. URL'den locale kontrol et
   const pathname = request.nextUrl.pathname;
   const pathnameLocale = i18nConfig.locales.find(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
   if (pathnameLocale) return pathnameLocale;
 
-  // 2. Cookie'den locale kontrol et
+  // 3. Cookie'den locale kontrol et
   const localeCookie = request.cookies.get('NEXT_LOCALE')?.value;
   if (localeCookie && isValidLocale(localeCookie)) {
+    // Eğer domain Türkçe ise ve cookie farklı dil ise, domain öncelikli
+    if (domainLocale === 'tr' && localeCookie !== 'tr') {
+      // Türkçe domain'de sadece Türkçe (alyabicak.com)
+      return 'tr';
+    }
+    // Global domain'de (alyablade.com) cookie'ye izin ver
+    if (domainLocale !== 'tr') {
+      return localeCookie;
+    }
     return localeCookie;
   }
 
-  // 3. Accept-Language header'dan kontrol et
-  const acceptLanguage = request.headers.get('accept-language');
-  if (acceptLanguage) {
-    const preferredLocale = acceptLanguage
-      .split(',')
-      .map((lang) => lang.split(';')[0].trim().substring(0, 2))
-      .find((lang) => isValidLocale(lang));
-    
-    if (preferredLocale) return preferredLocale;
+  // 4. Accept-Language header'dan kontrol et (sadece global domain için)
+  if (domainLocale !== 'tr') {
+    const acceptLanguage = request.headers.get('accept-language');
+    if (acceptLanguage) {
+      const preferredLocale = acceptLanguage
+        .split(',')
+        .map((lang) => lang.split(';')[0].trim().substring(0, 2))
+        .find((lang) => isValidLocale(lang));
+      
+      if (preferredLocale) return preferredLocale;
+    }
   }
 
-  // 4. Default locale döndür
-  return i18nConfig.defaultLocale;
+  // 5. Domain default veya global default döndür
+  return domainLocale || i18nConfig.defaultLocale;
 }
 
 export function middleware(request: NextRequest) {

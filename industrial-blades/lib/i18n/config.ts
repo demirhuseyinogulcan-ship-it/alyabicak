@@ -16,6 +16,13 @@ export const i18nConfig = {
     en: '🇬🇧',
     ar: '🇪🇬', // Mısır bayrağı (veya 🇸🇦 Suudi Arabistan)
   },
+  // Domain-based routing
+  domains: {
+    'alyabicak.com': 'tr',      // Türkçe domain
+    'www.alyabicak.com': 'tr',
+    'alyablade.com': 'en',      // Global domain (default: English)
+    'www.alyablade.com': 'en',
+  },
 } as const;
 
 export type Locale = (typeof i18nConfig.locales)[number];

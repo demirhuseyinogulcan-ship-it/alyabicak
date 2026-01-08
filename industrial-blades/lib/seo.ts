@@ -11,6 +11,14 @@ export interface SEOConfig {
   url?: string
   type?: 'website' | 'article'
   locale?: Locale
+  path?: string // URL path for hreflang generation
+}
+
+// Domain configuration for multi-domain i18n
+const DOMAIN_CONFIG: Record<Locale, string> = {
+  tr: 'https://alyabicak.com',
+  en: 'https://alyablade.com',
+  ar: 'https://alyablade.com',
 }
 
 // Locale to OpenGraph locale mapping
@@ -43,6 +51,27 @@ const languageNameMap: Record<string, string> = {
   ko: 'Korean',
 }
 
+// Generate hreflang URLs for all locales
+export function generateHreflangUrls(path: string = ''): Record<string, string> {
+  const hreflangs: Record<string, string> = {}
+  
+  for (const locale of i18nConfig.locales) {
+    const domain = DOMAIN_CONFIG[locale]
+    hreflangs[locale] = `${domain}/${locale}${path}`
+  }
+  
+  // x-default should point to English version
+  hreflangs['x-default'] = `${DOMAIN_CONFIG.en}/en${path}`
+  
+  return hreflangs
+}
+
+// Get canonical URL based on locale
+export function getCanonicalUrl(locale: Locale, path: string = ''): string {
+  const domain = DOMAIN_CONFIG[locale]
+  return `${domain}/${locale}${path}`
+}
+
 export function generateMetadata(config: SEOConfig): Metadata {
   const title = config.title.includes('Alya Bıçak') || config.title.includes('Alya Blade')
     ? config.title 
@@ -57,6 +86,14 @@ export function generateMetadata(config: SEOConfig): Metadata {
   ].join(', ')
 
   const ogLocale = config.locale ? ogLocaleMap[config.locale] || 'tr_TR' : 'tr_TR'
+  
+  // Generate canonical URL based on locale and domain
+  const canonicalUrl = config.locale && config.path 
+    ? getCanonicalUrl(config.locale, config.path)
+    : config.url
+  
+  // Generate hreflang alternates
+  const hreflangUrls = config.path ? generateHreflangUrls(config.path) : {}
 
   return {
     title,
@@ -65,7 +102,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
     openGraph: {
       title,
       description: config.description,
-      url: config.url,
+      url: canonicalUrl,
       siteName: 'Alya Bıçak',
       images: config.image ? [{ url: config.image }] : [{ url: `${siteConfig.url}/images/og-image.jpg` }],
       locale: ogLocale,
@@ -78,7 +115,8 @@ export function generateMetadata(config: SEOConfig): Metadata {
       images: config.image ? [config.image] : [`${siteConfig.url}/images/og-image.jpg`],
     },
     alternates: {
-      canonical: config.url,
+      canonical: canonicalUrl,
+      languages: Object.keys(hreflangUrls).length > 0 ? hreflangUrls : undefined,
     },
   }
 }

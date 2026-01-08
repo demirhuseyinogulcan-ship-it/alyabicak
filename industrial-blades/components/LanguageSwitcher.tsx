@@ -1,6 +1,10 @@
 /**
  * Language Switcher Component
- * Dil değiştirme butonu
+ * Dil değiştirme butonu - Domain-aware
+ * 
+ * Domain Strategy:
+ * - Türkçe (tr) → alyabicak.com
+ * - English/Arabic → alyablade.com
  */
 
 'use client';
@@ -9,6 +13,13 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { Globe, ChevronDown, Check } from 'lucide-react';
 import { i18nConfig, type Locale } from '@/lib/i18n';
+
+// Domain mappings
+const DOMAIN_CONFIG = {
+  tr: 'alyabicak.com',
+  en: 'alyablade.com',
+  ar: 'alyablade.com',
+} as const;
 
 export function LanguageSwitcher() {
   const pathname = usePathname();
@@ -43,7 +54,20 @@ export function LanguageSwitcher() {
     // Cookie'yi güncelle
     document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
     
-    router.push(newPath);
+    // Production'da domain değişikliği gerekiyor mu kontrol et
+    const currentHost = typeof window !== 'undefined' ? window.location.hostname : '';
+    const targetDomain = DOMAIN_CONFIG[newLocale];
+    const isProduction = currentHost.includes('alyablade.com') || currentHost.includes('alyabicak.com');
+    
+    if (isProduction && !currentHost.includes(targetDomain.replace('www.', ''))) {
+      // Farklı domain'e yönlendir
+      const protocol = typeof window !== 'undefined' ? window.location.protocol : 'https:';
+      window.location.href = `${protocol}//${targetDomain}${newPath}`;
+    } else {
+      // Aynı domain'de kal
+      router.push(newPath);
+    }
+    
     setIsOpen(false);
   };
 

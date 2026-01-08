@@ -2,8 +2,13 @@
  * Site Konfigürasyonu
  * Merkezi yapılandırma dosyası - Production'da environment variable kullanın
  * 
+ * Multi-domain Strategy:
+ * - alyabicak.com → Turkish content
+ * - alyablade.com → English & Global languages
+ * 
  * Environment Variables (.env.local):
- * NEXT_PUBLIC_SITE_URL=https://www.alyabicak.com
+ * NEXT_PUBLIC_SITE_URL=https://alyabicak.com
+ * NEXT_PUBLIC_GLOBAL_URL=https://alyablade.com
  * NEXT_PUBLIC_PHONE=+90 (216) 575 17 91
  * NEXT_PUBLIC_WHATSAPP=905350504613
  * NEXT_PUBLIC_EMAIL=info@alyatekstil.com
@@ -15,9 +20,17 @@ export const siteConfig = {
   tagline: 'Endüstriyel Kesici Bıçaklar | Sheffield Kalitesi',
   description: 'Alya Bıçak - Endüstriyel kesici bıçaklar, makina bıçakları, sanayi jiletleri. Sheffield kalitesi ile üretilmiş profesyonel bıçaklar. 30 yıllık tecrübe.',
   
-  // URL'ler
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.alyabicak.com',
+  // URL'ler - Multi-domain
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://alyabicak.com',      // Turkish domain
+  globalUrl: process.env.NEXT_PUBLIC_GLOBAL_URL || 'https://alyablade.com', // Global domain
   mainSiteUrl: 'https://www.alyatekstil.com',
+  
+  // Domain mapping
+  domains: {
+    tr: 'https://alyabicak.com',
+    en: 'https://alyablade.com',
+    ar: 'https://alyablade.com',
+  },
   
   // İletişim Bilgileri
   contact: {
