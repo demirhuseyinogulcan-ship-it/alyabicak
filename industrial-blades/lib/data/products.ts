@@ -24,8 +24,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: 'H006 001 X01',
     name: 'RETRO LIGHT KNIFE – Döküm Metal El Bıçağı',
     description: 'RETRO LIGHT KNIFE – Döküm Metal El Bıçağı. İş güvenliği standartlarına uygun, dayanıklı döküm metal gövdeli el bıçağı.',
-    categoryId: 'is-guvenligi-el-bicaklari',
-    subcategoryId: 'sabit-uclu',
+    categoryId: 'safety-knives',
+    subcategoryId: 'fixed-blade',
     image: '/images/products/H006-001-X01.jpg',
     variants: [
       {
@@ -50,8 +50,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: 'H008 001 A03',
     name: 'AUTO RETRACT – Otomatik Geri Çekilebilir',
     description: 'AUTO RETRACT – Otomatik Geri Çekilebilir bıçak. Maksimum güvenlik için otomatik geri çekilme mekanizması.',
-    categoryId: 'is-guvenligi-el-bicaklari',
-    subcategoryId: 'oto-geri-cekilebilir',
+    categoryId: 'safety-knives',
+    subcategoryId: 'auto-retract',
     image: '/images/products/H008-001-A03.jpg',
     variants: [
       {
@@ -77,8 +77,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: 'P1-A',
     name: 'Çapak Alma / Hobi El Bıçağı – Alyan Vidalı',
     description: 'Alyan vidalı çapak alma / hobi el bıçağı. Hassas işler için ideal.',
-    categoryId: 'is-guvenligi-el-bicaklari',
-    subcategoryId: 'capak-alma-hobi',
+    categoryId: 'safety-knives',
+    subcategoryId: 'deburring-hobby',
     image: '/images/products/P1-A.jpg',
     variants: [
       {
@@ -105,8 +105,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: '3DJ-020',
     name: '3 Delikli Dilme Jileti 0.20mm',
     description: '3 delikli titanyum kaplamalı dilme jileti, 0.20mm kalınlık. Endüstriyel dilme makineleri için yüksek performanslı kesim.',
-    categoryId: 'sanayi-jiletleri',
-    subcategoryId: '3-delikli-dilme',
+    categoryId: 'industrial-blades',
+    subcategoryId: '3-hole-slitting',
     image: '/images/products/3-delikli-jilet.jpg',
     variants: [
       {
@@ -145,8 +145,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: 'SLT-020',
     name: 'Slotted Dilme Jileti 0.20mm',
     description: 'Slotted dilme jileti, yüksek performanslı kesim için tasarlanmış.',
-    categoryId: 'sanayi-jiletleri',
-    subcategoryId: 'slotted-dilme',
+    categoryId: 'industrial-blades',
+    subcategoryId: 'slotted-slitting',
     image: '/images/products/slotted-jilet.jpg',
     variants: [
       {
@@ -178,8 +178,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: 'TRP-STD',
     name: 'Trapez Bıçak - Standart',
     description: 'Standart trapez bıçak, çok amaçlı kullanım için ideal.',
-    categoryId: 'sanayi-jiletleri',
-    subcategoryId: 'trapez-bicaklar',
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
     image: '/images/products/trapez-bicak.jpg',
     variants: [
       {
@@ -213,8 +213,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: 'DNR-100',
     name: 'Döner Bıçağı 100mm',
     description: 'Profesyonel kebap döner bıçağı, 100mm çap.',
-    categoryId: 'makina-bicaklari',
-    subcategoryId: 'doner-bicaklari',
+    categoryId: 'machine-knives',
+    subcategoryId: 'rotary-cutting',
     image: '/images/products/doner-bicak.jpg',
     variants: [
       {
@@ -247,8 +247,8 @@ const MANUAL_PRODUCTS: Product[] = [
     code: 'VPB-001',
     name: 'Vakum Paketleme Bıçağı',
     description: 'Vakum paketleme makineleri için özel tasarlanmış bıçak.',
-    categoryId: 'makina-bicaklari',
-    subcategoryId: 'vakum-paketleme',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
     image: '/images/products/vakum-paketleme.jpg',
     variants: [
       {

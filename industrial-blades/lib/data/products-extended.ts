@@ -30,8 +30,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     name: 'RETRO LIGHT KNIFE',
     subtitle: 'Döküm Metal El Bıçağı',
     
-    categoryId: 'is-guvenligi-el-bicaklari',
-    subcategoryId: 'sabit-uclu',
+    categoryId: 'safety-knives',
+    subcategoryId: 'fixed-blade',
     tags: ['döküm metal', 'sabit uç', 'profesyonel', 'iş güvenliği'],
     
     shortDescription: 'İş güvenliği standartlarına uygun, dayanıklı döküm metal gövdeli profesyonel el bıçağı. Sheffield çeliğinden üretilmiş kesici uç ile uzun ömürlü performans.',
@@ -147,8 +147,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     name: 'AUTO RETRACT',
     subtitle: 'Otomatik Geri Çekilebilir El Bıçağı',
     
-    categoryId: 'is-guvenligi-el-bicaklari',
-    subcategoryId: 'oto-geri-cekilebilir',
+    categoryId: 'safety-knives',
+    subcategoryId: 'auto-retract',
     tags: ['otomatik', 'geri çekilebilir', 'güvenlik', 'iş güvenliği'],
     
     shortDescription: 'Maksimum güvenlik için otomatik geri çekilme mekanizmalı profesyonel el bıçağı. Bıçak bırakıldığında otomatik olarak geri çekilir.',
@@ -214,8 +214,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     name: '3 Delikli Dilme Jileti',
     subtitle: 'Titanyum Kaplamalı - 0.20mm',
     
-    categoryId: 'sanayi-jiletleri',
-    subcategoryId: '3-delikli-dilme',
+    categoryId: 'industrial-blades',
+    subcategoryId: '3-hole-slitting',
     tags: ['3 delikli', 'dilme jileti', 'titanyum kaplama', 'endüstriyel jilet', 'sheffield'],
     
     shortDescription: 'Sheffield çeliğinden üretilmiş, titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performanslı endüstriyel jilet.',

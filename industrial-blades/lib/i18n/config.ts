@@ -21,19 +21,20 @@ export const i18nConfig = {
 export type Locale = (typeof i18nConfig.locales)[number];
 
 // URL path mapping for each locale
+// Note: All locales now use the same English paths for international SEO consistency
 export const localePaths: Record<Locale, Record<string, string>> = {
   tr: {
     home: '',
-    products: 'urunler',
-    categories: 'kategoriler',
-    about: 'hakkimizda',
-    contact: 'iletisim',
-    blog: 'bulten',
-    consulting: 'danismanlik',
-    catalog: 'katalog',
-    quality: 'kalite-standartlarimiz',
-    privacy: 'kvkk',
-    cookies: 'cerez-politikasi',
+    products: 'products',
+    categories: 'categories',
+    about: 'about',
+    contact: 'contact',
+    blog: 'newsletter',
+    consulting: 'consulting',
+    catalog: 'catalog',
+    quality: 'quality-standards',
+    privacy: 'privacy-policy',
+    cookies: 'cookie-policy',
   },
   en: {
     home: '',
@@ -41,7 +42,7 @@ export const localePaths: Record<Locale, Record<string, string>> = {
     categories: 'categories',
     about: 'about',
     contact: 'contact',
-    blog: 'blog',
+    blog: 'newsletter',
     consulting: 'consulting',
     catalog: 'catalog',
     quality: 'quality-standards',
@@ -50,16 +51,16 @@ export const localePaths: Record<Locale, Record<string, string>> = {
   },
   ar: {
     home: '',
-    products: 'منتجات', // muntajat
-    categories: 'فئات', // fi'at
-    about: 'من-نحن', // man-nahnu
-    contact: 'اتصل-بنا', // ittisal-bina
-    blog: 'أخبار', // akhbar
-    consulting: 'استشارات', // istisharat
-    catalog: 'كتالوج', // kataluj
-    quality: 'معايير-الجودة', // ma'ayir-aljawda
-    privacy: 'سياسة-الخصوصية', // siyasat-alkhususiya
-    cookies: 'سياسة-ملفات-تعريف-الارتباط', // siyasat-cookies
+    products: 'products',
+    categories: 'categories',
+    about: 'about',
+    contact: 'contact',
+    blog: 'newsletter',
+    consulting: 'consulting',
+    catalog: 'catalog',
+    quality: 'quality-standards',
+    privacy: 'privacy-policy',
+    cookies: 'cookie-policy',
   },
 };
 

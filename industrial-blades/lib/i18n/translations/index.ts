@@ -15,7 +15,7 @@
  * import { getHeroSlideTranslation, getCategoryTranslation, getProductTranslation } from '@/lib/i18n/translations';
  * 
  * const slide = getHeroSlideTranslation('slide-1', 'en');
- * const category = getCategoryTranslation('sanayi-jiletleri', 'en');
+ * const category = getCategoryTranslation('industrial-blades', 'en');
  * const product = getProductTranslation('b101', 'en');
  */
 

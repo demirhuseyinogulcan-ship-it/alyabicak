@@ -125,7 +125,7 @@ const categories = categoryService.getAllCategoriesWithCounts();
 const featuredProducts = productService.getFeaturedCards();
 
 // Kategoriye göre ürünleri al
-const categoryProducts = productService.getCategoryCards('sanayi-jiletleri');
+const categoryProducts = productService.getCategoryCards('industrial-blades');
 
 // Arama yap
 const searchResults = productService.search('trapez');
@@ -147,8 +147,8 @@ const searchResults = productService.search('trapez');
 
 ## Yapılacaklar 🚧
 
-- [ ] Ürün detay sayfası (`/urunler/[slug]`)
-- [ ] Ürün listeleme sayfası (`/urunler`)
+- [ ] Ürün detay sayfası (`/products/[slug]`)
+- [ ] Ürün listeleme sayfası (`/products`)
 - [ ] Sheffield Kalitesi sayfası
 - [ ] Blog/İçerik sayfaları
 - [ ] Görsel optimizasyonu
@@ -169,14 +169,14 @@ const searchResults = productService.search('trapez');
 
 ### Mevcut Durum (Ocak 2026)
 ```
-alyabicak.com/tr/urunler/...  ✅ Çalışıyor
-alyabicak.com/en/urunler/...  ✅ Çalışıyor (Türkçe path)
-alyabicak.com/ar/urunler/...  ✅ Çalışıyor (Türkçe path)
+alyabicak.com/tr/products/...  ✅ Çalışıyor
+alyabicak.com/en/products/...  ✅ Çalışıyor (Türkçe path)
+alyabicak.com/ar/products/...  ✅ Çalışıyor (Türkçe path)
 ```
 
 ### Hedef Durum (İleride)
 ```
-alyabicak.com/tr/urunler/...        ✅ Türkiye
+alyabicak.com/tr/products/...        ✅ Türkiye
 alyablade.com/en/products/...       🎯 Global - İngilizce path
 alyablade.com/ar/منتجات/...         🎯 Global - Arapça path
 ```

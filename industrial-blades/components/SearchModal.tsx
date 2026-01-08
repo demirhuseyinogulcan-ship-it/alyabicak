@@ -109,7 +109,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         e.preventDefault()
         if (results[selectedIndex]) {
           saveRecentSearch(query)
-          window.location.href = `/${locale}/urunler/${results[selectedIndex].slug}`
+          window.location.href = `/${locale}/products/${results[selectedIndex].slug}`
         }
         break
     }
@@ -190,7 +190,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
               {results.map((product, index) => (
                 <Link
                   key={product.id}
-                  href={`/${locale}/urunler/${product.slug}`}
+                  href={`/${locale}/products/${product.slug}`}
                   onClick={() => {
                     saveRecentSearch(query)
                     onClose()
@@ -288,7 +288,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                   {categoryService.getAllCategoriesWithCounts(locale).map(cat => (
                     <Link
                       key={cat.id}
-                      href={`/${locale}/kategoriler/${cat.slug}`}
+                      href={`/${locale}/categories/${cat.slug}`}
                       onClick={onClose}
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-steel-50 transition-colors"
                     >

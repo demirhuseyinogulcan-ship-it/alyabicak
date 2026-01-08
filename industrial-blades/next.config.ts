@@ -66,8 +66,8 @@ const nextConfig: NextConfig = {
     return [
       // Örnek: eski URL'leri yeni URL'lere yönlendir
       // {
-      //   source: '/urunler',
-      //   destination: '/kategoriler',
+      //   source: '/products',
+      //   destination: '/categories',
       //   permanent: true,
       // },
     ];

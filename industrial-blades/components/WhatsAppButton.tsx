@@ -30,27 +30,27 @@ export default function WhatsAppButton() {
     if (pathWithoutLocale === '/' || pathWithoutLocale === '') {
       return t.homeMessage;
     }
-    if (pathWithoutLocale === '/kategoriler') {
+    if (pathWithoutLocale === '/categories') {
       return t.categoriesMessage;
     }
-    if (pathWithoutLocale === '/danismanlik') {
+    if (pathWithoutLocale === '/consulting') {
       return t.consultingMessage;
     }
-    if (pathWithoutLocale === '/iletisim') {
+    if (pathWithoutLocale === '/contact') {
       return t.contactMessage;
     }
-    if (pathWithoutLocale === '/hakkimizda') {
+    if (pathWithoutLocale === '/about') {
       return t.aboutMessage;
     }
-    if (pathWithoutLocale === '/bulten') {
+    if (pathWithoutLocale === '/newsletter') {
       return t.blogMessage;
     }
     
     // Kategori sayfaları
-    if (pathWithoutLocale.startsWith('/kategoriler/')) {
+    if (pathWithoutLocale.startsWith('/categories/')) {
       const parts = pathWithoutLocale.split('/');
       if (parts.length >= 4) {
-        // Alt kategori: /kategoriler/sanayi-jiletleri/ok-bicaklar
+        // Alt kategori: /categories/industrial-blades/ok-bicaklar
         const subcategory = parts[3].replace(/-/g, ' ');
         return t.subcategoryMessage.replace('{{subcategory}}', subcategory);
       }

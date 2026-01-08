@@ -37,7 +37,7 @@ export function RelatedProducts({
           {displayProducts.map((product) => (
             <Link
               key={product.id}
-              href={`/${locale}/urunler/${product.slug}`}
+              href={`/${locale}/products/${product.slug}`}
               className="group bg-white rounded-lg border border-steel-100 overflow-hidden hover:border-steel-200 hover:shadow-sm transition-all"
             >
               {/* Görsel - 16:9 aspect ratio, Lutz tarzı */}
@@ -96,7 +96,7 @@ export function RelatedProducts({
         {products.length > maxItems && (
           <div className="mt-8 text-center">
             <Link
-              href={`/${locale}/kategoriler`}
+              href={`/${locale}/categories`}
               className="inline-flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
             >
               {t.productDetail.viewAllProducts}
@@ -132,7 +132,7 @@ export function RelatedProductsCompact({
         {displayProducts.map((product) => (
           <Link
             key={product.id}
-            href={`/${locale}/urunler/${product.slug}`}
+            href={`/${locale}/products/${product.slug}`}
             className="flex gap-3 group"
           >
             {/* Thumbnail */}

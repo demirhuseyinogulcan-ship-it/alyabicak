@@ -129,7 +129,7 @@ export function trackContactFormSubmit(formData: {
 }
 
 /**
- * Track consultation/danismanlik form submission
+ * Track consultation/consulting form submission
  */
 export function trackConsultationRequest(data: {
   industry?: string

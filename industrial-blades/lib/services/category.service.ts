@@ -145,7 +145,7 @@ class CategoryService {
   getCategoryBreadcrumb(categorySlug: string, subcategorySlug?: string, locale: string = DEFAULT_LOCALE): Array<{ name: string; slug: string; url: string }> {
     const breadcrumb: Array<{ name: string; slug: string; url: string }> = [
       { name: locale === 'tr' ? 'Ana Sayfa' : 'Home', slug: '', url: '/' },
-      { name: locale === 'tr' ? 'Kategoriler' : 'Categories', slug: 'kategoriler', url: '/kategoriler' },
+      { name: locale === 'tr' ? 'Kategoriler' : 'Categories', slug: 'kategoriler', url: '/categories' },
     ];
 
     const category = getCategoryBySlug(categorySlug);
@@ -154,7 +154,7 @@ class CategoryService {
       breadcrumb.push({
         name: translatedCategory.name,
         slug: category.slug,
-        url: `/kategoriler/${category.slug}`,
+        url: `/categories/${category.slug}`,
       });
 
       if (subcategorySlug) {
@@ -164,7 +164,7 @@ class CategoryService {
           breadcrumb.push({
             name: translatedSub.name,
             slug: subcategory.slug,
-            url: `/kategoriler/${category.slug}/${subcategory.slug}`,
+            url: `/categories/${category.slug}/${subcategory.slug}`,
           });
         }
       }

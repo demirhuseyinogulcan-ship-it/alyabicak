@@ -72,7 +72,7 @@ export default function MobileMenu({
                 {categories.map((category) => (
                   <Link
                     key={category.id}
-                    href={`/${locale}/kategoriler/${category.slug}`}
+                    href={`/${locale}/categories/${category.slug}`}
                     className="block px-4 py-2 text-sm text-steel-600 hover:text-primary-600 hover:bg-steel-50 rounded-lg"
                     onClick={onClose}
                   >
@@ -83,7 +83,7 @@ export default function MobileMenu({
                   </Link>
                 ))}
                 <Link
-                  href={`/${locale}/kategoriler`}
+                  href={`/${locale}/categories`}
                   className="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-primary-50 rounded-lg"
                   onClick={onClose}
                 >

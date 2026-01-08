@@ -155,7 +155,7 @@ export default function Footer() {
               {categories.map((category) => (
                 <li key={category.id}>
                   <Link 
-                    href={`/${locale}/kategoriler/${category.slug}`} 
+                    href={`/${locale}/categories/${category.slug}`} 
                     className="text-steel-400 text-sm hover:text-white transition-colors"
                   >
                     {category.name}

@@ -21,23 +21,23 @@ export const mainNavigation: NavItem[] = [
   },
   {
     titleKey: 'nav.qualityStandards',
-    href: '/kalite-standartlarimiz',
+    href: '/quality-standards',
   },
   {
     titleKey: 'nav.blog',
-    href: '/bulten',
+    href: '/newsletter',
   },
   {
     titleKey: 'nav.consulting',
-    href: '/danismanlik',
+    href: '/consulting',
   },
   {
     titleKey: 'nav.about',
-    href: '/hakkimizda',
+    href: '/about',
   },
   {
     titleKey: 'nav.contact',
-    href: '/iletisim',
+    href: '/contact',
   },
 ]
 
@@ -53,15 +53,15 @@ export function getLocalizedNavigation(locale: string): NavItem[] {
 
 export const footerNavigation = {
   quickLinks: [
-    { titleKey: 'nav.about', href: '/hakkimizda' },
-    { titleKey: 'nav.industrialCutters', href: '/kategoriler' },
-    { titleKey: 'nav.blog', href: '/bulten' },
-    { titleKey: 'nav.consulting', href: '/danismanlik' },
-    { titleKey: 'nav.contact', href: '/iletisim' },
+    { titleKey: 'nav.about', href: '/about' },
+    { titleKey: 'nav.industrialCutters', href: '/categories' },
+    { titleKey: 'nav.blog', href: '/newsletter' },
+    { titleKey: 'nav.consulting', href: '/consulting' },
+    { titleKey: 'nav.contact', href: '/contact' },
   ],
   legal: [
-    { titleKey: 'footer.privacy', href: '/kvkk' },
-    { titleKey: 'footer.cookies', href: '/cerez-politikasi' },
+    { titleKey: 'footer.privacy', href: '/privacy-policy' },
+    { titleKey: 'footer.cookies', href: '/cookie-policy' },
   ],
 }
 

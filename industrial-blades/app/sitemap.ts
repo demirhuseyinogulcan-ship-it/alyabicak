@@ -10,13 +10,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Ana sayfalar (her dil için)
   const staticRoutes = [
     '',
-    '/hakkimizda',
-    '/iletisim',
-    '/danismanlik',
-    '/kalite-standartlarimiz',
-    '/kategoriler',
-    '/bulten',
-    '/katalog',
+    '/about',
+    '/contact',
+    '/consulting',
+    '/quality-standards',
+    '/categories',
+    '/newsletter',
+    '/catalog',
   ]
 
   // Her dil için static route'lar
@@ -40,13 +40,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   
   const categoryRoutes = locales.flatMap((locale) =>
     categories.map((category) => ({
-      url: `${baseUrl}/${locale}/kategoriler/${category.slug}`,
+      url: `${baseUrl}/${locale}/categories/${category.slug}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.7,
       alternates: {
         languages: Object.fromEntries(
-          locales.map(l => [l, `${baseUrl}/${l}/kategoriler/${category.slug}`])
+          locales.map(l => [l, `${baseUrl}/${l}/categories/${category.slug}`])
         ),
       },
     }))
@@ -57,13 +57,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     subcategories.map((subcategory) => {
       const parentCategory = categories.find(c => c.subcategoryIds.includes(subcategory.id))
       return {
-        url: `${baseUrl}/${locale}/kategoriler/${parentCategory?.slug}/${subcategory.slug}`,
+        url: `${baseUrl}/${locale}/categories/${parentCategory?.slug}/${subcategory.slug}`,
         lastModified: new Date(),
         changeFrequency: 'weekly' as const,
         priority: 0.6,
         alternates: {
           languages: Object.fromEntries(
-            locales.map(l => [l, `${baseUrl}/${l}/kategoriler/${parentCategory?.slug}/${subcategory.slug}`])
+            locales.map(l => [l, `${baseUrl}/${l}/categories/${parentCategory?.slug}/${subcategory.slug}`])
           ),
         },
       }
@@ -74,13 +74,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const products = getAllProducts()
   const productRoutes = locales.flatMap((locale) =>
     products.map((product) => ({
-      url: `${baseUrl}/${locale}/urunler/${product.slug}`,
+      url: `${baseUrl}/${locale}/products/${product.slug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.5,
       alternates: {
         languages: Object.fromEntries(
-          locales.map(l => [l, `${baseUrl}/${l}/urunler/${product.slug}`])
+          locales.map(l => [l, `${baseUrl}/${l}/products/${product.slug}`])
         ),
       },
     }))

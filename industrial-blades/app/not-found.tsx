@@ -56,7 +56,7 @@ export default async function NotFound() {
             <Button href={`/${locale}`} size="lg" icon={Home} iconPosition="left">
               {t.backHome}
             </Button>
-            <Button href={`/${locale}/kategoriler`} variant="outline" size="lg">
+            <Button href={`/${locale}/categories`} variant="outline" size="lg">
               {t.browseProducts}
             </Button>
           </div>
@@ -66,28 +66,28 @@ export default async function NotFound() {
             <p className="text-sm text-steel-500 mb-4">{t.popularPages}</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link 
-                href={`/${locale}/kategoriler/sanayi-jiletleri`}
+                href={`/${locale}/categories/industrial-blades`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
                 {t.industrialBlades}
               </Link>
               <span className="text-steel-300">•</span>
               <Link 
-                href={`/${locale}/kategoriler/makina-bicaklari`}
+                href={`/${locale}/categories/machine-knives`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
                 {t.machineKnives}
               </Link>
               <span className="text-steel-300">•</span>
               <Link 
-                href={`/${locale}/danismanlik`}
+                href={`/${locale}/consulting`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
                 {t.consulting}
               </Link>
               <span className="text-steel-300">•</span>
               <Link 
-                href={`/${locale}/iletisim`}
+                href={`/${locale}/contact`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
                 {t.contact}

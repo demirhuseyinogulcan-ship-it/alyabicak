@@ -6,8 +6,13 @@
  * 
  * i18n: Tüm methodlar locale parametresi alarak çevrilmiş veri döner.
  * Çeviri dosyaları: lib/i18n/translations/products/
+ * 
+ * PERFORMANCE:
+ * - LRU Cache: Çevrilmiş ürünler cache'lenir (max 1000 entry, 10 dk TTL)
+ * - Fallback: Çeviri yoksa İngilizce, o da yoksa Türkçe gösterilir
  */
 
+import { LRUCache } from 'lru-cache';
 import { Product, ProductCardView, ProductDetailView } from '../types';
 import { 
   PRODUCTS,
@@ -26,30 +31,92 @@ import {
   getCategoryTranslation,
   getSubcategoryTranslation,
 } from '../i18n/translations';
+import { getDictionarySync } from '../i18n/dictionaries';
+import type { Locale } from '../i18n/config';
 
 // Default locale for backward compatibility
 const DEFAULT_LOCALE = 'tr';
+
+// Fallback zinciri: Çeviri yoksa hangi dile düşülecek?
+// Global default: İngilizce (uluslararası standart)
+const FALLBACK_CHAIN: Record<string, string[]> = {
+  'tr': ['en'],           // Türkçe → İngilizce
+  'en': ['tr'],           // İngilizce → Türkçe (TR ana kaynak)
+  'ar': ['en', 'tr'],     // Arapça → İngilizce → Türkçe
+  'ru': ['en', 'tr'],     // Rusça → İngilizce → Türkçe
+  'kk': ['ru', 'en', 'tr'], // Kazakça → Rusça → İngilizce → Türkçe
+  'hi': ['en', 'tr'],     // Hintçe → İngilizce → Türkçe
+  'zh': ['en', 'tr'],     // Çince → İngilizce → Türkçe
+  'de': ['en', 'tr'],     // Almanca → İngilizce → Türkçe
+  'fr': ['en', 'tr'],     // Fransızca → İngilizce → Türkçe
+  'es': ['en', 'tr'],     // İspanyolca → İngilizce → Türkçe
+  'default': ['en', 'tr'], // Diğer tüm diller → İngilizce → Türkçe
+};
+
+// LRU Cache yapılandırması
+// 20+ dil senaryosu için optimize edilmiş
+const CACHE_CONFIG = {
+  max: 1000,              // Maksimum 1000 entry (500 ürün × 2 aktif dil)
+  ttl: 1000 * 60 * 10,    // 10 dakika TTL (Time To Live)
+};
 
 // =============================================================================
 // ÜRÜN SERVİSİ
 // =============================================================================
 
 class ProductService {
+  // LRU Cache: Çevrilmiş ürünleri cache'le
+  // Key format: "productId-locale"
+  private translationCache = new LRUCache<string, Product>(CACHE_CONFIG);
+
   /**
-   * Ürünü locale'e göre çevir
+   * Fallback zincirini kullanarak çeviri al
+   * Çeviri yoksa sırasıyla fallback dilleri dener
+   */
+  private getTranslationWithFallback(productId: string, locale: string) {
+    // 1. İstenen dili dene
+    let translation = getProductTranslation(productId, locale);
+    if (translation) return { translation, usedLocale: locale };
+
+    // 2. Fallback zincirini dene
+    const chain = FALLBACK_CHAIN[locale] || FALLBACK_CHAIN.default;
+    for (const fallbackLocale of chain) {
+      translation = getProductTranslation(productId, fallbackLocale);
+      if (translation) return { translation, usedLocale: fallbackLocale };
+    }
+
+    // 3. Hiçbiri yoksa null döndür (orijinal veri kullanılacak)
+    return { translation: null, usedLocale: locale };
+  }
+
+  /**
+   * Ürünü locale'e göre çevir (LRU Cache + Fallback destekli)
    */
   private translateProduct(product: Product, locale: string): Product {
-    const translation = getProductTranslation(product.id, locale);
+    // Cache'te var mı kontrol et
+    const cacheKey = `${product.id}-${locale}`;
+    const cached = this.translationCache.get(cacheKey);
+    if (cached) return cached;
+
+    // Fallback ile çeviri al
+    const { translation } = this.getTranslationWithFallback(product.id, locale);
+    
+    let translatedProduct: Product;
     if (translation) {
-      return {
+      translatedProduct = {
         ...product,
         name: translation.name,
         description: translation.description || product.description,
         features: translation.features || product.features,
         applications: translation.applications || product.applications,
       };
+    } else {
+      translatedProduct = product;
     }
-    return product;
+
+    // Cache'e kaydet
+    this.translationCache.set(cacheKey, translatedProduct);
+    return translatedProduct;
   }
 
   /**
@@ -138,7 +205,58 @@ class ProductService {
   }
 
   /**
+   * Batch işlem: Birden fazla ürünü tek seferde kart görünümüne dönüştür
+   * N+1 problemini önler - kategori çevirilerini bir kez alır
+   * 
+   * @performance Tek tek toCardView() çağırmak yerine bunu kullan
+   */
+  toCardViewBatch(products: Product[], locale: string = DEFAULT_LOCALE): ProductCardView[] {
+    if (products.length === 0) return [];
+
+    // Tüm benzersiz kategori ve alt kategori ID'lerini topla
+    const categoryIds = new Set(products.map(p => p.categoryId));
+    const subcategoryIds = new Set(products.filter(p => p.subcategoryId).map(p => p.subcategoryId!));
+
+    // Kategori çevirilerini bir kez al (N+1 önleme)
+    const categoryCache = new Map<string, { name: string; description: string } | undefined>();
+    const subcategoryCache = new Map<string, { name: string; description: string } | undefined>();
+
+    categoryIds.forEach(id => {
+      categoryCache.set(id, getCategoryTranslation(id, locale));
+    });
+    
+    subcategoryIds.forEach(id => {
+      subcategoryCache.set(id, getSubcategoryTranslation(id, locale));
+    });
+
+    // Şimdi batch dönüşüm yap
+    return products.map(product => {
+      const translatedProduct = this.translateProduct(product, locale);
+      const category = getCategoryById(product.categoryId);
+      const subcategory = product.subcategoryId ? getSubcategoryById(product.subcategoryId) : undefined;
+      
+      const catTranslation = categoryCache.get(product.categoryId);
+      const subTranslation = product.subcategoryId ? subcategoryCache.get(product.subcategoryId) : undefined;
+
+      return {
+        id: translatedProduct.id,
+        slug: translatedProduct.slug,
+        name: translatedProduct.name,
+        code: translatedProduct.code,
+        image: translatedProduct.image,
+        categoryName: catTranslation?.name || category?.name || '',
+        subcategoryName: subTranslation?.name || subcategory?.name || '',
+        hasVariants: translatedProduct.variants.length > 1,
+        variantCount: translatedProduct.variants.length,
+        isFeatured: translatedProduct.isFeatured,
+        inStock: translatedProduct.variants.some(v => v.inStock),
+      };
+    });
+  }
+
+  /**
    * Ürünü detay görünümüne dönüştür
+   * @performance relatedProducts için batch işlem kullanır (N+1 önleme)
    */
   toDetailView(product: Product, locale: string = DEFAULT_LOCALE): ProductDetailView | undefined {
     const translatedProduct = this.translateProduct(product, locale);
@@ -161,15 +279,17 @@ class ProductService {
       : subcategory;
 
     // İlgili ürünleri getir (aynı alt kategoriden veya ana kategoriden)
-    const relatedProducts = product.subcategoryId 
+    // N+1 FIX: Önce filtrele ve slice, sonra BATCH çeviri yap
+    const relatedProductsRaw = product.subcategoryId 
       ? getProductsBySubcategory(product.subcategoryId)
           .filter(p => p.id !== product.id)
           .slice(0, 4)
-          .map(p => this.toCardView(p, locale))
       : getProductsByCategory(product.categoryId)
           .filter(p => p.id !== product.id)
-          .slice(0, 4)
-          .map(p => this.toCardView(p, locale));
+          .slice(0, 4);
+    
+    // Batch işlem ile çevir (N+1 önleme)
+    const relatedProducts = this.toCardViewBatch(relatedProductsRaw, locale);
 
     return {
       ...translatedProduct,
@@ -181,59 +301,69 @@ class ProductService {
 
   /**
    * Öne çıkan ürünleri kart görünümü olarak getir
+   * @performance Batch işlem kullanır
    */
   getFeaturedCards(locale: string = DEFAULT_LOCALE): ProductCardView[] {
-    return getFeaturedProducts().map(p => this.toCardView(p, locale));
+    return this.toCardViewBatch(getFeaturedProducts(), locale);
   }
 
   /**
    * Kategorideki ürünleri kart görünümü olarak getir
+   * @performance Batch işlem kullanır
    */
   getCategoryCards(categoryId: string, locale: string = DEFAULT_LOCALE): ProductCardView[] {
-    return getProductsByCategory(categoryId).map(p => this.toCardView(p, locale));
+    return this.toCardViewBatch(getProductsByCategory(categoryId), locale);
   }
 
   /**
    * Alt kategorideki ürünleri kart görünümü olarak getir
+   * @performance Batch işlem kullanır
    */
   getSubcategoryCards(subcategoryId: string, locale: string = DEFAULT_LOCALE): ProductCardView[] {
-    return getProductsBySubcategory(subcategoryId).map(p => this.toCardView(p, locale));
+    return this.toCardViewBatch(getProductsBySubcategory(subcategoryId), locale);
   }
 
   /**
-   * Ürün breadcrumb'ını oluştur
+   * Ürün breadcrumb'ını oluştur (i18n dictionary destekli)
+   * URL'ler locale prefix içerir: /{locale}/products/...
    */
   getProductBreadcrumb(product: Product, locale: string = DEFAULT_LOCALE): Array<{ name: string; url: string }> {
     const translatedProduct = this.translateProduct(product, locale);
     const category = getCategoryById(product.categoryId);
     const subcategory = product.subcategoryId ? getSubcategoryById(product.subcategoryId) : undefined;
     
-    // Çevirileri al
+    // Dictionary'den UI çevirilerini al
+    const dict = getDictionarySync(locale as Locale);
+    
+    // Kategori/alt kategori çevirilerini al
     const catTranslation = getCategoryTranslation(product.categoryId, locale);
     const subTranslation = product.subcategoryId ? getSubcategoryTranslation(product.subcategoryId, locale) : undefined;
     
+    // Locale prefix (tr için boş, diğerleri için /{locale})
+    const localePrefix = `/${locale}`;
+    
     const breadcrumb = [
-      { name: locale === 'tr' ? 'Ana Sayfa' : 'Home', url: '/' },
-      { name: locale === 'tr' ? 'Ürünler' : 'Products', url: '/urunler' },
+      { name: dict.breadcrumb.home, url: localePrefix || '/' },
+      { name: dict.nav.products, url: `${localePrefix}/products` },
     ];
 
     if (category) {
       breadcrumb.push({
         name: catTranslation?.name || category.name,
-        url: `/kategoriler/${category.slug}`,
+        url: `${localePrefix}/categories/${category.slug}`,
       });
     }
 
     if (subcategory && category) {
       breadcrumb.push({
         name: subTranslation?.name || subcategory.name,
-        url: `/kategoriler/${category.slug}/${subcategory.slug}`,
+        url: `${localePrefix}/categories/${category.slug}/${subcategory.slug}`,
       });
     }
 
     breadcrumb.push({
       name: translatedProduct.name,
-      url: `/urunler/${product.slug}`,
+      url: `${localePrefix}/products/${product.slug}`,
     });
 
     return breadcrumb;

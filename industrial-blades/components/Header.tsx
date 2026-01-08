@@ -144,7 +144,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-2">
             {/* e-Katalog */}
             <a
-              href={`/${locale}/katalog`}
+              href={`/${locale}/catalog`}
               className="flex items-center justify-center h-9 px-3 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors"
             >
               {dict.nav.catalog}

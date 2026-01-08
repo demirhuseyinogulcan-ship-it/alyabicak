@@ -115,7 +115,7 @@ export default function ValueProposition() {
         {/* Simple CTA */}
         <div className="text-center mt-12">
           <Link
-            href={`/${locale}/danismanlik`}
+            href={`/${locale}/consulting`}
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all hover:scale-105"
           >
             {dict.consulting.cta}

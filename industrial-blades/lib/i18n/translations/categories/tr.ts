@@ -2,7 +2,7 @@
  * Categories - Türkçe Çevirileri
  * 
  * Ana kategoriler ve alt kategorilerin Türkçe çevirileri.
- * Slug değerleri değişmez, sadece name ve description çevrilir.
+ * ID'ler İngilizce, sadece name ve description çevrilir.
  */
 
 // =============================================================================
@@ -10,15 +10,15 @@
 // =============================================================================
 
 export const categoriesTr = {
-  'sanayi-jiletleri': {
+  'industrial-blades': {
     name: 'Sanayi Jiletleri',
     description: 'Endüstriyel kullanım için profesyonel sanayi jiletleri ve kesici aletler',
   },
-  'makina-bicaklari': {
+  'machine-knives': {
     name: 'Makina Bıçakları',
     description: 'Endüstriyel makinalar için özel üretim bıçaklar ve kesici sistemler',
   },
-  'is-guvenligi-el-bicaklari': {
+  'safety-knives': {
     name: 'İş Güvenliği & El Bıçakları',
     description: 'İş güvenliği standartlarına uygun profesyonel el bıçakları ve kesici aletler',
   },
@@ -29,196 +29,196 @@ export const categoriesTr = {
 // =============================================================================
 
 export const subcategoriesTr = {
-  // --- SANAYİ JİLETLERİ ---
-  '3-delikli-dilme': {
+  // --- INDUSTRIAL BLADES ---
+  '3-hole-slitting': {
     name: '3 Delikli Dilme Jiletleri',
     description: 'Endüstri standardı 3 delikli jiletler',
   },
-  'slotted-dilme': {
+  'slotted-slitting': {
     name: 'Slotted Dilme Jiletleri',
     description: 'Yüksek performanslı slotted jiletler',
   },
-  'injektor-dilme': {
+  'injector-slitting': {
     name: 'İnjektör Dilme Jiletleri',
     description: 'Hassas kesim için injektör jiletler',
   },
-  'tek-kenarli': {
+  'single-edge': {
     name: 'Tek Kenarlı Jiletler',
     description: 'Güvenli kullanım için tek kenarlı jiletler',
   },
-  'trapez-bicaklar': {
+  'trapezoid-blades': {
     name: 'Trapez Bıçaklar',
     description: 'Çok amaçlı trapez kesim bıçakları',
   },
-  'kanca-bicaklar': {
+  'hook-blades': {
     name: 'Kanca Bıçaklar',
     description: 'Özel uygulamalar için kanca bıçaklar',
   },
-  'falcata-bicaklar': {
+  'craft-blades': {
     name: 'Maket Bıçak Ucu | Falçata',
     description: 'Hassas kesim için maket uçları',
   },
-  'hobi-jiletleri': {
+  'hobby-blades': {
     name: 'Hobi Jiletleri',
     description: 'Hobi ve el işleri için jiletler',
   },
-  'bisturi-nester': {
+  'scalpel-blades': {
     name: 'Bisturi – Neşter',
     description: 'Tıbbi ve endüstriyel hassas kesim için bisturi ve neşter jiletleri',
   },
-  'kesik-elyaf': {
+  'chopped-fiber': {
     name: 'Kesik Elyaf Bıçakları',
     description: 'Elyaf kesimi için özel tasarlanmış bıçaklar',
   },
-  'cam-elyaf': {
+  'fiberglass': {
     name: 'Cam Elyaf Bıçakları',
     description: 'Cam elyaf kesimi için yüksek performanslı bıçaklar',
   },
-  'dairesel-jiletler': {
+  'circular-blades': {
     name: 'Dairesel Jiletler',
     description: 'Döner kesim için dairesel jiletler',
   },
-  'besgen-bicaklar': {
+  'pentagon-blades': {
     name: 'Beşgen Bıçaklar',
     description: 'Özel geometrili beşgen kesim bıçakları',
   },
-  'lamel-yaprak': {
+  'lamella-blades': {
     name: 'Lamel / Yaprak Bıçak',
     description: 'İnce ve hassas kesimler için lamel bıçaklar',
   },
-  'mikrotom-jilet': {
+  'microtome-blades': {
     name: 'Dokubilim / Mikrotom Jileti',
     description: 'Laboratuvar ve histoloji uygulamaları için mikrotom jiletleri',
   },
-  'lasik-mikrokeratom': {
+  'microkeratome-blades': {
     name: 'Lasik / Mikrokeratom Jileti',
     description: 'Göz cerrahisi ve tıbbi uygulamalar için mikrokeratom jiletleri',
   },
-  'cam-kaziyici': {
+  'glass-scraper': {
     name: 'Cam Kazıyıcı',
     description: 'Cam yüzeylerde etiket ve kalıntı temizliği için kazıyıcılar',
   },
-  'klasik-jilet': {
+  'classic-blades': {
     name: 'Klasik Jilet',
     description: 'Geleneksel çift kenarlı klasik jiletler',
   },
-  'alci-levha': {
+  'drywall-blades': {
     name: 'Alçı Levha (Kartonpiyer) Bıçakları',
     description: 'Alçıpan ve kartonpiyer kesimi için özel bıçaklar',
   },
-  'ok-bicaklar': {
+  'arrow-blades': {
     name: 'OK Bıçaklar',
     description: 'Profesyonel ok bıçakları ve jiletler',
   },
 
-  // --- MAKİNA BIÇAKLARI ---
-  'ileri-islem': {
+  // --- MACHINE KNIVES ---
+  'advanced-processing': {
     name: 'İleri İşlem Bıçakları',
     description: 'Endüstriyel ileri işlem uygulamaları için bıçaklar',
   },
-  'termoform-vakum': {
+  'thermoform-vacuum': {
     name: 'Termoform Vakum Bıçakları',
     description: 'Termoform ve vakum paketleme makinaları için',
   },
-  'dairesel-dilme': {
+  'circular-slitting': {
     name: 'Dairesel Dilme Bıçakları',
     description: 'Dairesel dilme makinaları için bıçaklar',
   },
-  'geri-donusum': {
+  'recycling-knives': {
     name: 'Geri Dönüşüm Bıçakları',
     description: 'Geri dönüşüm işlemleri için bıçaklar',
   },
-  'oluklu-mukavva': {
+  'corrugated-slitting': {
     name: 'Oluklu Mukavva Dilme Bıçakları',
     description: 'Mukavva ve karton dilme için özel bıçaklar',
   },
-  'doner-kesim': {
+  'rotary-cutting': {
     name: 'Döner Kesim Bıçakları',
     description: 'Döner kesim makinaları için bıçaklar',
   },
-  'disli-bicaklar': {
+  'serrated-knives': {
     name: 'Dişli Bıçaklar',
     description: 'Testere dişli kesim bıçakları',
   },
-  'dairesel-ezici': {
+  'circular-crusher': {
     name: 'Dairesel Ezici Bıçaklar',
     description: 'Dairesel ezme ve kesme işlemleri için',
   },
-  'et-acma': {
+  'derinder-knives': {
     name: 'Et Açma (Derinder) Bıçakları',
     description: 'Profesyonel et işleme ve derinder bıçakları',
   },
-  'logsaw-kagit': {
+  'logsaw-knives': {
     name: 'Log-Saw Bıçakları',
     description: 'Tuvalet kağıdı ve kağıt havlu için log-saw bıçakları',
   },
-  'masura-kesim': {
+  'core-cutting': {
     name: 'Masura Kesim Bıçakları',
     description: 'Masura ve bobin kesimi için bıçaklar',
   },
-  'kutu-kapama': {
+  'case-sealer': {
     name: 'Kutu Kapama - Koli Bandı Bıçakları',
     description: 'Paketleme ve koli bantlama makinaları için',
   },
-  'zig-zag': {
+  'zig-zag-knives': {
     name: 'Zig Zag Bıçaklar',
     description: 'Zig zag kesim deseni için özel bıçaklar',
   },
-  'serit-bicaklar': {
+  'band-knives': {
     name: 'Şerit Bıçaklar',
     description: 'Şerit testere ve kesim bıçakları',
   },
-  'tray-kalip': {
+  'tray-mold': {
     name: 'Tray (Kase) Kalıp Bıçakları',
     description: 'Tray ve kase kalıp kesimi için bıçaklar',
   },
-  'sosis-siyirma': {
+  'sausage-peeling': {
     name: 'Sosis Sıyırma Bıçakları',
     description: 'Sosis üretim hatları için sıyırma bıçakları',
   },
-  'cnc-bicaklari': {
+  'cnc-knives': {
     name: 'CNC Bıçakları',
     description: 'CNC makinaları için kesici bıçaklar',
   },
-  'plotter-bicaklari': {
+  'plotter-knives': {
     name: 'Plotter Bıçakları',
     description: 'Dijital kesim plotterları için bıçaklar',
   },
 
-  // --- İŞ GÜVENLİĞİ & EL BIÇAKLARI ---
-  'oto-geri-cekilebilir': {
+  // --- SAFETY KNIVES ---
+  'auto-retract': {
     name: 'Otomatik Geri Çekilebilir Bıçaklar',
     description: 'Kesim sonrası otomatik kilitlenen güvenlik bıçakları',
   },
-  'sabit-uclu': {
+  'fixed-blade': {
     name: 'Sabit Uçlu Bıçaklar',
     description: 'Sabit bıçak uçlu güvenlik kesiciler',
   },
-  'guvenlik-bicaklari': {
+  'safety-cutters': {
     name: 'Güvenlik Bıçakları',
     description: 'İş güvenliği sertifikalı özel bıçaklar',
   },
-  'maket-bicaklari': {
+  'utility-knives': {
     name: 'Maket Bıçakları',
     description: 'Profesyonel maket ve kesim bıçakları',
   },
-  'capak-alma-hobi': {
+  'deburring-hobby': {
     name: 'Çapak Alma & Hobi Bıçakları',
     description: 'Detaylı işler için özel bıçaklar',
   },
-  'olfa-dairesel': {
+  'olfa-rotary': {
     name: 'OLFA Dairesel Bıçaklar',
     description: 'OLFA marka dairesel kesim bıçakları',
   },
-  'olfa-falcata': {
+  'olfa-craft': {
     name: 'OLFA Falçata Bıçaklar',
     description: 'OLFA profesyonel falçata serisi',
   },
-  'olfa-is-guvenligi': {
+  'olfa-safety': {
     name: 'OLFA İş Güvenliği Bıçakları',
     description: 'OLFA güvenlik sertifikalı ürünler',
   },
-  'muhafaza-atik-kutulari': {
+  'blade-disposal': {
     name: 'Muhafaza & Atık Kutuları',
     description: 'Kesici alet atıklarının güvenli şekilde toplanması için muhafaza kutuları',
   },

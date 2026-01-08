@@ -141,7 +141,7 @@ export default function HeroSlider() {
                   >
                     {/* Primary CTA */}
                     <Link
-                      href={slide.ctaLink || `/${locale}/kategoriler`}
+                      href={slide.ctaLink || `/${locale}/categories`}
                       className="group inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all shadow-elevated hover:shadow-floating"
                     >
                       <span>{slide.ctaText || dict.consulting.cta}</span>

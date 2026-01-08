@@ -1,227 +1,227 @@
 /**
- * Categories - Arabic Translations (العربية)
+ * Categories - Arabic Translations
  * 
- * الترجمات العربية للفئات الرئيسية والفرعية.
- * تبقى قيم الـ Slug بدون تغيير، يتم ترجمة الاسم والوصف فقط.
+ * Arabic translations for main categories and subcategories.
+ * ID values are in English, matching the new standardized structure.
  */
 
 import type { CategoryTranslations, SubcategoryTranslations } from './tr';
 
 // =============================================================================
-// الفئات الرئيسية
+// MAIN CATEGORIES
 // =============================================================================
 
 export const categoriesAr: CategoryTranslations = {
-  'sanayi-jiletleri': {
+  'industrial-blades': {
     name: 'الشفرات الصناعية',
-    description: 'شفرات وأدوات قطع صناعية احترافية للاستخدام الصناعي',
+    description: 'شفرات صناعية احترافية وأدوات قطع للاستخدام الصناعي',
   },
-  'makina-bicaklari': {
+  'machine-knives': {
     name: 'سكاكين الآلات',
-    description: 'سكاكين وأنظمة قطع مصنعة حسب الطلب للآلات الصناعية',
+    description: 'سكاكين مصنعة خصيصاً وأنظمة قطع للآلات الصناعية',
   },
-  'is-guvenligi-el-bicaklari': {
+  'safety-knives': {
     name: 'سكاكين الأمان واليد',
-    description: 'سكاكين يد وأدوات قطع احترافية متوافقة مع معايير السلامة',
+    description: 'سكاكين يد احترافية وأدوات قطع متوافقة مع معايير السلامة',
   },
 };
 
 // =============================================================================
-// الفئات الفرعية
+// SUBCATEGORIES
 // =============================================================================
 
 export const subcategoriesAr: SubcategoryTranslations = {
-  // --- الشفرات الصناعية ---
-  '3-delikli-dilme': {
-    name: 'شفرات التقطيع 3 ثقوب',
-    description: 'شفرات صناعية قياسية بـ 3 ثقوب',
+  // --- INDUSTRIAL BLADES ---
+  '3-hole-slitting': {
+    name: 'شفرات التقطيع ذات 3 ثقوب',
+    description: 'شفرات معيارية صناعية ذات 3 ثقوب',
   },
-  'slotted-dilme': {
+  'slotted-slitting': {
     name: 'شفرات التقطيع المشقوقة',
     description: 'شفرات مشقوقة عالية الأداء',
   },
-  'injektor-dilme': {
+  'injector-slitting': {
     name: 'شفرات التقطيع الحاقنة',
     description: 'شفرات حاقنة للقطع الدقيق',
   },
-  'tek-kenarli': {
-    name: 'شفرات حافة واحدة',
-    description: 'شفرات حافة واحدة للاستخدام الآمن',
+  'single-edge': {
+    name: 'شفرات أحادية الحافة',
+    description: 'شفرات أحادية الحافة للاستخدام الآمن',
   },
-  'trapez-bicaklar': {
-    name: 'شفرات شبه منحرف',
-    description: 'شفرات قطع شبه منحرف متعددة الاستخدامات',
+  'trapezoid-blades': {
+    name: 'شفرات شبه منحرفة',
+    description: 'شفرات قطع متعددة الأغراض',
   },
-  'kanca-bicaklar': {
+  'hook-blades': {
     name: 'شفرات الخطاف',
-    description: 'شفرات خطاف للتطبيقات الخاصة',
+    description: 'شفرات خطافية للتطبيقات الخاصة',
   },
-  'falcata-bicaklar': {
-    name: 'شفرات القطر | قاطع',
-    description: 'أطراف شفرات قاطع دقيقة',
+  'craft-blades': {
+    name: 'شفرات الحرف والقطع',
+    description: 'رؤوس شفرات دقيقة للقطع',
   },
-  'hobi-jiletleri': {
-    name: 'شفرات الهواية',
-    description: 'شفرات لأعمال الهواية والحرف',
+  'hobby-blades': {
+    name: 'شفرات الهوايات',
+    description: 'شفرات للهوايات والأعمال اليدوية',
   },
-  'bisturi-nester': {
-    name: 'مشرط - شفرات جراحية',
-    description: 'مشرط وشفرات جراحية للقطع الدقيق الطبي والصناعي',
+  'scalpel-blades': {
+    name: 'شفرات المشرط الجراحي',
+    description: 'شفرات مشرط وجراحة للقطع الدقيق الطبي والصناعي',
   },
-  'kesik-elyaf': {
-    name: 'شفرات الألياف المفرومة',
+  'chopped-fiber': {
+    name: 'شفرات الألياف المقطعة',
     description: 'شفرات مصممة خصيصاً لقطع الألياف',
   },
-  'cam-elyaf': {
+  'fiberglass': {
     name: 'شفرات الألياف الزجاجية',
     description: 'شفرات عالية الأداء لقطع الألياف الزجاجية',
   },
-  'dairesel-jiletler': {
-    name: 'شفرات دائرية',
+  'circular-blades': {
+    name: 'الشفرات الدائرية',
     description: 'شفرات دائرية للقطع الدوار',
   },
-  'besgen-bicaklar': {
+  'pentagon-blades': {
     name: 'شفرات خماسية',
-    description: 'شفرات قطع خماسية بهندسة خاصة',
+    description: 'شفرات قطع ذات هندسة خاصة',
   },
-  'lamel-yaprak': {
-    name: 'شفرات صفائحية / ورقية',
+  'lamella-blades': {
+    name: 'شفرات الصفائح',
     description: 'شفرات صفائحية للقطع الرقيق والدقيق',
   },
-  'mikrotom-jilet': {
-    name: 'شفرات الأنسجة / الميكروتوم',
-    description: 'شفرات ميكروتوم لتطبيقات المختبرات والأنسجة',
+  'microtome-blades': {
+    name: 'شفرات الميكروتوم',
+    description: 'شفرات ميكروتوم للمختبرات وتطبيقات علم الأنسجة',
   },
-  'lasik-mikrokeratom': {
-    name: 'شفرات الليزك / الميكروكيراتوم',
+  'microkeratome-blades': {
+    name: 'شفرات الليزك والميكروكيراتوم',
     description: 'شفرات ميكروكيراتوم لجراحة العيون والتطبيقات الطبية',
   },
-  'cam-kaziyici': {
+  'glass-scraper': {
     name: 'كاشطة الزجاج',
-    description: 'كاشطات لإزالة الملصقات والبقايا من الأسطح الزجاجية',
+    description: 'كاشطات لتنظيف الملصقات والبقايا على الأسطح الزجاجية',
   },
-  'klasik-jilet': {
-    name: 'شفرات الحلاقة الكلاسيكية',
-    description: 'شفرات حلاقة كلاسيكية تقليدية مزدوجة الحافة',
+  'classic-blades': {
+    name: 'شفرات كلاسيكية',
+    description: 'شفرات كلاسيكية تقليدية مزدوجة الحافة',
   },
-  'alci-levha': {
-    name: 'شفرات الجبس (الجصي)',
-    description: 'شفرات خاصة لقطع الجبس والألواح الجصية',
+  'drywall-blades': {
+    name: 'شفرات الجبس',
+    description: 'شفرات خاصة لقطع ألواح الجبس',
   },
-  'ok-bicaklar': {
+  'arrow-blades': {
     name: 'شفرات السهم',
-    description: 'شفرات وأمواس السهم الاحترافية',
+    description: 'شفرات سهم احترافية',
   },
 
-  // --- سكاكين الآلات ---
-  'ileri-islem': {
-    name: 'سكاكين المعالجة',
-    description: 'سكاكين لتطبيقات المعالجة الصناعية',
+  // --- MACHINE KNIVES ---
+  'advanced-processing': {
+    name: 'سكاكين المعالجة المتقدمة',
+    description: 'سكاكين لتطبيقات المعالجة الصناعية المتقدمة',
   },
-  'termoform-vakum': {
-    name: 'سكاكين التشكيل الحراري والفراغي',
-    description: 'لآلات التغليف الحرارية والفراغية',
+  'thermoform-vacuum': {
+    name: 'سكاكين التشكيل الحراري والفراغ',
+    description: 'لآلات التشكيل الحراري والتغليف بالفراغ',
   },
-  'dairesel-dilme': {
-    name: 'سكاكين التقطيع الدائرية',
-    description: 'سكاكين لآلات التقطيع الدائرية',
+  'circular-slitting': {
+    name: 'سكاكين التقطيع الدائري',
+    description: 'سكاكين لآلات التقطيع الدائري',
   },
-  'geri-donusum': {
+  'recycling-knives': {
     name: 'سكاكين إعادة التدوير',
     description: 'سكاكين لعمليات إعادة التدوير',
   },
-  'oluklu-mukavva': {
+  'corrugated-slitting': {
     name: 'سكاكين تقطيع الكرتون المموج',
-    description: 'سكاكين خاصة لتقطيع الكرتون والمموج',
+    description: 'سكاكين خاصة لتقطيع الكرتون المموج',
   },
-  'doner-kesim': {
-    name: 'سكاكين القطع الدوارة',
-    description: 'سكاكين لآلات القطع الدوارة',
+  'rotary-cutting': {
+    name: 'سكاكين القطع الدوار',
+    description: 'سكاكين لآلات القطع الدوار',
   },
-  'disli-bicaklar': {
+  'serrated-knives': {
     name: 'سكاكين مسننة',
-    description: 'سكاكين قطع مسننة بأسنان منشار',
+    description: 'سكاكين قطع ذات أسنان منشار',
   },
-  'dairesel-ezici': {
-    name: 'سكاكين السحق الدائرية',
-    description: 'لعمليات السحق والقطع الدائرية',
+  'circular-crusher': {
+    name: 'سكاكين الطحن الدائري',
+    description: 'لعمليات الطحن والقطع الدائري',
   },
-  'et-acma': {
-    name: 'سكاكين السلخ (إزالة الجلد)',
-    description: 'سكاكين احترافية لمعالجة اللحوم والسلخ',
+  'derinder-knives': {
+    name: 'سكاكين نزع الجلد',
+    description: 'سكاكين احترافية لمعالجة اللحوم ونزع الجلد',
   },
-  'logsaw-kagit': {
-    name: 'شفرات المنشار اللفي',
-    description: 'شفرات منشار لفي لإنتاج ورق التواليت والمناديل',
+  'logsaw-knives': {
+    name: 'سكاكين قطع اللفات',
+    description: 'سكاكين لفات ورق التواليت والمناشف الورقية',
   },
-  'masura-kesim': {
+  'core-cutting': {
     name: 'سكاكين قطع الأنابيب',
     description: 'سكاكين لقطع الأنابيب والبكرات',
   },
-  'kutu-kapama': {
-    name: 'سكاكين إغلاق الصناديق - الشريط',
-    description: 'لآلات التغليف وإغلاق الشريط',
+  'case-sealer': {
+    name: 'سكاكين إغلاق الصناديق',
+    description: 'لآلات التغليف وإغلاق الصناديق',
   },
-  'zig-zag': {
-    name: 'سكاكين الزجزاج',
-    description: 'سكاكين خاصة لنمط القطع المتعرج',
+  'zig-zag-knives': {
+    name: 'سكاكين متعرجة',
+    description: 'سكاكين خاصة لأنماط القطع المتعرجة',
   },
-  'serit-bicaklar': {
+  'band-knives': {
     name: 'سكاكين الشريط',
     description: 'مناشير شريطية وسكاكين قطع',
   },
-  'tray-kalip': {
-    name: 'سكاكين قوالب الصواني (الأوعية)',
+  'tray-mold': {
+    name: 'سكاكين قوالب الصواني',
     description: 'سكاكين لقطع قوالب الصواني والأوعية',
   },
-  'sosis-siyirma': {
-    name: 'سكاكين تجريد السجق',
-    description: 'سكاكين تجريد لخطوط إنتاج السجق',
+  'sausage-peeling': {
+    name: 'سكاكين تقشير النقانق',
+    description: 'سكاكين تقشير لخطوط إنتاج النقانق',
   },
-  'cnc-bicaklari': {
+  'cnc-knives': {
     name: 'سكاكين CNC',
-    description: 'سكاكين قطع لآلات التحكم الرقمي',
+    description: 'سكاكين قطع لآلات CNC',
   },
-  'plotter-bicaklari': {
-    name: 'شفرات البلوتر',
-    description: 'شفرات لأجهزة القطع الرقمية',
+  'plotter-knives': {
+    name: 'سكاكين الراسمة',
+    description: 'سكاكين لراسمات القطع الرقمية',
   },
 
-  // --- سكاكين الأمان واليد ---
-  'oto-geri-cekilebilir': {
-    name: 'سكاكين قابلة للسحب التلقائي',
+  // --- SAFETY KNIVES ---
+  'auto-retract': {
+    name: 'سكاكين أمان ذاتية السحب',
     description: 'سكاكين أمان تقفل تلقائياً بعد القطع',
   },
-  'sabit-uclu': {
-    name: 'سكاكين ثابتة الشفرة',
-    description: 'قواطع أمان بطرف شفرة ثابت',
+  'fixed-blade': {
+    name: 'سكاكين ذات شفرة ثابتة',
+    description: 'قواطع أمان ذات شفرة ثابتة',
   },
-  'guvenlik-bicaklari': {
-    name: 'سكاكين الأمان',
-    description: 'سكاكين خاصة بشهادة السلامة',
+  'safety-cutters': {
+    name: 'قواطع الأمان',
+    description: 'أدوات قطع معتمدة للسلامة',
   },
-  'maket-bicaklari': {
-    name: 'سكاكين الاستخدام العام',
-    description: 'سكاكين وأدوات قطع احترافية للاستخدام العام',
+  'utility-knives': {
+    name: 'سكاكين متعددة الاستخدام',
+    description: 'سكاكين احترافية متعددة الاستخدام',
   },
-  'capak-alma-hobi': {
-    name: 'سكاكين إزالة النتوءات والهواية',
-    description: 'سكاكين خاصة للعمل التفصيلي',
+  'deburring-hobby': {
+    name: 'سكاكين إزالة النتوءات والهوايات',
+    description: 'سكاكين خاصة للأعمال التفصيلية',
   },
-  'olfa-dairesel': {
-    name: 'شفرات OLFA الدائرية',
-    description: 'شفرات قطع دائرية من علامة OLFA',
+  'olfa-rotary': {
+    name: 'قواطع OLFA الدوارة',
+    description: 'شفرات قطع دوارة من ماركة OLFA',
   },
-  'olfa-falcata': {
-    name: 'شفرات OLFA القابلة للكسر',
-    description: 'سلسلة شفرات OLFA الاحترافية القابلة للكسر',
+  'olfa-craft': {
+    name: 'سكاكين OLFA للحرف',
+    description: 'سلسلة OLFA الاحترافية للحرف',
   },
-  'olfa-is-guvenligi': {
-    name: 'سكاكين OLFA الآمنة',
+  'olfa-safety': {
+    name: 'سكاكين أمان OLFA',
     description: 'منتجات OLFA المعتمدة للسلامة',
   },
-  'muhafaza-atik-kutulari': {
-    name: 'حاويات التخزين والتخلص',
-    description: 'حاويات تخلص آمنة لشفرات أدوات القطع المستعملة',
+  'blade-disposal': {
+    name: 'حاويات التخلص من الشفرات',
+    description: 'حاويات لجمع نفايات أدوات القطع بشكل آمن',
   },
 };

@@ -303,7 +303,7 @@ export default function ContactForm() {
         />
         <div>
           <label htmlFor="consent" className="text-sm text-steel-700">
-            <a href={`/${locale}/kvkk`} className="text-primary-600 hover:underline">
+            <a href={`/${locale}/privacy-policy`} className="text-primary-600 hover:underline">
               {t.kvkkConsent}
             </a>
             {t.kvkkConsentText}{' '}

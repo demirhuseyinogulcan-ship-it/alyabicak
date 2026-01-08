@@ -31,7 +31,7 @@ export default function BlogSection() {
               className="group bg-steel-50 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300"
             >
               {/* Cover Image */}
-              <Link href={`/bulten/${post.slug}`} className="block relative h-48 overflow-hidden">
+              <Link href={`/newsletter/${post.slug}`} className="block relative h-48 overflow-hidden">
                 <Image
                   src={post.coverImage}
                   alt={post.title}
@@ -64,7 +64,7 @@ export default function BlogSection() {
 
                 {/* Title */}
                 <h3 className="text-lg font-semibold text-steel-900 mb-2 group-hover:text-primary-600 transition-colors line-clamp-2">
-                  <Link href={`/bulten/${post.slug}`}>
+                  <Link href={`/newsletter/${post.slug}`}>
                     {post.title}
                   </Link>
                 </h3>
@@ -76,7 +76,7 @@ export default function BlogSection() {
 
                 {/* Read More */}
                 <Link
-                  href={`/bulten/${post.slug}`}
+                  href={`/newsletter/${post.slug}`}
                   className="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm transition-colors"
                 >
                   Devamını Oku
@@ -90,7 +90,7 @@ export default function BlogSection() {
         {/* View All Button */}
         <div className="text-center mt-12">
           <Link
-            href="/bulten"
+            href="/newsletter"
             className="inline-flex items-center gap-2 px-6 py-3 bg-steel-900 hover:bg-steel-800 text-white font-medium rounded-lg transition-colors"
           >
             Tüm Bültenleri Gör

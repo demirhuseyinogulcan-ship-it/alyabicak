@@ -89,7 +89,7 @@ export default function ConsultingSection() {
 
             <div className="flex flex-wrap gap-4">
               <Button 
-                href={`/${locale}/danismanlik`}
+                href={`/${locale}/consulting`}
                 size="lg" 
                 icon={ArrowRight}
               >

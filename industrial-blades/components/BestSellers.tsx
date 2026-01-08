@@ -90,7 +90,7 @@ export default function BestSellers() {
                     {/* Quick View */}
                     <div className="absolute inset-0 bg-steel-900/0 group-hover:bg-steel-900/40 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100 z-10">
                       <Link
-                        href={`/${locale}/urunler/${product.slug}`}
+                        href={`/${locale}/products/${product.slug}`}
                         className="px-6 py-3 bg-white hover:bg-primary-600 hover:text-white text-steel-900 rounded-lg font-semibold transition-all flex items-center gap-2"
                       >
                         <Eye className="w-5 h-5" />
@@ -112,7 +112,7 @@ export default function BestSellers() {
                     </div>
 
                     {/* Title */}
-                    <Link href={`/${locale}/urunler/${product.slug}`}>
+                    <Link href={`/${locale}/products/${product.slug}`}>
                       <h3 className="text-base font-semibold text-steel-900 mb-3 line-clamp-2 group-hover:text-primary-600 transition-colors">
                         {product.name}
                       </h3>
@@ -135,7 +135,7 @@ export default function BestSellers() {
 
                     {/* CTA Button */}
                     <Link
-                      href={`/${locale}/urunler/${product.slug}`}
+                      href={`/${locale}/products/${product.slug}`}
                       className="w-full px-4 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
                     >
                       {t.viewDetails}
@@ -151,7 +151,7 @@ export default function BestSellers() {
         {/* View All Link */}
         <div className="text-center mt-12">
           <Link
-            href={`/${locale}/kategoriler`}
+            href={`/${locale}/categories`}
             className="inline-flex items-center gap-2 px-8 py-4 bg-steel-900 hover:bg-primary-600 text-white font-semibold rounded-lg transition-all hover:scale-105"
           >
             {t.viewAllCategories}

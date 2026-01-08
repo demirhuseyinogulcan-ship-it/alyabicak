@@ -43,7 +43,7 @@ const SubcategoryCard = memo(function SubcategoryCard({
 }) {
   return (
     <Link
-      href={`/${locale}/kategoriler/${categorySlug}/${subcategory.slug}`}
+      href={`/${locale}/categories/${categorySlug}/${subcategory.slug}`}
       prefetch={false} // ⚡ Critical: Prevent mass prefetching
       onClick={onClose}
       className="group relative overflow-hidden rounded-lg border border-steel-200 
@@ -102,7 +102,7 @@ const CategoryItem = memo(function CategoryItem({
   return (
     <div onMouseEnter={onEnter} onMouseLeave={onLeave}>
       <Link
-        href={`/${locale}/kategoriler/${category.slug}`}
+        href={`/${locale}/categories/${category.slug}`}
         prefetch={false}
         onClick={onClose}
         className={`
@@ -276,7 +276,7 @@ export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps)
                 {/* Tümünü Gör */}
                 <div className="mt-4 pt-4 border-t border-steel-100">
                   <Link
-                    href={`/${locale}/kategoriler/${activeCategoryData.slug}`}
+                    href={`/${locale}/categories/${activeCategoryData.slug}`}
                     prefetch={false}
                     onClick={onClose}
                     className="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors duration-150"

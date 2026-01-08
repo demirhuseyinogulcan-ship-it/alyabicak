@@ -29,7 +29,7 @@ export default function CategoryGrid() {
           {categories.map((category, index) => (
             <Link
               key={category.id}
-              href={`/${locale}/kategoriler/${category.slug}`}
+              href={`/${locale}/categories/${category.slug}`}
               className="group relative overflow-hidden rounded-3xl bg-white border border-steel-200 hover:border-primary-300 shadow-card hover:shadow-elevated transition-all duration-300 hover:-translate-y-1"
               style={{
                 animationDelay: `${index * 100}ms`

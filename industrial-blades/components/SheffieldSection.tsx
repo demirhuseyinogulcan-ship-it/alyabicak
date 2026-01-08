@@ -95,7 +95,7 @@ export default function SheffieldSection() {
             </div>
 
             <Link
-              href={`/${locale}/kalite-standartlarimiz`}
+              href={`/${locale}/quality-standards`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all hover:scale-105"
             >
               <span>{t.moreInfo}</span>

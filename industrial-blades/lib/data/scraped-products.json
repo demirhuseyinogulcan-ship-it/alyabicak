@@ -5,8 +5,8 @@
     "code": "OK",
     "name": "OK - BIÇAK",
     "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/ok-bicak.jpg",
     "variants": [
       {
@@ -37,8 +37,8 @@
     "code": "43",
     "name": "43 - x 22 DİK KÖŞE JİLET – ORTADAN KIRILABİLİR B202S-K",
     "description": "x 22 DİK KÖŞE JİLET – ORTADAN KIRILABİLİR B202S-K. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "3-delikli-dilme",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
     "image": "/images/products/43-x-22-dik-kose-jilet-ortadan-kirilabilir.jpg",
     "variants": [
       {
@@ -69,8 +69,8 @@
     "code": "60",
     "name": "60 - x 22 DİK KÖŞE JİLET – ORTADAN KIRILABİLİR B205S-K",
     "description": "x 22 DİK KÖŞE JİLET – ORTADAN KIRILABİLİR B205S-K. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "3-delikli-dilme",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
     "image": "/images/products/60-x-22-dik-kose-jilet-ortadan-kirilabilir.jpg",
     "variants": [
       {
@@ -101,8 +101,8 @@
     "code": "B101",
     "name": "B101 - SLOTTED DİLME JİLETİ – TİP A",
     "description": "SLOTTED DİLME JİLETİ – TİP A. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "slotted-dilme",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
     "image": "/images/products/b101-slotted-dilme-jileti-tip-a.jpg",
     "variants": [
       {
@@ -133,8 +133,8 @@
     "code": "B102",
     "name": "B102 - SLOTTED DİLME JİLETİ – TİP B",
     "description": "SLOTTED DİLME JİLETİ – TİP B. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "slotted-dilme",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
     "image": "/images/products/b102-slotted-dilme-jileti-tip-b.jpg",
     "variants": [
       {
@@ -165,8 +165,8 @@
     "code": "B103",
     "name": "B103 - SLOTTED DİLME JİLETİ – TİP C (STANDART TİP)",
     "description": "SLOTTED DİLME JİLETİ – TİP C (STANDART TİP). Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "slotted-dilme",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
     "image": "/images/products/b103-slotted-dilme-jileti-tip-c-standart-tip.jpg",
     "variants": [
       {
@@ -197,8 +197,8 @@
     "code": "B104",
     "name": "B104 - SLOTTED DİLME JİLETİ – TİP D",
     "description": "SLOTTED DİLME JİLETİ – TİP D. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "slotted-dilme",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
     "image": "/images/products/b104-slotted-dilme-jileti-tip-d.jpg",
     "variants": [
       {
@@ -229,8 +229,8 @@
     "code": "38",
     "name": "38 - x 8 İNJEKTÖR DİLME JİLETİ – YUVASIZ B203",
     "description": "x 8 İNJEKTÖR DİLME JİLETİ – YUVASIZ B203. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/38-x-8-injektor-dilme-jileti-yuvasiz-b203.jpg",
     "variants": [
       {
@@ -261,8 +261,8 @@
     "code": "38",
     "name": "38 - x 19 TEK KENAR JİLET – KILIFLI – ÇENTİKLİ B201 (STANDART TİP)",
     "description": "x 19 TEK KENAR JİLET – KILIFLI – ÇENTİKLİ B201 (STANDART TİP). Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/38-x-19-tek-kenar-jilet-kilifli-centikli-b2.jpg",
     "variants": [
       {
@@ -293,8 +293,8 @@
     "code": "B207",
     "name": "B207 - TRAPEZ – KALIN",
     "description": "TRAPEZ – KALIN. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "trapez-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b207-trapez-kalin.jpg",
     "variants": [
       {
@@ -325,8 +325,8 @@
     "code": "B206",
     "name": "B206 - TRAPEZ BIÇAK / JİLET – İNCE",
     "description": "TRAPEZ BIÇAK / JİLET – İNCE. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "trapez-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b206-trapez-bicak-jilet-ince.jpg",
     "variants": [
       {
@@ -357,8 +357,8 @@
     "code": "B082",
     "name": "B082 - TRAPEZ – TIRTIKLI KENAR",
     "description": "TRAPEZ – TIRTIKLI KENAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "trapez-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b082-trapez-tirtikli-kenar.jpg",
     "variants": [
       {
@@ -389,8 +389,8 @@
     "code": "TRAPEZ",
     "name": "TRAPEZ - – ÖZEL TASARIM",
     "description": "– ÖZEL TASARIM. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "trapez-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "trapezoid-blades",
     "image": "/images/products/trapez-ozel-tasarim.jpg",
     "variants": [
       {
@@ -421,8 +421,8 @@
     "code": "B208",
     "name": "B208 - SİVRİ UÇ (STANDART TİP)",
     "description": "SİVRİ UÇ (STANDART TİP). Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b208-sivri-uc-standart-tip.jpg",
     "variants": [
       {
@@ -453,8 +453,8 @@
     "code": "SÜPER",
     "name": "SÜPER - KANCA – UZUN",
     "description": "KANCA – UZUN. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "kanca-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/sper-kanca-uzun.jpg",
     "variants": [
       {
@@ -485,8 +485,8 @@
     "code": "YUVARLATILMIŞ",
     "name": "YUVARLATILMIŞ - UÇLU KANCA",
     "description": "UÇLU KANCA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "kanca-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/yuvarlatilmi-uclu-kanca.jpg",
     "variants": [
       {
@@ -517,8 +517,8 @@
     "code": "IF",
     "name": "IF - – KANCA (TEKSTİL)",
     "description": "– KANCA (TEKSTİL). Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "kanca-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/if-kanca-tekstil.jpg",
     "variants": [
       {
@@ -549,8 +549,8 @@
     "code": "B209",
     "name": "B209 - TEK TARAFLI KANCA",
     "description": "TEK TARAFLI KANCA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "kanca-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/b209-tek-tarafli-kanca.jpg",
     "variants": [
       {
@@ -581,8 +581,8 @@
     "code": "KANCA",
     "name": "KANCA - HOB-1",
     "description": "HOB-1. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "kanca-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/kanca-hob-1.jpg",
     "variants": [
       {
@@ -613,8 +613,8 @@
     "code": "B122",
     "name": "B122 - SEGMENTLİ FALÇATA GENİŞLİK: 9mm",
     "description": "SEGMENTLİ FALÇATA GENİŞLİK: 9mm. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b122-segmentli-falcata-genislik-9mm.jpg",
     "variants": [
       {
@@ -645,8 +645,8 @@
     "code": "B124",
     "name": "B124 - SEGMENTSİZ FALÇATA GENİŞLİK: 9mm",
     "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 9mm. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b124-segmentsiz-falcata-genislik-9mm.jpg",
     "variants": [
       {
@@ -677,8 +677,8 @@
     "code": "B121",
     "name": "B121 - SEGMENTLİ FALÇATA GENİŞLİK: 18mm",
     "description": "SEGMENTLİ FALÇATA GENİŞLİK: 18mm. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b121-segmentli-falcata-genislik-18mm.jpg",
     "variants": [
       {
@@ -709,8 +709,8 @@
     "code": "B123",
     "name": "B123 - SEGMENTSİZ FALÇATA GENİŞLİK: 18mm",
     "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 18mm. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b123-segmentsiz-falcata-genislik-18mm.jpg",
     "variants": [
       {
@@ -741,8 +741,8 @@
     "code": "B096",
     "name": "B096 - SEGMENTSİZ FALÇATA GENİŞLİK: 12mm – OVAL YUVA",
     "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 12mm – OVAL YUVA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b096-segmentsiz-falcata-genislik-12mm-oval-yu.jpg",
     "variants": [
       {
@@ -773,8 +773,8 @@
     "code": "SEGMENTLİ",
     "name": "SEGMENTLİ - FALÇATA GENİŞLİK: 12.5mm",
     "description": "FALÇATA GENİŞLİK: 12.5mm. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/segmentli-falcata-genislik-125mm.jpg",
     "variants": [
       {
@@ -805,8 +805,8 @@
     "code": "LWB",
     "name": "LWB - SEGMENTSİZ FALÇATA GENİŞLİK: 18mm – DİŞLİ",
     "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 18mm – DİŞLİ. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/lwb-segmentsiz-falcata-genislik-18mm-disli.jpg",
     "variants": [
       {
@@ -837,8 +837,8 @@
     "code": "B126",
     "name": "B126 - SEGMENTLİ FALÇATA GENİŞLİK: 25mm",
     "description": "SEGMENTLİ FALÇATA GENİŞLİK: 25mm. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b126-segmentli-falcata-genislik-25mm.jpg",
     "variants": [
       {
@@ -869,8 +869,8 @@
     "code": "B125",
     "name": "B125 - SEGMENTSİZ FALÇATA GENİŞLİK: 25mm",
     "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 25mm. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b125-segmentsiz-falcata-genislik-25mm.jpg",
     "variants": [
       {
@@ -901,8 +901,8 @@
     "code": "HSWB1",
     "name": "HSWB1 - SEGMENTSİZ FALÇATA GENİŞLİK: 25mm – DİŞLİ",
     "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 25mm – DİŞLİ. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/hswb1-segmentsiz-falcata-genislik-25mm-disli.jpg",
     "variants": [
       {
@@ -933,8 +933,8 @@
     "code": "B092",
     "name": "B092 - DELİKSİZ",
     "description": "DELİKSİZ. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b092-deliksiz.jpg",
     "variants": [
       {
@@ -965,8 +965,8 @@
     "code": "B207",
     "name": "B207 - L",
     "description": "L. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b207-l.jpg",
     "variants": [
       {
@@ -997,8 +997,8 @@
     "code": "B226",
     "name": "B226 - SUPASLIT JİLETİ",
     "description": "SUPASLIT JİLETİ. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b226-supaslit-jileti.jpg",
     "variants": [
       {
@@ -1029,8 +1029,8 @@
     "code": "B111",
     "name": "B111 - B111",
     "description": "B111. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b111-b111.jpg",
     "variants": [
       {
@@ -1061,8 +1061,8 @@
     "code": "B112",
     "name": "B112 - B112",
     "description": "B112. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b112-b112.jpg",
     "variants": [
       {
@@ -1093,8 +1093,8 @@
     "code": "B113",
     "name": "B113 - B113",
     "description": "B113. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b113-b113.jpg",
     "variants": [
       {
@@ -1125,8 +1125,8 @@
     "code": "B114",
     "name": "B114 - B114",
     "description": "B114. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b114-b114.jpg",
     "variants": [
       {
@@ -1157,8 +1157,8 @@
     "code": "B141",
     "name": "B141 - B141",
     "description": "B141. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b141-b141.jpg",
     "variants": [
       {
@@ -1189,8 +1189,8 @@
     "code": "B142",
     "name": "B142 - BÜYÜK",
     "description": "BÜYÜK. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b142-buyuk.jpg",
     "variants": [
       {
@@ -1221,8 +1221,8 @@
     "code": "B143",
     "name": "B143 - B143",
     "description": "B143. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b143-b143.jpg",
     "variants": [
       {
@@ -1253,8 +1253,8 @@
     "code": "B144",
     "name": "B144 - B144",
     "description": "B144. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b144-b144.jpg",
     "variants": [
       {
@@ -1285,8 +1285,8 @@
     "code": "B145",
     "name": "B145 - B145",
     "description": "B145. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b145-b145.jpg",
     "variants": [
       {
@@ -1317,8 +1317,8 @@
     "code": "B146",
     "name": "B146 - B146",
     "description": "B146. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b146-b146.jpg",
     "variants": [
       {
@@ -1349,8 +1349,8 @@
     "code": "B147",
     "name": "B147 - B147",
     "description": "B147. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b147-b147.jpg",
     "variants": [
       {
@@ -1381,8 +1381,8 @@
     "code": "B148",
     "name": "B148 - B148",
     "description": "B148. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b148-b148.jpg",
     "variants": [
       {
@@ -1413,8 +1413,8 @@
     "code": "B149",
     "name": "B149 - B149",
     "description": "B149. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b149-b149.jpg",
     "variants": [
       {
@@ -1445,8 +1445,8 @@
     "code": "B150",
     "name": "B150 - B150",
     "description": "B150. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b150-b150.jpg",
     "variants": [
       {
@@ -1477,8 +1477,8 @@
     "code": "B151",
     "name": "B151 - B151",
     "description": "B151. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b151-b151.jpg",
     "variants": [
       {
@@ -1509,8 +1509,8 @@
     "code": "KB-5",
     "name": "KB-5 - KB-5",
     "description": "KB-5. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/kb-5-kb-5.jpg",
     "variants": [
       {
@@ -1541,8 +1541,8 @@
     "code": "KB4-R/5",
     "name": "KB4-R/5 - KB4-R/5",
     "description": "KB4-R/5. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/kb4-r5-kb4-r5.jpg",
     "variants": [
       {
@@ -1573,8 +1573,8 @@
     "code": "KB4-NS/3",
     "name": "KB4-NS/3 - KB4-NS/3",
     "description": "KB4-NS/3. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/kb4-ns3-kb4-ns3.jpg",
     "variants": [
       {
@@ -1605,8 +1605,8 @@
     "code": "KB4-WS/3",
     "name": "KB4-WS/3 - KB4-WS/3",
     "description": "KB4-WS/3. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/kb4-ws3-kb4-ws3.jpg",
     "variants": [
       {
@@ -1637,8 +1637,8 @@
     "code": "B581",
     "name": "B581 - B581",
     "description": "B581. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b581-b581.jpg",
     "variants": [
       {
@@ -1669,8 +1669,8 @@
     "code": "B657",
     "name": "B657 - B657",
     "description": "B657. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b657-b657.jpg",
     "variants": [
       {
@@ -1701,8 +1701,8 @@
     "code": "2CS1",
     "name": "2CS1 - 2CS1",
     "description": "2CS1. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/2cs1-2cs1.jpg",
     "variants": [
       {
@@ -1733,8 +1733,8 @@
     "code": "B084.075",
     "name": "B084.075 - B084.075",
     "description": "B084.075. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b084075-b084075.jpg",
     "variants": [
       {
@@ -1765,8 +1765,8 @@
     "code": "B204",
     "name": "B204 - KLASİK JİLET",
     "description": "KLASİK JİLET. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b204-klasik-jilet.jpg",
     "variants": [
       {
@@ -1797,8 +1797,8 @@
     "code": "B207",
     "name": "B207 - XXL (UZUN)",
     "description": "XXL (UZUN). Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "sanayi-jiletleri",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/b207-xxl-uzun.jpg",
     "variants": [
       {
@@ -1829,8 +1829,8 @@
     "code": "H006 001 X01",
     "name": "H006 001 X01 - RETRO LIGHT KNIFE – Döküm Metal El Bıçağı",
     "description": "RETRO LIGHT KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "sabit-uclu",
+    "categoryId": "safety-knives",
+    "subcategoryId": "fixed-blade",
     "image": "/images/products/h006-001-x01-retro-light-knife-dokum-metal-el-bicagi.jpg",
     "variants": [
       {
@@ -1861,8 +1861,8 @@
     "code": "H008 001 A03",
     "name": "H008 001 A03 - AUTO RETRACT – Otomatik Geri Çekilebilir",
     "description": "AUTO RETRACT – Otomatik Geri Çekilebilir. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "oto-geri-cekilebilir",
+    "categoryId": "safety-knives",
+    "subcategoryId": "auto-retract",
     "image": "/images/products/h008-001-a03-auto-retract-otomatik-geri-cekilebilir.jpg",
     "variants": [
       {
@@ -1893,8 +1893,8 @@
     "code": "H014 001 X01",
     "name": "H014 001 X01 - RETRACTABLE TRIM KNIFE – Döküm Metal El Bıçağı",
     "description": "RETRACTABLE TRIM KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h014-001-x01-retractable-trim-knife-dokum-metal-el-bi.jpg",
     "variants": [
       {
@@ -1925,8 +1925,8 @@
     "code": "H015 001 Z01",
     "name": "H015 001 Z01 - RETRO HEAVY DUTY – Döküm Metal El Bıçağı",
     "description": "RETRO HEAVY DUTY – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "sabit-uclu",
+    "categoryId": "safety-knives",
+    "subcategoryId": "fixed-blade",
     "image": "/images/products/h015-001-z01-retro-heavy-duty-dokum-metal-el-bicagi.jpg",
     "variants": [
       {
@@ -1957,8 +1957,8 @@
     "code": "H016 001 J01",
     "name": "H016 001 J01 - SAFETY ROLL STRIPPER – İş Güvenliği El Bıçağı",
     "description": "SAFETY ROLL STRIPPER – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h016-001-j01-safety-roll-stripper-is-guvenligi-el-bic.jpg",
     "variants": [
       {
@@ -1989,8 +1989,8 @@
     "code": "H016 101 A03",
     "name": "H016 101 A03 - SAFETY ROLL STRIPPER PLUS – İş Güvenliği El Bıçağı",
     "description": "SAFETY ROLL STRIPPER PLUS – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h016-101-a03-safety-roll-stripper-plus-is-guvenligi-e.jpg",
     "variants": [
       {
@@ -2021,8 +2021,8 @@
     "code": "H016 201 A03",
     "name": "H016 201 A03 - ROLL STRIPPER HEAVY DUTY – İş Güvenliği El Bıçağı",
     "description": "ROLL STRIPPER HEAVY DUTY – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h016-201-a03-roll-stripper-heavy-duty-is-guvenligi-el.jpg",
     "variants": [
       {
@@ -2053,8 +2053,8 @@
     "code": "H020 001 S05",
     "name": "H020 001 S05 - FIXED SLIM KNIFE – Sabit Uçlu El Bıçağı",
     "description": "FIXED SLIM KNIFE – Sabit Uçlu El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "sabit-uclu",
+    "categoryId": "safety-knives",
+    "subcategoryId": "fixed-blade",
     "image": "/images/products/h020-001-s05-fixed-slim-knife-sabit-uclu-el-bicagi.jpg",
     "variants": [
       {
@@ -2085,8 +2085,8 @@
     "code": "H023 002 S05",
     "name": "H023 002 S05 - RETRACTABLE “SLIM” KNIFE – Döküm Metal El Bıçağı",
     "description": "RETRACTABLE “SLIM” KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h023-002-s05-retractable-slim-knife-dokum-metal-el-bi.jpg",
     "variants": [
       {
@@ -2117,8 +2117,8 @@
     "code": "H024",
     "name": "H024 - 001 S05",
     "description": "001 S05. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h024-001-s05.jpg",
     "variants": [
       {
@@ -2149,8 +2149,8 @@
     "code": "H028 002 X01",
     "name": "H028 002 X01 - EASY CHANGE KNIFE – Döküm Metal El Bıçağı",
     "description": "EASY CHANGE KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h028-002-x01-easy-change-knife-dokum-metal-el-bicagi.jpg",
     "variants": [
       {
@@ -2181,8 +2181,8 @@
     "code": "H030 001 A03",
     "name": "H030 001 A03 - POLYTRIM – Emniyetli Film Kesici",
     "description": "POLYTRIM – Emniyetli Film Kesici. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h030-001-a03-polytrim-emniyetli-film-kesici.jpg",
     "variants": [
       {
@@ -2213,8 +2213,8 @@
     "code": "H032 001 A03",
     "name": "H032 001 A03 - SQUEEZE KNIFE – Otomatik Geri Çekilebilir",
     "description": "SQUEEZE KNIFE – Otomatik Geri Çekilebilir. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "oto-geri-cekilebilir",
+    "categoryId": "safety-knives",
+    "subcategoryId": "auto-retract",
     "image": "/images/products/h032-001-a03-squeeze-knife-otomatik-geri-cekilebilir.jpg",
     "variants": [
       {
@@ -2245,8 +2245,8 @@
     "code": "H033 001 N03",
     "name": "H033 001 N03 - YELLOW/BLACK SLITTER – Seramik Uçlu, Emniyetli El Bıçağı",
     "description": "YELLOW/BLACK SLITTER – Seramik Uçlu, Emniyetli El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h033-001-n03-yellowblack-slitter-seramik-uclu-emniyet.jpg",
     "variants": [
       {
@@ -2277,8 +2277,8 @@
     "code": "H040",
     "name": "H040 - 004 L01",
     "description": "004 L01. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h040-004-l01.jpg",
     "variants": [
       {
@@ -2309,8 +2309,8 @@
     "code": "H041 004 A01",
     "name": "H041 004 A01 - CAM KAZIYICI BIÇAK- Döküm Metal El Bıçağı",
     "description": "CAM KAZIYICI BIÇAK- Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h041-004-a01-cam-kaziyici-bicak-dokum-metal-el-bicag.jpg",
     "variants": [
       {
@@ -2341,8 +2341,8 @@
     "code": "H042",
     "name": "H042 - 001 A01",
     "description": "001 A01. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h042-001-a01.jpg",
     "variants": [
       {
@@ -2373,8 +2373,8 @@
     "code": "H050",
     "name": "H050 - 002 P02",
     "description": "002 P02. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h050-002-p02.jpg",
     "variants": [
       {
@@ -2405,8 +2405,8 @@
     "code": "H051",
     "name": "H051 - 002 P02",
     "description": "002 P02. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h051-002-p02.jpg",
     "variants": [
       {
@@ -2437,8 +2437,8 @@
     "code": "H052",
     "name": "H052 - 002 P02",
     "description": "002 P02. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h052-002-p02.jpg",
     "variants": [
       {
@@ -2469,8 +2469,8 @@
     "code": "H060",
     "name": "H060 - 001 A03",
     "description": "001 A03. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h060-001-a03.jpg",
     "variants": [
       {
@@ -2501,8 +2501,8 @@
     "code": "H063 001 X01",
     "name": "H063 001 X01 - ORANGE SPRING SAFETY CUTTER – İş Güvenliği El Bıçağı",
     "description": "ORANGE SPRING SAFETY CUTTER – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h063-001-x01-orange-spring-safety-cutter-is-guvenligi.jpg",
     "variants": [
       {
@@ -2533,8 +2533,8 @@
     "code": "H081",
     "name": "H081 - 501 K01 YÜZÜK BIÇAK (AYRIK) – TURUNCU",
     "description": "501 K01 YÜZÜK BIÇAK (AYRIK) – TURUNCU. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h081-501-k01-yuzuk-bicak-ayrik-turuncu.jpg",
     "variants": [
       {
@@ -2565,8 +2565,8 @@
     "code": "H090",
     "name": "H090 - 001 S05",
     "description": "001 S05. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h090-001-s05.jpg",
     "variants": [
       {
@@ -2597,8 +2597,8 @@
     "code": "H091",
     "name": "H091 - 001 S05",
     "description": "001 S05. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h091-001-s05.jpg",
     "variants": [
       {
@@ -2629,8 +2629,8 @@
     "code": "H101",
     "name": "H101 - 001 O01 / OLFA RTY-1/G",
     "description": "001 O01 / OLFA RTY-1/G. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "olfa-dairesel",
+    "categoryId": "safety-knives",
+    "subcategoryId": "olfa-rotary",
     "image": "/images/products/h101-001-o01-olfa-rty-1g.jpg",
     "variants": [
       {
@@ -2661,8 +2661,8 @@
     "code": "H102",
     "name": "H102 - 001 O01 / RTY-2/G",
     "description": "001 O01 / RTY-2/G. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "olfa-dairesel",
+    "categoryId": "safety-knives",
+    "subcategoryId": "olfa-rotary",
     "image": "/images/products/h102-001-o01-rty-2g.jpg",
     "variants": [
       {
@@ -2693,8 +2693,8 @@
     "code": "H501 001 T03",
     "name": "H501 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
     "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/h501-001-t03-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -2725,8 +2725,8 @@
     "code": "H502 001 T03",
     "name": "H502 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
     "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/h502-001-t03-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -2757,8 +2757,8 @@
     "code": "H503 001 T03",
     "name": "H503 001 T03 - MAKET BIÇAĞI – FALÇATA",
     "description": "MAKET BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/h503-001-t03-maket-bicagi-falcata.jpg",
     "variants": [
       {
@@ -2789,8 +2789,8 @@
     "code": "H504 001 T03",
     "name": "H504 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
     "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/h504-001-t03-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -2821,8 +2821,8 @@
     "code": "H506",
     "name": "H506 - 001 O01 / OLFA ML18mm – Döküm Metal El Bıçağı",
     "description": "001 O01 / OLFA ML18mm – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h506-001-o01-olfa-ml18mm-dokum-metal-el-bicag.jpg",
     "variants": [
       {
@@ -2853,8 +2853,8 @@
     "code": "H507",
     "name": "H507 - 001 O01 / OLFA NL-AL",
     "description": "001 O01 / OLFA NL-AL. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h507-001-o01-olfa-nl-al.jpg",
     "variants": [
       {
@@ -2885,8 +2885,8 @@
     "code": "H508",
     "name": "H508 - 001 O01 / OLFA L-2",
     "description": "001 O01 / OLFA L-2. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h508-001-o01-olfa-l-2.jpg",
     "variants": [
       {
@@ -2917,8 +2917,8 @@
     "code": "H512",
     "name": "H512 - 001 S04",
     "description": "001 S04. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h512-001-s04.jpg",
     "variants": [
       {
@@ -2949,8 +2949,8 @@
     "code": "H525",
     "name": "H525 - 001 Z01",
     "description": "001 Z01. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h525-001-z01.jpg",
     "variants": [
       {
@@ -2981,8 +2981,8 @@
     "code": "H531 001 Z01",
     "name": "H531 001 Z01 - AUTOMATIC TRIMMING KNIFE – Döküm Metal El Bıçağı",
     "description": "AUTOMATIC TRIMMING KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h531-001-z01-automatic-trimming-knife-dokum-metal-el.jpg",
     "variants": [
       {
@@ -3013,8 +3013,8 @@
     "code": "H600 001 T03",
     "name": "H600 001 T03 - 9mm MAKET EL BIÇAĞI – FALÇATA",
     "description": "9mm MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/h600-001-t03-9mm-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -3045,8 +3045,8 @@
     "code": "H603",
     "name": "H603 - 001 O01 / OLFA ML 9mm – Döküm Metal El Bıçağı",
     "description": "001 O01 / OLFA ML 9mm – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h603-001-o01-olfa-ml-9mm-dokum-metal-el-bicag.jpg",
     "variants": [
       {
@@ -3077,8 +3077,8 @@
     "code": "H605 001 T03",
     "name": "H605 001 T03 - 9mm MAKET EL BIÇAĞI – FALÇATA",
     "description": "9mm MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "falcata-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/h605-001-t03-9mm-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -3109,8 +3109,8 @@
     "code": "H606",
     "name": "H606 - 001 S04",
     "description": "001 S04. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h606-001-s04.jpg",
     "variants": [
       {
@@ -3141,8 +3141,8 @@
     "code": "H907",
     "name": "H907 - 003 T03",
     "description": "003 T03. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h907-003-t03.jpg",
     "variants": [
       {
@@ -3173,8 +3173,8 @@
     "code": "H907 003 T03B",
     "name": "H907 003 T03B - SUPASLIT – Koruyucu Kapaklı Slitter",
     "description": "SUPASLIT – Koruyucu Kapaklı Slitter. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h907-003-t03b-supaslit-koruyucu-kapakli-slitter.jpg",
     "variants": [
       {
@@ -3205,8 +3205,8 @@
     "code": "H907 012 A03",
     "name": "H907 012 A03 - EL BIÇAĞI – POLYSAFE PLUS FİLM KESİCİ",
     "description": "EL BIÇAĞI – POLYSAFE PLUS FİLM KESİCİ. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h907-012-a03-el-bicagi-polysafe-plus-film-kesici.jpg",
     "variants": [
       {
@@ -3237,8 +3237,8 @@
     "code": "H909",
     "name": "H909 - 001 O01 / OLFA TK-1 – Cep Tipi Pratik Maket Bıçağı",
     "description": "001 O01 / OLFA TK-1 – Cep Tipi Pratik Maket Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h909-001-o01-olfa-tk-1-cep-tipi-pratik-maket.jpg",
     "variants": [
       {
@@ -3269,8 +3269,8 @@
     "code": "H911",
     "name": "H911 - 002 O01 / OLFA MARU CUTTER",
     "description": "002 O01 / OLFA MARU CUTTER. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "maket-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/h911-002-o01-olfa-maru-cutter.jpg",
     "variants": [
       {
@@ -3301,8 +3301,8 @@
     "code": "H913",
     "name": "H913 - 007 S02",
     "description": "007 S02. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h913-007-s02.jpg",
     "variants": [
       {
@@ -3333,8 +3333,8 @@
     "code": "H913 008 T03",
     "name": "H913 008 T03 - POLYSLIT – Emniyetli El Bıçağı",
     "description": "POLYSLIT – Emniyetli El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h913-008-t03-polyslit-emniyetli-el-bicagi.jpg",
     "variants": [
       {
@@ -3365,8 +3365,8 @@
     "code": "H914 001 A03",
     "name": "H914 001 A03 - SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı (Sol El Bıçak)",
     "description": "SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı (Sol El Bıçak). Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h914-001-a03-springer-knife-metal-is-guvenligi-el-bic.jpg",
     "variants": [
       {
@@ -3397,8 +3397,8 @@
     "code": "H914 002 A03",
     "name": "H914 002 A03 - SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı",
     "description": "SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h914-002-a03-springer-knife-metal-is-guvenligi-el-bic.jpg",
     "variants": [
       {
@@ -3429,8 +3429,8 @@
     "code": "H915",
     "name": "H915 - 003 A02",
     "description": "003 A02. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h915-003-a02.jpg",
     "variants": [
       {
@@ -3461,8 +3461,8 @@
     "code": "H917 001 T10",
     "name": "H917 001 T10 - FISH KNIFE – Çuval Açma El Bıçağı",
     "description": "FISH KNIFE – Çuval Açma El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h917-001-t10-fish-knife-cuval-acma-el-bicagi.jpg",
     "variants": [
       {
@@ -3493,8 +3493,8 @@
     "code": "H918 001 T10",
     "name": "H918 001 T10 - FISH KNIFE – Çuval Açma El Bıçağı",
     "description": "FISH KNIFE – Çuval Açma El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h918-001-t10-fish-knife-cuval-acma-el-bicagi.jpg",
     "variants": [
       {
@@ -3525,8 +3525,8 @@
     "code": "H941",
     "name": "H941 - 001 O01 / OLFA HOK-1",
     "description": "001 O01 / OLFA HOK-1. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h941-001-o01-olfa-hok-1.jpg",
     "variants": [
       {
@@ -3557,8 +3557,8 @@
     "code": "H944 001 T03",
     "name": "H944 001 T03 - AMBI SAFE SPRING – İş Güvenliği El Bıçağı",
     "description": "AMBI SAFE SPRING – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/h944-001-t03-ambi-safe-spring-is-guvenligi-el-bicagi.jpg",
     "variants": [
       {
@@ -3589,8 +3589,8 @@
     "code": "H946 001",
     "name": "H946 001 - U-CUT – Kanca Tipi El Bıçağı",
     "description": "U-CUT – Kanca Tipi El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "kanca-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/h946-001-u-cut-kanca-tipi-el-bicagi.jpg",
     "variants": [
       {
@@ -3621,8 +3621,8 @@
     "code": "MAK-001",
     "name": "İş Güvenliği Muhafaza Atık Kutusu",
     "description": "Kesici alet atıklarının güvenli şekilde toplanması ve imha edilmesi için özel tasarlanmış muhafaza kutusu. İş güvenliği denetimleri için uygundur.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "muhafaza-atik-kutulari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "blade-disposal",
     "image": "/images/products/is-guvenligi-muhafaza-atik-kutusu.jpg",
     "variants": [
       {
@@ -3656,8 +3656,8 @@
     "code": "KK01",
     "name": "KK01 - KK01",
     "description": "KK01. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/kk01-kk01.jpg",
     "variants": [
       {
@@ -3688,8 +3688,8 @@
     "code": "OLFA SK-12",
     "name": "OLFA SK-12 - PASLANMAZ NSF SERTİFİKALI EL BIÇAĞI",
     "description": "PASLANMAZ NSF SERTİFİKALI EL BIÇAĞI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-sk-12-paslanmaz-nsf-sertifikali-el-bicagi.jpg",
     "variants": [
       {
@@ -3720,8 +3720,8 @@
     "code": "OLFA SK-15",
     "name": "OLFA SK-15 - EMNİYETLİ İŞ GÜVENLİĞİ EL BIÇAĞI",
     "description": "EMNİYETLİ İŞ GÜVENLİĞİ EL BIÇAĞI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-sk-15-emniyetli-is-guvenligi-el-bicagi.jpg",
     "variants": [
       {
@@ -3752,8 +3752,8 @@
     "code": "SAKA01T",
     "name": "SAKA01T - SAKA01T",
     "description": "SAKA01T. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/saka01t-saka01t.jpg",
     "variants": [
       {
@@ -3784,8 +3784,8 @@
     "code": "SK01",
     "name": "SK01 - SK01",
     "description": "SK01. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/sk01-sk01.jpg",
     "variants": [
       {
@@ -3816,8 +3816,8 @@
     "code": "SUKA01",
     "name": "SUKA01 - EL BIÇAĞI – SÜRGÜLÜ KANCA",
     "description": "EL BIÇAĞI – SÜRGÜLÜ KANCA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "kanca-bicaklar",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/suka01-el-bicagi-surgulu-kanca.jpg",
     "variants": [
       {
@@ -3848,8 +3848,8 @@
     "code": "SUKA02",
     "name": "SUKA02 - SUKA02",
     "description": "SUKA02. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/suka02-suka02.jpg",
     "variants": [
       {
@@ -3880,8 +3880,8 @@
     "code": "VENT CUTTER",
     "name": "VENT CUTTER - Kanatlı Kesim Bıçağı",
     "description": "Kanatlı Kesim Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "maket-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/vent-cutter-kanatli-kesim-bicagi.jpg",
     "variants": [
       {
@@ -3912,8 +3912,8 @@
     "code": "KONTÖR BIÇAĞI",
     "name": "KONTÖR BIÇAĞI - Termoform Vakum Paketleme Bıçağı",
     "description": "Termoform Vakum Paketleme Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "vakum-paketleme",
+    "categoryId": "machine-knives",
+    "subcategoryId": "thermoform-vacuum",
     "image": "/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg",
     "variants": [
       {
@@ -3944,8 +3944,8 @@
     "code": "YARIM",
     "name": "YARIM - YILDIZ ZIMBALAR",
     "description": "YILDIZ ZIMBALAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/yarim-yildiz-zimbalar.jpg",
     "variants": [
       {
@@ -3976,8 +3976,8 @@
     "code": "TAM",
     "name": "TAM - YILDIZ ZIMBALAR",
     "description": "YILDIZ ZIMBALAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/tam-yildiz-zimbalar.jpg",
     "variants": [
       {
@@ -4008,8 +4008,8 @@
     "code": "DÜZ BIÇAKLAR",
     "name": "DÜZ BIÇAKLAR - Lama Bıçaklar",
     "description": "Lama Bıçaklar. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/dz-biaklar-lama-bicaklar.jpg",
     "variants": [
       {
@@ -4040,8 +4040,8 @@
     "code": "DAİRESEL",
     "name": "DAİRESEL - BIÇAKLAR",
     "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/dairesel-bicaklar.jpg",
     "variants": [
       {
@@ -4072,8 +4072,8 @@
     "code": "YUVARLAK",
     "name": "YUVARLAK - HAVA ZIMBASI",
     "description": "HAVA ZIMBASI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/yuvarlak-hava-zimbasi.jpg",
     "variants": [
       {
@@ -4104,8 +4104,8 @@
     "code": "OVAL",
     "name": "OVAL - HAVA ZIMBASI",
     "description": "HAVA ZIMBASI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/oval-hava-zimbasi.jpg",
     "variants": [
       {
@@ -4136,8 +4136,8 @@
     "code": "DİŞLİ",
     "name": "DİŞLİ - BIÇAKLAR",
     "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/dili-bicaklar.jpg",
     "variants": [
       {
@@ -4168,8 +4168,8 @@
     "code": "ÜST",
     "name": "ÜST - ‘TABAK’ BIÇAKLAR",
     "description": "‘TABAK’ BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/st-tabak-bicaklar.jpg",
     "variants": [
       {
@@ -4200,8 +4200,8 @@
     "code": "ALT",
     "name": "ALT - BIÇAKLAR",
     "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/alt-bicaklar.jpg",
     "variants": [
       {
@@ -4232,8 +4232,8 @@
     "code": "PELET",
     "name": "PELET - BIÇAKLARI",
     "description": "BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/pelet-bicaklari.jpg",
     "variants": [
       {
@@ -4264,8 +4264,8 @@
     "code": "TANECİKLENDİRİCİ",
     "name": "TANECİKLENDİRİCİ - BIÇAK",
     "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/taneciklendirici-bicak.jpg",
     "variants": [
       {
@@ -4296,8 +4296,8 @@
     "code": "PARÇALAYICI",
     "name": "PARÇALAYICI - BIÇAK",
     "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/paralayici-bicak.jpg",
     "variants": [
       {
@@ -4328,8 +4328,8 @@
     "code": "OLUKLU",
     "name": "OLUKLU - MUKAVVA DİLME BIÇAKLARI",
     "description": "MUKAVVA DİLME BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/oluklu-mukavva-dilme-bicaklari.jpg",
     "variants": [
       {
@@ -4360,8 +4360,8 @@
     "code": "DİŞSİZ",
     "name": "DİŞSİZ - DÖNER KESİM BIÇAKLARI",
     "description": "DÖNER KESİM BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/disiz-doner-kesim-bicaklari.jpg",
     "variants": [
       {
@@ -4392,8 +4392,8 @@
     "code": "DİŞLİ",
     "name": "DİŞLİ - DÖNER KESİM BIÇAKLARI",
     "description": "DÖNER KESİM BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/dili-doner-kesim-bicaklari.jpg",
     "variants": [
       {
@@ -4424,8 +4424,8 @@
     "code": "DİŞLİ",
     "name": "DİŞLİ - BIÇAK",
     "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/dili-bicak.jpg",
     "variants": [
       {
@@ -4456,8 +4456,8 @@
     "code": "BIÇAK",
     "name": "BIÇAK - TUTACAK APARATI",
     "description": "TUTACAK APARATI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/biak-tutacak-aparati.jpg",
     "variants": [
       {
@@ -4488,8 +4488,8 @@
     "code": "DAİRESEL",
     "name": "DAİRESEL - EZİCİ BIÇAKLAR",
     "description": "EZİCİ BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/dairesel-ezici-bicaklar.jpg",
     "variants": [
       {
@@ -4520,8 +4520,8 @@
     "code": "ET",
     "name": "ET - AÇMA ( DERİNDER ) BIÇAK",
     "description": "AÇMA ( DERİNDER ) BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/et-acma-derinder-bicak.jpg",
     "variants": [
       {
@@ -4552,8 +4552,8 @@
     "code": "LOG-SAW",
     "name": "LOG-SAW - BIÇAKLARI",
     "description": "BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "logsaw-kagit",
+    "categoryId": "machine-knives",
+    "subcategoryId": "logsaw-knives",
     "image": "/images/products/log-saw-bicaklari.jpg",
     "variants": [
       {
@@ -4584,8 +4584,8 @@
     "code": "MASURA",
     "name": "MASURA - KESİM BIÇAKLARI",
     "description": "KESİM BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/masura-kesim-bicaklari.jpg",
     "variants": [
       {
@@ -4616,7 +4616,7 @@
     "code": "KUTU",
     "name": "KUTU - KAPAMA BIÇAKLARI – KOLİ BANDI BIÇAKLARI",
     "description": "KAPAMA BIÇAKLARI – KOLİ BANDI BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
+    "categoryId": "machine-knives",
     "subcategoryId": "koli-bantlama",
     "image": "/images/products/kutu-kapama-bicaklari-koli-bandi-bicaklari.jpg",
     "variants": [
@@ -4648,8 +4648,8 @@
     "code": "Test",
     "name": "Test - Ürün",
     "description": "Ürün. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/test-urun.jpg",
     "variants": [
       {
@@ -4680,8 +4680,8 @@
     "code": "ŞERİT",
     "name": "ŞERİT - BIÇAKLAR",
     "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/erit-bicaklar.jpg",
     "variants": [
       {
@@ -4712,8 +4712,8 @@
     "code": "TRAY",
     "name": "TRAY - (KASE) KALIP BIÇAKLARI",
     "description": "(KASE) KALIP BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/tray-kase-kalip-bicaklari.jpg",
     "variants": [
       {
@@ -4744,8 +4744,8 @@
     "code": "SOSİS",
     "name": "SOSİS - SIYIRMA BIÇAKLARI",
     "description": "SIYIRMA BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "makina-bicaklari",
-    "subcategoryId": "doner-bicaklari",
+    "categoryId": "machine-knives",
+    "subcategoryId": "rotary-cutting",
     "image": "/images/products/sosis-siyirma-bicaklari.jpg",
     "variants": [
       {
@@ -4776,8 +4776,8 @@
     "code": "P1-A",
     "name": "P1-A - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI",
     "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/p1-a-capak-alma-hobi-el-bicagi-alyan-vidali.jpg",
     "variants": [
       {
@@ -4808,8 +4808,8 @@
     "code": "P1-T",
     "name": "P1-T - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI",
     "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/p1-t-capak-alma-hobi-el-bicagi-cevirmeli-vida.jpg",
     "variants": [
       {
@@ -4840,8 +4840,8 @@
     "code": "P2-A",
     "name": "P2-A - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI",
     "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/p2-a-capak-alma-hobi-el-bicagi-alyan-vidali.jpg",
     "variants": [
       {
@@ -4872,8 +4872,8 @@
     "code": "P2-T",
     "name": "P2-T - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI",
     "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/p2-t-capak-alma-hobi-el-bicagi-cevirmeli-vida.jpg",
     "variants": [
       {
@@ -4904,8 +4904,8 @@
     "code": "P9-SS",
     "name": "P9-SS - ÇAPAK ALMA / HOBİ EL BIÇAĞI – 2xYUVALI VİDA",
     "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – 2xYUVALI VİDA. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/p9-ss-capak-alma-hobi-el-bicagi-2xyuvali-vida.jpg",
     "variants": [
       {
@@ -4936,8 +4936,8 @@
     "code": "WS-1",
     "name": "WS-1 - ÇAPAK ALMA / HOBİ ÇALIŞMA İSTASYONU",
     "description": "ÇAPAK ALMA / HOBİ ÇALIŞMA İSTASYONU. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "hobi-jiletleri",
+    "categoryId": "safety-knives",
+    "subcategoryId": "hobby-blades",
     "image": "/images/products/ws-1-capak-alma-hobi-calisma-istasyonu.jpg",
     "variants": [
       {
@@ -4968,8 +4968,8 @@
     "code": "F01",
     "name": "F01 - ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP",
     "description": "ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "capak-alma-hobi",
+    "categoryId": "safety-knives",
+    "subcategoryId": "deburring-hobby",
     "image": "/images/products/f01-capak-alma-bicagi-evrensel-tip.jpg",
     "variants": [
       {
@@ -5000,8 +5000,8 @@
     "code": "F21",
     "name": "F21 - ÇAPAK ALMA BIÇAĞI – KISA TİP",
     "description": "ÇAPAK ALMA BIÇAĞI – KISA TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "capak-alma-hobi",
+    "categoryId": "safety-knives",
+    "subcategoryId": "deburring-hobby",
     "image": "/images/products/f21-capak-alma-bicagi-kisa-tip.jpg",
     "variants": [
       {
@@ -5032,8 +5032,8 @@
     "code": "F22",
     "name": "F22 - ÇAPAK ALMA BIÇAĞI – DAYANIKLI TİP",
     "description": "ÇAPAK ALMA BIÇAĞI – DAYANIKLI TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "capak-alma-hobi",
+    "categoryId": "safety-knives",
+    "subcategoryId": "deburring-hobby",
     "image": "/images/products/f22-capak-alma-bicagi-dayanikli-tip.jpg",
     "variants": [
       {
@@ -5064,8 +5064,8 @@
     "code": "F03",
     "name": "F03 - ÇAPAK ALMA BIÇAĞI – SİVRİ TİP",
     "description": "ÇAPAK ALMA BIÇAĞI – SİVRİ TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "capak-alma-hobi",
+    "categoryId": "safety-knives",
+    "subcategoryId": "deburring-hobby",
     "image": "/images/products/f03-capak-alma-bicagi-sivri-tip.jpg",
     "variants": [
       {
@@ -5096,8 +5096,8 @@
     "code": "F04",
     "name": "F04 - ÇAPAK ALMA BIÇAĞI – YUVARLAK UÇLU TİP",
     "description": "ÇAPAK ALMA BIÇAĞI – YUVARLAK UÇLU TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "capak-alma-hobi",
+    "categoryId": "safety-knives",
+    "subcategoryId": "deburring-hobby",
     "image": "/images/products/f04-capak-alma-bicagi-yuvarlak-uclu-tip.jpg",
     "variants": [
       {
@@ -5128,8 +5128,8 @@
     "code": "G01",
     "name": "G01 - ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP",
     "description": "ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "capak-alma-hobi",
+    "categoryId": "safety-knives",
+    "subcategoryId": "deburring-hobby",
     "image": "/images/products/g01-capak-alma-bicagi-evrensel-tip.jpg",
     "variants": [
       {
@@ -5160,8 +5160,8 @@
     "code": "OLFA",
     "name": "OLFA - PRC-3/C",
     "description": "PRC-3/C. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-prc-3c.jpg",
     "variants": [
       {
@@ -5192,8 +5192,8 @@
     "code": "OLFA",
     "name": "OLFA - 12.5mm CS-5",
     "description": "12.5mm CS-5. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-125mm-cs-5.jpg",
     "variants": [
       {
@@ -5224,8 +5224,8 @@
     "code": "OLFA",
     "name": "OLFA - SK-10",
     "description": "SK-10. Sheffield kalitesinde profesyonel kesici bıçak.",
-    "categoryId": "is-guvenligi-el-bicaklari",
-    "subcategoryId": "guvenlik-bicaklari",
+    "categoryId": "safety-knives",
+    "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-sk-10.jpg",
     "variants": [
       {

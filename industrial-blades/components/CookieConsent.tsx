@@ -79,10 +79,8 @@ export default function CookieConsent() {
 
   if (!isVisible) return null
 
-  // Çerez politikası linki - locale'e göre
-  const cookiePolicyPath = locale === 'tr' ? '/cerez-politikasi' : 
-                           locale === 'en' ? '/cookie-policy' : 
-                           '/سياسة-ملفات-تعريف-الارتباط'
+  // Cookie policy link - standardized English path for all locales
+  const cookiePolicyPath = '/cookie-policy'
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 p-4 md:p-6 animate-slide-up">
