@@ -58,7 +58,7 @@ export interface ProductSpecifications {
 export interface Product extends BaseEntity, DisplayInfo {
   code: string;             // Ürün kodu (görüntüleme için)
   categoryId: string;       // Ana kategori ID
-  subcategoryId: string;    // Alt kategori ID
+  subcategoryId?: string;   // Alt kategori ID (opsiyonel - bazı ürünler doğrudan kategoride)
   brandId?: string;         // Marka ID (Durham Duplex, OLFA vb.)
   
   variants: ProductVariant[];
@@ -168,7 +168,7 @@ export interface ProductCardView {
 /** Ürün detay görünümü - Tam veri */
 export interface ProductDetailView extends Product {
   category: Category;
-  subcategory: SubCategory;
+  subcategory?: SubCategory;  // Opsiyonel - bazı ürünler doğrudan kategoride
   brand?: Brand;
   relatedProducts: ProductCardView[];
 }

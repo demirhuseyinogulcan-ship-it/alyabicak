@@ -12,6 +12,7 @@ import { NavItem } from '@/lib/config'
 import { siteConfig, getWhatsAppUrl } from '@/lib/config'
 import { CategoryView } from '@/lib/types'
 import { Button } from '@/components/ui'
+import type { Dictionary } from '@/lib/i18n'
 
 export interface MobileMenuProps {
   isOpen: boolean
@@ -19,7 +20,7 @@ export interface MobileMenuProps {
   categories: CategoryView[]
   onClose: () => void
   locale?: string
-  dictionary?: any
+  dictionary?: Dictionary
 }
 
 export default function MobileMenu({ 

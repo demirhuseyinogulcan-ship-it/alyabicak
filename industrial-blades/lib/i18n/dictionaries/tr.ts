@@ -561,6 +561,32 @@ const tr = {
       location: 'Sheffield',
     },
   },
+
+  // Cookie Consent
+  cookieConsent: {
+    description: 'Sitemizde deneyiminizi iyileştirmek için çerezler kullanıyoruz. Zorunlu çerezler sitenin çalışması için gereklidir.',
+    policyLink: 'Çerez Politikası',
+    settings: 'Ayarlar',
+    acceptNecessary: 'Sadece Gerekli',
+    acceptAll: 'Tümünü Kabul Et',
+    preferencesTitle: 'Çerez Tercihleri',
+    preferencesDescription: 'Hangi çerezlerin kullanılacağını seçebilirsiniz.',
+    alwaysActive: 'Her zaman aktif',
+    back: 'Geri',
+    savePreferences: 'Tercihleri Kaydet',
+    necessary: {
+      title: 'Zorunlu Çerezler',
+      description: 'Sitenin düzgün çalışması için gereklidir. Kapatılamaz.',
+    },
+    analytics: {
+      title: 'Analitik Çerezler',
+      description: 'Siteyi nasıl kullandığınızı anlamamıza yardımcı olur.',
+    },
+    functional: {
+      title: 'İşlevsel Çerezler',
+      description: 'Tercihlerinizi (dil seçimi gibi) hatırlar.',
+    },
+  },
 };
 
 export default tr;

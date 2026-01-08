@@ -116,11 +116,11 @@ class ProductService {
   toCardView(product: Product, locale: string = DEFAULT_LOCALE): ProductCardView {
     const translatedProduct = this.translateProduct(product, locale);
     const category = getCategoryById(product.categoryId);
-    const subcategory = getSubcategoryById(product.subcategoryId);
+    const subcategory = product.subcategoryId ? getSubcategoryById(product.subcategoryId) : undefined;
     
     // Kategori ve alt kategori isimlerini de çevir
     const catTranslation = getCategoryTranslation(product.categoryId, locale);
-    const subTranslation = getSubcategoryTranslation(product.subcategoryId, locale);
+    const subTranslation = product.subcategoryId ? getSubcategoryTranslation(product.subcategoryId, locale) : undefined;
     
     return {
       id: translatedProduct.id,
@@ -143,27 +143,33 @@ class ProductService {
   toDetailView(product: Product, locale: string = DEFAULT_LOCALE): ProductDetailView | undefined {
     const translatedProduct = this.translateProduct(product, locale);
     const category = getCategoryById(product.categoryId);
-    const subcategory = getSubcategoryById(product.subcategoryId);
+    const subcategory = product.subcategoryId ? getSubcategoryById(product.subcategoryId) : undefined;
     
-    if (!category || !subcategory) return undefined;
+    // Kategori zorunlu, subcategory opsiyonel
+    if (!category) return undefined;
 
     // Kategori ve alt kategori isimlerini de çevir
     const catTranslation = getCategoryTranslation(product.categoryId, locale);
-    const subTranslation = getSubcategoryTranslation(product.subcategoryId, locale);
+    const subTranslation = product.subcategoryId ? getSubcategoryTranslation(product.subcategoryId, locale) : undefined;
     
     const translatedCategory = catTranslation 
       ? { ...category, name: catTranslation.name, description: catTranslation.description }
       : category;
     
-    const translatedSubcategory = subTranslation
+    const translatedSubcategory = subcategory && subTranslation
       ? { ...subcategory, name: subTranslation.name, description: subTranslation.description }
       : subcategory;
 
-    // İlgili ürünleri getir (aynı alt kategoriden)
-    const relatedProducts = getProductsBySubcategory(product.subcategoryId)
-      .filter(p => p.id !== product.id)
-      .slice(0, 4)
-      .map(p => this.toCardView(p, locale));
+    // İlgili ürünleri getir (aynı alt kategoriden veya ana kategoriden)
+    const relatedProducts = product.subcategoryId 
+      ? getProductsBySubcategory(product.subcategoryId)
+          .filter(p => p.id !== product.id)
+          .slice(0, 4)
+          .map(p => this.toCardView(p, locale))
+      : getProductsByCategory(product.categoryId)
+          .filter(p => p.id !== product.id)
+          .slice(0, 4)
+          .map(p => this.toCardView(p, locale));
 
     return {
       ...translatedProduct,
@@ -200,11 +206,11 @@ class ProductService {
   getProductBreadcrumb(product: Product, locale: string = DEFAULT_LOCALE): Array<{ name: string; url: string }> {
     const translatedProduct = this.translateProduct(product, locale);
     const category = getCategoryById(product.categoryId);
-    const subcategory = getSubcategoryById(product.subcategoryId);
+    const subcategory = product.subcategoryId ? getSubcategoryById(product.subcategoryId) : undefined;
     
     // Çevirileri al
     const catTranslation = getCategoryTranslation(product.categoryId, locale);
-    const subTranslation = getSubcategoryTranslation(product.subcategoryId, locale);
+    const subTranslation = product.subcategoryId ? getSubcategoryTranslation(product.subcategoryId, locale) : undefined;
     
     const breadcrumb = [
       { name: locale === 'tr' ? 'Ana Sayfa' : 'Home', url: '/' },

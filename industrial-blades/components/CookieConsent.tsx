@@ -2,6 +2,7 @@
  * Cookie Consent Banner
  * KVKK ve GDPR uyumlu çerez onay bileşeni
  * Sade, minimal ve göz yormayan tasarım
+ * i18n destekli
  */
 
 'use client'
@@ -9,6 +10,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { siteConfig } from '@/lib/config'
+import { useLocale } from '@/lib/i18n/client'
 
 type CookiePreferences = {
   necessary: boolean // Her zaman true
@@ -20,6 +22,9 @@ const COOKIE_CONSENT_KEY = 'cookie-consent'
 const COOKIE_PREFERENCES_KEY = 'cookie-preferences'
 
 export default function CookieConsent() {
+  const { locale, dictionary } = useLocale()
+  const t = dictionary.cookieConsent
+  
   const [isVisible, setIsVisible] = useState(false)
   const [showDetails, setShowDetails] = useState(false)
   const [preferences, setPreferences] = useState<CookiePreferences>({
@@ -74,6 +79,11 @@ export default function CookieConsent() {
 
   if (!isVisible) return null
 
+  // Çerez politikası linki - locale'e göre
+  const cookiePolicyPath = locale === 'tr' ? '/cerez-politikasi' : 
+                           locale === 'en' ? '/cookie-policy' : 
+                           '/سياسة-ملفات-تعريف-الارتباط'
+
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 p-4 md:p-6 animate-slide-up">
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-xl border border-steel-200">
@@ -83,13 +93,12 @@ export default function CookieConsent() {
             <div className="flex flex-col md:flex-row md:items-center gap-4">
               <div className="flex-1">
                 <p className="text-sm text-steel-700 leading-relaxed">
-                  Sitemizde deneyiminizi iyileştirmek için çerezler kullanıyoruz. 
-                  Zorunlu çerezler sitenin çalışması için gereklidir.{' '}
+                  {t.description}{' '}
                   <Link 
-                    href="/cerez-politikasi" 
+                    href={`/${locale}${cookiePolicyPath}`}
                     className="text-primary-600 hover:underline"
                   >
-                    Çerez Politikası
+                    {t.policyLink}
                   </Link>
                 </p>
               </div>
@@ -98,19 +107,19 @@ export default function CookieConsent() {
                   onClick={() => setShowDetails(true)}
                   className="px-4 py-2 text-sm text-steel-600 hover:text-steel-800 border border-steel-300 rounded-lg hover:bg-steel-50 transition-colors"
                 >
-                  Ayarlar
+                  {t.settings}
                 </button>
                 <button
                   onClick={handleAcceptNecessary}
                   className="px-4 py-2 text-sm text-steel-700 bg-steel-100 hover:bg-steel-200 rounded-lg transition-colors"
                 >
-                  Sadece Gerekli
+                  {t.acceptNecessary}
                 </button>
                 <button
                   onClick={handleAcceptAll}
                   className="px-4 py-2 text-sm text-white bg-primary-600 hover:bg-primary-700 rounded-lg transition-colors"
                 >
-                  Tümünü Kabul Et
+                  {t.acceptAll}
                 </button>
               </div>
             </div>
@@ -122,10 +131,10 @@ export default function CookieConsent() {
           <div className="p-4 md:p-6">
             <div className="mb-4">
               <h3 className="text-lg font-semibold text-steel-900 mb-2">
-                Çerez Tercihleri
+                {t.preferencesTitle}
               </h3>
               <p className="text-sm text-steel-600">
-                Hangi çerezlerin kullanılacağını seçebilirsiniz.
+                {t.preferencesDescription}
               </p>
             </div>
 
@@ -134,14 +143,14 @@ export default function CookieConsent() {
               <div className="flex items-start justify-between p-3 bg-steel-50 rounded-lg">
                 <div className="flex-1 pr-4">
                   <h4 className="text-sm font-medium text-steel-900">
-                    Zorunlu Çerezler
+                    {t.necessary.title}
                   </h4>
                   <p className="text-xs text-steel-600 mt-1">
-                    Sitenin düzgün çalışması için gereklidir. Kapatılamaz.
+                    {t.necessary.description}
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <span className="text-xs text-steel-500">Her zaman aktif</span>
+                  <span className="text-xs text-steel-500">{t.alwaysActive}</span>
                 </div>
               </div>
 
@@ -149,10 +158,10 @@ export default function CookieConsent() {
               <div className="flex items-start justify-between p-3 bg-steel-50 rounded-lg">
                 <div className="flex-1 pr-4">
                   <h4 className="text-sm font-medium text-steel-900">
-                    Analitik Çerezler
+                    {t.analytics.title}
                   </h4>
                   <p className="text-xs text-steel-600 mt-1">
-                    Siteyi nasıl kullandığınızı anlamamıza yardımcı olur.
+                    {t.analytics.description}
                   </p>
                 </div>
                 <label className="relative inline-flex items-center cursor-pointer">
@@ -175,10 +184,10 @@ export default function CookieConsent() {
               <div className="flex items-start justify-between p-3 bg-steel-50 rounded-lg">
                 <div className="flex-1 pr-4">
                   <h4 className="text-sm font-medium text-steel-900">
-                    İşlevsel Çerezler
+                    {t.functional.title}
                   </h4>
                   <p className="text-xs text-steel-600 mt-1">
-                    Tercihlerinizi (dil seçimi gibi) hatırlar.
+                    {t.functional.description}
                   </p>
                 </div>
                 <label className="relative inline-flex items-center cursor-pointer">
@@ -203,13 +212,13 @@ export default function CookieConsent() {
                 onClick={() => setShowDetails(false)}
                 className="px-4 py-2 text-sm text-steel-600 hover:text-steel-800 border border-steel-300 rounded-lg hover:bg-steel-50 transition-colors"
               >
-                Geri
+                {t.back}
               </button>
               <button
                 onClick={handleSavePreferences}
                 className="px-4 py-2 text-sm text-white bg-primary-600 hover:bg-primary-700 rounded-lg transition-colors"
               >
-                Tercihleri Kaydet
+                {t.savePreferences}
               </button>
             </div>
           </div>

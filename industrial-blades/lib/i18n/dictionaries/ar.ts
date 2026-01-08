@@ -562,6 +562,32 @@ const ar = {
       location: 'شيفيلد',
     },
   },
+
+  // Cookie Consent
+  cookieConsent: {
+    description: 'نستخدم ملفات تعريف الارتباط لتحسين تجربتك على موقعنا. ملفات تعريف الارتباط الضرورية مطلوبة لعمل الموقع.',
+    policyLink: 'سياسة ملفات تعريف الارتباط',
+    settings: 'الإعدادات',
+    acceptNecessary: 'الضرورية فقط',
+    acceptAll: 'قبول الكل',
+    preferencesTitle: 'تفضيلات ملفات تعريف الارتباط',
+    preferencesDescription: 'يمكنك اختيار ملفات تعريف الارتباط التي تريد استخدامها.',
+    alwaysActive: 'نشط دائماً',
+    back: 'رجوع',
+    savePreferences: 'حفظ التفضيلات',
+    necessary: {
+      title: 'ملفات تعريف الارتباط الضرورية',
+      description: 'مطلوبة لعمل الموقع بشكل صحيح. لا يمكن تعطيلها.',
+    },
+    analytics: {
+      title: 'ملفات تعريف الارتباط التحليلية',
+      description: 'تساعدنا في فهم كيفية استخدامك للموقع.',
+    },
+    functional: {
+      title: 'ملفات تعريف الارتباط الوظيفية',
+      description: 'تتذكر تفضيلاتك (مثل اختيار اللغة).',
+    },
+  },
 };
 
 export default ar;

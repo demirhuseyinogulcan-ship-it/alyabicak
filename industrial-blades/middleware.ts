@@ -4,7 +4,12 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { i18nConfig } from '@/lib/i18n/config';
+import { i18nConfig, type Locale } from '@/lib/i18n/config';
+
+// Type guard for locale validation
+function isValidLocale(value: string): value is Locale {
+  return (i18nConfig.locales as readonly string[]).includes(value);
+}
 
 function getLocale(request: NextRequest): string {
   // 1. URL'den locale kontrol et
@@ -16,7 +21,7 @@ function getLocale(request: NextRequest): string {
 
   // 2. Cookie'den locale kontrol et
   const localeCookie = request.cookies.get('NEXT_LOCALE')?.value;
-  if (localeCookie && i18nConfig.locales.includes(localeCookie as any)) {
+  if (localeCookie && isValidLocale(localeCookie)) {
     return localeCookie;
   }
 
@@ -26,7 +31,7 @@ function getLocale(request: NextRequest): string {
     const preferredLocale = acceptLanguage
       .split(',')
       .map((lang) => lang.split(';')[0].trim().substring(0, 2))
-      .find((lang) => i18nConfig.locales.includes(lang as any));
+      .find((lang) => isValidLocale(lang));
     
     if (preferredLocale) return preferredLocale;
   }

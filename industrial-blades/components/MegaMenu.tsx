@@ -18,6 +18,7 @@ import { CategoryView } from '@/lib/types'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useLocale } from '@/lib/i18n/client'
+import type { Dictionary } from '@/lib/i18n'
 
 interface MegaMenuProps {
   categories: CategoryView[]
@@ -38,7 +39,7 @@ const SubcategoryCard = memo(function SubcategoryCard({
   categorySlug: string
   onClose: () => void
   locale?: string
-  dictionary?: any
+  dictionary?: Dictionary
 }) {
   return (
     <Link

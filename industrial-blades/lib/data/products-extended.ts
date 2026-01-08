@@ -326,7 +326,7 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
   if (!baseProduct) return undefined;
   
   const category = getCategoryById(baseProduct.categoryId);
-  const subcategory = getSubcategoryById(baseProduct.subcategoryId);
+  const subcategory = baseProduct.subcategoryId ? getSubcategoryById(baseProduct.subcategoryId) : undefined;
   
   // Specifications'ı ProductSpec[] formatına çevir
   const specs: ProductExtended['specs'] = [];

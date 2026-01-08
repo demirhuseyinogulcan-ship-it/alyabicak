@@ -269,8 +269,27 @@ const MANUAL_PRODUCTS: Product[] = [
   },
 ];
 
+// Scraped ürün tipi (JSON dosyasından gelen veri yapısı)
+interface ScrapedProduct {
+  id: string;
+  slug: string;
+  code: string;
+  name: string;
+  description: string;
+  categoryId: string;
+  subcategoryId?: string;
+  image?: string;
+  variants: Product['variants'];
+  specifications: Product['specifications'];
+  features?: string[];
+  applications?: string[];
+  isFeatured: boolean;
+  isActive: boolean;
+  order: number;
+}
+
 // Scraped ürünleri Product tipine dönüştür ve ekle
-const scrapedProducts: Product[] = scrapedProductsData.map((p: any) => ({
+const scrapedProducts: Product[] = (scrapedProductsData as ScrapedProduct[]).map((p) => ({
   id: p.id,
   slug: p.slug,
   code: p.code,

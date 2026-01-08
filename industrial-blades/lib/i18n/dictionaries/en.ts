@@ -561,6 +561,32 @@ const en = {
       location: 'Sheffield',
     },
   },
+
+  // Cookie Consent
+  cookieConsent: {
+    description: 'We use cookies to improve your experience on our site. Necessary cookies are required for the site to function.',
+    policyLink: 'Cookie Policy',
+    settings: 'Settings',
+    acceptNecessary: 'Necessary Only',
+    acceptAll: 'Accept All',
+    preferencesTitle: 'Cookie Preferences',
+    preferencesDescription: 'You can choose which cookies to use.',
+    alwaysActive: 'Always active',
+    back: 'Back',
+    savePreferences: 'Save Preferences',
+    necessary: {
+      title: 'Necessary Cookies',
+      description: 'Required for the site to function properly. Cannot be disabled.',
+    },
+    analytics: {
+      title: 'Analytics Cookies',
+      description: 'Helps us understand how you use the site.',
+    },
+    functional: {
+      title: 'Functional Cookies',
+      description: 'Remembers your preferences (like language selection).',
+    },
+  },
 };
 
 export default en;
