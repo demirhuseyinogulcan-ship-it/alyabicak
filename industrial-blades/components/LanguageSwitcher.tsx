@@ -11,7 +11,7 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import { useState, useRef, useEffect, useMemo } from 'react';
-import { Globe, ChevronDown, Check } from 'lucide-react';
+import { Globe, ChevronDown, Check, X } from 'lucide-react';
 import { i18nConfig, type Locale } from '@/lib/i18n';
 
 // Domain mappings
@@ -22,7 +22,7 @@ const DOMAIN_CONFIG = {
 } as const;
 
 export interface LanguageSwitcherProps {
-  variant?: 'dropdown' | 'buttons'
+  variant?: 'dropdown' | 'buttons' | 'bottomsheet'
 }
 
 export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps = {}) {
@@ -75,7 +75,81 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
     setIsOpen(false);
   };
 
-  // Mobil için yatay buton görünümü
+  // Mobil için Bottom Sheet görünümü (scalable - 20+ dil için)
+  if (variant === 'bottomsheet') {
+    return (
+      <>
+        {/* Trigger Button */}
+        <button
+          onClick={() => setIsOpen(true)}
+          className="w-full flex items-center justify-between px-4 py-3 bg-steel-100 hover:bg-steel-200 rounded-lg transition-colors"
+        >
+          <div className="flex items-center gap-3">
+            <span className="text-xl">{i18nConfig.localeFlags[currentLocale]}</span>
+            <span className="font-medium text-steel-700">{i18nConfig.localeNames[currentLocale]}</span>
+          </div>
+          <ChevronDown className="w-5 h-5 text-steel-500" />
+        </button>
+
+        {/* Bottom Sheet Overlay */}
+        {isOpen && (
+          <div 
+            className="fixed inset-0 z-[100] bg-black/50 animate-fade-in"
+            onClick={() => setIsOpen(false)}
+          >
+            {/* Bottom Sheet Container */}
+            <div 
+              className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl animate-slide-up max-h-[70vh] flex flex-col"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Header */}
+              <div className="flex items-center justify-between px-4 py-4 border-b border-steel-200">
+                <h3 className="text-lg font-semibold text-steel-800">
+                  {currentLocale === 'tr' ? 'Dil Seçin' : currentLocale === 'ar' ? 'اختر اللغة' : 'Select Language'}
+                </h3>
+                <button
+                  onClick={() => setIsOpen(false)}
+                  className="p-2 hover:bg-steel-100 rounded-full transition-colors"
+                >
+                  <X className="w-5 h-5 text-steel-500" />
+                </button>
+              </div>
+
+              {/* Language List - Scrollable */}
+              <div className="overflow-y-auto flex-1 py-2">
+                {i18nConfig.locales.map((locale) => (
+                  <button
+                    key={locale}
+                    onClick={() => switchLocale(locale)}
+                    className={`
+                      w-full flex items-center gap-4 px-4 py-4 transition-colors
+                      ${currentLocale === locale 
+                        ? 'bg-primary-50' 
+                        : 'hover:bg-steel-50'
+                      }
+                    `}
+                  >
+                    <span className="text-2xl">{i18nConfig.localeFlags[locale]}</span>
+                    <span className={`flex-1 text-left text-base ${currentLocale === locale ? 'font-semibold text-primary-700' : 'text-steel-700'}`}>
+                      {i18nConfig.localeNames[locale]}
+                    </span>
+                    {currentLocale === locale && (
+                      <Check className="w-5 h-5 text-primary-600" />
+                    )}
+                  </button>
+                ))}
+              </div>
+
+              {/* Safe area for mobile */}
+              <div className="h-6 bg-white" />
+            </div>
+          </div>
+        )}
+      </>
+    );
+  }
+
+  // Mobil için yatay buton görünümü (3 dil için)
   if (variant === 'buttons') {
     return (
       <div className="flex gap-2">

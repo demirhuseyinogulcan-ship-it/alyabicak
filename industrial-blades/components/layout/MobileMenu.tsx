@@ -50,14 +50,14 @@ export default function MobileMenu({
 
   return (
     <div className="lg:hidden mt-4 pb-4 border-t border-steel-100 pt-4 animate-slide-up bg-white max-h-[calc(100vh-80px)] overflow-y-auto">
-      {/* Dil Seçici - En Üstte */}
+      {/* Dil Seçici - En Üstte (Bottom Sheet) */}
       <div className="mb-4 px-4">
         <div className="mb-2">
           <span className="text-sm font-medium text-steel-600">
             {locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language'}
           </span>
         </div>
-        <LanguageSwitcher variant="buttons" />
+        <LanguageSwitcher variant="bottomsheet" />
       </div>
 
       <nav className="space-y-2 px-4">
