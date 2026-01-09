@@ -49,7 +49,17 @@ export default function MobileMenu({
   if (!isOpen) return null
 
   return (
-    <div className="lg:hidden mt-4 pb-4 border-t border-steel-100 pt-4 animate-slide-up bg-white">
+    <div className="lg:hidden mt-4 pb-4 border-t border-steel-100 pt-4 animate-slide-up bg-white max-h-[calc(100vh-80px)] overflow-y-auto">
+      {/* Dil Seçici - En Üstte */}
+      <div className="mb-4 px-4">
+        <div className="mb-2">
+          <span className="text-sm font-medium text-steel-600">
+            {locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language'}
+          </span>
+        </div>
+        <LanguageSwitcher variant="buttons" />
+      </div>
+
       <nav className="space-y-2 px-4">
         {items.map((item) => (
           <div key={item.title}>
@@ -113,16 +123,6 @@ export default function MobileMenu({
         >
           {dictionary?.nav?.whatsappContact || (locale === 'tr' ? 'WhatsApp ile İletişim' : 'Contact via WhatsApp')}
         </Button>
-      </div>
-
-      {/* Dil Seçici - Sadece Mobile */}
-      <div className="mt-4 pt-4 border-t border-steel-100 px-4">
-        <div className="mb-3">
-          <span className="text-sm font-medium text-steel-600">
-            {locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language'}
-          </span>
-        </div>
-        <LanguageSwitcher variant="buttons" />
       </div>
     </div>
   )
