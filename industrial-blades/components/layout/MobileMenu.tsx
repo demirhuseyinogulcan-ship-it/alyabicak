@@ -119,7 +119,7 @@ export default function MobileMenu({
       <div className="mt-4 pt-4 border-t border-steel-100 px-4">
         <div className="flex items-center justify-between mb-2">
           <span className="text-sm font-medium text-steel-600">
-            {dictionary?.nav?.language || (locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language')}
+            {locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language'}
           </span>
         </div>
         <LanguageSwitcher />
