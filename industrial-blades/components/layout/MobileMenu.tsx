@@ -5,9 +5,10 @@
 
 'use client'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Phone } from 'lucide-react'
+import { Phone, Search, ChevronDown } from 'lucide-react'
 import { NavItem } from '@/lib/config'
 import { siteConfig, getWhatsAppUrl } from '@/lib/config'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
@@ -20,6 +21,7 @@ export interface MobileMenuProps {
   items: NavItem[]
   categories: CategoryView[]
   onClose: () => void
+  onSearchClick?: () => void
   locale?: string
   dictionary?: Dictionary
 }
@@ -29,28 +31,34 @@ export default function MobileMenu({
   items, 
   categories,
   onClose,
+  onSearchClick,
   locale = 'tr',
   dictionary,
 }: MobileMenuProps) {
   const pathname = usePathname()
-
-  // Anasayfada kategoriler bölümüne scroll
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, item: NavItem) => {
-    if (item.hasMegaMenu && (pathname === `/${locale}` || pathname === '/')) {
-      e.preventDefault()
-      const kategorilerSection = document.getElementById('kategoriler')
-      if (kategorilerSection) {
-        kategorilerSection.scrollIntoView({ behavior: 'smooth' })
-      }
-    }
-    onClose()
-  }
+  const [isCategoriesOpen, setIsCategoriesOpen] = useState(false)
 
   if (!isOpen) return null
 
   return (
     <div className="lg:hidden mt-4 pb-4 border-t border-steel-100 pt-4 animate-slide-up bg-white max-h-[calc(100vh-80px)] overflow-y-auto">
-      {/* Dil Seçici - En Üstte (Bottom Sheet) */}
+      {/* Arama Butonu - En Üstte */}
+      <div className="mb-3 px-4">
+        <button
+          onClick={() => {
+            onSearchClick?.()
+            onClose()
+          }}
+          className="w-full flex items-center gap-3 px-4 py-3 bg-steel-100 hover:bg-steel-200 rounded-lg transition-colors"
+        >
+          <Search className="w-5 h-5 text-steel-500" />
+          <span className="text-steel-500">
+            {dictionary?.nav?.search || (locale === 'tr' ? 'Ürün Ara...' : locale === 'ar' ? 'البحث...' : 'Search products...')}
+          </span>
+        </button>
+      </div>
+
+      {/* Dil Seçici */}
       <div className="mb-4 px-4">
         <div className="mb-2">
           <span className="text-sm font-medium text-steel-600">
@@ -60,47 +68,63 @@ export default function MobileMenu({
         <LanguageSwitcher variant="bottomsheet" />
       </div>
 
-      <nav className="space-y-2 px-4">
+      <nav className="space-y-1 px-4">
         {items.map((item) => (
           <div key={item.title}>
-            <Link
-              href={item.href}
-              className={`
-                block px-4 py-3 rounded-lg font-medium transition-colors
-                ${pathname === item.href 
-                  ? 'text-primary-600 bg-primary-50' 
-                  : 'text-steel-700 hover:bg-steel-50'
-                }
-              `}
-              onClick={(e) => handleClick(e, item)}
-            >
-              {item.title}
-            </Link>
-            
-            {/* Kategori alt menüsü */}
-            {item.hasMegaMenu && (
-              <div className="ml-4 mt-2 space-y-1">
-                {categories.map((category) => (
-                  <Link
-                    key={category.id}
-                    href={`/${locale}/categories/${category.slug}`}
-                    className="block px-4 py-2 text-sm text-steel-600 hover:text-primary-600 hover:bg-steel-50 rounded-lg"
-                    onClick={onClose}
-                  >
-                    {category.name}
-                    <span className="text-xs text-steel-400 ml-1">
-                      ({category.totalProductCount})
-                    </span>
-                  </Link>
-                ))}
-                <Link
-                  href={`/${locale}/categories`}
-                  className="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-primary-50 rounded-lg"
-                  onClick={onClose}
+            {item.hasMegaMenu ? (
+              // Kategoriler - Collapse edilebilir
+              <>
+                <button
+                  onClick={() => setIsCategoriesOpen(!isCategoriesOpen)}
+                  className={`
+                    w-full flex items-center justify-between px-4 py-3 rounded-lg font-medium transition-colors
+                    ${isCategoriesOpen ? 'text-primary-600 bg-primary-50' : 'text-steel-700 hover:bg-steel-50'}
+                  `}
                 >
-                  {dictionary?.nav?.viewAllCategories || (locale === 'tr' ? 'Tüm Kategorileri Gör →' : 'View All Categories →')}
-                </Link>
-              </div>
+                  <span>{item.title}</span>
+                  <ChevronDown className={`w-5 h-5 transition-transform ${isCategoriesOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {/* Kategori alt menüsü - Collapse */}
+                {isCategoriesOpen && (
+                  <div className="ml-4 mt-1 space-y-1 animate-slide-up">
+                    {categories.map((category) => (
+                      <Link
+                        key={category.id}
+                        href={`/${locale}/categories/${category.slug}`}
+                        className="block px-4 py-2 text-sm text-steel-600 hover:text-primary-600 hover:bg-steel-50 rounded-lg"
+                        onClick={onClose}
+                      >
+                        {category.name}
+                        <span className="text-xs text-steel-400 ml-1">
+                          ({category.totalProductCount})
+                        </span>
+                      </Link>
+                    ))}
+                    <Link
+                      href={`/${locale}/categories`}
+                      className="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-primary-50 rounded-lg"
+                      onClick={onClose}
+                    >
+                      {dictionary?.nav?.viewAllCategories || (locale === 'tr' ? 'Tüm Kategorileri Gör →' : 'View All Categories →')}
+                    </Link>
+                  </div>
+                )}
+              </>
+            ) : (
+              <Link
+                href={item.href}
+                className={`
+                  block px-4 py-3 rounded-lg font-medium transition-colors
+                  ${pathname === item.href 
+                    ? 'text-primary-600 bg-primary-50' 
+                    : 'text-steel-700 hover:bg-steel-50'
+                  }
+                `}
+                onClick={onClose}
+              >
+                {item.title}
+              </Link>
             )}
           </div>
         ))}

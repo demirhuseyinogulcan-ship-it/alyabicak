@@ -169,9 +169,6 @@ export default function Header() {
             >
               <Search className="w-4 h-4" />
               <span className="text-sm hidden 2xl:block">{dict.nav.search}...</span>
-              <kbd className="hidden 2xl:inline-flex items-center gap-0.5 px-1.5 py-0.5 text-xs text-steel-400 bg-white rounded border border-steel-200 group-hover:border-steel-300">
-                ⌘K
-              </kbd>
             </button>
             
             {/* Dil Seçici - Sadece Desktop */}
@@ -215,6 +212,7 @@ export default function Header() {
         items={localizedNavItems}
         categories={categories}
         onClose={closeMobileMenu}
+        onSearchClick={openSearch}
         locale={locale}
         dictionary={dict}
       />
