@@ -19,6 +19,7 @@ const tr = {
     qualityStandards: 'Kalite Standartlarımız',
     blog: 'Bülten',
     consulting: 'Danışmanlık',
+    faq: 'S.S.S.',
     about: 'Hakkımızda',
     contact: 'İletişim',
     catalog: 'e-Katalog',

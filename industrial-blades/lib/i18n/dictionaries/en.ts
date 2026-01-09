@@ -19,6 +19,7 @@ const en = {
     qualityStandards: 'Quality Standards',
     blog: 'Blog',
     consulting: 'Consulting',
+    faq: 'FAQ',
     about: 'About Us',
     contact: 'Contact',
     catalog: 'e-Catalog',

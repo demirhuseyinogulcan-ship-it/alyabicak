@@ -233,3 +233,193 @@ export function generateBreadcrumbSchema(items: { name: string; url: string }[])
   }
 }
 
+/**
+ * FAQPage Schema Generator
+ * Google Featured Snippets için zorunlu
+ * CTR'ı %30-50 artırır
+ */
+export function generateFAQSchema(faqs: { question: string; answer: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  }
+}
+
+/**
+ * WebSite Schema with SearchAction
+ * Google Sitelinks Search Box için gerekli
+ */
+export function generateWebsiteSchema(locale: Locale) {
+  const domain = DOMAIN_CONFIG[locale]
+  const siteName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
+  const inLanguage = locale === 'tr' ? 'tr-TR' : locale === 'ar' ? 'ar-SA' : 'en-US'
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${domain}/#website`,
+    url: domain,
+    name: siteName,
+    description: locale === 'tr' 
+      ? 'Endüstriyel kesici bıçaklar ve sanayi jiletleri' 
+      : 'Industrial cutting blades and razors',
+    inLanguage,
+    publisher: {
+      '@type': 'Organization',
+      name: siteConfig.company.legalName,
+    },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${domain}/${locale}/search?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  }
+}
+
+/**
+ * ItemList Schema Generator
+ * Kategori sayfaları için - Google ürün carousel
+ */
+export function generateItemListSchema(
+  items: { name: string; url: string; image: string; position: number }[],
+  listName: string
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: listName,
+    numberOfItems: items.length,
+    itemListElement: items.map((item) => ({
+      '@type': 'ListItem',
+      position: item.position,
+      name: item.name,
+      url: item.url,
+      image: item.image,
+    })),
+  }
+}
+
+/**
+ * Gelişmiş Product Schema
+ * aggregateRating, material, weight, dimensions desteği
+ */
+export interface ProductSchemaInput {
+  name: string
+  description: string
+  code: string
+  image: string
+  images?: string[]
+  brand?: string
+  category?: string
+  material?: string
+  weight?: string
+  rating?: number
+  ratingCount?: number
+  inStock?: boolean
+  locale: Locale
+  slug: string
+}
+
+export function generateEnhancedProductSchema(product: ProductSchemaInput) {
+  const domain = DOMAIN_CONFIG[product.locale]
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    '@id': `${domain}/${product.locale}/products/${product.slug}#product`,
+    name: product.name,
+    description: product.description,
+    sku: product.code,
+    mpn: product.code,
+    
+    // Görseller
+    image: product.images && product.images.length > 0 
+      ? [product.image, ...product.images]
+      : product.image,
+    
+    // Marka & Üretici
+    brand: {
+      '@type': 'Brand',
+      name: product.brand || 'Alya Bıçak',
+    },
+    manufacturer: {
+      '@type': 'Organization',
+      name: 'Durham Duplex',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Sheffield',
+        addressCountry: 'GB',
+      },
+    },
+    
+    // Fiziksel Özellikler
+    ...(product.material && { material: product.material }),
+    ...(product.weight && {
+      weight: {
+        '@type': 'QuantitativeValue',
+        value: parseFloat(product.weight),
+        unitCode: 'GRM',
+      },
+    }),
+    
+    // Değerlendirmeler
+    ...(product.rating && {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: product.rating,
+        ratingCount: product.ratingCount || 1,
+        bestRating: 5,
+        worstRating: 1,
+      },
+    }),
+    
+    // Fiyat & Stok
+    offers: {
+      '@type': 'Offer',
+      url: `${domain}/${product.locale}/products/${product.slug}`,
+      availability: product.inStock !== false
+        ? 'https://schema.org/InStock' 
+        : 'https://schema.org/OutOfStock',
+      seller: {
+        '@type': 'Organization',
+        name: siteConfig.company.legalName,
+      },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingDestination: {
+          '@type': 'DefinedRegion',
+          addressCountry: ['TR', 'EU', 'ME', 'SA', 'AE'],
+        },
+      },
+    },
+    
+    // Kategori
+    ...(product.category && { category: product.category }),
+    
+    // Ek Bilgiler
+    additionalProperty: [
+      {
+        '@type': 'PropertyValue',
+        name: 'Menşei',
+        value: 'Sheffield, İngiltere',
+      },
+      {
+        '@type': 'PropertyValue', 
+        name: 'Kalite Standardı',
+        value: 'ISO 9001:2015',
+      },
+    ],
+  }
+}
+

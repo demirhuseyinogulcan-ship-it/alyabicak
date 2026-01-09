@@ -19,6 +19,14 @@ import {
 import { ProductViewTracker } from '@/components/analytics';
 import { siteConfig } from '@/lib/config/site.config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
+import { getCanonicalUrl, generateHreflangUrls } from '@/lib/seo';
+
+// Domain mapping - Multi-domain SEO için
+const DOMAIN_MAP: Record<Locale, string> = {
+  tr: 'https://alyabicak.com',
+  en: 'https://alyablade.com',
+  ar: 'https://alyablade.com',
+};
 
 interface ProductPageProps {
   params: Promise<{ locale: Locale; slug: string }>;
@@ -79,10 +87,13 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       images: [product.images.main.src],
     },
     alternates: {
-      canonical: `${siteConfig.url}/${locale}/products/${slug}`,
+      // Canonical URL - locale'e göre doğru domain'e yönlendir
+      canonical: `${DOMAIN_MAP[locale]}/${locale}/products/${slug}`,
       languages: {
-        'tr': `${siteConfig.url}/tr/products/${slug}`,
-        'en': `${siteConfig.url}/en/products/${slug}`,
+        'tr': `https://alyabicak.com/tr/products/${slug}`,
+        'en': `https://alyablade.com/en/products/${slug}`,
+        'ar': `https://alyablade.com/ar/products/${slug}`,
+        'x-default': `https://alyablade.com/en/products/${slug}`,
       },
     },
   };

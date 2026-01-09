@@ -62,6 +62,7 @@ export const footerNavigation = {
   legal: [
     { titleKey: 'footer.privacy', href: '/privacy-policy' },
     { titleKey: 'footer.cookies', href: '/cookie-policy' },
+    { titleKey: 'nav.faq', href: '/faq' },
   ],
 }
 

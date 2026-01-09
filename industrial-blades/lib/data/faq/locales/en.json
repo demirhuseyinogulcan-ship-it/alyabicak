@@ -1,0 +1,152 @@
+{
+  "locale": "en",
+  "categories": {
+    "arizagiderme": "Troubleshooting & Performance",
+    "celik": "Steel Types & Technical Info",
+    "kaplama": "Coating & Surface Treatments",
+    "teknik": "Technical Specifications",
+    "ozelUretim": "Custom Manufacturing & Services",
+    "siparis": "Order & Delivery",
+    "genel": "General Information"
+  },
+  "questions": [
+    {
+      "id": "blade-dulling-quickly",
+      "question": "Our blades are dulling too quickly, what should we do?",
+      "answer": "Rapid dulling can have several causes: 1) Material mismatch - the material being cut may be harder than the blade steel (fiberglass, metallic yarn). In this case, tungsten carbide or ceramic-coated blades are needed. 2) Wrong angle - too thin an angle (under 20°) creates brittleness, 25-30° is ideal for thick materials. 3) Heat buildup - friction at high speeds softens the steel. Consider a cooling system or lower speeds. 4) Steel quality - low carbon steel is not durable. Upgrading to D2 or HSS steel extends life 3-5 times.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "rough-cut-surface",
+      "question": "Cut surface is rough, we can't get clean cuts",
+      "answer": "Main causes of rough cutting: 1) Dull blade - microscopic burrs have formed, time to change. 2) Wrong blade geometry - wavy edge is not suitable for straight cuts, use a straight-edge blade. 3) Vibration - machine is out of adjustment or blade is loosely mounted. Check tightening torques. 4) Material slippage - material is moving during cutting. Increase pressure or use a vacuum table. 5) Speed mismatch - too fast melts, too slow tears.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "blade-breaking-quickly",
+      "question": "Our blades are breaking too quickly, why?",
+      "answer": "Breaking usually results from excessive hardness or improper use: 1) Steel selection - steels with 62+ HRC hardness are brittle. 58-60 HRC is sufficient for impact applications. 2) Angle error - too narrow angle (under 15°) invites breakage. 3) Lateral forces - the blade is only resistant to vertical force, lateral pressure breaks it. Review cutting geometry. 4) Material hardness - breaking is inevitable when cutting material harder than the blade (metal, stone). Tungsten carbide is required. 5) Thermal shock - cooling a very hot blade with cold water causes cracking.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "production-speed-dropped",
+      "question": "Our production speed has dropped, are the blades the problem?",
+      "answer": "Blade-related causes of efficiency loss: 1) Dulling - even if not visually noticeable, dulling has begun at the microscopic level. Increased cutting force = motor straining = speed drop. 2) Wrong profile - using a straight blade for circular cutting is inefficient. Choose an application-specific profile. 3) Blade change frequency - 'use until it breaks' policy is costly. Planned changes maintain both quality and speed. We recommend doing a cost-per-cut analysis - in most cases, quality blades reduce total cost.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "blade-doesnt-fit",
+      "question": "The blade we bought doesn't fit our machine",
+      "answer": "For compatibility issues: 1) Dimensional tolerance - in industrial blades, ±0.05mm tolerance is critical. Send us the exact dimensions of the original blade (length, width, thickness, hole diameter, hole center distance). 2) Connection type - single hole, double hole, channel, clamp type are different. 3) Brand differences - some machine manufacturers use special dimensions. If you send a sample with machine brand/model information, we can produce an exact match. 4) Worn socket - on older machines, the blade socket may be worn, machine maintenance may be needed.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "d2-vs-hss",
+      "question": "What is the difference between D2 steel and HSS steel?",
+      "answer": "D2 and HSS are steels optimized for different purposes. D2 (1.2379): High chromium (12%), high wear resistance, 60-62 HRC hardness. Ideal for cold cutting, paper/cardboard, plastic. Disadvantage: Brittle against impacts. HSS (High-Speed Steel - M2, M42): Cobalt and tungsten alloy, heat resistant (maintains hardness up to 600°C). For metal cutting, high-speed applications. More expensive than D2 but indispensable in heated environments. Simple rule: Cold cutting = D2, hot/fast cutting = HSS.",
+      "category": "celik"
+    },
+    {
+      "id": "when-tungsten-carbide",
+      "question": "When is tungsten carbide blade necessary?",
+      "answer": "Tungsten carbide (TC) is essential for highly abrasive materials: 1) Glass fiber reinforced plastics (GRP/FRP) 2) Carbon fiber composites 3) Ceramic coatings 4) Abrasive-filled rubbers 5) Metal-filled materials. TC is 3-4 times harder than steel (1400+ HV) but brittle - use only for straight cutting movements. Although the cost is high, steel blades fail within minutes on these materials, while TC lasts for months. Don't say 'expensive' without doing an ROI calculation.",
+      "category": "celik"
+    },
+    {
+      "id": "stainless-steel-advantage",
+      "question": "What is the advantage of stainless steel blades?",
+      "answer": "Stainless steel (AISI 420, 440C) contains 13%+ chromium and is corrosion resistant. Usage areas: 1) Food industry - FDA/EC1935 compliant, hygienic 2) Humid environments - water-based cutting, outdoor 3) Chemical contact - acidic/alkaline materials. Disadvantage: Dulls faster than carbon steel at the same hardness. 440C provides adequate hardness (58-60 HRC) but cannot stay as sharp as D2. If there is no food/moisture, prefer carbon steel.",
+      "category": "celik"
+    },
+    {
+      "id": "blade-hardness-hrc",
+      "question": "What does blade hardness (HRC) mean?",
+      "answer": "HRC (Rockwell C) is the unit of measurement for steel hardness. In industrial blades: 55-58 HRC: High impact resistance, flexible. Guillotine blades, thick metal cutting. 58-60 HRC: Balanced. Most general-purpose applications. 60-62 HRC: High sharpness retention. Paper, film, fine cuts. 62+ HRC: Ultra-hard but brittle. Only controlled environments. Higher HRC = longer sharpness but brittleness risk. Choose the right balance for your application.",
+      "category": "celik"
+    },
+    {
+      "id": "sheffield-steel-difference",
+      "question": "What is the difference of Sheffield steel?",
+      "answer": "Sheffield, England has 700+ years of steelmaking tradition. Sheffield steel features: 1) High purity - low sulfur/phosphorus ratio, homogeneous structure 2) Controlled heat treatment - precise hardness distribution 3) Fine grain structure - sharper and more durable edge. British steel makes a particular difference in razor-type thin cutters. Established manufacturers like Durham Duplex benefit from this tradition. Cheap Far East steel often has lot variations and inconsistent hardness.",
+      "category": "celik"
+    },
+    {
+      "id": "tin-coating-purpose",
+      "question": "What is titanium nitride (TiN) coating for?",
+      "answer": "TiN coating (gold color) adds a thin ceramic layer to the blade surface: 1) Hardness increase - surface hardness rises to 2300 HV (steel is 800 HV) 2) Friction reduction - prevents material adhesion 3) Wear resistance - lifespan increases 2-5 times. Disadvantages: Cannot be recoated when coating wears off. Coating disappears when sharpening is needed. Ideal for high-volume, blade-replacement applications. Not cost-effective for sharpening-based use.",
+      "category": "kaplama"
+    },
+    {
+      "id": "when-dlc-coating",
+      "question": "When is DLC (Diamond-Like Carbon) coating preferred?",
+      "answer": "DLC is a carbon coating with near-diamond hardness (3000+ HV). Usage areas: 1) Adhesive materials - prevents sticking when cutting silicone, rubber, labels 2) Ultra-clean cutting - food, medical, electronics 3) Applications requiring low friction. More expensive than TiN but indispensable for adhesive materials. Also provides aesthetics with its black color. Especially when cutting taped, labeled materials, it leaves no residue on the blade.",
+      "category": "kaplama"
+    },
+    {
+      "id": "coated-vs-uncoated",
+      "question": "Should I prefer coated or uncoated blades?",
+      "answer": "Decision criteria: Prefer COATED: High volume production, difficult blade changes, adhesive materials, abrasive environment. Prefer UNCOATED: Low volume, frequent sharpening, cost-critical, clean material cutting. Coating increases blade price by 30-100%. But in the right application, it reduces the number of changes by half, thus lowering total cost. If unsure, try uncoated first, switch to coated if performance is insufficient.",
+      "category": "kaplama"
+    },
+    {
+      "id": "why-tolerance-important",
+      "question": "Why is blade tolerance important?",
+      "answer": "Tolerance is the range of deviation from the specified measurement. Example: 100mm ±0.05mm = 99.95-100.05mm is acceptable. Why critical: 1) Machine fit - loose blade vibrates, tight blade impossible to install 2) Cut quality - uneven blade thickness creates wavy cuts 3) Safety - excessive tolerance invites accidents. Quality manufacturers achieve ±0.02-0.05mm. In cheap blades, ±0.2mm tolerance is considered 'normal' which is 10 times more deviation.",
+      "category": "teknik"
+    },
+    {
+      "id": "cutting-angle-selection",
+      "question": "How to select the correct cutting angle?",
+      "answer": "Cutting angle varies by material and application: 15-20°: Very sharp, soft materials (paper, film). Fragile. 20-25°: Balanced, ideal for most textile and plastic. 25-30°: Durable, thick/hard materials, impact cuts. 30-40°: Very durable, metal cutting, heavy duty. Single-sided (chisel) vs double-sided (V-edge): Single side for precision cutting, double side for general purpose. If unsure, start with 22-25° double-sided.",
+      "category": "teknik"
+    },
+    {
+      "id": "standard-blade-dimensions",
+      "question": "Are industrial blade dimensions standard?",
+      "answer": "Partially. Some categories have standards: Trapezoid blade: 61mm x 19mm (universal). Single edge blade: Standard #9 (38mm) and #12 (44mm). Utility knife: 9mm, 18mm, 25mm width standard. However, machine blades are mostly specific to the machine manufacturer. Each brand uses its own dimensions. Therefore, always specify the dimensions of your existing blade or machine brand/model when ordering. Sending a sample is the most reliable method.",
+      "category": "teknik"
+    },
+    {
+      "id": "custom-blade-production",
+      "question": "Can you produce custom dimension/profile blades?",
+      "answer": "Yes. We do custom production with CNC precision at our Istanbul facility: 1) Send a technical drawing or sample 2) Let's discuss material and coating options 3) Prototype production (1-2 weeks) 4) Transition to mass production after approval. Minimum order: No limit for prototype. Determined by cost for mass production. Custom profiles: Circular, wavy, notched, perforated, any geometry is possible. What's critical is having clear tolerance and material specifications.",
+      "category": "ozelUretim"
+    },
+    {
+      "id": "technical-support",
+      "question": "Do you provide technical consulting services?",
+      "answer": "Yes, we provide free technical support: 1) Correct blade selection - the most suitable steel, coating, geometry for your application 2) Problem solving - we analyze your current cutting problems 3) Cost optimization - cost-per-cut analysis 4) Sample testing - opportunity to try new blades in your production. Contact channels: Phone, WhatsApp, email. We also make on-site visits if needed (Istanbul and surrounding provinces). We focus on finding the right solution without sales pressure.",
+      "category": "ozelUretim"
+    },
+    {
+      "id": "minimum-order",
+      "question": "What is the minimum order quantity?",
+      "answer": "For standard stock products (blades), package quantities apply (typically boxes of 10, 100, or 250). For custom machine blades, quantity matters - higher volume orders benefit from more advantageous pricing compared to low-quantity orders.",
+      "category": "siparis"
+    },
+    {
+      "id": "delivery-time",
+      "question": "How long does delivery take?",
+      "answer": "Depending on stock status: In-stock standard products: Same-day shipping, 1-3 business days delivery (domestic). International: 5-15 business days depending on country. Custom production: approximately 6-8 weeks.",
+      "category": "siparis"
+    },
+    {
+      "id": "international-sales",
+      "question": "Do you sell internationally?",
+      "answer": "Yes, we export to more than 35 countries. We make regular shipments to our customers in the Middle East, Europe, Africa and Asia.",
+      "category": "siparis"
+    },
+    {
+      "id": "who-is-alya",
+      "question": "Who is Alya Blade?",
+      "answer": "Alya is an Istanbul-based company supplying industrial cutters with 30+ years of experience. We specialize in textile machinery spare parts production and industrial blade supply. We are the authorized distributor of Durham Duplex (Sheffield, England - since 1910) for Turkey and surrounding regions. We export to more than 35 countries. Our difference: Not just sales, we are technical solution partners. We help you choose the most suitable blade for your application.",
+      "category": "genel"
+    },
+    {
+      "id": "why-alya",
+      "question": "What makes Alya different from other suppliers?",
+      "answer": "With 30 years of industry experience, we don't just sell products - we become your technical solution partner. We understand your process and recommend the right steel and coating. With our honest approach, we won't recommend expensive solutions for simple jobs. We make quality blades accessible in Turkey.",
+      "category": "genel"
+    }
+  ]
+}

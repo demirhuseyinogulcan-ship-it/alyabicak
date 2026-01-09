@@ -14,7 +14,7 @@ import CookieConsent from '@/components/CookieConsent';
 import GlobalImageProtection from '@/components/GlobalImageProtection';
 import AnalyticsProvider from '@/components/analytics/AnalyticsProvider';
 import { SkipLink } from '@/components/ui';
-import { generateOrganizationSchema, generateLocalBusinessSchema } from '@/lib/seo';
+import { generateOrganizationSchema, generateLocalBusinessSchema, generateWebsiteSchema } from '@/lib/seo';
 import { siteConfig } from '@/lib/config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 import { LocaleProvider } from '@/components/providers/LocaleProvider';
@@ -122,6 +122,7 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale);
   const organizationSchema = generateOrganizationSchema(locale);
   const localBusinessSchema = generateLocalBusinessSchema();
+  const websiteSchema = generateWebsiteSchema(locale);
   
   // RTL dil kontrolü
   const isRtl = rtlLocales.includes(locale);
@@ -136,6 +137,10 @@ export default async function LocaleLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body className={`${montserrat.variable} font-sans antialiased bg-white text-steel-900`}>

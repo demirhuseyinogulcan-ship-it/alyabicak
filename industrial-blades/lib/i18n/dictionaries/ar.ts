@@ -20,6 +20,7 @@ const ar = {
     qualityStandards: 'معايير الجودة',
     blog: 'المدونة',
     consulting: 'الاستشارات',
+    faq: 'الأسئلة الشائعة',
     about: 'من نحن',
     contact: 'اتصل بنا',
     catalog: 'الكتالوج الإلكتروني',
