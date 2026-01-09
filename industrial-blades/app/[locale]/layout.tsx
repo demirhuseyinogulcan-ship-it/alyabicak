@@ -39,6 +39,13 @@ export async function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
 }
 
+// Domain mapping - Multi-domain SEO için
+const DOMAIN_MAP: Record<Locale, string> = {
+  tr: 'https://alyabicak.com',
+  en: 'https://alyablade.com',
+  ar: 'https://alyablade.com',
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -47,14 +54,18 @@ export async function generateMetadata({
   const { locale } = await params;
   const dict = await getDictionary(locale);
   
-  // Dinamik alternates için tüm dilleri kullan
-  const alternatesLanguages = i18nConfig.locales.reduce((acc, loc) => {
-    acc[loc] = `${siteConfig.url}/${loc}`;
-    return acc;
-  }, {} as Record<string, string>);
+  // Doğru domain'i belirle - locale'e göre
+  const currentDomain = DOMAIN_MAP[locale];
+  
+  // Dinamik alternates için tüm dilleri doğru domain'lerle kullan
+  const alternatesLanguages: Record<string, string> = {};
+  i18nConfig.locales.forEach((loc) => {
+    alternatesLanguages[loc] = `${DOMAIN_MAP[loc as Locale]}/${loc}`;
+  });
+  alternatesLanguages['x-default'] = `${DOMAIN_MAP.en}/en`; // English as default
   
   return {
-    metadataBase: new URL(siteConfig.url),
+    metadataBase: new URL(currentDomain),
     title: {
       default: dict.meta.title,
       template: `%s | ${siteConfig.name}`,
@@ -67,13 +78,13 @@ export async function generateMetadata({
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
-      url: siteConfig.url,
+      url: currentDomain,
       siteName: siteConfig.name,
       locale: ogLocaleMap[locale] || locale,
       type: 'website',
       images: [
         {
-          url: `${siteConfig.url}/images/og-image.jpg`,
+          url: `${currentDomain}/images/og-image.jpg`,
           width: 1200,
           height: 630,
           alt: dict.meta.title,
@@ -84,7 +95,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: dict.meta.title,
       description: dict.meta.description,
-      images: [`${siteConfig.url}/images/og-image.jpg`],
+      images: [`${currentDomain}/images/og-image.jpg`],
     },
     robots: {
       index: true,
@@ -98,7 +109,7 @@ export async function generateMetadata({
       },
     },
     alternates: {
-      canonical: `${siteConfig.url}/${locale}`,
+      canonical: `${currentDomain}/${locale}`,
       languages: alternatesLanguages,
     },
   };
