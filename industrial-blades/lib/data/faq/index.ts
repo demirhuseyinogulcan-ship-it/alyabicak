@@ -20,15 +20,17 @@ export { CATEGORY_ORDER, isValidCategory } from './types'
 import trData from './locales/tr.json'
 import enData from './locales/en.json'
 import arData from './locales/ar.json'
+import ruData from './locales/ru.json'
 
 // Supported locales - add new locales here
-export const SUPPORTED_LOCALES: FAQLocale[] = ['tr', 'en', 'ar']
+export const SUPPORTED_LOCALES: FAQLocale[] = ['tr', 'en', 'ar', 'ru']
 
 // FAQ data map
 const faqDataMap: Record<FAQLocale, FAQData> = {
   tr: trData as FAQData,
   en: enData as FAQData,
   ar: arData as FAQData,
+  ru: ruData as FAQData,
 }
 
 // Default fallback locale

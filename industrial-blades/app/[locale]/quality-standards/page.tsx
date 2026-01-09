@@ -24,12 +24,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const titles = {
     tr: 'Kalite Standartlarımız',
     en: 'Our Quality Standards',
-    ar: 'معايير الجودة لدينا'
+    ar: 'معايير الجودة لدينا',
+    ru: 'Наши стандарты качества'
   }
   const descriptions = {
     tr: 'Alya kalite standartları ve endüstriyel kesicilerde dünya çapında tanınan kalite güvencesi.',
     en: 'Alya quality standards and globally recognized quality assurance in industrial cutters.',
-    ar: 'معايير جودة أليا وضمان الجودة المعترف به عالميًا في أدوات القطع الصناعية.'
+    ar: 'معايير جودة أليا وضمان الجودة المعترف به عالميًا في أدوات القطع الصناعية.',
+    ru: 'Стандарты качества Alya и всемирно признанная гарантия качества промышленных резаков.'
   }
   
   return generateSeoMetadata({
@@ -138,6 +140,39 @@ const content = {
         icon: Globe,
         title: 'معيار جودة عالمي',
         description: 'ضمان جودة معترف به دوليًا ومفضل من قبل العلامات التجارية الرائدة عالميًا.',
+      },
+    ],
+  },
+  ru: {
+    heroTitle: 'Наши стандарты качества',
+    heroDescription: 'Мы поставляем промышленные режущие решения по всему миру с глобально признанными стандартами качества.',
+    exploreProducts: 'Посмотреть продукцию',
+    madeInSheffield: 'Сделано в Шеффилде',
+    whySheffield: 'Почему Шеффилд?',
+    whySheffieldDesc: 'Шеффилд был сердцем мировой сталелитейной промышленности на протяжении веков.',
+    ctaTitle: 'Испытайте качество Шеффилда',
+    ctaDescription: 'Свяжитесь с нами для получения высочайших стандартов качества в промышленных резаках.',
+    contactUs: 'Свяжитесь с нами',
+    qualityPoints: [
+      {
+        icon: Award,
+        title: 'Всемирно признанный бренд',
+        description: 'Сделано в Шеффилде — символ качества и надёжности во всём мире с 1800-х годов.',
+      },
+      {
+        icon: Shield,
+        title: 'Зарегистрированный знак качества',
+        description: 'Официальный знак, зарегистрированный в Патентном ведомстве Великобритании, гарантирующий подлинность и качество.',
+      },
+      {
+        icon: Factory,
+        title: 'Передовые производственные технологии',
+        description: 'Идеальное сочетание традиционного мастерства и современных производственных технологий.',
+      },
+      {
+        icon: Globe,
+        title: 'Глобальный стандарт качества',
+        description: 'Международно признанная гарантия качества, предпочитаемая ведущими мировыми брендами.',
       },
     ],
   },

@@ -114,6 +114,36 @@ const CATALOGS = {
       previewImage: '/catalogs/previews/vakum-paketleme.jpg',
     },
   ],
+  ru: [
+    {
+      id: 'industrial-blades',
+      title: 'Промышленные лезвия',
+      description: 'Стреловидные лезвия, лезвия для продольной резки, трапециевидные лезвия',
+      pdfUrl: '/catalogs/Sanayi-Jiletleri-Urun-Katalogu.pdf',
+      previewImage: '/catalogs/previews/sanayi-jiletleri.jpg',
+    },
+    {
+      id: 'makine-bicaklari',
+      title: 'Машинные ножи',
+      description: 'Гильотинные ножи, ножи для продольной резки',
+      pdfUrl: '/catalogs/Makine-Bicaklari-Urun-Katalogu.pdf',
+      previewImage: '/catalogs/previews/makine-bicaklari.jpg',
+    },
+    {
+      id: 'safety-knives',
+      title: 'Безопасные и ручные ножи',
+      description: 'Безопасные ножи, канцелярские ножи',
+      pdfUrl: '/catalogs/Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf',
+      previewImage: '/catalogs/previews/is-guvenligi.jpg',
+    },
+    {
+      id: 'thermoform-vacuum',
+      title: 'Ножи для вакуумной упаковки',
+      description: 'Режущие ножи для пищевой промышленности',
+      pdfUrl: '/catalogs/Vakum-PaketlemeBicaklari-Katalugu.pdf',
+      previewImage: '/catalogs/previews/vakum-paketleme.jpg',
+    },
+  ],
 }
 
 export default async function CatalogPage({ params }: PageProps) {
@@ -125,6 +155,7 @@ export default async function CatalogPage({ params }: PageProps) {
     tr: { view: 'Görüntüle', download: 'İndir', heroTitle: 'Ürün Katalogları', heroDesc: 'PDF kataloglarımızı görüntüleyin veya indirin' },
     en: { view: 'View', download: 'Download', heroTitle: 'Product Catalogs', heroDesc: 'View or download our PDF catalogs' },
     ar: { view: 'عرض', download: 'تحميل', heroTitle: 'كتالوجات المنتجات', heroDesc: 'عرض أو تحميل كتالوجاتنا بصيغة PDF' },
+    ru: { view: 'Просмотр', download: 'Скачать', heroTitle: 'Каталоги продукции', heroDesc: 'Просмотрите или скачайте наши PDF-каталоги' },
   }
 
   const l = labels[locale]

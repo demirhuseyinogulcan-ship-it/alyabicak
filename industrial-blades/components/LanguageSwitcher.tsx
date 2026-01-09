@@ -19,6 +19,7 @@ const DOMAIN_CONFIG = {
   tr: 'alyabicak.com',
   en: 'alyablade.com',
   ar: 'alyablade.com',
+  ru: 'alyablade.com',
 } as const;
 
 export interface LanguageSwitcherProps {

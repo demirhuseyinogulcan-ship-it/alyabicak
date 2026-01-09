@@ -76,6 +76,21 @@ export default async function ContactPage({ params }: PageProps) {
       whatsappText: 'احصل على رد فوري عبر واتساب',
       whatsappButton: 'تواصل عبر واتساب',
     },
+    ru: {
+      writeUs: 'Напишите нам',
+      contactInfo: 'Контактная информация',
+      address: 'Адрес',
+      phone: 'Телефон',
+      fax: 'Факс',
+      email: 'Эл. почта',
+      workingHours: 'Часы работы',
+      workingDays: 'Понедельник - Пятница',
+      weekend: 'Выходные: Закрыто',
+      showOnMap: 'Показать на карте',
+      quickSupport: 'Для быстрой поддержки',
+      whatsappText: 'Получите мгновенный ответ через WhatsApp',
+      whatsappButton: 'Связаться через WhatsApp',
+    },
   }
 
   const l = labels[locale]

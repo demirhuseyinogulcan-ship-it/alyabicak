@@ -31,7 +31,7 @@ export interface FAQData {
 }
 
 // Supported locales (extend this when adding new languages)
-export type FAQLocale = 'tr' | 'en' | 'ar'
+export type FAQLocale = 'tr' | 'en' | 'ar' | 'ru'
 
 // Type guard for category validation
 export function isValidCategory(category: string): category is FAQCategory {

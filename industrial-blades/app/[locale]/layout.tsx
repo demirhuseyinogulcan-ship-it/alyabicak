@@ -25,6 +25,7 @@ const ogLocaleMap: Record<Locale, string> = {
   tr: 'tr_TR',
   en: 'en_US',
   ar: 'ar_EG', // Mısır Arapçası (Modern Standart Arapça)
+  ru: 'ru_RU', // Rusça
 };
 
 // RTL (Sağdan Sola) diller - Arapça, İbranice vb.
@@ -45,6 +46,7 @@ const DOMAIN_MAP: Record<Locale, string> = {
   tr: 'https://alyabicak.com',
   en: 'https://alyablade.com',
   ar: 'https://alyablade.com',
+  ru: 'https://alyablade.com',
 };
 
 export async function generateMetadata({

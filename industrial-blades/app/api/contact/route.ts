@@ -46,6 +46,14 @@ const apiMessages = {
     emailNotConfigured: 'خدمة البريد الإلكتروني غير مهيأة.',
     genericError: 'حدث خطأ. يرجى المحاولة لاحقاً.',
   },
+  ru: {
+    rateLimited: 'Слишком много запросов. Пожалуйста, подождите минуту.',
+    invalidFormData: 'Неверные данные формы',
+    successMessage: 'Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.',
+    developmentMode: 'Сообщение получено (режим разработки).',
+    emailNotConfigured: 'Служба электронной почты не настроена.',
+    genericError: 'Произошла ошибка. Пожалуйста, попробуйте позже.',
+  },
 }
 
 // Rate limiting için basit in-memory store

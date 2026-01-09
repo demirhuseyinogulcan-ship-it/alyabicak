@@ -38,6 +38,12 @@ const errorTranslations = {
     tryAgain: 'حاول مرة أخرى',
     backHome: 'العودة للرئيسية',
   },
+  ru: {
+    title: 'Что-то пошло не так',
+    description: 'При загрузке страницы произошла ошибка. Пожалуйста, попробуйте снова или вернитесь на главную страницу.',
+    tryAgain: 'Попробовать снова',
+    backHome: 'На главную',
+  },
 }
 
 export default function Error({ error, reset }: ErrorProps) {

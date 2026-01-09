@@ -23,12 +23,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     tr: 'Sıkça Sorulan Sorular | Endüstriyel Bıçak SSS',
     en: 'FAQ | Industrial Blades Frequently Asked Questions',
     ar: 'الأسئلة الشائعة | الشفرات الصناعية',
+    ru: 'ЧаВо | Промышленные лезвия - Часто задаваемые вопросы',
   }
   
   const descriptions: Record<Locale, string> = {
     tr: 'Endüstriyel bıçaklar, Sheffield çeliği, trapez jiletler hakkında sıkça sorulan sorular ve cevapları. Bıçak seçimi, bakım, sipariş ve teslimat bilgileri.',
     en: 'Frequently asked questions about industrial blades, Sheffield steel, trapezoid blades. Blade selection, maintenance, order and delivery information.',
     ar: 'الأسئلة الشائعة حول الشفرات الصناعية، فولاذ شيفيلد، الشفرات شبه المنحرفة. معلومات اختيار الشفرات والصيانة والطلب والتسليم.',
+    ru: 'Часто задаваемые вопросы о промышленных лезвиях, шеффилдской стали, трапециевидных лезвиях. Информация о выборе лезвий, обслуживании, заказе и доставке.',
   }
   
   return {
@@ -87,6 +89,15 @@ export default async function FAQPage({ params }: PageProps) {
       needHelpDesc: 'فريقنا المتخصص سعيد بمساعدتك.',
       whatsapp: 'تواصل عبر واتساب',
       call: 'اتصل بنا',
+    },
+    ru: {
+      badge: 'Центр помощи',
+      title: 'Часто задаваемые вопросы',
+      subtitle: 'Все вопросы и ответы о промышленных лезвиях',
+      needHelp: 'Не нашли свой вопрос?',
+      needHelpDesc: 'Наша команда экспертов будет рада вам помочь.',
+      whatsapp: 'Написать в WhatsApp',
+      call: 'Позвоните нам',
     },
   }
   

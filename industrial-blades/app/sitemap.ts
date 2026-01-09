@@ -14,6 +14,7 @@ const DOMAIN_CONFIG: Record<Locale, string> = {
   tr: 'https://alyabicak.com',
   en: 'https://alyablade.com',
   ar: 'https://alyablade.com',
+  ru: 'https://alyablade.com',
 }
 
 // Generate URL for a specific locale
