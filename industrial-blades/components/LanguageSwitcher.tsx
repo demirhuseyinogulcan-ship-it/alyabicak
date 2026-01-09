@@ -21,7 +21,11 @@ const DOMAIN_CONFIG = {
   ar: 'alyablade.com',
 } as const;
 
-export function LanguageSwitcher() {
+export interface LanguageSwitcherProps {
+  variant?: 'dropdown' | 'buttons'
+}
+
+export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps = {}) {
   const pathname = usePathname();
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
@@ -71,6 +75,31 @@ export function LanguageSwitcher() {
     setIsOpen(false);
   };
 
+  // Mobil için yatay buton görünümü
+  if (variant === 'buttons') {
+    return (
+      <div className="flex gap-2">
+        {i18nConfig.locales.map((locale) => (
+          <button
+            key={locale}
+            onClick={() => switchLocale(locale)}
+            className={`
+              flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-lg font-medium transition-colors
+              ${currentLocale === locale 
+                ? 'bg-primary-600 text-white' 
+                : 'bg-steel-100 text-steel-700 hover:bg-steel-200'
+              }
+            `}
+          >
+            <span className="text-lg">{i18nConfig.localeFlags[locale]}</span>
+            <span className="text-sm font-semibold">{i18nConfig.localeNames[locale]}</span>
+          </button>
+        ))}
+      </div>
+    );
+  }
+
+  // Desktop için dropdown görünümü
   return (
     <div className="relative" ref={dropdownRef}>
       <button

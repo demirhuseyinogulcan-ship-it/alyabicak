@@ -117,12 +117,12 @@ export default function MobileMenu({
 
       {/* Dil Seçici - Sadece Mobile */}
       <div className="mt-4 pt-4 border-t border-steel-100 px-4">
-        <div className="flex items-center justify-between mb-2">
+        <div className="mb-3">
           <span className="text-sm font-medium text-steel-600">
             {locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language'}
           </span>
         </div>
-        <LanguageSwitcher />
+        <LanguageSwitcher variant="buttons" />
       </div>
     </div>
   )
