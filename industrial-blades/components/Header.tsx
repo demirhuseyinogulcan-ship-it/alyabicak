@@ -174,8 +174,10 @@ export default function Header() {
               </kbd>
             </button>
             
-            {/* Dil Seçici */}
-            <LanguageSwitcher />
+            {/* Dil Seçici - Sadece Desktop */}
+            <div className="hidden lg:flex">
+              <LanguageSwitcher />
+            </div>
           </div>
 
           {/* Mobile Menu Toggle */}

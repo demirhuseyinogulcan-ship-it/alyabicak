@@ -10,6 +10,7 @@ import { usePathname } from 'next/navigation'
 import { Phone } from 'lucide-react'
 import { NavItem } from '@/lib/config'
 import { siteConfig, getWhatsAppUrl } from '@/lib/config'
+import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { CategoryView } from '@/lib/types'
 import { Button } from '@/components/ui'
 import type { Dictionary } from '@/lib/i18n'
@@ -112,6 +113,16 @@ export default function MobileMenu({
         >
           {dictionary?.nav?.whatsappContact || (locale === 'tr' ? 'WhatsApp ile İletişim' : 'Contact via WhatsApp')}
         </Button>
+      </div>
+
+      {/* Dil Seçici - Sadece Mobile */}
+      <div className="mt-4 pt-4 border-t border-steel-100 px-4">
+        <div className="flex items-center justify-between mb-2">
+          <span className="text-sm font-medium text-steel-600">
+            {dictionary?.nav?.language || (locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language')}
+          </span>
+        </div>
+        <LanguageSwitcher />
       </div>
     </div>
   )
