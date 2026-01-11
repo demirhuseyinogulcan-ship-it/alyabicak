@@ -1,0 +1,68 @@
+# Alya Blade / Alya Bıçak - Industrial Cutting Solutions
+# https://alyablade.com | https://alyabicak.com
+
+## Company Overview
+Alya Tekstil Sanayi Ticaret Ltd. Şti. is a leading manufacturer and distributor of industrial cutting blades, machine knives, and precision razors. Established in 1996, based in Istanbul, Turkey, serving 35+ countries worldwide.
+
+## Core Products
+- Industrial Razor Blades (Sheffield, UK quality)
+- Trapezoid/Utility Blades
+- Safety Knives & Cutters
+- Machine Knives for Textile Industry
+- Food Industry Cutting Blades
+- Packaging & Paper Cutting Blades
+- Circular & Round Blades
+- Custom Manufacturing Solutions
+
+## Product Categories
+1. Trapez Jiletler / Trapezoid Blades - Heavy-duty utility cutting
+2. Kanca Bıçaklar / Hook Blades - Safe cutting for packaging
+3. Yuvarlak Köşe Jiletler / Round Corner Blades - Safety razors
+4. Sıyırma Bıçakları / Skiving Blades - Leather and textile
+5. Endüstriyel Jiletler / Industrial Razors - Precision cutting
+6. Güvenlik Bıçakları / Safety Knives - Workplace safety
+7. Makine Bıçakları / Machine Knives - Industrial machinery
+
+## Quality & Origin
+- Sheffield, England manufacturing heritage
+- Durham Duplex authorized distributor
+- ISO 9001:2015 certified processes
+- Premium carbon steel and stainless steel materials
+
+## Languages Supported
+- Turkish (tr) - Primary: alyabicak.com
+- English (en) - Global: alyablade.com
+- Arabic (ar) - Middle East: alyablade.com/ar
+- Russian (ru) - CIS Region: alyablade.com/ru
+
+## Contact Information
+- Website: https://alyablade.com (Global) | https://alyabicak.com (Turkey)
+- Email: info@alyatekstil.com
+- Phone: +90 (216) 575 17 91
+- WhatsApp: +90 535 050 46 13
+- Address: Dudullu OSB, DES Sanayi Sitesi, Istanbul, Turkey
+
+## Business Model
+B2B wholesale and distribution. Custom blade manufacturing available.
+Minimum order quantities apply. Export to EU, Middle East, Central Asia, Balkans.
+
+## Key Differentiators
+- 30+ years industry experience
+- Direct Sheffield supplier relationships
+- Multi-language customer support
+- Technical consultation services
+- Fast delivery to 35+ countries
+
+## Sitemap
+- Products: /[locale]/products/[slug]
+- Categories: /[locale]/categories/[slug]
+- About: /[locale]/about
+- Contact: /[locale]/contact
+- FAQ: /[locale]/faq
+- Quality Standards: /[locale]/quality-standards
+
+## API Information
+No public API available. Contact for B2B integration inquiries.
+
+## Last Updated
+2026-01-11
