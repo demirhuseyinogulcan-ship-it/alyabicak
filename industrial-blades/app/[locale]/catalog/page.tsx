@@ -5,6 +5,7 @@ import { generateMetadata as genMeta } from '@/lib/seo'
 import { Download, Eye } from 'lucide-react'
 import Image from 'next/image'
 import { getDictionary, type Locale } from '@/lib/i18n'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: PageProps) {
     title: dict.catalog.title,
     description: dict.catalog.subtitle,
     keywords: ['katalog', 'ürün kataloğu', 'bıçak kataloğu', 'pdf katalog'],
-    url: `https://www.alyabicak.com/${locale}/catalog`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/catalog`,
   })
 }
 

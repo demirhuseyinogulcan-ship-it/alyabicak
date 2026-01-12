@@ -13,14 +13,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { Globe, ChevronDown, Check, X } from 'lucide-react';
 import { i18nConfig, type Locale } from '@/lib/i18n';
-
-// Domain mappings
-const DOMAIN_CONFIG = {
-  tr: 'alyabicak.com',
-  en: 'alyablade.com',
-  ar: 'alyablade.com',
-  ru: 'alyablade.com',
-} as const;
+import { getDomainHost, type SupportedLocale } from '@/lib/config/domains';
 
 export interface LanguageSwitcherProps {
   variant?: 'dropdown' | 'buttons' | 'bottomsheet'
@@ -61,7 +54,7 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
     
     // Production'da domain değişikliği gerekiyor mu kontrol et
     const currentHost = typeof window !== 'undefined' ? window.location.hostname : '';
-    const targetDomain = DOMAIN_CONFIG[newLocale];
+    const targetDomain = getDomainHost(newLocale as SupportedLocale);
     const isProduction = currentHost.includes('alyablade.com') || currentHost.includes('alyabicak.com');
     
     if (isProduction && !currentHost.includes(targetDomain.replace('www.', ''))) {

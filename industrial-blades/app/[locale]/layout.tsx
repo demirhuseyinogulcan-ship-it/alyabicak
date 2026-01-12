@@ -19,17 +19,13 @@ import { generateOrganizationSchema, generateLocalBusinessSchema, generateWebsit
 import { siteConfig } from '@/lib/config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 import { LocaleProvider } from '@/components/providers/LocaleProvider';
-
-// OpenGraph locale mapping - yeni dil eklerken buraya da ekle
-const ogLocaleMap: Record<Locale, string> = {
-  tr: 'tr_TR',
-  en: 'en_US',
-  ar: 'ar_EG', // Mısır Arapçası (Modern Standart Arapça)
-  ru: 'ru_RU', // Rusça
-};
-
-// RTL (Sağdan Sola) diller - Arapça, İbranice vb.
-const rtlLocales: Locale[] = ['ar'];
+import { 
+  getDomainUrl, 
+  getHreflangUrls, 
+  getOGLocale, 
+  isRTL,
+  type SupportedLocale 
+} from '@/lib/config/domains';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -41,14 +37,6 @@ export async function generateStaticParams() {
   return i18nConfig.locales.map((locale) => ({ locale }));
 }
 
-// Domain mapping - Multi-domain SEO için
-const DOMAIN_MAP: Record<Locale, string> = {
-  tr: 'https://alyabicak.com',
-  en: 'https://alyablade.com',
-  ar: 'https://alyablade.com',
-  ru: 'https://alyablade.com',
-};
-
 export async function generateMetadata({
   params,
 }: {
@@ -57,15 +45,11 @@ export async function generateMetadata({
   const { locale } = await params;
   const dict = await getDictionary(locale);
   
-  // Doğru domain'i belirle - locale'e göre
-  const currentDomain = DOMAIN_MAP[locale];
+  // Doğru domain'i belirle - locale'e göre (merkezi config'den)
+  const currentDomain = getDomainUrl(locale as SupportedLocale);
   
   // Dinamik alternates için tüm dilleri doğru domain'lerle kullan
-  const alternatesLanguages: Record<string, string> = {};
-  i18nConfig.locales.forEach((loc) => {
-    alternatesLanguages[loc] = `${DOMAIN_MAP[loc as Locale]}/${loc}`;
-  });
-  alternatesLanguages['x-default'] = `${DOMAIN_MAP.en}/en`; // English as default
+  const alternatesLanguages = getHreflangUrls('');
   
   return {
     metadataBase: new URL(currentDomain),
@@ -86,7 +70,7 @@ export async function generateMetadata({
       description: dict.meta.description,
       url: currentDomain,
       siteName: siteConfig.name,
-      locale: ogLocaleMap[locale] || locale,
+      locale: getOGLocale(locale as SupportedLocale),
       type: 'website',
       images: [
         {
@@ -141,8 +125,8 @@ export default async function LocaleLayout({
   const localBusinessSchema = generateLocalBusinessSchema();
   const websiteSchema = generateWebsiteSchema(locale);
   
-  // RTL dil kontrolü
-  const isRtl = rtlLocales.includes(locale);
+  // RTL dil kontrolü (merkezi config'den)
+  const isRtl = isRTL(locale as SupportedLocale);
 
   return (
     <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>

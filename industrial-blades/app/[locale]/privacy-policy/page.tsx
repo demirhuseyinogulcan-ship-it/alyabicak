@@ -3,6 +3,7 @@ import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
 import { siteConfig } from '@/lib/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { i18nConfig, Locale } from '@/lib/i18n/config'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return generateSeoMetadata({
     title: titles[locale] || titles.tr,
     description: descriptions[locale] || descriptions.tr,
-    url: `https://www.alyabicak.com/${locale}/privacy-policy`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/privacy-policy`,
   })
 }
 

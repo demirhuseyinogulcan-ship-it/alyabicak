@@ -9,6 +9,7 @@ import { ArrowRight, Award, Shield, Globe, Factory } from 'lucide-react'
 import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
 import VideoBackground from '@/components/VideoBackground'
 import { i18nConfig, Locale } from '@/lib/i18n/config'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: titles[locale],
     description: descriptions[locale],
     keywords: ['kalite standartları', 'alya kalitesi', 'sheffield çelik', 'endüstriyel bıçak kalitesi'],
-    url: `https://www.alyabicak.com/${locale}/quality-standards`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/quality-standards`,
   })
 }
 

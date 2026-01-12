@@ -7,6 +7,7 @@ import { getDictionary, type Locale } from '@/lib/i18n'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, Package } from 'lucide-react'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }: PageProps) {
     title: dict.categories.title,
     description: dict.categories.subtitle,
     keywords: ['kategoriler', 'ürünler', 'sanayi jiletleri', 'makina bıçakları'],
-    url: `https://www.alyabicak.com/${locale}/categories`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories`,
   })
 }
 

@@ -11,19 +11,12 @@ import { NextResponse } from 'next/server';
 import { getAllProducts } from '@/lib/data/products';
 import { getAllCategories } from '@/lib/data/categories';
 import { i18nConfig, type Locale } from '@/lib/i18n/config';
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
 
 // Cache for generated sitemap (24 hours)
 let cachedXml: string | null = null;
 let cacheTimestamp: number = 0;
 const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in ms
-
-// Domain mapping
-const DOMAIN_MAP: Record<Locale, string> = {
-  tr: 'https://alyabicak.com',
-  en: 'https://alyablade.com',
-  ar: 'https://alyablade.com',
-  ru: 'https://alyablade.com',
-};
 
 interface ImageEntry {
   pageUrl: string;
@@ -52,7 +45,7 @@ function generateImageEntries(): ImageEntry[] {
 
   // Her locale için ürün görselleri
   for (const locale of i18nConfig.locales) {
-    const domain = DOMAIN_MAP[locale];
+    const domain = getDomainUrl(locale as SupportedLocale);
 
     // Ürün görselleri
     for (const product of products) {

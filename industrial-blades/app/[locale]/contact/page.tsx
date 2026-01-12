@@ -8,6 +8,7 @@ import { siteConfig, getWhatsAppUrl, getPhoneUrl, getEmailUrl, getGoogleMapsUrl 
 import { WhatsAppIcon } from '@/components/icons'
 import { PageHeader } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: PageProps) {
     title: dict.contact.title,
     description: dict.contact.subtitle,
     keywords: ['iletişim', 'destek', 'müşteri hizmetleri', 'fiyat teklifi'],
-    url: `https://www.alyabicak.com/${locale}/contact`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/contact`,
   })
 }
 

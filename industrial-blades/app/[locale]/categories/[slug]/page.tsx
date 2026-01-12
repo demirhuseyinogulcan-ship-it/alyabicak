@@ -9,6 +9,7 @@ import Link from 'next/link'
 import { ArrowRight, Package } from 'lucide-react'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{
@@ -46,7 +47,7 @@ export async function generateMetadata({ params }: PageProps) {
     title: category.name,
     description: `${category.description} - ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}. ${category.name} ${locale === 'tr' ? 'kategorisinde' : 'category with'} ${category.totalProductCount} ${dict.common.products}.`,
     keywords: [category.name.toLowerCase(), 'alya bıçak', 'endüstriyel bıçak'],
-    url: `https://www.alyabicak.com/${locale}/categories/${category.slug}`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}`,
   })
 }
 
@@ -60,9 +61,9 @@ export default async function CategoryPage({ params }: PageProps) {
   }
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: dict.nav.home, url: `https://www.alyabicak.com/${locale}` },
-    { name: dict.nav.categories, url: `https://www.alyabicak.com/${locale}/categories` },
-    { name: category.name, url: `https://www.alyabicak.com/${locale}/categories/${category.slug}` },
+    { name: dict.nav.home, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}` },
+    { name: dict.nav.categories, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories` },
+    { name: category.name, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}` },
   ])
 
   return (

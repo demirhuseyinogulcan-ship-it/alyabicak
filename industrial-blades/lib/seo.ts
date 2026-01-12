@@ -2,6 +2,13 @@
 import { Metadata } from 'next'
 import { siteConfig } from './config'
 import { i18nConfig, type Locale } from './i18n/config'
+import { 
+  getDomainUrl, 
+  getHreflangUrls as getHreflangUrlsFromConfig,
+  getCanonicalUrl as getCanonicalUrlFromConfig,
+  getOGLocale,
+  type SupportedLocale 
+} from './config/domains'
 
 export interface SEOConfig {
   title: string
@@ -14,28 +21,9 @@ export interface SEOConfig {
   path?: string // URL path for hreflang generation
 }
 
-// Domain configuration for multi-domain i18n
-const DOMAIN_CONFIG: Record<Locale, string> = {
-  tr: 'https://alyabicak.com',
-  en: 'https://alyablade.com',
-  ar: 'https://alyablade.com',
-  ru: 'https://alyablade.com',
-}
-
-// Locale to OpenGraph locale mapping
-const ogLocaleMap: Record<string, string> = {
-  tr: 'tr_TR',
-  en: 'en_US',
-  de: 'de_DE',
-  fr: 'fr_FR',
-  es: 'es_ES',
-  it: 'it_IT',
-  ru: 'ru_RU',
-  ar: 'ar_SA',
-  zh: 'zh_CN',
-  ja: 'ja_JP',
-  ko: 'ko_KR',
-}
+// Re-export from centralized config for backward compatibility
+// Note: getCanonicalUrl is available from '@/lib/config/domains'
+export { getDomainUrl, getHreflangUrls as generateHreflangUrls } from './config/domains'
 
 // Locale to language name mapping
 const languageNameMap: Record<string, string> = {
@@ -52,25 +40,10 @@ const languageNameMap: Record<string, string> = {
   ko: 'Korean',
 }
 
-// Generate hreflang URLs for all locales
-export function generateHreflangUrls(path: string = ''): Record<string, string> {
-  const hreflangs: Record<string, string> = {}
-  
-  for (const locale of i18nConfig.locales) {
-    const domain = DOMAIN_CONFIG[locale]
-    hreflangs[locale] = `${domain}/${locale}${path}`
-  }
-  
-  // x-default should point to English version
-  hreflangs['x-default'] = `${DOMAIN_CONFIG.en}/en${path}`
-  
-  return hreflangs
-}
-
-// Get canonical URL based on locale
-export function getCanonicalUrl(locale: Locale, path: string = ''): string {
-  const domain = DOMAIN_CONFIG[locale]
-  return `${domain}/${locale}${path}`
+// Note: getCanonicalUrl is now available from '@/lib/config/domains'
+// This wrapper is kept for internal use only (not exported)
+function getCanonicalUrl(locale: Locale, path: string = ''): string {
+  return getCanonicalUrlFromConfig(locale as SupportedLocale, path)
 }
 
 export function generateMetadata(config: SEOConfig): Metadata {
@@ -86,7 +59,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
     ...(config.keywords || [])
   ].join(', ')
 
-  const ogLocale = config.locale ? ogLocaleMap[config.locale] || 'tr_TR' : 'tr_TR'
+  const ogLocale = config.locale ? getOGLocale(config.locale as SupportedLocale) : 'tr_TR'
   
   // Generate canonical URL based on locale and domain
   const canonicalUrl = config.locale && config.path 
@@ -94,7 +67,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
     : config.url
   
   // Generate hreflang alternates
-  const hreflangUrls = config.path ? generateHreflangUrls(config.path) : {}
+  const hreflangUrls = config.path ? getHreflangUrlsFromConfig(config.path) : {}
 
   return {
     title,
@@ -259,7 +232,7 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
  * Google Sitelinks Search Box için gerekli
  */
 export function generateWebsiteSchema(locale: Locale) {
-  const domain = DOMAIN_CONFIG[locale]
+  const domain = getDomainUrl(locale as SupportedLocale)
   const siteName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
   const inLanguage = locale === 'tr' ? 'tr-TR' : locale === 'ar' ? 'ar-SA' : 'en-US'
   
@@ -333,7 +306,7 @@ export interface ProductSchemaInput {
 }
 
 export function generateEnhancedProductSchema(product: ProductSchemaInput) {
-  const domain = DOMAIN_CONFIG[product.locale]
+  const domain = getDomainUrl(product.locale as SupportedLocale)
   
   return {
     '@context': 'https://schema.org',

@@ -410,14 +410,14 @@ const en = {
 
   // WhatsApp Button
   whatsapp: {
-    defaultMessage: 'Hello, I am writing from alyabicak.com. I would like to get information.',
-    homeMessage: 'Hello, I am writing from alyabicak.com homepage. I would like to get information.',
-    categoriesMessage: 'Hello, I am writing from alyabicak.com product categories page.',
-    consultingMessage: 'Hello, I am writing from alyabicak.com consulting page. I would like to get consulting service.',
-    contactMessage: 'Hello, I am writing from alyabicak.com contact page.',
-    aboutMessage: 'Hello, I am writing from alyabicak.com about page.',
-    blogMessage: 'Hello, I am writing from alyabicak.com blog page.',
-    subcategoryMessage: 'Hello, I would like to get information about "{{subcategory}}". (alyabicak.com)',
+    defaultMessage: 'Hello, I am writing from alyablade.com. I would like to get information.',
+    homeMessage: 'Hello, I am writing from alyablade.com homepage. I would like to get information.',
+    categoriesMessage: 'Hello, I am writing from alyablade.com product categories page.',
+    consultingMessage: 'Hello, I am writing from alyablade.com consulting page. I would like to get consulting service.',
+    contactMessage: 'Hello, I am writing from alyablade.com contact page.',
+    aboutMessage: 'Hello, I am writing from alyablade.com about page.',
+    blogMessage: 'Hello, I am writing from alyablade.com blog page.',
+    subcategoryMessage: 'Hello, I would like to get information about "{{subcategory}}". (alyablade.com)',
     categoryMessages: {
       industrialBlades: 'Hello, I would like to get information about Industrial Blades.',
       machineKnives: 'Hello, I would like to get information about Machine Knives.',

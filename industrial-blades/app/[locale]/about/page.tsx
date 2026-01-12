@@ -8,6 +8,7 @@ import { Button, Badge, PageHeader } from '@/components/ui'
 import { getWhatsAppUrl } from '@/lib/config'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import Link from 'next/link'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: PageProps) {
     title: dict.about.title,
     description: dict.about.subtitle,
     keywords: ['hakkımızda', 'alya tekstil', 'endüstriyel kesici', 'sheffield', 'ihracat'],
-    url: `https://www.alyabicak.com/${locale}/about`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/about`,
   })
 }
 

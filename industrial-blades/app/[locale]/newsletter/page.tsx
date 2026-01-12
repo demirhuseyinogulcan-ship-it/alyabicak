@@ -9,6 +9,7 @@ import { blogService } from '@/lib/data/blog'
 import { BLOG_CATEGORIES } from '@/lib/types/blog'
 import { PageHeader } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: PageProps) {
     title: dict.blog.title,
     description: dict.blog.subtitle,
     keywords: ['endüstriyel bıçak blog', 'bıçak rehberi', 'sektör haberleri', 'teknik yazılar'],
-    url: `https://www.alyabicak.com/${locale}/newsletter`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter`,
   })
 }
 

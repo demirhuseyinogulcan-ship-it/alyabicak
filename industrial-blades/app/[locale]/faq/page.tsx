@@ -7,8 +7,8 @@ import { ChevronDown, HelpCircle, MessageCircle, Phone } from 'lucide-react'
 import { PageHeader, Button } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import { getFAQsGroupedByCategory, getCategoryNames, CATEGORY_ORDER, type FAQCategory } from '@/lib/data/faq'
-import { generateFAQSchema, getCanonicalUrl, generateHreflangUrls } from '@/lib/seo'
-import { siteConfig, getWhatsAppUrl } from '@/lib/config'
+import { generateFAQSchema } from '@/lib/seo'
+import { siteConfig, getWhatsAppUrl, getCanonicalUrl, getHreflangUrls } from '@/lib/config'
 import Link from 'next/link'
 
 interface PageProps {
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       : ['industrial blade faq', 'sheffield blade', 'trapezoid blade uses', 'blade selection'],
     alternates: {
       canonical: getCanonicalUrl(locale, '/faq'),
-      languages: generateHreflangUrls('/faq'),
+      languages: getHreflangUrls('/faq'),
     },
   }
 }

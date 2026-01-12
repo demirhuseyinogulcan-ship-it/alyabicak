@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllCategories, getAllSubcategories } from '@/lib/data/categories'
 import { getAllProducts } from '@/lib/data/products'
 import { i18nConfig, type Locale } from '@/lib/i18n/config'
+import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 
 /**
  * Multi-domain sitemap configuration
@@ -9,24 +10,14 @@ import { i18nConfig, type Locale } from '@/lib/i18n/config'
  * - alyablade.com → English & Arabic content
  */
 
-// Domain configuration for each locale
-const DOMAIN_CONFIG: Record<Locale, string> = {
-  tr: 'https://alyabicak.com',
-  en: 'https://alyablade.com',
-  ar: 'https://alyablade.com',
-  ru: 'https://alyablade.com',
-}
-
 // Generate URL for a specific locale
 function getLocalizedUrl(locale: Locale, path: string): string {
-  return `${DOMAIN_CONFIG[locale]}/${locale}${path}`
+  return `${getDomainUrl(locale as SupportedLocale)}/${locale}${path}`
 }
 
 // Generate hreflang alternates for all locales
 function getAlternates(path: string): Record<string, string> {
-  return Object.fromEntries(
-    i18nConfig.locales.map(locale => [locale, getLocalizedUrl(locale, path)])
-  )
+  return getHreflangUrls(path)
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {

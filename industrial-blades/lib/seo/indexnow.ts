@@ -14,6 +14,7 @@
  */
 
 import { i18nConfig, type Locale } from '@/lib/i18n/config';
+import { getDomainHost, type SupportedLocale } from '@/lib/config/domains';
 
 // IndexNow API endpoint'leri (herhangi birini kullanabilirsiniz)
 const INDEXNOW_ENDPOINTS = [
@@ -21,14 +22,6 @@ const INDEXNOW_ENDPOINTS = [
   'https://www.bing.com/indexnow',
   'https://yandex.com/indexnow',
 ] as const;
-
-// Domain mapping
-const DOMAIN_MAP: Record<Locale, string> = {
-  tr: 'alyabicak.com',
-  en: 'alyablade.com',
-  ar: 'alyablade.com',
-  ru: 'alyablade.com',
-};
 
 interface IndexNowPayload {
   host: string;
@@ -132,7 +125,7 @@ export async function submitAllUrlsToIndexNow(): Promise<IndexNowResult[]> {
   const results: IndexNowResult[] = [];
 
   for (const locale of i18nConfig.locales) {
-    const host = DOMAIN_MAP[locale];
+    const host = getDomainHost(locale as SupportedLocale);
     const baseUrl = `https://${host}/${locale}`;
 
     // Ana sayfalar
@@ -165,7 +158,7 @@ export async function submitProductToIndexNow(
   const results: IndexNowResult[] = [];
 
   for (const locale of i18nConfig.locales) {
-    const host = DOMAIN_MAP[locale];
+    const host = getDomainHost(locale as SupportedLocale);
     const productUrl = `https://${host}/${locale}/products/${productSlug}`;
 
     const result = await submitToIndexNow([productUrl], host);
@@ -184,7 +177,7 @@ export async function submitCategoryToIndexNow(
   const results: IndexNowResult[] = [];
 
   for (const locale of i18nConfig.locales) {
-    const host = DOMAIN_MAP[locale];
+    const host = getDomainHost(locale as SupportedLocale);
     const categoryUrl = `https://${host}/${locale}/categories/${categorySlug}`;
 
     const result = await submitToIndexNow([categoryUrl], host);

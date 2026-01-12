@@ -7,6 +7,9 @@
  * 2. categoryId ve subcategoryId'nin doğru olduğundan emin ol
  * 
  * Scraped ürünler scraped-products.json dosyasından otomatik olarak yüklenir.
+ * 
+ * NOT: Bu dosya hem Server hem Client Component'lerden erişilebilir.
+ * JSON verisi Next.js tarafından otomatik olarak optimize edilir.
  */
 
 import { Product } from '../types';

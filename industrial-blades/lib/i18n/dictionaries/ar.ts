@@ -411,14 +411,14 @@ const ar = {
 
   // WhatsApp Button
   whatsapp: {
-    defaultMessage: 'مرحباً، أكتب من alyabicak.com. أود الحصول على معلومات.',
-    homeMessage: 'مرحباً، أكتب من الصفحة الرئيسية لـ alyabicak.com. أود الحصول على معلومات.',
-    categoriesMessage: 'مرحباً، أكتب من صفحة فئات المنتجات في alyabicak.com.',
-    consultingMessage: 'مرحباً، أكتب من صفحة الاستشارات في alyabicak.com. أود الحصول على خدمة استشارية.',
-    contactMessage: 'مرحباً، أكتب من صفحة اتصل بنا في alyabicak.com.',
-    aboutMessage: 'مرحباً، أكتب من صفحة من نحن في alyabicak.com.',
-    blogMessage: 'مرحباً، أكتب من صفحة المدونة في alyabicak.com.',
-    subcategoryMessage: 'مرحباً، أود الحصول على معلومات عن "{{subcategory}}". (alyabicak.com)',
+    defaultMessage: 'مرحباً، أكتب من alyablade.com. أود الحصول على معلومات.',
+    homeMessage: 'مرحباً، أكتب من الصفحة الرئيسية لـ alyablade.com. أود الحصول على معلومات.',
+    categoriesMessage: 'مرحباً، أكتب من صفحة فئات المنتجات في alyablade.com.',
+    consultingMessage: 'مرحباً، أكتب من صفحة الاستشارات في alyablade.com. أود الحصول على خدمة استشارية.',
+    contactMessage: 'مرحباً، أكتب من صفحة اتصل بنا في alyablade.com.',
+    aboutMessage: 'مرحباً، أكتب من صفحة من نحن في alyablade.com.',
+    blogMessage: 'مرحباً، أكتب من صفحة المدونة في alyablade.com.',
+    subcategoryMessage: 'مرحباً، أود الحصول على معلومات عن "{{subcategory}}". (alyablade.com)',
     categoryMessages: {
       industrialBlades: 'مرحباً، أود الحصول على معلومات عن الشفرات الصناعية.',
       machineKnives: 'مرحباً، أود الحصول على معلومات عن سكاكين الآلات.',

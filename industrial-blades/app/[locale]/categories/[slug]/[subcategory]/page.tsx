@@ -11,6 +11,7 @@ import { ArrowRight, Package, Filter } from 'lucide-react'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { siteConfig } from '@/lib/config'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{
@@ -57,7 +58,7 @@ export async function generateMetadata({ params }: PageProps) {
     title: `${subcategory.name} | ${category.name}`,
     description: `${subcategory.description} - ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}. ${subcategory.productCount} ${dict.common.products}.`,
     keywords: [subcategory.name.toLowerCase(), category.name.toLowerCase(), 'alya bıçak'],
-    url: `https://www.alyabicak.com/${locale}/categories/${category.slug}/${subcategory.slug}`,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}/${subcategory.slug}`,
   })
 }
 
@@ -75,10 +76,10 @@ export default async function SubcategoryPage({ params }: PageProps) {
   const products = productService.getSubcategoryCards(subcategory.id, locale)
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: dict.nav.home, url: `https://www.alyabicak.com/${locale}` },
-    { name: dict.nav.categories, url: `https://www.alyabicak.com/${locale}/categories` },
-    { name: category.name, url: `https://www.alyabicak.com/${locale}/categories/${category.slug}` },
-    { name: subcategory.name, url: `https://www.alyabicak.com/${locale}/categories/${category.slug}/${subcategory.slug}` },
+    { name: dict.nav.home, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}` },
+    { name: dict.nav.categories, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories` },
+    { name: category.name, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}` },
+    { name: subcategory.name, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}/${subcategory.slug}` },
   ])
 
   return (
