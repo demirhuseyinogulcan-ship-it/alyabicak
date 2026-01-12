@@ -40,7 +40,17 @@ body::before {
 /* ═══════════════════════════════════════════════════════════ */
 
 html {
+  /* Fluid Typography: Windows DPI Scaling uyumu için */
+  /* 14px (küçük/ölçekli ekranlar) ile 16px (normal) arasında akışkan */
+  font-size: clamp(0.875rem, 0.8rem + 0.25vw, 1rem);
   scroll-behavior: smooth;
+}
+
+/* Büyük ekranlar için maksimum font-size sabitle */
+@media (min-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 /* Custom Scrollbar */

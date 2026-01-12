@@ -141,7 +141,7 @@ export default function Header() {
           />
 
           {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center gap-2">
+          <div className="hidden lg:flex items-center gap-[clamp(0.375rem,0.5vw,0.5rem)]">
             {/* e-Katalog */}
             <a
               href={`/${locale}/catalog`}
