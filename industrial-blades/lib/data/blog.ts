@@ -82,6 +82,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
 
         <h2>Rakamlar Ne Söylüyor?</h2>
         <p>Dünya ham çelik üretimi 1900 yılında 40 milyon ton civarındayken, 2013 yılında 1,6 milyar tona ulaştı. Bu sadece bir büyüme hikâyesi değil; çeliğin vazgeçilmezliğinin kanıtı. Aynı dönemde alüminyum, magnezyum ve plastikler sahneye çıktı, ancak hiçbiri çeliğin tahtını sarsamadı.</p>
+        <!-- STEEL_CHART_PLACEHOLDER -->
         
         <p>Nedeni basit bir enerji denkleminde gizli: Demiri elde etmek için gereken enerji, birincil alüminyum üretiminin yalnızca onda biri kadar. Ekonomik olarak değerlendirilebilecek ham demir cevheri rezervleri yaklaşık 170 milyar ton seviyesinde. Yani demir esaslı malzemeler, kaynak güvenliği açısından uzun vadeli bir garanti sunuyor.</p>
 
@@ -128,6 +129,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
 
         <h2>What Do the Numbers Say?</h2>
         <p>World crude steel production was around 40 million tons in 1900, reaching 1.6 billion tons by 2013. This is not just a growth story; it's proof of steel's indispensability. During the same period, aluminum, magnesium, and plastics entered the scene, but none could shake steel's throne.</p>
+        <!-- STEEL_CHART_PLACEHOLDER -->
         
         <p>The reason lies in a simple energy equation: The energy required to obtain iron is only one-tenth of primary aluminum production. Economically viable raw iron ore reserves stand at approximately 170 billion tons. This means iron-based materials offer a long-term guarantee in terms of resource security.</p>
 
@@ -169,6 +171,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
 
         <h2>ماذا تقول الأرقام؟</h2>
         <p>كان إنتاج الصلب الخام العالمي حوالي 40 مليون طن في عام 1900، ووصل إلى 1.6 مليار طن بحلول عام 2013. هذه ليست مجرد قصة نمو؛ إنه دليل على عدم إمكانية الاستغناء عن الفولاذ. خلال نفس الفترة، دخل الألمنيوم والمغنيسيوم والبلاستيك المشهد، لكن لم يستطع أي منها هز عرش الفولاذ.</p>
+        <!-- STEEL_CHART_PLACEHOLDER -->
         
         <p>يكمن السبب في معادلة طاقة بسيطة: الطاقة المطلوبة للحصول على الحديد هي عُشر إنتاج الألمنيوم الأولي فقط. احتياطيات خام الحديد الخام المجدية اقتصادياً تبلغ حوالي 170 مليار طن. وهذا يعني أن المواد القائمة على الحديد تقدم ضماناً طويل الأجل من حيث أمن الموارد.</p>
 
@@ -193,6 +196,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
 
         <h2>Что Говорят Цифры?</h2>
         <p>Мировое производство нерафинированной стали составляло около 40 миллионов тонн в 1900 году, достигнув 1,6 миллиарда тонн к 2013 году. Это не просто история роста; это доказательство незаменимости стали.</p>
+        <!-- STEEL_CHART_PLACEHOLDER -->
         
         <p>Причина кроется в простом энергетическом уравнении: энергия, необходимая для получения железа, составляет лишь одну десятую от производства первичного алюминия. Экономически выгодные запасы железной руды составляют около 170 миллиардов тонн.</p>
 
@@ -392,7 +396,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <p>Bugün Sheffield, geleneksel metalürji bilgisini modern teknolojilerle birleştiren araştırma merkezlerine ev sahipliği yapmaktadır. Sheffield Üniversitesi'nin ileri malzemeler bölümü, çelik teknolojisinde dünya lideri konumundadır.</p>
 
         <h2>Alya ve Sheffield Bağlantısı</h2>
-        <p>Alya Bıçak olarak, Sheffield'ın yüzyıllık bilgi birikimini Türkiye'ye taşıyoruz. Kullandığımız çelik formülasyonları ve üretim standartları bu mirasa dayanmaktadır. Durham-Duplex ortaklığımız, bu bağlantının somut bir göstergesidir.</p>
+        <p>Alya Bıçak olarak, Sheffield'ın yüzyıllık bilgi birikimini Türkiye'ye taşıyoruz. Kullandığımız çelik formülasyonları ve üretim standartları bu mirasa dayanmaktadır.</p>
 
         <p><em>Sheffield, sadece bir şehir değil - kesici takım endüstrisinin kutsal topraklarıdır.</em></p>
       `,
@@ -426,7 +430,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <p>Today, Sheffield hosts research centers that combine traditional metallurgy knowledge with modern technologies. The University of Sheffield's advanced materials department is a world leader in steel technology.</p>
 
         <h2>Alya and Sheffield Connection</h2>
-        <p>As Alya Blade, we bring Sheffield's centuries-old knowledge to Turkey. Our steel formulations and production standards are based on this heritage. Our Durham-Duplex partnership is a tangible indicator of this connection.</p>
+        <p>As Alya Blade, we bring Sheffield's centuries-old knowledge to Turkey. Our steel formulations and production standards are based on this heritage.</p>
 
         <p><em>Sheffield is not just a city - it's the holy ground of the cutting tool industry.</em></p>
       `,
@@ -457,7 +461,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         </ul>
 
         <h2>رابط عليا وشيفيلد</h2>
-        <p>بصفتنا شفرات عليا، نجلب معرفة شيفيلد التي تعود لقرون إلى تركيا. تستند تركيبات الصلب ومعايير الإنتاج لدينا إلى هذا التراث. شراكتنا مع Durham-Duplex هي مؤشر ملموس على هذا الارتباط.</p>
+        <p>بصفتنا شفرات عليا، نجلب معرفة شيفيلد التي تعود لقرون إلى تركيا. تستند تركيبات الصلب ومعايير الإنتاج لدينا إلى هذا التراث.</p>
 
         <p><em>شيفيلد ليست مجرد مدينة - إنها الأرض المقدسة لصناعة أدوات القطع.</em></p>
       `,
@@ -488,7 +492,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         </ul>
 
         <h2>Связь Alya и Шеффилда</h2>
-        <p>Как Alya Blade, мы приносим вековые знания Шеффилда в Турцию. Наши рецептуры стали и производственные стандарты основаны на этом наследии. Наше партнерство с Durham-Duplex является осязаемым показателем этой связи.</p>
+        <p>Как Alya Blade, мы приносим вековые знания Шеффилда в Турцию. Наши рецептуры стали и производственные стандарты основаны на этом наследии.</p>
 
         <p><em>Шеффилд — это не просто город, это священная земля индустрии режущих инструментов.</em></p>
       `,

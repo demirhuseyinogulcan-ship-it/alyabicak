@@ -599,6 +599,24 @@ const tr = {
       description: 'Tercihlerinizi (dil seçimi gibi) hatırlar.',
     },
   },
+
+  // Steel Chart
+  steelChart: {
+    title: 'Sektörel Çelik Kullanım Dağılımı',
+    yAxis: 'Milyon Ton',
+    tooltipTotal: 'Toplam',
+    legend: {
+      metalUrunleri: 'Metal Ürünleri',
+      otomotiv: 'Otomotiv',
+      boru: 'Boru & Profil',
+      makine: 'Makine İmalat',
+      insaat: 'İnşaat',
+      yapiCeligi: 'Yapı Çeliği',
+      elektrik: 'Elektrik & Elektronik',
+      gemi: 'Gemi İnşaa',
+      diger: 'Diğer',
+    },
+  },
 };
 
 export default tr;

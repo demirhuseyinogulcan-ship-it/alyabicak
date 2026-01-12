@@ -599,6 +599,24 @@ const en = {
       description: 'Remembers your preferences (like language selection).',
     },
   },
+
+  // Steel Chart
+  steelChart: {
+    title: 'Sectoral Steel Usage Distribution',
+    yAxis: 'Million Tons',
+    tooltipTotal: 'Total',
+    legend: {
+      metalUrunleri: 'Metal Products',
+      otomotiv: 'Automotive',
+      boru: 'Pipe & Profile',
+      makine: 'Machinery',
+      insaat: 'Construction',
+      yapiCeligi: 'Structural Steel',
+      elektrik: 'Electric & Electronic',
+      gemi: 'Shipbuilding',
+      diger: 'Other',
+    },
+  },
 };
 
 export default en;

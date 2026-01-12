@@ -600,6 +600,24 @@ const ar = {
       description: 'تتذكر تفضيلاتك (مثل اختيار اللغة).',
     },
   },
+
+  // Steel Chart
+  steelChart: {
+    title: 'توزيع استخدام الصلب حسب القطاع',
+    yAxis: 'مليون طن',
+    tooltipTotal: 'المجموع',
+    legend: {
+      metalUrunleri: 'المنتجات المعدنية',
+      otomotiv: 'السيارات',
+      boru: 'الأنابيب والمقاطع',
+      makine: 'صناعة الآلات',
+      insaat: 'البناء',
+      yapiCeligi: 'الهياكل الفولاذية',
+      elektrik: 'الكهرباء والإلكترونيات',
+      gemi: 'بناء السفن',
+      diger: 'أخرى',
+    },
+  },
 };
 
 export default ar;

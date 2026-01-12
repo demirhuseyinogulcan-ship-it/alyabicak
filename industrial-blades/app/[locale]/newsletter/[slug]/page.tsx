@@ -20,8 +20,8 @@ interface PageProps {
 export async function generateStaticParams() {
   const slugs = blogService.getAllSlugs()
   const locales: Locale[] = ['tr', 'en', 'ar', 'ru']
-  
-  return locales.flatMap(locale => 
+
+  return locales.flatMap(locale =>
     slugs.map(slug => ({
       locale,
       slug,
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale, slug } = await params
   const post = blogService.getPostBySlug(slug, locale)
   const dict = await getDictionary(locale)
-  
+
   if (!post) {
     return {
       title: dict.common.notFound,
@@ -42,8 +42,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const canonicalUrl = `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/${slug}`
-  const ogImage = post.coverImage.startsWith('http') 
-    ? post.coverImage 
+  const ogImage = post.coverImage.startsWith('http')
+    ? post.coverImage
     : `${getDomainUrl(locale as SupportedLocale)}${post.coverImage}`
 
   return {
@@ -82,11 +82,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 }
 
+import SteelUsageChart from '@/components/charts/SteelUsageChart'
+
 export default async function BlogPostPage({ params }: PageProps) {
   const { locale, slug } = await params
   const post = blogService.getPostBySlug(slug, locale)
   const dict = await getDictionary(locale)
-  
+
   if (!post) {
     notFound()
   }
@@ -112,10 +114,10 @@ export default async function BlogPostPage({ params }: PageProps) {
   // Format date based on locale
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr)
-    const options: Intl.DateTimeFormatOptions = { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
+    const options: Intl.DateTimeFormatOptions = {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
     }
     const localeMap: Record<Locale, string> = {
       tr: 'tr-TR',
@@ -125,6 +127,9 @@ export default async function BlogPostPage({ params }: PageProps) {
     }
     return date.toLocaleDateString(localeMap[locale], options)
   }
+
+  const content = post.content || '<p class="text-steel-500 italic">İçerik yakında eklenecek...</p>'
+  const hasChart = content.includes('<!-- STEEL_CHART_PLACEHOLDER -->')
 
   return (
     <>
@@ -150,7 +155,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-steel-900/90 via-steel-900/50 to-transparent" />
-          
+
           <div className="relative container mx-auto px-4 h-full flex flex-col justify-end pb-12">
             {/* Breadcrumb */}
             <nav aria-label="Breadcrumb" className="mb-6">
@@ -171,7 +176,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             </nav>
 
             {/* Category Badge */}
-            <Link 
+            <Link
               href={`/${locale}/newsletter/kategori/${post.category.slug}`}
               className="inline-block px-4 py-1.5 bg-primary-600 text-white text-sm font-medium rounded-full mb-4 w-fit hover:bg-primary-700 transition-colors"
             >
@@ -179,7 +184,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             </Link>
 
             {/* Title */}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 max-w-4xl">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 max-w-4xl leading-tight">
               {post.title}
             </h1>
 
@@ -194,14 +199,14 @@ export default async function BlogPostPage({ params }: PageProps) {
                   <p className="text-sm text-steel-400">{dict.blog.author.title}</p>
                 </div>
               </div>
-              
+
               <span className="hidden md:block w-px h-8 bg-steel-600" />
-              
+
               <span className="flex items-center gap-1.5">
                 <Calendar className="w-4 h-4" />
                 <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
               </span>
-              
+
               <span className="flex items-center gap-1.5">
                 <Clock className="w-4 h-4" />
                 {post.readingTime} {dict.blog.readTime}
@@ -229,11 +234,21 @@ export default async function BlogPostPage({ params }: PageProps) {
                 {post.excerpt}
               </p>
 
-              {/* Article Content - prose-article CSS class handles typography */}
-              <div 
-                className="prose-article"
-                dangerouslySetInnerHTML={{ __html: post.content || '<p class="text-steel-500 italic">İçerik yakında eklenecek...</p>' }}
-              />
+              {/* Article Content with Chart Injection */}
+              {hasChart ? (
+                <div className="prose-article">
+                  <div dangerouslySetInnerHTML={{ __html: content.split('<!-- STEEL_CHART_PLACEHOLDER -->')[0] }} />
+                  <div className="my-12 not-prose">
+                    <SteelUsageChart translations={dict.steelChart} />
+                  </div>
+                  <div dangerouslySetInnerHTML={{ __html: content.split('<!-- STEEL_CHART_PLACEHOLDER -->')[1] }} />
+                </div>
+              ) : (
+                <div
+                  className="prose-article"
+                  dangerouslySetInnerHTML={{ __html: content }}
+                />
+              )}
 
               {/* Tags */}
               {post.tags.length > 0 && (
