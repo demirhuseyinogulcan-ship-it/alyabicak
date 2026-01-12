@@ -78,6 +78,9 @@ export async function generateMetadata({
     authors: [{ name: siteConfig.company.legalName }],
     creator: siteConfig.company.legalName,
     publisher: siteConfig.company.legalName,
+    verification: {
+      yandex: ['8e6723f3f47b3bed', '867c9c006bf61590'],
+    },
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
