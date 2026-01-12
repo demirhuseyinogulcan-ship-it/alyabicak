@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { getAllCategories, getAllSubcategories } from '@/lib/data/categories'
 import { getAllProducts } from '@/lib/data/products'
+import { blogService } from '@/lib/data/blog'
 import { i18nConfig, type Locale } from '@/lib/i18n/config'
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 
@@ -101,5 +102,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   )
 
-  return [...routes, ...categoryRoutes, ...subcategoryRoutes, ...productRoutes]
+  // Blog yazıları (her dil için)
+  const blogSlugs = blogService.getAllSlugs()
+  const blogRoutes = locales.flatMap((locale) =>
+    blogSlugs.map((slug) => {
+      const path = `/newsletter/${slug}`
+      return {
+        url: getLocalizedUrl(locale, path),
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.6,
+        alternates: {
+          languages: getAlternates(path),
+        },
+      }
+    })
+  )
+
+  return [...routes, ...categoryRoutes, ...subcategoryRoutes, ...productRoutes, ...blogRoutes]
 }

@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: PageProps) {
 export default async function BlogPage({ params }: PageProps) {
   const { locale } = await params
   const dict = await getDictionary(locale)
-  const posts = blogService.getAllPosts()
-  const featuredPosts = blogService.getFeaturedPosts(2)
+  const posts = blogService.getAllPosts(locale)
+  const featuredPosts = blogService.getFeaturedPosts(2, locale)
 
   return (
     <div className="min-h-screen bg-steel-50">

@@ -40,13 +40,13 @@ export interface BlogSEO {
   focusKeyword?: string
 }
 
-// Sabit kategoriler
+// Sabit kategoriler - Teknik Yazılar öncelikli (B2B değer sıralaması)
 export const BLOG_CATEGORIES: BlogCategory[] = [
   {
-    id: 'sektor-haberleri',
-    name: 'Sektör Haberleri',
-    slug: 'sektor-haberleri',
-    description: 'Endüstriyel kesici sektöründen güncel haberler',
+    id: 'teknik-yazilar',
+    name: 'Teknik Yazılar',
+    slug: 'teknik-yazilar',
+    description: 'Çelik kalitesi, metalürji ve teknik bilgiler',
   },
   {
     id: 'urun-rehberleri',
@@ -55,10 +55,10 @@ export const BLOG_CATEGORIES: BlogCategory[] = [
     description: 'Doğru bıçak seçimi için kapsamlı rehberler',
   },
   {
-    id: 'teknik-yazilar',
-    name: 'Teknik Yazılar',
-    slug: 'teknik-yazilar',
-    description: 'Çelik kalitesi, bakım ve teknik bilgiler',
+    id: 'sektor-haberleri',
+    name: 'Sektör Haberleri',
+    slug: 'sektor-haberleri',
+    description: 'Endüstriyel kesici sektöründen güncel haberler',
   },
   {
     id: 'fuarlar',

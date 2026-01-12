@@ -194,18 +194,7 @@ export function generateProductSchema(product: {
   }
 }
 
-export function generateBreadcrumbSchema(items: { name: string; url: string }[]) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: items.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: item.name,
-      item: item.url,
-    })),
-  }
-}
+// NOT: generateBreadcrumbSchema daha kapsamlı versiyon aşağıda tanımlı (line ~514)
 
 /**
  * FAQPage Schema Generator
@@ -426,6 +415,108 @@ export function generateSpeakableSchema(config: {
         '.category-description',
       ],
     },
+  }
+}
+
+/**
+ * Article Schema Generator - Blog/Bülten yazıları için
+ * TechArticle kullanılıyor (endüstriyel teknik içerik)
+ * 
+ * @see https://schema.org/TechArticle
+ */
+export function generateArticleSchema(post: {
+  title: string;
+  excerpt: string;
+  content?: string;
+  coverImage: string;
+  author: { name: string; title?: string };
+  category: { name: string };
+  tags: string[];
+  publishedAt: string;
+  updatedAt?: string;
+  readingTime: number;
+  slug: string;
+}, locale: SupportedLocale) {
+  const domainUrl = getDomainUrl(locale)
+  const articleUrl = `${domainUrl}/${locale}/newsletter/${post.slug}`
+  const imageUrl = post.coverImage.startsWith('http') 
+    ? post.coverImage 
+    : `${domainUrl}${post.coverImage}`
+  
+  // Kelime sayısını hesapla
+  const wordCount = post.content 
+    ? post.content.replace(/<[^>]*>/g, '').split(/\s+/).length 
+    : post.readingTime * 200 // Ortalama 200 kelime/dakika
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TechArticle',
+    headline: post.title,
+    description: post.excerpt,
+    image: {
+      '@type': 'ImageObject',
+      url: imageUrl,
+      width: 1200,
+      height: 630,
+    },
+    author: {
+      '@type': 'Organization',
+      name: post.author.name,
+      url: domainUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${domainUrl}/images/logo.png`,
+      },
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Alya Bıçak',
+      url: domainUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${domainUrl}/images/logo.png`,
+        width: 200,
+        height: 60,
+      },
+    },
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt || post.publishedAt,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': articleUrl,
+    },
+    articleSection: post.category.name,
+    keywords: post.tags.join(', '),
+    wordCount: wordCount,
+    inLanguage: locale,
+    // TechArticle specific
+    proficiencyLevel: 'Beginner', // Genel okuyucu için uygun
+    dependencies: 'Endüstriyel üretim bilgisi',
+  }
+}
+
+/**
+ * Breadcrumb Schema Generator - Dinamik breadcrumb için
+ * 
+ * @see https://schema.org/BreadcrumbList
+ */
+export function generateBreadcrumbSchema(
+  items: Array<{ name: string; url?: string }>,
+  locale?: SupportedLocale
+) {
+  const domainUrl = locale ? getDomainUrl(locale) : ''
+  
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      ...(item.url && { 
+        item: item.url.startsWith('http') ? item.url : `${domainUrl}${item.url}` 
+      }),
+    })),
   }
 }
 
