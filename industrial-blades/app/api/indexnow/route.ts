@@ -21,6 +21,33 @@ import {
   submitAllUrlsToIndexNow 
 } from '@/lib/seo/indexnow';
 
+// Rate limiting cache (IP -> timestamp array)
+const rateLimitCache = new Map<string, number[]>();
+const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
+const RATE_LIMIT_MAX = 10; // Max 10 requests per minute per IP
+
+function getRateLimitKey(request: NextRequest): string {
+  return request.headers.get('x-forwarded-for') || 
+         request.headers.get('cf-connecting-ip') || 
+         'unknown';
+}
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const timestamps = rateLimitCache.get(ip) || [];
+  
+  // Clean old timestamps
+  const recentTimestamps = timestamps.filter(ts => (now - ts) < RATE_LIMIT_WINDOW);
+  
+  if (recentTimestamps.length >= RATE_LIMIT_MAX) {
+    return true;
+  }
+  
+  recentTimestamps.push(now);
+  rateLimitCache.set(ip, recentTimestamps);
+  return false;
+}
+
 // Simple authorization check
 function isAuthorized(request: NextRequest): boolean {
   const authHeader = request.headers.get('authorization');
@@ -35,6 +62,15 @@ function isAuthorized(request: NextRequest): boolean {
 }
 
 export async function POST(request: NextRequest) {
+  // Rate limiting check
+  const ip = getRateLimitKey(request);
+  if (isRateLimited(ip)) {
+    return NextResponse.json(
+      { error: 'Rate limit exceeded. Max 10 requests per minute.' },
+      { status: 429 }
+    );
+  }
+
   // Authorization check
   if (!isAuthorized(request)) {
     return NextResponse.json(

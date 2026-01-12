@@ -3,15 +3,15 @@
  */
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { 
-  getProductBySlug, 
+import {
+  getProductBySlug,
   getAllProductSlugs,
-  getRelatedProducts 
+  getRelatedProducts
 } from '@/lib/data/products-extended';
-import { 
-  ProductHero, 
-  ProductSpecs, 
-  WhyThisProduct, 
+import {
+  ProductHero,
+  ProductSpecs,
+  WhyThisProduct,
   ProductApplications,
   RelatedProducts,
   ProductBreadcrumb,
@@ -37,13 +37,13 @@ interface ProductPageProps {
 export async function generateStaticParams() {
   const slugs = getAllProductSlugs();
   const params: { locale: string; slug: string }[] = [];
-  
+
   i18nConfig.locales.forEach((locale) => {
     slugs.forEach((slug) => {
       params.push({ locale, slug });
     });
   });
-  
+
   return params;
 }
 
@@ -52,17 +52,17 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const { locale, slug } = await params;
   const product = getProductBySlug(slug, locale);
   const dict = await getDictionary(locale);
-  
+
   if (!product) {
     return {
       title: `${dict.common.notFound} | ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}`,
     };
   }
-  
+
   const title = product.seo?.title || `${product.name} | ${product.code} | ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}`;
   const description = product.seo?.description || product.shortDescription;
   const keywords = product.seo?.keywords || product.tags;
-  
+
   return {
     title,
     description,
@@ -104,21 +104,21 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const { locale, slug } = await params;
   const product = getProductBySlug(slug, locale);
   const dict = await getDictionary(locale);
-  
+
   if (!product) {
     notFound();
   }
-  
+
   // İlgili ürünleri getir (locale ile)
   const relatedProducts = getRelatedProducts(product.id, locale);
-  
+
   // Breadcrumb items (locale-aware)
   const breadcrumbItems = [
     { label: dict.nav.categories, href: `/${locale}/categories` },
     { label: getCategoryDisplayName(product.categoryId, locale), href: `/${locale}/categories/${product.categoryId}` },
     { label: product.code },
   ];
-  
+
   // JSON-LD Schema
   const productSchema = {
     '@context': 'https://schema.org',
@@ -142,8 +142,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
     },
     offers: {
       '@type': 'Offer',
-      availability: product.inStock 
-        ? 'https://schema.org/InStock' 
+      availability: product.inStock
+        ? 'https://schema.org/InStock'
         : 'https://schema.org/OutOfStock',
       seller: {
         '@type': 'Organization',
@@ -151,7 +151,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       },
     },
   };
-  
+
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale);
 
   return (
@@ -165,7 +165,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      
+
       {/* Analytics - Track product view */}
       <ProductViewTracker
         productId={product.id}
@@ -173,26 +173,26 @@ export default async function ProductPage({ params }: ProductPageProps) {
         category={product.categoryId}
         subcategory={product.subcategoryId}
       />
-      
+
       {/* Breadcrumb */}
       <ProductBreadcrumb items={breadcrumbItems} />
-      
+
       {/* Hero Section */}
       <ProductHero product={product} />
-      
+
       {/* Teknik Özellikler */}
       {product.specs && product.specs.length > 0 && (
         <ProductSpecs specs={product.specs} />
       )}
-      
+
       {/* Neden Bu Ürün */}
       <WhyThisProduct benefits={product.benefits} />
-      
+
       {/* Kullanım Alanları */}
       {product.applications && product.applications.length > 0 && (
         <ProductApplications applications={product.applications} />
       )}
-      
+
       {/* Detaylı Açıklama (varsa) */}
       {product.longDescription && (
         <section className="py-12">
@@ -200,14 +200,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <h2 className="text-xl font-semibold text-steel-900 mb-6">
               {dict.productPage.detailedInfo}
             </h2>
-            <div 
+            <div
               className="prose prose-steel max-w-none"
               dangerouslySetInnerHTML={{ __html: product.longDescription }}
             />
           </div>
         </section>
       )}
-      
+
       {/* Uyumlu Yedek Parçalar (varsa) */}
       {product.compatibleParts && product.compatibleParts.length > 0 && (
         <section className="py-12 bg-white">
@@ -230,7 +230,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </div>
         </section>
       )}
-      
+
       {/* İlgili Ürünler */}
       {relatedProducts.length > 0 && (
         <RelatedProducts products={relatedProducts} />
@@ -263,7 +263,7 @@ interface BreadcrumbItem {
 
 function generateBreadcrumbSchema(items: BreadcrumbItem[], locale: string) {
   const homeLabel = locale === 'tr' ? 'Anasayfa' : 'Home';
-  
+
   const itemListElement = [
     {
       '@type': 'ListItem',

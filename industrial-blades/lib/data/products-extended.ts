@@ -29,13 +29,13 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     code: 'H006 001 X01',
     name: 'RETRO LIGHT KNIFE',
     subtitle: 'Döküm Metal El Bıçağı',
-    
+
     categoryId: 'safety-knives',
     subcategoryId: 'fixed-blade',
     tags: ['döküm metal', 'sabit uç', 'profesyonel', 'iş güvenliği'],
-    
+
     shortDescription: 'İş güvenliği standartlarına uygun, dayanıklı döküm metal gövdeli profesyonel el bıçağı. Sheffield çeliğinden üretilmiş kesici uç ile uzun ömürlü performans.',
-    
+
     longDescription: `
       <p>RETRO LIGHT KNIFE, endüstriyel kullanım için tasarlanmış premium bir el bıçağıdır. Döküm metal gövdesi sayesinde yoğun kullanımda bile dayanıklılığını korur.</p>
       
@@ -50,7 +50,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       <h3>Kullanım Önerileri</h3>
       <p>Depo, lojistik, üretim hatları ve genel kesim işlerinde idealdir. Karton, plastik film, ambalaj malzemeleri ve benzeri materyallerin kesilmesinde yüksek performans sağlar.</p>
     `,
-    
+
     images: {
       main: {
         src: '/images/products/h006-001-x01/main.webp',
@@ -70,7 +70,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         height: 400,
       },
     },
-    
+
     specs: [
       { label: 'Malzeme', value: 'Sheffield Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield' },
@@ -79,19 +79,19 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Uzunluk', value: '145mm', icon: 'Ruler' },
       { label: 'Bıçak Genişliği', value: '18mm', icon: 'Ruler' },
     ],
-    
+
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
       city: 'Sheffield',
     },
-    
+
     applications: [
       { title: 'Depo & Lojistik', icon: 'Warehouse', description: 'Koli açma ve paket işlemleri' },
       { title: 'Üretim Hatları', icon: 'Factory', description: 'Endüstriyel kesim operasyonları' },
       { title: 'Ambalaj', icon: 'Package', description: 'Film ve streç kesimi' },
     ],
-    
+
     benefits: [
       {
         title: 'Uzun Ömür',
@@ -109,7 +109,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         icon: 'Zap',
       },
     ],
-    
+
     features: [
       'Döküm metal gövde',
       'Ergonomik kavrama',
@@ -117,42 +117,42 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Uzun ömürlü Sheffield çeliği',
       'İş güvenliği standartlarına uygun',
     ],
-    
+
     certifications: ['CE'],
-    
+
     relatedProductIds: ['h008-001-a03', 'h014-001-x01', 'h015-001-z01'],
-    
+
     compatibleParts: [
       { id: 'b206', name: 'Trapez Bıçak', code: 'B206' },
       { id: 'b207', name: 'Trapez Bıçak Kalın', code: 'B207' },
     ],
-    
+
     seo: {
       title: 'RETRO LIGHT KNIFE | Döküm Metal El Bıçağı | Alya Bıçak',
       description: 'Sheffield çeliğinden üretilmiş RETRO LIGHT KNIFE döküm metal el bıçağı. İş güvenliği standartlarına uygun, dayanıklı ve ergonomik. Türkiye distribütörü.',
       keywords: ['el bıçağı', 'döküm metal bıçak', 'iş güvenliği bıçağı', 'sheffield çelik', 'durham duplex'],
     },
-    
+
     isActive: true,
     isFeatured: true,
     isNew: false,
     inStock: true,
     order: 1,
   },
-  
+
   {
     id: 'h008-001-a03',
     slug: 'h008-001-a03-auto-retract',
     code: 'H008 001 A03',
     name: 'AUTO RETRACT',
     subtitle: 'Otomatik Geri Çekilebilir El Bıçağı',
-    
+
     categoryId: 'safety-knives',
     subcategoryId: 'auto-retract',
     tags: ['otomatik', 'geri çekilebilir', 'güvenlik', 'iş güvenliği'],
-    
+
     shortDescription: 'Maksimum güvenlik için otomatik geri çekilme mekanizmalı profesyonel el bıçağı. Bıçak bırakıldığında otomatik olarak geri çekilir.',
-    
+
     images: {
       main: {
         src: '/images/products/placeholder.jpg',
@@ -168,44 +168,44 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         height: 400,
       },
     },
-    
+
     specs: [
       { label: 'Malzeme', value: 'Sheffield Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield' },
       { label: 'Mekanizma', value: 'Otomatik Geri Çekilme', icon: 'Zap' },
       { label: 'Ağırlık', value: '95g', icon: 'Scale' },
     ],
-    
+
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
       city: 'Sheffield',
     },
-    
+
     applications: [
       { title: 'Lojistik', icon: 'Truck' },
       { title: 'Üretim', icon: 'Factory' },
       { title: 'Depo', icon: 'Warehouse' },
     ],
-    
+
     features: [
       'Otomatik geri çekilme mekanizması',
       'Güvenlik kilidi',
       'Ergonomik kavrama',
       'Hafif tasarım',
     ],
-    
+
     certifications: ['CE', 'ISO 9001'],
-    
+
     relatedProductIds: ['h006-001-x01', 'h014-001-x01'],
-    
+
     isActive: true,
     isFeatured: true,
     isNew: true,
     inStock: true,
     order: 2,
   },
-  
+
   // --- SANAYİ JİLETLERİ ---
   {
     id: '3-delikli-jilet-020',
@@ -213,13 +213,13 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     code: '3DJ-020',
     name: '3 Delikli Dilme Jileti',
     subtitle: 'Titanyum Kaplamalı - 0.20mm',
-    
+
     categoryId: 'industrial-blades',
     subcategoryId: '3-hole-slitting',
     tags: ['3 delikli', 'dilme jileti', 'titanyum kaplama', 'endüstriyel jilet', 'sheffield'],
-    
+
     shortDescription: 'Sheffield çeliğinden üretilmiş, titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performanslı endüstriyel jilet.',
-    
+
     longDescription: `
       <p>3 Delikli Dilme Jileti, endüstriyel dilme makineleri için özel olarak tasarlanmış yüksek performanslı bir kesim jiletdir. Titanyum kaplama sayesinde uzun ömürlü ve aşınmaya dayanıklıdır.</p>
       
@@ -235,7 +235,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       <h3>Kullanım Alanları</h3>
       <p>Tekstil, kağıt, plastik film, ambalaj malzemeleri ve benzeri ince malzemelerin hassas dilme işlemlerinde kullanılır. Özellikle yüksek hızlı dilme makinelerinde üstün performans gösterir.</p>
     `,
-    
+
     images: {
       main: {
         src: '/images/products/3-delikli-jilet.jpg',
@@ -251,7 +251,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         height: 400,
       },
     },
-    
+
     specs: [
       { label: 'Malzeme', value: 'Sheffield Çelik', icon: 'Layers', highlight: true },
       { label: 'Kaplama', value: 'Titanyum', icon: 'Shield', highlight: true },
@@ -259,19 +259,19 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Kalınlık', value: '0.20mm', icon: 'Ruler' },
       { label: 'Montaj', value: '3 Delikli Standart', icon: 'Settings' },
     ],
-    
+
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
       city: 'Sheffield',
     },
-    
+
     applications: [
       { title: 'Tekstil Kesimi', icon: 'Scissors', description: 'Kumaş ve tekstil dilme' },
       { title: 'Kağıt İşleme', icon: 'FileText', description: 'Kağıt ve karton dilme' },
       { title: 'Film Kesimi', icon: 'Film', description: 'Plastik film ve ambalaj' },
     ],
-    
+
     benefits: [
       {
         title: 'Titanyum Kaplama',
@@ -289,7 +289,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         icon: 'Settings',
       },
     ],
-    
+
     features: [
       'Titanyum kaplama',
       'Sheffield çeliği',
@@ -298,17 +298,17 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Farklı kalınlık seçenekleri',
       'Uzun ömürlü',
     ],
-    
+
     certifications: ['CE'],
-    
+
     relatedProductIds: ['slotted-jilet-020'],
-    
+
     seo: {
       title: '3 Delikli Dilme Jileti 0.20mm | Titanyum Kaplamalı | Alya Bıçak',
       description: 'Sheffield çeliğinden üretilmiş titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performans. Türkiye distribütörü.',
       keywords: ['3 delikli jilet', 'dilme jileti', 'titanyum kaplama', 'sheffield çelik', 'endüstriyel jilet'],
     },
-    
+
     isActive: true,
     isFeatured: true,
     isNew: true,
@@ -324,10 +324,10 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 /** Base product'ı ProductExtended tipine dönüştür (fallback için) */
 function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySlug>): ProductExtended | undefined {
   if (!baseProduct) return undefined;
-  
+
   const category = getCategoryById(baseProduct.categoryId);
   const subcategory = baseProduct.subcategoryId ? getSubcategoryById(baseProduct.subcategoryId) : undefined;
-  
+
   // Specifications'ı ProductSpec[] formatına çevir
   const specs: ProductExtended['specs'] = [];
   if (baseProduct.specifications) {
@@ -341,7 +341,7 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
       edge: 'Ağız Tipi',
       weight: 'Ağırlık',
     };
-    
+
     Object.entries(baseProduct.specifications).forEach(([key, value]) => {
       if (value) {
         specs.push({
@@ -351,25 +351,25 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
       }
     });
   }
-  
+
   // Placeholder görsel URL
   const placeholderImage = '/images/products/placeholder.jpg';
   const productImage = baseProduct.image || placeholderImage;
-  
+
   return {
     id: baseProduct.id,
     slug: baseProduct.slug,
     code: baseProduct.code,
     name: baseProduct.name,
     subtitle: undefined,
-    
+
     categoryId: baseProduct.categoryId,
     subcategoryId: baseProduct.subcategoryId,
     tags: baseProduct.features?.slice(0, 3),
-    
+
     shortDescription: baseProduct.description,
     longDescription: undefined,
-    
+
     images: {
       main: {
         src: productImage,
@@ -385,20 +385,20 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
         height: 400,
       },
     },
-    
+
     specs,
-    
+
     origin: {
       brand: 'Sheffield Steel',
       country: 'İngiltere',
       city: 'Sheffield',
     },
-    
+
     applications: baseProduct.applications?.map(app => ({
       title: app,
       description: '',
     })),
-    
+
     benefits: [
       {
         title: 'Yüksek Kalite',
@@ -409,16 +409,16 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
         description: 'Dayanıklı malzeme',
       },
     ],
-    
+
     features: baseProduct.features,
-    
+
     relatedProductIds: undefined,
-    
+
     seo: {
       title: `${baseProduct.name} | ${baseProduct.code} | Alya Bıçak`,
       description: baseProduct.description,
     },
-    
+
     isActive: baseProduct.isActive,
     isFeatured: baseProduct.isFeatured,
     isNew: false,
@@ -432,7 +432,7 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
  */
 function translateProductExtended(product: ProductExtended, locale: string): ProductExtended {
   if (locale === 'tr') return product; // Türkçe master data, çevirmeye gerek yok
-  
+
   const translation = getProductTranslation(product.id, locale);
   if (translation) {
     return {
@@ -440,7 +440,7 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
       name: translation.name,
       shortDescription: translation.description || product.shortDescription,
       features: translation.features || product.features,
-      applications: translation.applications 
+      applications: translation.applications
         ? translation.applications.map(app => ({ title: app, description: '' }))
         : product.applications,
       // Alt text'i de güncelle (image SEO için)
@@ -475,7 +475,7 @@ export function getProductBySlug(slug: string, locale: string = DEFAULT_LOCALE):
   if (extendedProduct) {
     return translateProductExtended(extendedProduct, locale);
   }
-  
+
   // Extended'da yoksa base product'tan dönüştür
   const baseProduct = getBaseProductBySlug(slug);
   if (baseProduct && baseProduct.isActive) {
@@ -484,7 +484,7 @@ export function getProductBySlug(slug: string, locale: string = DEFAULT_LOCALE):
       return translateProductExtended(converted, locale);
     }
   }
-  
+
   return undefined;
 }
 
@@ -495,7 +495,7 @@ export function getProductById(id: string, locale: string = DEFAULT_LOCALE): Pro
   if (extendedProduct) {
     return translateProductExtended(extendedProduct, locale);
   }
-  
+
   // Extended'da yoksa base product'tan dönüştür
   const allBaseProducts = getAllProducts();
   const baseProduct = allBaseProducts.find(p => p.id === id && p.isActive);
@@ -505,7 +505,7 @@ export function getProductById(id: string, locale: string = DEFAULT_LOCALE): Pro
       return translateProductExtended(converted, locale);
     }
   }
-  
+
   return undefined;
 }
 
@@ -520,7 +520,7 @@ export function getProductsByCategory(categoryId: string, locale: string = DEFAU
 export function getRelatedProducts(productId: string, locale: string = DEFAULT_LOCALE): ProductCardData[] {
   const product = getProductById(productId, locale);
   if (!product || !product.relatedProductIds) return [];
-  
+
   return product.relatedProductIds
     .map(id => getProductById(id, locale))
     .filter((p): p is ProductExtended => p !== undefined)
@@ -550,7 +550,7 @@ export function getFeaturedProductsExtended(locale: string = DEFAULT_LOCALE): Pr
 function getCategoryName(categoryId: string, locale: string = DEFAULT_LOCALE): string {
   const catTranslation = getCategoryTranslation(categoryId, locale);
   if (catTranslation) return catTranslation.name;
-  
+
   const category = getCategoryById(categoryId);
   return category?.name || categoryId;
 }

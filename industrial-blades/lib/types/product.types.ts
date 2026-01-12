@@ -69,64 +69,64 @@ export interface ProductExtended {
   code: string;                 // "H006 001 X01"
   name: string;                 // "RETRO LIGHT KNIFE"
   subtitle?: string;            // "Döküm Metal El Bıçağı"
-  
+
   // Kategorizasyon
   categoryId: string;
   subcategoryId?: string;
   tags?: string[];              // ["iş güvenliği", "döküm metal"]
-  
+
   // Açıklamalar
   shortDescription: string;     // Kısa açıklama (liste/hero için)
   longDescription?: string;     // Detaylı açıklama (HTML destekli)
-  
+
   // Görseller (Yeni yapı)
   images: ProductImages;
-  
+
   // Teknik Özellikler (Yeni yapı)
   specs: ProductSpec[];
-  
+
   // Orijin & Kalite Göstergeleri
   origin?: {
     brand?: string;             // "Durham Duplex"
     country?: string;           // "England"
     city?: string;              // "Sheffield"
   };
-  
+
   // Kullanım Alanları
   applications?: ProductApplication[];
-  
+
   // Neden Bu Ürün (Risk azaltıcı)
   benefits?: ProductBenefit[];
-  
+
   // Özellikler listesi
   features?: string[];          // ["Ergonomik tasarım", "Uzun ömürlü"]
-  
+
   // Sertifikalar
   certifications?: string[];    // ["CE", "ISO 9001"]
-  
+
   // İlgili Ürünler
   relatedProductIds?: string[];
-  
+
   // Uyumlu Yedek Parçalar
   compatibleParts?: {
     id: string;
     name: string;
     code: string;
   }[];
-  
+
   // SEO
   seo?: {
     title?: string;
     description?: string;
     keywords?: string[];
   };
-  
+
   // Durum
   isActive: boolean;
   isFeatured: boolean;
   isNew?: boolean;
   order?: number;
-  
+
   // Stok (basit)
   inStock?: boolean;
 }

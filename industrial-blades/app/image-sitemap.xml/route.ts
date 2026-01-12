@@ -12,6 +12,11 @@ import { getAllProducts } from '@/lib/data/products';
 import { getAllCategories } from '@/lib/data/categories';
 import { i18nConfig, type Locale } from '@/lib/i18n/config';
 
+// Cache for generated sitemap (24 hours)
+let cachedXml: string | null = null;
+let cacheTimestamp: number = 0;
+const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in ms
+
 // Domain mapping
 const DOMAIN_MAP: Record<Locale, string> = {
   tr: 'https://alyabicak.com',
@@ -121,13 +126,29 @@ ${urlElements}
 }
 
 export async function GET() {
+  // Check cache
+  const now = Date.now();
+  if (cachedXml && (now - cacheTimestamp) < CACHE_DURATION) {
+    return new NextResponse(cachedXml, {
+      headers: {
+        'Content-Type': 'application/xml; charset=utf-8',
+        'Cache-Control': 'public, max-age=86400, s-maxage=86400', // 24 hours
+      },
+    });
+  }
+
+  // Generate fresh sitemap
   const entries = generateImageEntries();
   const xml = generateImageSitemapXml(entries);
 
+  // Update cache
+  cachedXml = xml;
+  cacheTimestamp = now;
+
   return new NextResponse(xml, {
     headers: {
-      'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=86400, s-maxage=86400', // 24 saat cache
+      'Content-Type': 'application/xml; charset=utf-8',
+      'Cache-Control': 'public, max-age=86400, s-maxage=86400', // 24 hours
     },
   });
 }
