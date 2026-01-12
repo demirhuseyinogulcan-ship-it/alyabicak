@@ -167,6 +167,10 @@ const en = {
     subtitle: 'Latest news, guides, and technical articles about industrial cutters',
     readMore: 'Read More',
     readTime: 'min read',
+    author: {
+      name: 'Alya Blade',
+      title: 'Editor',
+    },
     categories: {
       all: 'All',
       sectorNews: 'Industry News',
@@ -180,6 +184,13 @@ const en = {
     relatedPosts: 'Related Posts',
     noPostsYet: 'No published articles yet.',
     comingSoon: 'We will share useful content about industrial cutters soon.',
+    sidebarCtaTitle: 'Have questions?',
+    sidebarCtaText: 'We\'re happy to help you with technical questions.',
+    sidebarCtaButton: 'Contact Us',
+    share: 'Share:',
+    shareOnTwitter: 'Share on Twitter',
+    shareOnLinkedIn: 'Share on LinkedIn',
+    shareOnWhatsApp: 'Share on WhatsApp',
   },
 
   // Consulting

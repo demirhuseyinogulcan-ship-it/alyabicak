@@ -168,6 +168,10 @@ const ru = {
     subtitle: 'Последние новости, руководства и технические статьи о промышленных резаках',
     readMore: 'Читать Далее',
     readTime: 'мин чтения',
+    author: {
+      name: 'Alya Blade',
+      title: 'Редактор',
+    },
     categories: {
       all: 'Все',
       sectorNews: 'Новости Отрасли',
@@ -181,6 +185,13 @@ const ru = {
     relatedPosts: 'Похожие Публикации',
     noPostsYet: 'Пока нет опубликованных статей.',
     comingSoon: 'Скоро мы поделимся полезным контентом о промышленных резаках.',
+    sidebarCtaTitle: 'Есть вопросы?',
+    sidebarCtaText: 'Мы рады помочь вам с техническими вопросами.',
+    sidebarCtaButton: 'Связаться с нами',
+    share: 'Поделиться:',
+    shareOnTwitter: 'Поделиться в Twitter',
+    shareOnLinkedIn: 'Поделиться в LinkedIn',
+    shareOnWhatsApp: 'Поделиться в WhatsApp',
   },
 
   // Consulting

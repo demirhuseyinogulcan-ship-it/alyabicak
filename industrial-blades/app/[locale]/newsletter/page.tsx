@@ -58,7 +58,7 @@ export default async function BlogPage({ params }: PageProps) {
                 href={`/${locale}/newsletter/kategori/${category.slug}`}
                 className="px-4 py-2 bg-steel-100 hover:bg-steel-200 text-steel-700 text-sm font-medium rounded-full transition-colors"
               >
-                {category.name}
+                {dict.blog.categories[category.dictionaryKey]}
               </Link>
             ))}
           </div>
@@ -84,7 +84,7 @@ export default async function BlogPage({ params }: PageProps) {
                   />
                   <div className="absolute inset-0 p-6 flex flex-col justify-end">
                     <span className="inline-block px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-full mb-3 w-fit">
-                      {post.category.name}
+                      {dict.blog.categories[post.category.dictionaryKey]}
                     </span>
                     <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-300 transition-colors">
                       <Link href={`/${locale}/newsletter/${post.slug}`}>
@@ -141,7 +141,7 @@ export default async function BlogPage({ params }: PageProps) {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <span className="absolute top-4 left-4 px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-full">
-                      {post.category.name}
+                      {dict.blog.categories[post.category.dictionaryKey]}
                     </span>
                   </Link>
 

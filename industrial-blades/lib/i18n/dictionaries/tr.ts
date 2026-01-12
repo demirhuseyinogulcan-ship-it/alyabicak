@@ -167,6 +167,10 @@ const tr = {
     subtitle: 'Endüstriyel kesiciler hakkında güncel haberler, rehberler ve teknik yazılar',
     readMore: 'Devamını Oku',
     readTime: 'dk okuma',
+    author: {
+      name: 'Alya Bıçak',
+      title: 'Editör',
+    },
     categories: {
       all: 'Tümü',
       sectorNews: 'Sektör Haberleri',
@@ -180,6 +184,13 @@ const tr = {
     relatedPosts: 'İlgili Yazılar',
     noPostsYet: 'Henüz yayınlanmış yazı bulunmuyor.',
     comingSoon: 'Yakında endüstriyel kesiciler hakkında faydalı içerikler paylaşacağız.',
+    sidebarCtaTitle: 'Sorularınız mı var?',
+    sidebarCtaText: 'Teknik konularda size yardımcı olmaktan mutluluk duyarız.',
+    sidebarCtaButton: 'İletişime Geç',
+    share: 'Paylaş:',
+    shareOnTwitter: 'Twitter\'da paylaş',
+    shareOnLinkedIn: 'LinkedIn\'de paylaş',
+    shareOnWhatsApp: 'WhatsApp\'ta paylaş',
   },
 
   // Consulting

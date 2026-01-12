@@ -436,7 +436,7 @@ export function generateArticleSchema(post: {
   updatedAt?: string;
   readingTime: number;
   slug: string;
-}, locale: SupportedLocale) {
+}, locale: SupportedLocale, localizedAuthorName?: string) {
   const domainUrl = getDomainUrl(locale)
   const articleUrl = `${domainUrl}/${locale}/newsletter/${post.slug}`
   const imageUrl = post.coverImage.startsWith('http') 
@@ -447,6 +447,10 @@ export function generateArticleSchema(post: {
   const wordCount = post.content 
     ? post.content.replace(/<[^>]*>/g, '').split(/\s+/).length 
     : post.readingTime * 200 // Ortalama 200 kelime/dakika
+  
+  // Locale bazlı publisher name
+  const publisherName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
+  const authorName = localizedAuthorName || publisherName
   
   return {
     '@context': 'https://schema.org',
@@ -461,7 +465,7 @@ export function generateArticleSchema(post: {
     },
     author: {
       '@type': 'Organization',
-      name: post.author.name,
+      name: authorName,
       url: domainUrl,
       logo: {
         '@type': 'ImageObject',
@@ -470,7 +474,7 @@ export function generateArticleSchema(post: {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Alya Bıçak',
+      name: publisherName,
       url: domainUrl,
       logo: {
         '@type': 'ImageObject',

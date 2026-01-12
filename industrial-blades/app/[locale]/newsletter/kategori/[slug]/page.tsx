@@ -1,0 +1,168 @@
+/**
+ * Kategori Filtreleme Sayfası - i18n Destekli
+ */
+import { generateMetadata as genMeta } from '@/lib/seo'
+import Link from 'next/link'
+import Image from 'next/image'
+import { notFound } from 'next/navigation'
+import { Calendar, Clock, ArrowRight } from 'lucide-react'
+import { blogService } from '@/lib/data/blog'
+import { BLOG_CATEGORIES } from '@/lib/types/blog'
+import { PageHeader } from '@/components/ui'
+import { getDictionary, type Locale } from '@/lib/i18n'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+
+interface PageProps {
+    params: Promise<{ locale: Locale; slug: string }>
+}
+
+// Static params generation
+export async function generateStaticParams() {
+    const categories = BLOG_CATEGORIES
+    const locales: Locale[] = ['tr', 'en', 'ar', 'ru']
+
+    return locales.flatMap(locale =>
+        categories.map(category => ({
+            locale,
+            slug: category.slug,
+        }))
+    )
+}
+
+export async function generateMetadata({ params }: PageProps) {
+    const { locale, slug } = await params
+    const dict = await getDictionary(locale)
+    const category = BLOG_CATEGORIES.find(c => c.slug === slug)
+
+    if (!category) return {}
+
+    return genMeta({
+        title: `${category.name} - ${dict.blog.title}`,
+        description: category.description || dict.blog.subtitle,
+        url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/kategori/${slug}`,
+    })
+}
+
+export default async function CategoryPage({ params }: PageProps) {
+    const { locale, slug } = await params
+    const dict = await getDictionary(locale)
+    const category = BLOG_CATEGORIES.find(c => c.slug === slug)
+
+    if (!category) {
+        notFound()
+    }
+
+    const posts = blogService.getPostsByCategory(slug, locale)
+
+    return (
+        <div className="min-h-screen bg-steel-50">
+            {/* Hero */}
+            <PageHeader
+                title={category.name}
+                description={category.description || dict.blog.subtitle}
+                backgroundImage="/images/pages/bulten.jpg"
+            />
+
+            {/* Categories */}
+            <section className="py-8 bg-white border-b border-steel-200">
+                <div className="container mx-auto px-4">
+                    <div className="flex flex-wrap justify-center gap-3">
+                        <Link
+                            href={`/${locale}/newsletter`}
+                            className="px-4 py-2 bg-steel-100 hover:bg-steel-200 text-steel-700 text-sm font-medium rounded-full transition-colors"
+                        >
+                            {dict.common.all}
+                        </Link>
+                        {BLOG_CATEGORIES.map((cat) => (
+                            <Link
+                                key={cat.id}
+                                href={`/${locale}/newsletter/kategori/${cat.slug}`}
+                                className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${cat.slug === slug
+                                        ? 'bg-primary-600 text-white'
+                                        : 'bg-steel-100 hover:bg-steel-200 text-steel-700'
+                                    }`}
+                            >
+                                {cat.name}
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Posts Grid */}
+            <section className="py-12">
+                <div className="container mx-auto px-4">
+                    {posts.length === 0 ? (
+                        <div className="text-center py-16 bg-white rounded-xl">
+                            <p className="text-steel-500 text-lg mb-4">
+                                {dict.blog.noPostsYet}
+                            </p>
+                            <Link
+                                href={`/${locale}/newsletter`}
+                                className="text-primary-600 hover:underline"
+                            >
+                                {dict.common.backToHome}
+                            </Link>
+                        </div>
+                    ) : (
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {posts.map((post) => (
+                                <article
+                                    key={post.id}
+                                    className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all"
+                                >
+                                    <Link href={`/${locale}/newsletter/${post.slug}`} className="block relative h-48 overflow-hidden">
+                                        <Image
+                                            src={post.coverImage}
+                                            alt={post.title}
+                                            fill
+                                            className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                        />
+                                        <span className="absolute top-4 left-4 px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-full">
+                                            {post.category.name}
+                                        </span>
+                                    </Link>
+
+                                    <div className="p-6">
+                                        <div className="flex items-center gap-4 text-sm text-steel-500 mb-3">
+                                            <span className="flex items-center gap-1">
+                                                <Calendar className="w-4 h-4" />
+                                                {new Date(post.publishedAt).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US', {
+                                                    day: 'numeric',
+                                                    month: 'long',
+                                                    year: 'numeric',
+                                                })}
+                                            </span>
+                                            <span className="flex items-center gap-1">
+                                                <Clock className="w-4 h-4" />
+                                                {post.readingTime} {dict.blog.readTime}
+                                            </span>
+                                        </div>
+
+                                        <h3 className="text-lg font-semibold text-steel-900 mb-2 group-hover:text-primary-600 transition-colors line-clamp-2">
+                                            <Link href={`/${locale}/newsletter/${post.slug}`}>
+                                                {post.title}
+                                            </Link>
+                                        </h3>
+
+                                        <p className="text-steel-600 text-sm line-clamp-2 mb-4">
+                                            {post.excerpt}
+                                        </p>
+
+                                        <Link
+                                            href={`/${locale}/newsletter/${post.slug}`}
+                                            className="inline-flex items-center gap-1 text-sm text-primary-600 hover:text-primary-700 font-medium"
+                                        >
+                                            {dict.blog.readMore}
+                                            <ArrowRight className="w-4 h-4" />
+                                        </Link>
+                                    </div>
+                                </article>
+                            ))}
+                        </div>
+                    )}
+                </div>
+            </section>
+        </div>
+    )
+}

@@ -168,6 +168,10 @@ const ar = {
     subtitle: 'آخر الأخبار والأدلة والمقالات التقنية حول أدوات القطع الصناعية',
     readMore: 'اقرأ المزيد',
     readTime: 'دقائق للقراءة',
+    author: {
+      name: 'آليا بليد',
+      title: 'المحرر',
+    },
     categories: {
       all: 'الكل',
       sectorNews: 'أخبار الصناعة',
@@ -181,6 +185,13 @@ const ar = {
     relatedPosts: 'مقالات ذات صلة',
     noPostsYet: 'لا توجد مقالات منشورة بعد.',
     comingSoon: 'سنشارك محتوى مفيد حول أدوات القطع الصناعية قريباً.',
+    sidebarCtaTitle: 'هل لديك أسئلة؟',
+    sidebarCtaText: 'يسعدنا مساعدتك في الاستفسارات الفنية.',
+    sidebarCtaButton: 'تواصل معنا',
+    share: 'مشاركة:',
+    shareOnTwitter: 'مشاركة على تويتر',
+    shareOnLinkedIn: 'مشاركة على لينكد إن',
+    shareOnWhatsApp: 'مشاركة على واتساب',
   },
 
   // Consulting
