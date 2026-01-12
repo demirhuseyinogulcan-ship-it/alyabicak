@@ -62,9 +62,6 @@ export async function generateMetadata({
     authors: [{ name: siteConfig.company.legalName }],
     creator: siteConfig.company.legalName,
     publisher: siteConfig.company.legalName,
-    verification: {
-      yandex: ['8e6723f3f47b3bed', '867c9c006bf61590'],
-    },
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
@@ -127,10 +124,16 @@ export default async function LocaleLayout({
   
   // RTL dil kontrolü (merkezi config'den)
   const isRtl = isRTL(locale as SupportedLocale);
+  
+  // Domain'e göre Yandex verification code'u belirle
+  const yandexCode = locale === 'tr' ? '8e6723f3f47b3bed' : '867c9c006bf61590';
 
   return (
     <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>
       <head>
+        {/* Yandex Webmaster Verification */}
+        <meta name="yandex-verification" content={yandexCode} />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
