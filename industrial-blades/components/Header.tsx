@@ -141,13 +141,14 @@ export default function Header() {
           />
 
           {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center gap-[clamp(0.375rem,0.5vw,0.5rem)]">
+          <div className="hidden lg:flex items-center gap-1 xl:gap-1.5">
             {/* e-Katalog */}
             <a
               href={`/${locale}/catalog`}
-              className="flex items-center justify-center h-9 px-3 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg transition-colors"
+              className="flex items-center justify-center h-8 xl:h-9 px-2 xl:px-3 bg-primary-600 hover:bg-primary-700 text-white text-xs xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap"
             >
-              {dict.nav.catalog}
+              <span className="hidden xl:inline">{dict.nav.catalog}</span>
+              <span className="xl:hidden">Katalog</span>
             </a>
             
             {/* WhatsApp */}
@@ -155,20 +156,19 @@ export default function Header() {
               href={`https://wa.me/${siteConfig.contact.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-1.5 h-9 px-3 bg-green-500 hover:bg-green-600 text-white text-sm font-medium rounded-lg transition-colors"
+              className="flex items-center justify-center gap-1 h-8 xl:h-9 px-2 xl:px-3 bg-green-500 hover:bg-green-600 text-white text-xs xl:text-sm font-medium rounded-lg transition-colors"
             >
               <WhatsAppIcon className="w-4 h-4" />
-              <span className="hidden xl:inline">WhatsApp</span>
+              <span className="hidden 2xl:inline">WhatsApp</span>
             </a>
             
             {/* Arama */}
             <button
               onClick={openSearch}
-              className="flex items-center gap-1.5 h-9 px-2.5 text-steel-500 bg-steel-100 hover:bg-steel-200 rounded-lg transition-colors group"
+              className="flex items-center justify-center h-8 xl:h-9 w-8 xl:w-auto xl:px-2.5 text-steel-500 bg-steel-100 hover:bg-steel-200 rounded-lg transition-colors"
               aria-label={dict.nav.search}
             >
               <Search className="w-4 h-4" />
-              <span className="text-sm hidden 2xl:block">{dict.nav.search}...</span>
             </button>
             
             {/* Dil Seçici - Sadece Desktop */}

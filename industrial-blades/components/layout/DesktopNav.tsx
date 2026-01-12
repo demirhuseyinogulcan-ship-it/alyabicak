@@ -26,7 +26,7 @@ export default function DesktopNav({
   const pathname = usePathname()
 
   return (
-    <nav className="hidden lg:flex items-center gap-[clamp(0.25rem,0.5vw,0.625rem)]">
+    <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1">
       {items.map((item) => (
         <div
           key={item.title}
@@ -38,7 +38,7 @@ export default function DesktopNav({
             href={item.href}
             prefetch={true}
             className={`
-              flex items-center gap-1 px-[clamp(0.625rem,1vw,1rem)] py-2 text-[clamp(0.8125rem,0.9vw,0.875rem)] font-medium transition-colors duration-150 rounded-lg
+              flex items-center gap-0.5 px-2 xl:px-3 py-1.5 text-[13px] xl:text-sm font-medium transition-colors duration-150 rounded-lg whitespace-nowrap
               ${item.hasMegaMenu && isMegaMenuOpen
                 ? 'text-primary-600 bg-primary-50'
                 : pathname === item.href 

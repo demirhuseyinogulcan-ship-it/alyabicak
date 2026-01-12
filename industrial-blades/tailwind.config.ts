@@ -7,6 +7,32 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    // Custom screens - DPI scaling uyumu için
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1100px',    // 1024'ten yükseltildi - %125 ölçekleme uyumu
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '1600px',   // Yeni: Geniş ekranlar
+      '4xl': '1920px',   // Yeni: Ultra geniş
+    },
+    // Container genişlik ayarları
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1.5rem',
+        lg: '2rem',
+      },
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1200px',
+        '2xl': '1400px',  // max-w-7xl yerine daha geniş
+      },
+    },
     extend: {
       fontFamily: {
         sans: ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
