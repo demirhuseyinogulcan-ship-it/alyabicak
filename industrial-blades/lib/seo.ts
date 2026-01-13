@@ -106,7 +106,12 @@ export function generateOrganizationSchema(locale?: Locale) {
     name: siteConfig.company.legalName,
     alternateName: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/logo.png`,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteConfig.url}/images/logo 512.png`,
+      width: 512,
+      height: 512,
+    },
     description: siteConfig.description,
     address: {
       '@type': 'PostalAddress',
@@ -137,7 +142,7 @@ export function generateLocalBusinessSchema() {
     '@type': 'LocalBusiness',
     '@id': `${siteConfig.url}/#localbusiness`,
     name: siteConfig.company.legalName,
-    image: `${siteConfig.url}/images/logo.png`,
+    image: `${siteConfig.url}/images/logo 512.png`,
     telephone: siteConfig.contact.phoneRaw,
     email: siteConfig.contact.email,
     url: siteConfig.url,
@@ -182,7 +187,7 @@ export function generateProductSchema(product: {
       '@type': 'Brand',
       name: product.brand || siteConfig.name,
     },
-    manufacturer: {
+    seller: {
       '@type': 'Organization',
       name: siteConfig.company.legalName,
     },

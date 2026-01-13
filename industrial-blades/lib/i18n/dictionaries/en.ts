@@ -6,8 +6,8 @@ const en = {
   // Meta & SEO
   meta: {
     title: 'Alya Blade | Industrial Cutting Solutions',
-    description: 'Turkey\'s leading industrial blade and razor manufacturer. Over 30 years of experience in industrial blades, machine knives, and safety cutters.',
-    keywords: 'industrial blade, industrial razor, machine knife, cutting tool',
+    description: 'Turkey\'s leading industrial blade and razor supplier. Over 30 years of experience in industrial blades, machine knives, and safety cutters.',
+    keywords: 'industrial blade, industrial razor, machine knife, cutting tool, blade supplier',
   },
 
   // Navigation

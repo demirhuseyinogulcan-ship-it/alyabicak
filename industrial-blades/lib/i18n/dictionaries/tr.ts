@@ -6,8 +6,8 @@ const tr = {
   // Meta & SEO
   meta: {
     title: 'Alya Bıçak | Endüstriyel Kesici Çözümler',
-    description: 'Türkiye\'nin lider endüstriyel bıçak ve jilet üreticisi. 30 yılı aşkın tecrübe ile sanayi jiletleri, makina bıçakları ve iş güvenliği el bıçakları.',
-    keywords: 'endüstriyel bıçak, sanayi jileti, makina bıçağı, kesici alet',
+    description: 'Türkiye\'nin lider endüstriyel bıçak ve jilet tedarikçisi. 30 yılı aşkın tecrübe ile sanayi jiletleri, makina bıçakları ve iş güvenliği el bıçakları.',
+    keywords: 'endüstriyel bıçak, sanayi jileti, makina bıçağı, kesici alet, bıçak tedarikçisi',
   },
 
   // Navigation
