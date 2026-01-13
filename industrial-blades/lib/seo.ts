@@ -100,15 +100,18 @@ export function generateOrganizationSchema(locale?: Locale) {
   // Mevcut aktif dillerin isimlerini al
   const availableLanguages = i18nConfig.locales.map(l => languageNameMap[l] || l)
   
+  // Locale'e göre doğru domain URL'i al
+  const domainUrl = locale ? getDomainUrl(locale as SupportedLocale) : siteConfig.url
+  
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: siteConfig.company.legalName,
     alternateName: siteConfig.name,
-    url: siteConfig.url,
+    url: domainUrl,
     logo: {
       '@type': 'ImageObject',
-      url: `${siteConfig.url}/images/logo 512.png`,
+      url: `${domainUrl}/images/logo 512.png`,
       width: 512,
       height: 512,
     },
@@ -136,16 +139,19 @@ export function generateOrganizationSchema(locale?: Locale) {
 }
 
 // LocalBusiness Schema - Yerel SEO için
-export function generateLocalBusinessSchema() {
+export function generateLocalBusinessSchema(locale?: Locale) {
+  // Locale'e göre doğru domain URL'i al
+  const domainUrl = locale ? getDomainUrl(locale as SupportedLocale) : siteConfig.url
+  
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': `${siteConfig.url}/#localbusiness`,
+    '@id': `${domainUrl}/#localbusiness`,
     name: siteConfig.company.legalName,
-    image: `${siteConfig.url}/images/logo 512.png`,
+    image: `${domainUrl}/images/logo 512.png`,
     telephone: siteConfig.contact.phoneRaw,
     email: siteConfig.contact.email,
-    url: siteConfig.url,
+    url: domainUrl,
     address: {
       '@type': 'PostalAddress',
       streetAddress: siteConfig.contact.address.line1 + ', ' + siteConfig.contact.address.line2,

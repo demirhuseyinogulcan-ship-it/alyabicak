@@ -119,7 +119,7 @@ export default async function LocaleLayout({
 
   const dict = await getDictionary(locale);
   const organizationSchema = generateOrganizationSchema(locale);
-  const localBusinessSchema = generateLocalBusinessSchema();
+  const localBusinessSchema = generateLocalBusinessSchema(locale);
   const websiteSchema = generateWebsiteSchema(locale);
   
   // RTL dil kontrolü (merkezi config'den)
