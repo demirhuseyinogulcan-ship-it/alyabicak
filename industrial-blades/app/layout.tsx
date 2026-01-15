@@ -11,9 +11,6 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: 'Alya Bıçak',
   description: 'Endüstriyel Kesici Çözümler',
-  verification: {
-    yandex: '8e6723f3f47b3bed',
-  },
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },

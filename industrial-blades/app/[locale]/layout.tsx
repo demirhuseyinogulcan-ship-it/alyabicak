@@ -19,12 +19,12 @@ import { generateOrganizationSchema, generateLocalBusinessSchema, generateWebsit
 import { siteConfig } from '@/lib/config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 import { LocaleProvider } from '@/components/providers/LocaleProvider';
-import { 
-  getDomainUrl, 
-  getHreflangUrls, 
-  getOGLocale, 
+import {
+  getDomainUrl,
+  getHreflangUrls,
+  getOGLocale,
   isRTL,
-  type SupportedLocale 
+  type SupportedLocale
 } from '@/lib/config/domains';
 
 const montserrat = Montserrat({
@@ -44,13 +44,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  
+
   // Doğru domain'i belirle - locale'e göre (merkezi config'den)
   const currentDomain = getDomainUrl(locale as SupportedLocale);
-  
+
   // Dinamik alternates için tüm dilleri doğru domain'lerle kullan
   const alternatesLanguages = getHreflangUrls('');
-  
+
   return {
     metadataBase: new URL(currentDomain),
     title: {
@@ -99,6 +99,25 @@ export async function generateMetadata({
       canonical: `${currentDomain}/${locale}`,
       languages: alternatesLanguages,
     },
+    // Static metadata migrated from root layout
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      ],
+      apple: [
+        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      ],
+      other: [
+        { rel: 'mask-icon', url: '/safari-pinned-tab.svg', color: '#1e40af' },
+      ],
+    },
+    manifest: '/site.webmanifest',
+    verification: {
+      // Yandex verification is handled dynamically, but keeping this for completeness if needed by other services
+      // yandex: '...', 
+    },
   };
 }
 
@@ -111,7 +130,7 @@ export default async function LocaleLayout({
 }) {
   const { locale: localeParam } = await params;
   const locale = localeParam as Locale;
-  
+
   // Locale geçerli mi kontrol et
   if (!i18nConfig.locales.includes(locale)) {
     notFound();
@@ -121,10 +140,10 @@ export default async function LocaleLayout({
   const organizationSchema = generateOrganizationSchema(locale);
   const localBusinessSchema = generateLocalBusinessSchema(locale);
   const websiteSchema = generateWebsiteSchema(locale);
-  
+
   // RTL dil kontrolü (merkezi config'den)
   const isRtl = isRTL(locale as SupportedLocale);
-  
+
   // Domain'e göre Yandex verification code'u belirle
   const yandexCode = locale === 'tr' ? '8e6723f3f47b3bed' : '867c9c006bf61590';
 
@@ -133,7 +152,7 @@ export default async function LocaleLayout({
       <head>
         {/* Yandex Webmaster Verification */}
         <meta name="yandex-verification" content={yandexCode} />
-        
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
