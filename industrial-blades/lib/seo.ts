@@ -2,12 +2,12 @@
 import { Metadata } from 'next'
 import { siteConfig } from './config'
 import { i18nConfig, type Locale } from './i18n/config'
-import { 
-  getDomainUrl, 
+import {
+  getDomainUrl,
   getHreflangUrls as getHreflangUrlsFromConfig,
   getCanonicalUrl as getCanonicalUrlFromConfig,
   getOGLocale,
-  type SupportedLocale 
+  type SupportedLocale
 } from './config/domains'
 
 export interface SEOConfig {
@@ -48,9 +48,9 @@ function getCanonicalUrl(locale: Locale, path: string = ''): string {
 
 export function generateMetadata(config: SEOConfig): Metadata {
   const title = config.title.includes('Alya Bıçak') || config.title.includes('Alya Blade')
-    ? config.title 
+    ? config.title
     : `${config.title} | Alya Bıçak`
-  
+
   const keywords = [
     'alya bıçak',
     'alya bıçakları',
@@ -60,12 +60,12 @@ export function generateMetadata(config: SEOConfig): Metadata {
   ].join(', ')
 
   const ogLocale = config.locale ? getOGLocale(config.locale as SupportedLocale) : 'tr_TR'
-  
+
   // Generate canonical URL based on locale and domain
-  const canonicalUrl = config.locale && config.path 
+  const canonicalUrl = config.locale && config.path
     ? getCanonicalUrl(config.locale, config.path)
     : config.url
-  
+
   // Generate hreflang alternates
   const hreflangUrls = config.path ? getHreflangUrlsFromConfig(config.path) : {}
 
@@ -99,10 +99,10 @@ export function generateMetadata(config: SEOConfig): Metadata {
 export function generateOrganizationSchema(locale?: Locale) {
   // Mevcut aktif dillerin isimlerini al
   const availableLanguages = i18nConfig.locales.map(l => languageNameMap[l] || l)
-  
+
   // Locale'e göre doğru domain URL'i al
   const domainUrl = locale ? getDomainUrl(locale as SupportedLocale) : siteConfig.url
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -135,6 +135,13 @@ export function generateOrganizationSchema(locale?: Locale) {
       siteConfig.social.instagram,
       siteConfig.social.linkedin,
     ].filter(Boolean),
+    // Parent Organization - Ana şirket ilişkisi (SEO için önemli)
+    parentOrganization: {
+      '@type': 'Organization',
+      name: 'Alya Tekstil San. ve Tic. Ltd. Şti.',
+      url: 'https://www.alyatekstil.com',
+      description: 'Tekstil sektörüne yönelik Makine Yedek Parçaları ve Endüstriyel Kesiciler üreticisi',
+    },
   }
 }
 
@@ -142,7 +149,7 @@ export function generateOrganizationSchema(locale?: Locale) {
 export function generateLocalBusinessSchema(locale?: Locale) {
   // Locale'e göre doğru domain URL'i al
   const domainUrl = locale ? getDomainUrl(locale as SupportedLocale) : siteConfig.url
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
@@ -235,15 +242,15 @@ export function generateWebsiteSchema(locale: Locale) {
   const domain = getDomainUrl(locale as SupportedLocale)
   const siteName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
   const inLanguage = locale === 'tr' ? 'tr-TR' : locale === 'ar' ? 'ar-SA' : 'en-US'
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': `${domain}/#website`,
     url: domain,
     name: siteName,
-    description: locale === 'tr' 
-      ? 'Endüstriyel kesici bıçaklar ve sanayi jiletleri' 
+    description: locale === 'tr'
+      ? 'Endüstriyel kesici bıçaklar ve sanayi jiletleri'
       : 'Industrial cutting blades and razors',
     inLanguage,
     publisher: {
@@ -307,7 +314,7 @@ export interface ProductSchemaInput {
 
 export function generateEnhancedProductSchema(product: ProductSchemaInput) {
   const domain = getDomainUrl(product.locale as SupportedLocale)
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -316,12 +323,12 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     description: product.description,
     sku: product.code,
     mpn: product.code,
-    
+
     // Görseller
-    image: product.images && product.images.length > 0 
+    image: product.images && product.images.length > 0
       ? [product.image, ...product.images]
       : product.image,
-    
+
     // Marka & Üretici
     brand: {
       '@type': 'Brand',
@@ -336,7 +343,7 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
         addressCountry: 'GB',
       },
     },
-    
+
     // Fiziksel Özellikler
     ...(product.material && { material: product.material }),
     ...(product.weight && {
@@ -346,7 +353,7 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
         unitCode: 'GRM',
       },
     }),
-    
+
     // Değerlendirmeler
     ...(product.rating && {
       aggregateRating: {
@@ -357,13 +364,13 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
         worstRating: 1,
       },
     }),
-    
+
     // Fiyat & Stok
     offers: {
       '@type': 'Offer',
       url: `${domain}/${product.locale}/products/${product.slug}`,
       availability: product.inStock !== false
-        ? 'https://schema.org/InStock' 
+        ? 'https://schema.org/InStock'
         : 'https://schema.org/OutOfStock',
       seller: {
         '@type': 'Organization',
@@ -377,10 +384,10 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
         },
       },
     },
-    
+
     // Kategori
     ...(product.category && { category: product.category }),
-    
+
     // Ek Bilgiler
     additionalProperty: [
       {
@@ -389,7 +396,7 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
         value: 'Sheffield, İngiltere',
       },
       {
-        '@type': 'PropertyValue', 
+        '@type': 'PropertyValue',
         name: 'Kalite Standardı',
         value: 'ISO 9001:2015',
       },
@@ -450,19 +457,19 @@ export function generateArticleSchema(post: {
 }, locale: SupportedLocale, localizedAuthorName?: string) {
   const domainUrl = getDomainUrl(locale)
   const articleUrl = `${domainUrl}/${locale}/newsletter/${post.slug}`
-  const imageUrl = post.coverImage.startsWith('http') 
-    ? post.coverImage 
+  const imageUrl = post.coverImage.startsWith('http')
+    ? post.coverImage
     : `${domainUrl}${post.coverImage}`
-  
+
   // Kelime sayısını hesapla
-  const wordCount = post.content 
-    ? post.content.replace(/<[^>]*>/g, '').split(/\s+/).length 
+  const wordCount = post.content
+    ? post.content.replace(/<[^>]*>/g, '').split(/\s+/).length
     : post.readingTime * 200 // Ortalama 200 kelime/dakika
-  
+
   // Locale bazlı publisher name
   const publisherName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
   const authorName = localizedAuthorName || publisherName
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
@@ -520,7 +527,7 @@ export function generateBreadcrumbSchema(
   locale?: SupportedLocale
 ) {
   const domainUrl = locale ? getDomainUrl(locale) : ''
-  
+
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -528,8 +535,8 @@ export function generateBreadcrumbSchema(
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      ...(item.url && { 
-        item: item.url.startsWith('http') ? item.url : `${domainUrl}${item.url}` 
+      ...(item.url && {
+        item: item.url.startsWith('http') ? item.url : `${domainUrl}${item.url}`
       }),
     })),
   }
