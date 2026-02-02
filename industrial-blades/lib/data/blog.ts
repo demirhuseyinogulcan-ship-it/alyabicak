@@ -62,7 +62,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
   {
     id: 'celik-endustrinin-omurgasi',
     slug: 'celik-endustrinin-omurgasi',
-    coverImage: '/images/blog/celik-endustrinin-omurgasi.webp',
+    coverImage: '/images/celik-uretimi-steel-manufacturing.jpg',
     author: DEFAULT_AUTHOR,
     category: BLOG_CATEGORIES[0], // Teknik Yazılar (index 0)
     tags: {
@@ -363,7 +363,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
   {
     id: 'sheffield-celigi-neden-onemli',
     slug: 'sheffield-celigi-neden-onemli',
-    coverImage: '/images/blog/sheffield-celigi.webp',
+    coverImage: '/images/sheffield-celigi-sheffield-steel.jpg',
     author: DEFAULT_AUTHOR,
     category: BLOG_CATEGORIES[0], // Teknik Yazılar
     tags: {
