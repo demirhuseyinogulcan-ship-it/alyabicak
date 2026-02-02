@@ -39,8 +39,9 @@ const DEFAULT_LOCALE = 'tr';
 
 // Fallback zinciri: Çeviri yoksa hangi dile düşülecek?
 // Global default: İngilizce (uluslararası standart)
+// NOT: Türkçe için fallback YOK - ana veri (JSON) zaten Türkçe
 const FALLBACK_CHAIN: Record<string, string[]> = {
-  'tr': ['en'],           // Türkçe → İngilizce
+  'tr': [],               // Türkçe → Fallback yok (JSON ana veri zaten Türkçe)
   'en': ['tr'],           // İngilizce → Türkçe (TR ana kaynak)
   'ar': ['en', 'tr'],     // Arapça → İngilizce → Türkçe
   'ru': ['en', 'tr'],     // Rusça → İngilizce → Türkçe
