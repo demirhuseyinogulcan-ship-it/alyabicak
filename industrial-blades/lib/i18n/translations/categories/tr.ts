@@ -32,7 +32,8 @@ export const subcategoriesTr = {
   // --- INDUSTRIAL BLADES ---
   '3-hole-slitting': {
     name: '3 Delikli Dilme Jiletleri',
-    description: 'Endüstri standardı 3 delikli jiletler',
+    description: 'Film, folyo, kağıt ve ambalaj kesimi için profesyonel 3 delikli dilme jiletleri. Yüksek karbon çelikten üretim, kaplama seçenekleri ile uzun ömürlü kesim performansı.',
+    seoKeywords: ['3 delikli jilet', 'üç delikli jilet', 'sanayi jileti', 'dilme jileti', 'film kesim jileti', 'ambalaj kesim jileti', 'kağıt kesim jileti', 'slitting blade', 'endüstriyel jilet', '3 delikli jilet fiyatları', '3 delikli jilet üreticisi', 'kaplamalı jilet'],
   },
   'slotted-slitting': {
     name: 'Slotted Dilme Jiletleri',

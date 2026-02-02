@@ -54,9 +54,16 @@ export function getCategoryTranslation(
 export function getSubcategoryTranslation(
   subcategoryId: string, 
   locale: string
-): { name: string; description: string } | undefined {
+): { name: string; description: string; seoKeywords?: string[] } | undefined {
   const translations = subcategoryTranslations[locale] || subcategoryTranslations['tr'];
-  return translations[subcategoryId as keyof typeof translations];
+  const translation = translations[subcategoryId as keyof typeof translations];
+  if (!translation) return undefined;
+  
+  return {
+    name: translation.name,
+    description: translation.description,
+    seoKeywords: (translation as { seoKeywords?: string[] }).seoKeywords,
+  };
 }
 
 export function getAllCategoryTranslations(locale: string): CategoryTranslations {

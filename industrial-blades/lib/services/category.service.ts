@@ -53,13 +53,14 @@ class CategoryService {
   /**
    * Alt kategoriyi locale'e göre çevir
    */
-  private translateSubcategory(subcategory: SubCategory, locale: string): SubCategory {
+  private translateSubcategory(subcategory: SubCategory, locale: string): SubCategory & { seoKeywords?: string[] } {
     const translation = getSubcategoryTranslation(subcategory.id, locale);
     if (translation) {
       return {
         ...subcategory,
         name: translation.name,
         description: translation.description,
+        seoKeywords: translation.seoKeywords,
       };
     }
     return subcategory;

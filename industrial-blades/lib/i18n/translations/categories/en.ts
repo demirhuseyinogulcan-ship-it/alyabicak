@@ -34,7 +34,8 @@ export const subcategoriesEn: SubcategoryTranslations = {
   // --- INDUSTRIAL BLADES ---
   '3-hole-slitting': {
     name: '3-Hole Slitting Blades',
-    description: 'Industry standard 3-hole blades',
+    description: 'Professional 3-hole slitting blades for film, foil, paper and packaging cutting. High carbon steel manufacturing with coating options for long-lasting cutting performance.',
+    seoKeywords: ['3 hole blade', 'three hole slitting blade', 'industrial slitting blade', 'slitter blade', 'film slitting blade', 'razor slitting blade', 'paper slitting blade', 'packaging blade', 'rewinder blade', 'coated blade', 'slitting razor'],
   },
   'slotted-slitting': {
     name: 'Slotted Slitting Blades',
