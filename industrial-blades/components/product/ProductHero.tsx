@@ -38,7 +38,7 @@ export function ProductHero({ product }: ProductHeroProps) {
           {/* Sol: Görsel Galerisi */}
           <div className="space-y-4">
             {/* Ana Görsel */}
-            <div className="relative aspect-square bg-white rounded-lg border border-steel-100 overflow-hidden group">
+            <div className="relative aspect-square bg-white rounded-xl border border-steel-200 overflow-hidden group shadow-sm">
               <Image
                 src={activeImage.src}
                 alt={activeImage.alt}
@@ -48,50 +48,57 @@ export function ProductHero({ product }: ProductHeroProps) {
                 priority
               />
               
-              {/* Galeri Navigasyon Okları */}
+              {/* Galeri Navigasyon Okları - Her Zaman Görünür */}
               {allImages.length > 1 && (
                 <>
                   <button
                     onClick={() => setActiveImageIndex(prev => 
                       prev === 0 ? allImages.length - 1 : prev - 1
                     )}
-                    className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-white hover:bg-primary-50 border border-steel-200 hover:border-primary-300 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-105"
                     aria-label={t.productDetail.prevImage}
                   >
-                    <ChevronLeft className="w-5 h-5 text-steel-700" />
+                    <ChevronLeft className="w-6 h-6 text-steel-600 hover:text-primary-600" />
                   </button>
                   <button
                     onClick={() => setActiveImageIndex(prev => 
                       prev === allImages.length - 1 ? 0 : prev + 1
                     )}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 bg-white hover:bg-primary-50 border border-steel-200 hover:border-primary-300 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-105"
                     aria-label={t.productDetail.nextImage}
                   >
-                    <ChevronRight className="w-5 h-5 text-steel-700" />
+                    <ChevronRight className="w-6 h-6 text-steel-600 hover:text-primary-600" />
                   </button>
                 </>
               )}
               
+              {/* Görsel Sayacı */}
+              {allImages.length > 1 && (
+                <div className="absolute bottom-3 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-steel-900/70 backdrop-blur-sm text-white text-sm font-medium rounded-full">
+                  {activeImageIndex + 1} / {allImages.length}
+                </div>
+              )}
+              
               {/* Yeni Ürün Badge */}
               {product.isNew && (
-                <span className="absolute top-4 left-4 px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded">
+                <span className="absolute top-4 left-4 px-3 py-1.5 bg-primary-600 text-white text-xs font-semibold rounded-md shadow-md">
                   {t.productDetail.new}
                 </span>
               )}
             </div>
             
-            {/* Thumbnail Galerisi */}
+            {/* Thumbnail Galerisi - Geliştirilmiş */}
             {allImages.length > 1 && (
-              <div className="flex gap-3 justify-center">
+              <div className="flex gap-2 justify-center flex-wrap">
                 {allImages.map((img, index) => (
                   <button
                     key={index}
                     onClick={() => setActiveImageIndex(index)}
                     className={`
-                      relative w-16 h-16 rounded-md border-2 overflow-hidden transition-all
+                      relative w-20 h-20 rounded-lg border-2 overflow-hidden transition-all duration-200
                       ${activeImageIndex === index 
-                        ? 'border-primary-500 ring-2 ring-primary-500/20' 
-                        : 'border-steel-200 hover:border-steel-300'
+                        ? 'border-primary-500 ring-2 ring-primary-500/30 shadow-md scale-105' 
+                        : 'border-steel-200 hover:border-primary-300 hover:shadow-sm'
                       }
                     `}
                     aria-label={`Görsel ${index + 1}`}
@@ -100,9 +107,13 @@ export function ProductHero({ product }: ProductHeroProps) {
                       src={img.src}
                       alt={img.alt}
                       fill
-                      className="object-contain p-1"
-                      sizes="64px"
+                      className="object-contain p-2 bg-white"
+                      sizes="80px"
                     />
+                    {/* Aktif gösterge */}
+                    {activeImageIndex === index && (
+                      <div className="absolute inset-0 bg-primary-500/10" />
+                    )}
                   </button>
                 ))}
               </div>

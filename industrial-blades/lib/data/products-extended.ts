@@ -356,6 +356,17 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
   const placeholderImage = '/images/products/placeholder.jpg';
   const productImage = baseProduct.image || placeholderImage;
 
+  // Galeri görselleri - images array varsa kullan
+  const galleryImages = (baseProduct as { images?: string[] }).images || [];
+  const gallery = galleryImages
+    .filter((img: string) => img !== productImage) // Ana görsel hariç
+    .map((img: string, index: number) => ({
+      src: img,
+      alt: `${baseProduct.name} - Görsel ${index + 2}`,
+      width: 800,
+      height: 800,
+    }));
+
   return {
     id: baseProduct.id,
     slug: baseProduct.slug,
@@ -377,7 +388,7 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
         width: 800,
         height: 800,
       },
-      gallery: [],
+      gallery,
       thumbnail: {
         src: productImage,
         alt: baseProduct.name,
