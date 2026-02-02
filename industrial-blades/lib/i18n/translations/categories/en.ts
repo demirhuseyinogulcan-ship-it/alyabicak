@@ -120,8 +120,8 @@ export const subcategoriesEn: SubcategoryTranslations = {
     description: 'Knives for industrial advanced processing applications',
   },
   'thermoform-vacuum': {
-    name: 'Thermoform Vacuum Knives',
-    description: 'For thermoform and vacuum packaging machines',
+    name: 'Vacuum Packaging Blades',
+    description: 'Professional blades for thermoform and vacuum packaging machines. Compatible with Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac machines. Star, triangle, punch and lama blades.',
   },
   'circular-slitting': {
     name: 'Circular Slitting Knives',

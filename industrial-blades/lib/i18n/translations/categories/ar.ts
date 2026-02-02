@@ -120,8 +120,8 @@ export const subcategoriesAr: SubcategoryTranslations = {
     description: 'سكاكين لتطبيقات المعالجة الصناعية المتقدمة',
   },
   'thermoform-vacuum': {
-    name: 'سكاكين التشكيل الحراري والفراغ',
-    description: 'لآلات التشكيل الحراري والتغليف بالفراغ',
+    name: 'شفرات التغليف الفراغي',
+    description: 'شفرات احترافية لآلات التغليف الحراري والفراغي. متوافقة مع Multivac، Opack، Betapak، GEA، Alcan، Ulma، Variovac. شفرات نجمة ومثلث ودبابيس ولاما.',
   },
   'circular-slitting': {
     name: 'سكاكين التقطيع الدائري',

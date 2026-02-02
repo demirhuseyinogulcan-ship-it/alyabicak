@@ -3911,10 +3911,11 @@
     "slug": "kontr-biai-termoform-vakum-paketleme-bicagi",
     "code": "KONTÖR BIÇAĞI",
     "name": "KONTÖR BIÇAĞI - Termoform Vakum Paketleme Bıçağı",
-    "description": "Termoform Vakum Paketleme Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "Termoform ve vakum paketleme makinaları için kontör (contour) bıçağı. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac gibi markaların makinalarına uyumlu. Sheffield çeliğinden üretilmiş, gıda sanayiinde kullanıma uygun profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "thermoform-vacuum",
     "image": "/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg",
+    "seoKeywords": ["kontör bıçağı", "contour blade", "termoform bıçak", "vakum paketleme bıçağı", "multivac bıçak", "opack bıçak", "betapak bıçak", "gea bıçak", "alcan bıçak", "ulma bıçak", "variovac bıçak", "gıda ambalaj bıçağı", "thermoform blade"],
     "variants": [
       {
         "id": "kontr-biai-termoform-vakum-paketleme-bicagi-standard",
@@ -3924,15 +3925,22 @@
     ],
     "specifications": {
       "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "hardness": "HRC 58-62",
+      "coating": "Standart veya Titanyum Kaplama"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Uzun ömürlü Sheffield çeliği",
+      "Gıda sanayiine uygun",
+      "Termoform makinalarına uyumlu",
+      "Temiz ve hassas kesim",
+      "Titanyum kaplama seçeneği"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme",
+      "Termoform ambalajlama",
+      "Gıda sanayii",
+      "Et ve peynir paketleme",
+      "Endüstriyel ambalaj"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -3941,30 +3949,50 @@
   {
     "id": "yarim",
     "slug": "yarim-yildiz-zimbalar",
-    "code": "YARIM",
-    "name": "YARIM - YILDIZ ZIMBALAR",
-    "description": "YILDIZ ZIMBALAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "code": "YARIM YILDIZ",
+    "name": "YARIM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları",
+    "description": "Yarım yıldız (half star) zımba bıçakları. Vakum paketleme ve termoform makinaları için. Üçgen bıçak olarak da bilinir. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. D2 çeliğinden üretilmiş, yüksek aşınma dayanımlı. Titanyum kaplama seçeneği mevcuttur.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
-    "image": "/images/products/yarim-yildiz-zimbalar.jpg",
+    "subcategoryId": "thermoform-vacuum",
+    "image": "/images/products/vakum-zimba-bicaklar.jpg",
+    "images": [
+      "/images/products/vakum-zimba-bicaklar.jpg",
+      "/images/products/titanyum-kaplamali-zimba-bicaklar.jpg"
+    ],
+    "seoKeywords": ["yarım yıldız zımba", "half star punch", "üçgen bıçak", "zımba bıçak", "vakum paketleme zımba", "termoform zımba", "yıldız bıçak", "multivac zımba", "opack zımba", "betapak zımba", "gea zımba", "titanyum zımba", "D2 çelik zımba", "triangle punch", "star punch blade"],
     "variants": [
       {
         "id": "yarim-yildiz-zimbalar-standard",
-        "sku": "YARIM",
+        "sku": "YARIM-YILDIZ-STD",
         "inStock": true
+      },
+      {
+        "id": "yarim-yildiz-zimbalar-titanium",
+        "sku": "YARIM-YILDIZ-TIT",
+        "inStock": true,
+        "name": "Titanyum Kaplamalı"
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "D2 Çelik",
+      "hardness": "HRC 58-60",
+      "coating": "Standart veya Titanyum Kaplama",
+      "shape": "Yarım Yıldız (Half Star)"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Yarım yıldız geometrisi",
+      "Sheffield çelik kalitesi",
+      "Titanyum kaplama opsiyonu",
+      "Hassas zımbalama",
+      "Uzun ömürlü keskin kenar",
+      "Gıda sanayiine uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme",
+      "Termoform ambalajlama",
+      "Gıda sanayii zımbalama",
+      "Et ve peynir ambalajı",
+      "Endüstriyel paketleme"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -3973,30 +4001,50 @@
   {
     "id": "tam",
     "slug": "tam-yildiz-zimbalar",
-    "code": "TAM",
-    "name": "TAM - YILDIZ ZIMBALAR",
-    "description": "YILDIZ ZIMBALAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "code": "TAM YILDIZ",
+    "name": "TAM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları",
+    "description": "Tam yıldız (full star) zımba bıçakları. Vakum paketleme ve termoform makinaları için. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. D2 çeliğinden üretilmiş, yüksek aşınma dayanımlı. Titanyum kaplama seçeneği mevcuttur.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
-    "image": "/images/products/tam-yildiz-zimbalar.jpg",
+    "subcategoryId": "thermoform-vacuum",
+    "image": "/images/products/vakum-zimba-bicaklar.jpg",
+    "images": [
+      "/images/products/vakum-zimba-bicaklar.jpg",
+      "/images/products/titanyum-kaplamali-zimba-bicaklar.jpg"
+    ],
+    "seoKeywords": ["tam yıldız zımba", "full star punch", "yıldız bıçak", "zımba bıçak", "vakum paketleme zımba", "termoform zımba", "multivac zımba", "opack zımba", "betapak zımba", "gea zımba", "titanyum zımba", "D2 çelik zımba", "star punch blade"],
     "variants": [
       {
         "id": "tam-yildiz-zimbalar-standard",
-        "sku": "TAM",
+        "sku": "TAM-YILDIZ-STD",
         "inStock": true
+      },
+      {
+        "id": "tam-yildiz-zimbalar-titanium",
+        "sku": "TAM-YILDIZ-TIT",
+        "inStock": true,
+        "name": "Titanyum Kaplamalı"
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "D2 Çelik",
+      "hardness": "HRC 58-60",
+      "coating": "Standart veya Titanyum Kaplama",
+      "shape": "Tam Yıldız (Full Star)"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Tam yıldız geometrisi",
+      "Sheffield çelik kalitesi",
+      "Titanyum kaplama opsiyonu",
+      "Hassas zımbalama",
+      "Uzun ömürlü keskin kenar",
+      "Gıda sanayiine uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme",
+      "Termoform ambalajlama",
+      "Gıda sanayii zımbalama",
+      "Et ve peynir ambalajı",
+      "Endüstriyel paketleme"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -4005,30 +4053,41 @@
   {
     "id": "dz-biaklar",
     "slug": "dz-biaklar-lama-bicaklar",
-    "code": "DÜZ BIÇAKLAR",
-    "name": "DÜZ BIÇAKLAR - Lama Bıçaklar",
-    "description": "Lama Bıçaklar. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "code": "LAMA BIÇAK",
+    "name": "DÜZ BIÇAKLAR - Lama Bıçaklar | Vakum Paketleme",
+    "description": "Düz (straight) lama bıçaklar. Vakum paketleme ve termoform makinaları için. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu düz kesim bıçakları. HSS (High Speed Steel - Yüksek Hız Çeliği) malzemeden üretilmiş, son derece sağlam, ezilmez ve kolay kolay körelmez. Gıda sanayiine uygun.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
-    "image": "/images/products/dz-biaklar-lama-bicaklar.jpg",
+    "subcategoryId": "thermoform-vacuum",
+    "image": "/images/products/vakum-lama-bicaklar.jpg",
+    "seoKeywords": ["lama bıçak", "düz bıçak", "straight blade", "vakum paketleme lama", "termoform lama", "multivac lama", "opack lama", "betapak lama", "gea lama", "düz kesim bıçağı", "HSS bıçak", "high speed steel blade", "yüksek hız çeliği"],
     "variants": [
       {
         "id": "dz-biaklar-lama-bicaklar-standard",
-        "sku": "DÜZ BIÇAKLAR",
+        "sku": "LAMA-STD",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "HSS (High Speed Steel - Yüksek Hız Çeliği)",
+      "hardness": "HRC 62-65",
+      "edge": "Düz Kesim Ağzı",
+      "durability": "Çok Yüksek"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Düz kesim geometrisi",
+      "HSS (Yüksek Hız Çeliği) kalitesi",
+      "Son derece sağlam yapı",
+      "Ezilmeye karşı dayanıklı",
+      "Uzun ömürlü keskin kenar",
+      "Kolay kolay körelmez",
+      "Gıda sanayiine uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme",
+      "Termoform ambalajlama",
+      "Gıda sanayii kesim",
+      "Film kesimi",
+      "Endüstriyel paketleme"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -4036,31 +4095,40 @@
   },
   {
     "id": "dairesel",
-    "slug": "dairesel-bicaklar",
+    "slug": "dairesel-bicaklar-vakum-paketleme",
     "code": "DAİRESEL",
-    "name": "DAİRESEL - BIÇAKLAR",
-    "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "DAİRESEL BIÇAKLAR - Vakum Paketleme Döner Bıçak",
+    "description": "Dairesel (circular) döner bıçaklar. Vakum paketleme ve termoform makinaları için. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu dairesel kesim bıçakları. Sheffield çeliğinden üretilmiş.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
+    "subcategoryId": "thermoform-vacuum",
     "image": "/images/products/dairesel-bicaklar.jpg",
+    "seoKeywords": ["dairesel bıçak", "circular blade", "döner bıçak", "rotary blade", "vakum paketleme dairesel", "termoform dairesel", "multivac dairesel", "opack dairesel"],
     "variants": [
       {
         "id": "dairesel-bicaklar-standard",
-        "sku": "DAİRESEL",
+        "sku": "DAIRESEL-STD",
         "inStock": true
       }
     ],
     "specifications": {
       "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "hardness": "HRC 58-62",
+      "shape": "Dairesel (Circular)"
     },
     "features": [
+      "Dairesel geometri",
+      "Sheffield çelik kalitesi",
+      "Döner kesim uyumlu",
+      "Hassas kesim",
       "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Gıda sanayiine uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme",
+      "Termoform ambalajlama",
+      "Döner kesim",
+      "Gıda sanayii",
+      "Endüstriyel paketleme"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -4068,31 +4136,43 @@
   },
   {
     "id": "yuvarlak",
-    "slug": "yuvarlak-hava-zimbasi",
-    "code": "YUVARLAK",
-    "name": "YUVARLAK - HAVA ZIMBASI",
-    "description": "HAVA ZIMBASI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "slug": "yuvarlak-hava-zimbasi-vakum-paketleme",
+    "code": "YUVARLAK ZIMBA",
+    "name": "YUVARLAK HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı",
+    "description": "Yuvarlak (round) hava zımba bıçakları. Vakum paketleme ve termoform makinaları için hava delikli zımba. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. 440C paslanmaz çelikten üretilmiş, yüksek korozyon dayanımlı, gıda sanayiine uygun.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
-    "image": "/images/products/yuvarlak-hava-zimbasi.jpg",
+    "subcategoryId": "thermoform-vacuum",
+    "image": "/images/products/vakum-hava-zimba-bicaklari.jpg",
+    "seoKeywords": ["yuvarlak hava zımba", "round air punch", "hava zımbası", "vakum hava zımba", "termoform hava zımba", "multivac hava zımba", "opack hava zımba", "havalandırma zımbası", "440C zımba", "paslanmaz zımba", "air hole punch"],
     "variants": [
       {
         "id": "yuvarlak-hava-zimbasi-standard",
-        "sku": "YUVARLAK",
+        "sku": "YUVARLAK-HAVA",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "440C Paslanmaz Çelik",
+      "hardness": "HRC 58-60",
+      "shape": "Yuvarlak (Round)",
+      "feature": "Hava Delikli",
+      "corrosionResistance": "Yüksek"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Yuvarlak geometri",
+      "Hava delikli tasarım",
+      "440C paslanmaz çelik",
+      "Yüksek korozyon dayanımı",
+      "Hassas zımbalama",
+      "Uzun ömürlü keskin kenar",
+      "Gıda sanayiine uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme havalandırma",
+      "Termoform ambalajlama",
+      "Gıda sanayii zımbalama",
+      "Hava delik açma",
+      "Endüstriyel paketleme"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -4100,31 +4180,43 @@
   },
   {
     "id": "oval",
-    "slug": "oval-hava-zimbasi",
-    "code": "OVAL",
-    "name": "OVAL - HAVA ZIMBASI",
-    "description": "HAVA ZIMBASI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "slug": "oval-hava-zimbasi-vakum-paketleme",
+    "code": "OVAL ZIMBA",
+    "name": "OVAL HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı",
+    "description": "Oval (ellipse) hava zımba bıçakları. Vakum paketleme ve termoform makinaları için hava delikli zımba. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. 440C paslanmaz çelikten üretilmiş, yüksek korozyon dayanımlı, gıda sanayiine uygun.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
-    "image": "/images/products/oval-hava-zimbasi.jpg",
+    "subcategoryId": "thermoform-vacuum",
+    "image": "/images/products/vakum-hava-zimba-bicaklari.jpg",
+    "seoKeywords": ["oval hava zımba", "oval air punch", "elips zımba", "hava zımbası", "vakum hava zımba", "termoform hava zımba", "multivac hava zımba", "opack hava zımba", "440C zımba", "paslanmaz zımba", "ellipse punch"],
     "variants": [
       {
         "id": "oval-hava-zimbasi-standard",
-        "sku": "OVAL",
+        "sku": "OVAL-HAVA",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "440C Paslanmaz Çelik",
+      "hardness": "HRC 58-60",
+      "shape": "Oval (Ellipse)",
+      "feature": "Hava Delikli",
+      "corrosionResistance": "Yüksek"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Oval geometri",
+      "Hava delikli tasarım",
+      "440C paslanmaz çelik",
+      "Yüksek korozyon dayanımı",
+      "Hassas zımbalama",
+      "Uzun ömürlü keskin kenar",
+      "Gıda sanayiine uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme havalandırma",
+      "Termoform ambalajlama",
+      "Gıda sanayii zımbalama",
+      "Hava delik açma",
+      "Endüstriyel paketleme"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -4132,31 +4224,40 @@
   },
   {
     "id": "dili",
-    "slug": "dili-bicaklar",
-    "code": "DİŞLİ",
-    "name": "DİŞLİ - BIÇAKLAR",
-    "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "slug": "disli-bicaklar-vakum-paketleme",
+    "code": "DİŞLİ BIÇAK",
+    "name": "DİŞLİ BIÇAKLAR - Vakum Paketleme Testere Dişli Bıçak",
+    "description": "Dişli (serrated) kesim bıçakları. Vakum paketleme ve termoform makinaları için testere dişli bıçak. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. Sheffield çeliğinden üretilmiş, sert malzemeler için ideal.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
+    "subcategoryId": "thermoform-vacuum",
     "image": "/images/products/dili-bicaklar.jpg",
+    "seoKeywords": ["dişli bıçak", "serrated blade", "testere dişli", "vakum paketleme dişli", "termoform dişli", "multivac dişli", "opack dişli", "tırtıklı bıçak"],
     "variants": [
       {
         "id": "dili-bicaklar-standard",
-        "sku": "DİŞLİ",
+        "sku": "DISLI-BICAK",
         "inStock": true
       }
     ],
     "specifications": {
       "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "hardness": "HRC 58-62",
+      "edge": "Testere Dişli (Serrated)"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Testere dişli kenar",
+      "Sheffield çelik kalitesi",
+      "Sert malzemeler için ideal",
+      "Kayma önleyici kesim",
+      "Uzun ömürlü keskin kenar",
+      "Gıda sanayiine uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vakum paketleme",
+      "Termoform ambalajlama",
+      "Sert film kesimi",
+      "Gıda sanayii",
+      "Endüstriyel paketleme"
     ],
     "isFeatured": false,
     "isActive": true,
