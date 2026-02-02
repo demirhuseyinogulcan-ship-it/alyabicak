@@ -164,6 +164,20 @@ export default async function SubcategoryPage({ params }: PageProps) {
                           {dict.common.outOfStock}
                         </div>
                       )}
+                      {/* Galeri göstergesi - birden fazla görsel varsa */}
+                      {product.images && product.images.length > 1 && (
+                        <div className="absolute bottom-2 right-2 flex gap-1">
+                          {product.images.slice(0, 4).map((_, idx) => (
+                            <span 
+                              key={idx} 
+                              className={`w-1.5 h-1.5 rounded-full ${idx === 0 ? 'bg-primary-500' : 'bg-white/70'}`}
+                            />
+                          ))}
+                          {product.images.length > 4 && (
+                            <span className="text-[10px] text-white/90 font-medium">+{product.images.length - 4}</span>
+                          )}
+                        </div>
+                      )}
                     </div>
 
                     {/* Content */}

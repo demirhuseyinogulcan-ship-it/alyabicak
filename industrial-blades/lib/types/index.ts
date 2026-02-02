@@ -64,6 +64,7 @@ export interface Product extends BaseEntity, DisplayInfo {
   variants: ProductVariant[];
   specifications: ProductSpecifications;
   
+  images?: string[];        // Ürün galeri görselleri (opsiyonel)
   features?: string[];      // Öne çıkan özellikler
   applications?: string[];  // Kullanım alanları
   certifications?: string[]; // ISO, FDA vb.
@@ -157,6 +158,7 @@ export interface ProductCardView {
   name: string;
   code: string;
   image?: string;
+  images?: string[];        // Ürün galeri görselleri (opsiyonel)
   categoryName: string;
   subcategoryName: string;
   brandName?: string;
