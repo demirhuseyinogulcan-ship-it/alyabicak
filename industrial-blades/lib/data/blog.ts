@@ -221,7 +221,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
   {
     id: 'endustriyel-bicak-secimi-rehberi',
     slug: 'endustriyel-bicak-secimi-rehberi',
-    coverImage: '/images/blog/endustriyel-bicak-secimi.webp',
+    coverImage: '/images/endustriyel-bicak-ureticisi-industrial-blade-manufacturer.jpg',
     author: DEFAULT_AUTHOR,
     category: BLOG_CATEGORIES[1], // Ürün Rehberleri
     tags: {

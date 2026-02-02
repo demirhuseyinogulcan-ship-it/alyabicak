@@ -57,18 +57,18 @@ export default function SiteProgress() {
 
   return (
     <div 
-      className="fixed bottom-4 left-4 z-40 opacity-60 hover:opacity-100 transition-opacity duration-300"
+      className="fixed bottom-4 left-4 z-40 opacity-70 hover:opacity-100 transition-opacity duration-300"
       title={t.title}
     >
-      <div className="flex flex-col items-start gap-1 bg-steel-900/90 backdrop-blur-sm px-3 py-2 rounded-lg shadow-lg">
+      <div className="flex flex-col items-start gap-1.5 bg-steel-900/95 backdrop-blur-sm px-4 py-2.5 rounded-lg shadow-lg border border-steel-700/50">
         {/* Label */}
-        <span className="text-[9px] font-medium text-steel-400 uppercase tracking-wider">
+        <span className="text-[10px] font-semibold text-steel-300 uppercase tracking-wider">
           {t.label}
         </span>
         
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2.5">
           {/* Progress Bar */}
-          <div className="w-16 h-1.5 bg-steel-700 rounded-full overflow-hidden">
+          <div className="w-28 h-2 bg-steel-700 rounded-full overflow-hidden">
             <div 
               className="h-full bg-primary-500 rounded-full transition-all duration-1000 ease-out"
               style={{ width: `${progress}%` }}
@@ -76,7 +76,7 @@ export default function SiteProgress() {
           </div>
           
           {/* Percentage Text */}
-          <span className="text-[10px] font-medium text-steel-300 tabular-nums">
+          <span className="text-xs font-semibold text-steel-200 tabular-nums">
             %{progress}
           </span>
         </div>

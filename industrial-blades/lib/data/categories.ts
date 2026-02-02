@@ -19,7 +19,7 @@ export const SUBCATEGORIES: Record<string, SubCategory> = {
     slug: '3-hole-slitting-blades',
     name: '3 Delikli Dilme Jiletleri',
     description: 'Endüstri standardı 3 delikli jiletler',
-    image: '/images/products/industrial-blades/3-hole-slitting.jpg',
+    image: '/images/3-delikli-jilet-3-hole-industrial-blade.jpg',
     parentId: 'industrial-blades',
     order: 1,
     isActive: true,
@@ -454,7 +454,7 @@ export const CATEGORIES: Record<string, Category> = {
     slug: 'industrial-blades',
     name: 'Sanayi Jiletleri',
     description: 'Endüstriyel kullanım için profesyonel sanayi jiletleri ve kesici aletler',
-    image: '/images/categories/sanayi-jiletleri.jpg',
+    image: '/images/3-delikli-jilet-3-hole-industrial-blade.jpg',
     subcategoryIds: [
       '3-hole-slitting',
       'slotted-slitting',

@@ -111,10 +111,15 @@ export function generateOrganizationSchema(locale?: Locale) {
     url: domainUrl,
     logo: {
       '@type': 'ImageObject',
-      url: `${domainUrl}/images/logo 512.png`,
+      url: `${domainUrl}/images/logo-512.png`,
       width: 512,
       height: 512,
     },
+    // Ana sayfa görseli - Google Rich Results için
+    image: [
+      `${domainUrl}/images/endustriyel-bicak-ureticisi-industrial-blade-manufacturer.jpg`,
+      `${domainUrl}/images/logo-512.png`,
+    ],
     description: siteConfig.description,
     address: {
       '@type': 'PostalAddress',
@@ -155,7 +160,10 @@ export function generateLocalBusinessSchema(locale?: Locale) {
     '@type': 'LocalBusiness',
     '@id': `${domainUrl}/#localbusiness`,
     name: siteConfig.company.legalName,
-    image: `${domainUrl}/images/logo 512.png`,
+    image: [
+      `${domainUrl}/images/endustriyel-bicak-ureticisi-industrial-blade-manufacturer.jpg`,
+      `${domainUrl}/images/logo-512.png`,
+    ],
     telephone: siteConfig.contact.phoneRaw,
     email: siteConfig.contact.email,
     url: domainUrl,
