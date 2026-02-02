@@ -301,6 +301,7 @@ const scrapedProducts: Product[] = (scrapedProductsData as ScrapedProduct[]).map
   categoryId: p.categoryId,
   subcategoryId: p.subcategoryId || undefined,
   image: p.image,
+  images: (p as { images?: string[] }).images,  // Galeri görselleri
   variants: p.variants,
   specifications: p.specifications,
   features: p.features,
