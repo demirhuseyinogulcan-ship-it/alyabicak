@@ -83,6 +83,7 @@ export interface SubCategory extends BaseEntity, DisplayInfo {
   icon?: string;            // Lucide icon name
   order: number;
   isActive: boolean;
+  seoKeywords?: string[];   // SEO anahtar kelimeleri (opsiyonel)
 }
 
 /** Ana kategori */
