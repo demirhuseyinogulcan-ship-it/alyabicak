@@ -121,7 +121,7 @@ export const subcategoriesEn: SubcategoryTranslations = {
   },
   'thermoform-vacuum': {
     name: 'Vacuum Packaging Blades',
-    description: 'Professional blades for thermoform and vacuum packaging machines. Compatible with Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac machines. Star, triangle, punch and lama blades.',
+    description: 'Professional blades for thermoform and vacuum packaging machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac machines. Star punches, triangle blades, air hole punches and lama blades.',
   },
   'circular-slitting': {
     name: 'Circular Slitting Knives',

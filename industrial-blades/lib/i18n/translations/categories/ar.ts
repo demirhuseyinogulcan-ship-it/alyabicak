@@ -121,7 +121,7 @@ export const subcategoriesAr: SubcategoryTranslations = {
   },
   'thermoform-vacuum': {
     name: 'شفرات التغليف الفراغي',
-    description: 'شفرات احترافية لآلات التغليف الحراري والفراغي. متوافقة مع Multivac، Opack، Betapak، GEA، Alcan، Ulma، Variovac. شفرات نجمة ومثلث ودبابيس ولاما.',
+    description: 'شفرات احترافية لآلات التغليف الحراري والفراغي. متوافقة مع Multivac، Tiromat، Opack، Betapak، GEA، Alcan، Ulma، Variovac. شفرات نجمة ومثلث ودبابيس ولاما.',
   },
   'circular-slitting': {
     name: 'سكاكين التقطيع الدائري',

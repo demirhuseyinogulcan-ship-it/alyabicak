@@ -119,7 +119,7 @@ export const subcategoriesTr = {
   },
   'thermoform-vacuum': {
     name: 'Vakum Paketleme Bıçakları',
-    description: 'Termoform ve vakum paketleme makinaları için profesyonel bıçaklar. Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu yıldız, üçgen, zımba ve lama bıçaklar.',
+    description: 'Termoform ve vakum paketleme makinaları için profesyonel bıçaklar. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu yıldız, üçgen, zımba ve lama bıçaklar.',
   },
   'circular-slitting': {
     name: 'Dairesel Dilme Bıçakları',

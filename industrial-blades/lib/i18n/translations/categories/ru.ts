@@ -118,7 +118,7 @@ export const subcategoriesRu: SubcategoryTranslations = {
   },
   'thermoform-vacuum': {
     name: 'Лезвия для вакуумной упаковки',
-    description: 'Профессиональные лезвия для термоформовочных и вакуумных упаковочных машин. Совместимо с Multivac, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Звездочные, треугольные, пробойные и лама-лезвия.',
+    description: 'Профессиональные лезвия для термоформовочных и вакуумных упаковочных машин. Совместимо с Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Звездочные, треугольные, пробойные и лама-лезвия.',
   },
   'circular-slitting': {
     name: 'Круглые ножи для продольной резки',
