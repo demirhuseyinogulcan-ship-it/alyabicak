@@ -167,6 +167,7 @@ const ar = {
     title: 'المدونة',
     subtitle: 'آخر الأخبار والأدلة والمقالات التقنية حول أدوات القطع الصناعية',
     readMore: 'اقرأ المزيد',
+    viewAll: 'عرض جميع المقالات',
     readTime: 'دقائق للقراءة',
     author: {
       name: 'آليا بليد',
@@ -606,6 +607,7 @@ const ar = {
     title: 'توزيع استخدام الصلب حسب القطاع',
     yAxis: 'مليون طن',
     tooltipTotal: 'المجموع',
+    yearDistribution: 'توزيع السنة',
     legend: {
       metalUrunleri: 'المنتجات المعدنية',
       otomotiv: 'السيارات',

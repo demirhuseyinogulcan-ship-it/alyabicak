@@ -53,7 +53,7 @@ export default function SectionHeader({
       )}
       
       {subtitle && (
-        <p className={`text-primary-600 font-medium mb-2 ${subtitleSizes[size]}`}>
+        <p className={`text-primary-600 font-medium mb-2 line-clamp-2 ${subtitleSizes[size]}`}>
           {subtitle}
         </p>
       )}

@@ -167,6 +167,7 @@ const ru = {
     title: 'Блог',
     subtitle: 'Последние новости, руководства и технические статьи о промышленных резаках',
     readMore: 'Читать Далее',
+    viewAll: 'Смотреть Все Статьи',
     readTime: 'мин чтения',
     author: {
       name: 'Alya Blade',
@@ -606,6 +607,7 @@ const ru = {
     title: 'Распределение использования стали по секторам',
     yAxis: 'Миллион тонн',
     tooltipTotal: 'Всего',
+    yearDistribution: 'Распределение года',
     legend: {
       metalUrunleri: 'Металлические изделия',
       otomotiv: 'Автомобилестроение',

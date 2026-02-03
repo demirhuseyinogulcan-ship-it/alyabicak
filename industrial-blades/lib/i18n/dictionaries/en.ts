@@ -166,6 +166,7 @@ const en = {
     title: 'Blog',
     subtitle: 'Latest news, guides, and technical articles about industrial cutters',
     readMore: 'Read More',
+    viewAll: 'View All Posts',
     readTime: 'min read',
     author: {
       name: 'Alya Blade',
@@ -605,6 +606,7 @@ const en = {
     title: 'Sectoral Steel Usage Distribution',
     yAxis: 'Million Tons',
     tooltipTotal: 'Total',
+    yearDistribution: 'Year Distribution',
     legend: {
       metalUrunleri: 'Metal Products',
       otomotiv: 'Automotive',

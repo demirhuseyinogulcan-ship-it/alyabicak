@@ -4,6 +4,7 @@
  */
 
 import { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, Award, Shield, Globe, Factory } from 'lucide-react'
 import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
@@ -199,9 +200,11 @@ export default async function KaliteStandartlariPage({ params }: PageProps) {
           <div className="max-w-4xl mx-auto text-center">
             {/* Made in Sheffield Logo */}
             <div className="inline-block mb-8">
-              <img 
+              <Image 
                 src="/images/made-in-sheffield-logo.png" 
                 alt="Made in Sheffield" 
+                width={200}
+                height={128}
                 className="h-24 md:h-32 w-auto mx-auto"
               />
             </div>

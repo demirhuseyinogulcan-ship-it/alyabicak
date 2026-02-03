@@ -38,7 +38,18 @@ export default async function HomePage({ params }: HomePageProps) {
       <SheffieldSection />
       
       {/* Blog/Bülten - Sadece aktifse göster */}
-      {siteConfig.features.enableBlog && <BlogSection />}
+      {siteConfig.features.enableBlog && (
+        <BlogSection 
+          locale={locale}
+          translations={{
+            title: dict.blog.title,
+            subtitle: dict.blog.subtitle,
+            readMore: dict.blog.readMore,
+            viewAll: dict.blog.viewAll,
+            readTime: dict.blog.readTime,
+          }}
+        />
+      )}
       
       {/* Danışmanlık */}
       <ConsultingSection />

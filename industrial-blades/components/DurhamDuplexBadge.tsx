@@ -17,9 +17,11 @@ export default function DurhamDuplexBadge() {
           <div>
             {/* Durham Duplex Logo */}
             <div className="mb-8">
-              <img 
+              <Image 
                 src="/images/brand/durham-duplex-logo.png" 
                 alt="Durham Duplex Logo" 
+                width={200}
+                height={80}
                 className="h-20 w-auto object-contain"
               />
             </div>

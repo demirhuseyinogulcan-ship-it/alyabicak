@@ -9,8 +9,28 @@ import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
 import { SectionHeader } from '@/components/ui'
 
-export default function BlogSection() {
+interface BlogSectionProps {
+  locale?: string
+  translations?: {
+    title: string
+    subtitle: string
+    readMore: string
+    viewAll: string
+    readTime: string
+  }
+}
+
+export default function BlogSection({ locale = 'tr', translations }: BlogSectionProps) {
   const posts = blogService.getRecentPosts(3)
+
+  // Fallback translations
+  const t = translations || {
+    title: 'Bülten',
+    subtitle: 'Endüstriyel kesiciler hakkında güncel haberler, rehberler ve teknik yazılar',
+    readMore: 'Devamını Oku',
+    viewAll: 'Tüm Bültenleri Gör',
+    readTime: 'dk okuma'
+  }
 
   // Henüz yazı yoksa gösterme
   if (posts.length === 0) return null
@@ -19,8 +39,8 @@ export default function BlogSection() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <SectionHeader
-          title="Bülten"
-          subtitle="Endüstriyel kesiciler hakkında güncel haberler, rehberler ve teknik yazılar"
+          title={t.title}
+          subtitle={t.subtitle}
           align="center"
         />
 
@@ -31,7 +51,7 @@ export default function BlogSection() {
               className="group bg-steel-50 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300"
             >
               {/* Cover Image */}
-              <Link href={`/newsletter/${post.slug}`} className="block relative h-48 overflow-hidden">
+              <Link href={`/${locale}/newsletter/${post.slug}`} className="block relative h-48 overflow-hidden">
                 <Image
                   src={post.coverImage}
                   alt={post.title}
@@ -50,7 +70,7 @@ export default function BlogSection() {
                 <div className="flex items-center gap-4 text-sm text-steel-500 mb-3">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
-                    {new Date(post.publishedAt).toLocaleDateString('tr-TR', {
+                    {new Date(post.publishedAt).toLocaleDateString(locale === 'ar' ? 'ar-SA' : locale === 'ru' ? 'ru-RU' : locale === 'en' ? 'en-GB' : 'tr-TR', {
                       day: 'numeric',
                       month: 'long',
                       year: 'numeric',
@@ -58,13 +78,13 @@ export default function BlogSection() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-4 h-4" />
-                    {post.readingTime} dk okuma
+                    {post.readingTime} {t.readTime}
                   </span>
                 </div>
 
                 {/* Title */}
                 <h3 className="text-lg font-semibold text-steel-900 mb-2 group-hover:text-primary-600 transition-colors line-clamp-2">
-                  <Link href={`/newsletter/${post.slug}`}>
+                  <Link href={`/${locale}/newsletter/${post.slug}`}>
                     {post.title}
                   </Link>
                 </h3>
@@ -76,10 +96,10 @@ export default function BlogSection() {
 
                 {/* Read More */}
                 <Link
-                  href={`/newsletter/${post.slug}`}
+                  href={`/${locale}/newsletter/${post.slug}`}
                   className="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm transition-colors"
                 >
-                  Devamını Oku
+                  {t.readMore}
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
@@ -90,10 +110,10 @@ export default function BlogSection() {
         {/* View All Button */}
         <div className="text-center mt-12">
           <Link
-            href="/newsletter"
+            href={`/${locale}/newsletter`}
             className="inline-flex items-center gap-2 px-6 py-3 bg-steel-900 hover:bg-steel-800 text-white font-medium rounded-lg transition-colors"
           >
-            Tüm Bültenleri Gör
+            {t.viewAll}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

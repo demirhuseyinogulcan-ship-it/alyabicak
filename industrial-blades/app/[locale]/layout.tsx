@@ -27,10 +27,20 @@ import {
   type SupportedLocale
 } from '@/lib/config/domains';
 
+import { Noto_Sans_Arabic } from 'next/font/google';
+
 const montserrat = Montserrat({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext', 'cyrillic'],
   variable: '--font-montserrat',
   display: 'swap',
+});
+
+// Arapça için özel font - Montserrat ile uyumlu ağırlıklar
+const notoArabic = Noto_Sans_Arabic({
+  subsets: ['arabic'],
+  variable: '--font-arabic',
+  display: 'swap',
+  weight: ['400', '500', '600', '700'],
 });
 
 export async function generateStaticParams() {
@@ -166,7 +176,7 @@ export default async function LocaleLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <body className={`${montserrat.variable} font-sans antialiased bg-white text-steel-900`}>
+      <body className={`${montserrat.variable} ${locale === 'ar' ? notoArabic.variable : ''} font-sans antialiased bg-white text-steel-900`}>
         <LocaleProvider locale={locale} dictionary={dict}>
           <SkipLink href="#main-content" />
           <Header />

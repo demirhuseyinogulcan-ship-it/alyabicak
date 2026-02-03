@@ -140,6 +140,7 @@ interface SteelUsageChartProps {
         title: string
         yAxis: string
         tooltipTotal: string
+        yearDistribution: string
         legend: {
             [key: string]: string
         }
@@ -152,6 +153,7 @@ export default function SteelUsageChart({ translations }: SteelUsageChartProps) 
         title: 'Sektörel Çelik Kullanım Dağılımı (Veri Yükleniyor...)',
         yAxis: 'Milyon Ton',
         tooltipTotal: 'Toplam',
+        yearDistribution: 'Yılı Dağılımı',
         legend: {
             metalUrunleri: 'Metal Ürünleri',
             otomotiv: 'Otomotiv',
@@ -165,15 +167,15 @@ export default function SteelUsageChart({ translations }: SteelUsageChartProps) 
         }
     }
 
-    const CustomTooltip = ({ active, payload, label }: any) => {
+    const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: Array<{ name: string; value: number; color: string }>; label?: string }) => {
         if (active && payload && payload.length) {
-            const total = payload.reduce((acc: number, curr: any) => acc + curr.value, 0)
+            const total = payload.reduce((acc: number, curr: { value: number }) => acc + curr.value, 0)
 
             return (
                 <div className="bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-xl border border-slate-100 text-sm z-50">
-                    <p className="font-bold text-slate-900 mb-2 border-b border-slate-100 pb-1">{label} Yılı Dağılımı</p>
+                    <p className="font-bold text-slate-900 mb-2 border-b border-slate-100 pb-1">{label} {safeTranslations.yearDistribution}</p>
                     <div className="space-y-1">
-                        {payload.map((entry: any, index: number) => (
+                        {payload.map((entry: { name: string; value: number; color: string }, index: number) => (
                             <div key={index} className="flex items-center gap-2">
                                 <div
                                     className="w-2 h-2 rounded-full"

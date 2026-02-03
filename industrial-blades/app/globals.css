@@ -4,6 +4,12 @@
 
 :root {
   --font-montserrat: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --font-arabic: 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Arapça için özel font */
+[dir="rtl"] body {
+  font-family: var(--font-arabic), var(--font-montserrat), system-ui, sans-serif;
 }
 
 * {

@@ -166,6 +166,7 @@ const tr = {
     title: 'Bülten',
     subtitle: 'Endüstriyel kesiciler hakkında güncel haberler, rehberler ve teknik yazılar',
     readMore: 'Devamını Oku',
+    viewAll: 'Tüm Bültenleri Gör',
     readTime: 'dk okuma',
     author: {
       name: 'Alya Bıçak',
@@ -605,6 +606,7 @@ const tr = {
     title: 'Sektörel Çelik Kullanım Dağılımı',
     yAxis: 'Milyon Ton',
     tooltipTotal: 'Toplam',
+    yearDistribution: 'Yılı Dağılımı',
     legend: {
       metalUrunleri: 'Metal Ürünleri',
       otomotiv: 'Otomotiv',
