@@ -86,7 +86,7 @@ export default async function BlogPage({ params }: PageProps) {
                     <span className="inline-block px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-full mb-3 w-fit">
                       {dict.blog.categories[post.category.dictionaryKey]}
                     </span>
-                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-300 transition-colors">
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary-300 transition-colors line-clamp-2">
                       <Link href={`/${locale}/newsletter/${post.slug}`}>
                         {post.title}
                       </Link>
