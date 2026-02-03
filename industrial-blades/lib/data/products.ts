@@ -101,47 +101,7 @@ const MANUAL_PRODUCTS: Product[] = [
     order: 3,
   },
 
-  // --- SANAYİ JİLETLERİ ---
-  {
-    id: '3-delikli-jilet-020',
-    slug: '3-delikli-dilme-jileti-020mm',
-    code: '3DJ-020',
-    name: '3 Delikli Dilme Jileti 0.20mm',
-    description: '3 delikli titanyum kaplamalı dilme jileti, 0.20mm kalınlık. Endüstriyel dilme makineleri için yüksek performanslı kesim.',
-    categoryId: 'industrial-blades',
-    subcategoryId: '3-hole-slitting',
-    image: '/images/products/3-delikli-jilet.jpg',
-    variants: [
-      {
-        id: '3dj-020-standard',
-        sku: '3DJ-020',
-        thickness: '0.20mm',
-        inStock: true,
-      },
-      {
-        id: '3dj-025-standard',
-        sku: '3DJ-025',
-        thickness: '0.25mm',
-        inStock: true,
-      },
-      {
-        id: '3dj-030-standard',
-        sku: '3DJ-030',
-        thickness: '0.30mm',
-        inStock: true,
-      },
-    ],
-    specifications: {
-      material: 'Sheffield Çelik - Titanyum Kaplama',
-      hardness: 'HRC 60-62',
-      dimensions: 'Standart 3 delikli',
-    },
-    features: ['Titanyum kaplama', 'Yüksek keskinlik', 'Uzun ömür', '3 delikli montaj'],
-    applications: ['Tekstil kesimi', 'Kağıt kesimi', 'Film kesimi', 'Plastik kesimi'],
-    isFeatured: true,
-    isActive: true,
-    order: 1,
-  },
+  // --- SLOTTED JİLETLER ---
   {
     id: 'slotted-jilet-020',
     slug: 'slotted-dilme-jileti-020mm',

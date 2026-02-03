@@ -1062,8 +1062,8 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   '3dj-karbon-seramik': {
     name: '3-Hole Slitting Blade - Carbon Steel + Ceramic Coating',
-    description: 'High carbon steel body with ceramic-based coating. TiAlN (Titanium Aluminum Nitride) or similar advanced ceramic coatings, dark gray/black in color, offer higher temperature resistance than TiN coating (up to 800°C). Heat generated during high-speed cutting operations does not degrade coating performance. Friction coefficient is lower than TiN (50-60% reduction), providing advantage for cutting friction-sensitive materials. Superior oxidation resistance.',
-    features: ['Ceramic-based coating (3200+ HV)', '800°C temperature resistance', '50-60% friction reduction', 'High-speed compatible', 'Oxidation resistance', 'Superior to TiN performance'],
+    description: 'High carbon steel body with advanced ceramic coating. Titanium-based advanced ceramic coatings, dark gray/black in color, offer higher temperature resistance than standard titanium coating (up to 800°C). Heat generated during high-speed cutting operations does not degrade coating performance. Friction coefficient is significantly lower (50-60% reduction), providing advantage for cutting friction-sensitive materials. Superior oxidation resistance.',
+    features: ['Advanced ceramic coating (3200+ HV)', '800°C temperature resistance', '50-60% friction reduction', 'High-speed compatible', 'Oxidation resistance', 'Superior performance'],
     applications: ['High-speed slitting', 'Heat-sensitive materials', 'Friction-critical applications', 'Extended cutting operations', 'Abrasive material cutting'],
   },
   '3dj-yekpare-tungsten': {

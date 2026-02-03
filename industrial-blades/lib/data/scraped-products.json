@@ -5390,7 +5390,7 @@
       "Plastik dilme",
       "Ambalaj kesimi"
     ],
-    "seoKeywords": ["3 delikli jilet", "karbon çelik jilet", "sanayi jileti", "dilme jileti", "endüstriyel jilet", "yüksek karbonlu jilet", "43x22 jilet", "tekstil jileti"],
+    "seoKeywords": ["3 delikli jilet", "3 delikli dilme jileti", "karbon çelik jilet", "sanayi jileti", "endüstriyel jilet", "dilme jileti", "slitting blade", "three hole blade", "43x22 jilet", "43x22mm jilet", "tekstil jileti", "film kesim jileti", "kağıt kesim jileti", "ambalaj jileti", "yüksek karbonlu jilet", "SK5 jilet", "sanayi tipi jilet", "profesyonel jilet", "uzun ömürlü jilet", "keskin jilet", "dilme makinesi jileti", "slitter blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 264
@@ -5435,7 +5435,7 @@
       "Etiket kesimi",
       "Koruyucu film dilme"
     ],
-    "seoKeywords": ["titanyum kaplamalı jilet", "TiN jilet", "3 delikli titanyum", "altın jilet", "yapışkan bant jileti", "PVD kaplama jilet"],
+    "seoKeywords": ["titanyum kaplamalı jilet", "titanyum jilet", "TiN jilet", "TiN kaplamalı jilet", "3 delikli titanyum jilet", "altın jilet", "altın kaplamalı jilet", "gold coated blade", "titanium coated blade", "yapışkan bant jileti", "yapışkan kesim jileti", "bant kesme jileti", "laminasyon jileti", "PVD kaplama jilet", "düşük sürtünmeli jilet", "ısıya dayanıklı jilet", "film dilme jileti", "etiket kesim jileti", "koruyucu film jileti", "43x22 titanyum"],
     "isFeatured": true,
     "isActive": true,
     "order": 265
@@ -5448,8 +5448,8 @@
     "description": "Paslanmaz çelik ana gövde üzerine TiN (Titanyum Nitrür) kaplama. Paslanmaz çeliğin tercih edilme nedeni, krom oksit tabakasının titanyum nitrür kaplamanın yapışmasını güçlendirmesidir. Bu metalurjik uyum sayesinde kaplama ayrılması riski minimuma iner ve jilet ömrü boyunca yüksek performans korunur. Karbon çeliğe kıyasla kaplama tutunumu %25-30 daha güçlüdür. Nemli ortamlarda, gıda sektöründe ve korozif malzemelerle çalışırken paslanmaz alt yapının korozyon direnci ek güvenlik sağlar.",
     "categoryId": "industrial-blades",
     "subcategoryId": "3-hole-slitting",
-    "image": "/images/products/3-delikli-paslanmaz-titanyum.jpg",
-    "images": [],
+    "image": "/images/products/3-delikli-jilet.jpg",
+    "images": ["/images/products/3-delikli-jilet.jpg"],
     "variants": [
       {
         "id": "3dj-ss-tin-standard",
@@ -5480,7 +5480,7 @@
       "Laminasyon kesimi",
       "Film dilme"
     ],
-    "seoKeywords": ["paslanmaz jilet titanyum", "gıda jileti", "hijyenik jilet", "korozyon dirençli jilet", "paslanmaz TiN jilet"],
+    "seoKeywords": ["paslanmaz jilet", "paslanmaz çelik jilet", "paslanmaz titanyum jilet", "stainless steel blade", "inox jilet", "gıda jileti", "gıda sektörü jileti", "hijyenik jilet", "food grade blade", "korozyon dirençli jilet", "nemli ortam jileti", "paslanmaz TiN jilet", "420HC jilet", "paslanmaz dilme jileti", "gıda ambalaj jileti", "hijyen jileti", "nem dirençli jilet", "3 delikli paslanmaz"],
     "isFeatured": true,
     "isActive": true,
     "order": 266
@@ -5523,7 +5523,7 @@
       "Çoklu istasyon sistemleri",
       "Ambalaj makineleri"
     ],
-    "seoKeywords": ["çizikli jilet", "bölünebilir jilet", "yarım jilet", "ortadan kırılabilir jilet", "tekstil jileti"],
+    "seoKeywords": ["çizikli jilet", "bölünebilir jilet", "yarım jilet", "ortadan kırılabilir jilet", "scored blade", "snap blade", "breakable blade", "half blade", "tekstil jileti", "ambalaj jileti", "çift kullanımlı jilet", "ekonomik jilet", "ikiye bölünebilir jilet", "lazer çizikli jilet", "yarım boy jilet", "21.5mm jilet", "dar kesim jileti"],
     "isFeatured": false,
     "isActive": true,
     "order": 267
@@ -5533,7 +5533,7 @@
     "slug": "3-delikli-dilme-jileti-karbon-celik-seramik-kaplama",
     "code": "3DJ-KC-CER",
     "name": "3-Delikli Dilme Jileti - Karbon Çelik + Seramik Kaplama",
-    "description": "Yüksek karbonlu çelik ana gövde üzerine seramik bazlı kaplama. TiAlN (Titanyum Alüminyum Nitrür) veya benzeri ileri seramik kaplamalar, koyu gri/siyah renkte olup TiN kaplamaya göre daha yüksek sıcaklık direncine sahiptir (800°C'ye kadar). Yüksek hızlı kesim operasyonlarında oluşan ısı, kaplamanın performansını düşürmez. Sürtünme katsayısı TiN'den daha düşüktür (%50-60 azalma), bu da özellikle sürtünmeye duyarlı malzemelerin kesilmesinde avantaj sağlar. Oksidasyona karşı üstün direnç sunar.",
+    "description": "Yüksek karbonlu çelik ana gövde üzerine ileri teknoloji seramik kaplama. Titanyum bazlı ileri seramik kaplamalar, koyu gri/siyah renkte olup standart titanyum kaplamaya göre daha yüksek sıcaklık direncine sahiptir (800°C'ye kadar). Yüksek hızlı kesim operasyonlarında oluşan ısı, kaplamanın performansını düşürmez. Sürtünme katsayısı standart kaplamalara göre çok daha düşüktür (%50-60 azalma), bu da özellikle sürtünmeye duyarlı malzemelerin kesilmesinde avantaj sağlar. Oksidasyona karşı üstün direnç sunar.",
     "categoryId": "industrial-blades",
     "subcategoryId": "3-hole-slitting",
     "image": "/images/products/3-delikli-karbon-seramik.jpg",
@@ -5548,7 +5548,7 @@
     "specifications": {
       "material": "Yüksek Karbonlu Çelik + Seramik Kaplama",
       "hardness": "Ana gövde: HRC 59-61 | Kaplama: 3200+ HV",
-      "coating": "TiAlN (Titanyum Alüminyum Nitrür) / Seramik Bazlı",
+      "coating": "İleri Seramik Kaplama (Titanyum Bazlı)",
       "coatingColor": "Koyu Gri / Siyah",
       "maxTemperature": "800°C",
       "frictionReduction": "%50-60"
@@ -5568,7 +5568,7 @@
       "Uzun süreli kesim operasyonları",
       "Aşındırıcı malzeme kesimi"
     ],
-    "seoKeywords": ["seramik kaplamalı jilet", "TiAlN jilet", "yüksek sıcaklık jileti", "siyah kaplamalı jilet", "endüstriyel seramik jilet"],
+    "seoKeywords": ["seramik kaplamalı jilet", "seramik jilet", "ceramic coated blade", "siyah jilet", "siyah kaplamalı jilet", "yüksek sıcaklık jileti", "ısıya dayanıklı jilet", "heat resistant blade", "düşük sürtünmeli jilet", "low friction blade", "yüksek hızlı kesim jileti", "aşınma dirençli jilet", "endüstriyel seramik jilet", "premium jilet", "uzun ömürlü kaplama", "3200 HV jilet", "ileri kaplama jileti"],
     "isFeatured": true,
     "isActive": true,
     "order": 268
@@ -5613,7 +5613,7 @@
       "Zımpara kağıdı kesimi",
       "Seramik kaplı malzemeler"
     ],
-    "seoKeywords": ["tungsten jilet", "karbür jilet", "yekpare tungsten", "WC jilet", "aşındırıcı kesim jileti", "cam elyaf jileti"],
+    "seoKeywords": ["tungsten jilet", "tungsten karbür jilet", "karbür jilet", "carbide blade", "tungsten carbide blade", "WC jilet", "yekpare tungsten", "solid carbide blade", "aşındırıcı kesim jileti", "cam elyaf jileti", "fiberglass blade", "karbon fiber jileti", "carbon fiber blade", "zımpara kesim jileti", "abrasive cutting blade", "HRA 90 jilet", "ultra sert jilet", "en sert jilet", "10x uzun ömür", "premium tungsten"],
     "isFeatured": true,
     "isActive": true,
     "order": 269
@@ -5658,7 +5658,7 @@
       "Temiz oda uygulamaları",
       "Elektronik bileşen kesimi"
     ],
-    "seoKeywords": ["seramik jilet", "zirkonyum jilet", "yekpare seramik", "ısıya duyarlı kesim", "gıda jileti", "metal dedektör uyumlu jilet"],
+    "seoKeywords": ["seramik jilet", "yekpare seramik jilet", "zirkonyum jilet", "zirconia blade", "ceramic blade", "solid ceramic blade", "gri seramik jilet", "ısıya duyarlı kesim jileti", "sıfır sürtünme jileti", "zero friction blade", "gıda jileti", "food safe blade", "metal dedektör uyumlu jilet", "metal detector compatible", "temiz oda jileti", "cleanroom blade", "kimyasal inert jilet", "non-metallic blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 270
@@ -5700,7 +5700,7 @@
       "Film dilme",
       "Genel amaçlı dilme"
     ],
-    "seoKeywords": ["yuvarlak kenarlı jilet", "traş jileti alternatifi", "sanayi jileti yuvarlak", "ergonomik jilet"],
+    "seoKeywords": ["yuvarlak kenarlı jilet", "yuvarlak kenar jilet", "round edge blade", "traş jileti alternatifi", "traş jileti yerine", "sanayi jileti yuvarlak", "ergonomik jilet", "geçiş jileti", "başlangıç jileti", "kolay kullanım jileti", "alışkanlık jileti", "razor style blade", "tanıdık form jilet"],
     "isFeatured": false,
     "isActive": true,
     "order": 271
@@ -5742,7 +5742,7 @@
       "Yapışkan malzeme kesimi",
       "Ergonomi öncelikli işletmeler"
     ],
-    "seoKeywords": ["yuvarlak titanyum jilet", "paslanmaz yuvarlak jilet", "ergonomik TiN jilet"],
+    "seoKeywords": ["yuvarlak titanyum jilet", "paslanmaz yuvarlak jilet", "yuvarlak kenar titanyum", "round edge titanium blade", "ergonomik TiN jilet", "paslanmaz ergonomik jilet", "premium yuvarlak jilet", "geçiş kullanıcı jileti", "gıda sektörü yuvarlak jilet", "nemli ortam yuvarlak"],
     "isFeatured": false,
     "isActive": true,
     "order": 272
@@ -5768,7 +5768,7 @@
       "material": "Yüksek Karbonlu Çelik + Seramik Kaplama",
       "hardness": "Ana gövde: HRC 59-61 | Kaplama: 3200+ HV",
       "edgeProfile": "Yuvarlak Kenar",
-      "coating": "TiAlN / Seramik Bazlı",
+      "coating": "İleri Seramik Kaplama (Titanyum Bazlı)",
       "maxTemperature": "800°C"
     },
     "features": [
@@ -5784,7 +5784,7 @@
       "Isıya duyarlı malzemeler",
       "Geçiş kullanıcıları premium segment"
     ],
-    "seoKeywords": ["seramik yuvarlak jilet", "ergonomik seramik jilet", "yüksek sıcaklık yuvarlak jilet"],
+    "seoKeywords": ["seramik yuvarlak jilet", "yuvarlak seramik jilet", "ergonomik seramik jilet", "round edge ceramic blade", "yüksek sıcaklık yuvarlak jilet", "ısıya dayanıklı yuvarlak", "premium ergonomik jilet", "geçiş seramik jilet", "siyah yuvarlak jilet"],
     "isFeatured": false,
     "isActive": true,
     "order": 273
@@ -5827,7 +5827,7 @@
       "Yüksek kapasiteli dilme makineleri",
       "Endüstriyel ölçekli üretim"
     ],
-    "seoKeywords": ["60x22 jilet", "geniş format jilet", "büyük boy jilet", "yüksek kapasite jileti", "60mm titanyum jilet"],
+    "seoKeywords": ["60x22 jilet", "60x22mm jilet", "60mm jilet", "geniş jilet", "geniş format jilet", "large format blade", "büyük boy jilet", "large blade", "yüksek kapasite jileti", "high capacity blade", "60mm titanyum jilet", "geniş bobin jileti", "wide web blade", "endüstriyel geniş jilet", "çoklu bant jileti", "multi-lane blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 274
@@ -5871,7 +5871,7 @@
       "Ekonomik kullanım gerektiren işletmeler",
       "Esnek üretim hatları"
     ],
-    "seoKeywords": ["60x22 çizikli jilet", "bölünebilir geniş jilet", "30mm yarım jilet", "esnek kullanım jileti"],
+    "seoKeywords": ["60x22 çizikli jilet", "60mm çizikli jilet", "60mm bölünebilir jilet", "geniş bölünebilir jilet", "large scored blade", "30mm yarım jilet", "30mm jilet", "esnek kullanım jileti", "ekonomik geniş jilet", "çoklu makine jileti", "versatile blade", "2'ye bölünebilir 60mm"],
     "isFeatured": false,
     "isActive": true,
     "order": 275
