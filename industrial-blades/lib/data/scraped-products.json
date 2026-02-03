@@ -5350,5 +5350,530 @@
     "isFeatured": false,
     "isActive": true,
     "order": 263
+  },
+  {
+    "id": "3dj-karbon-celik",
+    "slug": "3-delikli-dilme-jileti-karbon-celik",
+    "code": "3DJ-KC",
+    "name": "3-Delikli Dilme Jileti - Karbon Çelik",
+    "description": "Yüksek karbonlu sanayi tipi dilme jileti. Piyasadaki traş jiletlerinden farklı olarak, yüksek karbon oranına (%0.85-1.00 C) sahip özel çelik alaşımından üretilmiştir. Kontrollü atmosfer fırınlarında gerçekleştirilen ısıl işlem (östenitleme + su verme + temperleme) sayesinde homojen martensitik mikro yapı elde edilir. Bu işlem, kesici kenarın hem sert hem de tok olmasını sağlayarak erken körelmeyı ve çatlamayı önler. Piyasadaki jiletlerin çabuk körelmesinin nedeni düzgün bilenmemiş açı ve yetersiz ısıl işlemdir; bizim jiletlerimiz optimum 22° bileme açısıyla hassas taşlanır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-karbon-celik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-kc-standard",
+        "sku": "3DJ-KC",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik (SK5 / C85)",
+      "hardness": "HRC 59-61",
+      "carbonContent": "%0.85-1.00",
+      "edgeAngle": "22°",
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
+    },
+    "features": [
+      "Yüksek karbon oranı (%0.85-1.00)",
+      "Martensitik mikro yapı",
+      "Optimum 22° bileme açısı",
+      "Hassas ısıl işlem prosesi",
+      "Sanayi tipi dayanıklılık",
+      "Traş jiletlerinden 3-5 kat uzun ömür"
+    ],
+    "applications": [
+      "Tekstil kesimi",
+      "Film ve folyo dilme",
+      "Kağıt kesimi",
+      "Plastik dilme",
+      "Ambalaj kesimi"
+    ],
+    "seoKeywords": ["3 delikli jilet", "karbon çelik jilet", "sanayi jileti", "dilme jileti", "endüstriyel jilet", "yüksek karbonlu jilet", "43x22 jilet", "tekstil jileti"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 264
+  },
+  {
+    "id": "3dj-karbon-titanyum",
+    "slug": "3-delikli-dilme-jileti-karbon-celik-titanyum-kaplama",
+    "code": "3DJ-KC-TiN",
+    "name": "3-Delikli Dilme Jileti - Karbon Çelik + Titanyum Kaplama",
+    "description": "Yüksek karbonlu çelik ana gövde üzerine TiN (Titanyum Nitrür) kaplama. PVD (Fiziksel Buhar Biriktirme) yöntemiyle uygulanan titanyum nitrür kaplama, kesici yüzeyde 2300 HV sertlik değerine ulaşır. Bu altın sarısı kaplama, sürtünme katsayısını %40 oranında düşürerek kesim sırasında ısı oluşumunu minimize eder. Aşınma direnci kaplamasız versiyona göre 2-3 kat artarken, kesici kenarın keskinliği daha uzun süre korunur. Özellikle yapışkan bantlar, laminasyonlar ve ısıya duyarlı malzemelerin kesilmesinde üstün performans sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-karbon-titanyum.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-kc-tin-standard",
+        "sku": "3DJ-KC-TiN",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik + TiN Kaplama",
+      "hardness": "Ana gövde: HRC 59-61 | Kaplama: 2300 HV",
+      "coating": "TiN (Titanyum Nitrür)",
+      "coatingMethod": "PVD (Fiziksel Buhar Biriktirme)",
+      "coatingColor": "Altın Sarısı",
+      "frictionReduction": "%40"
+    },
+    "features": [
+      "TiN kaplama (2300 HV)",
+      "PVD uygulama yöntemi",
+      "%40 düşük sürtünme",
+      "Isı direnci artışı",
+      "2-3 kat uzun ömür",
+      "Yapışkan malzemelere ideal"
+    ],
+    "applications": [
+      "Yapışkan bant kesimi",
+      "Laminasyon dilme",
+      "Isıya duyarlı film kesimi",
+      "Etiket kesimi",
+      "Koruyucu film dilme"
+    ],
+    "seoKeywords": ["titanyum kaplamalı jilet", "TiN jilet", "3 delikli titanyum", "altın jilet", "yapışkan bant jileti", "PVD kaplama jilet"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 265
+  },
+  {
+    "id": "3dj-paslanmaz-titanyum",
+    "slug": "3-delikli-dilme-jileti-paslanmaz-celik-titanyum-kaplama",
+    "code": "3DJ-SS-TiN",
+    "name": "3-Delikli Dilme Jileti - Paslanmaz Çelik + Titanyum Kaplama",
+    "description": "Paslanmaz çelik ana gövde üzerine TiN (Titanyum Nitrür) kaplama. Paslanmaz çeliğin tercih edilme nedeni, krom oksit tabakasının titanyum nitrür kaplamanın yapışmasını güçlendirmesidir. Bu metalurjik uyum sayesinde kaplama ayrılması riski minimuma iner ve jilet ömrü boyunca yüksek performans korunur. Karbon çeliğe kıyasla kaplama tutunumu %25-30 daha güçlüdür. Nemli ortamlarda, gıda sektöründe ve korozif malzemelerle çalışırken paslanmaz alt yapının korozyon direnci ek güvenlik sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-paslanmaz-titanyum.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-ss-tin-standard",
+        "sku": "3DJ-SS-TiN",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik (420HC) + TiN Kaplama",
+      "hardness": "Ana gövde: HRC 56-58 | Kaplama: 2300 HV",
+      "coating": "TiN (Titanyum Nitrür)",
+      "coatingMethod": "PVD",
+      "chromiumContent": "%12-14",
+      "coatingAdhesion": "Karbon çeliğe göre %25-30 daha güçlü"
+    },
+    "features": [
+      "Üstün kaplama tutunumu",
+      "Paslanmaz alt yapı",
+      "Korozyon direnci",
+      "Nemli ortam uyumlu",
+      "Gıda sektörü güvenli",
+      "Uzun ömürlü kaplama"
+    ],
+    "applications": [
+      "Gıda ambalajı kesimi",
+      "Nemli ortam uygulamaları",
+      "Hijyenik kesim gerektiren işler",
+      "Laminasyon kesimi",
+      "Film dilme"
+    ],
+    "seoKeywords": ["paslanmaz jilet titanyum", "gıda jileti", "hijyenik jilet", "korozyon dirençli jilet", "paslanmaz TiN jilet"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 266
+  },
+  {
+    "id": "3dj-paslanmaz-titanyum-cizikli",
+    "slug": "3-delikli-dilme-jileti-paslanmaz-celik-titanyum-kaplama-cizikli",
+    "code": "3DJ-SS-TiN-S",
+    "name": "3-Delikli Dilme Jileti - Paslanmaz Çelik + Titanyum Kaplama, Çizikli",
+    "description": "Paslanmaz çelik + TiN kaplamalı jilet, ortadan bölünebilir çizik hattı ile. Bazı tekstil ve ambalaj uygulamalarında jilet yarım boy kullanılmaktadır. Ortadaki lazerle açılmış hassas çizik hattı, jiletin kontrollü şekilde ikiye bölünmesini sağlar. Böylece tek bir jiletten iki ayrı makinede veya iki farklı istasyonda kullanılabilecek iki yarım jilet elde edilir. Çizik hattı jiletin yapısal bütünlüğünü bozmayacak derinlikte ayarlanmıştır; normal kullanımda kendiliğinden kırılma riski yoktur.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-paslanmaz-titanyum-cizikli.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-ss-tin-s-standard",
+        "sku": "3DJ-SS-TiN-S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik (420HC) + TiN Kaplama",
+      "hardness": "HRC 56-58 | Kaplama: 2300 HV",
+      "coating": "TiN (Titanyum Nitrür)",
+      "specialFeature": "Ortadan bölünebilir çizik hattı",
+      "scoreLine": "Lazer işlemeli"
+    },
+    "features": [
+      "Ortadan bölünebilir tasarım",
+      "Lazer çizik hattı",
+      "Yarım boy kullanım imkanı",
+      "Paslanmaz + TiN kaplama",
+      "Ekonomik kullanım",
+      "Çift makine uyumlu"
+    ],
+    "applications": [
+      "Yarım jilet gerektiren tekstil makineleri",
+      "Dar kesim uygulamaları",
+      "Çoklu istasyon sistemleri",
+      "Ambalaj makineleri"
+    ],
+    "seoKeywords": ["çizikli jilet", "bölünebilir jilet", "yarım jilet", "ortadan kırılabilir jilet", "tekstil jileti"],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 267
+  },
+  {
+    "id": "3dj-karbon-seramik",
+    "slug": "3-delikli-dilme-jileti-karbon-celik-seramik-kaplama",
+    "code": "3DJ-KC-CER",
+    "name": "3-Delikli Dilme Jileti - Karbon Çelik + Seramik Kaplama",
+    "description": "Yüksek karbonlu çelik ana gövde üzerine seramik bazlı kaplama. TiAlN (Titanyum Alüminyum Nitrür) veya benzeri ileri seramik kaplamalar, koyu gri/siyah renkte olup TiN kaplamaya göre daha yüksek sıcaklık direncine sahiptir (800°C'ye kadar). Yüksek hızlı kesim operasyonlarında oluşan ısı, kaplamanın performansını düşürmez. Sürtünme katsayısı TiN'den daha düşüktür (%50-60 azalma), bu da özellikle sürtünmeye duyarlı malzemelerin kesilmesinde avantaj sağlar. Oksidasyona karşı üstün direnç sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-karbon-seramik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-kc-cer-standard",
+        "sku": "3DJ-KC-CER",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik + Seramik Kaplama",
+      "hardness": "Ana gövde: HRC 59-61 | Kaplama: 3200+ HV",
+      "coating": "TiAlN (Titanyum Alüminyum Nitrür) / Seramik Bazlı",
+      "coatingColor": "Koyu Gri / Siyah",
+      "maxTemperature": "800°C",
+      "frictionReduction": "%50-60"
+    },
+    "features": [
+      "Seramik bazlı kaplama (3200+ HV)",
+      "800°C sıcaklık direnci",
+      "%50-60 sürtünme azaltma",
+      "Yüksek hız uyumlu",
+      "Oksidasyon direnci",
+      "TiN'den üstün performans"
+    ],
+    "applications": [
+      "Yüksek hızlı dilme",
+      "Isıya duyarlı malzemeler",
+      "Sürtünme kritik uygulamalar",
+      "Uzun süreli kesim operasyonları",
+      "Aşındırıcı malzeme kesimi"
+    ],
+    "seoKeywords": ["seramik kaplamalı jilet", "TiAlN jilet", "yüksek sıcaklık jileti", "siyah kaplamalı jilet", "endüstriyel seramik jilet"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 268
+  },
+  {
+    "id": "3dj-yekpare-tungsten",
+    "slug": "3-delikli-dilme-jileti-yekpare-tungsten",
+    "code": "3DJ-TC",
+    "name": "3-Delikli Dilme Jileti - Yekpare Tungsten",
+    "description": "Tamamı tungsten karbür (WC-Co) alaşımından üretilmiş yekpare jilet. Tungsten karbür tanecikleri kobalt matrisi içinde homojen dağılım gösterir; bu yapı hem aşırı sertlik hem de darbe dayanımı sağlar. Sertlik değeri HRA 89-92 (yaklaşık HRC 72-76 eşdeğeri) ile çelik jiletlerin çok üzerindedir. Aşındırıcı malzemelerin kesilmesinde çelik jiletlere göre 10-50 kat uzun ömür sunar. Dezavantajı: Yüksek kırılganlık nedeniyle darbe ve bükülmeye hassastır. Doğru montaj ve kullanım kritik önem taşır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-yekpare-tungsten.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-tc-standard",
+        "sku": "3DJ-TC",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Tungsten Karbür (WC-Co)",
+      "hardness": "HRA 89-92 (≈HRC 72-76)",
+      "composition": "WC + %6-10 Kobalt bağlayıcı",
+      "grainSize": "İnce tane (0.5-1.0 µm)",
+      "density": "14.5-15.0 g/cm³",
+      "wearResistance": "Çeliğe göre 10-50x"
+    },
+    "features": [
+      "Yekpare tungsten karbür",
+      "HRA 89-92 aşırı sertlik",
+      "10-50 kat uzun ömür",
+      "Aşındırıcı malzeme dayanımı",
+      "İnce tane yapısı",
+      "Premium sınıf"
+    ],
+    "applications": [
+      "Aşındırıcı malzeme kesimi",
+      "Cam elyaf kesimi",
+      "Karbon fiber dilme",
+      "Zımpara kağıdı kesimi",
+      "Seramik kaplı malzemeler"
+    ],
+    "seoKeywords": ["tungsten jilet", "karbür jilet", "yekpare tungsten", "WC jilet", "aşındırıcı kesim jileti", "cam elyaf jileti"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 269
+  },
+  {
+    "id": "3dj-yekpare-seramik",
+    "slug": "3-delikli-dilme-jileti-yekpare-seramik",
+    "code": "3DJ-ZR",
+    "name": "3-Delikli Dilme Jileti - Yekpare Seramik",
+    "description": "Tamamı ileri seramik malzemeden (Zirkonyum Oksit bazlı) üretilmiş yekpare jilet. Gri renkli bu seramik yapı, metal olmayan özelliğiyle sıfıra yakın sürtünme katsayısı sunar. Kesim sırasında ısı üretimi minimum düzeyde kalır, bu da ısıya duyarlı malzemelerde deformasyon riskini ortadan kaldırır. Sertlik değeri HV 1200-1400 ile çelik jiletlerin çok üzerindedir. Kimyasal olarak inert yapısı sayesinde reaktif malzemelerle güvenle kullanılır. Kritik dezavantaj: Aşırı kırılgandır, darbe ve bükülme kesinlikle tolere edilmez.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-yekpare-seramik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-zr-standard",
+        "sku": "3DJ-ZR",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Zirkonyum Oksit Bazlı Seramik (ZrO₂)",
+      "hardness": "HV 1200-1400",
+      "color": "Gri",
+      "frictionCoefficient": "~0.1 (çeliğin 1/5'i)",
+      "thermalConductivity": "Düşük (ısı yalıtımı)",
+      "chemicalResistance": "İnert (reaktif değil)"
+    },
+    "features": [
+      "Yekpare seramik yapı",
+      "Sıfıra yakın sürtünme",
+      "Isı üretimi minimum",
+      "Kimyasal olarak inert",
+      "HV 1200-1400 sertlik",
+      "Metal kontaminasyon yok"
+    ],
+    "applications": [
+      "Isıya aşırı duyarlı filmler",
+      "Gıda sektörü (metal dedektör uyumlu)",
+      "Reaktif kimyasal malzemeler",
+      "Temiz oda uygulamaları",
+      "Elektronik bileşen kesimi"
+    ],
+    "seoKeywords": ["seramik jilet", "zirkonyum jilet", "yekpare seramik", "ısıya duyarlı kesim", "gıda jileti", "metal dedektör uyumlu jilet"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 270
+  },
+  {
+    "id": "3dj-karbon-yuvarlak-kenar",
+    "slug": "3-delikli-dilme-jileti-karbon-celik-yuvarlak-kenar",
+    "code": "3DJ-KC-RD",
+    "name": "3-Delikli Dilme Jileti - Karbon Çelik, Yuvarlak Kenar",
+    "description": "Yüksek karbonlu çelik sanayi jileti, traş jileti formunda yuvarlak kenar tasarımı ile. Dilme işlemlerini uzun yıllardır traş jiletleriyle yapan operatörlerin alışkanlıklarına uygun ergonomik tasarım. Traş jiletlerinin yuvarlak kenar profiline sahip olmasına rağmen, sanayi tipi yüksek karbonlu çelik ve optimize edilmiş ısıl işlem sayesinde traş jiletlerinden çok daha uzun ömürlüdür. Sanayi jiletlerine geçiş yapan işletmeler için ideal başlangıç ürünü.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-karbon-yuvarlak.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-kc-rd-standard",
+        "sku": "3DJ-KC-RD",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik (SK5 / C85)",
+      "hardness": "HRC 59-61",
+      "edgeProfile": "Yuvarlak Kenar (Traş jileti formu)",
+      "carbonContent": "%0.85-1.00"
+    },
+    "features": [
+      "Traş jileti form faktörü",
+      "Yuvarlak kenar profili",
+      "Sanayi tipi dayanıklılık",
+      "Geçiş kullanıcıları için ideal",
+      "Ergonomik tasarım",
+      "Yüksek karbon çelik"
+    ],
+    "applications": [
+      "Traş jiletinden geçiş yapan işletmeler",
+      "Tekstil kesimi",
+      "Film dilme",
+      "Genel amaçlı dilme"
+    ],
+    "seoKeywords": ["yuvarlak kenarlı jilet", "traş jileti alternatifi", "sanayi jileti yuvarlak", "ergonomik jilet"],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 271
+  },
+  {
+    "id": "3dj-paslanmaz-titanyum-yuvarlak",
+    "slug": "3-delikli-dilme-jileti-paslanmaz-celik-titanyum-kaplama-yuvarlak-kenar",
+    "code": "3DJ-SS-TiN-RD",
+    "name": "3-Delikli Dilme Jileti - Paslanmaz Çelik + Titanyum Kaplama, Yuvarlak Kenar",
+    "description": "Paslanmaz çelik + TiN kaplamalı jilet, traş jileti formunda yuvarlak kenar ile. Alışılmış traş jileti ergonomisini korurken, paslanmaz çelik alt yapı ve titanyum nitrür kaplamanın üstün performansını sunar. Nemli ortamlarda korozyon direnci, TiN kaplamanın düşük sürtünmesi ve yuvarlak kenarın ergonomik avantajı tek üründe birleşir. Traş jiletlerinden profesyonel sanayi jiletlerine geçmek isteyen işletmeler için premium seçenek.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-paslanmaz-titanyum-yuvarlak.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-ss-tin-rd-standard",
+        "sku": "3DJ-SS-TiN-RD",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik (420HC) + TiN Kaplama",
+      "hardness": "HRC 56-58 | Kaplama: 2300 HV",
+      "edgeProfile": "Yuvarlak Kenar",
+      "coating": "TiN (Titanyum Nitrür)"
+    },
+    "features": [
+      "Yuvarlak kenar + TiN kaplama",
+      "Paslanmaz alt yapı",
+      "Korozyon direnci",
+      "Düşük sürtünme",
+      "Traş jileti ergonomisi",
+      "Premium kombinasyon"
+    ],
+    "applications": [
+      "Nemli ortam uygulamaları",
+      "Gıda sektörü geçiş kullanıcıları",
+      "Yapışkan malzeme kesimi",
+      "Ergonomi öncelikli işletmeler"
+    ],
+    "seoKeywords": ["yuvarlak titanyum jilet", "paslanmaz yuvarlak jilet", "ergonomik TiN jilet"],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 272
+  },
+  {
+    "id": "3dj-karbon-seramik-yuvarlak",
+    "slug": "3-delikli-dilme-jileti-karbon-celik-seramik-kaplama-yuvarlak-kenar",
+    "code": "3DJ-KC-CER-RD",
+    "name": "3-Delikli Dilme Jileti - Karbon Çelik + Seramik Kaplama, Yuvarlak Kenar",
+    "description": "Karbon çelik + seramik kaplamalı jilet, traş jileti formunda yuvarlak kenar ile. Seramik kaplamanın yüksek sıcaklık direnci (800°C) ve düşük sürtünme özellikleri, yuvarlak kenarın ergonomik avantajıyla birleşir. Yüksek hızlı operasyonlarda ısıya duyarlı malzemelerle çalışan ve traş jileti formuna alışık operatörler için tasarlanmıştır. Koyu gri/siyah renkteki seramik kaplama, aşınma ve oksidasyon direnci sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-karbon-seramik-yuvarlak.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-kc-cer-rd-standard",
+        "sku": "3DJ-KC-CER-RD",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik + Seramik Kaplama",
+      "hardness": "Ana gövde: HRC 59-61 | Kaplama: 3200+ HV",
+      "edgeProfile": "Yuvarlak Kenar",
+      "coating": "TiAlN / Seramik Bazlı",
+      "maxTemperature": "800°C"
+    },
+    "features": [
+      "Yuvarlak kenar + seramik kaplama",
+      "800°C sıcaklık direnci",
+      "Düşük sürtünme",
+      "Traş jileti ergonomisi",
+      "Oksidasyon direnci",
+      "Yüksek hız uyumlu"
+    ],
+    "applications": [
+      "Yüksek hızlı ergonomik kesim",
+      "Isıya duyarlı malzemeler",
+      "Geçiş kullanıcıları premium segment"
+    ],
+    "seoKeywords": ["seramik yuvarlak jilet", "ergonomik seramik jilet", "yüksek sıcaklık yuvarlak jilet"],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 273
+  },
+  {
+    "id": "3dj-paslanmaz-titanyum-60x22",
+    "slug": "3-delikli-dilme-jileti-paslanmaz-celik-titanyum-kaplama-60x22",
+    "code": "3DJ-SS-TiN-60",
+    "name": "3-Delikli Dilme Jileti - Paslanmaz Çelik + Titanyum Kaplama, 60x22",
+    "description": "60x22mm boyutunda geniş format, paslanmaz çelik + TiN kaplamalı jilet. Standart 43x22mm boyutuna göre daha uzun kesme hattı sunar. Geniş bobinlerin kesilmesinde, çoklu bant dilme operasyonlarında ve yüksek kapasiteli makinelerde tercih edilir. Paslanmaz çeliğin korozyon direnci ve TiN kaplamanın düşük sürtünme avantajı, geniş formatta da korunur. Daha uzun jilet ömrü ve daha az jilet değişimi anlamına gelir.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-paslanmaz-titanyum-60x22.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-ss-tin-60-standard",
+        "sku": "3DJ-SS-TiN-60",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik (420HC) + TiN Kaplama",
+      "hardness": "HRC 56-58 | Kaplama: 2300 HV",
+      "dimensions": "60mm x 22mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "format": "Geniş Format"
+    },
+    "features": [
+      "60x22mm geniş format",
+      "Uzun kesme hattı",
+      "Paslanmaz + TiN kaplama",
+      "Yüksek kapasiteli makineler için",
+      "Az jilet değişimi",
+      "Geniş bobin uyumlu"
+    ],
+    "applications": [
+      "Geniş bobin dilme",
+      "Çoklu bant operasyonları",
+      "Yüksek kapasiteli dilme makineleri",
+      "Endüstriyel ölçekli üretim"
+    ],
+    "seoKeywords": ["60x22 jilet", "geniş format jilet", "büyük boy jilet", "yüksek kapasite jileti", "60mm titanyum jilet"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 274
+  },
+  {
+    "id": "3dj-paslanmaz-titanyum-cizikli-60x22",
+    "slug": "3-delikli-dilme-jileti-paslanmaz-celik-titanyum-kaplama-cizikli-60x22",
+    "code": "3DJ-SS-TiN-S-60",
+    "name": "3-Delikli Dilme Jileti - Paslanmaz Çelik + Titanyum Kaplama, Çizikli, 60x22",
+    "description": "60x22mm boyutunda geniş format, paslanmaz çelik + TiN kaplamalı, ortadan bölünebilir çizikli jilet. Geniş formatın avantajlarıyla çizikli tasarımın esnekliğini birleştirir. 60mm jilet ortadan bölündüğünde iki adet 30mm yarım jilet elde edilir. Bu yarımlar, dar kesim gerektiren farklı istasyonlarda veya makinelerde kullanılabilir. Ekonomik kullanım ve stok yönetimi açısından avantaj sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "3-hole-slitting",
+    "image": "/images/products/3-delikli-paslanmaz-titanyum-cizikli-60x22.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "3dj-ss-tin-s-60-standard",
+        "sku": "3DJ-SS-TiN-S-60",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik (420HC) + TiN Kaplama",
+      "hardness": "HRC 56-58 | Kaplama: 2300 HV",
+      "dimensions": "60mm x 22mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "specialFeature": "Ortadan bölünebilir çizik hattı",
+      "splitResult": "2x 30mm yarım jilet"
+    },
+    "features": [
+      "60x22mm geniş format",
+      "Ortadan bölünebilir",
+      "2x 30mm yarım jilet imkanı",
+      "Paslanmaz + TiN kaplama",
+      "Esnek kullanım",
+      "Ekonomik stok yönetimi"
+    ],
+    "applications": [
+      "Çoklu makine sistemleri",
+      "Farklı istasyonlar",
+      "Ekonomik kullanım gerektiren işletmeler",
+      "Esnek üretim hatları"
+    ],
+    "seoKeywords": ["60x22 çizikli jilet", "bölünebilir geniş jilet", "30mm yarım jilet", "esnek kullanım jileti"],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 275
   }
 ]

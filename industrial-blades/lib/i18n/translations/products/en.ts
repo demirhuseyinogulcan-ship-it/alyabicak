@@ -1032,6 +1032,82 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Test'],
     applications: ['Testing'],
   },
+
+  // =============================================================================
+  // 3-HOLE SLITTING BLADES - NEW PRODUCT LINE (2026)
+  // =============================================================================
+  '3dj-karbon-celik': {
+    name: '3-Hole Slitting Blade - Carbon Steel',
+    description: 'Industrial-grade slitting blade with high carbon content (0.85-1.00% C). Unlike consumer razor blades, manufactured from special steel alloy with controlled atmosphere heat treatment (austenitizing + quenching + tempering) to achieve homogeneous martensitic microstructure. This process ensures the cutting edge is both hard and tough, preventing premature dulling and cracking. Our blades feature an optimum 22° sharpening angle for precision cutting. The reason market blades dull quickly: improper edge angles and inadequate heat treatment.',
+    features: ['High carbon content (0.85-1.00%)', 'Martensitic microstructure', 'Optimum 22° edge angle', 'Precision heat treatment process', 'Industrial-grade durability', '3-5x longer life than razor blades'],
+    applications: ['Textile cutting', 'Film and foil slitting', 'Paper cutting', 'Plastic slitting', 'Packaging cutting'],
+  },
+  '3dj-karbon-titanyum': {
+    name: '3-Hole Slitting Blade - Carbon Steel + Titanium Coating',
+    description: 'High carbon steel body with TiN (Titanium Nitride) coating. PVD (Physical Vapor Deposition) applied titanium nitride coating achieves 2300 HV hardness on the cutting surface. This gold-colored coating reduces friction coefficient by 40%, minimizing heat generation during cutting. Wear resistance increases 2-3x compared to uncoated version while maintaining edge sharpness longer. Superior performance for cutting adhesive tapes, laminations, and heat-sensitive materials.',
+    features: ['TiN coating (2300 HV)', 'PVD application method', '40% reduced friction', 'Increased heat resistance', '2-3x longer life', 'Ideal for adhesive materials'],
+    applications: ['Adhesive tape cutting', 'Lamination slitting', 'Heat-sensitive film cutting', 'Label cutting', 'Protective film slitting'],
+  },
+  '3dj-paslanmaz-titanyum': {
+    name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating',
+    description: 'Stainless steel body with TiN (Titanium Nitride) coating. Stainless steel is preferred because its chromium oxide layer enhances titanium nitride coating adhesion. This metallurgical compatibility minimizes coating delamination risk, maintaining high performance throughout blade life. Coating adhesion is 25-30% stronger than carbon steel. The stainless substrate provides additional corrosion resistance for humid environments, food sector, and corrosive material applications.',
+    features: ['Superior coating adhesion', 'Stainless substrate', 'Corrosion resistance', 'Humid environment compatible', 'Food sector safe', 'Long-lasting coating'],
+    applications: ['Food packaging cutting', 'Humid environment applications', 'Hygienic cutting requirements', 'Lamination cutting', 'Film slitting'],
+  },
+  '3dj-paslanmaz-titanyum-cizikli': {
+    name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, Scored',
+    description: 'Stainless steel + TiN coated blade with center score line for splitting. In some textile and packaging applications, half-length blades are used. The precision laser-etched center score line enables controlled splitting into two halves. This allows one blade to be used in two different machines or workstations. Score depth is calibrated to maintain structural integrity; no risk of accidental breakage during normal use.',
+    features: ['Center-splittable design', 'Laser score line', 'Half-length usage option', 'Stainless + TiN coating', 'Economical usage', 'Dual machine compatible'],
+    applications: ['Half-blade textile machines', 'Narrow cut applications', 'Multi-station systems', 'Packaging machines'],
+  },
+  '3dj-karbon-seramik': {
+    name: '3-Hole Slitting Blade - Carbon Steel + Ceramic Coating',
+    description: 'High carbon steel body with ceramic-based coating. TiAlN (Titanium Aluminum Nitride) or similar advanced ceramic coatings, dark gray/black in color, offer higher temperature resistance than TiN coating (up to 800°C). Heat generated during high-speed cutting operations does not degrade coating performance. Friction coefficient is lower than TiN (50-60% reduction), providing advantage for cutting friction-sensitive materials. Superior oxidation resistance.',
+    features: ['Ceramic-based coating (3200+ HV)', '800°C temperature resistance', '50-60% friction reduction', 'High-speed compatible', 'Oxidation resistance', 'Superior to TiN performance'],
+    applications: ['High-speed slitting', 'Heat-sensitive materials', 'Friction-critical applications', 'Extended cutting operations', 'Abrasive material cutting'],
+  },
+  '3dj-yekpare-tungsten': {
+    name: '3-Hole Slitting Blade - Solid Tungsten Carbide',
+    description: 'Solid tungsten carbide (WC-Co) alloy blade. Tungsten carbide particles are homogeneously distributed in cobalt matrix; this structure provides both extreme hardness and impact resistance. Hardness value HRA 89-92 (approximately HRC 72-76 equivalent) far exceeds steel blades. Offers 10-50x longer life than steel blades when cutting abrasive materials. Disadvantage: High brittleness requires careful handling—sensitive to impact and bending. Proper mounting and usage is critical.',
+    features: ['Solid tungsten carbide', 'HRA 89-92 extreme hardness', '10-50x longer life', 'Abrasive material resistance', 'Fine grain structure', 'Premium grade'],
+    applications: ['Abrasive material cutting', 'Fiberglass cutting', 'Carbon fiber slitting', 'Sandpaper cutting', 'Ceramic-coated materials'],
+  },
+  '3dj-yekpare-seramik': {
+    name: '3-Hole Slitting Blade - Solid Ceramic',
+    description: 'Solid advanced ceramic material (Zirconium Oxide based) blade. This gray ceramic structure, being non-metallic, offers near-zero friction coefficient. Heat generation during cutting is minimal, eliminating deformation risk in heat-sensitive materials. Hardness value HV 1200-1400 far exceeds steel blades. Chemically inert structure allows safe use with reactive materials. Critical disadvantage: Extremely brittle—absolutely no tolerance for impact or bending.',
+    features: ['Solid ceramic structure', 'Near-zero friction', 'Minimal heat generation', 'Chemically inert', 'HV 1200-1400 hardness', 'No metal contamination'],
+    applications: ['Extremely heat-sensitive films', 'Food sector (metal detector compatible)', 'Reactive chemical materials', 'Clean room applications', 'Electronic component cutting'],
+  },
+  '3dj-karbon-yuvarlak-kenar': {
+    name: '3-Hole Slitting Blade - Carbon Steel, Round Edge',
+    description: 'High carbon steel industrial blade with round edge profile similar to razor blades. Ergonomic design compatible with operators who have used razor blades for slitting operations for years. While featuring the round edge profile of razor blades, industrial-grade high carbon steel and optimized heat treatment provide much longer life than consumer razor blades. Ideal entry product for businesses transitioning to industrial blades.',
+    features: ['Razor blade form factor', 'Round edge profile', 'Industrial-grade durability', 'Ideal for transition users', 'Ergonomic design', 'High carbon steel'],
+    applications: ['Businesses transitioning from razor blades', 'Textile cutting', 'Film slitting', 'General purpose slitting'],
+  },
+  '3dj-paslanmaz-titanyum-yuvarlak': {
+    name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, Round Edge',
+    description: 'Stainless steel + TiN coated blade with razor blade-style round edge. Maintains familiar razor blade ergonomics while delivering superior performance of stainless steel substrate and titanium nitride coating. Corrosion resistance in humid environments, low friction from TiN coating, and ergonomic advantage of round edge—all in one product. Premium choice for businesses wanting to transition from razor blades to professional industrial blades.',
+    features: ['Round edge + TiN coating', 'Stainless substrate', 'Corrosion resistance', 'Low friction', 'Razor blade ergonomics', 'Premium combination'],
+    applications: ['Humid environment applications', 'Food sector transition users', 'Adhesive material cutting', 'Ergonomics-priority operations'],
+  },
+  '3dj-karbon-seramik-yuvarlak': {
+    name: '3-Hole Slitting Blade - Carbon Steel + Ceramic Coating, Round Edge',
+    description: 'Carbon steel + ceramic coated blade with razor blade-style round edge. Combines high temperature resistance (800°C) and low friction properties of ceramic coating with ergonomic advantage of round edge. Designed for operators working with heat-sensitive materials at high speed who are accustomed to razor blade form. Dark gray/black ceramic coating provides wear and oxidation resistance.',
+    features: ['Round edge + ceramic coating', '800°C temperature resistance', 'Low friction', 'Razor blade ergonomics', 'Oxidation resistance', 'High-speed compatible'],
+    applications: ['High-speed ergonomic cutting', 'Heat-sensitive materials', 'Premium segment transition users'],
+  },
+  '3dj-paslanmaz-titanyum-60x22': {
+    name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, 60x22',
+    description: '60x22mm large format, stainless steel + TiN coated blade. Offers longer cutting line than standard 43x22mm size. Preferred for cutting wide webs, multiple band slitting operations, and high-capacity machines. Corrosion resistance of stainless steel and low friction advantage of TiN coating maintained in large format. Means longer blade life and fewer blade changes.',
+    features: ['60x22mm large format', 'Extended cutting line', 'Stainless + TiN coating', 'For high-capacity machines', 'Fewer blade changes', 'Wide web compatible'],
+    applications: ['Wide web slitting', 'Multiple band operations', 'High-capacity slitting machines', 'Industrial-scale production'],
+  },
+  '3dj-paslanmaz-titanyum-cizikli-60x22': {
+    name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, Scored, 60x22',
+    description: '60x22mm large format, stainless steel + TiN coated, center-splittable scored blade. Combines large format advantages with scored design flexibility. When 60mm blade is split at center, two 30mm half blades are obtained. These halves can be used in different stations or machines requiring narrow cuts. Provides advantage for economical usage and inventory management.',
+    features: ['60x22mm large format', 'Center-splittable', '2x 30mm half blade option', 'Stainless + TiN coating', 'Flexible usage', 'Economical inventory management'],
+    applications: ['Multi-machine systems', 'Different workstations', 'Economy-focused operations', 'Flexible production lines'],
+  },
 };
 
 export default productsEn;
