@@ -18,6 +18,86 @@ import { getProductTranslation, getCategoryTranslation } from '../i18n/translati
 const DEFAULT_LOCALE = 'tr';
 
 // =============================================================================
+// SPEC LABEL ÇEVİRİLERİ
+// =============================================================================
+const specLabelTranslations: Record<string, Record<string, string>> = {
+  tr: {
+    material: 'Malzeme',
+    hardness: 'Sertlik',
+    thickness: 'Kalınlık',
+    width: 'Genişlik',
+    length: 'Uzunluk',
+    coating: 'Kaplama',
+    edge: 'Ağız Tipi',
+    weight: 'Ağırlık',
+    carbonContent: 'Karbon Oranı',
+    edgeAngle: 'Bileme Açısı',
+    heatTreatment: 'Isıl İşlem',
+    dimensions: 'Boyutlar',
+    diameter: 'Çap',
+    color: 'Renk',
+    microstructure: 'Mikro Yapı',
+  },
+  en: {
+    material: 'Material',
+    hardness: 'Hardness',
+    thickness: 'Thickness',
+    width: 'Width',
+    length: 'Length',
+    coating: 'Coating',
+    edge: 'Edge Type',
+    weight: 'Weight',
+    carbonContent: 'Carbon Content',
+    edgeAngle: 'Edge Angle',
+    heatTreatment: 'Heat Treatment',
+    dimensions: 'Dimensions',
+    diameter: 'Diameter',
+    color: 'Color',
+    microstructure: 'Microstructure',
+  },
+  ar: {
+    material: 'المادة',
+    hardness: 'الصلابة',
+    thickness: 'السُمك',
+    width: 'العرض',
+    length: 'الطول',
+    coating: 'الطلاء',
+    edge: 'نوع الحافة',
+    weight: 'الوزن',
+    carbonContent: 'نسبة الكربون',
+    edgeAngle: 'زاوية الشحذ',
+    heatTreatment: 'المعالجة الحرارية',
+    dimensions: 'الأبعاد',
+    diameter: 'القطر',
+    color: 'اللون',
+    microstructure: 'البنية المجهرية',
+  },
+  ru: {
+    material: 'Материал',
+    hardness: 'Твёрдость',
+    thickness: 'Толщина',
+    width: 'Ширина',
+    length: 'Длина',
+    coating: 'Покрытие',
+    edge: 'Тип кромки',
+    weight: 'Вес',
+    carbonContent: 'Содержание углерода',
+    edgeAngle: 'Угол заточки',
+    heatTreatment: 'Термообработка',
+    dimensions: 'Размеры',
+    diameter: 'Диаметр',
+    color: 'Цвет',
+    microstructure: 'Микроструктура',
+  },
+};
+
+/** Spec label çevirisi getir */
+function getSpecLabel(key: string, locale: string): string {
+  const labels = specLabelTranslations[locale] || specLabelTranslations['tr'];
+  return labels[key] || key.charAt(0).toUpperCase() + key.slice(1);
+}
+
+// =============================================================================
 // ÖRNEK ÜRÜNLER (Placeholder görsellerle)
 // =============================================================================
 
@@ -322,30 +402,19 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 // =============================================================================
 
 /** Base product'ı ProductExtended tipine dönüştür (fallback için) */
-function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySlug>): ProductExtended | undefined {
+function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySlug>, locale: string = DEFAULT_LOCALE): ProductExtended | undefined {
   if (!baseProduct) return undefined;
 
   const category = getCategoryById(baseProduct.categoryId);
   const subcategory = baseProduct.subcategoryId ? getSubcategoryById(baseProduct.subcategoryId) : undefined;
 
-  // Specifications'ı ProductSpec[] formatına çevir
+  // Specifications'ı ProductSpec[] formatına çevir (locale-aware)
   const specs: ProductExtended['specs'] = [];
   if (baseProduct.specifications) {
-    const specLabels: Record<string, string> = {
-      material: 'Malzeme',
-      hardness: 'Sertlik',
-      thickness: 'Kalınlık',
-      width: 'Genişlik',
-      length: 'Uzunluk',
-      coating: 'Kaplama',
-      edge: 'Ağız Tipi',
-      weight: 'Ağırlık',
-    };
-
     Object.entries(baseProduct.specifications).forEach(([key, value]) => {
       if (value) {
         specs.push({
-          label: specLabels[key] || key.charAt(0).toUpperCase() + key.slice(1),
+          label: getSpecLabel(key, locale),
           value: String(value),
         });
       }
@@ -410,16 +479,9 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
       description: '',
     })),
 
-    benefits: [
-      {
-        title: 'Yüksek Kalite',
-        description: 'Sheffield çeliğinden üretim',
-      },
-      {
-        title: 'Uzun Ömür',
-        description: 'Dayanıklı malzeme',
-      },
-    ],
+    // Benefits undefined bırakılarak WhyThisProduct component'i 
+    // varsayılan çevirili değerleri kullanır
+    benefits: undefined,
 
     features: baseProduct.features,
 
@@ -444,6 +506,19 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
 function translateProductExtended(product: ProductExtended, locale: string): ProductExtended {
   if (locale === 'tr') return product; // Türkçe master data, çevirmeye gerek yok
 
+  // Specs label'larını çevir
+  const translatedSpecs = product.specs?.map(spec => {
+    // Spec key'i bulmak için Türkçe label'dan key'e dönüştür
+    const keyFromLabel = Object.entries(specLabelTranslations['tr']).find(
+      ([, label]) => label === spec.label
+    )?.[0];
+    
+    return {
+      ...spec,
+      label: keyFromLabel ? getSpecLabel(keyFromLabel, locale) : spec.label,
+    };
+  });
+
   const translation = getProductTranslation(product.id, locale);
   if (translation) {
     return {
@@ -454,6 +529,7 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
       applications: translation.applications
         ? translation.applications.map(app => ({ title: app, description: '' }))
         : product.applications,
+      specs: translatedSpecs || product.specs,
       // Alt text'i de güncelle (image SEO için)
       images: {
         ...product.images,
@@ -468,7 +544,12 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
       },
     };
   }
-  return product;
+  
+  // Çeviri yoksa sadece specs'i çevir
+  return {
+    ...product,
+    specs: translatedSpecs || product.specs,
+  };
 }
 
 /** Tüm aktif ürünleri getir */
@@ -490,7 +571,7 @@ export function getProductBySlug(slug: string, locale: string = DEFAULT_LOCALE):
   // Extended'da yoksa base product'tan dönüştür
   const baseProduct = getBaseProductBySlug(slug);
   if (baseProduct && baseProduct.isActive) {
-    const converted = convertBaseToExtended(baseProduct);
+    const converted = convertBaseToExtended(baseProduct, locale);
     if (converted) {
       return translateProductExtended(converted, locale);
     }
@@ -511,7 +592,7 @@ export function getProductById(id: string, locale: string = DEFAULT_LOCALE): Pro
   const allBaseProducts = getAllProducts();
   const baseProduct = allBaseProducts.find(p => p.id === id && p.isActive);
   if (baseProduct) {
-    const converted = convertBaseToExtended(baseProduct);
+    const converted = convertBaseToExtended(baseProduct, locale);
     if (converted) {
       return translateProductExtended(converted, locale);
     }

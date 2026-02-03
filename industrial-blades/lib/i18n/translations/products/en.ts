@@ -36,29 +36,122 @@ export const productsEn: Record<string, ProductTranslation> = {
   // =============================================================================
   // SANAYİ JİLETLERİ - SLOTTED DİLME
   // =============================================================================
-  'b101': {
-    name: 'B101 - Slotted Slicing Blade – Type A',
-    description: 'Industrial slotted slicing blade Type A. Sheffield quality professional cutting blade for precision slitting.',
-    features: ['Precision edge', 'Sheffield quality', 'Industrial grade'],
-    applications: ['Film slitting', 'Tape cutting', 'Label cutting'],
+  'slotted-karbon-celik': {
+    name: 'Slotted Slitting Blade - Carbon Steel',
+    description: 'High carbon industrial slotted slitting blade. Unlike ordinary razor blades, manufactured from special steel alloy with high carbon content (0.85-1.00% C). Heat treatment in controlled atmosphere furnaces (austenitizing + quenching + tempering) achieves homogeneous martensitic microstructure. The slotted design enables quick and secure machine mounting through the central slot. Precisely ground at optimal 22° edge angle.',
+    features: [
+      'High carbon content (0.85-1.00%)',
+      'Martensitic microstructure',
+      'Optimal 22° edge angle',
+      'Precision heat treatment process',
+      'Slotted mounting convenience',
+      '3-5x longer life than razor blades'
+    ],
+    applications: ['Textile cutting', 'Film and foil slitting', 'Paper cutting', 'Plastic slitting', 'Packaging cutting'],
   },
-  'b102': {
-    name: 'B102 - Slotted Slicing Blade – Type B',
-    description: 'Industrial slotted slicing blade Type B. Sheffield quality professional cutting blade.',
-    features: ['Precision edge', 'Sheffield quality', 'Industrial grade'],
-    applications: ['Film slitting', 'Tape cutting', 'Label cutting'],
+  'slotted-karbon-titanyum': {
+    name: 'Slotted Slitting Blade - Carbon Steel + Titanium Coating',
+    description: 'TiN (Titanium Nitride) coating on high carbon steel body. PVD (Physical Vapor Deposition) applied titanium nitride coating achieves 2300 HV surface hardness. This golden coating reduces friction coefficient by 40%, minimizing heat generation during cutting. Slotted central slot design enables single-motion machine mounting. Wear resistance increases 2-3x compared to uncoated version.',
+    features: [
+      'TiN (Titanium Nitride) PVD coating',
+      '2300 HV surface hardness',
+      '40% lower friction coefficient',
+      'Golden appearance',
+      '2-3x increased wear resistance',
+      'Ideal for heat-sensitive materials'
+    ],
+    applications: ['Adhesive tape cutting', 'Lamination slitting', 'Heat-sensitive film cutting', 'Precision foil slitting', 'Label cutting'],
   },
-  'b103': {
-    name: 'B103 - Slotted Slicing Blade – Type C (Standard)',
-    description: 'Industrial slotted slicing blade Type C, the standard model. Sheffield quality professional cutting blade.',
-    features: ['Standard type', 'Sheffield quality', 'Industrial grade', 'Most popular'],
-    applications: ['Film slitting', 'Tape cutting', 'Label cutting', 'General industrial use'],
+  'slotted-karbon-seramik': {
+    name: 'Slotted Slitting Blade - Carbon Steel + Ceramic Coating',
+    description: 'Advanced ceramic coating (titanium-based) on high carbon steel substrate. Multi-layer ceramic coating applied via CVD/PVD hybrid technology provides up to 3200 HV surface hardness. This coating system delivers superior performance in cutting extremely abrasive materials. Practical use with slotted mounting system. Chemical inertness ensures long life even in corrosive environments.',
+    features: [
+      'Advanced ceramic coating technology',
+      '3200 HV ultra-high surface hardness',
+      'Ideal for abrasive materials',
+      'Chemical inertness',
+      'Corrosion resistance',
+      '5-7x extended life'
+    ],
+    applications: ['Abrasive paper cutting', 'Fiberglass composite slitting', 'Carbon fiber cutting', 'Sandpaper slitting', 'Technical textile cutting'],
   },
-  'b104': {
-    name: 'B104 - Slotted Slicing Blade – Type D',
-    description: 'Industrial slotted slicing blade Type D. Sheffield quality professional cutting blade.',
-    features: ['Precision edge', 'Sheffield quality', 'Industrial grade'],
-    applications: ['Film slitting', 'Tape cutting', 'Label cutting'],
+  'slotted-paslanmaz': {
+    name: 'Slotted Slitting Blade - Stainless Steel',
+    description: 'Slotted slitting blade manufactured from AISI 420 martensitic stainless steel. 12-14% chromium content provides corrosion resistance while martensitic structure achieves HRC 54-56 hardness. Preferred as alternative to carbon steel in humid environments, food industry, and hygiene-required applications. Slotted design offers practical machine mounting. FDA approved for food contact surfaces.',
+    features: [
+      'Stainless steel (AISI 420)',
+      '12-14% chromium content',
+      'Corrosion resistance',
+      'Hygienic use',
+      'FDA approved',
+      'Suitable for humid environments'
+    ],
+    applications: ['Food packaging cutting', 'Humid environment applications', 'Hygienic production lines', 'Pharmaceutical packaging', 'Medical packaging cutting'],
+  },
+  'slotted-paslanmaz-titanyum': {
+    name: 'Slotted Slitting Blade - Stainless Steel + Titanium Coating',
+    description: 'TiN (Titanium Nitride) coating on AISI 420 martensitic stainless steel. Hybrid solution combining stainless steel corrosion resistance with titanium coating wear resistance. PVD-applied TiN coating increases edge hardness to 2300 HV. Slotted slot system enables quick blade changes. Provides dual protection in both humid and abrasive environments.',
+    features: [
+      'Stainless + Titanium dual protection',
+      'Corrosion + Wear resistance',
+      '2300 HV surface hardness',
+      'Hygienic and durable',
+      'Golden stainless',
+      'Ideal for demanding environments'
+    ],
+    applications: ['Food lamination cutting', 'Pharmaceutical blister packaging slitting', 'Humid adhesive tape cutting', 'Sterile packaging production', 'Medical foil slitting'],
+  },
+  'slotted-paslanmaz-xcd': {
+    name: 'Slotted Slitting Blade - Stainless Steel + XCD Coating',
+    description: 'XCD (Xtreme Carbon Diamond) coating technology on AISI 420 stainless steel. This coating from the DLC (Diamond-Like Carbon) family offers hardness values up to 5000 HV through diamond-like carbon structure. Friction coefficient drops below 0.1, providing excellent sliding properties. Professional use with slotted mounting system. Prevents even the most adhesive materials from sticking to the cutting edge.',
+    features: [
+      'XCD diamond-like carbon coating',
+      '5000 HV ultra-high hardness',
+      '<0.1 friction coefficient',
+      'Excellent non-stick properties',
+      'Black diamond appearance',
+      'For the most demanding applications'
+    ],
+    applications: ['Ultra-adhesive tape cutting', 'Silicone-coated material slitting', 'Adhesive label cutting', 'Resin-impregnated fabric slitting', 'Medical adhesive tapes'],
+  },
+  'slotted-endurium-seramik': {
+    name: 'Slotted Slitting Blade - Endurium Steel + Ceramic Coating',
+    description: 'Multi-layer ceramic coating on Endurium HSS (High Speed Steel) substrate. Premium solution combining HSS high temperature resistance (8-10% tungsten, 4-5% molybdenum, 4% chromium) with extreme ceramic hardness. No hardness loss up to 600°C, resistant to thermal shock in interrupted cuts and high-speed applications. Slotted design compatible with professional machines. Designed for the most demanding industrial applications.',
+    features: [
+      'Endurium HSS high speed steel',
+      'HRC 64-66 substrate hardness',
+      '3500 HV ceramic coating',
+      '600°C temperature resistance',
+      'Thermal shock resistance',
+      'Longest life slotted blade'
+    ],
+    applications: ['High-speed slitting operations', 'Interrupted cutting applications', 'Metal foil slitting', 'Composite material cutting', '24/7 production lines'],
+  },
+  'slotted-yekpare-tungsten': {
+    name: 'Slotted Slitting Blade - Solid Tungsten Carbide',
+    description: 'Slotted slitting blade manufactured from solid tungsten carbide (WC-Co) composition. This sintered material containing 94% tungsten carbide and 6% cobalt binder achieves HRA 92-94 (HRC 75+ equivalent) hardness. Monolithic structure produced via powder metallurgy provides integrity without welding or brazing. Slotted central slot enables secure machine mounting. Used for cutting ultra-abrasive materials that steel blades cannot cut.',
+    features: [
+      'Solid tungsten carbide construction',
+      'HRA 92-94 ultra-high hardness',
+      'Monolithic integrity',
+      'Powder metallurgy production',
+      '20-50x longer life than steel',
+      'For extremely abrasive materials'
+    ],
+    applications: ['Ceramic-coated paper cutting', 'Metal foil slitting', 'Abrasive composite cutting', 'Carbon nanotube film slitting', 'Battery electrode material cutting'],
+  },
+  'slotted-yekpare-seramik': {
+    name: 'Slotted Slitting Blade - Solid Ceramic (Zirconia)',
+    description: 'Slotted slitting blade manufactured from solid zirconia (ZrO2) ceramic. Tetragonal polycrystalline zirconia (Y-TZP) structure provides extraordinary crack resistance while maintaining 1200 HV hardness. This completely metal-free blade is designed for applications where electrical conductivity is unwanted or metal contamination is unacceptable. Slotted design compatible with standard machines. Preferred in medical and food applications requiring biocompatibility.',
+    features: [
+      'Solid zirconia ceramic',
+      'No metal contamination',
+      'Electrical insulator',
+      'Biocompatible material',
+      'High fracture toughness',
+      'Chemical inertness'
+    ],
+    applications: ['Food industry (metal detector passage)', 'Electronic component cutting', 'Battery separator film slitting', 'Medical sterile packaging', 'Cleanroom applications'],
   },
 
   // =============================================================================
@@ -70,12 +163,154 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Arrow shape design', 'Long lasting', 'Sheffield quality', 'Professional use'],
     applications: ['Industrial cutting', 'Precision work'],
   },
-  '38': {
-    name: '38 x 8 Injector Slicing Blade – Slotless B203',
-    description: 'Injector type slicing blade without slot. Sheffield quality professional cutting blade.',
-    features: ['Slotless design', 'Sheffield quality', 'Injector compatible'],
-    applications: ['Precision cutting', 'Industrial slitting'],
+
+  // =============================================================================
+  // İNJEKTÖR JİLETLER
+  // =============================================================================
+  'injektor-karbon-celik': {
+    name: 'Injector Blade - Carbon Steel, 2 Slot',
+    description: '38x8x0.25mm high carbon steel 2-slot injector blade. Specially formulated SK5/C85 grade steel (0.85-1.00% carbon content) transformed into martensitic structure through precision heat treatment in controlled atmosphere furnaces. 2-slot design fits standard injector holders with millimetric precision for vibration-free cutting. Optimal 20° edge angle provides clean, burr-free cuts in thin materials.',
+    features: [
+      '38x8x0.25mm standard injector size',
+      '2-slot secure mounting system',
+      'High carbon content (0.85-1.00%)',
+      'Martensitic microstructure',
+      'Optimal 20° edge angle',
+      'Vibration-free precision cutting'
+    ],
+    applications: ['Precision label cutting', 'Thin film slitting', 'Laboratory applications', 'Micro-cutting operations', 'Electronic component cutting'],
   },
+  'injektor-paslanmaz': {
+    name: 'Injector Blade - Stainless Steel, 2 Slot',
+    description: '38x8x0.25mm AISI 420 martensitic stainless steel 2-slot injector blade. 12-14% chromium content provides superior resistance in humid environments and corrosive conditions. FDA-approved material meeting hygiene standards for food, pharmaceutical, and medical sectors. Resistant to sterilization processes. 2-slot mounting system securely locks into injector holders.',
+    features: [
+      '38x8x0.25mm stainless injector',
+      'AISI 420 martensitic stainless steel',
+      '12-14% chromium for corrosion resistance',
+      'FDA approved hygienic material',
+      'Sterilization resistant',
+      'Suitable for humid environments'
+    ],
+    applications: ['Food packaging cutting', 'Pharmaceutical packaging', 'Medical tape cutting', 'Hygienic production lines', 'Humid environment applications'],
+  },
+  'injektor-paslanmaz-ptfe': {
+    name: 'Injector Blade - Stainless Steel + PTFE Coating, 2 Slot',
+    description: '38x8x0.25mm AISI 420 stainless steel with PTFE (Teflon) coating. Polytetrafluoroethylene coating has one of the lowest known friction coefficients (~0.04). This non-stick surface prevents even the most adhesive materials from sticking to the cutting edge. Excellent performance in cutting adhesive tapes, silicone-based materials, and resin products. PTFE biocompatibility enables safe use in medical applications.',
+    features: [
+      'PTFE (Teflon) non-stick coating',
+      '~0.04 ultra-low friction coefficient',
+      'Ideal for adhesive materials',
+      'Biocompatible coating',
+      'Easy-to-clean surface',
+      'Suitable for medical applications'
+    ],
+    applications: ['Adhesive tape cutting', 'Silicone material slitting', 'Medical wound tape cutting', 'Resin product cutting', 'Label and sticker cutting'],
+  },
+  'injektor-paslanmaz-seramik': {
+    name: 'Injector Blade - Stainless Steel + Ceramic Coating, 2 Slot',
+    description: '38x8x0.25mm AISI 420 stainless steel with advanced ceramic coating (titanium-based). Multi-layer ceramic coating applied via CVD/PVD hybrid technology provides up to 3200 HV surface hardness. Maximum wear resistance in compact injector size. Superior performance in precision cutting of abrasive materials and long-duration operations.',
+    features: [
+      'Advanced ceramic coating technology',
+      '3200 HV ultra-high surface hardness',
+      'Ideal for abrasive materials',
+      'Chemical inertness',
+      'Stainless substrate protection',
+      '5-7x extended life'
+    ],
+    applications: ['Abrasive paper cutting', 'Composite material slitting', 'Technical textile cutting', 'Precision fiberglass cutting', 'Sandpaper product slitting'],
+  },
+  'injektor-paslanmaz-titanyum': {
+    name: 'Injector Blade - Stainless Steel + Titanium Coating, 2 Slot',
+    description: '38x8x0.25mm AISI 420 stainless steel with TiN (Titanium Nitride) coating. PVD-applied golden titanium nitride coating extends cutting edge life 2-3x with 2300 HV surface hardness. Reduces friction coefficient by 40% to minimize heat generation. Hybrid solution combining stainless substrate corrosion resistance with titanium coating wear resistance.',
+    features: [
+      'TiN (Titanium Nitride) PVD coating',
+      '2300 HV surface hardness',
+      '40% lower friction coefficient',
+      'Golden appearance',
+      'Stainless + Titanium dual protection',
+      'Ideal for heat-sensitive materials'
+    ],
+    applications: ['Precision film cutting', 'Optical film slitting', 'Electronic foil cutting', 'Lamination slitting', 'Heat-sensitive packaging cutting'],
+  },
+  'injektor-paslanmaz-titanyum-2-kanalli': {
+    name: 'Injector Blade - Stainless Steel + Titanium Coating, 2-Channel Slot',
+    description: '38x8x0.25mm AISI 420 stainless steel with TiN coating, 2-channel slot design. Unlike standard 2-slot model, this design features dual channels in each slot providing stronger grip and superior stability. Prevents blade slippage in high-speed cutting operations and vibration-sensitive applications. Combines titanium coating advantages with 2-channel slot mechanical stability.',
+    features: [
+      '2-channel slot - reinforced grip',
+      'Stability for high-speed operations',
+      'Vibration-free cutting guarantee',
+      'TiN titanium coating',
+      'Anti-slip design',
+      'For professional machines'
+    ],
+    applications: ['High-speed slitting operations', 'Precision tolerance cutting', 'Automatic cutting lines', 'Vibration-sensitive applications', 'Continuous production lines'],
+  },
+  'injektor-paslanmaz-xcd': {
+    name: 'Injector Blade - Stainless Steel + XCD Coating, 2 Slot',
+    description: '38x8x0.25mm AISI 420 stainless steel with XCD (Xtreme Carbon Diamond) coating. This DLC (Diamond-Like Carbon) family coating offers hardness values up to 5000 HV through diamond-like carbon structure. Friction coefficient drops below 0.1 providing excellent sliding properties. Black diamond appearance reflects premium quality. Superior non-stick properties prevent even the most adhesive materials from sticking.',
+    features: [
+      'XCD diamond-like carbon coating',
+      '5000 HV ultra-high hardness',
+      '<0.1 friction coefficient',
+      'Excellent non-stick properties',
+      'Black diamond appearance',
+      'Premium quality coating'
+    ],
+    applications: ['Ultra-adhesive tape cutting', 'Silicone-coated material slitting', 'Resin-impregnated fabric cutting', 'Adhesive label slitting', 'Special adhesive products'],
+  },
+  'injektor-yekpare-tungsten': {
+    name: 'Injector Blade - Solid Tungsten Carbide, Slotless',
+    description: '38x8x0.25mm solid tungsten carbide (WC-Co) composition slotless injector blade. This sintered material containing 94% tungsten carbide and 6% cobalt binder achieves HRA 92-94 (HRC 75+ equivalent) hardness. Slotless design enables special holders or direct adhesive/brazing applications. Gray metallic appearance distinguishes it from steel. Used for precision micro-cutting of ultra-abrasive materials.',
+    features: [
+      'Solid tungsten carbide construction',
+      'HRA 92-94 ultra-high hardness',
+      'Slotless special mounting design',
+      'Gray metallic appearance',
+      '20-50x longer life than steel',
+      'Monolithic integrity'
+    ],
+    applications: ['Ultra-abrasive material micro-cutting', 'Ceramic-coated paper slitting', 'Metal foil precision cutting', 'Battery electrode material slitting', 'Special holder applications'],
+  },
+  'injektor-yekpare-seramik-030': {
+    name: 'Injector Blade - Solid Ceramic (Zirconia), Slotless - 0.30mm',
+    description: '38x8x0.30mm solid zirconia (ZrO2) ceramic slotless injector blade. Instantly recognizable by its pure white appearance, this blade has tetragonal polycrystalline zirconia (Y-TZP) structure. Completely metal-free, non-electrically conductive, no metal contamination risk. Biocompatibility certified for safe use in food and medical applications. Passes through metal detector lines without issues.',
+    features: [
+      'Pure white solid zirconia ceramic',
+      'No metal contamination',
+      'Electrical insulator',
+      'Biocompatible material',
+      'Metal detector safe',
+      'FDA compliant food grade'
+    ],
+    applications: ['Food industry (metal detector lines)', 'Electronic component cutting', 'Battery separator film slitting', 'Medical sterile packaging', 'Cleanroom applications'],
+  },
+  'injektor-yekpare-seramik-064': {
+    name: 'Injector Blade - Solid Ceramic (Zirconia), Slotless - 0.64mm',
+    description: '38x8x0.64mm thick-section solid zirconia ceramic injector blade. More than twice the thickness of standard 0.30mm version, this model offers higher mechanical strength and extended life. Pure white appearance reflects premium quality. Preferred for heavy-duty applications and cutting thicker materials. Slotless design enables custom mounting solutions.',
+    features: [
+      '0.64mm thick section - high strength',
+      'Pure white solid zirconia',
+      'For heavy-duty applications',
+      'High fracture toughness',
+      'No metal contamination',
+      'Long-lasting ceramic structure'
+    ],
+    applications: ['Heavy-duty food cutting', 'Thick material slitting', 'Intensive use lines', 'Industrial cleanroom', 'Premium medical applications'],
+  },
+  'injektor-endurium-seramik': {
+    name: 'Injector Blade - Endurium Steel + Ceramic Coating, 2 Slot',
+    description: '38x8x0.36mm Endurium HSS (High Speed Steel) substrate with multi-layer ceramic coating. Premium injector blade combining HSS high temperature resistance (8-10% tungsten, 4-5% molybdenum, 4% chromium) with extreme ceramic hardness. No hardness loss up to 600°C, thermal shock resistant in high-speed and interrupted cutting operations. Designed for the most demanding industrial micro-cutting applications.',
+    features: [
+      'Endurium HSS high speed steel',
+      'HRC 64-66 substrate hardness',
+      '3500 HV ceramic coating',
+      '600°C temperature resistance',
+      'Thermal shock resistance',
+      '0.36mm special thickness'
+    ],
+    applications: ['High-speed micro-slitting', 'Interrupted precision cutting', 'Metal foil micro-cutting', '24/7 continuous production', 'Cutting under thermal load'],
+  },
+
   '38-2': {
     name: '38 x 19 Single Edge Blade – Cased – Notched B201 (Standard)',
     description: 'Standard single edge blade with protective case and notched design. Sheffield quality.',

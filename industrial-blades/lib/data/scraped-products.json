@@ -32,164 +32,898 @@
     "order": 100
   },
   {
-    "id": "b101",
-    "slug": "b101-slotted-dilme-jileti-tip-a",
-    "code": "B101",
-    "name": "B101 - SLOTTED DİLME JİLETİ – TİP A",
-    "description": "SLOTTED DİLME JİLETİ – TİP A. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "slotted-karbon-celik",
+    "slug": "slotted-dilme-jileti-karbon-celik",
+    "code": "SLT-KC",
+    "name": "Slotted Dilme Jileti - Karbon Çelik",
+    "description": "Yüksek karbonlu sanayi tipi slotted dilme jileti. Piyasadaki traş jiletlerinden farklı olarak, yüksek karbon oranına (%0.85-1.00 C) sahip özel çelik alaşımından üretilmiştir. Kontrollü atmosfer fırınlarında gerçekleştirilen ısıl işlem (östenitleme + su verme + temperleme) sayesinde homojen martensitik mikro yapı elde edilir. Slotted tasarım, merkezi yuva girişi sayesinde makinelere hızlı ve güvenli montaj sağlar. Piyasadaki jiletlerin çabuk körelmesinin nedeni düzgün bilenmemiş açı ve yetersiz ısıl işlemdir; bizim jiletlerimiz optimum 22° bileme açısıyla hassas taşlanır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "slotted-slitting",
-    "image": "/images/products/b101-slotted-dilme-jileti-tip-a.jpg",
+    "image": "/images/products/slotted-karbon-celik.jpg",
+    "images": [],
     "variants": [
       {
-        "id": "b101-slotted-dilme-jileti-tip-a-standard",
-        "sku": "B101",
+        "id": "slotted-kc-standard",
+        "sku": "SLT-KC",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yüksek Karbonlu Çelik (SK5 / C85)",
+      "hardness": "HRC 59-61",
+      "carbonContent": "%0.85-1.00",
+      "edgeAngle": "22°",
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Yüksek karbon oranı (%0.85-1.00)",
+      "Martensitik mikro yapı",
+      "Optimum 22° bileme açısı",
+      "Hassas ısıl işlem prosesi",
+      "Slotted montaj kolaylığı",
+      "Traş jiletlerinden 3-5 kat uzun ömür"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Tekstil kesimi",
+      "Film ve folyo dilme",
+      "Kağıt kesimi",
+      "Plastik dilme",
+      "Ambalaj kesimi"
     ],
+    "seoKeywords": ["slotted jilet", "slotted dilme jileti", "karbon çelik jilet", "sanayi jileti", "endüstriyel jilet", "dilme jileti", "slitting blade", "slotted blade", "43x22 jilet", "tekstil jileti", "film kesim jileti", "kağıt kesim jileti", "ambalaj jileti", "yüksek karbonlu jilet", "SK5 jilet", "sanayi tipi jilet", "profesyonel jilet", "uzun ömürlü jilet", "keskin jilet", "dilme makinesi jileti", "razor blade industrial"],
     "isFeatured": true,
     "isActive": true,
-    "order": 103
+    "order": 280
   },
   {
-    "id": "b102",
-    "slug": "b102-slotted-dilme-jileti-tip-b",
-    "code": "B102",
-    "name": "B102 - SLOTTED DİLME JİLETİ – TİP B",
-    "description": "SLOTTED DİLME JİLETİ – TİP B. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "slotted-karbon-titanyum",
+    "slug": "slotted-dilme-jileti-karbon-celik-titanyum-kaplama",
+    "code": "SLT-KC-TiN",
+    "name": "Slotted Dilme Jileti - Karbon Çelik + Titanyum Kaplama",
+    "description": "Yüksek karbonlu çelik ana gövde üzerine TiN (Titanyum Nitrür) kaplama. PVD (Fiziksel Buhar Biriktirme) yöntemiyle uygulanan titanyum nitrür kaplama, kesici yüzeyde 2300 HV sertlik değerine ulaşır. Bu altın sarısı kaplama, sürtünme katsayısını %40 oranında düşürerek kesim sırasında ısı oluşumunu minimize eder. Slotted merkezi yuva tasarımı sayesinde makinelere tek hareketle montaj yapılır. Aşınma direnci kaplamasız versiyona göre 2-3 kat artarken, kesici kenarın keskinliği daha uzun süre korunur.",
     "categoryId": "industrial-blades",
     "subcategoryId": "slotted-slitting",
-    "image": "/images/products/b102-slotted-dilme-jileti-tip-b.jpg",
+    "image": "/images/products/slotted-karbon-titanyum.jpg",
+    "images": [],
     "variants": [
       {
-        "id": "b102-slotted-dilme-jileti-tip-b-standard",
-        "sku": "B102",
+        "id": "slotted-kc-tin-standard",
+        "sku": "SLT-KC-TiN",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yüksek Karbonlu Çelik + TiN Kaplama",
+      "hardness": "HRC 59-61 (Substrat) / 2300 HV (Kaplama)",
+      "coating": "TiN (Titanyum Nitrür) - PVD",
+      "edgeAngle": "22°",
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "TiN (Titanyum Nitrür) PVD kaplama",
+      "2300 HV yüzey sertliği",
+      "%40 düşük sürtünme katsayısı",
+      "Altın sarısı görünüm",
+      "2-3 kat artırılmış aşınma direnci",
+      "Isıya duyarlı malzemeler için ideal"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Yapışkan bant kesimi",
+      "Laminasyon dilme",
+      "Isıya duyarlı film kesimi",
+      "Hassas folyo dilme",
+      "Etiket kesimi"
     ],
+    "seoKeywords": ["slotted jilet titanyum", "titanyum kaplamalı jilet", "TiN kaplama jilet", "PVD kaplama jilet", "altın jilet", "yapışkan bant jileti", "laminasyon jileti", "slotted blade titanium", "titanium coated blade", "gold blade", "low friction blade", "film slitting blade", "label cutting blade", "endüstriyel titanyum jilet", "profesyonel kaplama jilet", "uzun ömürlü titanyum", "slitting blade TiN", "industrial razor blade coated"],
     "isFeatured": true,
     "isActive": true,
-    "order": 104
+    "order": 281
   },
   {
-    "id": "b103",
-    "slug": "b103-slotted-dilme-jileti-tip-c-standart-tip",
-    "code": "B103",
-    "name": "B103 - SLOTTED DİLME JİLETİ – TİP C (STANDART TİP)",
-    "description": "SLOTTED DİLME JİLETİ – TİP C (STANDART TİP). Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "slotted-karbon-seramik",
+    "slug": "slotted-dilme-jileti-karbon-celik-seramik-kaplama",
+    "code": "SLT-KC-CER",
+    "name": "Slotted Dilme Jileti - Karbon Çelik + Seramik Kaplama",
+    "description": "Yüksek karbonlu çelik substrat üzerine ileri seramik kaplama (titanyum bazlı). CVD/PVD hibrit teknolojisiyle uygulanan çok katmanlı seramik kaplama, 3200 HV'ye varan yüzey sertliği sağlar. Bu kaplama sistemi, aşırı aşındırıcı malzemelerin kesilmesinde üstün performans gösterir. Slotted montaj sistemi ile pratik kullanım sunar. Kimyasal inertliği sayesinde korozif ortamlarda bile uzun ömür sunar.",
     "categoryId": "industrial-blades",
     "subcategoryId": "slotted-slitting",
-    "image": "/images/products/b103-slotted-dilme-jileti-tip-c-standart-tip.jpg",
+    "image": "/images/products/slotted-karbon-seramik.jpg",
+    "images": [],
     "variants": [
       {
-        "id": "b103-slotted-dilme-jileti-tip-c-standart-tip-standard",
-        "sku": "B103",
+        "id": "slotted-kc-cer-standard",
+        "sku": "SLT-KC-CER",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yüksek Karbonlu Çelik + İleri Seramik Kaplama",
+      "hardness": "HRC 59-61 (Substrat) / 3200 HV (Kaplama)",
+      "coating": "İleri Seramik Kaplama (Titanyum Bazlı)",
+      "edgeAngle": "22°",
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "İleri seramik kaplama teknolojisi",
+      "3200 HV ultra yüksek yüzey sertliği",
+      "Aşındırıcı malzemeler için ideal",
+      "Kimyasal inertlik",
+      "Korozyon direnci",
+      "5-7 kat artırılmış ömür"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Aşındırıcı kağıt kesimi",
+      "Cam elyaf kompozit dilme",
+      "Karbon fiber kesimi",
+      "Zımpara kağıdı dilme",
+      "Teknik tekstil kesimi"
     ],
+    "seoKeywords": ["slotted jilet seramik", "seramik kaplamalı jilet", "ceramic coated blade", "aşındırıcı malzeme jileti", "cam elyaf jileti", "karbon fiber jileti", "zımpara kağıdı jileti", "teknik tekstil jileti", "ultra sert jilet", "3200 HV jilet", "slotted ceramic blade", "abrasive cutting blade", "fiberglass cutting blade", "carbon fiber blade", "sandpaper slitting blade", "industrial ceramic blade", "high hardness blade"],
     "isFeatured": true,
     "isActive": true,
-    "order": 105
+    "order": 282
   },
   {
-    "id": "b104",
-    "slug": "b104-slotted-dilme-jileti-tip-d",
-    "code": "B104",
-    "name": "B104 - SLOTTED DİLME JİLETİ – TİP D",
-    "description": "SLOTTED DİLME JİLETİ – TİP D. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "slotted-paslanmaz",
+    "slug": "slotted-dilme-jileti-paslanmaz-celik",
+    "code": "SLT-SS",
+    "name": "Slotted Dilme Jileti - Paslanmaz Çelik",
+    "description": "AISI 420 martensitik paslanmaz çelikten üretilmiş slotted dilme jileti. %12-14 krom içeriği sayesinde korozyon direnci sağlarken, martensitik yapısı HRC 54-56 sertlik değerine ulaşmayı mümkün kılar. Nemli ortamlarda, gıda sanayinde ve hijyen gerektiren uygulamalarda karbon çeliğe alternatif olarak tercih edilir. Slotted tasarımı ile makinelere pratik montaj imkanı sunar. Gıda ile temas eden yüzeylerde FDA onaylı kullanıma uygundur.",
     "categoryId": "industrial-blades",
     "subcategoryId": "slotted-slitting",
-    "image": "/images/products/b104-slotted-dilme-jileti-tip-d.jpg",
+    "image": "/images/products/slotted-paslanmaz.jpg",
+    "images": [],
     "variants": [
       {
-        "id": "b104-slotted-dilme-jileti-tip-d-standard",
-        "sku": "B104",
+        "id": "slotted-ss-standard",
+        "sku": "SLT-SS",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "AISI 420 Martensitik Paslanmaz Çelik",
+      "hardness": "HRC 54-56",
+      "chromiumContent": "%12-14 Krom",
+      "edgeAngle": "22°",
+      "heatTreatment": "Vakum Isıl İşlem"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Paslanmaz çelik (AISI 420)",
+      "%12-14 krom içeriği",
+      "Korozyon direnci",
+      "Hijyenik kullanım",
+      "FDA onaylı",
+      "Nemli ortamlara uygun"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Gıda ambalajı kesimi",
+      "Nemli ortam uygulamaları",
+      "Hijyenik üretim hatları",
+      "İlaç sektörü paketleme",
+      "Medikal ambalaj kesimi"
     ],
+    "seoKeywords": ["slotted jilet paslanmaz", "paslanmaz çelik jilet", "stainless steel blade", "gıda jileti", "hijyenik jilet", "FDA onaylı jilet", "korozyona dayanıklı jilet", "nemli ortam jileti", "AISI 420 jilet", "slotted stainless blade", "food grade blade", "hygienic blade", "corrosion resistant blade", "medical packaging blade", "pharmaceutical blade", "rust free blade", "inox jilet"],
     "isFeatured": true,
     "isActive": true,
-    "order": 106
+    "order": 283
   },
   {
-    "id": "38",
-    "slug": "38-x-8-injektor-dilme-jileti-yuvasiz-b203",
-    "code": "38",
-    "name": "38 - x 8 İNJEKTÖR DİLME JİLETİ – YUVASIZ B203",
-    "description": "x 8 İNJEKTÖR DİLME JİLETİ – YUVASIZ B203. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "slotted-paslanmaz-titanyum",
+    "slug": "slotted-dilme-jileti-paslanmaz-celik-titanyum-kaplama",
+    "code": "SLT-SS-TiN",
+    "name": "Slotted Dilme Jileti - Paslanmaz Çelik + Titanyum Kaplama",
+    "description": "AISI 420 martensitik paslanmaz çelik üzerine TiN (Titanyum Nitrür) kaplama. Paslanmaz çeliğin korozyon direnci ile titanyum kaplamanın aşınma direncini birleştiren hibrit çözüm. PVD yöntemiyle uygulanan TiN kaplama, kesici kenarın sertliğini 2300 HV'ye çıkarır. Slotted yuva sistemi ile hızlı bıçak değişimi yapılabilir. Hem nemli hem de aşındırıcı ortamlarda çift koruma sağlar.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
-    "image": "/images/products/38-x-8-injektor-dilme-jileti-yuvasiz-b203.jpg",
+    "subcategoryId": "slotted-slitting",
+    "image": "/images/products/slotted-paslanmaz-titanyum.jpg",
+    "images": [],
     "variants": [
       {
-        "id": "38-x-8-injektor-dilme-jileti-yuvasiz-b203-standard",
-        "sku": "38",
+        "id": "slotted-ss-tin-standard",
+        "sku": "SLT-SS-TiN",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "AISI 420 Paslanmaz Çelik + TiN Kaplama",
+      "hardness": "HRC 54-56 (Substrat) / 2300 HV (Kaplama)",
+      "coating": "TiN (Titanyum Nitrür) - PVD",
+      "chromiumContent": "%12-14 Krom",
+      "edgeAngle": "22°"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Paslanmaz + Titanyum çift koruma",
+      "Korozyon + Aşınma direnci",
+      "2300 HV yüzey sertliği",
+      "Hijyenik ve dayanıklı",
+      "Altın sarısı paslanmaz",
+      "Zorlu ortamlar için ideal"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Gıda laminasyonu kesimi",
+      "İlaç blister ambalaj dilme",
+      "Nemli yapışkan bant kesimi",
+      "Steril ambalaj üretimi",
+      "Medikal folyo dilme"
     ],
+    "seoKeywords": ["slotted paslanmaz titanyum jilet", "paslanmaz titanyum kaplama", "stainless titanium blade", "TiN paslanmaz jilet", "gıda laminasyon jileti", "ilaç ambalaj jileti", "blister kesim jileti", "steril ambalaj jileti", "medikal folyo jileti", "slotted stainless TiN", "dual protection blade", "corrosion wear resistant", "hygienic titanium blade", "pharmaceutical cutting blade", "medical foil blade", "premium slotted blade"],
     "isFeatured": true,
     "isActive": true,
-    "order": 107
+    "order": 284
+  },
+  {
+    "id": "slotted-paslanmaz-xcd",
+    "slug": "slotted-dilme-jileti-paslanmaz-celik-xcd-kaplama",
+    "code": "SLT-SS-XCD",
+    "name": "Slotted Dilme Jileti - Paslanmaz Çelik + XCD Kaplama",
+    "description": "AISI 420 paslanmaz çelik üzerine XCD (Xtreme Carbon Diamond) kaplama teknolojisi. DLC (Diamond-Like Carbon) ailesinden olan bu kaplama, elmas benzeri karbon yapısı sayesinde 5000 HV'ye varan sertlik değerleri sunar. Sürtünme katsayısı 0.1'in altına düşerek mükemmel kayma özelliği sağlar. Slotted montaj sistemi ile profesyonel kullanım sunar. En yapışkan malzemelerin bile kesici kenara yapışmasını önler.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
+    "image": "/images/products/slotted-paslanmaz-xcd.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "slotted-ss-xcd-standard",
+        "sku": "SLT-SS-XCD",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "AISI 420 Paslanmaz Çelik + XCD Kaplama",
+      "hardness": "HRC 54-56 (Substrat) / 5000 HV (Kaplama)",
+      "coating": "XCD (Xtreme Carbon Diamond) - DLC",
+      "frictionCoefficient": "<0.1",
+      "edgeAngle": "22°"
+    },
+    "features": [
+      "XCD elmas benzeri karbon kaplama",
+      "5000 HV ultra yüksek sertlik",
+      "<0.1 sürtünme katsayısı",
+      "Mükemmel yapışmazlık",
+      "Siyah elmas görünüm",
+      "En zorlu uygulamalar için"
+    ],
+    "applications": [
+      "Ultra yapışkan bant kesimi",
+      "Silikon kaplı malzeme dilme",
+      "Yapışkan etiket kesimi",
+      "Reçine emdirilmiş kumaş dilme",
+      "Medikal yapışkan bantlar"
+    ],
+    "seoKeywords": ["slotted jilet XCD kaplama", "elmas kaplama jilet", "DLC kaplama jilet", "diamond coated blade", "yapışkan bant jileti", "silikon kaplama kesim", "yapışkan etiket jileti", "ultra düşük sürtünme jilet", "5000 HV jilet", "slotted XCD blade", "diamond like carbon blade", "non-stick blade", "adhesive tape blade", "silicone cutting blade", "resin impregnated fabric blade", "medical adhesive blade", "premium diamond blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 285
+  },
+  {
+    "id": "slotted-endurium-seramik",
+    "slug": "slotted-dilme-jileti-endurium-celik-seramik-kaplama",
+    "code": "SLT-END-CER",
+    "name": "Slotted Dilme Jileti - Endurium Çelik + Seramik Kaplama",
+    "description": "Endurium HSS (Yüksek Hız Çeliği) substrat üzerine çok katmanlı seramik kaplama. HSS çeliğinin yüksek sıcaklık dayanımı (%8-10 tungsten, %4-5 molibden, %4 krom) ile seramik kaplamanın aşırı sertliğini birleştiren premium çözüm. 600°C'ye kadar sertlik kaybı yaşamaz, kesintili kesimlerde ve yüksek hızlı uygulamalarda termal şoka karşı dirençlidir. Slotted tasarımı ile profesyonel makinelere uyumludur. En zorlu endüstriyel uygulamalar için tasarlanmıştır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
+    "image": "/images/products/slotted-endurium-seramik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "slotted-end-cer-standard",
+        "sku": "SLT-END-CER",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Endurium HSS + İleri Seramik Kaplama",
+      "hardness": "HRC 64-66 (Substrat) / 3500 HV (Kaplama)",
+      "coating": "Çok Katmanlı İleri Seramik",
+      "tempResistance": "600°C",
+      "edgeAngle": "25°"
+    },
+    "features": [
+      "Endurium HSS yüksek hız çeliği",
+      "HRC 64-66 substrat sertliği",
+      "3500 HV seramik kaplama",
+      "600°C sıcaklık dayanımı",
+      "Termal şok direnci",
+      "En uzun ömürlü slotted jilet"
+    ],
+    "applications": [
+      "Yüksek hızlı dilme operasyonları",
+      "Kesintili kesim uygulamaları",
+      "Metal folyo dilme",
+      "Kompozit malzeme kesimi",
+      "7/24 üretim hatları"
+    ],
+    "seoKeywords": ["slotted jilet Endurium", "HSS jilet", "yüksek hız çeliği jilet", "seramik kaplama HSS", "600 derece jilet", "metal folyo jileti", "kompozit kesim jileti", "slotted HSS blade", "high speed steel blade", "Endurium ceramic blade", "thermal shock resistant blade", "high temperature blade", "metal foil slitting", "composite cutting blade", "continuous production blade", "premium industrial blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 286
+  },
+  {
+    "id": "slotted-yekpare-tungsten",
+    "slug": "slotted-dilme-jileti-yekpare-tungsten-karbur",
+    "code": "SLT-TC",
+    "name": "Slotted Dilme Jileti - Yekpare Tungsten Karbür",
+    "description": "Yekpare tungsten karbür (WC-Co) kompozisyonundan üretilmiş slotted dilme jileti. %94 tungsten karbür ve %6 kobalt bağlayıcı içeren bu sinter malzeme, HRA 92-94 (HRC 75+ eşdeğeri) sertlik değerine ulaşır. Toz metalurjisi yöntemiyle üretilen yekpare yapı, kaynak veya lehim gerektirmeden monolitik bütünlük sağlar. Slotted merkezi yuva sayesinde makinelere güvenli montaj yapılır. Çelik jiletlerin hiçbir şekilde kesemeyeceği ultra aşındırıcı malzemelerin kesilmesinde kullanılır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
+    "image": "/images/products/slotted-yekpare-tungsten.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "slotted-tc-standard",
+        "sku": "SLT-TC",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Tungsten Karbür (WC-Co)",
+      "hardness": "HRA 92-94 (HRC 75+ eşdeğer)",
+      "composition": "%94 WC + %6 Co",
+      "density": "14.8 g/cm³",
+      "edgeAngle": "30°"
+    },
+    "features": [
+      "Yekpare tungsten karbür yapı",
+      "HRA 92-94 ultra yüksek sertlik",
+      "Monolitik bütünlük",
+      "Toz metalurjisi üretim",
+      "20-50 kat çelikten uzun ömür",
+      "Aşırı aşındırıcı malzemeler için"
+    ],
+    "applications": [
+      "Seramik kaplı kağıt kesimi",
+      "Metal folyo dilme",
+      "Aşındırıcı kompozit kesimi",
+      "Karbon nanotüp film dilme",
+      "Pil elektrot malzemesi kesimi"
+    ],
+    "seoKeywords": ["slotted tungsten karbür jilet", "yekpare tungsten jilet", "karbür jilet", "WC jilet", "tungsten carbide blade", "solid carbide blade", "seramik kağıt jileti", "metal folyo jileti", "pil elektrot jileti", "slotted carbide blade", "monolithic carbide", "ultra hard blade", "abrasive material blade", "battery electrode blade", "ceramic paper blade", "premium tungsten blade", "carbide slitting blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 287
+  },
+  {
+    "id": "slotted-yekpare-seramik",
+    "slug": "slotted-dilme-jileti-yekpare-seramik-zirkonya",
+    "code": "SLT-ZR",
+    "name": "Slotted Dilme Jileti - Yekpare Seramik (Zirkonya)",
+    "description": "Yekpare zirkonya (ZrO2) seramikten üretilmiş slotted dilme jileti. Tetragonal polikristal zirkonya (Y-TZP) yapısı, çatlamaya karşı olağanüstü direnç sağlarken 1200 HV sertlik değerini korur. Tamamen metalden bağımsız bu jilet, elektriksel iletkenlik istenmediği veya metal kontaminasyonunun kabul edilemez olduğu uygulamalar için tasarlanmıştır. Slotted tasarımı ile standart makinelere uyumludur. Biyouyumluluk gerektiren medikal ve gıda uygulamalarında tercih edilir.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "slotted-slitting",
+    "image": "/images/products/slotted-yekpare-seramik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "slotted-zr-standard",
+        "sku": "SLT-ZR",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Zirkonya Seramik (Y-TZP)",
+      "hardness": "1200 HV",
+      "density": "6.05 g/cm³",
+      "electricalConductivity": "Yok (İzolator)",
+      "edgeAngle": "25°"
+    },
+    "features": [
+      "Yekpare zirkonya seramik",
+      "Metal kontaminasyonu yok",
+      "Elektriksel izolator",
+      "Biyouyumlu malzeme",
+      "Kırılma tokluğu yüksek",
+      "Kimyasal inertlik"
+    ],
+    "applications": [
+      "Gıda sektörü (metal dedektör geçişi)",
+      "Elektronik komponent kesimi",
+      "Pil seperatör film dilme",
+      "Medikal steril ambalaj",
+      "Temiz oda uygulamaları"
+    ],
+    "seoKeywords": ["slotted seramik jilet", "zirkonya jilet", "ceramic blade", "zirconia blade", "metal kontaminasyonsuz jilet", "gıda sektörü jilet", "elektronik kesim jileti", "pil seperatör jileti", "medikal ambalaj jileti", "slotted ceramic blade", "non-conductive blade", "food industry blade", "cleanroom blade", "battery separator blade", "medical packaging blade", "biocompatible blade", "Y-TZP blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 288
+  },
+  {
+    "id": "injektor-karbon-celik",
+    "slug": "injektor-jilet-karbon-celik-2-yuvali",
+    "code": "INJ-KC-2S",
+    "name": "İnjektör Jilet - Karbon Çelik, 2 Yuvalı",
+    "description": "38x8x0.25mm boyutlarında yüksek karbonlu çelikten üretilmiş 2 yuvalı injektör jilet. Özel olarak formüle edilmiş SK5/C85 kalite çelik (%0.85-1.00 karbon içeriği), kontrollü atmosfer fırınlarında hassas ısıl işlemle martensitik yapıya dönüştürülür. 2 yuvalı tasarım, standart injektör tutucularına milimetrik hassasiyetle oturarak titreşimsiz kesim sağlar. Optimum 20° bileme açısı ile ince malzemelerde temiz ve çapaksız kesim elde edilir. Kompakt boyutları sayesinde dar alanlarda ve hassas kesim gerektiren uygulamalarda tercih edilir.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-karbon-celik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-kc-2s-standard",
+        "sku": "INJ-KC-2S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik (SK5 / C85)",
+      "hardness": "HRC 59-61",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "carbonContent": "%0.85-1.00",
+      "edgeAngle": "20°",
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
+    },
+    "features": [
+      "38x8x0.25mm standart injektör boyutu",
+      "2 yuvalı güvenli montaj sistemi",
+      "Yüksek karbon oranı (%0.85-1.00)",
+      "Martensitik mikro yapı",
+      "Optimum 20° bileme açısı",
+      "Titreşimsiz hassas kesim"
+    ],
+    "applications": [
+      "Hassas etiket kesimi",
+      "İnce film dilme",
+      "Laboratuvar uygulamaları",
+      "Mikro-kesim operasyonları",
+      "Elektronik komponent kesimi"
+    ],
+    "seoKeywords": ["injektör jilet", "injektor jilet", "38x8 jilet", "38x8x0.25 jilet", "2 yuvalı jilet", "injector blade", "karbon çelik injektör", "hassas kesim jileti", "etiket kesim jileti", "film dilme jileti", "laboratuvar jileti", "mikro kesim", "injector razor blade", "slitting blade 38x8", "industrial injector blade", "precision cutting blade", "label cutting blade", "SK5 injektör jilet"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 300
+  },
+  {
+    "id": "injektor-paslanmaz",
+    "slug": "injektor-jilet-paslanmaz-celik-2-yuvali",
+    "code": "INJ-SS-2S",
+    "name": "İnjektör Jilet - Paslanmaz Çelik, 2 Yuvalı",
+    "description": "38x8x0.25mm boyutlarında AISI 420 martensitik paslanmaz çelikten üretilmiş 2 yuvalı injektör jilet. %12-14 krom içeriği sayesinde nemli ortamlarda ve korozif şartlarda üstün dayanım sağlar. Gıda, ilaç ve medikal sektörlerde hijyen standartlarına uygun FDA onaylı malzeme. Paslanmaz yapısı sayesinde sterilizasyon işlemlerine dayanıklıdır. 2 yuvalı montaj sistemi ile injektör tutucularına güvenli şekilde sabitlenir.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-paslanmaz.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-ss-2s-standard",
+        "sku": "INJ-SS-2S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "AISI 420 Martensitik Paslanmaz Çelik",
+      "hardness": "HRC 54-56",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "chromiumContent": "%12-14 Krom",
+      "edgeAngle": "20°",
+      "heatTreatment": "Vakum Isıl İşlem"
+    },
+    "features": [
+      "38x8x0.25mm paslanmaz injektör",
+      "AISI 420 martensitik paslanmaz çelik",
+      "%12-14 krom ile korozyon direnci",
+      "FDA onaylı hijyenik malzeme",
+      "Sterilizasyona dayanıklı",
+      "Nemli ortamlara uygun"
+    ],
+    "applications": [
+      "Gıda ambalajı kesimi",
+      "İlaç sektörü paketleme",
+      "Medikal bant kesimi",
+      "Hijyenik üretim hatları",
+      "Nemli ortam uygulamaları"
+    ],
+    "seoKeywords": ["injektör jilet paslanmaz", "paslanmaz injektor jilet", "stainless injector blade", "38x8 paslanmaz jilet", "gıda jileti", "medikal jilet", "hijyenik jilet", "FDA onaylı jilet", "AISI 420 injektör", "korozyona dayanıklı jilet", "steril jilet", "ilaç sektörü jileti", "paslanmaz 38x8x0.25", "rust free blade", "food grade injector blade", "medical cutting blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 301
+  },
+  {
+    "id": "injektor-paslanmaz-ptfe",
+    "slug": "injektor-jilet-paslanmaz-celik-ptfe-kaplama-2-yuvali",
+    "code": "INJ-SS-PTFE-2S",
+    "name": "İnjektör Jilet - Paslanmaz Çelik + PTFE Kaplama, 2 Yuvalı",
+    "description": "38x8x0.25mm boyutlarında AISI 420 paslanmaz çelik üzerine PTFE (Teflon) kaplama. Politetrafloroetilen kaplama, bilinen en düşük sürtünme katsayılarından birine (~0.04) sahiptir. Bu yapışmaz yüzey, en yapışkan malzemelerin bile kesici kenara yapışmasını önler. Özellikle yapışkanlı bantlar, silikon bazlı malzemeler ve reçineli ürünlerin kesilmesinde üstün performans gösterir. PTFE'nin biyouyumluluğu sayesinde medikal uygulamalarda güvenle kullanılır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-paslanmaz-ptfe.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-ss-ptfe-2s-standard",
+        "sku": "INJ-SS-PTFE-2S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "AISI 420 Paslanmaz Çelik + PTFE Kaplama",
+      "hardness": "HRC 54-56 (Substrat)",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "coating": "PTFE (Politetrafloroetilen / Teflon)",
+      "frictionCoefficient": "~0.04",
+      "edgeAngle": "20°"
+    },
+    "features": [
+      "PTFE (Teflon) yapışmaz kaplama",
+      "~0.04 ultra düşük sürtünme katsayısı",
+      "Yapışkan malzemeler için ideal",
+      "Biyouyumlu kaplama",
+      "Kolay temizlenebilir yüzey",
+      "Medikal uygulamalara uygun"
+    ],
+    "applications": [
+      "Yapışkan bant kesimi",
+      "Silikon malzeme dilme",
+      "Medikal yara bandı kesimi",
+      "Reçineli ürün kesimi",
+      "Etiket ve sticker kesimi"
+    ],
+    "seoKeywords": ["injektör jilet PTFE", "teflon kaplamalı jilet", "yapışmaz jilet", "PTFE coated blade", "teflon blade", "non-stick injector blade", "yapışkan bant jileti", "silikon kesim jileti", "medikal bant jileti", "düşük sürtünme jilet", "38x8 PTFE jilet", "adhesive tape blade", "sticker cutting blade", "low friction blade", "medical tape blade", "paslanmaz PTFE injektör"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 302
+  },
+  {
+    "id": "injektor-paslanmaz-seramik",
+    "slug": "injektor-jilet-paslanmaz-celik-seramik-kaplama-2-yuvali",
+    "code": "INJ-SS-CER-2S",
+    "name": "İnjektör Jilet - Paslanmaz Çelik + Seramik Kaplama, 2 Yuvalı",
+    "description": "38x8x0.25mm boyutlarında AISI 420 paslanmaz çelik üzerine ileri seramik kaplama (titanyum bazlı). CVD/PVD hibrit teknolojisiyle uygulanan çok katmanlı seramik kaplama, 3200 HV'ye varan yüzey sertliği sağlar. Kompakt injektör boyutunda maksimum aşınma direnci sunar. Aşındırıcı malzemelerin hassas kesiminde ve uzun süreli operasyonlarda üstün performans gösterir. Kimyasal inertliği sayesinde reaktif malzemelerle çalışmaya uygundur.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-paslanmaz-seramik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-ss-cer-2s-standard",
+        "sku": "INJ-SS-CER-2S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "AISI 420 Paslanmaz Çelik + İleri Seramik Kaplama",
+      "hardness": "HRC 54-56 (Substrat) / 3200 HV (Kaplama)",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "coating": "İleri Seramik Kaplama (Titanyum Bazlı)",
+      "edgeAngle": "20°"
+    },
+    "features": [
+      "İleri seramik kaplama teknolojisi",
+      "3200 HV ultra yüksek yüzey sertliği",
+      "Aşındırıcı malzemeler için ideal",
+      "Kimyasal inertlik",
+      "Paslanmaz substrat koruması",
+      "5-7 kat artırılmış ömür"
+    ],
+    "applications": [
+      "Aşındırıcı kağıt kesimi",
+      "Kompozit malzeme dilme",
+      "Teknik tekstil kesimi",
+      "Hassas cam elyaf kesimi",
+      "Zımpara ürünleri dilme"
+    ],
+    "seoKeywords": ["injektör jilet seramik", "seramik kaplamalı injektör", "ceramic coated injector blade", "38x8 seramik jilet", "aşındırıcı malzeme jileti", "kompozit kesim jileti", "ultra sert jilet", "3200 HV jilet", "paslanmaz seramik injektör", "abrasive material blade", "composite cutting blade", "technical textile blade", "high hardness injector", "wear resistant blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 303
+  },
+  {
+    "id": "injektor-paslanmaz-titanyum",
+    "slug": "injektor-jilet-paslanmaz-celik-titanyum-kaplama-2-yuvali",
+    "code": "INJ-SS-TiN-2S",
+    "name": "İnjektör Jilet - Paslanmaz Çelik + Titanyum Kaplama, 2 Yuvalı",
+    "description": "38x8x0.25mm boyutlarında AISI 420 paslanmaz çelik üzerine TiN (Titanyum Nitrür) kaplama. PVD yöntemiyle uygulanan altın sarısı titanyum nitrür kaplama, 2300 HV yüzey sertliği ile kesici kenarın ömrünü 2-3 kat uzatır. Sürtünme katsayısını %40 düşürerek ısı oluşumunu minimize eder. Paslanmaz substratın korozyon direnci ile titanyum kaplamanın aşınma direncini birleştiren hibrit çözüm. Isıya duyarlı ince filmlerin hassas kesiminde idealdir.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-paslanmaz-titanyum.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-ss-tin-2s-standard",
+        "sku": "INJ-SS-TiN-2S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "AISI 420 Paslanmaz Çelik + TiN Kaplama",
+      "hardness": "HRC 54-56 (Substrat) / 2300 HV (Kaplama)",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "coating": "TiN (Titanyum Nitrür) - PVD",
+      "edgeAngle": "20°"
+    },
+    "features": [
+      "TiN (Titanyum Nitrür) PVD kaplama",
+      "2300 HV yüzey sertliği",
+      "%40 düşük sürtünme katsayısı",
+      "Altın sarısı görünüm",
+      "Paslanmaz + Titanyum çift koruma",
+      "Isıya duyarlı malzemeler için ideal"
+    ],
+    "applications": [
+      "Hassas film kesimi",
+      "Optik film dilme",
+      "Elektronik folyo kesimi",
+      "Laminasyon dilme",
+      "Isıya duyarlı ambalaj kesimi"
+    ],
+    "seoKeywords": ["injektör jilet titanyum", "titanyum kaplamalı injektör", "TiN injector blade", "38x8 titanyum jilet", "altın jilet", "PVD kaplama injektör", "paslanmaz titanyum jilet", "film kesim jileti", "optik film jileti", "elektronik folyo jileti", "titanium coated blade", "gold injector blade", "low friction injector", "precision film blade", "lamination cutting blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 304
+  },
+  {
+    "id": "injektor-paslanmaz-titanyum-2-kanalli",
+    "slug": "injektor-jilet-paslanmaz-celik-titanyum-kaplama-2-kanalli-yuvali",
+    "code": "INJ-SS-TiN-2CH",
+    "name": "İnjektör Jilet - Paslanmaz Çelik + Titanyum Kaplama, 2 Kanallı Yuvalı",
+    "description": "38x8x0.25mm boyutlarında AISI 420 paslanmaz çelik üzerine TiN kaplama, 2 kanallı yuva tasarımı. Standart 2 yuvalı modelden farklı olarak, her yuvada çift kanal bulunan bu tasarım, tutucuya daha güçlü kavrama ve üstün stabilite sağlar. Yüksek hızlı kesim operasyonlarında ve titreşime duyarlı uygulamalarda jilet kaymasını önler. Titanyum kaplamanın düşük sürtünme ve aşınma direnci avantajları ile 2 kanallı yuvanın mekanik stabilitesini birleştirir.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-paslanmaz-titanyum-2-kanalli.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-ss-tin-2ch-standard",
+        "sku": "INJ-SS-TiN-2CH",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "AISI 420 Paslanmaz Çelik + TiN Kaplama",
+      "hardness": "HRC 54-56 (Substrat) / 2300 HV (Kaplama)",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "coating": "TiN (Titanyum Nitrür) - PVD",
+      "slotType": "2 Kanallı Yuva (Güçlendirilmiş Kavrama)",
+      "edgeAngle": "20°"
+    },
+    "features": [
+      "2 kanallı yuva - güçlendirilmiş kavrama",
+      "Yüksek hızlı operasyonlar için stabilite",
+      "Titreşimsiz kesim garantisi",
+      "TiN titanyum kaplama",
+      "Kayma önleyici tasarım",
+      "Profesyonel makineler için"
+    ],
+    "applications": [
+      "Yüksek hızlı dilme operasyonları",
+      "Hassas toleranslı kesim",
+      "Otomatik kesim hatları",
+      "Titreşime duyarlı uygulamalar",
+      "Sürekli üretim hatları"
+    ],
+    "seoKeywords": ["injektör jilet 2 kanallı", "2 kanallı yuva jilet", "çift kanallı injektör", "dual channel injector blade", "38x8 2 kanallı", "güçlendirilmiş kavrama jilet", "yüksek hız jilet", "stabilite jilet", "titreşimsiz kesim", "profesyonel injektör", "automatic cutting blade", "high speed injector blade", "precision slitting blade", "anti-slip blade", "continuous production blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 305
+  },
+  {
+    "id": "injektor-paslanmaz-xcd",
+    "slug": "injektor-jilet-paslanmaz-celik-xcd-kaplama-2-yuvali",
+    "code": "INJ-SS-XCD-2S",
+    "name": "İnjektör Jilet - Paslanmaz Çelik + XCD Kaplama, 2 Yuvalı",
+    "description": "38x8x0.25mm boyutlarında AISI 420 paslanmaz çelik üzerine XCD (Xtreme Carbon Diamond) kaplama. DLC (Diamond-Like Carbon) ailesinden olan bu kaplama, elmas benzeri karbon yapısı sayesinde 5000 HV'ye varan sertlik değerleri sunar. Sürtünme katsayısı 0.1'in altına düşerek mükemmel kayma özelliği sağlar. Siyah elmas görünümü ile premium kaliteyi yansıtır. En yapışkan malzemelerin bile kesici kenara yapışmasını önleyen üstün yapışmazlık özelliği sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-paslanmaz-xcd.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-ss-xcd-2s-standard",
+        "sku": "INJ-SS-XCD-2S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "AISI 420 Paslanmaz Çelik + XCD Kaplama",
+      "hardness": "HRC 54-56 (Substrat) / 5000 HV (Kaplama)",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "coating": "XCD (Xtreme Carbon Diamond) - DLC",
+      "frictionCoefficient": "<0.1",
+      "edgeAngle": "20°"
+    },
+    "features": [
+      "XCD elmas benzeri karbon kaplama",
+      "5000 HV ultra yüksek sertlik",
+      "<0.1 sürtünme katsayısı",
+      "Mükemmel yapışmazlık",
+      "Siyah elmas görünüm",
+      "Premium kalite kaplama"
+    ],
+    "applications": [
+      "Ultra yapışkan bant kesimi",
+      "Silikon kaplı malzeme dilme",
+      "Reçine emdirilmiş kumaş kesimi",
+      "Yapışkan etiket dilme",
+      "Özel yapışkanlı ürünler"
+    ],
+    "seoKeywords": ["injektör jilet XCD", "elmas kaplama injektör", "DLC injector blade", "diamond coated blade", "38x8 XCD jilet", "siyah elmas jilet", "yapışkan bant jileti", "silikon kesim jileti", "5000 HV jilet", "ultra düşük sürtünme", "black diamond blade", "non-stick injector", "adhesive cutting blade", "DLC kaplama jilet", "premium injector blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 306
+  },
+  {
+    "id": "injektor-yekpare-tungsten",
+    "slug": "injektor-jilet-yekpare-tungsten-karbur-yuvasiz",
+    "code": "INJ-TC-NS",
+    "name": "İnjektör Jilet - Yekpare Tungsten Karbür, Yuvasız",
+    "description": "38x8x0.25mm boyutlarında yekpare tungsten karbür (WC-Co) kompozisyonundan üretilmiş yuvasız injektör jilet. %94 tungsten karbür ve %6 kobalt bağlayıcı içeren bu sinter malzeme, HRA 92-94 (HRC 75+ eşdeğeri) sertlik değerine ulaşır. Yuvasız tasarım, özel tutuculara veya direkt yapıştırma/lehimleme uygulamalarına olanak tanır. Gri metalik görünümü ile çelikten kolayca ayırt edilir. Çelik jiletlerin kesemeyeceği ultra aşındırıcı malzemelerin hassas mikro-kesiminde kullanılır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-yekpare-tungsten.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-tc-ns-standard",
+        "sku": "INJ-TC-NS",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Tungsten Karbür (WC-Co)",
+      "hardness": "HRA 92-94 (HRC 75+ eşdeğer)",
+      "dimensions": "38 x 8 x 0.25 mm",
+      "composition": "%94 WC + %6 Co",
+      "density": "14.8 g/cm³",
+      "edgeAngle": "25°",
+      "slotType": "Yuvasız"
+    },
+    "features": [
+      "Yekpare tungsten karbür yapı",
+      "HRA 92-94 ultra yüksek sertlik",
+      "Yuvasız özel montaj tasarımı",
+      "Gri metalik görünüm",
+      "20-50 kat çelikten uzun ömür",
+      "Monolitik bütünlük"
+    ],
+    "applications": [
+      "Ultra aşındırıcı malzeme mikro-kesimi",
+      "Seramik kaplı kağıt dilme",
+      "Metal folyo hassas kesimi",
+      "Pil elektrot malzemesi dilme",
+      "Özel tutucu uygulamaları"
+    ],
+    "seoKeywords": ["injektör jilet tungsten", "tungsten karbür injektör", "yekpare tungsten jilet", "tungsten carbide injector blade", "38x8 tungsten jilet", "yuvasız jilet", "WC jilet", "karbür injektör", "ultra sert jilet", "HRA 92 jilet", "solid carbide blade", "metal foil blade", "battery electrode blade", "monolithic carbide", "slotless injector blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 307
+  },
+  {
+    "id": "injektor-yekpare-seramik-030",
+    "slug": "injektor-jilet-yekpare-seramik-zirkonya-yuvasiz-030",
+    "code": "INJ-ZR-NS-030",
+    "name": "İnjektör Jilet - Yekpare Seramik (Zirkonya), Yuvasız - 0.30mm",
+    "description": "38x8x0.30mm boyutlarında yekpare zirkonya (ZrO2) seramikten üretilmiş yuvasız injektör jilet. Bembeyaz görünümü ile anında ayırt edilebilen bu jilet, tetragonal polikristal zirkonya (Y-TZP) yapısına sahiptir. Tamamen metalden bağımsız olup elektriksel iletkenlik göstermez ve metal kontaminasyonu riski taşımaz. Biyouyumluluk sertifikasına sahip olup gıda ve medikal uygulamalarda güvenle kullanılır. Metal dedektörlü hatlardan sorunsuz geçiş sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-yekpare-seramik-030.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-zr-ns-030-standard",
+        "sku": "INJ-ZR-NS-030",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Zirkonya Seramik (Y-TZP)",
+      "hardness": "1200 HV",
+      "dimensions": "38 x 8 x 0.30 mm",
+      "density": "6.05 g/cm³",
+      "color": "Beyaz (Bembeyaz Seramik)",
+      "electricalConductivity": "Yok (İzolator)",
+      "edgeAngle": "25°",
+      "slotType": "Yuvasız"
+    },
+    "features": [
+      "Bembeyaz yekpare zirkonya seramik",
+      "Metal kontaminasyonu yok",
+      "Elektriksel izolator",
+      "Biyouyumlu malzeme",
+      "Metal dedektör geçişli",
+      "FDA uyumlu gıda kalitesi"
+    ],
+    "applications": [
+      "Gıda sektörü (metal dedektörlü hatlar)",
+      "Elektronik komponent kesimi",
+      "Pil seperatör film dilme",
+      "Medikal steril ambalaj",
+      "Temiz oda uygulamaları"
+    ],
+    "seoKeywords": ["injektör jilet seramik", "beyaz seramik jilet", "zirkonya injektör", "ceramic injector blade", "white ceramic blade", "38x8x0.30 jilet", "metal kontaminasyonsuz", "gıda jileti", "medikal jilet", "biyouyumlu jilet", "zirconia blade", "non-conductive blade", "food industry blade", "cleanroom blade", "Y-TZP injector", "metal detector safe blade"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 308
+  },
+  {
+    "id": "injektor-yekpare-seramik-064",
+    "slug": "injektor-jilet-yekpare-seramik-zirkonya-yuvasiz-064",
+    "code": "INJ-ZR-NS-064",
+    "name": "İnjektör Jilet - Yekpare Seramik (Zirkonya), Yuvasız - 0.64mm",
+    "description": "38x8x0.64mm boyutlarında kalın kesitli yekpare zirkonya seramik injektör jilet. Standart 0.30mm versiyonunun 2 katından fazla kalınlığa sahip bu model, daha yüksek mekanik mukavemet ve uzun ömür sunar. Bembeyaz görünümü ile premium kaliteyi yansıtır. Ağır hizmet uygulamalarında ve daha kalın malzemelerin kesilmesinde tercih edilir. Yuvasız tasarımı özel montaj çözümlerine olanak tanır. Y-TZP seramik yapısı yüksek kırılma tokluğu sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-yekpare-seramik-064.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-zr-ns-064-standard",
+        "sku": "INJ-ZR-NS-064",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Zirkonya Seramik (Y-TZP)",
+      "hardness": "1200 HV",
+      "dimensions": "38 x 8 x 0.64 mm",
+      "density": "6.05 g/cm³",
+      "color": "Beyaz (Bembeyaz Seramik)",
+      "electricalConductivity": "Yok (İzolator)",
+      "edgeAngle": "25°",
+      "slotType": "Yuvasız"
+    },
+    "features": [
+      "0.64mm kalın kesit - yüksek mukavemet",
+      "Bembeyaz yekpare zirkonya",
+      "Ağır hizmet uygulamaları için",
+      "Yüksek kırılma tokluğu",
+      "Metal kontaminasyonu yok",
+      "Uzun ömürlü seramik yapı"
+    ],
+    "applications": [
+      "Ağır hizmet gıda kesimi",
+      "Kalın malzeme dilme",
+      "Yoğun kullanım hatları",
+      "Endüstriyel temiz oda",
+      "Premium medikal uygulamalar"
+    ],
+    "seoKeywords": ["injektör jilet seramik 0.64", "kalın seramik jilet", "0.64mm zirkonya jilet", "thick ceramic blade", "heavy duty ceramic", "38x8x0.64 jilet", "beyaz seramik injektör", "yüksek mukavemet jilet", "ağır hizmet jileti", "premium seramik blade", "industrial zirconia", "durable ceramic blade", "white zirconia injector", "thick blade", "high strength ceramic"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 309
+  },
+  {
+    "id": "injektor-endurium-seramik",
+    "slug": "injektor-jilet-endurium-celik-seramik-kaplama-2-yuvali",
+    "code": "INJ-END-CER-2S",
+    "name": "İnjektör Jilet - Endurium Çelik + Seramik Kaplama, 2 Yuvalı",
+    "description": "38x8x0.36mm boyutlarında Endurium HSS (Yüksek Hız Çeliği) substrat üzerine çok katmanlı seramik kaplama. HSS çeliğinin yüksek sıcaklık dayanımı (%8-10 tungsten, %4-5 molibden, %4 krom) ile seramik kaplamanın aşırı sertliğini birleştiren premium injektör jilet. 600°C'ye kadar sertlik kaybı yaşamaz, yüksek hızlı ve kesintili kesim operasyonlarında termal şoka karşı dirençlidir. En zorlu endüstriyel mikro-kesim uygulamaları için tasarlanmıştır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "injector-slitting",
+    "image": "/images/products/injektor-endurium-seramik.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "inj-end-cer-2s-standard",
+        "sku": "INJ-END-CER-2S",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Endurium HSS + İleri Seramik Kaplama",
+      "hardness": "HRC 64-66 (Substrat) / 3500 HV (Kaplama)",
+      "dimensions": "38 x 8 x 0.36 mm",
+      "coating": "Çok Katmanlı İleri Seramik",
+      "tempResistance": "600°C",
+      "edgeAngle": "22°"
+    },
+    "features": [
+      "Endurium HSS yüksek hız çeliği",
+      "HRC 64-66 substrat sertliği",
+      "3500 HV seramik kaplama",
+      "600°C sıcaklık dayanımı",
+      "Termal şok direnci",
+      "0.36mm özel kalınlık"
+    ],
+    "applications": [
+      "Yüksek hızlı mikro-dilme",
+      "Kesintili hassas kesim",
+      "Metal folyo mikro-kesimi",
+      "7/24 sürekli üretim",
+      "Termal yük altında kesim"
+    ],
+    "seoKeywords": ["injektör jilet Endurium", "HSS injektör jilet", "yüksek hız çeliği jilet", "38x8x0.36 jilet", "600 derece dayanım jilet", "seramik kaplama HSS", "termal şok dirençli jilet", "metal folyo jileti", "yüksek hızlı kesim", "Endurium injector blade", "high speed steel blade", "thermal resistant blade", "continuous production blade", "premium HSS injector", "ceramic coated HSS"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 310
   },
   {
     "id": "38-2",
