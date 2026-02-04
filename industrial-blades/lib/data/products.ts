@@ -266,6 +266,7 @@ const scrapedProducts: Product[] = (scrapedProductsData as ScrapedProduct[]).map
   specifications: p.specifications,
   features: p.features,
   applications: p.applications,
+  availableSizes: (p as { availableSizes?: string[] }).availableSizes,  // Mevcut ölçüler
   isFeatured: p.isFeatured,
   isActive: p.isActive,
   order: p.order,
