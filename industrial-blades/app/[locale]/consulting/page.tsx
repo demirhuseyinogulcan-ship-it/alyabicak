@@ -198,6 +198,48 @@ export default async function ConsultingPage({ params }: PageProps) {
       bottomCtaForm: 'Форма связи',
       bottomCtaWhatsApp: 'Связаться через WhatsApp',
     },
+    fr: {
+      heroTitle: 'Conseil professionnel',
+      heroDesc: 'Support expert pour le bon choix de lame. La solution de coupe optimale pour chaque matériau.',
+      processTitle: 'Notre processus de conseil',
+      processDesc: 'Les étapes que nous suivons pour trouver la solution de lame la plus adaptée pour vous',
+      steps: [
+        {
+          title: 'Analyse du matériau',
+          desc: 'Nous analysons les propriétés du matériau que vous allez couper. Plastique, métal, papier, alimentaire, textile... Chaque matériau nécessite des techniques de coupe différentes.',
+          items: ['Type et épaisseur du matériau', 'Exigences de vitesse et de précision de coupe', 'Volume de production et continuité'],
+        },
+        {
+          title: 'Recommandation de lame',
+          desc: 'Sur la base des résultats d\'analyse, nous recommandons le modèle de lame le plus adapté pour vous. Qualité Sheffield, solutions optimisées en termes de performance et de durabilité.',
+          items: ['Recommandation de type et taille de lame', 'Qualité d\'acier et valeur de dureté', 'Exigences de conception personnalisée'],
+        },
+        {
+          title: 'Test et optimisation',
+          desc: 'Si vous le souhaitez, nous envoyons des échantillons de produits à tester. Nous optimisons en fonction de vos retours.',
+          items: ['Envoi d\'échantillon de produit', 'Évaluation des performances', 'Suggestions d\'amélioration'],
+        },
+      ],
+      ctaTitle: 'Obtenez un conseil maintenant',
+      ctaDesc: 'Profitez de notre service de conseil gratuit. Notre équipe d\'experts est prête à vous offrir la solution la plus adaptée.',
+      ctaWhatsApp: 'Écrire via WhatsApp',
+      ctaPhone: 'Appeler maintenant',
+      // Services Grid
+      servicesTitle: 'Nos services de conseil',
+      services: [
+        { icon: 'FileText', title: 'Analyse du matériau', desc: 'Analyse détaillée du matériau que vous allez couper' },
+        { icon: 'Settings', title: 'Sélection de lame', desc: 'Détermination du modèle de lame le plus adapté pour vous' },
+        { icon: 'Wrench', title: 'Support technique', desc: 'Conseils sur la qualité d\'acier, la dureté et les matériaux' },
+        { icon: 'Zap', title: 'Optimisation des performances', desc: 'Amélioration de la qualité de coupe et de l\'efficacité' },
+        { icon: 'Package', title: 'Production sur mesure', desc: 'Conception personnalisée au-delà des produits standards' },
+        { icon: 'HeadphonesIcon', title: 'Support après-vente', desc: 'Support pour l\'utilisation du produit et questions techniques' },
+      ],
+      // Bottom CTA
+      bottomCtaTitle: 'Obtenez un conseil gratuit',
+      bottomCtaDesc: 'Quelle lame pour quel matériau ? Nos experts vous guident.',
+      bottomCtaForm: 'Formulaire de contact',
+      bottomCtaWhatsApp: 'Contacter via WhatsApp',
+    },
   }
 
   const c = content[locale]

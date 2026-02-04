@@ -434,6 +434,147 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
   },
 
   // =============================================================================
+  // FRENCH (Français)
+  // =============================================================================
+  fr: {
+    // Materials
+    'Sheffield Çelik': 'Acier Sheffield',
+    'Yüksek Karbonlu Çelik (SK5 / C85)': 'Acier à Haute Teneur en Carbone (SK5 / C85)',
+    'AISI 420 Martensitik Paslanmaz Çelik': 'Acier Inoxydable Martensitique AISI 420',
+    'AISI 420 Paslanmaz Çelik + TiN Kaplama': 'Acier Inoxydable AISI 420 + Revêtement TiN',
+    'AISI 420 Paslanmaz Çelik + PTFE Kaplama': 'Acier Inoxydable AISI 420 + Revêtement PTFE',
+    'AISI 420 Paslanmaz Çelik + XCD Kaplama': 'Acier Inoxydable AISI 420 + Revêtement XCD',
+    'AISI 420 Paslanmaz Çelik + İleri Seramik Kaplama': 'Acier Inoxydable AISI 420 + Revêtement Céramique Avancé',
+    'Yüksek Karbonlu Çelik + TiN Kaplama': 'Acier à Haute Teneur en Carbone + Revêtement TiN',
+    'Yüksek Karbonlu Çelik + Seramik Kaplama': 'Acier à Haute Teneur en Carbone + Revêtement Céramique',
+    'Yüksek Karbonlu Çelik + İleri Seramik Kaplama': 'Acier à Haute Teneur en Carbone + Revêtement Céramique Avancé',
+    'Endurium HSS + İleri Seramik Kaplama': 'Endurium HSS + Revêtement Céramique Avancé',
+    'Tungsten Karbür (WC-Co)': 'Carbure de Tungstène (WC-Co)',
+    'Yekpare Tungsten Karbür (WC-Co)': 'Carbure de Tungstène Massif (WC-Co)',
+    'Yekpare Zirkonya Seramik (Y-TZP)': 'Céramique Zircone Massif (Y-TZP)',
+    'Zirkonyum Oksit Bazlı Seramik (ZrO₂)': 'Céramique à Base d\'Oxyde de Zirconium (ZrO₂)',
+    'Paslanmaz Çelik (420HC) + TiN Kaplama': 'Acier Inoxydable (420HC) + Revêtement TiN',
+    '440C Paslanmaz Çelik': 'Acier Inoxydable 440C',
+    'D2 Çelik': 'Acier D2',
+    'HSS (High Speed Steel - Yüksek Hız Çeliği)': 'HSS (Acier Rapide)',
+    'Dayanıklı Plastik': 'Plastique Durable',
+    'WC + %6-10 Kobalt bağlayıcı': 'WC + Liant Cobalt 6-10%',
+    '%94 WC + %6 Co': '94% WC + 6% Co',
+
+    // Coatings
+    'TiN (Titanyum Nitrür)': 'TiN (Nitrure de Titane)',
+    'TiN (Titanyum Nitrür) - PVD': 'TiN (Nitrure de Titane) - PVD',
+    'PTFE (Politetrafloroetilen / Teflon)': 'PTFE (Polytétrafluoroéthylène / Téflon)',
+    'XCD (Xtreme Carbon Diamond) - DLC': 'XCD (Xtreme Carbon Diamond) - DLC',
+    'İleri Seramik Kaplama (Titanyum Bazlı)': 'Revêtement Céramique Avancé (Base Titane)',
+    'Çok Katmanlı İleri Seramik': 'Céramique Avancée Multicouche',
+    'PVD': 'PVD',
+    'PVD (Fiziksel Buhar Biriktirme)': 'PVD (Dépôt Physique en Phase Vapeur)',
+    'Standart veya Titanyum Kaplama': 'Revêtement Standard ou Titane',
+
+    // Heat Treatment
+    'Kontrollü Atmosfer + Temperleme': 'Atmosphère Contrôlée + Revenu',
+    'Vakum Isıl İşlem': 'Traitement Thermique Sous Vide',
+
+    // Hardness Values
+    'HRC 58-60': 'HRC 58-60',
+    'HRC 58-62': 'HRC 58-62',
+    'HRC 59-61': 'HRC 59-61',
+    'HRC 54-56': 'HRC 54-56',
+    'HRC 62-65': 'HRC 62-65',
+    'HRC 64-66 (Substrat) / 3500 HV (Kaplama)': 'HRC 64-66 (Substrat) / 3500 HV (Revêtement)',
+    'HRC 59-61 (Substrat) / 2300 HV (Kaplama)': 'HRC 59-61 (Substrat) / 2300 HV (Revêtement)',
+    'HRC 59-61 (Substrat) / 3200 HV (Kaplama)': 'HRC 59-61 (Substrat) / 3200 HV (Revêtement)',
+    'HRC 54-56 (Substrat)': 'HRC 54-56 (Substrat)',
+    'HRC 54-56 (Substrat) / 2300 HV (Kaplama)': 'HRC 54-56 (Substrat) / 2300 HV (Revêtement)',
+    'HRC 54-56 (Substrat) / 3200 HV (Kaplama)': 'HRC 54-56 (Substrat) / 3200 HV (Revêtement)',
+    'HRC 54-56 (Substrat) / 5000 HV (Kaplama)': 'HRC 54-56 (Substrat) / 5000 HV (Revêtement)',
+    'HRC 56-58 | Kaplama: 2300 HV': 'HRC 56-58 | Revêtement: 2300 HV',
+    'Ana gövde: HRC 56-58 | Kaplama: 2300 HV': 'Corps: HRC 56-58 | Revêtement: 2300 HV',
+    'Ana gövde: HRC 59-61 | Kaplama: 2300 HV': 'Corps: HRC 59-61 | Revêtement: 2300 HV',
+    'Ana gövde: HRC 59-61 | Kaplama: 3200+ HV': 'Corps: HRC 59-61 | Revêtement: 3200+ HV',
+    'HRA 92-94 (HRC 75+ eşdeğer)': 'HRA 92-94 (équivalent HRC 75+)',
+    'HRA 89-92 (≈HRC 72-76)': 'HRA 89-92 (≈HRC 72-76)',
+    'HV 1200-1400': 'HV 1200-1400',
+    '1200 HV': '1200 HV',
+
+    // Angles
+    '20°': '20°',
+    '22°': '22°',
+    '25°': '25°',
+    '30°': '30°',
+
+    // Dimensions
+    '38 x 8 x 0.25 mm': '38 x 8 x 0,25 mm',
+    '38 x 8 x 0.30 mm': '38 x 8 x 0,30 mm',
+    '38 x 8 x 0.36 mm': '38 x 8 x 0,36 mm',
+    '38 x 8 x 0.64 mm': '38 x 8 x 0,64 mm',
+    '60mm x 22mm': '60 mm x 22 mm',
+    '2x 30mm yarım jilet': '2x lame demi 30 mm',
+    'Geniş Format': 'Format Large',
+
+    // Carbon Content
+    '%0.85-1.00': '0,85-1,00%',
+    '%12-14': '12-14%',
+    '%12-14 Krom': '12-14% Chrome',
+    '%40': '40%',
+    '%50-60': '50-60%',
+
+    // Friction Coefficients
+    '<0.1': '<0,1',
+    '~0.04': '~0,04',
+    '~0.1 (çeliğin 1/5\'i)': '~0,1 (1/5 de l\'acier)',
+
+    // Density
+    '6.05 g/cm³': '6,05 g/cm³',
+    '14.5-15.0 g/cm³': '14,5-15,0 g/cm³',
+    '14.8 g/cm³': '14,8 g/cm³',
+
+    // Temperature Resistance
+    '600°C': '600°C',
+    '800°C': '800°C',
+
+    // Colors
+    'Altın Sarısı': 'Doré',
+    'Beyaz (Bembeyaz Seramik)': 'Blanc (Céramique Blanche Pure)',
+    'Koyu Gri / Siyah': 'Gris Foncé / Noir',
+    'Gri': 'Gris',
+
+    // Edge Types
+    'Düz Kesim Ağzı': 'Tranchant de Coupe Droit',
+    'Testere Dişli (Serrated)': 'Dentelé',
+    'Yuvarlak Kenar': 'Tranchant Arrondi',
+    'Yuvarlak Kenar (Traş jileti formu)': 'Tranchant Arrondi (forme lame de rasoir)',
+
+    // Shapes
+    'Dairesel (Circular)': 'Circulaire',
+    'Oval (Ellipse)': 'Elliptique',
+    'Yuvarlak (Round)': 'Rond',
+    'Tam Yıldız (Full Star)': 'Étoile Complète',
+    'Yarım Yıldız (Half Star)': 'Demi-Étoile',
+    'Hava Delikli': 'Perforé',
+    'Lazer işlemeli': 'Traité au Laser',
+
+    // Slot Types
+    'Yuvasız': 'Sans Fente',
+    '2 Kanallı Yuva (Güçlendirilmiş Kavrama)': 'Fente 2 Canaux (Prise Renforcée)',
+    'Ortadan bölünebilir çizik hattı': 'Ligne de rupture centrale',
+    'Standart Kapasite': 'Capacité Standard',
+
+    // Performance
+    'Çeliğe göre 10-50x': '10-50x par rapport à l\'acier',
+    'Karbon çeliğe göre %25-30 daha güçlü': '25-30% plus résistant que l\'acier au carbone',
+    'Yüksek': 'Élevé',
+    'Çok Yüksek': 'Très Élevé',
+    'Düşük (ısı yalıtımı)': 'Faible (isolation thermique)',
+    'Yok (İzolator)': 'Aucune (Isolant)',
+    'İnert (reaktif değil)': 'Inerte (non réactif)',
+
+    // Microstructure
+    'İnce tane (0.5-1.0 µm)': 'Grain fin (0,5-1,0 µm)',
+  },
+
+  // =============================================================================
   // RUSSIAN (Русский)
   // =============================================================================
   ru: {

@@ -5,18 +5,20 @@
 
 export const i18nConfig = {
   defaultLocale: 'tr',
-  locales: ['tr', 'en', 'ar', 'ru'] as const,
+  locales: ['tr', 'en', 'ar', 'ru', 'fr'] as const,
   localeNames: {
     tr: 'Türkçe',
     en: 'English',
     ar: 'العربية', // Arapça
     ru: 'Русский', // Rusça
+    fr: 'Français', // Fransızca
   },
   localeFlags: {
     tr: '🇹🇷',
     en: '🇬🇧',
     ar: '🇪🇬', // Mısır bayrağı (veya 🇸🇦 Suudi Arabistan)
     ru: '🇷🇺', // Rusya bayrağı
+    fr: '🇫🇷', // Fransa bayrağı
   },
   // Domain-based routing
   domains: {
@@ -72,6 +74,19 @@ export const localePaths: Record<Locale, Record<string, string>> = {
     cookies: 'cookie-policy',
   },
   ru: {
+    home: '',
+    products: 'products',
+    categories: 'categories',
+    about: 'about',
+    contact: 'contact',
+    blog: 'newsletter',
+    consulting: 'consulting',
+    catalog: 'catalog',
+    quality: 'quality-standards',
+    privacy: 'privacy-policy',
+    cookies: 'cookie-policy',
+  },
+  fr: {
     home: '',
     products: 'products',
     categories: 'categories',

@@ -145,6 +145,36 @@ const CATALOGS = {
       previewImage: '/catalogs/previews/vakum-paketleme.jpg',
     },
   ],
+  fr: [
+    {
+      id: 'industrial-blades',
+      title: 'Lames Industrielles',
+      description: 'Lames flèches, lames de refendage, lames trapézoïdales',
+      pdfUrl: '/catalogs/Sanayi-Jiletleri-Urun-Katalogu.pdf',
+      previewImage: '/catalogs/previews/sanayi-jiletleri.jpg',
+    },
+    {
+      id: 'makine-bicaklari',
+      title: 'Lames de Machine',
+      description: 'Lames de guillotine, lames de refendage',
+      pdfUrl: '/catalogs/Makine-Bicaklari-Urun-Katalogu.pdf',
+      previewImage: '/catalogs/previews/makine-bicaklari.jpg',
+    },
+    {
+      id: 'safety-knives',
+      title: 'Couteaux de Sécurité et Manuels',
+      description: 'Couteaux de sécurité, cutters',
+      pdfUrl: '/catalogs/Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf',
+      previewImage: '/catalogs/previews/is-guvenligi.jpg',
+    },
+    {
+      id: 'thermoform-vacuum',
+      title: 'Lames de Conditionnement sous Vide',
+      description: 'Lames de coupe pour l’industrie alimentaire',
+      pdfUrl: '/catalogs/Vakum-PaketlemeBicaklari-Katalugu.pdf',
+      previewImage: '/catalogs/previews/vakum-paketleme.jpg',
+    },
+  ],
 }
 
 export default async function CatalogPage({ params }: PageProps) {
@@ -157,6 +187,7 @@ export default async function CatalogPage({ params }: PageProps) {
     en: { view: 'View', download: 'Download', heroTitle: 'Product Catalogs', heroDesc: 'View or download our PDF catalogs' },
     ar: { view: 'عرض', download: 'تحميل', heroTitle: 'كتالوجات المنتجات', heroDesc: 'عرض أو تحميل كتالوجاتنا بصيغة PDF' },
     ru: { view: 'Просмотр', download: 'Скачать', heroTitle: 'Каталоги продукции', heroDesc: 'Просмотрите или скачайте наши PDF-каталоги' },
+    fr: { view: 'Voir', download: 'Télécharger', heroTitle: 'Catalogues de Produits', heroDesc: 'Consultez ou téléchargez nos catalogues PDF' },
   }
 
   const l = labels[locale]

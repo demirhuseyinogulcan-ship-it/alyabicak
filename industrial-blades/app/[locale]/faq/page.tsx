@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     en: 'FAQ | Industrial Blades Frequently Asked Questions',
     ar: 'الأسئلة الشائعة | الشفرات الصناعية',
     ru: 'ЧаВо | Промышленные лезвия - Часто задаваемые вопросы',
+    fr: 'FAQ | Lames industrielles - Questions fréquemment posées',
   }
   
   const descriptions: Record<Locale, string> = {
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     en: 'Frequently asked questions about industrial blades, Sheffield steel, trapezoid blades. Blade selection, maintenance, order and delivery information.',
     ar: 'الأسئلة الشائعة حول الشفرات الصناعية، فولاذ شيفيلد، الشفرات شبه المنحرفة. معلومات اختيار الشفرات والصيانة والطلب والتسليم.',
     ru: 'Часто задаваемые вопросы о промышленных лезвиях, шеффилдской стали, трапециевидных лезвиях. Информация о выборе лезвий, обслуживании, заказе и доставке.',
+    fr: 'Questions fréquemment posées sur les lames industrielles, l\'acier Sheffield, les lames trapézoïdales. Informations sur la sélection des lames, l\'entretien, la commande et la livraison.',
   }
   
   return {
@@ -98,6 +100,15 @@ export default async function FAQPage({ params }: PageProps) {
       needHelpDesc: 'Наша команда экспертов будет рада вам помочь.',
       whatsapp: 'Написать в WhatsApp',
       call: 'Позвоните нам',
+    },
+    fr: {
+      badge: 'Centre d\'aide',
+      title: 'Questions fréquemment posées',
+      subtitle: 'Toutes les questions et réponses sur les lames industrielles',
+      needHelp: 'Vous n\'avez pas trouvé votre question ?',
+      needHelpDesc: 'Notre équipe d\'experts se fera un plaisir de vous aider.',
+      whatsapp: 'Discuter sur WhatsApp',
+      call: 'Appelez-nous',
     },
   }
   

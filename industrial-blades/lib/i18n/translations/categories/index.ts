@@ -10,12 +10,14 @@ import { categoriesTr, subcategoriesTr, type CategoryTranslations, type Subcateg
 import { categoriesEn, subcategoriesEn } from './en';
 import { categoriesAr, subcategoriesAr } from './ar';
 import { categoriesRu, subcategoriesRu } from './ru';
+import { categoriesFr, subcategoriesFr } from './fr';
 
 export const categoryTranslations: Record<string, CategoryTranslations> = {
   tr: categoriesTr,
   en: categoriesEn,
   ar: categoriesAr,
   ru: categoriesRu,
+  fr: categoriesFr,
 };
 
 export const subcategoryTranslations: Record<string, SubcategoryTranslations> = {
@@ -23,6 +25,7 @@ export const subcategoryTranslations: Record<string, SubcategoryTranslations> = 
   en: subcategoriesEn,
   ar: subcategoriesAr,
   ru: subcategoriesRu,
+  fr: subcategoriesFr,
 };
 
 export type { CategoryTranslations, SubcategoryTranslations };

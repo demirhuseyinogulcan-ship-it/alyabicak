@@ -39,6 +39,7 @@ interface LocalizedBlogPost {
     en: string[]
     ar?: string[]
     ru?: string[]
+    fr?: string[]
   }
   publishedAt: string
   updatedAt?: string
@@ -49,6 +50,7 @@ interface LocalizedBlogPost {
   en: LocalizedBlogContent
   ar?: LocalizedBlogContent
   ru?: LocalizedBlogContent
+  fr?: LocalizedBlogContent
 }
 
 // =============================================================================
@@ -70,6 +72,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
       en: ['steel', 'metallurgy', 'sheffield steel', 'industrial production', 'D2 steel', 'M2 steel'],
       ar: ['الفولاذ', 'علم المعادن', 'فولاذ شيفيلد', 'الإنتاج الصناعي'],
       ru: ['сталь', 'металлургия', 'шеффилдская сталь', 'промышленное производство'],
+      fr: ['acier', 'métallurgie', 'acier de Sheffield', 'production industrielle', 'acier D2', 'acier M2'],
     },
     publishedAt: '2025-01-12',
     readingTime: 8,
@@ -213,6 +216,48 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         focusKeyword: 'сталелитейная промышленность',
       },
     },
+    fr: {
+      title: 'L\'Acier : Colonne Vertébrale de l\'Industrie, Garantie de l\'Avenir',
+      excerpt: 'La production mondiale d\'acier brut est passée de 40 millions de tonnes en 1900 à 1,6 milliard de tonnes en 2013. La science et l\'économie derrière le caractère indispensable de l\'acier.',
+      content: `
+        <p class="lead">Pour comprendre la valeur d'un matériau d'ingénierie, il faut regarder son histoire. L'acier a construit des ponts, érigé des gratte-ciels et transformé les lignes de production à travers l'histoire de l'humanité. Aujourd'hui, nous posons encore la même question : pourquoi l'acier ? La réponse se trouve à l'intersection des chiffres et de la métallurgie.</p>
+
+        <h2>Que Disent les Chiffres ?</h2>
+        <p>La production mondiale d'acier brut était d'environ 40 millions de tonnes en 1900, atteignant 1,6 milliard de tonnes en 2013. Ce n'est pas seulement une histoire de croissance ; c'est la preuve du caractère indispensable de l'acier. Durant la même période, l'aluminium, le magnésium et les plastiques sont apparus, mais aucun n'a pu ébranler le trône de l'acier.</p>
+        <!-- STEEL_CHART_PLACEHOLDER -->
+        
+        <p>La raison réside dans une équation énergétique simple : l'énergie nécessaire pour obtenir le fer ne représente qu'un dixième de la production primaire d'aluminium. Les réserves de minerai de fer brut économiquement exploitables s'élèvent à environ 170 milliards de tonnes. Cela signifie que les matériaux à base de fer offrent une garantie à long terme en termes de sécurité des ressources.</p>
+
+        <h2>Qu'est-ce qui Rend l'Acier Spécial ?</h2>
+        <p>Derrière une telle gamme d'applications se cache une combinaison unique de propriétés. L'acier est l'un des rares matériaux pouvant offrir simultanément une résistance élevée et ultra-élevée. Il convient au formage à chaud et à froid, est soudable et usinable. Il peut équilibrer dureté et ductilité ; résister à l'usure, à la corrosion, aux températures élevées et à la déformation.</p>
+
+        <p>Le secret de cette flexibilité réside dans le fait que l'acier est un matériau « conception ». Le Registre Européen de l'Acier publié par le VDEh Steel Institute classe 1 500 types d'aciers spéciaux ; le nombre total de nuances d'acier atteint 2 000.</p>
+
+        <h2>La Boussole de la Recherche et du Développement</h2>
+        <p>Les travaux de R&D sur l'acier abordent systématiquement toutes les étapes, y compris la fabrication et le traitement thermique. La science métallurgique fournit la base nécessaire à ce développement. La recherche en cours se concentre sur des domaines spécifiques :</p>
+        
+        <ul>
+          <li>Obtenir des plages de composition étroites dans la composition chimique</li>
+          <li>Garantir une propreté et une régularité élevées de la structure</li>
+          <li>Déterminer la composition chimique et la structure des phases existantes</li>
+          <li>Trouver et contrôler le rapport et la distribution des phases dans la microstructure</li>
+          <li>Ajuster la taille des grains exactement selon les exigences</li>
+        </ul>
+
+        <h2>La Perspective d'Alya</h2>
+        <p>En tant qu'Alya, apportant l'héritage sidérurgique de Sheffield en Turquie, nous suivons de près ces développements. Notre expérience de plus de 30 ans nous a appris que l'acier n'est pas seulement un matériau, mais une philosophie d'ingénierie.</p>
+
+        <p>Les nuances d'acier comme <strong>D2</strong>, <strong>M2</strong> et <strong>440B</strong> que nous utilisons dans la production de lames industrielles sont des produits concrets de ces efforts mondiaux de R&D. Chaque valeur HRC, chaque décision de microstructure, chaque choix de revêtement s'appuie sur cette accumulation.</p>
+
+        <p><em>L'acier n'est pas seulement le matériau d'aujourd'hui, mais aussi celui de demain. Et nous continuerons à accompagner les fabricants qui façonnent cet avenir.</em></p>
+      `,
+      seo: {
+        title: 'L\'Acier : Colonne Vertébrale de l\'Industrie | Bulletin Technique Alya',
+        description: 'Pourquoi l\'acier reste-t-il le matériau d\'ingénierie le plus important ? Données de production 1900-2013, efficacité énergétique et voies R&D pour l\'avenir.',
+        keywords: ['production d\'acier', 'acier brut', 'acier de Sheffield', 'acier pour lames industrielles', 'propriétés acier D2', 'métallurgie'],
+        focusKeyword: 'industrie sidérurgique',
+      },
+    },
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -227,6 +272,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
     tags: {
       tr: ['bıçak seçimi', 'endüstriyel kesici', 'rehber', 'üretim verimliliği'],
       en: ['blade selection', 'industrial cutter', 'guide', 'production efficiency'],
+      ar: ['اختيار الشفرة', 'قاطع صناعي', 'دليل', 'كفاءة الإنتاج'],
+      ru: ['выбор ножа', 'промышленный резак', 'руководство', 'эффективность производства'],
+      fr: ['sélection de lames', 'couteau industriel', 'guide', 'efficacité de production'],
     },
     publishedAt: '2025-01-15',
     readingTime: 5,
@@ -355,6 +403,37 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         focusKeyword: 'выбор промышленного ножа',
       },
     },
+    fr: {
+      title: 'Sélection de Lames Industrielles : 5 Facteurs Critiques',
+      excerpt: 'Le choix de la bonne lame industrielle affecte directement l\'efficacité de votre production. Dans ce guide, nous examinons 5 facteurs critiques à prendre en compte.',
+      content: `
+        <p class="lead">La sélection des lames dans la production industrielle est une décision critique qui affecte directement l'efficacité de la production, mais qui est souvent négligée.</p>
+
+        <h2>1. Compatibilité des Matériaux</h2>
+        <p>Les propriétés du matériau que vous allez couper constituent la base de la sélection des lames. Papier, plastique, métal ou composite - chaque matériau nécessite des caractéristiques de lame différentes.</p>
+
+        <h2>2. Type de Coupe</h2>
+        <p>Refente, poinçonnage, coupe guillotine ou coupe rotative - il existe des géométries de lames optimisées pour chaque méthode.</p>
+
+        <h2>3. Qualité de l'Acier</h2>
+        <p>D2, M2, HSS ou carbure - sélectionner le bon acier en fonction du matériau et du type de coupe peut augmenter la durée de vie des lames de 3 à 5 fois.</p>
+
+        <h2>4. Dureté (HRC)</h2>
+        <p>Les lames très dures peuvent être fragiles, tandis que les plus souples s'émoussent rapidement. L'équilibre optimal de dureté est critique.</p>
+
+        <h2>5. Entretien et Affûtage</h2>
+        <p>La facilité d'affûtage de la lame et les exigences d'entretien affectent directement le coût total de possession.</p>
+
+        <h2>Conclusion</h2>
+        <p>Profitez de notre service de conseil gratuit pour la sélection de la lame appropriée. L'équipe technique d'Alya déterminera la solution la plus adaptée avec plus de 30 ans d'expérience.</p>
+      `,
+      seo: {
+        title: 'Sélection de Lames Industrielles : 5 Facteurs Critiques | Alya Blade',
+        description: 'Comment choisir la bonne lame industrielle ? Nous examinons la compatibilité des matériaux, le type de coupe, la qualité de l\'acier, la dureté et les facteurs d\'entretien.',
+        keywords: ['sélection de lames industrielles', 'guide des lames de coupe', 'qualité de l\'acier des lames', 'dureté HRC'],
+        focusKeyword: 'sélection de lames industrielles',
+      },
+    },
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -369,6 +448,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
     tags: {
       tr: ['sheffield', 'çelik kalitesi', 'İngiltere', 'endüstriyel bıçak'],
       en: ['sheffield', 'steel quality', 'England', 'industrial blade'],
+      ar: ['شيفيلد', 'جودة الفولاذ', 'إنجلترا', 'شفرة صناعية'],
+      ru: ['Шеффилд', 'качество стали', 'Англия', 'промышленный нож'],
+      fr: ['Sheffield', 'qualité de l\'acier', 'Angleterre', 'lame industrielle'],
     },
     publishedAt: '2025-01-10',
     readingTime: 7,
@@ -501,6 +583,40 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         description: 'Узнайте о традиции шеффилдской стали и почему она является золотым стандартом в промышленных ножах. 700 лет наследия качества.',
         keywords: ['шеффилдская сталь', 'нож шеффилд', 'английская сталь', 'качественный промышленный нож'],
         focusKeyword: 'шеффилдская сталь',
+      },
+    },
+    fr: {
+      title: 'Pourquoi l\'Acier de Sheffield est-il la Référence Mondiale ?',
+      excerpt: 'La tradition sidérurgique de Sheffield, en Angleterre - pourquoi est-elle considérée comme la référence absolue pour les lames industrielles ?',
+      content: `
+        <p class="lead">Sheffield est une ville du nord de l'Angleterre, mondialement reconnue pour son histoire de production d'acier s'étendant sur plus de 700 ans.</p>
+
+        <h2>Héritage Historique</h2>
+        <p>Centre de la production de lames depuis le XIVe siècle, Sheffield a acquis une renommée mondiale, notamment grâce à l'acier au creuset développé au XVIIIe siècle. Cette méthode a considérablement amélioré l'homogénéité et la qualité de l'acier.</p>
+
+        <h2>Standard de Qualité</h2>
+        <p>L'estampille « Made in Sheffield » est encore aujourd'hui considérée comme un symbole de qualité et de fiabilité. Les aciers de Sheffield se distinguent par ces propriétés :</p>
+        
+        <ul>
+          <li>Dureté et durabilité élevées</li>
+          <li>Excellente rétention du tranchant</li>
+          <li>Résistance supérieure à la corrosion</li>
+          <li>Contrôle précis du traitement thermique</li>
+        </ul>
+
+        <h2>Sheffield Moderne</h2>
+        <p>Aujourd'hui, Sheffield abrite des centres de recherche qui combinent le savoir métallurgique traditionnel avec les technologies modernes. Le département des matériaux avancés de l'Université de Sheffield est un leader mondial dans la technologie de l'acier.</p>
+
+        <h2>La Connexion Alya et Sheffield</h2>
+        <p>En tant qu'Alya Blade, nous apportons les connaissances centenaires de Sheffield en Turquie. Nos formulations d'acier et nos normes de production reposent sur cet héritage.</p>
+
+        <p><em>Sheffield n'est pas qu'une ville - c'est la terre sacrée de l'industrie des outils de coupe.</em></p>
+      `,
+      seo: {
+        title: 'Pourquoi l\'Acier de Sheffield est-il la Référence Mondiale ? | Alya Blade',
+        description: 'Découvrez la tradition sidérurgique de Sheffield et pourquoi elle est la référence absolue pour les lames industrielles. 700 ans d\'héritage de qualité.',
+        keywords: ['acier de Sheffield', 'lame Sheffield', 'acier anglais', 'lame industrielle de qualité'],
+        focusKeyword: 'acier de Sheffield',
       },
     },
   },

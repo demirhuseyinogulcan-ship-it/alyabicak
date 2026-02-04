@@ -45,7 +45,7 @@
 
 // Type import - circular dependency önlemek için lazy import kullanıyoruz
 // i18nConfig'den bağımsız olarak locale tipini tanımlıyoruz
-export type SupportedLocale = 'tr' | 'en' | 'ar' | 'ru';
+export type SupportedLocale = 'tr' | 'en' | 'ar' | 'ru' | 'fr';
 
 /**
  * Domain yapılandırma interface'i
@@ -89,15 +89,15 @@ export const LOCALE_DOMAINS: Record<SupportedLocale, DomainConfig> = {
     host: 'alyablade.com',
     primary: false,
   },
+  fr: {
+    url: 'https://alyablade.com',
+    host: 'alyablade.com',
+    primary: false,
+  },
   // ═══════════════════════════════════════════════════════════
   // 🆕 YENİ DİL EKLEMEK İÇİN BURAYA EKLE:
   // ═══════════════════════════════════════════════════════════
   // de: {
-  //   url: 'https://alyablade.com',
-  //   host: 'alyablade.com',
-  //   primary: false,
-  // },
-  // fr: {
   //   url: 'https://alyablade.com',
   //   host: 'alyablade.com',
   //   primary: false,
@@ -138,9 +138,9 @@ export const OG_LOCALE_MAP: Record<SupportedLocale, string> = {
   en: 'en_US',
   ar: 'ar_EG',
   ru: 'ru_RU',
+  fr: 'fr_FR', // Fransa (Kuzey Afrika için de fr_MA, fr_DZ vb. kullanılabilir)
   // Yeni dil eklerken:
   // de: 'de_DE',
-  // fr: 'fr_FR',
   // es: 'es_ES',
   // zh: 'zh_CN',
   // ja: 'ja_JP',

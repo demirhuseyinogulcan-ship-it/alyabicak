@@ -124,6 +124,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       en: 'en-US',
       ar: 'ar-EG',
       ru: 'ru-RU',
+      fr: 'fr-FR', // Fransa Fransızcası (Kuzey Afrika'da da geçerli)
     }
     return date.toLocaleDateString(localeMap[locale], options)
   }

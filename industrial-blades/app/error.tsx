@@ -44,6 +44,12 @@ const errorTranslations = {
     tryAgain: 'Попробовать снова',
     backHome: 'На главную',
   },
+  fr: {
+    title: 'Une Erreur s\'est Produite',
+    description: 'Une erreur est survenue lors du chargement de la page. Veuillez réessayer ou retourner à la page d\'accueil.',
+    tryAgain: 'Réessayer',
+    backHome: 'Retour à l\'accueil',
+  },
 }
 
 export default function Error({ error, reset }: ErrorProps) {

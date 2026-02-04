@@ -192,6 +192,46 @@ export default async function AboutPage({ params }: PageProps) {
       ctaButton: 'Связаться через WhatsApp',
       ctaContact: 'Свяжитесь с нами',
     },
+    fr: {
+      badge: '30 ans d\'expérience',
+      storyTitle: 'Fournisseur de confiance de l\'industrie',
+      storyParagraphs: [
+        '<strong class="text-steel-900">Alya</strong> fournit des outils de coupe industriels depuis 30 ans. Nous poursuivons notre partenariat avec des entreprises de premier plan dans presque tous les secteurs de l\'industrie.',
+        'Pas seulement des lames, mais dans notre usine d\'Istanbul, nous <strong class="text-steel-900">fabriquons des pièces détachées pour le secteur textile</strong> et <strong class="text-steel-900">exportons vers 35 pays différents</strong>.',
+        'Nous sommes le distributeur autorisé de Durham Duplex, qui fabrique des lames industrielles de classe mondiale à Sheffield, au cœur de l\'Angleterre, depuis 1910.',
+      ],
+      textileLinkLabel: 'Machines textiles et pièces détachées :',
+      values: [
+        { title: 'Qualité', desc: 'Fabrication et approvisionnement aux plus hauts standards' },
+        { title: 'Fiabilité', desc: '30 ans d\'expérience et plus de 5000 clients satisfaits' },
+        { title: 'Rapidité', desc: 'Expédition le jour même et livraison rapide' },
+        { title: 'Support', desc: 'Notre équipe d\'experts est toujours à vos côtés' },
+      ],
+      // Pourquoi Alya
+      whyAlyaTitle: 'Pourquoi Alya ?',
+      whyAlyaDesc: 'Nos valeurs qui font la différence dans l\'industrie',
+      whyAlyaItems: [
+        { title: 'Qualité Sheffield', desc: 'Produits de classe mondiale en tant que distributeur autorisé de Durham Duplex' },
+        { title: 'Production locale', desc: 'Fabrication de pièces détachées pour machines textiles dans notre usine d\'Istanbul' },
+        { title: 'Portée mondiale', desc: 'Exportation vers 35 pays et réseau de clients dans le monde entier' },
+        { title: 'Équipe d\'experts', desc: 'Conseil professionnel et support avec 30 ans d\'expérience' },
+      ],
+      // Services
+      servicesTitle: 'Nos services',
+      services: [
+        { title: 'Outils de coupe industriels', desc: 'Lames industrielles, lames de machines et couteaux de sécurité' },
+        { title: 'Pièces détachées pour machines textiles', desc: 'Production dans notre usine d\'Istanbul, livraison dans le monde entier' },
+        { title: 'Production sur mesure', desc: 'Solutions de conception et de production personnalisées selon vos besoins' },
+        { title: 'Conseil professionnel', desc: 'Support technique expert pour le bon choix de produit' },
+        { title: 'Livraison rapide', desc: 'Expédition immédiate depuis le stock, réseau logistique mondial' },
+        { title: 'Support après-vente', desc: 'Support technique et service client' },
+      ],
+      // CTA
+      ctaTitle: 'Vous souhaitez travailler avec nous ?',
+      ctaDesc: 'Nous sommes prêts à vous offrir la solution la plus adaptée avec 30 ans d\'expérience.',
+      ctaButton: 'Contactez via WhatsApp',
+      ctaContact: 'Contactez-nous',
+    },
   }
 
   const c = content[locale]

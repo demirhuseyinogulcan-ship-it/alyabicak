@@ -92,6 +92,21 @@ export default async function ContactPage({ params }: PageProps) {
       whatsappText: 'Получите мгновенный ответ через WhatsApp',
       whatsappButton: 'Связаться через WhatsApp',
     },
+    fr: {
+      writeUs: 'Écrivez-nous',
+      contactInfo: 'Informations de contact',
+      address: 'Adresse',
+      phone: 'Téléphone',
+      fax: 'Fax',
+      email: 'E-mail',
+      workingHours: 'Heures d\'ouverture',
+      workingDays: 'Lundi - Vendredi',
+      weekend: 'Week-end : Fermé',
+      showOnMap: 'Afficher sur la carte',
+      quickSupport: 'Pour une assistance rapide',
+      whatsappText: 'Obtenez une réponse instantanée via WhatsApp',
+      whatsappButton: 'Contacter via WhatsApp',
+    },
   }
 
   const l = labels[locale]

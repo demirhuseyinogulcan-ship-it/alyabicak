@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     en: 'Privacy Policy (KVKK)',
     ar: 'سياسة الخصوصية (KVKK)',
     ru: 'Политика конфиденциальности (KVKK)',
+    fr: 'Politique de confidentialité (KVKK)',
   }
   
   const descriptions = {
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     en: 'Alya Tekstil San. ve Tic. Ltd. Şti. privacy policy under Personal Data Protection Law No. 6698.',
     ar: 'سياسة خصوصية شركة أليا تكستيل للصناعة والتجارة المحدودة بموجب قانون حماية البيانات الشخصية رقم 6698.',
     ru: 'Политика конфиденциальности компании Alya Tekstil San. ve Tic. Ltd. Şti. в соответствии с Законом о защите персональных данных № 6698.',
+    fr: 'Politique de confidentialité de Alya Tekstil San. ve Tic. Ltd. Şti. conformément à la loi sur la protection des données personnelles n° 6698.',
   }
   
   return generateSeoMetadata({
@@ -306,6 +308,73 @@ const content = {
       },
     },
     lastUpdate: 'Последнее обновление: декабрь 2024',
+  },
+  fr: {
+    pageTitle: 'Politique de confidentialité (KVKK)',
+    subtitle: 'En vertu de la loi n° 6698 sur la protection des données personnelles',
+    sections: {
+      info: {
+        title: 'Information',
+        p1: 'La loi n° 6698 sur la protection des données personnelles a été adoptée le 24 mars 2016 et est entrée en vigueur après sa publication au Journal officiel le 7 avril 2016.',
+        p2: 'La loi a été adoptée pour protéger les droits et libertés fondamentaux des personnes, en particulier la vie privée, lors du traitement des données personnelles, et pour réglementer les obligations des personnes physiques et morales qui traitent les données personnelles ainsi que les procédures et principes à suivre. Par ce texte, les visiteurs sont informés et éclairés par la société.',
+        p3: 'La Société traitera votre nom, adresse e-mail, adresse professionnelle et domicile, numéro de téléphone et autres données personnelles soumises via les formulaires sur ce site uniquement dans le cadre de l\'objectif de traitement et dans les limites spécifiées dans le texte de clarification, et si le consentement est donné, dans le texte de consentement explicite.',
+      },
+      dataController: {
+        title: 'Responsable du traitement et personne de contact',
+        description: 'Comme indiqué dans ce texte de clarification, la SOCIÉTÉ est le responsable du traitement conformément au KVKK.',
+        infoTitle: 'Informations sur le responsable du traitement',
+        labels: {
+          fullName: 'Nom complet',
+          shortName: 'Nom court',
+          address: 'Adresse',
+          website: 'Site Web',
+          kepAddress: 'Adresse KEP',
+        },
+        shortNameValue: 'SOCIÉTÉ',
+      },
+      processingReasons: {
+        title: 'Raisons du traitement de vos données',
+        description: 'Vos données personnelles sont traitées conformément aux articles 5 et 6 de la loi à des fins incluant, mais sans s\'y limiter : la réalisation des activités nécessaires au sein de l\'entreprise pour fournir des produits et services, le travail avec les unités commerciales et partenaires concernés pour recommander des produits et services adaptés à vos besoins actuels, la garantie de la gestion des ressources humaines par notre Société, la prise des mesures nécessaires pour les décisions commerciales et la garantie de la sécurité juridique des personnes et de notre Société découlant des relations commerciales.',
+        purposesTitle: 'Vos données personnelles peuvent être traitées aux fins suivantes :',
+        purposes: [
+          'Communiquer avec vous et d\'autres dans le cadre des affaires',
+          'Vous envoyer des informations sur les modifications de nos conditions de service',
+          'Fournir des améliorations de qualité, de formation et de sécurité',
+          'Résoudre les plaintes et traiter les demandes d\'accès aux données',
+          'Gérer notre infrastructure et nos activités commerciales',
+        ],
+      },
+      processedData: {
+        title: 'Données personnelles que nous traitons',
+        identity: {
+          title: 'Informations d\'identité',
+          description: 'Votre nom, prénom, numéro d\'identité turc et autres informations obtenues avec votre consentement explicite par la Société.',
+        },
+        contact: {
+          title: 'Informations de contact',
+          description: 'Votre adresse de résidence, adresse professionnelle, numéro de téléphone et adresse e-mail.',
+        },
+      },
+      rights: {
+        title: 'Droits énumérés à l\'article 11 du KVKK',
+        description: 'En tant que propriétaires de données personnelles, vous avez les droits suivants :',
+        list: [
+          'Savoir si les données personnelles sont traitées',
+          'Demander des informations si les données personnelles ont été traitées',
+          'Connaître le but du traitement des données personnelles',
+          'Connaître les tiers auxquels les données sont transférées au niveau national ou à l\'étranger',
+          'Demander une correction si les données sont incomplètes ou traitées de manière incorrecte',
+          'Demander la suppression lorsque les raisons nécessitant le traitement cessent d\'exister',
+          'Réclamer une indemnisation en cas de dommage subi en raison d\'un traitement illégal',
+        ],
+      },
+      howToUseRights: {
+        title: 'Comment exercer vos droits ?',
+        description: 'Vous pouvez nous soumettre votre demande via {email} ou remplir physiquement le formulaire et l\'envoyer à {address} par coursier/poste.',
+        response: 'Votre demande sera évaluée dans un délai maximum de 30 jours et vous serez informé de la question.',
+      },
+    },
+    lastUpdate: 'Dernière mise à jour : décembre 2024',
   },
 }
 

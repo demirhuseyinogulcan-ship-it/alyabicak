@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     en: 'Cookie Policy',
     ar: 'سياسة ملفات تعريف الارتباط',
     ru: 'Политика использования файлов cookie',
+    fr: 'Politique de cookies',
   }
   
   const descriptions = {
@@ -27,6 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     en: 'Alya Blades website cookie usage policy. Information about what cookies we use and how you can manage your preferences.',
     ar: 'سياسة استخدام ملفات تعريف الارتباط لموقع أليا للشفرات. معلومات حول ملفات تعريف الارتباط التي نستخدمها وكيف يمكنك إدارة تفضيلاتك.',
     ru: 'Политика использования файлов cookie веб-сайта Alya Blades. Информация о том, какие файлы cookie мы используем и как вы можете управлять своими предпочтениями.',
+    fr: 'Politique d\'utilisation des cookies du site web Alya Blades. Informations sur les cookies que nous utilisons et comment vous pouvez gérer vos préférences.',
   }
   
   return generateSeoMetadata({
@@ -257,6 +259,61 @@ const content = {
       },
     },
     lastUpdate: 'Последнее обновление: декабрь 2024',
+  },
+  fr: {
+    pageTitle: 'Politique en matière de cookies',
+    subtitle: 'Informations sur les cookies utilisés sur notre site Web',
+    sections: {
+      whatIsCookie: {
+        title: 'Qu\'est-ce qu\'un cookie ?',
+        description: 'Un cookie est un petit fichier texte stocké sur votre ordinateur ou appareil mobile lorsque vous visitez des sites Web via des navigateurs utilisant des appareils mobiles et de bureau. Ils sont généralement utilisés pour vous offrir une expérience personnalisée lors de l\'utilisation du site Web que vous visitez, pour améliorer les services offerts et pour améliorer votre expérience.',
+      },
+      whatFor: {
+        title: 'À quoi servent-ils ?',
+        description: 'Les cookies sont utilisés pour faciliter l\'utilisation des sites Web et pour les adapter aux intérêts et besoins des utilisateurs. Cela garantit que l\'utilisateur est reconnu et que les paramètres de préférence sont mémorisés.',
+      },
+      types: {
+        title: 'Types de cookies',
+        essential: {
+          title: 'Cookies essentiels/techniques',
+          description: 'Ce sont des cookies obligatoires pour le bon fonctionnement du site Web que vous visitez. Le but de ces cookies est de fournir le service nécessaire en assurant le fonctionnement du site. Par exemple, ils permettent d\'accéder aux sections sécurisées du site Web.',
+        },
+        analytical: {
+          title: 'Cookies analytiques',
+          description: 'Ils collectent des informations sur la façon dont le site Web est utilisé, la fréquence et le nombre de visites. Le but de l\'utilisation de ces cookies est d\'améliorer les performances en améliorant le fonctionnement du site. Ils ne contiennent pas de données permettant d\'identifier les visiteurs.',
+        },
+        functional: {
+          title: 'Cookies fonctionnels',
+          description: 'Ils enregistrent les choix effectués par le visiteur sur le site et les mémorisent lors de la prochaine visite. Le but de ces cookies est de faciliter l\'utilisation pour les visiteurs. Par exemple, ils mémorisent votre préférence de langue.',
+        },
+      },
+      usedCookies: {
+        title: 'Cookies utilisés sur notre site Web',
+        tableHeaders: {
+          cookie: 'Cookie',
+          purpose: 'Objectif',
+          type: 'Type',
+          duration: 'Durée',
+        },
+        cookies: [
+          { name: 'cookie-consent', purpose: 'Stocke les préférences de cookies', type: 'Essentiel', duration: '1 an' },
+          { name: '_ga', purpose: 'Google Analytics - analyse du trafic du site', type: 'Analytique', duration: '2 ans' },
+          { name: 'language', purpose: 'Stocke la préférence de langue', type: 'Fonctionnel', duration: '1 an' },
+        ],
+      },
+      preferences: {
+        title: 'Comment gérer les préférences de cookies ?',
+        p1: 'Pour modifier vos préférences de cookies ou pour bloquer ou supprimer les cookies, vous devez simplement modifier les paramètres de votre navigateur.',
+        p2: 'De nombreux navigateurs vous offrent la possibilité d\'accepter ou de refuser les cookies, ou d\'accepter uniquement certains types de cookies pour les contrôler.',
+        browserTitle: 'Paramètres du navigateur',
+        note: 'Remarque : Si vous désactivez ou refusez les cookies, vous devrez peut-être ajuster manuellement certaines préférences et certaines fonctionnalités du site Web peuvent ne pas fonctionner correctement.',
+      },
+      contact: {
+        title: 'Contact',
+        description: 'Pour toute question concernant notre politique en matière de cookies, vous pouvez nous contacter :',
+      },
+    },
+    lastUpdate: 'Dernière mise à jour : décembre 2024',
   },
 }
 

@@ -10,6 +10,7 @@ const dictionaries = {
   en: () => import('./en').then((module) => module.default),
   ar: () => import('./ar').then((module) => module.default),
   ru: () => import('./ru').then((module) => module.default),
+  fr: () => import('./fr').then((module) => module.default),
 };
 
 export const getDictionary = async (locale: Locale) => {
@@ -21,8 +22,9 @@ import tr from './tr';
 import en from './en';
 import ar from './ar';
 import ru from './ru';
+import fr from './fr';
 
-const dictionariesSync = { tr, en, ar, ru };
+const dictionariesSync = { tr, en, ar, ru, fr };
 
 export const getDictionarySync = (locale: Locale) => {
   return dictionariesSync[locale];
