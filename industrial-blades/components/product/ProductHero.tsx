@@ -178,6 +178,27 @@ export function ProductHero({ product }: ProductHeroProps) {
                 ))}
               </ul>
             )}
+
+            {/* Mevcut Ölçüler (varsa) */}
+            {product.availableSizes && product.availableSizes.length > 0 && (
+              <div className="mt-6 p-4 bg-steel-50 border border-steel-200 rounded-lg">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-sm font-medium text-steel-700">
+                    📐 {t.productDetail.availableSizes || 'Mevcut Ölçüler'}:
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {product.availableSizes.map((size, index) => (
+                    <span 
+                      key={index}
+                      className="px-3 py-1.5 text-sm font-medium text-steel-700 bg-white border border-steel-300 rounded-md hover:border-primary-400 hover:text-primary-700 transition-colors"
+                    >
+                      {size}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
             
             {/* CTA Butonları */}
             <div className="mt-8 flex flex-col sm:flex-row gap-3">

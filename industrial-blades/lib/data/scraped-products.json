@@ -6060,7 +6060,14 @@
       "Plastik dilme",
       "Ambalaj kesimi"
     ],
-    "seoKeywords": ["3 delikli jilet", "3 delikli dilme jileti", "karbon çelik jilet", "sanayi jileti", "endüstriyel jilet", "dilme jileti", "slitting blade", "three hole blade", "43x22 jilet", "43x22mm jilet", "tekstil jileti", "film kesim jileti", "kağıt kesim jileti", "ambalaj jileti", "yüksek karbonlu jilet", "SK5 jilet", "sanayi tipi jilet", "profesyonel jilet", "uzun ömürlü jilet", "keskin jilet", "dilme makinesi jileti", "slitter blade"],
+    "availableSizes": [
+      "43x22x0.10mm",
+      "43x22x0.15mm",
+      "43x22x0.20mm",
+      "43x22x0.30mm",
+      "43x22x0.40mm"
+    ],
+    "seoKeywords": ["3 delikli jilet", "3 delikli dilme jileti", "karbon çelik jilet", "sanayi jileti", "endüstriyel jilet", "dilme jileti", "slitting blade", "three hole blade", "43x22 jilet", "43x22mm jilet", "43x22x0.10mm", "43x22x0.15mm", "43x22x0.20mm", "43x22x0.30mm", "43x22x0.40mm", "tekstil jileti", "film kesim jileti", "kağıt kesim jileti", "ambalaj jileti", "yüksek karbonlu jilet", "SK5 jilet", "sanayi tipi jilet", "profesyonel jilet", "uzun ömürlü jilet", "keskin jilet", "dilme makinesi jileti", "slitter blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 264

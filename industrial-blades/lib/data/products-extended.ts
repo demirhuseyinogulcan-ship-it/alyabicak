@@ -485,6 +485,9 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
 
     features: baseProduct.features,
 
+    // Mevcut ölçüler (varyantlar)
+    availableSizes: baseProduct.availableSizes,
+
     relatedProductIds: undefined,
 
     seo: {

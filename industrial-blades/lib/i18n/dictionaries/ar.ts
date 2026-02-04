@@ -313,6 +313,7 @@ const ar = {
     requestQuote: 'طلب عرض سعر',
     whatsappChat: 'محادثة واتساب',
     bulkOrderInfo: 'تواصل معنا للطلبات بالجملة أو الاستشارات الفنية.',
+    availableSizes: 'المقاسات المتوفرة',
     inStock: 'متوفر',
     askStock: 'استفسر عن التوفر',
     whatsappMessage: 'مرحباً، أود الحصول على معلومات عن {{code}} - {{name}}.',

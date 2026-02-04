@@ -137,6 +137,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
         name: siteConfig.company.legalName,
       },
     },
+    // Varyantlar (mevcut ölçüler)
+    ...(product.availableSizes && product.availableSizes.length > 0 && {
+      hasVariant: product.availableSizes.map((size) => ({
+        '@type': 'Product',
+        name: `${product.name} - ${size}`,
+        size: size,
+        sku: `${product.code}-${size}`,
+      })),
+    }),
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale);

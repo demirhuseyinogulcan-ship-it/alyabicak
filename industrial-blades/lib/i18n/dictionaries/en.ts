@@ -312,6 +312,7 @@ const en = {
     requestQuote: 'Request Quote',
     whatsappChat: 'Chat on WhatsApp',
     bulkOrderInfo: 'Contact us for bulk orders or technical consulting.',
+    availableSizes: 'Available Sizes',
     inStock: 'In Stock',
     askStock: 'Ask for availability',
     whatsappMessage: 'Hello, I would like to get information about {{code}} - {{name}}.',

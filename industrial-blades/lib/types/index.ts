@@ -68,6 +68,7 @@ export interface Product extends BaseEntity, DisplayInfo {
   features?: string[];      // Öne çıkan özellikler
   applications?: string[];  // Kullanım alanları
   certifications?: string[]; // ISO, FDA vb.
+  availableSizes?: string[]; // Mevcut ölçüler (SEO için: 43x22x0.10mm, 43x22x0.15mm vb.)
   
   isFeatured: boolean;
   isActive: boolean;

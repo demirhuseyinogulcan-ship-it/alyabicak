@@ -313,6 +313,7 @@ const ru = {
     requestQuote: 'Запросить Цену',
     whatsappChat: 'Написать в WhatsApp',
     bulkOrderInfo: 'Свяжитесь с нами для оптовых заказов или технической консультации.',
+    availableSizes: 'Доступные размеры',
     inStock: 'В наличии',
     askStock: 'Уточнить наличие',
     whatsappMessage: 'Здравствуйте, я хотел бы получить информацию о {{code}} - {{name}}.',

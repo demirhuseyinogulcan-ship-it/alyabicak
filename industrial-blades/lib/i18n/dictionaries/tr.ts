@@ -312,6 +312,7 @@ const tr = {
     requestQuote: 'Teklif İste',
     whatsappChat: 'WhatsApp ile Yazın',
     bulkOrderInfo: 'Toplu sipariş veya teknik danışmanlık için bizimle iletişime geçin.',
+    availableSizes: 'Mevcut Ölçüler',
     inStock: 'Stokta mevcut',
     askStock: 'Stok sorunuz',
     whatsappMessage: 'Merhaba, {{code}} - {{name}} ürünü hakkında bilgi almak istiyorum.',

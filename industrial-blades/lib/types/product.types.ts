@@ -101,6 +101,9 @@ export interface ProductExtended {
   // Özellikler listesi
   features?: string[];          // ["Ergonomik tasarım", "Uzun ömürlü"]
 
+  // Mevcut Ölçüler (Farklı varyantlar için esnek yapı)
+  availableSizes?: string[];    // ["43x22x0.10mm", "43x22x0.15mm", ...]
+
   // Sertifikalar
   certifications?: string[];    // ["CE", "ISO 9001"]
 
