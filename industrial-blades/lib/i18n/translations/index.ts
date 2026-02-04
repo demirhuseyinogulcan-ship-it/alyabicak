@@ -22,6 +22,7 @@
 import { heroSlidesTranslations, type HeroSlideTranslations } from './hero-slides';
 import { categoryTranslations, subcategoryTranslations, type CategoryTranslations, type SubcategoryTranslations } from './categories';
 import { productTranslations, type ProductTranslation } from './products';
+import { specValueTranslations, getSpecValueTranslation } from './spec-values';
 
 // =============================================================================
 // HERO SLIDES
@@ -148,3 +149,6 @@ export type { HeroSlideTranslations, CategoryTranslations, SubcategoryTranslatio
 
 // Re-export raw data for direct access if needed
 export { heroSlidesTranslations, categoryTranslations, subcategoryTranslations, productTranslations };
+
+// Spec value translations
+export { specValueTranslations, getSpecValueTranslation };

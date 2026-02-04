@@ -12,7 +12,7 @@
 import type { ProductExtended, ProductCardData } from '../types/product.types';
 import { getProductBySlug as getBaseProductBySlug, getAllProducts } from './products';
 import { getCategoryById, getSubcategoryById } from './categories';
-import { getProductTranslation, getCategoryTranslation } from '../i18n/translations';
+import { getProductTranslation, getCategoryTranslation, getSpecValueTranslation } from '../i18n/translations';
 
 // Default locale
 const DEFAULT_LOCALE = 'tr';
@@ -509,7 +509,7 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
 function translateProductExtended(product: ProductExtended, locale: string): ProductExtended {
   if (locale === 'tr') return product; // Türkçe master data, çevirmeye gerek yok
 
-  // Specs label'larını çevir
+  // Specs label'larını VE value'larını çevir
   const translatedSpecs = product.specs?.map(spec => {
     // Spec key'i bulmak için Türkçe label'dan key'e dönüştür
     const keyFromLabel = Object.entries(specLabelTranslations['tr']).find(
@@ -519,6 +519,7 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
     return {
       ...spec,
       label: keyFromLabel ? getSpecLabel(keyFromLabel, locale) : spec.label,
+      value: getSpecValueTranslation(spec.value, locale), // VALUE çevirisi eklendi!
     };
   });
 
