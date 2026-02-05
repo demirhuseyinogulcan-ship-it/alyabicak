@@ -31,6 +31,7 @@ export default function HeroSlider() {
         subtitle: translation.subtitle,
         description: translation.description,
         ctaText: translation.ctaText,
+        imageAlt: (translation as { imageAlt?: string }).imageAlt,
       };
     }
     return slide;
@@ -119,7 +120,7 @@ export default function HeroSlider() {
             {/* Background Image */}
             <Image
               src={slide.image}
-              alt={slide.title}
+              alt={slide.imageAlt || slide.title}
               fill
               className="object-cover"
               priority={index === 0}

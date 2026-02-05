@@ -130,6 +130,7 @@ export interface HeroSlide {
   subtitle?: string;
   description: string;
   image: string;
+  imageAlt?: string; // SEO için görsel açıklaması
   ctaText?: string;
   ctaLink?: string;
   order: number;
