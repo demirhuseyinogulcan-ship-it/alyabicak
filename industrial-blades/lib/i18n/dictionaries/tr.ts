@@ -5,9 +5,9 @@
 const tr = {
   // Meta & SEO
   meta: {
-    title: 'Alya Bıçak | Endüstriyel Kesici Çözümler',
-    description: 'Türkiye\'nin lider endüstriyel bıçak ve jilet tedarikçisi. 30 yılı aşkın tecrübe ile sanayi jiletleri, makina bıçakları ve iş güvenliği el bıçakları.',
-    keywords: 'endüstriyel bıçak, sanayi jileti, makina bıçağı, kesici alet, bıçak tedarikçisi',
+    title: 'Endüstriyel Bıçaklar | Sheffield Kalite Sanayi Jiletleri | Alya Bıçak',
+    description: 'Sheffield kalitesinde endüstriyel bıçak tedarikçisi. Sanayi jiletleri, makine bıçakları, iş güvenliği el bıçakları, falçata yedek uçları. FDA/USDA onaylı. 30+ yıl deneyim. Türkiye geneli hızlı teslimat.',
+    keywords: 'endüstriyel bıçak, sanayi jileti, makina bıçağı, dilme jileti, kesici takım, falçata, maket bıçağı, güvenlik bıçağı, vakum paketleme bıçağı, döner bıçak, trapez bıçak, tungsten karbür bıçak, titanyum kaplama jilet, OLFA bıçak, geri dönüşüm bıçağı, Sheffield bıçak, FDA onaylı bıçak, paslanmaz çelik jilet, karbon çelik bıçak',
   },
 
   // Navigation

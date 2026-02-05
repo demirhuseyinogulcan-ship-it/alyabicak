@@ -5,9 +5,9 @@
 const en = {
   // Meta & SEO
   meta: {
-    title: 'Alya Blade | Industrial Cutting Solutions',
-    description: 'Turkey\'s leading industrial blade and razor supplier. Over 30 years of experience in industrial blades, machine knives, and safety cutters.',
-    keywords: 'industrial blade, industrial razor, machine knife, cutting tool, blade supplier',
+    title: 'Industrial Blades | Sheffield Quality Machine Knives | Alya Blade',
+    description: 'Premium Sheffield-quality industrial blade supplier. Slitter blades, machine knives, safety cutters, utility knife blades. FDA/USDA approved. 30+ years experience. Worldwide shipping.',
+    keywords: 'industrial blades, slitter blades, machine knives, safety cutters, utility knife blades, trapezoid blades, tungsten carbide blades, titanium coated blades, OLFA blades, recycling blades, Sheffield blades, FDA approved blades, stainless steel blades, carbon steel blades, granulator blades, packaging blades',
   },
 
   // Navigation

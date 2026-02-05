@@ -119,6 +119,101 @@
 
 ---
 
+## 🌐 GLOBAL SEO STRATEJİSİ - ÖĞRENME YOL HARİTASI
+
+### 1. Technical SEO
+- [x] **Hreflang** - Tüm dillerde düzgün çalışıyor
+- [ ] **Site Speed Optimization**
+  - [ ] Image lazy loading kontrolü
+  - [ ] Bundle size analizi
+  - [ ] CDN optimizasyonu
+  - [ ] Caching stratejisi
+- [ ] **Core Web Vitals**
+  - [ ] LCP (Largest Contentful Paint) < 2.5s
+  - [ ] FID (First Input Delay) < 100ms
+  - [ ] CLS (Cumulative Layout Shift) < 0.1
+  - [ ] PageSpeed Insights ile test
+- [x] **Structured Data** - Organization, Product, LocalBusiness şemaları var
+
+### 2. International SEO
+- [ ] **Keyword Research (Dil Bazlı)**
+  - [ ] 🇹🇷 Türkçe - "sanayi jileti", "dilme jileti", "endüstriyel bıçak"
+  - [ ] 🇬🇧 İngilizce - "industrial blade", "slitting blade", "razor blade"
+  - [ ] 🇫🇷 Fransızca - "lame industrielle", "lame de refendage"
+  - [ ] 🇷🇺 Rusça - "промышленные лезвия", "ножи для резки"
+  - [ ] 🇸🇦 Arapça - "شفرة صناعية", "شفرة تقطيع"
+  - [ ] 🇩🇪 Almanca - "Industrieklinge", "Schlitzmesser"
+  - [ ] 🇪🇸 İspanyolca - "cuchilla industrial", "cuchilla de corte"
+- [ ] **Local Link Building**
+  - [ ] Her dil için yerel endüstri dizinleri
+  - [ ] Yerel ticaret odaları
+  - [ ] Sektör portalları
+- [ ] **Content Localization**
+  - [ ] Para birimi gösterimi (€, $, ₺, ر.س, ₽)
+  - [ ] Yerel telefon numarası
+  - [ ] Yerel referanslar/müşteriler
+  - [ ] Ülke bazlı teslimat bilgileri
+
+### 3. Conversion Optimization
+- [ ] **A/B Testing**
+  - [ ] CTA buton renkleri (dil bazlı)
+  - [ ] Form uzunluğu
+  - [ ] Hero slider içeriği
+- [ ] **Heat Maps**
+  - [ ] Hotjar veya Microsoft Clarity kurulumu
+  - [ ] Tıklama haritaları analizi
+  - [ ] Scroll derinliği analizi
+- [ ] **User Journey Analysis**
+  - [ ] Funnel analizi (Anasayfa → Kategori → Ürün → İletişim)
+  - [ ] Çıkış sayfaları analizi
+  - [ ] Dönüşüm oranı takibi
+
+### 4. Analytics
+- [ ] **Google Analytics 4**
+  - [ ] Dil/ülke bazlı segment oluştur
+  - [ ] Dönüşüm hedefleri tanımla (form gönderimi, WhatsApp tıklaması)
+  - [ ] E-ticaret tracking (ileride)
+- [x] **Search Console** - 5 domain bağlı (TR, EN, FR, RU, AR)
+- [ ] **Segment Analysis**
+  - [ ] Dil bazlı trafik raporu
+  - [ ] Ülke bazlı performans
+  - [ ] Cihaz bazlı analiz
+  - [ ] Haftalık/aylık rapor otomasyonu
+
+### 5. Content Marketing (Her Dil İçin)
+- [ ] **Blog/Rehber İçerik**
+  - [ ] "Dilme jileti nasıl seçilir?" (TR)
+  - [ ] "How to choose slitting blades" (EN)
+  - [ ] "Comment choisir les lames de refendage" (FR)
+  - [ ] "Как выбрать лезвия для резки" (RU)
+  - [ ] "كيفية اختيار شفرات التقطيع" (AR)
+- [ ] **Video İçerik**
+  - [ ] Ürün tanıtım videoları
+  - [ ] Kullanım kılavuzları
+  - [ ] YouTube kanalı (çoklu dil altyazı)
+- [ ] **Sosyal Medya**
+  - [ ] LinkedIn (B2B odaklı)
+  - [ ] Sektörel gruplar
+
+---
+
+## 📈 YENİ DİL EKLEMEİ ÖNCELİK SIRASI (Güncel)
+
+| Öncelik | Dil | Pazar Potansiyeli | Rekabet | Öneri |
+|---------|-----|-------------------|---------|-------|
+| 🔴 1 | 🇩🇪 Almanca | Çok Yüksek | Orta | Endüstriyel dev, yüksek fiyat toleransı |
+| 🔴 2 | 🇪🇸 İspanyolca | Yüksek | Düşük | 500M+ konuşurucu, Latin Amerika |
+| 🟠 3 | 🇮🇹 İtalyanca | Yüksek | Orta | Güçlü imalat sektörü |
+| 🟠 4 | 🇵🇱 Lehçe | Orta | Düşük | Hızlı büyüyen pazar |
+| 🟡 5 | 🇳🇱 Hollandaca | Orta | Düşük | Yüksek alım gücü |
+| 🟡 6 | 🇵🇹 Portekizce | Yüksek | Düşük | Brezilya pazarı |
+| 🟢 7 | 🇯🇵 Japonca | Yüksek | Yüksek | Premium segment |
+| 🟢 8 | 🇨🇳 Çince | Çok Yüksek | Çok Yüksek | Zor ama değerli |
+| 🔵 9 | 🇰🇷 Korece | Orta | Orta | Teknoloji odaklı |
+| 🔵 10 | 🇮🇳 Hintçe | Yüksek | Düşük | Hızlı büyüyen imalat |
+
+---
+
 ## 📝 Her Dil İçin Yapılacaklar
 
 ### Adım 1: Dictionary Dosyası Oluştur
@@ -175,5 +270,5 @@
 
 ---
 
-**Son Güncelleme:** 4 Şubat 2026
+**Son Güncelleme:** 5 Şubat 2026
 **Hazırlayan:** GitHub Copilot

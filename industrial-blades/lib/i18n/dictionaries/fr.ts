@@ -6,9 +6,9 @@
 const fr = {
   // Meta & SEO
   meta: {
-    title: 'Alya Lame | Solutions de Découpe Industrielle',
-    description: 'Premier fournisseur turc de lames et rasoirs industriels. Plus de 30 ans d\'expérience en lames industrielles, couteaux de machine et cutters de sécurité.',
-    keywords: 'lame industrielle, rasoir industriel, couteau de machine, outil de coupe, fournisseur de lames',
+    title: 'Lames Industrielles | Qualité Sheffield Couteaux de Machine | Alya Lame',
+    description: 'Fournisseur de lames industrielles qualité Sheffield premium. Lames de refente, couteaux de machine, cutters de sécurité, lames utilitaires. Approuvé FDA/USDA. 30+ ans d\'expérience. Livraison mondiale.',
+    keywords: 'lames industrielles, lames de refente, couteaux de machine, cutters de sécurité, lames trapézoïdales, lames carbure de tungstène, lames revêtement titane, lames OLFA, lames recyclage, lames Sheffield, lames approuvées FDA, lames inox, lames acier carbone, lames granulateur, lames emballage',
   },
 
   // Navigation
