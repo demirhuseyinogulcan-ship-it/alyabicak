@@ -30,6 +30,12 @@ export const heroSlidesTr = {
     description: 'Kesim bitiminde otomatik geri çekilebilen mekanizmasıyla iş kazalarını engeller',
     ctaText: 'Ürünleri İncele',
   },
+  'slide-5': {
+    title: 'Vakum Paketleme Makine Bıçakları',
+    subtitle: 'Gıda Güvenliği & Hijyen Standartları',
+    description: 'Yıldız, zımba, üçgen ve termoform kesim bıçakları - Tüm vakum paketleme makinalarına uyumlu',
+    ctaText: 'Ürünleri İncele',
+  },
 };
 
 export type HeroSlideTranslations = typeof heroSlidesTr;

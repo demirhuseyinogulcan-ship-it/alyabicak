@@ -32,4 +32,10 @@ export const heroSlidesEn: HeroSlideTranslations = {
     description: 'Prevents workplace accidents with auto-retractable mechanism after cutting',
     ctaText: 'Explore Products',
   },
+  'slide-5': {
+    title: 'Vacuum Packaging Machine Blades',
+    subtitle: 'Food Safety & Hygiene Standards',
+    description: 'Star, punch, triangle & thermoform cutting blades - Compatible with all vacuum packaging machines',
+    ctaText: 'Explore Products',
+  },
 };

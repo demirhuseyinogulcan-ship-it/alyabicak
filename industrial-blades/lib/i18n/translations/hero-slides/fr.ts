@@ -32,4 +32,10 @@ export const heroSlidesFr: HeroSlideTranslations = {
     description: 'Prévient les accidents de travail avec un mécanisme auto-rétractable après la coupe',
     ctaText: 'Découvrir les Produits',
   },
+  'slide-5': {
+    title: 'Lames pour Machines d\'Emballage Sous Vide',
+    subtitle: 'Sécurité Alimentaire & Normes d\'Hygiène',
+    description: 'Lames étoile, poinçon, triangle et thermoform - Compatibles avec toutes les machines d\'emballage sous vide',
+    ctaText: 'Découvrir les Produits',
+  },
 };

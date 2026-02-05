@@ -49,6 +49,17 @@ export const HERO_SLIDES: HeroSlide[] = [
     order: 4,
     isActive: true,
   },
+  {
+    id: 'slide-5',
+    title: 'Vakum Paketleme Makine Bıçakları',
+    subtitle: 'Gıda Güvenliği & Hijyen Standartları',
+    description: 'Yıldız, zımba, üçgen ve termoform kesim bıçakları - Tüm vakum paketleme makinalarına uyumlu',
+    image: '/images/vakum-paketleme-bicaklari-thermoform-makine-bicaklari.jpg',
+    ctaText: 'Ürünleri İncele',
+    ctaLink: '/categories/machine-knives/thermoform-vacuum-knives',
+    order: 5,
+    isActive: true,
+  },
 ];
 
 // Yardımcı fonksiyonlar
