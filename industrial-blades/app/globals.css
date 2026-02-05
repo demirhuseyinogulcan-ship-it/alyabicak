@@ -16,6 +16,13 @@
   box-sizing: border-box;
 }
 
+/* Horizontal overflow fix - yatay kaydırmayı engelle */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
 body {
   background: #f8fafc;
   color: #0f172a;

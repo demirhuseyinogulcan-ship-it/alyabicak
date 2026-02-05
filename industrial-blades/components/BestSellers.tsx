@@ -42,10 +42,10 @@ export default function BestSellers() {
 
         {/* Slider Container */}
         <div className="relative">
-          {/* Navigation Buttons */}
+          {/* Navigation Buttons - Hidden on mobile */}
           <button
             onClick={() => scroll('left')}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-steel-50 transition-colors"
+            className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg items-center justify-center hover:bg-steel-50 transition-colors"
             aria-label={dict.common.previous}
           >
             <ChevronLeft className="w-6 h-6 text-steel-700" />
@@ -53,7 +53,7 @@ export default function BestSellers() {
           
           <button
             onClick={() => scroll('right')}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-steel-50 transition-colors"
+            className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg items-center justify-center hover:bg-steel-50 transition-colors"
             aria-label={dict.common.next}
           >
             <ChevronRight className="w-6 h-6 text-steel-700" />
