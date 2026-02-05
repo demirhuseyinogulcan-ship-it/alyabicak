@@ -54,17 +54,34 @@ export async function generateMetadata({ params }: PageProps) {
     return {}
   }
 
+  // Ürün sayısını kontrol et - boş kategorilerde noindex uygula (Soft 404 önleme)
+  const products = productService.getSubcategoryCards(subcategory.id, locale)
+  const hasProducts = products.length > 0
+
   // SEO keywords - önce subcategory'nin kendi seoKeywords'leri, sonra genel
   const baseKeywords = [subcategory.name.toLowerCase(), category.name.toLowerCase()]
   const seoKeywords = (subcategory as { seoKeywords?: string[] }).seoKeywords || []
   const allKeywords = [...seoKeywords, ...baseKeywords, 'alya bıçak', 'alya blade']
 
-  return generateSeoMetadata({
+  const metadata = generateSeoMetadata({
     title: `${subcategory.name} | ${category.name}`,
     description: `${subcategory.description} - ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}. ${subcategory.productCount} ${dict.common.products}.`,
     keywords: allKeywords,
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}/${subcategory.slug}`,
   })
+
+  // Ürünü olmayan alt kategorileri noindex yap - Google Soft 404 hatalarını önle
+  if (!hasProducts) {
+    return {
+      ...metadata,
+      robots: {
+        index: false,
+        follow: true, // Linkler hala takip edilsin (diğer kategorilere)
+      },
+    }
+  }
+
+  return metadata
 }
 
 export default async function SubcategoryPage({ params }: PageProps) {

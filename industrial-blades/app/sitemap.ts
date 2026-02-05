@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 import { getAllCategories, getAllSubcategories } from '@/lib/data/categories'
-import { getAllProducts } from '@/lib/data/products'
+import { getAllProducts, getProductCountBySubcategory } from '@/lib/data/products'
 import { blogService } from '@/lib/data/blog'
 import { i18nConfig, type Locale } from '@/lib/i18n/config'
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
@@ -9,6 +9,8 @@ import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/confi
  * Multi-domain sitemap configuration
  * - alyabicak.com → Turkish content
  * - alyablade.com → English & Arabic content
+ * 
+ * NOT: Ürünü olmayan alt kategoriler sitemap'e dahil edilmez (Soft 404 önleme)
  */
 
 // Generate URL for a specific locale
@@ -69,8 +71,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   )
 
   // Alt kategori sayfaları (her dil için)
+  // SADECE ürünü olan alt kategorileri dahil et - Soft 404 önleme
+  const subcategoriesWithProducts = subcategories.filter(sub => getProductCountBySubcategory(sub.id) > 0)
+  
   const subcategoryRoutes = locales.flatMap((locale) =>
-    subcategories.map((subcategory) => {
+    subcategoriesWithProducts.map((subcategory) => {
       const parentCategory = categories.find(c => c.subcategoryIds.includes(subcategory.id))
       const path = `/categories/${parentCategory?.slug}/${subcategory.slug}`
       return {
