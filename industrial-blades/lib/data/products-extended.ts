@@ -89,6 +89,23 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     color: 'Цвет',
     microstructure: 'Микроструктура',
   },
+  fr: {
+    material: 'Matériau',
+    hardness: 'Dureté',
+    thickness: 'Épaisseur',
+    width: 'Largeur',
+    length: 'Longueur',
+    coating: 'Revêtement',
+    edge: 'Type de tranchant',
+    weight: 'Poids',
+    carbonContent: 'Teneur en carbone',
+    edgeAngle: 'Angle de coupe',
+    heatTreatment: 'Traitement thermique',
+    dimensions: 'Dimensions',
+    diameter: 'Diamètre',
+    color: 'Couleur',
+    microstructure: 'Microstructure',
+  },
 };
 
 /** Spec label çevirisi getir */

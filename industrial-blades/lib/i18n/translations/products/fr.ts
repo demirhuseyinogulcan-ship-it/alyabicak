@@ -155,13 +155,156 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
 
   // =============================================================================
-  // RASOIRS INDUSTRIELS - REFENDAGE INJECTOR
+  // RASOIRS INDUSTRIELS - REFENDAGE INJECTEUR
   // =============================================================================
   'injector-carbon-steel': {
-    name: 'Lame de Refendage Injector - Acier Carbone',
-    description: 'Lame de refendage injector en acier à haute teneur en carbone',
-    features: ['Haute teneur en carbone', 'Montage injector', 'Longue durée de vie'],
+    name: 'Lame de Refendage Injecteur - Acier Carbone',
+    description: 'Lame de refendage injecteur en acier à haute teneur en carbone',
+    features: ['Haute teneur en carbone', 'Montage injecteur', 'Longue durée de vie'],
     applications: ['Refendage industriel', 'Découpe de film', 'Découpe de papier'],
+  },
+  'injektor-karbon-celik': {
+    name: 'Lame Injecteur - Acier Carbone, 2 Fentes',
+    description: 'Lame injecteur industrielle fabriquée en acier à haute teneur en carbone (0,85-1,00% C). Le système de montage à double fente permet un positionnement stable et sécurisé sur les machines de refendage. Le traitement thermique de précision dans des fours à atmosphère contrôlée produit une microstructure martensitique homogène avec une dureté HRC 58-60. L\'angle de tranchant optimisé de 22° avec meulage de précision assure des coupes nettes et durables. Solution économique offrant un excellent rapport qualité-prix pour applications industrielles standard.',
+    features: [
+      'Teneur élevée en carbone (0,85-1,00%)',
+      'Système de montage à double fente',
+      'Microstructure martensitique homogène',
+      'Dureté HRC 58-60',
+      'Angle de tranchant optimal de 22°',
+      'Excellent rapport qualité-prix'
+    ],
+    applications: ['Refendage de film plastique', 'Découpe de papier', 'Découpe textile', 'Refendage d\'emballage', 'Découpe de ruban adhésif'],
+  },
+  'injektor-paslanmaz': {
+    name: 'Lame Injecteur - Acier Inoxydable, 2 Fentes',
+    description: 'Lame injecteur fabriquée en acier inoxydable martensitique AISI 420 avec système de montage à double fente. La teneur en chrome de 12-14% assure une excellente résistance à la corrosion tout en maintenant une dureté HRC 54-56. Idéale pour environnements humides, industrie alimentaire et applications nécessitant des standards d\'hygiène élevés. Le système à double fente offre un montage stable et des changements de lame rapides. Approuvée FDA pour surfaces en contact alimentaire.',
+    features: [
+      'Acier inoxydable AISI 420',
+      'Résistance à la corrosion',
+      'Système de montage à double fente',
+      'Approuvé FDA',
+      'Dureté HRC 54-56',
+      'Adapté aux environnements humides'
+    ],
+    applications: ['Découpe d\'emballage alimentaire', 'Applications en environnement humide', 'Production pharmaceutique', 'Lignes de production hygiéniques', 'Emballage médical'],
+  },
+  'injektor-paslanmaz-ptfe': {
+    name: 'Lame Injecteur - Acier Inoxydable + Revêtement PTFE, 2 Fentes',
+    description: 'Lame injecteur en acier inoxydable AISI 420 avec revêtement PTFE (polytétrafluoroéthylène) avancé et système de montage à double fente. Le revêtement PTFE offre des propriétés anti-adhésives exceptionnelles avec un coefficient de friction extrêmement bas (<0,04). Cette combinaison empêche l\'accumulation de résidus adhésifs sur le tranchant, maintenant une qualité de coupe constante. Idéale pour le refendage de rubans adhésifs, étiquettes autocollantes et matériaux revêtus qui adhèrent normalement aux lames standard.',
+    features: [
+      'Revêtement PTFE anti-adhésif',
+      'Coefficient de friction <0,04',
+      'Empêche l\'accumulation de résidus',
+      'Base inoxydable AISI 420',
+      'Système à double fente',
+      'Qualité de coupe constante'
+    ],
+    applications: ['Découpe de ruban adhésif', 'Refendage d\'étiquettes autocollantes', 'Découpe de film avec adhésif', 'Matériaux revêtus silicone', 'Production d\'autocollants'],
+  },
+  'injektor-paslanmaz-seramik': {
+    name: 'Lame Injecteur - Acier Inoxydable + Revêtement Céramique, 2 Fentes',
+    description: 'Lame injecteur en acier inoxydable avec revêtement céramique multicouche à base de titane et système de montage à double fente. Le revêtement céramique appliqué par technologie hybride CVD/PVD atteint une dureté de surface de 3200 HV. Cette combinaison offre à la fois la résistance à la corrosion de l\'inoxydable et la résistance à l\'usure extrême de la céramique. Performance supérieure pour la découpe de matériaux hautement abrasifs. L\'inertie chimique assure une longue durée de vie même dans des environnements corrosifs.',
+    features: [
+      'Revêtement céramique multicouche',
+      'Dureté de surface 3200 HV',
+      'Double protection corrosion + usure',
+      'Inertie chimique',
+      'Système à double fente',
+      'Durée de vie prolongée de 5-7x'
+    ],
+    applications: ['Découpe de papier abrasif', 'Refendage de fibre de verre', 'Découpe de composite', 'Matériaux techniques abrasifs', 'Applications industrielles exigeantes'],
+  },
+  'injektor-paslanmaz-titanyum': {
+    name: 'Lame Injecteur - Acier Inoxydable + Revêtement Titane, 2 Fentes',
+    description: 'Lame injecteur en acier inoxydable AISI 420 avec revêtement TiN (nitrure de titane) appliqué par PVD et système de montage à double fente. Le revêtement doré atteint une dureté de surface de 2300 HV, réduisant le coefficient de friction de 40%. Cette solution hybride combine la résistance à la corrosion de l\'inoxydable avec la résistance à l\'usure supérieure du titane. La génération de chaleur réduite pendant la coupe protège les matériaux thermosensibles. Idéale pour applications nécessitant hygiène et durabilité.',
+    features: [
+      'Revêtement PVD TiN (nitrure de titane)',
+      'Dureté de surface 2300 HV',
+      '40% friction réduite',
+      'Apparence dorée',
+      'Résistance corrosion + usure',
+      'Protection des matériaux thermosensibles'
+    ],
+    applications: ['Découpe de lamination alimentaire', 'Refendage d\'emballage blister', 'Découpe de film sensible à la chaleur', 'Applications pharmaceutiques', 'Emballage médical stérile'],
+  },
+  'injektor-paslanmaz-titanyum-2-kanalli': {
+    name: 'Lame Injecteur - Acier Inoxydable + Revêtement Titane, 2 Fentes Rainurées',
+    description: 'Lame injecteur en acier inoxydable avec revêtement titane et système de montage à double fente rainurée (cannelée) avancé. Les fentes rainurées offrent un ancrage mécanique supérieur, empêchant tout glissement ou vibration pendant les opérations de refendage haute vitesse. Le revêtement TiN appliqué par PVD fournit une dureté de 2300 HV avec les mêmes avantages de friction réduite. Conception premium pour applications industrielles professionnelles nécessitant une stabilité et une précision maximales.',
+    features: [
+      'Système à double fente rainurée',
+      'Ancrage mécanique supérieur',
+      'Anti-glissement et anti-vibration',
+      'Revêtement TiN 2300 HV',
+      'Stabilité haute vitesse',
+      'Précision professionnelle'
+    ],
+    applications: ['Refendage haute vitesse', 'Applications haute précision', 'Lignes de production automatisées', 'Découpe de film mince', 'Refendage de feuille de précision'],
+  },
+  'injektor-paslanmaz-xcd': {
+    name: 'Lame Injecteur - Acier Inoxydable + Revêtement XCD, 2 Fentes',
+    description: 'Lame injecteur en acier inoxydable avec revêtement XCD (Xtreme Carbon Diamond) de la famille DLC (Diamond-Like Carbon) et système de montage à double fente. Ce revêtement de carbone diamanté atteint une dureté exceptionnelle de 5000 HV avec un coefficient de friction inférieur à 0,1. L\'apparence diamant noir offre des propriétés anti-adhésives inégalées, empêchant même les matériaux les plus adhésifs de coller. Solution ultime pour les applications de découpe les plus exigeantes.',
+    features: [
+      'Revêtement XCD carbone diamant',
+      'Dureté ultra-élevée 5000 HV',
+      'Coefficient de friction <0,1',
+      'Propriétés anti-adhésives exceptionnelles',
+      'Apparence diamant noir',
+      'Pour applications ultra-exigeantes'
+    ],
+    applications: ['Découpe de ruban ultra-adhésif', 'Refendage de silicone', 'Découpe d\'étiquettes adhésives', 'Tissus imprégnés de résine', 'Rubans adhésifs médicaux'],
+  },
+  'injektor-yekpare-tungsten': {
+    name: 'Lame Injecteur - Carbure de Tungstène Massif, Sans Fente',
+    description: 'Lame injecteur fabriquée en carbure de tungstène massif (WC-Co) avec conception monolithique sans fente. Cette composition contenant 94% de carbure de tungstène et 6% de liant cobalt atteint une dureté HRA 92-94 (équivalent HRC 75+). La structure produite par métallurgie des poudres offre une intégrité parfaite sans soudure ni brasage. Montage par système de serrage direct. Conçue pour découper des matériaux ultra-abrasifs que les lames en acier conventionnelles ne peuvent pas traiter efficacement.',
+    features: [
+      'Carbure de tungstène massif 94% WC',
+      'Dureté ultra-élevée HRA 92-94',
+      'Structure monolithique sans fente',
+      'Production métallurgie des poudres',
+      'Durée de vie 20-50x supérieure',
+      'Pour matériaux extrêmement abrasifs'
+    ],
+    applications: ['Découpe de papier revêtu céramique', 'Refendage de feuille métallique', 'Découpe de composite abrasif', 'Film nanotube de carbone', 'Matériau électrode de batterie'],
+  },
+  'injektor-yekpare-seramik-030': {
+    name: 'Lame Injecteur - Céramique Massif (Zircone), Sans Fente - 0,30mm',
+    description: 'Lame injecteur ultra-mince de 0,30mm d\'épaisseur fabriquée en céramique zircone (ZrO2) massive avec conception sans fente. La structure de zircone polycristalline tétragonale (Y-TZP) maintient une dureté de 1200 HV avec une résistance exceptionnelle aux fissures malgré la faible épaisseur. Cette lame totalement sans métal élimine tout risque de contamination métallique et offre une isolation électrique complète. Idéale pour applications de découpe de précision nécessitant pureté absolue et biocompatibilité.',
+    features: [
+      'Épaisseur ultra-mince 0,30mm',
+      'Céramique zircone Y-TZP',
+      'Zéro contamination métallique',
+      'Isolation électrique complète',
+      'Biocompatible',
+      'Résistance chimique totale'
+    ],
+    applications: ['Découpe d\'emballage alimentaire de précision', 'Applications médicales', 'Découpe de film électronique', 'Salles blanches', 'Production pharmaceutique haute pureté'],
+  },
+  'injektor-yekpare-seramik-064': {
+    name: 'Lame Injecteur - Céramique Massif (Zircone), Sans Fente - 0,64mm',
+    description: 'Lame injecteur robuste de 0,64mm d\'épaisseur fabriquée en céramique zircone (ZrO2) massive avec conception sans fente. L\'épaisseur augmentée offre une rigidité et une durabilité supérieures par rapport à la version 0,30mm, tout en conservant les propriétés uniques de la céramique zircone Y-TZP. Dureté de 1200 HV sans aucune contamination métallique. Conçue pour applications industrielles nécessitant à la fois robustesse et pureté absolue dans des conditions de travail plus exigeantes.',
+    features: [
+      'Épaisseur robuste 0,64mm',
+      'Rigidité et durabilité supérieures',
+      'Céramique zircone Y-TZP',
+      'Zéro contamination métallique',
+      'Isolation électrique',
+      'Usage industriel intensif'
+    ],
+    applications: ['Découpe alimentaire industrielle', 'Applications médicales robustes', 'Découpe de film épais', 'Production pharmaceutique', 'Environnements industriels exigeants'],
+  },
+  'injektor-endurium-seramik': {
+    name: 'Lame Injecteur - Acier Endurium + Revêtement Céramique',
+    description: 'Lame injecteur premium avec substrat Endurium HSS (acier rapide) et revêtement céramique multicouche. L\'acier rapide Endurium contenant 8-10% tungstène, 4-5% molybdène et 4% chrome fournit une dureté de base HRC 64-66. Le revêtement céramique ajoute une dureté de surface de 3500 HV. Cette combinaison résiste aux températures jusqu\'à 600°C sans perte de dureté, idéale pour les coupes interrompues et applications haute vitesse générant de la chaleur. Solution ultime pour les applications industrielles les plus exigeantes.',
+    features: [
+      'Substrat Endurium HSS haute performance',
+      'Dureté de base HRC 64-66',
+      'Revêtement céramique 3500 HV',
+      'Résistance température 600°C',
+      'Résistance au choc thermique',
+      'Durée de vie maximale'
+    ],
+    applications: ['Opérations de refendage haute vitesse', 'Coupe interrompue', 'Refendage de feuille métallique', 'Découpe de composite technique', 'Production industrielle 24/7'],
   },
 
   // =============================================================================
@@ -317,5 +460,1574 @@ export const productsFr: Record<string, ProductTranslation> = {
     description: 'Conteneur de stockage pour collecte sécurisée de lames usagées et déchets d\'outils de découpe',
     features: ['Stockage sécurisé', 'Marques de capacité', 'Construction durable'],
     applications: ['Élimination de lames', 'Gestion de sécurité', 'Conformité au travail'],
+  },
+
+  // =============================================================================
+  // LAMES DE REFENDAGE 3 TROUS
+  // =============================================================================
+  '38-2': {
+    name: 'Lame à Angle Droit 38 x 22 – 3 Trous',
+    description: 'Lame industrielle de refendage à angle droit avec système de fixation à 3 trous. Conception compacte 38x22mm pour montage précis et découpe de haute précision. Fabriquée en acier Sheffield de qualité supérieure.',
+    features: [
+      'Dimensions 38 x 22 mm',
+      'Fixation 3 trous',
+      'Angle droit de coupe',
+      'Acier Sheffield haute qualité',
+      'Montage précis et stable'
+    ],
+    applications: ['Refendage de film', 'Découpe de papier', 'Industrie d\'emballage', 'Applications de précision'],
+  },
+  'b207': {
+    name: 'Lame de Refendage B207 – 3 Trous',
+    description: 'Lame industrielle B207 avec système de montage à 3 trous pour machines de refendage. Tranchant de précision pour découpe nette et continue. Compatible avec machines standard de l\'industrie.',
+    features: [
+      'Modèle B207 standard',
+      'Système 3 trous',
+      'Tranchant de précision',
+      'Compatible machines standard',
+      'Longue durée de vie'
+    ],
+    applications: ['Machines de refendage', 'Découpe de films plastiques', 'Refendage de papier', 'Production continue'],
+  },
+  'b206': {
+    name: 'Lame de Refendage B206 – 3 Trous',
+    description: 'Lame industrielle B206 à fixation 3 trous pour opérations de refendage. Conception robuste avec tranchant durable pour applications industrielles exigeantes.',
+    features: [
+      'Modèle B206 industriel',
+      'Fixation 3 trous sécurisée',
+      'Tranchant durable',
+      'Construction robuste',
+      'Performance constante'
+    ],
+    applications: ['Refendage industriel', 'Découpe de feuilles', 'Traitement de matériaux', 'Production haute cadence'],
+  },
+  'b082': {
+    name: 'Lame de Refendage B082 – 3 Trous',
+    description: 'Lame professionnelle B082 avec montage à 3 trous pour applications de refendage de précision. Acier de haute qualité pour performance optimale.',
+    features: [
+      'Modèle B082 professionnel',
+      'Montage 3 trous',
+      'Acier haute qualité',
+      'Coupe de précision',
+      'Résistance à l\'usure'
+    ],
+    applications: ['Refendage de précision', 'Découpe de films minces', 'Applications techniques', 'Industrie de conversion'],
+  },
+  'b208': {
+    name: 'Lame de Refendage B208 – 3 Trous',
+    description: 'Lame industrielle B208 équipée du système de fixation à 3 trous. Conçue pour opérations de refendage continues avec excellente stabilité de coupe.',
+    features: [
+      'Modèle B208 performant',
+      'Système 3 trous',
+      'Stabilité de coupe',
+      'Usage continu',
+      'Changement rapide'
+    ],
+    applications: ['Lignes de refendage', 'Découpe en continu', 'Transformation de matériaux', 'Production automatisée'],
+  },
+  'b209': {
+    name: 'Lame de Refendage B209 – 3 Trous',
+    description: 'Lame de refendage B209 avec configuration 3 trous pour montage sécurisé. Performance fiable pour applications industrielles variées.',
+    features: [
+      'Modèle B209 polyvalent',
+      'Configuration 3 trous',
+      'Montage sécurisé',
+      'Performance fiable',
+      'Applications variées'
+    ],
+    applications: ['Refendage polyvalent', 'Multi-applications', 'Découpe de matériaux divers', 'Industrie générale'],
+  },
+
+  // =============================================================================
+  // LAMES SPÉCIALES - TYPES DIVERS
+  // =============================================================================
+  'trapez': {
+    name: 'Lame Trapézoïdale Industrielle',
+    description: 'Lame trapézoïdale professionnelle pour cutters et applications de découpe générale. Géométrie trapézoïdale offrant un tranchant robuste et une longue durée de vie. Compatible avec porte-lames standard.',
+    features: [
+      'Forme trapézoïdale',
+      'Tranchant robuste',
+      'Double extrémité utilisable',
+      'Acier haute qualité',
+      'Compatible porte-lames standard'
+    ],
+    applications: ['Découpe de carton', 'Ouverture de colis', 'Travaux d\'entrepôt', 'Découpe de revêtements'],
+  },
+  'sper': {
+    name: 'Lame Sper – Cutter Spécialisé',
+    description: 'Lame de type Sper pour applications de découpe spécialisées. Conception unique offrant une coupe contrôlée pour matériaux délicats et applications nécessitant précision.',
+    features: [
+      'Conception Sper unique',
+      'Coupe contrôlée',
+      'Précision élevée',
+      'Pour matériaux délicats',
+      'Finition de qualité'
+    ],
+    applications: ['Découpe de précision', 'Matériaux délicats', 'Applications spécialisées', 'Travaux de finition'],
+  },
+  'yuvarlatilmis': {
+    name: 'Lame à Pointe Arrondie',
+    description: 'Lame de sécurité à pointe arrondie pour applications nécessitant une protection contre les perforations accidentelles. Idéale pour environnements sensibles à la sécurité.',
+    features: [
+      'Pointe arrondie sécurisée',
+      'Prévention des perforations',
+      'Conception de sécurité',
+      'Tranchant efficace',
+      'Usage polyvalent'
+    ],
+    applications: ['Découpe de sécurité', 'Environnements sensibles', 'Ouverture d\'emballages fragiles', 'Applications sans risque de perforation'],
+  },
+  'if': {
+    name: 'Lame Type IF – Couteau Industriel',
+    description: 'Lame de type IF pour applications industrielles spécifiques. Profil IF offrant des caractéristiques de coupe optimisées pour machines et équipements compatibles.',
+    features: [
+      'Profil type IF',
+      'Compatibilité machine',
+      'Coupe optimisée',
+      'Construction industrielle',
+      'Durabilité élevée'
+    ],
+    applications: ['Machines industrielles', 'Équipements compatibles IF', 'Production automatisée', 'Applications spécifiques'],
+  },
+  'kanca': {
+    name: 'Lame Crochet – Hook Blade',
+    description: 'Lame en forme de crochet pour découpe de matériaux souples et flexibles. La géométrie en crochet permet une coupe sécurisée sans risque de glissement. Idéale pour films rétractables et sangles.',
+    features: [
+      'Forme de crochet',
+      'Coupe sécurisée',
+      'Anti-glissement',
+      'Pour matériaux souples',
+      'Manipulation sûre'
+    ],
+    applications: ['Découpe de films rétractables', 'Coupe de sangles', 'Matériaux flexibles', 'Applications de sécurité'],
+  },
+  'segmentli': {
+    name: 'Lame Segmentée – Snap-Off Blade',
+    description: 'Lame segmentée sécable permettant de renouveler le tranchant en cassant les segments usagés. Conception économique offrant plusieurs tranchants neufs sur une seule lame.',
+    features: [
+      'Segments sécables',
+      'Tranchant renouvelable',
+      'Économique',
+      'Multiple tranchants',
+      'Utilisation prolongée'
+    ],
+    applications: ['Découpe générale', 'Travaux de bureau', 'Artisanat', 'Applications variées nécessitant tranchant frais'],
+  },
+
+  // =============================================================================
+  // COUTEAUX DE SÉCURITÉ - MARTOR & PROFESSIONNELS
+  // =============================================================================
+  'ok': {
+    name: 'OK - Couteau Professionnel',
+    description: 'Couteau de découpe professionnel de qualité Sheffield. Conception robuste pour usage industriel quotidien avec tranchant durable et prise ergonomique.',
+    features: [
+      'Qualité Sheffield',
+      'Longue durée de vie',
+      'Prise ergonomique',
+      'Usage professionnel',
+      'Construction robuste'
+    ],
+    applications: ['Découpe industrielle', 'Entrepôt & Logistique', 'Emballage', 'Production'],
+  },
+  'h014-001-x01': {
+    name: 'H014 001 X01 - RETRACTABLE TRIM KNIFE – Couteau de Sécurité Rétractable',
+    description: 'Couteau de sécurité professionnel en métal moulé sous pression avec lame rétractable. Conception ergonomique conforme aux normes de sécurité au travail avec mécanisme de rétraction fiable.',
+    features: [
+      'Lame rétractable manuellement',
+      'Corps en métal moulé sous pression',
+      'Conception ergonomique',
+      'Changement de lame sécurisé',
+      'Conforme normes de sécurité',
+      'Qualité Sheffield'
+    ],
+    applications: ['Entrepôt & Logistique', 'Lignes de production', 'Emballage', 'Découpe industrielle'],
+  },
+  'h015-001-z01': {
+    name: 'H015 001 Z01 - RETRO HEAVY DUTY – Couteau Robuste à Usage Intensif',
+    description: 'Couteau de sécurité robuste en métal moulé sous pression pour travaux lourds. Construction renforcée pour les applications les plus exigeantes avec changement de lame facile.',
+    features: [
+      'Construction robuste renforcée',
+      'Usage intensif',
+      'Corps en métal moulé',
+      'Changement de lame rapide',
+      'Prise antidérapante',
+      'Qualité Sheffield'
+    ],
+    applications: ['Travaux lourds', 'Construction', 'Industrie manufacturière', 'Découpe de matériaux épais'],
+  },
+  'h016-001-j01': {
+    name: 'H016 001 J01 - SAFETY ROLL STRIPPER – Découpeur de Film Sécurisé',
+    description: 'Couteau de sécurité spécialisé pour la découpe de films rétractables et emballages. Conception sécurisée empêchant les blessures accidentelles lors de la découpe de palettes.',
+    features: [
+      'Conception de sécurité intégrée',
+      'Protection contre les coupures',
+      'Spécial films rétractables',
+      'Ergonomique',
+      'Lame protégée',
+      'Changement de lame sécurisé'
+    ],
+    applications: ['Décerclage de palettes', 'Films rétractables', 'Emballage plastique', 'Logistique'],
+  },
+  'h016-101-a03': {
+    name: 'H016 101 A03 - SAFETY ROLL STRIPPER PLUS – Découpeur de Film Amélioré',
+    description: 'Version améliorée du découpeur de film sécurisé avec mécanisme auto-rétractable. Sécurité maximale avec lame se rétractant automatiquement après utilisation.',
+    features: [
+      'Lame auto-rétractable',
+      'Sécurité maximale',
+      'Protection des doigts',
+      'Mécanisme amélioré',
+      'Conception ergonomique',
+      'Usage intensif'
+    ],
+    applications: ['Décerclage de palettes', 'Films rétractables', 'Entrepôts haute cadence', 'Logistique sécurisée'],
+  },
+  'h016-201-a03': {
+    name: 'H016 201 A03 - ROLL STRIPPER HEAVY DUTY – Découpeur Robuste',
+    description: 'Découpeur de film version robuste pour usage intensif. Construction renforcée avec mécanisme auto-rétractable pour les environnements industriels exigeants.',
+    features: [
+      'Construction robuste',
+      'Lame auto-rétractable',
+      'Usage intensif',
+      'Protection renforcée',
+      'Durabilité supérieure',
+      'Conforme sécurité au travail'
+    ],
+    applications: ['Industrie lourde', 'Entrepôts grandes surfaces', 'Découpe intensive', 'Environnements exigeants'],
+  },
+  'h020-001-s05': {
+    name: 'H020 001 S05 - FIXED SLIM KNIFE – Couteau Fin à Lame Fixe',
+    description: 'Couteau de sécurité compact à lame fixe avec profil fin. Idéal pour les découpes de précision où une lame stable et fixe est requise.',
+    features: [
+      'Lame fixe stable',
+      'Profil fin et compact',
+      'Découpe de précision',
+      'Prise confortable',
+      'Qualité Sheffield',
+      'Usage professionnel'
+    ],
+    applications: ['Découpe de précision', 'Travaux fins', 'Artisanat professionnel', 'Applications délicates'],
+  },
+  'h023-002-s05': {
+    name: 'H023 002 S05 - RETRACTABLE SLIM KNIFE – Couteau Fin Rétractable',
+    description: 'Couteau de sécurité compact avec lame rétractable et profil slim. Corps en métal moulé sous pression offrant durabilité et précision.',
+    features: [
+      'Lame rétractable',
+      'Profil slim compact',
+      'Corps métal moulé',
+      'Précision de coupe',
+      'Sécurité intégrée',
+      'Changement de lame facile'
+    ],
+    applications: ['Découpe de précision', 'Travaux détaillés', 'Emballage', 'Applications de bureau'],
+  },
+  'h024': {
+    name: 'H024 001 S05 - Couteau de Sécurité Compact',
+    description: 'Couteau de sécurité compact et polyvalent pour usage quotidien. Conception légère avec fonctionnalités de sécurité intégrées.',
+    features: [
+      'Conception compacte',
+      'Léger et maniable',
+      'Sécurité intégrée',
+      'Usage polyvalent',
+      'Qualité Sheffield'
+    ],
+    applications: ['Usage quotidien', 'Emballage', 'Bureau', 'Applications légères'],
+  },
+  'h028-002-x01': {
+    name: 'H028 002 X01 - EASY CHANGE KNIFE – Couteau à Changement Rapide',
+    description: 'Couteau de sécurité professionnel avec système de changement de lame ultra-rapide. Mécanisme innovant permettant le remplacement sans outil en toute sécurité.',
+    features: [
+      'Changement de lame sans outil',
+      'Mécanisme rapide et sécurisé',
+      'Corps métal moulé',
+      'Conception ergonomique',
+      'Gain de temps',
+      'Sécurité maximale'
+    ],
+    applications: ['Environnements haute cadence', 'Production industrielle', 'Logistique', 'Maintenance'],
+  },
+  'h030-001-a03': {
+    name: 'H030 001 A03 - POLYTRIM – Découpeur de Film de Sécurité',
+    description: 'Couteau de sécurité spécialisé pour la découpe de films plastiques avec mécanisme auto-rétractable. Conçu spécifiquement pour les films rétractables et emballages sans endommager le contenu.',
+    features: [
+      'Lame auto-rétractable',
+      'Spécial films plastiques',
+      'Protection du contenu',
+      'Profondeur de coupe contrôlée',
+      'Sécurité maximale',
+      'Ergonomique'
+    ],
+    applications: ['Films rétractables', 'Emballage plastique', 'Protection des produits', 'Logistique sécurisée'],
+  },
+  'h032-001-a03': {
+    name: 'H032 001 A03 - SQUEEZE KNIFE – Couteau à Pression Auto-Rétractable',
+    description: 'Couteau de sécurité innovant avec mécanisme de pression. La lame s\'étend uniquement lorsque le couteau est pressé et se rétracte automatiquement une fois relâché.',
+    features: [
+      'Mécanisme à pression',
+      'Rétraction automatique instantanée',
+      'Sécurité passive maximale',
+      'Impossible de laisser la lame sortie',
+      'Conception ergonomique',
+      'Prévention des accidents'
+    ],
+    applications: ['Environnements sécurisés', 'Industries à haut risque', 'Formation', 'Applications sécurité stricte'],
+  },
+  'h033-001-n03': {
+    name: 'H033 001 N03 - YELLOW/BLACK SLITTER – Découpeur à Lame Céramique',
+    description: 'Couteau de sécurité avec lame céramique pour une durée de vie exceptionnelle. La lame céramique reste tranchante 10x plus longtemps que l\'acier et ne provoque pas d\'étincelles.',
+    features: [
+      'Lame céramique ultra-durable',
+      '10x plus longue durée de vie',
+      'Sans étincelles',
+      'Idéal zones ATEX',
+      'Sécurité intégrée',
+      'Résistant à la corrosion'
+    ],
+    applications: ['Zones ATEX', 'Environnements explosifs', 'Industrie chimique', 'Applications sans étincelles'],
+  },
+  'h040': {
+    name: 'H040 004 L01 - Couteau de Sécurité Standard',
+    description: 'Couteau de sécurité polyvalent pour applications générales. Construction fiable avec fonctionnalités de sécurité essentielles.',
+    features: [
+      'Construction fiable',
+      'Sécurité standard',
+      'Usage polyvalent',
+      'Qualité Sheffield',
+      'Rapport qualité-prix optimal'
+    ],
+    applications: ['Applications générales', 'Emballage', 'Entrepôt', 'Usage quotidien'],
+  },
+  'h041-004-a01': {
+    name: 'H041 004 A01 - Grattoir à Vitre – Racloir Professionnel',
+    description: 'Grattoir professionnel en métal moulé sous pression pour le nettoyage de vitres et surfaces. Lame facilement remplaçable avec mécanisme de sécurité.',
+    features: [
+      'Grattoir professionnel',
+      'Corps métal moulé',
+      'Changement de lame sécurisé',
+      'Prise ergonomique',
+      'Multi-surfaces',
+      'Qualité industrielle'
+    ],
+    applications: ['Nettoyage de vitres', 'Retrait d\'adhésifs', 'Grattage de surfaces', 'Maintenance'],
+  },
+  'h042': {
+    name: 'H042 001 A01 - Couteau de Sécurité Polyvalent',
+    description: 'Couteau de sécurité multifonction pour diverses applications de découpe. Conception équilibrée entre sécurité et fonctionnalité.',
+    features: [
+      'Multifonction',
+      'Sécurité intégrée',
+      'Polyvalent',
+      'Qualité Sheffield',
+      'Usage professionnel'
+    ],
+    applications: ['Découpe générale', 'Emballage', 'Applications variées', 'Environnement industriel'],
+  },
+  'h050': {
+    name: 'H050 002 P02 - Couteau de Sécurité Série H050',
+    description: 'Couteau de sécurité de la série H050 avec caractéristiques de sécurité avancées. Conçu pour les environnements de travail exigeant une protection maximale.',
+    features: [
+      'Sécurité avancée',
+      'Construction professionnelle',
+      'Ergonomique',
+      'Durabilité élevée',
+      'Conforme normes sécurité'
+    ],
+    applications: ['Industrie', 'Logistique', 'Production', 'Environnements sécurisés'],
+  },
+  'h051': {
+    name: 'H051 002 P02 - Couteau de Sécurité Série H051',
+    description: 'Couteau de sécurité série H051 offrant un équilibre optimal entre sécurité et efficacité de coupe. Idéal pour usage quotidien intensif.',
+    features: [
+      'Équilibre sécurité/efficacité',
+      'Usage intensif',
+      'Construction robuste',
+      'Changement de lame facile',
+      'Qualité Sheffield'
+    ],
+    applications: ['Usage quotidien', 'Entrepôt', 'Production', 'Découpe intensive'],
+  },
+  'h052': {
+    name: 'H052 002 P02 - Couteau de Sécurité Série H052',
+    description: 'Couteau de sécurité série H052 avec fonctionnalités optimisées pour les applications industrielles. Performance et sécurité garanties.',
+    features: [
+      'Fonctionnalités optimisées',
+      'Performance industrielle',
+      'Sécurité garantie',
+      'Durabilité',
+      'Usage professionnel'
+    ],
+    applications: ['Applications industrielles', 'Découpe de précision', 'Production', 'Maintenance'],
+  },
+  'h060': {
+    name: 'H060 001 A03 - Couteau de Sécurité Auto-Rétractable H060',
+    description: 'Couteau de sécurité avec mécanisme auto-rétractable de la série H060. La lame se rétracte automatiquement pour une sécurité maximale.',
+    features: [
+      'Lame auto-rétractable',
+      'Sécurité passive',
+      'Mécanisme fiable',
+      'Construction durable',
+      'Ergonomique',
+      'Qualité Sheffield'
+    ],
+    applications: ['Environnements à haut risque', 'Industrie', 'Logistique', 'Applications sécurisées'],
+  },
+  'h063-001-x01': {
+    name: 'H063 001 X01 - ORANGE SPRING SAFETY CUTTER – Couteau de Sécurité à Ressort',
+    description: 'Couteau de sécurité orange haute visibilité avec mécanisme à ressort. La lame se rétracte automatiquement par ressort dès que la pression est relâchée.',
+    features: [
+      'Haute visibilité orange',
+      'Mécanisme à ressort',
+      'Rétraction automatique',
+      'Sécurité passive',
+      'Facile à localiser',
+      'Prévention des pertes'
+    ],
+    applications: ['Entrepôts', 'Logistique', 'Environnements industriels', 'Applications haute sécurité'],
+  },
+  'h081': {
+    name: 'H081 501 K01 - Couteau Annulaire (Bague) – Orange',
+    description: 'Couteau de sécurité innovant en forme d\'anneau qui se porte au doigt. Libère les mains tout en gardant l\'outil de coupe toujours accessible. Couleur orange haute visibilité.',
+    features: [
+      'Design annulaire/bague',
+      'Mains libres',
+      'Haute visibilité orange',
+      'Lame protégée',
+      'Toujours accessible',
+      'Prévention des pertes'
+    ],
+    applications: ['Picking & Packing', 'Préparation de commandes', 'Ouverture de cartons', 'Logistique rapide'],
+  },
+  'h090': {
+    name: 'H090 001 S05 - Couteau de Sécurité Compact H090',
+    description: 'Couteau de sécurité compact de la série H090 avec lame de précision. Format réduit idéal pour les travaux détaillés et le port quotidien.',
+    features: [
+      'Format compact',
+      'Lame de précision',
+      'Facilement transportable',
+      'Sécurité intégrée',
+      'Qualité Sheffield'
+    ],
+    applications: ['Travaux de précision', 'Port quotidien', 'Découpe fine', 'Applications détaillées'],
+  },
+  'h091': {
+    name: 'H091 001 S05 - Couteau de Sécurité Compact H091',
+    description: 'Couteau de sécurité compact série H091 offrant précision et sécurité dans un format de poche. Idéal pour les professionnels mobiles.',
+    features: [
+      'Format de poche',
+      'Précision et sécurité',
+      'Léger',
+      'Clip de ceinture',
+      'Qualité Sheffield'
+    ],
+    applications: ['Professionnels mobiles', 'Travaux légers', 'Port quotidien', 'Applications de précision'],
+  },
+
+  // =============================================================================
+  // LAMES SÉCABLES - CUTTERS UTILITAIRES
+  // =============================================================================
+  'b122': {
+    name: 'B122 - Lame Sécable Largeur 9mm',
+    description: 'Lame cutter sécable de 9mm de largeur pour cutters de précision. Segments sécables permettant de renouveler le tranchant en cassant les segments usagés.',
+    features: [
+      'Largeur 9mm',
+      'Lame segmentée sécable',
+      'Tranchant renouvelable',
+      'Acier Sheffield haute qualité',
+      'Compatibilité universelle',
+      'Économique'
+    ],
+    applications: ['Travaux de précision', 'Artisanat', 'Découpe fine', 'Maquettes'],
+  },
+  'b124': {
+    name: 'B124 - Lame Sans Segment Largeur 9mm',
+    description: 'Lame cutter non-segmentée de 9mm de largeur offrant un tranchant continu. Idéale pour les découpes longues nécessitant une lame stable.',
+    features: [
+      'Largeur 9mm',
+      'Sans segment - lame continue',
+      'Tranchant stable',
+      'Acier Sheffield',
+      'Découpe fluide',
+      'Usage professionnel'
+    ],
+    applications: ['Découpes longues', 'Travaux de précision', 'Applications continues', 'Usage professionnel'],
+  },
+  'b121': {
+    name: 'B121 - Lame Sécable Largeur 18mm',
+    description: 'Lame cutter sécable standard de 18mm de largeur. Format universel compatible avec la majorité des cutters professionnels.',
+    features: [
+      'Largeur 18mm standard',
+      'Lame segmentée sécable',
+      'Compatibilité universelle',
+      'Acier Sheffield haute qualité',
+      'Tranchant renouvelable',
+      'Usage polyvalent'
+    ],
+    applications: ['Découpe générale', 'Emballage', 'Construction', 'Usage quotidien'],
+  },
+  'b123': {
+    name: 'B123 - Lame Sans Segment Largeur 18mm',
+    description: 'Lame cutter non-segmentée de 18mm offrant stabilité et durabilité pour les découpes exigeantes. Tranchant continu sans points de rupture.',
+    features: [
+      'Largeur 18mm',
+      'Sans segment - stabilité maximale',
+      'Tranchant continu',
+      'Durabilité supérieure',
+      'Acier Sheffield',
+      'Usage intensif'
+    ],
+    applications: ['Découpes longues', 'Matériaux épais', 'Applications industrielles', 'Usage intensif'],
+  },
+  'b096': {
+    name: 'B096 - Lame Sans Segment 12mm – Fente Ovale',
+    description: 'Lame cutter non-segmentée de 12mm avec système de fixation à fente ovale. Format intermédiaire offrant précision et robustesse.',
+    features: [
+      'Largeur 12mm',
+      'Fente ovale de fixation',
+      'Sans segment',
+      'Format intermédiaire',
+      'Acier Sheffield',
+      'Compatibilité spécifique'
+    ],
+    applications: ['Cutters spécifiques', 'Découpe de précision', 'Applications intermédiaires', 'Usage professionnel'],
+  },
+  'lwb': {
+    name: 'LWB - Lame Sans Segment 18mm – Dentée',
+    description: 'Lame cutter sans segment de 18mm avec tranchant denté. Conception spéciale pour la découpe de matériaux fibreux et synthétiques.',
+    features: [
+      'Largeur 18mm',
+      'Tranchant denté',
+      'Sans segment',
+      'Spécial matériaux fibreux',
+      'Acier Sheffield',
+      'Coupe sans glissement'
+    ],
+    applications: ['Matériaux fibreux', 'Sangles synthétiques', 'Cordes', 'Textiles épais'],
+  },
+  'b126': {
+    name: 'B126 - Lame Sécable Largeur 25mm',
+    description: 'Lame cutter sécable robuste de 25mm de largeur pour travaux lourds. Format extra-large pour la découpe de matériaux épais.',
+    features: [
+      'Largeur 25mm extra-large',
+      'Lame segmentée sécable',
+      'Pour travaux lourds',
+      'Acier Sheffield renforcé',
+      'Tranchant renouvelable',
+      'Usage intensif'
+    ],
+    applications: ['Travaux lourds', 'Matériaux épais', 'Isolation', 'Construction'],
+  },
+  'b125': {
+    name: 'B125 - Lame Sans Segment Largeur 25mm',
+    description: 'Lame cutter non-segmentée de 25mm pour les découpes les plus exigeantes. Tranchant continu extra-robuste pour matériaux très épais.',
+    features: [
+      'Largeur 25mm',
+      'Sans segment - robustesse maximale',
+      'Tranchant extra-robuste',
+      'Acier Sheffield premium',
+      'Durabilité exceptionnelle',
+      'Usage industriel intensif'
+    ],
+    applications: ['Découpe industrielle lourde', 'Isolation épaisse', 'Revêtements de sol', 'Construction'],
+  },
+  'b092': {
+    name: 'B092 - Lame Sans Perforations',
+    description: 'Lame professionnelle sans perforations pour applications spécifiques. Surface de lame continue pour montage sur systèmes propriétaires.',
+    features: [
+      'Sans perforations',
+      'Surface continue',
+      'Montage spécifique',
+      'Acier Sheffield',
+      'Usage spécialisé',
+      'Qualité professionnelle'
+    ],
+    applications: ['Systèmes propriétaires', 'Applications spéciales', 'Montages personnalisés', 'Usage industriel'],
+  },
+
+  // =============================================================================
+  // LAMES DE PRÉCISION - SÉRIE B1XX
+  // =============================================================================
+  'b111': {
+    name: 'B111 - Lame de Précision Trapézoïdale',
+    description: 'Lame de précision trapézoïdale pour cutters utilitaires. Géométrie optimisée pour une découpe nette et un changement facile.',
+    features: [
+      'Forme trapézoïdale',
+      'Tranchant de précision',
+      'Changement facile',
+      'Acier Sheffield',
+      'Double extrémité',
+      'Économique'
+    ],
+    applications: ['Découpe générale', 'Carton', 'Emballage', 'Travaux d\'entrepôt'],
+  },
+  'b112': {
+    name: 'B112 - Lame de Précision B112',
+    description: 'Lame de précision professionnelle modèle B112. Qualité Sheffield pour découpe de haute précision.',
+    features: [
+      'Haute précision',
+      'Qualité Sheffield',
+      'Tranchant durable',
+      'Usage professionnel',
+      'Finition de qualité'
+    ],
+    applications: ['Découpe de précision', 'Applications professionnelles', 'Travaux détaillés', 'Usage industriel'],
+  },
+  'b113': {
+    name: 'B113 - Lame de Précision B113',
+    description: 'Lame de précision modèle B113 pour applications nécessitant un tranchant fin et durable. Acier Sheffield haute qualité.',
+    features: [
+      'Tranchant fin',
+      'Durabilité élevée',
+      'Acier Sheffield',
+      'Précision supérieure',
+      'Usage professionnel'
+    ],
+    applications: ['Travaux fins', 'Découpe de précision', 'Artisanat', 'Applications techniques'],
+  },
+  'b114': {
+    name: 'B114 - Lame de Précision B114',
+    description: 'Lame de précision B114 offrant un excellent rapport qualité-prix pour usage quotidien. Construction fiable et tranchant constant.',
+    features: [
+      'Excellent rapport qualité-prix',
+      'Usage quotidien',
+      'Construction fiable',
+      'Tranchant constant',
+      'Acier Sheffield'
+    ],
+    applications: ['Usage quotidien', 'Découpe générale', 'Bureau', 'Applications variées'],
+  },
+  'b141': {
+    name: 'B141 - Lame Utilitaire Standard',
+    description: 'Lame utilitaire standard modèle B141 pour cutters universels. Compatibilité large et performance fiable.',
+    features: [
+      'Standard universel',
+      'Compatibilité large',
+      'Performance fiable',
+      'Acier Sheffield',
+      'Qualité constante'
+    ],
+    applications: ['Cutters universels', 'Découpe générale', 'Applications standard', 'Usage polyvalent'],
+  },
+  'b142': {
+    name: 'B142 - Lame Utilitaire Grande Taille',
+    description: 'Lame utilitaire grande taille pour découpe de matériaux épais. Format agrandi pour plus de stabilité et de puissance de coupe.',
+    features: [
+      'Grande taille',
+      'Stabilité accrue',
+      'Pour matériaux épais',
+      'Acier Sheffield renforcé',
+      'Puissance de coupe',
+      'Usage intensif'
+    ],
+    applications: ['Matériaux épais', 'Travaux lourds', 'Découpe industrielle', 'Applications exigeantes'],
+  },
+  'b143': {
+    name: 'B143 - Lame Utilitaire B143',
+    description: 'Lame utilitaire professionnelle B143. Qualité Sheffield pour des performances constantes et durables.',
+    features: [
+      'Qualité professionnelle',
+      'Performances constantes',
+      'Durabilité',
+      'Acier Sheffield',
+      'Polyvalence'
+    ],
+    applications: ['Usage professionnel', 'Découpe quotidienne', 'Applications industrielles', 'Polyvalent'],
+  },
+  'b144': {
+    name: 'B144 - Lame Utilitaire B144',
+    description: 'Lame utilitaire modèle B144 pour applications variées. Construction robuste et tranchant durable.',
+    features: [
+      'Construction robuste',
+      'Tranchant durable',
+      'Applications variées',
+      'Acier Sheffield',
+      'Fiabilité'
+    ],
+    applications: ['Applications variées', 'Découpe générale', 'Entrepôt', 'Production'],
+  },
+  'b145': {
+    name: 'B145 - Lame Utilitaire B145',
+    description: 'Lame utilitaire B145 offrant précision et robustesse. Idéale pour les environnements professionnels.',
+    features: [
+      'Précision et robustesse',
+      'Environnement professionnel',
+      'Acier Sheffield',
+      'Performance fiable',
+      'Qualité constante'
+    ],
+    applications: ['Environnements professionnels', 'Découpe de précision', 'Usage industriel', 'Applications exigeantes'],
+  },
+  'b146': {
+    name: 'B146 - Lame Utilitaire B146',
+    description: 'Lame utilitaire professionnelle B146 avec tranchant optimisé. Excellence Sheffield pour performances supérieures.',
+    features: [
+      'Tranchant optimisé',
+      'Performances supérieures',
+      'Excellence Sheffield',
+      'Durabilité élevée',
+      'Usage intensif'
+    ],
+    applications: ['Performances supérieures', 'Usage intensif', 'Applications professionnelles', 'Industrie'],
+  },
+  'b147': {
+    name: 'B147 - Lame Utilitaire B147',
+    description: 'Lame utilitaire B147 polyvalente pour diverses applications de découpe. Qualité Sheffield garantie.',
+    features: [
+      'Polyvalence',
+      'Qualité Sheffield garantie',
+      'Multiples applications',
+      'Construction fiable',
+      'Rapport qualité-prix'
+    ],
+    applications: ['Diverses applications', 'Polyvalent', 'Usage général', 'Professionnel et particulier'],
+  },
+  'b148': {
+    name: 'B148 - Lame Utilitaire B148',
+    description: 'Lame utilitaire B148 pour découpe générale. Fiabilité et durabilité pour un usage quotidien.',
+    features: [
+      'Découpe générale',
+      'Fiabilité',
+      'Durabilité',
+      'Usage quotidien',
+      'Acier Sheffield'
+    ],
+    applications: ['Découpe générale', 'Usage quotidien', 'Bureau', 'Entrepôt'],
+  },
+  'b149': {
+    name: 'B149 - Lame Utilitaire B149',
+    description: 'Lame utilitaire B149 avec performances constantes. Idéale pour les applications standardisées.',
+    features: [
+      'Performances constantes',
+      'Applications standardisées',
+      'Qualité uniforme',
+      'Acier Sheffield',
+      'Fiabilité'
+    ],
+    applications: ['Applications standardisées', 'Usage régulier', 'Production', 'Logistique'],
+  },
+  'b150': {
+    name: 'B150 - Lame Utilitaire B150',
+    description: 'Lame utilitaire B150 offrant un excellent équilibre entre coût et performance. Usage professionnel quotidien.',
+    features: [
+      'Équilibre coût/performance',
+      'Usage quotidien',
+      'Professionnel',
+      'Acier Sheffield',
+      'Économique'
+    ],
+    applications: ['Usage quotidien professionnel', 'Applications économiques', 'Découpe standard', 'Volume élevé'],
+  },
+  'b151': {
+    name: 'B151 - Lame Utilitaire B151',
+    description: 'Lame utilitaire B151 pour applications générales. Qualité Sheffield fiable pour tous types de découpe.',
+    features: [
+      'Applications générales',
+      'Qualité Sheffield fiable',
+      'Tous types de découpe',
+      'Construction standard',
+      'Polyvalence'
+    ],
+    applications: ['Applications générales', 'Découpe variée', 'Usage polyvalent', 'Professionnel et domestique'],
+  },
+
+  // =============================================================================
+  // LAMES SUPPLÉMENTAIRES - TYPES DIVERS
+  // =============================================================================
+  'hswb1': {
+    name: 'HSWB1 - Lame Sans Segment 25mm – Dentée',
+    description: 'Lame cutter sans segment de 25mm avec tranchant denté pour travaux lourds. Acier Sheffield robuste.',
+    features: ['Largeur 25mm', 'Tranchant denté', 'Sans segment', 'Usage intensif', 'Acier Sheffield'],
+    applications: ['Travaux lourds', 'Matériaux fibreux épais', 'Sangles industrielles', 'Construction'],
+  },
+  'kb-5': {
+    name: 'KB-5 - Lame de Précision KB-5',
+    description: 'Lame de précision professionnelle KB-5 pour applications spécialisées. Qualité Sheffield.',
+    features: ['Haute précision', 'Usage spécialisé', 'Qualité Sheffield', 'Tranchant durable'],
+    applications: ['Applications spécialisées', 'Découpe de précision', 'Usage professionnel'],
+  },
+  'kb4-r5': {
+    name: 'KB4-R/5 - Lame de Précision KB4-R/5',
+    description: 'Lame de précision KB4-R/5 pour cutters professionnels. Construction robuste.',
+    features: ['Précision élevée', 'Construction robuste', 'Qualité Sheffield'],
+    applications: ['Découpe professionnelle', 'Applications de précision'],
+  },
+  'kb4-ns3': {
+    name: 'KB4-NS/3 - Lame de Précision KB4-NS/3',
+    description: 'Lame de précision KB4-NS/3 pour applications industrielles. Qualité Sheffield.',
+    features: ['Précision industrielle', 'Qualité Sheffield', 'Usage professionnel'],
+    applications: ['Applications industrielles', 'Découpe de précision'],
+  },
+  'kb4-ws3': {
+    name: 'KB4-WS/3 - Lame de Précision KB4-WS/3',
+    description: 'Lame de précision KB4-WS/3 pour cutters professionnels.',
+    features: ['Précision élevée', 'Qualité Sheffield', 'Usage professionnel'],
+    applications: ['Découpe professionnelle', 'Applications techniques'],
+  },
+  'b581': {
+    name: 'B581 - Lame Industrielle B581',
+    description: 'Lame industrielle B581 pour applications professionnelles. Acier Sheffield haute qualité.',
+    features: ['Usage industriel', 'Qualité Sheffield', 'Durabilité élevée'],
+    applications: ['Applications industrielles', 'Découpe professionnelle'],
+  },
+  'b657': {
+    name: 'B657 - Lame Industrielle B657',
+    description: 'Lame industrielle B657 pour usage professionnel. Construction robuste.',
+    features: ['Usage industriel', 'Qualité Sheffield', 'Construction robuste'],
+    applications: ['Applications industrielles', 'Usage professionnel'],
+  },
+  '2cs1': {
+    name: '2CS1 - Lame Industrielle 2CS1',
+    description: 'Lame industrielle 2CS1 pour applications spécialisées. Qualité Sheffield.',
+    features: ['Usage spécialisé', 'Qualité Sheffield', 'Durabilité'],
+    applications: ['Applications spécialisées', 'Usage industriel'],
+  },
+  'b084075': {
+    name: 'B084.075 - Lame de Précision B084.075',
+    description: 'Lame de précision B084.075 pour applications techniques. Qualité Sheffield.',
+    features: ['Haute précision', 'Qualité Sheffield', 'Usage technique'],
+    applications: ['Applications techniques', 'Découpe de précision'],
+  },
+  'b204': {
+    name: 'B204 - Lame Classique',
+    description: 'Lame classique B204 pour usage quotidien. Design traditionnel avec qualité Sheffield.',
+    features: ['Design classique', 'Usage quotidien', 'Qualité Sheffield'],
+    applications: ['Usage quotidien', 'Découpe générale', 'Applications standard'],
+  },
+  'b207-2': {
+    name: 'B207 L - Lame Format Long',
+    description: 'Lame B207 format long pour découpes étendues. Qualité Sheffield.',
+    features: ['Format long', 'Découpes étendues', 'Qualité Sheffield'],
+    applications: ['Découpes longues', 'Applications industrielles'],
+  },
+  'b207-3': {
+    name: 'B207 XXL - Lame Extra Longue',
+    description: 'Lame B207 format XXL extra longue pour applications spéciales. Qualité Sheffield.',
+    features: ['Format XXL', 'Extra longue', 'Qualité Sheffield'],
+    applications: ['Applications spéciales', 'Découpes très longues'],
+  },
+  'b226': {
+    name: 'B226 - Lame Supaslit',
+    description: 'Lame Supaslit B226 pour applications de refendage. Design spécialisé.',
+    features: ['Design Supaslit', 'Refendage spécialisé', 'Qualité Sheffield'],
+    applications: ['Refendage', 'Découpe spécialisée'],
+  },
+  'yuvarlatilmi': {
+    name: 'Lame Crochet à Pointe Arrondie',
+    description: 'Lame crochet avec pointe arrondie pour découpe sécurisée. Prévention des perforations accidentelles.',
+    features: ['Pointe arrondie', 'Découpe sécurisée', 'Prévention des perforations', 'Qualité Sheffield'],
+    applications: ['Découpe sécurisée', 'Ouverture d\'emballages fragiles', 'Environnements sensibles'],
+  },
+
+  // =============================================================================
+  // COUTEAUX DE SÉCURITÉ - SÉRIE AVANCÉE
+  // =============================================================================
+  'h101': {
+    name: 'H101 - OLFA RTY-1/G Cutter Rotatif 28mm',
+    description: 'Cutter rotatif OLFA RTY-1/G avec lame circulaire 28mm. Idéal pour découpe de tissus et matériaux souples.',
+    features: ['Lame rotative 28mm', 'Design OLFA', 'Découpe de tissus', 'Prise ergonomique'],
+    applications: ['Couture', 'Quilting', 'Découpe de tissus', 'Artisanat'],
+  },
+  'h102': {
+    name: 'H102 - OLFA RTY-2/G Cutter Rotatif 45mm',
+    description: 'Cutter rotatif OLFA RTY-2/G avec lame circulaire 45mm. Format standard pour découpe professionnelle.',
+    features: ['Lame rotative 45mm', 'Design OLFA', 'Format standard', 'Usage professionnel'],
+    applications: ['Couture professionnelle', 'Quilting', 'Découpe de tissus épais'],
+  },
+  'h501-001-t03': {
+    name: 'H501 001 T03 - Cutter à Lame Sécable 18mm',
+    description: 'Cutter professionnel à lame sécable 18mm. Design classique avec changement de lame facile.',
+    features: ['Lame sécable 18mm', 'Changement facile', 'Design classique', 'Qualité Sheffield'],
+    applications: ['Découpe générale', 'Emballage', 'Travaux de bureau'],
+  },
+  'h502-001-t03': {
+    name: 'H502 001 T03 - Cutter à Lame Sécable 18mm Amélioré',
+    description: 'Version améliorée du cutter à lame sécable 18mm. Prise ergonomique renforcée.',
+    features: ['Lame sécable 18mm', 'Prise ergonomique', 'Version améliorée', 'Qualité Sheffield'],
+    applications: ['Découpe générale', 'Usage intensif', 'Applications professionnelles'],
+  },
+  'h503-001-t03': {
+    name: 'H503 001 T03 - Cutter Professionnel',
+    description: 'Cutter professionnel pour usage industriel. Construction robuste.',
+    features: ['Usage industriel', 'Construction robuste', 'Qualité Sheffield'],
+    applications: ['Usage industriel', 'Découpe professionnelle'],
+  },
+  'h504-001-t03': {
+    name: 'H504 001 T03 - Cutter à Lame Sécable Premium',
+    description: 'Cutter premium à lame sécable pour usage professionnel intensif.',
+    features: ['Qualité premium', 'Usage intensif', 'Lame sécable', 'Qualité Sheffield'],
+    applications: ['Usage professionnel', 'Découpe intensive'],
+  },
+  'h506': {
+    name: 'H506 - OLFA ML 18mm Cutter Métal',
+    description: 'Cutter OLFA ML en métal moulé avec lame 18mm. Construction durable pour usage intensif.',
+    features: ['Corps métal moulé', 'Lame 18mm', 'Design OLFA', 'Usage intensif'],
+    applications: ['Usage intensif', 'Construction', 'Applications industrielles'],
+  },
+  'h507': {
+    name: 'H507 - OLFA NL-AL Cutter Aluminium',
+    description: 'Cutter OLFA NL-AL en aluminium léger. Design professionnel.',
+    features: ['Corps aluminium', 'Léger', 'Design OLFA', 'Usage professionnel'],
+    applications: ['Usage professionnel', 'Découpe quotidienne'],
+  },
+  'h508': {
+    name: 'H508 - OLFA L-2 Cutter à Verrouillage',
+    description: 'Cutter OLFA L-2 avec mécanisme de verrouillage de lame. Sécurité améliorée.',
+    features: ['Verrouillage de lame', 'Sécurité améliorée', 'Design OLFA'],
+    applications: ['Usage sécurisé', 'Applications professionnelles'],
+  },
+  'h512': {
+    name: 'H512 001 S04 - Couteau de Sécurité Compact',
+    description: 'Couteau de sécurité compact pour applications légères. Format de poche.',
+    features: ['Format compact', 'Applications légères', 'Qualité Sheffield'],
+    applications: ['Applications légères', 'Usage quotidien'],
+  },
+  'h525': {
+    name: 'H525 001 Z01 - Couteau de Sécurité Robuste',
+    description: 'Couteau de sécurité robuste pour usage intensif. Construction renforcée.',
+    features: ['Construction robuste', 'Usage intensif', 'Qualité Sheffield'],
+    applications: ['Usage intensif', 'Applications industrielles'],
+  },
+  'h531-001-z01': {
+    name: 'H531 001 Z01 - AUTOMATIC TRIMMING KNIFE',
+    description: 'Couteau de découpe automatique en métal moulé. Mécanisme de rétraction automatique.',
+    features: ['Rétraction automatique', 'Corps métal moulé', 'Découpe automatique', 'Qualité Sheffield'],
+    applications: ['Découpe automatique', 'Applications industrielles'],
+  },
+  'h600-001-t03': {
+    name: 'H600 001 T03 - Cutter 9mm Compact',
+    description: 'Cutter compact à lame sécable 9mm. Idéal pour travaux de précision.',
+    features: ['Lame 9mm', 'Format compact', 'Travaux de précision', 'Qualité Sheffield'],
+    applications: ['Travaux de précision', 'Artisanat', 'Bureau'],
+  },
+  'h603': {
+    name: 'H603 - OLFA ML 9mm Cutter Métal',
+    description: 'Cutter OLFA ML 9mm en métal moulé. Design professionnel compact.',
+    features: ['Corps métal moulé', 'Lame 9mm', 'Design OLFA', 'Compact'],
+    applications: ['Travaux de précision', 'Usage professionnel'],
+  },
+  'h605-001-t03': {
+    name: 'H605 001 T03 - Cutter 9mm Professionnel',
+    description: 'Cutter professionnel 9mm pour travaux détaillés. Qualité Sheffield.',
+    features: ['Lame 9mm', 'Usage professionnel', 'Travaux détaillés', 'Qualité Sheffield'],
+    applications: ['Travaux détaillés', 'Applications professionnelles'],
+  },
+  'h606': {
+    name: 'H606 001 S04 - Couteau de Sécurité 9mm',
+    description: 'Couteau de sécurité compact avec lame 9mm. Design ergonomique.',
+    features: ['Lame 9mm', 'Design ergonomique', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Découpe sécurisée', 'Applications légères'],
+  },
+  'h907': {
+    name: 'H907 003 T03 - Couteau Slitter de Sécurité',
+    description: 'Couteau slitter de sécurité pour découpe de films et emballages.',
+    features: ['Design slitter', 'Sécurité', 'Découpe de films', 'Qualité Sheffield'],
+    applications: ['Découpe de films', 'Emballage', 'Logistique'],
+  },
+  'h907-003-t03b': {
+    name: 'H907 003 T03B - SUPASLIT avec Capot de Protection',
+    description: 'Couteau Supaslit avec capot de protection intégré. Sécurité maximale.',
+    features: ['Capot de protection', 'Design Supaslit', 'Sécurité maximale', 'Qualité Sheffield'],
+    applications: ['Découpe sécurisée', 'Environnements industriels'],
+  },
+  'h907-012-a03': {
+    name: 'H907 012 A03 - POLYSAFE PLUS Film Cutter',
+    description: 'Couteau Polysafe Plus pour découpe de films avec sécurité intégrée.',
+    features: ['Design Polysafe', 'Découpe de films', 'Sécurité intégrée', 'Qualité Sheffield'],
+    applications: ['Découpe de films', 'Emballage', 'Logistique sécurisée'],
+  },
+  'h909': {
+    name: 'H909 - OLFA TK-1 Cutter de Poche',
+    description: 'Cutter de poche OLFA TK-1 compact et pratique. Idéal pour usage quotidien.',
+    features: ['Format de poche', 'Compact', 'Design OLFA', 'Usage quotidien'],
+    applications: ['Usage quotidien', 'Port au travail', 'Applications légères'],
+  },
+  'h911': {
+    name: 'H911 - OLFA MARU Cutter Rotatif',
+    description: 'Cutter rotatif OLFA MARU pour découpe circulaire. Design innovant.',
+    features: ['Découpe rotative', 'Design innovant', 'Design OLFA'],
+    applications: ['Découpe circulaire', 'Artisanat', 'Applications créatives'],
+  },
+  'h913': {
+    name: 'H913 007 S02 - Couteau de Sécurité Polyvalent',
+    description: 'Couteau de sécurité polyvalent pour diverses applications.',
+    features: ['Polyvalent', 'Sécurité', 'Usage varié', 'Qualité Sheffield'],
+    applications: ['Applications variées', 'Usage polyvalent'],
+  },
+  'h913-008-t03': {
+    name: 'H913 008 T03 - POLYSLIT Couteau de Sécurité',
+    description: 'Couteau de sécurité Polyslit pour découpe de films et emballages.',
+    features: ['Design Polyslit', 'Sécurité', 'Découpe de films', 'Qualité Sheffield'],
+    applications: ['Découpe de films', 'Emballage'],
+  },
+  'h914-001-a03': {
+    name: 'H914 001 A03 - SPRINGER KNIFE Main Gauche',
+    description: 'Couteau de sécurité Springer pour gauchers. Mécanisme à ressort.',
+    features: ['Pour gauchers', 'Mécanisme à ressort', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Utilisateurs gauchers', 'Applications industrielles'],
+  },
+  'h914-002-a03': {
+    name: 'H914 002 A03 - SPRINGER KNIFE Standard',
+    description: 'Couteau de sécurité Springer avec mécanisme à ressort. Construction métal.',
+    features: ['Mécanisme à ressort', 'Construction métal', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Applications industrielles', 'Usage sécurisé'],
+  },
+  'h915': {
+    name: 'H915 003 A02 - Couteau de Sécurité Ergonomique',
+    description: 'Couteau de sécurité ergonomique pour usage prolongé.',
+    features: ['Design ergonomique', 'Usage prolongé', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Usage prolongé', 'Applications industrielles'],
+  },
+  'h917-001-t10': {
+    name: 'H917 001 T10 - FISH KNIFE Ouvre-Sac',
+    description: 'Couteau Fish Knife pour ouverture de sacs et emballages. Design sécurisé.',
+    features: ['Design Fish Knife', 'Ouverture de sacs', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Ouverture de sacs', 'Logistique', 'Entrepôt'],
+  },
+  'h918-001-t10': {
+    name: 'H918 001 T10 - FISH KNIFE Version Améliorée',
+    description: 'Version améliorée du Fish Knife pour ouverture de sacs.',
+    features: ['Version améliorée', 'Ouverture de sacs', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Ouverture de sacs', 'Logistique'],
+  },
+  'h941': {
+    name: 'H941 - OLFA HOK-1 Cutter Crochet',
+    description: 'Cutter crochet OLFA HOK-1 pour découpe de matériaux souples.',
+    features: ['Lame crochet', 'Découpe sécurisée', 'Design OLFA'],
+    applications: ['Découpe de films', 'Matériaux souples', 'Logistique'],
+  },
+  'h944-001-t03': {
+    name: 'H944 001 T03 - AMBI SAFE SPRING Couteau Ambidextre',
+    description: 'Couteau de sécurité ambidextre avec mécanisme à ressort. Usage gauche ou droite.',
+    features: ['Ambidextre', 'Mécanisme à ressort', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Usage universel', 'Applications industrielles'],
+  },
+  'h946-001': {
+    name: 'H946 001 - U-CUT Couteau Crochet',
+    description: 'Couteau U-CUT avec lame crochet pour découpe sécurisée.',
+    features: ['Lame crochet', 'Design U-CUT', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Découpe de films', 'Ouverture d\'emballages'],
+  },
+  'is-guvenligi-muhafaza-atik-kutusu': {
+    name: 'Conteneur d\'Élimination de Lames Usagées',
+    description: 'Conteneur de sécurité pour collecte et élimination de lames usagées. Conforme aux normes de sécurité au travail.',
+    features: ['Collecte sécurisée', 'Conforme normes sécurité', 'Construction durable', 'Capacité standard'],
+    applications: ['Élimination de lames', 'Sécurité au travail', 'Conformité réglementaire'],
+  },
+  'kk01': {
+    name: 'KK01 - Couteau de Sécurité KK01',
+    description: 'Couteau de sécurité KK01 pour applications industrielles. Qualité Sheffield.',
+    features: ['Sécurité', 'Usage industriel', 'Qualité Sheffield'],
+    applications: ['Applications industrielles', 'Usage professionnel'],
+  },
+  'olfa-sk-12': {
+    name: 'OLFA SK-12 - Couteau Inox Certifié NSF',
+    description: 'Couteau de sécurité OLFA SK-12 en acier inoxydable certifié NSF pour industrie alimentaire.',
+    features: ['Acier inoxydable', 'Certifié NSF', 'Industrie alimentaire', 'Design OLFA'],
+    applications: ['Industrie alimentaire', 'Environnements hygiéniques', 'Production certifiée'],
+  },
+  'olfa-sk-15': {
+    name: 'OLFA SK-15 - Couteau de Sécurité Alimentaire',
+    description: 'Couteau de sécurité OLFA SK-15 pour industrie alimentaire et environnements sensibles.',
+    features: ['Sécurité alimentaire', 'Design OLFA', 'Hygiénique'],
+    applications: ['Industrie alimentaire', 'Environnements sensibles'],
+  },
+  'saka01t': {
+    name: 'SAKA01T - Couteau de Sécurité Compact',
+    description: 'Couteau de sécurité compact SAKA01T. Design ergonomique.',
+    features: ['Compact', 'Ergonomique', 'Sécurité', 'Qualité Sheffield'],
+    applications: ['Usage quotidien', 'Applications légères'],
+  },
+  'sk01': {
+    name: 'SK01 - Couteau de Sécurité SK01',
+    description: 'Couteau de sécurité SK01 pour applications industrielles.',
+    features: ['Sécurité', 'Usage industriel', 'Qualité Sheffield'],
+    applications: ['Applications industrielles', 'Usage professionnel'],
+  },
+  'suka01': {
+    name: 'SUKA01 - Couteau à Crochet Coulissant',
+    description: 'Couteau à crochet avec mécanisme coulissant pour découpe sécurisée.',
+    features: ['Crochet coulissant', 'Découpe sécurisée', 'Qualité Sheffield'],
+    applications: ['Découpe de films', 'Ouverture d\'emballages'],
+  },
+  'suka02': {
+    name: 'SUKA02 - Couteau de Sécurité SUKA02',
+    description: 'Couteau de sécurité SUKA02 pour applications variées.',
+    features: ['Sécurité', 'Polyvalent', 'Qualité Sheffield'],
+    applications: ['Applications variées', 'Usage professionnel'],
+  },
+  'olfa': {
+    name: 'OLFA PRC-3/C - Cutter Rotatif Compass',
+    description: 'Cutter rotatif compass OLFA PRC-3/C pour découpe circulaire. Design innovant.',
+    features: ['Découpe circulaire', 'Design compass', 'Design OLFA'],
+    applications: ['Découpe circulaire', 'Artisanat', 'Applications créatives'],
+  },
+  'olfa-2': {
+    name: 'OLFA 12.5mm CS-5 - Lame de Compass',
+    description: 'Lame de rechange 12.5mm pour cutter compass OLFA CS-5.',
+    features: ['Lame 12.5mm', 'Compatible CS-5', 'Design OLFA'],
+    applications: ['Découpe circulaire', 'Artisanat'],
+  },
+  'olfa-3': {
+    name: 'OLFA SK-10 - Couteau de Sécurité Compact',
+    description: 'Couteau de sécurité compact OLFA SK-10 pour usage quotidien.',
+    features: ['Compact', 'Sécurité', 'Design OLFA', 'Usage quotidien'],
+    applications: ['Usage quotidien', 'Applications légères'],
+  },
+
+  // =============================================================================
+  // LAMES D'ÉBAVURAGE ET HOBBY
+  // =============================================================================
+  'p1-a': {
+    name: 'P1-A - Couteau d\'Ébavurage à Vis Allen',
+    description: 'Couteau d\'ébavurage/hobby avec système de fixation à vis Allen. Pour travaux de finition.',
+    features: ['Fixation vis Allen', 'Ébavurage', 'Travaux de finition', 'Qualité Sheffield'],
+    applications: ['Ébavurage', 'Finition', 'Travaux de précision'],
+  },
+  'p1-t': {
+    name: 'P1-T - Couteau d\'Ébavurage à Vis Rotative',
+    description: 'Couteau d\'ébavurage/hobby avec système de fixation à vis rotative.',
+    features: ['Fixation vis rotative', 'Ébavurage', 'Changement de lame facile'],
+    applications: ['Ébavurage', 'Travaux hobby', 'Finition'],
+  },
+  'p2-a': {
+    name: 'P2-A - Couteau d\'Ébavurage Pro à Vis Allen',
+    description: 'Couteau d\'ébavurage professionnel avec fixation à vis Allen.',
+    features: ['Version professionnelle', 'Fixation vis Allen', 'Ébavurage', 'Qualité Sheffield'],
+    applications: ['Ébavurage professionnel', 'Finition industrielle'],
+  },
+  'p2-t': {
+    name: 'P2-T - Couteau d\'Ébavurage Pro à Vis Rotative',
+    description: 'Couteau d\'ébavurage professionnel avec fixation à vis rotative.',
+    features: ['Version professionnelle', 'Fixation vis rotative', 'Changement facile'],
+    applications: ['Ébavurage professionnel', 'Applications industrielles'],
+  },
+  'p9-ss': {
+    name: 'P9-SS - Couteau d\'Ébavurage à Double Fente',
+    description: 'Couteau d\'ébavurage/hobby avec système de fixation à double fente.',
+    features: ['Double fente', 'Fixation sécurisée', 'Ébavurage', 'Qualité Sheffield'],
+    applications: ['Ébavurage', 'Travaux hobby', 'Applications techniques'],
+  },
+  'ws-1': {
+    name: 'WS-1 - Station de Travail Ébavurage/Hobby',
+    description: 'Station de travail complète pour ébavurage et travaux hobby. Kit complet.',
+    features: ['Station complète', 'Kit ébavurage', 'Multiple outils', 'Qualité Sheffield'],
+    applications: ['Atelier', 'Travaux hobby', 'Ébavurage multi-applications'],
+  },
+  'f01': {
+    name: 'F01 - Lame d\'Ébavurage Universelle',
+    description: 'Lame d\'ébavurage universelle type F01. Compatible avec la plupart des manches.',
+    features: ['Universelle', 'Compatible multi-manches', 'Ébavurage', 'Qualité Sheffield'],
+    applications: ['Ébavurage universel', 'Travaux de finition'],
+  },
+  'f21': {
+    name: 'F21 - Lame d\'Ébavurage Courte',
+    description: 'Lame d\'ébavurage courte type F21 pour accès restreints.',
+    features: ['Format court', 'Accès restreint', 'Ébavurage', 'Qualité Sheffield'],
+    applications: ['Espaces restreints', 'Ébavurage de précision'],
+  },
+  'f22': {
+    name: 'F22 - Lame d\'Ébavurage Robuste',
+    description: 'Lame d\'ébavurage robuste type F22 pour matériaux durs.',
+    features: ['Construction robuste', 'Matériaux durs', 'Durabilité', 'Qualité Sheffield'],
+    applications: ['Matériaux durs', 'Ébavurage intensif'],
+  },
+  'f03': {
+    name: 'F03 - Lame d\'Ébavurage Pointue',
+    description: 'Lame d\'ébavurage pointue type F03 pour travaux de précision.',
+    features: ['Pointe fine', 'Précision', 'Travaux détaillés', 'Qualité Sheffield'],
+    applications: ['Travaux de précision', 'Détails fins'],
+  },
+  'f04': {
+    name: 'F04 - Lame d\'Ébavurage à Bout Rond',
+    description: 'Lame d\'ébavurage à bout rond type F04 pour surfaces arrondies.',
+    features: ['Bout rond', 'Surfaces arrondies', 'Ébavurage doux', 'Qualité Sheffield'],
+    applications: ['Surfaces arrondies', 'Ébavurage doux'],
+  },
+  'g01': {
+    name: 'G01 - Lame d\'Ébavurage G01 Universelle',
+    description: 'Lame d\'ébavurage universelle type G01. Polyvalente.',
+    features: ['Universelle', 'Polyvalente', 'Ébavurage', 'Qualité Sheffield'],
+    applications: ['Ébavurage universel', 'Applications variées'],
+  },
+
+  // =============================================================================
+  // COUTEAUX DE MACHINE - THERMOFORMAGE & EMBALLAGE SOUS VIDE
+  // =============================================================================
+  'kontr-biai': {
+    name: 'Lame Contour – Thermoformage & Emballage Sous Vide',
+    description: 'Lame contour pour machines de thermoformage et emballage sous vide. Compatible Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac.',
+    features: [
+      'Acier Sheffield longue durée',
+      'Compatible industrie alimentaire',
+      'Compatible machines thermoformage',
+      'Découpe nette et précise',
+      'Option revêtement titane'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Industrie alimentaire', 'Emballage viande et fromage'],
+  },
+  'yarim': {
+    name: 'Poinçon Demi-Étoile – Emballage Sous Vide',
+    description: 'Poinçon demi-étoile (half star) pour machines d\'emballage sous vide et thermoformage. Acier D2 haute résistance à l\'usure.',
+    features: [
+      'Géométrie demi-étoile',
+      'Acier D2 qualité Sheffield',
+      'Option revêtement titane',
+      'Poinçonnage de précision',
+      'Tranchant longue durée',
+      'Compatible industrie alimentaire'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Poinçonnage alimentaire'],
+  },
+  'tam': {
+    name: 'Poinçon Étoile Complète – Emballage Sous Vide',
+    description: 'Poinçon étoile complète (full star) pour machines d\'emballage sous vide et thermoformage. Compatible Multivac, Tiromat et autres.',
+    features: [
+      'Géométrie étoile complète',
+      'Acier D2 qualité Sheffield',
+      'Option revêtement titane',
+      'Poinçonnage de précision',
+      'Tranchant longue durée',
+      'Compatible industrie alimentaire'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Poinçonnage industriel'],
+  },
+  'dz-biaklar': {
+    name: 'Lames Droites (Lama) – Emballage Sous Vide',
+    description: 'Lames droites (straight/lama) pour machines d\'emballage sous vide et thermoformage. Acier HSS haute vitesse, extrêmement résistant.',
+    features: [
+      'Géométrie droite',
+      'Acier HSS haute vitesse',
+      'Extrêmement robuste',
+      'Résistant à l\'écrasement',
+      'Tranchant longue durée',
+      'Compatible industrie alimentaire'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Découpe de film', 'Scellage'],
+  },
+  'dairesel': {
+    name: 'Lames Circulaires – Emballage Sous Vide',
+    description: 'Lames circulaires rotatives pour machines d\'emballage sous vide et thermoformage. Compatible Multivac, Tiromat et autres.',
+    features: [
+      'Géométrie circulaire',
+      'Acier Sheffield',
+      'Découpe rotative',
+      'Coupe précise',
+      'Longue durée',
+      'Compatible industrie alimentaire'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Découpe rotative'],
+  },
+  'yuvarlak': {
+    name: 'Poinçon Rond d\'Aération – Emballage Sous Vide',
+    description: 'Poinçon rond pour trous d\'aération sur emballages sous vide. Acier inoxydable 440C haute résistance à la corrosion.',
+    features: [
+      'Géométrie ronde',
+      'Acier inoxydable 440C',
+      'Haute résistance corrosion',
+      'Trou d\'aération',
+      'Poinçonnage de précision',
+      'Compatible industrie alimentaire'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Trous d\'aération'],
+  },
+  'oval': {
+    name: 'Poinçon Ovale d\'Aération – Emballage Sous Vide',
+    description: 'Poinçon ovale (ellipse) pour trous d\'aération sur emballages sous vide. Acier inoxydable 440C.',
+    features: [
+      'Géométrie ovale',
+      'Acier inoxydable 440C',
+      'Haute résistance corrosion',
+      'Trou d\'aération',
+      'Poinçonnage de précision',
+      'Compatible industrie alimentaire'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Trous d\'aération ovales'],
+  },
+  'dili': {
+    name: 'Lames Dentées – Emballage Sous Vide',
+    description: 'Lames dentées (serrated) pour machines d\'emballage sous vide et thermoformage. Idéal pour matériaux durs.',
+    features: [
+      'Tranchant denté',
+      'Acier Sheffield',
+      'Idéal matériaux durs',
+      'Coupe anti-glissement',
+      'Longue durée',
+      'Compatible industrie alimentaire'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Découpe de films rigides'],
+  },
+  'vent-cutter': {
+    name: 'Vent Cutter – Lame de Découpe à Ailettes',
+    description: 'Lame de découpe à ailettes (vent cutter) pour applications spécialisées. Qualité Sheffield.',
+    features: ['Design à ailettes', 'Qualité Sheffield', 'Usage professionnel'],
+    applications: ['Découpe industrielle', 'Applications spécialisées'],
+  },
+
+  // =============================================================================
+  // COUTEAUX DE MACHINE - DÉCOUPE ROTATIVE & INDUSTRIELLE
+  // =============================================================================
+  'st': {
+    name: 'Lame Supérieure "Tabak" – Découpe Rotative',
+    description: 'Lame supérieure type "tabak" pour systèmes de découpe rotative. Qualité Sheffield.',
+    features: ['Design tabak', 'Découpe rotative', 'Position supérieure', 'Qualité Sheffield'],
+    applications: ['Découpe rotative', 'Systèmes de refendage'],
+  },
+  'alt': {
+    name: 'Lame Inférieure – Découpe Rotative',
+    description: 'Lame inférieure pour systèmes de découpe rotative. Qualité Sheffield.',
+    features: ['Position inférieure', 'Découpe rotative', 'Qualité Sheffield'],
+    applications: ['Découpe rotative', 'Systèmes de refendage'],
+  },
+  'pelet': {
+    name: 'Lames de Granulation – Pelletisation',
+    description: 'Lames de granulation (pelletisation) pour machines de production de granulés. Qualité Sheffield.',
+    features: ['Granulation', 'Pelletisation', 'Qualité Sheffield', 'Durabilité'],
+    applications: ['Production de granulés', 'Industrie plastique', 'Recyclage'],
+  },
+  'taneciklendirici': {
+    name: 'Lame de Granulation Fine',
+    description: 'Lame de granulation fine pour production de particules fines. Qualité Sheffield.',
+    features: ['Granulation fine', 'Particules fines', 'Qualité Sheffield'],
+    applications: ['Production de particules fines', 'Industrie chimique'],
+  },
+  'paralayici': {
+    name: 'Lame de Broyeur – Déchiquetage',
+    description: 'Lame de broyeur pour déchiquetage de matériaux. Qualité Sheffield robuste.',
+    features: ['Déchiquetage', 'Construction robuste', 'Qualité Sheffield'],
+    applications: ['Broyage', 'Déchiquetage', 'Recyclage'],
+  },
+  'oluklu': {
+    name: 'Lames de Refendage Carton Ondulé',
+    description: 'Lames de refendage pour carton ondulé et matériaux cannelés. Qualité Sheffield.',
+    features: ['Carton ondulé', 'Refendage', 'Qualité Sheffield'],
+    applications: ['Industrie du carton', 'Emballage', 'Refendage'],
+  },
+  'disiz': {
+    name: 'Lames de Découpe Rotative Sans Dents',
+    description: 'Lames de découpe rotative sans dents pour coupe nette. Qualité Sheffield.',
+    features: ['Sans dents', 'Coupe nette', 'Découpe rotative', 'Qualité Sheffield'],
+    applications: ['Découpe rotative', 'Coupe nette de matériaux'],
+  },
+  'dili-2': {
+    name: 'Lames de Découpe Rotative Dentées',
+    description: 'Lames de découpe rotative dentées pour matériaux fibreux. Qualité Sheffield.',
+    features: ['Dentées', 'Matériaux fibreux', 'Découpe rotative', 'Qualité Sheffield'],
+    applications: ['Découpe rotative', 'Matériaux fibreux', 'Textiles'],
+  },
+  'dili-3': {
+    name: 'Lame Dentée Industrielle',
+    description: 'Lame dentée industrielle pour applications lourdes. Qualité Sheffield robuste.',
+    features: ['Dentée', 'Usage industriel', 'Construction robuste', 'Qualité Sheffield'],
+    applications: ['Applications industrielles lourdes', 'Découpe de matériaux épais'],
+  },
+  'biak': {
+    name: 'Support de Lame – Accessoire',
+    description: 'Support de lame (porte-lame) pour montage de lames industrielles. Accessoire professionnel.',
+    features: ['Support de lame', 'Montage sécurisé', 'Accessoire professionnel'],
+    applications: ['Montage de lames', 'Systèmes de découpe'],
+  },
+  'dairesel-2': {
+    name: 'Lames Circulaires d\'Écrasement',
+    description: 'Lames circulaires d\'écrasement pour applications de perforation et découpe. Qualité Sheffield.',
+    features: ['Circulaire', 'Écrasement', 'Perforation', 'Qualité Sheffield'],
+    applications: ['Perforation', 'Découpe avec écrasement'],
+  },
+  'et': {
+    name: 'Lame de Découennage (Derinder)',
+    description: 'Lame de découennage (derinder) pour traitement de viande. Acier alimentaire.',
+    features: ['Découennage', 'Traitement viande', 'Acier alimentaire', 'Qualité Sheffield'],
+    applications: ['Industrie de la viande', 'Découennage', 'Transformation alimentaire'],
+  },
+  'log-saw': {
+    name: 'Lames Log-Saw – Découpe Papier',
+    description: 'Lames log-saw pour découpe de rouleaux de papier toilette et essuie-tout. Qualité Sheffield.',
+    features: ['Découpe log-saw', 'Papier toilette', 'Essuie-tout', 'Qualité Sheffield'],
+    applications: ['Industrie papetière', 'Découpe de rouleaux', 'Production hygiénique'],
+  },
+  'masura': {
+    name: 'Lames de Découpe Masura',
+    description: 'Lames de découpe masura pour applications textiles et papetières. Qualité Sheffield.',
+    features: ['Découpe masura', 'Textile', 'Papeterie', 'Qualité Sheffield'],
+    applications: ['Industrie textile', 'Papeterie', 'Découpe de bobines'],
+  },
+  'kutu': {
+    name: 'Lames de Fermeture Carton – Ruban Adhésif',
+    description: 'Lames de fermeture carton pour machines de scellage au ruban adhésif. Qualité Sheffield.',
+    features: ['Fermeture carton', 'Ruban adhésif', 'Machines de scellage', 'Qualité Sheffield'],
+    applications: ['Scellage de cartons', 'Emballage', 'Logistique'],
+  },
+  'erit': {
+    name: 'Lames à Ruban (Bande)',
+    description: 'Lames à ruban (bande) pour applications de découpe continue. Qualité Sheffield.',
+    features: ['Type ruban', 'Découpe continue', 'Qualité Sheffield'],
+    applications: ['Découpe continue', 'Industrie alimentaire', 'Transformation'],
+  },
+  'tray': {
+    name: 'Lames de Découpe Barquettes (Tray)',
+    description: 'Lames de découpe pour barquettes (tray) et conteneurs moulés. Qualité Sheffield.',
+    features: ['Découpe barquettes', 'Conteneurs moulés', 'Qualité Sheffield'],
+    applications: ['Production de barquettes', 'Emballage alimentaire'],
+  },
+  'sosis': {
+    name: 'Lames de Décorticage Saucisses',
+    description: 'Lames de décorticage pour industrie de la charcuterie. Acier alimentaire.',
+    features: ['Décorticage', 'Charcuterie', 'Acier alimentaire', 'Qualité Sheffield'],
+    applications: ['Industrie charcutière', 'Décorticage', 'Transformation alimentaire'],
+  },
+
+  // =============================================================================
+  // LAMES DE REFENDAGE 3 TROUS - SÉRIE COMPLÈTE
+  // =============================================================================
+  '3dj-karbon-celik': {
+    name: 'Lame de Refendage 3 Trous – Acier Carbone',
+    description: 'Lame industrielle de refendage à 3 trous en acier à haute teneur en carbone (0,85-1,00% C). Traitement thermique en atmosphère contrôlée pour microstructure martensitique homogène. Angle de tranchant optimisé de 22°.',
+    features: [
+      'Teneur élevée en carbone (0,85-1,00%)',
+      'Microstructure martensitique',
+      'Angle de tranchant optimal de 22°',
+      'Durée de vie 3-5x supérieure aux rasoirs',
+      'Système de fixation 3 trous'
+    ],
+    applications: ['Découpe textile', 'Refendage de films', 'Découpe de papier', 'Refendage plastique', 'Emballage'],
+  },
+  '3dj-karbon-titanyum': {
+    name: 'Lame de Refendage 3 Trous – Acier Carbone + Revêtement Titane',
+    description: 'Revêtement TiN (nitrure de titane) sur acier haute teneur en carbone. Le revêtement PVD atteint 2300 HV et réduit la friction de 40%.',
+    features: [
+      'Revêtement TiN (2300 HV)',
+      'Application PVD',
+      '40% réduction friction',
+      'Résistance thermique accrue',
+      '2-3x durée de vie prolongée',
+      'Idéal matériaux adhésifs'
+    ],
+    applications: ['Découpe ruban adhésif', 'Refendage lamination', 'Films thermosensibles', 'Découpe étiquettes'],
+  },
+  '3dj-paslanmaz-titanyum': {
+    name: 'Lame de Refendage 3 Trous – Acier Inoxydable + Revêtement Titane',
+    description: 'Revêtement TiN sur acier inoxydable. L\'oxyde de chrome améliore l\'adhérence du revêtement de 25-30% par rapport à l\'acier carbone.',
+    features: [
+      'Adhérence revêtement supérieure',
+      'Substrat inoxydable',
+      'Résistance à la corrosion',
+      'Compatible environnements humides',
+      'Sûr pour industrie alimentaire',
+      'Revêtement longue durée'
+    ],
+    applications: ['Emballage alimentaire', 'Environnements humides', 'Découpe hygiénique', 'Lamination', 'Refendage de films'],
+  },
+  '3dj-paslanmaz-titanyum-cizikli': {
+    name: 'Lame de Refendage 3 Trous – Inox + Titane, Rainurée',
+    description: 'Lame inoxydable + TiN avec ligne de rupture centrale. Peut être divisée en deux demi-lames pour utilisation flexible.',
+    features: [
+      'Design divisible',
+      'Ligne de rupture laser',
+      'Utilisation demi-lame possible',
+      'Revêtement inox + TiN',
+      'Usage économique',
+      'Compatible double machine'
+    ],
+    applications: ['Machines textiles demi-lame', 'Découpe étroite', 'Systèmes multi-stations', 'Machines d\'emballage'],
+  },
+  '3dj-karbon-seramik': {
+    name: 'Lame de Refendage 3 Trous – Acier Carbone + Revêtement Céramique',
+    description: 'Revêtement céramique avancé à base de titane sur acier carbone. Résistance jusqu\'à 800°C avec 50-60% de réduction de friction.',
+    features: [
+      'Revêtement céramique (3200+ HV)',
+      'Résistance température 800°C',
+      '50-60% réduction friction',
+      'Compatible haute vitesse',
+      'Résistance à l\'oxydation',
+      'Performance supérieure au TiN'
+    ],
+    applications: ['Refendage haute vitesse', 'Matériaux thermosensibles', 'Applications friction critique', 'Découpe matériaux abrasifs'],
+  },
+  '3dj-yekpare-tungsten': {
+    name: 'Lame de Refendage 3 Trous – Carbure de Tungstène Massif',
+    description: 'Lame monolithique en carbure de tungstène (WC-Co). Dureté HRA 89-92 avec durée de vie 10-50x supérieure à l\'acier.',
+    features: [
+      'Carbure de tungstène massif',
+      'Dureté HRA 89-92',
+      '10-50x durée de vie',
+      'Résistance abrasion extrême',
+      'Structure grain fin',
+      'Qualité premium'
+    ],
+    applications: ['Découpe matériaux abrasifs', 'Fibre de verre', 'Fibre de carbone', 'Papier abrasif', 'Matériaux revêtus céramique'],
+  },
+  '3dj-yekpare-seramik': {
+    name: 'Lame de Refendage 3 Trous – Céramique Massif',
+    description: 'Lame monolithique en céramique (oxyde de zirconium). Friction proche de zéro et génération de chaleur minimale.',
+    features: [
+      'Structure céramique massive',
+      'Friction proche de zéro',
+      'Génération chaleur minimale',
+      'Chimiquement inerte',
+      'Dureté HV 1200-1400',
+      'Aucune contamination métallique'
+    ],
+    applications: ['Films ultrasensibles à la chaleur', 'Industrie alimentaire (compatible détecteur métaux)', 'Matériaux chimiques réactifs', 'Salles blanches', 'Composants électroniques'],
+  },
+  '3dj-karbon-yuvarlak-kenar': {
+    name: 'Lame de Refendage 3 Trous – Acier Carbone, Bord Arrondi',
+    description: 'Lame acier carbone avec profil de bord arrondi style rasoir. Ergonomie familière pour transition depuis rasoirs.',
+    features: [
+      'Facteur de forme rasoir',
+      'Profil bord arrondi',
+      'Durabilité industrielle',
+      'Idéal transition utilisateurs',
+      'Design ergonomique',
+      'Acier haute teneur carbone'
+    ],
+    applications: ['Transition depuis rasoirs', 'Découpe textile', 'Refendage de films', 'Usage général'],
+  },
+  '3dj-paslanmaz-titanyum-yuvarlak': {
+    name: 'Lame de Refendage 3 Trous – Inox + Titane, Bord Arrondi',
+    description: 'Lame inoxydable + TiN avec bord arrondi style rasoir. Combine ergonomie familière avec performance premium.',
+    features: [
+      'Bord arrondi + revêtement TiN',
+      'Substrat inoxydable',
+      'Résistance corrosion',
+      'Faible friction',
+      'Ergonomie rasoir',
+      'Combinaison premium'
+    ],
+    applications: ['Environnements humides', 'Transition industrie alimentaire', 'Découpe matériaux adhésifs', 'Entreprises priorité ergonomie'],
+  },
+  '3dj-karbon-seramik-yuvarlak': {
+    name: 'Lame de Refendage 3 Trous – Carbone + Céramique, Bord Arrondi',
+    description: 'Lame revêtement céramique avec bord arrondi style rasoir. Résistance haute température avec ergonomie familière.',
+    features: [
+      'Bord arrondi + revêtement céramique',
+      'Résistance température 800°C',
+      'Faible friction',
+      'Ergonomie rasoir',
+      'Résistance oxydation',
+      'Compatible haute vitesse'
+    ],
+    applications: ['Découpe haute vitesse ergonomique', 'Matériaux thermosensibles', 'Transition utilisateurs segment premium'],
+  },
+  '3dj-paslanmaz-titanyum-60x22': {
+    name: 'Lame de Refendage 3 Trous – Inox + Titane, 60x22mm',
+    description: 'Format large 60x22mm avec revêtement inoxydable + TiN. Ligne de coupe plus longue pour bobines larges.',
+    features: [
+      'Format large 60x22mm',
+      'Ligne de coupe étendue',
+      'Revêtement inox + TiN',
+      'Pour machines haute capacité',
+      'Moins de changements lame',
+      'Compatible bobines larges'
+    ],
+    applications: ['Refendage bobines larges', 'Opérations multi-bandes', 'Machines refendage haute capacité', 'Production échelle industrielle'],
+  },
+  '3dj-paslanmaz-titanyum-cizikli-60x22': {
+    name: 'Lame de Refendage 3 Trous – Inox + Titane, Rainurée, 60x22mm',
+    description: 'Format large 60x22mm avec rainure divisible. Se divise en deux demi-lames de 30mm pour utilisation flexible.',
+    features: [
+      'Format large 60x22mm',
+      'Divisible en 2x 30mm',
+      'Inox + revêtement TiN',
+      'Utilisation flexible',
+      'Gestion stock économique'
+    ],
+    applications: ['Systèmes multi-machines', 'Stations différentes', 'Entreprises économiques', 'Lignes production flexibles'],
   },
 };

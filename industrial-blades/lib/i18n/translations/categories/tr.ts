@@ -225,5 +225,17 @@ export const subcategoriesTr = {
   },
 };
 
-export type CategoryTranslations = typeof categoriesTr;
-export type SubcategoryTranslations = typeof subcategoriesTr;
+// Type tanımları - seoKeywords opsiyonel
+export interface CategoryTranslation {
+  name: string;
+  description: string;
+}
+
+export interface SubcategoryTranslation {
+  name: string;
+  description: string;
+  seoKeywords?: string[];
+}
+
+export type CategoryTranslations = Record<string, CategoryTranslation>;
+export type SubcategoryTranslations = Record<string, SubcategoryTranslation>;
