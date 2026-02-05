@@ -48,6 +48,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       '3-5x longer life than razor blades'
     ],
     applications: ['Textile cutting', 'Film and foil slitting', 'Paper cutting', 'Plastic slitting', 'Packaging cutting'],
+    seo: {
+      title: 'Slotted Slitting Blade Carbon Steel | Industrial Razor Blade 43x22mm',
+      description: 'Premium carbon steel slotted slitting blade for BOPP film, flexible packaging, and industrial cutting. SK5 steel, 22° edge angle, 3-5x longer life. Sheffield quality.',
+      keywords: ['slotted blade', 'slotted slitting blade', 'carbon steel blade', 'industrial razor blade', 'slitting blade', 'film slitting blade', '43x22 blade', 'textile blade', 'paper cutting blade', 'packaging blade', 'high carbon blade', 'SK5 blade', 'professional blade', 'long lasting blade', 'sharp blade', 'slitter blade', 'BOPP film blade', 'flexible packaging blade', 'slitter rewinder blade', 'converter blade']
+    },
   },
   'slotted-karbon-titanyum': {
     name: 'Slotted Slitting Blade - Carbon Steel + Titanium Coating',
@@ -61,6 +66,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Ideal for heat-sensitive materials'
     ],
     applications: ['Adhesive tape cutting', 'Lamination slitting', 'Heat-sensitive film cutting', 'Precision foil slitting', 'Label cutting'],
+    seo: {
+      title: 'Slotted Blade TiN Titanium Coating | Gold Industrial Slitting Blade',
+      description: 'TiN titanium coated slotted slitting blade with 2300 HV hardness. 40% lower friction, ideal for adhesive tape, lamination, and heat-sensitive film cutting.',
+      keywords: ['slotted blade titanium', 'titanium coated blade', 'TiN coating blade', 'PVD coating blade', 'gold blade', 'adhesive tape blade', 'lamination blade', 'slotted blade titanium', 'titanium coated blade', 'low friction blade', 'film slitting blade', 'label cutting blade', 'industrial titanium blade', 'professional coated blade', 'long lasting titanium', 'slitting blade TiN', 'industrial razor blade coated']
+    },
   },
   'slotted-karbon-seramik': {
     name: 'Slotted Slitting Blade - Carbon Steel + Ceramic Coating',
@@ -74,6 +84,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       '5-7x extended life'
     ],
     applications: ['Abrasive paper cutting', 'Fiberglass composite slitting', 'Carbon fiber cutting', 'Sandpaper slitting', 'Technical textile cutting'],
+    seo: {
+      title: 'Slotted Blade Ceramic Coating | 3200 HV Ultra-Hard Slitting Blade',
+      description: 'Ceramic coated slotted slitting blade with 3200 HV hardness. Ideal for abrasive materials, fiberglass, carbon fiber, and sandpaper cutting. 5-7x longer life.',
+      keywords: ['slotted blade ceramic', 'ceramic coated blade', 'abrasive material blade', 'fiberglass blade', 'carbon fiber blade', 'sandpaper blade', 'technical textile blade', 'ultra hard blade', '3200 HV blade', 'slotted ceramic blade', 'abrasive cutting blade', 'fiberglass cutting blade', 'carbon fiber blade', 'sandpaper slitting blade', 'industrial ceramic blade', 'high hardness blade']
+    },
   },
   'slotted-paslanmaz': {
     name: 'Slotted Slitting Blade - Stainless Steel',
@@ -87,6 +102,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Suitable for humid environments'
     ],
     applications: ['Food packaging cutting', 'Humid environment applications', 'Hygienic production lines', 'Pharmaceutical packaging', 'Medical packaging cutting'],
+    seo: {
+      title: 'Slotted Blade Stainless Steel | FDA Approved Food Industry Blade',
+      description: 'Stainless steel slotted slitting blade, AISI 420, FDA approved. Corrosion resistant, ideal for food packaging, pharmaceutical, and humid environment applications.',
+      keywords: ['slotted blade stainless', 'stainless steel blade', 'food blade', 'hygienic blade', 'FDA approved blade', 'corrosion resistant blade', 'humid environment blade', 'AISI 420 blade', 'slotted stainless blade', 'food grade blade', 'hygienic blade', 'corrosion resistant blade', 'medical packaging blade', 'pharmaceutical blade', 'rust free blade', 'inox blade']
+    },
   },
   'slotted-paslanmaz-titanyum': {
     name: 'Slotted Slitting Blade - Stainless Steel + Titanium Coating',
@@ -100,6 +120,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Ideal for demanding environments'
     ],
     applications: ['Food lamination cutting', 'Pharmaceutical blister packaging slitting', 'Humid adhesive tape cutting', 'Sterile packaging production', 'Medical foil slitting'],
+    seo: {
+      title: 'Slotted Blade Stainless + Titanium | Dual Protection Industrial Blade',
+      description: 'Stainless steel + TiN titanium coated slotted blade. Dual protection against corrosion and wear. Ideal for food lamination, pharmaceutical blister, and medical foil applications.',
+      keywords: ['slotted stainless titanium blade', 'stainless titanium coating', 'stainless titanium blade', 'TiN stainless blade', 'food lamination blade', 'pharmaceutical packaging blade', 'blister cutting blade', 'sterile packaging blade', 'medical foil blade', 'slotted stainless TiN', 'dual protection blade', 'corrosion wear resistant', 'hygienic titanium blade', 'pharmaceutical cutting blade', 'medical foil blade', 'premium slotted blade']
+    },
   },
   'slotted-paslanmaz-xcd': {
     name: 'Slotted Slitting Blade - Stainless Steel + XCD Coating',
@@ -113,6 +138,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'For the most demanding applications'
     ],
     applications: ['Ultra-adhesive tape cutting', 'Silicone-coated material slitting', 'Adhesive label cutting', 'Resin-impregnated fabric slitting', 'Medical adhesive tapes'],
+    seo: {
+      title: 'Slotted Blade XCD Diamond Coating | 5000 HV Non-Stick Blade',
+      description: 'XCD diamond-like carbon coated slotted blade, 5000 HV hardness, <0.1 friction. Non-stick properties for ultra-adhesive tapes, silicone coatings, and medical adhesives.',
+      keywords: ['slotted blade XCD coating', 'diamond coated blade', 'DLC coated blade', 'diamond coated blade', 'adhesive tape blade', 'silicone cutting blade', 'adhesive label blade', 'ultra low friction blade', '5000 HV blade', 'slotted XCD blade', 'diamond like carbon blade', 'non-stick blade', 'adhesive tape blade', 'silicone cutting blade', 'resin impregnated fabric blade', 'medical adhesive blade', 'premium diamond blade']
+    },
   },
   'slotted-endurium-seramik': {
     name: 'Slotted Slitting Blade - Endurium Steel + Ceramic Coating',
@@ -126,6 +156,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Longest life slotted blade'
     ],
     applications: ['High-speed slitting operations', 'Interrupted cutting applications', 'Metal foil slitting', 'Composite material cutting', '24/7 production lines'],
+    seo: {
+      title: 'Slotted Blade Endurium HSS Ceramic | 600°C High-Speed Blade',
+      description: 'Endurium HSS + ceramic coated slotted blade. HRC 64-66 substrate, 3500 HV coating, 600°C resistance. For high-speed slitting, metal foil, and 24/7 production lines.',
+      keywords: ['slotted blade Endurium', 'HSS blade', 'high speed steel blade', 'ceramic coated HSS', '600 degree blade', 'metal foil blade', 'composite cutting blade', 'slotted HSS blade', 'high speed steel blade', 'Endurium ceramic blade', 'thermal shock resistant blade', 'high temperature blade', 'metal foil slitting', 'composite cutting blade', 'continuous production blade', 'premium industrial blade']
+    },
   },
   'slotted-yekpare-tungsten': {
     name: 'Slotted Slitting Blade - Solid Tungsten Carbide',
@@ -139,6 +174,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'For extremely abrasive materials'
     ],
     applications: ['Ceramic-coated paper cutting', 'Metal foil slitting', 'Abrasive composite cutting', 'Carbon nanotube film slitting', 'Battery electrode material cutting'],
+    seo: {
+      title: 'Slotted Blade Tungsten Carbide | HRA 92-94 Ultra-Hard Blade',
+      description: 'Solid tungsten carbide slotted blade, HRA 92-94 hardness, 20-50x longer life. For ceramic paper, metal foil, battery electrode, and ultra-abrasive material cutting.',
+      keywords: ['slotted tungsten carbide blade', 'solid tungsten blade', 'carbide blade', 'WC blade', 'tungsten carbide blade', 'solid carbide blade', 'ceramic paper blade', 'metal foil blade', 'battery electrode blade', 'slotted carbide blade', 'monolithic carbide', 'ultra hard blade', 'abrasive material blade', 'battery electrode blade', 'ceramic paper blade', 'premium tungsten blade', 'carbide slitting blade']
+    },
   },
   'slotted-yekpare-seramik': {
     name: 'Slotted Slitting Blade - Solid Ceramic (Zirconia)',
@@ -152,6 +192,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Chemical inertness'
     ],
     applications: ['Food industry (metal detector passage)', 'Electronic component cutting', 'Battery separator film slitting', 'Medical sterile packaging', 'Cleanroom applications'],
+    seo: {
+      title: 'Slotted Blade Zirconia Ceramic | Metal-Free Food Industry Blade',
+      description: 'Solid zirconia ceramic slotted blade, metal-free, biocompatible. FDA compliant for food industry, metal detector safe, cleanroom and medical packaging applications.',
+      keywords: ['slotted ceramic blade', 'zirconia blade', 'ceramic blade', 'zirconia blade', 'metal contamination free blade', 'food sector blade', 'electronic cutting blade', 'battery separator blade', 'medical packaging blade', 'slotted ceramic blade', 'non-conductive blade', 'food industry blade', 'cleanroom blade', 'battery separator blade', 'medical packaging blade', 'biocompatible blade', 'Y-TZP blade']
+    },
   },
 
   // =============================================================================
@@ -179,6 +224,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Vibration-free precision cutting'
     ],
     applications: ['Precision label cutting', 'Thin film slitting', 'Laboratory applications', 'Micro-cutting operations', 'Electronic component cutting'],
+    seo: {
+      title: 'Injector Blade Carbon Steel 38x8mm | 2-Slot Precision Slitting Blade',
+      description: '38x8x0.25mm carbon steel injector blade with 2-slot design. SK5 steel, 20° edge angle for precision label cutting, thin film slitting, and micro-cutting operations.',
+      keywords: ['injector blade', 'injector blade', '38x8 blade', '38x8x0.25 blade', '2 slot blade', 'injector blade', 'carbon steel injector', 'precision cutting blade', 'label cutting blade', 'film slitting blade', 'laboratory blade', 'micro cutting', 'injector razor blade', 'slitting blade 38x8', 'industrial injector blade', 'precision cutting blade', 'label cutting blade', 'SK5 injector blade']
+    },
   },
   'injektor-paslanmaz': {
     name: 'Injector Blade - Stainless Steel, 2 Slot',
@@ -192,6 +242,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Suitable for humid environments'
     ],
     applications: ['Food packaging cutting', 'Pharmaceutical packaging', 'Medical tape cutting', 'Hygienic production lines', 'Humid environment applications'],
+    seo: {
+      title: 'Injector Blade Stainless Steel 38x8mm | FDA Approved Food Industry',
+      description: '38x8x0.25mm stainless steel injector blade, AISI 420, FDA approved. Corrosion resistant for food packaging, pharmaceutical, and medical applications.',
+      keywords: ['injector blade stainless', 'stainless injector blade', 'stainless injector blade', '38x8 stainless blade', 'food blade', 'medical blade', 'hygienic blade', 'FDA approved blade', 'AISI 420 injector', 'corrosion resistant blade', 'sterile blade', 'pharmaceutical blade', 'stainless 38x8x0.25', 'rust free blade', 'food grade injector blade', 'medical cutting blade']
+    },
   },
   'injektor-paslanmaz-ptfe': {
     name: 'Injector Blade - Stainless Steel + PTFE Coating, 2 Slot',
@@ -205,6 +260,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Suitable for medical applications'
     ],
     applications: ['Adhesive tape cutting', 'Silicone material slitting', 'Medical wound tape cutting', 'Resin product cutting', 'Label and sticker cutting'],
+    seo: {
+      title: 'Injector Blade PTFE Teflon Coating | Non-Stick Adhesive Tape Blade',
+      description: 'PTFE Teflon coated injector blade, ~0.04 friction coefficient. Non-stick surface for adhesive tape, silicone, medical tape, and sticker cutting applications.',
+      keywords: ['injector blade PTFE', 'teflon coated blade', 'non-stick blade', 'PTFE coated blade', 'teflon blade', 'non-stick injector blade', 'adhesive tape blade', 'silicone cutting blade', 'medical tape blade', 'low friction blade', '38x8 PTFE blade', 'adhesive tape blade', 'sticker cutting blade', 'low friction blade', 'medical tape blade', 'stainless PTFE injector']
+    },
   },
   'injektor-paslanmaz-seramik': {
     name: 'Injector Blade - Stainless Steel + Ceramic Coating, 2 Slot',
@@ -218,6 +278,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       '5-7x extended life'
     ],
     applications: ['Abrasive paper cutting', 'Composite material slitting', 'Technical textile cutting', 'Precision fiberglass cutting', 'Sandpaper product slitting'],
+    seo: {
+      title: 'Injector Blade Ceramic Coating 3200 HV | Abrasive Material Blade',
+      description: 'Ceramic coated injector blade, 3200 HV hardness. 5-7x longer life for abrasive paper, composite material, fiberglass, and technical textile cutting.',
+      keywords: ['injector blade ceramic', 'ceramic coated injector', 'ceramic coated injector blade', '38x8 ceramic blade', 'abrasive material blade', 'composite cutting blade', 'ultra hard blade', '3200 HV blade', 'stainless ceramic injector', 'abrasive material blade', 'composite cutting blade', 'technical textile blade', 'high hardness injector', 'wear resistant blade']
+    },
   },
   'injektor-paslanmaz-titanyum': {
     name: 'Injector Blade - Stainless Steel + Titanium Coating, 2 Slot',
@@ -231,6 +296,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Ideal for heat-sensitive materials'
     ],
     applications: ['Precision film cutting', 'Optical film slitting', 'Electronic foil cutting', 'Lamination slitting', 'Heat-sensitive packaging cutting'],
+    seo: {
+      title: 'Injector Blade TiN Titanium Coating | Gold Precision Film Blade',
+      description: 'TiN titanium coated injector blade, 2300 HV, 40% lower friction. Ideal for precision film, optical film, electronic foil, and lamination cutting.',
+      keywords: ['injector blade titanium', 'titanium coated injector', 'TiN injector blade', '38x8 titanium blade', 'gold blade', 'PVD coated injector', 'stainless titanium blade', 'film cutting blade', 'optical film blade', 'electronic foil blade', 'titanium coated blade', 'gold injector blade', 'low friction injector', 'precision film blade', 'lamination cutting blade']
+    },
   },
   'injektor-paslanmaz-titanyum-2-kanalli': {
     name: 'Injector Blade - Stainless Steel + Titanium Coating, 2-Channel Slot',
@@ -244,6 +314,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'For professional machines'
     ],
     applications: ['High-speed slitting operations', 'Precision tolerance cutting', 'Automatic cutting lines', 'Vibration-sensitive applications', 'Continuous production lines'],
+    seo: {
+      title: 'Injector Blade 2-Channel Slot TiN | High-Speed Anti-Slip Blade',
+      description: '2-channel slot injector blade with TiN coating. Reinforced grip, anti-slip for high-speed slitting, automatic cutting lines, and vibration-sensitive applications.',
+      keywords: ['injector blade 2 channel', '2 channel slot blade', 'dual channel injector', 'dual channel injector blade', '38x8 2 channel', 'reinforced grip blade', 'high speed blade', 'stability blade', 'vibration-free cutting', 'professional injector', 'automatic cutting blade', 'high speed injector blade', 'precision slitting blade', 'anti-slip blade', 'continuous production blade']
+    },
   },
   'injektor-paslanmaz-xcd': {
     name: 'Injector Blade - Stainless Steel + XCD Coating, 2 Slot',
@@ -257,6 +332,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Premium quality coating'
     ],
     applications: ['Ultra-adhesive tape cutting', 'Silicone-coated material slitting', 'Resin-impregnated fabric cutting', 'Adhesive label slitting', 'Special adhesive products'],
+    seo: {
+      title: 'Injector Blade XCD Diamond Coating | 5000 HV Non-Stick Blade',
+      description: 'XCD diamond-like carbon coated injector blade, 5000 HV, <0.1 friction. Non-stick for ultra-adhesive tape, silicone coatings, and special adhesive products.',
+      keywords: ['injector blade XCD', 'diamond coated injector', 'DLC injector blade', 'diamond coated blade', '38x8 XCD blade', 'black diamond blade', 'adhesive tape blade', 'silicone cutting blade', '5000 HV blade', 'ultra low friction', 'black diamond blade', 'non-stick injector', 'adhesive cutting blade', 'DLC coated blade', 'premium injector blade']
+    },
   },
   'injektor-yekpare-tungsten': {
     name: 'Injector Blade - Solid Tungsten Carbide, Slotless',
@@ -270,6 +350,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Monolithic integrity'
     ],
     applications: ['Ultra-abrasive material micro-cutting', 'Ceramic-coated paper slitting', 'Metal foil precision cutting', 'Battery electrode material slitting', 'Special holder applications'],
+    seo: {
+      title: 'Injector Blade Tungsten Carbide Slotless | HRA 92-94 Ultra-Hard',
+      description: 'Solid tungsten carbide injector blade, slotless, HRA 92-94. 20-50x longer life for abrasive materials, metal foil, and battery electrode micro-cutting.',
+      keywords: ['injector blade tungsten', 'tungsten carbide injector', 'solid tungsten blade', 'tungsten carbide injector blade', '38x8 tungsten blade', 'slotless blade', 'WC blade', 'carbide injector', 'ultra hard blade', 'HRA 92 blade', 'solid carbide blade', 'metal foil blade', 'battery electrode blade', 'monolithic carbide', 'slotless injector blade']
+    },
   },
   'injektor-yekpare-seramik-030': {
     name: 'Injector Blade - Solid Ceramic (Zirconia), Slotless - 0.30mm',
@@ -283,6 +368,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'FDA compliant food grade'
     ],
     applications: ['Food industry (metal detector lines)', 'Electronic component cutting', 'Battery separator film slitting', 'Medical sterile packaging', 'Cleanroom applications'],
+    seo: {
+      title: 'Injector Blade Zirconia Ceramic 0.30mm | Metal-Free Food Industry',
+      description: 'Solid zirconia ceramic injector blade 0.30mm, pure white, metal-free. Metal detector safe, FDA compliant for food industry, medical, and cleanroom applications.',
+      keywords: ['injector blade ceramic', 'white ceramic blade', 'zirconia injector', 'ceramic injector blade', 'white ceramic blade', '38x8x0.30 blade', 'metal contamination free', 'food blade', 'medical blade', 'biocompatible blade', 'zirconia blade', 'non-conductive blade', 'food industry blade', 'cleanroom blade', 'Y-TZP injector', 'metal detector safe blade']
+    },
   },
   'injektor-yekpare-seramik-064': {
     name: 'Injector Blade - Solid Ceramic (Zirconia), Slotless - 0.64mm',
@@ -296,6 +386,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Long-lasting ceramic structure'
     ],
     applications: ['Heavy-duty food cutting', 'Thick material slitting', 'Intensive use lines', 'Industrial cleanroom', 'Premium medical applications'],
+    seo: {
+      title: 'Injector Blade Zirconia Ceramic 0.64mm | Heavy-Duty Thick Blade',
+      description: 'Solid zirconia ceramic injector blade 0.64mm, thick section for heavy-duty applications. High strength for intensive use, cleanroom, and premium medical applications.',
+      keywords: ['injector blade ceramic 0.64', 'thick ceramic blade', '0.64mm zirconia blade', 'thick ceramic blade', 'heavy duty ceramic', '38x8x0.64 blade', 'white ceramic injector', 'high strength blade', 'heavy duty blade', 'premium ceramic blade', 'industrial zirconia', 'durable ceramic blade', 'white zirconia injector', 'thick blade', 'high strength ceramic']
+    },
   },
   'injektor-endurium-seramik': {
     name: 'Injector Blade - Endurium Steel + Ceramic Coating, 2 Slot',
@@ -309,6 +404,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       '0.36mm special thickness'
     ],
     applications: ['High-speed micro-slitting', 'Interrupted precision cutting', 'Metal foil micro-cutting', '24/7 continuous production', 'Cutting under thermal load'],
+    seo: {
+      title: 'Injector Blade Endurium HSS Ceramic | 600°C High-Speed Blade',
+      description: 'Endurium HSS + ceramic coated injector blade, HRC 64-66, 3500 HV, 600°C resistance. For high-speed micro-slitting, metal foil, and 24/7 continuous production.',
+      keywords: ['injector blade Endurium', 'HSS injector blade', 'high speed steel blade', '38x8x0.36 blade', '600 degree resistance blade', 'ceramic coated HSS', 'thermal shock resistant blade', 'metal foil blade', 'high speed cutting', 'Endurium injector blade', 'high speed steel blade', 'thermal resistant blade', 'continuous production blade', 'premium HSS injector', 'ceramic coated HSS']
+    },
   },
 
   '38-2': {
@@ -646,48 +746,88 @@ export const productsEn: Record<string, ProductTranslation> = {
     description: 'Professional contour blades for thermoform and vacuum packaging machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac machines. Sheffield steel, food-grade quality.',
     features: ['Contour design', 'Sheffield steel', 'Food industry approved', 'Clean and precise cuts', 'Titanium coating option'],
     applications: ['Vacuum packaging', 'Thermoforming', 'Food packaging', 'Meat and cheese packaging', 'Industrial packaging'],
+    seo: {
+      title: 'Contour Blade Thermoform | Multivac Tiromat Vacuum Packaging Blade',
+      description: 'Contour blades for thermoform vacuum packaging. Multivac, Tiromat, Opack, GEA, Ulma compatible. Sheffield steel, food-grade, titanium coating option.',
+      keywords: ['contour blade', 'contour blade', 'thermoform blade', 'vacuum packaging blade', 'multivac blade', 'tiromat blade', 'tiromat contour', 'opack blade', 'betapak blade', 'gea blade', 'alcan blade', 'ulma blade', 'variovac blade', 'food packaging blade', 'thermoform blade', 'thermoform cutting blade', 'vacuum packaging knife', 'MAP packaging blade']
+    },
   },
   'yarim': {
     name: 'Half Star Punches - Vacuum Packaging Triangle Blade',
     description: 'Half star (triangle) punch blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
     features: ['Half star geometry', 'D2 Tool Steel', 'High wear resistance', 'Titanium coating option', 'Precision punching', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry punching', 'Meat and cheese packaging', 'Industrial packaging'],
+    seo: {
+      title: 'Half Star Punch Blade | Vacuum Packaging Triangle Punch D2 Steel',
+      description: 'Half star triangle punch blades for vacuum packaging. D2 tool steel, Multivac, Tiromat, GEA compatible. Titanium coating option for extended life.',
+      keywords: ['half star punch', 'triangle punch blade', 'vacuum packaging punch', 'thermoform punch', 'D2 tool steel punch', 'multivac punch', 'tiromat punch', 'food industry punch', 'meat packaging punch', 'cheese packaging punch', 'titanium coated punch', 'precision punch blade']
+    },
   },
   'tam': {
     name: 'Full Star Punches - Vacuum Packaging Star Blade',
     description: 'Full star punch blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
     features: ['Full star geometry', 'D2 Tool Steel', 'High wear resistance', 'Titanium coating option', 'Precision punching', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry punching', 'Meat and cheese packaging', 'Industrial packaging'],
+    seo: {
+      title: 'Full Star Punch Blade | Vacuum Packaging Star Punch D2 Steel',
+      description: 'Full star punch blades for vacuum packaging. D2 tool steel, Multivac, Tiromat, GEA compatible. Titanium coating option for extended life.',
+      keywords: ['full star punch', 'star punch blade', 'vacuum packaging punch', 'thermoform punch', 'D2 tool steel punch', 'multivac star punch', 'tiromat star punch', 'food industry punch', 'meat packaging punch', 'titanium coated punch', 'precision star punch']
+    },
   },
   'dz-biaklar': {
     name: 'Straight Blades - Lama Blades for Vacuum Packaging',
     description: 'Straight (lama) blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from HSS (High Speed Steel), extremely durable, crush-resistant and stays sharp longer.',
     features: ['Straight edge geometry', 'HSS (High Speed Steel)', 'Extremely durable', 'Crush resistant', 'Stays sharp longer', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry cutting', 'Film cutting', 'Industrial packaging'],
+    seo: {
+      title: 'Straight Lama Blade HSS | Vacuum Packaging Thermoform Blade',
+      description: 'Straight lama blades for vacuum packaging. HSS high speed steel, Multivac, Tiromat, GEA compatible. Crush-resistant, stays sharp longer.',
+      keywords: ['straight blade', 'lama blade', 'vacuum packaging blade', 'thermoform blade', 'HSS blade', 'high speed steel blade', 'multivac lama', 'tiromat lama', 'food industry blade', 'film cutting blade', 'crush resistant blade', 'durable blade']
+    },
   },
   'dairesel': {
     name: 'Circular Blades - Vacuum Packaging Rotary Blade',
     description: 'Circular rotary blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Sheffield steel quality.',
     features: ['Circular geometry', 'Sheffield steel', 'Rotary cutting compatible', 'Precision cutting', 'Long-lasting', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Rotary cutting', 'Food industry', 'Industrial packaging'],
+    seo: {
+      title: 'Circular Rotary Blade | Vacuum Packaging Thermoform Round Blade',
+      description: 'Circular rotary blades for vacuum packaging. Sheffield steel, Multivac, Tiromat, GEA compatible. Precision rotary cutting for food industry.',
+      keywords: ['circular blade', 'rotary blade', 'round blade', 'vacuum packaging rotary', 'thermoform rotary', 'sheffield rotary blade', 'multivac circular', 'tiromat circular', 'food industry rotary', 'precision rotary blade', 'industrial circular blade']
+    },
   },
   'yuvarlak': {
     name: 'Round Air Punch - Vacuum Packaging Air Hole Blade',
     description: 'Round air punch blades for vacuum packaging and thermoform machines. Air hole punching compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
     features: ['Round geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
+    seo: {
+      title: 'Round Air Punch Blade 440C | Vacuum Packaging Ventilation Hole',
+      description: 'Round air punch blades for vacuum packaging ventilation. 440C stainless steel, Multivac, Tiromat, GEA compatible. Food-grade corrosion resistant.',
+      keywords: ['round air punch', 'air hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'multivac air punch', 'tiromat air punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
+    },
   },
   'oval': {
     name: 'Oval Air Punch - Vacuum Packaging Air Hole Blade',
     description: 'Oval air punch blades for vacuum packaging and thermoform machines. Air hole punching compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
     features: ['Oval geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
+    seo: {
+      title: 'Oval Air Punch Blade 440C | Vacuum Packaging Ventilation Hole',
+      description: 'Oval air punch blades for vacuum packaging ventilation. 440C stainless steel, Multivac, Tiromat, GEA compatible. Food-grade corrosion resistant.',
+      keywords: ['oval air punch', 'oval hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'multivac oval punch', 'tiromat oval punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
+    },
   },
   'dili': {
     name: 'Serrated Blades - Vacuum Packaging Saw-Tooth Blade',
     description: 'Serrated (saw-tooth) cutting blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Sheffield steel, ideal for tough materials.',
     features: ['Saw-tooth edge', 'Sheffield steel', 'Ideal for tough materials', 'Anti-slip cutting', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Tough film cutting', 'Food industry', 'Industrial packaging'],
+    seo: {
+      title: 'Serrated Saw-Tooth Blade | Vacuum Packaging Tough Material Blade',
+      description: 'Serrated saw-tooth blades for vacuum packaging. Sheffield steel, Multivac, Tiromat, GEA compatible. Anti-slip cutting for tough materials.',
+      keywords: ['serrated blade', 'saw-tooth blade', 'vacuum packaging serrated', 'thermoform serrated', 'sheffield serrated blade', 'multivac serrated', 'tiromat serrated', 'tough material blade', 'anti-slip blade', 'food industry serrated', 'industrial serrated blade']
+    },
   },
   'st': {
     name: 'Top "Plate" Blades',
@@ -1276,72 +1416,132 @@ export const productsEn: Record<string, ProductTranslation> = {
     description: 'Industrial-grade slitting blade with high carbon content (0.85-1.00% C). Unlike consumer razor blades, manufactured from special steel alloy with controlled atmosphere heat treatment (austenitizing + quenching + tempering) to achieve homogeneous martensitic microstructure. This process ensures the cutting edge is both hard and tough, preventing premature dulling and cracking. Our blades feature an optimum 22° sharpening angle for precision cutting. The reason market blades dull quickly: improper edge angles and inadequate heat treatment.',
     features: ['High carbon content (0.85-1.00%)', 'Martensitic microstructure', 'Optimum 22° edge angle', 'Precision heat treatment process', 'Industrial-grade durability', '3-5x longer life than razor blades'],
     applications: ['Textile cutting', 'Film and foil slitting', 'Paper cutting', 'Plastic slitting', 'Packaging cutting'],
+    seo: {
+      title: '3-Hole Slitting Blade Carbon Steel 43x22mm | Industrial Razor Blade',
+      description: 'High carbon 3-hole slitting blade for BOPP film, textile, and packaging. SK5 steel, 22° edge angle, 3-5x longer life than razor blades. Sheffield quality.',
+      keywords: ['3 hole blade', '3 hole slitting blade', 'carbon steel blade', 'industrial blade', 'industrial blade', 'slitting blade', 'slitting blade', 'three hole blade', '43x22 blade', '43x22mm blade', '43x22x0.10mm', '43x22x0.15mm', '43x22x0.20mm', '43x22x0.30mm', '43x22x0.40mm', 'textile blade', 'film cutting blade', 'paper cutting blade', 'packaging blade', 'high carbon blade', 'SK5 blade', 'industrial blade', 'professional blade', 'long lasting blade', 'sharp blade', 'slitter blade']
+    },
   },
   '3dj-karbon-titanyum': {
     name: '3-Hole Slitting Blade - Carbon Steel + Titanium Coating',
     description: 'High carbon steel body with TiN (Titanium Nitride) coating. PVD (Physical Vapor Deposition) applied titanium nitride coating achieves 2300 HV hardness on the cutting surface. This gold-colored coating reduces friction coefficient by 40%, minimizing heat generation during cutting. Wear resistance increases 2-3x compared to uncoated version while maintaining edge sharpness longer. Superior performance for cutting adhesive tapes, laminations, and heat-sensitive materials.',
     features: ['TiN coating (2300 HV)', 'PVD application method', '40% reduced friction', 'Increased heat resistance', '2-3x longer life', 'Ideal for adhesive materials'],
     applications: ['Adhesive tape cutting', 'Lamination slitting', 'Heat-sensitive film cutting', 'Label cutting', 'Protective film slitting'],
+    seo: {
+      title: '3-Hole Blade TiN Titanium Coating | Gold Industrial Slitting Blade',
+      description: 'TiN titanium coated 3-hole slitting blade, 2300 HV. 40% lower friction for adhesive tape, lamination, and heat-sensitive film cutting.',
+      keywords: ['3 hole blade titanium', '3 hole slitting blade TiN', 'titanium coated blade', 'TiN coating blade', 'PVD coating blade', 'gold blade', 'adhesive tape blade', 'lamination blade', '43x22 titanium blade', 'film slitting blade', 'label cutting blade', 'industrial titanium blade', 'professional coated blade', 'long lasting titanium', 'slitting blade TiN']
+    },
   },
   '3dj-paslanmaz-titanyum': {
     name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating',
     description: 'Stainless steel body with TiN (Titanium Nitride) coating. Stainless steel is preferred because its chromium oxide layer enhances titanium nitride coating adhesion. This metallurgical compatibility minimizes coating delamination risk, maintaining high performance throughout blade life. Coating adhesion is 25-30% stronger than carbon steel. The stainless substrate provides additional corrosion resistance for humid environments, food sector, and corrosive material applications.',
     features: ['Superior coating adhesion', 'Stainless substrate', 'Corrosion resistance', 'Humid environment compatible', 'Food sector safe', 'Long-lasting coating'],
     applications: ['Food packaging cutting', 'Humid environment applications', 'Hygienic cutting requirements', 'Lamination cutting', 'Film slitting'],
+    seo: {
+      title: '3-Hole Blade Stainless + Titanium | FDA Safe Food Industry Blade',
+      description: '3-hole stainless steel + TiN coated blade with superior coating adhesion. Corrosion resistant for food packaging, pharmaceutical, and humid environment applications.',
+      keywords: ['3 hole blade stainless titanium', 'stainless titanium coating blade', 'stainless TiN blade', 'food packaging blade', 'hygienic blade', 'FDA compliant blade', 'corrosion resistant blade', 'humid environment blade', '43x22 stainless TiN', 'food industry blade', 'pharmaceutical blade', 'dual protection blade']
+    },
   },
   '3dj-paslanmaz-titanyum-cizikli': {
     name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, Scored',
     description: 'Stainless steel + TiN coated blade with center score line for splitting. In some textile and packaging applications, half-length blades are used. The precision laser-etched center score line enables controlled splitting into two halves. This allows one blade to be used in two different machines or workstations. Score depth is calibrated to maintain structural integrity; no risk of accidental breakage during normal use.',
     features: ['Center-splittable design', 'Laser score line', 'Half-length usage option', 'Stainless + TiN coating', 'Economical usage', 'Dual machine compatible'],
     applications: ['Half-blade textile machines', 'Narrow cut applications', 'Multi-station systems', 'Packaging machines'],
+    seo: {
+      title: '3-Hole Blade Scored Splittable | Half-Blade Economical Design',
+      description: '3-hole scored blade for splitting into halves. Laser etched center line, stainless + TiN coating. Economical for multi-station systems and textile machines.',
+      keywords: ['3 hole blade scored', 'splittable blade', 'half blade', 'scored slitting blade', 'center score blade', 'economical blade', 'dual station blade', 'textile half blade', 'multi machine blade', 'stainless TiN scored', 'laser scored blade', 'breakable blade']
+    },
   },
   '3dj-karbon-seramik': {
     name: '3-Hole Slitting Blade - Carbon Steel + Ceramic Coating',
     description: 'High carbon steel body with advanced ceramic coating. Titanium-based advanced ceramic coatings, dark gray/black in color, offer higher temperature resistance than standard titanium coating (up to 800°C). Heat generated during high-speed cutting operations does not degrade coating performance. Friction coefficient is significantly lower (50-60% reduction), providing advantage for cutting friction-sensitive materials. Superior oxidation resistance.',
     features: ['Advanced ceramic coating (3200+ HV)', '800°C temperature resistance', '50-60% friction reduction', 'High-speed compatible', 'Oxidation resistance', 'Superior performance'],
     applications: ['High-speed slitting', 'Heat-sensitive materials', 'Friction-critical applications', 'Extended cutting operations', 'Abrasive material cutting'],
+    seo: {
+      title: '3-Hole Blade Ceramic Coating 3200 HV | High-Speed Heat Resistant',
+      description: '3-hole ceramic coated blade, 3200+ HV, 800°C resistance. 50-60% lower friction for high-speed slitting and abrasive material cutting.',
+      keywords: ['3 hole blade ceramic', 'ceramic coated blade', 'high temperature blade', '800 degree blade', 'high speed blade', 'abrasive material blade', 'low friction blade', '3200 HV blade', 'oxidation resistant blade', 'heat resistant blade', 'industrial ceramic blade', 'advanced coating blade']
+    },
   },
   '3dj-yekpare-tungsten': {
     name: '3-Hole Slitting Blade - Solid Tungsten Carbide',
     description: 'Solid tungsten carbide (WC-Co) alloy blade. Tungsten carbide particles are homogeneously distributed in cobalt matrix; this structure provides both extreme hardness and impact resistance. Hardness value HRA 89-92 (approximately HRC 72-76 equivalent) far exceeds steel blades. Offers 10-50x longer life than steel blades when cutting abrasive materials. Disadvantage: High brittleness requires careful handling—sensitive to impact and bending. Proper mounting and usage is critical.',
     features: ['Solid tungsten carbide', 'HRA 89-92 extreme hardness', '10-50x longer life', 'Abrasive material resistance', 'Fine grain structure', 'Premium grade'],
     applications: ['Abrasive material cutting', 'Fiberglass cutting', 'Carbon fiber slitting', 'Sandpaper cutting', 'Ceramic-coated materials'],
+    seo: {
+      title: '3-Hole Blade Tungsten Carbide | HRA 89-92 Ultra-Hard Blade',
+      description: 'Solid tungsten carbide 3-hole blade, HRA 89-92, 10-50x longer life. For abrasive materials, fiberglass, carbon fiber, and sandpaper cutting.',
+      keywords: ['3 hole blade tungsten', 'tungsten carbide blade', 'solid carbide blade', 'WC blade', 'HRA 92 blade', 'ultra hard blade', 'abrasive material blade', 'fiberglass blade', 'carbon fiber blade', 'sandpaper blade', 'ceramic paper blade', 'monolithic carbide blade', 'premium tungsten blade']
+    },
   },
   '3dj-yekpare-seramik': {
     name: '3-Hole Slitting Blade - Solid Ceramic',
     description: 'Solid advanced ceramic material (Zirconium Oxide based) blade. This gray ceramic structure, being non-metallic, offers near-zero friction coefficient. Heat generation during cutting is minimal, eliminating deformation risk in heat-sensitive materials. Hardness value HV 1200-1400 far exceeds steel blades. Chemically inert structure allows safe use with reactive materials. Critical disadvantage: Extremely brittle—absolutely no tolerance for impact or bending.',
     features: ['Solid ceramic structure', 'Near-zero friction', 'Minimal heat generation', 'Chemically inert', 'HV 1200-1400 hardness', 'No metal contamination'],
     applications: ['Extremely heat-sensitive films', 'Food sector (metal detector compatible)', 'Reactive chemical materials', 'Clean room applications', 'Electronic component cutting'],
+    seo: {
+      title: '3-Hole Blade Zirconia Ceramic | Metal-Free Food Industry Blade',
+      description: 'Solid zirconia ceramic 3-hole blade, HV 1200-1400, metal-free. Near-zero friction for food industry, cleanroom, and electronic component cutting.',
+      keywords: ['3 hole blade ceramic', 'zirconia blade', 'solid ceramic blade', 'metal-free blade', 'food industry blade', 'cleanroom blade', 'electronic blade', 'chemical inert blade', 'heat sensitive blade', 'zero friction blade', 'non-conductive blade', 'biocompatible blade']
+    },
   },
   '3dj-karbon-yuvarlak-kenar': {
     name: '3-Hole Slitting Blade - Carbon Steel, Round Edge',
     description: 'High carbon steel industrial blade with round edge profile similar to razor blades. Ergonomic design compatible with operators who have used razor blades for slitting operations for years. While featuring the round edge profile of razor blades, industrial-grade high carbon steel and optimized heat treatment provide much longer life than consumer razor blades. Ideal entry product for businesses transitioning to industrial blades.',
     features: ['Razor blade form factor', 'Round edge profile', 'Industrial-grade durability', 'Ideal for transition users', 'Ergonomic design', 'High carbon steel'],
     applications: ['Businesses transitioning from razor blades', 'Textile cutting', 'Film slitting', 'General purpose slitting'],
+    seo: {
+      title: '3-Hole Blade Round Edge | Razor Blade Form Industrial Grade',
+      description: '3-hole round edge blade for operators transitioning from razor blades. Industrial-grade carbon steel, ergonomic razor blade form, longer life.',
+      keywords: ['3 hole blade round edge', 'round edge blade', 'razor form blade', 'transition blade', 'ergonomic blade', 'textile blade', 'film slitting blade', 'industrial razor blade', 'carbon steel round', 'user friendly blade']
+    },
   },
   '3dj-paslanmaz-titanyum-yuvarlak': {
     name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, Round Edge',
     description: 'Stainless steel + TiN coated blade with razor blade-style round edge. Maintains familiar razor blade ergonomics while delivering superior performance of stainless steel substrate and titanium nitride coating. Corrosion resistance in humid environments, low friction from TiN coating, and ergonomic advantage of round edge—all in one product. Premium choice for businesses wanting to transition from razor blades to professional industrial blades.',
     features: ['Round edge + TiN coating', 'Stainless substrate', 'Corrosion resistance', 'Low friction', 'Razor blade ergonomics', 'Premium combination'],
     applications: ['Humid environment applications', 'Food sector transition users', 'Adhesive material cutting', 'Ergonomics-priority operations'],
+    seo: {
+      title: '3-Hole Blade Round Edge Stainless TiN | Premium Ergonomic Blade',
+      description: '3-hole round edge blade with stainless + TiN coating. Premium ergonomic design for food sector, humid environments, and adhesive material cutting.',
+      keywords: ['3 hole blade round edge TiN', 'round edge stainless blade', 'ergonomic TiN blade', 'food sector blade', 'humid environment blade', 'premium round edge', 'transition blade', 'corrosion resistant round', 'low friction round blade']
+    },
   },
   '3dj-karbon-seramik-yuvarlak': {
     name: '3-Hole Slitting Blade - Carbon Steel + Ceramic Coating, Round Edge',
     description: 'Carbon steel + ceramic coated blade with razor blade-style round edge. Combines high temperature resistance (800°C) and low friction properties of ceramic coating with ergonomic advantage of round edge. Designed for operators working with heat-sensitive materials at high speed who are accustomed to razor blade form. Dark gray/black ceramic coating provides wear and oxidation resistance.',
     features: ['Round edge + ceramic coating', '800°C temperature resistance', 'Low friction', 'Razor blade ergonomics', 'Oxidation resistance', 'High-speed compatible'],
     applications: ['High-speed ergonomic cutting', 'Heat-sensitive materials', 'Premium segment transition users'],
+    seo: {
+      title: '3-Hole Blade Round Edge Ceramic | High-Speed Ergonomic Blade',
+      description: '3-hole round edge ceramic coated blade, 800°C resistance. Ergonomic design for high-speed cutting of heat-sensitive materials.',
+      keywords: ['3 hole blade round edge ceramic', 'round edge ceramic blade', 'ergonomic ceramic blade', 'high speed ergonomic blade', 'heat resistant round blade', 'premium ceramic round', 'transition user blade', '800 degree round blade']
+    },
   },
   '3dj-paslanmaz-titanyum-60x22': {
     name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, 60x22',
     description: '60x22mm large format, stainless steel + TiN coated blade. Offers longer cutting line than standard 43x22mm size. Preferred for cutting wide webs, multiple band slitting operations, and high-capacity machines. Corrosion resistance of stainless steel and low friction advantage of TiN coating maintained in large format. Means longer blade life and fewer blade changes.',
     features: ['60x22mm large format', 'Extended cutting line', 'Stainless + TiN coating', 'For high-capacity machines', 'Fewer blade changes', 'Wide web compatible'],
     applications: ['Wide web slitting', 'Multiple band operations', 'High-capacity slitting machines', 'Industrial-scale production'],
+    seo: {
+      title: '3-Hole Blade 60x22mm Large Format | Wide Web Slitting Blade',
+      description: '60x22mm large format 3-hole blade with stainless + TiN coating. Extended cutting line for wide web slitting and high-capacity machines.',
+      keywords: ['3 hole blade 60x22', 'large format blade', '60x22 blade', 'wide web blade', 'high capacity blade', 'extended cutting blade', 'stainless TiN 60x22', 'industrial scale blade', 'multiple band blade', 'large slitting blade']
+    },
   },
   '3dj-paslanmaz-titanyum-cizikli-60x22': {
     name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, Scored, 60x22',
     description: '60x22mm large format, stainless steel + TiN coated, center-splittable scored blade. Combines large format advantages with scored design flexibility. When 60mm blade is split at center, two 30mm half blades are obtained. These halves can be used in different stations or machines requiring narrow cuts. Provides advantage for economical usage and inventory management.',
     features: ['60x22mm large format', 'Center-splittable', '2x 30mm half blade option', 'Stainless + TiN coating', 'Flexible usage', 'Economical inventory management'],
     applications: ['Multi-machine systems', 'Different workstations', 'Economy-focused operations', 'Flexible production lines'],
+    seo: {
+      title: '3-Hole Blade 60x22mm Scored | Splittable Large Format Blade',
+      description: '60x22mm scored 3-hole blade, splittable to 2x 30mm halves. Stainless + TiN coating for multi-machine systems and economical inventory management.',
+      keywords: ['3 hole blade 60x22 scored', 'large format scored blade', '60x22 splittable blade', 'half blade system', 'economical blade', 'multi station blade', 'flexible production blade', 'inventory management blade', '30mm half blade', 'stainless TiN scored 60x22']
+    },
   },
 };
 

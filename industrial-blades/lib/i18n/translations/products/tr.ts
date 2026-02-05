@@ -15,6 +15,11 @@ export interface ProductTranslation {
   shortDescription?: string;
   features?: string[];
   applications?: string[];
+  seo?: {
+    title?: string;
+    description?: string;
+    keywords?: string[];
+  };
 }
 
 export const productsTr: Record<string, ProductTranslation> = {

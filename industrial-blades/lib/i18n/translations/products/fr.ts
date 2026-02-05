@@ -48,6 +48,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Durée de vie 3-5x supérieure aux lames de rasoir'
     ],
     applications: ['Découpe textile', 'Refendage de films et feuilles', 'Découpe de papier', 'Refendage de plastique', 'Découpe d\'emballage'],
+    seo: {
+      title: 'Lame Refendage à Fente Acier Carbone | Lame Industrielle 43x22mm',
+      description: 'Lame de refendage à fente en acier carbone pour film BOPP, emballage flexible et découpe industrielle. Acier SK5, angle 22°, durée de vie 3-5x supérieure. Qualité Sheffield.',
+      keywords: ['lame à fente', 'lame refendage', 'lame acier carbone', 'lame industrielle', 'lame rasoir industriel', 'lame 43x22', 'lame textile', 'lame film', 'lame papier', 'lame emballage', 'lame SK5', 'lame professionnelle', 'lame longue durée', 'lame slitter', 'lame BOPP', 'lame emballage flexible', 'lame convertisseur']
+    },
   },
   'slotted-karbon-titanyum': {
     name: 'Lame de Refendage à Fente - Acier Carbone + Revêtement Titane',
@@ -61,6 +66,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Idéal pour matériaux sensibles à la chaleur'
     ],
     applications: ['Découpe de ruban adhésif', 'Refendage de lamination', 'Découpe de film sensible à la chaleur', 'Refendage de feuille de précision', 'Découpe d\'étiquettes'],
+    seo: {
+      title: 'Lame à Fente Revêtement Titane TiN | Lame Dorée 2300 HV',
+      description: 'Lame de refendage à fente avec revêtement titane TiN, dureté 2300 HV. 40% moins de friction, idéale pour ruban adhésif, lamination et films sensibles à la chaleur.',
+      keywords: ['lame titane', 'lame revêtement TiN', 'lame dorée', 'lame ruban adhésif', 'lame lamination', 'lame PVD', 'lame faible friction', 'lame film', 'lame étiquettes', 'lame industrielle titane', 'lame professionnelle revêtue']
+    },
   },
   'slotted-karbon-seramik': {
     name: 'Lame de Refendage à Fente - Acier Carbone + Revêtement Céramique',
@@ -74,6 +84,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Durée de vie prolongée de 5-7x'
     ],
     applications: ['Découpe de papier abrasif', 'Refendage de composite en fibre de verre', 'Découpe de fibre de carbone', 'Refendage de papier de verre', 'Découpe de textile technique'],
+    seo: {
+      title: 'Lame à Fente Revêtement Céramique | Dureté 3200 HV Ultra-Résistante',
+      description: 'Lame de refendage à fente avec revêtement céramique multicouche, dureté 3200 HV. Idéale pour matériaux abrasifs, fibre de verre, carbone et papier abrasif. Durée de vie 5-7x supérieure.',
+      keywords: ['lame céramique', 'lame revêtement céramique', 'lame abrasif', 'lame fibre de verre', 'lame fibre de carbone', 'lame industrielle céramique', 'lame haute dureté', 'lame 3200 HV', 'lame composite', 'lame résistante usure', 'lame refendage céramique']
+    },
   },
   'slotted-paslanmaz': {
     name: 'Lame de Refendage à Fente - Acier Inoxydable',
@@ -87,6 +102,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Adapté aux environnements humides'
     ],
     applications: ['Découpe d\'emballage alimentaire', 'Applications en environnement humide', 'Lignes de production hygiéniques', 'Emballage pharmaceutique', 'Découpe d\'emballage médical'],
+    seo: {
+      title: 'Lame à Fente Acier Inoxydable AISI 420 | Lame FDA Hygiénique',
+      description: 'Lame de refendage à fente en acier inoxydable AISI 420, approuvée FDA. Résistante à la corrosion, idéale pour industrie alimentaire, pharmaceutique et environnements humides.',
+      keywords: ['lame inoxydable', 'lame acier inoxydable', 'lame FDA', 'lame alimentaire', 'lame hygiénique', 'lame AISI 420', 'lame anti-corrosion', 'lame pharmaceutique', 'lame médicale', 'lame humide', 'lame industrie alimentaire']
+    },
   },
   'slotted-paslanmaz-titanyum': {
     name: 'Lame de Refendage à Fente - Acier Inoxydable + Revêtement Titane',
@@ -100,6 +120,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Idéal pour environnements exigeants'
     ],
     applications: ['Découpe de lamination alimentaire', 'Refendage d\'emballage blister pharmaceutique', 'Découpe de ruban adhésif humide', 'Production d\'emballage stérile', 'Refendage de feuille médicale'],
+    seo: {
+      title: 'Lame Inoxydable + Titane TiN | Double Protection Corrosion et Usure',
+      description: 'Lame de refendage à fente inoxydable avec revêtement titane TiN, dureté 2300 HV. Double protection corrosion et usure pour lamination alimentaire, blister pharmaceutique et emballage stérile.',
+      keywords: ['lame inoxydable titane', 'lame double protection', 'lame TiN inoxydable', 'lame blister', 'lame lamination', 'lame stérile', 'lame hygiénique durable', 'lame dorée inoxydable', 'lame pharmaceutique', 'lame emballage médical']
+    },
   },
   'slotted-paslanmaz-xcd': {
     name: 'Lame de Refendage à Fente - Acier Inoxydable + Revêtement XCD',
@@ -113,6 +138,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Pour applications les plus exigeantes'
     ],
     applications: ['Découpe de ruban ultra-adhésif', 'Refendage de matériau revêtu silicone', 'Découpe d\'étiquette adhésive', 'Refendage de tissu imprégné résine', 'Rubans adhésifs médicaux'],
+    seo: {
+      title: 'Lame Inoxydable + XCD Carbone Diamant | 5000 HV Ultra Anti-Adhésif',
+      description: 'Lame de refendage à fente inoxydable avec revêtement XCD carbone diamant, dureté 5000 HV. Coefficient friction <0,1, idéale pour ruban ultra-adhésif, silicone et étiquettes.',
+      keywords: ['lame XCD', 'lame carbone diamant', 'lame DLC', 'lame anti-adhésif', 'lame 5000 HV', 'lame diamant noir', 'lame ruban adhésif', 'lame silicone', 'lame étiquettes', 'lame ultra-résistante', 'lame faible friction']
+    },
   },
   'slotted-endurium-seramik': {
     name: 'Lame de Refendage à Fente - Acier Endurium + Revêtement Céramique',
@@ -126,6 +156,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Lame à fente longue durée maximale'
     ],
     applications: ['Opérations de refendage haute vitesse', 'Applications de coupe interrompue', 'Refendage de feuille métallique', 'Découpe de matériau composite', 'Lignes de production 24/7'],
+    seo: {
+      title: 'Lame Endurium HSS + Céramique | Résistance 600°C Haute Vitesse',
+      description: 'Lame de refendage à fente Endurium HSS avec revêtement céramique 3500 HV. Résiste à 600°C, idéale pour refendage haute vitesse, feuille métallique et production 24/7.',
+      keywords: ['lame Endurium', 'lame HSS', 'lame acier rapide', 'lame haute température', 'lame 600°C', 'lame haute vitesse', 'lame céramique HSS', 'lame feuille métallique', 'lame production continue', 'lame industrielle premium']
+    },
   },
   'slotted-yekpare-tungsten': {
     name: 'Lame de Refendage à Fente - Carbure de Tungstène Massif',
@@ -139,6 +174,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Pour matériaux extrêmement abrasifs'
     ],
     applications: ['Découpe de papier revêtu céramique', 'Refendage de feuille métallique', 'Découpe de composite abrasif', 'Refendage de film nanotube carbone', 'Découpe de matériau électrode batterie'],
+    seo: {
+      title: 'Lame Carbure de Tungstène Massif | HRA 92-94 Durée de Vie 50x',
+      description: 'Lame de refendage à fente en carbure de tungstène massif WC-Co, dureté HRA 92-94. Durée de vie 20-50x supérieure à l\'acier pour matériaux ultra-abrasifs et électrodes batterie.',
+      keywords: ['lame tungstène', 'lame carbure tungstène', 'lame WC-Co', 'lame HRA 92', 'lame ultra-dure', 'lame longue durée', 'lame abrasif extrême', 'lame feuille métallique', 'lame batterie', 'lame monolithique', 'lame métallurgie poudres']
+    },
   },
   'slotted-yekpare-seramik': {
     name: 'Lame de Refendage à Fente - Céramique Massif (Zircone)',
@@ -152,6 +192,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Lame la plus propre'
     ],
     applications: ['Découpe d\'emballage alimentaire', 'Refendage d\'implant médical', 'Découpe de film électronique', 'Applications salles blanches', 'Production pharmaceutique sans métal'],
+    seo: {
+      title: 'Lame Céramique Zircone Massive | Biocompatible Sans Métal',
+      description: 'Lame de refendage à fente en céramique zircone ZrO2 massive, biocompatible et sans métal. Isolant électrique, résistance chimique totale pour salles blanches, alimentaire et médical.',
+      keywords: ['lame zircone', 'lame céramique massive', 'lame ZrO2', 'lame biocompatible', 'lame sans métal', 'lame salle blanche', 'lame alimentaire', 'lame médicale', 'lame isolante', 'lame anti-contamination', 'lame pharmaceutique']
+    },
   },
 
   // =============================================================================
@@ -175,6 +220,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Excellent rapport qualité-prix'
     ],
     applications: ['Refendage de film plastique', 'Découpe de papier', 'Découpe textile', 'Refendage d\'emballage', 'Découpe de ruban adhésif'],
+    seo: {
+      title: 'Lame Injecteur Acier Carbone 38x8mm | HRC 58-60 Double Fente',
+      description: 'Lame injecteur 38x8mm en acier carbone haute teneur (0,85-1,00% C), dureté HRC 58-60. Système double fente pour montage stable. Excellent rapport qualité-prix.',
+      keywords: ['lame injecteur', 'lame 38x8', 'lame acier carbone', 'lame refendage', 'lame double fente', 'lame HRC 58-60', 'lame industrielle', 'lame film plastique', 'lame papier', 'lame textile']
+    },
   },
   'injektor-paslanmaz': {
     name: 'Lame Injecteur - Acier Inoxydable, 2 Fentes',
@@ -188,6 +238,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Adapté aux environnements humides'
     ],
     applications: ['Découpe d\'emballage alimentaire', 'Applications en environnement humide', 'Production pharmaceutique', 'Lignes de production hygiéniques', 'Emballage médical'],
+    seo: {
+      title: 'Lame Injecteur Acier Inoxydable 38x8mm | AISI 420 FDA Hygiénique',
+      description: 'Lame injecteur 38x8mm en acier inoxydable AISI 420, approuvée FDA. Résistante à la corrosion, idéale pour industrie alimentaire, pharmaceutique et environnements humides.',
+      keywords: ['lame injecteur inoxydable', 'lame 38x8', 'lame AISI 420', 'lame FDA', 'lame alimentaire', 'lame hygiénique', 'lame pharmaceutique', 'lame médicale', 'lame anti-corrosion', 'lame double fente']
+    },
   },
   'injektor-paslanmaz-ptfe': {
     name: 'Lame Injecteur - Acier Inoxydable + Revêtement PTFE, 2 Fentes',
@@ -201,6 +256,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Qualité de coupe constante'
     ],
     applications: ['Découpe de ruban adhésif', 'Refendage d\'étiquettes autocollantes', 'Découpe de film avec adhésif', 'Matériaux revêtus silicone', 'Production d\'autocollants'],
+    seo: {
+      title: 'Lame Injecteur PTFE Anti-Adhésif 38x8mm | Friction <0,04',
+      description: 'Lame injecteur 38x8mm inoxydable avec revêtement PTFE anti-adhésif, coefficient friction <0,04. Idéale pour ruban adhésif, étiquettes autocollantes et silicone.',
+      keywords: ['lame injecteur PTFE', 'lame 38x8', 'lame anti-adhésif', 'lame ruban adhésif', 'lame étiquettes', 'lame silicone', 'lame faible friction', 'lame autocollants', 'lame inoxydable PTFE', 'lame refendage précision']
+    },
   },
   'injektor-paslanmaz-seramik': {
     name: 'Lame Injecteur - Acier Inoxydable + Revêtement Céramique, 2 Fentes',
@@ -214,6 +274,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Durée de vie prolongée de 5-7x'
     ],
     applications: ['Découpe de papier abrasif', 'Refendage de fibre de verre', 'Découpe de composite', 'Matériaux techniques abrasifs', 'Applications industrielles exigeantes'],
+    seo: {
+      title: 'Lame Injecteur Céramique 38x8mm | 3200 HV Double Protection',
+      description: 'Lame injecteur 38x8mm inoxydable avec revêtement céramique multicouche, dureté 3200 HV. Double protection corrosion et usure. Durée de vie 5-7x supérieure.',
+      keywords: ['lame injecteur céramique', 'lame 38x8', 'lame 3200 HV', 'lame fibre de verre', 'lame composite', 'lame abrasif', 'lame haute dureté', 'lame longue durée', 'lame industrielle', 'lame refendage précision']
+    },
   },
   'injektor-paslanmaz-titanyum': {
     name: 'Lame Injecteur - Acier Inoxydable + Revêtement Titane, 2 Fentes',
@@ -227,6 +292,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Protection des matériaux thermosensibles'
     ],
     applications: ['Découpe de lamination alimentaire', 'Refendage d\'emballage blister', 'Découpe de film sensible à la chaleur', 'Applications pharmaceutiques', 'Emballage médical stérile'],
+    seo: {
+      title: 'Lame Injecteur Titane TiN 38x8mm | 2300 HV Dorée Hygiénique',
+      description: 'Lame injecteur 38x8mm inoxydable avec revêtement titane TiN, dureté 2300 HV. 40% moins de friction, idéale pour lamination alimentaire, blister et emballage stérile.',
+      keywords: ['lame injecteur titane', 'lame 38x8', 'lame TiN', 'lame dorée', 'lame 2300 HV', 'lame blister', 'lame lamination', 'lame pharmaceutique', 'lame stérile', 'lame faible friction']
+    },
   },
   'injektor-paslanmaz-titanyum-2-kanalli': {
     name: 'Lame Injecteur - Acier Inoxydable + Revêtement Titane, 2 Fentes Rainurées',
@@ -240,6 +310,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Précision professionnelle'
     ],
     applications: ['Refendage haute vitesse', 'Applications haute précision', 'Lignes de production automatisées', 'Découpe de film mince', 'Refendage de feuille de précision'],
+    seo: {
+      title: 'Lame Injecteur Titane Rainurée 38x8mm | Anti-Vibration Haute Vitesse',
+      description: 'Lame injecteur 38x8mm titane avec fentes rainurées anti-glissement. Ancrage mécanique supérieur, 2300 HV. Idéale pour refendage haute vitesse et précision.',
+      keywords: ['lame injecteur rainurée', 'lame 38x8', 'lame titane cannelée', 'lame haute vitesse', 'lame anti-vibration', 'lame précision', 'lame automatisée', 'lame film mince', 'lame TiN', 'lame refendage professionnel']
+    },
   },
   'injektor-paslanmaz-xcd': {
     name: 'Lame Injecteur - Acier Inoxydable + Revêtement XCD, 2 Fentes',
@@ -253,6 +328,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Pour applications ultra-exigeantes'
     ],
     applications: ['Découpe de ruban ultra-adhésif', 'Refendage de silicone', 'Découpe d\'étiquettes adhésives', 'Tissus imprégnés de résine', 'Rubans adhésifs médicaux'],
+    seo: {
+      title: 'Lame Injecteur XCD Carbone Diamant 38x8mm | 5000 HV Anti-Adhésif',
+      description: 'Lame injecteur 38x8mm avec revêtement XCD carbone diamant, dureté 5000 HV, friction <0,1. Propriétés anti-adhésives ultimes pour silicone et rubans adhésifs.',
+      keywords: ['lame injecteur XCD', 'lame 38x8', 'lame carbone diamant', 'lame DLC', 'lame 5000 HV', 'lame anti-adhésif', 'lame diamant noir', 'lame silicone', 'lame adhésif médical', 'lame ultra-résistante']
+    },
   },
   'injektor-yekpare-tungsten': {
     name: 'Lame Injecteur - Carbure de Tungstène Massif, Sans Fente',
@@ -266,6 +346,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Pour matériaux extrêmement abrasifs'
     ],
     applications: ['Découpe de papier revêtu céramique', 'Refendage de feuille métallique', 'Découpe de composite abrasif', 'Film nanotube de carbone', 'Matériau électrode de batterie'],
+    seo: {
+      title: 'Lame Injecteur Carbure Tungstène 38x8mm | HRA 92-94 Massif',
+      description: 'Lame injecteur 38x8mm en carbure de tungstène massif WC-Co, dureté HRA 92-94. Durée de vie 20-50x supérieure pour matériaux ultra-abrasifs et électrodes batterie.',
+      keywords: ['lame injecteur tungstène', 'lame 38x8', 'lame carbure tungstène', 'lame WC-Co', 'lame HRA 92', 'lame ultra-dure', 'lame monolithique', 'lame batterie', 'lame feuille métallique', 'lame longue durée extrême']
+    },
   },
   'injektor-yekpare-seramik-030': {
     name: 'Lame Injecteur - Céramique Massif (Zircone), Sans Fente - 0,30mm',
@@ -279,6 +364,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Résistance chimique totale'
     ],
     applications: ['Découpe d\'emballage alimentaire de précision', 'Applications médicales', 'Découpe de film électronique', 'Salles blanches', 'Production pharmaceutique haute pureté'],
+    seo: {
+      title: 'Lame Injecteur Céramique Zircone 38x8x0,30mm | Biocompatible Sans Métal',
+      description: 'Lame injecteur 38x8mm céramique zircone 0,30mm ultra-mince, biocompatible et sans métal. Isolation électrique, résistance chimique pour salles blanches et médical.',
+      keywords: ['lame injecteur céramique', 'lame 38x8', 'lame zircone', 'lame 0,30mm', 'lame biocompatible', 'lame sans métal', 'lame salle blanche', 'lame médicale', 'lame isolante', 'lame pharmaceutique précision']
+    },
   },
   'injektor-yekpare-seramik-064': {
     name: 'Lame Injecteur - Céramique Massif (Zircone), Sans Fente - 0,64mm',
@@ -292,6 +382,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Usage industriel intensif'
     ],
     applications: ['Découpe alimentaire industrielle', 'Applications médicales robustes', 'Découpe de film épais', 'Production pharmaceutique', 'Environnements industriels exigeants'],
+    seo: {
+      title: 'Lame Injecteur Céramique Zircone 38x8x0,64mm | Robuste Sans Métal',
+      description: 'Lame injecteur 38x8mm céramique zircone 0,64mm robuste, sans métal et biocompatible. Rigidité supérieure pour usage industriel intensif, alimentaire et médical.',
+      keywords: ['lame injecteur céramique', 'lame 38x8', 'lame zircone robuste', 'lame 0,64mm', 'lame industrielle céramique', 'lame sans métal', 'lame alimentaire', 'lame médicale robuste', 'lame isolante', 'lame usage intensif']
+    },
   },
   'injektor-endurium-seramik': {
     name: 'Lame Injecteur - Acier Endurium + Revêtement Céramique',
@@ -305,6 +400,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Durée de vie maximale'
     ],
     applications: ['Opérations de refendage haute vitesse', 'Coupe interrompue', 'Refendage de feuille métallique', 'Découpe de composite technique', 'Production industrielle 24/7'],
+    seo: {
+      title: 'Lame Injecteur Endurium HSS Céramique 38x8mm | 600°C Haute Vitesse',
+      description: 'Lame injecteur 38x8mm Endurium HSS avec revêtement céramique 3500 HV. Résiste à 600°C, idéale pour refendage haute vitesse, feuille métallique et production 24/7.',
+      keywords: ['lame injecteur Endurium', 'lame 38x8', 'lame HSS céramique', 'lame acier rapide', 'lame 600°C', 'lame haute vitesse', 'lame 3500 HV', 'lame feuille métallique', 'lame production continue', 'lame industrielle premium']
+    },
   },
 
   // =============================================================================
@@ -1662,6 +1762,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Option revêtement titane'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Industrie alimentaire', 'Emballage viande et fromage'],
+    seo: {
+      title: 'Lame Contour Thermoformage | Multivac Tiromat Compatible',
+      description: 'Lame contour professionnelle pour machines thermoformage et emballage sous vide. Compatible Multivac, Tiromat, Opack, GEA, Ulma. Acier Sheffield qualité alimentaire.',
+      keywords: ['lame contour', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'lame emballage viande']
+    },
   },
   'yarim': {
     name: 'Poinçon Demi-Étoile – Emballage Sous Vide',
@@ -1675,6 +1780,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible industrie alimentaire'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Poinçonnage alimentaire'],
+    seo: {
+      title: 'Poinçon Demi-Étoile Thermoformage | Multivac Tiromat Compatible',
+      description: 'Poinçon demi-étoile professionnel pour emballage sous vide et thermoformage. Acier D2 haute résistance, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
+      keywords: ['poinçon demi-étoile', 'poinçon thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'acier D2']
+    },
   },
   'tam': {
     name: 'Poinçon Étoile Complète – Emballage Sous Vide',
@@ -1688,6 +1798,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible industrie alimentaire'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Poinçonnage industriel'],
+    seo: {
+      title: 'Poinçon Étoile Complète Thermoformage | Multivac Tiromat Compatible',
+      description: 'Poinçon étoile complète professionnel pour emballage sous vide et thermoformage. Acier D2 qualité Sheffield, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
+      keywords: ['poinçon étoile', 'poinçon thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'poinçon industriel']
+    },
   },
   'dz-biaklar': {
     name: 'Lames Droites (Lama) – Emballage Sous Vide',
@@ -1701,6 +1816,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible industrie alimentaire'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Découpe de film', 'Scellage'],
+    seo: {
+      title: 'Lame Droite Thermoformage | Multivac Tiromat Compatible',
+      description: 'Lame droite professionnelle pour machines thermoformage et emballage sous vide. Acier HSS haute vitesse, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
+      keywords: ['lame droite', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'acier HSS']
+    },
   },
   'dairesel': {
     name: 'Lames Circulaires – Emballage Sous Vide',
@@ -1714,6 +1834,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible industrie alimentaire'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Découpe rotative'],
+    seo: {
+      title: 'Lame Circulaire Rotative Thermoformage | Multivac Tiromat Compatible',
+      description: 'Lame circulaire rotative pour machines thermoformage et emballage sous vide. Acier Sheffield qualité, compatible Multivac, Tiromat, Opack, GEA, Ulma, Variovac.',
+      keywords: ['lame circulaire', 'lame rotative', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire']
+    },
   },
   'yuvarlak': {
     name: 'Poinçon Rond d\'Aération – Emballage Sous Vide',
@@ -1727,6 +1852,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible industrie alimentaire'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Trous d\'aération'],
+    seo: {
+      title: 'Poinçon à Air Rond Thermoformage | Multivac Tiromat Compatible',
+      description: 'Poinçon rond pour trous d\'aération emballage sous vide et thermoformage. Acier inoxydable 440C, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
+      keywords: ['poinçon à air', 'poinçon rond', 'poinçon thermoformage', 'trou aération', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'inoxydable 440C']
+    },
   },
   'oval': {
     name: 'Poinçon Ovale d\'Aération – Emballage Sous Vide',
@@ -1740,6 +1870,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible industrie alimentaire'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Trous d\'aération ovales'],
+    seo: {
+      title: 'Poinçon à Air Ovale Thermoformage | Multivac Tiromat Compatible',
+      description: 'Poinçon ovale pour trous d\'aération emballage sous vide et thermoformage. Acier inoxydable 440C, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
+      keywords: ['poinçon à air', 'poinçon ovale', 'poinçon thermoformage', 'trou aération', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'inoxydable 440C']
+    },
   },
   'dili': {
     name: 'Lames Dentées – Emballage Sous Vide',
@@ -1753,6 +1888,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible industrie alimentaire'
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Découpe de films rigides'],
+    seo: {
+      title: 'Lame Dentelée Thermoformage | Multivac Tiromat Compatible',
+      description: 'Lame dentelée professionnelle pour machines thermoformage et emballage sous vide. Acier Sheffield, idéale films rigides, compatible Multivac, Tiromat, Opack, GEA.',
+      keywords: ['lame dentelée', 'lame dentée', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'films rigides']
+    },
   },
   'vent-cutter': {
     name: 'Vent Cutter – Lame de Découpe à Ailettes',
@@ -1887,6 +2027,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Système de fixation 3 trous'
     ],
     applications: ['Découpe textile', 'Refendage de films', 'Découpe de papier', 'Refendage plastique', 'Emballage'],
+    seo: {
+      title: 'Lame 3 Trous Acier Carbone 43x22mm | Refendage Industriel HRC 58-60',
+      description: 'Lame de refendage 3 trous en acier carbone haute teneur (0,85-1,00% C), dureté HRC 58-60. Angle 22°, durée de vie 3-5x supérieure. Pour textile, film et papier.',
+      keywords: ['lame 3 trous', 'lame refendage', 'lame acier carbone', 'lame 43x22', 'lame industrielle', 'lame textile', 'lame film', 'lame papier', 'lame emballage', 'lame slitter']
+    },
   },
   '3dj-karbon-titanyum': {
     name: 'Lame de Refendage 3 Trous – Acier Carbone + Revêtement Titane',
@@ -1900,6 +2045,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Idéal matériaux adhésifs'
     ],
     applications: ['Découpe ruban adhésif', 'Refendage lamination', 'Films thermosensibles', 'Découpe étiquettes'],
+    seo: {
+      title: 'Lame 3 Trous Revêtement Titane TiN 43x22mm | 2300 HV Faible Friction',
+      description: 'Lame de refendage 3 trous avec revêtement titane TiN PVD, dureté 2300 HV. 40% moins de friction, durée de vie 2-3x. Idéale pour ruban adhésif et lamination.',
+      keywords: ['lame 3 trous titane', 'lame TiN', 'lame dorée', 'lame 43x22', 'lame 2300 HV', 'lame faible friction', 'lame ruban adhésif', 'lame lamination', 'lame PVD', 'lame refendage']
+    },
   },
   '3dj-paslanmaz-titanyum': {
     name: 'Lame de Refendage 3 Trous – Acier Inoxydable + Revêtement Titane',
@@ -1913,6 +2063,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Revêtement longue durée'
     ],
     applications: ['Emballage alimentaire', 'Environnements humides', 'Découpe hygiénique', 'Lamination', 'Refendage de films'],
+    seo: {
+      title: 'Lame 3 Trous Inoxydable + Titane 43x22mm | Double Protection Corrosion',
+      description: 'Lame de refendage 3 trous inoxydable avec revêtement titane TiN. Adhérence supérieure 25-30%, résistance corrosion. Pour emballage alimentaire et environnements humides.',
+      keywords: ['lame 3 trous inoxydable', 'lame titane inox', 'lame 43x22', 'lame anti-corrosion', 'lame alimentaire', 'lame hygiénique', 'lame TiN inoxydable', 'lame refendage', 'lame double protection']
+    },
   },
   '3dj-paslanmaz-titanyum-cizikli': {
     name: 'Lame de Refendage 3 Trous – Inox + Titane, Rainurée',
@@ -1926,6 +2081,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible double machine'
     ],
     applications: ['Machines textiles demi-lame', 'Découpe étroite', 'Systèmes multi-stations', 'Machines d\'emballage'],
+    seo: {
+      title: 'Lame 3 Trous Inox + Titane Incisée 43x22mm | Sécable en Demi-Lame',
+      description: 'Lame de refendage 3 trous inoxydable + TiN avec ligne de rupture laser. Divisible en deux demi-lames 21,5mm. Usage flexible et économique pour multi-stations.',
+      keywords: ['lame 3 trous incisée', 'lame sécable', 'lame divisible', 'lame 43x22', 'lame demi-lame', 'lame inox titane', 'lame textile', 'lame multi-stations', 'lame économique', 'lame refendage']
+    },
   },
   '3dj-karbon-seramik': {
     name: 'Lame de Refendage 3 Trous – Acier Carbone + Revêtement Céramique',
@@ -1939,6 +2099,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Performance supérieure au TiN'
     ],
     applications: ['Refendage haute vitesse', 'Matériaux thermosensibles', 'Applications friction critique', 'Découpe matériaux abrasifs'],
+    seo: {
+      title: 'Lame 3 Trous Revêtement Céramique 43x22mm | 3200 HV Haute Température',
+      description: 'Lame de refendage 3 trous avec revêtement céramique 3200+ HV, résiste à 800°C. 50-60% moins de friction. Pour refendage haute vitesse et matériaux abrasifs.',
+      keywords: ['lame 3 trous céramique', 'lame 3200 HV', 'lame 43x22', 'lame haute température', 'lame 800°C', 'lame haute vitesse', 'lame faible friction', 'lame abrasif', 'lame refendage', 'lame industrielle']
+    },
   },
   '3dj-yekpare-tungsten': {
     name: 'Lame de Refendage 3 Trous – Carbure de Tungstène Massif',
@@ -1952,6 +2117,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Qualité premium'
     ],
     applications: ['Découpe matériaux abrasifs', 'Fibre de verre', 'Fibre de carbone', 'Papier abrasif', 'Matériaux revêtus céramique'],
+    seo: {
+      title: 'Lame 3 Trous Carbure de Tungstène Massif 43x22mm | HRA 89-92',
+      description: 'Lame de refendage 3 trous en carbure de tungstène massif WC-Co, dureté HRA 89-92. Durée de vie 10-50x supérieure pour fibre de verre, carbone et abrasifs.',
+      keywords: ['lame 3 trous tungstène', 'lame carbure tungstène', 'lame WC-Co', 'lame 43x22', 'lame HRA 92', 'lame ultra-dure', 'lame fibre de verre', 'lame fibre carbone', 'lame abrasif', 'lame longue durée']
+    },
   },
   '3dj-yekpare-seramik': {
     name: 'Lame de Refendage 3 Trous – Céramique Massif',
@@ -1965,6 +2135,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Aucune contamination métallique'
     ],
     applications: ['Films ultrasensibles à la chaleur', 'Industrie alimentaire (compatible détecteur métaux)', 'Matériaux chimiques réactifs', 'Salles blanches', 'Composants électroniques'],
+    seo: {
+      title: 'Lame 3 Trous Céramique Zircone Massif 43x22mm | Sans Métal Biocompatible',
+      description: 'Lame de refendage 3 trous en céramique zircone massive, dureté HV 1200-1400. Sans contamination métallique, compatible détecteur métaux. Pour alimentaire et salles blanches.',
+      keywords: ['lame 3 trous céramique', 'lame zircone', 'lame 43x22', 'lame sans métal', 'lame biocompatible', 'lame salle blanche', 'lame alimentaire', 'lame détecteur métaux', 'lame chimiquement inerte', 'lame électronique']
+    },
   },
   '3dj-karbon-yuvarlak-kenar': {
     name: 'Lame de Refendage 3 Trous – Acier Carbone, Bord Arrondi',
@@ -1978,6 +2153,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Acier haute teneur carbone'
     ],
     applications: ['Transition depuis rasoirs', 'Découpe textile', 'Refendage de films', 'Usage général'],
+    seo: {
+      title: 'Lame 3 Trous Acier Carbone Bord Arrondi 43x22mm | Style Rasoir',
+      description: 'Lame de refendage 3 trous acier carbone avec bord arrondi style rasoir. Ergonomie familière avec durabilité industrielle. Pour transition depuis rasoirs standard.',
+      keywords: ['lame 3 trous bord arrondi', 'lame carbone arrondi', 'lame 43x22', 'lame style rasoir', 'lame ergonomique', 'lame textile', 'lame refendage film', 'lame transition', 'lame industrielle']
+    },
   },
   '3dj-paslanmaz-titanyum-yuvarlak': {
     name: 'Lame de Refendage 3 Trous – Inox + Titane, Bord Arrondi',
@@ -1991,6 +2171,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Combinaison premium'
     ],
     applications: ['Environnements humides', 'Transition industrie alimentaire', 'Découpe matériaux adhésifs', 'Entreprises priorité ergonomie'],
+    seo: {
+      title: 'Lame 3 Trous Inox + Titane Bord Arrondi 43x22mm | Ergonomique Premium',
+      description: 'Lame de refendage 3 trous inoxydable + TiN avec bord arrondi ergonomique. Résistance corrosion et faible friction. Pour environnements humides et alimentaire.',
+      keywords: ['lame 3 trous bord arrondi', 'lame inox titane arrondi', 'lame 43x22', 'lame ergonomique premium', 'lame anti-corrosion', 'lame alimentaire', 'lame humide', 'lame adhésif', 'lame TiN', 'lame refendage']
+    },
   },
   '3dj-karbon-seramik-yuvarlak': {
     name: 'Lame de Refendage 3 Trous – Carbone + Céramique, Bord Arrondi',
@@ -2004,6 +2189,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible haute vitesse'
     ],
     applications: ['Découpe haute vitesse ergonomique', 'Matériaux thermosensibles', 'Transition utilisateurs segment premium'],
+    seo: {
+      title: 'Lame 3 Trous Carbone + Céramique Bord Arrondi 43x22mm | 800°C',
+      description: 'Lame de refendage 3 trous carbone + céramique avec bord arrondi. Résiste à 800°C avec ergonomie familière. Pour découpe haute vitesse et thermosensibles.',
+      keywords: ['lame 3 trous céramique arrondi', 'lame carbone céramique', 'lame 43x22', 'lame ergonomique', 'lame haute température', 'lame 800°C', 'lame haute vitesse', 'lame faible friction', 'lame thermosensible', 'lame premium']
+    },
   },
   '3dj-paslanmaz-titanyum-60x22': {
     name: 'Lame de Refendage 3 Trous – Inox + Titane, 60x22mm',
@@ -2017,6 +2207,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Compatible bobines larges'
     ],
     applications: ['Refendage bobines larges', 'Opérations multi-bandes', 'Machines refendage haute capacité', 'Production échelle industrielle'],
+    seo: {
+      title: 'Lame 3 Trous Inox + Titane 60x22mm | Grand Format Bobines Larges',
+      description: 'Lame de refendage 3 trous grand format 60x22mm inoxydable + TiN. Ligne de coupe étendue pour bobines larges et machines haute capacité. Moins de changements lame.',
+      keywords: ['lame 3 trous 60x22', 'lame grand format', 'lame inox titane', 'lame bobines larges', 'lame haute capacité', 'lame multi-bandes', 'lame TiN', 'lame production industrielle', 'lame refendage', 'lame longue']
+    },
   },
   '3dj-paslanmaz-titanyum-cizikli-60x22': {
     name: 'Lame de Refendage 3 Trous – Inox + Titane, Rainurée, 60x22mm',
@@ -2029,5 +2224,10 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Gestion stock économique'
     ],
     applications: ['Systèmes multi-machines', 'Stations différentes', 'Entreprises économiques', 'Lignes production flexibles'],
+    seo: {
+      title: 'Lame 3 Trous Inox + Titane Incisée 60x22mm | Sécable 2x 30mm',
+      description: 'Lame de refendage 3 trous grand format 60x22mm inoxydable + TiN avec rainure divisible. Se sépare en deux demi-lames 30mm. Usage flexible et économique.',
+      keywords: ['lame 3 trous 60x22', 'lame incisée', 'lame sécable', 'lame divisible', 'lame 2x 30mm', 'lame inox titane', 'lame flexible', 'lame économique', 'lame multi-machines', 'lame grand format']
+    },
   },
 };
