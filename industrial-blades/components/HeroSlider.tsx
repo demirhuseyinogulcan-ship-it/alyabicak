@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react'
@@ -15,6 +15,11 @@ export default function HeroSlider() {
   const heroSlides = getActiveSlides()
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
+  
+  // Touch/Swipe state
+  const touchStartX = useRef<number | null>(null)
+  const touchStartY = useRef<number | null>(null)
+  const containerRef = useRef<HTMLElement>(null)
 
   // Slide verilerini locale'e göre çevir
   const translatedSlides = heroSlides.map(slide => {
@@ -44,6 +49,48 @@ export default function HeroSlider() {
     setCurrentSlide(index)
   }, [])
 
+  // Touch handlers for swipe gesture
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    const touch = e.touches[0]
+    const containerWidth = containerRef.current?.offsetWidth || window.innerWidth
+    
+    // Edge detection: kenardan 50px içinde swipe'ı yoksay (browser gesture çakışmasını önler)
+    const edgeThreshold = 50
+    if (touch.clientX < edgeThreshold || touch.clientX > containerWidth - edgeThreshold) {
+      touchStartX.current = null
+      return
+    }
+    
+    touchStartX.current = touch.clientX
+    touchStartY.current = touch.clientY
+    setIsAutoPlaying(false)
+  }, [])
+
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    if (touchStartX.current === null || touchStartY.current === null) {
+      setIsAutoPlaying(true)
+      return
+    }
+    
+    const touch = e.changedTouches[0]
+    const deltaX = touch.clientX - touchStartX.current
+    const deltaY = touch.clientY - touchStartY.current
+    
+    // Minimum swipe distance: 50px, ve yatay hareket dikey hareketten fazla olmalı
+    const minSwipeDistance = 50
+    if (Math.abs(deltaX) > minSwipeDistance && Math.abs(deltaX) > Math.abs(deltaY)) {
+      if (deltaX > 0) {
+        prevSlide() // Sağa kaydır = önceki
+      } else {
+        nextSlide() // Sola kaydır = sonraki
+      }
+    }
+    
+    touchStartX.current = null
+    touchStartY.current = null
+    setIsAutoPlaying(true)
+  }, [nextSlide, prevSlide])
+
   useEffect(() => {
     if (!isAutoPlaying) return
     
@@ -53,9 +100,12 @@ export default function HeroSlider() {
 
   return (
     <section 
-      className="relative h-screen min-h-[600px] max-h-[900px] w-full overflow-hidden bg-steel-900"
+      ref={containerRef}
+      className="relative h-screen min-h-[600px] max-h-[900px] w-full overflow-hidden bg-steel-900 touch-pan-y"
       onMouseEnter={() => setIsAutoPlaying(false)}
       onMouseLeave={() => setIsAutoPlaying(true)}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
       {/* Slides */}
       <div className="relative h-full w-full">
@@ -185,10 +235,10 @@ export default function HeroSlider() {
         ))}
       </div>
 
-      {/* Navigation Arrows */}
+      {/* Navigation Arrows - Hidden on mobile, visible on md+ */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 p-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition-all hover:scale-110"
+        className="hidden md:block absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 p-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition-all hover:scale-110"
         aria-label={dict.heroFeatures.prevSlide}
       >
         <ChevronLeft className="w-6 h-6" />
@@ -196,7 +246,7 @@ export default function HeroSlider() {
 
       <button
         onClick={nextSlide}
-        className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 p-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition-all hover:scale-110"
+        className="hidden md:block absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 p-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition-all hover:scale-110"
         aria-label={dict.heroFeatures.nextSlide}
       >
         <ChevronRight className="w-6 h-6" />
