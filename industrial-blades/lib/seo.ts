@@ -177,8 +177,8 @@ export function generateLocalBusinessSchema(locale?: Locale) {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 41.0082, // İstanbul koordinatları - gerçek koordinatlar eklenebilir
-      longitude: 29.0044,
+      latitude: 40.9971882, // Dudullu OSB - Alya Tekstil gerçek konum
+      longitude: 29.1862235,
     },
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
