@@ -1,7 +1,7 @@
 /**
  * Alt Kategori Detay Sayfası - i18n Destekli
  */
-import { generateMetadata as generateSeoMetadata, generateBreadcrumbSchema } from '@/lib/seo'
+import { generateMetadata as generateSeoMetadata, generateBreadcrumbSchema, generateItemListSchema } from '@/lib/seo'
 import { categoryService, productService } from '@/lib/services'
 import { getAllCategories, getAllSubcategories } from '@/lib/data/categories'
 import { notFound } from 'next/navigation'
@@ -11,7 +11,7 @@ import { ArrowRight, Package, Filter } from 'lucide-react'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { siteConfig } from '@/lib/config'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{
@@ -62,18 +62,42 @@ export async function generateMetadata({ params }: PageProps) {
   const baseKeywords = [subcategory.name.toLowerCase(), category.name.toLowerCase()]
   const seoKeywords = (subcategory as { seoKeywords?: string[] }).seoKeywords || []
   const allKeywords = [...seoKeywords, ...baseKeywords, 'alya bıçak', 'alya blade']
+  const domainUrl = getDomainUrl(locale as SupportedLocale)
+  const pagePath = `/categories/${category.slug}/${subcategory.slug}`
+
+  // Güçlü meta title: ürün adı + teknik sinyal + marka
+  const brandSuffix = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
+  const metaTitle = locale === 'tr'
+    ? `${subcategory.name} | ${subcategory.productCount} Çeşit | ${brandSuffix}`
+    : `${subcategory.name} | Sheffield Steel Quality | ${brandSuffix}`
+
+  // Meta description: teknik detay + competitive edge
+  const metaDescription = locale === 'tr'
+    ? `${subcategory.description} ${subcategory.productCount} farklı model. Karbon çelik, paslanmaz ve tungsten karbür seçenekleri. Sheffield kalitesi, Türkiye distribütörü.`
+    : `${subcategory.description} ${subcategory.productCount} models available. Carbon steel, stainless steel, tungsten carbide options. Authorized Sheffield distributor. Ships to 35+ countries.`
 
   const metadata = generateSeoMetadata({
-    title: `${subcategory.name} | ${category.name}`,
-    description: `${subcategory.description} - ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}. ${subcategory.productCount} ${dict.common.products}.`,
+    title: metaTitle,
+    description: metaDescription,
     keywords: allKeywords,
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}/${subcategory.slug}`,
+    url: `${domainUrl}/${locale}${pagePath}`,
+    locale,
+    path: pagePath,
   })
+
+  // Hreflang + Canonical (KRİTİK: Google'a EN ↔ TR bağlantısını söyler)
+  const metadataWithAlternates = {
+    ...metadata,
+    alternates: {
+      canonical: `${domainUrl}/${locale}${pagePath}`,
+      languages: getHreflangUrls(pagePath),
+    },
+  }
 
   // Ürünü olmayan alt kategorileri noindex yap - Google Soft 404 hatalarını önle
   if (!hasProducts) {
     return {
-      ...metadata,
+      ...metadataWithAlternates,
       robots: {
         index: false,
         follow: true, // Linkler hala takip edilsin (diğer kategorilere)
@@ -81,7 +105,7 @@ export async function generateMetadata({ params }: PageProps) {
     }
   }
 
-  return metadata
+  return metadataWithAlternates
 }
 
 export default async function SubcategoryPage({ params }: PageProps) {
@@ -96,13 +120,27 @@ export default async function SubcategoryPage({ params }: PageProps) {
 
   // Bu alt kategorideki ürünleri getir (çevrilmiş olarak)
   const products = productService.getSubcategoryCards(subcategory.id, locale)
+  const domainUrl = getDomainUrl(locale as SupportedLocale)
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: dict.nav.home, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}` },
-    { name: dict.nav.categories, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories` },
-    { name: category.name, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}` },
-    { name: subcategory.name, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}/${subcategory.slug}` },
+    { name: dict.nav.home, url: `${domainUrl}/${locale}` },
+    { name: dict.nav.categories, url: `${domainUrl}/${locale}/categories` },
+    { name: category.name, url: `${domainUrl}/${locale}/categories/${category.slug}` },
+    { name: subcategory.name, url: `${domainUrl}/${locale}/categories/${category.slug}/${subcategory.slug}` },
   ])
+
+  // ItemList Schema — Google ürün carousel + AI veri çekimi
+  const itemListSchema = products.length > 0
+    ? generateItemListSchema(
+        products.map((product, index) => ({
+          name: product.name,
+          url: `${domainUrl}/${locale}/products/${product.slug}`,
+          image: product.image ? `${domainUrl}${product.image}` : `${domainUrl}/images/products/placeholder.jpg`,
+          position: index + 1,
+        })),
+        subcategory.name
+      )
+    : null
 
   return (
     <>
@@ -110,6 +148,12 @@ export default async function SubcategoryPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {itemListSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        />
+      )}
       <div className="min-h-screen">
         {/* Hero Section */}
         <PageHeader

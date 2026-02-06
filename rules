@@ -112,3 +112,45 @@
 
 4.  **Programmatic Readiness:**
     *   Even if the UI doesn't display it yet, structure data arrays (e.g. `specs`, `compatibleMachineIds`) to be machine-readable for future programmatic page generation.
+
+    Goal
+To transform the website's data structure into a format that AI Authority Engines (Perplexity, SearchGPT) can verify as "Fact" and cite as a "Source".
+
+User Review Required
+NOTE
+
+FAQ Breadcrumb: I verified that app/[locale]/faq/page.tsx already includes BreadcrumbList schema. I will skip this task as it is redundant.
+
+Proposed Changes
+1. Data Layer & SEO Library (lib/)
+[MODIFY] 
+seo.ts
+Update 
+generateEnhancedProductSchema
+:
+Add a specs parameter to the function.
+Map the specs array (Hardness, Material, Coating) to Schema.org additionalProperty fields.
+This ensures AI reads "62 HRC" as a verifiable fact.
+2. Category Pages (app/)
+[MODIFY] 
+page.tsx
+Implement 
+ItemList
+ Schema:
+Use the existing 
+generateItemListSchema
+ helper.
+Create a structured list of subcategories found on the page.
+Helps Google understand the hierarchy and list items.
+3. AI Knowledge Base (public/)
+[MODIFY] 
+llms.txt
+Enrich Content:
+Add a new section: ## Machine Compatibility Matrix.
+Insert "Rare Tokens" strategy data (e.g., "M2 High Speed Steel matched with Titan Packaging machines").
+Verification Plan
+Automated Verification
+Build Check: Run npm run build to ensure no Type errors in the new Schema implementations.
+Manual Verification
+Schema Validator: I will copy the generated JSON-LD from the source code and validate it against logical schema structure.
+Data Inspection: Verify that additionalProperty in the Product Schema correctly reflects the specs from the product data.

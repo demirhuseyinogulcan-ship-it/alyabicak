@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { ArrowRight, Package } from 'lucide-react'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{
@@ -43,12 +43,24 @@ export async function generateMetadata({ params }: PageProps) {
     return {}
   }
 
-  return generateSeoMetadata({
-    title: category.name,
-    description: `${category.description} - ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}. ${category.name} ${locale === 'tr' ? 'kategorisinde' : 'category with'} ${category.totalProductCount} ${dict.common.products}.`,
-    keywords: [category.name.toLowerCase(), 'alya bıçak', 'endüstriyel bıçak'],
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}`,
-  })
+  const domainUrl = getDomainUrl(locale as SupportedLocale)
+  const pagePath = `/categories/${category.slug}`
+  const brandSuffix = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
+
+  return {
+    ...generateSeoMetadata({
+      title: `${category.name} | ${category.totalProductCount} ${dict.common.products} | ${brandSuffix}`,
+      description: `${category.description} ${category.subcategories.length} ${dict.common.subcategories}, ${category.totalProductCount} ${dict.common.products}. ${locale === 'tr' ? 'Sheffield kalitesi, Türkiye distribütörü.' : 'Sheffield steel quality. Authorized distributor.'}`,
+      keywords: [category.name.toLowerCase(), 'alya bıçak', 'endüstriyel bıçak', 'alya blade'],
+      url: `${domainUrl}/${locale}${pagePath}`,
+      locale,
+      path: pagePath,
+    }),
+    alternates: {
+      canonical: `${domainUrl}/${locale}${pagePath}`,
+      languages: getHreflangUrls(pagePath),
+    },
+  }
 }
 
 export default async function CategoryPage({ params }: PageProps) {
