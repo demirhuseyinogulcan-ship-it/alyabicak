@@ -4,6 +4,7 @@
 import { generateMetadata as genMeta } from '@/lib/seo'
 import { Download, Eye } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
@@ -14,7 +15,7 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps) {
   const { locale } = await params
   const dict = await getDictionary(locale)
-  
+
   return genMeta({
     title: dict.catalog.title,
     description: dict.catalog.subtitle,
@@ -23,159 +24,7 @@ export async function generateMetadata({ params }: PageProps) {
   })
 }
 
-// Katalog listesi
-const CATALOGS = {
-  tr: [
-    {
-      id: 'industrial-blades',
-      title: 'Sanayi Jiletleri',
-      description: 'Ok bıçaklar, dilme jiletleri, trapez jiletler',
-      pdfUrl: '/catalogs/Sanayi-Jiletleri-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/sanayi-jiletleri.jpg',
-    },
-    {
-      id: 'makine-bicaklari',
-      title: 'Makine Bıçakları',
-      description: 'Giyotin bıçakları, dilme bıçakları',
-      pdfUrl: '/catalogs/Makine-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/makine-bicaklari.jpg',
-    },
-    {
-      id: 'safety-knives',
-      title: 'İş Güvenliği & El Bıçakları',
-      description: 'Güvenlik bıçakları, maket bıçakları',
-      pdfUrl: '/catalogs/Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/is-guvenligi.jpg',
-    },
-    {
-      id: 'thermoform-vacuum',
-      title: 'Vakum Paketleme Bıçakları',
-      description: 'Gıda sanayi kesim bıçakları',
-      pdfUrl: '/catalogs/Vakum-PaketlemeBicaklari-Katalugu.pdf',
-      previewImage: '/catalogs/previews/vakum-paketleme.jpg',
-    },
-  ],
-  en: [
-    {
-      id: 'industrial-blades',
-      title: 'Industrial Blades',
-      description: 'Arrow blades, slitting blades, trapezoidal blades',
-      pdfUrl: '/catalogs/Sanayi-Jiletleri-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/sanayi-jiletleri.jpg',
-    },
-    {
-      id: 'makine-bicaklari',
-      title: 'Machine Blades',
-      description: 'Guillotine blades, slitting blades',
-      pdfUrl: '/catalogs/Makine-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/makine-bicaklari.jpg',
-    },
-    {
-      id: 'safety-knives',
-      title: 'Safety & Hand Knives',
-      description: 'Safety knives, utility knives',
-      pdfUrl: '/catalogs/Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/is-guvenligi.jpg',
-    },
-    {
-      id: 'thermoform-vacuum',
-      title: 'Vacuum Packaging Blades',
-      description: 'Food industry cutting blades',
-      pdfUrl: '/catalogs/Vakum-PaketlemeBicaklari-Katalugu.pdf',
-      previewImage: '/catalogs/previews/vakum-paketleme.jpg',
-    },
-  ],
-  ar: [
-    {
-      id: 'industrial-blades',
-      title: 'الشفرات الصناعية',
-      description: 'شفرات السهم، شفرات التقطيع، الشفرات شبه المنحرفة',
-      pdfUrl: '/catalogs/Sanayi-Jiletleri-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/sanayi-jiletleri.jpg',
-    },
-    {
-      id: 'makine-bicaklari',
-      title: 'شفرات الآلات',
-      description: 'شفرات المقصلة، شفرات التقطيع',
-      pdfUrl: '/catalogs/Makine-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/makine-bicaklari.jpg',
-    },
-    {
-      id: 'safety-knives',
-      title: 'سكاكين السلامة واليدوية',
-      description: 'سكاكين الأمان، سكاكين متعددة الاستخدامات',
-      pdfUrl: '/catalogs/Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/is-guvenligi.jpg',
-    },
-    {
-      id: 'thermoform-vacuum',
-      title: 'شفرات التغليف الفراغي',
-      description: 'شفرات قطع الصناعات الغذائية',
-      pdfUrl: '/catalogs/Vakum-PaketlemeBicaklari-Katalugu.pdf',
-      previewImage: '/catalogs/previews/vakum-paketleme.jpg',
-    },
-  ],
-  ru: [
-    {
-      id: 'industrial-blades',
-      title: 'Промышленные лезвия',
-      description: 'Стреловидные лезвия, лезвия для продольной резки, трапециевидные лезвия',
-      pdfUrl: '/catalogs/Sanayi-Jiletleri-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/sanayi-jiletleri.jpg',
-    },
-    {
-      id: 'makine-bicaklari',
-      title: 'Машинные ножи',
-      description: 'Гильотинные ножи, ножи для продольной резки',
-      pdfUrl: '/catalogs/Makine-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/makine-bicaklari.jpg',
-    },
-    {
-      id: 'safety-knives',
-      title: 'Безопасные и ручные ножи',
-      description: 'Безопасные ножи, канцелярские ножи',
-      pdfUrl: '/catalogs/Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/is-guvenligi.jpg',
-    },
-    {
-      id: 'thermoform-vacuum',
-      title: 'Ножи для вакуумной упаковки',
-      description: 'Режущие ножи для пищевой промышленности',
-      pdfUrl: '/catalogs/Vakum-PaketlemeBicaklari-Katalugu.pdf',
-      previewImage: '/catalogs/previews/vakum-paketleme.jpg',
-    },
-  ],
-  fr: [
-    {
-      id: 'industrial-blades',
-      title: 'Lames Industrielles',
-      description: 'Lames flèches, lames de refendage, lames trapézoïdales',
-      pdfUrl: '/catalogs/Sanayi-Jiletleri-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/sanayi-jiletleri.jpg',
-    },
-    {
-      id: 'makine-bicaklari',
-      title: 'Lames de Machine',
-      description: 'Lames de guillotine, lames de refendage',
-      pdfUrl: '/catalogs/Makine-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/makine-bicaklari.jpg',
-    },
-    {
-      id: 'safety-knives',
-      title: 'Couteaux de Sécurité et Manuels',
-      description: 'Couteaux de sécurité, cutters',
-      pdfUrl: '/catalogs/Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf',
-      previewImage: '/catalogs/previews/is-guvenligi.jpg',
-    },
-    {
-      id: 'thermoform-vacuum',
-      title: 'Lames de Conditionnement sous Vide',
-      description: 'Lames de coupe pour l’industrie alimentaire',
-      pdfUrl: '/catalogs/Vakum-PaketlemeBicaklari-Katalugu.pdf',
-      previewImage: '/catalogs/previews/vakum-paketleme.jpg',
-    },
-  ],
-}
+import { CATALOGS } from '@/lib/data/catalogs'
 
 export default async function CatalogPage({ params }: PageProps) {
   const { locale } = await params
@@ -192,8 +41,44 @@ export default async function CatalogPage({ params }: PageProps) {
 
   const l = labels[locale]
 
+  // Catalog Schema (CreativeWork / Publication)
+  // "PDF Hack" stratejisi için kritik: Google'a bu PDF'lerin resmi yayın olduğunu bildirir.
+  const catalogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: l.heroTitle,
+    description: l.heroDesc,
+    numberOfItems: catalogs.length,
+    itemListElement: catalogs.map((catalog, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'CreativeWork',
+        name: catalog.title,
+        description: catalog.description,
+        url: `${getDomainUrl(locale as SupportedLocale)}${catalog.pdfUrl}`,
+        image: `${getDomainUrl(locale as SupportedLocale)}${catalog.previewImage}`,
+        encodingFormat: 'application/pdf',
+        fileFormat: 'application/pdf',
+        publisher: {
+          '@type': 'Organization',
+          name: 'Alya Bıçak',
+          logo: {
+            '@type': 'ImageObject',
+            url: `${getDomainUrl(locale as SupportedLocale)}/images/logo-512.png`
+          }
+        },
+        inLanguage: locale
+      }
+    }))
+  }
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogSchema) }}
+      />
       {/* Minimal Hero */}
       <section className="py-12 bg-steel-50 border-b border-steel-200">
         <div className="container mx-auto px-4">
@@ -239,15 +124,13 @@ export default async function CatalogPage({ params }: PageProps) {
 
                   {/* Actions */}
                   <div className="flex gap-2">
-                    <a
-                      href={catalog.pdfUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href={`/${locale}/view/${catalog.id}`}
                       className="flex-1 flex items-center justify-center gap-1.5 px-3 py-2 bg-steel-900 hover:bg-steel-800 text-white text-xs font-medium rounded transition-colors"
                     >
                       <Eye className="w-3.5 h-3.5" />
                       {l.view}
-                    </a>
+                    </Link>
                     <a
                       href={catalog.pdfUrl}
                       download
@@ -262,7 +145,7 @@ export default async function CatalogPage({ params }: PageProps) {
             ))}
           </div>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   )
 }

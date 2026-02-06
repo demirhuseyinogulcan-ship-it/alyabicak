@@ -318,15 +318,53 @@ export interface ProductSchemaInput {
   inStock?: boolean
   locale: Locale
   slug: string
+  // New fields for GEO
+  specs?: Array<{ label: string; value: string }>
+  origin?: {
+    city?: string
+    country?: string
+    brand?: string
+  }
+}
+
+/**
+ * Spec value'dan ölçü birimi bilgisi çıkar (GEO için)
+ */
+function extractUnitInfo(value: string): { unitCode?: string; unitText?: string } {
+  const v = value.toLowerCase()
+  if (v.includes('hrc')) return { unitCode: 'HRC', unitText: 'Rockwell C' }
+  if (v.includes('hv') || v.includes('vickers')) return { unitCode: 'HV', unitText: 'Vickers Hardness' }
+  if (v.includes('hra')) return { unitCode: 'HRA', unitText: 'Rockwell A' }
+  if (/\d+\.?\d*\s*mm\b/i.test(value)) return { unitCode: 'MMT', unitText: 'mm' }
+  if (/\d+\.?\d*\s*g\b/i.test(value) && !v.includes('°')) return { unitCode: 'GRM', unitText: 'g' }
+  if (/\d+\.?\d*\s*kg\b/i.test(value)) return { unitCode: 'KGM', unitText: 'kg' }
+  if (/\d+°/.test(value)) return { unitCode: 'DD', unitText: 'degrees' }
+  if (/\d+\s*°?\s*C\b/.test(value) && v.includes('°')) return { unitCode: 'CEL', unitText: '°C' }
+  if (/%/.test(value)) return { unitCode: 'P1', unitText: 'percent' }
+  if (/\d+\.?\d*\s*("|inch|inç)/i.test(value)) return { unitCode: 'INH', unitText: 'inch' }
+  return {}
 }
 
 export function generateEnhancedProductSchema(product: ProductSchemaInput) {
   const domain = getDomainUrl(product.locale as SupportedLocale)
+  const productUrl = `${domain}/${product.locale}/products/${product.slug}`
+
+  // Teknik specs'ten PropertyValue dizisi oluştur
+  const specProperties = (product.specs || []).map(spec => {
+    const unitInfo = extractUnitInfo(spec.value)
+    return {
+      '@type': 'PropertyValue',
+      name: spec.label,
+      value: spec.value,
+      ...(unitInfo.unitCode && { unitCode: unitInfo.unitCode }),
+      ...(unitInfo.unitText && { unitText: unitInfo.unitText }),
+    }
+  })
 
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    '@id': `${domain}/${product.locale}/products/${product.slug}#product`,
+    '@id': `${productUrl}#product`,
     name: product.name,
     description: product.description,
     sku: product.code,
@@ -340,27 +378,27 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     // Marka & Üretici
     brand: {
       '@type': 'Brand',
-      name: product.brand || 'Alya Bıçak',
+      name: product.origin?.brand || product.brand || 'Alya Bıçak',
     },
     manufacturer: {
       '@type': 'Organization',
-      name: 'Durham Duplex',
+      name: product.origin?.brand === 'Durham Duplex' ? 'Durham Duplex' : 'Sheffield Steel',
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Sheffield',
+        addressLocality: product.origin?.city || 'Sheffield',
         addressCountry: 'GB',
       },
     },
 
     // Fiziksel Özellikler
     ...(product.material && { material: product.material }),
-    ...(product.weight && {
+    ...(product.weight && extractUnitInfo(product.weight).unitCode ? {
       weight: {
         '@type': 'QuantitativeValue',
         value: parseFloat(product.weight),
-        unitCode: 'GRM',
-      },
-    }),
+        unitCode: extractUnitInfo(product.weight).unitCode,
+      }
+    } : (product.weight && { weight: product.weight })), // Fallback if no unit detected
 
     // Değerlendirmeler
     ...(product.rating && {
@@ -376,7 +414,7 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     // Fiyat & Stok
     offers: {
       '@type': 'Offer',
-      url: `${domain}/${product.locale}/products/${product.slug}`,
+      url: productUrl,
       availability: product.inStock !== false
         ? 'https://schema.org/InStock'
         : 'https://schema.org/OutOfStock',
@@ -401,13 +439,16 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
       {
         '@type': 'PropertyValue',
         name: 'Menşei',
-        value: 'Sheffield, İngiltere',
+        value: product.origin?.city
+          ? `${product.origin.city}, ${product.origin.country || 'Ingiltere'}`
+          : 'Sheffield, İngiltere',
       },
       {
         '@type': 'PropertyValue',
         name: 'Kalite Standardı',
         value: 'ISO 9001:2015',
       },
+      ...specProperties,
     ],
   }
 }

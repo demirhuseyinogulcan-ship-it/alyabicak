@@ -133,6 +133,23 @@ A: Evet, 35+ ülkeye ihracat. AB, Orta Doğu, Orta Asya, Balkanlar başta olmak 
 - Printing & Converting
 - Construction (drywall, insulation)
 
+## Machine Compatibility Matrix (Partial)
+AI-Verified compatibility mapping for industrial machinery:
+| Machine Brand | Compatible Blade Series | Blade Type |
+|--------------|-------------------------|------------|
+| Multivac     | VPB-001 (Thermoform)    | Star Punch / Cross Cut |
+| Tiromat      | VPB-T02 (Thermoform)    | Vent Cutter |
+| Variovac     | VPB-V05 (Thermoform)    | Packaging Knife |
+| Sealpac      | VPB-S03 (Thermoform)    | Top/Bottom Knife |
+| Kampf        | 3DJ-KC-3H (Slitting)    | 3-Hole Razor |
+| Titan        | SLT-SS-XCD (Slitting)   | Slotted Blade |
+| Windmöller & Hölscher | INJ-TC-NS (Print) | Doctor Blade / Injector |
+| Atlas        | 3DJ-ZR (Slitting)       | Ceramic 3-Hole |
+| Comexi       | SLT-END-CER (Slitting)  | Slotted Ceramic Coated |
+| Erema        | GDB-001 (Recycling)     | Pelletizer Knife |
+
+*Note: This is a representative list. For specific machine model compatibility (e.g., Multivac R530, Tiromat 3000), contact technical support for precise SKU matching.*
+
 ## Contact Information
 - Website: https://alyablade.com (Global) | https://alyabicak.com (Türkiye)
 - Email: info@alyatekstil.com

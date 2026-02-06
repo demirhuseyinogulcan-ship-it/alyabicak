@@ -1,7 +1,7 @@
 /**
  * Kategori Detay Sayfası - i18n Destekli
  */
-import { generateMetadata as generateSeoMetadata, generateBreadcrumbSchema } from '@/lib/seo'
+import { generateMetadata as generateSeoMetadata, generateBreadcrumbSchema, generateItemListSchema } from '@/lib/seo'
 import { categoryService } from '@/lib/services'
 import { getAllCategories } from '@/lib/data/categories'
 import { notFound } from 'next/navigation'
@@ -21,7 +21,7 @@ interface PageProps {
 export async function generateStaticParams() {
   const categories = getAllCategories()
   const params: { locale: string; slug: string }[] = []
-  
+
   i18nConfig.locales.forEach((locale) => {
     categories.forEach((category) => {
       params.push({
@@ -30,7 +30,7 @@ export async function generateStaticParams() {
       })
     })
   })
-  
+
   return params
 }
 
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps) {
   const { locale, slug } = await params
   const category = categoryService.getCategoryViewBySlug(slug, locale)
   const dict = await getDictionary(locale)
-  
+
   if (!category) {
     return {}
   }
@@ -78,11 +78,26 @@ export default async function CategoryPage({ params }: PageProps) {
     { name: category.name, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}` },
   ])
 
+  // Subcategory list schema (Google Carousel / List)
+  const itemListSchema = generateItemListSchema(
+    category.subcategories.map((sub, index) => ({
+      name: sub.name,
+      url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}/${sub.slug}`,
+      image: category.image || `${getDomainUrl(locale as SupportedLocale)}/images/logo-512.png`, // Fallback to category image
+      position: index + 1
+    })),
+    `${category.name} ${dict.categories.subcategories}`
+  )
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
       <div className="min-h-screen">
         {/* Hero Section */}
