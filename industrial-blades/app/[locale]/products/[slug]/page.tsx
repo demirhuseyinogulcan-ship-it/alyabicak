@@ -106,14 +106,20 @@ export default async function ProductPage({ params }: ProductPageProps) {
     { label: product.code },
   ];
 
-  // JSON-LD Schema
+  // JSON-LD Schema - Structured Data for AI & Search Engines
+  // Bu yapı "Structured Product Data Schema" olarak bilinir.
+  // AI motorları (GPT, Claude, Gemini) ve Google bu yapıdaki specs verilerini
+  // "doğrulanabilir veri" (Fact) olarak sınıflandırır.
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
     description: product.shortDescription,
     sku: product.code,
-    image: product.images.main.src,
+    mpn: product.code,
+    image: product.images.gallery && product.images.gallery.length > 0
+      ? [product.images.main.src, ...product.images.gallery.map(img => img.src)]
+      : product.images.main.src,
     brand: {
       '@type': 'Brand',
       name: product.origin?.brand || 'Alya Bıçak',
@@ -127,8 +133,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
         addressCountry: 'GB',
       },
     },
+    // Ürün Kategorisi
+    category: getCategoryDisplayName(product.categoryId, locale),
     offers: {
       '@type': 'Offer',
+      url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/products/${slug}`,
       availability: product.inStock
         ? 'https://schema.org/InStock'
         : 'https://schema.org/OutOfStock',
@@ -136,7 +145,40 @@ export default async function ProductPage({ params }: ProductPageProps) {
         '@type': 'Organization',
         name: siteConfig.company.legalName,
       },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingDestination: {
+          '@type': 'DefinedRegion',
+          addressCountry: ['TR', 'EU', 'SA', 'AE', 'RU'],
+        },
+      },
     },
+    // Teknik Özellikler → additionalProperty (AI Doğrulanabilir Veri)
+    additionalProperty: [
+      // Statik: Menşei & Kalite Standardı
+      {
+        '@type': 'PropertyValue',
+        name: locale === 'tr' ? 'Menşei' : 'Origin',
+        value: product.origin?.city
+          ? `${product.origin.city}, ${product.origin.country}`
+          : 'Sheffield, England',
+      },
+      {
+        '@type': 'PropertyValue',
+        name: locale === 'tr' ? 'Kalite Standardı' : 'Quality Standard',
+        value: 'ISO 9001:2015',
+      },
+      // Dinamik: Ürünün tüm specs verileri
+      ...(product.specs || []).map(spec => ({
+        '@type': 'PropertyValue',
+        name: spec.label,
+        value: spec.value,
+      })),
+    ],
+    // Malzeme bilgisi (varsa)
+    ...(product.specs?.find(s => s.label.toLowerCase().includes('malzeme') || s.label.toLowerCase().includes('material')) && {
+      material: product.specs.find(s => s.label.toLowerCase().includes('malzeme') || s.label.toLowerCase().includes('material'))?.value,
+    }),
     // Varyantlar (mevcut ölçüler)
     ...(product.availableSizes && product.availableSizes.length > 0 && {
       hasVariant: product.availableSizes.map((size) => ({
