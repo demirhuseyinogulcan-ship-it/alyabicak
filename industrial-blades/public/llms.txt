@@ -2,67 +2,181 @@
 # https://alyablade.com | https://alyabicak.com
 
 ## Company Overview
-Alya Tekstil Sanayi Ticaret Ltd. Şti. is a leading manufacturer and distributor of industrial cutting blades, machine knives, and precision razors. Established in 1996, based in Istanbul, Turkey, serving 35+ countries worldwide.
+Alya Tekstil Sanayi Ticaret Ltd. Şti. is a leading B2B supplier and authorized distributor of industrial cutting blades, machine knives, and precision razors. Established in 1996, headquartered in Istanbul, Turkey, exporting to 35+ countries across Europe, Middle East, Central Asia, and Balkans.
 
-## Core Products
-- Industrial Razor Blades (Sheffield, UK quality)
-- Trapezoid/Utility Blades
-- Safety Knives & Cutters
-- Machine Knives for Textile Industry
-- Food Industry Cutting Blades
-- Packaging & Paper Cutting Blades
-- Circular & Round Blades
-- Custom Manufacturing Solutions
+## Core Expertise
+- 30+ years of industrial cutting solutions experience
+- Authorized Durham Duplex (Sheffield, England) distributor since 1996
+- Technical consultation for blade selection and cutting process optimization
+- Custom blade sourcing and specification matching
+- Multi-language support: Turkish, English, French, Russian, Arabic
 
 ## Product Categories
-1. Trapez Jiletler / Trapezoid Blades - Heavy-duty utility cutting
-2. Kanca Bıçaklar / Hook Blades - Safe cutting for packaging
-3. Yuvarlak Köşe Jiletler / Round Corner Blades - Safety razors
-4. Sıyırma Bıçakları / Skiving Blades - Leather and textile
-5. Endüstriyel Jiletler / Industrial Razors - Precision cutting
-6. Güvenlik Bıçakları / Safety Knives - Workplace safety
-7. Makine Bıçakları / Machine Knives - Industrial machinery
 
-## Quality & Origin
-- Sheffield, England manufacturing heritage
-- Durham Duplex authorized distributor
+### 1. Sanayi Jiletleri / Industrial Razor Blades
+Subcategories:
+- 3 Delikli Dilme Jiletleri (3-hole slitting blades) — Carbon steel, stainless steel, tungsten carbide, ceramic zirconia, TiN/ceramic/XCD coated
+- Slotted Dilme Jiletleri (slotted slitting blades) — HRC 59-66, Endurium HSS options
+- İnjektör Dilme Jiletleri (injector slitting blades) — 38x8mm, 2-slot, channeled, PTFE coated
+- Tek Kenarlı Jiletler (single edge blades) — Model B201, B207, B206, B082
+- Trapez Bıçaklar (trapezoid/utility blades) — Heavy-duty cutting
+- Kanca Bıçaklar (hook blades) — Safe packaging cutting
+- Maket Bıçak Ucu / Falçata (craft blades) — Segmented snap-off
+- Hobi Jiletleri (hobby blades)
+- Bisturi / Neşter (scalpel blades)
+- Kesik Elyaf Bıçakları (chopped fiber blades) — FRP/GRP composite cutting
+- Cam Elyaf Bıçakları (fiberglass blades) — Glass fiber chopping
+- Dairesel Jiletler (circular blades)
+- Beşgen Bıçaklar (pentagon blades)
+- Lamel / Yaprak Bıçak (lamella blades)
+- Mikrotom Jileti (microtome blades) — Histology/pathology
+- Mikrokeratom Jileti (microkeratome/LASIK blades) — Ophthalmology
+- Cam Kazıyıcı (glass scraper blades)
+- Klasik Jilet (classic double-edge blades)
+- Alçı Levha Bıçakları (drywall blades)
+- OK Bıçaklar (arrow blades)
+
+### 2. Makina Bıçakları / Machine Knives
+Subcategories:
+- Termoform Vakum Bıçakları (thermoform vacuum knives) — Star punches, straight knives, vent cutters, counter knives for food packaging machinery
+- İleri İşlem Bıçakları (advanced processing knives) — Food processing
+- Dairesel Dilme Bıçakları (circular slitting knives)
+- Geri Dönüşüm Bıçakları (recycling knives) — Pelletizer, granulator, shredder
+- Oluklu Mukavva Dilme (corrugated cardboard slitting knives)
+- Döner Kesim Bıçakları (rotary cutting knives)
+- Dişli Bıçaklar (serrated knives) — Toothed cutting
+- Dairesel Ezici Bıçaklar (circular crusher knives)
+- Et Açma / Derinder Bıçakları (derinder/skinning knives)
+- Log-Saw Bıçakları (logsaw blades) — Paper/tissue industry
+- Masura Kesim Bıçakları (core cutting knives)
+- Kutu Kapama / Koli Bandı Bıçakları (case sealer knives)
+- Zig Zag Bıçaklar (pinking/zig-zag knives)
+- Şerit Bıçaklar (band knives) — Textile, foam, leather
+- Tray (Kase) Kalıp Bıçakları (tray mold knives)
+- Sosis Sıyırma Bıçakları (sausage peeling knives)
+- CNC Bıçakları (CNC knives)
+- Plotter Bıçakları (plotter knives)
+
+### 3. İş Güvenliği & El Bıçakları / Safety Knives & Hand Tools
+Subcategories:
+- Otomatik Geri Çekilebilir (auto-retract safety knives)
+- Sabit Uçlu Bıçaklar (fixed-blade knives)
+- Güvenlik Bıçakları (safety cutters)
+- Maket Bıçakları (utility knives)
+- Çapak Alma & Hobi Bıçakları (deburring & hobby knives)
+- OLFA Dairesel Bıçaklar (OLFA rotary cutters)
+- OLFA Falçata Bıçaklar (OLFA craft knives)
+- OLFA İş Güvenliği Bıçakları (OLFA safety knives)
+- Muhafaza & Atık Kutuları (blade disposal containers)
+
+## Technical Specifications & Materials
+Common materials used across product lines:
+- Carbon Steel: SK5 / C85, HRC 59-61
+- Stainless Steel: 420HC, 440C
+- High Speed Steel (HSS): Endurium HSS, HRC 64-66
+- Tungsten Carbide: WC-Co, HRA 89-94
+- Ceramic Zirconia: ZrO₂, HV 1200-1400
+
+Surface coatings available:
+- TiN (Titanium Nitride): PVD coating, 2300 HV hardness
+- DLC / XCD (Diamond-Like Carbon): 5000 HV, extreme wear resistance
+- Ceramic Coating: Al₂O₃, 3200+ HV, 800°C heat resistance
+- PTFE (Teflon): Friction coefficient ~0.04, non-stick
+
+## Sample Products (Notable SKUs)
+- 3DJ-KC: 3-Hole Slitting Blade, Carbon Steel SK5, HRC 59-61
+- 3DJ-TC: 3-Hole Slitting Blade, Solid Tungsten Carbide WC-Co, HRA 89-92
+- 3DJ-ZR: 3-Hole Slitting Blade, Ceramic Zirconia ZrO₂, HV 1200-1400
+- SLT-SS-XCD: Slotted Slitting Blade, Stainless + XCD (DLC) coating, 5000 HV
+- SLT-END-CER: Slotted Slitting Blade, Endurium HSS + Ceramic, HRC 64-66
+- INJ-SS-PTFE-2S: Injector Blade, Stainless + PTFE, friction ~0.04
+- INJ-TC-NS: Injector Blade, Solid Tungsten Carbide, no slots
+- TRP-STD: Trapezoid Utility Blade, Standard
+- VPB-001: Vacuum Packaging Blade, Thermoform machine knife
+- H006 001 X01: RETRO LIGHT Knife, Cast metal safety knife
+- H008 001 A03: AUTO RETRACT, Automatic retractable safety knife
+
+## Frequently Asked Questions (Selected)
+Q: Bıçak sertliği (HRC) ne anlama gelir?
+A: HRC (Rockwell Hardness C Scale), bıçağın sertlik ölçüsüdür. Genel amaç: HRC 58-60, hassas kesim: HRC 60-62, aşırı aşınma direnci: HRC 64+.
+
+Q: Sheffield çeliğinin farkı nedir?
+A: Sheffield, İngiltere 200+ yıllık çelik üretim geleneğiyle endüstriyel bıçak kalitesinin dünya referansıdır. Yüksek saflıkta karbon çeliği, tutarlı ısıl işlem, mikron düzeyinde tolerans.
+
+Q: Tungsten karbür bıçak ne zaman gerekli?
+A: Karbon çeliğin 10-20 katı ömür sunan tungsten karbür, aşındırıcı malzemeler (cam elyaf, karbon fiber, seramik, abrasiv filmler) kesilirken tercih edilir.
+
+Q: Titanyum nitrür (TiN) kaplama ne işe yarar?
+A: TiN kaplama sertliği 2300 HV'ye çıkarır, sürtünmeyi %40 azaltır, bıçak ömrünü 3-5 katına çıkarır. Yapışkan malzeme kesiminde (bant, etiket, film) özellikle etkilidir.
+
+Q: Özel ölçü/profil bıçak üretebiliyor musunuz?
+A: Evet, teknik çizim veya numune ile özel ölçü, profil ve malzeme seçimiyle üretim yapılır. Minimumlar ürüne göre değişir.
+
+Q: Yurt dışına satış yapıyor musunuz?
+A: Evet, 35+ ülkeye ihracat. AB, Orta Doğu, Orta Asya, Balkanlar başta olmak üzere dünya genelinde teslimat.
+
+## Quality & Certifications
+- Durham Duplex (Sheffield, England) authorized distributor
 - ISO 9001:2015 certified processes
-- Premium carbon steel and stainless steel materials
+- Premium Sheffield steel: high-purity carbon steel with precision heat treatment
+- Micron-level dimensional tolerance across all blade products
 
-## Languages Supported
-- Turkish (tr) - Primary: alyabicak.com
-- English (en) - Global: alyablade.com
-- Arabic (ar) - Middle East: alyablade.com/ar
-- Russian (ru) - CIS Region: alyablade.com/ru
+## Industries Served
+- Food Processing & Packaging (meat, dairy, bakery, confectionery)
+- Textile & Garment Manufacturing
+- Paper, Cardboard & Corrugated Packaging
+- Plastics & Film Converting
+- Glass Fiber & Composite Manufacturing
+- Leather & Footwear
+- Recycling & Waste Management
+- Medical & Laboratory (histology, ophthalmology)
+- Printing & Converting
+- Construction (drywall, insulation)
 
 ## Contact Information
-- Website: https://alyablade.com (Global) | https://alyabicak.com (Turkey)
+- Website: https://alyablade.com (Global) | https://alyabicak.com (Türkiye)
 - Email: info@alyatekstil.com
-- Phone: +90 (216) 575 17 91
+- Phone: +90 (216) 575 17 91 (3 lines)
+- Fax: +90 (216) 575 17 67
 - WhatsApp: +90 535 050 46 13
-- Address: Dudullu OSB, DES Sanayi Sitesi, Istanbul, Turkey
+- Address: Dudullu Organize Sanayi Bölgesi, DES Sanayi Sitesi, 101. Sokak B4 Blok No: 2, 34776 Ümraniye, İstanbul, Türkiye
+- Working Hours: Mon-Fri 09:00-18:00 (GMT+3)
+
+## Social Media
+- Instagram: https://instagram.com/alya_tekstil_sanayi/
+- LinkedIn: https://linkedin.com/company/alya-ltd./
 
 ## Business Model
-B2B wholesale and distribution. Custom blade manufacturing available.
-Minimum order quantities apply. Export to EU, Middle East, Central Asia, Balkans.
-
-## Key Differentiators
-- 30+ years industry experience
-- Direct Sheffield supplier relationships
-- Multi-language customer support
-- Technical consultation services
-- Fast delivery to 35+ countries
+B2B wholesale supplier and authorized distributor. Custom blade sourcing available.
+Minimum order quantities apply. Export to EU, Middle East, Central Asia, Balkans, and worldwide.
 
 ## Sitemap
+- Homepage: /[locale]
 - Products: /[locale]/products/[slug]
-- Categories: /[locale]/categories/[slug]
+- Categories: /[locale]/categories
+- Category Detail: /[locale]/categories/[slug]
+- Subcategory: /[locale]/categories/[slug]/[subcategory]
 - About: /[locale]/about
 - Contact: /[locale]/contact
 - FAQ: /[locale]/faq
 - Quality Standards: /[locale]/quality-standards
+- Consulting: /[locale]/consulting
+- Materials Guide: /[locale]/materials
+- Newsletter: /[locale]/newsletter
+- Catalog: /[locale]/catalog
+- Cookie Policy: /[locale]/cookie-policy
+- Privacy Policy: /[locale]/privacy-policy
 
-## API Information
-No public API available. Contact for B2B integration inquiries.
+## Languages & Domains
+- Turkish (tr) - Primary: https://alyabicak.com
+- English (en) - Global: https://alyablade.com
+- French (fr) - Europe/Africa: https://alyablade.com/fr
+- Arabic (ar) - Middle East: https://alyablade.com/ar
+- Russian (ru) - CIS Region: https://alyablade.com/ru
+
+## API & Data Access
+No public API. Structured product data available via Schema.org JSON-LD on each product page.
+For B2B integration inquiries, contact info@alyatekstil.com.
 
 ## Last Updated
-2026-01-11
+2025-02-06

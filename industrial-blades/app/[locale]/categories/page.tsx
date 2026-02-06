@@ -1,7 +1,8 @@
 /**
  * Kategoriler Sayfası - i18n Destekli
+ * ItemList Schema ile Google Carousel desteği
  */
-import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
+import { generateMetadata as generateSeoMetadata, generateItemListSchema, generateBreadcrumbSchema } from '@/lib/seo'
 import { categoryService } from '@/lib/services'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import Link from 'next/link'
@@ -29,8 +30,41 @@ export default async function CategoriesPage({ params }: PageProps) {
   const { locale } = await params
   const dict = await getDictionary(locale)
   const categories = categoryService.getAllCategoriesWithCounts(locale)
-  
+  const domainUrl = getDomainUrl(locale as SupportedLocale)
+
+  // ItemList Schema - Google Carousel için
+  const itemListSchema = generateItemListSchema(
+    categories.map((cat, index) => ({
+      name: cat.name,
+      url: `${domainUrl}/${locale}/categories/${cat.slug}`,
+      image: cat.image ? `${domainUrl}${cat.image}` : `${domainUrl}/images/categories/${cat.slug}.jpg`,
+      position: index + 1,
+    })),
+    dict.categories.title
+  )
+
+  // BreadcrumbList Schema
+  const breadcrumbSchema = generateBreadcrumbSchema(
+    [
+      { name: dict.nav.home, url: `/${locale}` },
+      { name: dict.categories.title },
+    ],
+    locale as SupportedLocale
+  )
+
   return (
+    <>
+      {/* ItemList Schema for Google Rich Results / Carousel */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-steel-900 to-steel-800 text-white py-20">
@@ -144,5 +178,6 @@ export default async function CategoriesPage({ params }: PageProps) {
         </div>
       </section>
     </div>
+    </>
   )
 }

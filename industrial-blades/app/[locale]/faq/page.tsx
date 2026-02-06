@@ -7,8 +7,9 @@ import { ChevronDown, HelpCircle, MessageCircle, Phone } from 'lucide-react'
 import { PageHeader, Button } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import { getFAQsGroupedByCategory, getCategoryNames, CATEGORY_ORDER, type FAQCategory } from '@/lib/data/faq'
-import { generateFAQSchema } from '@/lib/seo'
+import { generateFAQSchema, generateBreadcrumbSchema } from '@/lib/seo'
 import { siteConfig, getWhatsAppUrl, getCanonicalUrl, getHreflangUrls } from '@/lib/config'
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 import Link from 'next/link'
 
 interface PageProps {
@@ -62,7 +63,30 @@ export default async function FAQPage({ params }: PageProps) {
   }))
   
   const faqSchema = generateFAQSchema(allFaqs)
-  
+
+  // BreadcrumbList Schema - Home → FAQ
+  const faqTitles: Record<Locale, string> = {
+    tr: 'Sıkça Sorulan Sorular',
+    en: 'FAQ',
+    ar: 'الأسئلة الشائعة',
+    ru: 'ЧаВо',
+    fr: 'FAQ',
+  }
+  const homeTitles: Record<Locale, string> = {
+    tr: 'Ana Sayfa',
+    en: 'Home',
+    ar: 'الرئيسية',
+    ru: 'Главная',
+    fr: 'Accueil',
+  }
+  const breadcrumbSchema = generateBreadcrumbSchema(
+    [
+      { name: homeTitles[locale], url: `/${locale}` },
+      { name: faqTitles[locale] },
+    ],
+    locale as SupportedLocale
+  )
+
   // Page content by locale
   const content = {
     tr: {
@@ -120,6 +144,11 @@ export default async function FAQPage({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       
       {/* Hero */}
