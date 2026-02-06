@@ -180,7 +180,7 @@ export default async function LocaleLayout({
         <LocaleProvider locale={locale} dictionary={dict}>
           <SkipLink href="#main-content" />
           <Header />
-          <main id="main-content" className="min-h-screen pt-20 lg:pt-24" tabIndex={-1}>
+          <main id="main-content" className="min-h-screen" style={{ paddingTop: 'var(--header-height, 70px)' }} tabIndex={-1}>
             {children}
           </main>
           <Footer />

@@ -122,7 +122,7 @@ export default async function PDFViewerPage({ params }: PageProps) {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
             />
 
-            <div className="flex flex-col h-screen bg-steel-900 overflow-hidden">
+            <div className="flex flex-col bg-steel-900 overflow-hidden" style={{ height: 'calc(100dvh - var(--header-height, 70px))' }}>
                 {/* Toolbar */}
                 <header className="flex items-center justify-between px-4 py-3 bg-steel-950 text-white shadow-lg z-10">
                     <div className="flex items-center gap-4">

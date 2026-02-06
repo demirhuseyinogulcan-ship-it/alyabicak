@@ -12,7 +12,7 @@
 
 'use client'
 
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import dynamic from 'next/dynamic'
 import { Menu, X, Search } from 'lucide-react'
 import { usePathname } from 'next/navigation'
@@ -58,6 +58,7 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false)
   const [closeTimer, setCloseTimer] = useState<NodeJS.Timeout | null>(null)
+  const headerRef = useRef<HTMLElement>(null)
   
   // i18n
   const { locale } = useLocale()
@@ -79,6 +80,15 @@ export default function Header() {
         : `/${locale}${item.href}`,
     }))
   }, [locale, dict])
+
+  // Set --header-height CSS variable on mount (initial non-scrolled height)
+  useEffect(() => {
+    const header = headerRef.current
+    if (header) {
+      const height = header.offsetHeight
+      document.documentElement.style.setProperty('--header-height', `${height}px`)
+    }
+  }, [])
 
   // Scroll event handler
   useEffect(() => {
@@ -118,12 +128,14 @@ export default function Header() {
 
   return (
     <header 
+      ref={headerRef}
       className={`
         fixed top-0 left-0 right-0 z-50 
-        transition-[background-color,box-shadow,padding] duration-200 ease-out
+        transition-[box-shadow,padding] duration-200 ease-out
+        bg-white
         ${isScrolled 
-          ? 'bg-white shadow-lg py-2' 
-          : 'bg-white/95 backdrop-blur-sm py-4'
+          ? 'shadow-lg py-2' 
+          : 'py-4'
         }
       `}
     >
