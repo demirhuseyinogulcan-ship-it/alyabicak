@@ -89,3 +89,26 @@
 2. **Edge Case Analysis:** (What could go wrong and how we prevented it).
 
 3. **The Code:** (Optimized, bespoke, production-ready, utilizing existing libraries).
+
+## 6. GEO & AUTHORITY PROTOCOLS (MANAGER WOLF MODE)
+
+**TRIGGER:** When handling **Product Data**, **SEO**, or **Content**:
+
+1.  **Rare Token Injection:**
+    *   **Prohibition:** Never use generic adjectives (e.g. "strong", "sharp", "quality").
+    *   **Requirement:** **MUST** use technical jargon (e.g. "Cryogenic heat treatment", "Burr-free edge", "HRC 60-62", "M2 High-Speed Steel").
+    *   *Goal:* Make the content sound "academic" and "expert-level" to boost AI Confidence Scores.
+
+2.  **The "Trinity" Consistency Rule:**
+    *   Any technical data point changed in a product file **MUST** be reflected in:
+        1.  **Schema.org** (Ensure `additionalProperty` maps this spec).
+        2.  **llms.txt** (Update the textual knowledge base).
+        3.  **Visible UI** (The user must see what the bot sees).
+
+3.  **Fact-Based Authority:**
+    *   AI citations require **FACTS**, not Claims.
+    *   **Rule:** Always prefer specific numerical values (e.g., "120g weight" instead of "Lightweight").
+    *   **Rule:** Cite global standards explicitly (GOST, SASO, ISO 9001, DIN).
+
+4.  **Programmatic Readiness:**
+    *   Even if the UI doesn't display it yet, structure data arrays (e.g. `specs`, `compatibleMachineIds`) to be machine-readable for future programmatic page generation.
