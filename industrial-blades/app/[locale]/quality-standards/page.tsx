@@ -23,7 +23,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
-  
+
   const titles = {
     tr: 'Kalite Standartlarımız',
     en: 'Our Quality Standards',
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ru: 'Стандарты качества Alya и всемирно признанная гарантия качества промышленных резаков.',
     fr: 'Normes de qualité Alya et assurance qualité mondialement reconnue dans les outils de coupe industriels.',
   }
-  
+
   return generateSeoMetadata({
     title: titles[locale],
     description: descriptions[locale],
@@ -181,39 +181,39 @@ const content = {
       },
     ],
   },
-    fr: {
-      heroTitle: 'Nos normes de qualité',
-      heroDescription: 'Nous fournissons des solutions de coupe industrielle dans le monde entier avec des normes de qualité mondialement reconnues.',
-      exploreProducts: 'Explorer les produits',
-      madeInSheffield: 'Fabriqué à Sheffield',
-      whySheffield: 'Pourquoi Sheffield ?',
-      whySheffieldDesc: 'Sheffield est le cœur de l\'industrie sidérurgique mondiale depuis des siècles.',
-      ctaTitle: 'Découvrez la qualité Sheffield',
-      ctaDescription: 'Contactez-nous pour les normes de qualité les plus élevées dans les outils de coupe industriels.',
-      contactUs: 'Contactez-nous',
-      qualityPoints: [
-        {
-          icon: Award,
-          title: 'Marque mondialement reconnue',
-          description: 'Fabriqué à Sheffield est un symbole de qualité et de fiabilité dans le monde entier depuis les années 1800.',
-        },
-        {
-          icon: Shield,
-          title: 'Marque de qualité enregistrée',
-          description: 'Marque officielle enregistrée auprès de l\'Office britannique des brevets, offrant une garantie d\'authenticité et de qualité.',
-        },
-        {
-          icon: Factory,
-          title: 'Technologie de fabrication avancée',
-          description: 'Combinaison parfaite de savoir-faire traditionnel et de technologie de fabrication moderne.',
-        },
-        {
-          icon: Globe,
-          title: 'Norme de qualité mondiale',
-          description: 'Assurance qualité internationalement reconnue, privilégiée par les marques mondiales de premier plan.',
-        },
-      ],
-    },
+  fr: {
+    heroTitle: 'Nos normes de qualité',
+    heroDescription: 'Nous fournissons des solutions de coupe industrielle dans le monde entier avec des normes de qualité mondialement reconnues.',
+    exploreProducts: 'Explorer les produits',
+    madeInSheffield: 'Fabriqué à Sheffield',
+    whySheffield: 'Pourquoi Sheffield ?',
+    whySheffieldDesc: 'Sheffield est le cœur de l\'industrie sidérurgique mondiale depuis des siècles.',
+    ctaTitle: 'Découvrez la qualité Sheffield',
+    ctaDescription: 'Contactez-nous pour les normes de qualité les plus élevées dans les outils de coupe industriels.',
+    contactUs: 'Contactez-nous',
+    qualityPoints: [
+      {
+        icon: Award,
+        title: 'Marque mondialement reconnue',
+        description: 'Fabriqué à Sheffield est un symbole de qualité et de fiabilité dans le monde entier depuis les années 1800.',
+      },
+      {
+        icon: Shield,
+        title: 'Marque de qualité enregistrée',
+        description: 'Marque officielle enregistrée auprès de l\'Office britannique des brevets, offrant une garantie d\'authenticité et de qualité.',
+      },
+      {
+        icon: Factory,
+        title: 'Technologie de fabrication avancée',
+        description: 'Combinaison parfaite de savoir-faire traditionnel et de technologie de fabrication moderne.',
+      },
+      {
+        icon: Globe,
+        title: 'Norme de qualité mondiale',
+        description: 'Assurance qualité internationalement reconnue, privilégiée par les marques mondiales de premier plan.',
+      },
+    ],
+  },
 };
 
 export default async function QualityStandardsPage({
@@ -228,35 +228,42 @@ export default async function QualityStandardsPage({
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-steel-900 via-steel-800 to-steel-900 pt-32 pb-20">
-        <div className="absolute inset-0 bg-circuit-pattern opacity-5" />
-        
-        <div className="relative container mx-auto px-6">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              {c.heroTitle}
-            </h1>
-            <p className="text-lg md:text-xl text-steel-200 max-w-3xl mx-auto mb-8">
-              {c.heroDescription}
-            </p>
-            
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Link
-                href={`/${locale}/categories`}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all"
-              >
-                {c.exploreProducts}
-                <ArrowRight className="w-5 h-5" />
-              </Link>
-              <a
-                href="https://www.madeinsheffield.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg transition-all border border-white/20"
-              >
-                {c.madeInSheffield}
-                <Globe className="w-5 h-5" />
-              </a>
+      {/* Hero Section */}
+      <div className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+        <VideoBackground
+          videoSrc="/videos/steel-production.mp4"
+          posterSrc="/images/quality-hero-poster.jpg"
+          overlayOpacity={60}
+        />
+
+        <div className="relative z-10 w-full">
+          <div className="container mx-auto px-6">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+                {c.heroTitle}
+              </h1>
+              <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-10 drop-shadow-md">
+                {c.heroDescription}
+              </p>
+
+              <div className="flex flex-wrap gap-4 justify-center">
+                <Link
+                  href={`/${locale}/categories`}
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all shadow-lg hover:shadow-primary-600/30"
+                >
+                  {c.exploreProducts}
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
+                <a
+                  href="https://www.madeinsheffield.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg transition-all border border-white/30 backdrop-blur-sm"
+                >
+                  {c.madeInSheffield}
+                  <Globe className="w-5 h-5" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -276,7 +283,7 @@ export default async function QualityStandardsPage({
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {c.qualityPoints.map((point, index) => (
-              <div 
+              <div
                 key={index}
                 className="group p-6 bg-steel-50 rounded-xl hover:bg-white hover:shadow-card transition-all duration-300 border border-steel-100"
               >
