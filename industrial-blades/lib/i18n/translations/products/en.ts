@@ -1523,7 +1523,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   '3dj-paslanmaz-titanyum-60x22': {
     name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, 60x22',
-    description: '60x22mm large format, stainless steel + TiN coated blade. Offers longer cutting line than standard 43x22mm size. Preferred for cutting wide webs, multiple band slitting operations, and high-capacity machines. Corrosion resistance of stainless steel and low friction advantage of TiN coating maintained in large format. Means longer blade life and fewer blade changes.',
+    description: '60x22mm large format, stainless steel + TiN coated blade. Offers longer cutting line than standard 43x22mm size. Preferred for cutting wide webs, multiple band slitting operations, and high-capacity machines. Corrosion resistance of stainless steel and low friction advantage of TiN coating maintained in large format. Means longer blade life and fewer blade changes. Available thicknesses: 0.15mm, 0.20mm, 0.30mm.',
     features: ['60x22mm large format', 'Extended cutting line', 'Stainless + TiN coating', 'For high-capacity machines', 'Fewer blade changes', 'Wide web compatible'],
     applications: ['Wide web slitting', 'Multiple band operations', 'High-capacity slitting machines', 'Industrial-scale production'],
     seo: {
@@ -1534,7 +1534,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   '3dj-paslanmaz-titanyum-cizikli-60x22': {
     name: '3-Hole Slitting Blade - Stainless Steel + Titanium Coating, Scored, 60x22',
-    description: '60x22mm large format, stainless steel + TiN coated, center-splittable scored blade. Combines large format advantages with scored design flexibility. When 60mm blade is split at center, two 30mm half blades are obtained. These halves can be used in different stations or machines requiring narrow cuts. Provides advantage for economical usage and inventory management.',
+    description: '60x22mm large format, stainless steel + TiN coated, center-splittable scored blade. Combines large format advantages with scored design flexibility. When 60mm blade is split at center, two 30mm half blades are obtained. These halves can be used in different stations or machines requiring narrow cuts. Provides advantage for economical usage and inventory management. Available thicknesses: 0.15mm, 0.20mm, 0.30mm.',
     features: ['60x22mm large format', 'Center-splittable', '2x 30mm half blade option', 'Stainless + TiN coating', 'Flexible usage', 'Economical inventory management'],
     applications: ['Multi-machine systems', 'Different workstations', 'Economy-focused operations', 'Flexible production lines'],
     seo: {

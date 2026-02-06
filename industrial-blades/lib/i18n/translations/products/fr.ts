@@ -2197,7 +2197,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   '3dj-paslanmaz-titanyum-60x22': {
     name: 'Lame de Refendage 3 Trous – Inox + Titane, 60x22mm',
-    description: 'Format large 60x22mm avec revêtement inoxydable + TiN. Ligne de coupe plus longue pour bobines larges.',
+    description: 'Format large 60x22mm avec revêtement inoxydable + TiN. Ligne de coupe plus longue pour bobines larges. Épaisseurs disponibles : 0,15mm, 0,20mm, 0,30mm.',
     features: [
       'Format large 60x22mm',
       'Ligne de coupe étendue',
@@ -2215,7 +2215,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   '3dj-paslanmaz-titanyum-cizikli-60x22': {
     name: 'Lame de Refendage 3 Trous – Inox + Titane, Rainurée, 60x22mm',
-    description: 'Format large 60x22mm avec rainure divisible. Se divise en deux demi-lames de 30mm pour utilisation flexible.',
+    description: 'Format large 60x22mm avec rainure divisible. Se divise en deux demi-lames de 30mm pour utilisation flexible. Épaisseurs disponibles : 0,15mm, 0,20mm, 0,30mm.',
     features: [
       'Format large 60x22mm',
       'Divisible en 2x 30mm',
