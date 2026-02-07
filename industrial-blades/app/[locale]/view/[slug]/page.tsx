@@ -57,7 +57,7 @@ export default async function PDFViewerPage({ params }: PageProps) {
         tr: {
             back: 'Kataloğa Dön',
             download: 'İndir',
-            copyCitation: 'Kaynak Göster (Kopyala)',
+            copyCitation: 'İndirmeden Kopyala',
             share: 'Paylaş',
             citationCopied: 'Kopyalandı!',
             citationText: `Kaynak: Alya Bıçak - ${catalog.title} (${domain}/${locale}/view/${slug})`,
@@ -65,15 +65,15 @@ export default async function PDFViewerPage({ params }: PageProps) {
         en: {
             back: 'Back to Catalog',
             download: 'Download',
-            copyCitation: 'Cite This (Copy)',
+            copyCitation: 'Copy Without Download',
             share: 'Share',
             citationCopied: 'Copied!',
             citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`,
         },
         // Fallbacks for other languages to EN or simple translation
-        ar: { back: 'عودة', download: 'تحميل', copyCitation: 'نسخ المصدر', share: 'مشاركة', citationCopied: 'تم النسخ', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
-        ru: { back: 'Назад', download: 'Скачать', copyCitation: 'Цитировать', share: 'Поделиться', citationCopied: 'Скопировано', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
-        fr: { back: 'Retour', download: 'Télécharger', copyCitation: 'Citer', share: 'Partager', citationCopied: 'Copié', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
+        ar: { back: 'عودة', download: 'تحميل', copyCitation: 'نسخ بدون تحميل', share: 'مشاركة', citationCopied: 'تم النسخ', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
+        ru: { back: 'Назад', download: 'Скачать', copyCitation: 'Копировать без скачивания', share: 'Поделиться', citationCopied: 'Скопировано', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
+        fr: { back: 'Retour', download: 'Télécharger', copyCitation: 'Copier sans télécharger', share: 'Partager', citationCopied: 'Copié', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
     }[locale] || {
         back: 'Back',
         download: 'Download',
