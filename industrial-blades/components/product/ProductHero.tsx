@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { MessageCircle, FileText, ChevronLeft, ChevronRight } from 'lucide-react';
+import { FileText, ChevronLeft, ChevronRight } from 'lucide-react';
+import { WhatsAppIcon } from '@/components/icons';
 import type { ProductExtended } from '@/lib/types/product.types';
 import { siteConfig, getWhatsAppUrl } from '@/lib/config/site.config';
 import { useLocale } from '@/lib/i18n/client';
@@ -229,7 +230,7 @@ export function ProductHero({ product }: ProductHeroProps) {
                 className="group flex items-center gap-4 w-full p-4 border border-steel-200 rounded-lg hover:border-green-500 hover:bg-green-50 transition-all duration-200"
               >
                 <div className="flex items-center justify-center w-10 h-10 bg-green-500 rounded-lg flex-shrink-0">
-                  <MessageCircle className="w-5 h-5 text-white" />
+                  <WhatsAppIcon className="w-5 h-5 text-white" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <span className="block text-sm font-semibold text-steel-800 group-hover:text-green-700 transition-colors">
