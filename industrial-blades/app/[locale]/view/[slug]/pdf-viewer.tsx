@@ -69,18 +69,13 @@ export function PDFViewer({ src, title, zoomInLabel = 'Yakınlaştır', zoomOutL
 
     return (
         <div ref={containerRef} className="flex-1 bg-steel-100 relative flex flex-col">
-            {/* PDF Content */}
-            <div className="flex-1 overflow-auto relative">
+            {/* PDF Content - key prop forces re-render on zoom change for native PDF zoom */}
+            <div className="flex-1 overflow-hidden relative">
                 <iframe
+                    key={zoom} // Force re-mount when zoom changes
                     ref={iframeRef}
-                    src={`${src}#toolbar=0&navpanes=0&scrollbar=0`}
-                    className="border-0 block origin-top-left"
-                    style={{
-                        width: `${(100 / zoom) * 100}%`,
-                        height: `${(100 / zoom) * 100}%`,
-                        transform: `scale(${zoom / 100})`,
-                        transformOrigin: 'top left',
-                    }}
+                    src={`${src}#zoom=${zoom}&toolbar=0&navpanes=0&scrollbar=0`}
+                    className="w-full h-full border-0 block"
                     title={title}
                     allowFullScreen
                 />
