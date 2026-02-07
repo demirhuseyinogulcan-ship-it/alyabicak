@@ -21,6 +21,15 @@ export default function WhatsAppButton() {
   const { locale, dictionary: dict } = useLocale();
   const t = dict.whatsapp;
 
+  // Oturumda daha önce kapatıldı mı kontrol et
+  useEffect(() => {
+    try {
+      if (sessionStorage.getItem('wa_tooltip_dismissed') === '1') {
+        setHasInteracted(true)
+      }
+    } catch {}
+  }, [])
+
   // Dinamik sayfa mesajı oluştur
   const getPageMessage = (path: string): string => {
     // Locale prefix'ini çıkar
@@ -91,12 +100,14 @@ export default function WhatsAppButton() {
   const dismissTooltip = () => {
     setShowTooltip(false)
     setHasInteracted(true)
+    try { sessionStorage.setItem('wa_tooltip_dismissed', '1') } catch {}
   }
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded)
     setShowTooltip(false)
     setHasInteracted(true)
+    try { sessionStorage.setItem('wa_tooltip_dismissed', '1') } catch {}
   }
 
   if (!siteConfig.features.enableWhatsApp) return null

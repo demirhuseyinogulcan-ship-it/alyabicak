@@ -201,29 +201,47 @@ export function ProductHero({ product }: ProductHeroProps) {
             )}
             
             {/* CTA Butonları */}
-            <div className="mt-8 flex flex-col sm:flex-row gap-3">
+            <div className="mt-8 space-y-3">
+              {/* Birincil CTA - Teklif İste */}
               <a
                 href={`mailto:${siteConfig.contact.email}?subject=${encodeURIComponent(t.productDetail.emailSubject.replace('{{code}}', product.code).replace('{{name}}', product.name))}&body=${encodeURIComponent(t.productDetail.emailBody.replace(/{{code}}/g, product.code).replace(/{{name}}/g, product.name))}`}
-                className="flex items-center justify-center gap-2 px-6 py-3 bg-steel-900 text-white font-medium rounded-lg hover:bg-steel-800 transition-colors"
+                className="group flex items-center gap-4 w-full p-4 border-2 border-steel-900 rounded-lg hover:bg-steel-900 transition-all duration-200"
               >
-                <FileText className="w-5 h-5" />
-                {t.productDetail.requestQuote}
+                <div className="flex items-center justify-center w-10 h-10 bg-steel-900 group-hover:bg-white rounded-lg transition-colors flex-shrink-0">
+                  <FileText className="w-5 h-5 text-white group-hover:text-steel-900 transition-colors" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <span className="block text-sm font-semibold text-steel-900 group-hover:text-white transition-colors">
+                    {t.productDetail.requestQuote}
+                  </span>
+                  <span className="block text-xs text-steel-500 group-hover:text-steel-300 transition-colors">
+                    {product.code} · {t.productDetail.bulkOrderInfo}
+                  </span>
+                </div>
+                <ChevronRight className="w-5 h-5 text-steel-400 group-hover:text-white group-hover:translate-x-0.5 transition-all flex-shrink-0" />
               </a>
+
+              {/* İkincil CTA - WhatsApp */}
               <a
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors"
+                className="group flex items-center gap-4 w-full p-4 border border-steel-200 rounded-lg hover:border-green-500 hover:bg-green-50 transition-all duration-200"
               >
-                <MessageCircle className="w-5 h-5" />
-                {t.productDetail.whatsappChat}
+                <div className="flex items-center justify-center w-10 h-10 bg-green-500 rounded-lg flex-shrink-0">
+                  <MessageCircle className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <span className="block text-sm font-semibold text-steel-800 group-hover:text-green-700 transition-colors">
+                    {t.productDetail.whatsappChat}
+                  </span>
+                  <span className="block text-xs text-steel-500">
+                    {t.productDetail.bulkOrderInfo}
+                  </span>
+                </div>
+                <ChevronRight className="w-5 h-5 text-steel-300 group-hover:text-green-500 group-hover:translate-x-0.5 transition-all flex-shrink-0" />
               </a>
             </div>
-            
-            {/* Alt Bilgi */}
-            <p className="mt-4 text-sm text-steel-500">
-              {t.productDetail.bulkOrderInfo}
-            </p>
             
             {/* Stok Durumu */}
             {product.inStock !== undefined && (

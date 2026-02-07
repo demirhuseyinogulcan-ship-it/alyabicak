@@ -7,6 +7,7 @@ import { getDictionary, type Locale } from '@/lib/i18n'
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 import { Metadata } from 'next'
 import { CopyButton } from './copy-button'
+import { PDFViewer } from './pdf-viewer'
 
 interface PageProps {
     params: Promise<{
@@ -61,6 +62,10 @@ export default async function PDFViewerPage({ params }: PageProps) {
             share: 'Paylaş',
             citationCopied: 'Kopyalandı!',
             citationText: `Kaynak: Alya Bıçak - ${catalog.title} (${domain}/${locale}/view/${slug})`,
+            zoomIn: 'Yakınlaştır',
+            zoomOut: 'Uzaklaştır',
+            zoomReset: 'Sıfırla',
+            fullscreen: 'Tam Ekran',
         },
         en: {
             back: 'Back to Catalog',
@@ -69,11 +74,15 @@ export default async function PDFViewerPage({ params }: PageProps) {
             share: 'Share',
             citationCopied: 'Copied!',
             citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`,
+            zoomIn: 'Zoom In',
+            zoomOut: 'Zoom Out',
+            zoomReset: 'Reset',
+            fullscreen: 'Fullscreen',
         },
         // Fallbacks for other languages to EN or simple translation
-        ar: { back: 'عودة', download: 'تحميل', copyCitation: 'نسخ بدون تحميل', share: 'مشاركة', citationCopied: 'تم النسخ', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
-        ru: { back: 'Назад', download: 'Скачать', copyCitation: 'Копировать без скачивания', share: 'Поделиться', citationCopied: 'Скопировано', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
-        fr: { back: 'Retour', download: 'Télécharger', copyCitation: 'Copier sans télécharger', share: 'Partager', citationCopied: 'Copié', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})` },
+        ar: { back: 'عودة', download: 'تحميل', copyCitation: 'نسخ بدون تحميل', share: 'مشاركة', citationCopied: 'تم النسخ', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`, zoomIn: 'تكبير', zoomOut: 'تصغير', zoomReset: 'إعادة', fullscreen: 'ملء الشاشة' },
+        ru: { back: 'Назад', download: 'Скачать', copyCitation: 'Копировать без скачивания', share: 'Поделиться', citationCopied: 'Скопировано', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`, zoomIn: 'Увеличить', zoomOut: 'Уменьшить', zoomReset: 'Сброс', fullscreen: 'Полный экран' },
+        fr: { back: 'Retour', download: 'Télécharger', copyCitation: 'Copier sans télécharger', share: 'Partager', citationCopied: 'Copié', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`, zoomIn: 'Agrandir', zoomOut: 'Réduire', zoomReset: 'Réinitialiser', fullscreen: 'Plein écran' },
     }[locale] || {
         back: 'Back',
         download: 'Download',
@@ -81,6 +90,10 @@ export default async function PDFViewerPage({ params }: PageProps) {
         share: 'Share',
         citationCopied: 'Copied',
         citationText: `Source: Alya Blade`,
+        zoomIn: 'Zoom In',
+        zoomOut: 'Zoom Out',
+        zoomReset: 'Reset',
+        fullscreen: 'Fullscreen',
     }
 
     // Schema: TechArticle (Google loves this for technical content)
@@ -153,15 +166,15 @@ export default async function PDFViewerPage({ params }: PageProps) {
                     </div>
                 </header>
 
-                {/* PDF Embedded Viewer */}
-                <div className="flex-1 bg-steel-100 relative">
-                    <iframe
-                        src={`${catalog.pdfUrl}#toolbar=0&navpanes=0&scrollbar=0`}
-                        className="w-full h-full border-0 block"
-                        title={catalog.title}
-                        allowFullScreen
-                    />
-                </div>
+                {/* PDF Embedded Viewer with Zoom Controls */}
+                <PDFViewer
+                    src={catalog.pdfUrl}
+                    title={catalog.title}
+                    zoomInLabel={l.zoomIn}
+                    zoomOutLabel={l.zoomOut}
+                    resetLabel={l.zoomReset}
+                    fullscreenLabel={l.fullscreen}
+                />
 
                 {/* Footnote Trap */}
                 <div className="bg-steel-50 px-4 py-2 text-center text-[10px] text-steel-400 border-t border-steel-200">
