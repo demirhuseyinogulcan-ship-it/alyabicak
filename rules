@@ -113,6 +113,8 @@
 4.  **Programmatic Readiness:**
     *   Even if the UI doesn't display it yet, structure data arrays (e.g. `specs`, `compatibleMachineIds`) to be machine-readable for future programmatic page generation.
 
+
+------
     Goal
 To transform the website's data structure into a format that AI Authority Engines (Perplexity, SearchGPT) can verify as "Fact" and cite as a "Source".
 

@@ -2,7 +2,7 @@
  * Katalog Sayfası - i18n Destekli
  */
 import { generateMetadata as genMeta } from '@/lib/seo'
-import { Download, Eye } from 'lucide-react'
+import { Download, Eye, Home, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getDictionary, type Locale } from '@/lib/i18n'
@@ -73,12 +73,54 @@ export default async function CatalogPage({ params }: PageProps) {
     }))
   }
 
+  // BreadcrumbList Schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: locale === 'tr' ? 'Anasayfa' : 'Home',
+        item: `${getDomainUrl(locale as SupportedLocale)}/${locale}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: l.heroTitle,
+      },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      {/* Breadcrumb */}
+      <nav aria-label="Breadcrumb" className="py-3 bg-steel-50 border-b border-steel-200">
+        <div className="container mx-auto px-4">
+          <ol className="flex items-center gap-1.5 text-sm flex-wrap">
+            <li>
+              <Link href={`/${locale}`} className="flex items-center gap-1 text-steel-500 hover:text-primary-600 transition-colors">
+                <Home className="w-4 h-4" />
+                <span className="hidden sm:inline">{dict.nav.home}</span>
+              </Link>
+            </li>
+            <li className="flex items-center gap-1.5">
+              <ChevronRight className="w-3.5 h-3.5 text-steel-300 flex-shrink-0" aria-hidden="true" />
+              <span className="text-steel-800 font-medium" aria-current="page">{l.heroTitle}</span>
+            </li>
+          </ol>
+        </div>
+      </nav>
+
       {/* Minimal Hero */}
       <section className="py-12 bg-steel-50 border-b border-steel-200">
         <div className="container mx-auto px-4">

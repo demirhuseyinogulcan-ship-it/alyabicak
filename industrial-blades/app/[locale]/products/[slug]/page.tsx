@@ -2,6 +2,8 @@ import { generateEnhancedProductSchema } from '@/lib/seo';
 
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { ChevronRight, Home } from 'lucide-react';
 import {
   getProductBySlug,
   getAllProductSlugs,
@@ -13,7 +15,6 @@ import {
   WhyThisProduct,
   ProductApplications,
   RelatedProducts,
-  ProductBreadcrumb,
 } from '@/components/product';
 import { ProductViewTracker } from '@/components/analytics';
 import { siteConfig } from '@/lib/config/site.config';
@@ -99,10 +100,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const relatedProducts = getRelatedProducts(product.id, locale);
 
   // Breadcrumb items (locale-aware)
+  const homeLabel = dict.nav.home;
   const breadcrumbItems = [
     { label: dict.nav.categories, href: `/${locale}/categories` },
     { label: getCategoryDisplayName(product.categoryId, locale), href: `/${locale}/categories/${product.categoryId}` },
-    { label: product.code },
+    { label: product.name },
   ];
 
   // JSON-LD Schema - Structured Product Data Schema (SPDS)
@@ -153,8 +155,36 @@ export default async function ProductPage({ params }: ProductPageProps) {
         subcategory={product.subcategoryId}
       />
 
-      {/* Breadcrumb */}
-      <ProductBreadcrumb items={breadcrumbItems} />
+      {/* Breadcrumb - Server rendered for reliability */}
+      <nav aria-label="Breadcrumb" className="py-3 bg-steel-50 border-b border-steel-200">
+        <div className="container mx-auto px-4">
+          <ol className="flex items-center gap-1.5 text-sm flex-wrap">
+            <li>
+              <Link href={`/${locale}`} className="flex items-center gap-1 text-steel-500 hover:text-primary-600 transition-colors">
+                <Home className="w-4 h-4" />
+                <span className="hidden sm:inline">{homeLabel}</span>
+              </Link>
+            </li>
+            {breadcrumbItems.map((item, index) => {
+              const isLast = index === breadcrumbItems.length - 1;
+              return (
+                <li key={index} className="flex items-center gap-1.5">
+                  <ChevronRight className="w-3.5 h-3.5 text-steel-300 flex-shrink-0" aria-hidden="true" />
+                  {item.href && !isLast ? (
+                    <Link href={item.href} className="text-steel-500 hover:text-primary-600 transition-colors">
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <span className={isLast ? 'text-steel-800 font-medium truncate max-w-[250px] sm:max-w-none' : 'text-steel-500'} aria-current={isLast ? 'page' : undefined} title={item.label}>
+                      {item.label}
+                    </span>
+                  )}
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      </nav>
 
       {/* Hero Section */}
       <ProductHero product={product} />
@@ -231,8 +261,23 @@ function getCategoryDisplayName(categoryId: string, locale: string): string {
       'industrial-blades': 'Industrial Blades',
       'machine-knives': 'Machine Blades',
     },
+    ar: {
+      'safety-knives': 'سكاكين السلامة',
+      'industrial-blades': 'شفرات صناعية',
+      'machine-knives': 'سكاكين الآلات',
+    },
+    ru: {
+      'safety-knives': 'Ножи безопасности',
+      'industrial-blades': 'Промышленные лезвия',
+      'machine-knives': 'Машинные ножи',
+    },
+    fr: {
+      'safety-knives': 'Couteaux de Sécurité',
+      'industrial-blades': 'Lames Industrielles',
+      'machine-knives': 'Couteaux de Machines',
+    },
   };
-  return names[locale]?.[categoryId] || categoryId;
+  return names[locale]?.[categoryId] || names['tr']?.[categoryId] || categoryId;
 }
 
 interface BreadcrumbItem {
