@@ -5,41 +5,56 @@
  * Strategy: afterInteractive - loads after page is interactive (no blocking)
  * 
  * Multi-domain setup:
- * - alyabicak.com (TR) → G-2BMPKZSXH7
- * - alyablade.com (EN/AR/RU) → G-S8NNTTMKS0
+ * - alyabicak.com (TR) → NEXT_PUBLIC_GA_MEASUREMENT_ID_TR
+ * - alyablade.com (EN/AR/RU/FR) → NEXT_PUBLIC_GA_MEASUREMENT_ID_GLOBAL
+ * 
+ * Enhanced Measurement (scroll, outbound clicks, site search, video, downloads)
+ * is configured in GA4 Dashboard → Admin → Data Streams → Enhanced Measurement
  */
 
 'use client'
 
 import Script from 'next/script'
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 
-const GA_ID_TR = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID_TR // alyabicak.com
-const GA_ID_GLOBAL = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID_GLOBAL // alyablade.com
+const GA_ID_TR = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID_TR
+const GA_ID_GLOBAL = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID_GLOBAL
 
 export default function GoogleAnalytics() {
   const [measurementId, setMeasurementId] = useState<string | null>(null)
+  const pathname = usePathname()
 
   useEffect(() => {
-    // Determine which GA ID to use based on hostname
     const hostname = window.location.hostname
     
     if (hostname.includes('alyabicak.com')) {
       setMeasurementId(GA_ID_TR || null)
-    } else {
-      // alyablade.com or other (EN/AR/RU)
+    } else if (hostname.includes('alyablade.com')) {
       setMeasurementId(GA_ID_GLOBAL || null)
+    } else {
+      // localhost / preview deployment — her iki ID'den birini kullan
+      setMeasurementId(GA_ID_TR || GA_ID_GLOBAL || null)
     }
   }, [])
 
-  // Don't render if no measurement ID configured
+  // Sayfa değişikliklerinde page_view event'i tetikle (SPA navigasyonu)
+  useEffect(() => {
+    if (measurementId && typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'page_view', {
+        page_path: pathname,
+        page_location: window.location.href,
+        page_title: document.title,
+      })
+    }
+  }, [pathname, measurementId])
+
   if (!measurementId) {
     return null
   }
 
   return (
     <>
-      {/* Google tag (gtag.js) */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
         strategy="afterInteractive"
@@ -50,16 +65,7 @@ export default function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${measurementId}', {
-            page_path: window.location.pathname,
-            send_page_view: true,
-            // Enhanced measurement - automatic events
-            enhanced_measurement: {
-              scroll: true,
-              outbound_clicks: true,
-              site_search: true,
-              video_engagement: true,
-              file_downloads: true
-            }
+            send_page_view: true
           });
         `}
       </Script>

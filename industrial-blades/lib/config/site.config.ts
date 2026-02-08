@@ -103,9 +103,9 @@ export const siteConfig = {
     enableWhatsApp: true,
     enableContactForm: true,
     enableProductSearch: true, // Aktif
-    enableBlog: false, // TODO: Blog eklendiğinde true yap
+    enableBlog: true, // ✅ Bülten/Blog AKTIF
     enableMultiLanguage: true, // ✅ Çoklu dil AKTIF
-    enableAnalytics: false, // TODO: Analytics eklendiğinde true yap
+    enableAnalytics: true, // ✅ Analytics AKTIF (GA4 + Clarity + Vercel)
     enableCookieConsent: true, // KVKK uyumu için aktif
   },
 } as const;
