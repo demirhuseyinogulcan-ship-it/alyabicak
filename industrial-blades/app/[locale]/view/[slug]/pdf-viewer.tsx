@@ -111,14 +111,15 @@ export function PDFViewer({ src, title, zoomInLabel = 'Yakınlaştır', zoomOutL
     const pageWidth = containerWidth > 0 ? containerWidth * zoom : undefined
 
     return (
-        <div ref={containerRef} className="flex-1 bg-steel-100 relative flex flex-col">
+        <div ref={containerRef} className="flex-1 min-h-0 bg-steel-100 relative flex flex-col">
             {/* PDF Content - react-pdf canvas rendering (works on mobile) */}
             <div 
                 ref={scrollRef} 
-                className="flex-1 overflow-auto"
+                className="flex-1 min-h-0 overflow-auto"
                 style={{ 
                     WebkitOverflowScrolling: 'touch',
                     overscrollBehavior: 'contain',
+                    touchAction: 'pan-y pinch-zoom',
                 }}
             >
                 <Document
