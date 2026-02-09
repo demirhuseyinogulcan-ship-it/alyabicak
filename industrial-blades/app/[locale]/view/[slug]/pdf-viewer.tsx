@@ -21,6 +21,10 @@ interface PDFViewerProps {
 const ZOOM_LEVELS = [0.5, 0.75, 1, 1.25, 1.5, 2]
 const DEFAULT_ZOOM_INDEX = 2 // 100%
 
+// Masaüstünde rahat okuma genişliği — A4 kağıdın ekrandaki gerçek boyutu (~96dpi)
+// Mobilde containerWidth zaten bu değerin altında olduğundan etkilenmez
+const MAX_BASE_WIDTH = 800
+
 export function PDFViewer({ src, title, zoomInLabel = 'Yakınlaştır', zoomOutLabel = 'Uzaklaştır', resetLabel = 'Sıfırla', fullscreenLabel = 'Tam Ekran' }: PDFViewerProps) {
     const [zoomIndex, setZoomIndex] = useState(DEFAULT_ZOOM_INDEX)
     const [numPages, setNumPages] = useState<number>(0)
@@ -107,8 +111,9 @@ export function PDFViewer({ src, title, zoomInLabel = 'Yakınlaştır', zoomOutL
         return () => window.removeEventListener('keydown', handleKeyDown)
     }, [handleZoomIn, handleZoomOut, handleReset, handlePrevPage, handleNextPage])
 
-    // Calculate page width based on container and zoom
-    const pageWidth = containerWidth > 0 ? containerWidth * zoom : undefined
+    // Calculate page width: cap at MAX_BASE_WIDTH so desktop doesn't over-zoom
+    const baseWidth = containerWidth > 0 ? Math.min(containerWidth, MAX_BASE_WIDTH) : 0
+    const pageWidth = baseWidth > 0 ? baseWidth * zoom : undefined
 
     return (
         <div ref={containerRef} className="flex-1 min-h-0 bg-steel-100 relative flex flex-col">
