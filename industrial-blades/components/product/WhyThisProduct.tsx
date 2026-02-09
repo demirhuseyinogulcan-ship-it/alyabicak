@@ -10,6 +10,15 @@ import {
   Target,
   Settings,
   Gauge,
+  DollarSign,
+  Eye,
+  Award,
+  Check,
+  Sparkles,
+  Box,
+  Diamond,
+  Heart,
+  Flame,
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductBenefit } from '@/lib/types/product.types';
@@ -26,6 +35,15 @@ const iconMap: Record<string, LucideIcon> = {
   Target,
   Settings,
   Gauge,
+  DollarSign,
+  Eye,
+  Award,
+  Check,
+  Sparkles,
+  Box,
+  Diamond,
+  Heart,
+  Flame,
 };
 
 interface WhyThisProductProps {

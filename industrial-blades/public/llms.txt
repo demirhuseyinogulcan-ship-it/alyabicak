@@ -16,7 +16,7 @@ Alya Tekstil Sanayi Ticaret Ltd. Şti. is a leading B2B supplier and authorized 
 ### 1. Sanayi Jiletleri / Industrial Razor Blades
 Subcategories:
 - 3 Delikli Dilme Jiletleri (3-hole slitting blades) — Carbon steel, stainless steel, tungsten carbide, ceramic zirconia, TiN/ceramic/XCD coated
-- Slotted Dilme Jiletleri (slotted slitting blades) — HRC 59-66, Endurium HSS options
+- Slotted Dilme Jiletleri (slotted slitting blades) — 57x19mm format, 9 material variants (carbon, stainless, TiN, ceramic, XCD, HSS, tungsten carbide, zirconia), thicknesses: 0.25/0.36/0.38/0.43/0.63mm
 - İnjektör Dilme Jiletleri (injector slitting blades) — 38x8mm, 2-slot, channeled, PTFE coated
 - Tek Kenarlı Jiletler (single edge blades) — Model B201, B207, B206, B082
 - Trapez Bıçaklar (trapezoid/utility blades) — Heavy-duty cutting
@@ -96,8 +96,15 @@ Surface coatings available:
 - 3DJ-KC-CER-RD: 3-Hole Slitting Blade, Carbon Steel + Ceramic coating, round edge, 3200+ HV, 43x22mm, thicknesses: 0.10/0.15/0.20/0.30/0.40mm
 - 3DJ-SS-TiN-60: 3-Hole Slitting Blade, Stainless Steel 420HC + TiN, wide format, 60x22mm, thicknesses: 0.15/0.20/0.30mm
 - 3DJ-SS-TiN-S-60: 3-Hole Slitting Blade, Stainless Steel 420HC + TiN, wide format + laser score line, 60x22mm, thicknesses: 0.15/0.20/0.30mm
-- SLT-SS-XCD: Slotted Slitting Blade, Stainless + XCD (DLC) coating, 5000 HV
-- SLT-END-CER: Slotted Slitting Blade, Endurium HSS + Ceramic, HRC 64-66
+- SLT-KC: Slotted Slitting Blade, Carbon Steel SK5, HRC 59-61, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-KC-TiN: Slotted Slitting Blade, Carbon Steel + TiN (Titanium Nitride) PVD coating, 2300 HV surface, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-KC-CER: Slotted Slitting Blade, Carbon Steel + Al₂O₃ Ceramic coating, 3200+ HV, max 800°C, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-SS: Slotted Slitting Blade, Stainless Steel 420HC, HRC 56-58, corrosion resistant, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-SS-TiN: Slotted Slitting Blade, Stainless Steel 420HC + TiN PVD coating, dual protection, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-SS-XCD: Slotted Slitting Blade, Stainless + XCD (DLC) coating, 5000 HV, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-END-CER: Slotted Slitting Blade, Endurium HSS + Ceramic, HRC 64-66, 600°C thermal resistance, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-TC: Slotted Slitting Blade, Solid Tungsten Carbide WC-Co, HRA 92-94 (HRC 75+), 14.8 g/cm³, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
+- SLT-ZR: Slotted Slitting Blade, Ceramic Zirconia Y-TZP, 1200 HV, non-conductive, biocompatible, 57x19mm, thicknesses: 0.25/0.36/0.38/0.43/0.63mm
 - INJ-SS-PTFE-2S: Injector Blade, Stainless + PTFE, friction ~0.04
 - INJ-TC-NS: Injector Blade, Solid Tungsten Carbide, no slots
 - TRP-STD: Trapezoid Utility Blade, Standard

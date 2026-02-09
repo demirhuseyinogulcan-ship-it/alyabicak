@@ -49,9 +49,9 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe textile', 'Refendage de films et feuilles', 'Découpe de papier', 'Refendage de plastique', 'Découpe d\'emballage'],
     seo: {
-      title: 'Lame Refendage à Fente Acier Carbone | Lame Industrielle 43x22mm',
+      title: 'Lame Refendage à Fente Acier Carbone | Lame Industrielle 57x19mm',
       description: 'Lame de refendage à fente en acier carbone pour film BOPP, emballage flexible et découpe industrielle. Acier SK5, angle 22°, durée de vie 3-5x supérieure. Qualité Sheffield.',
-      keywords: ['lame à fente', 'lame refendage', 'lame acier carbone', 'lame industrielle', 'lame rasoir industriel', 'lame 43x22', 'lame textile', 'lame film', 'lame papier', 'lame emballage', 'lame SK5', 'lame professionnelle', 'lame longue durée', 'lame slitter', 'lame BOPP', 'lame emballage flexible', 'lame convertisseur']
+      keywords: ['lame à fente', 'lame refendage', 'lame acier carbone', 'lame industrielle', 'lame rasoir industriel', 'lame 57x19', 'lame 57x19mm', 'lame textile', 'lame film', 'lame papier', 'lame emballage', 'lame SK5', 'lame professionnelle', 'lame longue durée', 'lame slitter', 'lame BOPP', 'lame emballage flexible', 'lame convertisseur']
     },
   },
   'slotted-karbon-titanyum': {

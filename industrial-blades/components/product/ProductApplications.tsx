@@ -11,6 +11,19 @@ import {
   Printer,
   Beef,
   Recycle,
+  FileText,
+  Film,
+  Flame,
+  Droplets,
+  Sparkles,
+  Tag,
+  Cpu,
+  Heart,
+  Battery,
+  UtensilsCrossed,
+  Layers,
+  Shield,
+  Zap,
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductApplication } from '@/lib/types/product.types';
@@ -28,6 +41,19 @@ const iconMap: Record<string, LucideIcon> = {
   Printer,
   Beef,
   Recycle,
+  FileText,
+  Film,
+  Flame,
+  Droplets,
+  Sparkles,
+  Tag,
+  Cpu,
+  Heart,
+  Battery,
+  UtensilsCrossed,
+  Layers,
+  Shield,
+  Zap,
 };
 
 interface ProductApplicationsProps {

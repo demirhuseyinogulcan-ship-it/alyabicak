@@ -10,6 +10,9 @@ import {
   Gauge,
   Package,
   Settings,
+  Thermometer,
+  Diamond,
+  Zap,
   type LucideIcon
 } from 'lucide-react';
 import type { ProductSpec } from '@/lib/types/product.types';
@@ -26,6 +29,9 @@ const iconMap: Record<string, LucideIcon> = {
   Gauge,
   Package,
   Settings,
+  Thermometer,
+  Diamond,
+  Zap,
 };
 
 interface ProductSpecsProps {

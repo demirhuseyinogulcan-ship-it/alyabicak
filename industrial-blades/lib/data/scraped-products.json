@@ -53,7 +53,9 @@
       "hardness": "HRC 59-61",
       "carbonContent": "%0.85-1.00",
       "edgeAngle": "22°",
-      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "Yüksek karbon oranı (%0.85-1.00)",
@@ -70,7 +72,14 @@
       "Plastik dilme",
       "Ambalaj kesimi"
     ],
-    "seoKeywords": ["slotted jilet", "slotted dilme jileti", "karbon çelik jilet", "sanayi jileti", "endüstriyel jilet", "dilme jileti", "slitting blade", "slotted blade", "43x22 jilet", "tekstil jileti", "film kesim jileti", "kağıt kesim jileti", "ambalaj jileti", "yüksek karbonlu jilet", "SK5 jilet", "sanayi tipi jilet", "profesyonel jilet", "uzun ömürlü jilet", "keskin jilet", "dilme makinesi jileti", "razor blade industrial"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
+    "seoKeywords": ["slotted jilet", "slotted dilme jileti", "karbon çelik jilet", "sanayi jileti", "endüstriyel jilet", "dilme jileti", "slitting blade", "slotted blade", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "57x19x0.43mm", "57x19x0.63mm", "tekstil jileti", "film kesim jileti", "kağıt kesim jileti", "ambalaj jileti", "yüksek karbonlu jilet", "SK5 jilet", "sanayi tipi jilet", "profesyonel jilet", "dilme makinesi jileti", "razor blade industrial"],
     "isFeatured": true,
     "isActive": true,
     "order": 280
@@ -97,7 +106,9 @@
       "hardness": "HRC 59-61 (Substrat) / 2300 HV (Kaplama)",
       "coating": "TiN (Titanyum Nitrür) - PVD",
       "edgeAngle": "22°",
-      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "TiN (Titanyum Nitrür) PVD kaplama",
@@ -114,7 +125,14 @@
       "Hassas folyo dilme",
       "Etiket kesimi"
     ],
-    "seoKeywords": ["slotted jilet titanyum", "titanyum kaplamalı jilet", "TiN kaplama jilet", "PVD kaplama jilet", "altın jilet", "yapışkan bant jileti", "laminasyon jileti", "slotted blade titanium", "titanium coated blade", "gold blade", "low friction blade", "film slitting blade", "label cutting blade", "endüstriyel titanyum jilet", "profesyonel kaplama jilet", "uzun ömürlü titanyum", "slitting blade TiN", "industrial razor blade coated"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
+    "seoKeywords": ["slotted jilet titanyum", "titanyum kaplamalı jilet", "TiN kaplama jilet", "PVD kaplama jilet", "altın jilet", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "57x19x0.43mm", "57x19x0.63mm", "yapışkan bant jileti", "laminasyon jileti", "slotted blade titanium", "titanium coated blade", "gold blade", "low friction blade", "film slitting blade", "label cutting blade", "slitting blade TiN", "industrial razor blade coated"],
     "isFeatured": true,
     "isActive": true,
     "order": 281
@@ -141,7 +159,9 @@
       "hardness": "HRC 59-61 (Substrat) / 3200 HV (Kaplama)",
       "coating": "İleri Seramik Kaplama (Titanyum Bazlı)",
       "edgeAngle": "22°",
-      "heatTreatment": "Kontrollü Atmosfer + Temperleme"
+      "heatTreatment": "Kontrollü Atmosfer + Temperleme",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "İleri seramik kaplama teknolojisi",
@@ -158,7 +178,14 @@
       "Zımpara kağıdı dilme",
       "Teknik tekstil kesimi"
     ],
-    "seoKeywords": ["slotted jilet seramik", "seramik kaplamalı jilet", "ceramic coated blade", "aşındırıcı malzeme jileti", "cam elyaf jileti", "karbon fiber jileti", "zımpara kağıdı jileti", "teknik tekstil jileti", "ultra sert jilet", "3200 HV jilet", "slotted ceramic blade", "abrasive cutting blade", "fiberglass cutting blade", "carbon fiber blade", "sandpaper slitting blade", "industrial ceramic blade", "high hardness blade"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
+    "seoKeywords": ["slotted jilet seramik", "seramik kaplamalı jilet", "ceramic coated blade", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "aşındırıcı malzeme jileti", "cam elyaf jileti", "karbon fiber jileti", "zımpara kağıdı jileti", "teknik tekstil jileti", "ultra sert jilet", "3200 HV jilet", "slotted ceramic blade", "abrasive cutting blade", "fiberglass cutting blade", "carbon fiber blade", "sandpaper slitting blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 282
@@ -185,7 +212,9 @@
       "hardness": "HRC 54-56",
       "chromiumContent": "%12-14 Krom",
       "edgeAngle": "22°",
-      "heatTreatment": "Vakum Isıl İşlem"
+      "heatTreatment": "Vakum Isıl İşlem",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "Paslanmaz çelik (AISI 420)",
@@ -202,7 +231,14 @@
       "İlaç sektörü paketleme",
       "Medikal ambalaj kesimi"
     ],
-    "seoKeywords": ["slotted jilet paslanmaz", "paslanmaz çelik jilet", "stainless steel blade", "gıda jileti", "hijyenik jilet", "FDA onaylı jilet", "korozyona dayanıklı jilet", "nemli ortam jileti", "AISI 420 jilet", "slotted stainless blade", "food grade blade", "hygienic blade", "corrosion resistant blade", "medical packaging blade", "pharmaceutical blade", "rust free blade", "inox jilet"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
+    "seoKeywords": ["slotted jilet paslanmaz", "paslanmaz çelik jilet", "stainless steel blade", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "gıda jileti", "hijyenik jilet", "FDA onaylı jilet", "korozyona dayanıklı jilet", "nemli ortam jileti", "AISI 420 jilet", "slotted stainless blade", "food grade blade", "hygienic blade", "corrosion resistant blade", "medical packaging blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 283
@@ -229,7 +265,9 @@
       "hardness": "HRC 54-56 (Substrat) / 2300 HV (Kaplama)",
       "coating": "TiN (Titanyum Nitrür) - PVD",
       "chromiumContent": "%12-14 Krom",
-      "edgeAngle": "22°"
+      "edgeAngle": "22°",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "Paslanmaz + Titanyum çift koruma",
@@ -246,7 +284,14 @@
       "Steril ambalaj üretimi",
       "Medikal folyo dilme"
     ],
-    "seoKeywords": ["slotted paslanmaz titanyum jilet", "paslanmaz titanyum kaplama", "stainless titanium blade", "TiN paslanmaz jilet", "gıda laminasyon jileti", "ilaç ambalaj jileti", "blister kesim jileti", "steril ambalaj jileti", "medikal folyo jileti", "slotted stainless TiN", "dual protection blade", "corrosion wear resistant", "hygienic titanium blade", "pharmaceutical cutting blade", "medical foil blade", "premium slotted blade"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
+    "seoKeywords": ["slotted paslanmaz titanyum jilet", "paslanmaz titanyum kaplama", "stainless titanium blade", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "TiN paslanmaz jilet", "gıda laminasyon jileti", "ilaç ambalaj jileti", "blister kesim jileti", "steril ambalaj jileti", "medikal folyo jileti", "slotted stainless TiN", "dual protection blade", "hygienic titanium blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 284
@@ -273,7 +318,9 @@
       "hardness": "HRC 54-56 (Substrat) / 5000 HV (Kaplama)",
       "coating": "XCD (Xtreme Carbon Diamond) - DLC",
       "frictionCoefficient": "<0.1",
-      "edgeAngle": "22°"
+      "edgeAngle": "22°",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "XCD elmas benzeri karbon kaplama",
@@ -290,7 +337,14 @@
       "Reçine emdirilmiş kumaş dilme",
       "Medikal yapışkan bantlar"
     ],
-    "seoKeywords": ["slotted jilet XCD kaplama", "elmas kaplama jilet", "DLC kaplama jilet", "diamond coated blade", "yapışkan bant jileti", "silikon kaplama kesim", "yapışkan etiket jileti", "ultra düşük sürtünme jilet", "5000 HV jilet", "slotted XCD blade", "diamond like carbon blade", "non-stick blade", "adhesive tape blade", "silicone cutting blade", "resin impregnated fabric blade", "medical adhesive blade", "premium diamond blade"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
+    "seoKeywords": ["slotted jilet XCD kaplama", "elmas kaplama jilet", "DLC kaplama jilet", "diamond coated blade", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "yapışkan bant jileti", "silikon kaplama kesim", "yapışkan etiket jileti", "ultra düşük sürtünme jilet", "5000 HV jilet", "slotted XCD blade", "diamond like carbon blade", "non-stick blade", "adhesive tape blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 285
@@ -317,7 +371,9 @@
       "hardness": "HRC 64-66 (Substrat) / 3500 HV (Kaplama)",
       "coating": "Çok Katmanlı İleri Seramik",
       "tempResistance": "600°C",
-      "edgeAngle": "25°"
+      "edgeAngle": "25°",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "Endurium HSS yüksek hız çeliği",
@@ -334,7 +390,14 @@
       "Kompozit malzeme kesimi",
       "7/24 üretim hatları"
     ],
-    "seoKeywords": ["slotted jilet Endurium", "HSS jilet", "yüksek hız çeliği jilet", "seramik kaplama HSS", "600 derece jilet", "metal folyo jileti", "kompozit kesim jileti", "slotted HSS blade", "high speed steel blade", "Endurium ceramic blade", "thermal shock resistant blade", "high temperature blade", "metal foil slitting", "composite cutting blade", "continuous production blade", "premium industrial blade"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
+    "seoKeywords": ["slotted jilet Endurium", "HSS jilet", "yüksek hız çeliği jilet", "seramik kaplama HSS", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "600 derece jilet", "metal folyo jileti", "kompozit kesim jileti", "slotted HSS blade", "high speed steel blade", "Endurium ceramic blade", "thermal shock resistant blade", "metal foil slitting", "composite cutting blade"],
     "isFeatured": true,
     "isActive": true,
     "order": 286
@@ -361,7 +424,9 @@
       "hardness": "HRA 92-94 (HRC 75+ eşdeğer)",
       "composition": "%94 WC + %6 Co",
       "density": "14.8 g/cm³",
-      "edgeAngle": "30°"
+      "edgeAngle": "30°",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "Yekpare tungsten karbür yapı",
@@ -378,7 +443,14 @@
       "Karbon nanotüp film dilme",
       "Pil elektrot malzemesi kesimi"
     ],
-    "seoKeywords": ["slotted tungsten karbür jilet", "yekpare tungsten jilet", "karbür jilet", "WC jilet", "tungsten carbide blade", "solid carbide blade", "seramik kağıt jileti", "metal folyo jileti", "pil elektrot jileti", "slotted carbide blade", "monolithic carbide", "ultra hard blade", "abrasive material blade", "battery electrode blade", "ceramic paper blade", "premium tungsten blade", "carbide slitting blade"],
+    "seoKeywords": ["slotted tungsten karbür jilet", "yekpare tungsten jilet", "karbür jilet", "WC jilet", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "tungsten carbide blade", "solid carbide blade", "seramik kağıt jileti", "metal folyo jileti", "pil elektrot jileti", "slotted carbide blade", "monolithic carbide", "ultra hard blade", "abrasive material blade", "battery electrode blade", "ceramic paper blade", "premium tungsten blade", "carbide slitting blade"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
     "isFeatured": true,
     "isActive": true,
     "order": 287
@@ -405,7 +477,9 @@
       "hardness": "1200 HV",
       "density": "6.05 g/cm³",
       "electricalConductivity": "Yok (İzolator)",
-      "edgeAngle": "25°"
+      "edgeAngle": "25°",
+      "dimensions": "57x19mm",
+      "availableThicknesses": "0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm"
     },
     "features": [
       "Yekpare zirkonya seramik",
@@ -422,7 +496,14 @@
       "Medikal steril ambalaj",
       "Temiz oda uygulamaları"
     ],
-    "seoKeywords": ["slotted seramik jilet", "zirkonya jilet", "ceramic blade", "zirconia blade", "metal kontaminasyonsuz jilet", "gıda sektörü jilet", "elektronik kesim jileti", "pil seperatör jileti", "medikal ambalaj jileti", "slotted ceramic blade", "non-conductive blade", "food industry blade", "cleanroom blade", "battery separator blade", "medical packaging blade", "biocompatible blade", "Y-TZP blade"],
+    "seoKeywords": ["slotted seramik jilet", "zirkonya jilet", "ceramic blade", "zirconia blade", "57x19 jilet", "57x19mm jilet", "57x19x0.25mm", "57x19x0.36mm", "57x19x0.38mm", "metal kontaminasyonsuz jilet", "gıda sektörü jilet", "elektronik kesim jileti", "pil seperatör jileti", "medikal ambalaj jileti", "slotted ceramic blade", "non-conductive blade", "food industry blade", "cleanroom blade", "battery separator blade", "medical packaging blade", "biocompatible blade", "Y-TZP blade"],
+    "availableSizes": [
+      "57x19x0.25mm",
+      "57x19x0.36mm",
+      "57x19x0.38mm",
+      "57x19x0.43mm",
+      "57x19x0.63mm"
+    ],
     "isFeatured": true,
     "isActive": true,
     "order": 288

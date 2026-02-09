@@ -49,9 +49,9 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Textile cutting', 'Film and foil slitting', 'Paper cutting', 'Plastic slitting', 'Packaging cutting'],
     seo: {
-      title: 'Slotted Slitting Blade Carbon Steel | Industrial Razor Blade 43x22mm',
+      title: 'Slotted Slitting Blade Carbon Steel | Industrial Razor Blade 57x19mm',
       description: 'Premium carbon steel slotted slitting blade for BOPP film, flexible packaging, and industrial cutting. SK5 steel, 22° edge angle, 3-5x longer life. Sheffield quality.',
-      keywords: ['slotted blade', 'slotted slitting blade', 'carbon steel blade', 'industrial razor blade', 'slitting blade', 'film slitting blade', '43x22 blade', 'textile blade', 'paper cutting blade', 'packaging blade', 'high carbon blade', 'SK5 blade', 'professional blade', 'long lasting blade', 'sharp blade', 'slitter blade', 'BOPP film blade', 'flexible packaging blade', 'slitter rewinder blade', 'converter blade']
+      keywords: ['slotted blade', 'slotted slitting blade', 'carbon steel blade', 'industrial razor blade', 'slitting blade', 'film slitting blade', '57x19 blade', '57x19mm blade', 'textile blade', 'paper cutting blade', 'packaging blade', 'high carbon blade', 'SK5 blade', 'professional blade', 'long lasting blade', 'sharp blade', 'slitter blade', 'BOPP film blade', 'flexible packaging blade', 'slitter rewinder blade', 'converter blade']
     },
   },
   'slotted-karbon-titanyum': {
@@ -69,7 +69,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade TiN Titanium Coating | Gold Industrial Slitting Blade',
       description: 'TiN titanium coated slotted slitting blade with 2300 HV hardness. 40% lower friction, ideal for adhesive tape, lamination, and heat-sensitive film cutting.',
-      keywords: ['slotted blade titanium', 'titanium coated blade', 'TiN coating blade', 'PVD coating blade', 'gold blade', 'adhesive tape blade', 'lamination blade', 'slotted blade titanium', 'titanium coated blade', 'low friction blade', 'film slitting blade', 'label cutting blade', 'industrial titanium blade', 'professional coated blade', 'long lasting titanium', 'slitting blade TiN', 'industrial razor blade coated']
+      keywords: ['slotted blade titanium', 'titanium coated blade', 'TiN coating blade', 'PVD coating blade', 'gold blade', 'adhesive tape blade', 'lamination blade', '57x19 blade', '57x19mm blade', 'slotted blade titanium', 'titanium coated blade', 'low friction blade', 'film slitting blade', 'label cutting blade', 'industrial titanium blade', 'professional coated blade', 'long lasting titanium', 'slitting blade TiN', 'industrial razor blade coated']
     },
   },
   'slotted-karbon-seramik': {
@@ -87,7 +87,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade Ceramic Coating | 3200 HV Ultra-Hard Slitting Blade',
       description: 'Ceramic coated slotted slitting blade with 3200 HV hardness. Ideal for abrasive materials, fiberglass, carbon fiber, and sandpaper cutting. 5-7x longer life.',
-      keywords: ['slotted blade ceramic', 'ceramic coated blade', 'abrasive material blade', 'fiberglass blade', 'carbon fiber blade', 'sandpaper blade', 'technical textile blade', 'ultra hard blade', '3200 HV blade', 'slotted ceramic blade', 'abrasive cutting blade', 'fiberglass cutting blade', 'carbon fiber blade', 'sandpaper slitting blade', 'industrial ceramic blade', 'high hardness blade']
+      keywords: ['slotted blade ceramic', 'ceramic coated blade', 'abrasive material blade', 'fiberglass blade', 'carbon fiber blade', 'sandpaper blade', 'technical textile blade', 'ultra hard blade', '3200 HV blade', '57x19 blade', '57x19mm blade', 'slotted ceramic blade', 'abrasive cutting blade', 'fiberglass cutting blade', 'carbon fiber blade', 'sandpaper slitting blade', 'industrial ceramic blade', 'high hardness blade']
     },
   },
   'slotted-paslanmaz': {
@@ -105,7 +105,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade Stainless Steel | FDA Approved Food Industry Blade',
       description: 'Stainless steel slotted slitting blade, AISI 420, FDA approved. Corrosion resistant, ideal for food packaging, pharmaceutical, and humid environment applications.',
-      keywords: ['slotted blade stainless', 'stainless steel blade', 'food blade', 'hygienic blade', 'FDA approved blade', 'corrosion resistant blade', 'humid environment blade', 'AISI 420 blade', 'slotted stainless blade', 'food grade blade', 'hygienic blade', 'corrosion resistant blade', 'medical packaging blade', 'pharmaceutical blade', 'rust free blade', 'inox blade']
+      keywords: ['slotted blade stainless', 'stainless steel blade', 'food blade', 'hygienic blade', 'FDA approved blade', 'corrosion resistant blade', 'humid environment blade', 'AISI 420 blade', '57x19 blade', '57x19mm blade', 'slotted stainless blade', 'food grade blade', 'hygienic blade', 'corrosion resistant blade', 'medical packaging blade', 'pharmaceutical blade', 'rust free blade', 'inox blade']
     },
   },
   'slotted-paslanmaz-titanyum': {
@@ -123,7 +123,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade Stainless + Titanium | Dual Protection Industrial Blade',
       description: 'Stainless steel + TiN titanium coated slotted blade. Dual protection against corrosion and wear. Ideal for food lamination, pharmaceutical blister, and medical foil applications.',
-      keywords: ['slotted stainless titanium blade', 'stainless titanium coating', 'stainless titanium blade', 'TiN stainless blade', 'food lamination blade', 'pharmaceutical packaging blade', 'blister cutting blade', 'sterile packaging blade', 'medical foil blade', 'slotted stainless TiN', 'dual protection blade', 'corrosion wear resistant', 'hygienic titanium blade', 'pharmaceutical cutting blade', 'medical foil blade', 'premium slotted blade']
+      keywords: ['slotted stainless titanium blade', 'stainless titanium coating', 'stainless titanium blade', 'TiN stainless blade', 'food lamination blade', 'pharmaceutical packaging blade', 'blister cutting blade', 'sterile packaging blade', 'medical foil blade', '57x19 blade', '57x19mm blade', 'slotted stainless TiN', 'dual protection blade', 'corrosion wear resistant', 'hygienic titanium blade', 'pharmaceutical cutting blade', 'medical foil blade', 'premium slotted blade']
     },
   },
   'slotted-paslanmaz-xcd': {
@@ -141,7 +141,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade XCD Diamond Coating | 5000 HV Non-Stick Blade',
       description: 'XCD diamond-like carbon coated slotted blade, 5000 HV hardness, <0.1 friction. Non-stick properties for ultra-adhesive tapes, silicone coatings, and medical adhesives.',
-      keywords: ['slotted blade XCD coating', 'diamond coated blade', 'DLC coated blade', 'diamond coated blade', 'adhesive tape blade', 'silicone cutting blade', 'adhesive label blade', 'ultra low friction blade', '5000 HV blade', 'slotted XCD blade', 'diamond like carbon blade', 'non-stick blade', 'adhesive tape blade', 'silicone cutting blade', 'resin impregnated fabric blade', 'medical adhesive blade', 'premium diamond blade']
+      keywords: ['slotted blade XCD coating', 'diamond coated blade', 'DLC coated blade', 'diamond coated blade', 'adhesive tape blade', 'silicone cutting blade', 'adhesive label blade', 'ultra low friction blade', '5000 HV blade', '57x19 blade', '57x19mm blade', 'slotted XCD blade', 'diamond like carbon blade', 'non-stick blade', 'adhesive tape blade', 'silicone cutting blade', 'resin impregnated fabric blade', 'medical adhesive blade', 'premium diamond blade']
     },
   },
   'slotted-endurium-seramik': {
@@ -159,7 +159,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade Endurium HSS Ceramic | 600°C High-Speed Blade',
       description: 'Endurium HSS + ceramic coated slotted blade. HRC 64-66 substrate, 3500 HV coating, 600°C resistance. For high-speed slitting, metal foil, and 24/7 production lines.',
-      keywords: ['slotted blade Endurium', 'HSS blade', 'high speed steel blade', 'ceramic coated HSS', '600 degree blade', 'metal foil blade', 'composite cutting blade', 'slotted HSS blade', 'high speed steel blade', 'Endurium ceramic blade', 'thermal shock resistant blade', 'high temperature blade', 'metal foil slitting', 'composite cutting blade', 'continuous production blade', 'premium industrial blade']
+      keywords: ['slotted blade Endurium', 'HSS blade', 'high speed steel blade', 'ceramic coated HSS', '600 degree blade', 'metal foil blade', 'composite cutting blade', '57x19 blade', '57x19mm blade', 'slotted HSS blade', 'high speed steel blade', 'Endurium ceramic blade', 'thermal shock resistant blade', 'high temperature blade', 'metal foil slitting', 'composite cutting blade', 'continuous production blade', 'premium industrial blade']
     },
   },
   'slotted-yekpare-tungsten': {
@@ -177,7 +177,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade Tungsten Carbide | HRA 92-94 Ultra-Hard Blade',
       description: 'Solid tungsten carbide slotted blade, HRA 92-94 hardness, 20-50x longer life. For ceramic paper, metal foil, battery electrode, and ultra-abrasive material cutting.',
-      keywords: ['slotted tungsten carbide blade', 'solid tungsten blade', 'carbide blade', 'WC blade', 'tungsten carbide blade', 'solid carbide blade', 'ceramic paper blade', 'metal foil blade', 'battery electrode blade', 'slotted carbide blade', 'monolithic carbide', 'ultra hard blade', 'abrasive material blade', 'battery electrode blade', 'ceramic paper blade', 'premium tungsten blade', 'carbide slitting blade']
+      keywords: ['slotted tungsten carbide blade', 'solid tungsten blade', 'carbide blade', 'WC blade', 'tungsten carbide blade', 'solid carbide blade', 'ceramic paper blade', 'metal foil blade', 'battery electrode blade', '57x19 blade', '57x19mm blade', 'slotted carbide blade', 'monolithic carbide', 'ultra hard blade', 'abrasive material blade', 'battery electrode blade', 'ceramic paper blade', 'premium tungsten blade', 'carbide slitting blade']
     },
   },
   'slotted-yekpare-seramik': {
@@ -195,7 +195,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     seo: {
       title: 'Slotted Blade Zirconia Ceramic | Metal-Free Food Industry Blade',
       description: 'Solid zirconia ceramic slotted blade, metal-free, biocompatible. FDA compliant for food industry, metal detector safe, cleanroom and medical packaging applications.',
-      keywords: ['slotted ceramic blade', 'zirconia blade', 'ceramic blade', 'zirconia blade', 'metal contamination free blade', 'food sector blade', 'electronic cutting blade', 'battery separator blade', 'medical packaging blade', 'slotted ceramic blade', 'non-conductive blade', 'food industry blade', 'cleanroom blade', 'battery separator blade', 'medical packaging blade', 'biocompatible blade', 'Y-TZP blade']
+      keywords: ['slotted ceramic blade', 'zirconia blade', 'ceramic blade', 'zirconia blade', 'metal contamination free blade', 'food sector blade', 'electronic cutting blade', 'battery separator blade', 'medical packaging blade', '57x19 blade', '57x19mm blade', 'slotted ceramic blade', 'non-conductive blade', 'food industry blade', 'cleanroom blade', 'battery separator blade', 'medical packaging blade', 'biocompatible blade', 'Y-TZP blade']
     },
   },
 

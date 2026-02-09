@@ -101,40 +101,7 @@ const MANUAL_PRODUCTS: Product[] = [
     order: 3,
   },
 
-  // --- SLOTTED JİLETLER ---
-  {
-    id: 'slotted-jilet-020',
-    slug: 'slotted-dilme-jileti-020mm',
-    code: 'SLT-020',
-    name: 'Slotted Dilme Jileti 0.20mm',
-    description: 'Slotted dilme jileti, yüksek performanslı kesim için tasarlanmış.',
-    categoryId: 'industrial-blades',
-    subcategoryId: 'slotted-slitting',
-    image: '/images/products/slotted-jilet.jpg',
-    variants: [
-      {
-        id: 'slt-020-standard',
-        sku: 'SLT-020',
-        thickness: '0.20mm',
-        inStock: true,
-      },
-      {
-        id: 'slt-025-standard',
-        sku: 'SLT-025',
-        thickness: '0.25mm',
-        inStock: true,
-      },
-    ],
-    specifications: {
-      material: 'Sheffield Çelik',
-      hardness: 'HRC 60-62',
-    },
-    features: ['Slotted tasarım', 'Kolay montaj', 'Yüksek performans'],
-    applications: ['Endüstriyel dilme', 'Hassas kesim'],
-    isFeatured: false,
-    isActive: true,
-    order: 2,
-  },
+  // --- SLOTTED JİLETLER --- (Eski SLT-020 kaldırıldı, ürünler scraped-products.json'dan servise edilir)
   {
     id: 'trapez-bicak-standart',
     slug: 'trapez-bicak-standart',
