@@ -50,10 +50,9 @@ export default function Footer() {
     href: `/${locale}${link.href}`,
   }))
 
-  // Localized company description
-  const companyDesc = locale === 'tr'
-    ? `${siteConfig.company.yearsOfExperience} yılı aşkın süredir Sanayi Jiletleri ve Makine Bıçakları alanında endüstrinin lider firmalarına hizmet veriyoruz.`
-    : `Serving industry leaders in Industrial Blades and Machine Knives for over ${siteConfig.company.yearsOfExperience} years.`
+  // Localized company description — dictionary'den
+  const companyDesc = (dict.footer?.companyDescription || 'Serving industry leaders in Industrial Blades and Machine Knives for over {{years}} years.')
+    .replace('{{years}}', String(siteConfig.company.yearsOfExperience))
 
   return (
     <footer className="bg-steel-900 text-white">
@@ -195,7 +194,7 @@ export default function Footer() {
             {/* WhatsApp Button */}
             <div className="mt-3">
               <Button 
-                href={getWhatsAppUrl(dict.whatsapp?.defaultMessage || (locale === 'tr' ? 'Merhaba' : 'Hello'))} 
+                href={getWhatsAppUrl(dict.whatsapp?.defaultMessage || 'Hello')} 
                 variant="whatsapp" 
                 size="sm"
               >

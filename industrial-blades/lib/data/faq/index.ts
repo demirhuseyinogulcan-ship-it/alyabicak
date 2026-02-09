@@ -17,21 +17,24 @@ export type { FAQData, FAQItem, FAQCategory, FAQLocale }
 export { CATEGORY_ORDER, isValidCategory } from './types'
 
 // Import locale data
+// YENİ DİL EKLENDİĞİNDE: JSON dosyasını oluşturup buraya import ekleyin
 import trData from './locales/tr.json'
 import enData from './locales/en.json'
 import arData from './locales/ar.json'
 import ruData from './locales/ru.json'
 
-// Supported locales - add new locales here
-export const SUPPORTED_LOCALES: FAQLocale[] = ['tr', 'en', 'ar', 'ru']
-
-// FAQ data map
-const faqDataMap: Record<FAQLocale, FAQData> = {
+// FAQ data map — tüm mevcut FAQ çevirileri
+// Henüz FAQ çevirisi olmayan diller otomatik olarak İngilizce'ye düşer
+const faqDataMap: Partial<Record<FAQLocale, FAQData>> = {
   tr: trData as FAQData,
   en: enData as FAQData,
   ar: arData as FAQData,
   ru: ruData as FAQData,
+  // fr: Fransızca FAQ henüz oluşturulmadı → İngilizce fallback
 }
+
+// Hangi dillerde FAQ mevcut
+export const SUPPORTED_LOCALES = Object.keys(faqDataMap) as FAQLocale[]
 
 // Default fallback locale
 const DEFAULT_LOCALE: FAQLocale = 'en'
@@ -42,7 +45,7 @@ const DEFAULT_LOCALE: FAQLocale = 'en'
  */
 export function getFAQData(locale: string): FAQData {
   const normalizedLocale = locale as FAQLocale
-  return faqDataMap[normalizedLocale] || faqDataMap[DEFAULT_LOCALE]
+  return faqDataMap[normalizedLocale] ?? faqDataMap[DEFAULT_LOCALE]!
 }
 
 /**

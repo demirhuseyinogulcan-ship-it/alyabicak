@@ -14,6 +14,7 @@ import { useState, useRef, useEffect, useMemo } from 'react';
 import { Globe, ChevronDown, Check, X } from 'lucide-react';
 import { i18nConfig, type Locale } from '@/lib/i18n';
 import { getDomainHost, type SupportedLocale } from '@/lib/config/domains';
+import { useTranslation } from '@/components/providers/LocaleProvider';
 
 export interface LanguageSwitcherProps {
   variant?: 'dropdown' | 'buttons' | 'bottomsheet'
@@ -24,6 +25,7 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const dict = useTranslation();
 
   // URL'den mevcut locale'i al
   const currentLocale = useMemo(() => {
@@ -99,7 +101,7 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
               {/* Header */}
               <div className="flex items-center justify-between px-4 py-4 border-b border-steel-200">
                 <h3 className="text-lg font-semibold text-steel-800">
-                  {currentLocale === 'tr' ? 'Dil Seçin' : currentLocale === 'ar' ? 'اختر اللغة' : 'Select Language'}
+                  {dict.nav?.selectLanguage || 'Select Language'}
                 </h3>
                 <button
                   onClick={() => setIsOpen(false)}

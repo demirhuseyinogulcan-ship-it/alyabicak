@@ -198,7 +198,7 @@ export default async function ContactPage({ params }: PageProps) {
                   <div>
                     <h3 className="font-semibold text-steel-900 mb-2">{l.email}</h3>
                     <a 
-                      href={getEmailUrl(locale === 'tr' ? 'Bilgi Talebi' : 'Information Request')} 
+                      href={getEmailUrl(dict.contact?.emailSubjectGeneral || 'Information Request')} 
                       className="text-primary-600 hover:text-primary-700 font-medium"
                     >
                       {contact.email}
@@ -230,7 +230,7 @@ export default async function ContactPage({ params }: PageProps) {
                   {l.whatsappText}
                 </p>
                 <a
-                  href={getWhatsAppUrl(locale === 'tr' ? 'Merhaba, Alya Bıçak hakkında bilgi almak istiyorum.' : 'Hello, I would like to get information about Alya Blade.')}
+                  href={getWhatsAppUrl(dict.whatsapp?.contactMessage || 'Hello, I would like to get information about Alya Blade.')}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors"

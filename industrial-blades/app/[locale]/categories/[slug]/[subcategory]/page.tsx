@@ -12,6 +12,7 @@ import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { siteConfig } from '@/lib/config'
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
+import { getBrandName } from '@/lib/i18n/locale-utils'
 
 interface PageProps {
   params: Promise<{
@@ -66,15 +67,16 @@ export async function generateMetadata({ params }: PageProps) {
   const pagePath = `/categories/${category.slug}/${subcategory.slug}`
 
   // Güçlü meta title: ürün adı + teknik sinyal + marka
-  const brandSuffix = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
-  const metaTitle = locale === 'tr'
-    ? `${subcategory.name} | ${subcategory.productCount} Çeşit | ${brandSuffix}`
-    : `${subcategory.name} | Sheffield Steel Quality | ${brandSuffix}`
+  const brandSuffix = getBrandName(locale)
+  const metaTitle = (dict.categories?.subcategoryMetaTitle || '{{name}} | {{count}} Varieties | {{brand}}')
+    .replace('{{name}}', subcategory.name)
+    .replace('{{count}}', String(subcategory.productCount))
+    .replace('{{brand}}', brandSuffix)
 
   // Meta description: teknik detay + competitive edge
-  const metaDescription = locale === 'tr'
-    ? `${subcategory.description} ${subcategory.productCount} farklı model. Karbon çelik, paslanmaz ve tungsten karbür seçenekleri. Sheffield kalitesi, Türkiye distribütörü.`
-    : `${subcategory.description} ${subcategory.productCount} models available. Carbon steel, stainless steel, tungsten carbide options. Authorized Sheffield distributor. Ships to 35+ countries.`
+  const metaDescription = (dict.categories?.subcategoryMetaDesc || '{{description}} {{count}} models available.')
+    .replace('{{description}}', subcategory.description)
+    .replace('{{count}}', String(subcategory.productCount))
 
   const metadata = generateSeoMetadata({
     title: metaTitle,

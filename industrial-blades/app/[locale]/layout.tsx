@@ -18,6 +18,7 @@ import { SkipLink } from '@/components/ui';
 import { generateOrganizationSchema, generateLocalBusinessSchema, generateWebsiteSchema } from '@/lib/seo';
 import { siteConfig } from '@/lib/config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
+import { getYandexVerification } from '@/lib/i18n/locale-utils';
 import { LocaleProvider } from '@/components/providers/LocaleProvider';
 import {
   getDomainUrl,
@@ -155,7 +156,7 @@ export default async function LocaleLayout({
   const isRtl = isRTL(locale as SupportedLocale);
 
   // Domain'e göre Yandex verification code'u belirle
-  const yandexCode = locale === 'tr' ? '8e6723f3f47b3bed' : '867c9c006bf61590';
+  const yandexCode = getYandexVerification(locale);
 
   return (
     <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>

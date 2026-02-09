@@ -9,6 +9,7 @@ import { getWhatsAppUrl } from '@/lib/config'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import Link from 'next/link'
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getBrandName } from '@/lib/i18n/locale-utils'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -284,7 +285,7 @@ export default async function AboutPage({ params }: PageProps) {
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl">
               <Image
                 src="/images/pages/hakkimizda-bg.jpg"
-                alt={locale === 'tr' ? 'Alya Bıçak - Hakkımızda' : 'Alya Blade - About Us'}
+                alt={`${getBrandName(locale)} - ${dict.about?.title || 'About Us'}`}
                 fill
                 className="object-cover"
               />
@@ -445,7 +446,7 @@ export default async function AboutPage({ params }: PageProps) {
             </div>
             <div className="flex flex-wrap gap-3">
               <a
-                href={getWhatsAppUrl(locale === 'tr' ? 'Merhaba, Alya Bıçak hakkında bilgi almak istiyorum.' : 'Hello, I would like to get information about Alya Blade.')}
+                href={getWhatsAppUrl(dict.whatsapp?.aboutMessage || 'Hello, I would like to get information about Alya Blade.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-all"
@@ -457,7 +458,7 @@ export default async function AboutPage({ params }: PageProps) {
                 href={`/${locale}/categories`}
                 className="inline-flex items-center gap-2 px-5 py-2.5 border border-steel-300 text-steel-700 text-sm font-medium rounded-lg hover:bg-steel-100 transition-all"
               >
-                {locale === 'tr' ? 'Ürünleri İncele' : 'Browse Products'}
+                {dict.notFoundPage?.browseProducts || 'Browse Products'}
               </Link>
             </div>
           </div>

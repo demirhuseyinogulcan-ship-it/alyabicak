@@ -31,6 +31,8 @@ const fr = {
     viewAllCategories: 'Voir Toutes les Catégories →',
     viewAllProducts: 'Voir Tous les Produits {{category}}',
     whatsappContact: 'Contact via WhatsApp',
+    selectLanguage: 'Choisir la Langue',
+    searchPlaceholder: 'Rechercher des produits...',
   },
 
   // Common
@@ -86,6 +88,8 @@ const fr = {
     viewCategory: 'Voir la Catégorie',
     subcategories: 'Sous-catégories',
     productsInCategory: 'Produits dans cette catégorie',
+    subcategoryMetaTitle: '{{name}} | {{count}} Variétés | {{brand}}',
+    subcategoryMetaDesc: '{{description}} {{count}} modèles disponibles. Acier au carbone, inox et carbure de tungstène. Qualité Sheffield premium.',
   },
 
   // Products
@@ -140,6 +144,7 @@ const fr = {
   contact: {
     title: 'Contact',
     subtitle: 'Contactez-nous pour vos questions',
+    emailSubjectGeneral: 'Demande d\'informations',
     form: {
       name: 'Nom et Prénom',
       email: 'Votre Adresse E-mail',
@@ -217,6 +222,7 @@ const fr = {
     privacy: 'Confidentialité',
     cookies: 'Politique de Cookies',
     terms: 'Conditions d\'Utilisation',
+    companyDescription: 'Au service des leaders de l\'industrie des lames industrielles et couteaux de machines depuis plus de {{years}} ans.',
   },
 
   // Cookie Consent
@@ -294,6 +300,7 @@ const fr = {
     subtitle: 'Téléchargez notre catalogue numérique contenant tous nos produits',
     download: 'Télécharger le Catalogue',
     view: 'Visualiser en Ligne',
+    pdfViewer: 'Visionneuse PDF',
   },
 
   // Quality

@@ -9,6 +9,7 @@ import { blogService } from '@/lib/data/blog'
 import { BLOG_CATEGORIES } from '@/lib/types/blog'
 import { PageHeader } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
+import { getDateLocale } from '@/lib/i18n/locale-utils'
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
@@ -97,7 +98,7 @@ export default async function BlogPage({ params }: PageProps) {
                     <div className="flex items-center gap-4 text-sm text-steel-400">
                       <span className="flex items-center gap-1">
                         <Calendar className="w-4 h-4" />
-                        {new Date(post.publishedAt).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US')}
+                        {new Date(post.publishedAt).toLocaleDateString(getDateLocale(locale))}
                       </span>
                       <span className="flex items-center gap-1">
                         <Clock className="w-4 h-4" />
@@ -149,7 +150,7 @@ export default async function BlogPage({ params }: PageProps) {
                     <div className="flex items-center gap-4 text-sm text-steel-500 mb-3">
                       <span className="flex items-center gap-1">
                         <Calendar className="w-4 h-4" />
-                        {new Date(post.publishedAt).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-US', {
+                        {new Date(post.publishedAt).toLocaleDateString(getDateLocale(locale), {
                           day: 'numeric',
                           month: 'long',
                           year: 'numeric',

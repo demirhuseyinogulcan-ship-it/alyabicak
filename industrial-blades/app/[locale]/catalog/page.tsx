@@ -81,7 +81,7 @@ export default async function CatalogPage({ params }: PageProps) {
       {
         '@type': 'ListItem',
         position: 1,
-        name: locale === 'tr' ? 'Anasayfa' : 'Home',
+        name: dict.nav?.home || 'Home',
         item: `${getDomainUrl(locale as SupportedLocale)}/${locale}`,
       },
       {

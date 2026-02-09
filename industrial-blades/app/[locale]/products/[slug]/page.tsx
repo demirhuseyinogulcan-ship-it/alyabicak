@@ -19,6 +19,7 @@ import {
 import { ProductViewTracker } from '@/components/analytics';
 import { siteConfig } from '@/lib/config/site.config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
+import { getBrandName } from '@/lib/i18n/locale-utils';
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains';
 
 interface ProductPageProps {
@@ -47,11 +48,11 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
   if (!product) {
     return {
-      title: `${dict.common.notFound} | ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}`,
+      title: `${dict.common.notFound} | ${getBrandName(locale)}`,
     };
   }
 
-  const title = product.seo?.title || `${product.name} | ${product.code} | ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'}`;
+  const title = product.seo?.title || `${product.name} | ${product.code} | ${getBrandName(locale)}`;
   const description = product.seo?.description || product.shortDescription;
   const keywords = product.seo?.keywords || product.tags;
 
@@ -133,7 +134,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     origin: product.origin,
   });
 
-  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale);
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale, dict.breadcrumb?.home);
 
   return (
     <>
@@ -285,8 +286,7 @@ interface BreadcrumbItem {
   href?: string;
 }
 
-function generateBreadcrumbSchema(items: BreadcrumbItem[], locale: string) {
-  const homeLabel = locale === 'tr' ? 'Anasayfa' : 'Home';
+function generateBreadcrumbSchema(items: BreadcrumbItem[], locale: string, homeLabel: string = 'Home') {
   const domain = getDomainUrl(locale as SupportedLocale);
 
   const itemListElement = [

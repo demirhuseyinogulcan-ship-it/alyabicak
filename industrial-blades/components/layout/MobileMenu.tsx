@@ -53,7 +53,7 @@ export default function MobileMenu({
         >
           <Search className="w-5 h-5 text-steel-500" />
           <span className="text-steel-500">
-            {dictionary?.nav?.search || (locale === 'tr' ? 'Ürün Ara...' : locale === 'ar' ? 'البحث...' : 'Search products...')}
+            {dictionary?.nav?.searchPlaceholder || dictionary?.nav?.search || 'Search products...'}
           </span>
         </button>
       </div>
@@ -62,7 +62,7 @@ export default function MobileMenu({
       <div className="mb-4 px-4">
         <div className="mb-2">
           <span className="text-sm font-medium text-steel-600">
-            {locale === 'tr' ? 'Dil Seçin' : locale === 'ar' ? 'اختر اللغة' : 'Select Language'}
+            {dictionary?.nav?.selectLanguage || 'Select Language'}
           </span>
         </div>
         <LanguageSwitcher variant="bottomsheet" />
@@ -106,7 +106,7 @@ export default function MobileMenu({
                       className="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-primary-50 rounded-lg"
                       onClick={onClose}
                     >
-                      {dictionary?.nav?.viewAllCategories || (locale === 'tr' ? 'Tüm Kategorileri Gör →' : 'View All Categories →')}
+                      {dictionary?.nav?.viewAllCategories || 'View All Categories →'}
                     </Link>
                   </div>
                 )}
@@ -138,7 +138,7 @@ export default function MobileMenu({
           className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors"
           onClick={onClose}
         >
-          {dictionary?.nav?.catalog || (locale === 'tr' ? 'e-Katalog' : 'e-Catalog')}
+          {dictionary?.nav?.catalog || 'e-Catalog'}
         </Link>
 
         <a
@@ -150,11 +150,11 @@ export default function MobileMenu({
         </a>
         
         <Button
-          href={getWhatsAppUrl(dictionary?.whatsapp?.defaultMessage || (locale === 'tr' ? 'Merhaba' : 'Hello'))}
+          href={getWhatsAppUrl(dictionary?.whatsapp?.defaultMessage || 'Hello')}
           variant="whatsapp"
           fullWidth
         >
-          {dictionary?.nav?.whatsappContact || (locale === 'tr' ? 'WhatsApp ile İletişim' : 'Contact via WhatsApp')}
+          {dictionary?.nav?.whatsappContact || 'Contact via WhatsApp'}
         </Button>
       </div>
     </div>

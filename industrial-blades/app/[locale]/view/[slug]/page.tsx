@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const domain = getDomainUrl(locale as SupportedLocale)
 
     return {
-        title: `${catalog.title} - ${locale === 'tr' ? 'PDF Görüntüleyici' : 'PDF Viewer'}`,
+        title: `${catalog.title} - ${dict.catalog?.pdfViewer || 'PDF Viewer'}`,
         description: catalog.description,
         openGraph: {
             title: catalog.title,

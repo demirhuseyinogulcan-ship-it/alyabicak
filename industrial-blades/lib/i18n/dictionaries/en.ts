@@ -30,6 +30,8 @@ const en = {
     viewAllCategories: 'View All Categories →',
     viewAllProducts: 'View All {{category}} Products',
     whatsappContact: 'Contact via WhatsApp',
+    selectLanguage: 'Select Language',
+    searchPlaceholder: 'Search products...',
   },
 
   // Common
@@ -85,6 +87,8 @@ const en = {
     viewCategory: 'View Category',
     subcategories: 'Subcategories',
     productsInCategory: 'Products in this category',
+    subcategoryMetaTitle: '{{name}} | {{count}} Varieties | {{brand}}',
+    subcategoryMetaDesc: '{{description}} {{count}} models available. Carbon steel, stainless and tungsten carbide options. Premium Sheffield quality industrial blades.',
   },
 
   // Products
@@ -139,6 +143,7 @@ const en = {
   contact: {
     title: 'Contact',
     subtitle: 'Get in touch with us for your inquiries',
+    emailSubjectGeneral: 'Information Request',
     form: {
       name: 'Your Name',
       email: 'Your Email',
@@ -216,6 +221,7 @@ const en = {
     privacy: 'Privacy Policy',
     cookies: 'Cookie Policy',
     terms: 'Terms of Use',
+    companyDescription: 'Serving industry leaders in Industrial Blades and Machine Knives for over {{years}} years.',
   },
 
   // Cookie Consent
@@ -293,6 +299,7 @@ const en = {
     subtitle: 'Download our digital catalog featuring all our products',
     download: 'Download Catalog',
     view: 'View Online',
+    pdfViewer: 'PDF Viewer',
   },
 
   // Quality

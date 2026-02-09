@@ -30,8 +30,9 @@ export interface FAQData {
   questions: FAQItem[]
 }
 
-// Supported locales (extend this when adding new languages)
-export type FAQLocale = 'tr' | 'en' | 'ar' | 'ru'
+// Supported FAQ locales — i18n config'den türetilir
+import type { Locale } from '@/lib/i18n/config';
+export type FAQLocale = Locale;
 
 // Type guard for category validation
 export function isValidCategory(category: string): category is FAQCategory {

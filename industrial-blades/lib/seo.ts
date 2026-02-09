@@ -2,6 +2,7 @@
 import { Metadata } from 'next'
 import { siteConfig } from './config'
 import { i18nConfig, type Locale } from './i18n/config'
+import { BRAND_NAME, SCHEMA_LANGUAGE } from './i18n/locale-utils'
 import {
   getDomainUrl,
   getHreflangUrls as getHreflangUrlsFromConfig,
@@ -248,8 +249,8 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
  */
 export function generateWebsiteSchema(locale: Locale) {
   const domain = getDomainUrl(locale as SupportedLocale)
-  const siteName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
-  const inLanguage = locale === 'tr' ? 'tr-TR' : locale === 'ar' ? 'ar-SA' : 'en-US'
+  const siteName = BRAND_NAME[locale] || BRAND_NAME.en
+  const inLanguage = SCHEMA_LANGUAGE[locale] || SCHEMA_LANGUAGE.en
 
   return {
     '@context': 'https://schema.org',
@@ -259,7 +260,13 @@ export function generateWebsiteSchema(locale: Locale) {
     name: siteName,
     description: locale === 'tr'
       ? 'Endüstriyel kesici bıçaklar ve sanayi jiletleri'
-      : 'Industrial cutting blades and razors',
+      : locale === 'ar'
+        ? 'شفرات القطع الصناعية والشفرات'
+        : locale === 'ru'
+          ? 'Промышленные режущие лезвия и ножи'
+          : locale === 'fr'
+            ? 'Lames de coupe industrielles et rasoirs'
+            : 'Industrial cutting blades and razors',
     inLanguage,
     publisher: {
       '@type': 'Organization',
@@ -516,7 +523,7 @@ export function generateArticleSchema(post: {
     : post.readingTime * 200 // Ortalama 200 kelime/dakika
 
   // Locale bazlı publisher name
-  const publisherName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
+  const publisherName = BRAND_NAME[locale] || BRAND_NAME.en
   const authorName = localizedAuthorName || publisherName
 
   return {

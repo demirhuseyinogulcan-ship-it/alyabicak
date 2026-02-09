@@ -30,6 +30,8 @@ const tr = {
     viewAllCategories: 'Tüm Kategorileri Gör →',
     viewAllProducts: 'Tüm {{category}} Ürünlerini Gör',
     whatsappContact: 'WhatsApp ile İletişim',
+    selectLanguage: 'Dil Seçin',
+    searchPlaceholder: 'Ürün Ara...',
   },
 
   // Common
@@ -85,6 +87,8 @@ const tr = {
     viewCategory: 'Kategoriyi Görüntüle',
     subcategories: 'Alt Kategoriler',
     productsInCategory: 'Bu kategorideki ürünler',
+    subcategoryMetaTitle: '{{name}} | {{count}} Çeşit | {{brand}}',
+    subcategoryMetaDesc: '{{description}} {{count}} farklı model. Karbon çelik, paslanmaz ve tungsten karbür seçenekleri. Sheffield kalitesi, Türkiye distribütörü.',
   },
 
   // Products
@@ -139,6 +143,7 @@ const tr = {
   contact: {
     title: 'İletişim',
     subtitle: 'Sorularınız için bizimle iletişime geçin',
+    emailSubjectGeneral: 'Bilgi Talebi',
     form: {
       name: 'Adınız Soyadınız',
       email: 'E-posta Adresiniz',
@@ -216,6 +221,7 @@ const tr = {
     privacy: 'KVKK',
     cookies: 'Çerez Politikası',
     terms: 'Kullanım Koşulları',
+    companyDescription: '{{years}} yılı aşkın süredir Sanayi Jiletleri ve Makine Bıçakları alanında endüstrinin lider firmalarına hizmet veriyoruz.',
   },
 
   // Cookie Consent
@@ -293,6 +299,7 @@ const tr = {
     subtitle: 'Tüm ürünlerimizi içeren dijital kataloğumuzu indirin',
     download: 'Kataloğu İndir',
     view: 'Online Görüntüle',
+    pdfViewer: 'PDF Görüntüleyici',
   },
 
   // Quality

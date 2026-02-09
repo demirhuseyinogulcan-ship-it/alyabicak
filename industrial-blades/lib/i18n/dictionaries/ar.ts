@@ -31,6 +31,8 @@ const ar = {
     viewAllCategories: 'عرض جميع الفئات ←',
     viewAllProducts: 'عرض جميع منتجات {{category}}',
     whatsappContact: 'تواصل عبر واتساب',
+    selectLanguage: 'اختر اللغة',
+    searchPlaceholder: 'البحث عن منتجات...',
   },
 
   // Common
@@ -86,6 +88,8 @@ const ar = {
     viewCategory: 'عرض الفئة',
     subcategories: 'الفئات الفرعية',
     productsInCategory: 'المنتجات في هذه الفئة',
+    subcategoryMetaTitle: '{{name}} | {{count}} أنواع | {{brand}}',
+    subcategoryMetaDesc: '{{description}} {{count}} نموذج متوفر. خيارات الفولاذ الكربوني والمقاوم للصدأ وكربيد التنغستن. جودة شيفيلد الممتازة.',
   },
 
   // Products
@@ -140,6 +144,7 @@ const ar = {
   contact: {
     title: 'اتصل بنا',
     subtitle: 'تواصل معنا لاستفساراتك',
+    emailSubjectGeneral: 'طلب معلومات',
     form: {
       name: 'اسمك',
       email: 'بريدك الإلكتروني',
@@ -217,6 +222,7 @@ const ar = {
     privacy: 'سياسة الخصوصية',
     cookies: 'سياسة ملفات تعريف الارتباط',
     terms: 'شروط الاستخدام',
+    companyDescription: 'نخدم الشركات الرائدة في مجال الشفرات الصناعية وسكاكين الماكينات منذ أكثر من {{years}} عامًا.',
   },
 
   // Cookie Consent
@@ -294,6 +300,7 @@ const ar = {
     subtitle: 'حمّل كتالوجنا الرقمي الذي يضم جميع منتجاتنا',
     download: 'تحميل الكتالوج',
     view: 'عرض مباشر',
+    pdfViewer: 'عارض PDF',
   },
 
   // Quality

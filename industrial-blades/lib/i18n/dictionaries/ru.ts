@@ -31,6 +31,8 @@ const ru = {
     viewAllCategories: 'Все Категории →',
     viewAllProducts: 'Все продукты {{category}}',
     whatsappContact: 'Связаться через WhatsApp',
+    selectLanguage: 'Выбрать язык',
+    searchPlaceholder: 'Поиск продукции...',
   },
 
   // Common
@@ -86,6 +88,8 @@ const ru = {
     viewCategory: 'Смотреть Категорию',
     subcategories: 'Подкатегории',
     productsInCategory: 'Товары в категории',
+    subcategoryMetaTitle: '{{name}} | {{count}} Видов | {{brand}}',
+    subcategoryMetaDesc: '{{description}} {{count}} моделей в наличии. Углеродистая сталь, нержавеющая сталь и карбид вольфрама. Премиальное качество Sheffield.',
   },
 
   // Products
@@ -140,6 +144,7 @@ const ru = {
   contact: {
     title: 'Контакты',
     subtitle: 'Свяжитесь с нами по любым вопросам',
+    emailSubjectGeneral: 'Запрос информации',
     form: {
       name: 'Ваше Имя',
       email: 'Ваш Email',
@@ -217,6 +222,7 @@ const ru = {
     privacy: 'Политика Конфиденциальности',
     cookies: 'Политика Cookie',
     terms: 'Условия Использования',
+    companyDescription: 'Обслуживаем лидеров отрасли в области промышленных лезвий и ножей для машин уже более {{years}} лет.',
   },
 
   // Cookie Consent
@@ -294,6 +300,7 @@ const ru = {
     subtitle: 'Скачайте наш цифровой каталог со всей продукцией',
     download: 'Скачать Каталог',
     view: 'Смотреть Онлайн',
+    pdfViewer: 'Просмотр PDF',
   },
 
   // Quality

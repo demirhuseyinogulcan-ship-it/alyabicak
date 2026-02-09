@@ -9,6 +9,7 @@ import Link from 'next/link'
 import { ArrowRight, Package } from 'lucide-react'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
+import { getBrandName } from '@/lib/i18n/locale-utils'
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
@@ -45,12 +46,12 @@ export async function generateMetadata({ params }: PageProps) {
 
   const domainUrl = getDomainUrl(locale as SupportedLocale)
   const pagePath = `/categories/${category.slug}`
-  const brandSuffix = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
+  const brandSuffix = getBrandName(locale)
 
   return {
     ...generateSeoMetadata({
       title: `${category.name} | ${category.totalProductCount} ${dict.common.products} | ${brandSuffix}`,
-      description: `${category.description} ${category.subcategories.length} ${dict.common.subcategories}, ${category.totalProductCount} ${dict.common.products}. ${locale === 'tr' ? 'Sheffield kalitesi, Türkiye distribütörü.' : 'Sheffield steel quality. Authorized distributor.'}`,
+      description: `${category.description} ${category.subcategories.length} ${dict.common.subcategories}, ${category.totalProductCount} ${dict.common.products}. Sheffield steel quality. Authorized distributor.`,
       keywords: [category.name.toLowerCase(), 'alya bıçak', 'endüstriyel bıçak', 'alya blade'],
       url: `${domainUrl}/${locale}${pagePath}`,
       locale,

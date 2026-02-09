@@ -142,11 +142,12 @@ class CategoryService {
 
   /**
    * Breadcrumb için kategori yolunu döndür
+   * labels parametresi dictionary'den gelmelidir: { home: dict.breadcrumb.home, categories: dict.nav.categories }
    */
-  getCategoryBreadcrumb(categorySlug: string, subcategorySlug?: string, locale: string = DEFAULT_LOCALE): Array<{ name: string; slug: string; url: string }> {
+  getCategoryBreadcrumb(categorySlug: string, subcategorySlug?: string, locale: string = DEFAULT_LOCALE, labels?: { home: string; categories: string }): Array<{ name: string; slug: string; url: string }> {
     const breadcrumb: Array<{ name: string; slug: string; url: string }> = [
-      { name: locale === 'tr' ? 'Ana Sayfa' : 'Home', slug: '', url: '/' },
-      { name: locale === 'tr' ? 'Kategoriler' : 'Categories', slug: 'kategoriler', url: '/categories' },
+      { name: labels?.home || 'Home', slug: '', url: '/' },
+      { name: labels?.categories || 'Categories', slug: 'kategoriler', url: '/categories' },
     ];
 
     const category = getCategoryBySlug(categorySlug);

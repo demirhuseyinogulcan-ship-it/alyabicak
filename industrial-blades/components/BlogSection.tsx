@@ -8,6 +8,7 @@ import Image from 'next/image'
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
 import { SectionHeader } from '@/components/ui'
+import { getDateLocale } from '@/lib/i18n/locale-utils'
 
 interface BlogSectionProps {
   locale?: string
@@ -70,7 +71,7 @@ export default function BlogSection({ locale = 'tr', translations }: BlogSection
                 <div className="flex items-center gap-4 text-sm text-steel-500 mb-3">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
-                    {new Date(post.publishedAt).toLocaleDateString(locale === 'ar' ? 'ar-SA' : locale === 'ru' ? 'ru-RU' : locale === 'en' ? 'en-GB' : 'tr-TR', {
+                    {new Date(post.publishedAt).toLocaleDateString(getDateLocale(locale || 'en'), {
                       day: 'numeric',
                       month: 'long',
                       year: 'numeric',

@@ -36,12 +36,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     fr: 'Questions fréquemment posées sur les lames industrielles, l\'acier Sheffield, les lames trapézoïdales. Informations sur la sélection des lames, l\'entretien, la commande et la livraison.',
   }
   
+  const keywordsMap: Record<Locale, string[]> = {
+    tr: ['endüstriyel bıçak sss', 'sheffield bıçak nedir', 'trapez jilet kullanımı', 'bıçak seçimi'],
+    en: ['industrial blade faq', 'sheffield blade', 'trapezoid blade uses', 'blade selection'],
+    ar: ['أسئلة شائعة عن الشفرات الصناعية', 'فولاذ شيفيلد', 'استخدامات الشفرات', 'اختيار الشفرات'],
+    ru: ['часто задаваемые вопросы о лезвиях', 'шеффилдская сталь', 'выбор лезвий', 'промышленные лезвия'],
+    fr: ['faq lames industrielles', 'acier sheffield', 'utilisation lames trapézoïdales', 'sélection de lames'],
+  }
+
   return {
     title: titles[locale],
     description: descriptions[locale],
-    keywords: locale === 'tr' 
-      ? ['endüstriyel bıçak sss', 'sheffield bıçak nedir', 'trapez jilet kullanımı', 'bıçak seçimi']
-      : ['industrial blade faq', 'sheffield blade', 'trapezoid blade uses', 'blade selection'],
+    keywords: keywordsMap[locale],
     alternates: {
       canonical: getCanonicalUrl(locale, '/faq'),
       languages: getHreflangUrls('/faq'),

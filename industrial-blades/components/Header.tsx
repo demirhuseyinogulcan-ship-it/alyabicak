@@ -121,10 +121,8 @@ export default function Header() {
     setIsMobileMenuOpen(false)
   }, [])
   
-  // Localized WhatsApp message
-  const whatsappMessage = locale === 'tr' 
-    ? 'Merhaba, alyabicak.com sitesinden yazıyorum.' 
-    : 'Hello, I am writing from alyabicak.com.'
+  // Localized WhatsApp message — dictionary'den
+  const whatsappMessage = dict.whatsapp?.defaultMessage || 'Hello, I am writing from the website.'
 
   return (
     <header 

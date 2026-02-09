@@ -91,6 +91,9 @@ const content = {
       contact: {
         title: 'İletişim',
         description: 'Çerez politikamız hakkında sorularınız için bizimle iletişime geçebilirsiniz:',
+        emailLabel: 'E-posta',
+        phoneLabel: 'Telefon',
+        addressLabel: 'Adres',
       },
     },
     lastUpdate: 'Son güncelleme: Aralık 2024',
@@ -146,6 +149,9 @@ const content = {
       contact: {
         title: 'Contact',
         description: 'For questions about our cookie policy, you can contact us:',
+        emailLabel: 'Email',
+        phoneLabel: 'Phone',
+        addressLabel: 'Address',
       },
     },
     lastUpdate: 'Last updated: December 2024',
@@ -201,6 +207,9 @@ const content = {
       contact: {
         title: 'اتصل بنا',
         description: 'للأسئلة حول سياسة ملفات تعريف الارتباط الخاصة بنا، يمكنك الاتصال بنا:',
+        emailLabel: 'البريد الإلكتروني',
+        phoneLabel: 'الهاتف',
+        addressLabel: 'العنوان',
       },
     },
     lastUpdate: 'آخر تحديث: ديسمبر 2024',
@@ -256,6 +265,9 @@ const content = {
       contact: {
         title: 'Контакты',
         description: 'По вопросам о нашей политике использования файлов cookie вы можете связаться с нами:',
+        emailLabel: 'Эл. почта',
+        phoneLabel: 'Телефон',
+        addressLabel: 'Адрес',
       },
     },
     lastUpdate: 'Последнее обновление: декабрь 2024',
@@ -311,6 +323,9 @@ const content = {
       contact: {
         title: 'Contact',
         description: 'Pour toute question concernant notre politique en matière de cookies, vous pouvez nous contacter :',
+        emailLabel: 'E-mail',
+        phoneLabel: 'Téléphone',
+        addressLabel: 'Adresse',
       },
     },
     lastUpdate: 'Dernière mise à jour : décembre 2024',
@@ -415,9 +430,9 @@ export default async function CookiePolicyPage({ params }: PageProps) {
               <h2>{s.contact.title}</h2>
               <p>{s.contact.description}</p>
               <ul>
-                <li>E-posta: {siteConfig.contact.email}</li>
-                <li>{locale === 'en' ? 'Phone' : 'Telefon'}: {siteConfig.contact.phone}</li>
-                <li>{locale === 'en' ? 'Address' : 'Adres'}: {siteConfig.contact.address.full}</li>
+                <li>{s.contact.emailLabel}: {siteConfig.contact.email}</li>
+                <li>{s.contact.phoneLabel}: {siteConfig.contact.phone}</li>
+                <li>{s.contact.addressLabel}: {siteConfig.contact.address.full}</li>
               </ul>
 
               <hr />

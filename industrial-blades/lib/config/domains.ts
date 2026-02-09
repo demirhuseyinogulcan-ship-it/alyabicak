@@ -43,9 +43,9 @@
  * ```
  */
 
-// Type import - circular dependency önlemek için lazy import kullanıyoruz
-// i18nConfig'den bağımsız olarak locale tipini tanımlıyoruz
-export type SupportedLocale = 'tr' | 'en' | 'ar' | 'ru' | 'fr';
+// Locale tipini i18n config'den al — tek kaynak (SSOT)
+import type { Locale } from '../i18n/config';
+export type SupportedLocale = Locale;
 
 /**
  * Domain yapılandırma interface'i
