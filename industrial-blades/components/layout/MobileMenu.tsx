@@ -132,6 +132,15 @@ export default function MobileMenu({
 
       {/* İletişim Butonları */}
       <div className="mt-4 pt-4 border-t border-steel-100 space-y-2 px-4">
+        {/* e-Katalog CTA */}
+        <Link
+          href={`/${locale}/catalog`}
+          className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors"
+          onClick={onClose}
+        >
+          {dictionary?.nav?.catalog || (locale === 'tr' ? 'e-Katalog' : 'e-Catalog')}
+        </Link>
+
         <a
           href={`tel:${siteConfig.contact.phoneRaw}`}
           className="flex items-center gap-2 px-4 py-3 text-steel-700 hover:bg-steel-50 rounded-lg"
