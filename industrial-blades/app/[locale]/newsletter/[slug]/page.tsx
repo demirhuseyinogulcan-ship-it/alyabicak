@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Calendar, Clock, ArrowLeft, Share2, Tag, ChevronRight } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
-import { getDictionary, type Locale } from '@/lib/i18n'
+import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 import { generateArticleSchema, generateBreadcrumbSchema } from '@/lib/seo'
 
@@ -19,9 +19,8 @@ interface PageProps {
 // Static params generation
 export async function generateStaticParams() {
   const slugs = blogService.getAllSlugs()
-  const locales: Locale[] = ['tr', 'en', 'ar', 'ru']
 
-  return locales.flatMap(locale =>
+  return i18nConfig.locales.flatMap(locale =>
     slugs.map(slug => ({
       locale,
       slug,

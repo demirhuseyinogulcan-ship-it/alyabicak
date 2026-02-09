@@ -31,75 +31,35 @@ export const i18nConfig = {
 
 export type Locale = (typeof i18nConfig.locales)[number];
 
-// URL path mapping for each locale
-// Note: All locales now use the same English paths for international SEO consistency
-export const localePaths: Record<Locale, Record<string, string>> = {
-  tr: {
-    home: '',
-    products: 'products',
-    categories: 'categories',
-    about: 'about',
-    contact: 'contact',
-    blog: 'newsletter',
-    consulting: 'consulting',
-    catalog: 'catalog',
-    quality: 'quality-standards',
-    privacy: 'privacy-policy',
-    cookies: 'cookie-policy',
-  },
-  en: {
-    home: '',
-    products: 'products',
-    categories: 'categories',
-    about: 'about',
-    contact: 'contact',
-    blog: 'newsletter',
-    consulting: 'consulting',
-    catalog: 'catalog',
-    quality: 'quality-standards',
-    privacy: 'privacy-policy',
-    cookies: 'cookie-policy',
-  },
-  ar: {
-    home: '',
-    products: 'products',
-    categories: 'categories',
-    about: 'about',
-    contact: 'contact',
-    blog: 'newsletter',
-    consulting: 'consulting',
-    catalog: 'catalog',
-    quality: 'quality-standards',
-    privacy: 'privacy-policy',
-    cookies: 'cookie-policy',
-  },
-  ru: {
-    home: '',
-    products: 'products',
-    categories: 'categories',
-    about: 'about',
-    contact: 'contact',
-    blog: 'newsletter',
-    consulting: 'consulting',
-    catalog: 'catalog',
-    quality: 'quality-standards',
-    privacy: 'privacy-policy',
-    cookies: 'cookie-policy',
-  },
-  fr: {
-    home: '',
-    products: 'products',
-    categories: 'categories',
-    about: 'about',
-    contact: 'contact',
-    blog: 'newsletter',
-    consulting: 'consulting',
-    catalog: 'catalog',
-    quality: 'quality-standards',
-    privacy: 'privacy-policy',
-    cookies: 'cookie-policy',
-  },
+// Default URL paths — tüm diller için aynı (international SEO consistency)
+// Belirli bir dil için farklı path gerekirse localePathOverrides'a ekleyin
+const defaultPaths: Record<string, string> = {
+  home: '',
+  products: 'products',
+  categories: 'categories',
+  about: 'about',
+  contact: 'contact',
+  blog: 'newsletter',
+  consulting: 'consulting',
+  catalog: 'catalog',
+  quality: 'quality-standards',
+  privacy: 'privacy-policy',
+  cookies: 'cookie-policy',
 };
+
+// Dile özel path override'ları (gerektiğinde ekleyin)
+// Örnek: { tr: { blog: 'bulten' } } → Türkçe'de /tr/bulten kullanılır
+const localePathOverrides: Partial<Record<Locale, Partial<Record<string, string>>>> = {
+  // Şu an tüm diller aynı path'leri kullanıyor
+};
+
+// Programmatic locale paths — yeni dil eklendiğinde otomatik çalışır
+export const localePaths: Record<Locale, Record<string, string>> = Object.fromEntries(
+  i18nConfig.locales.map(locale => [
+    locale,
+    { ...defaultPaths, ...(localePathOverrides[locale] || {}) },
+  ])
+) as Record<Locale, Record<string, string>>;
 
 // Reverse mapping for route resolution
 export function getRouteKey(locale: Locale, path: string): string | undefined {

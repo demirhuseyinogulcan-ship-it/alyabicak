@@ -31,7 +31,7 @@ import {
   getCategoryTranslation,
   getSubcategoryTranslation,
 } from '../i18n/translations';
-import { getDictionarySync } from '../i18n/dictionaries';
+import { getDictionary } from '../i18n/dictionaries';
 import type { Locale } from '../i18n/config';
 
 // Default locale for backward compatibility
@@ -330,13 +330,13 @@ class ProductService {
    * Ürün breadcrumb'ını oluştur (i18n dictionary destekli)
    * URL'ler locale prefix içerir: /{locale}/products/...
    */
-  getProductBreadcrumb(product: Product, locale: string = DEFAULT_LOCALE): Array<{ name: string; url: string }> {
+  async getProductBreadcrumb(product: Product, locale: string = DEFAULT_LOCALE): Promise<Array<{ name: string; url: string }>> {
     const translatedProduct = this.translateProduct(product, locale);
     const category = getCategoryById(product.categoryId);
     const subcategory = product.subcategoryId ? getSubcategoryById(product.subcategoryId) : undefined;
     
     // Dictionary'den UI çevirilerini al
-    const dict = getDictionarySync(locale as Locale);
+    const dict = await getDictionary(locale as Locale);
     
     // Kategori/alt kategori çevirilerini al
     const catTranslation = getCategoryTranslation(product.categoryId, locale);

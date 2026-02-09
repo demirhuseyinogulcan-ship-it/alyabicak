@@ -1,6 +1,10 @@
 /**
  * Dictionary Loader
  * Dil dosyalarını yükleyen fonksiyon
+ * 
+ * Tüm dictionary yüklemeleri async (dynamic import) ile yapılır.
+ * Bu sayede sadece o an ihtiyaç duyulan dilin verileri yüklenir.
+ * 15+ dil eklendiğinde ~375 KB eager load önlenir.
  */
 
 import { Locale } from '../config';
@@ -17,17 +21,6 @@ export const getDictionary = async (locale: Locale) => {
   return dictionaries[locale]();
 };
 
-// Sync version for client components
-import tr from './tr';
-import en from './en';
-import ar from './ar';
-import ru from './ru';
-import fr from './fr';
-
-const dictionariesSync = { tr, en, ar, ru, fr };
-
-export const getDictionarySync = (locale: Locale) => {
-  return dictionariesSync[locale];
-};
-
-export type Dictionary = typeof tr;
+// Type export için sadece tr kullan (build-time, runtime yükü yok)
+import type trDict from './tr';
+export type Dictionary = typeof trDict;

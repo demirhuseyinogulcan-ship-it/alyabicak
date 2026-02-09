@@ -9,7 +9,7 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
 import { BLOG_CATEGORIES } from '@/lib/types/blog'
 import { PageHeader } from '@/components/ui'
-import { getDictionary, type Locale } from '@/lib/i18n'
+import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
@@ -19,9 +19,8 @@ interface PageProps {
 // Static params generation
 export async function generateStaticParams() {
     const categories = BLOG_CATEGORIES
-    const locales: Locale[] = ['tr', 'en', 'ar', 'ru']
 
-    return locales.flatMap(locale =>
+    return i18nConfig.locales.flatMap(locale =>
         categories.map(category => ({
             locale,
             slug: category.slug,

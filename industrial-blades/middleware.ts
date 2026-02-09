@@ -102,10 +102,13 @@ export function middleware(request: NextRequest) {
 
   const response = NextResponse.redirect(newUrl);
   
-  // Cookie'ye locale kaydet
+  // Cookie'ye locale kaydet (secure + sameSite ile)
   response.cookies.set('NEXT_LOCALE', locale, {
     maxAge: 60 * 60 * 24 * 365, // 1 yıl
     path: '/',
+    secure: true,
+    sameSite: 'lax' as const,
+    httpOnly: false, // Client-side erişim gerekli (dil seçici)
   });
 
   return response;

@@ -8,7 +8,7 @@ import { notFound } from 'next/navigation'
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
 import { PageHeader } from '@/components/ui'
-import { getDictionary, type Locale } from '@/lib/i18n'
+import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
 
 interface PageProps {
@@ -17,16 +17,9 @@ interface PageProps {
 
 // Static params generation
 export async function generateStaticParams() {
-    const locales: Locale[] = ['tr', 'en', 'ar', 'ru']
-
-    // Her dil için tüm etiketleri (o dildeki) toplayıp slug oluşturuyoruz
-    // Basitlik için ve çakışma olmaması adına şu anlık sadece ana dildeki etiketleri veya
-    // URL encoded hallerini kullanıyoruz. Tag'ler genellikle free-text olduğu için
-    // static params production'da build süresini uzatabilir, ama SEO için iyidir.
-    // Burada örnek olarak 'tr' etiketlerini baz alıyoruz.
     const tags = blogService.getAllTags('tr')
 
-    return locales.flatMap(locale =>
+    return i18nConfig.locales.flatMap(locale =>
         tags.map(tag => ({
             locale,
             slug: tag, // Note: Gerçek uygulamada slugify etmek gerekebilir
