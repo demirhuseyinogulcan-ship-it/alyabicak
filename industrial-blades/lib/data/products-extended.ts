@@ -1359,6 +1359,498 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 288,
   },
+
+  // --- MAKİNA BIÇAKLARI: TERMOFORM / VAKUM PAKETLEME ---
+  // 9 ürün: kontör, yarım yıldız, tam yıldız, düz/lama, dairesel, yuvarlak zımba, oval zımba, dişli, genel VPB-001
+
+  {
+    id: 'vakum-paketleme-bicak',
+    slug: 'vakum-paketleme-bicagi',
+    code: 'VPB-001',
+    name: 'Vakum Paketleme Bıçağı',
+    subtitle: 'Sheffield Çelik — Termoform & MAP Makineleri',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['vakum paketleme', 'thermoform', 'MAP', 'gıda ambalaj', 'sheffield', 'makina bıçağı'],
+    shortDescription: 'Termoform ve vakum paketleme makineleri için Sheffield çeliğinden üretilmiş profesyonel kesim bıçağı. HRC 58-60 sertlik, gıda sınıfı yüzey kalitesi, ISO 9001:2015 sertifikalı üretim süreçleri.',
+    longDescription: `<p>Vakum paketleme (MAP — Modified Atmosphere Packaging) makinelerinde kullanılan bu profesyonel bıçak, Sheffield çeliğinden hassas CNC işleme ile üretilmiştir. HRC 58-60 Rockwell sertlik değeri, kontrollü atmosfer fırınlarında uygulanan ısıl işlem ile elde edilir.</p>
+<p>Gıda sanayiinde HACCP ve BRC standartlarına uygun yüzey kalitesi sunar. Ra ≤0.4 µm yüzey pürüzlülüğü sayesinde gıda parçacıklarının bıçak yüzeyine yapışması önlenir, böylece hijyen standartları korunur.</p>
+<p><strong>Uyumlu Makina Markaları:</strong> Multivac, Tiromat, Opack, Betapak, GEA CFS, Alcan, Ulma Packaging, Variovac, Sealpac, Webomatic, Henkelman.</p>
+<p>Düz kesim, kontör kesim, yıldız zımba ve hava zımbası dahil tüm termoform vakum paketleme bıçak tiplerinin genel referans ürünüdür. Spesifik makine modeli için teknik destek ekibimiz en uygun SKU eşleşmesini sağlar.</p>`,
+    images: {
+      main: { src: '/images/products/vakum-paketleme.jpg', alt: 'Vakum Paketleme Bıçağı - VPB-001 - Thermoform Machine Knife', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/vakum-paketleme.jpg', alt: 'VPB-001 Vacuum Packaging Blade', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'Sheffield Çelik (Yüksek Karbonlu)', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-60', icon: 'Shield', highlight: true },
+      { label: 'Yüzey Kalitesi', value: 'Ra ≤0.4 µm (Gıda Sınıfı)', icon: 'Gauge' },
+      { label: 'Isıl İşlem', value: 'Kontrollü atmosfer fırını', icon: 'Flame' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Ulma, Sealpac', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'Vakum Paketleme', icon: 'Package', description: 'MAP ve vakum makinelerinde film kesimi' },
+      { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Et, peynir, hazır gıda ambalajlama' },
+      { title: 'Termoform Ambalaj', icon: 'Box', description: 'Termoform kalıp kesim operasyonları' },
+    ],
+    benefits: [
+      { title: 'HRC 58-60 Sertlik', description: 'Kontrollü atmosfer ısıl işlemiyle kalıcı keskinlik ve 3x ömür artışı', icon: 'Shield' },
+      { title: 'Gıda Sınıfı Yüzey', description: 'Ra ≤0.4 µm pürüzlülük — HACCP ve BRC uyumlu hijyenik kesim', icon: 'CheckCircle' },
+      { title: 'Geniş Makina Uyumu', description: 'Multivac, Tiromat, GEA, Ulma, Sealpac dahil 10+ marka uyumluluğu', icon: 'Settings' },
+    ],
+    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-60 sertlik', 'Ra ≤0.4 µm yüzey', 'Gıda sınıfı hijyen', 'CNC hassas işleme', '10+ makina markası uyumlu'],
+    certifications: ['ISO 9001:2015', 'CE'],
+    relatedProductIds: ['kontr-biai', 'yarim', 'tam', 'dz-biaklar', 'dairesel'],
+    seo: {
+      title: 'Vakum Paketleme Bıçağı VPB-001 | Termoform Makina Bıçağı | Alya Bıçak',
+      description: 'Sheffield çeliğinden vakum paketleme bıçağı. HRC 58-60, gıda sınıfı Ra ≤0.4 µm. Multivac, Tiromat, GEA, Ulma, Sealpac uyumlu. Türkiye distribütörü.',
+      keywords: ['vakum paketleme bıçağı', 'thermoform bıçak', 'vacuum packaging blade', 'MAP packaging knife', 'multivac bıçak', 'tiromat bıçak', 'termoform kesim', 'gıda ambalaj bıçağı'],
+    },
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 300,
+  },
+  {
+    id: 'kontr-biai',
+    slug: 'kontr-biai-termoform-vakum-paketleme-bicagi',
+    code: 'KONTÖR BIÇAĞI',
+    name: 'KONTÖR BIÇAĞI - Termoform Vakum Paketleme Bıçağı',
+    subtitle: 'Kontör Profil Kesim — Sheffield Çelik HRC 58-62',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['kontör bıçağı', 'contour blade', 'termoform', 'vakum paketleme', 'multivac', 'tiromat', 'sheffield'],
+    shortDescription: 'Termoform ve vakum paketleme makinaları için kontör (contour) profil bıçağı. Sheffield çeliği HRC 58-62, Multivac, Tiromat, GEA uyumlu. Titanyum nitrür (TiN) kaplama opsiyonu ile 2300 HV yüzey sertliği.',
+    longDescription: `<p>Kontör bıçağı, termoform ambalaj makinelerinde film kenarlarını profil takip ederek kesen özel geometrili bıçaktır. Sheffield yüksek karbonlu çelikten CNC ile işlenir, HRC 58-62 sertlik değeri hassas ısıl işlemle elde edilir.</p>
+<p><strong>Profil Geometrisi:</strong> Makineye özel kontör profili, film kenar geometrisini birebir takip eder. Burr-free (çapaksız) kesim sağlar — ambalaj yüzeyinde kesim izi oluşmaz.</p>
+<p><strong>Kaplama Seçenekleri:</strong></p>
+<ul>
+<li>Standart: Parlak cilalı yüzey, Ra ≤0.4 µm</li>
+<li>TiN (Titanyum Nitrür) PVD kaplama: 2300 HV yüzey sertliği, altın sarısı renk, 3-5x ömür artışı</li>
+</ul>
+<p><strong>Uyumlu Makinalar:</strong> Multivac R-serisi (R105, R145, R245, R535), Tiromat 3000/660, GEA PowerPak, Opack, Betapak, Alcan, Ulma TFS serisi, Variovac.</p>`,
+    images: {
+      main: { src: '/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg', alt: 'Kontör Bıçağı - Contour Blade - Thermoform Vacuum Packaging', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg', alt: 'Contour Blade VPB', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'Sheffield Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield', highlight: true },
+      { label: 'Kaplama', value: 'Standart veya TiN PVD (2300 HV)', icon: 'Diamond' },
+      { label: 'Yüzey Kalitesi', value: 'Ra ≤0.4 µm (Gıda Sınıfı)', icon: 'Gauge' },
+      { label: 'Kesim Tipi', value: 'Kontör/Profil Takipli Kesim', icon: 'Scissors' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'Vakum Paketleme', icon: 'Package', description: 'Kontör profilli film kesimi' },
+      { title: 'Termoform Ambalaj', icon: 'Box', description: 'Kalıp kenarı takipli hassas kesim' },
+      { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Et, peynir, hazır gıda MAP ambalajı' },
+      { title: 'Endüstriyel Paketleme', icon: 'Factory', description: 'Medikal ve teknik ambalajlama' },
+    ],
+    benefits: [
+      { title: 'HRC 58-62 Sertlik', description: 'Hassas ısıl işlem ile tutarlı kesim kalitesi ve uzun ömür', icon: 'Shield' },
+      { title: 'Burr-Free Kesim', description: 'Kontör profil geometrisi ile çapaksız, temiz kenar kesimi', icon: 'Zap' },
+      { title: 'TiN Kaplama Opsiyonu', description: '2300 HV yüzey sertliği, 3-5x ömür artışı, yapışma önleme', icon: 'Diamond' },
+    ],
+    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-62 sertlik', 'Kontör profil geometrisi', 'Burr-free kesim', 'TiN PVD kaplama seçeneği', 'Gıda sınıfı Ra ≤0.4 µm'],
+    certifications: ['CE'],
+    relatedProductIds: ['yarim', 'tam', 'dz-biaklar', 'dairesel', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Kontör Bıçağı Termoform Vakum | Multivac Tiromat Uyumlu | Alya Bıçak',
+      description: 'Sheffield çeliğinden kontör/contour bıçağı. HRC 58-62, TiN 2300 HV kaplama. Multivac, Tiromat, GEA, Ulma uyumlu. ISO 9001 sertifikalı.',
+      keywords: ['kontör bıçağı', 'contour blade', 'termoform bıçak', 'vakum paketleme bıçağı', 'multivac bıçak', 'tiromat bıçak', 'thermoform blade', 'vacuum packaging knife'],
+    },
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 301,
+  },
+  {
+    id: 'yarim',
+    slug: 'yarim-yildiz-zimbalar',
+    code: 'YARIM YILDIZ',
+    name: 'YARIM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları',
+    subtitle: 'D2 Takım Çeliği — Yarım Yıldız (Half Star) Geometri',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['yarım yıldız', 'half star punch', 'üçgen zımba', 'D2 çelik', 'vakum zımba', 'termoform'],
+    shortDescription: 'D2 takım çeliğinden üretilmiş yarım yıldız (half star / triangle) zımba bıçakları. HRC 58-60, %1.55 karbon, %12 krom içerikli yüksek aşınma dayanımlı alaşım. Titanyum nitrür kaplama opsiyonu.',
+    longDescription: `<p>Yarım yıldız (half star) zımba bıçakları, vakum ambalajda film üzerine havalandırma deseni açmak için kullanılır. D2 takım çeliği (%1.55 C, %12 Cr, %0.85 Mo, %0.9 V), yüksek krom içeriği sayesinde hem aşınma direnci hem de boyutsal kararlılık sunar.</p>
+<p><strong>Isıl İşlem Parametreleri:</strong> 1020-1040°C ostenit dönüşümü → yağda su verme → 200-250°C temperleme. Bu 3 aşamalı süreç HRC 58-60 sertlik ve yeterli tokluk dengesi sağlar.</p>
+<p><strong>Geometri:</strong> Üçgen (triangle) formundaki yarım yıldız deseni, filmde optimum havalandırma alanı oluştururken ambalaj bütünlüğünü korur. DIN 1.2379 eşdeğeri malzeme standardı.</p>
+<p><strong>Kaplama:</strong> TiN (Titanyum Nitrür) PVD kaplama ile yüzey sertliği 2300 HV'ye çıkar, sürtünme %40 azalır, bıçak ömrü 3-5x artar.</p>`,
+    images: {
+      main: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Yarım Yıldız Zımba - Half Star Punch - Vacuum Packaging', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/titanyum-kaplamali-zimba-bicaklar.jpg', alt: 'TiN Coated Half Star Punch Blade', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Half Star Punch D2 Steel', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'D2 Takım Çeliği (DIN 1.2379)', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-60', icon: 'Shield', highlight: true },
+      { label: 'Kaplama', value: 'Standart veya TiN PVD (2300 HV)', icon: 'Diamond' },
+      { label: 'Kimyasal Bileşim', value: '%1.55 C, %12 Cr, %0.85 Mo, %0.9 V', icon: 'Beaker' },
+      { label: 'Geometri', value: 'Yarım Yıldız (Half Star / Triangle)', icon: 'Star' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'Vakum Zımbalama', icon: 'Target', description: 'Film üzerinde havalandırma deseni açma' },
+      { title: 'Termoform Ambalaj', icon: 'Box', description: 'Termoform makinelerinde zımba operasyonu' },
+      { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Et, peynir, hazır gıda ambalajı' },
+    ],
+    benefits: [
+      { title: 'D2 Takım Çeliği', description: '%12 krom, %1.55 karbon — üstün aşınma direnci ve boyutsal kararlılık', icon: 'Shield' },
+      { title: 'TiN Kaplama Opsiyonu', description: '2300 HV yüzey, %40 sürtünme azaltma, 3-5x ömür', icon: 'Diamond' },
+      { title: 'Hassas Geometri', description: 'Üçgen form, optimum havalandırma alanı ile ambalaj bütünlüğü dengesi', icon: 'Star' },
+    ],
+    features: ['D2 takım çeliği DIN 1.2379', 'HRC 58-60 sertlik', '%12 krom aşınma direnci', 'TiN PVD kaplama seçeneği', 'Yarım yıldız geometrisi', 'Gıda sınıfı yüzey'],
+    certifications: ['CE'],
+    relatedProductIds: ['tam', 'kontr-biai', 'yuvarlak', 'oval', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Yarım Yıldız Zımba D2 Çelik | Vakum Paketleme Zımba Bıçağı | Alya Bıçak',
+      description: 'D2 takım çeliğinden yarım yıldız zımba bıçağı. HRC 58-60, DIN 1.2379, TiN 2300 HV kaplama. Multivac, Tiromat uyumlu.',
+      keywords: ['yarım yıldız zımba', 'half star punch', 'vakum paketleme zımba', 'D2 çelik zımba', 'termoform zımba', 'multivac zımba', 'tiromat zımba'],
+    },
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 302,
+  },
+  {
+    id: 'tam',
+    slug: 'tam-yildiz-zimbalar',
+    code: 'TAM YILDIZ',
+    name: 'TAM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları',
+    subtitle: 'D2 Takım Çeliği — Tam Yıldız (Full Star) Geometri',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['tam yıldız', 'full star punch', 'yıldız zımba', 'D2 çelik', 'vakum zımba', 'termoform'],
+    shortDescription: 'D2 takım çeliğinden üretilmiş tam yıldız (full star) zımba bıçakları. HRC 58-60, DIN 1.2379 eşdeğeri. Yarım yıldıza göre 2x havalandırma alanı. Titanyum nitrür kaplama opsiyonu.',
+    longDescription: `<p>Tam yıldız (full star) zımba bıçakları, vakum ambalajda yarım yıldıza göre 2 kat daha geniş havalandırma deseni açar. D2 takım çeliği (%1.55 C, %12 Cr, %0.85 Mo, %0.9 V) ile üretilir.</p>
+<p><strong>Avantajı:</strong> Hızlı gazlaştırma gerektiren MAP uygulamalarında (modifiye atmosfer), full star geometrisi gaz alışverişini hızlandırır. Et, peynir ve hazır gıda paketlemede yaygın tercih.</p>
+<p><strong>Malzeme:</strong> DIN 1.2379 / AISI D2 — krom-molibden-vanadyum alaşımlı soğuk iş takım çeliği. İkincil sertleşme etkisiyle HRC 58-60 kararlı sertlik.</p>
+<p><strong>Uyumlu Makinalar:</strong> Multivac, Tiromat, GEA PowerPak, Opack, Betapak, Alcan, Ulma, Variovac, Sealpac.</p>`,
+    images: {
+      main: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Tam Yıldız Zımba - Full Star Punch - Vacuum Packaging', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/titanyum-kaplamali-zimba-bicaklar.jpg', alt: 'TiN Coated Full Star Punch', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Full Star Punch D2 Steel', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'D2 Takım Çeliği (DIN 1.2379)', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-60', icon: 'Shield', highlight: true },
+      { label: 'Kaplama', value: 'Standart veya TiN PVD (2300 HV)', icon: 'Diamond' },
+      { label: 'Geometri', value: 'Tam Yıldız (Full Star)', icon: 'Star', highlight: true },
+      { label: 'Kimyasal Bileşim', value: '%1.55 C, %12 Cr, %0.85 Mo, %0.9 V', icon: 'Beaker' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Sealpac', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'MAP Paketleme', icon: 'Wind', description: 'Modifiye atmosfer hızlı gaz değişimi' },
+      { title: 'Vakum Zımbalama', icon: 'Target', description: 'Geniş havalandırma deseni açma' },
+      { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Et, peynir, hazır gıda ambalajı' },
+    ],
+    benefits: [
+      { title: '2x Havalandırma Alanı', description: 'Yarım yıldıza göre iki kat geniş gaz geçiş yüzeyi', icon: 'Wind' },
+      { title: 'D2 Çelik Dayanım', description: 'DIN 1.2379, %12 krom ile üstün aşınma ve korozyon direnci', icon: 'Shield' },
+      { title: 'TiN Kaplama Opsiyonu', description: '2300 HV yüzey sertliği, 3-5x ömür artışı', icon: 'Diamond' },
+    ],
+    features: ['D2 takım çeliği DIN 1.2379', 'HRC 58-60 sertlik', 'Tam yıldız geometrisi', '2x havalandırma alanı', 'TiN PVD kaplama seçeneği', 'MAP uygulamalarına optimize'],
+    certifications: ['CE'],
+    relatedProductIds: ['yarim', 'kontr-biai', 'yuvarlak', 'oval', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Tam Yıldız Zımba D2 Çelik | Vakum Paketleme Full Star Punch | Alya Bıçak',
+      description: 'D2 takım çeliğinden tam yıldız zımba. HRC 58-60, DIN 1.2379. Yarım yıldıza göre 2x alan. Multivac, Tiromat, GEA uyumlu.',
+      keywords: ['tam yıldız zımba', 'full star punch', 'vakum paketleme zımba', 'D2 çelik zımba', 'star punch blade', 'multivac star punch', 'termoform zımba'],
+    },
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 303,
+  },
+  {
+    id: 'dz-biaklar',
+    slug: 'dz-biaklar-lama-bicaklar',
+    code: 'LAMA BIÇAK',
+    name: 'DÜZ BIÇAKLAR - Lama Bıçaklar | Vakum Paketleme',
+    subtitle: 'HSS (M2) Yüksek Hız Çeliği — HRC 62-65',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['lama bıçak', 'düz bıçak', 'straight blade', 'HSS', 'M2', 'yüksek hız çeliği', 'vakum paketleme'],
+    shortDescription: 'HSS M2 yüksek hız çeliğinden üretilmiş düz (lama) bıçaklar. HRC 62-65 sertlik, %0.85 C / %6 W / %5 Mo / %4 Cr / %2 V alaşım bileşimi. Ezilmeye ve deformasyona karşı olağanüstü direnç.',
+    longDescription: `<p>Düz (straight/lama) bıçaklar, termoform ve vakum paketleme makinelerinde film kesim hattında kullanılır. HSS M2 (DIN 1.3343 / AISI M2) yüksek hız çeliğinden üretilir.</p>
+<p><strong>Alaşım Bileşimi:</strong> %0.85 C, %6.15 W, %5.0 Mo, %4.15 Cr, %1.85 V — bu bileşim ikincil sertleşme fenomeni sayesinde HRC 62-65 sertliğe ulaşırken 600°C'ye kadar termal kararlılık sunar.</p>
+<p><strong>Üstünlükleri:</strong></p>
+<ul>
+<li>Ezilmeye karşı olağanüstü direnç — Sheffield çeliğe göre 5x deformasyon direnci</li>
+<li>Kırmızı sertlik (red hardness): 600°C'de bile HRC 60+ koruma</li>
+<li>Vanadyum karbür mikro-yapı: MC karbürler aşınmaya karşı doğal bariyer oluşturur</li>
+</ul>
+<p><strong>Uyumlu Makinalar:</strong> Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac.</p>`,
+    images: {
+      main: { src: '/images/products/vakum-lama-bicaklar.jpg', alt: 'Düz Lama Bıçak - Straight Blade - HSS M2 Vacuum Packaging', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/vakum-lama-bicaklar.jpg', alt: 'HSS M2 Straight Blade', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'HSS M2 (DIN 1.3343)', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 62-65', icon: 'Shield', highlight: true },
+      { label: 'Termal Kararlılık', value: '600°C (Kırmızı Sertlik)', icon: 'Flame' },
+      { label: 'Alaşım', value: '%0.85 C / %6 W / %5 Mo / %4 Cr / %2 V', icon: 'Beaker' },
+      { label: 'Kenar Tipi', value: 'Düz Kesim (Straight Edge)', icon: 'Minus' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Alcan', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'Film Kesimi', icon: 'Scissors', description: 'Vakum paketleme film kesim hattı' },
+      { title: 'Termoform Ambalaj', icon: 'Box', description: 'Düz hat kesim operasyonları' },
+      { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Et, peynir, hazır gıda ambalajı' },
+    ],
+    benefits: [
+      { title: 'HRC 62-65 Ultra Sertlik', description: 'M2 HSS ikincil sertleşme ile çelikler arasında en yüksek değer', icon: 'Shield' },
+      { title: '600°C Termal Kararlılık', description: 'Kırmızı sertlik — yüksek hızlı kesimde bile sertlik kaybı yok', icon: 'Flame' },
+      { title: 'Ezilmez Yapı', description: 'Vanadyum karbür mikro-yapı ile 5x deformasyon direnci', icon: 'Zap' },
+    ],
+    features: ['HSS M2 DIN 1.3343', 'HRC 62-65 sertlik', '600°C kırmızı sertlik', 'Ezilmeye karşı üstün direnç', 'Vanadyum karbür mikro-yapı', 'MC karbür aşınma bariyeri'],
+    certifications: ['CE'],
+    relatedProductIds: ['kontr-biai', 'dairesel', 'dili', 'yarim', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Düz Lama Bıçak HSS M2 | Vakum Paketleme Straight Blade | Alya Bıçak',
+      description: 'HSS M2 yüksek hız çeliğinden düz lama bıçak. HRC 62-65, 600°C termal kararlılık. Multivac, Tiromat, GEA uyumlu.',
+      keywords: ['lama bıçak', 'düz bıçak', 'straight blade', 'HSS bıçak', 'M2 çelik', 'vakum paketleme lama', 'termoform bıçak', 'film cutting blade'],
+    },
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 304,
+  },
+  {
+    id: 'dairesel',
+    slug: 'dairesel-bicaklar-vakum-paketleme',
+    code: 'DAİRESEL',
+    name: 'DAİRESEL BIÇAKLAR - Vakum Paketleme Döner Bıçak',
+    subtitle: 'Sheffield Çelik — Döner (Rotary) Kesim HRC 58-62',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['dairesel bıçak', 'circular blade', 'döner bıçak', 'rotary blade', 'vakum paketleme', 'termoform'],
+    shortDescription: 'Sheffield çeliğinden dairesel (circular) döner kesim bıçakları. HRC 58-62, hassas bileme açısı, dinamik dengelenmiş yapı. Termoform ve vakum paketleme makinelerinde rotary kesim.',
+    longDescription: `<p>Dairesel bıçaklar, termoform ve vakum paketleme makinelerinde döner (rotary) kesim sistemiyle çalışır. Sheffield yüksek karbonlu çelikten CNC torna ve taşlama ile üretilir.</p>
+<p><strong>Dinamik Dengeleme:</strong> Her dairesel bıçak, yüksek hız dönüşünde titreşim oluşturmaması için dinamik olarak dengelenir. Bu sayede 3000+ RPM'de bile burr-free kesim garanti edilir.</p>
+<p><strong>Bileme:</strong> Kenar açısı 18-22° hassas taşlama ile oluşturulur. Yeniden bileme kalibrasyon hizmeti mevcuttur.</p>
+<p><strong>Uyumlu Makinalar:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+    images: {
+      main: { src: '/images/products/dairesel-bicaklar.jpg', alt: 'Dairesel Bıçak - Circular Blade - Vacuum Packaging Rotary', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/dairesel-bicaklar.jpg', alt: 'Circular Rotary Blade', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'Sheffield Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield', highlight: true },
+      { label: 'Geometri', value: 'Dairesel (Circular Rotary)', icon: 'Circle', highlight: true },
+      { label: 'Bileme Açısı', value: '18-22°', icon: 'Gauge' },
+      { label: 'Dengeleme', value: 'Dinamik Dengelenmiş (3000+ RPM)', icon: 'RotateCw' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'Döner Kesim', icon: 'RotateCw', description: 'Yüksek hızlı rotary film kesimi' },
+      { title: 'Termoform Ambalaj', icon: 'Box', description: 'Dairesel kesim operasyonları' },
+      { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Gıda paketleme hatlarında döner kesim' },
+    ],
+    benefits: [
+      { title: 'Dinamik Dengelenmiş', description: '3000+ RPM\'de titreşimsiz, burr-free kesim garantisi', icon: 'RotateCw' },
+      { title: 'HRC 58-62 Sertlik', description: 'Sheffield çeliğinden uzun ömürlü keskin kenar', icon: 'Shield' },
+      { title: 'Yeniden Bileme', description: '18-22° hassas taşlama ile bileme kalibrasyon hizmeti', icon: 'RefreshCw' },
+    ],
+    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-62 sertlik', 'Dairesel rotary geometri', 'Dinamik dengelenmiş', '18-22° bileme açısı', '3000+ RPM kapasitesi'],
+    certifications: ['CE'],
+    relatedProductIds: ['kontr-biai', 'dz-biaklar', 'dili', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Dairesel Döner Bıçak | Vakum Paketleme Rotary Blade | Alya Bıçak',
+      description: 'Sheffield çeliğinden dairesel döner bıçak. HRC 58-62, dinamik dengelenmiş, 3000+ RPM. Multivac, Tiromat, GEA uyumlu.',
+      keywords: ['dairesel bıçak', 'circular blade', 'döner bıçak', 'rotary blade', 'vakum paketleme dairesel', 'termoform dairesel', 'round cutting blade'],
+    },
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 305,
+  },
+  {
+    id: 'yuvarlak',
+    slug: 'yuvarlak-hava-zimbasi-vakum-paketleme',
+    code: 'YUVARLAK ZIMBA',
+    name: 'YUVARLAK HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı',
+    subtitle: '440C Martensitik Paslanmaz Çelik — Hava Delikli',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['yuvarlak zımba', 'round air punch', 'hava zımbası', '440C', 'paslanmaz', 'vakum hava zımba'],
+    shortDescription: '440C martensitik paslanmaz çelikten yuvarlak hava zımba bıçakları. HRC 58-60, %17 krom korozyon direnci. Gıda sınıfı yüzey, HACCP uyumlu. Vakum ambalajda havalandırma deliği açma.',
+    longDescription: `<p>Yuvarlak hava zımba bıçakları, vakum ambalajlarda yuvarlak profile havalandırma (vent) delikleri açar. AISI 440C (%1.0 C, %17 Cr) martensitik paslanmaz çelikten üretilir.</p>
+<p><strong>Korozyon Direnci:</strong> %17 krom içeriği, nemli gıda paketleme ortamlarında paslanma ve pitting korozyonuna karşı üstün direnç sağlar. Tuzlu ortamlarda (deniz ürünleri paketleme) bile performans kaybı yaşanmaz.</p>
+<p><strong>Yüzey İşlemi:</strong> Elektropolisaj ile Ra ≤0.3 µm pürüzlülük, HACCP ve FDA 21 CFR 175.300 standartlarına uygun gıda teması kalitesi.</p>
+<p><strong>Uyumlu Makinalar:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+    images: {
+      main: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Yuvarlak Hava Zımbası - Round Air Punch - Vacuum Packaging', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Round Air Punch 440C', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'AISI 440C Martensitik Paslanmaz', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-60', icon: 'Shield', highlight: true },
+      { label: 'Krom İçeriği', value: '%17 Cr (Yüksek Korozyon Direnci)', icon: 'Droplet' },
+      { label: 'Yüzey Kalitesi', value: 'Ra ≤0.3 µm (Elektropolisaj)', icon: 'Gauge' },
+      { label: 'Geometri', value: 'Yuvarlak (Round) Hava Deliği', icon: 'Circle' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'Havalandırma Zımbalama', icon: 'Wind', description: 'Vakum ambalajda vent deliği açma' },
+      { title: 'Gıda Paketleme', icon: 'Utensils', description: 'Et, peynir, taze gıda MAP ambalajı' },
+      { title: 'Deniz Ürünleri', icon: 'Fish', description: 'Tuzlu ortamda korozyon dirençli zımba' },
+    ],
+    benefits: [
+      { title: '%17 Krom Korozyon Direnci', description: 'Nemli ve tuzlu gıda ortamlarında paslanmaya karşı tam koruma', icon: 'Droplet' },
+      { title: 'HACCP Uyumlu Yüzey', description: 'Ra ≤0.3 µm elektropolisaj ile gıda sınıfı hijyen', icon: 'CheckCircle' },
+      { title: 'HRC 58-60 Sertlik', description: 'Martensitik yapı ile keskinlik ve korozyon direnci dengesi', icon: 'Shield' },
+    ],
+    features: ['440C martensitik paslanmaz', '%17 krom korozyon direnci', 'HRC 58-60 sertlik', 'Ra ≤0.3 µm elektropolisaj', 'HACCP ve FDA uyumlu', 'Hava delikli geometri'],
+    certifications: ['CE'],
+    relatedProductIds: ['oval', 'yarim', 'tam', 'kontr-biai', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Yuvarlak Hava Zımbası 440C | Vakum Paketleme Vent Punch | Alya Bıçak',
+      description: '440C paslanmaz çelik yuvarlak hava zımbası. HRC 58-60, %17 krom, HACCP uyumlu. Multivac, Tiromat, GEA uyumlu.',
+      keywords: ['yuvarlak hava zımba', 'round air punch', 'vakum hava zımbası', '440C zımba', 'vent hole punch', 'multivac air punch', 'termoform zımba'],
+    },
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 306,
+  },
+  {
+    id: 'oval',
+    slug: 'oval-hava-zimbasi-vakum-paketleme',
+    code: 'OVAL ZIMBA',
+    name: 'OVAL HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı',
+    subtitle: '440C Martensitik Paslanmaz Çelik — Oval Hava Deliği',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['oval zımba', 'oval air punch', 'elips zımba', '440C', 'paslanmaz', 'vakum hava zımba'],
+    shortDescription: '440C martensitik paslanmaz çelikten oval (elips) hava zımba bıçakları. HRC 58-60, %17 krom. Yuvarlak zımbaya göre daha geniş havalandırma alanı. Gıda sınıfı elektropolisaj.',
+    longDescription: `<p>Oval hava zımba bıçakları, yuvarlak zımbaya göre eliptik profilde daha geniş havalandırma alanı oluşturur. Aynı AISI 440C (%1.0 C, %17 Cr) martensitik paslanmaz çelikten üretilir.</p>
+<p><strong>Oval Avantajı:</strong> Eliptik geometri, aynı film bölgesinde %40 daha fazla gaz geçiş yüzeyi sağlar. Bu özellik, hızlı gaz değişimi gerektiren MAP (Modifiye Atmosfer) paketlemede tercih edilir.</p>
+<p><strong>440C Özellikleri:</strong> %1.0 karbon + %17 krom bileşimi, martensitik yapıda hem HRC 58-60 sertlik hem de üstün korozyon direnci sunar. Elektropolisaj ile Ra ≤0.3 µm gıda sınıfı yüzey.</p>
+<p><strong>Uyumlu Makinalar:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+    images: {
+      main: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Oval Hava Zımbası - Oval Air Punch - Vacuum Packaging', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Oval Air Punch 440C', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'AISI 440C Martensitik Paslanmaz', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-60', icon: 'Shield', highlight: true },
+      { label: 'Krom İçeriği', value: '%17 Cr (Yüksek Korozyon Direnci)', icon: 'Droplet' },
+      { label: 'Geometri', value: 'Oval (Elips) Hava Deliği', icon: 'Circle', highlight: true },
+      { label: 'Havalandırma', value: 'Yuvarlağa göre %40 daha geniş alan', icon: 'Wind' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'MAP Havalandırma', icon: 'Wind', description: 'Hızlı gaz değişimli modifiye atmosfer' },
+      { title: 'Gıda Paketleme', icon: 'Utensils', description: 'Et, peynir, taze gıda ambalajı' },
+      { title: 'Termoform Ambalaj', icon: 'Box', description: 'Geniş vent alanı gerektiren uygulamalar' },
+    ],
+    benefits: [
+      { title: '%40 Daha Geniş Alan', description: 'Oval geometri ile yuvarlak zımbaya göre %40 fazla havalandırma', icon: 'Wind' },
+      { title: '440C Korozyon Direnci', description: '%17 krom, nemli ve tuzlu ortamlarda tam koruma', icon: 'Droplet' },
+      { title: 'HACCP Uyumlu Yüzey', description: 'Ra ≤0.3 µm elektropolisaj, gıda sınıfı hijyen', icon: 'CheckCircle' },
+    ],
+    features: ['440C martensitik paslanmaz', 'Oval elips geometrisi', '%40 daha geniş havalandırma', 'HRC 58-60 sertlik', '%17 krom korozyon direnci', 'Ra ≤0.3 µm gıda sınıfı'],
+    certifications: ['CE'],
+    relatedProductIds: ['yuvarlak', 'yarim', 'tam', 'kontr-biai', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Oval Hava Zımbası 440C | Vakum Paketleme Elips Vent Punch | Alya Bıçak',
+      description: '440C paslanmaz çelik oval hava zımbası. HRC 58-60, %17 krom, %40 daha geniş alan. Multivac, Tiromat, GEA uyumlu.',
+      keywords: ['oval hava zımba', 'oval air punch', 'elips zımba', 'vakum hava zımbası', '440C zımba', 'vent hole punch', 'multivac oval punch'],
+    },
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 307,
+  },
+  {
+    id: 'dili',
+    slug: 'disli-bicaklar-vakum-paketleme',
+    code: 'DİŞLİ BIÇAK',
+    name: 'DİŞLİ BIÇAKLAR - Vakum Paketleme Testere Dişli Bıçak',
+    subtitle: 'Sheffield Çelik — Testere Dişli (Serrated) Kenar',
+    categoryId: 'machine-knives',
+    subcategoryId: 'thermoform-vacuum',
+    tags: ['dişli bıçak', 'serrated blade', 'testere dişli', 'saw tooth', 'vakum paketleme', 'termoform'],
+    shortDescription: 'Sheffield çeliğinden testere dişli (serrated) kesim bıçakları. HRC 58-62, mikro-serrated kenar geometrisi. Kalın film, alüminyum folyo ve sert ambalaj malzemelerinde kayma önleyici kesim.',
+    longDescription: `<p>Testere dişli (serrated/saw-tooth) bıçaklar, kalın filmler, alüminyum folyo laminasyonlar ve sert termoplastik ambalajlar gibi düz bıçağın kayacağı malzemelerde kullanılır.</p>
+<p><strong>Diş Geometrisi:</strong> Mikro-serrated kenar profili, malzemeyi önce deler sonra keser. Bu iki aşamalı mekanizma kayma (slip) riskini ortadan kaldırır ve her kesimde düzgün kenar oluşturur.</p>
+<p><strong>Malzeme:</strong> Sheffield yüksek karbonlu çelik, HRC 58-62 sertlik. Dişler CNC ile hassas olarak açılır, her diş arası tolerans ±0.02mm.</p>
+<p><strong>İdeal Kullanım:</strong></p>
+<ul>
+<li>Kalın PE/PP filmler (100+ mikron)</li>
+<li>Alüminyum folyo laminasyonlar</li>
+<li>PET/PVC rigid ambalajlar</li>
+<li>Çok katmanlı bariyerli filmler</li>
+</ul>
+<p><strong>Uyumlu Makinalar:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+    images: {
+      main: { src: '/images/products/dili-bicaklar.jpg', alt: 'Dişli Bıçak - Serrated Blade - Vacuum Packaging Saw-Tooth', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/dili-bicaklar.jpg', alt: 'Serrated Saw-Tooth Blade', width: 400, height: 400 },
+    },
+    specs: [
+      { label: 'Malzeme', value: 'Sheffield Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield', highlight: true },
+      { label: 'Kenar Tipi', value: 'Mikro-Serrated (Testere Dişli)', icon: 'Scissors', highlight: true },
+      { label: 'Diş Toleransı', value: '±0.02mm CNC hassasiyet', icon: 'Gauge' },
+      { label: 'İdeal Malzeme', value: 'Kalın film, Al folyo, PET/PVC rigid', icon: 'Layers' },
+      { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
+    ],
+    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    applications: [
+      { title: 'Sert Film Kesimi', icon: 'Scissors', description: 'PET, PVC, rigid ambalaj kesimi' },
+      { title: 'Laminasyon Kesimi', icon: 'Layers', description: 'Alüminyum folyo laminasyonlar' },
+      { title: 'Vakum Paketleme', icon: 'Package', description: 'Çok katmanlı bariyer filmler' },
+    ],
+    benefits: [
+      { title: 'Kayma Önleyici Kesim', description: 'Mikro-serrated diş profili, kaygan malzemelerde bile güvenli kesim', icon: 'Zap' },
+      { title: '±0.02mm Diş Hassasiyeti', description: 'CNC ile açılmış hassas dişler, düzgün kenar kalitesi', icon: 'Gauge' },
+      { title: 'Çok Malzeme Uyumu', description: 'Kalın film, folyo, rigid plastik, bariyerli film — tek bıçak', icon: 'Layers' },
+    ],
+    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-62 sertlik', 'Mikro-serrated kenar', '±0.02mm CNC diş toleransı', 'Kayma önleyici mekanizma', 'Kalın film/folyo/rigid uyumlu'],
+    certifications: ['CE'],
+    relatedProductIds: ['kontr-biai', 'dz-biaklar', 'dairesel', 'vakum-paketleme-bicak'],
+    seo: {
+      title: 'Dişli Testere Bıçak | Vakum Paketleme Serrated Blade | Alya Bıçak',
+      description: 'Sheffield çeliğinden testere dişli bıçak. HRC 58-62, ±0.02mm CNC. Kalın film, folyo, PET/PVC rigid. Multivac, Tiromat uyumlu.',
+      keywords: ['dişli bıçak', 'serrated blade', 'testere dişli', 'saw tooth blade', 'vakum paketleme dişli', 'termoform serrated', 'multivac serrated'],
+    },
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 308,
+  },
 ];
 
 // =============================================================================

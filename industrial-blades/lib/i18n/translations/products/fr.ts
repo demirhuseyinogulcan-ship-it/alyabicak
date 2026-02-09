@@ -1751,6 +1751,24 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   // COUTEAUX DE MACHINE - THERMOFORMAGE & EMBALLAGE SOUS VIDE
   // =============================================================================
+  'vakum-paketleme-bicak': {
+    name: 'Lame d\'Emballage Sous Vide',
+    description: 'Lame professionnelle pour machines d\'emballage sous vide et thermoformage. Acier Sheffield HRC 58-60, finition alimentaire Ra ≤0.4 µm. Compatible Multivac, Tiromat, GEA, Ulma, Sealpac, Webomatic.',
+    features: [
+      'Acier Sheffield haute teneur en carbone',
+      'Dureté HRC 58-60',
+      'Finition alimentaire Ra ≤0.4 µm',
+      'Conforme HACCP et BRC',
+      'Usinage CNC de précision',
+      'Compatible 10+ marques de machines'
+    ],
+    applications: ['Emballage sous vide', 'Thermoformage', 'Emballage MAP (Atmosphère Modifiée)', 'Industrie alimentaire — viande, fromage, plats préparés', 'Emballage dispositifs médicaux'],
+    seo: {
+      title: 'Lame Emballage Sous Vide | Couteau Thermoformage | Acier Sheffield',
+      description: 'Lame professionnelle pour emballage sous vide et thermoformage. Acier Sheffield HRC 58-60, qualité alimentaire Ra ≤0.4 µm. Compatible Multivac, Tiromat, GEA, Ulma, Sealpac. Fabricant certifié ISO 9001.',
+      keywords: ['lame emballage sous vide', 'couteau thermoformage', 'lame machine emballage', 'lame Multivac', 'lame Tiromat', 'couteau emballage alimentaire', 'lame MAP', 'lame vacuum packaging', 'couteau machine emballage sous vide', 'lame industrielle emballage'],
+    },
+  },
   'kontr-biai': {
     name: 'Lame Contour – Thermoformage & Emballage Sous Vide',
     description: 'Lame contour pour machines de thermoformage et emballage sous vide. Compatible Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac.',

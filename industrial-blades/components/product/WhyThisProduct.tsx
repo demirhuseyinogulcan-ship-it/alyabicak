@@ -6,6 +6,7 @@ import {
   Wrench, 
   TrendingUp,
   CheckCircle2,
+  CheckCircle,
   Zap,
   Target,
   Settings,
@@ -19,6 +20,13 @@ import {
   Diamond,
   Heart,
   Flame,
+  Wind,
+  Star,
+  RotateCw,
+  RefreshCw,
+  Droplet,
+  Layers,
+  Scissors,
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductBenefit } from '@/lib/types/product.types';
@@ -31,6 +39,7 @@ const iconMap: Record<string, LucideIcon> = {
   Wrench,
   TrendingUp,
   CheckCircle2,
+  CheckCircle,
   Zap,
   Target,
   Settings,
@@ -44,6 +53,13 @@ const iconMap: Record<string, LucideIcon> = {
   Diamond,
   Heart,
   Flame,
+  Wind,
+  Star,
+  RotateCw,
+  RefreshCw,
+  Droplet,
+  Layers,
+  Scissors,
 };
 
 interface WhyThisProductProps {
@@ -90,7 +106,7 @@ export function WhyThisProduct({
         {/* Benefit Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {displayBenefits.map((benefit, index) => {
-            const IconComponent = benefit.icon ? iconMap[benefit.icon] : CheckCircle2;
+            const IconComponent = benefit.icon ? (iconMap[benefit.icon] || CheckCircle2) : CheckCircle2;
             
             return (
               <div

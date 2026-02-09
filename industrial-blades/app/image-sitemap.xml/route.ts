@@ -12,6 +12,7 @@ import { getAllProducts } from '@/lib/data/products';
 import { getAllCategories } from '@/lib/data/categories';
 import { i18nConfig, type Locale } from '@/lib/i18n/config';
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
+import { getProductTranslation, getCategoryTranslation } from '@/lib/i18n/translations';
 
 // Cache for generated sitemap (24 hours)
 let cachedXml: string | null = null;
@@ -56,13 +57,18 @@ function generateImageEntries(): ImageEntry[] {
         ? product.image 
         : `${domain}${product.image}`;
 
+      // Locale-aware title & caption — SEO için çeviri varsa kullan
+      const translation = getProductTranslation(product.id, locale);
+      const localizedName = translation?.name || product.name;
+      const localizedDesc = translation?.description || product.description;
+
       entries.push({
         pageUrl,
         images: [
           {
             loc: imageUrl,
-            title: `${product.name} - ${product.code}`,
-            caption: product.description?.substring(0, 200),
+            title: `${localizedName} - ${product.code}`,
+            caption: localizedDesc?.substring(0, 200),
             geoLocation: 'Istanbul, Turkey',
           },
         ],
@@ -78,13 +84,18 @@ function generateImageEntries(): ImageEntry[] {
         ? category.image
         : `${domain}${category.image}`;
 
+      // Locale-aware category title & caption
+      const catTranslation = getCategoryTranslation(category.id, locale);
+      const localizedCatName = catTranslation?.name || category.name;
+      const localizedCatDesc = catTranslation?.description || category.description;
+
       entries.push({
         pageUrl,
         images: [
           {
             loc: imageUrl,
-            title: category.name,
-            caption: category.description?.substring(0, 200),
+            title: localizedCatName,
+            caption: localizedCatDesc?.substring(0, 200),
             geoLocation: 'Istanbul, Turkey',
           },
         ],

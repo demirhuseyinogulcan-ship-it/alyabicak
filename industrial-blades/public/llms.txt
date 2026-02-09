@@ -108,7 +108,15 @@ Surface coatings available:
 - INJ-SS-PTFE-2S: Injector Blade, Stainless + PTFE, friction ~0.04
 - INJ-TC-NS: Injector Blade, Solid Tungsten Carbide, no slots
 - TRP-STD: Trapezoid Utility Blade, Standard
-- VPB-001: Vacuum Packaging Blade, Thermoform machine knife
+- VPB-001: Vacuum Packaging Blade (General Reference), Sheffield Steel, HRC 58-60, Ra ≤0.4 µm food-grade surface, Multivac/Tiromat/GEA/Ulma/Sealpac/Webomatic compatible
+- KONTÖR: Contour Blade, Sheffield Steel, HRC 58-62, TiN PVD option (2300 HV), profile-following thermoform cut, Multivac R-series/Tiromat 3000/GEA PowerPak compatible
+- YARIM-YILDIZ: Half Star Punch, D2 Tool Steel (DIN 1.2379), HRC 58-60, triangular vent pattern, TiN PVD option
+- TAM-YILDIZ: Full Star Punch, D2 Tool Steel (DIN 1.2379), HRC 58-60, full star vent 2x area vs half-star, MAP optimized
+- LAMA: Straight/Flat Blade, HSS M2 (DIN 1.3343), HRC 62-65, 600°C red hardness, 5x deformation resistance
+- DAİRESEL: Circular Rotary Blade, Sheffield Steel, HRC 58-62, dynamic balanced 3000+ RPM, 18-22° edge angle
+- YUVARLAK-ZIMBA: Round Air Punch, AISI 440C Martensitic Stainless (%17 Cr), HRC 58-60, Ra ≤0.3 µm electropolished, HACCP compliant
+- OVAL-ZIMBA: Oval Air Punch, AISI 440C Martensitic Stainless, HRC 58-60, 40% more vent area vs round, MAP optimized
+- DİŞLİ: Serrated/Saw-Tooth Blade, Sheffield Steel, HRC 58-62, micro-serrated ±0.02mm CNC, thick film/foil/rigid plastic
 - H006 001 X01: RETRO LIGHT Knife, Cast metal safety knife
 - H008 001 A03: AUTO RETRACT, Automatic retractable safety knife
 
@@ -153,10 +161,13 @@ A: Evet, 35+ ülkeye ihracat. AB, Orta Doğu, Orta Asya, Balkanlar başta olmak 
 AI-Verified compatibility mapping for industrial machinery:
 | Machine Brand | Compatible Blade Series | Blade Type |
 |--------------|-------------------------|------------|
-| Multivac     | VPB-001 (Thermoform)    | Star Punch / Cross Cut |
-| Tiromat      | VPB-T02 (Thermoform)    | Vent Cutter |
-| Variovac     | VPB-V05 (Thermoform)    | Packaging Knife |
-| Sealpac      | VPB-S03 (Thermoform)    | Top/Bottom Knife |
+| Multivac     | VPB-001, KONTÖR, YARIM-YILDIZ, TAM-YILDIZ | Contour / Star Punch / Cross Cut |
+| Tiromat      | KONTÖR, DİŞLİ, DAİRESEL | Contour / Serrated / Rotary |
+| Variovac     | VPB-001, LAMA, OVAL-ZIMBA | Straight Blade / Oval Air Punch |
+| Sealpac      | VPB-001, YUVARLAK-ZIMBA, OVAL-ZIMBA | Air Punch / Top-Bottom Knife |
+| GEA PowerPak | KONTÖR, TAM-YILDIZ, LAMA | Contour / Full Star / Straight |
+| Ulma         | VPB-001, KONTÖR, DAİRESEL | Contour / Circular Rotary |
+| Opack        | KONTÖR, YARIM-YILDIZ, DİŞLİ | Contour / Half Star / Serrated |
 | Kampf        | 3DJ-KC-3H (Slitting)    | 3-Hole Razor |
 | Titan        | SLT-SS-XCD (Slitting)   | Slotted Blade |
 | Windmöller & Hölscher | INJ-TC-NS (Print) | Doctor Blade / Injector |

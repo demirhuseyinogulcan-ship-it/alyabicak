@@ -13,6 +13,14 @@ import {
   Thermometer,
   Diamond,
   Zap,
+  Star,
+  FlaskConical,
+  Minus,
+  Scissors,
+  Flame,
+  Circle,
+  Droplet,
+  Wind,
   type LucideIcon
 } from 'lucide-react';
 import type { ProductSpec } from '@/lib/types/product.types';
@@ -32,6 +40,14 @@ const iconMap: Record<string, LucideIcon> = {
   Thermometer,
   Diamond,
   Zap,
+  Star,
+  Beaker: FlaskConical,
+  Minus,
+  Scissors,
+  Flame,
+  Circle,
+  Droplet,
+  Wind,
 };
 
 interface ProductSpecsProps {
@@ -56,7 +72,7 @@ export function ProductSpecs({ specs, title }: ProductSpecsProps) {
         {/* Özellik Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
           {specs.map((spec, index) => {
-            const IconComponent = spec.icon ? iconMap[spec.icon] : null;
+            const IconComponent = spec.icon ? (iconMap[spec.icon] || null) : null;
 
             return (
               <div
@@ -113,7 +129,7 @@ export function ProductSpecsTable({ specs, title }: ProductSpecsProps) {
           <table className="w-full">
             <tbody className="divide-y divide-steel-100">
               {specs.map((spec, index) => {
-                const IconComponent = spec.icon ? iconMap[spec.icon] : null;
+                const IconComponent = spec.icon ? (iconMap[spec.icon] || null) : null;
 
                 return (
                   <tr

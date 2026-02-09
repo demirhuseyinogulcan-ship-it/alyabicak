@@ -727,9 +727,14 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'vakum-paketleme-bicak': {
     name: 'Vacuum Packaging Blade',
-    description: 'Specialized blade for vacuum packaging machines. Clean, precise cuts for packaging applications.',
-    features: ['Packaging optimized', 'Clean cuts', 'Industrial grade'],
-    applications: ['Vacuum packaging', 'Food industry', 'Industrial packaging'],
+    description: 'Professional vacuum packaging machine blade manufactured from Sheffield steel. HRC 58-60 hardness, food-grade surface finish Ra ≤0.4 µm. Compatible with Multivac, Tiromat, GEA, Ulma, Sealpac, Webomatic thermoform and MAP packaging machines.',
+    features: ['Sheffield high-carbon steel', 'HRC 58-60 hardness', 'Food-grade Ra ≤0.4 µm surface', 'HACCP & BRC compliant', 'CNC precision machined', '10+ machine brand compatibility'],
+    applications: ['Vacuum packaging', 'Thermoform packaging', 'MAP (Modified Atmosphere) packaging', 'Food industry — meat, cheese, ready meals', 'Medical device packaging'],
+    seo: {
+      title: 'Vacuum Packaging Blade | Thermoform Machine Knife | Sheffield Steel',
+      description: 'Professional vacuum packaging blade for thermoform and MAP machines. Sheffield steel HRC 58-60, food-grade Ra ≤0.4 µm. Compatible with Multivac, Tiromat, GEA, Ulma, Sealpac. ISO 9001 certified manufacturer.',
+      keywords: ['vacuum packaging blade', 'thermoform blade', 'thermoform machine knife', 'vacuum packaging machine knife', 'MAP packaging blade', 'Multivac blade', 'Tiromat blade', 'GEA blade', 'Sealpac blade', 'food packaging knife', 'packaging machine blade', 'thermoform cutting blade', 'vacuum sealer blade', 'industrial packaging blade'],
+    },
   },
 
   // =============================================================================

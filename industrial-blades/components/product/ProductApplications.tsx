@@ -24,6 +24,12 @@ import {
   Layers,
   Shield,
   Zap,
+  Wind,
+  Target,
+  Box,
+  Utensils,
+  RotateCw,
+  Fish,
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductApplication } from '@/lib/types/product.types';
@@ -54,6 +60,12 @@ const iconMap: Record<string, LucideIcon> = {
   Layers,
   Shield,
   Zap,
+  Wind,
+  Target,
+  Box,
+  Utensils,
+  RotateCw,
+  Fish,
 };
 
 interface ProductApplicationsProps {
@@ -81,7 +93,7 @@ export function ProductApplications({
         {/* Application Tags */}
         <div className="flex flex-wrap gap-3">
           {applications.map((app, index) => {
-            const IconComponent = app.icon ? iconMap[app.icon] : null;
+            const IconComponent = app.icon ? (iconMap[app.icon] || null) : null;
             
             return (
               <div
@@ -104,7 +116,7 @@ export function ProductApplications({
         {applications.some(app => app.description) && (
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {applications.filter(app => app.description).map((app, index) => {
-              const IconComponent = app.icon ? iconMap[app.icon] : null;
+              const IconComponent = app.icon ? (iconMap[app.icon] || null) : null;
               
               return (
                 <div
