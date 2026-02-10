@@ -628,6 +628,42 @@ const fr = {
       diger: 'Autres',
     },
   },
+
+  // Blade Comparison Chart (HSS vs WC blog post)
+  bladeComparison: {
+    radarTitle: 'HSS vs Carbure de Tungstène',
+    radarSubtitle: 'Comparaison sur six paramètres critiques',
+    lifespanTitle: 'Comparaison de la Durée de Vie de Coupe',
+    lifespanSubtitle: 'Distance de coupe moyenne (km)',
+    hss: 'HSS',
+    wc: 'Carbure de Tungstène',
+    yAxisKm: 'km',
+    axes: {
+      hardness: 'Dureté',
+      toughness: 'Ténacité',
+      wearResistance: 'Résistance à l\'Usure',
+      cost: 'Avantage Coût',
+      sharpenability: 'Facilité d\'Affûtage',
+      thermalResistance: 'Résistance Thermique',
+    },
+    bars: {
+      plainHss: 'HSS Non Revêtu',
+      ceramicHss: 'HSS Revêtu Céramique',
+      tungstenCarbide: 'Carbure de Tungstène',
+    },
+  },
+
+  // Blade Cost Chart (TCO comparison)
+  bladeCost: {
+    title: 'Coût Total de Possession (TCO)',
+    subtitle: 'Comparaison des coûts cumulés par distance de coupe',
+    xAxis: 'Distance de Coupe (km)',
+    yAxis: 'Coût Total (relatif)',
+    hss: 'HSS Non Revêtu',
+    ceramicHss: 'HSS Revêtu Céramique',
+    wc: 'Carbure de Tungstène',
+    breakEvenNote: 'Point d\'équilibre',
+  },
 };
 
 export default fr;

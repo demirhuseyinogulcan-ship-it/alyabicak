@@ -627,6 +627,42 @@ const tr = {
       diger: 'Diğer',
     },
   },
+
+  // Blade Comparison Chart (HSS vs WC blog post)
+  bladeComparison: {
+    radarTitle: 'HSS vs Tungsten Karbür',
+    radarSubtitle: 'Altı kritik parametrede karşılaştırma',
+    lifespanTitle: 'Kesim Ömrü Karşılaştırması',
+    lifespanSubtitle: 'Ortalama kesim mesafesi (km)',
+    hss: 'HSS',
+    wc: 'Tungsten Karbür',
+    yAxisKm: 'km',
+    axes: {
+      hardness: 'Sertlik',
+      toughness: 'Tokluk',
+      wearResistance: 'Aşınma Direnci',
+      cost: 'Maliyet Avantajı',
+      sharpenability: 'Bileme Kolaylığı',
+      thermalResistance: 'Termal Dayanım',
+    },
+    bars: {
+      plainHss: 'Kaplamasız HSS',
+      ceramicHss: 'Seramik Kaplamalı HSS',
+      tungstenCarbide: 'Tungsten Karbür',
+    },
+  },
+
+  // Blade Cost Chart (TCO comparison)
+  bladeCost: {
+    title: 'Toplam Sahip Olma Maliyeti (TCO)',
+    subtitle: 'Kesim mesafesine göre kümülatif maliyet karşılaştırması',
+    xAxis: 'Kesim Mesafesi (km)',
+    yAxis: 'Toplam Maliyet (göreceli)',
+    hss: 'Kaplamasız HSS',
+    ceramicHss: 'Seramik Kaplamalı HSS',
+    wc: 'Tungsten Karbür',
+    breakEvenNote: 'Başa baş noktası',
+  },
 };
 
 export default tr;

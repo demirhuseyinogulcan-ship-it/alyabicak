@@ -627,6 +627,42 @@ const en = {
       diger: 'Other',
     },
   },
+
+  // Blade Comparison Chart (HSS vs WC blog post)
+  bladeComparison: {
+    radarTitle: 'HSS vs Tungsten Carbide',
+    radarSubtitle: 'Comparison across six critical parameters',
+    lifespanTitle: 'Cutting Lifespan Comparison',
+    lifespanSubtitle: 'Average cutting distance (km)',
+    hss: 'HSS',
+    wc: 'Tungsten Carbide',
+    yAxisKm: 'km',
+    axes: {
+      hardness: 'Hardness',
+      toughness: 'Toughness',
+      wearResistance: 'Wear Resistance',
+      cost: 'Cost Advantage',
+      sharpenability: 'Sharpenability',
+      thermalResistance: 'Thermal Resistance',
+    },
+    bars: {
+      plainHss: 'Uncoated HSS',
+      ceramicHss: 'Ceramic-Coated HSS',
+      tungstenCarbide: 'Tungsten Carbide',
+    },
+  },
+
+  // Blade Cost Chart (TCO comparison)
+  bladeCost: {
+    title: 'Total Cost of Ownership (TCO)',
+    subtitle: 'Cumulative cost comparison by cutting distance',
+    xAxis: 'Cutting Distance (km)',
+    yAxis: 'Total Cost (relative)',
+    hss: 'Uncoated HSS',
+    ceramicHss: 'Ceramic-Coated HSS',
+    wc: 'Tungsten Carbide',
+    breakEvenNote: 'Break-even point',
+  },
 };
 
 export default en;

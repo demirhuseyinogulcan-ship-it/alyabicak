@@ -82,6 +82,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 import SteelUsageChart from '@/components/charts/SteelUsageChart'
+import BladeComparisonChart from '@/components/charts/BladeComparisonChart'
+import BladeCostChart from '@/components/charts/BladeCostChart'
 
 export default async function BlogPostPage({ params }: PageProps) {
   const { locale, slug } = await params
@@ -130,6 +132,64 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const content = post.content || '<p class="text-steel-500 italic">İçerik yakında eklenecek...</p>'
   const hasChart = content.includes('<!-- STEEL_CHART_PLACEHOLDER -->')
+  const hasBladeComparison = content.includes('<!-- BLADE_COMPARISON_CHART -->')
+  const hasBladeCost = content.includes('<!-- BLADE_COST_CHART -->')
+  const hasAnyChart = hasChart || hasBladeComparison || hasBladeCost
+
+  // Build content parts with chart injections
+  const renderContentWithCharts = () => {
+    if (!hasAnyChart) {
+      return (
+        <div
+          className="prose-article"
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
+      )
+    }
+
+    // Split content by all chart placeholders and render sequentially
+    const placeholders = [
+      { key: '<!-- STEEL_CHART_PLACEHOLDER -->', component: <SteelUsageChart translations={dict.steelChart} /> },
+      { key: '<!-- BLADE_COMPARISON_CHART -->', component: <BladeComparisonChart translations={dict.bladeComparison} /> },
+      { key: '<!-- BLADE_COST_CHART -->', component: <BladeCostChart translations={dict.bladeCost} /> },
+    ]
+
+    // Process all placeholders in sequence
+    type ContentPart = { type: 'html'; html: string } | { type: 'chart'; component: React.ReactNode }
+    let segments: ContentPart[] = [{ type: 'html' as const, html: content }]
+
+    for (const ph of placeholders) {
+      const newSegments: ContentPart[] = []
+      for (const seg of segments) {
+        if (seg.type === 'chart') {
+          newSegments.push(seg)
+          continue
+        }
+        const splits = seg.html.split(ph.key)
+        for (let i = 0; i < splits.length; i++) {
+          if (i > 0) {
+            newSegments.push({ type: 'chart', component: ph.component })
+          }
+          if (splits[i]) {
+            newSegments.push({ type: 'html', html: splits[i] })
+          }
+        }
+      }
+      segments = newSegments
+    }
+
+    return (
+      <div className="prose-article">
+        {segments.map((seg, i) =>
+          seg.type === 'chart' ? (
+            <div key={i} className="my-12 not-prose">{seg.component}</div>
+          ) : (
+            <div key={i} dangerouslySetInnerHTML={{ __html: seg.html }} />
+          )
+        )}
+      </div>
+    )
+  }
 
   return (
     <>
@@ -235,20 +295,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               </p>
 
               {/* Article Content with Chart Injection */}
-              {hasChart ? (
-                <div className="prose-article">
-                  <div dangerouslySetInnerHTML={{ __html: content.split('<!-- STEEL_CHART_PLACEHOLDER -->')[0] }} />
-                  <div className="my-12 not-prose">
-                    <SteelUsageChart translations={dict.steelChart} />
-                  </div>
-                  <div dangerouslySetInnerHTML={{ __html: content.split('<!-- STEEL_CHART_PLACEHOLDER -->')[1] }} />
-                </div>
-              ) : (
-                <div
-                  className="prose-article"
-                  dangerouslySetInnerHTML={{ __html: content }}
-                />
-              )}
+              {renderContentWithCharts()}
 
               {/* Tags */}
               {post.tags.length > 0 && (

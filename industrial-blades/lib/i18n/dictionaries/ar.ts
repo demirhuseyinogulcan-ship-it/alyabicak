@@ -628,6 +628,42 @@ const ar = {
       diger: 'أخرى',
     },
   },
+
+  // Blade Comparison Chart (HSS vs WC blog post)
+  bladeComparison: {
+    radarTitle: 'HSS مقابل كربيد التنغستن',
+    radarSubtitle: 'مقارنة عبر ستة معايير حاسمة',
+    lifespanTitle: 'مقارنة عمر القطع',
+    lifespanSubtitle: 'متوسط مسافة القطع (كم)',
+    hss: 'HSS',
+    wc: 'كربيد التنغستن',
+    yAxisKm: 'كم',
+    axes: {
+      hardness: 'الصلابة',
+      toughness: 'المتانة',
+      wearResistance: 'مقاومة التآكل',
+      cost: 'ميزة التكلفة',
+      sharpenability: 'سهولة الشحذ',
+      thermalResistance: 'المقاومة الحرارية',
+    },
+    bars: {
+      plainHss: 'HSS بدون طلاء',
+      ceramicHss: 'HSS مطلي بالسيراميك',
+      tungstenCarbide: 'كربيد التنغستن',
+    },
+  },
+
+  // Blade Cost Chart (TCO comparison)
+  bladeCost: {
+    title: 'التكلفة الإجمالية للملكية (TCO)',
+    subtitle: 'مقارنة التكلفة التراكمية حسب مسافة القطع',
+    xAxis: 'مسافة القطع (كم)',
+    yAxis: 'التكلفة الإجمالية (نسبي)',
+    hss: 'HSS بدون طلاء',
+    ceramicHss: 'HSS مطلي بالسيراميك',
+    wc: 'كربيد التنغستن',
+    breakEvenNote: 'نقطة التعادل',
+  },
 };
 
 export default ar;

@@ -629,6 +629,42 @@ const ru = {
     },
   },
 
+  // Blade Comparison Chart (HSS vs WC blog post)
+  bladeComparison: {
+    radarTitle: 'HSS против Карбида Вольфрама',
+    radarSubtitle: 'Сравнение по шести критическим параметрам',
+    lifespanTitle: 'Сравнение Срока Службы Резки',
+    lifespanSubtitle: 'Средняя дистанция резки (км)',
+    hss: 'HSS',
+    wc: 'Карбид Вольфрама',
+    yAxisKm: 'км',
+    axes: {
+      hardness: 'Твёрдость',
+      toughness: 'Вязкость',
+      wearResistance: 'Износостойкость',
+      cost: 'Ценовое Преимущество',
+      sharpenability: 'Лёгкость Заточки',
+      thermalResistance: 'Термостойкость',
+    },
+    bars: {
+      plainHss: 'HSS без покрытия',
+      ceramicHss: 'HSS с керамическим покрытием',
+      tungstenCarbide: 'Карбид Вольфрама',
+    },
+  },
+
+  // Blade Cost Chart (TCO comparison)
+  bladeCost: {
+    title: 'Совокупная Стоимость Владения (TCO)',
+    subtitle: 'Сравнение накопленных затрат по дистанции резки',
+    xAxis: 'Дистанция Резки (км)',
+    yAxis: 'Общая Стоимость (относительная)',
+    hss: 'HSS без покрытия',
+    ceramicHss: 'HSS с керамическим покрытием',
+    wc: 'Карбид Вольфрама',
+    breakEvenNote: 'Точка безубыточности',
+  },
+
   // FAQ Page
   faq: {
     title: 'Часто Задаваемые Вопросы',

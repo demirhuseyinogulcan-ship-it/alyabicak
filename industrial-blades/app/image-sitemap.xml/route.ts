@@ -10,6 +10,7 @@
 import { NextResponse } from 'next/server';
 import { getAllProducts } from '@/lib/data/products';
 import { getAllCategories } from '@/lib/data/categories';
+import { blogService } from '@/lib/data/blog';
 import { i18nConfig, type Locale } from '@/lib/i18n/config';
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
 import { getProductTranslation, getCategoryTranslation } from '@/lib/i18n/translations';
@@ -96,6 +97,29 @@ function generateImageEntries(): ImageEntry[] {
             loc: imageUrl,
             title: localizedCatName,
             caption: localizedCatDesc?.substring(0, 200),
+            geoLocation: 'Istanbul, Turkey',
+          },
+        ],
+      });
+    }
+
+    // Blog yazı görselleri
+    const blogPosts = blogService.getAllPosts(locale as Locale);
+    for (const post of blogPosts) {
+      if (!post.coverImage) continue;
+
+      const pageUrl = `${domain}/${locale}/newsletter/${post.slug}`;
+      const imageUrl = post.coverImage.startsWith('http')
+        ? post.coverImage
+        : `${domain}${post.coverImage}`;
+
+      entries.push({
+        pageUrl,
+        images: [
+          {
+            loc: imageUrl,
+            title: post.title,
+            caption: post.excerpt?.substring(0, 200),
             geoLocation: 'Istanbul, Turkey',
           },
         ],

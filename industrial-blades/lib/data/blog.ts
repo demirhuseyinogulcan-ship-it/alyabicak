@@ -59,6 +59,701 @@ interface LocalizedBlogPost {
 
 export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
   // ═══════════════════════════════════════════════════════════════════════════
+  // YAZI 4: Tungsten Karbür mü, HSS mi? Film Dilmede Doğru Malzeme Seçimi
+  // ═══════════════════════════════════════════════════════════════════════════
+  {
+    id: 'tungsten-karbur-mu-hss-mi',
+    slug: 'tungsten-karbur-mu-hss-mi',
+    coverImage: '/images/blog/tungsten-carbide-vs-hss-film-slitting-blade-comparison.jpg',
+    author: DEFAULT_AUTHOR,
+    category: BLOG_CATEGORIES[0], // Teknik Yazılar
+    tags: {
+      tr: ['tungsten karbür', 'HSS', 'film dilme bıçağı', 'seramik kaplama', 'endüstriyel bıçak', 'malzeme seçimi'],
+      en: ['tungsten carbide', 'HSS', 'film slitting blade', 'ceramic coating', 'industrial blade', 'material selection'],
+      ar: ['كربيد التنغستن', 'HSS', 'شفرة تقطيع الأفلام', 'طلاء سيراميك', 'اختيار المواد'],
+      ru: ['карбид вольфрама', 'HSS', 'лезвие для резки плёнки', 'керамическое покрытие', 'выбор материала'],
+      fr: ['carbure de tungstène', 'HSS', 'lame de refendage', 'revêtement céramique', 'sélection de matériaux'],
+    },
+    publishedAt: '2025-06-15',
+    readingTime: 12,
+    featured: true,
+
+    // ─── Türkçe ───
+    tr: {
+      title: 'Tungsten Karbür mü, HSS mi? Film Dilmede Doğru Malzeme Seçimi',
+      excerpt: 'Film ve folyo dilme hatlarında bıçak malzemesi seçimi, üretim verimliliğini doğrudan etkiler. Karbon çelik, TiN kaplamalı, HSS ve tungsten karbür arasında hangisi sizin hattınız için en doğru seçim? Mühendislik verileriyle karşılaştırıyoruz.',
+      content: `
+        <p class="lead">
+          Film ve folyo dilme hatlarında bıçak seçimi, çoğu zaman göz ardı edilen ama üretim verimliliğini doğrudan etkileyen kritik bir mühendislik kararıdır.
+          Piyasada karbon çelik, TiN kaplamalı karbon çelik, yüksek hız çelikleri (HSS) ve tungsten karbür (WC) gibi farklı malzeme seçenekleri mevcut.
+          Ancak yüksek performans gerektiren uygulamalarda yarış, genellikle iki malzeme arasında daralır: <strong>HSS</strong> ve <strong>Tungsten Karbür</strong>.
+          Bu yazıda, her iki malzemeyi mühendislik verileriyle karşılaştırıyor ve işletmeniz için en uygun seçimi nasıl yapacağınızı anlatıyoruz.
+        </p>
+
+        <h2>Bölüm 1: Malzemeleri Tanıyalım</h2>
+
+        <h3>Yüksek Hız Çeliği (HSS)</h3>
+        <p>
+          HSS, tungsten (W), molibden (Mo), vanadyum (V) ve krom (Cr) alaşım elementleri içeren bir takım çeliğidir.
+          Yüksek sıcaklıklarda sertliğini koruyabilmesi ("kızıl sertlik") onu geleneksel karbon çeliklerinden ayırır.
+        </p>
+        <ul>
+          <li><strong>Sertlik:</strong> 62-65 HRC (ısıl işlemle ayarlanabilir)</li>
+          <li><strong>Tokluk:</strong> Yüksek — darbe yüklerine dayanıklı</li>
+          <li><strong>Bileme:</strong> Saha koşullarında elmas diskle yeniden bilenebilir</li>
+          <li><strong>Maliyet:</strong> Tungsten karbüre kıyasla 3-4 kat daha uygun</li>
+        </ul>
+
+        <h3>Tungsten Karbür (WC-Co)</h3>
+        <p>
+          Tungsten karbür, WC taneciklerinin kobalt (Co) bağlayıcı bir matriks içinde sinterlenmiş hâlidir.
+          Doğada elmasa yakın sertlik değerleriyle (HRA 89-93 / HV 1300-1800) bilinir.
+          Film ve folyo dilmede aşınmaya karşı üstün direnç sunar, ancak bu performans bazı ödünlerle gelir.
+        </p>
+        <ul>
+          <li><strong>Sertlik:</strong> 89-93 HRA (HSS'nin yaklaşık 2 katı)</li>
+          <li><strong>Tokluk:</strong> Düşük — darbe ve termal şoklara hassas</li>
+          <li><strong>Bileme:</strong> Özel elmas taşlama tezgâhı gerektirir</li>
+          <li><strong>Maliyet:</strong> Başlangıç yatırımı HSS'nin 4-5 katı</li>
+        </ul>
+
+        <h2>Bölüm 2: Kesim Performansı Karşılaştırması</h2>
+        <p>
+          Performans değerlendirmesinde tek bir metrik yeterli değildir.
+          Bir film dilme bıçağının etkinliğini altı temel parametre belirler:
+        </p>
+        <ol>
+          <li><strong>Sertlik</strong> — Kesici kenarın plastik deformasyona direnci</li>
+          <li><strong>Tokluk</strong> — Kırılma ve çatlak ilerlemesine karşı dayanım</li>
+          <li><strong>Aşınma Direnci</strong> — Abrazif ve adhesif aşınmaya karşı ömür</li>
+          <li><strong>Maliyet Avantajı</strong> — Birim kesim maliyeti (₺/km)</li>
+          <li><strong>Bileme Kolaylığı</strong> — Saha ve bakım onarımlarda pratiklik</li>
+          <li><strong>Termal Dayanım</strong> — Sürtünme kaynaklı ısı altında performans</li>
+        </ol>
+
+        <h2>Bölüm 3: Kafa Kafaya Karşılaştırma</h2>
+        <p>
+          Aşağıdaki radar grafiği, HSS ve tungsten karbürün altı kritik parametredeki performansını 0-100 skalasında karşılaştırıyor.
+          Her iki malzemenin güçlü ve zayıf yönlerini tek bakışta görebilirsiniz:
+        </p>
+
+        <!-- BLADE_COMPARISON_CHART -->
+
+        <p>
+          Grafik açıkça gösteriyor: <strong>Tungsten karbür</strong> sertlik ve aşınma direncinde tartışmasız lider.
+          Ancak <strong>HSS</strong>, tokluk, maliyet avantajı ve bileme kolaylığında belirgin üstünlük sağlıyor.
+          Termal dayanımda ise iki malzeme yakın performans sergiliyor.
+        </p>
+
+        <h2>Bölüm 4: TCO — Toplam Sahip Olma Maliyeti Analizi</h2>
+        <p>
+          Bıçak seçiminde sadece birim fiyata bakmak yanıltıcı olabilir.
+          Gerçek maliyet, bıçağın toplam kesim ömrü boyunca yarattığı değerle ölçülür:
+        </p>
+        <blockquote>
+          <p><strong>Birim Kesim Maliyeti = Jilet Fiyatı ÷ Toplam Kesim Mesafesi (km)</strong></p>
+        </blockquote>
+        <p><em>Aşağıdaki tabloda HSS baz alınarak göreceli maliyet oranları verilmiştir:</em></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Malzeme</th>
+              <th>Maliyet Oranı</th>
+              <th>Ortalama Ömür</th>
+              <th>Birim Kesim Maliyeti</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kaplamasız HSS</td>
+              <td>1× (baz)</td>
+              <td>~75 km</td>
+              <td>1× (baz)</td>
+            </tr>
+            <tr>
+              <td>Seramik Kaplamalı HSS</td>
+              <td>~1,8×</td>
+              <td>~300 km</td>
+              <td>~0,45×</td>
+            </tr>
+            <tr>
+              <td>Tungsten Karbür</td>
+              <td>~4×</td>
+              <td>~1.200 km</td>
+              <td>~0,25×</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Aşağıdaki grafik, üç malzemenin kümülatif maliyetini kesim mesafesine göre karşılaştırıyor.
+          Başlangıçta ucuz görünen kaplamasız HSS, sık değişim nedeniyle toplam maliyeti hızla artırır.
+          Tungsten karbür ise yüksek başlangıç yatırımına rağmen, uzun vadede en düşük birim maliyeti sunar:
+        </p>
+
+        <!-- BLADE_COST_CHART -->
+
+        <h2>Bölüm 5: Üçüncü Yol — Seramik Kaplamalı HSS</h2>
+        <p>
+          Her zaman "ya HSS ya tungsten karbür" şeklinde bir zorunluluk yoktur.
+          Alya'nın sunduğu <strong>seramik kaplamalı HSS bıçaklar</strong>, bu iki uç arasında altın bir denge kurar:
+        </p>
+        <ul>
+          <li>HSS'nin tokluk ve bileme avantajını korur</li>
+          <li>Seramik kaplama yüzey sertliğini ~3.200 HV'ye çıkarır (kaplama katmanı)</li>
+          <li>Aşınma direncini 3-4 kat artırır</li>
+          <li>Tungsten karbürün yaklaşık yarı maliyetinde benzer birim kesim maliyeti sunar</li>
+        </ul>
+        <p>
+          Bu "üçüncü yol", özellikle şu durumlarda öne çıkar:
+        </p>
+        <ul>
+          <li>Hat duruşlarını minimize etmek istiyorsanız ama WC bütçeniz kısıtlıysa</li>
+          <li>Bıçak bileme kapasitesinden vazgeçmek istemiyorsanız</li>
+          <li>Darbe yükü olan dilme operasyonlarında (kalın film, laminat)</li>
+          <li>İlk yatırımı düşük tutmak ama birim maliyet avantajı elde etmek istiyorsanız</li>
+        </ul>
+
+        <h2>Bölüm 6: Hangi Malzeme, Hangi Uygulama?</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Uygulama</th>
+              <th>Önerilen Malzeme</th>
+              <th>Neden?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>İnce BOPP/BOPET film</td>
+              <td>Tungsten Karbür</td>
+              <td>Mikron hassasiyetinde kenar, uzun ömür</td>
+            </tr>
+            <tr>
+              <td>PE streç film</td>
+              <td>Seramik Kaplamalı HSS</td>
+              <td>Yapışkan malzemeye karşı düşük sürtünme</td>
+            </tr>
+            <tr>
+              <td>Alüminyum folyo</td>
+              <td>Tungsten Karbür</td>
+              <td>Abrazif aşınmaya karşı üstün direnç</td>
+            </tr>
+            <tr>
+              <td>Kâğıt ve karton</td>
+              <td>HSS</td>
+              <td>Maliyet-performans dengesi, kolay bileme</td>
+            </tr>
+            <tr>
+              <td>Nonwoven kumaş</td>
+              <td>Seramik Kaplamalı HSS</td>
+              <td>Elyaf yapışması azalır, ömür uzar</td>
+            </tr>
+            <tr>
+              <td>Laminat/çok katmanlı film</td>
+              <td>Seramik Kaplamalı HSS</td>
+              <td>Darbe dayanımı + aşınma direnci dengesi</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Sonuç</h2>
+        <p>
+          "En iyi bıçak malzemesi hangisi?" sorusunun tek bir yanıtı yoktur.
+          Doğru yanıt, dilme hattınızın koşullarına, kestiğiniz malzemeye, üretim hızınıza ve bakım kapasitenize bağlıdır.
+        </p>
+        <p>
+          <strong>Tungsten karbür</strong>, uzun seri ve abrazif malzemeler için hâlâ en düşük birim maliyeti sunar.
+          <strong>HSS</strong>, tokluk ve esneklik gerektiren uygulamalarda rakipsizdir.
+          <strong>Seramik kaplamalı HSS</strong> ise her ikisinin avantajlarını birleştiren "altın orta yolu" temsil eder.
+        </p>
+        <p>
+          Alya mühendislik ekibi, hattınızın özel koşullarını analiz ederek en uygun malzeme ve geometri önerisini sunmaktadır.
+          <em>Danışmanlık talebi için bizimle iletişime geçin.</em>
+        </p>
+
+        <hr />
+
+        <h3>Kaynaklar</h3>
+        <ol>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em> Metal Powder Industries Federation.</li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed. Butterworth-Heinemann.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides: Production, Properties, and Testing.</em> Noyes Publications.</li>
+          <li>Roberts, G., Krauss, G. &amp; Kennedy, R. (1998). <em>Tool Steels.</em> 5th ed. ASM International.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em> Springer.</li>
+        </ol>
+      `,
+      seo: {
+        title: 'Tungsten Karbür mü HSS mi? Film Dilme Bıçağı Malzeme Karşılaştırması | Alya Bıçak',
+        description: 'Film dilme bıçaklarında tungsten karbür ve HSS karşılaştırması. TCO analizi, radar grafikleri ve uygulama bazlı malzeme seçim rehberi.',
+        keywords: ['tungsten karbür bıçak', 'HSS bıçak', 'film dilme bıçağı', 'seramik kaplama bıçak', 'endüstriyel dilme bıçağı', 'bıçak malzeme seçimi', 'TCO analizi bıçak'],
+        focusKeyword: 'tungsten karbür HSS karşılaştırma',
+      },
+    },
+
+    // ─── English ───
+    en: {
+      title: 'Tungsten Carbide vs HSS: Choosing the Right Blade Material for Film Slitting',
+      excerpt: 'Blade material selection in film and foil slitting lines directly impacts production efficiency. We compare HSS and tungsten carbide with engineering data, TCO analysis, and application-specific recommendations.',
+      content: `
+        <p class="lead">
+          In film and foil slitting lines, blade selection is a critical engineering decision that directly impacts production efficiency — yet it is often overlooked.
+          The market offers several material options: carbon steel, TiN-coated carbon steel, high-speed steel (HSS), and tungsten carbide (WC).
+          However, for high-performance applications, the race typically narrows to two materials: <strong>HSS</strong> and <strong>Tungsten Carbide</strong>.
+          In this article, we compare both materials with engineering data and explain how to make the optimal choice for your operation.
+        </p>
+
+        <h2>Section 1: Understanding the Materials</h2>
+
+        <h3>High-Speed Steel (HSS)</h3>
+        <p>
+          HSS is a tool steel containing alloying elements such as tungsten (W), molybdenum (Mo), vanadium (V), and chromium (Cr).
+          Its ability to retain hardness at elevated temperatures ("red hardness") distinguishes it from conventional carbon steels.
+        </p>
+        <ul>
+          <li><strong>Hardness:</strong> 62-65 HRC (adjustable via heat treatment)</li>
+          <li><strong>Toughness:</strong> High — resistant to impact loads</li>
+          <li><strong>Resharpening:</strong> Field-resharpenable with diamond wheels</li>
+          <li><strong>Cost:</strong> 3-4× more affordable than tungsten carbide</li>
+        </ul>
+
+        <h3>Tungsten Carbide (WC-Co)</h3>
+        <p>
+          Tungsten carbide consists of WC grains sintered within a cobalt (Co) binder matrix.
+          Known for hardness values approaching diamond (HRA 89-93 / HV 1300-1800),
+          it offers exceptional wear resistance in film and foil slitting — though this performance comes with trade-offs.
+        </p>
+        <ul>
+          <li><strong>Hardness:</strong> 89-93 HRA (approximately 2× that of HSS)</li>
+          <li><strong>Toughness:</strong> Low — sensitive to impact and thermal shock</li>
+          <li><strong>Resharpening:</strong> Requires specialized diamond grinding equipment</li>
+          <li><strong>Cost:</strong> Initial investment 4-5× that of HSS</li>
+        </ul>
+
+        <h2>Section 2: Cutting Performance Comparison</h2>
+        <p>
+          No single metric is sufficient for performance evaluation.
+          Six key parameters determine the effectiveness of a film slitting blade:
+        </p>
+        <ol>
+          <li><strong>Hardness</strong> — Resistance of the cutting edge to plastic deformation</li>
+          <li><strong>Toughness</strong> — Resistance to fracture and crack propagation</li>
+          <li><strong>Wear Resistance</strong> — Lifespan against abrasive and adhesive wear</li>
+          <li><strong>Cost Advantage</strong> — Unit cutting cost ($/km)</li>
+          <li><strong>Sharpenability</strong> — Practicality for field and maintenance sharpening</li>
+          <li><strong>Thermal Resistance</strong> — Performance under friction-induced heat</li>
+        </ol>
+
+        <h2>Section 3: Head-to-Head Comparison</h2>
+        <p>
+          The radar chart below compares the performance of HSS and tungsten carbide across six critical parameters on a 0-100 scale.
+          You can see the strengths and weaknesses of each material at a glance:
+        </p>
+
+        <!-- BLADE_COMPARISON_CHART -->
+
+        <p>
+          The chart clearly shows: <strong>Tungsten carbide</strong> leads unquestionably in hardness and wear resistance.
+          However, <strong>HSS</strong> demonstrates a clear advantage in toughness, cost, and sharpenability.
+          In thermal resistance, both materials show comparable performance.
+        </p>
+
+        <h2>Section 4: TCO — Total Cost of Ownership Analysis</h2>
+        <p>
+          Looking only at unit price when selecting blades can be misleading.
+          The true cost is measured by the value a blade creates over its total cutting life:
+        </p>
+        <blockquote>
+          <p><strong>Unit Cutting Cost = Blade Price ÷ Total Cutting Distance (km)</strong></p>
+        </blockquote>
+        <p><em>The table below uses HSS as the baseline for relative cost ratios:</em></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Material</th>
+              <th>Cost Ratio</th>
+              <th>Average Life</th>
+              <th>Unit Cutting Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Uncoated HSS</td>
+              <td>1× (base)</td>
+              <td>~75 km</td>
+              <td>1× (base)</td>
+            </tr>
+            <tr>
+              <td>Ceramic-Coated HSS</td>
+              <td>~1.8×</td>
+              <td>~300 km</td>
+              <td>~0.45×</td>
+            </tr>
+            <tr>
+              <td>Tungsten Carbide</td>
+              <td>~4×</td>
+              <td>~1,200 km</td>
+              <td>~0.25×</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          The chart below compares the cumulative cost of three materials by cutting distance.
+          Uncoated HSS, which appears cheaper initially, drives total cost up rapidly due to frequent replacement.
+          Tungsten carbide, despite its high initial investment, delivers the lowest unit cost over the long run:
+        </p>
+
+        <!-- BLADE_COST_CHART -->
+
+        <h2>Section 5: The Third Way — Ceramic-Coated HSS</h2>
+        <p>
+          It's not always a binary choice between HSS and tungsten carbide.
+          Alya offers <strong>ceramic-coated HSS blades</strong> that strike a golden balance between these two extremes:
+        </p>
+        <ul>
+          <li>Retains HSS toughness and resharpening advantages</li>
+          <li>Ceramic coating increases surface hardness to ~3,200 HV (coating layer)</li>
+          <li>Improves wear resistance by 3-4×</li>
+          <li>Delivers comparable per-km value at roughly half the cost of tungsten carbide</li>
+        </ul>
+        <p>
+          This "third way" is especially advantageous when:
+        </p>
+        <ul>
+          <li>You want to minimize line downtime but WC exceeds your budget</li>
+          <li>You cannot forgo blade resharpening capability</li>
+          <li>Impact loads are present in your slitting operation (thick film, laminates)</li>
+          <li>You want to keep initial investment low while achieving unit cost advantages</li>
+        </ul>
+
+        <h2>Section 6: Which Material for Which Application?</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Application</th>
+              <th>Recommended Material</th>
+              <th>Why?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Thin BOPP/BOPET film</td>
+              <td>Tungsten Carbide</td>
+              <td>Micron-precision edge, extended lifespan</td>
+            </tr>
+            <tr>
+              <td>PE stretch film</td>
+              <td>Ceramic-Coated HSS</td>
+              <td>Low friction against adhesive materials</td>
+            </tr>
+            <tr>
+              <td>Aluminum foil</td>
+              <td>Tungsten Carbide</td>
+              <td>Superior resistance to abrasive wear</td>
+            </tr>
+            <tr>
+              <td>Paper and board</td>
+              <td>HSS</td>
+              <td>Cost-performance balance, easy resharpening</td>
+            </tr>
+            <tr>
+              <td>Nonwoven fabric</td>
+              <td>Ceramic-Coated HSS</td>
+              <td>Reduced fiber adhesion, extended lifespan</td>
+            </tr>
+            <tr>
+              <td>Laminate/multi-layer film</td>
+              <td>Ceramic-Coated HSS</td>
+              <td>Impact resistance + wear resistance balance</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Conclusion</h2>
+        <p>
+          There is no single answer to "which blade material is best?"
+          The correct answer depends on your slitting line conditions, the material you cut, your production speed, and your maintenance capacity.
+        </p>
+        <p>
+          <strong>Tungsten carbide</strong> still offers the lowest unit cost for long runs and abrasive materials.
+          <strong>HSS</strong> is unmatched for applications requiring toughness and flexibility.
+          <strong>Ceramic-coated HSS</strong> represents the "golden mean" that combines the advantages of both.
+        </p>
+        <p>
+          Alya's engineering team analyzes your specific line conditions to recommend the optimal material and geometry.
+          <em>Contact us for a consultation.</em>
+        </p>
+
+        <hr />
+
+        <h3>References</h3>
+        <ol>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em> Metal Powder Industries Federation.</li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed. Butterworth-Heinemann.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides: Production, Properties, and Testing.</em> Noyes Publications.</li>
+          <li>Roberts, G., Krauss, G. &amp; Kennedy, R. (1998). <em>Tool Steels.</em> 5th ed. ASM International.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em> Springer.</li>
+        </ol>
+      `,
+      seo: {
+        title: 'Tungsten Carbide vs HSS: Film Slitting Blade Material Comparison | Alya Blade',
+        description: 'Tungsten carbide vs HSS comparison for film slitting blades. TCO analysis, radar charts, and application-specific material selection guide.',
+        keywords: ['tungsten carbide blade', 'HSS blade', 'film slitting blade', 'ceramic coated blade', 'industrial slitting blade', 'blade material selection', 'TCO analysis blade'],
+        focusKeyword: 'tungsten carbide HSS comparison',
+      },
+    },
+
+    // ─── العربية ───
+    ar: {
+      title: 'كربيد التنغستن أم HSS؟ اختيار مادة الشفرة المناسبة لتقطيع الأفلام',
+      excerpt: 'يؤثر اختيار مادة الشفرة في خطوط تقطيع الأفلام والرقائق مباشرة على كفاءة الإنتاج. نقارن بين HSS وكربيد التنغستن ببيانات هندسية وتحليل التكلفة الإجمالية.',
+      content: `
+        <p class="lead">
+          في خطوط تقطيع الأفلام والرقائق، يعد اختيار الشفرة قراراً هندسياً حاسماً يؤثر مباشرة على كفاءة الإنتاج.
+          يقدم السوق خيارات مواد متعددة: الفولاذ الكربوني، الفولاذ المطلي بـ TiN، الفولاذ عالي السرعة (HSS)، وكربيد التنغستن (WC).
+          لكن في التطبيقات عالية الأداء، ينحصر السباق عادة بين مادتين: <strong>HSS</strong> و<strong>كربيد التنغستن</strong>.
+        </p>
+
+        <h2>القسم 1: التعرف على المواد</h2>
+
+        <h3>الفولاذ عالي السرعة (HSS)</h3>
+        <p>
+          HSS هو فولاذ أدوات يحتوي على عناصر سبائكية مثل التنغستن والموليبدينوم والفاناديوم والكروم.
+          قدرته على الاحتفاظ بالصلابة في درجات الحرارة العالية تميزه عن الفولاذ الكربوني التقليدي.
+        </p>
+        <ul>
+          <li><strong>الصلابة:</strong> 62-65 HRC</li>
+          <li><strong>المتانة:</strong> عالية — مقاومة لأحمال الصدمات</li>
+          <li><strong>إعادة الشحذ:</strong> يمكن إعادة شحذها ميدانياً</li>
+          <li><strong>التكلفة:</strong> أقل بـ 3-4 مرات من كربيد التنغستن</li>
+        </ul>
+
+        <h3>كربيد التنغستن (WC-Co)</h3>
+        <p>
+          يتكون كربيد التنغستن من حبيبات WC ملبدة في مصفوفة رابطة من الكوبالت.
+          يُعرف بقيم صلابة تقترب من الماس (HRA 89-93).
+        </p>
+        <ul>
+          <li><strong>الصلابة:</strong> 89-93 HRA (حوالي ضعف HSS)</li>
+          <li><strong>المتانة:</strong> منخفضة — حساس للصدمات</li>
+          <li><strong>إعادة الشحذ:</strong> يتطلب معدات طحن ألماسية متخصصة</li>
+          <li><strong>التكلفة:</strong> الاستثمار الأولي 4-5 أضعاف HSS</li>
+        </ul>
+
+        <!-- BLADE_COMPARISON_CHART -->
+
+        <h2>القسم 2: تحليل التكلفة الإجمالية للملكية</h2>
+        <blockquote>
+          <p><strong>تكلفة القطع لكل وحدة = سعر الشفرة ÷ إجمالي مسافة القطع (كم)</strong></p>
+        </blockquote>
+
+        <!-- BLADE_COST_CHART -->
+
+        <h2>القسم 3: الطريق الثالث — HSS المطلي بالسيراميك</h2>
+        <p>
+          تقدم Alya <strong>شفرات HSS مطلية بالسيراميك</strong> تحقق توازناً ذهبياً:
+        </p>
+        <ul>
+          <li>تحتفظ بمتانة HSS ومزايا إعادة الشحذ</li>
+          <li>يرفع الطلاء السيراميكي صلابة السطح إلى ~3,200 HV</li>
+          <li>يحسن مقاومة التآكل بمقدار 3-4 أضعاف</li>
+        </ul>
+
+        <h2>الخلاصة</h2>
+        <p>
+          <strong>كربيد التنغستن</strong> يقدم أقل تكلفة وحدة للسلاسل الطويلة والمواد الكاشطة.
+          <strong>HSS</strong> لا مثيل له في التطبيقات التي تتطلب المتانة.
+          <strong>HSS المطلي بالسيراميك</strong> يمثل الحل الوسط الذهبي.
+          <em>تواصل معنا للاستشارة.</em>
+        </p>
+
+        <hr />
+        <h3>المراجع</h3>
+        <ol>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em></li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides.</em></li>
+          <li>Roberts, G. et al. (1998). <em>Tool Steels.</em> 5th ed.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em></li>
+        </ol>
+      `,
+      seo: {
+        title: 'كربيد التنغستن أم HSS؟ مقارنة مواد شفرات تقطيع الأفلام | Alya',
+        description: 'مقارنة كربيد التنغستن و HSS لشفرات تقطيع الأفلام. تحليل التكلفة الإجمالية ودليل اختيار المواد.',
+        keywords: ['كربيد التنغستن', 'شفرة HSS', 'تقطيع الأفلام', 'طلاء سيراميك'],
+        focusKeyword: 'كربيد التنغستن مقابل HSS',
+      },
+    },
+
+    // ─── Русский ───
+    ru: {
+      title: 'Карбид вольфрама или HSS? Выбор материала лезвия для резки плёнки',
+      excerpt: 'Выбор материала лезвия на линиях продольной резки плёнки и фольги напрямую влияет на эффективность производства. Сравниваем HSS и карбид вольфрама с инженерными данными и анализом TCO.',
+      content: `
+        <p class="lead">
+          На линиях продольной резки плёнки и фольги выбор лезвия — критическое инженерное решение, напрямую влияющее на эффективность производства.
+          На рынке представлены различные материалы: углеродистая сталь, сталь с покрытием TiN, быстрорежущая сталь (HSS) и карбид вольфрама (WC).
+          Но для высокопроизводительных приложений выбор обычно сужается до двух: <strong>HSS</strong> и <strong>карбид вольфрама</strong>.
+        </p>
+
+        <h2>Раздел 1: Знакомство с материалами</h2>
+
+        <h3>Быстрорежущая сталь (HSS)</h3>
+        <p>
+          HSS — инструментальная сталь, содержащая легирующие элементы: вольфрам, молибден, ванадий и хром.
+          Способность сохранять твёрдость при повышенных температурах отличает её от обычных углеродистых сталей.
+        </p>
+        <ul>
+          <li><strong>Твёрдость:</strong> 62-65 HRC</li>
+          <li><strong>Вязкость:</strong> Высокая — устойчивость к ударным нагрузкам</li>
+          <li><strong>Заточка:</strong> Возможна в полевых условиях алмазными кругами</li>
+          <li><strong>Стоимость:</strong> в 3-4 раза дешевле карбида вольфрама</li>
+        </ul>
+
+        <h3>Карбид вольфрама (WC-Co)</h3>
+        <p>
+          Карбид вольфрама состоит из зёрен WC, спечённых в кобальтовой связующей матрице.
+          Известен значениями твёрдости, приближающимися к алмазу (HRA 89-93 / HV 1300-1800).
+        </p>
+        <ul>
+          <li><strong>Твёрдость:</strong> 89-93 HRA (примерно в 2 раза выше HSS)</li>
+          <li><strong>Вязкость:</strong> Низкая — чувствителен к ударам и термошоку</li>
+          <li><strong>Заточка:</strong> Требует специализированного алмазного шлифовального оборудования</li>
+          <li><strong>Стоимость:</strong> Начальные инвестиции в 4-5 раз выше HSS</li>
+        </ul>
+
+        <!-- BLADE_COMPARISON_CHART -->
+
+        <h2>Раздел 2: Анализ совокупной стоимости владения</h2>
+        <blockquote>
+          <p><strong>Удельная стоимость резки = Цена лезвия ÷ Общая дистанция резки (км)</strong></p>
+        </blockquote>
+
+        <!-- BLADE_COST_CHART -->
+
+        <h2>Раздел 3: Третий путь — HSS с керамическим покрытием</h2>
+        <p>
+          Alya предлагает <strong>лезвия HSS с керамическим покрытием</strong>, обеспечивающие золотой баланс:
+        </p>
+        <ul>
+          <li>Сохраняет вязкость HSS и преимущества повторной заточки</li>
+          <li>Керамическое покрытие повышает поверхностную твёрдость до ~3 200 HV</li>
+          <li>Улучшает износостойкость в 3-4 раза</li>
+        </ul>
+
+        <h2>Заключение</h2>
+        <p>
+          <strong>Карбид вольфрама</strong> по-прежнему обеспечивает наименьшую удельную стоимость для длинных серий и абразивных материалов.
+          <strong>HSS</strong> не имеет аналогов для приложений, требующих вязкости и гибкости.
+          <strong>HSS с керамическим покрытием</strong> представляет золотую середину.
+          <em>Свяжитесь с нами для консультации.</em>
+        </p>
+
+        <hr />
+        <h3>Источники</h3>
+        <ol>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em></li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides.</em></li>
+          <li>Roberts, G. et al. (1998). <em>Tool Steels.</em> 5th ed.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em></li>
+        </ol>
+      `,
+      seo: {
+        title: 'Карбид вольфрама или HSS? Сравнение материалов для резки плёнки | Alya',
+        description: 'Сравнение карбида вольфрама и HSS для лезвий резки плёнки. Анализ TCO и руководство по выбору материалов.',
+        keywords: ['карбид вольфрама лезвие', 'HSS лезвие', 'резка плёнки', 'керамическое покрытие'],
+        focusKeyword: 'карбид вольфрама против HSS',
+      },
+    },
+
+    // ─── Français ───
+    fr: {
+      title: 'Carbure de Tungstène ou HSS ? Choisir le Bon Matériau pour le Refendage de Film',
+      excerpt: 'Le choix du matériau de lame dans les lignes de refendage de films et feuilles impacte directement l\'efficacité de production. Nous comparons HSS et carbure de tungstène avec des données d\'ingénierie et une analyse TCO.',
+      content: `
+        <p class="lead">
+          Dans les lignes de refendage de films et feuilles, le choix de la lame est une décision d'ingénierie critique qui impacte directement l'efficacité de production.
+          Le marché offre plusieurs options : acier au carbone, acier revêtu TiN, acier rapide (HSS) et carbure de tungstène (WC).
+          Mais pour les applications haute performance, la course se réduit généralement à deux matériaux : <strong>HSS</strong> et <strong>carbure de tungstène</strong>.
+        </p>
+
+        <h2>Section 1 : Comprendre les Matériaux</h2>
+
+        <h3>Acier Rapide (HSS)</h3>
+        <p>
+          Le HSS est un acier à outils contenant des éléments d'alliage tels que le tungstène, le molybdène, le vanadium et le chrome.
+          Sa capacité à conserver sa dureté à haute température le distingue des aciers au carbone conventionnels.
+        </p>
+        <ul>
+          <li><strong>Dureté :</strong> 62-65 HRC</li>
+          <li><strong>Ténacité :</strong> Élevée — résistante aux charges d'impact</li>
+          <li><strong>Réaffûtage :</strong> Réaffûtable sur site avec des meules diamantées</li>
+          <li><strong>Coût :</strong> 3-4× plus abordable que le carbure de tungstène</li>
+        </ul>
+
+        <h3>Carbure de Tungstène (WC-Co)</h3>
+        <p>
+          Le carbure de tungstène se compose de grains de WC frittés dans une matrice liante de cobalt.
+          Connu pour des valeurs de dureté proches du diamant (HRA 89-93 / HV 1300-1800).
+        </p>
+        <ul>
+          <li><strong>Dureté :</strong> 89-93 HRA (environ 2× celle du HSS)</li>
+          <li><strong>Ténacité :</strong> Faible — sensible aux chocs</li>
+          <li><strong>Réaffûtage :</strong> Nécessite un équipement de meulage diamanté spécialisé</li>
+          <li><strong>Coût :</strong> Investissement initial 4-5× celui du HSS</li>
+        </ul>
+
+        <!-- BLADE_COMPARISON_CHART -->
+
+        <h2>Section 2 : Analyse du Coût Total de Possession</h2>
+        <blockquote>
+          <p><strong>Coût Unitaire de Coupe = Prix de la Lame ÷ Distance Totale de Coupe (km)</strong></p>
+        </blockquote>
+
+        <!-- BLADE_COST_CHART -->
+
+        <h2>Section 3 : La Troisième Voie — HSS Revêtu Céramique</h2>
+        <p>
+          Alya propose des <strong>lames HSS revêtues céramique</strong> offrant un équilibre doré :
+        </p>
+        <ul>
+          <li>Conserve la ténacité du HSS et les avantages de réaffûtage</li>
+          <li>Le revêtement céramique porte la dureté de surface à ~3 200 HV</li>
+          <li>Améliore la résistance à l'usure de 3-4×</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>
+          <strong>Le carbure de tungstène</strong> offre toujours le coût unitaire le plus bas pour les longues séries et les matériaux abrasifs.
+          <strong>Le HSS</strong> est inégalé pour les applications nécessitant ténacité et flexibilité.
+          <strong>Le HSS revêtu céramique</strong> représente le juste milieu doré.
+          <em>Contactez-nous pour une consultation.</em>
+        </p>
+
+        <hr />
+        <h3>Références</h3>
+        <ol>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em></li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4e éd.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides.</em></li>
+          <li>Roberts, G. et al. (1998). <em>Tool Steels.</em> 5e éd.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em></li>
+        </ol>
+      `,
+      seo: {
+        title: 'Carbure de Tungstène ou HSS ? Comparaison des Matériaux de Lames | Alya',
+        description: 'Comparaison carbure de tungstène vs HSS pour les lames de refendage. Analyse TCO et guide de sélection des matériaux par application.',
+        keywords: ['carbure de tungstène lame', 'lame HSS', 'refendage de film', 'revêtement céramique'],
+        focusKeyword: 'carbure de tungstène vs HSS',
+      },
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
   // YAZI 1: Çelik - Endüstrinin Omurgası
   // ═══════════════════════════════════════════════════════════════════════════
   {
