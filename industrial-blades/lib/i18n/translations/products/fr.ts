@@ -1768,6 +1768,15 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Lame professionnelle pour emballage sous vide et thermoformage. Acier Sheffield HRC 58-60, qualité alimentaire Ra ≤0.4 µm. Compatible Multivac, Tiromat, GEA, Ulma, Sealpac. Fabricant certifié ISO 9001.',
       keywords: ['lame emballage sous vide', 'couteau thermoformage', 'lame machine emballage', 'lame Multivac', 'lame Tiromat', 'couteau emballage alimentaire', 'lame MAP', 'lame vacuum packaging', 'couteau machine emballage sous vide', 'lame industrielle emballage'],
     },
+    benefits: [
+      { title: 'Dureté HRC 58-60', description: 'Tranchant durable et durée de vie 3x grâce au traitement thermique en atmosphère contrôlée', icon: 'Shield' },
+      { title: 'Surface Alimentaire', description: 'Rugosité Ra ≤0,4 µm — découpe hygiénique conforme HACCP et BRC', icon: 'CheckCircle' },
+      { title: 'Large Compatibilité Machines', description: 'Compatible avec 10+ marques dont Multivac, Tiromat, GEA, Ulma, Sealpac', icon: 'Settings' },
+    ],
+    longDescription: `<p>Cette lame professionnelle pour machines d'emballage sous vide (MAP — Modified Atmosphere Packaging) est usinée CNC avec précision à partir d'acier Sheffield. La dureté HRC 58-60 Rockwell est obtenue par traitement thermique en four à atmosphère contrôlée.</p>
+<p>Offre une qualité de surface conforme aux normes HACCP et BRC pour l'industrie alimentaire. La rugosité Ra ≤0,4 µm empêche l'adhérence des particules alimentaires sur la lame.</p>
+<p><strong>Marques de Machines Compatibles :</strong> Multivac, Tiromat, Opack, Betapak, GEA CFS, Alcan, Ulma Packaging, Variovac, Sealpac, Webomatic, Henkelman.</p>
+<p>Produit de référence générale pour tous les types de lames thermoformage sous vide : coupe droite, contour, poinçon étoile et poinçon à air. Notre équipe technique assure le meilleur SKU pour votre modèle de machine.</p>`,
   },
   'kontr-biai': {
     name: 'Lame Contour – Thermoformage & Emballage Sous Vide',
@@ -1785,6 +1794,16 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Lame contour professionnelle pour machines thermoformage et emballage sous vide. Compatible Multivac, Tiromat, Opack, GEA, Ulma. Acier Sheffield qualité alimentaire.',
       keywords: ['lame contour', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'lame emballage viande']
     },
+    benefits: [
+      { title: 'Dureté HRC 58-62', description: 'Qualité de coupe constante et longue durée de vie grâce au traitement thermique de précision', icon: 'Shield' },
+      { title: 'Coupe Sans Bavure', description: 'Géométrie de profil contour pour des bords nets et sans bavure', icon: 'Zap' },
+      { title: 'Option Revêtement TiN', description: 'Dureté surface 2300 HV, durée de vie 3-5x, anti-adhérence', icon: 'Diamond' },
+    ],
+    longDescription: `<p>La lame contour est une lame à profil spécial qui découpe les bords de film en suivant le profil dans les machines de thermoformage. Usinée CNC à partir d'acier Sheffield haut carbone, dureté HRC 58-62 par traitement thermique de précision.</p>
+<p><strong>Géométrie du Profil :</strong> Le profil contour spécifique à la machine suit précisément la géométrie du bord du film. Découpe sans bavure — aucune trace de coupe sur l'emballage.</p>
+<p><strong>Options de Revêtement :</strong></p>
+<ul><li>Standard : Surface polie brillante, Ra ≤0,4 µm</li><li>TiN (Nitrure de Titane) PVD : dureté surface 2300 HV, couleur or, durée de vie 3-5x</li></ul>
+<p><strong>Machines Compatibles :</strong> Multivac série R (R105, R145, R245, R535), Tiromat 3000/660, GEA PowerPak, Opack, Betapak, Alcan, Ulma série TFS, Variovac.</p>`,
   },
   'yarim': {
     name: 'Poinçon Demi-Étoile – Emballage Sous Vide',
@@ -1803,6 +1822,15 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Poinçon demi-étoile professionnel pour emballage sous vide et thermoformage. Acier D2 haute résistance, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon demi-étoile', 'poinçon thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'acier D2']
     },
+    benefits: [
+      { title: 'Acier D2', description: '12% chrome, 1,55% carbone — résistance à l\'usure et stabilité dimensionnelle supérieures', icon: 'Shield' },
+      { title: 'Option Revêtement TiN', description: 'Surface 2300 HV, réduction friction 40%, durée de vie 3-5x', icon: 'Diamond' },
+      { title: 'Géométrie Précise', description: 'Forme triangle avec équilibre optimal entre aération et intégrité de l\'emballage', icon: 'Star' },
+    ],
+    longDescription: `<p>Les poinçons demi-étoile (half star) sont utilisés pour créer des motifs d'aération sur le film dans l'emballage sous vide. L'acier D2 (1,55% C, 12% Cr, 0,85% Mo, 0,9% V) offre résistance à l'usure et stabilité dimensionnelle grâce à sa teneur élevée en chrome.</p>
+<p><strong>Paramètres de Traitement Thermique :</strong> Transformation austénitique 1020-1040°C → trempe à l'huile → revenu 200-250°C. Ce processus en 3 étapes atteint HRC 58-60 avec un équilibre de ténacité adéquat.</p>
+<p><strong>Géométrie :</strong> Le motif demi-étoile triangulaire crée une zone d'aération optimale dans le film tout en préservant l'intégrité de l'emballage. Standard matériau équivalent DIN 1.2379.</p>
+<p><strong>Revêtement :</strong> Le revêtement PVD TiN (Nitrure de Titane) augmente la dureté de surface à 2300 HV, réduit la friction de 40% et prolonge la durée de vie 3-5x.</p>`,
   },
   'tam': {
     name: 'Poinçon Étoile Complète – Emballage Sous Vide',
@@ -1821,6 +1849,15 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Poinçon étoile complète professionnel pour emballage sous vide et thermoformage. Acier D2 qualité Sheffield, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon étoile', 'poinçon thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'poinçon industriel']
     },
+    benefits: [
+      { title: 'Aération 2x', description: 'Surface de passage de gaz deux fois plus grande que la demi-étoile', icon: 'Wind' },
+      { title: 'Durabilité Acier D2', description: 'DIN 1.2379, 12% chrome pour résistance supérieure à l\'usure et la corrosion', icon: 'Shield' },
+      { title: 'Option Revêtement TiN', description: 'Dureté surface 2300 HV, durée de vie 3-5x', icon: 'Diamond' },
+    ],
+    longDescription: `<p>Les poinçons étoile complète (full star) créent des motifs d'aération 2x plus larges dans l'emballage sous vide par rapport à la demi-étoile. Fabriqués en acier D2 (1,55% C, 12% Cr, 0,85% Mo, 0,9% V).</p>
+<p><strong>Avantage :</strong> Dans les applications MAP (Emballage sous Atmosphère Modifiée) nécessitant un échange gazeux rapide, la géométrie étoile complète accélère le transfert de gaz. Largement préféré pour l'emballage de viande, fromage et plats préparés.</p>
+<p><strong>Matériau :</strong> DIN 1.2379 / AISI D2 — acier à outils pour travail à froid allié chrome-molybdène-vanadium. Dureté stable HRC 58-60 par effet de durcissement secondaire.</p>
+<p><strong>Machines Compatibles :</strong> Multivac, Tiromat, GEA PowerPak, Opack, Betapak, Alcan, Ulma, Variovac, Sealpac.</p>`,
   },
   'dz-biaklar': {
     name: 'Lames Droites (Lama) – Emballage Sous Vide',
@@ -1839,6 +1876,16 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Lame droite professionnelle pour machines thermoformage et emballage sous vide. Acier HSS haute vitesse, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['lame droite', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'acier HSS']
     },
+    benefits: [
+      { title: 'Ultra-Dureté HRC 62-65', description: 'Le durcissement secondaire HSS M2 atteint la valeur la plus élevée parmi les aciers', icon: 'Shield' },
+      { title: 'Stabilité Thermique 600°C', description: 'Dureté à rouge — aucune perte de dureté même en coupe haute vitesse', icon: 'Flame' },
+      { title: 'Structure Anti-Écrasement', description: 'Micro-structure en carbure de vanadium offrant 5x de résistance à la déformation', icon: 'Zap' },
+    ],
+    longDescription: `<p>Les lames droites (lama) sont utilisées sur la ligne de coupe de film des machines de thermoformage et d'emballage sous vide. Fabriquées en acier rapide HSS M2 (DIN 1.3343 / AISI M2).</p>
+<p><strong>Composition de l'Alliage :</strong> 0,85% C, 6,15% W, 5,0% Mo, 4,15% Cr, 1,85% V — cette composition atteint HRC 62-65 par durcissement secondaire avec stabilité thermique jusqu'à 600°C.</p>
+<p><strong>Avantages :</strong></p>
+<ul><li>Résistance extraordinaire à l'écrasement — 5x de résistance à la déformation par rapport à l'acier Sheffield</li><li>Dureté à rouge : maintient HRC 60+ même à 600°C</li><li>Micro-structure carbure de vanadium : les carbures MC forment une barrière naturelle contre l'usure</li></ul>
+<p><strong>Machines Compatibles :</strong> Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac.</p>`,
   },
   'dairesel': {
     name: 'Lames Circulaires – Emballage Sous Vide',
@@ -1857,6 +1904,15 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Lame circulaire rotative pour machines thermoformage et emballage sous vide. Acier Sheffield qualité, compatible Multivac, Tiromat, Opack, GEA, Ulma, Variovac.',
       keywords: ['lame circulaire', 'lame rotative', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire']
     },
+    benefits: [
+      { title: 'Équilibrage Dynamique', description: 'Coupe sans vibration et sans bavure garantie à 3000+ tr/min', icon: 'RotateCw' },
+      { title: 'Dureté HRC 58-62', description: 'Tranchant longue durée en acier Sheffield', icon: 'Shield' },
+      { title: 'Service de Réaffûtage', description: 'Meulage de précision 18-22° avec service de calibration', icon: 'RefreshCw' },
+    ],
+    longDescription: `<p>Les lames circulaires fonctionnent avec un système de coupe rotatif dans les machines de thermoformage et d'emballage sous vide. Tournées et rectifiées CNC à partir d'acier Sheffield haut carbone.</p>
+<p><strong>Équilibrage Dynamique :</strong> Chaque lame circulaire est équilibrée dynamiquement pour éviter les vibrations en rotation haute vitesse. Coupe sans bavure garantie même à 3000+ tr/min.</p>
+<p><strong>Affûtage :</strong> Angle de coupe formé par meulage de précision 18-22°. Service de réaffûtage et calibration disponible.</p>
+<p><strong>Machines Compatibles :</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
   },
   'yuvarlak': {
     name: 'Poinçon Rond d\'Aération – Emballage Sous Vide',
@@ -1875,8 +1931,16 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Poinçon rond pour trous d\'aération emballage sous vide et thermoformage. Acier inoxydable 440C, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon à air', 'poinçon rond', 'poinçon thermoformage', 'trou aération', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'inoxydable 440C']
     },
+    benefits: [
+      { title: 'Résistance Corrosion 17% Chrome', description: 'Protection complète contre la rouille en environnements alimentaires humides et salés', icon: 'Droplet' },
+      { title: 'Surface Conforme HACCP', description: 'Hygiène alimentaire électropolie Ra ≤0,3 µm', icon: 'CheckCircle' },
+      { title: 'Dureté HRC 58-60', description: 'Structure martensitique équilibrant tranchant et résistance à la corrosion', icon: 'Shield' },
+    ],
+    longDescription: `<p>Les poinçons ronds créent des trous d'aération circulaires dans l'emballage sous vide. Fabriqués en acier inoxydable martensitique AISI 440C (1,0% C, 17% Cr).</p>
+<p><strong>Résistance à la Corrosion :</strong> La teneur en chrome de 17% offre une résistance supérieure à la rouille et à la corrosion par piqûres en environnements humides. Aucune perte de performance même en environnements salés (emballage produits de la mer).</p>
+<p><strong>Traitement de Surface :</strong> Électropolissage Ra ≤0,3 µm, qualité contact alimentaire conforme HACCP et FDA 21 CFR 175.300.</p>
+<p><strong>Machines Compatibles :</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
   },
-  'oval': {
     name: 'Poinçon Ovale d\'Aération – Emballage Sous Vide',
     description: 'Poinçon ovale (ellipse) pour trous d\'aération sur emballages sous vide. Acier inoxydable 440C.',
     features: [
@@ -1893,6 +1957,15 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Poinçon ovale pour trous d\'aération emballage sous vide et thermoformage. Acier inoxydable 440C, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon à air', 'poinçon ovale', 'poinçon thermoformage', 'trou aération', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'inoxydable 440C']
     },
+    benefits: [
+      { title: '40% Plus de Surface', description: 'Géométrie ovale offrant 40% d\'aération en plus par rapport au rond', icon: 'Wind' },
+      { title: 'Résistance Corrosion 440C', description: '17% chrome, protection complète en environnements humides et salés', icon: 'Droplet' },
+      { title: 'Surface Conforme HACCP', description: 'Hygiène alimentaire électropolie Ra ≤0,3 µm', icon: 'CheckCircle' },
+    ],
+    longDescription: `<p>Les poinçons ovales créent des zones d'aération plus larges avec un profil elliptique par rapport aux poinçons ronds. Fabriqués en acier inoxydable martensitique AISI 440C (1,0% C, 17% Cr).</p>
+<p><strong>Avantage Ovale :</strong> La géométrie elliptique offre 40% de surface de passage de gaz supplémentaire dans la même zone de film. Cette caractéristique est préférée pour le MAP nécessitant un échange gazeux rapide.</p>
+<p><strong>Propriétés 440C :</strong> La composition 1,0% carbone + 17% chrome offre à la fois une dureté HRC 58-60 et une résistance à la corrosion supérieure. Surface alimentaire électropolie Ra ≤0,3 µm.</p>
+<p><strong>Machines Compatibles :</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
   },
   'dili': {
     name: 'Lames Dentées – Emballage Sous Vide',
@@ -1911,6 +1984,17 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Lame dentelée professionnelle pour machines thermoformage et emballage sous vide. Acier Sheffield, idéale films rigides, compatible Multivac, Tiromat, Opack, GEA.',
       keywords: ['lame dentelée', 'lame dentée', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'films rigides']
     },
+    benefits: [
+      { title: 'Coupe Anti-Glissement', description: 'Profil micro-dentelé assurant une coupe sûre même sur matériaux glissants', icon: 'Zap' },
+      { title: 'Précision ±0,02mm', description: 'Dents usinées CNC avec précision pour une qualité de bord constante', icon: 'Gauge' },
+      { title: 'Multi-Matériaux', description: 'Film épais, feuille alu, plastique rigide, film barrière — une seule lame', icon: 'Layers' },
+    ],
+    longDescription: `<p>Les lames dentelées (serrated/saw-tooth) sont utilisées pour les films épais, les laminages aluminium et les emballages thermoplastiques rigides où les lames droites glisseraient.</p>
+<p><strong>Géométrie Dentaire :</strong> Le profil micro-dentelé perce d'abord puis coupe le matériau. Ce mécanisme en deux étapes élimine le risque de glissement et crée un bord net à chaque coupe.</p>
+<p><strong>Matériau :</strong> Acier Sheffield haut carbone, dureté HRC 58-62. Dents usinées CNC avec précision, tolérance inter-dents ±0,02mm.</p>
+<p><strong>Utilisation Idéale :</strong></p>
+<ul><li>Films PE/PP épais (100+ microns)</li><li>Laminages feuille d'aluminium</li><li>Emballages rigides PET/PVC</li><li>Films barrière multicouches</li></ul>
+<p><strong>Machines Compatibles :</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
   },
   'vent-cutter': {
     name: 'Vent Cutter – Lame de Découpe à Ailettes',
