@@ -1941,6 +1941,7 @@ export const productsFr: Record<string, ProductTranslation> = {
 <p><strong>Traitement de Surface :</strong> Électropolissage Ra ≤0,3 µm, qualité contact alimentaire conforme HACCP et FDA 21 CFR 175.300.</p>
 <p><strong>Machines Compatibles :</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
   },
+  'oval': {
     name: 'Poinçon Ovale d\'Aération – Emballage Sous Vide',
     description: 'Poinçon ovale (ellipse) pour trous d\'aération sur emballages sous vide. Acier inoxydable 440C.',
     features: [
