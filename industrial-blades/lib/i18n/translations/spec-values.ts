@@ -149,6 +149,29 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Mikro Yapı
     'İnce tane (0.5-1.0 µm)': 'İnce tane (0.5-1.0 µm)',
+
+    // Vakum Paketleme Değerleri
+    'Sheffield Çelik (Yüksek Karbonlu)': 'Sheffield Çelik (Yüksek Karbonlu)',
+    'D2 Takım Çeliği (DIN 1.2379)': 'D2 Takım Çeliği (DIN 1.2379)',
+    'HSS M2 (DIN 1.3343)': 'HSS M2 (DIN 1.3343)',
+    'AISI 440C Martensitik Paslanmaz': 'AISI 440C Martensitik Paslanmaz',
+    'Standart veya TiN PVD (2300 HV)': 'Standart veya TiN PVD (2300 HV)',
+    'Ra ≤0.4 µm (Gıda Sınıfı)': 'Ra ≤0.4 µm (Gıda Sınıfı)',
+    'Ra ≤0.3 µm (Elektropolisaj)': 'Ra ≤0.3 µm (Elektropolisaj)',
+    'Kontör/Profil Takipli Kesim': 'Kontör/Profil Takipli Kesim',
+    '600°C (Kırmızı Sertlik)': '600°C (Kırmızı Sertlik)',
+    'Düz Kesim (Straight Edge)': 'Düz Kesim (Straight Edge)',
+    'Dinamik Dengelenmiş (3000+ RPM)': 'Dinamik Dengelenmiş (3000+ RPM)',
+    'Yarım Yıldız (Half Star / Triangle)': 'Yarım Yıldız (Half Star / Triangle)',
+    'Dairesel (Circular Rotary)': 'Dairesel (Circular Rotary)',
+    'Mikro-Serrated (Testere Dişli)': 'Mikro-Serrated (Testere Dişli)',
+    'Yuvarlak (Round) Hava Deliği': 'Yuvarlak (Round) Hava Deliği',
+    'Oval (Elips) Hava Deliği': 'Oval (Elips) Hava Deliği',
+    'Yuvarlak ile karşılaştırıldığında %40 daha geniş alan': 'Yuvarlak ile karşılaştırıldığında %40 daha geniş alan',
+    '±0.02mm CNC hassasiyet': '±0.02mm CNC hassasiyet',
+    'Kalın film, Al folyo, PET/PVC rigid': 'Kalın film, Al folyo, PET/PVC rigid',
+    'Kontrollü atmosfer fırını': 'Kontrollü atmosfer fırını',
+    '%17 Cr (Yüksek Korozyon Direnci)': '%17 Cr (Yüksek Korozyon Direnci)',
   },
 
   // =============================================================================
@@ -290,6 +313,29 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Microstructure
     'İnce tane (0.5-1.0 µm)': 'Fine grain (0.5-1.0 µm)',
+
+    // Vacuum Packaging Values
+    'Sheffield Çelik (Yüksek Karbonlu)': 'Sheffield High-Carbon Steel',
+    'D2 Takım Çeliği (DIN 1.2379)': 'D2 Tool Steel (DIN 1.2379)',
+    'HSS M2 (DIN 1.3343)': 'HSS M2 High-Speed Steel (DIN 1.3343)',
+    'AISI 440C Martensitik Paslanmaz': 'AISI 440C Martensitic Stainless',
+    'Standart veya TiN PVD (2300 HV)': 'Standard or TiN PVD (2300 HV)',
+    'Ra ≤0.4 µm (Gıda Sınıfı)': 'Ra ≤0.4 µm (Food-Grade)',
+    'Ra ≤0.3 µm (Elektropolisaj)': 'Ra ≤0.3 µm (Electropolished)',
+    'Kontör/Profil Takipli Kesim': 'Contour/Profile-Tracking Cut',
+    '600°C (Kırmızı Sertlik)': '600°C (Red Hardness)',
+    'Düz Kesim (Straight Edge)': 'Straight Cut (Straight Edge)',
+    'Dinamik Dengelenmiş (3000+ RPM)': 'Dynamically Balanced (3000+ RPM)',
+    'Yarım Yıldız (Half Star / Triangle)': 'Half Star (Triangle)',
+    'Dairesel (Circular Rotary)': 'Circular (Rotary)',
+    'Mikro-Serrated (Testere Dişli)': 'Micro-Serrated (Saw-Tooth)',
+    'Yuvarlak (Round) Hava Deliği': 'Round Air Hole',
+    'Oval (Elips) Hava Deliği': 'Oval (Elliptical) Air Hole',
+    'Yuvarlak ile karşılaştırıldığında %40 daha geniş alan': '40% wider area compared to round',
+    '±0.02mm CNC hassasiyet': '±0.02mm CNC Precision',
+    'Kalın film, Al folyo, PET/PVC rigid': 'Thick film, Al foil, PET/PVC rigid',
+    'Kontrollü atmosfer fırını': 'Controlled Atmosphere Furnace',
+    '%17 Cr (Yüksek Korozyon Direnci)': '17% Cr (High Corrosion Resistance)',
   },
 
   // =============================================================================
@@ -431,6 +477,29 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Microstructure
     'İnce tane (0.5-1.0 µm)': 'حبيبات دقيقة (0.5-1.0 ميكرومتر)',
+
+    // Vacuum Packaging Values
+    'Sheffield Çelik (Yüksek Karbonlu)': 'فولاذ شيفيلد عالي الكربون',
+    'D2 Takım Çeliği (DIN 1.2379)': 'فولاذ أدوات D2 (DIN 1.2379)',
+    'HSS M2 (DIN 1.3343)': 'فولاذ عالي السرعة HSS M2 (DIN 1.3343)',
+    'AISI 440C Martensitik Paslanmaz': 'فولاذ مقاوم للصدأ مارتنسيتي AISI 440C',
+    'Standart veya TiN PVD (2300 HV)': 'قياسي أو طلاء TiN PVD (2300 HV)',
+    'Ra ≤0.4 µm (Gıda Sınıfı)': 'Ra ≤0.4 µm (درجة غذائية)',
+    'Ra ≤0.3 µm (Elektropolisaj)': 'Ra ≤0.3 µm (تلميع كهربائي)',
+    'Kontör/Profil Takipli Kesim': 'قطع كونتور/متابعة الملف',
+    '600°C (Kırmızı Sertlik)': '600°م (صلادة حمراء)',
+    'Düz Kesim (Straight Edge)': 'قطع مستقيم (Straight Edge)',
+    'Dinamik Dengelenmiş (3000+ RPM)': 'موازنة ديناميكية (3000+ د/د)',
+    'Yarım Yıldız (Half Star / Triangle)': 'نصف نجمة (مثلث)',
+    'Dairesel (Circular Rotary)': 'دائري (دوار)',
+    'Mikro-Serrated (Testere Dişli)': 'مسنن دقيق (أسنان منشار)',
+    'Yuvarlak (Round) Hava Deliği': 'ثقب هواء مستدير',
+    'Oval (Elips) Hava Deliği': 'ثقب هواء بيضاوي',
+    'Yuvarlak ile karşılaştırıldığında %40 daha geniş alan': 'أوسع بنسبة 40% مقارنة بالمستدير',
+    '±0.02mm CNC hassasiyet': '±0.02mm دقة CNC',
+    'Kalın film, Al folyo, PET/PVC rigid': 'فيلم سميك، رقائق ألمنيوم، PET/PVC صلب',
+    'Kontrollü atmosfer fırını': 'فرن أجواء متحكّمة',
+    '%17 Cr (Yüksek Korozyon Direnci)': '17% كروم (مقاومة تآكل عالية)',
   },
 
   // =============================================================================
@@ -572,6 +641,29 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Microstructure
     'İnce tane (0.5-1.0 µm)': 'Grain fin (0,5-1,0 µm)',
+
+    // Vacuum Packaging Values
+    'Sheffield Çelik (Yüksek Karbonlu)': 'Acier Sheffield Haut Carbone',
+    'D2 Takım Çeliği (DIN 1.2379)': 'Acier d\'outillage D2 (DIN 1.2379)',
+    'HSS M2 (DIN 1.3343)': 'Acier rapide HSS M2 (DIN 1.3343)',
+    'AISI 440C Martensitik Paslanmaz': 'Inox martensitique AISI 440C',
+    'Standart veya TiN PVD (2300 HV)': 'Standard ou TiN PVD (2300 HV)',
+    'Ra ≤0.4 µm (Gıda Sınıfı)': 'Ra ≤0,4 µm (Qualité alimentaire)',
+    'Ra ≤0.3 µm (Elektropolisaj)': 'Ra ≤0,3 µm (Électropolissage)',
+    'Kontör/Profil Takipli Kesim': 'Découpe contour/suivi de profil',
+    '600°C (Kırmızı Sertlik)': '600°C (Dureté à rouge)',
+    'Düz Kesim (Straight Edge)': 'Coupe droite',
+    'Dinamik Dengelenmiş (3000+ RPM)': 'Équilibrage dynamique (3000+ tr/min)',
+    'Yarım Yıldız (Half Star / Triangle)': 'Demi-étoile (Triangle)',
+    'Dairesel (Circular Rotary)': 'Circulaire (Rotatif)',
+    'Mikro-Serrated (Testere Dişli)': 'Micro-dentelé (Dent de scie)',
+    'Yuvarlak (Round) Hava Deliği': 'Trou d\'aération rond',
+    'Oval (Elips) Hava Deliği': 'Trou d\'aération ovale',
+    'Yuvarlak ile karşılaştırıldığında %40 daha geniş alan': '40% de surface en plus par rapport au rond',
+    '±0.02mm CNC hassasiyet': '±0,02mm Précision CNC',
+    'Kalın film, Al folyo, PET/PVC rigid': 'Film épais, feuille Al, PET/PVC rigide',
+    'Kontrollü atmosfer fırını': 'Four à atmosphère contrôlée',
+    '%17 Cr (Yüksek Korozyon Direnci)': '17% Cr (Haute résistance corrosion)',
   },
 
   // =============================================================================
@@ -713,6 +805,29 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Microstructure
     'İnce tane (0.5-1.0 µm)': 'Мелкое зерно (0,5-1,0 мкм)',
+
+    // Vacuum Packaging Values
+    'Sheffield Çelik (Yüksek Karbonlu)': 'Шеффилдская высокоуглеродистая сталь',
+    'D2 Takım Çeliği (DIN 1.2379)': 'Инструментальная сталь D2 (DIN 1.2379)',
+    'HSS M2 (DIN 1.3343)': 'Быстрорежущая сталь HSS M2 (DIN 1.3343)',
+    'AISI 440C Martensitik Paslanmaz': 'Мартенситная нержавеющая AISI 440C',
+    'Standart veya TiN PVD (2300 HV)': 'Стандарт или TiN PVD (2300 HV)',
+    'Ra ≤0.4 µm (Gıda Sınıfı)': 'Ra ≤0,4 мкм (Пищевой класс)',
+    'Ra ≤0.3 µm (Elektropolisaj)': 'Ra ≤0,3 мкм (Электрополировка)',
+    'Kontör/Profil Takipli Kesim': 'Контурный/профильный рез',
+    '600°C (Kırmızı Sertlik)': '600°C (Красностойкость)',
+    'Düz Kesim (Straight Edge)': 'Прямой рез',
+    'Dinamik Dengelenmiş (3000+ RPM)': 'Динамическая балансировка (3000+ об/мин)',
+    'Yarım Yıldız (Half Star / Triangle)': 'Полузвезда (Треугольник)',
+    'Dairesel (Circular Rotary)': 'Круглое (Роторное)',
+    'Mikro-Serrated (Testere Dişli)': 'Микрозубчатый (Пильчатый)',
+    'Yuvarlak (Round) Hava Deliği': 'Круглое воздушное отверстие',
+    'Oval (Elips) Hava Deliği': 'Овальное воздушное отверстие',
+    'Yuvarlak ile karşılaştırıldığında %40 daha geniş alan': 'На 40% больше площадь чем круглый',
+    '±0.02mm CNC hassasiyet': '±0,02мм Точность ЧПУ',
+    'Kalın film, Al folyo, PET/PVC rigid': 'Толстая плёнка, Ал-фольга, PET/PVC жёсткий',
+    'Kontrollü atmosfer fırını': 'Печь с контролируемой атмосферой',
+    '%17 Cr (Yüksek Korozyon Direnci)': '17% Cr (Высокая коррозионная стойкость)',
   },
 };
 
