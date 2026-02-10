@@ -622,8 +622,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     specs: [
       { label: 'Malzeme', value: 'SK5 Karbon Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 59-61', icon: 'Shield' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Bileme Açısı', value: '22°', icon: 'Gauge' },
     ],
 
@@ -714,8 +712,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Malzeme', value: 'SK5 Karbon Çelik + TiN', icon: 'Layers', highlight: true },
       { label: 'Kaplama', value: 'Titanyum Nitrür (PVD)', icon: 'Shield', highlight: true },
       { label: 'Sertlik', value: '2300 HV (yüzey)', icon: 'Gauge' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Bileme Açısı', value: '22°', icon: 'Gauge' },
     ],
 
@@ -806,8 +802,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Malzeme', value: 'SK5 Karbon Çelik + Seramik', icon: 'Layers', highlight: true },
       { label: 'Kaplama', value: 'Al₂O₃ Seramik', icon: 'Shield', highlight: true },
       { label: 'Sertlik', value: '3200+ HV (yüzey)', icon: 'Gauge' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Maks. Sıcaklık', value: '800°C', icon: 'Thermometer' },
     ],
 
@@ -898,8 +892,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Malzeme', value: '420HC Paslanmaz Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 56-58', icon: 'Shield' },
       { label: 'Krom Oranı', value: '%13 Cr', icon: 'Shield' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Bileme Açısı', value: '22°', icon: 'Gauge' },
     ],
 
@@ -990,8 +982,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Malzeme', value: '420HC Paslanmaz + TiN', icon: 'Layers', highlight: true },
       { label: 'Kaplama', value: 'Titanyum Nitrür (PVD)', icon: 'Shield', highlight: true },
       { label: 'Sertlik', value: '2300 HV (yüzey)', icon: 'Gauge' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
     ],
 
     origin: {
@@ -1081,8 +1071,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Malzeme', value: '420HC Paslanmaz + XCD', icon: 'Layers', highlight: true },
       { label: 'Kaplama', value: 'XCD (DLC) Elmas Benzeri', icon: 'Diamond', highlight: true },
       { label: 'Sertlik', value: '5000 HV (yüzey)', icon: 'Gauge' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Sürtünme Azaltma', value: '%60', icon: 'Zap' },
     ],
 
@@ -1173,8 +1161,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Malzeme', value: 'Endurium HSS + Seramik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 64-66 (taban)', icon: 'Shield', highlight: true },
       { label: 'Kaplama', value: 'Seramik', icon: 'Shield' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Maks. Sıcaklık', value: '600°C', icon: 'Thermometer' },
     ],
 
@@ -1267,8 +1253,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Sertlik', value: 'HRA 92-94 (HRC 75+)', icon: 'Shield', highlight: true },
       { label: 'Bileşim', value: '%94 WC + %6 Co', icon: 'Layers' },
       { label: 'Yoğunluk', value: '14.8 g/cm³', icon: 'Scale' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Bileme Açısı', value: '30°', icon: 'Gauge' },
     ],
 
@@ -1362,8 +1346,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Sertlik', value: '1200 HV', icon: 'Shield', highlight: true },
       { label: 'Yoğunluk', value: '6.05 g/cm³', icon: 'Scale' },
       { label: 'Elektriksel İletkenlik', value: 'Yok (İzolator)', icon: 'Zap' },
-      { label: 'Boyutlar', value: '57x19mm', icon: 'Ruler', highlight: true },
-      { label: 'Mevcut Kalınlıklar', value: '0.25 / 0.36 / 0.38 / 0.43 / 0.63mm', icon: 'Ruler' },
       { label: 'Bileme Açısı', value: '25°', icon: 'Gauge' },
     ],
 

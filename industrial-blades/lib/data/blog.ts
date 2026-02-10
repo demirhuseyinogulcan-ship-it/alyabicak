@@ -198,7 +198,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <h2>Bölüm 5: Üçüncü Yol — Seramik Kaplamalı HSS</h2>
         <p>
           Her zaman "ya HSS ya tungsten karbür" şeklinde bir zorunluluk yoktur.
-          Alya'nın sunduğu <strong>seramik kaplamalı HSS bıçaklar</strong>, bu iki uç arasında altın bir denge kurar:
+          Alya'nın sunduğu <a href="/tr/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>seramik kaplamalı HSS bıçaklar</strong></a>, bu iki uç arasında altın bir denge kurar:
         </p>
         <ul>
           <li>HSS'nin tokluk ve bileme avantajını korur</li>
@@ -265,9 +265,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
           Doğru yanıt, dilme hattınızın koşullarına, kestiğiniz malzemeye, üretim hızınıza ve bakım kapasitenize bağlıdır.
         </p>
         <p>
-          <strong>Tungsten karbür</strong>, uzun seri ve abrazif malzemeler için hâlâ en düşük birim maliyeti sunar.
+          <a href="/tr/products/slotted-dilme-jileti-yekpare-tungsten-karbur"><strong>Tungsten karbür</strong></a>, uzun seri ve abrazif malzemeler için hâlâ en düşük birim maliyeti sunar.
           <strong>HSS</strong>, tokluk ve esneklik gerektiren uygulamalarda rakipsizdir.
-          <strong>Seramik kaplamalı HSS</strong> ise her ikisinin avantajlarını birleştiren "altın orta yolu" temsil eder.
+          <a href="/tr/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>Seramik kaplamalı HSS</strong></a> ise her ikisinin avantajlarını birleştiren "altın orta yolu" temsil eder.
         </p>
         <p>
           Alya mühendislik ekibi, hattınızın özel koşullarını analiz ederek en uygun malzeme ve geometri önerisini sunmaktadır.
@@ -419,7 +419,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <h2>Section 5: The Third Way — Ceramic-Coated HSS</h2>
         <p>
           It's not always a binary choice between HSS and tungsten carbide.
-          Alya offers <strong>ceramic-coated HSS blades</strong> that strike a golden balance between these two extremes:
+          Alya offers <a href="/en/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>ceramic-coated HSS blades</strong></a> that strike a golden balance between these two extremes:
         </p>
         <ul>
           <li>Retains HSS toughness and resharpening advantages</li>
@@ -486,9 +486,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
           The correct answer depends on your slitting line conditions, the material you cut, your production speed, and your maintenance capacity.
         </p>
         <p>
-          <strong>Tungsten carbide</strong> still offers the lowest unit cost for long runs and abrasive materials.
+          <a href="/en/products/slotted-dilme-jileti-yekpare-tungsten-karbur"><strong>Tungsten carbide</strong></a> still offers the lowest unit cost for long runs and abrasive materials.
           <strong>HSS</strong> is unmatched for applications requiring toughness and flexibility.
-          <strong>Ceramic-coated HSS</strong> represents the "golden mean" that combines the advantages of both.
+          <a href="/en/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>Ceramic-coated HSS</strong></a> represents the "golden mean" that combines the advantages of both.
         </p>
         <p>
           Alya's engineering team analyzes your specific line conditions to recommend the optimal material and geometry.
@@ -626,7 +626,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <h2>القسم 4: الطريق الثالث — HSS المطلي بالسيراميك</h2>
         <p>
           ليس الاختيار دائماً ثنائياً بين HSS وكربيد التنغستن.
-          تقدم Alya <strong>شفرات HSS مطلية بالسيراميك</strong> تحقق توازناً ذهبياً:
+          تقدم Alya <a href="/ar/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>شفرات HSS مطلية بالسيراميك</strong></a> تحقق توازناً ذهبياً:
         </p>
         <ul>
           <li>تحتفظ بمتانة HSS ومزايا إعادة الشحذ</li>
@@ -684,9 +684,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
           الإجابة الصحيحة تعتمد على ظروف خط التقطيع والمادة المقطوعة وسرعة الإنتاج وقدرة الصيانة.
         </p>
         <p>
-          <strong>كربيد التنغستن</strong> يقدم أقل تكلفة وحدة للسلاسل الطويلة والمواد الكاشطة.
+          <a href="/ar/products/slotted-dilme-jileti-yekpare-tungsten-karbur"><strong>كربيد التنغستن</strong></a> يقدم أقل تكلفة وحدة للسلاسل الطويلة والمواد الكاشطة.
           <strong>HSS</strong> لا مثيل له في التطبيقات التي تتطلب المتانة والمرونة.
-          <strong>HSS المطلي بالسيراميك</strong> يمثل "الحل الوسط الذهبي" الذي يجمع مزايا الاثنين.
+          <a href="/ar/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>HSS المطلي بالسيراميك</strong></a> يمثل "الحل الوسط الذهبي" الذي يجمع مزايا الاثنين.
         </p>
         <p>
           يقوم فريق Alya الهندسي بتحليل ظروف خطك لتقديم أفضل توصية للمادة والهندسة.
@@ -823,7 +823,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <h2>Раздел 4: Третий путь — HSS с керамическим покрытием</h2>
         <p>
           Выбор не всегда сводится к «или HSS, или карбид вольфрама».
-          Alya предлагает <strong>лезвия HSS с керамическим покрытием</strong>, обеспечивающие золотой баланс:
+          Alya предлагает <a href="/ru/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>лезвия HSS с керамическим покрытием</strong></a>, обеспечивающие золотой баланс:
         </p>
         <ul>
           <li>Сохраняет вязкость HSS и преимущества повторной заточки</li>
@@ -881,9 +881,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
           Правильный ответ зависит от условий вашей линии, разрезаемого материала, скорости производства и возможностей обслуживания.
         </p>
         <p>
-          <strong>Карбид вольфрама</strong> по-прежнему обеспечивает наименьшую удельную стоимость для длинных серий и абразивных материалов.
+          <a href="/ru/products/slotted-dilme-jileti-yekpare-tungsten-karbur"><strong>Карбид вольфрама</strong></a> по-прежнему обеспечивает наименьшую удельную стоимость для длинных серий и абразивных материалов.
           <strong>HSS</strong> не имеет аналогов для приложений, требующих вязкости и гибкости.
-          <strong>HSS с керамическим покрытием</strong> представляет «золотую середину», объединяющую преимущества обоих.
+          <a href="/ru/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>HSS с керамическим покрытием</strong></a> представляет «золотую середину», объединяющую преимущества обоих.
         </p>
         <p>
           Инженерная команда Alya анализирует условия вашей линии и рекомендует оптимальный материал и геометрию.
@@ -1020,7 +1020,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <h2>Section 4 : La Troisième Voie — HSS Revêtu Céramique</h2>
         <p>
           Le choix n'est pas toujours binaire entre HSS et carbure de tungstène.
-          Alya propose des <strong>lames HSS revêtues céramique</strong> offrant un équilibre doré :
+          Alya propose des <a href="/fr/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>lames HSS revêtues céramique</strong></a> offrant un équilibre doré :
         </p>
         <ul>
           <li>Conserve la ténacité du HSS et les avantages de réaffûtage</li>
@@ -1078,9 +1078,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
           La bonne réponse dépend des conditions de votre ligne, du matériau découpé, de votre vitesse de production et de votre capacité de maintenance.
         </p>
         <p>
-          <strong>Le carbure de tungstène</strong> offre toujours le coût unitaire le plus bas pour les longues séries et les matériaux abrasifs.
+          <a href="/fr/products/slotted-dilme-jileti-yekpare-tungsten-karbur"><strong>Le carbure de tungstène</strong></a> offre toujours le coût unitaire le plus bas pour les longues séries et les matériaux abrasifs.
           <strong>Le HSS</strong> est inégalé pour les applications nécessitant ténacité et flexibilité.
-          <strong>Le HSS revêtu céramique</strong> représente le « juste milieu doré » combinant les avantages des deux.
+          <a href="/fr/products/slotted-dilme-jileti-endurium-celik-seramik-kaplama"><strong>Le HSS revêtu céramique</strong></a> représente le « juste milieu doré » combinant les avantages des deux.
         </p>
         <p>
           L'équipe d'ingénierie Alya analyse les conditions spécifiques de votre ligne pour recommander le matériau et la géométrie optimaux.
