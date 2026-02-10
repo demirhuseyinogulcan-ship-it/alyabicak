@@ -10,7 +10,7 @@
  */
 
 import type { ProductExtended, ProductCardData } from '../types/product.types';
-import { getProductBySlug as getBaseProductBySlug, getAllProducts } from './products';
+import { getProductBySlug as getBaseProductBySlug, getAllProducts, getProductById as getBaseProductById } from './products';
 import { getCategoryById, getSubcategoryById } from './categories';
 import { getProductTranslation, getCategoryTranslation, getSpecValueTranslation } from '../i18n/translations';
 
@@ -282,7 +282,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   // --- İŞ GÜVENLİĞİ EL BIÇAKLARI ---
   {
     id: 'h006-001-x01',
-    slug: 'h006-001-x01-retro-light-knife',
+    slug: 'h006-001-x01-retro-light-knife-dokum-metal-el-bicagi',
     code: 'H006 001 X01',
     name: 'RETRO LIGHT KNIFE',
     subtitle: 'Döküm Metal El Bıçağı',
@@ -399,7 +399,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
   {
     id: 'h008-001-a03',
-    slug: 'h008-001-a03-auto-retract',
+    slug: 'h008-001-a03-auto-retract-otomatik-geri-cekilebilir',
     code: 'H008 001 A03',
     name: 'AUTO RETRACT',
     subtitle: 'Otomatik Geri Çekilebilir El Bıçağı',
@@ -557,6 +557,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     ],
 
     certifications: ['CE'],
+
+    availableSizes: ['43x22x0.10mm', '43x22x0.15mm', '43x22x0.20mm', '43x22x0.30mm', '43x22x0.40mm'],
 
     relatedProductIds: ['slotted-karbon-celik'],
 
@@ -1130,9 +1132,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   },
   {
     id: 'slotted-endurium-seramik',
-    slug: 'slotted-dilme-jileti-endurium-hss-seramik-kaplama',
+    slug: 'slotted-dilme-jileti-endurium-celik-seramik-kaplama',
     code: 'SLT-END-CER',
-    name: 'Slotted Dilme Jileti - Endurium HSS + Seramik Kaplama',
+    name: 'Slotted Dilme Jileti - Endurium Çelik + Seramik Kaplama',
     subtitle: 'Yüksek Hız Çeliği + Seramik — 57x19mm',
 
     categoryId: 'industrial-blades',
@@ -1904,6 +1906,22 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 // YARDIMCI FONKSİYONLAR
 // =============================================================================
 
+/**
+ * PRODUCTS_EXTENDED ürününü base product (scraped-products.json) verileriyle zenginleştirir.
+ * availableSizes gibi base'de tanımlı olup extended'da eksik kalan alanları otomatik doldurur.
+ * ID üzerinden eşleştirme yapar (slug farklılıklarından etkilenmez).
+ */
+function mergeWithBaseProduct(extendedProduct: ProductExtended): ProductExtended {
+  const baseProduct = getBaseProductById(extendedProduct.id);
+  if (!baseProduct) return extendedProduct;
+
+  return {
+    ...extendedProduct,
+    // availableSizes: Extended'da tanımlanmışsa onu kullan, yoksa base'den al
+    availableSizes: extendedProduct.availableSizes || baseProduct.availableSizes || undefined,
+  };
+}
+
 /** Base product'ı ProductExtended tipine dönüştür (fallback için) */
 function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySlug>, locale: string = DEFAULT_LOCALE): ProductExtended | undefined {
   if (!baseProduct) return undefined;
@@ -2072,7 +2090,7 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
 
 /** Tüm aktif ürünleri getir */
 export function getAllProductsExtended(locale: string = DEFAULT_LOCALE): ProductExtended[] {
-  return PRODUCTS_EXTENDED.filter(p => p.isActive).map(p => translateProductExtended(p, locale));
+  return PRODUCTS_EXTENDED.filter(p => p.isActive).map(p => translateProductExtended(mergeWithBaseProduct(p), locale));
 }
 
 /** 
@@ -2083,7 +2101,7 @@ export function getProductBySlug(slug: string, locale: string = DEFAULT_LOCALE):
   // Önce extended ürünlerde ara
   const extendedProduct = PRODUCTS_EXTENDED.find(p => p.slug === slug && p.isActive);
   if (extendedProduct) {
-    return translateProductExtended(extendedProduct, locale);
+    return translateProductExtended(mergeWithBaseProduct(extendedProduct), locale);
   }
 
   // Extended'da yoksa base product'tan dönüştür
@@ -2103,7 +2121,7 @@ export function getProductById(id: string, locale: string = DEFAULT_LOCALE): Pro
   // Önce extended ürünlerde ara
   const extendedProduct = PRODUCTS_EXTENDED.find(p => p.id === id && p.isActive);
   if (extendedProduct) {
-    return translateProductExtended(extendedProduct, locale);
+    return translateProductExtended(mergeWithBaseProduct(extendedProduct), locale);
   }
 
   // Extended'da yoksa base product'tan dönüştür
