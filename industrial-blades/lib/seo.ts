@@ -566,10 +566,16 @@ export function generateArticleSchema(post: {
     articleSection: post.category.name,
     keywords: post.tags.join(', '),
     wordCount: wordCount,
-    inLanguage: locale,
+    inLanguage: SCHEMA_LANGUAGE[locale] || locale,
     // TechArticle specific
-    proficiencyLevel: 'Beginner', // Genel okuyucu için uygun
-    dependencies: 'Endüstriyel üretim bilgisi',
+    proficiencyLevel: 'Expert',
+    dependencies: {
+      tr: 'Endüstriyel üretim ve malzeme bilimi bilgisi',
+      en: 'Industrial manufacturing and material science knowledge',
+      ar: 'معرفة التصنيع الصناعي وعلوم المواد',
+      ru: 'Знания в области промышленного производства и материаловедения',
+      fr: 'Connaissances en fabrication industrielle et science des matériaux',
+    }[locale] || 'Industrial manufacturing knowledge',
   }
 }
 

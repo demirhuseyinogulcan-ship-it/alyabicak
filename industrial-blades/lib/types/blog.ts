@@ -17,6 +17,7 @@ export interface BlogPost {
   readingTime: number // dakika
   featured?: boolean
   seo?: BlogSEO
+  faq?: { question: string; answer: string }[]
 }
 
 export interface BlogAuthor {

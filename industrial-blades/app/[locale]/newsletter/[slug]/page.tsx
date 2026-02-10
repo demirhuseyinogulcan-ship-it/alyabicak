@@ -10,7 +10,7 @@ import { Calendar, Clock, ArrowLeft, Share2, Tag, ChevronRight } from 'lucide-re
 import { blogService } from '@/lib/data/blog'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
-import { generateArticleSchema, generateBreadcrumbSchema } from '@/lib/seo'
+import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo'
 
 interface PageProps {
   params: Promise<{ locale: Locale; slug: string }>
@@ -111,6 +111,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   // Schema.org Article
   const articleSchema = generateArticleSchema(post, locale as SupportedLocale, dict.blog.author.name)
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale as SupportedLocale)
+  const faqSchema = post.faq && post.faq.length > 0 ? generateFAQSchema(post.faq) : null
 
   // Format date based on locale
   const formatDate = (dateStr: string) => {
@@ -202,6 +203,12 @@ export default async function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <article className="min-h-screen bg-steel-50">
         {/* Hero Section */}

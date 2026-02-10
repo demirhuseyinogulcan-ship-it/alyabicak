@@ -26,6 +26,7 @@ interface LocalizedBlogContent {
     keywords?: string[]
     focusKeyword?: string
   }
+  faq?: { question: string; answer: string }[]
 }
 
 interface LocalizedBlogPost {
@@ -70,9 +71,9 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
     tags: {
       tr: ['tungsten karbür', 'HSS', 'film dilme bıçağı', 'seramik kaplama', 'endüstriyel bıçak', 'malzeme seçimi'],
       en: ['tungsten carbide', 'HSS', 'film slitting blade', 'ceramic coating', 'industrial blade', 'material selection'],
-      ar: ['كربيد التنغستن', 'HSS', 'شفرة تقطيع الأفلام', 'طلاء سيراميك', 'اختيار المواد'],
-      ru: ['карбид вольфрама', 'HSS', 'лезвие для резки плёнки', 'керамическое покрытие', 'выбор материала'],
-      fr: ['carbure de tungstène', 'HSS', 'lame de refendage', 'revêtement céramique', 'sélection de matériaux'],
+      ar: ['كربيد التنغستن', 'HSS', 'شفرة تقطيع الأفلام', 'طلاء سيراميك', 'شفرة صناعية', 'اختيار المواد'],
+      ru: ['карбид вольфрама', 'HSS', 'лезвие для резки плёнки', 'керамическое покрытие', 'промышленное лезвие', 'выбор материала'],
+      fr: ['carbure de tungstène', 'HSS', 'lame de refendage', 'revêtement céramique', 'lame industrielle', 'sélection de matériaux'],
     },
     publishedAt: '2025-06-15',
     readingTime: 12,
@@ -290,6 +291,13 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         keywords: ['tungsten karbür bıçak', 'HSS bıçak', 'film dilme bıçağı', 'seramik kaplama bıçak', 'endüstriyel dilme bıçağı', 'bıçak malzeme seçimi', 'TCO analizi bıçak'],
         focusKeyword: 'tungsten karbür HSS karşılaştırma',
       },
+      faq: [
+        { question: 'Tungsten karbür bıçak mı yoksa HSS bıçak mı daha uzun ömürlüdür?', answer: 'Tungsten karbür bıçaklar HSS’e kıyasla yaklaşık 16 kat daha uzun ömür sunar (~1.200 km vs ~75 km). Ancak seramik kaplamalı HSS, ~300 km ile ikisi arasında maliyet-etkin bir alternatif sağlar.' },
+        { question: 'Film dilme bıçağında malzeme seçimi üretim maliyetini nasıl etkiler?', answer: 'Bıçak malzemesi, birim kesim maliyetini doğrudan belirler. Tungsten karbür yüksek başlangıç yatırımına rağmen (~4× HSS), uzun ömrü sayesinde birim kesim maliyetinde ~0,25× oranıyla en düşük değeri sunar.' },
+        { question: 'Seramik kaplamalı HSS bıçak hangi uygulamalarda tercih edilmelidir?', answer: 'PE streç film, nonwoven kumaş ve laminat gibi yapışkan veya darbe yükü olan uygulamalarda ideal bir seçimdir. HSS’nin tokluğunu korurken aşınma direncini 3-4 kat artırır.' },
+        { question: 'Tungsten karbür bıçaklar saha koşullarında bilenebilir mi?', answer: 'Hayır, tungsten karbür bıçakların bilenmesi için özel elmas taşlama tezgâhı gerekir. Bu, HSS’nin önemli bir avantajıdır — HSS saha koşullarında elmas diskle kolayca bilenebilir.' },
+        { question: 'BOPP film dilmede hangi bıçak malzemesi önerilir?', answer: 'İnce BOPP ve BOPET filmler için tungsten karbür önerilir. Mikron hassasiyetinde kesici kenar ve üstün aşınma direnciyle en uzun ömür ve en düşük birim maliyet sağlar.' },
+      ],
     },
 
     // ─── English ───
@@ -504,17 +512,25 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         keywords: ['tungsten carbide blade', 'HSS blade', 'film slitting blade', 'ceramic coated blade', 'industrial slitting blade', 'blade material selection', 'TCO analysis blade'],
         focusKeyword: 'tungsten carbide HSS comparison',
       },
+      faq: [
+        { question: 'Which lasts longer: tungsten carbide or HSS slitting blades?', answer: 'Tungsten carbide blades last approximately 16 times longer than HSS (~1,200 km vs ~75 km). However, ceramic-coated HSS provides a cost-effective middle ground at ~300 km lifespan.' },
+        { question: 'How does blade material affect total production cost in film slitting?', answer: 'Blade material directly determines unit cutting cost. Despite higher initial investment (~4× HSS), tungsten carbide delivers the lowest unit cutting cost at ~0.25× baseline due to its extended lifespan.' },
+        { question: 'When should ceramic-coated HSS blades be used?', answer: 'Ceramic-coated HSS is ideal for PE stretch film, nonwoven fabric, and laminate applications where adhesion or impact loads are present. It retains HSS toughness while improving wear resistance 3-4×.' },
+        { question: 'Can tungsten carbide blades be resharpened in the field?', answer: 'No, tungsten carbide blades require specialized diamond grinding equipment. This is a key advantage of HSS — HSS blades can be easily resharpened on-site with diamond wheels.' },
+        { question: 'What blade material is recommended for BOPP film slitting?', answer: 'Tungsten carbide is recommended for thin BOPP and BOPET films. Its micron-precision cutting edge and superior wear resistance deliver the longest lifespan and lowest unit cost.' },
+      ],
     },
 
     // ─── العربية ───
     ar: {
       title: 'كربيد التنغستن أم HSS؟ اختيار مادة الشفرة المناسبة لتقطيع الأفلام',
-      excerpt: 'يؤثر اختيار مادة الشفرة في خطوط تقطيع الأفلام والرقائق مباشرة على كفاءة الإنتاج. نقارن بين HSS وكربيد التنغستن ببيانات هندسية وتحليل التكلفة الإجمالية.',
+      excerpt: 'يؤثر اختيار مادة الشفرة في خطوط تقطيع الأفلام والرقائق مباشرة على كفاءة الإنتاج. نقارن بين HSS وكربيد التنغستن ببيانات هندسية وتحليل التكلفة الإجمالية وتوصيات حسب التطبيق.',
       content: `
         <p class="lead">
           في خطوط تقطيع الأفلام والرقائق، يعد اختيار الشفرة قراراً هندسياً حاسماً يؤثر مباشرة على كفاءة الإنتاج.
           يقدم السوق خيارات مواد متعددة: الفولاذ الكربوني، الفولاذ المطلي بـ TiN، الفولاذ عالي السرعة (HSS)، وكربيد التنغستن (WC).
           لكن في التطبيقات عالية الأداء، ينحصر السباق عادة بين مادتين: <strong>HSS</strong> و<strong>كربيد التنغستن</strong>.
+          في هذا المقال، نقارن بين المادتين بالبيانات الهندسية ونوضح كيفية اتخاذ القرار الأمثل لخط إنتاجك.
         </p>
 
         <h2>القسم 1: التعرف على المواد</h2>
@@ -522,92 +538,207 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <h3>الفولاذ عالي السرعة (HSS)</h3>
         <p>
           HSS هو فولاذ أدوات يحتوي على عناصر سبائكية مثل التنغستن والموليبدينوم والفاناديوم والكروم.
-          قدرته على الاحتفاظ بالصلابة في درجات الحرارة العالية تميزه عن الفولاذ الكربوني التقليدي.
+          قدرته على الاحتفاظ بالصلابة في درجات الحرارة العالية ("الصلابة الحمراء") تميزه عن الفولاذ الكربوني التقليدي.
         </p>
         <ul>
-          <li><strong>الصلابة:</strong> 62-65 HRC</li>
+          <li><strong>الصلابة:</strong> 62-65 HRC (قابلة للتعديل بالمعالجة الحرارية)</li>
           <li><strong>المتانة:</strong> عالية — مقاومة لأحمال الصدمات</li>
-          <li><strong>إعادة الشحذ:</strong> يمكن إعادة شحذها ميدانياً</li>
+          <li><strong>إعادة الشحذ:</strong> يمكن إعادة شحذها ميدانياً بأقراص ألماسية</li>
           <li><strong>التكلفة:</strong> أقل بـ 3-4 مرات من كربيد التنغستن</li>
         </ul>
 
         <h3>كربيد التنغستن (WC-Co)</h3>
         <p>
           يتكون كربيد التنغستن من حبيبات WC ملبدة في مصفوفة رابطة من الكوبالت.
-          يُعرف بقيم صلابة تقترب من الماس (HRA 89-93).
+          يُعرف بقيم صلابة تقترب من الماس (HRA 89-93 / HV 1300-1800).
+          يوفر مقاومة فائقة للتآكل في تقطيع الأفلام، لكن هذا الأداء يأتي مع بعض التنازلات.
         </p>
         <ul>
           <li><strong>الصلابة:</strong> 89-93 HRA (حوالي ضعف HSS)</li>
-          <li><strong>المتانة:</strong> منخفضة — حساس للصدمات</li>
+          <li><strong>المتانة:</strong> منخفضة — حساس للصدمات والصدمات الحرارية</li>
           <li><strong>إعادة الشحذ:</strong> يتطلب معدات طحن ألماسية متخصصة</li>
           <li><strong>التكلفة:</strong> الاستثمار الأولي 4-5 أضعاف HSS</li>
         </ul>
 
+        <h2>القسم 2: مقارنة أداء القطع</h2>
+        <p>
+          لا يكفي مقياس واحد لتقييم الأداء. ستة معايير رئيسية تحدد فعالية شفرة تقطيع الأفلام:
+        </p>
+        <ol>
+          <li><strong>الصلابة</strong> — مقاومة حافة القطع للتشوه البلاستيكي</li>
+          <li><strong>المتانة</strong> — مقاومة الكسر وانتشار الشقوق</li>
+          <li><strong>مقاومة التآكل</strong> — العمر ضد التآكل الكاشط واللاصق</li>
+          <li><strong>ميزة التكلفة</strong> — تكلفة القطع لكل وحدة</li>
+          <li><strong>سهولة الشحذ</strong> — العملية في الصيانة الميدانية</li>
+          <li><strong>المقاومة الحرارية</strong> — الأداء تحت الحرارة الناتجة عن الاحتكاك</li>
+        </ol>
+
         <!-- BLADE_COMPARISON_CHART -->
 
-        <h2>القسم 2: تحليل التكلفة الإجمالية للملكية</h2>
+        <p>
+          يُظهر الرسم البياني بوضوح: <strong>كربيد التنغستن</strong> يتصدر بلا منازع في الصلابة ومقاومة التآكل.
+          لكن <strong>HSS</strong> يتفوق بشكل واضح في المتانة وميزة التكلفة وسهولة الشحذ.
+        </p>
+
+        <h2>القسم 3: تحليل التكلفة الإجمالية للملكية (TCO)</h2>
+        <p>
+          النظر فقط إلى سعر الوحدة عند اختيار الشفرات قد يكون مضللاً.
+          التكلفة الحقيقية تُقاس بالقيمة التي تُنتجها الشفرة على مدار عمرها الكلي:
+        </p>
         <blockquote>
           <p><strong>تكلفة القطع لكل وحدة = سعر الشفرة ÷ إجمالي مسافة القطع (كم)</strong></p>
         </blockquote>
+        <p><em>يستخدم الجدول أدناه HSS كخط أساس للنسب التكلفية:</em></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>المادة</th>
+              <th>نسبة التكلفة</th>
+              <th>متوسط العمر</th>
+              <th>تكلفة القطع لكل وحدة</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HSS بدون طلاء</td>
+              <td>1× (أساس)</td>
+              <td>~75 كم</td>
+              <td>1× (أساس)</td>
+            </tr>
+            <tr>
+              <td>HSS بطلاء سيراميك</td>
+              <td>~1.8×</td>
+              <td>~300 كم</td>
+              <td>~0.45×</td>
+            </tr>
+            <tr>
+              <td>كربيد التنغستن</td>
+              <td>~4×</td>
+              <td>~1,200 كم</td>
+              <td>~0.25×</td>
+            </tr>
+          </tbody>
+        </table>
 
         <!-- BLADE_COST_CHART -->
 
-        <h2>القسم 3: الطريق الثالث — HSS المطلي بالسيراميك</h2>
+        <h2>القسم 4: الطريق الثالث — HSS المطلي بالسيراميك</h2>
         <p>
+          ليس الاختيار دائماً ثنائياً بين HSS وكربيد التنغستن.
           تقدم Alya <strong>شفرات HSS مطلية بالسيراميك</strong> تحقق توازناً ذهبياً:
         </p>
         <ul>
           <li>تحتفظ بمتانة HSS ومزايا إعادة الشحذ</li>
-          <li>يرفع الطلاء السيراميكي صلابة السطح إلى ~3,200 HV</li>
+          <li>يرفع الطلاء السيراميكي صلابة السطح إلى ~3,200 HV (طبقة الطلاء)</li>
           <li>يحسن مقاومة التآكل بمقدار 3-4 أضعاف</li>
+          <li>يقدم قيمة مماثلة لكل كيلومتر بنصف تكلفة كربيد التنغستن تقريباً</li>
         </ul>
+
+        <h2>القسم 5: أي مادة لأي تطبيق؟</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>التطبيق</th>
+              <th>المادة الموصى بها</th>
+              <th>السبب</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>أفلام BOPP/BOPET الرقيقة</td>
+              <td>كربيد التنغستن</td>
+              <td>حافة بدقة الميكرون، عمر طويل</td>
+            </tr>
+            <tr>
+              <td>فيلم PE المطاطي</td>
+              <td>HSS بطلاء سيراميك</td>
+              <td>احتكاك منخفض ضد المواد اللاصقة</td>
+            </tr>
+            <tr>
+              <td>رقائق الألومنيوم</td>
+              <td>كربيد التنغستن</td>
+              <td>مقاومة فائقة للتآكل الكاشط</td>
+            </tr>
+            <tr>
+              <td>الورق والكرتون</td>
+              <td>HSS</td>
+              <td>توازن التكلفة والأداء، سهولة الشحذ</td>
+            </tr>
+            <tr>
+              <td>الأقمشة غير المنسوجة</td>
+              <td>HSS بطلاء سيراميك</td>
+              <td>تقليل التصاق الألياف، إطالة العمر</td>
+            </tr>
+            <tr>
+              <td>الأفلام المتعددة الطبقات</td>
+              <td>HSS بطلاء سيراميك</td>
+              <td>توازن مقاومة الصدمات والتآكل</td>
+            </tr>
+          </tbody>
+        </table>
 
         <h2>الخلاصة</h2>
         <p>
+          لا توجد إجابة واحدة لسؤال "ما هي أفضل مادة للشفرة؟"
+          الإجابة الصحيحة تعتمد على ظروف خط التقطيع والمادة المقطوعة وسرعة الإنتاج وقدرة الصيانة.
+        </p>
+        <p>
           <strong>كربيد التنغستن</strong> يقدم أقل تكلفة وحدة للسلاسل الطويلة والمواد الكاشطة.
-          <strong>HSS</strong> لا مثيل له في التطبيقات التي تتطلب المتانة.
-          <strong>HSS المطلي بالسيراميك</strong> يمثل الحل الوسط الذهبي.
+          <strong>HSS</strong> لا مثيل له في التطبيقات التي تتطلب المتانة والمرونة.
+          <strong>HSS المطلي بالسيراميك</strong> يمثل "الحل الوسط الذهبي" الذي يجمع مزايا الاثنين.
+        </p>
+        <p>
+          يقوم فريق Alya الهندسي بتحليل ظروف خطك لتقديم أفضل توصية للمادة والهندسة.
           <em>تواصل معنا للاستشارة.</em>
         </p>
 
         <hr />
         <h3>المراجع</h3>
         <ol>
-          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em></li>
-          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed.</li>
-          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides.</em></li>
-          <li>Roberts, G. et al. (1998). <em>Tool Steels.</em> 5th ed.</li>
-          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em></li>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em> Metal Powder Industries Federation.</li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed. Butterworth-Heinemann.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides: Production, Properties, and Testing.</em> Noyes Publications.</li>
+          <li>Roberts, G., Krauss, G. &amp; Kennedy, R. (1998). <em>Tool Steels.</em> 5th ed. ASM International.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em> Springer.</li>
         </ol>
       `,
       seo: {
-        title: 'كربيد التنغستن أم HSS؟ مقارنة مواد شفرات تقطيع الأفلام | Alya',
-        description: 'مقارنة كربيد التنغستن و HSS لشفرات تقطيع الأفلام. تحليل التكلفة الإجمالية ودليل اختيار المواد.',
-        keywords: ['كربيد التنغستن', 'شفرة HSS', 'تقطيع الأفلام', 'طلاء سيراميك'],
+        title: 'كربيد التنغستن أم HSS؟ مقارنة مواد شفرات تقطيع الأفلام | Alya Blade',
+        description: 'مقارنة شاملة بين كربيد التنغستن و HSS لشفرات تقطيع الأفلام والرقائق. تحليل التكلفة الإجمالية للملكية (TCO) ودليل اختيار المواد حسب التطبيق.',
+        keywords: ['كربيد التنغستن', 'شفرة HSS', 'تقطيع الأفلام', 'طلاء سيراميك', 'شفرة صناعية', 'اختيار مادة الشفرة', 'تحليل TCO'],
         focusKeyword: 'كربيد التنغستن مقابل HSS',
       },
+      faq: [
+        { question: 'أيهما أطول عمراً: شفرات كربيد التنغستن أم HSS؟', answer: 'تدوم شفرات كربيد التنغستن حوالي 16 مرة أطول من HSS (~1,200 كم مقابل ~75 كم). لكن HSS المطلي بالسيراميك يوفر بديلاً فعالاً من حيث التكلفة بعمر ~300 كم.' },
+        { question: 'كيف يؤثر اختيار مادة الشفرة على تكلفة الإنتاج؟', answer: 'تحدد مادة الشفرة تكلفة القطع لكل وحدة مباشرة. رغم الاستثمار الأولي الأعلى (~4× HSS)، يقدم كربيد التنغستن أقل تكلفة وحدة (~0.25×) بفضل عمره الطويل.' },
+        { question: 'متى يجب استخدام شفرات HSS المطلية بالسيراميك؟', answer: 'HSS المطلي بالسيراميك مثالي لأفلام PE المطاطية والأقمشة غير المنسوجة والأفلام المتعددة الطبقات. يحتفظ بمتانة HSS ويحسن مقاومة التآكل 3-4 أضعاف.' },
+        { question: 'هل يمكن إعادة شحذ شفرات كربيد التنغستن ميدانياً؟', answer: 'لا، تتطلب شفرات كربيد التنغستن معدات طحن ألماسية متخصصة. هذا ميزة رئيسية لـ HSS — يمكن إعادة شحذها بسهولة في الموقع.' },
+        { question: 'ما المادة الموصى بها لتقطيع أفلام BOPP؟', answer: 'يُوصى بكربيد التنغستن لأفلام BOPP وBOPET الرقيقة. حافته بدقة الميكرون توفر أطول عمر وأقل تكلفة وحدة.' },
+      ],
     },
 
     // ─── Русский ───
     ru: {
       title: 'Карбид вольфрама или HSS? Выбор материала лезвия для резки плёнки',
-      excerpt: 'Выбор материала лезвия на линиях продольной резки плёнки и фольги напрямую влияет на эффективность производства. Сравниваем HSS и карбид вольфрама с инженерными данными и анализом TCO.',
+      excerpt: 'Выбор материала лезвия на линиях продольной резки плёнки и фольги напрямую влияет на эффективность производства. Сравниваем HSS и карбид вольфрама с инженерными данными, анализом TCO и рекомендациями по применению.',
       content: `
         <p class="lead">
           На линиях продольной резки плёнки и фольги выбор лезвия — критическое инженерное решение, напрямую влияющее на эффективность производства.
           На рынке представлены различные материалы: углеродистая сталь, сталь с покрытием TiN, быстрорежущая сталь (HSS) и карбид вольфрама (WC).
           Но для высокопроизводительных приложений выбор обычно сужается до двух: <strong>HSS</strong> и <strong>карбид вольфрама</strong>.
+          В этой статье мы сравниваем оба материала с помощью инженерных данных и объясняем, как сделать оптимальный выбор для вашего производства.
         </p>
 
         <h2>Раздел 1: Знакомство с материалами</h2>
 
         <h3>Быстрорежущая сталь (HSS)</h3>
         <p>
-          HSS — инструментальная сталь, содержащая легирующие элементы: вольфрам, молибден, ванадий и хром.
-          Способность сохранять твёрдость при повышенных температурах отличает её от обычных углеродистых сталей.
+          HSS — инструментальная сталь, содержащая легирующие элементы: вольфрам (W), молибден (Mo), ванадий (V) и хром (Cr).
+          Способность сохранять твёрдость при повышенных температурах («красностойкость») отличает её от обычных углеродистых сталей.
         </p>
         <ul>
-          <li><strong>Твёрдость:</strong> 62-65 HRC</li>
+          <li><strong>Твёрдость:</strong> 62-65 HRC (регулируется термообработкой)</li>
           <li><strong>Вязкость:</strong> Высокая — устойчивость к ударным нагрузкам</li>
           <li><strong>Заточка:</strong> Возможна в полевых условиях алмазными кругами</li>
           <li><strong>Стоимость:</strong> в 3-4 раза дешевле карбида вольфрама</li>
@@ -617,6 +748,7 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <p>
           Карбид вольфрама состоит из зёрен WC, спечённых в кобальтовой связующей матрице.
           Известен значениями твёрдости, приближающимися к алмазу (HRA 89-93 / HV 1300-1800).
+          Обеспечивает исключительную износостойкость при резке плёнки и фольги, но за эту производительность приходится платить.
         </p>
         <ul>
           <li><strong>Твёрдость:</strong> 89-93 HRA (примерно в 2 раза выше HSS)</li>
@@ -625,71 +757,185 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
           <li><strong>Стоимость:</strong> Начальные инвестиции в 4-5 раз выше HSS</li>
         </ul>
 
+        <h2>Раздел 2: Сравнение производительности резки</h2>
+        <p>
+          Одного показателя недостаточно для оценки. Шесть ключевых параметров определяют эффективность лезвия:
+        </p>
+        <ol>
+          <li><strong>Твёрдость</strong> — Сопротивление режущей кромки пластической деформации</li>
+          <li><strong>Вязкость</strong> — Сопротивление разрушению и распространению трещин</li>
+          <li><strong>Износостойкость</strong> — Срок службы при абразивном и адгезионном износе</li>
+          <li><strong>Преимущество по стоимости</strong> — Удельная стоимость резки</li>
+          <li><strong>Простота заточки</strong> — Практичность полевого обслуживания</li>
+          <li><strong>Термостойкость</strong> — Производительность при нагреве от трения</li>
+        </ol>
+
         <!-- BLADE_COMPARISON_CHART -->
 
-        <h2>Раздел 2: Анализ совокупной стоимости владения</h2>
+        <p>
+          Диаграмма наглядно показывает: <strong>карбид вольфрама</strong> бесспорно лидирует по твёрдости и износостойкости.
+          Однако <strong>HSS</strong> демонстрирует явное преимущество по вязкости, стоимости и простоте заточки.
+        </p>
+
+        <h2>Раздел 3: Анализ совокупной стоимости владения (TCO)</h2>
+        <p>
+          Ориентация только на цену за единицу при выборе лезвий может быть обманчивой.
+          Реальная стоимость измеряется ценностью, которую лезвие создаёт за весь срок службы:
+        </p>
         <blockquote>
           <p><strong>Удельная стоимость резки = Цена лезвия ÷ Общая дистанция резки (км)</strong></p>
         </blockquote>
+        <p><em>В таблице ниже HSS используется как базовый уровень для относительных коэффициентов:</em></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Материал</th>
+              <th>Коэффициент стоимости</th>
+              <th>Средний ресурс</th>
+              <th>Удельная стоимость резки</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HSS без покрытия</td>
+              <td>1× (базовый)</td>
+              <td>~75 км</td>
+              <td>1× (базовый)</td>
+            </tr>
+            <tr>
+              <td>HSS с керамическим покрытием</td>
+              <td>~1,8×</td>
+              <td>~300 км</td>
+              <td>~0,45×</td>
+            </tr>
+            <tr>
+              <td>Карбид вольфрама</td>
+              <td>~4×</td>
+              <td>~1 200 км</td>
+              <td>~0,25×</td>
+            </tr>
+          </tbody>
+        </table>
 
         <!-- BLADE_COST_CHART -->
 
-        <h2>Раздел 3: Третий путь — HSS с керамическим покрытием</h2>
+        <h2>Раздел 4: Третий путь — HSS с керамическим покрытием</h2>
         <p>
+          Выбор не всегда сводится к «или HSS, или карбид вольфрама».
           Alya предлагает <strong>лезвия HSS с керамическим покрытием</strong>, обеспечивающие золотой баланс:
         </p>
         <ul>
           <li>Сохраняет вязкость HSS и преимущества повторной заточки</li>
-          <li>Керамическое покрытие повышает поверхностную твёрдость до ~3 200 HV</li>
+          <li>Керамическое покрытие повышает поверхностную твёрдость до ~3 200 HV (слой покрытия)</li>
           <li>Улучшает износостойкость в 3-4 раза</li>
+          <li>Обеспечивает сопоставимую стоимость на км при примерно вдвое меньших затратах, чем карбид</li>
         </ul>
+
+        <h2>Раздел 5: Какой материал для какого применения?</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Применение</th>
+              <th>Рекомендуемый материал</th>
+              <th>Почему?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Тонкая плёнка BOPP/BOPET</td>
+              <td>Карбид вольфрама</td>
+              <td>Микронная точность кромки, длительный ресурс</td>
+            </tr>
+            <tr>
+              <td>Стретч-плёнка PE</td>
+              <td>HSS с керамическим покрытием</td>
+              <td>Низкое трение против липких материалов</td>
+            </tr>
+            <tr>
+              <td>Алюминиевая фольга</td>
+              <td>Карбид вольфрама</td>
+              <td>Превосходная стойкость к абразивному износу</td>
+            </tr>
+            <tr>
+              <td>Бумага и картон</td>
+              <td>HSS</td>
+              <td>Баланс цена-качество, лёгкая заточка</td>
+            </tr>
+            <tr>
+              <td>Нетканое полотно</td>
+              <td>HSS с керамическим покрытием</td>
+              <td>Снижение налипания волокон, увеличение ресурса</td>
+            </tr>
+            <tr>
+              <td>Ламинат/многослойная плёнка</td>
+              <td>HSS с керамическим покрытием</td>
+              <td>Баланс ударопрочности и износостойкости</td>
+            </tr>
+          </tbody>
+        </table>
 
         <h2>Заключение</h2>
         <p>
+          На вопрос «какой материал лезвия лучший?» нет единого ответа.
+          Правильный ответ зависит от условий вашей линии, разрезаемого материала, скорости производства и возможностей обслуживания.
+        </p>
+        <p>
           <strong>Карбид вольфрама</strong> по-прежнему обеспечивает наименьшую удельную стоимость для длинных серий и абразивных материалов.
           <strong>HSS</strong> не имеет аналогов для приложений, требующих вязкости и гибкости.
-          <strong>HSS с керамическим покрытием</strong> представляет золотую середину.
+          <strong>HSS с керамическим покрытием</strong> представляет «золотую середину», объединяющую преимущества обоих.
+        </p>
+        <p>
+          Инженерная команда Alya анализирует условия вашей линии и рекомендует оптимальный материал и геометрию.
           <em>Свяжитесь с нами для консультации.</em>
         </p>
 
         <hr />
         <h3>Источники</h3>
         <ol>
-          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em></li>
-          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed.</li>
-          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides.</em></li>
-          <li>Roberts, G. et al. (1998). <em>Tool Steels.</em> 5th ed.</li>
-          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em></li>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em> Metal Powder Industries Federation.</li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4th ed. Butterworth-Heinemann.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides: Production, Properties, and Testing.</em> Noyes Publications.</li>
+          <li>Roberts, G., Krauss, G. &amp; Kennedy, R. (1998). <em>Tool Steels.</em> 5th ed. ASM International.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em> Springer.</li>
         </ol>
       `,
       seo: {
-        title: 'Карбид вольфрама или HSS? Сравнение материалов для резки плёнки | Alya',
-        description: 'Сравнение карбида вольфрама и HSS для лезвий резки плёнки. Анализ TCO и руководство по выбору материалов.',
-        keywords: ['карбид вольфрама лезвие', 'HSS лезвие', 'резка плёнки', 'керамическое покрытие'],
+        title: 'Карбид вольфрама или HSS? Сравнение материалов лезвий для резки плёнки | Alya Blade',
+        description: 'Подробное сравнение карбида вольфрама и HSS для лезвий продольной резки плёнки и фольги. Анализ совокупной стоимости владения (TCO), радарные диаграммы и руководство по выбору материалов.',
+        keywords: ['карбид вольфрама лезвие', 'HSS лезвие', 'резка плёнки', 'керамическое покрытие', 'промышленное лезвие', 'выбор материала лезвия', 'анализ TCO'],
         focusKeyword: 'карбид вольфрама против HSS',
       },
+      faq: [
+        { question: 'Что служит дольше: лезвия из карбида вольфрама или HSS?', answer: 'Лезвия из карбида вольфрама служат примерно в 16 раз дольше HSS (~1 200 км против ~75 км). Однако HSS с керамическим покрытием предлагает экономичную альтернативу с ресурсом ~300 км.' },
+        { question: 'Как материал лезвия влияет на себестоимость производства?', answer: 'Материал лезвия напрямую определяет удельную стоимость резки. Несмотря на более высокие начальные инвестиции (~4× HSS), карбид вольфрама обеспечивает наименьшую удельную стоимость (~0,25×) благодаря длительному сроку службы.' },
+        { question: 'Когда следует использовать лезвия HSS с керамическим покрытием?', answer: 'HSS с керамическим покрытием идеален для стретч-плёнки PE, нетканого полотна и ламината. Он сохраняет вязкость HSS, улучшая износостойкость в 3-4 раза.' },
+        { question: 'Можно ли заточить лезвия из карбида вольфрама в полевых условиях?', answer: 'Нет, лезвия из карбида вольфрама требуют специализированного алмазного шлифовального оборудования. Это ключевое преимущество HSS — легко затачивается на месте.' },
+        { question: 'Какой материал лезвия рекомендуется для резки плёнки BOPP?', answer: 'Для тонких плёнок BOPP и BOPET рекомендуется карбид вольфрама. Микронная точность кромки обеспечивает максимальный ресурс и минимальную удельную стоимость.' },
+      ],
     },
 
     // ─── Français ───
     fr: {
       title: 'Carbure de Tungstène ou HSS ? Choisir le Bon Matériau pour le Refendage de Film',
-      excerpt: 'Le choix du matériau de lame dans les lignes de refendage de films et feuilles impacte directement l\'efficacité de production. Nous comparons HSS et carbure de tungstène avec des données d\'ingénierie et une analyse TCO.',
+      excerpt: 'Le choix du matériau de lame dans les lignes de refendage de films et feuilles impacte directement l\'efficacité de production. Nous comparons HSS et carbure de tungstène avec des données d\'ingénierie, une analyse TCO et des recommandations par application.',
       content: `
         <p class="lead">
           Dans les lignes de refendage de films et feuilles, le choix de la lame est une décision d'ingénierie critique qui impacte directement l'efficacité de production.
           Le marché offre plusieurs options : acier au carbone, acier revêtu TiN, acier rapide (HSS) et carbure de tungstène (WC).
           Mais pour les applications haute performance, la course se réduit généralement à deux matériaux : <strong>HSS</strong> et <strong>carbure de tungstène</strong>.
+          Dans cet article, nous comparons les deux matériaux avec des données d'ingénierie et expliquons comment faire le choix optimal pour votre exploitation.
         </p>
 
         <h2>Section 1 : Comprendre les Matériaux</h2>
 
         <h3>Acier Rapide (HSS)</h3>
         <p>
-          Le HSS est un acier à outils contenant des éléments d'alliage tels que le tungstène, le molybdène, le vanadium et le chrome.
-          Sa capacité à conserver sa dureté à haute température le distingue des aciers au carbone conventionnels.
+          Le HSS est un acier à outils contenant des éléments d'alliage tels que le tungstène (W), le molybdène (Mo), le vanadium (V) et le chrome (Cr).
+          Sa capacité à conserver sa dureté à haute température (« dureté au rouge ») le distingue des aciers au carbone conventionnels.
         </p>
         <ul>
-          <li><strong>Dureté :</strong> 62-65 HRC</li>
+          <li><strong>Dureté :</strong> 62-65 HRC (ajustable par traitement thermique)</li>
           <li><strong>Ténacité :</strong> Élevée — résistante aux charges d'impact</li>
           <li><strong>Réaffûtage :</strong> Réaffûtable sur site avec des meules diamantées</li>
           <li><strong>Coût :</strong> 3-4× plus abordable que le carbure de tungstène</li>
@@ -698,58 +944,172 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
         <h3>Carbure de Tungstène (WC-Co)</h3>
         <p>
           Le carbure de tungstène se compose de grains de WC frittés dans une matrice liante de cobalt.
-          Connu pour des valeurs de dureté proches du diamant (HRA 89-93 / HV 1300-1800).
+          Connu pour des valeurs de dureté proches du diamant (HRA 89-93 / HV 1300-1800),
+          il offre une résistance à l'usure exceptionnelle dans le refendage de films — bien que cette performance implique certains compromis.
         </p>
         <ul>
           <li><strong>Dureté :</strong> 89-93 HRA (environ 2× celle du HSS)</li>
-          <li><strong>Ténacité :</strong> Faible — sensible aux chocs</li>
+          <li><strong>Ténacité :</strong> Faible — sensible aux chocs et aux chocs thermiques</li>
           <li><strong>Réaffûtage :</strong> Nécessite un équipement de meulage diamanté spécialisé</li>
           <li><strong>Coût :</strong> Investissement initial 4-5× celui du HSS</li>
         </ul>
 
+        <h2>Section 2 : Comparaison des Performances de Coupe</h2>
+        <p>
+          Un seul indicateur ne suffit pas pour évaluer la performance. Six paramètres clés déterminent l'efficacité d'une lame de refendage :
+        </p>
+        <ol>
+          <li><strong>Dureté</strong> — Résistance de l'arête de coupe à la déformation plastique</li>
+          <li><strong>Ténacité</strong> — Résistance à la rupture et à la propagation des fissures</li>
+          <li><strong>Résistance à l'usure</strong> — Durée de vie face à l'usure abrasive et adhésive</li>
+          <li><strong>Avantage coût</strong> — Coût unitaire de coupe</li>
+          <li><strong>Facilité d'affûtage</strong> — Praticité pour la maintenance sur le terrain</li>
+          <li><strong>Résistance thermique</strong> — Performance sous la chaleur de friction</li>
+        </ol>
+
         <!-- BLADE_COMPARISON_CHART -->
 
-        <h2>Section 2 : Analyse du Coût Total de Possession</h2>
+        <p>
+          Le graphique montre clairement : le <strong>carbure de tungstène</strong> domine en dureté et résistance à l'usure.
+          Cependant, le <strong>HSS</strong> offre un avantage net en ténacité, coût et facilité d'affûtage.
+        </p>
+
+        <h2>Section 3 : Analyse du Coût Total de Possession (TCO)</h2>
+        <p>
+          Se fier uniquement au prix unitaire pour choisir ses lames peut être trompeur.
+          Le vrai coût se mesure par la valeur créée par la lame sur toute sa durée de vie :
+        </p>
         <blockquote>
           <p><strong>Coût Unitaire de Coupe = Prix de la Lame ÷ Distance Totale de Coupe (km)</strong></p>
         </blockquote>
+        <p><em>Le tableau ci-dessous utilise le HSS comme référence pour les ratios de coût relatifs :</em></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Matériau</th>
+              <th>Ratio de coût</th>
+              <th>Durée de vie moyenne</th>
+              <th>Coût unitaire de coupe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HSS sans revêtement</td>
+              <td>1× (base)</td>
+              <td>~75 km</td>
+              <td>1× (base)</td>
+            </tr>
+            <tr>
+              <td>HSS revêtu céramique</td>
+              <td>~1,8×</td>
+              <td>~300 km</td>
+              <td>~0,45×</td>
+            </tr>
+            <tr>
+              <td>Carbure de tungstène</td>
+              <td>~4×</td>
+              <td>~1 200 km</td>
+              <td>~0,25×</td>
+            </tr>
+          </tbody>
+        </table>
 
         <!-- BLADE_COST_CHART -->
 
-        <h2>Section 3 : La Troisième Voie — HSS Revêtu Céramique</h2>
+        <h2>Section 4 : La Troisième Voie — HSS Revêtu Céramique</h2>
         <p>
+          Le choix n'est pas toujours binaire entre HSS et carbure de tungstène.
           Alya propose des <strong>lames HSS revêtues céramique</strong> offrant un équilibre doré :
         </p>
         <ul>
           <li>Conserve la ténacité du HSS et les avantages de réaffûtage</li>
-          <li>Le revêtement céramique porte la dureté de surface à ~3 200 HV</li>
+          <li>Le revêtement céramique porte la dureté de surface à ~3 200 HV (couche de revêtement)</li>
           <li>Améliore la résistance à l'usure de 3-4×</li>
+          <li>Offre une valeur comparable par km à environ la moitié du coût du carbure</li>
         </ul>
+
+        <h2>Section 5 : Quel Matériau pour Quelle Application ?</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Application</th>
+              <th>Matériau recommandé</th>
+              <th>Pourquoi ?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Film mince BOPP/BOPET</td>
+              <td>Carbure de tungstène</td>
+              <td>Arête de précision micrométrique, longue durée</td>
+            </tr>
+            <tr>
+              <td>Film étirable PE</td>
+              <td>HSS revêtu céramique</td>
+              <td>Faible friction contre les matériaux adhésifs</td>
+            </tr>
+            <tr>
+              <td>Feuille d'aluminium</td>
+              <td>Carbure de tungstène</td>
+              <td>Résistance supérieure à l'usure abrasive</td>
+            </tr>
+            <tr>
+              <td>Papier et carton</td>
+              <td>HSS</td>
+              <td>Équilibre coût-performance, affûtage facile</td>
+            </tr>
+            <tr>
+              <td>Non-tissé</td>
+              <td>HSS revêtu céramique</td>
+              <td>Réduction de l'adhérence des fibres, durée prolongée</td>
+            </tr>
+            <tr>
+              <td>Laminé/film multicouche</td>
+              <td>HSS revêtu céramique</td>
+              <td>Équilibre résistance aux chocs et à l'usure</td>
+            </tr>
+          </tbody>
+        </table>
 
         <h2>Conclusion</h2>
         <p>
+          Il n'y a pas de réponse unique à « quel est le meilleur matériau de lame ? »
+          La bonne réponse dépend des conditions de votre ligne, du matériau découpé, de votre vitesse de production et de votre capacité de maintenance.
+        </p>
+        <p>
           <strong>Le carbure de tungstène</strong> offre toujours le coût unitaire le plus bas pour les longues séries et les matériaux abrasifs.
           <strong>Le HSS</strong> est inégalé pour les applications nécessitant ténacité et flexibilité.
-          <strong>Le HSS revêtu céramique</strong> représente le juste milieu doré.
+          <strong>Le HSS revêtu céramique</strong> représente le « juste milieu doré » combinant les avantages des deux.
+        </p>
+        <p>
+          L'équipe d'ingénierie Alya analyse les conditions spécifiques de votre ligne pour recommander le matériau et la géométrie optimaux.
           <em>Contactez-nous pour une consultation.</em>
         </p>
 
         <hr />
         <h3>Références</h3>
         <ol>
-          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em></li>
-          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4e éd.</li>
-          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides.</em></li>
-          <li>Roberts, G. et al. (1998). <em>Tool Steels.</em> 5e éd.</li>
-          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em></li>
+          <li>German, R.M. (2005). <em>Powder Metallurgy and Particulate Materials Processing.</em> Metal Powder Industries Federation.</li>
+          <li>Trent, E.M. &amp; Wright, P.K. (2000). <em>Metal Cutting.</em> 4e éd. Butterworth-Heinemann.</li>
+          <li>Upadhyaya, G.S. (1998). <em>Cemented Tungsten Carbides: Production, Properties, and Testing.</em> Noyes Publications.</li>
+          <li>Roberts, G., Krauss, G. &amp; Kennedy, R. (1998). <em>Tool Steels.</em> 5e éd. ASM International.</li>
+          <li>Klocke, F. (2011). <em>Manufacturing Processes 1: Cutting.</em> Springer.</li>
         </ol>
       `,
       seo: {
-        title: 'Carbure de Tungstène ou HSS ? Comparaison des Matériaux de Lames | Alya',
-        description: 'Comparaison carbure de tungstène vs HSS pour les lames de refendage. Analyse TCO et guide de sélection des matériaux par application.',
-        keywords: ['carbure de tungstène lame', 'lame HSS', 'refendage de film', 'revêtement céramique'],
+        title: 'Carbure de Tungstène ou HSS ? Comparaison des Matériaux de Lames de Refendage | Alya Blade',
+        description: 'Comparaison complète carbure de tungstène vs HSS pour les lames de refendage de films et feuilles. Analyse du coût total de possession (TCO), graphiques radar et guide de sélection des matériaux par application.',
+        keywords: ['carbure de tungstène lame', 'lame HSS', 'refendage de film', 'revêtement céramique', 'lame industrielle', 'sélection matériau lame', 'analyse TCO'],
         focusKeyword: 'carbure de tungstène vs HSS',
       },
+      faq: [
+        { question: 'Lequel dure plus longtemps : les lames en carbure de tungstène ou HSS ?', answer: 'Les lames en carbure de tungstène durent environ 16 fois plus longtemps que les HSS (~1 200 km contre ~75 km). Cependant, le HSS revêtu céramique offre une alternative rentable avec ~300 km de durée de vie.' },
+        { question: 'Comment le matériau de lame affecte-t-il le coût de production total ?', answer: 'Le matériau de lame détermine directement le coût unitaire de coupe. Malgré un investissement initial plus élevé (~4× HSS), le carbure de tungstène offre le coût unitaire le plus bas (~0,25×) grâce à sa durée de vie prolongée.' },
+        { question: 'Quand utiliser des lames HSS revêtues céramique ?', answer: 'Le HSS revêtu céramique est idéal pour les films étirables PE, les non-tissés et les laminés. Il conserve la ténacité du HSS tout en améliorant la résistance à l\'usure de 3-4×.' },
+        { question: 'Les lames en carbure de tungstène peuvent-elles être réaffûtées sur site ?', answer: 'Non, les lames en carbure de tungstène nécessitent un équipement de meulage diamanté spécialisé. C\'est un avantage clé du HSS — facilement réaffûtable sur site.' },
+        { question: 'Quel matériau est recommandé pour le refendage de films BOPP ?', answer: 'Le carbure de tungstène est recommandé pour les films BOPP et BOPET minces. Sa précision micrométrique offre la plus longue durée de vie et le coût unitaire le plus bas.' },
+      ],
     },
   },
 
@@ -1343,6 +1703,7 @@ function toLocalized(post: LocalizedBlogPost, locale: Locale): BlogPost {
     readingTime: post.readingTime,
     featured: post.featured,
     seo: content.seo,
+    faq: content.faq,
   }
 }
 
