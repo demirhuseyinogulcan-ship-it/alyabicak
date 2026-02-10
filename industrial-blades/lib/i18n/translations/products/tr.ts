@@ -15,6 +15,8 @@ export interface ProductTranslation {
   shortDescription?: string;
   features?: string[];
   applications?: string[];
+  benefits?: { title: string; description: string; icon?: string }[];
+  longDescription?: string;
   seo?: {
     title?: string;
     description?: string;

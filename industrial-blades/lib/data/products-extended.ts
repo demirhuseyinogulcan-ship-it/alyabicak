@@ -1981,6 +1981,15 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
 
   const translation = getProductTranslation(product.id, locale);
   if (translation) {
+    // Benefits çevirisi: icon'u orijinalden fallback al
+    const translatedBenefits = translation.benefits
+      ? translation.benefits.map((b, i) => ({
+          title: b.title,
+          description: b.description,
+          icon: b.icon || (product.benefits?.[i]?.icon) || 'CheckCircle2',
+        }))
+      : product.benefits;
+
     return {
       ...product,
       name: translation.name,
@@ -1989,6 +1998,8 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
       applications: translation.applications
         ? translation.applications.map(app => ({ title: app, description: '' }))
         : product.applications,
+      benefits: translatedBenefits,
+      longDescription: translation.longDescription || product.longDescription,
       specs: translatedSpecs || product.specs,
       // Alt text'i de güncelle (image SEO için)
       images: {
