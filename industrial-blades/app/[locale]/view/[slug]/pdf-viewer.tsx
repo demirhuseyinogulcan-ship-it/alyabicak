@@ -9,6 +9,15 @@ import 'react-pdf/dist/Page/TextLayer.css'
 // PDF.js worker - CDN üzerinden
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`
 
+// WASM decoder URL'leri — JPEG2000 (openjpeg) ve ICC renk profili (qcms) için gerekli
+const PDFJS_CDN_BASE = `//unpkg.com/pdfjs-dist@${pdfjs.version}`
+const PDF_DOCUMENT_OPTIONS = {
+    wasmUrl: `${PDFJS_CDN_BASE}/wasm/`,
+    cMapUrl: `${PDFJS_CDN_BASE}/cmaps/`,
+    cMapPacked: true,
+    standardFontDataUrl: `${PDFJS_CDN_BASE}/standard_fonts/`,
+}
+
 interface PDFViewerProps {
     src: string
     title: string
@@ -194,6 +203,7 @@ export function PDFViewer({ src, title, zoomInLabel = 'Yakınlaştır', zoomOutL
                 <Document
                     file={src}
                     onLoadSuccess={onDocumentLoadSuccess}
+                    options={PDF_DOCUMENT_OPTIONS}
                     loading={
                         <div className="flex items-center justify-center h-full min-h-[400px]">
                             <div className="flex flex-col items-center gap-3">
