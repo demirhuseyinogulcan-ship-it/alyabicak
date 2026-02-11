@@ -25,6 +25,70 @@ const DEFAULT_ZOOM_INDEX = 2 // 100%
 // Mobilde containerWidth zaten bu değerin altında olduğundan etkilenmez
 const MAX_BASE_WIDTH = 800
 
+// A4 aspect ratio (height / width) — placeholder sizing
+const A4_ASPECT_RATIO = 1.4142
+
+// ------------------------------------------------------------------
+// LazyPage — Intersection Observer ile sadece görünür sayfaları render eder
+// Edge & Opera'da canvas bellek limitlerini aşmayı önler
+// ------------------------------------------------------------------
+function LazyPage({
+    pageNumber,
+    width,
+    scrollRoot,
+}: {
+    pageNumber: number
+    width: number | undefined
+    scrollRoot: HTMLDivElement | null
+}) {
+    const placeholderRef = useRef<HTMLDivElement>(null)
+    const [isVisible, setIsVisible] = useState(false)
+
+    useEffect(() => {
+        const el = placeholderRef.current
+        if (!el) return
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsVisible(entry.isIntersecting)
+            },
+            {
+                // Scroll container'ı root olarak kullan
+                root: scrollRoot,
+                // Viewport'un 1 sayfa üstü ve altını önceden yükle
+                rootMargin: '800px 0px',
+                threshold: 0,
+            }
+        )
+
+        observer.observe(el)
+        return () => observer.disconnect()
+    }, [scrollRoot])
+
+    const placeholderHeight = width ? Math.round(width * A4_ASPECT_RATIO) : 600
+
+    return (
+        <div ref={placeholderRef} style={{ minHeight: placeholderHeight }}>
+            {isVisible ? (
+                <Page
+                    pageNumber={pageNumber}
+                    width={width}
+                    className="shadow-lg"
+                    renderTextLayer={true}
+                    renderAnnotationLayer={true}
+                />
+            ) : (
+                <div
+                    className="bg-white shadow-lg flex items-center justify-center"
+                    style={{ width: width ?? '100%', height: placeholderHeight }}
+                >
+                    <Loader2 className="w-6 h-6 text-steel-300 animate-spin" />
+                </div>
+            )}
+        </div>
+    )
+}
+
 export function PDFViewer({ src, title, zoomInLabel = 'Yakınlaştır', zoomOutLabel = 'Uzaklaştır', resetLabel = 'Sıfırla', fullscreenLabel = 'Tam Ekran' }: PDFViewerProps) {
     const [zoomIndex, setZoomIndex] = useState(DEFAULT_ZOOM_INDEX)
     const [numPages, setNumPages] = useState<number>(0)
@@ -155,13 +219,11 @@ export function PDFViewer({ src, title, zoomInLabel = 'Yakınlaştır', zoomOutL
                     className="flex flex-col items-center gap-2 py-4"
                 >
                     {Array.from(new Array(numPages), (_, index) => (
-                        <Page
+                        <LazyPage
                             key={`page_${index + 1}`}
                             pageNumber={index + 1}
                             width={pageWidth}
-                            className="shadow-lg"
-                            renderTextLayer={true}
-                            renderAnnotationLayer={true}
+                            scrollRoot={scrollRef.current}
                         />
                     ))}
                 </Document>
