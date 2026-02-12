@@ -48,6 +48,7 @@ export default async function HomePage({ params }: HomePageProps) {
             viewAll: dict.blog.viewAll,
             readTime: dict.blog.readTime,
           }}
+          categoryLabels={dict.blog.categories}
         />
       )}
       

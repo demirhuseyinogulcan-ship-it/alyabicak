@@ -838,9 +838,14 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
  * @returns Çevrilmiş değer veya orijinal (fallback)
  */
 export function getSpecValueTranslation(value: string, locale: string): string {
+  if (locale === 'tr') return value;
   const translations = specValueTranslations[locale];
   if (!translations) return value;
-  return translations[value] || value;
+  const translated = translations[value];
+  if (!translated && process.env.NODE_ENV === 'development') {
+    console.warn(`[i18n] Missing spec value translation: "${value}" for locale "${locale}"`);
+  }
+  return translated || value;
 }
 
 export default specValueTranslations;

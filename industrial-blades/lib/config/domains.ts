@@ -5,24 +5,33 @@
  * Yeni dil veya domain eklerken SADECE bu dosyayı güncelleyin.
  * 
  * ═══════════════════════════════════════════════════════════
- * 📝 YENİ DİL EKLEME REHBERİ (3 Adım):
+ * 📝 YENİ DİL EKLEME REHBERİ (7 Adım):
  * ═══════════════════════════════════════════════════════════
  * 
- * 1. Bu dosyaya locale ekle:
- *    - LOCALE_DOMAINS objesine yeni dili ekle
- *    - Gerekirse DOMAIN_LOCALES'e yeni domain ekle
+ * ADIM 1 — Config (2 dosya):
+ *   ├─ lib/config/domains.ts        → LOCALE_DOMAINS objesine yeni dili ekle
+ *   └─ lib/i18n/config.ts           → locales, localeNames, localeFlags'e ekle
  * 
- * 2. lib/i18n/config.ts dosyasını güncelle:
- *    - locales array'ine yeni dili ekle
- *    - localeNames objesine dil adını ekle
- *    - localeFlags objesine bayrak emoji'sini ekle
+ * ADIM 2 — UI Çevirileri (2 dosya):
+ *   ├─ lib/i18n/dictionaries/xx.ts  → en.ts'i kopyala, tüm 468 key'i çevir
+ *   └─ lib/i18n/dictionaries/index.ts → import + dictionaries objesine ekle
  * 
- * 3. lib/i18n/dictionaries/ altına çeviri dosyası ekle:
- *    - Mevcut bir dili kopyala (örn: en.ts)
- *    - Tüm metinleri yeni dile çevir
- *    - dictionaries/index.ts'e import ekle
+ * ADIM 3 — Veri Çevirileri (6 dosya):
+ *   ├─ lib/i18n/translations/products/xx.ts     → Ürün adları, açıklamaları, SEO
+ *   ├─ lib/i18n/translations/products/index.ts  → import + productTranslations'a ekle
+ *   ├─ lib/i18n/translations/categories/xx.ts   → Kategori adları, açıklamaları
+ *   ├─ lib/i18n/translations/categories/index.ts→ import + categoryTranslations'a ekle
+ *   ├─ lib/i18n/translations/hero-slides/xx.ts  → Ana sayfa slider çevirileri
+ *   └─ lib/i18n/translations/hero-slides/index.ts → import ekle
  * 
- * ⚠️ BAŞKA HİÇBİR DOSYAYA DOKUNMANA GEREK YOK!
+ * ADIM 4 — Locale Sabitleri (1 dosya):
+ *   └─ lib/i18n/locale-utils.ts → BRAND_NAME, DATE_LOCALE, SCHEMA_LANGUAGE,
+ *                                  YANDEX_VERIFICATION, WHATSAPP_SITE'a ekle
+ * 
+ * ADIM 5 — Doğrulama:
+ *   └─ npx next build → TypeScript eksik key HATASI verirse düzelt
+ * 
+ * TOPLAM: ~11 dosya dokunulmalı (TypeScript eksik key'leri yakalayacaktır)
  * ═══════════════════════════════════════════════════════════
  * 
  * @example Almanca eklemek için:
@@ -35,11 +44,15 @@
  * },
  * 
  * // 2. lib/i18n/config.ts'de:
- * locales: ['tr', 'en', 'ar', 'ru', 'de'] as const,
+ * locales: ['tr', 'en', 'ar', 'ru', 'fr', 'de'] as const,
  * localeNames: { ..., de: 'Deutsch' },
  * localeFlags: { ..., de: '🇩🇪' },
  * 
- * // 3. lib/i18n/dictionaries/de.ts oluştur
+ * // 3. lib/i18n/dictionaries/de.ts + index.ts oluştur
+ * // 4. lib/i18n/translations/products/de.ts + index.ts
+ * // 5. lib/i18n/translations/categories/de.ts + index.ts
+ * // 6. lib/i18n/translations/hero-slides/de.ts + index.ts
+ * // 7. lib/i18n/locale-utils.ts → Record'lara 'de' ekle
  * ```
  */
 

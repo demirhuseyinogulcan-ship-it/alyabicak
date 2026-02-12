@@ -271,7 +271,11 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
 /** Spec label çevirisi getir */
 function getSpecLabel(key: string, locale: string): string {
   const labels = specLabelTranslations[locale] || specLabelTranslations['tr'];
-  return labels[key] || key.charAt(0).toUpperCase() + key.slice(1);
+  const label = labels[key];
+  if (!label && locale !== 'tr' && process.env.NODE_ENV === 'development') {
+    console.warn(`[i18n] Missing spec label translation: "${key}" for locale "${locale}"`);
+  }
+  return label || key.charAt(0).toUpperCase() + key.slice(1);
 }
 
 // =============================================================================

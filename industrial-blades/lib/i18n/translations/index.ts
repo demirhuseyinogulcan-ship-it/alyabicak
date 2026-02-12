@@ -4,12 +4,12 @@
  * Bu dosya tüm veri çevirilerini merkezi olarak yönetir.
  * UI çevirileri (dictionaries) ile veri çevirileri (translations) ayrıdır.
  * 
- * YENİ DİL EKLEMEK İÇİN:
- * 1. hero-slides/ klasörüne yeni dosya ekleyin (örn: zh.ts)
- * 2. categories/ klasörüne yeni dosya ekleyin (örn: zh.ts)
- * 3. products/ klasörüne yeni dosya ekleyin (örn: zh.ts)
- * 4. Her klasörün index.ts dosyasına import ekleyin
- * 5. lib/i18n/config.ts dosyasına yeni locale ekleyin
+ * YENİ DİL EKLEMEK İÇİN (veri çevirileri kısmı):
+ * 1. products/ klasörüne yeni dosya ekleyin (örn: zh.ts) + index.ts'e import
+ * 2. categories/ klasörüne yeni dosya ekleyin (örn: zh.ts) + index.ts'e import
+ * 3. hero-slides/ klasörüne yeni dosya ekleyin (örn: zh.ts) + index.ts'e import
+ * 
+ * NOT: Tam rehber için bkz. lib/config/domains.ts (7-adım rehber)
  * 
  * KULLANIM:
  * import { getHeroSlideTranslation, getCategoryTranslation, getProductTranslation } from '@/lib/i18n/translations';
@@ -83,9 +83,14 @@ export function getProductTranslation(
   productId: string,
   locale: string
 ): ProductTranslation | undefined {
+  if (locale === 'tr') return undefined; // Master data zaten Türkçe
   const translations = productTranslations[locale];
   if (!translations) return undefined;
-  return translations[productId];
+  const translation = translations[productId];
+  if (!translation && process.env.NODE_ENV === 'development') {
+    console.warn(`[i18n] Missing product translation: "${productId}" for locale "${locale}"`);
+  }
+  return translation;
 }
 
 export function getAllProductTranslations(locale: string): Record<string, ProductTranslation> {

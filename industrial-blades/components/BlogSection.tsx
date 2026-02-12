@@ -20,9 +20,10 @@ interface BlogSectionProps {
     viewAll: string
     readTime: string
   }
+  categoryLabels?: Record<string, string>
 }
 
-export default function BlogSection({ locale = 'tr', translations }: BlogSectionProps) {
+export default function BlogSection({ locale = 'tr', translations, categoryLabels }: BlogSectionProps) {
   const posts = blogService.getRecentPosts(3, locale as Locale)
 
   // Fallback translations
@@ -62,7 +63,7 @@ export default function BlogSection({ locale = 'tr', translations }: BlogSection
                 />
                 {/* Category Badge */}
                 <span className="absolute top-4 left-4 px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-full">
-                  {post.category.name}
+                  {categoryLabels?.[post.category.dictionaryKey] || post.category.name}
                 </span>
               </Link>
 
