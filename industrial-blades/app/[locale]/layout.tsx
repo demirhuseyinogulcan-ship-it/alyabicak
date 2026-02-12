@@ -18,7 +18,7 @@ import { SkipLink } from '@/components/ui';
 import { generateOrganizationSchema, generateLocalBusinessSchema, generateWebsiteSchema } from '@/lib/seo';
 import { siteConfig } from '@/lib/config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
-import { getYandexVerification } from '@/lib/i18n/locale-utils';
+import { getYandexVerification, BRAND_NAME } from '@/lib/i18n/locale-utils';
 import { LocaleProvider } from '@/components/providers/LocaleProvider';
 import {
   getDomainUrl,
@@ -62,11 +62,14 @@ export async function generateMetadata({
   // Dinamik alternates için tüm dilleri doğru domain'lerle kullan
   const alternatesLanguages = getHreflangUrls('');
 
+  // Locale-aware marka adı: TR → 'Alya Bıçak', EN/AR/RU/FR → 'Alya Blade'
+  const brandName = BRAND_NAME[locale] || BRAND_NAME.en;
+
   return {
     metadataBase: new URL(currentDomain),
     title: {
       default: dict.meta.title,
-      template: `%s | ${siteConfig.name}`,
+      template: `%s | ${brandName}`,
     },
     description: dict.meta.description,
     keywords: dict.meta.keywords,
@@ -77,7 +80,7 @@ export async function generateMetadata({
       title: dict.meta.title,
       description: dict.meta.description,
       url: currentDomain,
-      siteName: siteConfig.name,
+      siteName: brandName,
       locale: getOGLocale(locale as SupportedLocale),
       type: 'website',
       images: [

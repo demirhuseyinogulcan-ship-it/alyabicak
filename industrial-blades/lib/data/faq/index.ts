@@ -22,6 +22,7 @@ import trData from './locales/tr.json'
 import enData from './locales/en.json'
 import arData from './locales/ar.json'
 import ruData from './locales/ru.json'
+import frData from './locales/fr.json'
 
 // FAQ data map — tüm mevcut FAQ çevirileri
 // Henüz FAQ çevirisi olmayan diller otomatik olarak İngilizce'ye düşer
@@ -30,7 +31,7 @@ const faqDataMap: Partial<Record<FAQLocale, FAQData>> = {
   en: enData as FAQData,
   ar: arData as FAQData,
   ru: ruData as FAQData,
-  // fr: Fransızca FAQ henüz oluşturulmadı → İngilizce fallback
+  fr: frData as FAQData,
 }
 
 // Hangi dillerde FAQ mevcut

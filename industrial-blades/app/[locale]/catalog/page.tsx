@@ -63,7 +63,7 @@ export default async function CatalogPage({ params }: PageProps) {
         fileFormat: 'application/pdf',
         publisher: {
           '@type': 'Organization',
-          name: 'Alya Bıçak',
+          name: locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade',
           logo: {
             '@type': 'ImageObject',
             url: `${getDomainUrl(locale as SupportedLocale)}/images/logo-512.png`

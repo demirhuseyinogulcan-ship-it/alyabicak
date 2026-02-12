@@ -2268,3 +2268,26 @@ export function getProductSlugPair(slug: string): { tr: string; en: string } {
   return { tr: slug, en: slug };
 }
 
+/**
+ * Ürünün istenen locale'de gerçek çevirisi var mı kontrol et
+ * true = fallback içerik gösteriliyor → noindex yapılmalı (SEO)
+ * TR için her zaman false döner (master data zaten Türkçe)
+ */
+export function isProductUsingFallback(slug: string, locale: string): boolean {
+  if (locale === 'tr') return false;
+  
+  // Ürünü bul (raw, çevirmeden)
+  const product = PRODUCTS_EXTENDED.find(p =>
+    (p.slug === slug || p.slugEN === slug) && p.isActive
+  );
+  const productId = product?.id || getAllProducts().find(p =>
+    (p.slug === slug || p.slugEN === slug) && p.isActive
+  )?.id;
+  
+  if (!productId) return true; // Ürün bulunamadı
+  
+  // İstenen locale'de çeviri var mı?
+  const translation = getProductTranslation(productId, locale);
+  return !translation;
+}
+

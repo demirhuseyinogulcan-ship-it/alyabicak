@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: PageProps) {
     ...generateSeoMetadata({
       title: `${category.name} | ${category.totalProductCount} ${dict.common.products} | ${brandSuffix}`,
       description: `${category.description} ${category.subcategories.length} ${dict.common.subcategories}, ${category.totalProductCount} ${dict.common.products}. Sheffield steel quality. Authorized distributor.`,
-      keywords: [category.name.toLowerCase(), 'alya bıçak', 'endüstriyel bıçak', 'alya blade'],
+      keywords: [category.name.toLowerCase(), brandSuffix.toLowerCase(), locale === 'tr' ? 'endüstriyel bıçak' : 'industrial blade', 'alya blade'],
       url: `${domainUrl}/${locale}${pagePath}`,
       locale,
       path: pagePath,

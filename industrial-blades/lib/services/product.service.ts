@@ -121,6 +121,17 @@ class ProductService {
   }
 
   /**
+   * Ürünün istenen locale'de gerçek çevirisi var mı kontrol et
+   * true dönerse: sayfa noindex yapılmalı (fallback içerik gösteriliyor)
+   * TR her zaman false döner (master data zaten Türkçe)
+   */
+  isUsingFallback(productId: string, locale: string): boolean {
+    if (locale === 'tr') return false;
+    const { usedLocale } = this.getTranslationWithFallback(productId, locale);
+    return usedLocale !== locale;
+  }
+
+  /**
    * Tüm ürünleri döndür
    */
   getAll(locale: string = DEFAULT_LOCALE): Product[] {

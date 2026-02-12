@@ -9,6 +9,7 @@ import {
   getAllProductSlugs,
   getRelatedProducts,
   getProductSlugPair,
+  isProductUsingFallback,
 } from '@/lib/data/products-extended';
 import {
   ProductHero,
@@ -58,10 +59,19 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const description = product.seo?.description || product.shortDescription;
   const keywords = product.seo?.keywords || product.tags;
 
+  // Fallback içerik kullanılıyorsa noindex yap (Google'da yanlış dilde içerik indexlenmesini önle)
+  const isFallback = isProductUsingFallback(slug, locale);
+
   return {
     title,
     description,
     keywords,
+    ...(isFallback && {
+      robots: {
+        index: false,
+        follow: true, // Linkler hala takip edilsin
+      },
+    }),
     openGraph: {
       title,
       description,

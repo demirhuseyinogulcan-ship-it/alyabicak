@@ -62,12 +62,12 @@ export async function generateMetadata({ params }: PageProps) {
   // SEO keywords - önce subcategory'nin kendi seoKeywords'leri, sonra genel
   const baseKeywords = [subcategory.name.toLowerCase(), category.name.toLowerCase()]
   const seoKeywords = (subcategory as { seoKeywords?: string[] }).seoKeywords || []
-  const allKeywords = [...seoKeywords, ...baseKeywords, 'alya bıçak', 'alya blade']
   const domainUrl = getDomainUrl(locale as SupportedLocale)
   const pagePath = `/categories/${category.slug}/${subcategory.slug}`
 
   // Güçlü meta title: ürün adı + teknik sinyal + marka
   const brandSuffix = getBrandName(locale)
+  const allKeywords = [...seoKeywords, ...baseKeywords, brandSuffix.toLowerCase(), 'alya blade']
   const metaTitle = (dict.categories?.subcategoryMetaTitle || '{{name}} | {{count}} Varieties | {{brand}}')
     .replace('{{name}}', subcategory.name)
     .replace('{{count}}', String(subcategory.productCount))

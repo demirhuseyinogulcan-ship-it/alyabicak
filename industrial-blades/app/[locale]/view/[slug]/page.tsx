@@ -61,7 +61,7 @@ export default async function PDFViewerPage({ params }: PageProps) {
             copyCitation: 'İndirmeden Kopyala',
             share: 'Paylaş',
             citationCopied: 'Kopyalandı!',
-            citationText: `Kaynak: Alya Bıçak - ${catalog.title} (${domain}/${locale}/view/${slug})`,
+            citationText: `Kaynak: ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'} - ${catalog.title} (${domain}/${locale}/view/${slug})`,
             zoomIn: 'Yakınlaştır',
             zoomOut: 'Uzaklaştır',
             zoomReset: 'Sıfırla',
@@ -105,11 +105,11 @@ export default async function PDFViewerPage({ params }: PageProps) {
         image: `${domain}${catalog.previewImage}`,
         author: {
             '@type': 'Organization',
-            name: 'Alya Bıçak'
+            name: locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
         },
         publisher: {
             '@type': 'Organization',
-            name: 'Alya Bıçak',
+            name: locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade',
             logo: {
                 '@type': 'ImageObject',
                 url: `${domain}/images/logo-512.png`

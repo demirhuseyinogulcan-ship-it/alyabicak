@@ -18,6 +18,7 @@ export interface BlogPost {
   featured?: boolean
   seo?: BlogSEO
   faq?: { question: string; answer: string }[]
+  _isFallback?: boolean // true = locale'e özgü çeviri yok, TR fallback kullanılıyor
 }
 
 export interface BlogAuthor {

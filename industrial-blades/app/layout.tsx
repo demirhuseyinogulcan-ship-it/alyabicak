@@ -9,8 +9,8 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'Alya Bıçak',
-  description: 'Endüstriyel Kesici Çözümler',
+  title: 'Alya Blade | Industrial Cutting Solutions',
+  description: 'Industrial Cutting Solutions | Endüstriyel Kesici Çözümler',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },

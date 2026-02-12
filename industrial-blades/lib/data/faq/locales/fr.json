@@ -1,0 +1,152 @@
+{
+  "locale": "fr",
+  "categories": {
+    "arizagiderme": "Dépannage & Performance",
+    "celik": "Types d'Acier & Informations Techniques",
+    "kaplama": "Revêtements & Traitements de Surface",
+    "teknik": "Spécifications Techniques",
+    "ozelUretim": "Fabrication Sur Mesure & Services",
+    "siparis": "Commande & Livraison",
+    "genel": "Informations Générales"
+  },
+  "questions": [
+    {
+      "id": "blade-dulling-quickly",
+      "question": "Nos lames s'émoussent trop vite, que faire ?",
+      "answer": "L'émoussement rapide peut avoir plusieurs causes : 1) Incompatibilité de matériau – le matériau coupé peut être plus dur que l'acier de la lame (fibre de verre, fil métallique). Dans ce cas, des lames en carbure de tungstène ou à revêtement céramique sont nécessaires. 2) Mauvais angle – un angle trop fin (moins de 20°) crée de la fragilité, 25-30° est idéal pour les matériaux épais. 3) Accumulation de chaleur – le frottement à grande vitesse ramollit l'acier. Envisagez un système de refroidissement ou réduisez la vitesse. 4) Qualité de l'acier – l'acier à faible teneur en carbone n'est pas durable. Passer à un acier D2 ou HSS prolonge la durée de vie de 3 à 5 fois.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "rough-cut-surface",
+      "question": "La surface de coupe est rugueuse, nous n'obtenons pas de coupes nettes",
+      "answer": "Principales causes de coupe rugueuse : 1) Lame émoussée – des micro-bavures se sont formées, il est temps de changer. 2) Mauvaise géométrie de lame – un bord ondulé ne convient pas aux coupes droites, utilisez une lame à bord droit. 3) Vibrations – la machine est mal réglée ou la lame est mal fixée. Vérifiez les couples de serrage. 4) Glissement du matériau – le matériau bouge pendant la coupe. Augmentez la pression ou utilisez une table à vide. 5) Inadéquation de vitesse – trop rapide fait fondre, trop lent déchire.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "blade-breaking-quickly",
+      "question": "Nos lames se cassent trop vite, pourquoi ?",
+      "answer": "La casse résulte généralement d'une dureté excessive ou d'une utilisation inappropriée : 1) Sélection de l'acier – les aciers de dureté 62+ HRC sont fragiles. 58-60 HRC suffit pour les applications avec chocs. 2) Erreur d'angle – un angle trop étroit (moins de 15°) invite la casse. 3) Forces latérales – la lame ne résiste qu'à la force verticale, la pression latérale la casse. Revoyez la géométrie de coupe. 4) Dureté du matériau – la casse est inévitable si le matériau est plus dur que la lame (métal, pierre). Le carbure de tungstène est nécessaire. 5) Choc thermique – refroidir une lame très chaude avec de l'eau froide provoque des fissures.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "production-speed-dropped",
+      "question": "Notre vitesse de production a baissé, les lames sont-elles en cause ?",
+      "answer": "Causes liées aux lames de la perte d'efficacité : 1) Émoussement – même imperceptible visuellement, l'émoussement a commencé au niveau microscopique. Force de coupe accrue = moteur en surcharge = baisse de vitesse. 2) Mauvais profil – utiliser une lame droite pour une coupe circulaire est inefficace. Choisissez un profil adapté à l'application. 3) Fréquence de changement – la politique « utiliser jusqu'à la casse » est coûteuse. Des changements planifiés maintiennent qualité et vitesse. Nous recommandons une analyse du coût par coupe – dans la plupart des cas, des lames de qualité réduisent le coût total.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "blade-doesnt-fit",
+      "question": "La lame achetée ne s'adapte pas à notre machine",
+      "answer": "Pour les problèmes de compatibilité : 1) Tolérance dimensionnelle – dans les lames industrielles, la tolérance de ±0,05 mm est critique. Envoyez-nous les dimensions exactes de la lame d'origine (longueur, largeur, épaisseur, diamètre des trous, distance entre les centres). 2) Type de fixation – trou simple, double trou, canal, type clamp sont différents. 3) Différences de marque – certains fabricants de machines utilisent des dimensions spéciales. Si vous envoyez un échantillon avec les informations marque/modèle, nous pouvons produire une correspondance exacte. 4) Logement usé – sur les machines anciennes, le logement peut être usé, un entretien machine peut être nécessaire.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "d2-vs-hss",
+      "question": "Quelle est la différence entre l'acier D2 et l'acier HSS ?",
+      "answer": "D2 et HSS sont des aciers optimisés pour des usages différents. D2 (1.2379) : Chrome élevé (12 %), haute résistance à l'usure, dureté 60-62 HRC. Idéal pour la coupe à froid, papier/carton, plastique. Inconvénient : fragile aux chocs. HSS (acier rapide - M2, M42) : alliage cobalt et tungstène, résistant à la chaleur (maintient sa dureté jusqu'à 600 °C). Pour la coupe de métal, applications haute vitesse. Plus cher que le D2 mais indispensable dans les environnements chauffés. Règle simple : Coupe à froid = D2, coupe chaude/rapide = HSS.",
+      "category": "celik"
+    },
+    {
+      "id": "when-tungsten-carbide",
+      "question": "Quand une lame en carbure de tungstène est-elle nécessaire ?",
+      "answer": "Le carbure de tungstène (TC) est essentiel pour les matériaux hautement abrasifs : 1) Plastiques renforcés de fibres de verre (GRP/FRP) 2) Composites en fibres de carbone 3) Revêtements céramiques 4) Caoutchoucs chargés d'abrasifs 5) Matériaux chargés de métal. Le TC est 3 à 4 fois plus dur que l'acier (1400+ HV) mais fragile – à utiliser uniquement pour les mouvements de coupe droits. Bien que le coût soit élevé, les lames en acier échouent en quelques minutes sur ces matériaux, tandis que le TC dure des mois. Ne dites pas « cher » sans faire un calcul de ROI.",
+      "category": "celik"
+    },
+    {
+      "id": "stainless-steel-advantage",
+      "question": "Quel est l'avantage des lames en acier inoxydable ?",
+      "answer": "L'acier inoxydable (AISI 420, 440C) contient 13 %+ de chrome et résiste à la corrosion. Domaines d'utilisation : 1) Industrie alimentaire – conforme FDA/EC1935, hygiénique 2) Environnements humides – coupe à base d'eau, extérieur 3) Contact chimique – matériaux acides/alcalins. Inconvénient : s'émousse plus vite que l'acier au carbone à dureté égale. Le 440C offre une dureté adéquate (58-60 HRC) mais ne peut rester aussi tranchant que le D2. S'il n'y a pas de contact alimentaire/humidité, préférez l'acier au carbone.",
+      "category": "celik"
+    },
+    {
+      "id": "blade-hardness-hrc",
+      "question": "Que signifie la dureté de lame (HRC) ?",
+      "answer": "HRC (Rockwell C) est l'unité de mesure de la dureté de l'acier. Dans les lames industrielles : 55-58 HRC : Haute résistance aux chocs, flexible. Lames de guillotine, coupe de métal épais. 58-60 HRC : Équilibré. La plupart des applications polyvalentes. 60-62 HRC : Haute rétention du tranchant. Papier, film, coupes fines. 62+ HRC : Ultra-dur mais fragile. Seulement en environnements contrôlés. Plus le HRC est élevé = tranchant plus durable mais risque de fragilité. Choisissez le bon équilibre pour votre application.",
+      "category": "celik"
+    },
+    {
+      "id": "sheffield-steel-difference",
+      "question": "Quelle est la différence de l'acier de Sheffield ?",
+      "answer": "Sheffield, Angleterre, possède plus de 700 ans de tradition sidérurgique. Caractéristiques de l'acier de Sheffield : 1) Haute pureté – faible ratio soufre/phosphore, structure homogène 2) Traitement thermique contrôlé – distribution précise de la dureté 3) Structure à grain fin – tranchant plus vif et plus durable. L'acier britannique fait une différence particulière dans les lames fines de type rasoir. Des fabricants établis comme Durham Duplex bénéficient de cette tradition. L'acier bon marché d'Extrême-Orient présente souvent des variations de lot et une dureté inconstante.",
+      "category": "celik"
+    },
+    {
+      "id": "tin-coating-purpose",
+      "question": "À quoi sert le revêtement en nitrure de titane (TiN) ?",
+      "answer": "Le revêtement TiN (couleur dorée) ajoute une fine couche céramique à la surface de la lame : 1) Augmentation de la dureté – la dureté de surface monte à 2300 HV (l'acier est à 800 HV) 2) Réduction du frottement – empêche l'adhésion du matériau 3) Résistance à l'usure – la durée de vie augmente de 2 à 5 fois. Inconvénients : ne peut pas être recouvert lorsque le revêtement s'use. Le revêtement disparaît quand un affûtage est nécessaire. Idéal pour les applications à haut volume avec remplacement de lames. Pas rentable pour l'utilisation basée sur l'affûtage.",
+      "category": "kaplama"
+    },
+    {
+      "id": "when-dlc-coating",
+      "question": "Quand le revêtement DLC (Diamond-Like Carbon) est-il préféré ?",
+      "answer": "Le DLC est un revêtement en carbone avec une dureté proche du diamant (3000+ HV). Domaines d'utilisation : 1) Matériaux adhésifs – empêche le collage lors de la coupe du silicone, caoutchouc, étiquettes 2) Coupe ultra-propre – alimentaire, médical, électronique 3) Applications nécessitant un faible frottement. Plus cher que le TiN mais indispensable pour les matériaux adhésifs. Offre également un aspect esthétique avec sa couleur noire. Surtout lors de la coupe de matériaux adhésifs et étiquetés, il ne laisse aucun résidu sur la lame.",
+      "category": "kaplama"
+    },
+    {
+      "id": "coated-vs-uncoated",
+      "question": "Dois-je préférer des lames revêtues ou non revêtues ?",
+      "answer": "Critères de décision : Préférez REVÊTU : Production à haut volume, changements de lames difficiles, matériaux adhésifs, environnement abrasif. Préférez NON REVÊTU : Faible volume, affûtage fréquent, coût critique, coupe de matériaux propres. Le revêtement augmente le prix de la lame de 30 à 100 %. Mais dans la bonne application, il réduit le nombre de changements de moitié, réduisant ainsi le coût total. En cas de doute, essayez d'abord sans revêtement, passez au revêtu si les performances sont insuffisantes.",
+      "category": "kaplama"
+    },
+    {
+      "id": "why-tolerance-important",
+      "question": "Pourquoi la tolérance des lames est-elle importante ?",
+      "answer": "La tolérance est la plage d'écart par rapport à la mesure spécifiée. Exemple : 100 mm ±0,05 mm = 99,95-100,05 mm est acceptable. Pourquoi c'est critique : 1) Adaptation machine – une lame lâche vibre, une lame serrée est impossible à installer 2) Qualité de coupe – une épaisseur de lame inégale crée des coupes ondulées 3) Sécurité – une tolérance excessive invite aux accidents. Les fabricants de qualité atteignent ±0,02-0,05 mm. Dans les lames bon marché, ±0,2 mm est considéré comme « normal », ce qui représente 10 fois plus d'écart.",
+      "category": "teknik"
+    },
+    {
+      "id": "cutting-angle-selection",
+      "question": "Comment sélectionner le bon angle de coupe ?",
+      "answer": "L'angle de coupe varie selon le matériau et l'application : 15-20° : Très tranchant, matériaux souples (papier, film). Fragile. 20-25° : Équilibré, idéal pour la plupart des textiles et plastiques. 25-30° : Durable, matériaux épais/durs, coupes avec chocs. 30-40° : Très durable, coupe de métal, travaux lourds. Simple face (biseau) vs double face (en V) : Simple face pour la coupe de précision, double face pour usage général. En cas de doute, commencez par 22-25° double face.",
+      "category": "teknik"
+    },
+    {
+      "id": "standard-blade-dimensions",
+      "question": "Les dimensions des lames industrielles sont-elles standard ?",
+      "answer": "Partiellement. Certaines catégories ont des standards : Lame trapézoïdale : 61 mm x 19 mm (universel). Lame à un seul tranchant : Standard #9 (38 mm) et #12 (44 mm). Cutter : largeurs standard de 9 mm, 18 mm, 25 mm. Cependant, les lames de machines sont le plus souvent spécifiques au fabricant de la machine. Chaque marque utilise ses propres dimensions. Par conséquent, précisez toujours les dimensions de votre lame existante ou la marque/modèle de machine lors de la commande. L'envoi d'un échantillon est la méthode la plus fiable.",
+      "category": "teknik"
+    },
+    {
+      "id": "custom-blade-production",
+      "question": "Pouvez-vous produire des lames aux dimensions/profils personnalisés ?",
+      "answer": "Oui. Nous faisons de la production sur mesure avec une précision CNC dans notre installation d'Istanbul : 1) Envoyez un dessin technique ou un échantillon 2) Discutons des options de matériau et de revêtement 3) Production de prototype (1-2 semaines) 4) Passage à la production de masse après approbation. Commande minimum : Pas de limite pour le prototype. Déterminé par le coût pour la production de masse. Profils personnalisés : Circulaire, ondulé, cranté, perforé, toute géométrie est possible. L'essentiel est d'avoir des spécifications claires de tolérance et de matériau.",
+      "category": "ozelUretim"
+    },
+    {
+      "id": "technical-support",
+      "question": "Fournissez-vous des services de conseil technique ?",
+      "answer": "Oui, nous fournissons un support technique gratuit : 1) Sélection correcte de lame – l'acier, le revêtement et la géométrie les plus adaptés à votre application 2) Résolution de problèmes – nous analysons vos problèmes de coupe actuels 3) Optimisation des coûts – analyse du coût par coupe 4) Tests d'échantillons – possibilité d'essayer de nouvelles lames dans votre production. Canaux de contact : Téléphone, WhatsApp, e-mail. Nous effectuons également des visites sur site si nécessaire (Istanbul et provinces environnantes). Nous nous concentrons sur la recherche de la bonne solution sans pression commerciale.",
+      "category": "ozelUretim"
+    },
+    {
+      "id": "minimum-order",
+      "question": "Quelle est la quantité minimum de commande ?",
+      "answer": "Pour les produits standard en stock (lames), les quantités par emballage s'appliquent (généralement des boîtes de 10, 100 ou 250). Pour les lames de machines sur mesure, la quantité compte – les commandes en gros volume bénéficient de tarifs plus avantageux par rapport aux commandes en petite quantité.",
+      "category": "siparis"
+    },
+    {
+      "id": "delivery-time",
+      "question": "Quel est le délai de livraison ?",
+      "answer": "Selon la disponibilité en stock : Produits standard en stock : Expédition le jour même, livraison en 1-3 jours ouvrables (national). International : 5-15 jours ouvrables selon le pays. Production sur mesure : environ 6-8 semaines.",
+      "category": "siparis"
+    },
+    {
+      "id": "international-sales",
+      "question": "Vendez-vous à l'international ?",
+      "answer": "Oui, nous exportons vers plus de 35 pays. Nous effectuons des expéditions régulières vers nos clients au Moyen-Orient, en Europe, en Afrique et en Asie.",
+      "category": "siparis"
+    },
+    {
+      "id": "who-is-alya",
+      "question": "Qui est Alya Blade ?",
+      "answer": "Alya est une entreprise basée à Istanbul qui fournit des outils de coupe industriels avec plus de 30 ans d'expérience. Nous sommes spécialisés dans la production de pièces détachées pour machines textiles et la fourniture de lames industrielles. Nous sommes le distributeur agréé de Durham Duplex (Sheffield, Angleterre - depuis 1910) pour la Turquie et les régions environnantes. Nous exportons vers plus de 35 pays. Notre différence : Pas seulement de la vente, nous sommes des partenaires de solutions techniques. Nous vous aidons à choisir la lame la plus adaptée à votre application.",
+      "category": "genel"
+    },
+    {
+      "id": "why-alya",
+      "question": "Qu'est-ce qui différencie Alya des autres fournisseurs ?",
+      "answer": "Avec 30 ans d'expérience dans l'industrie, nous ne vendons pas seulement des produits – nous devenons votre partenaire de solutions techniques. Nous comprenons votre processus et recommandons le bon acier et le bon revêtement. Avec notre approche honnête, nous ne recommanderons pas de solutions coûteuses pour des travaux simples. Nous rendons les lames de qualité accessibles.",
+      "category": "genel"
+    }
+  ]
+}

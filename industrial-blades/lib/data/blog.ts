@@ -1684,7 +1684,8 @@ export const BLOG_POSTS_LOCALIZED: LocalizedBlogPost[] = [
 /**
  * Locale'e göre BlogPost formatına dönüştür
  */
-function toLocalized(post: LocalizedBlogPost, locale: Locale): BlogPost {
+function toLocalized(post: LocalizedBlogPost, locale: Locale): BlogPost & { _isFallback: boolean } {
+  const hasNativeContent = !!post[locale]
   const content = post[locale] || post.tr // Fallback to Turkish
   const tags = post.tags[locale] || post.tags.tr
 
@@ -1704,6 +1705,7 @@ function toLocalized(post: LocalizedBlogPost, locale: Locale): BlogPost {
     featured: post.featured,
     seo: content.seo,
     faq: content.faq,
+    _isFallback: !hasNativeContent && locale !== 'tr',
   }
 }
 
