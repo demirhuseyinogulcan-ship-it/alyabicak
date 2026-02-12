@@ -38,6 +38,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   // =============================================================================
   'slotted-karbon-celik': {
     name: 'Slotted Slitting Blade - Carbon Steel',
+    subtitle: 'SK5 Carbon Steel — 57x19mm',
     description: 'High carbon industrial slotted slitting blade. Unlike ordinary razor blades, manufactured from special steel alloy with high carbon content (0.85-1.00% C). Heat treatment in controlled atmosphere furnaces (austenitizing + quenching + tempering) achieves homogeneous martensitic microstructure. The slotted design enables quick and secure machine mounting through the central slot. Precisely ground at optimal 22° edge angle.',
     features: [
       'High carbon content (0.85-1.00%)',
@@ -92,6 +93,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'slotted-paslanmaz': {
     name: 'Slotted Slitting Blade - Stainless Steel',
+    subtitle: '420HC Stainless Steel — 57x19mm',
     description: 'Slotted slitting blade manufactured from AISI 420 martensitic stainless steel. 12-14% chromium content provides corrosion resistance while martensitic structure achieves HRC 54-56 hardness. Preferred as alternative to carbon steel in humid environments, food industry, and hygiene-required applications. Slotted design offers practical machine mounting. FDA approved for food contact surfaces.',
     features: [
       'Stainless steel (AISI 420)',
@@ -110,6 +112,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'slotted-paslanmaz-titanyum': {
     name: 'Slotted Slitting Blade - Stainless Steel + Titanium Coating',
+    subtitle: 'Stainless Steel + Titanium Nitride — 57x19mm',
     description: 'TiN (Titanium Nitride) coating on AISI 420 martensitic stainless steel. Hybrid solution combining stainless steel corrosion resistance with titanium coating wear resistance. PVD-applied TiN coating increases edge hardness to 2300 HV. Slotted slot system enables quick blade changes. Provides dual protection in both humid and abrasive environments.',
     features: [
       'Stainless + Titanium dual protection',
@@ -128,6 +131,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'slotted-paslanmaz-xcd': {
     name: 'Slotted Slitting Blade - Stainless Steel + XCD Coating',
+    subtitle: 'DLC/XCD Diamond-Like Coating — 57x19mm',
     description: 'XCD (Xtreme Carbon Diamond) coating technology on AISI 420 stainless steel. This coating from the DLC (Diamond-Like Carbon) family offers hardness values up to 5000 HV through diamond-like carbon structure. Friction coefficient drops below 0.1, providing excellent sliding properties. Professional use with slotted mounting system. Prevents even the most adhesive materials from sticking to the cutting edge.',
     features: [
       'XCD diamond-like carbon coating',
@@ -146,6 +150,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'slotted-endurium-seramik': {
     name: 'Slotted Slitting Blade - Endurium Steel + Ceramic Coating',
+    subtitle: 'High Speed Steel + Ceramic — 57x19mm',
     description: 'Multi-layer ceramic coating on Endurium HSS (High Speed Steel) substrate. Premium solution combining HSS high temperature resistance (8-10% tungsten, 4-5% molybdenum, 4% chromium) with extreme ceramic hardness. No hardness loss up to 600°C, resistant to thermal shock in interrupted cuts and high-speed applications. Slotted design compatible with professional machines. Designed for the most demanding industrial applications.',
     features: [
       'Endurium HSS high speed steel',
@@ -164,6 +169,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'slotted-yekpare-tungsten': {
     name: 'Slotted Slitting Blade - Solid Tungsten Carbide',
+    subtitle: 'Solid WC-Co Monolithic Structure — 57x19mm',
     description: 'Slotted slitting blade manufactured from solid tungsten carbide (WC-Co) composition. This sintered material containing 94% tungsten carbide and 6% cobalt binder achieves HRA 92-94 (HRC 75+ equivalent) hardness. Monolithic structure produced via powder metallurgy provides integrity without welding or brazing. Slotted central slot enables secure machine mounting. Used for cutting ultra-abrasive materials that steel blades cannot cut.',
     features: [
       'Solid tungsten carbide construction',
@@ -182,6 +188,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'slotted-yekpare-seramik': {
     name: 'Slotted Slitting Blade - Solid Ceramic (Zirconia)',
+    subtitle: 'Y-TZP Zirconia Ceramic — 57x19mm',
     description: 'Slotted slitting blade manufactured from solid zirconia (ZrO2) ceramic. Tetragonal polycrystalline zirconia (Y-TZP) structure provides extraordinary crack resistance while maintaining 1200 HV hardness. This completely metal-free blade is designed for applications where electrical conductivity is unwanted or metal contamination is unacceptable. Slotted design compatible with standard machines. Preferred in medical and food applications requiring biocompatibility.',
     features: [
       'Solid zirconia ceramic',
@@ -685,12 +692,14 @@ export const productsEn: Record<string, ProductTranslation> = {
   // =============================================================================
   'h006-001-x01': {
     name: 'RETRO LIGHT KNIFE – Cast Metal Hand Knife',
+    subtitle: 'Cast Metal Safety Knife',
     description: 'Cast metal body hand knife meeting safety standards. Durable cast metal construction with ergonomic design.',
     features: ['Cast metal body', 'Ergonomic design', 'Long lasting'],
     applications: ['General cutting', 'Package opening', 'Cardboard cutting'],
   },
   'h008-001-a03': {
     name: 'AUTO RETRACT – Auto-Retractable Safety Knife',
+    subtitle: 'Auto-Retractable Safety Knife',
     description: 'Auto-retractable safety knife with automatic blade retraction mechanism for maximum safety.',
     features: ['Auto retraction', 'Safety lock', 'Ergonomic grip'],
     applications: ['Warehouse work', 'Logistics', 'Production lines'],
@@ -703,6 +712,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   '3-delikli-jilet-020': {
     name: '3-Hole Slitting Blade 0.20mm',
+    subtitle: 'Titanium Coated - 0.20mm',
     description: 'Industrial slitting blade with 3 mounting holes, 0.20mm thickness. Sheffield quality steel with titanium coating for extended durability.',
     features: ['3 mounting holes', '0.20mm thickness', 'Sheffield quality', 'Titanium coating'],
     applications: ['Film slitting', 'Paper cutting', 'Textile cutting', 'Industrial slitting'],
@@ -727,6 +737,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'vakum-paketleme-bicak': {
     name: 'Vacuum Packaging Blade',
+    subtitle: 'Sheffield Steel — Thermoform & MAP Machines',
     description: 'Professional vacuum packaging machine blade manufactured from Sheffield steel. HRC 58-60 hardness, food-grade surface finish Ra ≤0.4 µm. Compatible with Multivac, Tiromat, GEA, Ulma, Sealpac, Webomatic thermoform and MAP packaging machines.',
     features: ['Sheffield high-carbon steel', 'HRC 58-60 hardness', 'Food-grade Ra ≤0.4 µm surface', 'HACCP & BRC compliant', 'CNC precision machined', '10+ machine brand compatibility'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'MAP (Modified Atmosphere) packaging', 'Food industry — meat, cheese, ready meals', 'Medical device packaging'],
@@ -757,6 +768,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'kontr-biai': {
     name: 'Contour Blade - Thermoform Vacuum Packaging Blade',
+    subtitle: 'Contour Profile Cutting — Sheffield Steel HRC 58-62',
     description: 'Professional contour blades for thermoform and vacuum packaging machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac machines. Sheffield steel, food-grade quality.',
     features: ['Contour design', 'Sheffield steel', 'Food industry approved', 'Clean and precise cuts', 'Titanium coating option'],
     applications: ['Vacuum packaging', 'Thermoforming', 'Food packaging', 'Meat and cheese packaging', 'Industrial packaging'],
@@ -778,6 +790,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'yarim': {
     name: 'Half Star Punches - Vacuum Packaging Triangle Blade',
+    subtitle: 'D2 Tool Steel — Half Star Geometry',
     description: 'Half star (triangle) punch blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
     features: ['Half star geometry', 'D2 Tool Steel', 'High wear resistance', 'Titanium coating option', 'Precision punching', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry punching', 'Meat and cheese packaging', 'Industrial packaging'],
@@ -798,6 +811,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'tam': {
     name: 'Full Star Punches - Vacuum Packaging Star Blade',
+    subtitle: 'D2 Tool Steel — Full Star Geometry',
     description: 'Full star punch blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
     features: ['Full star geometry', 'D2 Tool Steel', 'High wear resistance', 'Titanium coating option', 'Precision punching', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry punching', 'Meat and cheese packaging', 'Industrial packaging'],
@@ -818,6 +832,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'dz-biaklar': {
     name: 'Straight Blades - Lama Blades for Vacuum Packaging',
+    subtitle: 'HSS (M2) High Speed Steel — HRC 62-65',
     description: 'Straight (lama) blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from HSS (High Speed Steel), extremely durable, crush-resistant and stays sharp longer.',
     features: ['Straight edge geometry', 'HSS (High Speed Steel)', 'Extremely durable', 'Crush resistant', 'Stays sharp longer', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry cutting', 'Film cutting', 'Industrial packaging'],
@@ -839,6 +854,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'dairesel': {
     name: 'Circular Blades - Vacuum Packaging Rotary Blade',
+    subtitle: 'Sheffield Steel — Rotary Cutting HRC 58-62',
     description: 'Circular rotary blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Sheffield steel quality.',
     features: ['Circular geometry', 'Sheffield steel', 'Rotary cutting compatible', 'Precision cutting', 'Long-lasting', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Rotary cutting', 'Food industry', 'Industrial packaging'],
@@ -859,6 +875,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'yuvarlak': {
     name: 'Round Air Punch - Vacuum Packaging Air Hole Blade',
+    subtitle: '440C Martensitic Stainless Steel — Air Hole',
     description: 'Round air punch blades for vacuum packaging and thermoform machines. Air hole punching compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
     features: ['Round geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
@@ -879,6 +896,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'oval': {
     name: 'Oval Air Punch - Vacuum Packaging Air Hole Blade',
+    subtitle: '440C Martensitic Stainless Steel — Oval Air Hole',
     description: 'Oval air punch blades for vacuum packaging and thermoform machines. Air hole punching compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
     features: ['Oval geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
@@ -899,6 +917,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'dili': {
     name: 'Serrated Blades - Vacuum Packaging Saw-Tooth Blade',
+    subtitle: 'Sheffield Steel — Serrated Edge',
     description: 'Serrated (saw-tooth) cutting blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Sheffield steel, ideal for tough materials.',
     features: ['Saw-tooth edge', 'Sheffield steel', 'Ideal for tough materials', 'Anti-slip cutting', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Tough film cutting', 'Food industry', 'Industrial packaging'],

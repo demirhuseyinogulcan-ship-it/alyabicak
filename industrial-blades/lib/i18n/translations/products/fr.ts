@@ -38,6 +38,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   'slotted-karbon-celik': {
     name: 'Lame de Refendage à Fente - Acier Carbone',
+    subtitle: 'SK5 Acier Carbone — 57x19mm',
     description: 'Lame industrielle de refendage à fente en acier à haute teneur en carbone. Contrairement aux lames de rasoir ordinaires, fabriquée à partir d\'alliage d\'acier spécial à haute teneur en carbone (0,85-1,00% C). Le traitement thermique dans des fours à atmosphère contrôlée (austénitisation + trempe + revenu) obtient une microstructure martensitique homogène. La conception à fente permet un montage rapide et sécurisé sur machine par la fente centrale. Angle de tranchant optimisé de 22° avec meulage de précision.',
     features: [
       'Teneur élevée en carbone (0,85-1,00%)',
@@ -56,6 +57,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-karbon-titanyum': {
     name: 'Lame de Refendage à Fente - Acier Carbone + Revêtement Titane',
+    subtitle: 'Revêtement PVD Nitrure de Titane — 57x19mm',
     description: 'Revêtement TiN (nitrure de titane) sur corps en acier à haute teneur en carbone. Le revêtement de nitrure de titane appliqué par PVD (dépôt physique en phase vapeur) atteint une dureté de surface de 2300 HV. Ce revêtement doré réduit le coefficient de friction de 40%, minimisant la génération de chaleur pendant la coupe. La conception à fente centrale permet un montage machine en un seul mouvement. La résistance à l\'usure augmente de 2-3x par rapport à la version non revêtue.',
     features: [
       'Revêtement PVD TiN (nitrure de titane)',
@@ -74,6 +76,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-karbon-seramik': {
     name: 'Lame de Refendage à Fente - Acier Carbone + Revêtement Céramique',
+    subtitle: 'Revêtement Céramique Al₂O₃ — 57x19mm',
     description: 'Revêtement céramique avancé (à base de titane) sur substrat en acier à haute teneur en carbone. Le revêtement céramique multicouche appliqué par technologie hybride CVD/PVD fournit une dureté de surface allant jusqu\'à 3200 HV. Ce système de revêtement offre des performances supérieures dans la découpe de matériaux extrêmement abrasifs. Utilisation pratique avec système de montage à fente. L\'inertie chimique assure une longue durée de vie même dans des environnements corrosifs.',
     features: [
       'Technologie de revêtement céramique avancée',
@@ -92,6 +95,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-paslanmaz': {
     name: 'Lame de Refendage à Fente - Acier Inoxydable',
+    subtitle: '420HC Acier Inoxydable — 57x19mm',
     description: 'Lame de refendage à fente fabriquée en acier inoxydable martensitique AISI 420. La teneur en chrome de 12-14% fournit une résistance à la corrosion tandis que la structure martensitique atteint une dureté HRC 54-56. Préférée comme alternative à l\'acier au carbone dans les environnements humides, l\'industrie alimentaire et les applications nécessitant de l\'hygiène. La conception à fente offre un montage machine pratique. Approuvée FDA pour surfaces en contact alimentaire.',
     features: [
       'Acier inoxydable (AISI 420)',
@@ -110,6 +114,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-paslanmaz-titanyum': {
     name: 'Lame de Refendage à Fente - Acier Inoxydable + Revêtement Titane',
+    subtitle: 'Acier Inoxydable + Nitrure de Titane — 57x19mm',
     description: 'Revêtement TiN (nitrure de titane) sur acier inoxydable martensitique AISI 420. Solution hybride combinant la résistance à la corrosion de l\'acier inoxydable avec la résistance à l\'usure du revêtement titane. Le revêtement TiN appliqué par PVD augmente la dureté du tranchant à 2300 HV. Le système à fente permet des changements de lame rapides. Fournit une double protection dans les environnements à la fois humides et abrasifs.',
     features: [
       'Double protection inoxydable + titane',
@@ -128,6 +133,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-paslanmaz-xcd': {
     name: 'Lame de Refendage à Fente - Acier Inoxydable + Revêtement XCD',
+    subtitle: 'Revêtement DLC/XCD Type Diamant — 57x19mm',
     description: 'Technologie de revêtement XCD (Xtreme Carbon Diamond) sur acier inoxydable AISI 420. Ce revêtement de la famille DLC (Diamond-Like Carbon) offre des valeurs de dureté jusqu\'à 5000 HV grâce à une structure de carbone diamant. Le coefficient de friction tombe en dessous de 0,1, offrant d\'excellentes propriétés de glissement. Usage professionnel avec système de montage à fente. Empêche même les matériaux les plus adhésifs de coller au tranchant de coupe.',
     features: [
       'Revêtement carbone diamant XCD',
@@ -146,6 +152,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-endurium-seramik': {
     name: 'Lame de Refendage à Fente - Acier Endurium + Revêtement Céramique',
+    subtitle: 'Acier Rapide + Céramique — 57x19mm',
     description: 'Revêtement céramique multicouche sur substrat Endurium HSS (acier rapide). Solution premium combinant la résistance à haute température du HSS (8-10% tungstène, 4-5% molybdène, 4% chrome) avec la dureté extrême de la céramique. Pas de perte de dureté jusqu\'à 600°C, résistant au choc thermique dans les coupes interrompues et applications haute vitesse. Conception à fente compatible avec machines professionnelles. Conçue pour applications industrielles les plus exigeantes.',
     features: [
       'Acier rapide Endurium HSS',
@@ -164,6 +171,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-yekpare-tungsten': {
     name: 'Lame de Refendage à Fente - Carbure de Tungstène Massif',
+    subtitle: 'Structure Monolithique WC-Co — 57x19mm',
     description: 'Lame de refendage à fente fabriquée en composition carbure de tungstène massif (WC-Co). Ce matériau fritté contenant 94% de carbure de tungstène et 6% de liant cobalt atteint une dureté HRA 92-94 (équivalent HRC 75+). La structure monolithique produite par métallurgie des poudres fournit une intégrité sans soudure ni brasage. La fente centrale permet un montage machine sécurisé. Utilisée pour découper des matériaux ultra-abrasifs que les lames en acier ne peuvent pas couper.',
     features: [
       'Construction carbure de tungstène massif',
@@ -182,6 +190,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'slotted-yekpare-seramik': {
     name: 'Lame de Refendage à Fente - Céramique Massif (Zircone)',
+    subtitle: 'Céramique Zircone Y-TZP — 57x19mm',
     description: 'Lame de refendage à fente fabriquée en céramique zircone (ZrO2) massive. La structure de zircone polycristalline tétragonale (Y-TZP) fournit une résistance extraordinaire aux fissures tout en maintenant une dureté de 1200 HV. Cette lame totalement sans métal est conçue pour applications où la conductivité électrique n\'est pas souhaitée ou la contamination métallique est inacceptable. Conception à fente compatible avec machines standard. Préférée dans applications médicales et alimentaires nécessitant une biocompatibilité.',
     features: [
       'Céramique zircone massive',
@@ -520,6 +529,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   'h006-001-x01': {
     name: 'H006 001 X01 - RETRO LIGHT KNIFE',
+    subtitle: 'Couteau de Sécurité en Métal Moulé',
     description: 'Cutter manuel professionnel en métal moulé sous pression conforme aux normes de sécurité au travail. Performance durable avec tranchant de coupe produit en acier Sheffield.',
     features: [
       'Corps en métal moulé sous pression',
@@ -532,6 +542,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'h008-001-a03': {
     name: 'H008 001 A03 - AUTO RETRACT',
+    subtitle: 'Couteau de Sécurité Auto-Rétractable',
     description: 'Cutter manuel professionnel à mécanisme auto-rétractable pour sécurité maximale. La lame se rétracte automatiquement lorsque relâchée.',
     features: [
       'Mécanisme auto-rétractable',
@@ -1753,6 +1764,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   'vakum-paketleme-bicak': {
     name: 'Lame d\'Emballage Sous Vide',
+    subtitle: 'Acier Sheffield — Thermoformage & MAP',
     description: 'Lame professionnelle pour machines d\'emballage sous vide et thermoformage. Acier Sheffield HRC 58-60, finition alimentaire Ra ≤0.4 µm. Compatible Multivac, Tiromat, GEA, Ulma, Sealpac, Webomatic.',
     features: [
       'Acier Sheffield haute teneur en carbone',
@@ -1780,6 +1792,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'kontr-biai': {
     name: 'Lame Contour – Thermoformage & Emballage Sous Vide',
+    subtitle: 'Découpe Contour — Acier Sheffield HRC 58-62',
     description: 'Lame contour pour machines de thermoformage et emballage sous vide. Compatible Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac.',
     features: [
       'Acier Sheffield longue durée',
@@ -1807,6 +1820,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'yarim': {
     name: 'Poinçon Demi-Étoile – Emballage Sous Vide',
+    subtitle: 'Acier à Outils D2 — Demi-Étoile',
     description: 'Poinçon demi-étoile (half star) pour machines d\'emballage sous vide et thermoformage. Acier D2 haute résistance à l\'usure.',
     features: [
       'Géométrie demi-étoile',
@@ -1834,6 +1848,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'tam': {
     name: 'Poinçon Étoile Complète – Emballage Sous Vide',
+    subtitle: 'Acier à Outils D2 — Étoile Complète',
     description: 'Poinçon étoile complète (full star) pour machines d\'emballage sous vide et thermoformage. Compatible Multivac, Tiromat et autres.',
     features: [
       'Géométrie étoile complète',
@@ -1861,6 +1876,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'dz-biaklar': {
     name: 'Lames Droites (Lama) – Emballage Sous Vide',
+    subtitle: 'HSS (M2) Acier Rapide — HRC 62-65',
     description: 'Lames droites (straight/lama) pour machines d\'emballage sous vide et thermoformage. Acier HSS haute vitesse, extrêmement résistant.',
     features: [
       'Géométrie droite',
@@ -1889,6 +1905,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'dairesel': {
     name: 'Lames Circulaires – Emballage Sous Vide',
+    subtitle: 'Acier Sheffield — Découpe Rotative HRC 58-62',
     description: 'Lames circulaires rotatives pour machines d\'emballage sous vide et thermoformage. Compatible Multivac, Tiromat et autres.',
     features: [
       'Géométrie circulaire',
@@ -1916,6 +1933,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'yuvarlak': {
     name: 'Poinçon Rond d\'Aération – Emballage Sous Vide',
+    subtitle: '440C Acier Inox Martensitique — Trou de Ventilation',
     description: 'Poinçon rond pour trous d\'aération sur emballages sous vide. Acier inoxydable 440C haute résistance à la corrosion.',
     features: [
       'Géométrie ronde',
@@ -1943,6 +1961,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'oval': {
     name: 'Poinçon Ovale d\'Aération – Emballage Sous Vide',
+    subtitle: '440C Acier Inox Martensitique — Trou Ovale',
     description: 'Poinçon ovale (ellipse) pour trous d\'aération sur emballages sous vide. Acier inoxydable 440C.',
     features: [
       'Géométrie ovale',
@@ -1970,6 +1989,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'dili': {
     name: 'Lames Dentées – Emballage Sous Vide',
+    subtitle: 'Acier Sheffield — Bord Dentelé',
     description: 'Lames dentées (serrated) pour machines d\'emballage sous vide et thermoformage. Idéal pour matériaux durs.',
     features: [
       'Tranchant denté',

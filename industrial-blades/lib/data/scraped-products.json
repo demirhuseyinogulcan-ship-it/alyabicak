@@ -5066,7 +5066,7 @@
   {
     "id": "kontr-biai",
     "slug": "kontr-biai-termoform-vakum-paketleme-bicagi",
-    "code": "KONTÖR BIÇAĞI",
+    "code": "CONTOUR BLADE",
     "name": "KONTÖR BIÇAĞI - Termoform Vakum Paketleme Bıçağı",
     "description": "Termoform ve vakum paketleme makinaları için kontör (contour) bıçağı. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac gibi markaların makinalarına uyumlu. Sheffield çeliğinden üretilmiş, gıda sanayiinde kullanıma uygun profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
@@ -5095,7 +5095,7 @@
     "variants": [
       {
         "id": "kontr-biai-termoform-vakum-paketleme-bicagi-standard",
-        "sku": "KONTÖR BIÇAĞI",
+        "sku": "CONTOUR BLADE",
         "inStock": true
       }
     ],
@@ -5125,7 +5125,7 @@
   {
     "id": "yarim",
     "slug": "yarim-yildiz-zimbalar",
-    "code": "YARIM YILDIZ",
+    "code": "HALF STAR PUNCH",
     "name": "YARIM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları",
     "description": "Yarım yıldız (half star) zımba bıçakları. Vakum paketleme ve termoform makinaları için. Üçgen bıçak olarak da bilinir. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. D2 çeliğinden üretilmiş, yüksek aşınma dayanımlı. Titanyum kaplama seçeneği mevcuttur.",
     "categoryId": "machine-knives",
@@ -5197,7 +5197,7 @@
   {
     "id": "tam",
     "slug": "tam-yildiz-zimbalar",
-    "code": "TAM YILDIZ",
+    "code": "FULL STAR PUNCH",
     "name": "TAM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları",
     "description": "Tam yıldız (full star) zımba bıçakları. Vakum paketleme ve termoform makinaları için. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. D2 çeliğinden üretilmiş, yüksek aşınma dayanımlı. Titanyum kaplama seçeneği mevcuttur.",
     "categoryId": "machine-knives",
@@ -5267,7 +5267,7 @@
   {
     "id": "dz-biaklar",
     "slug": "dz-biaklar-lama-bicaklar",
-    "code": "LAMA BIÇAK",
+    "code": "STRAIGHT BLADE",
     "name": "DÜZ BIÇAKLAR - Lama Bıçaklar | Vakum Paketleme",
     "description": "Düz (straight) lama bıçaklar. Vakum paketleme ve termoform makinaları için. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu düz kesim bıçakları. HSS (High Speed Steel - Yüksek Hız Çeliği) malzemeden üretilmiş, son derece sağlam, ezilmez ve kolay kolay körelmez. Gıda sanayiine uygun.",
     "categoryId": "machine-knives",
@@ -5328,7 +5328,7 @@
   {
     "id": "dairesel",
     "slug": "dairesel-bicaklar-vakum-paketleme",
-    "code": "DAİRESEL",
+    "code": "CIRCULAR BLADE",
     "name": "DAİRESEL BIÇAKLAR - Vakum Paketleme Döner Bıçak",
     "description": "Dairesel (circular) döner bıçaklar. Vakum paketleme ve termoform makinaları için. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu dairesel kesim bıçakları. Sheffield çeliğinden üretilmiş.",
     "categoryId": "machine-knives",
@@ -5382,7 +5382,7 @@
   {
     "id": "yuvarlak",
     "slug": "yuvarlak-hava-zimbasi-vakum-paketleme",
-    "code": "YUVARLAK ZIMBA",
+    "code": "ROUND AIR PUNCH",
     "name": "YUVARLAK HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı",
     "description": "Yuvarlak (round) hava zımba bıçakları. Vakum paketleme ve termoform makinaları için hava delikli zımba. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. 440C paslanmaz çelikten üretilmiş, yüksek korozyon dayanımlı, gıda sanayiine uygun.",
     "categoryId": "machine-knives",
@@ -5442,7 +5442,7 @@
   {
     "id": "oval",
     "slug": "oval-hava-zimbasi-vakum-paketleme",
-    "code": "OVAL ZIMBA",
+    "code": "OVAL AIR PUNCH",
     "name": "OVAL HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı",
     "description": "Oval (ellipse) hava zımba bıçakları. Vakum paketleme ve termoform makinaları için hava delikli zımba. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. 440C paslanmaz çelikten üretilmiş, yüksek korozyon dayanımlı, gıda sanayiine uygun.",
     "categoryId": "machine-knives",
@@ -5502,7 +5502,7 @@
   {
     "id": "dili",
     "slug": "disli-bicaklar-vakum-paketleme",
-    "code": "DİŞLİ BIÇAK",
+    "code": "SERRATED BLADE",
     "name": "DİŞLİ BIÇAKLAR - Vakum Paketleme Testere Dişli Bıçak",
     "description": "Dişli (serrated) kesim bıçakları. Vakum paketleme ve termoform makinaları için testere dişli bıçak. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. Sheffield çeliğinden üretilmiş, sert malzemeler için ideal.",
     "categoryId": "machine-knives",

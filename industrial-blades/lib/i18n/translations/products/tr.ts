@@ -11,6 +11,7 @@
 
 export interface ProductTranslation {
   name: string;
+  subtitle?: string;
   description?: string;
   shortDescription?: string;
   features?: string[];
