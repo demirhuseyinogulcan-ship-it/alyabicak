@@ -2055,10 +2055,18 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
         }))
       : product.benefits;
 
+    // SEO çevirisi: title, description, keywords — Google indexleme için kritik
+    const translatedSeo = translation.seo
+      ? {
+          ...product.seo,
+          ...translation.seo,
+        }
+      : product.seo;
+
     return {
       ...product,
       name: translation.name,
-      shortDescription: translation.description || product.shortDescription,
+      shortDescription: translation.description || translation.shortDescription || product.shortDescription,
       features: translation.features || product.features,
       applications: translation.applications
         ? translation.applications.map(app => ({ title: app, description: '' }))
@@ -2066,6 +2074,7 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
       benefits: translatedBenefits,
       longDescription: translation.longDescription || product.longDescription,
       specs: translatedSpecs || product.specs,
+      seo: translatedSeo,
       // Alt text'i de güncelle (image SEO için)
       images: {
         ...product.images,

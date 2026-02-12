@@ -7,6 +7,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
+import type { Locale } from '@/lib/i18n'
 import { SectionHeader } from '@/components/ui'
 import { getDateLocale } from '@/lib/i18n/locale-utils'
 
@@ -22,7 +23,7 @@ interface BlogSectionProps {
 }
 
 export default function BlogSection({ locale = 'tr', translations }: BlogSectionProps) {
-  const posts = blogService.getRecentPosts(3)
+  const posts = blogService.getRecentPosts(3, locale as Locale)
 
   // Fallback translations
   const t = translations || {
