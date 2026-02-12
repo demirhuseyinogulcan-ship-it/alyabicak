@@ -39,8 +39,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return generateSeoMetadata({
-    title: titles[locale],
-    description: descriptions[locale],
+    title: titles[locale] || titles['en'] || titles['tr'],
+    description: descriptions[locale] || descriptions['en'] || descriptions['tr'],
     locale,
     path: '/quality-standards',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/quality-standards`,

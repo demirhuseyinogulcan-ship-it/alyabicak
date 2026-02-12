@@ -8,6 +8,18 @@ import {
 } from '../../config/domains'
 
 /**
+ * Locale-aware website descriptions
+ * Yeni dil eklendiğinde buraya ekleyin — fallback EN'e düşer
+ */
+const WEBSITE_DESCRIPTIONS: Record<string, string> = {
+  tr: 'Endüstriyel kesici bıçaklar ve sanayi jiletleri',
+  en: 'Industrial cutting blades and razors',
+  ar: 'شفرات القطع الصناعية والشفرات',
+  ru: 'Промышленные режущие лезвия и ножи',
+  fr: 'Lames de coupe industrielles et rasoirs',
+}
+
+/**
  * WebSite Schema with SearchAction
  * Google Sitelinks Search Box için gerekli
  */
@@ -22,15 +34,7 @@ export function generateWebsiteSchema(locale: Locale) {
     '@id': `${domain}/#website`,
     url: domain,
     name: siteName,
-    description: locale === 'tr'
-      ? 'Endüstriyel kesici bıçaklar ve sanayi jiletleri'
-      : locale === 'ar'
-        ? 'شفرات القطع الصناعية والشفرات'
-        : locale === 'ru'
-          ? 'Промышленные режущие лезвия и ножи'
-          : locale === 'fr'
-            ? 'Lames de coupe industrielles et rasoirs'
-            : 'Industrial cutting blades and razors',
+    description: WEBSITE_DESCRIPTIONS[locale] || WEBSITE_DESCRIPTIONS.en,
     inLanguage,
     publisher: {
       '@type': 'Organization',

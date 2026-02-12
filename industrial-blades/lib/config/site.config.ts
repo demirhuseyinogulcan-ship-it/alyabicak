@@ -31,6 +31,7 @@ export const siteConfig = {
     en: 'https://alyablade.com',
     ar: 'https://alyablade.com',
     ru: 'https://alyablade.com',
+    fr: 'https://alyablade.com',
   },
   
   // İletişim Bilgileri

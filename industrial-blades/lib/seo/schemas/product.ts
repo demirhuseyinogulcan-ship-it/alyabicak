@@ -7,6 +7,22 @@ import {
   type SupportedLocale
 } from '../../config/domains'
 
+/**
+ * Locale-aware schema property labels
+ * Google Structured Data'da property isimleri locale'e göre değişmeli
+ */
+const SCHEMA_LABELS: Record<string, Record<string, string>> = {
+  origin: {
+    tr: 'Menşei', en: 'Origin', ar: 'المنشأ', ru: 'Происхождение', fr: 'Origine',
+  },
+  qualityStandard: {
+    tr: 'Kalite Standardı', en: 'Quality Standard', ar: 'معيار الجودة', ru: 'Стандарт качества', fr: 'Norme de qualité',
+  },
+  countryName: {
+    tr: 'İngiltere', en: 'England', ar: 'إنجلترا', ru: 'Англия', fr: 'Angleterre',
+  },
+}
+
 export function generateProductSchema(product: {
   name: string
   description: string
@@ -163,14 +179,14 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     additionalProperty: [
       {
         '@type': 'PropertyValue',
-        name: 'Menşei',
+        name: SCHEMA_LABELS.origin[product.locale] || SCHEMA_LABELS.origin.en,
         value: product.origin?.city
-          ? `${product.origin.city}, ${product.origin.country || 'Ingiltere'}`
-          : 'Sheffield, İngiltere',
+          ? `${product.origin.city}, ${product.origin.country || SCHEMA_LABELS.countryName[product.locale] || SCHEMA_LABELS.countryName.en}`
+          : `Sheffield, ${SCHEMA_LABELS.countryName[product.locale] || SCHEMA_LABELS.countryName.en}`,
       },
       {
         '@type': 'PropertyValue',
-        name: 'Kalite Standardı',
+        name: SCHEMA_LABELS.qualityStandard[product.locale] || SCHEMA_LABELS.qualityStandard.en,
         value: 'ISO 9001:2015',
       },
       ...specProperties,

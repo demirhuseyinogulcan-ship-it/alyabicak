@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { headers } from 'next/headers'
 import { getAllCategories, getAllSubcategories } from '@/lib/data/categories'
 import { getAllProducts, getProductCountBySubcategory } from '@/lib/data/products'
 import { blogService } from '@/lib/data/blog'
@@ -6,9 +7,11 @@ import { i18nConfig, type Locale } from '@/lib/i18n/config'
 import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 
 /**
- * Multi-domain sitemap configuration
- * - alyabicak.com → Turkish content
- * - alyablade.com → English & Arabic content
+ * Domain-aware sitemap
+ * 
+ * Google Best Practice: Her domain sadece kendi URL'lerini sitemap'e dahil etmeli.
+ * - alyabicak.com/sitemap.xml → Sadece /tr/ URL'leri
+ * - alyablade.com/sitemap.xml → Sadece /en/, /ar/, /ru/, /fr/ URL'leri
  * 
  * NOT: Ürünü olmayan alt kategoriler sitemap'e dahil edilmez (Soft 404 önleme)
  */
@@ -23,8 +26,23 @@ function getAlternates(path: string): Record<string, string> {
   return getHreflangUrls(path)
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const locales = i18nConfig.locales
+/**
+ * Domain'e göre hangi locale'lerin sitemap'e dahil edileceğini belirle
+ */
+function getLocalesForDomain(host: string): Locale[] {
+  const isTurkishDomain = host.includes('alyabicak.com')
+  if (isTurkishDomain) {
+    return ['tr'] as Locale[]
+  }
+  // Global domain: TR hariç tüm diller
+  return i18nConfig.locales.filter(l => l !== 'tr') as Locale[]
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Domain-aware: Host header'dan hangi domain olduğunu belirle
+  const headersList = await headers()
+  const host = headersList.get('host') || headersList.get('x-forwarded-host') || 'alyablade.com'
+  const locales = getLocalesForDomain(host)
 
   // Ana sayfalar (her dil için)
   const staticRoutes = [

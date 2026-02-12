@@ -110,7 +110,8 @@ export default async function ContactPage({ params }: PageProps) {
     },
   }
 
-  const l = labels[locale]
+  // Defensive fallback: desteklenmeyen locale gelirse en → tr zinciri
+  const l = labels[locale] || labels['en'] || labels['tr']
 
   return (
     <div className="min-h-screen">

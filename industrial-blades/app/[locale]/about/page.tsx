@@ -236,7 +236,8 @@ export default async function AboutPage({ params }: PageProps) {
     },
   }
 
-  const c = content[locale]
+  // Defensive fallback: desteklenmeyen locale gelirse en → tr zinciri
+  const c = content[locale] || content['en'] || content['tr']
 
   return (
     <div className="min-h-screen">

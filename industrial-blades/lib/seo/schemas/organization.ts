@@ -53,7 +53,7 @@ export function generateOrganizationSchema(locale?: Locale) {
       '@type': 'ContactPoint',
       telephone: siteConfig.contact.phoneRaw,
       contactType: 'customer service',
-      areaServed: ['TR', 'EU', 'ME'],
+      areaServed: ['TR', 'EU', 'ME', 'SA', 'AE', 'RU', 'FR', 'GB', 'DE', 'US', 'CN', 'JP', 'KR', 'IN'],
       availableLanguage: availableLanguages,
     },
     sameAs: [

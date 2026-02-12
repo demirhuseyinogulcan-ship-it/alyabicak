@@ -6,6 +6,18 @@ import {
 } from '../../config/domains'
 
 /**
+ * Locale-aware TechArticle dependencies
+ * Yeni dil eklendiğinde buraya ekleyin — fallback EN'e düşer
+ */
+const ARTICLE_DEPENDENCIES: Record<string, string> = {
+  tr: 'Endüstriyel üretim ve malzeme bilimi bilgisi',
+  en: 'Industrial manufacturing and material science knowledge',
+  ar: 'معرفة التصنيع الصناعي وعلوم المواد',
+  ru: 'Знания в области промышленного производства и материаловедения',
+  fr: 'Connaissances en fabrication industrielle et science des matériaux',
+}
+
+/**
  * Article Schema Generator - Blog/Bülten yazıları için
  * TechArticle kullanılıyor (endüstriyel teknik içerik)
  */
@@ -77,12 +89,6 @@ export function generateArticleSchema(post: {
     wordCount: wordCount,
     inLanguage: SCHEMA_LANGUAGE[locale] || locale,
     proficiencyLevel: 'Expert',
-    dependencies: {
-      tr: 'Endüstriyel üretim ve malzeme bilimi bilgisi',
-      en: 'Industrial manufacturing and material science knowledge',
-      ar: 'معرفة التصنيع الصناعي وعلوم المواد',
-      ru: 'Знания в области промышленного производства и материаловедения',
-      fr: 'Connaissances en fabrication industrielle et science des matériaux',
-    }[locale] || 'Industrial manufacturing knowledge',
+    dependencies: ARTICLE_DEPENDENCIES[locale] || ARTICLE_DEPENDENCIES.en,
   }
 }

@@ -46,10 +46,36 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
   }, []);
 
   const switchLocale = (newLocale: Locale) => {
-    // Mevcut path'ten locale'i çıkar ve yeni locale ile değiştir
-    const segments = pathname.split('/');
-    segments[1] = newLocale;
-    const newPath = segments.join('/');
+    // =========================================================================
+    // HREFLANG-AWARE LOCALE SWITCH
+    // Next.js Metadata API tarafından üretilen <link rel="alternate"> tag'larını
+    // DOM'dan okuyarak doğru locale URL'ini belirler.
+    // Bu sayede ürün sayfalarında slug çevirisi otomatik çalışır:
+    //   /tr/products/vakum-paketleme-bicagi → /en/products/vacuum-packaging-knife
+    // =========================================================================
+    let newPath: string;
+
+    // 1. DOM'daki hreflang metadata'sından doğru URL'i oku
+    const alternateLink = typeof document !== 'undefined'
+      ? document.querySelector(`link[rel="alternate"][hreflang="${newLocale}"]`)
+      : null;
+
+    if (alternateLink) {
+      try {
+        const alternateUrl = new URL(alternateLink.getAttribute('href')!);
+        newPath = alternateUrl.pathname;
+      } catch {
+        // URL parse hatası — fallback'e düş
+        const segments = pathname.split('/');
+        segments[1] = newLocale;
+        newPath = segments.join('/');
+      }
+    } else {
+      // 2. Fallback: basit locale prefix değişikliği
+      const segments = pathname.split('/');
+      segments[1] = newLocale;
+      newPath = segments.join('/');
+    }
     
     // Cookie'yi güncelle
     document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;

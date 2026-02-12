@@ -1,6 +1,14 @@
 import { MetadataRoute } from 'next'
+import { headers } from 'next/headers'
 
-export default function robots(): MetadataRoute.Robots {
+export default async function robots(): Promise<MetadataRoute.Robots> {
+  // Domain-aware: Her domain sadece kendi sitemap'ini referans etmeli
+  const headersList = await headers()
+  const host = headersList.get('host') || headersList.get('x-forwarded-host') || 'alyablade.com'
+  const isTurkishDomain = host.includes('alyabicak.com')
+
+  const currentDomain = isTurkishDomain ? 'https://alyabicak.com' : 'https://alyablade.com'
+
   return {
     rules: [
       {
@@ -30,12 +38,10 @@ export default function robots(): MetadataRoute.Robots {
         allow: ['/llms.txt', '/'],
       },
     ],
-    // Multi-domain sitemaps - Regular + Image sitemaps
+    // Domain-aware sitemaps — her domain sadece kendi sitemap'ini gösterir
     sitemap: [
-      'https://alyabicak.com/sitemap.xml',
-      'https://alyablade.com/sitemap.xml',
-      'https://alyabicak.com/image-sitemap.xml',
-      'https://alyablade.com/image-sitemap.xml',
+      `${currentDomain}/sitemap.xml`,
+      `${currentDomain}/image-sitemap.xml`,
     ],
   }
 }

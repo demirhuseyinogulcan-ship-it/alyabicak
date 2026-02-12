@@ -5,11 +5,12 @@
  * Yeni dil veya domain eklerken SADECE bu dosyayı güncelleyin.
  * 
  * ═══════════════════════════════════════════════════════════
- * 📝 YENİ DİL EKLEME REHBERİ (7 Adım):
+ * 📝 YENİ DİL EKLEME REHBERİ (10 Adım):
  * ═══════════════════════════════════════════════════════════
  * 
- * ADIM 1 — Config (2 dosya):
- *   ├─ lib/config/domains.ts        → LOCALE_DOMAINS objesine yeni dili ekle
+ * ADIM 1 — Config (3 dosya):
+ *   ├─ lib/config/domains.ts        → LOCALE_DOMAINS + OG_LOCALE_MAP objesine yeni dili ekle
+ *   ├─ lib/config/site.config.ts    → domains objesine yeni dili ekle (tutarlılık)
  *   └─ lib/i18n/config.ts           → locales, localeNames, localeFlags'e ekle
  * 
  * ADIM 2 — UI Çevirileri (2 dosya):
@@ -28,10 +29,33 @@
  *   └─ lib/i18n/locale-utils.ts → BRAND_NAME, DATE_LOCALE, SCHEMA_LANGUAGE,
  *                                  YANDEX_VERIFICATION, WHATSAPP_SITE'a ekle
  * 
- * ADIM 5 — Doğrulama:
- *   └─ npx next build → TypeScript eksik key HATASI verirse düzelt
+ * ADIM 5 — Sayfa İçerikleri (6 dosya) — ⚠️ KRİTİK: ATLANIRSA 500 HATASI
+ *   ├─ app/[locale]/about/page.tsx           → content objesine yeni dili ekle
+ *   ├─ app/[locale]/contact/page.tsx         → labels objesine yeni dili ekle
+ *   ├─ app/[locale]/consulting/page.tsx      → content objesine yeni dili ekle
+ *   ├─ app/[locale]/quality-standards/page.tsx → content + titles + descriptions'a ekle
+ *   ├─ app/[locale]/privacy-policy/page.tsx  → content + titles + descriptions'a ekle
+ *   └─ app/[locale]/cookie-policy/page.tsx   → content + titles + descriptions'a ekle
  * 
- * TOPLAM: ~11 dosya dokunulmalı (TypeScript eksik key'leri yakalayacaktır)
+ * ADIM 6 — SEO Schema (3 dosya):
+ *   ├─ lib/seo/schemas/product.ts    → SCHEMA_LABELS Record'larına yeni dili ekle
+ *   ├─ lib/seo/schemas/website.ts    → WEBSITE_DESCRIPTIONS Record'a yeni dili ekle
+ *   └─ lib/seo/schemas/article.ts    → ARTICLE_DEPENDENCIES Record'a yeni dili ekle
+ * 
+ * ADIM 7 — SEO Metadata (1 dosya):
+ *   └─ lib/seo/metadata.ts → SEO_SEED_KEYWORDS Record'a yeni dili ekle
+ *
+ * ADIM 8 — FAQ (1 dosya):
+ *   └─ lib/data/faq/locales/xx.json  → tr.json'u kopyala ve çevir
+ * 
+ * ADIM 9 — Doğrulama:
+ *   ├─ npm run build           → TypeScript eksik key HATASI verirse düzelt
+ *   └─ npm run check-i18n     → Çeviri coverage raporunu kontrol et
+ * 
+ * ADIM 10 — Product page breadcrumb (1 dosya):
+ *   └─ app/[locale]/products/[slug]/page.tsx → getCategoryDisplayName fonksiyonuna ekle
+ * 
+ * TOPLAM: ~22 dosya dokunulmalı (TypeScript eksik key'leri yakalayacaktır)
  * ═══════════════════════════════════════════════════════════
  * 
  * @example Almanca eklemek için:
