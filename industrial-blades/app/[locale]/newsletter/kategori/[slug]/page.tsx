@@ -39,6 +39,8 @@ export async function generateMetadata({ params }: PageProps) {
     return genMeta({
         title: `${category.name} - ${dict.blog.title}`,
         description: category.description || dict.blog.subtitle,
+        locale,
+        path: `/newsletter/kategori/${slug}`,
         url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/kategori/${slug}`,
     })
 }

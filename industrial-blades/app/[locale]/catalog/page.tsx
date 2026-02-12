@@ -19,7 +19,8 @@ export async function generateMetadata({ params }: PageProps) {
   return genMeta({
     title: dict.catalog.title,
     description: dict.catalog.subtitle,
-    keywords: ['katalog', 'ürün kataloğu', 'bıçak kataloğu', 'pdf katalog'],
+    locale,
+    path: '/catalog',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/catalog`,
   })
 }

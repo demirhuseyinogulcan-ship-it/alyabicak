@@ -34,6 +34,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return generateSeoMetadata({
     title: titles[locale] || titles.tr,
     description: descriptions[locale] || descriptions.tr,
+    locale,
+    path: '/cookie-policy',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/cookie-policy`,
   })
 }

@@ -2,6 +2,7 @@
  * Home Page - Localized
  */
 
+import { Metadata } from 'next';
 import HeroSlider from '@/components/HeroSlider';
 import CategoryGrid from '@/components/CategoryGrid';
 import SheffieldSection from '@/components/SheffieldSection';
@@ -12,9 +13,24 @@ import ValueProposition from '@/components/ValueProposition';
 import TrustLogos from '@/components/TrustLogos';
 import { siteConfig } from '@/lib/config';
 import { getDictionary, type Locale } from '@/lib/i18n';
+import { generateMetadata as genMeta } from '@/lib/seo';
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
 
 interface HomePageProps {
   params: Promise<{ locale: Locale }>;
+}
+
+export async function generateMetadata({ params }: HomePageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
+
+  return genMeta({
+    title: dict.meta.title,
+    description: dict.meta.description,
+    locale,
+    path: '',
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}`,
+  });
 }
 
 export default async function HomePage({ params }: HomePageProps) {

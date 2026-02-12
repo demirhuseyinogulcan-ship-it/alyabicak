@@ -22,6 +22,7 @@ import { siteConfig } from '@/lib/config/site.config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 import { getBrandName } from '@/lib/i18n/locale-utils';
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
+import { getCategoryById } from '@/lib/data/categories';
 
 interface ProductPageProps {
   params: Promise<{ locale: Locale; slug: string }>;
@@ -65,7 +66,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       title,
       description,
       type: 'website',
-      url: `${siteConfig.url}/${locale}/products/${slug}`,
+      url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/products/${slug}`,
       images: [
         {
           url: product.images.main.src,
@@ -113,9 +114,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   // Breadcrumb items (locale-aware)
   const homeLabel = dict.nav.home;
+  const category = getCategoryById(product.categoryId);
+  const categorySlug = category?.slug || product.categoryId;
   const breadcrumbItems = [
     { label: dict.nav.categories, href: `/${locale}/categories` },
-    { label: getCategoryDisplayName(product.categoryId, locale), href: `/${locale}/categories/${product.categoryId}` },
+    { label: getCategoryDisplayName(product.categoryId, locale), href: `/${locale}/categories/${categorySlug}` },
     { label: product.name },
   ];
 

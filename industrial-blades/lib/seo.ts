@@ -47,28 +47,59 @@ function getCanonicalUrl(locale: Locale, path: string = ''): string {
   return getCanonicalUrlFromConfig(locale as SupportedLocale, path)
 }
 
+/**
+ * Locale-aware SEO seed keywords
+ * Her locale için ana keyword seti — generateMetadata tüm sayfalara bunları ekler
+ * 
+ * YENİ DİL EKLENDİĞİNDE: Yeni locale key'ini ekleyin
+ */
+const SEO_SEED_KEYWORDS: Record<Locale, string[]> = {
+  tr: ['alya bıçak', 'endüstriyel bıçak', 'sanayi jileti', 'kesici bıçak'],
+  en: ['alya blade', 'industrial blade', 'industrial razor', 'cutting blade'],
+  ar: ['شفرات صناعية', 'شفرات القطع', 'alya blade', 'سكاكين صناعية'],
+  ru: ['промышленные лезвия', 'режущие лезвия', 'alya blade', 'промышленные ножи'],
+  fr: ['lames industrielles', 'lames de coupe', 'alya blade', 'rasoirs industriels'],
+}
+
+/**
+ * Locale-aware metadata generator
+ * 
+ * ZORUNLU: `locale` parametresi verilmelidir — tüm SEO sinyallerinin
+ * dil tutarlılığı (title suffix, keywords, OG locale, siteName) buna bağlıdır.
+ * 
+ * ÖNERİLEN: `path` parametresi verilmelidir — hreflang alternates üretimi
+ * ve cross-domain canonical URL oluşturmak için gereklidir.
+ */
 export function generateMetadata(config: SEOConfig): Metadata {
+  // Locale fallback: verilmezse 'tr' kullan (geriye dönük uyumluluk)
+  const locale = (config.locale || 'tr') as Locale
+  const brandName = BRAND_NAME[locale] || BRAND_NAME.en
+
+  // Title suffix — locale'e göre doğru marka adı
   const title = config.title.includes('Alya Bıçak') || config.title.includes('Alya Blade')
     ? config.title
-    : `${config.title} | Alya Bıçak`
+    : `${config.title} | ${brandName}`
 
+  // Keywords — locale'e göre seed keywords + sayfa bazlı keywords
+  const seedKeywords = SEO_SEED_KEYWORDS[locale] || SEO_SEED_KEYWORDS.en
   const keywords = [
-    'alya bıçak',
-    'alya bıçakları',
-    'endüstriyel bıçak',
-    'kesici bıçak',
+    ...seedKeywords,
     ...(config.keywords || [])
   ].join(', ')
 
-  const ogLocale = config.locale ? getOGLocale(config.locale as SupportedLocale) : 'tr_TR'
+  // OG locale — her zaman locale'den türetilir
+  const ogLocale = getOGLocale(locale as SupportedLocale)
 
-  // Generate canonical URL based on locale and domain
-  const canonicalUrl = config.locale && config.path
-    ? getCanonicalUrl(config.locale, config.path)
+  // Canonical URL — locale + path varsa domain-aware, yoksa url fallback
+  const canonicalUrl = config.path
+    ? getCanonicalUrl(locale, config.path)
     : config.url
 
-  // Generate hreflang alternates
+  // Hreflang alternates — path varsa tüm locale'ler için üretilir
   const hreflangUrls = config.path ? getHreflangUrlsFromConfig(config.path) : {}
+
+  // Domain-aware OG image URL
+  const domainUrl = getDomainUrl(locale as SupportedLocale)
 
   return {
     title,
@@ -78,8 +109,8 @@ export function generateMetadata(config: SEOConfig): Metadata {
       title,
       description: config.description,
       url: canonicalUrl,
-      siteName: 'Alya Bıçak',
-      images: config.image ? [{ url: config.image }] : [{ url: `${siteConfig.url}/images/og-image.jpg` }],
+      siteName: brandName,
+      images: config.image ? [{ url: config.image }] : [{ url: `${domainUrl}/images/og-image.jpg` }],
       locale: ogLocale,
       type: config.type || 'website',
     },
@@ -87,7 +118,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
       card: 'summary_large_image',
       title,
       description: config.description,
-      images: config.image ? [config.image] : [`${siteConfig.url}/images/og-image.jpg`],
+      images: config.image ? [config.image] : [`${domainUrl}/images/og-image.jpg`],
     },
     alternates: {
       canonical: canonicalUrl,
@@ -272,14 +303,8 @@ export function generateWebsiteSchema(locale: Locale) {
       '@type': 'Organization',
       name: siteConfig.company.legalName,
     },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${domain}/${locale}/search?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
+    // NOT: SearchAction kaldırıldı — /search route mevcut değil.
+    // İleride /search sayfası eklenirse potentialAction buraya eklenecek.
   }
 }
 
@@ -385,7 +410,7 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     // Marka & Üretici
     brand: {
       '@type': 'Brand',
-      name: product.origin?.brand || product.brand || 'Alya Bıçak',
+      name: product.origin?.brand || product.brand || BRAND_NAME[product.locale] || BRAND_NAME.en,
     },
     manufacturer: {
       '@type': 'Organization',

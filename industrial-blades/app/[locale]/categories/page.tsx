@@ -21,7 +21,8 @@ export async function generateMetadata({ params }: PageProps) {
   return generateSeoMetadata({
     title: dict.categories.title,
     description: dict.categories.subtitle,
-    keywords: ['kategoriler', 'ürünler', 'sanayi jiletleri', 'makina bıçakları'],
+    locale,
+    path: '/categories',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories`,
   })
 }

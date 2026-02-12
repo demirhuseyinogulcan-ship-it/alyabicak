@@ -36,6 +36,8 @@ export async function generateMetadata({ params }: PageProps) {
     return genMeta({
         title: `#${decodedTag} - ${dict.blog.title}`,
         description: `${decodedTag} ${dict.blog.subtitle}`,
+        locale,
+        path: `/newsletter/etiket/${slug}`,
         url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/etiket/${slug}`,
     })
 }

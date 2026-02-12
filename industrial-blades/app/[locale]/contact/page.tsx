@@ -21,7 +21,8 @@ export async function generateMetadata({ params }: PageProps) {
   return genMeta({
     title: dict.contact.title,
     description: dict.contact.subtitle,
-    keywords: ['iletişim', 'destek', 'müşteri hizmetleri', 'fiyat teklifi'],
+    locale,
+    path: '/contact',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/contact`,
   })
 }

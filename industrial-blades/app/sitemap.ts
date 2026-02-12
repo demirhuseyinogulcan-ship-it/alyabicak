@@ -36,6 +36,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/categories',
     '/newsletter',
     '/catalog',
+    '/faq',
+    '/privacy-policy',
+    '/cookie-policy',
   ]
 
   // Her dil için static route'lar

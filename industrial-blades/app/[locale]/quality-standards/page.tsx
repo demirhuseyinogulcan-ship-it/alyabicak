@@ -41,7 +41,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return generateSeoMetadata({
     title: titles[locale],
     description: descriptions[locale],
-    keywords: ['kalite standartları', 'alya kalitesi', 'sheffield çelik', 'endüstriyel bıçak kalitesi'],
+    locale,
+    path: '/quality-standards',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/quality-standards`,
   })
 }

@@ -20,7 +20,8 @@ export async function generateMetadata({ params }: PageProps) {
   return genMeta({
     title: dict.consulting.title,
     description: dict.consulting.subtitle,
-    keywords: ['danışmanlık', 'uzman destek', 'bıçak seçimi', 'malzeme analizi'],
+    locale,
+    path: '/consulting',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/consulting`,
   })
 }

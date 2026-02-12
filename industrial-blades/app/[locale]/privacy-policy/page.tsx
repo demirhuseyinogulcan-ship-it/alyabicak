@@ -35,6 +35,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return generateSeoMetadata({
     title: titles[locale] || titles.tr,
     description: descriptions[locale] || descriptions.tr,
+    locale,
+    path: '/privacy-policy',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/privacy-policy`,
   })
 }

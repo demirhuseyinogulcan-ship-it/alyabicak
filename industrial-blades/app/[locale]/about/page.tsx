@@ -22,7 +22,8 @@ export async function generateMetadata({ params }: PageProps) {
   return genMeta({
     title: dict.about.title,
     description: dict.about.subtitle,
-    keywords: ['hakkımızda', 'alya tekstil', 'endüstriyel kesici', 'sheffield', 'ihracat'],
+    locale,
+    path: '/about',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/about`,
   })
 }

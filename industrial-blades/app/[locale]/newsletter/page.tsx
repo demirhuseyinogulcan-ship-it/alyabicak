@@ -23,7 +23,8 @@ export async function generateMetadata({ params }: PageProps) {
   return genMeta({
     title: dict.blog.title,
     description: dict.blog.subtitle,
-    keywords: ['endüstriyel bıçak blog', 'bıçak rehberi', 'sektör haberleri', 'teknik yazılar'],
+    locale,
+    path: '/newsletter',
     url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter`,
   })
 }
