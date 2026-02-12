@@ -287,6 +287,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'h006-001-x01',
     slug: 'h006-001-x01-retro-light-knife-dokum-metal-el-bicagi',
+    slugEN: 'h006-001-x01-retro-light-knife-cast-metal-safety-knife',
     code: 'H006 001 X01',
     name: 'RETRO LIGHT KNIFE',
     subtitle: 'Döküm Metal El Bıçağı',
@@ -404,6 +405,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'h008-001-a03',
     slug: 'h008-001-a03-auto-retract-otomatik-geri-cekilebilir',
+    slugEN: 'h008-001-a03-auto-retract-safety-knife',
     code: 'H008 001 A03',
     name: 'AUTO RETRACT',
     subtitle: 'Otomatik Geri Çekilebilir El Bıçağı',
@@ -471,6 +473,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: '3-delikli-jilet-020',
     slug: '3-delikli-dilme-jileti-020mm',
+    slugEN: '3-hole-slitting-blade-020mm',
     code: '3DJ-020',
     name: '3 Delikli Dilme Jileti',
     subtitle: 'Titanyum Kaplamalı - 0.20mm',
@@ -583,6 +586,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-karbon-celik',
     slug: 'slotted-dilme-jileti-karbon-celik',
+    slugEN: 'slotted-slitting-blade-carbon-steel',
     code: 'SLT-KC',
     name: 'Slotted Dilme Jileti - Karbon Çelik',
     subtitle: 'SK5 Karbon Çelik — 57x19mm',
@@ -688,6 +692,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-karbon-titanyum',
     slug: 'slotted-dilme-jileti-karbon-celik-titanyum-kaplama',
+    slugEN: 'slotted-slitting-blade-carbon-steel-titanium-coated',
     code: 'SLT-KC-TiN',
     name: 'Slotted Dilme Jileti - Karbon Çelik + TiN Kaplama',
     subtitle: 'Titanyum Nitrür PVD Kaplama — 57x19mm',
@@ -778,6 +783,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-karbon-seramik',
     slug: 'slotted-dilme-jileti-karbon-celik-seramik-kaplama',
+    slugEN: 'slotted-slitting-blade-carbon-steel-ceramic-coated',
     code: 'SLT-KC-CER',
     name: 'Slotted Dilme Jileti - Karbon Çelik + Seramik Kaplama',
     subtitle: 'Al₂O₃ Seramik Kaplama — 57x19mm',
@@ -868,6 +874,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-paslanmaz',
     slug: 'slotted-dilme-jileti-paslanmaz-celik',
+    slugEN: 'slotted-slitting-blade-stainless-steel',
     code: 'SLT-SS',
     name: 'Slotted Dilme Jileti - Paslanmaz Çelik',
     subtitle: '420HC Paslanmaz Çelik — 57x19mm',
@@ -958,6 +965,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-paslanmaz-titanyum',
     slug: 'slotted-dilme-jileti-paslanmaz-celik-titanyum-kaplama',
+    slugEN: 'slotted-slitting-blade-stainless-steel-titanium-coated',
     code: 'SLT-SS-TiN',
     name: 'Slotted Dilme Jileti - Paslanmaz + TiN Kaplama',
     subtitle: 'Paslanmaz Çelik + Titanyum Nitrür — 57x19mm',
@@ -1047,6 +1055,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-paslanmaz-xcd',
     slug: 'slotted-dilme-jileti-paslanmaz-celik-xcd-kaplama',
+    slugEN: 'slotted-slitting-blade-stainless-steel-xcd-coated',
     code: 'SLT-SS-XCD',
     name: 'Slotted Dilme Jileti - Paslanmaz + XCD Kaplama',
     subtitle: 'DLC/XCD Elmas Benzeri Kaplama — 57x19mm',
@@ -1137,6 +1146,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-endurium-seramik',
     slug: 'slotted-dilme-jileti-endurium-celik-seramik-kaplama',
+    slugEN: 'slotted-slitting-blade-endurium-steel-ceramic-coated',
     code: 'SLT-END-CER',
     name: 'Slotted Dilme Jileti - Endurium Çelik + Seramik Kaplama',
     subtitle: 'Yüksek Hız Çeliği + Seramik — 57x19mm',
@@ -1228,6 +1238,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-yekpare-tungsten',
     slug: 'slotted-dilme-jileti-yekpare-tungsten-karbur',
+    slugEN: 'slotted-slitting-blade-solid-tungsten-carbide',
     code: 'SLT-TC',
     name: 'Slotted Dilme Jileti - Yekpare Tungsten Karbür',
     subtitle: 'Solid WC-Co Monolitik Yapı — 57x19mm',
@@ -1321,6 +1332,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'slotted-yekpare-seramik',
     slug: 'slotted-dilme-jileti-yekpare-seramik-zirkonya',
+    slugEN: 'slotted-slitting-blade-solid-ceramic-zirconia',
     code: 'SLT-ZR',
     name: 'Slotted Dilme Jileti - Yekpare Seramik (Zirkonya)',
     subtitle: 'Y-TZP Zirkonya Seramik — 57x19mm',
@@ -1419,6 +1431,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'vakum-paketleme-bicak',
     slug: 'vakum-paketleme-bicagi',
+    slugEN: 'vacuum-packaging-knife',
     code: 'VPB-001',
     name: 'Vakum Paketleme Bıçağı',
     subtitle: 'Sheffield Çelik — Termoform & MAP Makineleri',
@@ -1470,6 +1483,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'kontr-biai',
     slug: 'kontr-biai-termoform-vakum-paketleme-bicagi',
+    slugEN: 'contour-blade-thermoform-vacuum-packaging',
     code: 'KONTÖR BIÇAĞI',
     name: 'KONTÖR BIÇAĞI - Termoform Vakum Paketleme Bıçağı',
     subtitle: 'Kontör Profil Kesim — Sheffield Çelik HRC 58-62',
@@ -1527,6 +1541,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'yarim',
     slug: 'yarim-yildiz-zimbalar',
+    slugEN: 'half-star-punches-vacuum-packaging',
     code: 'YARIM YILDIZ',
     name: 'YARIM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları',
     subtitle: 'D2 Takım Çeliği — Yarım Yıldız (Half Star) Geometri',
@@ -1581,6 +1596,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'tam',
     slug: 'tam-yildiz-zimbalar',
+    slugEN: 'full-star-punches-vacuum-packaging',
     code: 'TAM YILDIZ',
     name: 'TAM YILDIZ ZIMBALAR - Vakum Paketleme Zımba Bıçakları',
     subtitle: 'D2 Takım Çeliği — Tam Yıldız (Full Star) Geometri',
@@ -1635,6 +1651,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'dz-biaklar',
     slug: 'dz-biaklar-lama-bicaklar',
+    slugEN: 'straight-blades-vacuum-packaging',
     code: 'LAMA BIÇAK',
     name: 'DÜZ BIÇAKLAR - Lama Bıçaklar | Vakum Paketleme',
     subtitle: 'HSS (M2) Yüksek Hız Çeliği — HRC 62-65',
@@ -1692,6 +1709,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'dairesel',
     slug: 'dairesel-bicaklar-vakum-paketleme',
+    slugEN: 'circular-blades-vacuum-packaging',
     code: 'DAİRESEL',
     name: 'DAİRESEL BIÇAKLAR - Vakum Paketleme Döner Bıçak',
     subtitle: 'Sheffield Çelik — Döner (Rotary) Kesim HRC 58-62',
@@ -1744,6 +1762,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'yuvarlak',
     slug: 'yuvarlak-hava-zimbasi-vakum-paketleme',
+    slugEN: 'round-air-punch-vacuum-packaging',
     code: 'YUVARLAK ZIMBA',
     name: 'YUVARLAK HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı',
     subtitle: '440C Martensitik Paslanmaz Çelik — Hava Delikli',
@@ -1796,6 +1815,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'oval',
     slug: 'oval-hava-zimbasi-vakum-paketleme',
+    slugEN: 'oval-air-punch-vacuum-packaging',
     code: 'OVAL ZIMBA',
     name: 'OVAL HAVA ZIMBASI - Vakum Paketleme Zımba Bıçağı',
     subtitle: '440C Martensitik Paslanmaz Çelik — Oval Hava Deliği',
@@ -1848,6 +1868,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   {
     id: 'dili',
     slug: 'disli-bicaklar-vakum-paketleme',
+    slugEN: 'serrated-blades-vacuum-packaging',
     code: 'DİŞLİ BIÇAK',
     name: 'DİŞLİ BIÇAKLAR - Vakum Paketleme Testere Dişli Bıçak',
     subtitle: 'Sheffield Çelik — Testere Dişli (Serrated) Kenar',
@@ -1964,6 +1985,7 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
   return {
     id: baseProduct.id,
     slug: baseProduct.slug,
+    slugEN: (baseProduct as { slugEN?: string }).slugEN,
     code: baseProduct.code,
     name: baseProduct.name,
     subtitle: undefined,
@@ -2030,9 +2052,13 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
 
 /**
  * Ürünü locale'e göre çevir
+ * Non-TR locales için slug'ı slugEN ile değiştirir (SEO)
  */
 function translateProductExtended(product: ProductExtended, locale: string): ProductExtended {
   if (locale === 'tr') return product; // Türkçe master data, çevirmeye gerek yok
+
+  // Non-TR locales: slug'ı İngilizce'ye çevir (varsa)
+  const localizedSlug = product.slugEN || product.slug;
 
   // Specs label'larını VE value'larını çevir
   const translatedSpecs = product.specs?.map(spec => {
@@ -2069,6 +2095,7 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
 
     return {
       ...product,
+      slug: localizedSlug,
       name: translation.name,
       shortDescription: translation.description || translation.shortDescription || product.shortDescription,
       features: translation.features || product.features,
@@ -2094,9 +2121,10 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
     };
   }
   
-  // Çeviri yoksa sadece specs'i çevir
+  // Çeviri yoksa sadece specs'i çevir ve slug'ı güncelle
   return {
     ...product,
+    slug: localizedSlug,
     specs: translatedSpecs || product.specs,
   };
 }
@@ -2108,18 +2136,24 @@ export function getAllProductsExtended(locale: string = DEFAULT_LOCALE): Product
 
 /** 
  * Slug'a göre ürün getir 
- * Önce PRODUCTS_EXTENDED'da arar, bulamazsa base products'tan dönüştürür
+ * Önce PRODUCTS_EXTENDED'da arar, bulamazsa base products'tan dönüştürür.
+ * Hem TR slug hem de EN slug ile arama yapar (SEO dual-slug desteği).
  */
 export function getProductBySlug(slug: string, locale: string = DEFAULT_LOCALE): ProductExtended | undefined {
-  // Önce extended ürünlerde ara
-  const extendedProduct = PRODUCTS_EXTENDED.find(p => p.slug === slug && p.isActive);
+  // Önce extended ürünlerde ara (hem slug hem slugEN ile)
+  const extendedProduct = PRODUCTS_EXTENDED.find(p => 
+    (p.slug === slug || p.slugEN === slug) && p.isActive
+  );
   if (extendedProduct) {
     return translateProductExtended(mergeWithBaseProduct(extendedProduct), locale);
   }
 
-  // Extended'da yoksa base product'tan dönüştür
-  const baseProduct = getBaseProductBySlug(slug);
-  if (baseProduct && baseProduct.isActive) {
+  // Extended'da yoksa base product'tan dönüştür (hem slug hem slugEN ile)
+  const allBaseProducts = getAllProducts();
+  const baseProduct = allBaseProducts.find(p => 
+    (p.slug === slug || p.slugEN === slug) && p.isActive
+  );
+  if (baseProduct) {
     const converted = convertBaseToExtended(baseProduct, locale);
     if (converted) {
       return translateProductExtended(converted, locale);
@@ -2199,9 +2233,37 @@ function getCategoryName(categoryId: string, locale: string = DEFAULT_LOCALE): s
 /** 
  * Tüm ürün slug'larını getir (static generation için)
  * Hem extended hem de base products'tan alır
+ * Locale parametresi ile doğru slug döner:
+ * - TR: Türkçe slug (master)
+ * - Diğer: İngilizce slug (slugEN varsa)
  */
-export function getAllProductSlugs(): string[] {
+export function getAllProductSlugs(locale: string = DEFAULT_LOCALE): string[] {
   const allBaseProducts = getAllProducts();
-  return allBaseProducts.filter(p => p.isActive).map(p => p.slug);
+  return allBaseProducts.filter(p => p.isActive).map(p => {
+    if (locale !== 'tr' && p.slugEN) return p.slugEN;
+    return p.slug;
+  });
+}
+
+/**
+ * Bir ürünün tüm locale slug'larını döner (hreflang ve redirect için)
+ * Hem slug hem slugEN ile arama yapar
+ * @returns { tr: string, en: string } — TR slug ve global (EN) slug
+ */
+export function getProductSlugPair(slug: string): { tr: string; en: string } {
+  // Extended products'ta ara
+  const ext = PRODUCTS_EXTENDED.find(p => p.slug === slug || p.slugEN === slug);
+  if (ext?.slugEN) {
+    return { tr: ext.slug, en: ext.slugEN };
+  }
+
+  // Base products'ta ara
+  const base = getAllProducts().find(p => p.slug === slug || p.slugEN === slug);
+  if (base?.slugEN) {
+    return { tr: base.slug, en: base.slugEN };
+  }
+
+  // slugEN yoksa aynı slug her yerde
+  return { tr: slug, en: slug };
 }
 

@@ -57,6 +57,7 @@ export interface ProductSpecifications {
 /** Ana ürün */
 export interface Product extends BaseEntity, DisplayInfo {
   code: string;             // Ürün kodu (görüntüleme için)
+  slugEN?: string;          // English slug for non-TR locales (SEO)
   categoryId: string;       // Ana kategori ID
   subcategoryId?: string;   // Alt kategori ID (opsiyonel - bazı ürünler doğrudan kategoride)
   brandId?: string;         // Marka ID (Durham Duplex, OLFA vb.)

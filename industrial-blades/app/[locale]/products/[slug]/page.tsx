@@ -7,7 +7,8 @@ import { ChevronRight, Home } from 'lucide-react';
 import {
   getProductBySlug,
   getAllProductSlugs,
-  getRelatedProducts
+  getRelatedProducts,
+  getProductSlugPair,
 } from '@/lib/data/products-extended';
 import {
   ProductHero,
@@ -20,18 +21,18 @@ import { ProductViewTracker } from '@/components/analytics';
 import { siteConfig } from '@/lib/config/site.config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 import { getBrandName } from '@/lib/i18n/locale-utils';
-import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains';
+import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
 
 interface ProductPageProps {
   params: Promise<{ locale: Locale; slug: string }>;
 }
 
-// Static generation için tüm slug'ları döndür
+// Static generation için tüm slug'ları döndür (locale-aware)
 export async function generateStaticParams() {
-  const slugs = getAllProductSlugs();
   const params: { locale: string; slug: string }[] = [];
 
   i18nConfig.locales.forEach((locale) => {
+    const slugs = getAllProductSlugs(locale);
     slugs.forEach((slug) => {
       params.push({ locale, slug });
     });
@@ -81,9 +82,19 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       images: [product.images.main.src],
     },
     alternates: {
-      // Canonical URL - locale'e göre doğru domain'e yönlendir (merkezi config)
-      canonical: `${getDomainUrl(locale as SupportedLocale)}/${locale}/products/${slug}`,
-      languages: getHreflangUrls(`/products/${slug}`),
+      // Canonical URL - locale'e göre doğru domain ve slug'a yönlendir
+      canonical: `${getDomainUrl(locale as SupportedLocale)}/${locale}/products/${product.slug}`,
+      // Hreflang: her locale için doğru slug kullanılır (TR=Türkçe, diğerleri=İngilizce)
+      languages: (() => {
+        const slugPair = getProductSlugPair(slug);
+        const hreflangs: Record<string, string> = {};
+        for (const loc of i18nConfig.locales) {
+          const locSlug = loc === 'tr' ? slugPair.tr : slugPair.en;
+          hreflangs[loc] = `${getDomainUrl(loc as SupportedLocale)}/${loc}/products/${locSlug}`;
+        }
+        hreflangs['x-default'] = `${getDomainUrl('en' as SupportedLocale)}/en/products/${slugPair.en}`;
+        return hreflangs;
+      })(),
     },
   };
 }

@@ -10,6 +10,43 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { i18nConfig, type Locale } from '@/lib/i18n/config';
 
+// =============================================================================
+// SLUG REDIRECT MAP: Eski Türkçe slug → Yeni İngilizce slug
+// Google'da indexlenmiş eski URL'ler 301 ile yeni URL'e yönlenir
+// Sadece non-TR locales için aktif (TR'de Türkçe slug doğrudur)
+// =============================================================================
+const SLUG_REDIRECTS: Record<string, string> = {
+  // İş Güvenliği El Bıçakları
+  'h006-001-x01-retro-light-knife-dokum-metal-el-bicagi': 'h006-001-x01-retro-light-knife-cast-metal-safety-knife',
+  'h008-001-a03-auto-retract-otomatik-geri-cekilebilir': 'h008-001-a03-auto-retract-safety-knife',
+  // Sanayi Jiletleri - 3 Delikli
+  '3-delikli-dilme-jileti-020mm': '3-hole-slitting-blade-020mm',
+  // Slotted Dilme Jiletleri
+  'slotted-dilme-jileti-karbon-celik': 'slotted-slitting-blade-carbon-steel',
+  'slotted-dilme-jileti-karbon-celik-titanyum-kaplama': 'slotted-slitting-blade-carbon-steel-titanium-coated',
+  'slotted-dilme-jileti-karbon-celik-seramik-kaplama': 'slotted-slitting-blade-carbon-steel-ceramic-coated',
+  'slotted-dilme-jileti-paslanmaz-celik': 'slotted-slitting-blade-stainless-steel',
+  'slotted-dilme-jileti-paslanmaz-celik-titanyum-kaplama': 'slotted-slitting-blade-stainless-steel-titanium-coated',
+  'slotted-dilme-jileti-paslanmaz-celik-xcd-kaplama': 'slotted-slitting-blade-stainless-steel-xcd-coated',
+  'slotted-dilme-jileti-endurium-celik-seramik-kaplama': 'slotted-slitting-blade-endurium-steel-ceramic-coated',
+  'slotted-dilme-jileti-yekpare-tungsten-karbur': 'slotted-slitting-blade-solid-tungsten-carbide',
+  'slotted-dilme-jileti-yekpare-seramik-zirkonya': 'slotted-slitting-blade-solid-ceramic-zirconia',
+  // Vakum Paketleme Bıçakları
+  'vakum-paketleme-bicagi': 'vacuum-packaging-knife',
+  'kontr-biai-termoform-vakum-paketleme-bicagi': 'contour-blade-thermoform-vacuum-packaging',
+  'yarim-yildiz-zimbalar': 'half-star-punches-vacuum-packaging',
+  'tam-yildiz-zimbalar': 'full-star-punches-vacuum-packaging',
+  'dz-biaklar-lama-bicaklar': 'straight-blades-vacuum-packaging',
+  'dairesel-bicaklar-vakum-paketleme': 'circular-blades-vacuum-packaging',
+  'yuvarlak-hava-zimbasi-vakum-paketleme': 'round-air-punch-vacuum-packaging',
+  'oval-hava-zimbasi-vakum-paketleme': 'oval-air-punch-vacuum-packaging',
+  'disli-bicaklar-vakum-paketleme': 'serrated-blades-vacuum-packaging',
+  // Base Products
+  'p1-a-capak-alma-hobi': 'p1-a-deburring-hobby-knife',
+  'trapez-bicak-standart': 'trapezoid-blade-standard',
+  'doner-bicak-100mm': 'rotary-blade-100mm',
+};
+
 // Type guard for locale validation
 function isValidLocale(value: string): value is Locale {
   return (i18nConfig.locales as readonly string[]).includes(value);
@@ -89,6 +126,20 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameHasLocale) {
+    // === SLUG REDIRECT: Non-TR locale'de Türkçe slug varsa İngilizce'ye 301 redirect ===
+    const localeMatch = pathname.match(/^\/([a-z]{2})\//);
+    if (localeMatch && localeMatch[1] !== 'tr') {
+      const productSlugMatch = pathname.match(/^\/[a-z]{2}\/products\/([^/]+)$/);
+      if (productSlugMatch) {
+        const oldSlug = productSlugMatch[1];
+        const newSlug = SLUG_REDIRECTS[oldSlug];
+        if (newSlug) {
+          const newUrl = new URL(pathname.replace(oldSlug, newSlug), request.url);
+          newUrl.search = request.nextUrl.search;
+          return NextResponse.redirect(newUrl, 301);
+        }
+      }
+    }
     // Locale zaten var, devam et
     return NextResponse.next();
   }

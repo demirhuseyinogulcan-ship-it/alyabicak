@@ -90,18 +90,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   )
 
-  // Ürün sayfaları (her dil için)
+  // Ürün sayfaları (her dil için) — locale-aware slug desteği
   const products = getAllProducts()
   const productRoutes = locales.flatMap((locale) =>
     products.map((product) => {
-      const path = `/products/${product.slug}`
+      // Non-TR locale'lerde slugEN varsa onu kullan
+      const localizedSlug = (locale !== 'tr' && product.slugEN) ? product.slugEN : product.slug
+      const path = `/products/${localizedSlug}`
+      
+      // Hreflang: her locale için doğru slug
+      const productHreflangs: Record<string, string> = {}
+      for (const loc of locales) {
+        const locSlug = (loc !== 'tr' && product.slugEN) ? product.slugEN : product.slug
+        productHreflangs[loc] = getLocalizedUrl(loc, `/products/${locSlug}`)
+      }
+      productHreflangs['x-default'] = getLocalizedUrl('en' as Locale, `/products/${product.slugEN || product.slug}`)
+      
       return {
         url: getLocalizedUrl(locale, path),
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.5,
         alternates: {
-          languages: getAlternates(path),
+          languages: productHreflangs,
         },
       }
     })

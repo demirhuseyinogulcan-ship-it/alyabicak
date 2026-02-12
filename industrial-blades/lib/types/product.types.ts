@@ -66,6 +66,7 @@ export interface ProductExtended {
   // Temel Bilgiler
   id: string;
   slug: string;
+  slugEN?: string;              // English slug for non-TR locales (SEO)
   code: string;                 // "H006 001 X01"
   name: string;                 // "RETRO LIGHT KNIFE"
   subtitle?: string;            // "Döküm Metal El Bıçağı"

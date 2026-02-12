@@ -77,6 +77,7 @@ const MANUAL_PRODUCTS: Product[] = [
   {
     id: 'p1-a',
     slug: 'p1-a-capak-alma-hobi',
+    slugEN: 'p1-a-deburring-hobby-knife',
     code: 'P1-A',
     name: 'Çapak Alma / Hobi El Bıçağı – Alyan Vidalı',
     description: 'Alyan vidalı çapak alma / hobi el bıçağı. Hassas işler için ideal.',
@@ -105,6 +106,7 @@ const MANUAL_PRODUCTS: Product[] = [
   {
     id: 'trapez-bicak-standart',
     slug: 'trapez-bicak-standart',
+    slugEN: 'trapezoid-blade-standard',
     code: 'TRP-STD',
     name: 'Trapez Bıçak - Standart',
     description: 'Standart trapez bıçak, çok amaçlı kullanım için ideal.',
@@ -140,6 +142,7 @@ const MANUAL_PRODUCTS: Product[] = [
   {
     id: 'doner-bicak-100mm',
     slug: 'doner-bicak-100mm',
+    slugEN: 'rotary-blade-100mm',
     code: 'DNR-100',
     name: 'Döner Bıçağı 100mm',
     description: 'Profesyonel kebap döner bıçağı, 100mm çap.',
@@ -174,6 +177,7 @@ const MANUAL_PRODUCTS: Product[] = [
   {
     id: 'vakum-paketleme-bicak',
     slug: 'vakum-paketleme-bicagi',
+    slugEN: 'vacuum-packaging-knife',
     code: 'VPB-001',
     name: 'Vakum Paketleme Bıçağı',
     description: 'Vakum paketleme makineleri için özel tasarlanmış bıçak.',
