@@ -284,10 +284,10 @@ export default async function BlogPostPage({ params }: PageProps) {
         </header>
 
         {/* Content Section */}
-        <div className="container mx-auto px-4 py-12">
+        <div className="container mx-auto px-4 py-12 overflow-hidden">
           <div className="grid lg:grid-cols-12 gap-12">
-            {/* Main Content */}
-            <main className="lg:col-span-8">
+            {/* Main Content — min-w-0: CSS Grid min-width:auto bypass, mobilde taşma engeli */}
+            <main className="lg:col-span-8 min-w-0 overflow-hidden">
               {/* Back Link */}
               <Link
                 href={`/${locale}/newsletter`}
@@ -368,7 +368,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             </main>
 
             {/* Sidebar */}
-            <aside className="lg:col-span-4">
+            <aside className="lg:col-span-4 min-w-0">
               <div className="sticky top-24 space-y-8">
                 {/* Related Posts */}
                 {relatedPosts.length > 0 && (

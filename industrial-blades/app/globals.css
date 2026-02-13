@@ -469,6 +469,14 @@ img {
   hyphens: auto;
   max-width: 100%;
   overflow-x: hidden;
+  /* Tüm child elemanları sınırla */
+  contain: inline-size;
+}
+
+/* Tüm child elemanlar container'ı aşmasın */
+.prose-article * {
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* Tables: horizontal scroll wrapper via CSS */
@@ -477,7 +485,7 @@ img {
   overflow-x: auto !important;
   -webkit-overflow-scrolling: touch;
   max-width: 100% !important;
-  white-space: nowrap;
+  /* white-space: nowrap kaldırıldı — mobilde satırların kaydırılmasına neden oluyordu */
 }
 
 .prose-article thead,

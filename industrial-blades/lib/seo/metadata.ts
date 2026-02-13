@@ -82,7 +82,9 @@ export function generateMetadata(config: SEOConfig): Metadata {
   const domainUrl = getDomainUrl(locale as SupportedLocale)
 
   return {
-    title,
+    // absolute: layout template'i (%s | Brand) devre dışı bırakır
+    // genMeta zaten marka ekini kendisi ekliyor, double-brand olmasın
+    title: { absolute: title },
     description: config.description,
     keywords,
     openGraph: {
