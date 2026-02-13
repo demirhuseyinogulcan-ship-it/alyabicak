@@ -417,13 +417,72 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
 
   // =============================================================================
-  // RASOIRS INDUSTRIELS - TRANCHANT SIMPLE
+  // RASOIRS INDUSTRIELS - TRANCHANT SIMPLE — Série B201
   // =============================================================================
-  'single-edge-carbon': {
-    name: 'Lame à Tranchant Simple - Acier Carbone',
-    description: 'Lame professionnelle à tranchant simple pour usage sécurisé',
-    features: ['Tranchant simple', 'Usage sécurisé', 'Acier carbone haute qualité'],
-    applications: ['Découpe générale', 'Grattage', 'Nettoyage de surface'],
+  'single-edge-carbon-2f': {
+    name: 'Lame à Tranchant Simple — Acier Carbone 0,23mm 2-Facet',
+    subtitle: 'Type standard — Étui aluminium — Crantée',
+    description: 'Lame à tranchant simple en acier carbone haute teneur. Épaisseur 0,23mm, affûtage 2-facettes pour un équilibre optimal entre robustesse et tranchant. Pour le grattage de vitres, suppression d\'étiquettes, préparation de surfaces.',
+    shortDescription: 'Lame à tranchant simple en acier carbone haute teneur. Affûtage 2-facettes, 0,23mm. Idéale pour le grattage de vitres et la préparation de surfaces industrielles.',
+    features: ['Acier carbone haute teneur — dureté supérieure', 'Affûtage 2-facettes — équilibre robustesse/tranchant', 'Étui aluminium — rangement sécurisé', 'Crantée — compatible grattoirs standards', 'Revêtement anticorrosion', 'Dimensions 38×19mm standard'],
+    applications: ['Grattage et nettoyage de vitres', 'Suppression d\'étiquettes et de colle', 'Automobile — ébavurage du caoutchouc', 'Enlèvement de peinture et de mastic', 'Préparation de surfaces industrielles'],
+    seo: {
+      title: 'Lame Tranchant Simple Acier Carbone 0,23mm B201 | Alya Blade',
+      description: 'Lame à tranchant simple en acier carbone haute teneur. 0,23mm, HRC 58-62, 2-facettes. Grattage de vitres, suppression d\'étiquettes, préparation de surfaces industrielles.',
+      keywords: ['lame tranchant simple', 'lame grattoir vitre', 'lame acier carbone', 'grattoir industriel', 'lame suppression étiquettes', 'lame B201', 'nettoyage vitre', 'lame grattage peinture', 'lame industrielle simple', 'lame grattoir'],
+    },
+  },
+  'single-edge-carbon-3f': {
+    name: 'Lame à Tranchant Simple — Acier Carbone 0,23mm 3-Facet',
+    subtitle: 'Découpe de précision — Options avec/sans étui',
+    description: 'Lame à tranchant simple avec affûtage 3-facettes ultra-tranchant. Acier carbone haute teneur, 0,23mm. Disponible en étui aluminium, sans étui et boîte de 1000 pièces. Performance supérieure pour le nettoyage de vitres délicat et la découpe fine.',
+    shortDescription: 'Lame 3-facettes ultra-tranchante. 0,23mm acier carbone. Idéale pour le nettoyage de vitres délicat et la découpe de films fins. Options avec/sans étui/1000 pcs.',
+    features: ['Affûtage 3-facettes — tranchant ultra-fin', 'Options avec et sans étui', 'Crantée — fixation sûre', 'Boîte de 1000 pièces (B201 002 A01)', 'Acier carbone — qualité de coupe constante', 'Dimensions 38×19mm / 38×17mm'],
+    applications: ['Nettoyage de vitres délicat', 'Suppression d\'étiquettes fines', 'Découpe de films et feuilles', 'Applications laboratoire et salles blanches', 'Détailing automobile'],
+    seo: {
+      title: 'Lame Tranchant Simple 3-Facet Acier Carbone 0,23mm | Alya Blade',
+      description: 'Lame 3-facettes ultra-tranchante. 0,23mm acier carbone, HRC 58-62. Nettoyage vitres délicat, suppression étiquettes, découpe films. Avec/sans étui/1000 pcs.',
+      keywords: ['lame 3 facettes', 'lame précision tranchant simple', 'grattoir précision', 'nettoyage vitre', 'lame B201 131', 'lame sans étui', 'boîte 1000 pièces', 'lame laboratoire', 'lame salle blanche', 'découpe fine'],
+    },
+  },
+  'single-edge-stainless': {
+    name: 'Lame à Tranchant Simple — Acier Inoxydable 0,23mm',
+    subtitle: 'Anticorrosion — Affûtage 3-Facet de précision',
+    description: 'Lame à tranchant simple en acier inoxydable. Teneur en chrome +13% pour une protection totale contre la corrosion. Idéale pour l\'industrie alimentaire, la pharmacie, les salles blanches et les environnements maritimes.',
+    shortDescription: 'Acier inoxydable avec teneur en chrome +13%. 3-Facet, 0,23mm. Pour l\'industrie alimentaire, la pharmacie, les salles blanches et le secteur maritime.',
+    features: ['Acier inoxydable — résistance totale à la corrosion', 'Chrome +13% — protection contre rouille et oxydation', 'Affûtage 3-facettes — coupe nette', 'Étui aluminium — rangement sécurisé', 'Résistant à l\'humidité et aux produits chimiques', 'Adapté aux secteurs alimentaire et pharmaceutique'],
+    applications: ['Production et préparation alimentaire', 'Industrie pharmaceutique et cosmétique', 'Applications en salles blanches', 'Environnements maritimes haute humidité', 'Nettoyage de surfaces exposées aux produits chimiques'],
+    seo: {
+      title: 'Lame Tranchant Simple Acier Inoxydable 0,23mm | Alya Blade',
+      description: 'Acier inoxydable, lame tranchant simple. Chrome +13%, HRC 55-58, 3-Facet. Industrie alimentaire, pharmacie, salles blanches. Résistance totale à la corrosion.',
+      keywords: ['lame acier inoxydable', 'lame anticorrosion', 'lame contact alimentaire', 'grattoir inox', 'lame B201 801', 'lame salle blanche', 'lame maritime', 'lame pharmaceutique', 'lame antirouille', 'industrie alimentaire'],
+    },
+  },
+  'single-edge-stainless-ptfe': {
+    name: 'Lame à Tranchant Simple — Acier Inoxydable + Revêtement PTFE 0,23mm',
+    subtitle: 'Revêtement PTFE (téflon) — Antiadhésive',
+    description: 'Lame en acier inoxydable avec revêtement PTFE (téflon). 0,23mm, 3-facettes. Le revêtement PTFE réduit la friction de 40-60%, empêche l\'accumulation d\'adhésif. Performance supérieure pour la suppression d\'étiquettes et de rubans adhésifs.',
+    shortDescription: 'Acier inoxydable avec revêtement PTFE téflon. Réduction de friction 40-60%. Idéale pour la suppression d\'étiquettes, de films et résidus d\'adhésifs.',
+    features: ['Revêtement PTFE (téflon) — empêche l\'adhésion', 'Réduction de friction de 40-60%', 'Acier inoxydable — résistance totale à la corrosion', 'Affûtage 3-facettes — coupe nette et contrôlée', 'Deux variantes : crantée et rayée', 'Idéale pour environnements d\'accumulation d\'adhésif'],
+    applications: ['Suppression d\'étiquettes et de stickers', 'Retrait de films pour vitres — automobile et bâtiment', 'Nettoyage de résidus de colle', 'Imprimerie — enlèvement d\'encre et de colle', 'Emballage — nettoyage de résidus de ruban adhésif'],
+    seo: {
+      title: 'Lame Tranchant Simple PTFE Inox 0,23mm | Alya Blade',
+      description: 'Acier inoxydable avec revêtement PTFE téflon. Réduction friction 40-60%. Suppression étiquettes, films vitrés, résidus adhésifs. Lame industrielle antiadhésive.',
+      keywords: ['lame revêtement PTFE', 'lame téflon', 'lame antiadhésive', 'suppression adhésif', 'lame B201 901', 'film de vitre', 'inox PTFE', 'lame anti-adhérence', 'suppression étiquettes PTFE', 'faible friction'],
+    },
+  },
+  'single-edge-carbon-030': {
+    name: 'Lame à Tranchant Simple — Acier Carbone 0,30mm Heavy Duty',
+    subtitle: 'Épaisseur renforcée — Usage intensif — Étui aluminium/métal',
+    description: 'Lame à tranchant simple en épaisseur renforcée (0,30mm / 0,012"). Acier carbone haute teneur, affûtage 2-facettes. Pour applications intensives — grattage de peinture dure, enlèvement d\'adhésifs épais, préparation de surfaces métalliques et béton.',
+    shortDescription: 'Lame Heavy Duty épaisseur 0,30mm (0,012"). Acier carbone, 2-facettes. Grattage de peinture intensive et préparation de surfaces métalliques. Étui aluminium et métal.',
+    features: ['Épaisseur 0,30mm — 30% plus robuste que le standard', 'Heavy Duty — pour applications exigeantes', 'Affûtage 2-facettes — robustesse maximale', 'Étui aluminium et métal', 'Acier carbone — longue durée sur surfaces dures', 'Crantée — compatible grattoirs standards'],
+    applications: ['Grattage de peinture et vernis durs', 'Enlèvement d\'adhésifs et mastic épais', 'BTP — préparation de surfaces', 'Nettoyage de surfaces métalliques et ébavurage', 'Automobile — enlèvement de joints et mastics'],
+    seo: {
+      title: 'Lame Tranchant Simple 0,30mm Heavy Duty | Alya Blade',
+      description: 'Lame Heavy Duty 0,30mm (0,012"). HRC 58-62, 2-facettes. Grattage peinture dure, préparation surfaces métalliques, enlèvement joints. Étui aluminium/métal.',
+      keywords: ['lame heavy duty', 'lame épaisse tranchant simple', 'lame 0.30mm', 'lame 0.012 pouce', 'grattoir intensif', 'lame B201 501', 'étui métal', 'grattage peinture', 'industriel intensif', 'enlèvement joints'],
+    },
   },
 
   // =============================================================================
@@ -576,18 +635,6 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   // LAMES DE REFENDAGE 3 TROUS
   // =============================================================================
-  '38-2': {
-    name: 'Lame à Angle Droit 38 x 22 – 3 Trous',
-    description: 'Lame industrielle de refendage à angle droit avec système de fixation à 3 trous. Conception compacte 38x22mm pour montage précis et découpe de haute précision. Fabriquée en acier Sheffield de qualité supérieure.',
-    features: [
-      'Dimensions 38 x 22 mm',
-      'Fixation 3 trous',
-      'Angle droit de coupe',
-      'Acier Sheffield haute qualité',
-      'Montage précis et stable'
-    ],
-    applications: ['Refendage de film', 'Découpe de papier', 'Industrie d\'emballage', 'Applications de précision'],
-  },
   'b207': {
     name: 'Lame de Refendage B207 – 3 Trous',
     description: 'Lame industrielle B207 avec système de montage à 3 trous pour machines de refendage. Tranchant de précision pour découpe nette et continue. Compatible avec machines standard de l\'industrie.',

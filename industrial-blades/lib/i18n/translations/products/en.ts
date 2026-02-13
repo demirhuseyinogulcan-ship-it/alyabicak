@@ -418,12 +418,100 @@ export const productsEn: Record<string, ProductTranslation> = {
     },
   },
 
-  '38-2': {
-    name: '38 x 19 Single Edge Blade – Cased – Notched B201 (Standard)',
-    description: 'Standard single edge blade with protective case and notched design. Sheffield quality.',
-    features: ['Protective case', 'Notched design', 'Single edge', 'Standard type'],
-    applications: ['General cutting', 'Packaging', 'Industrial use'],
+  // =============================================================================
+  // SINGLE EDGE BLADES — B201 Series
+  // =============================================================================
+  'single-edge-carbon-2f': {
+    name: 'Single Edge Blade — Carbon Steel 0.23mm 2-Facet',
+    subtitle: 'Standard Type — Aluminum Back — Notched',
+    description: 'High carbon steel single edge blade. 0.23mm (0.009") thickness, 2-facet grind for optimal balance of durability and sharpness. For glass scraping, label removal, automotive deburring, and general industrial surface preparation.',
+    shortDescription: 'High carbon steel single edge blade with 2-facet grind. 0.23mm thickness, aluminum back, notched design. Ideal for glass scraping, label removal, and industrial surface preparation.',
+    features: ['High carbon steel — superior hardness and edge retention', '2-facet grind — durability and sharpness balance', 'Aluminum back — safe handling and storage', 'Notched design — fits standard scraper holders', 'Corrosion-resistant surface treatment', '38×19mm industry standard size'],
+    applications: ['Glass scraping and cleaning', 'Label and adhesive removal', 'Automotive — rubber deburring', 'Paint and putty scraping', 'General industrial surface preparation'],
+    benefits: [
+      { title: 'Durability–Sharpness Balance', description: '2-facet grind profile delivers long edge life and reliable cutting quality on hard surfaces', icon: 'Shield' },
+      { title: 'Safe Storage', description: 'Aluminum back design protects the edge during transport and storage', icon: 'Box' },
+      { title: 'Universal Compatibility', description: 'Notched edge profile fits standard scraper tools instantly', icon: 'Settings' },
+    ],
+    seo: {
+      title: 'Single Edge Blade Carbon Steel 0.23mm 2-Facet B201 | Alya Blade',
+      description: 'High carbon steel single edge blade. 0.23mm (0.009"), HRC 58-62, 2-facet grind, aluminum back. Glass scraping, label removal, automotive deburring. Industrial scraper blade.',
+      keywords: ['single edge blade', 'single edge razor blade', 'glass scraper blade', 'scraper blade', 'B201 blade', 'carbon steel single edge', '0.009 inch blade', '2-facet blade', 'glass cleaning blade', 'label removal blade', 'industrial single edge', 'window scraper blade', 'paint scraper blade', 'notched single edge', 'razor scraper blade'],
+    },
   },
+  'single-edge-carbon-3f': {
+    name: 'Single Edge Blade — Carbon Steel 0.23mm 3-Facet',
+    subtitle: 'Precision Cut — Cased/Uncased Options',
+    description: 'High carbon steel single edge blade with 3-facet precision grind for ultra-sharp edge. 0.23mm thickness. Available in cased (aluminum back), uncased, and 1000-count bulk packaging. Superior performance in glass cleaning, precision scraping, and thin material cutting.',
+    shortDescription: '3-facet ultra-sharp single edge blade. 0.23mm carbon steel. Ideal for precision glass cleaning, fine label removal, and thin film cutting. Cased, uncased, and 1000-count bulk options.',
+    features: ['3-facet precision grind — ultra-sharp edge', 'Cased and uncased options available', 'Notched design — secure mounting', '1000-count bulk packaging (B201 002 A01)', 'High carbon steel — consistent cut quality', '38×19mm / 38×17mm standard sizes'],
+    applications: ['Precision glass cleaning', 'Fine label and adhesive removal', 'Thin film and foil cutting', 'Laboratory and cleanroom applications', 'Automotive detail cleaning'],
+    benefits: [
+      { title: 'Ultra-Sharp 3-Facet Edge', description: 'Three-facet grind profile delivers surgical-level sharpness — makes the difference in precision applications', icon: 'Target' },
+      { title: 'Flexible Packaging Options', description: 'Cased (single), uncased, or 1000-count bulk — choose based on operational needs', icon: 'Package' },
+      { title: 'Consistent Cut Quality', description: 'Controlled atmosphere hardening guarantees identical performance from every blade', icon: 'CheckCircle' },
+    ],
+    seo: {
+      title: 'Single Edge Blade 3-Facet Carbon Steel 0.23mm B201 | Alya Blade',
+      description: '3-facet ultra-sharp single edge blade. 0.23mm high carbon steel, HRC 58-62. Precision glass cleaning, label removal, thin film cutting. Cased/uncased/1000-count bulk.',
+      keywords: ['3 facet single edge blade', 'precision single edge razor', 'ultra sharp scraper blade', 'glass cleaning blade', 'B201 131 blade', 'uncased single edge', 'bulk single edge blade 1000', 'laboratory blade', 'cleanroom scraper blade', 'precision scraping blade', 'three facet blade grind', 'fine scraper blade', 'surgical sharp blade', 'window cleaning blade'],
+    },
+  },
+  'single-edge-stainless': {
+    name: 'Single Edge Blade — Stainless Steel 0.23mm',
+    subtitle: 'Corrosion Resistant — 3-Facet Precision Grind',
+    description: 'Stainless steel single edge blade with full corrosion resistance. 13%+ chromium content provides complete protection against rust and oxidation. Preferred in food processing, pharmaceutical, cleanroom, and maritime applications where moisture and chemical exposure are constant.',
+    shortDescription: 'Stainless steel single edge blade with 13%+ chromium for full corrosion resistance. 3-facet grind, 0.23mm thickness. Ideal for food processing, pharmaceutical, cleanroom, and maritime sectors.',
+    features: ['Stainless steel — full corrosion resistance', '13%+ chromium — rust and oxidation protection', '3-facet precision grind — clean cut', 'Aluminum back — safe storage', 'Moisture and chemical resistant', 'Food and pharmaceutical grade'],
+    applications: ['Food processing and preparation', 'Pharmaceutical and cosmetics manufacturing', 'Cleanroom applications', 'Maritime and high-moisture environments', 'Chemical-exposure surface cleaning'],
+    benefits: [
+      { title: 'Full Corrosion Protection', description: '13%+ chromium content provides protection against moisture, salt, and chemicals — zero rust risk', icon: 'Droplets' },
+      { title: 'Food Safety', description: 'Stainless construction eliminates food contamination risk — suitable for FDA/HACCP compliant environments', icon: 'ShieldCheck' },
+      { title: 'Extended Shelf Life', description: 'Remains intact even in humid storage conditions — easier inventory management', icon: 'Clock' },
+    ],
+    seo: {
+      title: 'Single Edge Blade Stainless Steel 0.23mm B201 | Alya Blade',
+      description: 'Stainless steel single edge blade. 13%+ chromium, HRC 55-58, 3-facet. Food processing, pharmaceutical, cleanroom, maritime. Full corrosion resistance.',
+      keywords: ['stainless steel single edge', 'corrosion resistant blade', 'food safe scraper blade', 'stainless scraper blade', 'B201 801 blade', 'cleanroom blade', 'maritime blade', 'pharmaceutical blade', 'rust proof single edge', 'food processing blade', 'FDA compliant blade', 'HACCP blade', 'stainless razor blade', 'chemical resistant blade'],
+    },
+  },
+  'single-edge-stainless-ptfe': {
+    name: 'Single Edge Blade — Stainless Steel + PTFE Coated 0.23mm',
+    subtitle: 'PTFE (Teflon®) Coated — Non-Stick',
+    description: 'Stainless steel single edge blade with PTFE (Polytetrafluoroethylene / Teflon®) coating. 0.23mm, 3-facet grind. PTFE coating reduces friction by 40-60%, prevents adhesive material buildup. Superior performance in adhesive label removal, tape scraping, and window tint removal.',
+    shortDescription: 'PTFE Teflon coated stainless steel single edge blade. 40-60% friction reduction. Best for adhesive label removal, window tint removal, tape residue scraping. Non-stick blade technology.',
+    features: ['PTFE (Teflon) coating — prevents adhesion', '40-60% friction reduction — superior performance on adhesive materials', 'Stainless steel substrate — full corrosion resistance', '3-facet precision grind — clean and controlled cut', 'Notched and scored variants available', 'Ideal for adhesive buildup environments'],
+    applications: ['Adhesive label and sticker removal', 'Window tint film removal — automotive and building', 'Adhesive residue cleaning', 'Printing — ink and adhesive scraping', 'Packaging — tape residue cleaning'],
+    benefits: [
+      { title: '40-60% Lower Friction', description: 'PTFE coating prevents adhesive material buildup — every cut as clean as the first', icon: 'Zap' },
+      { title: 'Dual Protection', description: 'Stainless steel + PTFE coating = corrosion + adhesion problem solved simultaneously', icon: 'ShieldCheck' },
+      { title: 'Notched & Scored Options', description: 'Two mounting profiles for broad scraper tool compatibility', icon: 'Settings' },
+    ],
+    seo: {
+      title: 'Single Edge Blade PTFE Coated Stainless Steel 0.23mm | Alya Blade',
+      description: 'PTFE Teflon coated stainless steel single edge blade. 40-60% friction reduction. Adhesive label removal, window tint removal, tape scraping. Non-stick industrial blade.',
+      keywords: ['PTFE coated blade', 'Teflon coated single edge', 'non-stick scraper blade', 'adhesive removal blade', 'B201 901 blade', 'window tint blade', 'stainless PTFE blade', 'anti-stick blade', 'label removal blade PTFE', 'Teflon razor blade', 'coated single edge blade', 'non-stick single edge', 'tape residue blade', 'low friction blade'],
+    },
+  },
+  'single-edge-carbon-030': {
+    name: 'Single Edge Blade — Carbon Steel 0.30mm Heavy Duty',
+    subtitle: 'Thick Profile — Heavy Duty — Aluminum/Metal Spine Back',
+    description: 'Thick profile (0.30mm / 0.012") heavy duty single edge blade. High carbon steel, 2-facet grind. For demanding applications where standard 0.23mm blades are insufficient — heavy paint scraping, thick adhesive removal, concrete and metal surface preparation.',
+    shortDescription: 'Heavy duty thick profile single edge blade. 0.30mm (0.012"), high carbon steel, 2-facet. For heavy paint scraping, thick adhesive removal, metal surface preparation. Aluminum and metal spine back options.',
+    features: ['0.30mm thick profile — 30% more rigid than standard', 'Heavy duty — for demanding applications', '2-facet grind — maximum durability', 'Aluminum and metal spine back options', 'High carbon steel — long life on hard surfaces', 'Notched — fits standard scraper tools'],
+    applications: ['Heavy paint and varnish scraping', 'Thick adhesive and putty removal', 'Construction — surface preparation', 'Metal surface cleaning and deburring', 'Automotive — gasket and sealant scraping'],
+    benefits: [
+      { title: '30% Thicker Profile', description: '0.30mm thickness eliminates blade flex in heavy-duty applications — zero bend risk', icon: 'Shield' },
+      { title: 'Two Back Options', description: 'Aluminum (lightweight) or metal spine (extra rigid) — choose for your application', icon: 'Box' },
+      { title: 'Extended Edge Life', description: 'Thick profile provides more wear margin — reduces blade change frequency', icon: 'Clock' },
+    ],
+    seo: {
+      title: 'Single Edge Blade 0.30mm Heavy Duty Carbon Steel | Alya Blade',
+      description: 'Heavy duty thick profile single edge blade. 0.30mm (0.012"), HRC 58-62, 2-facet. Heavy paint scraping, metal surface prep, gasket removal. Aluminum/metal spine back.',
+      keywords: ['heavy duty single edge blade', 'thick single edge blade', '0.30mm blade', '0.012 inch blade', 'heavy duty scraper blade', 'B201 501 blade', 'metal spine blade', 'paint scraper blade heavy', 'industrial heavy duty blade', 'gasket scraping blade', 'thick razor blade', 'construction scraper blade', 'heavy gauge blade', 'metal back single edge'],
+    },
+  },
+
   'b208': {
     name: 'B208 - Pointed Tip (Standard)',
     description: 'Standard pointed tip blade for precision work. Sheffield quality professional blade.',

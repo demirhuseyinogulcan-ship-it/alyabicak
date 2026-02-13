@@ -1413,36 +1413,287 @@
     ]
   },
   {
-    "id": "38-2",
-    "slug": "38-x-19-tek-kenar-jilet-kilifli-centikli-b2-2",
-    "code": "38",
-    "name": "38 - x 19 TEK KENAR JİLET – KILIFLI – ÇENTİKLİ B201 (STANDART TİP)",
-    "description": "x 19 TEK KENAR JİLET – KILIFLI – ÇENTİKLİ B201 (STANDART TİP). Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "single-edge-carbon-2f",
+    "slug": "tek-kenar-jilet-karbon-celik-023mm-2-facet",
+    "slugEN": "single-edge-blade-carbon-steel-023mm-2-facet",
+    "code": "B201 102 A01",
+    "name": "Tek Kenar Jilet — Karbon Çelik 0.23mm 2-Facet",
+    "description": "Yüksek karbonlu çelikten üretilmiş standart tip tek kenar jilet. 0.23mm (0.009\") kalınlık, 2-facet bileme, alüminyum kılıflı ve çentikli. Cam kazıma, etiket sökme, yüzey temizleme ve genel endüstriyel kesim uygulamalarında güvenilir performans.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
-    "image": "/images/products/38-x-19-tek-kenar-jilet-kilifli-centikli-b2.jpg",
+    "subcategoryId": "single-edge",
+    "image": "/images/products/single-edge-carbon-2f.jpg",
+    "images": [],
     "variants": [
       {
-        "id": "38-x-19-tek-kenar-jilet-kilifli-centikli-b2-standard",
-        "sku": "38",
+        "id": "b201-102-a01-standard",
+        "sku": "B201 102 A01",
+        "size": "38x19x0.23mm",
+        "thickness": "0.23mm",
+        "material": "Karbon Çelik — Alüminyum Kılıf — Çentikli",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yüksek Karbonlu Çelik (High Carbon Steel)",
+      "hardness": "HRC 58-62",
+      "thickness": "0.23mm (0.009\")",
+      "dimensions": "38x19mm",
+      "edgeAngle": "2-Facet",
+      "coating": "Korozyona dayanıklı yüzey işlemi",
+      "heatTreatment": "Kontrollü atmosfer sertleştirme"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Yüksek karbonlu çelik — üstün sertlik ve kesim ömrü",
+      "2-facet bileme — dayanıklılık ve keskinlik dengesi",
+      "Alüminyum kılıf — güvenli taşıma ve depolama",
+      "Çentikli tasarım — kazıyıcı aparatlara kolay montaj",
+      "Korozyona dayanıklı yüzey işlemi",
+      "38x19mm endüstri standardı ölçü"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Cam kazıma ve temizleme",
+      "Etiket ve yapışkan sökme",
+      "Otomotiv — lastik çapak alma",
+      "Boya ve macun kazıma",
+      "Genel endüstriyel yüzey hazırlama"
     ],
+    "availableSizes": ["38x19x0.23mm"],
     "isFeatured": true,
     "isActive": true,
     "order": 108
+  },
+  {
+    "id": "single-edge-carbon-3f",
+    "slug": "tek-kenar-jilet-karbon-celik-023mm-3-facet",
+    "slugEN": "single-edge-blade-carbon-steel-023mm-3-facet",
+    "code": "B201 131 A01",
+    "name": "Tek Kenar Jilet — Karbon Çelik 0.23mm 3-Facet",
+    "description": "Yüksek karbonlu çelikten üretilmiş hassas kesim tek kenar jilet. 0.23mm (0.009\") kalınlık, 3-facet bileme ile ultra keskin kenar. Kılıflı/kılıfsız ve çentikli seçenekleri mevcuttur. Cam temizleme, hassas kazıma ve ince malzeme kesiminde üstün performans.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "single-edge",
+    "image": "/images/products/single-edge-carbon-3f.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b201-131-a01-kilifli",
+        "sku": "B201 131 A01",
+        "size": "38x19x0.23mm",
+        "thickness": "0.23mm",
+        "material": "Karbon Çelik — Alüminyum Kılıf — Çentikli",
+        "inStock": true
+      },
+      {
+        "id": "b201-131p-a01-kilifli",
+        "sku": "B201 131P A01",
+        "size": "38x19x0.23mm",
+        "thickness": "0.23mm",
+        "material": "Karbon Çelik — Alüminyum Kılıf — Çentikli (P)",
+        "inStock": true
+      },
+      {
+        "id": "b201-002-a01-kilifsiz",
+        "sku": "B201 002 A01",
+        "size": "38x17x0.23mm",
+        "thickness": "0.23mm",
+        "material": "Karbon Çelik — Kılıfsız — Çentikli (1000'li)",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik (High Carbon Steel)",
+      "hardness": "HRC 58-62",
+      "thickness": "0.23mm (0.009\")",
+      "dimensions": "38x19mm (kılıflı) / 38x17mm (kılıfsız)",
+      "edgeAngle": "3-Facet",
+      "coating": "Korozyona dayanıklı yüzey işlemi",
+      "heatTreatment": "Kontrollü atmosfer sertleştirme"
+    },
+    "features": [
+      "3-facet hassas bileme — ultra keskin kenar",
+      "Kılıflı ve kılıfsız seçenekler",
+      "Çentikli tasarım — güvenli montaj",
+      "1000'li bulk ambalaj seçeneği (B201 002 A01)",
+      "Yüksek karbonlu çelik — tutarlı kesim kalitesi",
+      "38x19mm / 38x17mm standart ölçüler"
+    ],
+    "applications": [
+      "Cam temizleme ve kazıma",
+      "Hassas etiket ve yapışkan sökme",
+      "İnce film ve folyo kesimi",
+      "Laboratuvar ve temiz oda uygulamaları",
+      "Otomotiv detay temizleme"
+    ],
+    "availableSizes": ["38x19x0.23mm", "38x17x0.23mm"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 109
+  },
+  {
+    "id": "single-edge-stainless",
+    "slug": "tek-kenar-jilet-paslanmaz-celik-023mm",
+    "slugEN": "single-edge-blade-stainless-steel-023mm",
+    "code": "B201 801 A01",
+    "name": "Tek Kenar Jilet — Paslanmaz Çelik 0.23mm",
+    "description": "Paslanmaz çelikten üretilmiş korozyona dayanıklı tek kenar jilet. 0.23mm (0.009\") kalınlık, 3-facet bileme, alüminyum kılıflı. Nem, su ve kimyasal maruziyetin yoğun olduğu ortamlarda — gıda işleme, ilaç, temiz oda ve denizcilik sektörlerinde tercih edilir.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "single-edge",
+    "image": "/images/products/single-edge-stainless.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b201-801-a01-standard",
+        "sku": "B201 801 A01",
+        "size": "38x19x0.23mm",
+        "thickness": "0.23mm",
+        "material": "Paslanmaz Çelik — Alüminyum Kılıf",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik (Stainless Steel)",
+      "hardness": "HRC 55-58",
+      "thickness": "0.23mm (0.009\")",
+      "dimensions": "38x19mm",
+      "edgeAngle": "3-Facet",
+      "chromiumContent": "%13+ Krom içeriği",
+      "coating": "Doğal paslanmaz — ek kaplama gerektirmez"
+    },
+    "features": [
+      "Paslanmaz çelik — korozyona tam dayanıklılık",
+      "%13+ krom içeriği — pas ve oksidasyona karşı koruma",
+      "3-facet hassas bileme — temiz kesim",
+      "Alüminyum kılıf — güvenli saklama",
+      "Nem ve kimyasala dayanıklı",
+      "Gıda ve ilaç sektörüne uygun"
+    ],
+    "applications": [
+      "Gıda işleme ve hazırlama",
+      "İlaç ve kozmetik üretimi",
+      "Temiz oda uygulamaları",
+      "Denizcilik ve nem yoğun ortamlar",
+      "Kimyasal maruziyetli yüzey temizleme"
+    ],
+    "availableSizes": ["38x19x0.23mm"],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 110
+  },
+  {
+    "id": "single-edge-stainless-ptfe",
+    "slug": "tek-kenar-jilet-paslanmaz-ptfe-kaplama-023mm",
+    "slugEN": "single-edge-blade-stainless-steel-ptfe-coated-023mm",
+    "code": "B201 901 A01",
+    "name": "Tek Kenar Jilet — Paslanmaz Çelik + PTFE Kaplama 0.23mm",
+    "description": "Paslanmaz çelik üzerine PTFE (Teflon) kaplama tek kenar jilet. 0.23mm (0.009\") kalınlık, 3-facet bileme. PTFE kaplama sürtünmeyi %40-60 azaltır, yapışkan malzeme birikimini engeller. Yapışkan etiket sökme, bant kazıma ve yapışkan kalıntı temizlemede üstün performans.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "single-edge",
+    "image": "/images/products/single-edge-stainless-ptfe.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b201-901-a01-centikli",
+        "sku": "B201 901 A01",
+        "size": "38x19x0.23mm",
+        "thickness": "0.23mm",
+        "material": "Paslanmaz Çelik + PTFE — Çentikli",
+        "inStock": true
+      },
+      {
+        "id": "b201-901-a01k-cizik",
+        "sku": "B201 901 A01-K",
+        "size": "38x19x0.23mm",
+        "thickness": "0.23mm",
+        "material": "Paslanmaz Çelik + PTFE — Çizik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + PTFE Kaplama (Stainless Steel + PTFE)",
+      "hardness": "HRC 55-58",
+      "thickness": "0.23mm (0.009\")",
+      "dimensions": "38x19mm",
+      "edgeAngle": "3-Facet",
+      "coating": "PTFE (Polytetrafluoroethylene / Teflon®)",
+      "frictionReduction": "%40-60 sürtünme azaltma",
+      "chromiumContent": "%13+ Krom içeriği"
+    },
+    "features": [
+      "PTFE (Teflon) kaplama — yapışmayı önler",
+      "%40-60 sürtünme azaltma — yapışkan malzemelerde üstün performans",
+      "Paslanmaz çelik alt yapı — korozyona tam dayanıklılık",
+      "3-facet hassas bileme — temiz ve kontrollü kesim",
+      "Çentikli ve çizik varyantları mevcut",
+      "Yapışkan birikim problemi yaşanan ortamlar için ideal"
+    ],
+    "applications": [
+      "Yapışkan etiket ve bant sökme",
+      "Cam filmi çıkarma — otomotiv ve bina",
+      "Yapışkan kalıntı temizleme",
+      "Matbaa — mürekkep ve yapışkan kazıma",
+      "Ambalaj — yapışkan bant artığı temizleme"
+    ],
+    "availableSizes": ["38x19x0.23mm"],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 111
+  },
+  {
+    "id": "single-edge-carbon-030",
+    "slug": "tek-kenar-jilet-karbon-celik-030mm-heavy-duty",
+    "slugEN": "single-edge-blade-carbon-steel-030mm-heavy-duty",
+    "code": "B201 501 A01",
+    "name": "Tek Kenar Jilet — Karbon Çelik 0.30mm Heavy Duty",
+    "description": "Kalın profilli (0.30mm / 0.012\") heavy duty tek kenar jilet. Yüksek karbonlu çelik, 2-facet bileme. Standart 0.23mm jiletlerin yetersiz kaldığı ağır hizmet uygulamalarında — sert boya kazıma, kalın yapışkan sökme, beton ve metal yüzey hazırlama işlerinde üstün dayanıklılık.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "single-edge",
+    "image": "/images/products/single-edge-carbon-030.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b201-501-a01-alu",
+        "sku": "B201 501 A01",
+        "size": "38x19x0.30mm",
+        "thickness": "0.30mm",
+        "material": "Karbon Çelik — Alüminyum Kılıf — Çentikli",
+        "inStock": true
+      },
+      {
+        "id": "b201-504-a01-metal",
+        "sku": "B201 504 A01",
+        "size": "38x19x0.30mm",
+        "thickness": "0.30mm",
+        "material": "Karbon Çelik — Metal Spine Kılıf — Çentikli",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yüksek Karbonlu Çelik (High Carbon Steel)",
+      "hardness": "HRC 58-62",
+      "thickness": "0.30mm (0.012\")",
+      "dimensions": "38x19mm",
+      "edgeAngle": "2-Facet",
+      "coating": "Korozyona dayanıklı yüzey işlemi",
+      "heatTreatment": "Kontrollü atmosfer sertleştirme"
+    },
+    "features": [
+      "0.30mm kalın profil — standart jiletlere göre %30 daha dayanıklı",
+      "Heavy duty — ağır hizmet uygulamaları için",
+      "2-facet bileme — maksimum dayanıklılık",
+      "Alüminyum ve metal spine kılıf seçenekleri",
+      "Yüksek karbonlu çelik — sert yüzeylerde uzun ömür",
+      "Çentikli — kazıyıcı aparatlara standart uyum"
+    ],
+    "applications": [
+      "Sert boya ve vernik kazıma",
+      "Kalın yapışkan ve macun sökme",
+      "İnşaat — yüzey hazırlama",
+      "Metal yüzey temizleme ve çapak alma",
+      "Otomotiv — conta ve sızdırmazlık kazıma"
+    ],
+    "availableSizes": ["38x19x0.30mm"],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 112
   },
   {
     "id": "b207",

@@ -1925,6 +1925,553 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 308,
   },
+
+  // =============================================================================
+  // TEK KENARLI JİLETLER (Single Edge Blades) — B201 Serisi
+  // =============================================================================
+
+  {
+    id: 'single-edge-carbon-2f',
+    slug: 'tek-kenar-jilet-karbon-celik-023mm-2-facet',
+    slugEN: 'single-edge-blade-carbon-steel-023mm-2-facet',
+    code: 'B201 102 A01',
+    name: 'Tek Kenar Jilet — Karbon Çelik 0.23mm 2-Facet',
+    subtitle: 'Standart Tip — Alüminyum Kılıf — Çentikli',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'single-edge',
+    tags: ['tek kenar jilet', 'single edge blade', 'karbon çelik', '2-facet', 'cam kazıma', 'scraper blade', 'B201'],
+
+    shortDescription: 'Yüksek karbonlu çelikten üretilmiş standart tip tek kenar jilet. 0.23mm (0.009") kalınlık, 2-facet bileme ile dayanıklılık ve keskinlik dengesi. Cam kazıma, etiket sökme ve genel endüstriyel yüzey hazırlama uygulamalarında güvenilir performans.',
+
+    longDescription: `
+      <p>B201 102 A01 Tek Kenar Jilet, endüstriyel kazıma ve kesim uygulamaları için tasarlanmış standart tip tek kenarlı jiletdir. Yüksek karbonlu çelikten üretilmiş olup, kontrollü atmosfer sertleştirme prosesi ile HRC 58-62 sertlik değerine ulaşır.</p>
+
+      <h3>2-Facet Bileme Profili</h3>
+      <p>2-facet (çift yüzeyli) bileme profili, <strong>dayanıklılık ve keskinlik arasında optimum denge</strong> sağlar. Bu profil özellikle genel amaçlı kazıma, yüzey temizleme ve kesim işlerinde tercih edilir. 3-facet'e kıyasla daha uzun kenar ömrü sunar; sert yüzeylerde bile güvenilir performans gösterir.</p>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Cam endüstrisi:</strong> Cam yüzey kazıma, etiket/stiker sökme, cam temizleme</li>
+        <li><strong>Otomotiv:</strong> Lastik çapak alma, conta kazıma, cam filmi sökme</li>
+        <li><strong>İnşaat:</strong> Boya/macun kazıma, yüzey hazırlama</li>
+        <li><strong>Matbaa/Ambalaj:</strong> Mürekkep kazıma, rulo temizleme</li>
+      </ul>
+
+      <h3>Teknik Detaylar</h3>
+      <p>Alüminyum kılıf tasarımı güvenli taşıma ve depolama sağlar. Çentikli kenar profili, standart kazıyıcı aparatlarla (scraper) uyumlu montaj imkânı verir. Korozyona dayanıklı yüzey işlemi uygulanmıştır.</p>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/single-edge-carbon-2f.jpg',
+        alt: 'Tek Kenar Jilet Karbon Çelik 0.23mm 2-Facet B201',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/single-edge-carbon-2f.jpg',
+        alt: 'Tek Kenar Jilet Karbon Çelik 2-Facet',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'Kalınlık', value: '0.23mm (0.009")', icon: 'Ruler' },
+      { label: 'Boyutlar', value: '38×19mm', icon: 'Maximize' },
+      { label: 'Bileme Profili', value: '2-Facet', icon: 'Gauge' },
+      { label: 'Kılıf', value: 'Alüminyum', icon: 'Box' },
+    ],
+
+    origin: {
+      brand: 'AccuTec',
+      country: 'USA',
+      city: 'Verona, Virginia',
+    },
+
+    applications: [
+      { title: 'Cam Kazıma & Temizleme', icon: 'Sparkles', description: 'Cam yüzey kazıma, etiket sökme, cam temizleme' },
+      { title: 'Otomotiv', icon: 'Car', description: 'Lastik çapak alma, conta kazıma, cam filmi sökme' },
+      { title: 'İnşaat & Boya', icon: 'Paintbrush', description: 'Boya/macun kazıma, yüzey hazırlama' },
+      { title: 'Matbaa & Ambalaj', icon: 'Printer', description: 'Mürekkep kazıma, rulo temizleme' },
+    ],
+
+    benefits: [
+      { title: 'Dayanıklılık–Keskinlik Dengesi', description: '2-facet bileme profili ile sert yüzeylerde uzun kenar ömrü ve güvenilir kesim kalitesi', icon: 'Shield' },
+      { title: 'Güvenli Saklama', description: 'Alüminyum kılıf tasarımı ile taşıma ve depolamada kenar koruması', icon: 'Box' },
+      { title: 'Standart Uyumluluk', description: 'Çentikli kenar profili ile standart kazıyıcı aparatlarına anında montaj', icon: 'Settings' },
+    ],
+
+    features: [
+      'Yüksek karbonlu çelik — üstün sertlik ve kesim ömrü',
+      '2-facet bileme — dayanıklılık ve keskinlik dengesi',
+      'Alüminyum kılıf — güvenli taşıma ve depolama',
+      'Çentikli tasarım — kazıyıcı aparatlara kolay montaj',
+      'Korozyona dayanıklı yüzey işlemi',
+      '38×19mm endüstri standardı ölçü',
+    ],
+
+    certifications: ['CE'],
+
+    availableSizes: ['38×19×0.23mm'],
+
+    relatedProductIds: ['single-edge-carbon-3f', 'single-edge-carbon-030', 'single-edge-stainless-ptfe'],
+
+    seo: {
+      title: 'Tek Kenar Jilet Karbon Çelik 0.23mm 2-Facet B201 | Alya Bıçak',
+      description: 'Yüksek karbonlu çelik tek kenar jilet. 0.23mm, HRC 58-62, 2-facet bileme, alüminyum kılıflı. Cam kazıma, etiket sökme, otomotiv çapak alma. Türkiye distribütörü.',
+      keywords: ['tek kenar jilet', 'single edge blade', 'cam kazıma jileti', 'scraper blade', 'B201', 'karbon çelik jilet', '0.23mm jilet', '2-facet jilet', 'cam temizleme jileti', 'etiket sökme jileti'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 108,
+  },
+
+  {
+    id: 'single-edge-carbon-3f',
+    slug: 'tek-kenar-jilet-karbon-celik-023mm-3-facet',
+    slugEN: 'single-edge-blade-carbon-steel-023mm-3-facet',
+    code: 'B201 131 A01',
+    name: 'Tek Kenar Jilet — Karbon Çelik 0.23mm 3-Facet',
+    subtitle: 'Hassas Kesim — Kılıflı/Kılıfsız Seçenekler',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'single-edge',
+    tags: ['tek kenar jilet', 'single edge blade', '3-facet', 'hassas kesim', 'cam temizleme', 'precision blade', 'B201'],
+
+    shortDescription: 'Yüksek karbonlu çelikten üretilmiş 3-facet hassas bileme tek kenar jilet. 0.23mm (0.009") kalınlık ile ultra keskin kenar. Cam temizleme, hassas kazıma ve ince malzeme kesiminde üstün performans. Kılıflı, kılıfsız ve bulk (1000 adet) seçenekleri.',
+
+    longDescription: `
+      <p>B201 131 A01 serisi, <strong>3-facet (üç yüzeyli) hassas bileme</strong> profili ile ultra keskin kenar sunar. Standart 2-facet'e kıyasla daha ince ve daha keskin kenar geometrisi, hassas kazıma ve temiz kesim gerektiren uygulamalarda tercih sebebidir.</p>
+
+      <h3>3-Facet Bileme Avantajı</h3>
+      <p>Üçüncü bileme yüzeyi kenar açısını daraltarak <strong>cerrahi düzeyde keskinlik</strong> sağlar. Bu profil özellikle cam yüzey temizleme, ince film kesimi ve hassas etiket sökme işlerinde fark yaratır. AccuTec'in Armor Edge teknolojisi sayesinde ince kenar profiline rağmen güçlü yapı korunur.</p>
+
+      <h3>Varyant Seçenekleri</h3>
+      <ul>
+        <li><strong>B201 131 A01:</strong> 38×19mm, alüminyum kılıflı, çentikli</li>
+        <li><strong>B201 131P A01:</strong> 38×19mm, alüminyum kılıflı, çentikli (Premium)</li>
+        <li><strong>B201 002 A01:</strong> 38×17mm, kılıfsız, çentikli — 1000'li bulk ambalaj</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Cam endüstrisi:</strong> Hassas cam temizleme, ince etiket/stiker sökme</li>
+        <li><strong>Otomotiv detay:</strong> İnce çapak alma, hassas yüzey temizleme</li>
+        <li><strong>Laboratuvar:</strong> Numune kesimi, slide hazırlama</li>
+        <li><strong>Matbaa:</strong> İnce film ve folyo kesimi</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/single-edge-carbon-3f.jpg',
+        alt: 'Tek Kenar Jilet Karbon Çelik 0.23mm 3-Facet',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/single-edge-carbon-3f.jpg',
+        alt: 'Tek Kenar Jilet Karbon Çelik 3-Facet',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'Kalınlık', value: '0.23mm (0.009")', icon: 'Ruler' },
+      { label: 'Boyutlar', value: '38×19mm / 38×17mm', icon: 'Maximize' },
+      { label: 'Bileme Profili', value: '3-Facet (Ultra Keskin)', icon: 'Gauge', highlight: true },
+      { label: 'Ambalaj', value: 'Kılıflı / Kılıfsız / 1000 Adet Bulk', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'AccuTec',
+      country: 'USA',
+      city: 'Verona, Virginia',
+    },
+
+    applications: [
+      { title: 'Hassas Cam Temizleme', icon: 'Sparkles', description: 'İnce cam yüzey temizleme, stiker sökme' },
+      { title: 'Otomotiv Detay', icon: 'Car', description: 'İnce çapak alma, hassas yüzey temizleme' },
+      { title: 'Laboratuvar & Temiz Oda', icon: 'FlaskConical', description: 'Numune kesimi, hassas uygulamalar' },
+      { title: 'İnce Film Kesimi', icon: 'Film', description: 'Plastik film, folyo, ince malzeme kesimi' },
+    ],
+
+    benefits: [
+      { title: 'Ultra Keskin 3-Facet Kenar', description: 'Üç yüzeyli bileme profili ile cerrahi düzeyde keskinlik — hassas uygulamalarda fark yaratır', icon: 'Target' },
+      { title: 'Esnek Ambalaj Seçenekleri', description: 'Kılıflı (tekli), kılıfsız veya 1000\'li bulk — işletme ihtiyacına göre seçim', icon: 'Package' },
+      { title: 'Tutarlı Kesim Kalitesi', description: 'Kontrollü atmosfer sertleştirme ile her jilet aynı performansı garantiler', icon: 'CheckCircle' },
+    ],
+
+    features: [
+      '3-facet hassas bileme — ultra keskin kenar',
+      'Kılıflı ve kılıfsız seçenekler',
+      'Çentikli tasarım — güvenli montaj',
+      '1000\'li bulk ambalaj seçeneği (B201 002 A01)',
+      'Yüksek karbonlu çelik — tutarlı kesim kalitesi',
+      '38×19mm / 38×17mm standart ölçüler',
+    ],
+
+    certifications: ['CE'],
+
+    availableSizes: ['38×19×0.23mm', '38×17×0.23mm'],
+
+    relatedProductIds: ['single-edge-carbon-2f', 'single-edge-stainless', 'single-edge-stainless-ptfe'],
+
+    seo: {
+      title: 'Tek Kenar Jilet 3-Facet Karbon Çelik 0.23mm B201 | Alya Bıçak',
+      description: '3-facet ultra keskin tek kenar jilet. 0.23mm karbon çelik, HRC 58-62. Hassas cam temizleme, etiket sökme, ince film kesimi. Kılıflı/kılıfsız/1000\'li.',
+      keywords: ['tek kenar jilet 3 facet', 'single edge blade 3 facet', 'hassas cam jileti', 'precision single edge', 'B201 131', 'ultra keskin jilet', 'cam temizleme jileti', 'kılıfsız jilet 1000li', 'bulk single edge blade', 'laboratory blade'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 109,
+  },
+
+  {
+    id: 'single-edge-stainless',
+    slug: 'tek-kenar-jilet-paslanmaz-celik-023mm',
+    slugEN: 'single-edge-blade-stainless-steel-023mm',
+    code: 'B201 801 A01',
+    name: 'Tek Kenar Jilet — Paslanmaz Çelik 0.23mm',
+    subtitle: 'Korozyona Dayanıklı — 3-Facet Hassas Bileme',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'single-edge',
+    tags: ['paslanmaz çelik', 'stainless steel', 'tek kenar jilet', 'korozyona dayanıklı', 'gıda', 'ilaç', 'temiz oda'],
+
+    shortDescription: 'Paslanmaz çelikten üretilmiş korozyona dayanıklı tek kenar jilet. %13+ krom içeriği ile pas ve oksidasyona karşı tam koruma. Gıda işleme, ilaç üretimi, temiz oda ve denizcilik sektörlerinde tercih edilir.',
+
+    longDescription: `
+      <p>B201 801 A01, <strong>paslanmaz çelikten</strong> üretilmiş özel tek kenar jiletdir. %13+ krom içeriği sayesinde nem, su ve kimyasal maruziyetin yoğun olduğu ortamlarda korozyona karşı tam dayanıklılık sağlar.</p>
+
+      <h3>Neden Paslanmaz Çelik?</h3>
+      <p>Standart karbon çelik jiletler nemli ortamlarda hızla paslanır ve kontaminasyon riski oluşturur. Paslanmaz çelik versiyonu:</p>
+      <ul>
+        <li><strong>Pas ve oksidasyona karşı</strong> tam korunma</li>
+        <li><strong>Gıda güvenliğine uygun</strong> — kontaminasyon riski yok</li>
+        <li><strong>Kimyasal dayanıklılık</strong> — temizlik solüsyonlarına dirençli</li>
+        <li><strong>Uzun raf ömrü</strong> — nemli depolarda bile bozulmaz</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Gıda işleme:</strong> Et, süt, içecek tesislerinde kazıma ve temizleme</li>
+        <li><strong>İlaç ve kozmetik:</strong> Temiz üretim hatlarında yüzey hazırlama</li>
+        <li><strong>Denizcilik:</strong> Tuzlu su ortamında cam ve yüzey temizleme</li>
+        <li><strong>Temiz oda:</strong> Kontaminasyon riski olmayan hassas kazıma</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/single-edge-stainless.jpg',
+        alt: 'Tek Kenar Jilet Paslanmaz Çelik 0.23mm',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/single-edge-stainless.jpg',
+        alt: 'Tek Kenar Jilet Paslanmaz Çelik',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Paslanmaz Çelik (Stainless Steel)', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 55-58', icon: 'Shield' },
+      { label: 'Kalınlık', value: '0.23mm (0.009")', icon: 'Ruler' },
+      { label: 'Boyutlar', value: '38×19mm', icon: 'Maximize' },
+      { label: 'Bileme Profili', value: '3-Facet', icon: 'Gauge' },
+      { label: 'Krom İçeriği', value: '%13+', icon: 'Droplets', highlight: true },
+    ],
+
+    origin: {
+      brand: 'AccuTec',
+      country: 'USA',
+      city: 'Verona, Virginia',
+    },
+
+    applications: [
+      { title: 'Gıda İşleme', icon: 'UtensilsCrossed', description: 'Et, süt, içecek tesislerinde kazıma' },
+      { title: 'İlaç & Kozmetik', icon: 'Pill', description: 'Temiz üretim hatlarında yüzey hazırlama' },
+      { title: 'Denizcilik', icon: 'Anchor', description: 'Tuzlu su ortamında yüzey temizleme' },
+      { title: 'Temiz Oda', icon: 'FlaskConical', description: 'Kontaminasyon riski olmayan kazıma' },
+    ],
+
+    benefits: [
+      { title: 'Tam Korozyon Koruması', description: '%13+ krom içeriği ile nem, tuz ve kimyasallara karşı korunma — pas riski sıfır', icon: 'Droplets' },
+      { title: 'Gıda Güvenliği', description: 'Paslanmaz yapı ile gıda kontaminasyon riski ortadan kalkar — FDA/HACCP uyumlu ortamlar', icon: 'ShieldCheck' },
+      { title: 'Uzun Raf Ömrü', description: 'Nemli depo koşullarında bile bozulmaz — stok yönetimi kolaylığı', icon: 'Clock' },
+    ],
+
+    features: [
+      'Paslanmaz çelik — korozyona tam dayanıklılık',
+      '%13+ krom içeriği — pas ve oksidasyona karşı koruma',
+      '3-facet hassas bileme — temiz kesim',
+      'Alüminyum kılıf — güvenli saklama',
+      'Nem ve kimyasala dayanıklı',
+      'Gıda ve ilaç sektörüne uygun',
+    ],
+
+    certifications: ['CE'],
+
+    availableSizes: ['38×19×0.23mm'],
+
+    relatedProductIds: ['single-edge-stainless-ptfe', 'single-edge-carbon-3f', 'single-edge-carbon-2f'],
+
+    seo: {
+      title: 'Tek Kenar Jilet Paslanmaz Çelik 0.23mm B201 | Alya Bıçak',
+      description: 'Paslanmaz çelik tek kenar jilet. %13+ krom, HRC 55-58, 3-facet. Gıda işleme, ilaç, temiz oda, denizcilik. Korozyona tam dayanıklı.',
+      keywords: ['paslanmaz jilet', 'stainless steel single edge', 'gıda güvenliği jileti', 'korozyona dayanıklı jilet', 'B201 801', 'temiz oda jileti', 'denizcilik jileti', 'ilaç sektörü jilet', 'paslanmaz tek kenar', 'food safe blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: true,
+    inStock: true,
+    order: 110,
+  },
+
+  {
+    id: 'single-edge-stainless-ptfe',
+    slug: 'tek-kenar-jilet-paslanmaz-ptfe-kaplama-023mm',
+    slugEN: 'single-edge-blade-stainless-steel-ptfe-coated-023mm',
+    code: 'B201 901 A01',
+    name: 'Tek Kenar Jilet — Paslanmaz Çelik + PTFE Kaplama 0.23mm',
+    subtitle: 'PTFE (Teflon) Kaplama — Yapışma Önleyici',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'single-edge',
+    tags: ['PTFE', 'Teflon', 'yapışma önleyici', 'paslanmaz', 'tek kenar jilet', 'non-stick blade', 'B201'],
+
+    shortDescription: 'Paslanmaz çelik üzerine PTFE (Teflon) kaplama tek kenar jilet. 0.23mm, 3-facet bileme. PTFE kaplama sürtünmeyi %40-60 azaltır, yapışkan malzeme birikimini engeller. Yapışkan etiket sökme, bant kazıma ve cam filmi çıkarmada en iyi performans.',
+
+    longDescription: `
+      <p>B201 901 A01, <strong>paslanmaz çelik alt yapı üzerine PTFE (Polytetrafluoroethylene / Teflon®) kaplama</strong> uygulanmış premium tek kenar jiletdir. Yapışkan malzeme ile temas eden tüm uygulamalarda üstün performans sağlar.</p>
+
+      <h3>PTFE Kaplama Avantajları</h3>
+      <ul>
+        <li><strong>%40-60 sürtünme azaltma:</strong> Jilet yüzeyinde yapışkan birikmez</li>
+        <li><strong>Yapışma önleyici (non-stick):</strong> Yapışkan kalıntı transferi minimize edilir</li>
+        <li><strong>Uzun kullanım ömrü:</strong> Kaplama kaynaklı düşük sürtünme, kenar aşınmasını yavaşlatır</li>
+        <li><strong>Temiz kesim:</strong> Yapışkan artıyı engellediği için her kesim ilk kesim kadar temiz</li>
+      </ul>
+
+      <h3>Varyant Seçenekleri</h3>
+      <ul>
+        <li><strong>B201 901 A01:</strong> Çentikli — standart kazıyıcı aparatlarla uyumlu</li>
+        <li><strong>B201 901 A01-K:</strong> Çizik — alternatif montaj profili</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Yapışkan etiket sökme:</strong> Cam, metal, plastik yüzeylerden etiket ve stiker çıkarma</li>
+        <li><strong>Cam filmi çıkarma:</strong> Otomotiv ve bina camlarından film sökme</li>
+        <li><strong>Matbaa:</strong> Mürekkep ve yapışkan kazıma — silindir temizleme</li>
+        <li><strong>Ambalaj:</strong> Yapışkan bant artığı temizleme</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/single-edge-stainless-ptfe.jpg',
+        alt: 'Tek Kenar Jilet Paslanmaz Çelik PTFE Kaplama 0.23mm',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/single-edge-stainless-ptfe.jpg',
+        alt: 'Tek Kenar Jilet PTFE Kaplama',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Paslanmaz Çelik + PTFE', icon: 'Layers', highlight: true },
+      { label: 'Kaplama', value: 'PTFE (Teflon®)', icon: 'Shield', highlight: true },
+      { label: 'Sertlik', value: 'HRC 55-58', icon: 'Gauge' },
+      { label: 'Kalınlık', value: '0.23mm (0.009")', icon: 'Ruler' },
+      { label: 'Boyutlar', value: '38×19mm', icon: 'Maximize' },
+      { label: 'Sürtünme Azaltma', value: '%40-60', icon: 'Zap' },
+    ],
+
+    origin: {
+      brand: 'AccuTec',
+      country: 'USA',
+      city: 'Verona, Virginia',
+    },
+
+    applications: [
+      { title: 'Yapışkan Etiket Sökme', icon: 'Tag', description: 'Cam, metal, plastik yüzeylerden etiket çıkarma' },
+      { title: 'Cam Filmi Çıkarma', icon: 'Layers', description: 'Otomotiv ve bina camlarından film sökme' },
+      { title: 'Matbaa & Baskı', icon: 'Printer', description: 'Mürekkep/yapışkan kazıma, silindir temizleme' },
+      { title: 'Ambalaj Temizleme', icon: 'Package', description: 'Yapışkan bant artığı temizleme' },
+    ],
+
+    benefits: [
+      { title: '%40-60 Düşük Sürtünme', description: 'PTFE kaplama ile yapışkan malzeme birikimi engellenir — her kesim ilk kesim kadar temiz', icon: 'Zap' },
+      { title: 'Çift Koruma', description: 'Paslanmaz çelik + PTFE kaplama = korozyon + yapışma sorununa çift çözüm', icon: 'ShieldCheck' },
+      { title: 'Çentikli & Çizik Seçenek', description: 'İki farklı montaj profili ile geniş aparat uyumluluğu', icon: 'Settings' },
+    ],
+
+    features: [
+      'PTFE (Teflon) kaplama — yapışmayı önler',
+      '%40-60 sürtünme azaltma — yapışkan malzemelerde üstün performans',
+      'Paslanmaz çelik alt yapı — korozyona tam dayanıklılık',
+      '3-facet hassas bileme — temiz ve kontrollü kesim',
+      'Çentikli ve çizik varyantları mevcut',
+      'Yapışkan birikim problemi yaşanan ortamlar için ideal',
+    ],
+
+    certifications: ['CE'],
+
+    availableSizes: ['38×19×0.23mm'],
+
+    relatedProductIds: ['single-edge-stainless', 'single-edge-carbon-3f', 'single-edge-carbon-030'],
+
+    seo: {
+      title: 'Tek Kenar Jilet PTFE Kaplama Paslanmaz 0.23mm | Alya Bıçak',
+      description: 'PTFE Teflon kaplama paslanmaz tek kenar jilet. %40-60 sürtünme azaltma. Yapışkan etiket sökme, cam filmi çıkarma, bant kazıma. Non-stick blade.',
+      keywords: ['PTFE kaplama jilet', 'teflon kaplama jilet', 'yapışkan sökme jileti', 'non-stick blade', 'B201 901', 'cam filmi jileti', 'paslanmaz PTFE', 'anti-stick scraper blade', 'yapışma önleyici jilet', 'PTFE coated single edge'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 111,
+  },
+
+  {
+    id: 'single-edge-carbon-030',
+    slug: 'tek-kenar-jilet-karbon-celik-030mm-heavy-duty',
+    slugEN: 'single-edge-blade-carbon-steel-030mm-heavy-duty',
+    code: 'B201 501 A01',
+    name: 'Tek Kenar Jilet — Karbon Çelik 0.30mm Heavy Duty',
+    subtitle: 'Kalın Profil — Ağır Hizmet — Alüminyum/Metal Kılıf',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'single-edge',
+    tags: ['heavy duty', 'kalın jilet', '0.30mm', '0.012 inch', 'ağır hizmet', 'metal kılıf', 'tek kenar jilet', 'B201'],
+
+    shortDescription: 'Kalın profilli (0.30mm / 0.012") heavy duty tek kenar jilet. Standart 0.23mm jiletlerin yetersiz kaldığı ağır hizmet uygulamalarında — sert boya kazıma, kalın yapışkan sökme, beton ve metal yüzey hazırlama işlerinde üstün dayanıklılık.',
+
+    longDescription: `
+      <p>B201 501/504 serisi, standart 0.23mm jiletlere kıyasla <strong>%30 daha kalın profil</strong> ile ağır hizmet (heavy duty) uygulamalarına yöneliktir. 0.30mm (0.012") kalınlık, sert yüzeylerde bükülme riskini minimize eder ve daha agresif kazıma imkânı sunar.</p>
+
+      <h3>0.30mm Kalın Profil Avantajı</h3>
+      <ul>
+        <li><strong>%30 daha kalın:</strong> Standart jiletle kıyaslandığında belirgin rigidite artışı</li>
+        <li><strong>Bükülme direnci:</strong> Sert yüzeylerde jilet eğilmez — kontrollü kazıma</li>
+        <li><strong>Daha uzun kenar ömrü:</strong> Kalın profil daha fazla bileme payı sağlar</li>
+        <li><strong>Agresif kazıma:</strong> İnatçı boya, yapışkan ve kalıntıların sökülmesinde etkin</li>
+      </ul>
+
+      <h3>Kılıf Seçenekleri</h3>
+      <ul>
+        <li><strong>B201 501 A01:</strong> Alüminyum kılıf — hafif ve ekonomik</li>
+        <li><strong>B201 504 A01:</strong> Metal spine kılıf — ekstra rijitlik ve dayanıklılık</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>İnşaat:</strong> Sert boya/vernik kazıma, macun sıyırma, zemin hazırlama</li>
+        <li><strong>Metal sanayi:</strong> Metal yüzey temizleme, çapak alma, kaynak artığı kazıma</li>
+        <li><strong>Otomotiv:</strong> Conta/sızdırmazlık kazıma, ağır yapışkan sökme</li>
+        <li><strong>Bakım-Onarım:</strong> İnatçı kalıntı temizleme, yüzey renovasyonu</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/single-edge-carbon-030.jpg',
+        alt: 'Tek Kenar Jilet Karbon Çelik 0.30mm Heavy Duty',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/single-edge-carbon-030.jpg',
+        alt: 'Tek Kenar Jilet Heavy Duty 0.30mm',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'Kalınlık', value: '0.30mm (0.012") — Heavy Duty', icon: 'Ruler', highlight: true },
+      { label: 'Boyutlar', value: '38×19mm', icon: 'Maximize' },
+      { label: 'Bileme Profili', value: '2-Facet', icon: 'Gauge' },
+      { label: 'Kılıf', value: 'Alüminyum / Metal Spine', icon: 'Box' },
+    ],
+
+    origin: {
+      brand: 'AccuTec',
+      country: 'USA',
+      city: 'Verona, Virginia',
+    },
+
+    applications: [
+      { title: 'Sert Boya & Vernik Kazıma', icon: 'Paintbrush', description: 'İnatçı boya, vernik, epoksi kazıma' },
+      { title: 'Metal Yüzey Hazırlama', icon: 'Wrench', description: 'Kaynak artığı, çapak, pas kazıma' },
+      { title: 'Otomotiv Bakım', icon: 'Car', description: 'Conta/sızdırmazlık kazıma, ağır yapışkan sökme' },
+      { title: 'İnşaat & Renovasyon', icon: 'HardHat', description: 'Zemin/duvar yüzey hazırlama, macun sıyırma' },
+    ],
+
+    benefits: [
+      { title: '%30 Daha Kalın Profil', description: '0.30mm kalınlık ile standart jiletin yetersiz kaldığı ağır hizmet uygulamalarında bükülme riski sıfır', icon: 'Shield' },
+      { title: 'İki Kılıf Seçeneği', description: 'Alüminyum (hafif) veya metal spine (ekstra rijit) kılıf — uygulama ihtiyacına göre tercih', icon: 'Box' },
+      { title: 'Uzun Kenar Ömrü', description: 'Kalın profil daha fazla aşınma payı sağlar — jilet değişim sıklığı azalır', icon: 'Clock' },
+    ],
+
+    features: [
+      '0.30mm kalın profil — standart jiletlere göre %30 daha dayanıklı',
+      'Heavy duty — ağır hizmet uygulamaları için',
+      '2-facet bileme — maksimum dayanıklılık',
+      'Alüminyum ve metal spine kılıf seçenekleri',
+      'Yüksek karbonlu çelik — sert yüzeylerde uzun ömür',
+      'Çentikli — kazıyıcı aparatlara standart uyum',
+    ],
+
+    certifications: ['CE'],
+
+    availableSizes: ['38×19×0.30mm'],
+
+    relatedProductIds: ['single-edge-carbon-2f', 'single-edge-carbon-3f', 'single-edge-stainless-ptfe'],
+
+    seo: {
+      title: 'Tek Kenar Jilet 0.30mm Heavy Duty Karbon Çelik | Alya Bıçak',
+      description: 'Heavy duty kalın profil tek kenar jilet. 0.30mm (0.012"), HRC 58-62, 2-facet. Sert boya kazıma, metal yüzey hazırlama, conta sökme. Alüminyum/metal kılıf.',
+      keywords: ['heavy duty jilet', 'kalın tek kenar jilet', '0.30mm jilet', '0.012 inch blade', 'heavy duty single edge', 'B201 501', 'metal spine blade', 'sert boya kazıma', 'ağır hizmet jilet', 'boya kazıma jileti'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: true,
+    inStock: true,
+    order: 112,
+  },
 ];
 
 // =============================================================================
