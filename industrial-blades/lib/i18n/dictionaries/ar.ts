@@ -313,6 +313,7 @@ const ar = {
 
   // Product Detail
   productDetail: {
+    premiumSteel: 'فولاذ ممتاز',
     new: 'جديد',
     prevImage: 'الصورة السابقة',
     nextImage: 'الصورة التالية',

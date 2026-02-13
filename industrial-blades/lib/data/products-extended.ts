@@ -2067,7 +2067,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       <p>B201 131 A01 serisi, <strong>3-facet (üç yüzeyli) hassas bileme</strong> profili ile ultra keskin kenar sunar. Standart 2-facet'e kıyasla daha ince ve daha keskin kenar geometrisi, hassas kazıma ve temiz kesim gerektiren uygulamalarda tercih sebebidir.</p>
 
       <h3>3-Facet Bileme Avantajı</h3>
-      <p>Üçüncü bileme yüzeyi kenar açısını daraltarak <strong>cerrahi düzeyde keskinlik</strong> sağlar. Bu profil özellikle cam yüzey temizleme, ince film kesimi ve hassas etiket sökme işlerinde fark yaratır. AccuTec'in Armor Edge teknolojisi sayesinde ince kenar profiline rağmen güçlü yapı korunur.</p>
+      <p>Üçüncü bileme yüzeyi kenar açısını daraltarak <strong>cerrahi düzeyde keskinlik</strong> sağlar. Bu profil özellikle cam yüzey temizleme, ince film kesimi ve hassas etiket sökme işlerinde fark yaratır. Gelişmiş Armor Edge teknolojisi sayesinde ince kenar profiline rağmen güçlü yapı korunur.</p>
 
       <h3>Varyant Seçenekleri</h3>
       <ul>

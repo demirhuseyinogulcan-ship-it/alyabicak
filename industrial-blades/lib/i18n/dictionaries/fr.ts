@@ -313,6 +313,7 @@ const fr = {
 
   // Product Detail
   productDetail: {
+    premiumSteel: 'Acier Premium',
     new: 'Nouveau',
     prevImage: 'Image précédente',
     nextImage: 'Image suivante',

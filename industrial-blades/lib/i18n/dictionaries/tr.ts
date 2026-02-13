@@ -312,6 +312,7 @@ const tr = {
 
   // Product Detail
   productDetail: {
+    premiumSteel: 'Premium Çelik',
     new: 'Yeni',
     prevImage: 'Önceki görsel',
     nextImage: 'Sonraki görsel',

@@ -312,6 +312,7 @@ const en = {
 
   // Product Detail
   productDetail: {
+    premiumSteel: 'Premium Steel',
     new: 'New',
     prevImage: 'Previous image',
     nextImage: 'Next image',

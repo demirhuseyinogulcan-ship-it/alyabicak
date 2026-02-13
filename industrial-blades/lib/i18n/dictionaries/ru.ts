@@ -313,6 +313,7 @@ const ru = {
 
   // Product Detail
   productDetail: {
+    premiumSteel: 'Премиум Сталь',
     new: 'Новинка',
     prevImage: 'Предыдущее изображение',
     nextImage: 'Следующее изображение',

@@ -472,7 +472,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       <p>The B201 131 A01 series features a <strong>3-facet (three-surface) precision grind</strong> profile delivering an ultra-sharp edge. Compared to the standard 2-facet, its finer and sharper edge geometry makes it the preferred choice for applications requiring precision scraping and clean cuts.</p>
 
       <h3>3-Facet Grind Advantage</h3>
-      <p>The third grinding surface narrows the edge angle to deliver <strong>surgical-level sharpness</strong>. This profile particularly excels in glass surface cleaning, thin film cutting, and precision label removal. Despite the fine edge profile, AccuTec's Armor Edge technology maintains structural integrity.</p>
+      <p>The third grinding surface narrows the edge angle to deliver <strong>surgical-level sharpness</strong>. This profile particularly excels in glass surface cleaning, thin film cutting, and precision label removal. Despite the fine edge profile, advanced Armor Edge technology maintains structural integrity.</p>
 
       <h3>Variant Options</h3>
       <ul>
