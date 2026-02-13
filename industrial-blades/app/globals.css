@@ -456,5 +456,138 @@ img {
   font-size: 1.0625rem;
 }
 
+/* ═══════════════════════════════════════════════════════════
+   PROSE ARTICLE - Mobile Responsiveness
+   Tablolar, başlıklar ve içerik mobilde taşmasın
+   ═══════════════════════════════════════════════════════════ */
+
+/* Global overflow & word-break protection */
+.prose-article {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Tables: horizontal scroll wrapper via CSS */
+.prose-article table {
+  display: block !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100% !important;
+  white-space: nowrap;
+}
+
+.prose-article thead,
+.prose-article tbody,
+.prose-article tr {
+  display: revert;
+}
+
+/* Mobile: < 640px (phones) */
+@media (max-width: 639px) {
+  .prose-article {
+    font-size: 0.9375rem !important; /* 15px */
+    line-height: 1.7 !important;
+  }
+
+  .prose-article .lead,
+  .prose-article p.lead {
+    font-size: 1.0625rem !important; /* 17px down from 20px */
+    line-height: 1.55 !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .prose-article h2 {
+    font-size: 1.25rem !important; /* 20px down from 24px */
+    margin-top: 2rem !important;
+    margin-bottom: 0.75rem !important;
+    padding-bottom: 0.375rem !important;
+  }
+
+  .prose-article h3 {
+    font-size: 1.0625rem !important; /* 17px down from 20px */
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .prose-article h4 {
+    font-size: 1rem !important; /* 16px down from 18px */
+    margin-top: 1.25rem !important;
+    margin-bottom: 0.375rem !important;
+  }
+
+  .prose-article p {
+    margin-bottom: 1rem !important;
+  }
+
+  .prose-article blockquote {
+    padding: 0.75rem 1rem !important;
+    margin: 1.5rem 0 !important;
+    font-size: 0.9375rem !important;
+  }
+
+  .prose-article ul,
+  .prose-article ol {
+    padding-left: 1.25rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .prose-article th,
+  .prose-article td {
+    padding: 0.5rem 0.625rem !important;
+    font-size: 0.8125rem !important; /* 13px - tables need to fit */
+  }
+
+  .prose-article table {
+    font-size: 0.8125rem !important;
+    margin: 1.5rem 0 !important;
+  }
+
+  .prose-article img {
+    margin: 1.5rem 0 !important;
+    border-radius: 0.5rem !important;
+  }
+
+  .prose-article hr {
+    margin: 2rem 0 !important;
+  }
+
+  /* Charts in article */
+  .prose-article .not-prose {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+}
+
+/* Tablet: 640px - 1023px */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .prose-article {
+    font-size: 1rem !important; /* 16px */
+  }
+
+  .prose-article .lead,
+  .prose-article p.lead {
+    font-size: 1.125rem !important; /* 18px */
+  }
+
+  .prose-article h2 {
+    font-size: 1.375rem !important; /* 22px */
+  }
+
+  .prose-article h3 {
+    font-size: 1.125rem !important; /* 18px */
+  }
+
+  .prose-article th,
+  .prose-article td {
+    padding: 0.625rem 0.75rem !important;
+    font-size: 0.875rem !important;
+  }
+}
+
 /* ═══════════════════════════════════════════════════════════ */
 

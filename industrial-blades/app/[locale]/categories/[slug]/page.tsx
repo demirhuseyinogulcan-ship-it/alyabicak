@@ -48,11 +48,28 @@ export async function generateMetadata({ params }: PageProps) {
   const pagePath = `/categories/${category.slug}`
   const brandSuffix = getBrandName(locale)
 
+  // Locale-specific SEO phrases for category meta
+  const categoryIndustryKeyword: Record<Locale, string> = {
+    tr: 'endüstriyel bıçak',
+    en: 'industrial blade',
+    ar: 'شفرات صناعية',
+    ru: 'промышленные лезвия',
+    fr: 'lames industrielles',
+  }
+
+  const categoryQualitySuffix: Record<Locale, string> = {
+    tr: 'Sheffield çelik kalitesi. Yetkili distribütör.',
+    en: 'Sheffield steel quality. Authorized distributor.',
+    ar: 'جودة فولاذ شيفيلد. موزع معتمد.',
+    ru: 'Шеффилдское качество стали. Авторизованный дистрибьютор.',
+    fr: 'Qualité acier Sheffield. Distributeur agréé.',
+  }
+
   return {
     ...generateSeoMetadata({
       title: `${category.name} | ${category.totalProductCount} ${dict.common.products} | ${brandSuffix}`,
-      description: `${category.description} ${category.subcategories.length} ${dict.common.subcategories}, ${category.totalProductCount} ${dict.common.products}. Sheffield steel quality. Authorized distributor.`,
-      keywords: [category.name.toLowerCase(), brandSuffix.toLowerCase(), locale === 'tr' ? 'endüstriyel bıçak' : 'industrial blade', 'alya blade'],
+      description: `${category.description} ${category.subcategories.length} ${dict.common.subcategories}, ${category.totalProductCount} ${dict.common.products}. ${categoryQualitySuffix[locale]}`,
+      keywords: [category.name.toLowerCase(), brandSuffix.toLowerCase(), categoryIndustryKeyword[locale], 'alya blade'],
       url: `${domainUrl}/${locale}${pagePath}`,
       locale,
       path: pagePath,
