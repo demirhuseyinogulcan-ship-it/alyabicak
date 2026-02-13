@@ -433,6 +433,23 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Safe Storage', description: 'Aluminum back design protects the edge during transport and storage', icon: 'Box' },
       { title: 'Universal Compatibility', description: 'Notched edge profile fits standard scraper tools instantly', icon: 'Settings' },
     ],
+    longDescription: `
+      <p>The B201 102 A01 Single Edge Blade is a standard-type single edge blade designed for industrial scraping and cutting applications. Manufactured from high carbon steel and hardened to HRC 58-62 through controlled atmosphere heat treatment.</p>
+
+      <h3>2-Facet Grind Profile</h3>
+      <p>The 2-facet (double-surface) grind profile provides an <strong>optimal balance between durability and sharpness</strong>. This profile is preferred for general-purpose scraping, surface cleaning, and cutting tasks. Compared to 3-facet, it offers longer edge life and reliable performance even on hard surfaces.</p>
+
+      <h3>Applications</h3>
+      <ul>
+        <li><strong>Glass industry:</strong> Glass surface scraping, label/sticker removal, glass cleaning</li>
+        <li><strong>Automotive:</strong> Rubber deburring, gasket scraping, window tint removal</li>
+        <li><strong>Construction:</strong> Paint/putty scraping, surface preparation</li>
+        <li><strong>Printing/Packaging:</strong> Ink scraping, roller cleaning</li>
+      </ul>
+
+      <h3>Technical Details</h3>
+      <p>The aluminum back design provides safe transport and storage. The notched edge profile enables compatible mounting with standard scraper tools. A corrosion-resistant surface treatment has been applied.</p>
+    `,
     seo: {
       title: 'Single Edge Blade Carbon Steel 0.23mm 2-Facet B201 | Alya Blade',
       description: 'High carbon steel single edge blade. 0.23mm (0.009"), HRC 58-62, 2-facet grind, aluminum back. Glass scraping, label removal, automotive deburring. Industrial scraper blade.',
@@ -451,6 +468,27 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Flexible Packaging Options', description: 'Cased (single), uncased, or 1000-count bulk — choose based on operational needs', icon: 'Package' },
       { title: 'Consistent Cut Quality', description: 'Controlled atmosphere hardening guarantees identical performance from every blade', icon: 'CheckCircle' },
     ],
+    longDescription: `
+      <p>The B201 131 A01 series features a <strong>3-facet (three-surface) precision grind</strong> profile delivering an ultra-sharp edge. Compared to the standard 2-facet, its finer and sharper edge geometry makes it the preferred choice for applications requiring precision scraping and clean cuts.</p>
+
+      <h3>3-Facet Grind Advantage</h3>
+      <p>The third grinding surface narrows the edge angle to deliver <strong>surgical-level sharpness</strong>. This profile particularly excels in glass surface cleaning, thin film cutting, and precision label removal. Despite the fine edge profile, AccuTec's Armor Edge technology maintains structural integrity.</p>
+
+      <h3>Variant Options</h3>
+      <ul>
+        <li><strong>B201 131 A01:</strong> 38×19mm, aluminum back, notched</li>
+        <li><strong>B201 131P A01:</strong> 38×19mm, aluminum back, notched (Premium)</li>
+        <li><strong>B201 002 A01:</strong> 38×17mm, uncased, notched — 1000-count bulk packaging</li>
+      </ul>
+
+      <h3>Applications</h3>
+      <ul>
+        <li><strong>Glass industry:</strong> Precision glass cleaning, fine label/sticker removal</li>
+        <li><strong>Automotive detail:</strong> Fine deburring, precision surface cleaning</li>
+        <li><strong>Laboratory:</strong> Sample cutting, slide preparation</li>
+        <li><strong>Printing:</strong> Thin film and foil cutting</li>
+      </ul>
+    `,
     seo: {
       title: 'Single Edge Blade 3-Facet Carbon Steel 0.23mm B201 | Alya Blade',
       description: '3-facet ultra-sharp single edge blade. 0.23mm high carbon steel, HRC 58-62. Precision glass cleaning, label removal, thin film cutting. Cased/uncased/1000-count bulk.',
@@ -469,6 +507,26 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Food Safety', description: 'Stainless construction eliminates food contamination risk — suitable for FDA/HACCP compliant environments', icon: 'ShieldCheck' },
       { title: 'Extended Shelf Life', description: 'Remains intact even in humid storage conditions — easier inventory management', icon: 'Clock' },
     ],
+    longDescription: `
+      <p>The B201 801 A01 is a specialized single edge blade manufactured from <strong>stainless steel</strong>. With 13%+ chromium content, it provides full corrosion resistance in environments with heavy moisture, water, and chemical exposure.</p>
+
+      <h3>Why Stainless Steel?</h3>
+      <p>Standard carbon steel blades rust quickly in humid environments, creating contamination risk. The stainless steel version offers:</p>
+      <ul>
+        <li><strong>Full protection</strong> against rust and oxidation</li>
+        <li><strong>Food-safe</strong> — zero contamination risk</li>
+        <li><strong>Chemical resistance</strong> — withstands cleaning solutions</li>
+        <li><strong>Extended shelf life</strong> — won't degrade even in humid storage</li>
+      </ul>
+
+      <h3>Applications</h3>
+      <ul>
+        <li><strong>Food processing:</strong> Scraping and cleaning in meat, dairy, and beverage facilities</li>
+        <li><strong>Pharmaceutical and cosmetics:</strong> Surface preparation on clean production lines</li>
+        <li><strong>Maritime:</strong> Glass and surface cleaning in saltwater environments</li>
+        <li><strong>Cleanroom:</strong> Precision scraping with zero contamination risk</li>
+      </ul>
+    `,
     seo: {
       title: 'Single Edge Blade Stainless Steel 0.23mm B201 | Alya Blade',
       description: 'Stainless steel single edge blade. 13%+ chromium, HRC 55-58, 3-facet. Food processing, pharmaceutical, cleanroom, maritime. Full corrosion resistance.',
@@ -487,6 +545,31 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Dual Protection', description: 'Stainless steel + PTFE coating = corrosion + adhesion problem solved simultaneously', icon: 'ShieldCheck' },
       { title: 'Notched & Scored Options', description: 'Two mounting profiles for broad scraper tool compatibility', icon: 'Settings' },
     ],
+    longDescription: `
+      <p>The B201 901 A01 is a premium single edge blade featuring <strong>PTFE (Polytetrafluoroethylene / Teflon®) coating over a stainless steel substrate</strong>. Delivers superior performance in all applications involving contact with adhesive materials.</p>
+
+      <h3>PTFE Coating Advantages</h3>
+      <ul>
+        <li><strong>40-60% friction reduction:</strong> Adhesive material won't build up on the blade surface</li>
+        <li><strong>Non-stick:</strong> Adhesive residue transfer is minimized</li>
+        <li><strong>Extended service life:</strong> Reduced friction from the coating slows edge wear</li>
+        <li><strong>Clean cut:</strong> By preventing adhesive buildup, every cut is as clean as the first</li>
+      </ul>
+
+      <h3>Variant Options</h3>
+      <ul>
+        <li><strong>B201 901 A01:</strong> Notched — compatible with standard scraper tools</li>
+        <li><strong>B201 901 A01-K:</strong> Scored — alternative mounting profile</li>
+      </ul>
+
+      <h3>Applications</h3>
+      <ul>
+        <li><strong>Adhesive label removal:</strong> Removing labels and stickers from glass, metal, and plastic surfaces</li>
+        <li><strong>Window tint removal:</strong> Removing film from automotive and building windows</li>
+        <li><strong>Printing:</strong> Ink and adhesive scraping — roller cleaning</li>
+        <li><strong>Packaging:</strong> Cleaning adhesive tape residue</li>
+      </ul>
+    `,
     seo: {
       title: 'Single Edge Blade PTFE Coated Stainless Steel 0.23mm | Alya Blade',
       description: 'PTFE Teflon coated stainless steel single edge blade. 40-60% friction reduction. Adhesive label removal, window tint removal, tape scraping. Non-stick industrial blade.',
@@ -505,6 +588,31 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Two Back Options', description: 'Aluminum (lightweight) or metal spine (extra rigid) — choose for your application', icon: 'Box' },
       { title: 'Extended Edge Life', description: 'Thick profile provides more wear margin — reduces blade change frequency', icon: 'Clock' },
     ],
+    longDescription: `
+      <p>The B201 501/504 series features a <strong>30% thicker profile</strong> compared to standard 0.23mm blades, designed for heavy-duty applications. The 0.30mm (0.012") thickness minimizes bending risk on hard surfaces and enables more aggressive scraping.</p>
+
+      <h3>0.30mm Thick Profile Advantage</h3>
+      <ul>
+        <li><strong>30% thicker:</strong> Noticeably increased rigidity compared to standard blades</li>
+        <li><strong>Bend resistance:</strong> Blade won't flex on hard surfaces — controlled scraping</li>
+        <li><strong>Longer edge life:</strong> Thick profile provides more grinding margin</li>
+        <li><strong>Aggressive scraping:</strong> Effective removal of stubborn paint, adhesive, and residue</li>
+      </ul>
+
+      <h3>Back Options</h3>
+      <ul>
+        <li><strong>B201 501 A01:</strong> Aluminum back — lightweight and economical</li>
+        <li><strong>B201 504 A01:</strong> Metal spine back — extra rigidity and durability</li>
+      </ul>
+
+      <h3>Applications</h3>
+      <ul>
+        <li><strong>Construction:</strong> Heavy paint/varnish scraping, putty stripping, floor preparation</li>
+        <li><strong>Metal industry:</strong> Metal surface cleaning, deburring, weld residue scraping</li>
+        <li><strong>Automotive:</strong> Gasket/sealant scraping, heavy adhesive removal</li>
+        <li><strong>Maintenance:</strong> Stubborn residue cleaning, surface renovation</li>
+      </ul>
+    `,
     seo: {
       title: 'Single Edge Blade 0.30mm Heavy Duty Carbon Steel | Alya Blade',
       description: 'Heavy duty thick profile single edge blade. 0.30mm (0.012"), HRC 58-62, 2-facet. Heavy paint scraping, metal surface prep, gasket removal. Aluminum/metal spine back.',

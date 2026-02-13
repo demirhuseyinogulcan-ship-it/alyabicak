@@ -69,6 +69,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     ventilation: 'Havalandırma',
     toothTolerance: 'Diş Toleransı',
     idealMaterial: 'İdeal Malzeme',
+    grindProfile: 'Bileme Profili',
+    back: 'Kılıf',
+    packaging: 'Ambalaj',
   },
   en: {
     material: 'Material',
@@ -118,6 +121,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     ventilation: 'Ventilation',
     toothTolerance: 'Tooth Tolerance',
     idealMaterial: 'Ideal Material',
+    grindProfile: 'Grind Profile',
+    back: 'Back',
+    packaging: 'Packaging',
   },
   ar: {
     material: 'المادة',
@@ -167,6 +173,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     ventilation: 'التهوية',
     toothTolerance: 'تفاوت الأسنان',
     idealMaterial: 'المادة المثالية',
+    grindProfile: 'ملف الشحذ',
+    back: 'الغلاف',
+    packaging: 'التعبئة',
   },
   ru: {
     material: 'Материал',
@@ -216,6 +225,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     ventilation: 'Вентиляция',
     toothTolerance: 'Допуск зубьев',
     idealMaterial: 'Идеальный материал',
+    grindProfile: 'Профиль заточки',
+    back: 'Футляр',
+    packaging: 'Упаковка',
   },
   fr: {
     material: 'Matériau',
@@ -265,6 +277,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     ventilation: 'Ventilation',
     toothTolerance: 'Tolérance des dents',
     idealMaterial: 'Matériau idéal',
+    grindProfile: 'Profil d\'affûtage',
+    back: 'Étui',
+    packaging: 'Emballage',
   },
 };
 
