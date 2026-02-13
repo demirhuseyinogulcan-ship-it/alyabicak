@@ -626,8 +626,9 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
 
   // =============================================================================
-  // LAMES DE REFENDAGE 3 TROUS
+  // SÉCURITÉ CUTTERS
   // =============================================================================
+  'h006-001-x01': {
     name: 'H006 001 X01 - RETRO LIGHT KNIFE',
     subtitle: 'Couteau de Sécurité en Métal Moulé',
     description: 'Cutter manuel professionnel en métal moulé sous pression conforme aux normes de sécurité au travail. Performance durable avec tranchant de coupe produit en acier Sheffield.',
