@@ -1824,6 +1824,115 @@
     "order": 112
   },
   {
+    "id": "b213",
+    "slug": "b213-trapez-kompakt",
+    "code": "B213",
+    "name": "B213 - KOMPAKT TRAPEZ BIÇAK",
+    "description": "Kompakt trapez bıçak 61×12.5×0.63mm. Dar alanlar ve hassas kesim için. Sheffield kalitesi.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "trapezoid-blades",
+    "image": "/images/products/trapez-ozel-tasarim.jpg",
+    "variants": [
+      {
+        "id": "b213-standard",
+        "sku": "B213",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Sheffield Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "61×12.5×0.63mm"
+    },
+    "features": [
+      "Kompakt boyut 61×12.5mm",
+      "0.63mm kalınlık",
+      "1 montaj deliği",
+      "Sheffield kalitesi"
+    ],
+    "applications": [
+      "Dar alan kesimi",
+      "Elektronik",
+      "Hassas işler"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 113
+  },
+  {
+    "id": "b218",
+    "slug": "b218-trapez-orta-ozel",
+    "code": "B218",
+    "name": "B218 - ÖZEL TRAPEZ BIÇAK",
+    "description": "Özel boyut trapez bıçak 71×17×0.63mm. Endüstriyel makineler için. Sheffield kalitesi.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "trapezoid-blades",
+    "image": "/images/products/trapez-ozel-tasarim.jpg",
+    "variants": [
+      {
+        "id": "b218-standard",
+        "sku": "B218",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Sheffield Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "71×17×0.63mm"
+    },
+    "features": [
+      "Özel boyut 71×17mm",
+      "0.63mm kalınlık",
+      "1×6mm delik",
+      "Sheffield kalitesi"
+    ],
+    "applications": [
+      "Endüstriyel makineler",
+      "Otomasyon sistemleri",
+      "Özel aletler"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 114
+  },
+  {
+    "id": "b214",
+    "slug": "b214-mikro-trapez",
+    "code": "B214",
+    "name": "B214 - MİKRO TRAPEZ BIÇAK",
+    "description": "Ultra kompakt mikro trapez bıçak 27.6×9×0.43mm. Elektronik, model yapımı, laboratuvar için. Sheffield kalitesi.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "trapezoid-blades",
+    "image": "/images/products/trapez-ozel-tasarim.jpg",
+    "variants": [
+      {
+        "id": "b214-standard",
+        "sku": "B214",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Sheffield Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "27.6×9×0.43mm"
+    },
+    "features": [
+      "Ultra kompakt 27.6×9mm",
+      "0.43mm ince profil",
+      "3×3.5mm delikler",
+      "Sheffield kalitesi"
+    ],
+    "applications": [
+      "Elektronik montaj",
+      "Model yapımı",
+      "Laboratuvar",
+      "Medikal cihazlar"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 115
+  },
+  {
     "id": "b208",
     "slug": "b208-sivri-uc-standart-tip",
     "code": "B208",
@@ -2374,7 +2483,7 @@
     "name": "B207 - L",
     "description": "L. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
+    "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b207-l.jpg",
     "variants": [
       {
@@ -3206,7 +3315,7 @@
     "name": "B207 - XXL (UZUN)",
     "description": "XXL (UZUN). Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
+    "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b207-xxl-uzun.jpg",
     "variants": [
       {
