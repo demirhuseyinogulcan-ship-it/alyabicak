@@ -17,21 +17,6 @@
 import type { ProductTranslation } from './tr';
 
 export const productsFr: Record<string, ProductTranslation> = {
-  // =============================================================================
-  // RASOIRS INDUSTRIELS - REFENDAGE 3 TROUS
-  // =============================================================================
-  '43': {
-    name: 'Lame à Angle Droit 43 x 22 – Sécable B202S-K',
-    description: 'Lame industrielle de refendage à angle droit avec conception sécable au centre. Lame de découpe professionnelle de qualité Sheffield.',
-    features: ['Longue durée de vie', 'Qualité Sheffield', 'Usage professionnel', 'Conception sécable'],
-    applications: ['Découpe industrielle', 'Refendage de films', 'Découpe de papier'],
-  },
-  '60': {
-    name: 'Lame à Angle Droit 60 x 22 – Sécable B205S-K',
-    description: 'Lame de refendage grand format à angle droit avec conception sécable au centre. Lame de découpe professionnelle de qualité Sheffield.',
-    features: ['Longue durée de vie', 'Qualité Sheffield', 'Usage professionnel', 'Conception sécable'],
-    applications: ['Découpe industrielle', 'Refendage de film large', 'Découpe de carton'],
-  },
 
   // =============================================================================
   // RASOIRS INDUSTRIELS - REFENDAGE À FENTE
@@ -211,12 +196,6 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   // RASOIRS INDUSTRIELS - REFENDAGE INJECTEUR
   // =============================================================================
-  'injector-carbon-steel': {
-    name: 'Lame de Refendage Injecteur - Acier Carbone',
-    description: 'Lame de refendage injecteur en acier à haute teneur en carbone',
-    features: ['Haute teneur en carbone', 'Montage injecteur', 'Longue durée de vie'],
-    applications: ['Refendage industriel', 'Découpe de film', 'Découpe de papier'],
-  },
   'injektor-karbon-celik': {
     name: 'Lame Injecteur - Acier Carbone, 2 Fentes',
     description: 'Lame injecteur industrielle fabriquée en acier à haute teneur en carbone (0,85-1,00% C). Le système de montage à double fente permet un positionnement stable et sécurisé sur les machines de refendage. Le traitement thermique de précision dans des fours à atmosphère contrôlée produit une microstructure martensitique homogène avec une dureté HRC 58-60. L\'angle de tranchant optimisé de 22° avec meulage de précision assure des coupes nettes et durables. Solution économique offrant un excellent rapport qualité-prix pour applications industrielles standard.',
@@ -632,105 +611,23 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   // RASOIRS INDUSTRIELS - LAMES TRAPÉZOÏDALES
   // =============================================================================
-  'trapezoid-standard': {
+  'trapez-bicak-standart': {
     name: 'Lame Trapézoïdale Standard',
-    description: 'Lame de découpe trapézoïdale multi-usage pour cutters utilitaires',
-    features: ['Forme trapézoïdale', 'Multi-usage', 'Montage standard'],
-    applications: ['Découpe de carton', 'Ouverture de colis', 'Découpe générale'],
+    subtitle: 'Lame trapézoïdale multi-usage',
+    description: 'Lame de découpe trapézoïdale standard pour cutters utilitaires. Acier Sheffield de haute qualité. Montage universel, double tranchant, économique.',
+    shortDescription: 'Lame trapézoïdale standard multi-usage. Montage universel, qualité Sheffield.',
+    features: ['Montage universel', 'Double tranchant', 'Économique', 'Qualité Sheffield'],
+    applications: ['Découpe de carton', 'Ouverture de colis', 'Usage général', 'Travaux d\'entrepôt'],
+    seo: {
+      title: 'Lame Trapézoïdale Standard | Alya Blade',
+      description: 'Lame trapézoïdale standard multi-usage. Acier Sheffield, montage universel, double tranchant. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale standard', 'lame cutter', 'lame universelle', 'lame Sheffield'],
+    },
   },
 
   // =============================================================================
-  // RASOIRS INDUSTRIELS - LAMES CROCHET
+  // LAMES DE REFENDAGE 3 TROUS
   // =============================================================================
-  'hook-blade-standard': {
-    name: 'Lame Crochet Standard',
-    description: 'Lame crochet pour découpe sécurisée de matériaux d\'emballage',
-    features: ['Conception crochet', 'Coupe sécurisée', 'Idéale pour film étirable'],
-    applications: ['Ouverture de colis', 'Découpe de film étirable', 'Découpe d\'emballage'],
-  },
-
-  // =============================================================================
-  // RASOIRS INDUSTRIELS - LAMES SÉCABLES
-  // =============================================================================
-  'snap-off-9mm': {
-    name: 'Lame Sécable 9mm',
-    description: 'Lame cutter de précision 9mm pour travaux détaillés',
-    features: ['Largeur 9mm', 'Lame sécable', 'Haute précision'],
-    applications: ['Travaux de précision', 'Artisanat', 'Découpe de maquettes'],
-  },
-  'snap-off-18mm': {
-    name: 'Lame Sécable 18mm',
-    description: 'Lame cutter standard 18mm pour usage général',
-    features: ['Largeur 18mm', 'Usage polyvalent', 'Lame sécable'],
-    applications: ['Découpe générale', 'Travaux de construction', 'Emballage'],
-  },
-  'snap-off-25mm': {
-    name: 'Lame Sécable 25mm',
-    description: 'Lame cutter robuste 25mm pour travaux lourds',
-    features: ['Largeur 25mm', 'Usage intensif', 'Extra robuste'],
-    applications: ['Travaux lourds', 'Découpe de matériaux épais', 'Construction'],
-  },
-
-  // =============================================================================
-  // RASOIRS INDUSTRIELS - LAMES SCALPEL
-  // =============================================================================
-  'scalpel-10': {
-    name: 'Lame Scalpel #10',
-    description: 'Lame de scalpel chirurgicale pour découpe de précision médicale',
-    features: ['Acier chirurgical', 'Stérile', 'Usage unique'],
-    applications: ['Chirurgie', 'Découpe de précision', 'Applications de laboratoire'],
-  },
-
-  // =============================================================================
-  // RASOIRS INDUSTRIELS - LAMES CIRCULAIRES
-  // =============================================================================
-  'circular-blade-60mm': {
-    name: 'Lame Circulaire 60mm',
-    description: 'Lame de découpe rotative 60mm pour cutters rotatifs',
-    features: ['Diamètre 60mm', 'Découpe rotative', 'Tranchant durable'],
-    applications: ['Découpe de tissu', 'Artisanat', 'Quilting'],
-  },
-
-  // =============================================================================
-  // COUTEAUX DE MACHINE - EMBALLAGE SOUS VIDE
-  // =============================================================================
-  'star-punch-5-point': {
-    name: 'Poinçon Étoile 5 Points',
-    description: 'Poinçon professionnel étoile à 5 points pour machines d\'emballage sous vide',
-    features: ['Conception 5 points', 'Acier haute qualité', 'Longue durée de vie'],
-    applications: ['Emballage sous vide', 'Thermoformage', 'Machines Multivac'],
-  },
-  'triangle-blade': {
-    name: 'Lame Triangle',
-    description: 'Lame triangle pour machines de thermoformage',
-    features: ['Forme triangulaire', 'Découpe précise', 'Compatible machines standard'],
-    applications: ['Thermoformage', 'Emballage sous vide', 'Découpe d\'emballage'],
-  },
-
-  // =============================================================================
-  // COUTEAUX DE MACHINE - DÉCOUENNAGE
-  // =============================================================================
-  'derinder-blade': {
-    name: 'Lame de Découennage',
-    description: 'Lame professionnelle de découennage pour traitement de viande',
-    features: ['Acier inoxydable', 'Approuvé FDA', 'Tranchant durable'],
-    applications: ['Traitement de viande', 'Découennage', 'Industrie alimentaire'],
-  },
-
-  // =============================================================================
-  // COUTEAUX DE MACHINE - LOG-SAW
-  // =============================================================================
-  'logsaw-blade-standard': {
-    name: 'Lame Log-Saw Standard',
-    description: 'Lame log-saw pour découpe de papier toilette et essuie-tout',
-    features: ['Acier haute qualité', 'Découpe nette', 'Longue durée de vie'],
-    applications: ['Papier toilette', 'Essuie-tout', 'Découpe de papier'],
-  },
-
-  // =============================================================================
-  // SÉCURITÉ CUTTERS - AUTO-RÉTRACTABLES
-  // =============================================================================
-  'h006-001-x01': {
     name: 'H006 001 X01 - RETRO LIGHT KNIFE',
     subtitle: 'Couteau de Sécurité en Métal Moulé',
     description: 'Cutter manuel professionnel en métal moulé sous pression conforme aux normes de sécurité au travail. Performance durable avec tranchant de coupe produit en acier Sheffield.',
@@ -754,26 +651,6 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Conception légère'
     ],
     applications: ['Logistique', 'Production', 'Entrepôt'],
-  },
-
-  // =============================================================================
-  // SÉCURITÉ CUTTERS - LAME FIXE
-  // =============================================================================
-  'fixed-blade-safety': {
-    name: 'Cutter de Sécurité à Lame Fixe',
-    description: 'Cutter de sécurité professionnel à lame fixe avec protection de lame',
-    features: ['Lame fixe', 'Protection de sécurité', 'Prise confortable'],
-    applications: ['Découpe générale', 'Emballage', 'Applications de sécurité'],
-  },
-
-  // =============================================================================
-  // CONTENEURS D'ÉLIMINATION
-  // =============================================================================
-  'blade-disposal-container': {
-    name: 'Conteneur d\'Élimination de Lames',
-    description: 'Conteneur de stockage pour collecte sécurisée de lames usagées et déchets d\'outils de découpe',
-    features: ['Stockage sécurisé', 'Marques de capacité', 'Construction durable'],
-    applications: ['Élimination de lames', 'Gestion de sécurité', 'Conformité au travail'],
   },
 
   // =============================================================================
@@ -897,18 +774,6 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Finition de qualité'
     ],
     applications: ['Découpe de précision', 'Matériaux délicats', 'Applications spécialisées', 'Travaux de finition'],
-  },
-  'yuvarlatilmis': {
-    name: 'Lame à Pointe Arrondie',
-    description: 'Lame de sécurité à pointe arrondie pour applications nécessitant une protection contre les perforations accidentelles. Idéale pour environnements sensibles à la sécurité.',
-    features: [
-      'Pointe arrondie sécurisée',
-      'Prévention des perforations',
-      'Conception de sécurité',
-      'Tranchant efficace',
-      'Usage polyvalent'
-    ],
-    applications: ['Découpe de sécurité', 'Environnements sensibles', 'Ouverture d\'emballages fragiles', 'Applications sans risque de perforation'],
   },
   'if': {
     name: 'Lame Type IF – Couteau Industriel',
@@ -2027,6 +1892,23 @@ export const productsFr: Record<string, ProductTranslation> = {
     description: 'Lame d\'ébavurage universelle type G01. Polyvalente.',
     features: ['Universelle', 'Polyvalente', 'Ébavurage', 'Qualité Sheffield'],
     applications: ['Ébavurage universel', 'Applications variées'],
+  },
+
+  // =============================================================================
+  // COUTEAUX DE MACHINE - ROTATIF & DÖNER
+  // =============================================================================
+  'doner-bicak-100mm': {
+    name: 'Lame Rotative 100mm',
+    subtitle: 'Lame rotative pour machines de découpe',
+    description: 'Lame rotative professionnelle de 100mm de diamètre. Acier inoxydable, HRC 56-58. Conforme FDA et USDA pour l\'industrie alimentaire.',
+    shortDescription: 'Lame rotative 100mm en acier inoxydable, qualité alimentaire.',
+    features: ['Acier inoxydable', 'Tranchant précis', 'Nettoyage facile', 'Conforme FDA'],
+    applications: ['Découpe rotative', 'Découpe de viande', 'Industrie alimentaire'],
+    seo: {
+      title: 'Lame Rotative 100mm | Alya Blade',
+      description: 'Lame rotative 100mm en acier inoxydable, HRC 56-58. Conforme FDA/USDA. Distributeur autorisé.',
+      keywords: ['lame rotative 100mm', 'lame döner', 'lame découpe viande', 'lame alimentaire'],
+    },
   },
 
   // =============================================================================
