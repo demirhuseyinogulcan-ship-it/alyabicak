@@ -632,12 +632,6 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Holeless design', 'Sheffield quality', 'Industrial grade'],
     applications: ['Special applications', 'Custom mounting'],
   },
-  'b207-2': {
-    name: 'B207 - L Size',
-    description: 'L-size variant of the B207 blade series. Sheffield quality professional blade.',
-    features: ['L size', 'Sheffield quality', 'Professional use'],
-    applications: ['Industrial cutting', 'General use'],
-  },
   'b226': {
     name: 'B226 - Supaslit Blade',
     description: 'Supaslit precision blade for industrial slitting applications. Sheffield quality.',
@@ -650,13 +644,6 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Classic design', 'Proven performance', 'Sheffield quality'],
     applications: ['General cutting', 'Industrial use', 'Everyday tasks'],
   },
-  'b207-3': {
-    name: 'B207 - XXL (Extra Long)',
-    description: 'Extra long variant of the B207 blade series for extended reach. Sheffield quality.',
-    features: ['Extra long', 'Extended reach', 'Sheffield quality'],
-    applications: ['Deep cuts', 'Large materials', 'Industrial use'],
-  },
-
   // B1xx Series
   'b111': {
     name: 'B111 Industrial Blade',
