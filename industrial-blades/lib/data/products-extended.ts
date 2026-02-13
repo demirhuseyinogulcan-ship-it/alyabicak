@@ -72,6 +72,11 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     grindProfile: 'Bileme Profili',
     back: 'Kılıf',
     packaging: 'Ambalaj',
+    notches: 'Çentik Sayısı',
+    holes: 'Delik',
+    form: 'Form',
+    availableVariants: 'Mevcut Varyantlar',
+    bladeProfile: 'Bıçak Profili',
   },
   en: {
     material: 'Material',
@@ -124,6 +129,11 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     grindProfile: 'Grind Profile',
     back: 'Back',
     packaging: 'Packaging',
+    notches: 'Notches',
+    holes: 'Holes',
+    form: 'Form',
+    availableVariants: 'Available Variants',
+    bladeProfile: 'Blade Profile',
   },
   ar: {
     material: 'المادة',
@@ -176,6 +186,11 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     grindProfile: 'ملف الشحذ',
     back: 'الغلاف',
     packaging: 'التعبئة',
+    notches: 'عدد الشقوق',
+    holes: 'الثقوب',
+    form: 'الشكل',
+    availableVariants: 'المتغيرات المتوفرة',
+    bladeProfile: 'ملف الشفرة',
   },
   ru: {
     material: 'Материал',
@@ -228,6 +243,11 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     grindProfile: 'Профиль заточки',
     back: 'Футляр',
     packaging: 'Упаковка',
+    notches: 'Насечки',
+    holes: 'Отверстия',
+    form: 'Форма',
+    availableVariants: 'Доступные варианты',
+    bladeProfile: 'Профиль лезвия',
   },
   fr: {
     material: 'Matériau',
@@ -280,6 +300,11 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     grindProfile: 'Profil d\'affûtage',
     back: 'Étui',
     packaging: 'Emballage',
+    notches: 'Encoches',
+    holes: 'Trous',
+    form: 'Forme',
+    availableVariants: 'Variantes disponibles',
+    bladeProfile: 'Profil de lame',
   },
 };
 
@@ -2486,6 +2511,746 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     isNew: true,
     inStock: true,
     order: 112,
+  },
+
+  // =============================================================================
+  // TRAPEZ BIÇAKLAR (Trapezoid Blades)
+  // =============================================================================
+
+  // ─── B207 — TRAPEZ KALIN (Heavy Duty, 0.63mm) ─────────────────────────────
+  {
+    id: 'b207',
+    slug: 'b207-trapez-kalin',
+    slugEN: 'b207-heavy-duty-trapezoid-blade',
+    code: 'B207',
+    name: 'TRAPEZ – KALIN',
+    subtitle: 'Heavy Duty Trapez Bıçak 0.63mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['trapez bıçak', 'kalın trapez', 'utility blade', 'maket bıçağı ucu', 'heavy duty'],
+
+    shortDescription: 'Profesyonel kullanım için 0.63mm kalınlığında heavy duty trapez bıçak. Karbon çelik, paslanmaz ve TiN kaplamalı seçenekler. 2-3 çentik, delik konfigürasyonları.',
+
+    longDescription: `<p>B207 serisi kalın trapez bıçaklar, endüstriyel kullanım için tasarlanmış 0.63mm (standart) ve 1.00mm (paslanmaz) kalınlıklarda profesyonel kesim bıçaklarıdır.</p>
+<p>Yüksek karbon çelikten imal edilen bıçaklar, Sheffield kalitesinde üretilmektedir. 50mm ile 100mm arası farklı uzunluk seçenekleri, 2 veya 3 çentik konfigürasyonu ve çeşitli delik düzenleri ile geniş bir kullanım yelpazesi sunar.</p>
+<p><strong>Malzeme seçenekleri:</strong> Karbon çelik (standart), paslanmaz çelik (korozyona dayanıklı), TiN kaplamalı (uzun ömür). İş güvenliği için yuvarlatılmış uç ve tek taraflı bileme alternatifleri mevcuttur.</p>
+<p>Maket bıçakları, güvenlik kesiciler, zemin döşeme aletleri ve profesyonel el aletlerinde yedek uç olarak kullanılır. Karton, halı, linoleum, PVC, ambalaj filmi, deri ve tekstil kesiminde üstün performans sağlar.</p>`,
+
+    images: {
+      main: { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Bıçak Kalın 0.63mm', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Kalın - Genel Görünüm', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Kalın', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik (SK5)', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.63mm (standart) / 1.00mm (paslanmaz)', icon: 'Ruler' },
+      { label: 'dimensions', value: '50×19 / 53×19 / 58×19 / 60×19 / 100×19 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Trapez (Utility)', icon: 'Triangle' },
+      { label: 'notches', value: '2 veya 3 çentik', icon: 'Minus' },
+      { label: 'holes', value: '0-5 delik (konfigürasyona göre)', icon: 'Circle' },
+      { label: 'edge', value: 'Çift taraflı / Tek taraflı bileme', icon: 'Zap' },
+      { label: 'coating', value: 'Standart / TiN Kaplama', icon: 'Sparkles' },
+      { label: 'packaging', value: '5, 10, 100 adet (dispenser / kutu)', icon: 'Package' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Depo & Lojistik', icon: 'Warehouse', description: 'Koli açma, ambalaj kesimi, streç film kesme' },
+      { title: 'Zemin Döşeme', icon: 'Layers', description: 'Halı, linoleum, PVC zemin kesimi' },
+      { title: 'İnşaat & Tadilat', icon: 'HardHat', description: 'Alçıpan, izolasyon malzemesi, boru yalıtımı kesimi' },
+      { title: 'Ambalaj Sektörü', icon: 'Package', description: 'Streç film, shrink, bant ve ambalaj malzemesi kesimi' },
+      { title: 'Deri & Tekstil', icon: 'Scissors', description: 'Deri, kumaş, branda ve sentetik malzeme kesimi' },
+      { title: 'Otomotiv', icon: 'Car', description: 'Conta, lastik fitil ve döşeme malzemesi kesimi' },
+    ],
+
+    benefits: [
+      { title: 'Heavy Duty Dayanım', description: '0.63mm kalın profil, ağır hizmet uygulamalarında bükülme ve kırılmaya karşı üstün direnç sağlar.', icon: 'Shield' },
+      { title: '10 Farklı Varyant', description: 'Farklı boyut, çentik, delik ve kaplama seçenekleri ile her uygulamaya özel çözüm.', icon: 'Settings' },
+      { title: 'Sheffield Kalitesi', description: 'İngiltere Sheffield\'de HRC 58-62 sertliğinde ısıl işlem görmüş yüksek karbon çelik.', icon: 'Award' },
+      { title: 'Uzun Ömür', description: 'TiN (Titanyum Nitrür) kaplamalı versiyon ile standart karbona göre 3 kat daha uzun kesim ömrü.', icon: 'Clock' },
+    ],
+
+    features: [
+      'Yüksek karbon çelik (SK5) gövde',
+      '0.63mm standart / 1.00mm paslanmaz kalınlık',
+      '50-100mm arası 5 farklı uzunluk',
+      'TiN (Titanyum Nitrür) kaplama seçeneği',
+      'Paslanmaz çelik alternatifi',
+      'İş güvenliği için yuvarlatılmış uç seçeneği',
+      'Tek taraflı bileme seçeneği',
+      '2 veya 3 çentik konfigürasyonu',
+      '0-5 delik düzeni alternatifleri',
+      'Standart trapez forma uyumlu',
+    ],
+
+    availableSizes: [
+      '60×19×0.63mm — 2 Çentik, 4 Delik',
+      '60×19×0.63mm — 2 Çentik, 4 Delik, TiN Kaplama',
+      '53×19×0.63mm — 3 Çentik, 5 Delik',
+      '51×19×0.63mm — 3 Çentik, 5 Delik, TiN Kaplama',
+      '60×19×0.63mm — 2 Çentik (deliksiz)',
+      '60×19×1.00mm — 2 Çentik, Paslanmaz',
+      '58×19×0.63mm — 3 Çentik, 3 Delik',
+      '60×19×0.63mm — 2 Çentik, 1 Delik',
+      '60×19×0.63mm — 2 Çentik, Tek Taraftan Bileme',
+      '53×19×0.63mm — 3 Çentik, 5 Delik, Yuvarlatılmış Uç',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b206', 'b082', 'b207-2', 'b207-3', 'trapez'],
+
+    compatibleParts: [
+      { id: 'h006-001-x01', name: 'RETRO LIGHT KNIFE', code: 'H006 001 X01' },
+    ],
+
+    seo: {
+      title: 'B207 Trapez Bıçak Kalın 0.63mm | Heavy Duty Utility Blade | Alya Bıçak',
+      description: 'B207 heavy duty trapez bıçak, 0.63mm kalınlık, Sheffield çelik. 10 varyant: karbon, paslanmaz, TiN kaplamalı. 50-100mm boyut. Depo, zemin döşeme, inşaat, ambalaj kesimi. Türkiye distribütörü.',
+      keywords: ['trapez bıçak', 'B207', 'heavy duty trapez', 'kalın trapez jilet', 'utility blade', 'maket bıçağı ucu', '0.63mm trapez', 'TiN kaplama trapez', 'paslanmaz trapez', 'sheffield trapez bıçak', 'trapez bıçak toptan', 'endüstriyel trapez bıçak'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 200,
+  },
+
+  // ─── B206 — TRAPEZ İNCE (Thin, 0.43mm) ────────────────────────────────────
+  {
+    id: 'b206',
+    slug: 'b206-trapez-bicak-jilet-ince',
+    slugEN: 'b206-thin-trapezoid-blade',
+    code: 'B206',
+    name: 'TRAPEZ BIÇAK / JİLET – İNCE',
+    subtitle: 'İnce Trapez Jilet 0.43mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['trapez jilet', 'ince trapez', 'thin utility blade', 'trapez 0.43mm'],
+
+    shortDescription: 'Hassas kesim için 0.43mm ince trapez bıçak/jilet. Hafif malzeme kesiminde üstün performans. Karbon çelik, tek taraflı bileme ve delikli alternatifleri.',
+
+    longDescription: `<p>B206 serisi ince trapez bıçaklar, 0.43mm kalınlıkta hassas kesim gerektiren uygulamalar için tasarlanmıştır.</p>
+<p>Yüksek karbon içerikli çelikten imal edilen bu ince profil bıçaklar, özellikle kağıt, ince film, ambalaj malzemesi, duvar kağıdı ve hafif plastik kesimlerinde tercih edilir.</p>
+<p>Farklı delik ve çentik konfigürasyonları ile çeşitli el aletlerine uyumludur. Tek taraflı bileme seçeneği, cam ve hassas yüzey kazıma işlemleri için idealdir.</p>
+<p><strong>Trapez bıçaklar</strong> tek başına makinelerde kesim için kullanılabileceği gibi, el bıçaklarında yedek uç olarak da kullanılmaktadır.</p>`,
+
+    images: {
+      main: { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 Trapez Bıçak İnce 0.43mm', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 İnce Trapez - Genel Görünüm', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 İnce Trapez', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.43mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '50×19 / 59×19 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Trapez (Utility)', icon: 'Triangle' },
+      { label: 'notches', value: '2 çentik', icon: 'Minus' },
+      { label: 'holes', value: 'Deliksiz / 2×6.4mm delik', icon: 'Circle' },
+      { label: 'edge', value: 'Çift taraflı / Tek taraflı bileme', icon: 'Zap' },
+      { label: 'packaging', value: '5, 10, 100 adet', icon: 'Package' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kağıt & Ambalaj', icon: 'FileText', description: 'Kağıt, karton, ince ambalaj filmi kesimi' },
+      { title: 'Duvar Kağıdı', icon: 'Layers', description: 'Duvar kağıdı ve dekoratif film hassas kesimi' },
+      { title: 'Ofis & Depo', icon: 'Building', description: 'Koli açma, bant kesme, hafif ambalaj işlemleri' },
+      { title: 'Cam & Yüzey Kazıma', icon: 'Sparkles', description: 'Tek taraflı bileme ile etiket ve yapışkan sökme' },
+    ],
+
+    benefits: [
+      { title: 'Hassas Kesim', description: '0.43mm ince profil, malzemeye minimum baskı ile temiz kesim sağlar.', icon: 'Target' },
+      { title: 'Hafif & Esnek', description: 'İnce yapı sayesinde bükülgen malzemelerde yırtma yapmadan keser.', icon: 'Feather' },
+      { title: 'Ekonomik Kullanım', description: 'Hafif kesim uygulamalarında heavy duty bıçaklara göre daha uzun ömür.', icon: 'TrendingDown' },
+    ],
+
+    features: [
+      'Yüksek karbon çelik',
+      '0.43mm ince profil',
+      '50mm ve 59mm uzunluk seçenekleri',
+      '2 çentik standart konfigürasyon',
+      'Tek taraflı bileme seçeneği',
+      '2×6.4mm delikli varyant',
+      'Standart trapez forma uyumlu',
+    ],
+
+    availableSizes: [
+      '50×19×0.43mm — Karbon, 2 Çentik',
+      '50×19×0.43mm — 2 Çentik, Tek Taraftan Bileme',
+      '59×19×0.43mm — 2×6.4mm Delik',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b207', 'b082', 'trapez'],
+
+    compatibleParts: [
+      { id: 'h006-001-x01', name: 'RETRO LIGHT KNIFE', code: 'H006 001 X01' },
+    ],
+
+    seo: {
+      title: 'B206 İnce Trapez Bıçak 0.43mm | Thin Utility Blade | Alya Bıçak',
+      description: 'B206 ince trapez bıçak/jilet. 0.43mm, Sheffield karbon çelik, HRC 58-62. Kağıt, ambalaj, duvar kağıdı, cam kazıma. Tek taraflı bileme. Türkiye distribütörü.',
+      keywords: ['ince trapez bıçak', 'B206', 'thin trapezoid blade', '0.43mm trapez', 'trapez jilet ince', 'utility blade thin', 'maket bıçağı jilet', 'kağıt kesim bıçağı', 'trapez jilet toptan'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 201,
+  },
+
+  // ─── B082 — TRAPEZ TIRTIKLI KENAR (Serrated) ──────────────────────────────
+  {
+    id: 'b082',
+    slug: 'b082-trapez-tirtikli-kenar',
+    slugEN: 'b082-serrated-trapezoid-blade',
+    code: 'B082',
+    name: 'TRAPEZ – TIRTIKLI KENAR',
+    subtitle: 'Tırtıklı Kenarlı Trapez Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['tırtıklı trapez', 'serrated utility blade', 'tırtıklı kenar', 'hook blade'],
+
+    shortDescription: 'Tırtıklı kenar tasarımlı trapez bıçak. 82×25×1.0mm büyük boy, lif ve halat kesimi için üstün kavrama. Tek taraftan tırtıklı kenar.',
+
+    longDescription: `<p>B082 tırtıklı kenarlı trapez bıçak, özellikle lifli, elyaflı ve kaygan malzemelerin kesilmesi için tasarlanmış özel bir üründür.</p>
+<p>82×25mm geniş gövde ve 1.0mm kalınlık ile son derece dayanıklı bir yapıya sahiptir. Tek taraftan tırtıklı kenar tasarımı, malzemenin bıçak üzerinde kaymasını önler ve ilk temastan itibaren temiz kesim sağlar.</p>
+<p>Halat, ip, sicim, sentetik elyaf, cam elyaf, karbon elyaf, Kevlar ve benzeri güç gerektiren malzemelerde tercih edilir.</p>`,
+
+    images: {
+      main: { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Trapez Tırtıklı Kenar Bıçak', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Tırtıklı Trapez - Genel Görünüm', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Tırtıklı Trapez', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '1.0mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '82×25 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Trapez (Geniş Gövde)', icon: 'Triangle' },
+      { label: 'holes', value: '2 delik', icon: 'Circle' },
+      { label: 'edgeType', value: 'Tek taraftan tırtıklı kenar', icon: 'Zap', highlight: true },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Halat & İp Kesimi', icon: 'Link', description: 'Naylon halat, sicim, çelik halat kılıfı kesimi' },
+      { title: 'Elyaf Kompozit', icon: 'Layers', description: 'Cam elyaf, karbon elyaf, Kevlar kesimi' },
+      { title: 'Tekstil & Sentetik', icon: 'Scissors', description: 'Kalın kumaş, branda, sentetik malzeme' },
+      { title: 'Tarım & Bahçe', icon: 'Leaf', description: 'Bağcılık ipleri, sera örtüsü, tarım filmi kesimi' },
+    ],
+
+    benefits: [
+      { title: 'Kayma Önleyici', description: 'Tırtıklı kenar, kaygan malzemelerde bile ilk temastan itibaren kavrama sağlar.', icon: 'Grip' },
+      { title: 'Ekstra Kalın', description: '1.0mm kalınlık, ağır hizmet lifli malzemelerde bükülme direnci sağlar.', icon: 'Shield' },
+      { title: 'Geniş Gövde', description: '82×25mm boyut, güçlü kavrama ve kontrollü kesim alanı sunar.', icon: 'Maximize' },
+    ],
+
+    features: [
+      'Tek taraftan tırtıklı kenar',
+      '82×25×1.0mm geniş ve kalın gövde',
+      '2 montaj deliği',
+      'Lifli malzemelerde üstün performans',
+      'Sheffield kalitesinde karbon çelik',
+    ],
+
+    availableSizes: [
+      '82×25×1.0mm — 2 Delik, Tek Taraftan Tırtıklı Kenar',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b207', 'b206', 'trapez'],
+
+    seo: {
+      title: 'B082 Tırtıklı Kenar Trapez Bıçak | Serrated Utility Blade | Alya Bıçak',
+      description: 'B082 tırtıklı kenarlı trapez bıçak. 82×25×1.0mm, Sheffield çelik. Halat, elyaf, Kevlar kesimi. Tek taraftan tırtıklı kenar. Türkiye distribütörü.',
+      keywords: ['tırtıklı trapez bıçak', 'B082', 'serrated trapezoid', 'tırtıklı kenar', 'halat kesim bıçağı', 'elyaf kesim bıçağı', 'serrated utility blade', 'hook blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 202,
+  },
+
+  // ─── B213 — TRAPEZ KOMPAKTMini (61×12.5mm) ────────────────────────────────
+  {
+    id: 'b213',
+    slug: 'b213-trapez-kompakt',
+    slugEN: 'b213-compact-trapezoid-blade',
+    code: 'B213',
+    name: 'TRAPEZ – KOMPAKT',
+    subtitle: 'Kompakt Trapez Bıçak 61×12.5mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['kompakt trapez', 'mini trapez', 'compact utility blade', '61mm trapez'],
+
+    shortDescription: 'Kompakt boyutlu özel trapez bıçak. 61×12.5×0.63mm, 1 delik. Dar alanlar ve hassas uygulamalar için küçük form faktörlü trapez.',
+
+    longDescription: `<p>B213 kompakt trapez bıçak, standart trapez formunun küçültülmüş bir versiyonudur. 61×12.5mm boyutları ile dar alanlarda kullanıma uygundur.</p>
+<p>0.63mm standart kalınlık ve 1 delikli montaj tasarımı ile özel el aletleri ve kompakt kesicilerde yedek uç olarak kullanılır. Elektronik bileşen kesimi, ince kablo soyma ve detay işlerinde tercih edilen özel bir trapez formudur.</p>`,
+
+    images: {
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez Bıçak 61×12.5mm', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '61×12.5 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Kompakt Trapez', icon: 'Triangle' },
+      { label: 'holes', value: '1 delik', icon: 'Circle' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Dar Alan Kesimi', icon: 'Minimize', description: 'Dar ve ulaşılması zor alanlarda hassas kesim' },
+      { title: 'Elektronik', icon: 'Cpu', description: 'Kablo, bant ve ince bileşen kesimi' },
+      { title: 'Detay İşçiliği', icon: 'Target', description: 'Model yapımı, maket ve hassas el işleri' },
+    ],
+
+    benefits: [
+      { title: 'Kompakt Form', description: '61×12.5mm küçük boyut, dar alanlarda rahat manevra.', icon: 'Minimize' },
+      { title: 'Hassas Kesim', description: 'Küçük trapez form ile kontrollü, detaylı kesim.', icon: 'Target' },
+    ],
+
+    features: [
+      '61×12.5×0.63mm kompakt boyut',
+      '1 delikli montaj tasarımı',
+      'Özel aletlere uyumlu',
+      'Sheffield kalitesinde karbon çelik',
+    ],
+
+    availableSizes: [
+      '61×12.5×0.63mm — 1 Delik',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b214', 'b218', 'b207', 'trapez'],
+
+    seo: {
+      title: 'B213 Kompakt Trapez Bıçak 61×12.5mm | Compact Utility Blade | Alya Bıçak',
+      description: 'B213 kompakt trapez bıçak, 61×12.5×0.63mm. Dar alanlar, elektronik, detay kesim. Sheffield çelik. Türkiye distribütörü.',
+      keywords: ['kompakt trapez', 'B213', 'compact trapezoid', 'mini utility blade', '61mm trapez', 'küçük trapez bıçak'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: true,
+    inStock: true,
+    order: 203,
+  },
+
+  // ─── B218 — TRAPEZ ORTA ÖZEL (71×17mm) ────────────────────────────────────
+  {
+    id: 'b218',
+    slug: 'b218-trapez-orta-ozel',
+    slugEN: 'b218-medium-special-trapezoid-blade',
+    code: 'B218',
+    name: 'TRAPEZ – ORTA ÖZEL',
+    subtitle: 'Özel Boyut Trapez Bıçak 71×17mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['özel trapez', 'orta boy trapez', 'medium utility blade', '71mm trapez'],
+
+    shortDescription: 'Özel boyutlu orta trapez bıçak. 71×17×0.63mm, 1×6mm delik. Standart dışı aletler ve özel uygulamalar için ara boy trapez.',
+
+    longDescription: `<p>B218 orta özel trapez bıçak, standart 19mm genişlik yerine 17mm genişliğe sahip bir ara boy üründür. 71mm uzunluk ile standart trapezlerden daha uzun bir kesim hattı sunar.</p>
+<p>1×6mm delikli tasarımı, özel tutucular ve endüstriyel makinelerde kullanıma uygundur. Belirli marka el bıçakları ve otomasyon sistemlerindeki kesici ünitelere yedek uç olarak tercih edilir.</p>`,
+
+    images: {
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez Bıçak 71×17mm', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '71×17 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Trapez (Özel Boyut)', icon: 'Triangle' },
+      { label: 'holes', value: '1×6mm delik', icon: 'Circle' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Endüstriyel Makineler', icon: 'Settings', description: 'Özel kesici ünitelere yedek bıçak' },
+      { title: 'Otomasyon Sistemleri', icon: 'Cpu', description: 'Otomatik kesim hatlarında yedek uç' },
+      { title: 'Özel El Aletleri', icon: 'Wrench', description: 'Non-standart boyut gerektiren aletlere yedek' },
+    ],
+
+    benefits: [
+      { title: 'Uzun Kesim Hattı', description: '71mm uzunluk, standart 60mm trapeze göre %18 daha geniş kesim alanı.', icon: 'ArrowRight' },
+      { title: 'Özel Uyumluluk', description: '17mm genişlik, belirli marka aletlere mükemmel uyum.', icon: 'Check' },
+    ],
+
+    features: [
+      '71×17×0.63mm özel boyut',
+      '1×6mm delikli montaj',
+      'Uzun kesim hattı',
+      '17mm dar genişlik',
+      'Sheffield kalitesinde karbon çelik',
+    ],
+
+    availableSizes: [
+      '71×17×0.63mm — 1×6mm Delik',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b213', 'b214', 'b207', 'trapez'],
+
+    seo: {
+      title: 'B218 Özel Trapez Bıçak 71×17mm | Medium Special Blade | Alya Bıçak',
+      description: 'B218 özel boyut trapez bıçak, 71×17×0.63mm, 1×6mm delik. Endüstriyel makine, otomasyon sistemi yedek ucu. Sheffield çelik. Türkiye distribütörü.',
+      keywords: ['özel trapez bıçak', 'B218', '71mm trapez', 'medium trapezoid blade', 'özel boyut utility blade', 'makine trapez bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: true,
+    inStock: true,
+    order: 204,
+  },
+
+  // ─── B214 — MİKRO TRAPEZ (27.6×9mm) ───────────────────────────────────────
+  {
+    id: 'b214',
+    slug: 'b214-mikro-trapez',
+    slugEN: 'b214-micro-trapezoid-blade',
+    code: 'B214',
+    name: 'TRAPEZ – MİKRO',
+    subtitle: 'Mikro Trapez Bıçak 27.6×9mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['mikro trapez', 'mini trapez', 'micro utility blade', 'precision blade'],
+
+    shortDescription: 'Ultra kompakt mikro trapez bıçak. 27.6×9×0.43mm, 3×3.5mm delik. Hassas ve minyatür uygulamalar için en küçük trapez form.',
+
+    longDescription: `<p>B214 mikro trapez bıçak, trapez ailesi içindeki en küçük boyutlu üründür. 27.6×9mm boyutu ile minyatür el aletleri, hassas kesim cihazları ve özel endüstriyel uygulamalar için tasarlanmıştır.</p>
+<p>0.43mm kalınlık ve 3×3.5mm üçlü delik konfigürasyonu ile özel tutucu sistemlerine monte edilir. Elektronik montaj, tıbbi cihaz imalatı, model yapımı ve mikro kesim gerektiren laboratuvar işlemlerinde kullanılır.</p>`,
+
+    images: {
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez Bıçak 27.6×9mm', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.43mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '27.6×9 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Mikro Trapez', icon: 'Triangle' },
+      { label: 'holes', value: '3×3.5mm delik', icon: 'Circle' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Elektronik Montaj', icon: 'Cpu', description: 'Elektronik bileşen, kablo ve PCB kesimi' },
+      { title: 'Model & Maket', icon: 'Box', description: 'Model yapımı, maket ve hobi kesim işleri' },
+      { title: 'Laboratuvar', icon: 'FlaskConical', description: 'Numune hazırlama ve hassas malzeme kesimi' },
+      { title: 'Tıbbi Cihaz', icon: 'Heart', description: 'Tıbbi malzeme ve bileşen imalatı' },
+    ],
+
+    benefits: [
+      { title: 'Ultra Kompakt', description: '27.6×9mm: en küçük trapez bıçak, minyatür aletlere mükemmel uyum.', icon: 'Minimize' },
+      { title: 'Hassas Kontrol', description: 'Küçük boyut ve ince profil ile mikron düzeyinde kesim kontrolü.', icon: 'Target' },
+    ],
+
+    features: [
+      '27.6×9×0.43mm ultra kompakt boyut',
+      '3×3.5mm üçlü delik konfigürasyonu',
+      '0.43mm ince profil',
+      'Minyatür tutuculara uyumlu',
+      'Sheffield kalitesinde karbon çelik',
+    ],
+
+    availableSizes: [
+      '27.6×9×0.43mm — 3×3.5mm Delik',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b213', 'b218', 'b206', 'trapez'],
+
+    seo: {
+      title: 'B214 Mikro Trapez Bıçak 27.6×9mm | Micro Utility Blade | Alya Bıçak',
+      description: 'B214 mikro trapez bıçak, 27.6×9×0.43mm, 3×3.5mm delik. Elektronik, model, laboratuvar, tıbbi cihaz kesimi. Sheffield çelik. Türkiye distribütörü.',
+      keywords: ['mikro trapez', 'B214', 'micro trapezoid blade', 'mini utility blade', '27mm trapez', 'hassas trapez bıçak', 'minyatür kesim bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: true,
+    inStock: true,
+    order: 205,
+  },
+
+  // ─── B207-L — TRAPEZ UZUN (Long) ──────────────────────────────────────────
+  {
+    id: 'b207-2',
+    slug: 'b207-l-2',
+    slugEN: 'b207-l-long-trapezoid-blade',
+    code: 'B207 L',
+    name: 'TRAPEZ – L (UZUN)',
+    subtitle: 'Uzun Trapez Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['uzun trapez', 'long utility blade', 'L trapez', 'geniş kesim'],
+
+    shortDescription: 'B207 serisinin uzun versiyonu. Standart trapezden daha geniş kesim alanı. Büyük boy malzeme ve geniş yüzey kesimlerinde tercih edilir.',
+
+    longDescription: `<p>B207 L (Long) trapez bıçak, standart B207 serisinin uzatılmış versiyonudur. Daha geniş bir kesim hattı sunarak tek seferde daha fazla malzeme kesilmesini sağlar.</p>
+<p>Özellikle büyük boy karton kutu açma, geniş ambalaj filmlerinin kesilmesi, büyük yüzey halılarının döşenmesi ve endüstriyel paketleme işlemlerinde standart boyuta göre daha verimli çalışma sağlar.</p>`,
+
+    images: {
+      main: { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun Trapez Bıçak', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun Trapez', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'form', value: 'Trapez Uzun (L)', icon: 'Triangle' },
+      { label: 'bladeProfile', value: 'Standart B207 serisi genişletilmiş', icon: 'ArrowRight' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Büyük Boy Kesim', icon: 'Maximize', description: 'Büyük karton, geniş ambalaj filmi' },
+      { title: 'Zemin Döşeme', icon: 'Layers', description: 'Geniş halı ve linoleum ruloları' },
+      { title: 'İnşaat', icon: 'HardHat', description: 'Büyük izolasyon panelleri, alçıpan' },
+    ],
+
+    benefits: [
+      { title: 'Geniş Kesim Alanı', description: 'Standart B207\'ye göre daha uzun bıçak uzunluğu ile tek seferde daha fazla malzeme keser.', icon: 'Maximize' },
+      { title: 'Aynı Kalite', description: 'B207 serisinin tüm kalite standartları: Sheffield çelik, HRC 58-62.', icon: 'Award' },
+    ],
+
+    features: [
+      'B207 serisinin uzun versiyonu',
+      '0.63mm kalın profil',
+      'Geniş kesim hattı',
+      'Sheffield kalitesinde karbon çelik',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b207', 'b207-3', 'b206'],
+
+    seo: {
+      title: 'B207 L Uzun Trapez Bıçak | Long Utility Blade | Alya Bıçak',
+      description: 'B207 L uzun trapez bıçak. Standart B207\'nin uzatılmış versiyonu, geniş kesim hattı. Sheffield çelik, HRC 58-62. Türkiye distribütörü.',
+      keywords: ['uzun trapez bıçak', 'B207 L', 'long trapezoid blade', 'büyük utility blade', 'geniş kesim trapez'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 206,
+  },
+
+  // ─── B207-XXL — TRAPEZ XXL (Extra Long) ───────────────────────────────────
+  {
+    id: 'b207-3',
+    slug: 'b207-xxl-uzun-3',
+    slugEN: 'b207-xxl-extra-long-trapezoid-blade',
+    code: 'B207 XXL',
+    name: 'TRAPEZ – XXL (UZUN)',
+    subtitle: 'Ekstra Uzun Trapez Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['xxl trapez', 'extra long utility blade', 'XXL trapez', 'ekstra uzun'],
+
+    shortDescription: 'B207 serisinin ekstra uzun (XXL) versiyonu. En geniş kesim alanı sunan trapez bıçak. Endüstriyel ölçekli kesim uygulamaları için.',
+
+    longDescription: `<p>B207 XXL ekstra uzun trapez bıçak, trapez ailesinin en büyük boyutlu standart ürünüdür. Endüstriyel ölçekli kesim uygulamalarında maksimum verimlilik sağlamak için tasarlanmıştır.</p>
+<p>100×19mm boyutlu trapezlerle birlikte en uzun kesim hattına sahip ürünler arasındadır. Büyük atölyelerde, fabrikalarda ve endüstriyel tesislerde sürekli yoğun kullanım için uygundur.</p>`,
+
+    images: {
+      main: { src: '/images/products/b207-xxl-uzun.jpg', alt: 'B207 XXL Ekstra Uzun Trapez Bıçak', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/b207-xxl-uzun.jpg', alt: 'B207 XXL Ekstra Uzun Trapez', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/b207-xxl-uzun.jpg', alt: 'B207 XXL', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'form', value: 'Trapez XXL (Ekstra Uzun)', icon: 'Triangle' },
+      { label: 'bladeProfile', value: 'B207 serisi ekstra genişletilmiş', icon: 'ArrowRight' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Endüstriyel Kesim', icon: 'Factory', description: 'Fabrika ve atölye ölçeğinde ağır malzeme kesimi' },
+      { title: 'Büyük Ambalaj', icon: 'Package', description: 'Büyük boy palet shrink, endüstriyel ambalaj' },
+      { title: 'İnşaat Projesi', icon: 'HardHat', description: 'Büyük yalıtım panelleri, membran kesimi' },
+    ],
+
+    benefits: [
+      { title: 'Maksimum Kesim', description: 'Trapez ailesindeki en geniş kesim hattı: tek seferde maksimum verimlilik.', icon: 'Maximize' },
+      { title: 'Endüstriyel Dayanım', description: '0.63mm kalınlık + uzun gövde: ağır hizmet uygulamalarında güvenilir.', icon: 'Shield' },
+    ],
+
+    features: [
+      'B207 serisinin ekstra uzun (XXL) versiyonu',
+      '0.63mm kalın profil',
+      'En geniş kesim hattı',
+      'Endüstriyel seviye dayanıklılık',
+      'Sheffield kalitesinde karbon çelik',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b207', 'b207-2', 'b206'],
+
+    seo: {
+      title: 'B207 XXL Ekstra Uzun Trapez Bıçak | Extra Long Utility Blade | Alya Bıçak',
+      description: 'B207 XXL ekstra uzun trapez bıçak. En geniş kesim hattı, endüstriyel ağır hizmet. Sheffield çelik, HRC 58-62. Türkiye distribütörü.',
+      keywords: ['xxl trapez bıçak', 'B207 XXL', 'extra long trapezoid', 'ekstra uzun utility blade', 'endüstriyel trapez'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 207,
+  },
+
+  // ─── TRAPEZ ÖZEL TASARIM (100×19mm, genel custom) ──────────────────────────
+  {
+    id: 'trapez',
+    slug: 'trapez-ozel-tasarim',
+    slugEN: 'custom-design-trapezoid-blade',
+    code: 'TRAPEZ',
+    name: 'TRAPEZ – ÖZEL TASARIM',
+    subtitle: 'Özel Tasarım & Büyük Boy Trapez Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'trapezoid-blades',
+    tags: ['özel tasarım trapez', 'custom trapez', 'büyük boy trapez', '100mm trapez'],
+
+    shortDescription: 'Standart dışı boyut ve konfigürasyonlarda özel tasarım trapez bıçaklar. 100×19mm büyük boy dahil. Müşteriye özel çentik, delik ve malzeme seçenekleri.',
+
+    longDescription: `<p>Alya Blade olarak standart trapez formlarının ötesinde, müşteriye özel trapez bıçak çözümleri sunmaktayız. Özel boyut, çentik sayısı, delik düzeni, malzeme ve kaplama kombinasyonlarını talebe göre üretebiliyoruz.</p>
+<p>100×19mm büyük boy trapez bıçak, standart ürün gamımızdaki en uzun trapez formudur. 3 çentik ve 1 delik konfigürasyonu ile endüstriyel makine ve otomasyon sistemlerinde kullanılır.</p>
+<p><strong>Özel sipariş sürecimiz:</strong> İhtiyacınıza uygun boyut, malzeme, kalınlık, çentik/delik konfigürasyonu ve kaplama seçenekleri ile müşteriye özel trapez bıçak üretimi yapılmaktadır. Minimum sipariş adedi için bizimle iletişime geçin.</p>`,
+
+    images: {
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Özel Tasarım Trapez Bıçak 100×19mm', width: 800, height: 800 },
+      gallery: [
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Trapez Özel Tasarım', width: 800, height: 800 },
+      ],
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Özel Trapez', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon / Paslanmaz / TiN Kaplama', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.43 / 0.63 / 1.00 mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '100×19 mm (büyük boy) + özel boyutlar', icon: 'Maximize' },
+      { label: 'form', value: 'Özel Tasarım Trapez', icon: 'Triangle' },
+      { label: 'notches', value: 'Müşteriye özel (1-5 çentik)', icon: 'Minus' },
+      { label: 'holes', value: 'Müşteriye özel delik konfigürasyonu', icon: 'Circle' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Özel Makineler', icon: 'Settings', description: 'Standart dışı kesici ünitelere özel bıçak' },
+      { title: 'Otomasyon Hatları', icon: 'Cpu', description: 'Otomatik kesim sistemlerine özel üretim' },
+      { title: 'Endüstriyel Proje', icon: 'Factory', description: 'Proje bazlı büyük boy kesim çözümleri' },
+      { title: 'OEM Üretim', icon: 'Box', description: 'Alet üreticilerine yedek parça tedariki' },
+    ],
+
+    benefits: [
+      { title: 'Tam Özelleştirme', description: 'Boyut, malzeme, kaplama, çentik ve delik: tamamen ihtiyaca özel.', icon: 'Settings' },
+      { title: '100mm Boy', description: 'Standart gamımızdaki en uzun trapez: 100×19mm büyük boy seçeneği.', icon: 'Maximize' },
+      { title: 'Sheffield Üretim', description: 'Tüm özel siparişler aynı Sheffield kalite standartlarında.', icon: 'Award' },
+    ],
+
+    features: [
+      '100×19×0.63mm büyük boy standart ürün',
+      'Müşteriye özel boyut üretimi',
+      'Karbon, paslanmaz, TiN kaplama seçenekleri',
+      'Özel çentik ve delik konfigürasyonları',
+      'OEM ve proje bazlı üretim',
+      'Sheffield kalite standartları',
+    ],
+
+    availableSizes: [
+      '100×19×0.63mm — 3 Çentik, 1 Delik (standart büyük boy)',
+      'Özel boyutlar — Talebe göre üretim',
+    ],
+
+    certifications: ['CE'],
+
+    relatedProductIds: ['b207', 'b206', 'b082', 'b213', 'b218', 'b214'],
+
+    seo: {
+      title: 'Özel Tasarım Trapez Bıçak 100×19mm | Custom Utility Blade | Alya Bıçak',
+      description: 'Özel tasarım trapez bıçaklar. 100×19mm büyük boy + müşteriye özel boyut, malzeme, kaplama. Sheffield çelik, HRC 58-62. OEM tedarik. Türkiye distribütörü.',
+      keywords: ['özel trapez bıçak', 'custom trapezoid blade', '100mm trapez', 'büyük boy utility blade', 'OEM trapez bıçak', 'özel üretim trapez', 'trapez bıçak üretici'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 208,
   },
 ];
 

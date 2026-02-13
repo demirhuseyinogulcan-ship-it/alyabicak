@@ -780,40 +780,64 @@ export const productsFr: Record<string, ProductTranslation> = {
   // LAMES DE REFENDAGE 3 TROUS
   // =============================================================================
   'b207': {
-    name: 'Lame de Refendage B207 – 3 Trous',
-    description: 'Lame industrielle B207 avec système de montage à 3 trous pour machines de refendage. Tranchant de précision pour découpe nette et continue. Compatible avec machines standard de l\'industrie.',
+    name: 'B207 - Lame Trapézoïdale Renforcée',
+    subtitle: 'Lame trapézoïdale renforcée 0,63mm',
+    description: 'Lame trapézoïdale renforcée professionnelle 0,63mm. Acier carbone, inox et revêtement TiN. Pour entrepôts, sols, construction et emballage. Qualité Sheffield, HRC 58-62.',
+    shortDescription: 'Lame trapézoïdale renforcée professionnelle 0,63mm avec 10 variantes : carbone, inox et TiN.',
     features: [
-      'Modèle B207 standard',
-      'Système 3 trous',
-      'Tranchant de précision',
-      'Compatible machines standard',
-      'Longue durée de vie'
+      'Acier haut carbone SK5',
+      'Épaisseur 0,63mm / 1,00mm inox',
+      '5 tailles de 50 à 100mm',
+      'Revêtement TiN (nitrure de titane)',
+      'Variante acier inoxydable',
+      'Pointe arrondie de sécurité',
+      'Affûtage unilatéral'
     ],
-    applications: ['Machines de refendage', 'Découpe de films plastiques', 'Refendage de papier', 'Production continue'],
+    applications: ['Entrepôt et logistique', 'Pose de sols', 'Construction', 'Industrie de l\'emballage', 'Cuir et textile', 'Industrie automobile'],
+    seo: {
+      title: 'B207 Lame Trapézoïdale Renforcée 0,63mm | Alya Blade',
+      description: 'B207 lame trapézoïdale renforcée 0,63mm, acier Sheffield. 10 variantes : carbone, inox, TiN. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale', 'B207', 'lame cutter universel', 'lame de construction', 'lame industrielle trapézoïdale', 'lame Sheffield'],
+    },
   },
   'b206': {
-    name: 'Lame de Refendage B206 – 3 Trous',
-    description: 'Lame industrielle B206 à fixation 3 trous pour opérations de refendage. Conception robuste avec tranchant durable pour applications industrielles exigeantes.',
+    name: 'B206 - Lame Trapézoïdale Fine',
+    subtitle: 'Lame trapézoïdale fine 0,43mm',
+    description: 'Lame trapézoïdale fine de précision 0,43mm. Pour papier, emballage, papier peint et matériaux légers. Affûtage unilatéral pour nettoyage de vitres. Qualité Sheffield.',
+    shortDescription: 'Lame trapézoïdale fine de précision 0,43mm pour opérations de coupe légère.',
     features: [
-      'Modèle B206 industriel',
-      'Fixation 3 trous sécurisée',
-      'Tranchant durable',
-      'Construction robuste',
-      'Performance constante'
+      'Acier haut carbone',
+      'Profil fin 0,43mm',
+      'Longueur 50 et 59mm',
+      '2 encoches',
+      'Affûtage unilatéral',
+      'Variante avec trous 2×6,4mm'
     ],
-    applications: ['Refendage industriel', 'Découpe de feuilles', 'Traitement de matériaux', 'Production haute cadence'],
+    applications: ['Papier et emballage', 'Pose de papier peint', 'Bureau et entrepôt', 'Nettoyage de vitres'],
+    seo: {
+      title: 'B206 Lame Trapézoïdale Fine 0,43mm | Alya Blade',
+      description: 'B206 lame trapézoïdale fine 0,43mm, acier Sheffield. Papier, emballage, papier peint, vitres. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale fine', 'B206', 'lame fine cutter', 'lame papier', 'lame papier peint'],
+    },
   },
   'b082': {
-    name: 'Lame de Refendage B082 – 3 Trous',
-    description: 'Lame professionnelle B082 avec montage à 3 trous pour applications de refendage de précision. Acier de haute qualité pour performance optimale.',
+    name: 'B082 - Lame Trapézoïdale Dentée',
+    subtitle: 'Lame trapézoïdale à bord denté',
+    description: 'Lame trapézoïdale à bord denté pour matériaux fibreux et glissants. 82×25×1,0mm, dentelure unilatérale. Qualité Sheffield.',
+    shortDescription: 'Lame trapézoïdale dentée 82×25×1,0mm. Excellente prise sur matériaux fibreux.',
     features: [
-      'Modèle B082 professionnel',
-      'Montage 3 trous',
-      'Acier haute qualité',
-      'Coupe de précision',
-      'Résistance à l\'usure'
+      'Bord denté unilatéral',
+      '82×25×1,0mm',
+      '2 trous de montage',
+      'Pour matériaux fibreux',
+      'Acier carbone Sheffield'
     ],
-    applications: ['Refendage de précision', 'Découpe de films minces', 'Applications techniques', 'Industrie de conversion'],
+    applications: ['Coupe de cordages', 'Composites fibreux', 'Textile et synthétique', 'Agriculture'],
+    seo: {
+      title: 'B082 Lame Trapézoïdale Dentée | Alya Blade',
+      description: 'B082 lame trapézoïdale dentée 82×25×1,0mm, acier Sheffield. Cordages, fibre de verre, Kevlar. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale dentée', 'B082', 'lame dentée', 'lame cordage', 'lame fibre de verre'],
+    },
   },
   'b208': {
     name: 'Lame de Refendage B208 – 3 Trous',
@@ -844,16 +868,23 @@ export const productsFr: Record<string, ProductTranslation> = {
   // LAMES SPÉCIALES - TYPES DIVERS
   // =============================================================================
   'trapez': {
-    name: 'Lame Trapézoïdale Industrielle',
-    description: 'Lame trapézoïdale professionnelle pour cutters et applications de découpe générale. Géométrie trapézoïdale offrant un tranchant robuste et une longue durée de vie. Compatible avec porte-lames standard.',
+    name: 'Lame Trapézoïdale - Design Personnalisé',
+    subtitle: 'Design personnalisé et grand format',
+    description: 'Lames trapézoïdales de dimensions non standard. Grand format 100×19mm disponible. Encoches, trous et matériaux personnalisés sur demande.',
+    shortDescription: 'Lames trapézoïdales personnalisées. 100×19mm et dimensions non standard sur demande.',
     features: [
-      'Forme trapézoïdale',
-      'Tranchant robuste',
-      'Double extrémité utilisable',
-      'Acier haute qualité',
-      'Compatible porte-lames standard'
+      '100×19×0,63mm grand format',
+      'Dimensions personnalisées',
+      'Carbone, inox, TiN',
+      'Encoches et trous personnalisés',
+      'Production OEM'
     ],
-    applications: ['Découpe de carton', 'Ouverture de colis', 'Travaux d\'entrepôt', 'Découpe de revêtements'],
+    applications: ['Machines spéciales', 'Lignes d\'automatisation', 'Projets industriels', 'Production OEM'],
+    seo: {
+      title: 'Lame Trapézoïdale Personnalisée 100×19mm | Alya Blade',
+      description: 'Lames trapézoïdales personnalisées. 100×19mm + dimensions non standard. Acier Sheffield. OEM. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale personnalisée', 'lame sur mesure', '100mm trapézoïdale', 'OEM lame trapézoïdale'],
+    },
   },
   'sper': {
     name: 'Lame Sper – Cutter Spécialisé',
@@ -1594,16 +1625,64 @@ export const productsFr: Record<string, ProductTranslation> = {
     applications: ['Usage quotidien', 'Découpe générale', 'Applications standard'],
   },
   'b207-2': {
-    name: 'B207 L - Lame Format Long',
-    description: 'Lame B207 format long pour découpes étendues. Qualité Sheffield.',
-    features: ['Format long', 'Découpes étendues', 'Qualité Sheffield'],
-    applications: ['Découpes longues', 'Applications industrielles'],
+    name: 'B207 L - Lame Trapézoïdale Allongée',
+    subtitle: 'Lame trapézoïdale allongée',
+    description: 'Version allongée de la série B207. Zone de coupe plus large que le trapèze standard. Pour grands matériaux et surfaces larges.',
+    features: ['Version allongée du B207', 'Épaisseur 0,63mm', 'Large ligne de coupe', 'Acier carbone Sheffield'],
+    applications: ['Grands matériaux', 'Pose de sols', 'Construction'],
+    seo: {
+      title: 'B207 L Lame Trapézoïdale Allongée | Alya Blade',
+      description: 'B207 L lame trapézoïdale allongée. Large zone de coupe. Acier Sheffield, HRC 58-62. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale allongée', 'B207 L', 'lame longue cutter', 'trapézoïdale allongée'],
+    },
   },
   'b207-3': {
-    name: 'B207 XXL - Lame Extra Longue',
-    description: 'Lame B207 format XXL extra longue pour applications spéciales. Qualité Sheffield.',
-    features: ['Format XXL', 'Extra longue', 'Qualité Sheffield'],
-    applications: ['Applications spéciales', 'Découpes très longues'],
+    name: 'B207 XXL - Lame Trapézoïdale Extra Longue',
+    subtitle: 'Lame trapézoïdale extra longue',
+    description: 'Version extra longue (XXL) de la série B207. Zone de coupe maximale dans la famille trapézoïdale. Pour échelle industrielle.',
+    features: ['Version extra longue du B207', 'Épaisseur 0,63mm', 'Ligne de coupe maximale', 'Résistance industrielle', 'Acier carbone Sheffield'],
+    applications: ['Coupe industrielle', 'Grand emballage', 'Projets de construction'],
+    seo: {
+      title: 'B207 XXL Lame Trapézoïdale Extra Longue | Alya Blade',
+      description: 'B207 XXL lame trapézoïdale extra longue. Zone de coupe maximale. Acier Sheffield, HRC 58-62. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale extra longue', 'B207 XXL', 'lame extra longue', 'trapézoïdale industrielle'],
+    },
+  },
+  'b213': {
+    name: 'B213 - Lame Trapézoïdale Compacte',
+    subtitle: 'Lame trapézoïdale compacte 61×12,5mm',
+    description: 'Lame trapézoïdale compacte 61×12,5×0,63mm, 1 trou. Pour espaces restreints, électronique et travaux de précision. Qualité Sheffield.',
+    features: ['Taille compacte 61×12,5×0,63mm', '1 trou de montage', 'Compatible outils spéciaux', 'Acier carbone Sheffield'],
+    applications: ['Coupe en espaces restreints', 'Électronique', 'Travail de détail', 'Modélisme'],
+    seo: {
+      title: 'B213 Lame Trapézoïdale Compacte 61×12,5mm | Alya Blade',
+      description: 'B213 lame trapézoïdale compacte 61×12,5×0,63mm. Espaces restreints, électronique, coupe de précision. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale compacte', 'B213', 'mini lame trapézoïdale', 'lame 61mm', 'lame compacte'],
+    },
+  },
+  'b218': {
+    name: 'B218 - Lame Trapézoïdale Spéciale Moyenne',
+    subtitle: 'Taille spéciale 71×17mm',
+    description: 'Lame trapézoïdale spéciale 71×17×0,63mm avec trou 1×6mm. Pour outils non standard et machines industrielles.',
+    features: ['Taille spéciale 71×17×0,63mm', 'Trou 1×6mm', 'Ligne de coupe étendue', 'Acier carbone Sheffield'],
+    applications: ['Machines industrielles', 'Systèmes d\'automatisation', 'Outils spéciaux'],
+    seo: {
+      title: 'B218 Lame Trapézoïdale Spéciale 71×17mm | Alya Blade',
+      description: 'B218 lame trapézoïdale spéciale 71×17×0,63mm. Machines industrielles, automatisation. Distributeur autorisé.',
+      keywords: ['lame trapézoïdale spéciale', 'B218', 'lame 71mm', 'lame machines'],
+    },
+  },
+  'b214': {
+    name: 'B214 - Micro Lame Trapézoïdale',
+    subtitle: 'Micro lame trapézoïdale 27,6×9mm',
+    description: 'Micro lame trapézoïdale ultra-compacte 27,6×9×0,43mm avec trous 3×3,5mm. Pour électronique, modélisme, laboratoire.',
+    features: ['Taille ultra-compacte 27,6×9×0,43mm', 'Trois trous 3×3,5mm', 'Profil fin 0,43mm', 'Pour porte-lames miniatures'],
+    applications: ['Assemblage électronique', 'Modélisme', 'Laboratoire', 'Dispositifs médicaux'],
+    seo: {
+      title: 'B214 Micro Lame Trapézoïdale 27,6×9mm | Alya Blade',
+      description: 'B214 micro lame trapézoïdale 27,6×9×0,43mm. Électronique, modélisme, laboratoire. Distributeur autorisé.',
+      keywords: ['micro lame trapézoïdale', 'B214', 'lame miniature', 'lame 27mm', 'lame de précision'],
+    },
   },
   'b226': {
     name: 'B226 - Lame Supaslit',
