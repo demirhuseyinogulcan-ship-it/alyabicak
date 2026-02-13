@@ -31,6 +31,7 @@ export function ProductHero({ product }: ProductHeroProps) {
     ? `${product.origin.city || ''} ${product.origin.city ? '·' : ''} ${product.origin.country || ''}`.trim()
     : 'Sheffield · England';
 
+
   return (
     <section className="py-8 lg:py-12">
       <div className="container mx-auto px-4">

@@ -1,13 +1,14 @@
 import { permanentRedirect } from 'next/navigation'
-import { i18nConfig } from '@/lib/i18n/config'
+import { headers } from 'next/headers'
 
 /**
- * Legacy Blog Page - Permanent Redirect to localized version
- * 
- * SEO: 308 permanent redirect - arama motorları yeni URL'yi indeksler
- * Eski /newsletter linklerinden gelen trafiği korur
+ * Legacy Blog Page - Permanent Redirect (308)
+ * Domain-aware: alyabicak.com → /tr, alyablade.com → /en
  */
-export default function LegacyBlogPage() {
-  permanentRedirect(`/${i18nConfig.defaultLocale}/newsletter`)
+export default async function LegacyBlogPage() {
+  const headersList = await headers()
+  const host = headersList.get('host') || ''
+  const locale = host.includes('alyabicak.com') ? 'tr' : 'en'
+  permanentRedirect(`/${locale}/newsletter`)
 }
 

@@ -1,11 +1,14 @@
 import { permanentRedirect } from 'next/navigation'
-import { i18nConfig } from '@/lib/i18n/config'
+import { headers } from 'next/headers'
 
 /**
  * Legacy Cookie Policy Page - Permanent Redirect (308)
- * SEO: Eski /cookie-policy linklerinden gelen trafiği korur
+ * Domain-aware: alyabicak.com → /tr, alyablade.com → /en
  */
-export default function LegacyCookiePolicyPage() {
-  permanentRedirect(`/${i18nConfig.defaultLocale}/cookie-policy`)
+export default async function LegacyCookiePolicyPage() {
+  const headersList = await headers()
+  const host = headersList.get('host') || ''
+  const locale = host.includes('alyabicak.com') ? 'tr' : 'en'
+  permanentRedirect(`/${locale}/cookie-policy`)
 }
 

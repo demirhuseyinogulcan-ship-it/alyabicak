@@ -1,11 +1,14 @@
 import { permanentRedirect } from 'next/navigation'
-import { i18nConfig } from '@/lib/i18n/config'
+import { headers } from 'next/headers'
 
 /**
  * Legacy Consulting Page - Permanent Redirect (308)
- * SEO: Eski /consulting linklerinden gelen trafiği korur
+ * Domain-aware: alyabicak.com → /tr, alyablade.com → /en
  */
-export default function LegacyConsultingPage() {
-  permanentRedirect(`/${i18nConfig.defaultLocale}/consulting`)
+export default async function LegacyConsultingPage() {
+  const headersList = await headers()
+  const host = headersList.get('host') || ''
+  const locale = host.includes('alyabicak.com') ? 'tr' : 'en'
+  permanentRedirect(`/${locale}/consulting`)
 }
 

@@ -1,11 +1,14 @@
 import { permanentRedirect } from 'next/navigation'
-import { i18nConfig } from '@/lib/i18n/config'
+import { headers } from 'next/headers'
 
 /**
  * Legacy Quality Page - Permanent Redirect (308)
- * SEO: Eski /quality-standards linklerinden gelen trafiği korur
+ * Domain-aware: alyabicak.com → /tr, alyablade.com → /en
  */
-export default function LegacyQualityPage() {
-  permanentRedirect(`/${i18nConfig.defaultLocale}/quality-standards`)
+export default async function LegacyQualityPage() {
+  const headersList = await headers()
+  const host = headersList.get('host') || ''
+  const locale = host.includes('alyabicak.com') ? 'tr' : 'en'
+  permanentRedirect(`/${locale}/quality-standards`)
 }
 

@@ -21,6 +21,7 @@ import {
   Circle,
   Droplet,
   Wind,
+  Maximize,
   type LucideIcon
 } from 'lucide-react';
 import type { ProductSpec } from '@/lib/types/product.types';
@@ -48,6 +49,7 @@ const iconMap: Record<string, LucideIcon> = {
   Circle,
   Droplet,
   Wind,
+  Maximize,
 };
 
 interface ProductSpecsProps {

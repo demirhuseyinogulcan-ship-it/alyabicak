@@ -1,11 +1,14 @@
 import { permanentRedirect } from 'next/navigation'
-import { i18nConfig } from '@/lib/i18n/config'
+import { headers } from 'next/headers'
 
 /**
- * Legacy KVKK Page - Permanent Redirect (308)
- * SEO: Eski /privacy-policy linklerinden gelen trafiği korur
+ * Legacy Privacy Policy Page - Permanent Redirect (308)
+ * Domain-aware: alyabicak.com → /tr, alyablade.com → /en
  */
-export default function LegacyKVKKPage() {
-  permanentRedirect(`/${i18nConfig.defaultLocale}/privacy-policy`)
+export default async function LegacyKVKKPage() {
+  const headersList = await headers()
+  const host = headersList.get('host') || ''
+  const locale = host.includes('alyabicak.com') ? 'tr' : 'en'
+  permanentRedirect(`/${locale}/privacy-policy`)
 }
 

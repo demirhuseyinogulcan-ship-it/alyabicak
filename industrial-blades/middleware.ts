@@ -68,6 +68,13 @@ function getLocale(request: NextRequest): string {
   // 1. Domain'den locale kontrol et (en yüksek öncelik)
   const domainLocale = getLocaleFromDomain(hostname);
   
+  // Helper: Bu locale bu domain'de kullanılabilir mi?
+  const isLocaleAllowedOnDomain = (locale: string): boolean => {
+    if (domainLocale === 'tr') return locale === 'tr';  // alyabicak.com = sadece TR
+    if (domainLocale) return locale !== 'tr';            // alyablade.com = TR hariç her şey
+    return true;                                          // bilinmeyen domain = hepsine izin
+  };
+
   // 2. URL'den locale kontrol et
   const pathname = request.nextUrl.pathname;
   const pathnameLocale = i18nConfig.locales.find(
@@ -77,16 +84,7 @@ function getLocale(request: NextRequest): string {
 
   // 3. Cookie'den locale kontrol et
   const localeCookie = request.cookies.get('NEXT_LOCALE')?.value;
-  if (localeCookie && isValidLocale(localeCookie)) {
-    // Eğer domain Türkçe ise ve cookie farklı dil ise, domain öncelikli
-    if (domainLocale === 'tr' && localeCookie !== 'tr') {
-      // Türkçe domain'de sadece Türkçe (alyabicak.com)
-      return 'tr';
-    }
-    // Global domain'de (alyablade.com) cookie'ye izin ver
-    if (domainLocale !== 'tr') {
-      return localeCookie;
-    }
+  if (localeCookie && isValidLocale(localeCookie) && isLocaleAllowedOnDomain(localeCookie)) {
     return localeCookie;
   }
 
@@ -97,7 +95,7 @@ function getLocale(request: NextRequest): string {
       const preferredLocale = acceptLanguage
         .split(',')
         .map((lang) => lang.split(';')[0].trim().substring(0, 2))
-        .find((lang) => isValidLocale(lang));
+        .find((lang) => isValidLocale(lang) && isLocaleAllowedOnDomain(lang));
       
       if (preferredLocale) return preferredLocale;
     }
@@ -166,14 +164,14 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Locale yok, yönlendir
+  // Locale yok, yönlendir (301 permanent — Google'a bu URL'in kalıcı olarak locale'li versiyona gittiğini bildir)
   const locale = getLocale(request);
   const newUrl = new URL(`/${locale}${pathname}`, request.url);
   
   // Query string'i koru
   newUrl.search = request.nextUrl.search;
 
-  const response = NextResponse.redirect(newUrl);
+  const response = NextResponse.redirect(newUrl, 301);
   
   // Cookie'ye locale kaydet (secure + sameSite ile)
   response.cookies.set('NEXT_LOCALE', locale, {

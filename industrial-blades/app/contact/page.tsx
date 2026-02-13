@@ -1,10 +1,13 @@
 import { permanentRedirect } from 'next/navigation'
-import { i18nConfig } from '@/lib/i18n/config'
+import { headers } from 'next/headers'
 
 /**
  * Legacy Contact Page - Permanent Redirect (308)
- * SEO: Eski /contact linklerinden gelen trafiği korur
+ * Domain-aware: alyabicak.com → /tr, alyablade.com → /en
  */
-export default function LegacyContactPage() {
-  permanentRedirect(`/${i18nConfig.defaultLocale}/contact`)
+export default async function LegacyContactPage() {
+  const headersList = await headers()
+  const host = headersList.get('host') || ''
+  const locale = host.includes('alyabicak.com') ? 'tr' : 'en'
+  permanentRedirect(`/${locale}/contact`)
 }
