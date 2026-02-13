@@ -94,6 +94,21 @@ function extractUnitInfo(value: string): { unitCode?: string; unitText?: string 
   return {}
 }
 
+/**
+ * Map origin country names to ISO 3166-1 alpha-2 codes for Schema.org
+ */
+function getCountryCode(country?: string): string {
+  if (!country) return 'GB'
+  const map: Record<string, string> = {
+    'England': 'GB', 'UK': 'GB', 'United Kingdom': 'GB', 'Great Britain': 'GB',
+    'USA': 'US', 'United States': 'US', 'ABD': 'US',
+    'Germany': 'DE', 'Almanya': 'DE',
+    'Turkey': 'TR', 'Türkiye': 'TR',
+    'Japan': 'JP', 'Japonya': 'JP',
+  }
+  return map[country] || 'GB'
+}
+
 export function generateEnhancedProductSchema(product: ProductSchemaInput) {
   const domain = getDomainUrl(product.locale as SupportedLocale)
   const productUrl = `${domain}/${product.locale}/products/${product.slug}`
@@ -128,11 +143,11 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     },
     manufacturer: {
       '@type': 'Organization',
-      name: product.origin?.brand === 'Durham Duplex' ? 'Durham Duplex' : 'Sheffield Steel',
+      name: product.origin?.brand || 'Sheffield Steel',
       address: {
         '@type': 'PostalAddress',
         addressLocality: product.origin?.city || 'Sheffield',
-        addressCountry: 'GB',
+        addressCountry: getCountryCode(product.origin?.country),
       },
     },
 
