@@ -121,9 +121,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       
       // Hreflang: her locale için doğru slug
       const productHreflangs: Record<string, string> = {}
-      for (const loc of locales) {
+      for (const loc of i18nConfig.locales) {
         const locSlug = (loc !== 'tr' && product.slugEN) ? product.slugEN : product.slug
-        productHreflangs[loc] = getLocalizedUrl(loc, `/products/${locSlug}`)
+        productHreflangs[loc] = getLocalizedUrl(loc as Locale, `/products/${locSlug}`)
       }
       productHreflangs['x-default'] = getLocalizedUrl('en' as Locale, `/products/${product.slugEN || product.slug}`)
       

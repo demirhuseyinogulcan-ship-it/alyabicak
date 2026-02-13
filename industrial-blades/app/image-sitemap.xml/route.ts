@@ -8,6 +8,7 @@
  */
 
 import { NextResponse } from 'next/server';
+import { headers } from 'next/headers';
 import { getAllProducts } from '@/lib/data/products';
 import { getAllCategories } from '@/lib/data/categories';
 import { blogService } from '@/lib/data/blog';
@@ -15,10 +16,19 @@ import { i18nConfig, type Locale } from '@/lib/i18n/config';
 import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
 import { getProductTranslation, getCategoryTranslation } from '@/lib/i18n/translations';
 
-// Cache for generated sitemap (24 hours)
-let cachedXml: string | null = null;
-let cacheTimestamp: number = 0;
+// Per-domain cache for generated sitemap (24 hours)
+const sitemapCache = new Map<string, { xml: string; timestamp: number }>();
 const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in ms
+
+/**
+ * Domain'e göre hangi locale'lerin image sitemap'e dahil edileceğini belirle
+ * alyabicak.com → sadece TR, alyablade.com → EN/AR/RU/FR
+ */
+function getLocalesForDomain(host: string): Locale[] {
+  const isTurkishDomain = host.includes('alyabicak.com')
+  if (isTurkishDomain) return ['tr'] as Locale[]
+  return i18nConfig.locales.filter(l => l !== 'tr') as Locale[]
+}
 
 interface ImageEntry {
   pageUrl: string;
@@ -40,20 +50,22 @@ function escapeXml(text: string): string {
     .replace(/'/g, '&apos;');
 }
 
-function generateImageEntries(): ImageEntry[] {
+function generateImageEntries(filteredLocales: Locale[]): ImageEntry[] {
   const entries: ImageEntry[] = [];
   const products = getAllProducts();
   const categories = getAllCategories();
 
-  // Her locale için ürün görselleri
-  for (const locale of i18nConfig.locales) {
+  // Domain'e özel locale'ler için ürün görselleri
+  for (const locale of filteredLocales) {
     const domain = getDomainUrl(locale as SupportedLocale);
 
     // Ürün görselleri
     for (const product of products) {
       if (!product.image) continue;
 
-      const pageUrl = `${domain}/${locale}/products/${product.slug}`;
+      // Locale-aware slug: non-TR'de slugEN varsa onu kullan
+      const localizedSlug = (locale !== 'tr' && product.slugEN) ? product.slugEN : product.slug;
+      const pageUrl = `${domain}/${locale}/products/${localizedSlug}`;
       const imageUrl = product.image.startsWith('http') 
         ? product.image 
         : `${domain}${product.image}`;
@@ -154,10 +166,17 @@ ${urlElements}
 }
 
 export async function GET() {
-  // Check cache
+  // Domain-aware: Host header'dan hangi domain olduğunu belirle
+  const headersList = await headers();
+  const host = headersList.get('host') || headersList.get('x-forwarded-host') || 'alyablade.com';
+  const locales = getLocalesForDomain(host);
+  const cacheKey = host.includes('alyabicak.com') ? 'tr' : 'global';
+
+  // Check per-domain cache
   const now = Date.now();
-  if (cachedXml && (now - cacheTimestamp) < CACHE_DURATION) {
-    return new NextResponse(cachedXml, {
+  const cached = sitemapCache.get(cacheKey);
+  if (cached && (now - cached.timestamp) < CACHE_DURATION) {
+    return new NextResponse(cached.xml, {
       headers: {
         'Content-Type': 'application/xml; charset=utf-8',
         'Cache-Control': 'public, max-age=86400, s-maxage=86400', // 24 hours
@@ -165,13 +184,12 @@ export async function GET() {
     });
   }
 
-  // Generate fresh sitemap
-  const entries = generateImageEntries();
+  // Generate fresh domain-filtered sitemap
+  const entries = generateImageEntries(locales);
   const xml = generateImageSitemapXml(entries);
 
-  // Update cache
-  cachedXml = xml;
-  cacheTimestamp = now;
+  // Update per-domain cache
+  sitemapCache.set(cacheKey, { xml, timestamp: now });
 
   return new NextResponse(xml, {
     headers: {

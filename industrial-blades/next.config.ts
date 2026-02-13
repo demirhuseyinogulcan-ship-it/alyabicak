@@ -63,6 +63,27 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      // Content-Language headers — Bing/Yandex ranking sinyali
+      {
+        source: '/tr/:path*',
+        headers: [{ key: 'Content-Language', value: 'tr' }],
+      },
+      {
+        source: '/en/:path*',
+        headers: [{ key: 'Content-Language', value: 'en' }],
+      },
+      {
+        source: '/ar/:path*',
+        headers: [{ key: 'Content-Language', value: 'ar' }],
+      },
+      {
+        source: '/ru/:path*',
+        headers: [{ key: 'Content-Language', value: 'ru' }],
+      },
+      {
+        source: '/fr/:path*',
+        headers: [{ key: 'Content-Language', value: 'fr' }],
+      },
       {
         // Statik dosyalar için uzun cache
         source: '/images/:path*',

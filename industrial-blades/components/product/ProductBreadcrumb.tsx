@@ -75,20 +75,28 @@ export function ProductBreadcrumb({ items }: ProductBreadcrumbProps) {
   );
 }
 
-// JSON-LD Schema için yardımcı
-export function generateBreadcrumbSchema(items: BreadcrumbItem[], homeLabel: string = 'Home') {
+/**
+ * JSON-LD Schema için yardımcı
+ * NOT: Sayfalar genellikle @/lib/seo'deki generateBreadcrumbSchema'yı kullanır.
+ * Bu fonksiyon client component'ler için gerektiğinde locale-aware URL üretir.
+ */
+export function generateBreadcrumbSchema(items: BreadcrumbItem[], locale: string, homeLabel: string = 'Home') {
+  // Lazy import yerine doğrudan SSOT'tan domain al
+  const { getDomainUrl } = require('@/lib/config/domains');
+  const domain = getDomainUrl(locale);
+
   const itemListElement = [
     {
       '@type': 'ListItem',
       position: 1,
       name: homeLabel,
-      item: 'https://alyabicak.com',
+      item: `${domain}/${locale}`,
     },
     ...items.map((item, index) => ({
       '@type': 'ListItem',
       position: index + 2,
       name: item.label,
-      item: item.href ? `https://alyabicak.com${item.href}` : undefined,
+      item: item.href ? `${domain}${item.href}` : undefined,
     })),
   ];
 

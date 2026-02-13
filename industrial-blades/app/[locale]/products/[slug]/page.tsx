@@ -22,7 +22,7 @@ import { ProductViewTracker } from '@/components/analytics';
 import { siteConfig } from '@/lib/config/site.config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 import { getBrandName } from '@/lib/i18n/locale-utils';
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
+import { getDomainUrl, getOGLocale, type SupportedLocale } from '@/lib/config/domains';
 import { getCategoryById } from '@/lib/data/categories';
 
 interface ProductPageProps {
@@ -77,6 +77,8 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       description,
       type: 'website',
       url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/products/${slug}`,
+      locale: getOGLocale(locale as SupportedLocale),
+      siteName: getBrandName(locale),
       images: [
         {
           url: product.images.main.src,

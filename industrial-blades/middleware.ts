@@ -126,6 +126,28 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathnameHasLocale) {
+    // === CROSS-DOMAIN GUARD: Locale yanlış domain'deyse 301 redirect ===
+    // TR sadece alyabicak.com'da, diğerleri sadece alyablade.com'da yaşamalı
+    const hostname = request.headers.get('host') || '';
+    const urlLocale = pathname.match(/^\/([a-z]{2})(?:\/|$)/)?.[1];
+    const isTurkishDomain = hostname.includes('alyabicak.com');
+
+    if (urlLocale) {
+      const localeBelongsOnTR = urlLocale === 'tr';
+      if (isTurkishDomain && !localeBelongsOnTR) {
+        // alyabicak.com/en/... → 301 → alyablade.com/en/...
+        const targetUrl = new URL(`https://alyablade.com${pathname}`, request.url);
+        targetUrl.search = request.nextUrl.search;
+        return NextResponse.redirect(targetUrl, 301);
+      }
+      if (!isTurkishDomain && localeBelongsOnTR) {
+        // alyablade.com/tr/... → 301 → alyabicak.com/tr/...
+        const targetUrl = new URL(`https://alyabicak.com${pathname}`, request.url);
+        targetUrl.search = request.nextUrl.search;
+        return NextResponse.redirect(targetUrl, 301);
+      }
+    }
+
     // === SLUG REDIRECT: Non-TR locale'de Türkçe slug varsa İngilizce'ye 301 redirect ===
     const localeMatch = pathname.match(/^\/([a-z]{2})\//);
     if (localeMatch && localeMatch[1] !== 'tr') {
@@ -140,7 +162,7 @@ export function middleware(request: NextRequest) {
         }
       }
     }
-    // Locale zaten var, devam et
+    // Locale zaten var ve doğru domain'de, devam et
     return NextResponse.next();
   }
 

@@ -1,7 +1,7 @@
 // Product Schema.org generators (basic + enhanced)
 import { siteConfig } from '../../config'
 import { type Locale } from '../../i18n/config'
-import { BRAND_NAME } from '../../i18n/locale-utils'
+import { BRAND_NAME, SCHEMA_LANGUAGE } from '../../i18n/locale-utils'
 import {
   getDomainUrl,
   type SupportedLocale
@@ -175,6 +175,9 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     },
 
     ...(product.category && { category: product.category }),
+
+    // Language signal — Google needs this to associate schema with correct locale
+    inLanguage: SCHEMA_LANGUAGE[product.locale] || SCHEMA_LANGUAGE.en || product.locale,
 
     additionalProperty: [
       {

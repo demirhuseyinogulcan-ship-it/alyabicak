@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { Calendar, Clock, ArrowLeft, Share2, Tag, ChevronRight } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
-import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl, getHreflangUrls, getOGLocale, type SupportedLocale } from '@/lib/config/domains'
 import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo'
 
 interface PageProps {
@@ -55,6 +55,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: post.excerpt,
       type: 'article',
       url: canonicalUrl,
+      locale: getOGLocale(locale as SupportedLocale),
       images: [
         {
           url: ogImage,
