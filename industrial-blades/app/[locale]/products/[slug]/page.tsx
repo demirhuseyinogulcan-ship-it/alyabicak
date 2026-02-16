@@ -1,7 +1,7 @@
 import { generateEnhancedProductSchema } from '@/lib/seo';
 
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
 import {
@@ -119,6 +119,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   if (!product) {
     notFound();
+  }
+
+  // SEO 301 Redirect: Non-TR locale'de Türkçe slug kullanılmışsa İngilizce slug'a yönlendir
+  if (locale !== 'tr' && product.slug !== slug) {
+    permanentRedirect(`/${locale}/products/${product.slug}`);
   }
 
   // İlgili ürünleri getir (locale ile)

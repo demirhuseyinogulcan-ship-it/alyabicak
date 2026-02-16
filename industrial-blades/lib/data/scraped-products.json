@@ -29,7 +29,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 100
+    "order": 100,
+    "slugEN": "ok-blade"
   },
   {
     "id": "slotted-karbon-celik",
@@ -108,7 +109,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 280
+    "order": 280,
+    "slugEN": "slotted-slitting-blade-carbon-steel"
   },
   {
     "id": "slotted-karbon-titanyum",
@@ -184,7 +186,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 281
+    "order": 281,
+    "slugEN": "slotted-slitting-blade-carbon-titanium-coated"
   },
   {
     "id": "slotted-karbon-seramik",
@@ -258,7 +261,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 282
+    "order": 282,
+    "slugEN": "slotted-slitting-blade-carbon-ceramic-coated"
   },
   {
     "id": "slotted-paslanmaz",
@@ -331,7 +335,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 283
+    "order": 283,
+    "slugEN": "slotted-slitting-blade-stainless-steel"
   },
   {
     "id": "slotted-paslanmaz-titanyum",
@@ -402,7 +407,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 284
+    "order": 284,
+    "slugEN": "slotted-slitting-blade-stainless-titanium-coated"
   },
   {
     "id": "slotted-paslanmaz-xcd",
@@ -474,7 +480,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 285
+    "order": 285,
+    "slugEN": "slotted-slitting-blade-stainless-xcd-coated"
   },
   {
     "id": "slotted-endurium-seramik",
@@ -546,7 +553,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 286
+    "order": 286,
+    "slugEN": "slotted-slitting-blade-endurium-ceramic-coated"
   },
   {
     "id": "slotted-yekpare-tungsten",
@@ -622,7 +630,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 287
+    "order": 287,
+    "slugEN": "slotted-slitting-blade-solid-tungsten-carbide"
   },
   {
     "id": "slotted-yekpare-seramik",
@@ -698,7 +707,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 288
+    "order": 288,
+    "slugEN": "slotted-slitting-blade-solid-ceramic-zirconia"
   },
   {
     "id": "injektor-karbon-celik",
@@ -765,7 +775,8 @@
     "order": 300,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-carbon-steel-2-slot"
   },
   {
     "id": "injektor-paslanmaz",
@@ -830,7 +841,8 @@
     "order": 301,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-stainless-steel-2-slot"
   },
   {
     "id": "injektor-paslanmaz-ptfe",
@@ -895,7 +907,8 @@
     "order": 302,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-stainless-ptfe-coated-2-slot"
   },
   {
     "id": "injektor-paslanmaz-seramik",
@@ -957,7 +970,8 @@
     "order": 303,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-stainless-ceramic-coated-2-slot"
   },
   {
     "id": "injektor-paslanmaz-titanyum",
@@ -1020,7 +1034,8 @@
     "order": 304,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-stainless-titanium-coated-2-slot"
   },
   {
     "id": "injektor-paslanmaz-titanyum-2-kanalli",
@@ -1084,7 +1099,8 @@
     "order": 305,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-stainless-titanium-2-channel"
   },
   {
     "id": "injektor-paslanmaz-xcd",
@@ -1148,7 +1164,8 @@
     "order": 306,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-stainless-xcd-coated-2-slot"
   },
   {
     "id": "injektor-yekpare-tungsten",
@@ -1213,7 +1230,8 @@
     "order": 307,
     "availableSizes": [
       "38x8x0.25mm"
-    ]
+    ],
+    "slugEN": "injector-blade-solid-tungsten-carbide-slotless"
   },
   {
     "id": "injektor-yekpare-seramik-030",
@@ -1280,7 +1298,8 @@
     "order": 308,
     "availableSizes": [
       "38x8x0.30mm"
-    ]
+    ],
+    "slugEN": "injector-blade-solid-ceramic-zirconia-030"
   },
   {
     "id": "injektor-yekpare-seramik-064",
@@ -1346,7 +1365,8 @@
     "order": 309,
     "availableSizes": [
       "38x8x0.64mm"
-    ]
+    ],
+    "slugEN": "injector-blade-solid-ceramic-zirconia-064"
   },
   {
     "id": "injektor-endurium-seramik",
@@ -1410,7 +1430,8 @@
     "order": 310,
     "availableSizes": [
       "38x8x0.36mm"
-    ]
+    ],
+    "slugEN": "injector-blade-endurium-ceramic-coated-2-slot"
   },
   {
     "id": "single-edge-carbon-2f",
@@ -1457,7 +1478,9 @@
       "Boya ve macun kazıma",
       "Genel endüstriyel yüzey hazırlama"
     ],
-    "availableSizes": ["38x19x0.23mm"],
+    "availableSizes": [
+      "38x19x0.23mm"
+    ],
     "isFeatured": true,
     "isActive": true,
     "order": 108
@@ -1523,7 +1546,10 @@
       "Laboratuvar ve temiz oda uygulamaları",
       "Otomotiv detay temizleme"
     ],
-    "availableSizes": ["38x19x0.23mm", "38x17x0.23mm"],
+    "availableSizes": [
+      "38x19x0.23mm",
+      "38x17x0.23mm"
+    ],
     "isFeatured": true,
     "isActive": true,
     "order": 109
@@ -1573,7 +1599,9 @@
       "Denizcilik ve nem yoğun ortamlar",
       "Kimyasal maruziyetli yüzey temizleme"
     ],
-    "availableSizes": ["38x19x0.23mm"],
+    "availableSizes": [
+      "38x19x0.23mm"
+    ],
     "isFeatured": false,
     "isActive": true,
     "order": 110
@@ -1632,7 +1660,9 @@
       "Matbaa — mürekkep ve yapışkan kazıma",
       "Ambalaj — yapışkan bant artığı temizleme"
     ],
-    "availableSizes": ["38x19x0.23mm"],
+    "availableSizes": [
+      "38x19x0.23mm"
+    ],
     "isFeatured": true,
     "isActive": true,
     "order": 111
@@ -1690,7 +1720,9 @@
       "Metal yüzey temizleme ve çapak alma",
       "Otomotiv — conta ve sızdırmazlık kazıma"
     ],
-    "availableSizes": ["38x19x0.30mm"],
+    "availableSizes": [
+      "38x19x0.30mm"
+    ],
     "isFeatured": false,
     "isActive": true,
     "order": 112
@@ -1725,7 +1757,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 109
+    "order": 109,
+    "slugEN": "b207-trapezoid-heavy-duty"
   },
   {
     "id": "b206",
@@ -1757,7 +1790,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 110
+    "order": 110,
+    "slugEN": "b206-thin-trapezoid-blade"
   },
   {
     "id": "b082",
@@ -1789,7 +1823,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 111
+    "order": 111,
+    "slugEN": "b082-serrated-trapezoid-blade"
   },
   {
     "id": "trapez",
@@ -1821,7 +1856,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 112
+    "order": 112,
+    "slugEN": "trapezoid-custom-design"
   },
   {
     "id": "b213",
@@ -1857,7 +1893,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 113
+    "order": 113,
+    "slugEN": "b213-compact-trapezoid"
   },
   {
     "id": "b218",
@@ -1893,7 +1930,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 114
+    "order": 114,
+    "slugEN": "b218-special-medium-trapezoid"
   },
   {
     "id": "b214",
@@ -1930,7 +1968,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 115
+    "order": 115,
+    "slugEN": "b214-micro-trapezoid"
   },
   {
     "id": "b208",
@@ -1962,7 +2001,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 113
+    "order": 113,
+    "slugEN": "b208-pointed-blade-standard"
   },
   {
     "id": "sper",
@@ -1994,7 +2034,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 114
+    "order": 114,
+    "slugEN": "hook-blade-long"
   },
   {
     "id": "yuvarlatilmi",
@@ -2026,7 +2067,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 115
+    "order": 115,
+    "slugEN": "rounded-tip-hook-blade"
   },
   {
     "id": "if",
@@ -2058,7 +2100,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 116
+    "order": 116,
+    "slugEN": "textile-hook-blade"
   },
   {
     "id": "b209",
@@ -2090,7 +2133,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 117
+    "order": 117,
+    "slugEN": "b209-single-sided-hook-blade"
   },
   {
     "id": "kanca",
@@ -2122,7 +2166,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 118
+    "order": 118,
+    "slugEN": "hook-blade-hobby"
   },
   {
     "id": "b122",
@@ -2154,7 +2199,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 119
+    "order": 119,
+    "slugEN": "b122-segmented-snap-off-9mm"
   },
   {
     "id": "b124",
@@ -2186,7 +2232,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 120
+    "order": 120,
+    "slugEN": "b124-non-segmented-snap-off-9mm"
   },
   {
     "id": "b121",
@@ -2218,7 +2265,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 121
+    "order": 121,
+    "slugEN": "b121-segmented-snap-off-18mm"
   },
   {
     "id": "b123",
@@ -2250,7 +2298,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 122
+    "order": 122,
+    "slugEN": "b123-non-segmented-snap-off-18mm"
   },
   {
     "id": "b096",
@@ -2282,7 +2331,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 123
+    "order": 123,
+    "slugEN": "b096-non-segmented-snap-off-12mm-oval-slot"
   },
   {
     "id": "segmentli",
@@ -2314,7 +2364,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 124
+    "order": 124,
+    "slugEN": "segmented-snap-off-125mm"
   },
   {
     "id": "lwb",
@@ -2346,7 +2397,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 125
+    "order": 125,
+    "slugEN": "lwb-non-segmented-snap-off-18mm-toothed"
   },
   {
     "id": "b126",
@@ -2378,7 +2430,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 126
+    "order": 126,
+    "slugEN": "b126-segmented-snap-off-25mm"
   },
   {
     "id": "b125",
@@ -2410,7 +2463,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 127
+    "order": 127,
+    "slugEN": "b125-non-segmented-snap-off-25mm"
   },
   {
     "id": "hswb1",
@@ -2442,7 +2496,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 128
+    "order": 128,
+    "slugEN": "hswb1-non-segmented-snap-off-25mm-toothed"
   },
   {
     "id": "b092",
@@ -2474,7 +2529,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 129
+    "order": 129,
+    "slugEN": "b092-holeless-blade"
   },
   {
     "id": "b207-2",
@@ -2506,7 +2562,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 130
+    "order": 130,
+    "slugEN": "b207-l-long-trapezoid"
   },
   {
     "id": "b226",
@@ -2538,7 +2595,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 131
+    "order": 131,
+    "slugEN": "b226-supaslit-blade"
   },
   {
     "id": "b111",
@@ -2730,7 +2788,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 137
+    "order": 137,
+    "slugEN": "b142-large-blade"
   },
   {
     "id": "b143",
@@ -3306,7 +3365,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 155
+    "order": 155,
+    "slugEN": "b204-classic-blade"
   },
   {
     "id": "b207-3",
@@ -3338,7 +3398,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 156
+    "order": 156,
+    "slugEN": "b207-xxl-extra-long-trapezoid"
   },
   {
     "id": "h006-001-x01",
@@ -3370,7 +3431,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 157
+    "order": 157,
+    "slugEN": "h006-001-x01-retro-light-knife-die-cast-metal"
   },
   {
     "id": "h008-001-a03",
@@ -3402,7 +3464,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 158
+    "order": 158,
+    "slugEN": "h008-001-a03-auto-retract-safety-knife"
   },
   {
     "id": "h014-001-x01",
@@ -3434,7 +3497,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 159
+    "order": 159,
+    "slugEN": "h014-001-x01-retractable-trim-knife-die-cast-metal"
   },
   {
     "id": "h015-001-z01",
@@ -3466,7 +3530,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 160
+    "order": 160,
+    "slugEN": "h015-001-z01-retro-heavy-duty-die-cast-metal"
   },
   {
     "id": "h016-001-j01",
@@ -3498,7 +3563,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 161
+    "order": 161,
+    "slugEN": "h016-001-j01-safety-roll-stripper"
   },
   {
     "id": "h016-101-a03",
@@ -3530,7 +3596,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 162
+    "order": 162,
+    "slugEN": "h016-101-a03-safety-roll-stripper-plus"
   },
   {
     "id": "h016-201-a03",
@@ -3562,7 +3629,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 163
+    "order": 163,
+    "slugEN": "h016-201-a03-roll-stripper-heavy-duty"
   },
   {
     "id": "h020-001-s05",
@@ -3594,7 +3662,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 164
+    "order": 164,
+    "slugEN": "h020-001-s05-fixed-slim-knife"
   },
   {
     "id": "h023-002-s05",
@@ -3626,7 +3695,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 165
+    "order": 165,
+    "slugEN": "h023-002-s05-retractable-slim-knife-die-cast"
   },
   {
     "id": "h024",
@@ -3690,7 +3760,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 167
+    "order": 167,
+    "slugEN": "h028-002-x01-easy-change-knife-die-cast-metal"
   },
   {
     "id": "h030-001-a03",
@@ -3722,7 +3793,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 168
+    "order": 168,
+    "slugEN": "h030-001-a03-polytrim-safety-film-cutter"
   },
   {
     "id": "h032-001-a03",
@@ -3754,7 +3826,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 169
+    "order": 169,
+    "slugEN": "h032-001-a03-squeeze-knife-auto-retract"
   },
   {
     "id": "h033-001-n03",
@@ -3786,7 +3859,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 170
+    "order": 170,
+    "slugEN": "h033-001-n03-yellowblack-slitter-ceramic-tip"
   },
   {
     "id": "h040",
@@ -3850,7 +3924,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 172
+    "order": 172,
+    "slugEN": "h041-004-a01-glass-scraper-die-cast-metal"
   },
   {
     "id": "h042",
@@ -4042,7 +4117,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 178
+    "order": 178,
+    "slugEN": "h063-001-x01-orange-spring-safety-cutter"
   },
   {
     "id": "h081",
@@ -4074,7 +4150,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 179
+    "order": 179,
+    "slugEN": "h081-501-k01-ring-knife-orange"
   },
   {
     "id": "h090",
@@ -4234,7 +4311,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 184
+    "order": 184,
+    "slugEN": "h501-001-t03-utility-craft-knife"
   },
   {
     "id": "h502-001-t03",
@@ -4266,7 +4344,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 185
+    "order": 185,
+    "slugEN": "h502-001-t03-utility-craft-knife"
   },
   {
     "id": "h503-001-t03",
@@ -4298,7 +4377,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 186
+    "order": 186,
+    "slugEN": "h503-001-t03-utility-craft-knife"
   },
   {
     "id": "h504-001-t03",
@@ -4330,7 +4410,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 187
+    "order": 187,
+    "slugEN": "h504-001-t03-utility-craft-knife"
   },
   {
     "id": "h506",
@@ -4362,7 +4443,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 188
+    "order": 188,
+    "slugEN": "h506-001-o01-olfa-ml-18mm-die-cast-metal"
   },
   {
     "id": "h507",
@@ -4394,7 +4476,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 189
+    "order": 189,
+    "slugEN": "h507-001-o01-olfa-nl-al"
   },
   {
     "id": "h508",
@@ -4426,7 +4509,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 190
+    "order": 190,
+    "slugEN": "h508-001-o01-olfa-l-2"
   },
   {
     "id": "h512",
@@ -4522,7 +4606,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 193
+    "order": 193,
+    "slugEN": "h531-001-z01-automatic-trimming-knife-die-cast"
   },
   {
     "id": "h600-001-t03",
@@ -4554,7 +4639,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 194
+    "order": 194,
+    "slugEN": "h600-001-t03-9mm-utility-craft-knife"
   },
   {
     "id": "h603",
@@ -4586,7 +4672,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 195
+    "order": 195,
+    "slugEN": "h603-001-o01-olfa-ml-9mm-die-cast-metal"
   },
   {
     "id": "h605-001-t03",
@@ -4618,7 +4705,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 196
+    "order": 196,
+    "slugEN": "h605-001-t03-9mm-utility-craft-knife"
   },
   {
     "id": "h606",
@@ -4714,7 +4802,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 199
+    "order": 199,
+    "slugEN": "h907-003-t03b-supaslit-protective-cover-slitter"
   },
   {
     "id": "h907-012-a03",
@@ -4746,7 +4835,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 200
+    "order": 200,
+    "slugEN": "h907-012-a03-polysafe-plus-film-cutter"
   },
   {
     "id": "h909",
@@ -4778,7 +4868,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 201
+    "order": 201,
+    "slugEN": "h909-001-o01-olfa-tk-1-pocket-utility"
   },
   {
     "id": "h911",
@@ -4810,7 +4901,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 202
+    "order": 202,
+    "slugEN": "h911-002-o01-olfa-maru-cutter"
   },
   {
     "id": "h913",
@@ -4874,7 +4966,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 204
+    "order": 204,
+    "slugEN": "h913-008-t03-polyslit-safety-knife"
   },
   {
     "id": "h914-001-a03",
@@ -4906,7 +4999,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 205
+    "order": 205,
+    "slugEN": "h914-001-a03-springer-knife-metal-safety"
   },
   {
     "id": "h914-002-a03",
@@ -4938,7 +5032,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 206
+    "order": 206,
+    "slugEN": "h914-002-a03-springer-knife-metal-safety"
   },
   {
     "id": "h915",
@@ -5002,7 +5097,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 208
+    "order": 208,
+    "slugEN": "h917-001-t10-fish-knife-bag-opening"
   },
   {
     "id": "h918-001-t10",
@@ -5034,7 +5130,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 209
+    "order": 209,
+    "slugEN": "h918-001-t10-fish-knife-bag-opening"
   },
   {
     "id": "h941",
@@ -5098,7 +5195,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 211
+    "order": 211,
+    "slugEN": "h944-001-t03-ambi-safe-spring-safety-knife"
   },
   {
     "id": "h946-001",
@@ -5130,7 +5228,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 212
+    "order": 212,
+    "slugEN": "h946-001-u-cut-hook-knife"
   },
   {
     "id": "is-guvenligi-muhafaza-atik-kutusu",
@@ -5165,7 +5264,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 213
+    "order": 213,
+    "slugEN": "safety-blade-disposal-container"
   },
   {
     "id": "kk01",
@@ -5229,7 +5329,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 215
+    "order": 215,
+    "slugEN": "olfa-sk-12-stainless-nsf-certified"
   },
   {
     "id": "olfa-sk-15",
@@ -5261,7 +5362,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 216
+    "order": 216,
+    "slugEN": "olfa-sk-15-safety-knife"
   },
   {
     "id": "saka01t",
@@ -5357,7 +5459,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 219
+    "order": 219,
+    "slugEN": "suka01-sliding-hook-knife"
   },
   {
     "id": "suka02",
@@ -5421,7 +5524,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 221
+    "order": 221,
+    "slugEN": "vent-cutter-winged-cutting-blade"
   },
   {
     "id": "kontr-biai",
@@ -5480,7 +5584,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 222
+    "order": 222,
+    "slugEN": "contour-blade-thermoform-vacuum"
   },
   {
     "id": "yarim",
@@ -5552,7 +5657,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 223
+    "order": 223,
+    "slugEN": "half-star-punches-vacuum-packaging"
   },
   {
     "id": "tam",
@@ -5622,7 +5728,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 224
+    "order": 224,
+    "slugEN": "full-star-punches-vacuum-packaging"
   },
   {
     "id": "dz-biaklar",
@@ -5683,7 +5790,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 225
+    "order": 225,
+    "slugEN": "straight-blades-thermoform"
   },
   {
     "id": "dairesel",
@@ -5737,7 +5845,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 226
+    "order": 226,
+    "slugEN": "circular-blades-vacuum-packaging"
   },
   {
     "id": "yuvarlak",
@@ -5797,7 +5906,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 227
+    "order": 227,
+    "slugEN": "round-air-punch-vacuum-packaging"
   },
   {
     "id": "oval",
@@ -5857,7 +5967,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 228
+    "order": 228,
+    "slugEN": "oval-air-punch-vacuum-packaging"
   },
   {
     "id": "dili",
@@ -5911,7 +6022,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 229
+    "order": 229,
+    "slugEN": "toothed-blades-vacuum-packaging"
   },
   {
     "id": "st",
@@ -5943,7 +6055,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 230
+    "order": 230,
+    "slugEN": "disc-blades-rotary"
   },
   {
     "id": "alt",
@@ -5975,7 +6088,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 231
+    "order": 231,
+    "slugEN": "bottom-blades-rotary"
   },
   {
     "id": "pelet",
@@ -6007,7 +6121,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 232
+    "order": 232,
+    "slugEN": "pelletizer-blades"
   },
   {
     "id": "taneciklendirici",
@@ -6039,7 +6154,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 233
+    "order": 233,
+    "slugEN": "granulator-blade"
   },
   {
     "id": "paralayici",
@@ -6071,7 +6187,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 234
+    "order": 234,
+    "slugEN": "shredder-blade"
   },
   {
     "id": "oluklu",
@@ -6103,7 +6220,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 235
+    "order": 235,
+    "slugEN": "corrugated-cardboard-slitting-blades"
   },
   {
     "id": "disiz",
@@ -6135,7 +6253,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 236
+    "order": 236,
+    "slugEN": "toothless-rotary-cutting-blades"
   },
   {
     "id": "dili-2",
@@ -6167,7 +6286,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 237
+    "order": 237,
+    "slugEN": "toothed-rotary-cutting-blades"
   },
   {
     "id": "dili-3",
@@ -6199,7 +6319,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 238
+    "order": 238,
+    "slugEN": "toothed-blade-rotary"
   },
   {
     "id": "biak",
@@ -6231,7 +6352,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 239
+    "order": 239,
+    "slugEN": "blade-holder-rotary"
   },
   {
     "id": "dairesel-2",
@@ -6263,7 +6385,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 240
+    "order": 240,
+    "slugEN": "circular-crusher-blades"
   },
   {
     "id": "et",
@@ -6295,7 +6418,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 241
+    "order": 241,
+    "slugEN": "meat-skinner-derinder-blade"
   },
   {
     "id": "log-saw",
@@ -6327,7 +6451,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 242
+    "order": 242,
+    "slugEN": "log-saw-blades"
   },
   {
     "id": "masura",
@@ -6359,7 +6484,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 243
+    "order": 243,
+    "slugEN": "bobbin-cutting-blades"
   },
   {
     "id": "kutu",
@@ -6391,7 +6517,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 244
+    "order": 244,
+    "slugEN": "box-sealing-blades-tape-cutting"
   },
   {
     "id": "test",
@@ -6423,7 +6550,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 245
+    "order": 245,
+    "slugEN": "test-product"
   },
   {
     "id": "erit",
@@ -6455,7 +6583,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 246
+    "order": 246,
+    "slugEN": "band-blades-rotary"
   },
   {
     "id": "tray",
@@ -6487,7 +6616,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 247
+    "order": 247,
+    "slugEN": "tray-mold-blades"
   },
   {
     "id": "sosis",
@@ -6519,7 +6649,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 248
+    "order": 248,
+    "slugEN": "sausage-stripping-blades"
   },
   {
     "id": "p1-a",
@@ -6551,7 +6682,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 249
+    "order": 249,
+    "slugEN": "p1-a-deburring-hobby-knife-allen-screw"
   },
   {
     "id": "p1-t",
@@ -6583,7 +6715,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 250
+    "order": 250,
+    "slugEN": "p1-t-deburring-hobby-knife-twist-screw"
   },
   {
     "id": "p2-a",
@@ -6615,7 +6748,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 251
+    "order": 251,
+    "slugEN": "p2-a-deburring-hobby-knife-allen-screw"
   },
   {
     "id": "p2-t",
@@ -6647,7 +6781,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 252
+    "order": 252,
+    "slugEN": "p2-t-deburring-hobby-knife-twist-screw"
   },
   {
     "id": "p9-ss",
@@ -6679,7 +6814,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 253
+    "order": 253,
+    "slugEN": "p9-ss-deburring-hobby-knife-dual-slot"
   },
   {
     "id": "ws-1",
@@ -6711,7 +6847,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 254
+    "order": 254,
+    "slugEN": "ws-1-deburring-hobby-workstation"
   },
   {
     "id": "f01",
@@ -6743,7 +6880,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 255
+    "order": 255,
+    "slugEN": "f01-deburring-blade-universal"
   },
   {
     "id": "f21",
@@ -6775,7 +6913,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 256
+    "order": 256,
+    "slugEN": "f21-deburring-blade-short"
   },
   {
     "id": "f22",
@@ -6807,7 +6946,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 257
+    "order": 257,
+    "slugEN": "f22-deburring-blade-durable"
   },
   {
     "id": "f03",
@@ -6839,7 +6979,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 258
+    "order": 258,
+    "slugEN": "f03-deburring-blade-pointed"
   },
   {
     "id": "f04",
@@ -6871,7 +7012,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 259
+    "order": 259,
+    "slugEN": "f04-deburring-blade-round-tip"
   },
   {
     "id": "g01",
@@ -6903,7 +7045,8 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 260
+    "order": 260,
+    "slugEN": "g01-deburring-blade-universal"
   },
   {
     "id": "olfa",
@@ -7080,7 +7223,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 264
+    "order": 264,
+    "slugEN": "3-hole-slitting-blade-carbon-steel"
   },
   {
     "id": "3dj-karbon-titanyum",
@@ -7155,7 +7299,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-carbon-titanium-coated"
   },
   {
     "id": "3dj-paslanmaz-titanyum",
@@ -7230,7 +7375,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-stainless-titanium-coated"
   },
   {
     "id": "3dj-paslanmaz-titanyum-cizikli",
@@ -7300,7 +7446,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-stainless-titanium-scored"
   },
   {
     "id": "3dj-karbon-seramik",
@@ -7372,7 +7519,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-carbon-ceramic-coated"
   },
   {
     "id": "3dj-yekpare-tungsten",
@@ -7447,7 +7595,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-solid-tungsten"
   },
   {
     "id": "3dj-yekpare-seramik",
@@ -7520,7 +7669,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-solid-ceramic"
   },
   {
     "id": "3dj-karbon-yuvarlak-kenar",
@@ -7585,7 +7735,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-carbon-round-edge"
   },
   {
     "id": "3dj-paslanmaz-titanyum-yuvarlak",
@@ -7647,7 +7798,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-stainless-titanium-round-edge"
   },
   {
     "id": "3dj-karbon-seramik-yuvarlak",
@@ -7708,7 +7860,8 @@
       "43x22x0.20mm",
       "43x22x0.30mm",
       "43x22x0.40mm"
-    ]
+    ],
+    "slugEN": "3-hole-slitting-blade-carbon-ceramic-round-edge"
   },
   {
     "id": "3dj-paslanmaz-titanyum-60x22",
@@ -7777,7 +7930,8 @@
     ],
     "isFeatured": true,
     "isActive": true,
-    "order": 274
+    "order": 274,
+    "slugEN": "3-hole-slitting-blade-stainless-titanium-60x22"
   },
   {
     "id": "3dj-paslanmaz-titanyum-cizikli-60x22",
@@ -7843,6 +7997,7 @@
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 275
+    "order": 275,
+    "slugEN": "3-hole-slitting-blade-stainless-titanium-scored-60x22"
   }
 ]

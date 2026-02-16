@@ -18,6 +18,7 @@ export interface ProductTranslation {
   applications?: string[];
   benefits?: { title: string; description: string; icon?: string }[];
   longDescription?: string;
+  availableSizes?: string[];
   seo?: {
     title?: string;
     description?: string;

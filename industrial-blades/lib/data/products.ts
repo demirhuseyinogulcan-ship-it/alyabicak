@@ -226,6 +226,7 @@ interface ScrapedProduct {
 const scrapedProducts: Product[] = (scrapedProductsData as ScrapedProduct[]).map((p) => ({
   id: p.id,
   slug: p.slug,
+  slugEN: (p as { slugEN?: string }).slugEN,
   code: p.code,
   name: p.name,
   description: p.description,

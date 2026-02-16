@@ -3269,6 +3269,8 @@ function mergeWithBaseProduct(extendedProduct: ProductExtended): ProductExtended
 
   return {
     ...extendedProduct,
+    // slugEN: Extended'da tanımlanmışsa onu kullan, yoksa base'den al
+    slugEN: extendedProduct.slugEN || baseProduct.slugEN || undefined,
     // availableSizes: Extended'da tanımlanmışsa onu kullan, yoksa base'den al
     availableSizes: extendedProduct.availableSizes || baseProduct.availableSizes || undefined,
   };
@@ -3432,6 +3434,7 @@ function translateProductExtended(product: ProductExtended, locale: string): Pro
         : product.applications,
       benefits: translatedBenefits,
       longDescription: translation.longDescription || product.longDescription,
+      availableSizes: translation.availableSizes || product.availableSizes,
       specs: translatedSpecs || product.specs,
       seo: translatedSeo,
       // Alt text'i de güncelle (image SEO için)

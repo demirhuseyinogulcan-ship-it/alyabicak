@@ -102,17 +102,21 @@ class ProductService {
     // Fallback ile çeviri al
     const { translation } = this.getTranslationWithFallback(product.id, locale);
     
+    // Slug lokalizasyonu: TR dışı locale'ler için slugEN varsa kullan
+    const localizedSlug = (locale !== 'tr' && product.slugEN) ? product.slugEN : product.slug;
+    
     let translatedProduct: Product;
     if (translation) {
       translatedProduct = {
         ...product,
+        slug: localizedSlug,
         name: translation.name,
         description: translation.description || product.description,
         features: translation.features || product.features,
         applications: translation.applications || product.applications,
       };
     } else {
-      translatedProduct = product;
+      translatedProduct = { ...product, slug: localizedSlug };
     }
 
     // Cache'e kaydet

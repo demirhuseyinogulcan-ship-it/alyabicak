@@ -759,6 +759,25 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B207 heavy duty trapezoid blade, 0.63mm, Sheffield steel. 10 variants: carbon, stainless, TiN coated. Warehouse, flooring, construction, packaging cutting. Authorized distributor.',
       keywords: ['trapezoid blade', 'B207', 'heavy duty utility blade', 'thick trapezoid blade', '0.63mm trapezoid', 'TiN coated trapezoid', 'stainless trapezoid', 'sheffield utility blade', 'industrial trapezoid blade', 'wholesale trapezoid blades'],
     },
+    benefits: [
+      { title: 'Heavy Duty Durability', description: '0.63mm thick profile provides superior resistance to bending and breaking in heavy duty applications.', icon: 'Shield' },
+      { title: '10 Different Variants', description: 'Custom solutions for every application with different size, notch, hole and coating options.', icon: 'Settings' },
+      { title: 'Sheffield Quality', description: 'High carbon steel, heat treated to HRC 58-62 hardness in Sheffield, England.', icon: 'Award' },
+      { title: 'Extended Lifespan', description: 'TiN (Titanium Nitride) coated version lasts 3 times longer than standard carbon.', icon: 'Clock' },
+    ],
+    longDescription: `<p>B207 series heavy duty trapezoid blades are professional cutting blades designed for industrial use in 0.63mm (standard) and 1.00mm (stainless) thicknesses.</p><p>Manufactured from high carbon steel, these blades are produced to Sheffield quality standards. With different length options from 50mm to 100mm, 2 or 3 notch configurations and various hole patterns, they offer a wide range of applications.</p><p><strong>Material options:</strong> Carbon steel (standard), stainless steel (corrosion resistant), TiN coated (extended life). Rounded tip and single-side sharpening alternatives are available for workplace safety.</p><p>Used as replacement tips in utility knives, safety cutters, flooring tools and professional hand tools. Delivers superior performance in cutting cardboard, carpet, linoleum, PVC, packaging film, leather and textiles.</p>`,
+    availableSizes: [
+      '60×19×0.63mm — 2 Notches, 4 Holes',
+      '60×19×0.63mm — 2 Notches, 4 Holes, TiN Coated',
+      '53×19×0.63mm — 3 Notches, 5 Holes',
+      '51×19×0.63mm — 3 Notches, 5 Holes, TiN Coated',
+      '60×19×0.63mm — 2 Notches (no holes)',
+      '60×19×1.00mm — 2 Notches, Stainless Steel',
+      '58×19×0.63mm — 3 Notches, 3 Holes',
+      '60×19×0.63mm — 2 Notches, 1 Hole',
+      '60×19×0.63mm — 2 Notches, Single-Side Grind',
+      '53×19×0.63mm — 3 Notches, 5 Holes, Rounded Tip',
+    ],
   },
   'b206': {
     name: 'B206 - Thin Trapezoid Blade',
@@ -772,6 +791,17 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B206 thin trapezoid blade, 0.43mm, Sheffield carbon steel, HRC 58-62. Paper, packaging, wallpaper, glass scraping. Single-side sharpening. Authorized distributor.',
       keywords: ['thin trapezoid blade', 'B206', 'thin utility blade', '0.43mm trapezoid', 'precision utility blade', 'paper cutting blade', 'wallpaper blade'],
     },
+    benefits: [
+      { title: 'Precision Cutting', description: '0.43mm thin profile delivers clean cuts with minimal pressure on the material.', icon: 'Target' },
+      { title: 'Light & Flexible', description: 'Thin construction cuts through flexible materials without tearing.', icon: 'Feather' },
+      { title: 'Economical Use', description: 'Longer lifespan than heavy duty blades in light cutting applications.', icon: 'TrendingDown' },
+    ],
+    longDescription: `<p>B206 series thin trapezoid blades are designed for applications requiring precision cutting at 0.43mm thickness.</p><p>Manufactured from high carbon content steel, these thin profile blades are preferred especially for paper, thin film, packaging material, wallpaper and light plastic cutting.</p><p>Compatible with various hand tools through different hole and notch configurations. The single-side sharpening option is ideal for glass and delicate surface scraping operations.</p><p><strong>Trapezoid blades</strong> can be used for machine cutting on their own, as well as replacement tips in hand knives.</p>`,
+    availableSizes: [
+      '50×19×0.43mm — Carbon, 2 Notches',
+      '50×19×0.43mm — 2 Notches, Single-Side Grind',
+      '59×19×0.43mm — 2×6.4mm Holes',
+    ],
   },
   'b082': {
     name: 'B082 - Serrated Edge Trapezoid Blade',
@@ -785,6 +815,13 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B082 serrated edge trapezoid blade, 82×25×1.0mm, Sheffield steel. Rope, fiberglass, Kevlar cutting. Single-side serration. Authorized distributor.',
       keywords: ['serrated trapezoid blade', 'B082', 'serrated utility blade', 'rope cutting blade', 'fiberglass cutting blade', 'serrated edge blade'],
     },
+    benefits: [
+      { title: 'Anti-Slip Grip', description: 'Serrated edge provides grip from first contact even on slippery materials.', icon: 'Grip' },
+      { title: 'Extra Thick', description: '1.0mm thickness provides bending resistance in heavy duty fibrous materials.', icon: 'Shield' },
+      { title: 'Wide Body', description: '82×25mm size offers strong grip and controlled cutting area.', icon: 'Maximize' },
+    ],
+    longDescription: `<p>The B082 serrated edge trapezoid blade is a specialised product designed for cutting fibrous, fibre-reinforced and slippery materials.</p><p>With its 82×25mm wide body and 1.0mm thickness, it has an extremely durable construction. The single-side serrated edge design prevents the material from slipping on the blade and ensures clean cuts from first contact.</p><p>Preferred for rope, cord, twine, synthetic fibre, fibreglass, carbon fibre, Kevlar and similar demanding materials.</p>`,
+    availableSizes: ['82×25×1.0mm — 2 Holes, Single-Side Serrated Edge'],
   },
   'b213': {
     name: 'B213 - Compact Trapezoid Blade',
@@ -798,6 +835,12 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B213 compact trapezoid blade, 61×12.5×0.63mm. Narrow spaces, electronics, detail cutting. Sheffield steel. Authorized distributor.',
       keywords: ['compact trapezoid', 'B213', 'compact utility blade', 'mini trapezoid blade', '61mm trapezoid', 'small utility blade'],
     },
+    benefits: [
+      { title: 'Compact Form', description: '61×12.5mm small size for comfortable manoeuvrability in narrow spaces.', icon: 'Minimize' },
+      { title: 'Precision Cutting', description: 'Controlled, detailed cutting with the small trapezoid form.', icon: 'Target' },
+    ],
+    longDescription: `<p>The B213 compact trapezoid blade is a miniaturised version of the standard trapezoid form. Its 61×12.5mm dimensions make it suitable for use in narrow spaces.</p><p>With 0.63mm standard thickness and single-hole mounting design, it is used as a replacement tip in special hand tools and compact cutters. A specialised trapezoid form preferred for electronic component cutting, thin cable stripping and detail work.</p>`,
+    availableSizes: ['61×12.5×0.63mm — 1 Hole'],
   },
   'b218': {
     name: 'B218 - Medium Special Trapezoid Blade',
@@ -811,6 +854,12 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B218 special size trapezoid blade, 71×17×0.63mm, 1×6mm hole. Industrial machine, automation system blade. Sheffield steel. Authorized distributor.',
       keywords: ['special trapezoid blade', 'B218', '71mm trapezoid', 'medium trapezoid blade', 'special size utility blade', 'machine trapezoid blade'],
     },
+    benefits: [
+      { title: 'Extended Cutting Line', description: '71mm length provides 18% wider cutting area compared to the standard 60mm trapezoid.', icon: 'ArrowRight' },
+      { title: 'Special Compatibility', description: '17mm width for perfect fit with specific brand tools.', icon: 'Check' },
+    ],
+    longDescription: `<p>The B218 medium special trapezoid blade has a 17mm width instead of the standard 19mm, making it an intermediate size product. At 71mm length, it offers a longer cutting line than standard trapezoids.</p><p>Its 1×6mm hole design is suitable for use in special holders and industrial machines. Preferred as a replacement tip in cutting units of specific brand hand knives and automation systems.</p>`,
+    availableSizes: ['71×17×0.63mm — 1×6mm Hole'],
   },
   'b214': {
     name: 'B214 - Micro Trapezoid Blade',
@@ -824,6 +873,12 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B214 micro trapezoid blade, 27.6×9×0.43mm, 3×3.5mm holes. Electronics, model making, laboratory, medical. Sheffield steel. Authorized distributor.',
       keywords: ['micro trapezoid', 'B214', 'micro utility blade', 'mini trap blade', '27mm trapezoid', 'precision blade', 'miniature cutting blade'],
     },
+    benefits: [
+      { title: 'Ultra Compact', description: '27.6×9mm: the smallest trapezoid blade, perfect fit for miniature tools.', icon: 'Minimize' },
+      { title: 'Precision Control', description: 'Micron-level cutting control with small size and thin profile.', icon: 'Target' },
+    ],
+    longDescription: `<p>The B214 micro trapezoid blade is the smallest sized product in the trapezoid family. Its 27.6×9mm dimensions are designed for miniature hand tools, precision cutting devices and specialised industrial applications.</p><p>With 0.43mm thickness and 3×3.5mm triple hole configuration, it mounts to specialised holder systems. Used in electronic assembly, medical device manufacturing, model making and laboratory operations requiring micro cutting.</p>`,
+    availableSizes: ['27.6×9×0.43mm — 3×3.5mm Holes'],
   },
   'b207-2': {
     name: 'B207 L - Long Trapezoid Blade',
@@ -837,6 +892,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B207 L long trapezoid blade. Extended version of B207, wide cutting line. Sheffield steel, HRC 58-62. Authorized distributor.',
       keywords: ['long trapezoid blade', 'B207 L', 'long utility blade', 'large utility blade', 'wide cutting trapezoid'],
     },
+    benefits: [
+      { title: 'Wide Cutting Area', description: 'Longer blade length than standard B207, cuts more material in a single pass.', icon: 'Maximize' },
+      { title: 'Same Quality', description: 'All quality standards of the B207 series: Sheffield steel, HRC 58-62.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B207 L (Long) trapezoid blade is the extended version of the standard B207 series. It offers a wider cutting line, enabling more material to be cut in a single pass.</p><p>Especially preferred for large box carton opening, cutting wide packaging films, large surface carpet installation and industrial packaging operations, providing more efficient work compared to the standard size.</p>`,
   },
   'b207-3': {
     name: 'B207 XXL - Extra Long Trapezoid Blade',
@@ -850,6 +910,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'B207 XXL extra long trapezoid blade. Maximum cutting line, industrial heavy duty. Sheffield steel, HRC 58-62. Authorized distributor.',
       keywords: ['xxl trapezoid blade', 'B207 XXL', 'extra long trapezoid', 'extra long utility blade', 'industrial trapezoid'],
     },
+    benefits: [
+      { title: 'Maximum Cutting', description: 'The widest cutting line in the trapezoid family: maximum efficiency in a single pass.', icon: 'Maximize' },
+      { title: 'Industrial Durability', description: '0.63mm thickness + long body: reliable in heavy duty applications.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The B207 XXL extra long trapezoid blade is the largest standard product in the trapezoid family. Designed to provide maximum efficiency in industrial-scale cutting applications.</p><p>Together with 100×19mm trapezoids, it is among the products with the longest cutting line. Suitable for continuous intensive use in large workshops, factories and industrial facilities.</p>`,
   },
   'trapez': {
     name: 'Trapezoid – Custom Design',
@@ -863,6 +928,16 @@ export const productsEn: Record<string, ProductTranslation> = {
       description: 'Custom design trapezoid blades. 100×19mm large size + custom sizes, materials, coatings. Sheffield steel, HRC 58-62. OEM supply. Authorized distributor.',
       keywords: ['custom trapezoid blade', 'custom utility blade', '100mm trapezoid', 'large utility blade', 'OEM trapezoid blade', 'custom production trapezoid', 'trapezoid blade manufacturer'],
     },
+    benefits: [
+      { title: 'Full Customisation', description: 'Size, material, coating, notch and hole: fully tailored to your needs.', icon: 'Settings' },
+      { title: '100mm Length', description: 'The longest trapezoid in our standard range: 100×19mm large size option.', icon: 'Maximize' },
+      { title: 'Sheffield Production', description: 'All custom orders manufactured to the same Sheffield quality standards.', icon: 'Award' },
+    ],
+    longDescription: `<p>At Alya Blade, we offer custom trapezoid blade solutions beyond standard trapezoid forms. We can produce custom size, notch count, hole pattern, material and coating combinations according to requirements.</p><p>The 100×19mm large size trapezoid blade is the longest trapezoid form in our standard product range. With 3 notch and 1 hole configuration, it is used in industrial machines and automation systems.</p><p><strong>Our custom order process:</strong> Custom trapezoid blade production with size, material, thickness, notch/hole configuration and coating options tailored to your needs. Contact us for minimum order quantities.</p>`,
+    availableSizes: [
+      '100×19×0.63mm — 3 Notches, 1 Hole (standard large)',
+      'Custom sizes — Production by request',
+    ],
   },
 
   // =============================================================================

@@ -677,6 +677,25 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B207 lame trapézoïdale renforcée 0,63mm, acier Sheffield. 10 variantes : carbone, inox, TiN. Distributeur autorisé.',
       keywords: ['lame trapézoïdale', 'B207', 'lame cutter universel', 'lame de construction', 'lame industrielle trapézoïdale', 'lame Sheffield'],
     },
+    benefits: [
+      { title: 'Résistance Renforcée', description: 'Profil épais de 0,63mm offrant une résistance supérieure à la flexion et à la rupture dans les applications intensives.', icon: 'Shield' },
+      { title: '10 Variantes Différentes', description: 'Solutions personnalisées pour chaque application avec différentes tailles, encoches, trous et revêtements.', icon: 'Settings' },
+      { title: 'Qualité Sheffield', description: 'Acier haut carbone, traité thermiquement à HRC 58-62 à Sheffield, Angleterre.', icon: 'Award' },
+      { title: 'Durée de Vie Prolongée', description: 'La version revêtue TiN (nitrure de titane) dure 3 fois plus longtemps que le carbone standard.', icon: 'Clock' },
+    ],
+    longDescription: `<p>Les lames trapézoïdales renforcées de la série B207 sont des lames de coupe professionnelles conçues pour un usage industriel en épaisseurs de 0,63mm (standard) et 1,00mm (inox).</p><p>Fabriquées en acier haut carbone, ces lames sont produites selon les normes de qualité Sheffield. Avec des options de longueur de 50mm à 100mm, des configurations à 2 ou 3 encoches et divers motifs de trous, elles offrent une large gamme d'applications.</p><p><strong>Options de matériaux :</strong> Acier carbone (standard), acier inoxydable (résistant à la corrosion), revêtement TiN (durée de vie prolongée). Des alternatives avec pointe arrondie et affûtage unilatéral sont disponibles pour la sécurité au travail.</p><p>Utilisées comme lames de rechange dans les cutters, coupe-sécurité, outils de pose de sols et outils à main professionnels. Performances supérieures pour la coupe de carton, moquette, linoléum, PVC, film d'emballage, cuir et textiles.</p>`,
+    availableSizes: [
+      '60×19×0.63mm — 2 Encoches, 4 Trous',
+      '60×19×0.63mm — 2 Encoches, 4 Trous, Revêtement TiN',
+      '53×19×0.63mm — 3 Encoches, 5 Trous',
+      '51×19×0.63mm — 3 Encoches, 5 Trous, Revêtement TiN',
+      '60×19×0.63mm — 2 Encoches (sans trous)',
+      '60×19×1.00mm — 2 Encoches, Inox',
+      '58×19×0.63mm — 3 Encoches, 3 Trous',
+      '60×19×0.63mm — 2 Encoches, 1 Trou',
+      '60×19×0.63mm — 2 Encoches, Affûtage unilatéral',
+      '53×19×0.63mm — 3 Encoches, 5 Trous, Pointe arrondie',
+    ],
   },
   'b206': {
     name: 'B206 - Lame Trapézoïdale Fine',
@@ -697,6 +716,17 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B206 lame trapézoïdale fine 0,43mm, acier Sheffield. Papier, emballage, papier peint, vitres. Distributeur autorisé.',
       keywords: ['lame trapézoïdale fine', 'B206', 'lame fine cutter', 'lame papier', 'lame papier peint'],
     },
+    benefits: [
+      { title: 'Coupe de Précision', description: 'Profil fin de 0,43mm pour des coupes nettes avec une pression minimale sur le matériau.', icon: 'Target' },
+      { title: 'Légère & Flexible', description: 'La construction fine coupe les matériaux flexibles sans déchirure.', icon: 'Feather' },
+      { title: 'Utilisation Économique', description: 'Durée de vie plus longue que les lames renforcées dans les applications de coupe légère.', icon: 'TrendingDown' },
+    ],
+    longDescription: `<p>Les lames trapézoïdales fines de la série B206 sont conçues pour les applications nécessitant une coupe précise avec une épaisseur de 0,43mm.</p><p>Fabriquées en acier à haute teneur en carbone, ces lames à profil fin sont particulièrement utilisées pour la coupe de papier, film fin, matériau d'emballage, papier peint et plastique léger.</p><p>Compatibles avec divers outils à main grâce à différentes configurations de trous et d'encoches. L'option d'affûtage unilatéral est idéale pour le raclage de verre et de surfaces délicates.</p><p><strong>Les lames trapézoïdales</strong> peuvent être utilisées seules pour la coupe machine, ainsi que comme lames de rechange dans les cutters.</p>`,
+    availableSizes: [
+      '50×19×0.43mm — Carbone, 2 Encoches',
+      '50×19×0.43mm — 2 Encoches, Affûtage unilatéral',
+      '59×19×0.43mm — 2×6.4mm Trous',
+    ],
   },
   'b082': {
     name: 'B082 - Lame Trapézoïdale Dentée',
@@ -716,6 +746,15 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B082 lame trapézoïdale dentée 82×25×1,0mm, acier Sheffield. Cordages, fibre de verre, Kevlar. Distributeur autorisé.',
       keywords: ['lame trapézoïdale dentée', 'B082', 'lame dentée', 'lame cordage', 'lame fibre de verre'],
     },
+    benefits: [
+      { title: 'Prise Anti-Glissement', description: 'Le bord dentelé assure une prise dès le premier contact même sur les matériaux glissants.', icon: 'Grip' },
+      { title: 'Extra Épaisse', description: '1,0mm d\'épaisseur offrant une résistance à la flexion dans les matériaux fibreux intensifs.', icon: 'Shield' },
+      { title: 'Corps Large', description: 'Format 82×25mm offrant une prise solide et une zone de coupe contrôlée.', icon: 'Maximize' },
+    ],
+    longDescription: `<p>La lame trapézoïdale à bord dentelé B082 est un produit spécialisé conçu pour la coupe de matériaux fibreux, renforcés de fibres et glissants.</p><p>Avec son corps large de 82×25mm et son épaisseur de 1,0mm, elle possède une construction extrêmement résistante. Le design à bord dentelé unilatéral empêche le matériau de glisser sur la lame et assure des coupes nettes dès le premier contact.</p><p>Utilisée de préférence pour les cordes, ficelles, fibres synthétiques, fibre de verre, fibre de carbone, Kevlar et matériaux similaires exigeants.</p>`,
+    availableSizes: [
+      '82×25×1.0mm — 2 Trous, Bord denté unilatéral',
+    ],
   },
   'b208': {
     name: 'Lame de Refendage B208 – 3 Trous',
@@ -763,6 +802,16 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'Lames trapézoïdales personnalisées. 100×19mm + dimensions non standard. Acier Sheffield. OEM. Distributeur autorisé.',
       keywords: ['lame trapézoïdale personnalisée', 'lame sur mesure', '100mm trapézoïdale', 'OEM lame trapézoïdale'],
     },
+    benefits: [
+      { title: 'Personnalisation Complète', description: 'Taille, matériau, revêtement, encoches et trous : entièrement adapté à vos besoins.', icon: 'Settings' },
+      { title: 'Longueur 100mm', description: 'La trapézoïdale la plus longue de notre gamme standard : format 100×19mm.', icon: 'Maximize' },
+      { title: 'Production Sheffield', description: 'Toutes les commandes personnalisées fabriquées selon les mêmes normes de qualité Sheffield.', icon: 'Award' },
+    ],
+    longDescription: `<p>Chez Alya Blade, nous proposons des solutions de lames trapézoïdales personnalisées au-delà des formes standard. Nous pouvons produire des combinaisons de taille, nombre d'encoches, motif de trous, matériau et revêtement personnalisées selon les besoins.</p><p>La lame trapézoïdale grand format 100×19mm est la forme trapézoïdale la plus longue de notre gamme standard. Avec sa configuration de 3 encoches et 1 trou, elle est utilisée dans les machines industrielles et les systèmes d'automatisation.</p><p><strong>Notre processus de commande personnalisée :</strong> Production de lames trapézoïdales sur mesure avec options de taille, matériau, épaisseur, configuration encoches/trous et revêtement. Contactez-nous pour les quantités minimales de commande.</p>`,
+    availableSizes: [
+      '100×19×0.63mm — 3 Encoches, 1 Trou (standard grande taille)',
+      'Dimensions personnalisées — Production sur demande',
+    ],
   },
   'sper': {
     name: 'Lame Sper – Cutter Spécialisé',
@@ -1501,6 +1550,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B207 L lame trapézoïdale allongée. Large zone de coupe. Acier Sheffield, HRC 58-62. Distributeur autorisé.',
       keywords: ['lame trapézoïdale allongée', 'B207 L', 'lame longue cutter', 'trapézoïdale allongée'],
     },
+    benefits: [
+      { title: 'Large Zone de Coupe', description: 'Longueur de lame supérieure au B207 standard, coupe plus de matériau en un seul passage.', icon: 'Maximize' },
+      { title: 'Même Qualité', description: 'Toutes les normes de qualité de la série B207 : acier Sheffield, HRC 58-62.', icon: 'Award' },
+    ],
+    longDescription: `<p>La lame trapézoïdale B207 L (Longue) est la version allongée de la série B207 standard. Elle offre une ligne de coupe plus large, permettant de couper plus de matériau en un seul passage.</p><p>Particulièrement utilisée pour l'ouverture de grands cartons, la coupe de films d'emballage larges, la pose de moquette sur grandes surfaces et les opérations d'emballage industriel, offrant un travail plus efficace par rapport au format standard.</p>`,
   },
   'b207-3': {
     name: 'B207 XXL - Lame Trapézoïdale Extra Longue',
@@ -1513,6 +1567,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B207 XXL lame trapézoïdale extra longue. Zone de coupe maximale. Acier Sheffield, HRC 58-62. Distributeur autorisé.',
       keywords: ['lame trapézoïdale extra longue', 'B207 XXL', 'lame extra longue', 'trapézoïdale industrielle'],
     },
+    benefits: [
+      { title: 'Coupe Maximale', description: 'La ligne de coupe la plus large de la famille trapézoïdale : efficacité maximale en un seul passage.', icon: 'Maximize' },
+      { title: 'Résistance Industrielle', description: 'Épaisseur 0,63mm + corps allongé : fiable dans les applications intensives.', icon: 'Shield' },
+    ],
+    longDescription: `<p>La lame trapézoïdale B207 XXL extra longue est le plus grand produit standard de la famille trapézoïdale. Conçue pour offrir une efficacité maximale dans les applications de coupe à échelle industrielle.</p><p>Avec les trapézoïdales 100×19mm, elle figure parmi les produits ayant la ligne de coupe la plus longue. Adaptée à une utilisation intensive continue dans les grands ateliers, usines et installations industrielles.</p>`,
   },
   'b213': {
     name: 'B213 - Lame Trapézoïdale Compacte',
@@ -1525,6 +1584,14 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B213 lame trapézoïdale compacte 61×12,5×0,63mm. Espaces restreints, électronique, coupe de précision. Distributeur autorisé.',
       keywords: ['lame trapézoïdale compacte', 'B213', 'mini lame trapézoïdale', 'lame 61mm', 'lame compacte'],
     },
+    benefits: [
+      { title: 'Format Compact', description: 'Petite taille 61×12,5mm pour une manœuvrabilité confortable dans les espaces étroits.', icon: 'Minimize' },
+      { title: 'Coupe de Précision', description: 'Coupe contrôlée et détaillée avec la petite forme trapézoïdale.', icon: 'Target' },
+    ],
+    longDescription: `<p>La lame trapézoïdale compacte B213 est une version miniaturisée de la forme trapézoïdale standard. Ses dimensions de 61×12,5mm la rendent adaptée à une utilisation dans les espaces restreints.</p><p>Avec une épaisseur standard de 0,63mm et un design de montage à trou unique, elle est utilisée comme lame de rechange dans les outils à main spéciaux et les cutters compacts. Une forme trapézoïdale spécialisée utilisée pour la coupe de composants électroniques, le dénudage de câbles fins et les travaux de détail.</p>`,
+    availableSizes: [
+      '61×12.5×0.63mm — 1 Trou',
+    ],
   },
   'b218': {
     name: 'B218 - Lame Trapézoïdale Spéciale Moyenne',
@@ -1537,6 +1604,14 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B218 lame trapézoïdale spéciale 71×17×0,63mm. Machines industrielles, automatisation. Distributeur autorisé.',
       keywords: ['lame trapézoïdale spéciale', 'B218', 'lame 71mm', 'lame machines'],
     },
+    benefits: [
+      { title: 'Ligne de Coupe Étendue', description: 'Longueur de 71mm offrant 18% de zone de coupe supplémentaire par rapport au trapèze standard de 60mm.', icon: 'ArrowRight' },
+      { title: 'Compatibilité Spéciale', description: 'Largeur de 17mm pour une adaptation parfaite aux outils de marques spécifiques.', icon: 'Check' },
+    ],
+    longDescription: `<p>La lame trapézoïdale spéciale B218 possède une largeur de 17mm au lieu des 19mm standard, ce qui en fait un produit de taille intermédiaire. Avec 71mm de longueur, elle offre une ligne de coupe plus longue que les trapèzes standard.</p><p>Son design à trou 1×6mm est adapté à une utilisation dans des supports spéciaux et des machines industrielles. Utilisée comme lame de rechange dans les unités de coupe de cutters de certaines marques et de systèmes d'automatisation.</p>`,
+    availableSizes: [
+      '71×17×0.63mm — 1×6mm Trou',
+    ],
   },
   'b214': {
     name: 'B214 - Micro Lame Trapézoïdale',
@@ -1549,6 +1624,14 @@ export const productsFr: Record<string, ProductTranslation> = {
       description: 'B214 micro lame trapézoïdale 27,6×9×0,43mm. Électronique, modélisme, laboratoire. Distributeur autorisé.',
       keywords: ['micro lame trapézoïdale', 'B214', 'lame miniature', 'lame 27mm', 'lame de précision'],
     },
+    benefits: [
+      { title: 'Ultra Compacte', description: '27,6×9mm : la plus petite lame trapézoïdale, adaptation parfaite aux outils miniatures.', icon: 'Minimize' },
+      { title: 'Contrôle de Précision', description: 'Contrôle de coupe au micron avec petite taille et profil fin.', icon: 'Target' },
+    ],
+    longDescription: `<p>La micro lame trapézoïdale B214 est le produit le plus petit de la famille trapézoïdale. Ses dimensions de 27,6×9mm sont conçues pour les outils à main miniatures, les dispositifs de coupe de précision et les applications industrielles spécialisées.</p><p>Avec une épaisseur de 0,43mm et une configuration à trois trous de 3×3,5mm, elle se monte sur des systèmes de support spécialisés. Utilisée dans l'assemblage électronique, la fabrication de dispositifs médicaux, le modélisme et les opérations de laboratoire nécessitant une micro-coupe.</p>`,
+    availableSizes: [
+      '27.6×9×0.43mm — 3×3.5mm Trous',
+    ],
   },
   'b226': {
     name: 'B226 - Lame Supaslit',
