@@ -1978,7 +1978,7 @@
     "name": "B208 - SİVRİ UÇ (STANDART TİP)",
     "description": "SİVRİ UÇ (STANDART TİP). Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
+    "subcategoryId": "hook-blades",
     "image": "/images/products/b208-sivri-uc-standart-tip.jpg",
     "variants": [
       {
@@ -2002,7 +2002,41 @@
     "isFeatured": false,
     "isActive": true,
     "order": 113,
-    "slugEN": "b208-pointed-blade-standard"
+    "slugEN": "b208-pointed-hook-blade"
+  },
+  {
+    "id": "b208-tekstil",
+    "slug": "b208-genis-uclu-tekstil",
+    "code": "B208 TEXTILE",
+    "name": "B208 - GENİŞ UÇLU (TEKSTİL)",
+    "description": "GENİŞ UÇLU (TEKSTİL). Tekstil kesimi için geniş kollu kanca bıçak. Durham Duplex Sheffield kalitesi.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hook-blades",
+    "image": "/images/products/b208-genis-uclu-tekstil.jpg",
+    "variants": [
+      {
+        "id": "b208-genis-uclu-tekstil-standard",
+        "sku": "B208 TEXTILE",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Sheffield Çelik",
+      "hardness": "HRC 58-62"
+    },
+    "features": [
+      "Geniş kollu tasarım",
+      "Tekstil kesimi için optimize",
+      "Sheffield kalitesi"
+    ],
+    "applications": [
+      "Tekstil kesimi",
+      "Kumaş kesimi"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 119,
+    "slugEN": "b208-broad-textile-hook-blade"
   },
   {
     "id": "sper",
@@ -2035,7 +2069,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 114,
-    "slugEN": "hook-blade-long"
+    "slugEN": "super-hook-blade-long"
   },
   {
     "id": "yuvarlatilmi",
@@ -2101,7 +2135,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 116,
-    "slugEN": "textile-hook-blade"
+    "slugEN": "if-textile-hook-blade"
   },
   {
     "id": "b209",
@@ -2167,7 +2201,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 118,
-    "slugEN": "hook-blade-hobby"
+    "slugEN": "hook-blade-hob-1"
   },
   {
     "id": "b122",

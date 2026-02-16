@@ -757,28 +757,71 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
   },
   'b208': {
-    name: 'Lame de Refendage B208 – 3 Trous',
-    description: 'Lame industrielle B208 équipée du système de fixation à 3 trous. Conçue pour opérations de refendage continues avec excellente stabilité de coupe.',
-    features: [
-      'Modèle B208 performant',
-      'Système 3 trous',
-      'Stabilité de coupe',
-      'Usage continu',
-      'Changement rapide'
+    name: 'Lame Crochet B208 – Pointe Effilée (Standard)',
+    subtitle: 'Lame crochet standard à pointe effilée',
+    description: 'Lame crochet B208 standard à pointe effilée. 49-52×19×0,6mm, 2-3 encoches, 2-5 trous. Acier carbone, haut carbone et revêtement TiN. Idéale pour emballage, film et ruban adhésif.',
+    features: ['Pointe effilée — pénétration facile', 'Profil crochet — découpe sécurisée', 'Options 49/51/52×19mm', 'Variantes carbone, haut carbone, TiN', '2-3 encoches, 2-5 trous', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Ouverture d\'emballages', 'Découpe de films', 'Retrait de rubans adhésifs', 'Entrepôts et logistique'],
+    seo: {
+      title: 'Lame Crochet B208 Pointe Effilée | Lame Crochet | Alya Blade',
+      description: 'Lame crochet B208 à pointe effilée. 49-52×19×0,6mm, carbone/haut carbone/TiN. Emballage, film et ruban. Sheffield Durham Duplex. Distributeur autorisé.',
+      keywords: ['lame crochet', 'B208', 'lame crochet pointe effilée', 'lame emballage', 'lame découpe film', 'lame crochet Sheffield'],
+    },
+    benefits: [
+      { title: 'Pénétration Facile', description: 'La pointe effilée permet une entrée sans effort dans le matériau.', icon: 'Zap' },
+      { title: 'Découpe Sécurisée', description: 'Le profil crochet coupe sans endommager le matériau sous-jacent.', icon: 'ShieldCheck' },
+      { title: 'Nombreuses Variantes', description: 'Options carbone, haut carbone et revêtement TiN.', icon: 'Layers' },
     ],
-    applications: ['Lignes de refendage', 'Découpe en continu', 'Transformation de matériaux', 'Production automatisée'],
+    longDescription: `<p>La lame crochet B208 à pointe effilée est le modèle standard le plus populaire de la famille des lames crochet. La pointe effilée facilite la pénétration dans le matériau, et le profil crochet permet une découpe sécurisée sans endommager les couches sous-jacentes.</p><p>Disponible en variantes 49×19×0,6mm, 51×19×0,6mm et 52×19×0,6mm, avec 2 ou 3 encoches. Options acier carbone (standard), haut carbone (durée de vie prolongée) et revêtement TiN (résistance à l'usure).</p>`,
+    availableSizes: [
+      '49×19×0,6mm — 2E-3T, Gélatine 100 pcs',
+      '49×19×0,6mm — 2E, Vrac 350 pcs',
+      '49×19×0,6mm — 2E-2T, Distributeur 10 pcs',
+      '51×19×0,6mm — 2E-2T, Distributeur Bleu 10 pcs',
+      '52×19×0,6mm — TiN, 2E-3T, Haut Carbone, 10×8',
+    ],
+  },
+  'b208-tekstil': {
+    name: 'Lame Crochet B208 – Pointe Large (Textile)',
+    subtitle: 'Lame crochet textile à bras larges',
+    description: 'Lame crochet B208 à pointe large, spécialement conçue pour la découpe textile. 52×19×0,6mm, profil à bras larges. Acier DD 1% carbone, HRC 58-62.',
+    features: ['Profil à bras larges', 'Conçue pour la découpe textile', 'Acier DD 1% carbone', 'Minimise l\'effilochage', '52×19×0,6mm', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe textile', 'Ouverture de balles', 'Découpe de cuir', 'Découpe de fibres'],
+    seo: {
+      title: 'Lame Crochet B208 Textile Bras Larges | Lame Textile | Alya Blade',
+      description: 'Lame crochet B208 textile à bras larges. 52×19×0,6mm. Acier DD 1% carbone. Distributeur autorisé.',
+      keywords: ['lame crochet textile', 'B208 textile', 'lame crochet bras larges', 'lame découpe tissu', 'lame textile'],
+    },
+    benefits: [
+      { title: 'Bras Larges', description: 'Profil à bras larges pour une découpe nette sans endommager le tissu.', icon: 'Maximize' },
+      { title: 'Anti-Effilochage', description: 'La pointe large prévient l\'effilochage et la déchirure.', icon: 'ShieldCheck' },
+      { title: 'Optimisée Textile', description: 'Acier DD 1% carbone : optimisée pour l\'industrie textile.', icon: 'Target' },
+    ],
+    longDescription: `<p>La lame crochet B208 à pointe large est une variante spécialement développée pour l'industrie textile. Contrairement à la pointe effilée standard, elle dispose d'un design à bras larges pour une découpe nette des tissus et matériaux textiles.</p><p>Fabriquée en 52×19×0,6mm avec 2 encoches et 2-3 trous. Acier Durham Duplex 1% carbone avec dureté HRC 58-62.</p>`,
   },
   'b209': {
-    name: 'Lame de Refendage B209 – 3 Trous',
-    description: 'Lame de refendage B209 avec configuration 3 trous pour montage sécurisé. Performance fiable pour applications industrielles variées.',
-    features: [
-      'Modèle B209 polyvalent',
-      'Configuration 3 trous',
-      'Montage sécurisé',
-      'Performance fiable',
-      'Applications variées'
+    name: 'Lame Crochet B209 – Unilatérale',
+    subtitle: 'Lame crochet unilatérale (un seul côté)',
+    description: 'Lame crochet B209 unilatérale. 59×19×0,6mm, 2 encoches, 3 trous. Variantes carbone, TiN et inox. Tranchant unilatéral pour découpe directionnelle contrôlée.',
+    features: ['Tranchant unilatéral — direction contrôlée', '59×19×0,6mm', 'Variantes carbone, TiN, inox', '2 encoches, 3 trous', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe contrôlée', 'Emballage de précision', 'Décapage de films', 'Lignes de production'],
+    seo: {
+      title: 'Lame Crochet B209 Unilatérale 59×19mm | Lame Crochet | Alya Blade',
+      description: 'Lame crochet B209 unilatérale. 59×19×0,6mm, carbone/TiN/inox. Découpe directionnelle contrôlée. Sheffield Durham Duplex. Distributeur autorisé.',
+      keywords: ['lame crochet unilatérale', 'B209', 'lame crochet un côté', 'lame découpe contrôlée', 'lame crochet inox'],
+    },
+    benefits: [
+      { title: 'Tranchant Unilatéral', description: 'Contrôle total de la direction de coupe : aucun risque de coupure indésirable.', icon: 'Target' },
+      { title: '3 Matériaux', description: 'Carbone, TiN, inox : choisissez selon l\'application.', icon: 'Layers' },
+      { title: 'Corps Large', description: '59mm : ligne de coupe plus large que le B208 standard.', icon: 'Maximize' },
     ],
-    applications: ['Refendage polyvalent', 'Multi-applications', 'Découpe de matériaux divers', 'Industrie générale'],
+    longDescription: `<p>La lame crochet B209 unilatérale possède un design spécial qui ne coupe que d'un seul côté. Cette construction unilatérale offre un contrôle total de la direction de coupe et élimine le risque de coupures indésirables.</p><p>Fabriquée en 59×19×0,6mm avec 2 encoches et 3 trous. Disponible en acier carbone, revêtement TiN et acier inoxydable.</p>`,
+    availableSizes: [
+      '59×19×0,6mm — 2E-3T, Carbone, Cellowrap 5 pcs, Boîte 100',
+      '59×19×0,6mm — 2E-3T, TiN, Gélatine, Boîte 100',
+      '59×19×0,6mm — 2E-3T, TiN, Distributeur 10 pcs',
+      '59×19×0,6mm — 2E-3D, Inox, Cellowrap 5 pcs, Boîte 100',
+    ],
   },
 
   // =============================================================================
@@ -814,40 +857,63 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
   },
   'sper': {
-    name: 'Lame Sper – Cutter Spécialisé',
-    description: 'Lame de type Sper pour applications de découpe spécialisées. Conception unique offrant une coupe contrôlée pour matériaux délicats et applications nécessitant précision.',
-    features: [
-      'Conception Sper unique',
-      'Coupe contrôlée',
-      'Précision élevée',
-      'Pour matériaux délicats',
-      'Finition de qualité'
+    name: 'Lame Crochet Super – Longue',
+    subtitle: 'Lame crochet longue Super',
+    description: 'Lame crochet Super modèle long. 55×19×0,6mm, 2 encoches, 4 trous. Corps plus grand que les lames crochet standard. Pour emballages épais, cordes et films résistants.',
+    features: ['55×19×0,6mm — corps plus grand que le standard', 'Système de fixation 4 trous', 'Optimisée pour matériaux épais', 'Acier haut carbone', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Emballages épais', 'Découpe de cordes et sangles', 'Films résistants', 'Rubans industriels'],
+    seo: {
+      title: 'Lame Crochet Super Longue 55×19mm | Lame Crochet Longue | Alya Blade',
+      description: 'Lame crochet Super modèle long. 55×19×0,6mm, 4 trous, acier haut carbone. Emballages épais, cordes, films résistants. Distributeur autorisé.',
+      keywords: ['lame crochet super', 'lame crochet longue', 'lame crochet 55mm', 'lame emballage épais', 'lame corde', 'lame crochet robuste'],
+    },
+    benefits: [
+      { title: 'Corps Long', description: '55mm : ligne de coupe plus large et meilleur contrôle que les lames crochet standard.', icon: 'Maximize' },
+      { title: 'Fixation 4 Trous', description: 'Compatibilité maximale avec différents systèmes de porte-lames.', icon: 'Settings' },
+      { title: 'Usage Intensif', description: 'Découpe puissante pour matériaux épais et résistants.', icon: 'Shield' },
     ],
-    applications: ['Découpe de précision', 'Matériaux délicats', 'Applications spécialisées', 'Travaux de finition'],
+    longDescription: `<p>La Super Hook – Longue est une version plus grande et plus puissante de la lame crochet standard B208. Avec des dimensions de 55×19×0,6mm, elle offre une ligne de coupe plus large. La configuration 4 trous assure la compatibilité avec différents systèmes de porte-lames.</p><p>Plus performante que la lame crochet standard pour la découpe d'emballages épais, de cordes, de films résistants et de rubans industriels. Le corps long offre un meilleur contrôle à l'opérateur.</p>`,
   },
   'if': {
-    name: 'Lame Type IF – Couteau Industriel',
-    description: 'Lame de type IF pour applications industrielles spécifiques. Profil IF offrant des caractéristiques de coupe optimisées pour machines et équipements compatibles.',
-    features: [
-      'Profil type IF',
-      'Compatibilité machine',
-      'Coupe optimisée',
-      'Construction industrielle',
-      'Durabilité élevée'
+    name: 'Lame Crochet IF – Textile',
+    subtitle: 'Lame crochet série IF pour textile',
+    description: 'Lame crochet série IF pour textile. IF-1 : 80×13×0,71mm unilatérale, IF-2 : 87×10×0,71mm bilatérale, IF-2R : bilatérale à trous ronds. Conçue pour l\'industrie du tissu et du textile.',
+    features: ['IF-1 : 80×13×0,71mm — unilatérale', 'IF-2 : 87×10×0,71mm — bilatérale', 'IF-2R : 87×10×0,71mm — bilatérale, trous ronds', 'Épaisseur 0,71mm — pas de flexion', 'Profil spécial textile', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe de tissus', 'Confection', 'Ouverture de balles', 'Découpe de fils et fibres'],
+    seo: {
+      title: 'Lame Crochet IF Textile IF-1 IF-2 | Lame Crochet Textile | Alya Blade',
+      description: 'Lame crochet série IF textile. IF-1 : 80×13mm unilatérale, IF-2 : 87×10mm bilatérale. Découpe tissu et textile. Sheffield Durham Duplex. Distributeur autorisé.',
+      keywords: ['lame crochet IF', 'lame crochet textile', 'lame découpe tissu', 'lame IF-1', 'lame IF-2', 'lame confection'],
+    },
+    benefits: [
+      { title: '3 Variantes', description: 'IF-1, IF-2, IF-2R : options unilatérale et bilatérale.', icon: 'Layers' },
+      { title: 'Spécifique Textile', description: 'Profil long et fin pour une découpe précise sans déchirure du tissu.', icon: 'Target' },
+      { title: 'Épaisseur 0,71mm', description: 'Plus épais que le standard 0,6mm : aucune flexion lors de la découpe textile.', icon: 'Shield' },
     ],
-    applications: ['Machines industrielles', 'Équipements compatibles IF', 'Production automatisée', 'Applications spécifiques'],
+    longDescription: `<p>Les lames crochet série IF sont des lames de découpe professionnelles spécialement développées pour l'industrie textile. Contrairement aux lames crochet standard, elles présentent un profil plus fin et plus long, conçu pour une découpe précise et nette des tissus et textiles.</p><p><strong>Variantes :</strong></p><ul><li><strong>IF-1 (Unilatérale) :</strong> 80×13×0,71mm, 1 trou ovale + 1 trou rond. Modèle à découpe sur un seul tranchant.</li><li><strong>IF-2 (Bilatérale) :</strong> 87×10×0,71mm, 1 trou ovale + 1 trou. Découpe possible sur les deux tranchants.</li><li><strong>IF-2R (Bilatérale, Trous Ronds) :</strong> 87×10×0,71mm, 2 trous ronds. Configuration de montage alternative.</li></ul>`,
+    availableSizes: [
+      'IF-1 : 80×13×0,71mm — Unilatérale, 1 Ovale + 1 Rond',
+      'IF-2 : 87×10×0,71mm — Bilatérale, 1 Ovale + 1 Trou',
+      'IF-2R : 87×10×0,71mm — Bilatérale, 2 Trous Ronds',
+    ],
   },
   'kanca': {
-    name: 'Lame Crochet – Hook Blade',
-    description: 'Lame en forme de crochet pour découpe de matériaux souples et flexibles. La géométrie en crochet permet une coupe sécurisée sans risque de glissement. Idéale pour films rétractables et sangles.',
-    features: [
-      'Forme de crochet',
-      'Coupe sécurisée',
-      'Anti-glissement',
-      'Pour matériaux souples',
-      'Manipulation sûre'
+    name: 'Lame Crochet HOB-1 – Grande Taille',
+    subtitle: 'Lame crochet série HOB-1 grande taille',
+    description: 'Lame crochet HOB-1 grande taille. 90×39,5/20×0,80mm, 1 trou. Corps large et profil épais pour applications textiles lourdes et emballages industriels.',
+    features: ['90×39,5/20×0,80mm — le plus grand modèle', 'Épaisseur 0,80mm — usage intensif', 'Fixation simple 1 trou', 'Corps large pour contrôle maximal', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Textile lourd', 'Ouverture de balles', 'Découpe de cordes et sangles', 'Opérations industrielles'],
+    seo: {
+      title: 'Lame Crochet HOB-1 Grande 90×39,5mm | Grande Lame Crochet | Alya Blade',
+      description: 'Lame crochet HOB-1 grande taille. 90×39,5/20×0,80mm, usage intensif. Textile, balles, cordes. Sheffield Durham Duplex. Distributeur autorisé.',
+      keywords: ['lame crochet HOB-1', 'grande lame crochet', 'lame crochet 90mm', 'lame crochet robuste', 'lame balle', 'lame crochet textile'],
+    },
+    benefits: [
+      { title: 'Plus Grand Corps', description: '90mm : le plus grand modèle de la famille des lames crochet.', icon: 'Maximize' },
+      { title: 'Épaisseur 0,80mm', description: 'Plus épais que le standard 0,6mm : durabilité renforcée.', icon: 'Shield' },
+      { title: 'Changement Rapide', description: 'Fixation simple 1 trou : changements de lame rapides.', icon: 'Zap' },
     ],
-    applications: ['Découpe de films rétractables', 'Coupe de sangles', 'Matériaux flexibles', 'Applications de sécurité'],
+    longDescription: `<p>Le HOB-1 est le modèle le plus grand et le plus épais de la série standard de lames crochet. Avec des dimensions de 90×39,5/20×0,80mm, il est nettement plus imposant que les autres lames crochet. Le corps large permet une découpe plus profonde et plus puissante.</p><p>Avec une épaisseur de 0,80mm, il est plus dur et plus durable que les lames crochet standard de 0,6mm. La configuration simple à 1 trou permet des changements de lame rapides.</p>`,
   },
   'segmentli': {
     name: 'Lame Segmentée – Snap-Off Blade',
@@ -1641,9 +1707,21 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'yuvarlatilmi': {
     name: 'Lame Crochet à Pointe Arrondie',
-    description: 'Lame crochet avec pointe arrondie pour découpe sécurisée. Prévention des perforations accidentelles.',
-    features: ['Pointe arrondie', 'Découpe sécurisée', 'Prévention des perforations', 'Qualité Sheffield'],
-    applications: ['Découpe sécurisée', 'Ouverture d\'emballages fragiles', 'Environnements sensibles'],
+    subtitle: 'Lame crochet sécurisée à pointe arrondie',
+    description: 'Lame crochet à pointe arrondie. 52×19×0,6mm, 2 encoches, 3 trous. Pointe arrondie au lieu de pointe effilée : risque minimal d\'endommagement du matériau sous-jacent. Découpe axée sur la sécurité.',
+    features: ['Pointe arrondie — sécurité d\'abord', 'Risque minimal d\'endommagement du matériau sous-jacent', '52×19×0,6mm taille standard crochet', '2 encoches, 3 trous', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Ouverture sécurisée d\'emballages', 'Opérations de commerce de détail', 'Sécurité en entrepôt', 'Manipulation de produits de valeur'],
+    seo: {
+      title: 'Lame Crochet Pointe Arrondie 52×19mm | Lame Crochet Sécurisée | Alya Blade',
+      description: 'Lame crochet à pointe arrondie. 52×19×0,6mm, ouverture sécurisée d\'emballages. Sans endommagement du matériau. Sheffield Durham Duplex. Distributeur autorisé.',
+      keywords: ['lame crochet pointe arrondie', 'lame crochet sécurisée', 'lame crochet arrondie', 'lame ouverture emballage', 'lame sans dommage'],
+    },
+    benefits: [
+      { title: 'Pointe Arrondie', description: 'Risque minimal d\'endommagement du matériau : conception axée sur la sécurité.', icon: 'ShieldCheck' },
+      { title: 'Protection Produit', description: 'Ouvre les emballages de produits de valeur sans rayure ni perforation.', icon: 'Diamond' },
+      { title: 'Sécurité Opérateur', description: 'La pointe arrondie réduit le risque d\'accident.', icon: 'Heart' },
+    ],
+    longDescription: `<p>La lame crochet à pointe arrondie est la version axée sur la sécurité du modèle B208 standard. Au lieu d'une pointe effilée, elle présente un profil à pointe arrondie qui minimise le risque d'endommagement des couches ou produits sous-jacents lors de la découpe.</p><p>Fabriquée en 52×19×0,6mm avec 2 encoches et 3 trous. Idéale pour les opérations d'ouverture sécurisée d'emballages dans les environnements d'entrepôt, de logistique et de commerce de détail.</p>`,
   },
 
   // =============================================================================

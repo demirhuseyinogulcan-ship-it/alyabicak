@@ -3252,6 +3252,570 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 208,
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // KANCA BIÇAKLAR (Hook Blades)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // ─── B208 SİVRİ UÇ (STANDART TİP) ─────────────────────────────────────────
+  {
+    id: 'b208',
+    slug: 'b208-sivri-uc-standart-tip',
+    slugEN: 'b208-pointed-hook-blade',
+    code: 'B208',
+    name: 'B208 – SİVRİ UÇ (STANDART TİP)',
+    subtitle: 'Standart Sivri Uçlu Kanca Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hook-blades',
+    tags: ['kanca bıçak', 'hook blade', 'sivri uç', 'B208', 'ambalaj kesimi'],
+
+    shortDescription: 'B208 standart sivri uçlu kanca bıçak. 49-52×19×0.6mm, 2-3 çentik, 2-3 delik. Karbon çelik, yüksek karbon ve TiN kaplama varyantları. Ambalaj, film ve bant kesimi için ideal.',
+
+    longDescription: `<p>B208 sivri uçlu kanca bıçak, kanca bıçak ailesinin en çok tercih edilen standart modelidir. Sivri uç formu ile malzemeye kolay giriş sağlar; kanca profili sayesinde alt katmanlara zarar vermeden güvenli kesim yapılır.</p>
+<p>49×19×0.6mm, 51×19×0.6mm ve 52×19×0.6mm boyut varyantlarına sahiptir. 2 veya 3 çentik ile farklı tutucu sistemlerine uyum sağlar. Karbon çelik (standart), yüksek karbon (uzun ömür) ve TiN kaplama (aşınma direnci) seçenekleri mevcuttur.</p>
+<p><strong>Kullanım alanları:</strong> Ambalaj açma, shrink film kesimi, bant/etiket sıyırma, koli açma. Depo, lojistik ve üretim hatlarında güvenli kesim için tercih edilir.</p>`,
+
+    images: {
+      main: { src: '/images/products/b208-sivri-uc-standart-tip.jpg', alt: 'B208 Sivri Uçlu Kanca Bıçak', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b208-sivri-uc-standart-tip.jpg', alt: 'B208 Hook Blade', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik / Yüksek Karbon / TiN Kaplama', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.6mm / 0.63mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '49×19 / 51×19 / 52×19 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Kanca – Sivri Uçlu', icon: 'Anchor' },
+      { label: 'notches', value: '2 veya 3', icon: 'Minus' },
+      { label: 'holes', value: '2-5 (varyanta göre)', icon: 'Circle' },
+      { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
+      { label: 'packaging', value: '5, 10, 100 adet', icon: 'Package' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Ambalaj Açma', icon: 'Package', description: 'Koli ve ambalaj filmlerinin güvenli açılması' },
+      { title: 'Film Kesimi', icon: 'Film', description: 'Shrink film, streç film kesimi' },
+      { title: 'Bant Sıyırma', icon: 'Scissors', description: 'Yapışkan bant ve etiket sıyırma' },
+      { title: 'Depo & Lojistik', icon: 'Warehouse', description: 'Depo ve lojistik operasyonlarında güvenli kesim' },
+    ],
+
+    benefits: [
+      { title: 'Kolay Giriş', description: 'Sivri uç formu ile malzemeye zahmetsiz giriş sağlar.', icon: 'Zap' },
+      { title: 'Güvenli Kesim', description: 'Kanca profili ile alt malzemeye zarar vermeden kesim yapar.', icon: 'ShieldCheck' },
+      { title: 'Çoklu Varyant', description: 'Karbon, yüksek karbon ve TiN kaplama seçenekleri.', icon: 'Layers' },
+    ],
+
+    features: [
+      'Sivri uç tasarımı — kolay bıçak girişi',
+      'Kanca profili — güvenli kesim',
+      '49/51/52×19mm boyut seçenekleri',
+      'Karbon çelik, yüksek karbon, TiN kaplama varyantları',
+      '2-3 çentik, 2-5 delik konfigürasyonları',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: [
+      '49×19×0.6mm — 2Ç-3D, Jelatin 100lü Kutu',
+      '49×19×0.6mm — 2Ç, Serbest 350li Kutu',
+      '49×19×0.6mm — 2Ç-2D, 10lu Dispenser',
+      '51×19×0.6mm — 2Ç-2D, 10lu Mavi Dispenser',
+      '51×19×0.6mm — 2Ç-3D, Yüksek Karbon, 10lu',
+      '52×19×0.6mm — 2Ç-3D, Yüksek Karbon, 350li Kutu',
+      '52×19×0.6mm — TiN, 2Ç-3D, Yüksek Karbon, 10×8',
+      '49×19×0.6mm — 2Ç-2D, Sil Kağıtlı 10lu Kutu',
+      '49×19×0.6mm — 2Ç-2D, Düz Uçlar, 100lü Kutu',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b208-tekstil', 'sper', 'b209', 'yuvarlatilmi'],
+
+    seo: {
+      title: 'B208 Sivri Uçlu Kanca Bıçak | Hook Blade | Alya Bıçak',
+      description: 'B208 standart sivri uçlu kanca bıçak. 49-52×19×0.6mm, karbon/yüksek karbon/TiN. Ambalaj, film ve bant kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['kanca bıçak', 'B208', 'hook blade', 'sivri uçlu kanca', 'ambalaj kesim bıçağı', 'film kesim bıçağı', 'Sheffield kanca bıçak'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 301,
+  },
+
+  // ─── B208 GENİŞ UÇLU (TEKSTİL) ────────────────────────────────────────────
+  {
+    id: 'b208-tekstil',
+    slug: 'b208-genis-uclu-tekstil',
+    slugEN: 'b208-broad-textile-hook-blade',
+    code: 'B208 TEXTILE',
+    name: 'B208 – GENİŞ UÇLU (TEKSTİL)',
+    subtitle: 'Tekstil İçin Geniş Kollu Kanca Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hook-blades',
+    tags: ['kanca bıçak tekstil', 'geniş kollu kanca', 'B208 textile', 'kumaş kesimi'],
+
+    shortDescription: 'B208 geniş uçlu kanca bıçak, tekstil kesimi için özel tasarım. 52×19×0.6mm, geniş kollu (broad arms) profil. DD %1 karbon çelik, HRC 58-62.',
+
+    longDescription: `<p>B208 Geniş Uçlu kanca bıçak, özellikle tekstil endüstrisi için geliştirilmiş bir varyant modeldir. Standart B208'in sivri ucunun aksine geniş kollu (broad arms) tasarıma sahiptir; bu sayede kumaş ve tekstil malzemelere zarar vermeden temiz kesim yapılır.</p>
+<p>52×19×0.6mm boyutlarında, 2 çentik ve 2-3 delik konfigürasyonu ile üretilmektedir. Durham Duplex %1 karbon çelik malzeme ile HRC 58-62 sertlik aralığında keskin ve uzun ömürlü performans sunar.</p>
+<p><strong>Tekstil uygulamaları:</strong> Kumaş topları açma, balya kesimi, sentetik elyaf kesimi, deri ve suni deri kesimi. Geniş kollu form iplik çekmesi ve kumaş yırtılmasını minimize eder.</p>`,
+
+    images: {
+      main: { src: '/images/products/b208-genis-uclu-tekstil.jpg', alt: 'B208 Geniş Uçlu Tekstil Kanca Bıçak', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b208-genis-uclu-tekstil.jpg', alt: 'B208 Tekstil', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'DD %1 Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.6mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '52×19 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Kanca – Geniş Kollu (Broad Arms)', icon: 'Anchor' },
+      { label: 'notches', value: '2', icon: 'Minus' },
+      { label: 'holes', value: '2-3', icon: 'Circle' },
+      { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Tekstil Kesimi', icon: 'Scissors', description: 'Kumaş topları ve tekstil enfes kesimi' },
+      { title: 'Balya Açma', icon: 'Package', description: 'Tekstil balyalarının güvenli açılması' },
+      { title: 'Deri Kesimi', icon: 'Layers', description: 'Suni deri ve doğal deri uygulamaları' },
+      { title: 'Elyaf Kesimi', icon: 'Wind', description: 'Sentetik ve doğal elyaf kesimi' },
+    ],
+
+    benefits: [
+      { title: 'Geniş Kollu Tasarım', description: 'Broad arms profil: kumaşa zarar vermeden temiz kesim.', icon: 'Maximize' },
+      { title: 'İplik Çekmez', description: 'Geniş uç formu iplik çekmesini ve yırtılmayı önler.', icon: 'ShieldCheck' },
+      { title: 'Tekstile Özel', description: 'DD %1 karbon çelik: tekstil endüstrisi için optimize.', icon: 'Target' },
+    ],
+
+    features: [
+      'Geniş kollu (broad arms) uç profili',
+      'Tekstil kesimi için özel tasarım',
+      'DD %1 karbon çelik malzeme',
+      'İplik çekmesini minimize eder',
+      '52×19×0.6mm standart boyut',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b208', 'if', 'sper', 'b209'],
+
+    seo: {
+      title: 'B208 Geniş Uçlu Tekstil Kanca Bıçak | Textile Hook Blade | Alya Bıçak',
+      description: 'B208 geniş uçlu kanca bıçak, tekstil kesimi için geniş kollu (broad arms) tasarım. 52×19×0.6mm, DD %1 karbon çelik. Türkiye distribütörü.',
+      keywords: ['tekstil kanca bıçak', 'B208 tekstil', 'geniş kollu kanca', 'broad arms hook blade', 'kumaş kesim bıçağı', 'tekstil bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: true,
+    inStock: true,
+    order: 302,
+  },
+
+  // ─── SÜPER KANCA – UZUN ────────────────────────────────────────────────────
+  {
+    id: 'sper',
+    slug: 'sper-kanca-uzun',
+    slugEN: 'super-hook-blade-long',
+    code: 'SÜPER',
+    name: 'SÜPER KANCA – UZUN',
+    subtitle: 'Uzun Boy Süper Kanca Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hook-blades',
+    tags: ['süper kanca', 'uzun kanca', 'super hook', '55mm kanca'],
+
+    shortDescription: 'Süper Kanca uzun model. 55×19×0.6mm, 2 çentik, 4 delik. Standart kanca bıçaktan daha büyük gövde. Kalın ambalaj, halat ve sert Film kesimi için.',
+
+    longDescription: `<p>Süper Kanca – Uzun, standart B208 kanca bıçağın daha büyük ve güçlü versiyonudur. 55×19×0.6mm boyutları ile daha geniş bir kesim hattı sunar. 4 delikli konfigürasyon sayesinde farklı tutucu sistemlerine uyum sağlar.</p>
+<p>Kalın ambalaj malzemeleri, halat, sert filmler ve endüstriyel bantların kesilmesinde standart kancadan daha verimli performans gösterir. Uzun gövde yapısı ile operatöre daha fazla kontrol sağlar.</p>
+<p><strong>Öne çıkan özellik:</strong> 4 delikli montaj sistemi, farklı kanca bıçak tutucularına maksimum uyum. Yüksek karbon çelik ile uzun ömürlü keskinlik.</p>`,
+
+    images: {
+      main: { src: '/images/products/sper-kanca-uzun.jpg', alt: 'Süper Kanca Uzun Hook Blade', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/sper-kanca-uzun.jpg', alt: 'Süper Kanca', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.6mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '55×19 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Süper Kanca – Uzun', icon: 'Anchor' },
+      { label: 'notches', value: '2', icon: 'Minus' },
+      { label: 'holes', value: '4', icon: 'Circle' },
+      { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kalın Ambalaj', icon: 'Package', description: 'Kalın karton ve ambalaj malzemeleri kesimi' },
+      { title: 'Halat & Kayış', icon: 'Link', description: 'Sentetik ve doğal halat, kayış kesimi' },
+      { title: 'Sert Film', icon: 'Film', description: 'Kalın film ve örtü malzemeleri' },
+      { title: 'Endüstriyel Bant', icon: 'Tape', description: 'Endüstriyel yapışkan bant sıyırma' },
+    ],
+
+    benefits: [
+      { title: 'Uzun Gövde', description: '55mm boy: standart kancadan daha geniş kesim hattı ve daha fazla kontrol.', icon: 'Maximize' },
+      { title: '4 Delikli Montaj', description: 'Farklı tutucu sistemlerine maksimum uyum.', icon: 'Settings' },
+      { title: 'Ağır Hizmet', description: 'Kalın ve sert malzemeler için güçlü kesim.', icon: 'Shield' },
+    ],
+
+    features: [
+      '55×19×0.6mm — standarttan büyük gövde',
+      '4 delikli montaj sistemi',
+      'Kalın malzeme kesimi için optimize',
+      'Yüksek karbon çelik',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b208', 'b209', 'yuvarlatilmi', 'if'],
+
+    seo: {
+      title: 'Süper Kanca Uzun Bıçak 55×19mm | Long Hook Blade | Alya Bıçak',
+      description: 'Süper Kanca uzun model kanca bıçak. 55×19×0.6mm, 4 delik, yüksek karbon çelik. Kalın ambalaj, halat, sert film kesimi. Türkiye distribütörü.',
+      keywords: ['süper kanca bıçak', 'uzun kanca', 'long hook blade', '55mm kanca', 'kalın ambalaj bıçağı', 'halat kesim bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 303,
+  },
+
+  // ─── YUVARLATILMIŞ UÇLU KANCA ──────────────────────────────────────────────
+  {
+    id: 'yuvarlatilmi',
+    slug: 'yuvarlatilmi-uclu-kanca',
+    slugEN: 'rounded-tip-hook-blade',
+    code: 'B208 ROUNDED',
+    name: 'YUVARLATILMIŞ UÇLU KANCA',
+    subtitle: 'Güvenli Yuvarlatılmış Uçlu Kanca Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hook-blades',
+    tags: ['yuvarlatılmış uç', 'güvenli kanca', 'rounded tip', 'safety hook blade'],
+
+    shortDescription: 'Yuvarlatılmış uçlu kanca bıçak. 52×19×0.6mm, 2 çentik, 3 delik. Sivri uç yerine yuvarlatılmış uç: alt malzemeye zarar verme riski minimum. Güvenlik öncelikli kesim.',
+
+    longDescription: `<p>Yuvarlatılmış uçlu kanca bıçak, B208 standart modelin güvenlik odaklı versiyonudur. Sivri uç yerine yuvarlatılmış uç profiline sahiptir; bu sayede kesim sırasında alt katmana veya ürüne zarar verme riski minimuma iner.</p>
+<p>52×19×0.6mm boyutlarında, 2 çentik ve 3 delik konfigürasyonu ile üretilir. Depo, lojistik ve perakende ortamlarında ürün hasarı riski olmadan güvenli ambalaj açma operasyonları için idealdir.</p>
+<p><strong>Güvenlik avantajı:</strong> Yuvarlatılmış uç, operatörün yanlışlıkla alt malzemeyi çizmesini veya delmesini önler. Özellikle değerli ürünlerin ambalaj açma işlemlerinde tercih edilir.</p>`,
+
+    images: {
+      main: { src: '/images/products/yuvarlatilmi-uclu-kanca.jpg', alt: 'Yuvarlatılmış Uçlu Kanca Bıçak', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/yuvarlatilmi-uclu-kanca.jpg', alt: 'Yuvarlatılmış Kanca', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.6mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '52×19 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Kanca – Yuvarlatılmış Uçlu', icon: 'Anchor' },
+      { label: 'notches', value: '2', icon: 'Minus' },
+      { label: 'holes', value: '3', icon: 'Circle' },
+      { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Güvenli Ambalaj Açma', icon: 'ShieldCheck', description: 'Ürüne zarar vermeden ambalaj açma' },
+      { title: 'Perakende', icon: 'Store', description: 'Mağaza içi ürün açma operasyonları' },
+      { title: 'Depo Güvenliği', icon: 'Warehouse', description: 'Depo ortamında güvenli kesim' },
+      { title: 'Hassas Ürünler', icon: 'Diamond', description: 'Değerli ürünlerin ambalajını açma' },
+    ],
+
+    benefits: [
+      { title: 'Yuvarlatılmış Uç', description: 'Alt malzemeye zarar verme riski minimum: güvenlik öncelikli tasarım.', icon: 'ShieldCheck' },
+      { title: 'Ürün Koruma', description: 'Değerli ürünlerin ambalajını çizmeden, delmeden açar.', icon: 'Diamond' },
+      { title: 'Operatör Güvenliği', description: 'Yuvarlatılmış uç ile kaza riski azaltılır.', icon: 'Heart' },
+    ],
+
+    features: [
+      'Yuvarlatılmış uç tasarımı — güvenlik öncelikli',
+      'Alt malzemeye zarar verme riski minimum',
+      '52×19×0.6mm standart kanca boyutu',
+      '2 çentik, 3 delik konfigürasyonu',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b208', 'sper', 'b209', 'kanca'],
+
+    seo: {
+      title: 'Yuvarlatılmış Uçlu Kanca Bıçak 52×19mm | Rounded Hook Blade | Alya Bıçak',
+      description: 'Yuvarlatılmış uçlu kanca bıçak. 52×19×0.6mm, güvenli ambalaj açma. Alt malzemeye zarar vermez. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['yuvarlatılmış uçlu kanca', 'rounded tip hook blade', 'güvenli kanca bıçak', 'safety hook blade', 'ambalaj açma bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 304,
+  },
+
+  // ─── IF – KANCA (TEKSTİL) ──────────────────────────────────────────────────
+  {
+    id: 'if',
+    slug: 'if-kanca-tekstil',
+    slugEN: 'if-textile-hook-blade',
+    code: 'IF',
+    name: 'IF – KANCA (TEKSTİL)',
+    subtitle: 'IF Serisi Tekstil Kanca Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hook-blades',
+    tags: ['IF kanca', 'tekstil kanca', 'kumaş kesim', 'IF hook blade'],
+
+    shortDescription: 'IF serisi tekstil kanca bıçak. IF-1: 80×13×0.71mm tek taraflı, IF-2: 87×10×0.71mm çift taraflı, IF-2R: çift taraflı yuvarlak delikli. Kumaş ve tekstil endüstrisi için özel tasarım.',
+
+    longDescription: `<p>IF serisi kanca bıçaklar, tekstil endüstrisi için özel olarak geliştirilmiş profesyonel kesici bıçaklardır. Standart kanca bıçaklardan farklı olarak daha ince ve uzun profille tasarlanmıştır; bu sayede kumaş ve tekstil malzemelerde hassas ve temiz kesim sağlar.</p>
+<p><strong>Varyantlar:</strong></p>
+<ul>
+<li><strong>IF-1 (Tek Taraflı):</strong> 80×13×0.71mm, 1 oval + 1 yuvarlak delik. Tek kenardan kesim yapan model.</li>
+<li><strong>IF-2 (Çift Taraflı):</strong> 87×10×0.71mm, 1 oval + 1 delik. Çift kenardan kesim yapabilen çift taraflı model.</li>
+<li><strong>IF-2R (Çift Taraflı, Yuvarlak Delik):</strong> 87×10×0.71mm, 2 yuvarlak delik. Alternatif montaj konfigürasyonu.</li>
+</ul>
+<p>Tekstil fabrikaları, konfeksiyon atölyeleri ve kumaş depoları için standart kesim bıçağıdır.</p>`,
+
+    images: {
+      main: { src: '/images/products/if-kanca-tekstil.jpg', alt: 'IF Kanca Tekstil Bıçak', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/if-kanca-tekstil.jpg', alt: 'IF Kanca', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.71mm', icon: 'Ruler' },
+      { label: 'dimensions', value: 'IF-1: 80×13mm / IF-2: 87×10mm', icon: 'Maximize' },
+      { label: 'form', value: 'Kanca – IF Profil (Tekstil)', icon: 'Anchor' },
+      { label: 'edge', value: 'IF-1: Tek Taraflı / IF-2: Çift Taraflı', icon: 'Scissors' },
+      { label: 'holes', value: 'IF-1: 1 oval+1 yuvarlak / IF-2R: 2 yuvarlak', icon: 'Circle' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kumaş Kesimi', icon: 'Scissors', description: 'Tekstil ve kumaş toplarının kesilmesi' },
+      { title: 'Konfeksiyon', icon: 'Shirt', description: 'Konfeksiyon üretiminde kesim' },
+      { title: 'Balya Açma', icon: 'Package', description: 'Tekstil balyalarının açılması' },
+      { title: 'İplik & Elyaf', icon: 'Wind', description: 'İplik ve elyaf kesimi' },
+    ],
+
+    benefits: [
+      { title: '3 Varyant', description: 'IF-1, IF-2, IF-2R: tek taraflı ve çift taraflı seçenekler.', icon: 'Layers' },
+      { title: 'Tekstile Özel', description: 'Uzun ve ince profil: kumaş yırtmadan hassas kesim.', icon: 'Target' },
+      { title: '0.71mm Kalınlık', description: 'Standart 0.6mm\'den daha kalın: kumaş kesiminde esneme yapmaz.', icon: 'Shield' },
+    ],
+
+    features: [
+      'IF-1: 80×13×0.71mm — tek taraflı',
+      'IF-2: 87×10×0.71mm — çift taraflı',
+      'IF-2R: 87×10×0.71mm — çift taraflı, yuvarlak delik',
+      '0.71mm kalınlık — kumaş kesiminde esneme yapmaz',
+      'Tekstil endüstrisi için özel profil',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: [
+      'IF-1: 80×13×0.71mm — Tek Taraflı, 1 Oval + 1 Yuvarlak Delik',
+      'IF-2: 87×10×0.71mm — Çift Taraflı, 1 Oval + 1 Delik',
+      'IF-2R: 87×10×0.71mm — Çift Taraflı, 2 Yuvarlak Delik',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b208-tekstil', 'b208', 'b209', 'sper'],
+
+    seo: {
+      title: 'IF Kanca Bıçak Tekstil IF-1 IF-2 | Textile Hook Blade | Alya Bıçak',
+      description: 'IF serisi tekstil kanca bıçak. IF-1: 80×13mm tek taraflı, IF-2: 87×10mm çift taraflı. Kumaş ve tekstil kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['IF kanca bıçak', 'tekstil kanca', 'kumaş kesim bıçağı', 'IF-1 blade', 'IF-2 blade', 'textile hook blade', 'konfeksiyon bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 305,
+  },
+
+  // ─── B209 TEK TARAFLI KANCA ────────────────────────────────────────────────
+  {
+    id: 'b209',
+    slug: 'b209-tek-tarafli-kanca',
+    slugEN: 'b209-single-sided-hook-blade',
+    code: 'B209',
+    name: 'B209 – TEK TARAFLI KANCA',
+    subtitle: 'Tek Taraflı Kanca Bıçak (One Side Hook)',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hook-blades',
+    tags: ['tek taraflı kanca', 'B209', 'one side hook', 'single sided hook blade'],
+
+    shortDescription: 'B209 tek taraflı kanca bıçak. 59×19×0.6mm, 2 çentik, 3 delik. Karbon çelik, TiN kaplama ve paslanmaz varyantları. Kontrollü yönde kesim için tek taraflı kenar.',
+
+    longDescription: `<p>B209 tek taraflı kanca bıçak, sadece bir kenardan kesim yapan özel tasarıma sahiptir. Bu tek taraflı yapı sayesinde kesim yönü tamamen kontrol altına alınır ve istenmeyen yönde kesme riski ortadan kalkar.</p>
+<p>59×19×0.6mm boyutlarında, 2 çentik ve 3 delik konfigürasyonu ile üretilir. Karbon çelik (standart), TiN kaplama (aşınma direnci) ve paslanmaz çelik (korozyon direnci) varyantları mevcuttur.</p>
+<p><strong>Avantaj:</strong> Tek taraflı kenar, operatörün kesim yönünü tam kontrol etmesini sağlar. Özellikle hassas ambalaj açma operasyonlarında alt ürüne zarar vermeden tek yönlü kesim yapılabilir.</p>`,
+
+    images: {
+      main: { src: '/images/products/b209-tek-tarafli-kanca.jpg', alt: 'B209 Tek Taraflı Kanca Bıçak', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b209-tek-tarafli-kanca.jpg', alt: 'B209 Kanca', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik / TiN Kaplama / Paslanmaz', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.6mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '59×19 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Kanca – Tek Taraflı (One Side)', icon: 'Anchor' },
+      { label: 'notches', value: '2', icon: 'Minus' },
+      { label: 'holes', value: '3', icon: 'Circle' },
+      { label: 'edge', value: 'Tek taraflı', icon: 'Scissors' },
+      { label: 'packaging', value: '5, 10, 100 adet', icon: 'Package' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kontrollü Kesim', icon: 'Target', description: 'Tek yönde kontrollü ve güvenli kesim' },
+      { title: 'Hassas Ambalaj', icon: 'Package', description: 'Ürüne zarar vermeden ambalaj açma' },
+      { title: 'Film Sıyırma', icon: 'Film', description: 'Yapışkan film ve bant sıyırma' },
+      { title: 'Endüstriyel', icon: 'Factory', description: 'Üretim hattında tek yönlü kesim' },
+    ],
+
+    benefits: [
+      { title: 'Tek Taraflı Kenar', description: 'Kesim yönü tam kontrol altında: istenmeyen yönde kesme riski yok.', icon: 'Target' },
+      { title: '3 Malzeme Seçeneği', description: 'Karbon, TiN kaplama, paslanmaz: uygulamaya göre seçim.', icon: 'Layers' },
+      { title: 'Geniş Gövde', description: '59mm uzunluk: standart B208\'den daha geniş kesim hattı.', icon: 'Maximize' },
+    ],
+
+    features: [
+      'Tek taraflı kenar — kontrollü kesim yönü',
+      '59×19×0.6mm boyut',
+      'Karbon çelik, TiN kaplama, paslanmaz çelik varyantları',
+      '2 çentik, 3 delik konfigürasyonu',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: [
+      '59×19×0.6mm — 2Ç-3D, Sil Jelatin, Karbon, 5li Cellowrap, 100lü Kutu',
+      '59×19×0.6mm — 2Ç-3D, TiN, Sil Jelatinde, 100lü Kutu',
+      '59×19×0.6mm — 2Ç-3D, TiN, 10lu Dispenser',
+      '59×19×0.6mm — 2Ç, Sil Jelatin, Karbon, 5li Cellowrap',
+      '59×19×0.6mm — 2Ç-3D, TiN, Serbest, 350li Kutu',
+      '59×19×0.6mm — 2Ç-3D, Paslanmaz, 5li Cellowrap, 100lü Kutu',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b208', 'sper', 'yuvarlatilmi', 'kanca'],
+
+    seo: {
+      title: 'B209 Tek Taraflı Kanca Bıçak 59×19mm | One Side Hook Blade | Alya Bıçak',
+      description: 'B209 tek taraflı kanca bıçak. 59×19×0.6mm, karbon/TiN/paslanmaz. Kontrollü yönde kesim, güvenli ambalaj açma. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['tek taraflı kanca', 'B209', 'one side hook blade', 'single sided hook', 'kontrollü kesim bıçağı', 'paslanmaz kanca bıçak'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 306,
+  },
+
+  // ─── KANCA HOB-1 ───────────────────────────────────────────────────────────
+  {
+    id: 'kanca',
+    slug: 'kanca-hob-1',
+    slugEN: 'hook-blade-hob-1',
+    code: 'HOB-1',
+    name: 'KANCA HOB-1',
+    subtitle: 'HOB-1 Serisi Büyük Boy Kanca Bıçak',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hook-blades',
+    tags: ['kanca HOB-1', 'büyük kanca', 'HOB-1 hook blade', '90mm kanca'],
+
+    shortDescription: 'KANCA HOB-1 büyük boy kanca bıçak. 90×39.5/20×0.80mm, 1 delik. Büyük gövde ve kalın profil ile ağır hizmet textile ve endüstriyel ambalaj uygulamaları.',
+
+    longDescription: `<p>KANCA HOB-1, standart kanca bıçak serisinin en büyük ve en kalın modelidir. 90×39.5/20×0.80mm boyutları ile diğer kanca bıçaklardan belirgin şekilde ayrılır. Büyük gövde yapısı sayesinde daha derin ve güçlü kesim yapılabilir.</p>
+<p>0.80mm kalınlık ile standart 0.6mm kanca bıçaklardan daha sert ve dayanıklıdır. 1 delikli basit montaj konfigürasyonu, hızlı bıçak değişimini mümkün kılar.</p>
+<p><strong>Kullanım alanları:</strong> Ağır hizmet tekstil kesimi, kalın halat ve kayış kesimi, büyük balya açma ve endüstriyel ambalaj operasyonları. Büyük gövde ile operatöre maksimum kontrol sağlar.</p>`,
+
+    images: {
+      main: { src: '/images/products/kanca-hob-1.jpg', alt: 'Kanca HOB-1 Büyük Boy Hook Blade', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/kanca-hob-1.jpg', alt: 'HOB-1 Kanca', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'thickness', value: '0.80mm', icon: 'Ruler' },
+      { label: 'dimensions', value: '90×39.5/20 mm', icon: 'Maximize' },
+      { label: 'form', value: 'Kanca – HOB-1 Büyük Boy', icon: 'Anchor' },
+      { label: 'holes', value: '1', icon: 'Circle' },
+      { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Ağır Hizmet Tekstil', icon: 'Scissors', description: 'Kalın tekstil ve kumaş kesimi' },
+      { title: 'Balya Açma', icon: 'Package', description: 'Büyük balyaların açılması' },
+      { title: 'Halat & Kayış', icon: 'Link', description: 'Kalın halat ve kayış kesimi' },
+      { title: 'Endüstriyel', icon: 'Factory', description: 'Ağır endüstriyel kesim operasyonları' },
+    ],
+
+    benefits: [
+      { title: 'En Büyük Gövde', description: '90mm boy: kanca bıçak ailesinin en büyük modeli.', icon: 'Maximize' },
+      { title: '0.80mm Kalınlık', description: 'Standart 0.6mm\'den kalın: ağır hizmet dayanıklılığı.', icon: 'Shield' },
+      { title: 'Hızlı Değişim', description: '1 delikli basit montaj: hızlı bıçak değişimi.', icon: 'Zap' },
+    ],
+
+    features: [
+      '90×39.5/20×0.80mm — ailenin en büyük modeli',
+      '0.80mm kalınlık — ağır hizmet',
+      '1 delikli basit montaj',
+      'Büyük gövde ile maksimum kontrol',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b208', 'sper', 'b209', 'yuvarlatilmi'],
+
+    seo: {
+      title: 'Kanca HOB-1 Büyük Boy Bıçak 90×39.5mm | Large Hook Blade | Alya Bıçak',
+      description: 'Kanca HOB-1 büyük boy kanca bıçak. 90×39.5/20×0.80mm, ağır hizmet. Tekstil, balya açma, halat kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['kanca HOB-1', 'büyük kanca bıçak', 'large hook blade', '90mm kanca', 'ağır hizmet kanca', 'HOB-1 hook blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 307,
+  },
 ];
 
 // =============================================================================

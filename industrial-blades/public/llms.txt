@@ -118,6 +118,13 @@ Surface coatings available:
 - B213: Compact Trapezoid Blade, 61×12.5×0.63mm, narrow space & electronics, detail cutting — Sheffield Steel. SKU: B213.
 - B218: Special Medium Trapezoid Blade, 71×17×0.63mm, 1×6mm hole, industrial machine & automation — Sheffield Steel. SKU: B218.
 - B214: Micro Trapezoid Blade, 27.6×9×0.43mm, 3×3.5mm holes, electronics, model making, laboratory, medical — Sheffield Steel. SKU: B214.
+- B208: Pointed Tip Hook Blade (Standard), 49-52×19×0.6mm, 2-3 notches, 2-5 holes, carbon/high carbon/TiN, HRC 58-62 — Sheffield Durham Duplex. Packaging, film, tape cutting. SKU: B208.
+- B208-TEXTILE: Broad Tip Hook Blade (Textile), 52×19×0.6mm, broad arms profile, DD 1% carbon steel, HRC 58-62 — Sheffield Durham Duplex. Textile & fabric cutting. SKU: B208 TEXTILE.
+- SUPER: Super Hook Blade Long, 55×19×0.6mm, 2 notches, 4 holes, high carbon steel — Sheffield Durham Duplex. Heavy packaging, rope, tough film cutting. SKU: SÜPER.
+- ROUNDED: Rounded Tip Hook Blade, 52×19×0.6mm, 2 notches, 3 holes, safety-first rounded tip — Sheffield Durham Duplex. Safe package opening, valuable product handling. SKU: YUVARLATILMIŞ.
+- IF: IF Hook Blade (Textile), IF-1: 80×13×0.71mm single-sided, IF-2: 87×10×0.71mm double-sided, IF-2R: 87×10×0.71mm round holes — Sheffield Durham Duplex. Fabric, garment, textile cutting. SKU: IF.
+- B209: Single-Sided Hook Blade, 59×19×0.6mm, 2 notches, 3 holes, carbon/TiN/stainless variants — Sheffield Durham Duplex. Controlled directional cutting. SKU: B209.
+- HOB-1: Large Hook Blade HOB-1, 90×39.5/20×0.80mm, 1 hole, largest & thickest hook blade — Sheffield Durham Duplex. Heavy textile, bale opening, industrial. SKU: KANCA.
 - VPB-001: Vacuum Packaging Blade (General Reference), Sheffield Steel, HRC 58-60, Ra ≤0.4 µm food-grade surface, Multivac/Tiromat/GEA/Ulma/Sealpac/Webomatic compatible
 - KONTÖR: Contour Blade, Sheffield Steel, HRC 58-62, TiN PVD option (2300 HV), profile-following thermoform cut, Multivac R-series/Tiromat 3000/GEA PowerPak compatible
 - YARIM-YILDIZ: Half Star Punch, D2 Tool Steel (DIN 1.2379), HRC 58-60, triangular vent pattern, TiN PVD option
