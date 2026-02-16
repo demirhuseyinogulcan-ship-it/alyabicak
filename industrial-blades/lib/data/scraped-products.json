@@ -1758,7 +1758,7 @@
     "isFeatured": true,
     "isActive": true,
     "order": 109,
-    "slugEN": "b207-trapezoid-heavy-duty"
+    "slugEN": "b207-heavy-duty-trapezoid-blade"
   },
   {
     "id": "b206",
@@ -1857,7 +1857,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 112,
-    "slugEN": "trapezoid-custom-design"
+    "slugEN": "custom-design-trapezoid-blade"
   },
   {
     "id": "b213",
@@ -1894,7 +1894,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 113,
-    "slugEN": "b213-compact-trapezoid"
+    "slugEN": "b213-compact-trapezoid-blade"
   },
   {
     "id": "b218",
@@ -1931,7 +1931,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 114,
-    "slugEN": "b218-special-medium-trapezoid"
+    "slugEN": "b218-medium-special-trapezoid-blade"
   },
   {
     "id": "b214",
@@ -1969,7 +1969,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 115,
-    "slugEN": "b214-micro-trapezoid"
+    "slugEN": "b214-micro-trapezoid-blade"
   },
   {
     "id": "b208",
@@ -2563,7 +2563,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 130,
-    "slugEN": "b207-l-long-trapezoid"
+    "slugEN": "b207-l-long-trapezoid-blade"
   },
   {
     "id": "b226",
@@ -3399,7 +3399,7 @@
     "isFeatured": false,
     "isActive": true,
     "order": 156,
-    "slugEN": "b207-xxl-extra-long-trapezoid"
+    "slugEN": "b207-xxl-extra-long-trapezoid-blade"
   },
   {
     "id": "h006-001-x01",
