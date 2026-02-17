@@ -69,7 +69,7 @@ export default function BestSellers() {
               {displayProducts.map((product) => (
                 <div
                   key={product.id}
-                  className="group bg-white border border-steel-200 rounded-xl overflow-hidden hover:border-primary-200 hover:shadow-card transition-all duration-300 w-80 flex-shrink-0"
+                  className="group bg-white border border-steel-200 rounded-xl overflow-hidden hover:border-primary-200 hover:shadow-card transition-all duration-300 w-80 flex-shrink-0 flex flex-col"
                 >
                   {/* Image Container - 4:3 aspect ratio */}
                   <div className="relative aspect-[4/3] bg-white overflow-hidden">
@@ -99,10 +99,10 @@ export default function BestSellers() {
                     </div>
                   </div>
 
-                  {/* Content */}
-                  <div className="p-5">
+                  {/* Content — flex-1 ile esner, buton her zaman en altta */}
+                  <div className="p-5 flex flex-col flex-1">
                     {/* Category */}
-                    <div className="text-xs text-primary-600 font-semibold mb-2 uppercase tracking-wide">
+                    <div className="text-xs text-primary-600 font-semibold mb-2 uppercase tracking-wide line-clamp-1">
                       {product.categoryName}
                     </div>
 
@@ -111,19 +111,24 @@ export default function BestSellers() {
                       {product.code}
                     </div>
 
-                    {/* Title */}
+                    {/* Title — sabit 2 satır */}
                     <Link href={`/${locale}/products/${product.slug}`}>
-                      <h3 className="text-base font-semibold text-steel-900 mb-3 line-clamp-2 group-hover:text-primary-600 transition-colors">
+                      <h3 className="text-base font-semibold text-steel-900 mb-3 line-clamp-2 min-h-[3rem] group-hover:text-primary-600 transition-colors">
                         {product.name}
                       </h3>
                     </Link>
 
-                    {/* Variants */}
-                    {product.hasVariants && (
-                      <div className="flex items-center gap-2 mb-4 text-sm text-steel-600">
-                        <span>{product.variantCount} {t.variantOptions}</span>
-                      </div>
-                    )}
+                    {/* Variants — sabit yükseklik (olsun olmasın) */}
+                    <div className="h-6 mb-2">
+                      {product.hasVariants && (
+                        <div className="flex items-center gap-2 text-sm text-steel-600">
+                          <span>{product.variantCount} {t.variantOptions}</span>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Spacer — kalan boşluğu doldurur */}
+                    <div className="flex-1" />
 
                     {/* Stock Status */}
                     <div className="flex items-center gap-2 mb-4">
@@ -133,7 +138,7 @@ export default function BestSellers() {
                       </span>
                     </div>
 
-                    {/* CTA Button */}
+                    {/* CTA Button — her zaman en altta */}
                     <Link
                       href={`/${locale}/products/${product.slug}`}
                       className="w-full px-4 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
