@@ -126,11 +126,13 @@ export function middleware(request: NextRequest) {
   if (pathnameHasLocale) {
     // === CROSS-DOMAIN GUARD: Locale yanlış domain'deyse 301 redirect ===
     // TR sadece alyabicak.com'da, diğerleri sadece alyablade.com'da yaşamalı
+    // localhost'ta cross-domain redirect yapma (development ortamı)
     const hostname = request.headers.get('host') || '';
+    const isLocalhost = hostname.includes('localhost') || hostname.includes('127.0.0.1');
     const urlLocale = pathname.match(/^\/([a-z]{2})(?:\/|$)/)?.[1];
     const isTurkishDomain = hostname.includes('alyabicak.com');
 
-    if (urlLocale) {
+    if (urlLocale && !isLocalhost) {
       const localeBelongsOnTR = urlLocale === 'tr';
       if (isTurkishDomain && !localeBelongsOnTR) {
         // alyabicak.com/en/... → 301 → alyablade.com/en/...

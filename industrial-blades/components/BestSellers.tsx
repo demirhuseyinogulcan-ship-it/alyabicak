@@ -32,10 +32,10 @@ export default function BestSellers() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-2">
+          <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-4">
             {t.title}
           </h2>
-          <p className="text-steel-600 max-w-2xl mx-auto">
+          <p className="text-base text-steel-600 leading-relaxed max-w-2xl mx-auto">
             {t.subtitle}
           </p>
         </div>
@@ -71,8 +71,8 @@ export default function BestSellers() {
                   key={product.id}
                   className="group bg-white border border-steel-200 rounded-xl overflow-hidden hover:border-primary-200 hover:shadow-card transition-all duration-300 w-80 flex-shrink-0"
                 >
-                  {/* Image Container - 16:9 aspect ratio, Lutz tarzı tam oturan görsel */}
-                  <div className="relative aspect-video bg-white overflow-hidden">
+                  {/* Image Container - 4:3 aspect ratio */}
+                  <div className="relative aspect-[4/3] bg-white overflow-hidden">
                     {product.image ? (
                       <Image
                         src={product.image}
@@ -136,7 +136,7 @@ export default function BestSellers() {
                     {/* CTA Button */}
                     <Link
                       href={`/${locale}/products/${product.slug}`}
-                      className="w-full px-4 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
+                      className="w-full px-4 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
                     >
                       {t.viewDetails}
                       <ArrowRight className="w-4 h-4" />
@@ -152,7 +152,7 @@ export default function BestSellers() {
         <div className="text-center mt-12">
           <Link
             href={`/${locale}/categories`}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-steel-900 hover:bg-primary-600 text-white font-semibold rounded-lg transition-all hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-steel-900 hover:bg-steel-800 text-white font-medium rounded-lg transition-all hover:shadow-lg"
           >
             {t.viewAllCategories}
             <ArrowRight className="w-5 h-5" />

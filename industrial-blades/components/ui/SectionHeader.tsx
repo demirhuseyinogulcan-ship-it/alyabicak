@@ -29,9 +29,9 @@ const titleSizes = {
 }
 
 const subtitleSizes = {
-  sm: 'text-base',
-  md: 'text-lg',
-  lg: 'text-xl',
+  sm: 'text-sm',
+  md: 'text-base',
+  lg: 'text-base',
 }
 
 export default function SectionHeader({
@@ -52,18 +52,18 @@ export default function SectionHeader({
         </span>
       )}
       
+      <h2 className={`font-medium text-steel-900 mb-4 ${titleSizes[size]}`}>
+        {title}
+      </h2>
+      
       {subtitle && (
-        <p className={`text-primary-600 font-medium mb-2 line-clamp-2 ${subtitleSizes[size]}`}>
+        <p className={`text-steel-600 leading-relaxed ${subtitleSizes[size]} max-w-2xl ${align === 'center' ? 'mx-auto' : ''}`}>
           {subtitle}
         </p>
       )}
       
-      <h2 className={`font-bold text-steel-900 mb-4 ${titleSizes[size]}`}>
-        {title}
-      </h2>
-      
       {description && (
-        <p className={`text-steel-600 ${subtitleSizes[size]} max-w-2xl ${align === 'center' ? 'mx-auto' : ''}`}>
+        <p className={`text-steel-600 leading-relaxed ${subtitleSizes[size]} max-w-2xl ${align === 'center' ? 'mx-auto' : ''}`}>
           {description}
         </p>
       )}

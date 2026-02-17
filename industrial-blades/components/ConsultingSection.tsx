@@ -43,10 +43,6 @@ export default function ConsultingSection() {
 
           {/* Right: Content */}
           <div className="order-1 lg:order-2">
-            <Badge variant="primary" size="md" rounded="full" className="mb-6">
-              {t.badge}
-            </Badge>
-            
             <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-4">
               {t.title}
             </h2>

@@ -96,7 +96,7 @@ export default function SheffieldSection() {
 
             <Link
               href={`/${locale}/quality-standards`}
-              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all hover:scale-105"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-all hover:shadow-lg"
             >
               <span>{t.moreInfo}</span>
               <ArrowRight className="w-5 h-5" />

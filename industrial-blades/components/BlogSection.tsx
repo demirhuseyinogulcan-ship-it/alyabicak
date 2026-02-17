@@ -43,7 +43,7 @@ export default function BlogSection({ locale = 'tr', translations, categoryLabel
       <div className="container mx-auto px-4">
         <SectionHeader
           title={t.title}
-          subtitle={t.subtitle}
+          description={t.subtitle}
           align="center"
         />
 
@@ -114,7 +114,7 @@ export default function BlogSection({ locale = 'tr', translations, categoryLabel
         <div className="text-center mt-12">
           <Link
             href={`/${locale}/newsletter`}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-steel-900 hover:bg-steel-800 text-white font-medium rounded-lg transition-colors"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-steel-900 hover:bg-steel-800 text-white font-medium rounded-lg transition-all hover:shadow-lg"
           >
             {t.viewAll}
             <ArrowRight className="w-4 h-4" />

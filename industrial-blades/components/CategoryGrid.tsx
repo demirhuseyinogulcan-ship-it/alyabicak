@@ -21,7 +21,6 @@ export default function CategoryGrid() {
         <SectionHeader
           title={t.title}
           description={t.subtitle}
-          size="lg"
         />
 
         {/* Category Grid */}
