@@ -49,6 +49,12 @@ export const productsEn: Record<string, ProductTranslation> = {
       '3-5x longer life than razor blades'
     ],
     applications: ['Textile cutting', 'Film and foil slitting', 'Paper cutting', 'Plastic slitting', 'Packaging cutting'],
+    benefits: [
+      { title: 'Cost-Effective Solution', description: 'Carbon steel delivers optimal performance-to-cost ratio for standard slitting applications.', icon: 'DollarSign' },
+      { title: 'Quick Mounting', description: 'Slotted central slot enables instant machine fitting without tools.', icon: 'Settings' },
+      { title: 'HRC 59-61 Hardness', description: 'Precision heat treatment achieves consistent, repeatable cut quality.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The SK5 (C85) high carbon steel slotted slitting blade is the standard workhorse of the industrial slitting blade family. Manufactured in the standard 57x19mm format, the central slotted slot ensures secure and rapid machine mounting.</p><h3>Technical Specifications</h3><ul><li>Material: SK5 / C85 high carbon steel (0.85-1.00% C)</li><li>Hardness: HRC 59-61</li><li>Standard dimensions: 57x19mm</li><li>Available thicknesses: 0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm</li><li>Edge angle: 22°</li></ul><h3>Applications</h3><p>Cost-effective standard solution for paper, cardboard, plastic film, packaging material, and textile slitting operations. Reliable performance in high-speed slotted slitting machines.</p>`,
     seo: {
       title: 'Slotted Slitting Blade Carbon Steel | Industrial Razor Blade 57x19mm',
       description: 'Premium carbon steel slotted slitting blade for BOPP film, flexible packaging, and industrial cutting. SK5 steel, 22° edge angle, 3-5x longer life. Sheffield quality.',
@@ -67,6 +73,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Ideal for heat-sensitive materials'
     ],
     applications: ['Adhesive tape cutting', 'Lamination slitting', 'Heat-sensitive film cutting', 'Precision foil slitting', 'Label cutting'],
+    benefits: [
+      { title: '3-5x Extended Lifespan', description: '2300 HV TiN coating delivers dramatic lifespan increase over standard carbon steel.', icon: 'Clock' },
+      { title: '40% Friction Reduction', description: 'TiN surface prevents adhesive buildup on sticky substrates.', icon: 'Zap' },
+      { title: 'Visual Wear Indicator', description: 'Golden coating provides easy visual inspection of coating condition.', icon: 'Eye' },
+    ],
     seo: {
       title: 'Slotted Blade TiN Titanium Coating | Gold Industrial Slitting Blade',
       description: 'TiN titanium coated slotted slitting blade with 2300 HV hardness. 40% lower friction, ideal for adhesive tape, lamination, and heat-sensitive film cutting.',
@@ -85,6 +96,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       '5-7x extended life'
     ],
     applications: ['Abrasive paper cutting', 'Fiberglass composite slitting', 'Carbon fiber cutting', 'Sandpaper slitting', 'Technical textile cutting'],
+    benefits: [
+      { title: '3200+ HV Hardness', description: 'Ceramic coating achieves 40% harder surface than TiN.', icon: 'Shield' },
+      { title: '800°C Heat Resistance', description: 'No performance loss in high-temperature environments.', icon: 'Flame' },
+      { title: 'Ultra Wear Resistance', description: 'Extraordinary lifespan on abrasive substrates.', icon: 'Clock' },
+    ],
     seo: {
       title: 'Slotted Blade Ceramic Coating | 3200 HV Ultra-Hard Slitting Blade',
       description: 'Ceramic coated slotted slitting blade with 3200 HV hardness. Ideal for abrasive materials, fiberglass, carbon fiber, and sandpaper cutting. 5-7x longer life.',
@@ -104,6 +120,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Suitable for humid environments'
     ],
     applications: ['Food packaging cutting', 'Humid environment applications', 'Hygienic production lines', 'Pharmaceutical packaging', 'Medical packaging cutting'],
+    benefits: [
+      { title: 'Corrosion Resistance', description: '13% chromium content eliminates rust in humid environments.', icon: 'Shield' },
+      { title: 'Food Grade', description: 'FDA approved for food industry slitting applications.', icon: 'Check' },
+      { title: 'Hygienic Surface', description: 'Easy-to-clean surface with low bacterial adhesion.', icon: 'Sparkles' },
+    ],
     seo: {
       title: 'Slotted Blade Stainless Steel | FDA Approved Food Industry Blade',
       description: 'Stainless steel slotted slitting blade, AISI 420, FDA approved. Corrosion resistant, ideal for food packaging, pharmaceutical, and humid environment applications.',
@@ -123,6 +144,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Ideal for demanding environments'
     ],
     applications: ['Food lamination cutting', 'Pharmaceutical blister packaging slitting', 'Humid adhesive tape cutting', 'Sterile packaging production', 'Medical foil slitting'],
+    benefits: [
+      { title: 'Dual Protection', description: 'Stainless substrate + TiN coating delivers both corrosion and wear resistance.', icon: 'Shield' },
+      { title: 'Anti-Adhesion', description: 'TiN coating prevents adhesive material buildup on the cutting edge.', icon: 'Zap' },
+      { title: 'Premium Performance', description: 'Top-tier durability for demanding environments.', icon: 'Award' },
+    ],
     seo: {
       title: 'Slotted Blade Stainless + Titanium | Dual Protection Industrial Blade',
       description: 'Stainless steel + TiN titanium coated slotted blade. Dual protection against corrosion and wear. Ideal for food lamination, pharmaceutical blister, and medical foil applications.',
@@ -142,6 +168,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'For the most demanding applications'
     ],
     applications: ['Ultra-adhesive tape cutting', 'Silicone-coated material slitting', 'Adhesive label cutting', 'Resin-impregnated fabric slitting', 'Medical adhesive tapes'],
+    benefits: [
+      { title: '5000 HV Ultra Hardness', description: '2x harder than TiN, 1.5x harder than ceramic coating.', icon: 'Diamond' },
+      { title: '60% Friction Reduction', description: 'Near-zero adhesion even on the stickiest substrates.', icon: 'Zap' },
+      { title: 'Maximum Lifespan', description: 'Longest service life among all coating options.', icon: 'Clock' },
+    ],
     seo: {
       title: 'Slotted Blade XCD Diamond Coating | 5000 HV Non-Stick Blade',
       description: 'XCD diamond-like carbon coated slotted blade, 5000 HV hardness, <0.1 friction. Non-stick properties for ultra-adhesive tapes, silicone coatings, and medical adhesives.',
@@ -161,6 +192,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Longest life slotted blade'
     ],
     applications: ['High-speed slitting operations', 'Interrupted cutting applications', 'Metal foil slitting', 'Composite material cutting', '24/7 production lines'],
+    benefits: [
+      { title: 'HRC 64-66 Substrate', description: 'Endurium HSS substrate is 10% harder than standard carbon steel.', icon: 'Shield' },
+      { title: '600°C Resistance', description: 'Reliable performance in high-temperature environments.', icon: 'Flame' },
+      { title: 'Premium Cutting', description: 'Top-segment slotted blade for the most demanding applications.', icon: 'Award' },
+    ],
     seo: {
       title: 'Slotted Blade Endurium HSS Ceramic | 600°C High-Speed Blade',
       description: 'Endurium HSS + ceramic coated slotted blade. HRC 64-66 substrate, 3500 HV coating, 600°C resistance. For high-speed slitting, metal foil, and 24/7 production lines.',
@@ -180,6 +216,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'For extremely abrasive materials'
     ],
     applications: ['Ceramic-coated paper cutting', 'Metal foil slitting', 'Abrasive composite cutting', 'Carbon nanotube film slitting', 'Battery electrode material cutting'],
+    benefits: [
+      { title: '20-50x Extended Lifespan', description: 'Achieves hardness and lifespan steel blades can never match.', icon: 'Clock' },
+      { title: 'Monolithic Structure', description: 'No welding or brazing — powder metallurgy monolithic production.', icon: 'Box' },
+      { title: 'HRA 92-94 Ultra Hard', description: 'Cuts even the most abrasive materials with ease.', icon: 'Diamond' },
+    ],
     seo: {
       title: 'Slotted Blade Tungsten Carbide | HRA 92-94 Ultra-Hard Blade',
       description: 'Solid tungsten carbide slotted blade, HRA 92-94 hardness, 20-50x longer life. For ceramic paper, metal foil, battery electrode, and ultra-abrasive material cutting.',
@@ -199,6 +240,11 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Chemical inertness'
     ],
     applications: ['Food industry (metal detector passage)', 'Electronic component cutting', 'Battery separator film slitting', 'Medical sterile packaging', 'Cleanroom applications'],
+    benefits: [
+      { title: 'Zero Metal Contamination', description: 'Completely metal-free structure — ideal for food and electronics.', icon: 'Check' },
+      { title: 'Electrical Insulator', description: 'Safe cutting where electrical conductivity is undesired.', icon: 'Zap' },
+      { title: 'Biocompatible', description: 'Suitable material for medical and food-contact applications.', icon: 'Heart' },
+    ],
     seo: {
       title: 'Slotted Blade Zirconia Ceramic | Metal-Free Food Industry Blade',
       description: 'Solid zirconia ceramic slotted blade, metal-free, biocompatible. FDA compliant for food industry, metal detector safe, cleanroom and medical packaging applications.',
@@ -1161,6 +1207,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     description: 'Cast metal body hand knife meeting safety standards. Durable cast metal construction with ergonomic design.',
     features: ['Cast metal body', 'Ergonomic design', 'Long lasting'],
     applications: ['General cutting', 'Package opening', 'Cardboard cutting'],
+    seo: {
+      title: 'RETRO LIGHT KNIFE Cast Metal Safety Knife | Alya Blade',
+      description: 'RETRO LIGHT KNIFE cast metal hand knife. Durable die-cast body, ergonomic grip, Sheffield steel blade. Warehouse, logistics, production. Authorized distributor.',
+      keywords: ['retro light knife', 'cast metal knife', 'safety knife', 'industrial hand knife', 'Sheffield knife', 'warehouse knife'],
+    },
+    benefits: [
+      { title: 'Extended Lifespan', description: 'Sheffield steel blade delivers longer cutting performance than standard knives.', icon: 'Clock' },
+      { title: 'Safe Operation', description: 'Fixed tip design ensures controlled and safe cutting.', icon: 'Shield' },
+      { title: 'Ergonomic Grip', description: 'Die-cast handle prevents fatigue during extended use.', icon: 'Zap' },
+    ],
+    longDescription: `<p>The RETRO LIGHT KNIFE is a premium hand knife engineered for industrial use. Its die-cast metal body maintains durability even under intensive daily operation.</p><h3>Key Features</h3><ul><li>Sheffield steel cutting edge</li><li>Die-cast metal body for maximum durability</li><li>Ergonomic design prevents fatigue during extended use</li><li>Quick and safe blade change mechanism</li></ul><h3>Recommended Applications</h3><p>Ideal for warehouse, logistics, production line, and general cutting operations. Delivers high performance cutting cardboard, plastic film, packaging materials and similar substrates.</p>`,
   },
   'h008-001-a03': {
     name: 'AUTO RETRACT – Auto-Retractable Safety Knife',
@@ -1181,6 +1238,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     description: 'Industrial slitting blade with 3 mounting holes, 0.20mm thickness. Sheffield quality steel with titanium coating for extended durability.',
     features: ['3 mounting holes', '0.20mm thickness', 'Sheffield quality', 'Titanium coating'],
     applications: ['Film slitting', 'Paper cutting', 'Textile cutting', 'Industrial slitting'],
+    seo: {
+      title: '3-Hole Slitting Blade 0.20mm Titanium Coated | Alya Blade',
+      description: '3-hole slitting blade 0.20mm, TiN titanium coated. HRC 60-62, Sheffield steel. Film, paper, textile slitting. Authorized distributor.',
+      keywords: ['3-hole slitting blade', 'slitting blade 0.20mm', 'titanium coated blade', 'TiN slitting blade', 'industrial slitting', 'film slitting blade'],
+    },
+    benefits: [
+      { title: 'Titanium Coating', description: 'TiN coating delivers 3x longer lifespan than standard uncoated blades.', icon: 'Shield' },
+      { title: 'Precision Cut', description: 'HRC 60-62 hardness ensures clean, burr-free cut quality.', icon: 'Target' },
+      { title: 'Compatible Mounting', description: '3-hole standard mounting system for quick blade changeover.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The 3-Hole Slitting Blade is a high-performance cutting blade specifically engineered for industrial slitting machines. Titanium (TiN) coating provides extended lifespan and superior wear resistance.</p><h3>Technical Specifications</h3><ul><li>Sheffield steel substrate</li><li>TiN (Titanium Nitride) PVD coating</li><li>HRC 60-62 hardness</li><li>3-hole standard mounting system</li><li>Available thicknesses: 0.20mm, 0.25mm, 0.30mm</li></ul><h3>Applications</h3><p>Used for precision slitting of textile, paper, plastic film, packaging materials, and similar thin substrates. Delivers superior performance especially in high-speed slitting machines.</p>`,
   },
   'slotted-jilet-020': {
     name: 'Slotted Slitting Blade 0.20mm',

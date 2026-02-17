@@ -34,6 +34,26 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Durée de vie 3-5x supérieure aux lames de rasoir'
     ],
     applications: ['Découpe textile', 'Refendage de films et feuilles', 'Découpe de papier', 'Refendage de plastique', 'Découpe d\'emballage'],
+    benefits: [
+      { title: 'Solution Économique', description: 'Performances en acier carbone au meilleur rapport qualité-prix pour applications standard.', icon: 'DollarSign' },
+      { title: 'Montage Facile', description: 'Adaptation instantanée aux machines standard grâce à la fente centrale slotted.', icon: 'Settings' },
+      { title: 'Dureté HRC 59-61', description: 'Qualité de coupe constante grâce à un traitement thermique de précision.', icon: 'Shield' },
+    ],
+    longDescription: `
+      <p>Lame de dilme slotted fabriquée en acier à haute teneur en carbone SK5 (C85). Format standard 57x19mm avec fente centrale pour montage sécurisé sur machines.</p>
+
+      <h3>Caractéristiques Techniques</h3>
+      <ul>
+        <li>Matériau : Acier à haute teneur en carbone SK5 / C85 (0,85-1,00% C)</li>
+        <li>Dureté : HRC 59-61</li>
+        <li>Dimensions standard : 57x19mm</li>
+        <li>Épaisseurs disponibles : 0,25mm, 0,36mm, 0,38mm, 0,43mm, 0,63mm</li>
+        <li>Angle d'affûtage : 22°</li>
+      </ul>
+
+      <h3>Domaines d'Application</h3>
+      <p>Solution économique standard pour le refendage de papier, carton, film plastique, matériaux d'emballage et textiles. Performances fiables sur les machines de refendage slotted à haute vitesse.</p>
+    `,
     seo: {
       title: 'Lame Refendage à Fente Acier Carbone | Lame Industrielle 57x19mm',
       description: 'Lame de refendage à fente en acier carbone pour film BOPP, emballage flexible et découpe industrielle. Acier SK5, angle 22°, durée de vie 3-5x supérieure. Qualité Sheffield.',
@@ -53,6 +73,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Idéal pour matériaux sensibles à la chaleur'
     ],
     applications: ['Découpe de ruban adhésif', 'Refendage de lamination', 'Découpe de film sensible à la chaleur', 'Refendage de feuille de précision', 'Découpe d\'étiquettes'],
+    benefits: [
+      { title: 'Durée de vie 3-5x', description: 'Le revêtement TiN 2300 HV prolonge considérablement la durée de vie par rapport à l\'acier carbone standard.', icon: 'Clock' },
+      { title: '40% Moins de Friction', description: 'La surface TiN empêche l\'accumulation d\'adhésif sur les substrats collants.', icon: 'Zap' },
+      { title: 'Indicateur Visuel', description: 'Le revêtement doré permet un contrôle visuel facile de l\'état du revêtement.', icon: 'Eye' },
+    ],
     seo: {
       title: 'Lame à Fente Revêtement Titane TiN | Lame Dorée 2300 HV',
       description: 'Lame de refendage à fente avec revêtement titane TiN, dureté 2300 HV. 40% moins de friction, idéale pour ruban adhésif, lamination et films sensibles à la chaleur.',
@@ -72,6 +97,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Durée de vie prolongée de 5-7x'
     ],
     applications: ['Découpe de papier abrasif', 'Refendage de composite en fibre de verre', 'Découpe de fibre de carbone', 'Refendage de papier de verre', 'Découpe de textile technique'],
+    benefits: [
+      { title: 'Dureté 3200+ HV', description: 'Le revêtement céramique atteint une surface 40% plus dure que le TiN.', icon: 'Shield' },
+      { title: 'Résistance 800°C', description: 'Aucune perte de performance dans les environnements à haute température.', icon: 'Flame' },
+      { title: 'Ultra Résistance à l\'Usure', description: 'Durée de vie extraordinaire sur substrats abrasifs.', icon: 'Clock' },
+    ],
     seo: {
       title: 'Lame à Fente Revêtement Céramique | Dureté 3200 HV Ultra-Résistante',
       description: 'Lame de refendage à fente avec revêtement céramique multicouche, dureté 3200 HV. Idéale pour matériaux abrasifs, fibre de verre, carbone et papier abrasif. Durée de vie 5-7x supérieure.',
@@ -91,6 +121,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Adapté aux environnements humides'
     ],
     applications: ['Découpe d\'emballage alimentaire', 'Applications en environnement humide', 'Lignes de production hygiéniques', 'Emballage pharmaceutique', 'Découpe d\'emballage médical'],
+    benefits: [
+      { title: 'Résistance à la Corrosion', description: 'La teneur en chrome de 13% élimine la rouille en environnements humides.', icon: 'Shield' },
+      { title: 'Qualité Alimentaire', description: 'Approuvé FDA pour les applications de refendage dans l\'industrie alimentaire.', icon: 'Check' },
+      { title: 'Surface Hygiénique', description: 'Surface facile à nettoyer avec faible adhésion bactérienne.', icon: 'Sparkles' },
+    ],
     seo: {
       title: 'Lame à Fente Acier Inoxydable AISI 420 | Lame FDA Hygiénique',
       description: 'Lame de refendage à fente en acier inoxydable AISI 420, approuvée FDA. Résistante à la corrosion, idéale pour industrie alimentaire, pharmaceutique et environnements humides.',
@@ -110,6 +145,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Idéal pour environnements exigeants'
     ],
     applications: ['Découpe de lamination alimentaire', 'Refendage d\'emballage blister pharmaceutique', 'Découpe de ruban adhésif humide', 'Production d\'emballage stérile', 'Refendage de feuille médicale'],
+    benefits: [
+      { title: 'Double Protection', description: 'Substrat inoxydable + revêtement TiN pour résistance à la corrosion et à l\'usure.', icon: 'Shield' },
+      { title: 'Anti-Adhésion', description: 'Le revêtement TiN empêche l\'accumulation de matière adhésive sur le tranchant.', icon: 'Zap' },
+      { title: 'Performance Premium', description: 'Durabilité de premier ordre pour environnements exigeants.', icon: 'Award' },
+    ],
     seo: {
       title: 'Lame Inoxydable + Titane TiN | Double Protection Corrosion et Usure',
       description: 'Lame de refendage à fente inoxydable avec revêtement titane TiN, dureté 2300 HV. Double protection corrosion et usure pour lamination alimentaire, blister pharmaceutique et emballage stérile.',
@@ -129,6 +169,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Pour applications les plus exigeantes'
     ],
     applications: ['Découpe de ruban ultra-adhésif', 'Refendage de matériau revêtu silicone', 'Découpe d\'étiquette adhésive', 'Refendage de tissu imprégné résine', 'Rubans adhésifs médicaux'],
+    benefits: [
+      { title: 'Dureté Ultra 5000 HV', description: '2x plus dur que le TiN, 1,5x plus dur que le revêtement céramique.', icon: 'Diamond' },
+      { title: '60% de Friction en Moins', description: 'Adhérence quasi nulle même sur les substrats les plus collants.', icon: 'Zap' },
+      { title: 'Durée de Vie Maximale', description: 'La plus longue durée de service parmi toutes les options de revêtement.', icon: 'Clock' },
+    ],
     seo: {
       title: 'Lame Inoxydable + XCD Carbone Diamant | 5000 HV Ultra Anti-Adhésif',
       description: 'Lame de refendage à fente inoxydable avec revêtement XCD carbone diamant, dureté 5000 HV. Coefficient friction <0,1, idéale pour ruban ultra-adhésif, silicone et étiquettes.',
@@ -148,6 +193,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Lame à fente longue durée maximale'
     ],
     applications: ['Opérations de refendage haute vitesse', 'Applications de coupe interrompue', 'Refendage de feuille métallique', 'Découpe de matériau composite', 'Lignes de production 24/7'],
+    benefits: [
+      { title: 'Substrat HRC 64-66', description: 'Le substrat HSS Endurium est 10% plus dur que l\'acier carbone standard.', icon: 'Shield' },
+      { title: 'Résistance 600°C', description: 'Performances fiables dans les environnements à haute température.', icon: 'Flame' },
+      { title: 'Coupe Premium', description: 'Lame slotted haut de gamme pour les applications les plus exigeantes.', icon: 'Award' },
+    ],
     seo: {
       title: 'Lame Endurium HSS + Céramique | Résistance 600°C Haute Vitesse',
       description: 'Lame de refendage à fente Endurium HSS avec revêtement céramique 3500 HV. Résiste à 600°C, idéale pour refendage haute vitesse, feuille métallique et production 24/7.',
@@ -167,6 +217,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Pour matériaux extrêmement abrasifs'
     ],
     applications: ['Découpe de papier revêtu céramique', 'Refendage de feuille métallique', 'Découpe de composite abrasif', 'Refendage de film nanotube carbone', 'Découpe de matériau électrode batterie'],
+    benefits: [
+      { title: 'Durée de Vie 20-50x', description: 'Atteint une dureté et une durée de vie impossibles avec les lames en acier.', icon: 'Clock' },
+      { title: 'Structure Monolithique', description: 'Aucune soudure ni brasage — production monolithique par métallurgie des poudres.', icon: 'Box' },
+      { title: 'HRA 92-94 Ultra Dur', description: 'Coupe même les matériaux les plus abrasifs avec facilité.', icon: 'Diamond' },
+    ],
     seo: {
       title: 'Lame Carbure de Tungstène Massif | HRA 92-94 Durée de Vie 50x',
       description: 'Lame de refendage à fente en carbure de tungstène massif WC-Co, dureté HRA 92-94. Durée de vie 20-50x supérieure à l\'acier pour matériaux ultra-abrasifs et électrodes batterie.',
@@ -186,6 +241,11 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Lame la plus propre'
     ],
     applications: ['Découpe d\'emballage alimentaire', 'Refendage d\'implant médical', 'Découpe de film électronique', 'Applications salles blanches', 'Production pharmaceutique sans métal'],
+    benefits: [
+      { title: 'Zéro Contamination Métallique', description: 'Structure entièrement sans métal — idéale pour alimentaire et électronique.', icon: 'Check' },
+      { title: 'Isolant Électrique', description: 'Coupe sécurisée là où la conductivité électrique n\'est pas souhaitée.', icon: 'Zap' },
+      { title: 'Biocompatible', description: 'Matériau adapté aux applications médicales et au contact alimentaire.', icon: 'Heart' },
+    ],
     seo: {
       title: 'Lame Céramique Zircone Massive | Biocompatible Sans Métal',
       description: 'Lame de refendage à fente en céramique zircone ZrO2 massive, biocompatible et sans métal. Isolant électrique, résistance chimique totale pour salles blanches, alimentaire et médical.',
@@ -640,6 +700,30 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Conforme normes de sécurité'
     ],
     applications: ['Entrepôt & Logistique', 'Lignes de production', 'Emballage'],
+    benefits: [
+      { title: 'Longue Durée de Vie', description: 'Performance de coupe supérieure aux couteaux standard grâce à l\'acier Sheffield.', icon: 'Clock' },
+      { title: 'Utilisation Sécurisée', description: 'Conception à pointe fixe pour une coupe contrôlée et sûre.', icon: 'Shield' },
+      { title: 'Design Ergonomique', description: 'Prise en main sans fatigue lors d\'une utilisation prolongée.', icon: 'Zap' },
+    ],
+    longDescription: `
+      <p>RETRO LIGHT KNIFE est un couteau manuel premium conçu pour un usage industriel. Son corps en métal moulé sous pression assure la durabilité même lors d'une utilisation intensive.</p>
+
+      <h3>Caractéristiques Principales</h3>
+      <ul>
+        <li>Tranchant fabriqué en acier Sheffield</li>
+        <li>Corps en métal moulé sous pression pour une durabilité maximale</li>
+        <li>Design ergonomique — aucune fatigue lors d'une utilisation prolongée</li>
+        <li>Mécanisme de changement de lame facile et sécurisé</li>
+      </ul>
+
+      <h3>Recommandations d'Utilisation</h3>
+      <p>Idéal pour les entrepôts, la logistique, les lignes de production et les travaux de coupe généraux. Haute performance pour la découpe de carton, film plastique, matériaux d'emballage et similaires.</p>
+    `,
+    seo: {
+      title: 'RETRO LIGHT KNIFE | Couteau Manuel Métal Moulé | Alya Blade',
+      description: 'Couteau manuel RETRO LIGHT KNIFE en acier Sheffield avec corps en métal moulé. Conforme aux normes de sécurité au travail, durable et ergonomique.',
+      keywords: ['couteau manuel', 'couteau métal moulé', 'couteau sécurité', 'acier Sheffield', 'Durham Duplex', 'couteau industriel', 'couteau ergonomique'],
+    },
   },
   'h008-001-a03': {
     name: 'H008 001 A03 - AUTO RETRACT',
@@ -657,6 +741,45 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   // LAMES DE REFENDAGE 3 TROUS
   // =============================================================================
+  '3-delikli-jilet-020': {
+    name: 'Lame de Refendage 3 Trous',
+    subtitle: 'Revêtement Titane — 0,20mm',
+    description: 'Lame de refendage 3 trous haute performance en acier Sheffield avec revêtement titane. Jilet industriel haute performance pour la découpe de textiles, papier et films.',
+    features: [
+      'Revêtement titane',
+      'Acier Sheffield',
+      'Dureté HRC 60-62',
+      'Montage 3 trous',
+      'Différentes options d\'épaisseur',
+      'Longue durée de vie',
+    ],
+    applications: ['Découpe textile', 'Traitement de papier', 'Découpe de film'],
+    benefits: [
+      { title: 'Revêtement Titane', description: 'Durée de vie 3x supérieure aux lames standard grâce au revêtement titane.', icon: 'Shield' },
+      { title: 'Coupe de Précision', description: 'Qualité de coupe nette et précise grâce à la haute dureté.', icon: 'Target' },
+      { title: 'Montage Compatible', description: 'Changement facile avec le système de montage standard 3 trous.', icon: 'Settings' },
+    ],
+    longDescription: `
+      <p>La Lame de Refendage 3 Trous est une lame de coupe haute performance spécialement conçue pour les machines de refendage industrielles. Le revêtement titane assure une longue durée de vie et une résistance à l'usure.</p>
+
+      <h3>Caractéristiques Principales</h3>
+      <ul>
+        <li>Fabriquée en acier Sheffield</li>
+        <li>Résistance supplémentaire grâce au revêtement titane</li>
+        <li>Dureté HRC 60-62</li>
+        <li>Système de montage standard 3 trous</li>
+        <li>Différentes options d'épaisseur : 0,20mm, 0,25mm, 0,30mm</li>
+      </ul>
+
+      <h3>Domaines d'Application</h3>
+      <p>Utilisée pour le refendage de précision de textiles, papier, film plastique, matériaux d'emballage et matériaux fins similaires. Offre des performances supérieures notamment sur les machines de refendage à haute vitesse.</p>
+    `,
+    seo: {
+      title: 'Lame de Refendage 3 Trous 0,20mm | Revêtement Titane | Alya Blade',
+      description: 'Lame de refendage 3 trous avec revêtement titane en acier Sheffield. Haute performance pour la découpe de textiles, papier et films. Distributeur autorisé.',
+      keywords: ['lame 3 trous', 'lame de refendage', 'revêtement titane', 'acier Sheffield', 'lame industrielle'],
+    },
+  },
   'b207': {
     name: 'B207 - Lame Trapézoïdale Renforcée',
     subtitle: 'Lame trapézoïdale renforcée 0,63mm',
