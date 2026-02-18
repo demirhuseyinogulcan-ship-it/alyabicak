@@ -714,10 +714,38 @@ export const productsEn: Record<string, ProductTranslation> = {
     longDescription: `<p>The B208 Broad Tip hook blade is a variant model specifically developed for the textile industry. Unlike the standard B208 pointed tip, it features a broad arms design that enables clean cutting of fabrics and textile materials without damage.</p><p>Manufactured in 52×19×0.6mm dimensions with 2 notches and 2-3 hole configuration. Durham Duplex 1% carbon steel with HRC 58-62 hardness for sharp and long-lasting performance.</p><p><strong>Textile applications:</strong> Opening fabric rolls, bale cutting, synthetic fibre cutting, leather and faux leather cutting. The broad arms form minimises thread pulling and fabric tearing.</p>`,
   },
   'b092': {
-    name: 'B092 - Holeless Blade',
-    description: 'Industrial blade without mounting holes. Sheffield quality professional cutting blade.',
-    features: ['Holeless design', 'Sheffield quality', 'Industrial grade'],
-    applications: ['Special applications', 'Custom mounting'],
+    name: 'B092 - Holeless Monobloc Blade',
+    subtitle: 'Holeless Ceramic Monobloc Utility Blade',
+    description: 'Monobloc ceramic-body special-type utility blade without mounting holes. 92×8.2×0.43mm dimensions. Designed for utility knives with holeless retention mechanisms. Non-segmented continuous edge.',
+    shortDescription: 'Holeless monobloc ceramic utility blade, 92×8.2×0.43mm. For special-type knives with holeless mount. Non-segmented.',
+    features: [
+      'Monobloc ceramic body construction',
+      'Holeless design — for special retention mechanisms',
+      '92mm length, 8.2mm width, 0.43mm thickness',
+      'Non-segmented continuous edge',
+      'Compact form — narrow-type utility knives',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Holeless-mount type utility knives',
+      'Precision industrial cutting',
+      'Model making and prototyping',
+      'Graphic design applications'
+    ],
+    seo: {
+      title: 'B092 Holeless Monobloc Utility Blade | Ceramic Body | Alya Blade',
+      description: 'B092 holeless monobloc blade, ceramic body, 92×8.2×0.43mm. For holeless-mount utility knives. Non-segmented. Sheffield quality. Authorized distributor.',
+      keywords: ['holeless blade', 'B092', 'monobloc utility blade', 'ceramic blade', 'no hole blade', 'special mount blade', 'holeless cutter blade'],
+    },
+    benefits: [
+      { title: 'Holeless Design', description: 'No mounting holes — designed for special retention mechanism knives.', icon: 'Target' },
+      { title: 'Monobloc Body', description: 'Single-piece ceramic monobloc construction for structural integrity.', icon: 'Shield' },
+      { title: 'Sheffield Quality', description: 'Manufactured to ISO 9001 standards in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B092 is a holeless monobloc utility blade designed for special-type utility knives that use holeless retention mechanisms rather than standard mounting holes or slots.</p><p>Manufactured with a monobloc ceramic body at 92×8.2×0.43mm dimensions. The absence of mounting holes provides a clean, uninterrupted blade body. Non-segmented continuous edge construction.</p><p>Compatible with narrow-type utility knives featuring spring-loaded or friction-based blade retention without mounting holes. Ideal for precision cutting and graphic design applications.</p>`,
+    availableSizes: [
+      '92×8.2×0.43mm — Holeless Monobloc',
+    ],
   },
   'b226': {
     name: 'B226 - Supaslit Blade',
@@ -1138,64 +1166,419 @@ export const productsEn: Record<string, ProductTranslation> = {
   // SANAYİ JİLETLERİ - FALÇATA BIÇAKLAR
   // =============================================================================
   'b122': {
-    name: 'B122 - Segmented Utility Blade Width: 9mm',
-    description: 'Segmented snap-off utility blade, 9mm width. Sheffield quality professional blade.',
-    features: ['Segmented design', 'Snap-off sections', '9mm width', 'Sheffield quality'],
-    applications: ['General cutting', 'Craft work', 'Office use'],
+    name: 'B122 - Segmented Snap-Off Blade 9mm',
+    subtitle: '9mm Snap-Off Blade — SK5 Carbon Steel',
+    description: 'SK5 high-carbon steel 9mm segmented (snap-off) utility blade. 13 snap-off points deliver a factory-sharp edge with each break. Compatible with OLFA, Stanley, Martor and all standard 9mm narrow-body utility knives. Available in standard, stainless steel, TiN-coated and 30° acute-angle variants.',
+    shortDescription: 'Professional 9mm snap-off blade with 9 variants: standard SK5, stainless SUS420J2, TiN-coated, 30° acute angle. OLFA AB-10, ABB-50, SAB-10 compatible.',
+    features: [
+      'SK5 high-carbon steel body (JIS G4401)',
+      '13 snap-off segments — fresh edge with each break',
+      '0.40mm thickness (Sheffield) / 0.38mm (OLFA compatible)',
+      'TiN (Titanium Nitride) coating option — 3× extended lifespan',
+      'SUS420J2 stainless steel variant — corrosion resistance',
+      '30° acute-angle version — precision vinyl and film cutting',
+      'OLFA AB-10, AB-10S, ABB-50, SAB-10 series compatible',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Packaging and box opening',
+      'Vinyl wrap and foil cutting',
+      'Wallpaper installation',
+      'Graphic design and print finishing',
+      'Vinyl flooring and PVC floor laying',
+      'Warehouse and logistics operations',
+      'Office and stationery use'
+    ],
+    seo: {
+      title: 'B122 9mm Segmented Snap-Off Blade | OLFA Compatible | Alya Blade',
+      description: 'B122 9mm snap-off blade, SK5 carbon steel, HRC 58-62. 9 variants: standard, stainless, TiN-coated, 30° acute. OLFA AB-10/ABB-50/SAB-10 compatible. Sheffield quality.',
+      keywords: ['9mm snap-off blade', 'B122', 'segmented utility blade', 'OLFA AB-10 blade', 'OLFA compatible blade 9mm', 'snap-off cutter blade', 'TiN coated snap-off', '30 degree blade', 'Sheffield snap-off blade', 'wholesale utility blades'],
+    },
+    benefits: [
+      { title: '9 Professional Variants', description: 'Standard, stainless, TiN-coated, 30° acute-angle and OLFA-compatible options for every application.', icon: 'Settings' },
+      { title: 'Universal Compatibility', description: 'Fits OLFA, Stanley, Martor, Tajima and all standard 9mm narrow-body utility knives.', icon: 'Link' },
+      { title: 'TiN-Coated Option', description: 'Titanium Nitride coating delivers 3× longer cutting life than standard carbon steel.', icon: 'Clock' },
+      { title: 'Sheffield Quality', description: 'SK5 high-carbon steel heat-treated to HRC 58-62 hardness in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B122 series 9mm segmented snap-off blades are professional-grade cutting blades manufactured from SK5 high-carbon steel (JIS G4401) with HRC 58-62 hardness.</p><p>With 13 pre-scored snap-off points, each break delivers a factory-sharp cutting edge — eliminating the need for sharpening. Available in 0.40mm (Sheffield standard) and 0.38mm (OLFA standard) thicknesses.</p><h3>Variant Options</h3><ul><li><strong>Standard SK5:</strong> High-carbon steel for general-purpose cutting</li><li><strong>Stainless SUS420J2:</strong> Corrosion-resistant for humid and wet environments</li><li><strong>TiN-Coated:</strong> Titanium Nitride PVD coating for 3× extended lifespan</li><li><strong>30° Acute Angle:</strong> Sharper point angle for precision vinyl, film and graphic cutting</li><li><strong>OLFA AB-10/ABB-50/SAB-10:</strong> Direct-fit replacements for OLFA knife systems</li></ul><p>Compatible with all standard 9mm narrow-body utility knives including OLFA, Stanley, Martor, Tajima, NT Cutter and similar brands.</p>`,
+    availableSizes: [
+      '80×9×0.40mm — Standard',
+      '80×9×0.40mm — Stainless Steel',
+      '80×9×0.40mm — TiN Coated',
+      '72×9×0.40mm — 30° Acute Angle',
+      '72×9×0.40mm — 30° Angle + TiN',
+      '80×9×0.38mm — OLFA AB-10 Compatible',
+      '80×9×0.38mm — OLFA AB-10S Stainless',
+      '80×9×0.38mm — OLFA ABB-50 Extra Sharp',
+      '74×9×0.38mm — OLFA SAB-10 30° Angle',
+    ],
   },
   'b124': {
-    name: 'B124 - Non-Segmented Utility Blade Width: 9mm',
-    description: 'Non-segmented utility blade, 9mm width. Sheffield quality professional blade.',
-    features: ['Continuous edge', '9mm width', 'Sheffield quality'],
-    applications: ['Precision cutting', 'Clean cuts', 'Professional use'],
+    name: 'B124 - Non-Segmented Utility Blade 9mm',
+    subtitle: '9mm Continuous Edge Blade — SK5 Carbon Steel',
+    description: 'SK5 high-carbon steel 9mm non-segmented (continuous edge) utility blade. Unbroken single-piece edge delivers vibration-free straight-line cuts. Compatible with OLFA, Stanley and all standard 9mm narrow-body utility knives.',
+    shortDescription: 'Non-segmented 9mm blade with continuous cutting edge for vibration-free precision. SK5 carbon steel, 80×9×0.40mm.',
+    features: [
+      'SK5 high-carbon steel body',
+      'Continuous edge — vibration-free straight-line cutting',
+      '0.40mm thickness',
+      'No snap-off points — full structural integrity under load',
+      'Compatible with all standard 9mm utility knives',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Precision straight-line cutting',
+      'Graphic design and model making',
+      'Thin film and foil cutting',
+      'Office and stationery use'
+    ],
+    seo: {
+      title: 'B124 9mm Non-Segmented Utility Blade | Continuous Edge | Alya Blade',
+      description: 'B124 9mm non-segmented blade, SK5 carbon steel, HRC 58-62. Continuous edge for vibration-free precision cutting. Sheffield quality. Authorized distributor.',
+      keywords: ['9mm non-segmented blade', 'B124', 'continuous edge utility blade', 'non-snap blade 9mm', 'precision utility blade', 'Sheffield blade'],
+    },
+    benefits: [
+      { title: 'Continuous Edge', description: 'Unbroken cutting edge eliminates vibration and delivers clean straight-line cuts.', icon: 'Target' },
+      { title: 'Full Strength', description: 'No snap-off points means full structural integrity for demanding applications.', icon: 'Shield' },
+      { title: 'Sheffield Quality', description: 'SK5 high-carbon steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B124 non-segmented 9mm utility blade offers a continuous cutting edge without snap-off points, eliminating the micro-vibrations that segmented blades can produce during cutting.</p><p>Manufactured from SK5 high-carbon steel at 80×9×0.40mm dimensions with HRC 58-62 hardness. The single-piece edge construction maintains its structural integrity under load — ideal for applications requiring perfectly straight cuts.</p><p>Compatible with all standard 9mm narrow-body utility knives. Preferred for graphic design, model making, and precision film cutting where cut quality is paramount.</p>`,
+    availableSizes: [
+      '80×9×0.40mm — Non-Segmented Standard',
+    ],
   },
   'b121': {
-    name: 'B121 - Segmented Utility Blade Width: 18mm',
-    description: 'Segmented snap-off utility blade, 18mm width for heavy-duty work. Sheffield quality.',
-    features: ['Segmented design', 'Snap-off sections', '18mm width', 'Heavy duty'],
-    applications: ['Heavy cutting', 'Cardboard', 'Industrial use'],
+    name: 'B121 - Segmented Snap-Off Blade 18mm',
+    subtitle: '18mm Snap-Off Blade — Heavy Duty SK5 Steel',
+    description: 'SK5 high-carbon steel 18mm segmented (snap-off) utility blade. Wide-body design for heavy-duty industrial cutting. 8 snap-off points, 0.50mm thickness. Compatible with OLFA LB, LBB, LBD, LWB series and all standard 18mm utility knives. Standard, TiN-coated, extra-sharp and 15-segment variants available.',
+    shortDescription: 'Heavy-duty 18mm snap-off blade with 7 variants: standard 0.50mm, thin 0.43mm, TiN-coated, OLFA LB-10/LBB-50/LBD-50/LWB-3B compatible.',
+    features: [
+      'SK5 high-carbon steel body (JIS G4401)',
+      '8 snap-off segments — fresh edge with each break',
+      '0.50mm thickness — heavy-duty industrial applications',
+      '0.43mm thin variant — precision cutting',
+      'TiN (Titanium Nitride) coating option — 3× extended lifespan',
+      '15-segment OLFA LBD variant — more economical usage',
+      'Serrated edge (LWB) variant — fibreglass and insulation cutting',
+      'OLFA LB-10, LBB-50, LBD-50, LWB-3B series compatible',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Cardboard and corrugated board cutting',
+      'Vinyl flooring and PVC floor laying',
+      'Construction and renovation',
+      'Packaging and box opening',
+      'Leather and textile cutting',
+      'Wallpaper installation',
+      'Warehouse and logistics operations'
+    ],
+    seo: {
+      title: 'B121 18mm Segmented Snap-Off Blade | OLFA LB Compatible | Alya Blade',
+      description: 'B121 18mm snap-off blade, SK5 carbon steel, HRC 58-62. 7 variants: standard, thin, TiN-coated, OLFA LB-10/LBB-50/LBD-50 compatible. Heavy-duty industrial cutting.',
+      keywords: ['18mm snap-off blade', 'B121', 'heavy duty snap-off blade', 'OLFA LB-10 blade', 'OLFA compatible blade 18mm', 'wide snap-off blade', 'TiN coated 18mm blade', 'industrial snap-off blade', 'Sheffield snap-off', 'wholesale snap-off blades'],
+    },
+    benefits: [
+      { title: '7 Professional Variants', description: 'Standard, thin, TiN-coated, 15-segment and OLFA-compatible options for every application.', icon: 'Settings' },
+      { title: 'Heavy-Duty 0.50mm', description: '0.50mm thick profile resists bending in heavy-duty industrial cutting applications.', icon: 'Shield' },
+      { title: 'OLFA Compatibility', description: 'Direct-fit replacement for OLFA LB-10, LBB-50, LBD-50 and LWB-3B blade systems.', icon: 'Link' },
+      { title: 'Sheffield Quality', description: 'SK5 high-carbon steel heat-treated to HRC 58-62 hardness in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B121 series 18mm segmented snap-off blades are heavy-duty cutting blades designed for industrial applications. Manufactured from SK5 high-carbon steel (JIS G4401) with HRC 58-62 hardness.</p><p>The 18mm wide body with 0.50mm thickness delivers superior bending resistance for demanding materials like cardboard, carpet, leather and PVC. A thinner 0.43mm option is available for precision cutting applications.</p><h3>Variant Options</h3><ul><li><strong>Standard 0.50mm:</strong> Heavy-duty cutting for cardboard, carpet, leather</li><li><strong>Thin 0.43mm:</strong> Precision cutting for film, paper, wallpaper</li><li><strong>TiN-Coated:</strong> Titanium Nitride PVD coating for 3× extended lifespan</li><li><strong>OLFA LB-10:</strong> Standard direct-fit replacement</li><li><strong>OLFA LBB-50:</strong> Extra-sharp Excel Black variant</li><li><strong>OLFA LBD-50:</strong> 15-segment economical variant</li><li><strong>OLFA LWB-3B:</strong> Serrated edge for insulation materials</li></ul><p>Compatible with all standard 18mm utility knives including OLFA, Stanley, Martor, Tajima and similar brands.</p>`,
+    availableSizes: [
+      '100×18×0.50mm — Standard 8-Segment',
+      '100×18×0.43mm — Thin Version',
+      '100×18×0.50mm — TiN Coated',
+      '100×18×0.50mm — OLFA LB-10 Compatible',
+      '100×18×0.50mm — OLFA LBB-50 Extra Sharp',
+      '100×18×0.50mm — OLFA LBD-50 15-Segment',
+      '100×18×0.50mm — OLFA LWB-3B Serrated Edge',
+    ],
   },
   'b123': {
-    name: 'B123 - Non-Segmented Utility Blade Width: 18mm',
-    description: 'Non-segmented utility blade, 18mm width. Sheffield quality professional blade.',
-    features: ['Continuous edge', '18mm width', 'Sheffield quality'],
-    applications: ['Heavy duty cutting', 'Professional use'],
+    name: 'B123 - Non-Segmented Utility Blade 18mm',
+    subtitle: '18mm Continuous Edge Blade — Heavy Duty SK5 Steel',
+    description: 'SK5 high-carbon steel 18mm non-segmented (continuous edge) utility blade. Unbroken single-piece edge minimises bending and fracture risk under heavy load. TiN-coated and OLFA LSOL-10 compatible variants available.',
+    shortDescription: 'Heavy-duty 18mm non-segmented blade with 4 variants: standard 0.50mm, thin 0.43mm, TiN-coated, OLFA LSOL-10 compatible.',
+    features: [
+      'SK5 high-carbon steel body',
+      'Continuous edge — bending and fracture resistance',
+      '0.50mm standard / 0.43mm thin thickness',
+      'TiN (Titanium Nitride) coating option',
+      'OLFA LSOL-10 series compatible',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Continuous heavy-load cutting',
+      'Cardboard and corrugated board',
+      'Vinyl flooring and PVC floor laying',
+      'Leather and thick textile cutting',
+      'Packaging industry'
+    ],
+    seo: {
+      title: 'B123 18mm Non-Segmented Utility Blade | Continuous Edge | Alya Blade',
+      description: 'B123 18mm non-segmented blade, SK5 carbon steel, HRC 58-62. 4 variants: standard, thin, TiN-coated, OLFA LSOL-10 compatible. Heavy-duty industrial cutting.',
+      keywords: ['18mm non-segmented blade', 'B123', 'continuous edge 18mm blade', 'non-snap blade 18mm', 'heavy duty utility blade', 'OLFA LSOL-10 blade', 'Sheffield utility blade'],
+    },
+    benefits: [
+      { title: 'Fracture Resistance', description: 'Continuous edge without snap-off points resists bending and breaking under heavy load.', icon: 'Shield' },
+      { title: 'Dual Thickness', description: '0.50mm standard and 0.43mm thin options for heavy-duty and precision applications.', icon: 'Settings' },
+      { title: 'TiN-Coated Option', description: 'Titanium Nitride coating extends cutting life by up to 3×.', icon: 'Clock' },
+      { title: 'Sheffield Quality', description: 'SK5 steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B123 non-segmented 18mm utility blade provides a continuous cutting edge for applications where bending and fracture resistance are critical. Without snap-off score lines, the blade maintains full structural integrity under heavy load.</p><p>Manufactured from SK5 high-carbon steel with HRC 58-62 hardness. Available in 0.50mm (standard) and 0.43mm (thin) thicknesses, plus a TiN-coated variant for extended lifespan.</p><p>The OLFA LSOL-10 compatible variant provides a direct-fit replacement for OLFA knife systems. Ideal for continuous cutting of cardboard, carpet, leather and PVC flooring materials.</p>`,
+    availableSizes: [
+      '100×18×0.50mm — Non-Segmented Standard',
+      '100×18×0.43mm — Non-Segmented Thin',
+      '100×18×0.50mm — TiN Coated',
+      '100×18×0.50mm — OLFA LSOL-10 Compatible',
+    ],
+  },
+  'b123-018': {
+    name: 'B123 018 - Non-Segmented Utility Blade 18mm – Short',
+    subtitle: '18mm Short Blade — 60mm Compact Length',
+    description: 'SK5 high-carbon steel 18mm non-segmented short utility blade. 60mm compact length for superior manoeuvrability in tight and confined workspaces. Continuous edge construction.',
+    shortDescription: 'Compact 60mm non-segmented 18mm blade for confined spaces. SK5 carbon steel, 60×18×0.50mm.',
+    features: [
+      'SK5 high-carbon steel body',
+      'Compact 60mm length — confined space cutting',
+      'Continuous edge — no snap-off points',
+      '0.50mm thickness',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Confined and restricted workspaces',
+      'Precision position cutting',
+      'Model making and prototyping',
+      'Cable trunking cutting'
+    ],
+    seo: {
+      title: 'B123-018 Short 18mm Non-Segmented Blade | Compact Utility Blade | Alya Blade',
+      description: 'B123-018 short 18mm non-segmented blade, 60mm compact length, SK5 carbon steel, HRC 58-62. Confined space cutting. Sheffield quality. Authorized distributor.',
+      keywords: ['short utility blade', 'B123-018', 'compact snap-off blade', '60mm utility blade', 'short non-segmented blade', 'confined space blade'],
+    },
+    benefits: [
+      { title: 'Compact Design', description: '60mm length provides superior manoeuvrability in tight and confined spaces.', icon: 'Minimize' },
+      { title: 'Continuous Edge', description: 'Non-segmented construction ensures structural integrity in difficult positions.', icon: 'Shield' },
+      { title: 'Sheffield Quality', description: 'SK5 steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B123-018 is a compact 60mm non-segmented utility blade designed for cutting in tight and confined workspaces where standard 100mm blades cannot reach or manoeuvre effectively.</p><p>Manufactured from SK5 high-carbon steel with HRC 58-62 hardness at 60×18×0.50mm dimensions. The continuous edge construction (no snap-off points) maintains structural integrity even in awkward cutting positions.</p><p>Ideal for cable trunking, model making, prototyping and any application requiring precision cutting in restricted areas.</p>`,
+    availableSizes: [
+      '60×18×0.50mm — Non-Segmented Short',
+    ],
   },
   'b096': {
-    name: 'B096 - Non-Segmented Utility Blade Width: 12mm – Oval Slot',
-    description: 'Non-segmented utility blade with oval slot, 12mm width. Sheffield quality.',
-    features: ['Oval slot', 'Non-segmented', '12mm width'],
-    applications: ['Special holders', 'Industrial use'],
+    name: 'B096 - Non-Segmented Utility Blade 12mm – Oval Slot',
+    subtitle: '12mm Oval Slot Blade — Special Mounting',
+    description: 'SK5 high-carbon steel 12mm non-segmented utility blade with oval mounting slot. Compatible with special-type utility knives featuring oval retention mechanisms. 89mm length, 0.50mm thickness, single-piece continuous edge.',
+    shortDescription: 'Non-segmented 12mm blade with oval mounting slot. SK5 carbon steel, 89×12×0.50mm. For special-type utility knives.',
+    features: [
+      'SK5 high-carbon steel body',
+      'Oval mounting slot — special-type knife compatibility',
+      'Non-segmented continuous edge',
+      '89mm length, 12mm width',
+      '0.50mm thickness',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Oval-slot type utility knives',
+      'Precision industrial cutting',
+      'Cardboard and packaging cutting'
+    ],
+    seo: {
+      title: 'B096 12mm Oval Slot Utility Blade | Non-Segmented | Alya Blade',
+      description: 'B096 12mm non-segmented blade with oval mounting slot, SK5 carbon steel, HRC 58-62. For special-type utility knives. Sheffield quality. Authorized distributor.',
+      keywords: ['12mm oval slot blade', 'B096', 'oval slot utility blade', 'special mount blade', 'non-segmented 12mm blade', 'Sheffield blade'],
+    },
+    benefits: [
+      { title: 'Oval Slot Mount', description: 'Oval retention slot provides secure fit in special-type utility knife holders.', icon: 'Link' },
+      { title: 'Continuous Edge', description: 'Non-segmented construction for full structural integrity.', icon: 'Shield' },
+      { title: 'Sheffield Quality', description: 'SK5 steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B096 is a 12mm non-segmented utility blade featuring an oval mounting slot for compatibility with special-type utility knife holders that use oval retention mechanisms rather than standard rectangular slots.</p><p>Manufactured from SK5 high-carbon steel at 89×12×0.50mm dimensions with HRC 58-62 hardness. The continuous single-piece edge provides full structural integrity without snap-off score lines.</p>`,
+    availableSizes: [
+      '89×12×0.50mm — 1 Oval Slot',
+    ],
   },
-  'segmentli': {
-    name: 'Segmented Utility Blade Width: 12.5mm',
-    description: 'Segmented utility blade, 12.5mm width. Sheffield quality professional blade.',
-    features: ['Segmented design', '12.5mm width', 'Sheffield quality'],
-    applications: ['General cutting', 'Industrial use'],
+  'olfa-mtb': {
+    name: 'OLFA-MTB - Segmented Snap-Off Blade 12.5mm',
+    subtitle: '12.5mm OLFA MTB/FWB Compatible Blade',
+    description: 'SK5 high-carbon steel 12.5mm segmented snap-off blade. Designed as a direct-fit replacement for OLFA MTB and FWB series utility knives. Standard 0.45mm and ultra-thin 0.25mm (extra-sharp) variants.',
+    shortDescription: 'OLFA MTB-10 and FWB-10 compatible 12.5mm snap-off blade. Standard 0.45mm and ultra-thin 0.25mm extra-sharp variants.',
+    features: [
+      'SK5 high-carbon steel body',
+      'OLFA MTB-10 and FWB-10 series compatible',
+      'Segmented snap-off edge design',
+      '0.45mm standard / 0.25mm ultra-thin (extra-sharp) thickness',
+      '12.5mm width — OLFA medium-body utility knives',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'OLFA MTB series utility knives',
+      'OLFA FWB series utility knives',
+      'Graphic design and precision cutting',
+      'Vinyl and film application'
+    ],
+    seo: {
+      title: 'OLFA MTB 12.5mm Snap-Off Blade | MTB-10 FWB-10 Compatible | Alya Blade',
+      description: 'OLFA MTB-10 and FWB-10 compatible 12.5mm snap-off blade, SK5 carbon steel. Standard 0.45mm and ultra-thin 0.25mm variants. Sheffield quality.',
+      keywords: ['OLFA MTB blade', 'OLFA MTB-10', 'OLFA FWB-10', '12.5mm snap-off blade', 'OLFA replacement blade', 'OLFA compatible blade', 'medium snap-off blade'],
+    },
+    benefits: [
+      { title: 'OLFA Compatible', description: 'Direct-fit replacement for OLFA MTB-10 and FWB-10 blade systems.', icon: 'Link' },
+      { title: 'Ultra-Thin Option', description: '0.25mm FWB variant delivers exceptionally sharp cutting for delicate materials.', icon: 'Target' },
+      { title: 'Sheffield Quality', description: 'SK5 steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The OLFA-MTB series blades are precision snap-off blades designed as direct-fit replacements for OLFA MTB and FWB series medium-body utility knives.</p><p>Available in two variants:</p><ul><li><strong>MTB-10 (0.45mm):</strong> Standard thickness for general-purpose cutting at 83.3×12.5mm</li><li><strong>FWB-10 (0.25mm):</strong> Ultra-thin extra-sharp blade at 85×12.5mm for delicate and precise cutting</li></ul><p>Manufactured from SK5 high-carbon steel with HRC 58-62 hardness to Sheffield quality standards.</p>`,
+    availableSizes: [
+      '83.3×12.5×0.45mm — OLFA MTB-10 Standard',
+      '85×12.5×0.25mm — OLFA FWB-10 Extra Sharp (0.25mm ultra-thin)',
+    ],
   },
   'lwb': {
-    name: 'LWB - Non-Segmented Utility Blade Width: 18mm – Serrated',
-    description: 'Serrated non-segmented utility blade, 18mm width. Sheffield quality.',
-    features: ['Serrated edge', 'Non-segmented', '18mm width'],
-    applications: ['Tough materials', 'Industrial cutting'],
+    name: 'LWB - Serrated Edge Utility Blade 18mm',
+    subtitle: '18mm Serrated Edge — Insulation Cutting',
+    description: 'SK5 high-carbon steel 18mm serrated edge (saw-tooth) utility blade. Non-segmented construction. Superior performance cutting fibrous and porous materials including glass wool, rock wool, fibreglass, polystyrene and insulation materials. OLFA LWB-3B compatible.',
+    shortDescription: 'Serrated edge 18mm blade for insulation and fibrous materials. OLFA LWB-3B compatible. SK5 carbon steel, 100×18×0.50mm.',
+    features: [
+      'SK5 high-carbon steel body',
+      'Serrated edge profile (saw-tooth)',
+      'Non-segmented construction — no fracture risk',
+      'Anti-jam cutting in fibrous and porous materials',
+      'OLFA LWB-3B series compatible',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Glass wool and rock wool cutting',
+      'Fibreglass panel cutting',
+      'Polystyrene (EPS/XPS) cutting',
+      'Insulation material cutting',
+      'Construction and renovation'
+    ],
+    seo: {
+      title: 'LWB 18mm Serrated Edge Blade | Insulation Cutting | Alya Blade',
+      description: 'LWB 18mm serrated edge blade, SK5 carbon steel. OLFA LWB-3B compatible. Glass wool, fibreglass, polystyrene insulation cutting. Sheffield quality.',
+      keywords: ['serrated utility blade', 'LWB blade', 'OLFA LWB-3B', 'insulation cutting blade', 'saw-tooth blade 18mm', 'glass wool cutting blade', 'fibreglass cutting blade', 'serrated snap-off blade'],
+    },
+    benefits: [
+      { title: 'Serrated Edge', description: 'Saw-tooth profile grips and cuts fibrous materials without jamming or tearing.', icon: 'Grip' },
+      { title: 'Insulation Specialist', description: 'Designed specifically for glass wool, rock wool, fibreglass and polystyrene.', icon: 'Target' },
+      { title: 'Non-Segmented', description: 'No snap-off points — serrated blades must not be scored for safety reasons.', icon: 'Shield' },
+      { title: 'OLFA Compatible', description: 'Direct-fit replacement for OLFA LWB-3B serrated blade system.', icon: 'Link' },
+    ],
+    longDescription: `<p>The LWB serrated edge blade is a specialised 18mm utility blade designed for cutting fibrous, porous and insulation materials that would jam or tear with a standard smooth edge.</p><p>The saw-tooth (serrated) edge profile grips the material from first contact, preventing slippage and delivering clean cuts through glass wool, rock wool, fibreglass panels, EPS and XPS polystyrene insulation boards.</p><p>Manufactured from SK5 high-carbon steel at 100×18×0.50mm dimensions. Non-segmented construction is essential for serrated blades as score lines would compromise the integrity of the saw-tooth pattern.</p><p>OLFA LWB-3B compatible. Sold in packs of 3.</p>`,
+    availableSizes: [
+      '100×18×0.50mm — Serrated Edge (OLFA LWB-3B)',
+    ],
   },
   'b126': {
-    name: 'B126 - Segmented Utility Blade Width: 25mm',
-    description: 'Extra wide segmented utility blade, 25mm width for maximum cutting depth. Sheffield quality.',
-    features: ['Extra wide', 'Segmented design', '25mm width', 'Maximum depth'],
-    applications: ['Deep cuts', 'Thick materials', 'Industrial use'],
+    name: 'B126 - Segmented Snap-Off Blade 25mm',
+    subtitle: '25mm Extra-Wide Snap-Off Blade — 0.70mm Thick',
+    description: 'SK5 high-carbon steel 25mm extra-wide segmented (snap-off) utility blade. 0.70mm thickness for maximum bending resistance. Heavy-duty industrial cutting applications. Compatible with OLFA HB-20 and HBB-5B series.',
+    shortDescription: 'Extra-wide 25mm snap-off blade with 3 variants: standard, OLFA HB-20 and OLFA HBB-5B extra-sharp. 0.70mm thick, SK5 carbon steel.',
+    features: [
+      'SK5 high-carbon steel body',
+      '25mm extra-wide body — maximum cutting depth',
+      '0.70mm thickness — industrial-grade bending resistance',
+      'Snap-off segment design',
+      'Extra-sharp (Black Blade) variant available',
+      'OLFA HB-20 and HBB-5B series compatible',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Thick cardboard and corrugated board cutting',
+      'Drywall (plasterboard) cutting',
+      'Carpet and heavy flooring cutting',
+      'Leather and thick textile cutting',
+      'Construction and renovation',
+      'Industrial packaging'
+    ],
+    seo: {
+      title: 'B126 25mm Segmented Snap-Off Blade | OLFA HB Compatible | Alya Blade',
+      description: 'B126 25mm snap-off blade, SK5 carbon steel, 0.70mm thick, HRC 58-62. 3 variants: standard, OLFA HB-20, HBB-5B extra-sharp. Heavy-duty industrial cutting.',
+      keywords: ['25mm snap-off blade', 'B126', 'extra wide utility blade', 'OLFA HB-20 blade', 'OLFA HBB-5B blade', '0.70mm snap-off blade', 'heavy duty snap-off', 'drywall blade', 'wide utility blade'],
+    },
+    benefits: [
+      { title: 'Extra-Wide 25mm', description: '25mm body provides maximum cutting depth for thick materials like drywall and carpet.', icon: 'Maximize' },
+      { title: '0.70mm Thick', description: 'Industrial-grade thickness resists bending even in the most demanding applications.', icon: 'Shield' },
+      { title: 'OLFA Compatible', description: 'Direct-fit replacement for OLFA HB-20 and HBB-5B extra-sharp blade systems.', icon: 'Link' },
+      { title: 'Sheffield Quality', description: 'SK5 steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B126 series 25mm extra-wide segmented snap-off blades are the largest standard snap-off blades available, designed for the most demanding heavy-duty cutting applications.</p><p>At 127×25×0.70mm dimensions, these blades provide maximum cutting depth and superior bending resistance. The 0.70mm thickness is essential for maintaining rigidity when cutting through thick cardboard, drywall, carpet and leather.</p><h3>Variant Options</h3><ul><li><strong>Standard:</strong> 127×25×0.70mm general-purpose heavy-duty</li><li><strong>OLFA HB-20:</strong> Direct-fit replacement at 126×25×0.70mm</li><li><strong>OLFA HBB-5B:</strong> Extra-sharp Excel Black variant at 126×25×0.70mm</li></ul><p>Compatible with all 25mm extra-wide utility knives. Sold in packs of 5.</p>`,
+    availableSizes: [
+      '127×25×0.70mm — Standard',
+      '126×25×0.70mm — OLFA HB-20 Compatible',
+      '126×25×0.70mm — OLFA HBB-5B Extra Sharp',
+    ],
   },
   'b125': {
-    name: 'B125 - Non-Segmented Utility Blade Width: 25mm',
-    description: 'Extra wide non-segmented utility blade, 25mm width. Sheffield quality professional blade.',
-    features: ['Extra wide', 'Continuous edge', '25mm width'],
-    applications: ['Heavy duty', 'Professional cutting'],
+    name: 'B125 - Non-Segmented Utility Blade 25mm',
+    subtitle: '25mm Extra-Wide Continuous Edge — 0.70mm Thick',
+    description: 'SK5 high-carbon steel 25mm extra-wide non-segmented (continuous edge) utility blade. 0.70mm thickness. Unbroken single-piece edge provides bending and fracture resistance for heavy-duty industrial applications.',
+    shortDescription: 'Extra-wide 25mm non-segmented blade with continuous edge. 0.70mm thick, SK5 carbon steel, 127×25mm.',
+    features: [
+      'SK5 high-carbon steel body',
+      '25mm extra-wide body — maximum cutting depth',
+      '0.70mm thickness — industrial-grade bending resistance',
+      'Non-segmented continuous edge — no fracture risk',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Heavy-duty industrial cutting',
+      'Thick cardboard and corrugated board',
+      'Carpet and heavy flooring',
+      'Leather and thick textile'
+    ],
+    seo: {
+      title: 'B125 25mm Non-Segmented Utility Blade | Continuous Edge | Alya Blade',
+      description: 'B125 25mm non-segmented blade, SK5 carbon steel, 0.70mm thick, HRC 58-62. Continuous edge for heavy-duty industrial cutting. Sheffield quality. Authorized distributor.',
+      keywords: ['25mm non-segmented blade', 'B125', 'extra wide continuous blade', 'non-snap 25mm blade', 'heavy duty utility blade', 'Sheffield blade'],
+    },
+    benefits: [
+      { title: 'Extra-Wide 25mm', description: '25mm body provides maximum cutting depth for thick materials.', icon: 'Maximize' },
+      { title: 'No Snap Points', description: 'Continuous edge without score lines for full structural integrity under load.', icon: 'Shield' },
+      { title: 'Sheffield Quality', description: 'SK5 steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B125 is a 25mm extra-wide non-segmented utility blade offering maximum cutting depth combined with a continuous edge for full structural integrity.</p><p>Manufactured from SK5 high-carbon steel at 127×25×0.70mm dimensions with HRC 58-62 hardness. The 0.70mm thickness and absence of snap-off score lines make this blade exceptionally resistant to bending and fracture — essential for heavy-duty industrial cutting of thick cardboard, carpet, leather and similar demanding materials.</p>`,
+    availableSizes: [
+      '127×25×0.70mm — Non-Segmented Standard',
+    ],
   },
   'hswb1': {
-    name: 'HSWB1 - Non-Segmented Utility Blade Width: 25mm – Serrated',
-    description: 'Serrated extra wide utility blade, 25mm width for demanding applications. Sheffield quality.',
-    features: ['Serrated edge', 'Extra wide', '25mm width'],
-    applications: ['Tough materials', 'Industrial cutting', 'Heavy duty'],
+    name: 'HSWB1 - Serrated Edge Utility Blade 25mm',
+    subtitle: '25mm Extra-Wide Serrated — Thick Insulation Cutting',
+    description: 'SK5 high-carbon steel 25mm extra-wide serrated edge (saw-tooth) utility blade. Non-segmented construction. Superior performance cutting thick insulation materials, glass wool, and fibreglass panels. OLFA HSWB-1 compatible.',
+    shortDescription: 'Serrated edge 25mm extra-wide blade for thick insulation. OLFA HSWB-1 compatible. SK5 carbon steel, 106×25×0.50mm.',
+    features: [
+      'SK5 high-carbon steel body',
+      '25mm extra-wide body',
+      'Serrated edge profile (saw-tooth)',
+      'Non-segmented construction — no fracture risk',
+      'Anti-jam cutting in thick fibrous materials',
+      'OLFA HSWB-1 series compatible',
+      'Manufactured to ISO 9001 standards in Sheffield, England'
+    ],
+    applications: [
+      'Thick glass wool and rock wool cutting',
+      'Thick fibreglass panel cutting',
+      'XPS and EPS insulation board cutting',
+      'Construction insulation work',
+      'Heavy-duty industrial cutting'
+    ],
+    seo: {
+      title: 'HSWB1 25mm Serrated Blade | Insulation Cutting | Alya Blade',
+      description: 'HSWB1 25mm extra-wide serrated blade, SK5 carbon steel. OLFA HSWB-1 compatible. Thick insulation, glass wool, fibreglass cutting. Sheffield quality.',
+      keywords: ['25mm serrated blade', 'HSWB1', 'OLFA HSWB-1', 'serrated insulation blade', 'wide serrated blade', 'glass wool blade 25mm', 'thick insulation cutter', 'extra wide serrated blade'],
+    },
+    benefits: [
+      { title: 'Extra-Wide Serrated', description: '25mm serrated edge provides maximum grip and cutting depth for thick insulation materials.', icon: 'Maximize' },
+      { title: 'Anti-Jam Design', description: 'Saw-tooth profile prevents material jam in fibrous and porous substrates.', icon: 'Grip' },
+      { title: 'OLFA Compatible', description: 'Direct-fit replacement for OLFA HSWB-1 serrated blade system.', icon: 'Link' },
+      { title: 'Sheffield Quality', description: 'SK5 steel heat-treated to HRC 58-62 in Sheffield, England.', icon: 'Award' },
+    ],
+    longDescription: `<p>The HSWB1 is a 25mm extra-wide serrated edge blade designed for cutting thick insulation materials that require both maximum cutting depth and a saw-tooth edge profile.</p><p>The serrated (saw-tooth) edge grips fibrous materials from first contact, preventing slippage and delivering clean cuts through thick glass wool, rock wool, fibreglass panels and EPS/XPS polystyrene insulation boards.</p><p>Manufactured from SK5 high-carbon steel at 106×25×0.50mm dimensions. Non-segmented construction is mandatory for serrated blades. OLFA HSWB-1 compatible. Sold in packs of 3.</p>`,
+    availableSizes: [
+      '106×25×0.50mm — Serrated Edge (OLFA HSWB-1)',
+    ],
   },
 
   // =============================================================================

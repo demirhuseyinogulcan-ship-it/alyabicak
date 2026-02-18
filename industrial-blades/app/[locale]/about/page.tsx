@@ -2,6 +2,7 @@
  * Hakkımızda Sayfası - i18n Destekli
  */
 import { generateMetadata as genMeta } from '@/lib/seo'
+import { generateBreadcrumbSchema } from '@/lib/seo'
 import Image from 'next/image'
 import { Award, Users, CheckCircle, Globe, Factory, Truck, MessageCircle, Shield, Package, Wrench, Zap, HeadphonesIcon, Star } from 'lucide-react'
 import { Button, Badge, PageHeader } from '@/components/ui'
@@ -239,8 +240,20 @@ export default async function AboutPage({ params }: PageProps) {
   // Defensive fallback: desteklenmeyen locale gelirse en → tr zinciri
   const c = content[locale] || content['en'] || content['tr']
 
+  // Schema.org Breadcrumb
+  const breadcrumbItems = [
+    { name: dict.nav.home, url: `/${locale}` },
+    { name: dict.about.title },
+  ]
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale as SupportedLocale)
+
   return (
     <div className="min-h-screen">
+      {/* Schema.org JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero Section */}
       <PageHeader
         title={dict.about.title}

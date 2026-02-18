@@ -1,7 +1,7 @@
 /**
  * İletişim Sayfası - i18n Destekli
  */
-import { generateMetadata as genMeta } from '@/lib/seo'
+import { generateMetadata as genMeta, generateBreadcrumbSchema } from '@/lib/seo'
 import ContactForm from '@/components/ContactForm'
 import { MapPin, Phone, Mail, Clock, Printer, ExternalLink } from 'lucide-react'
 import { siteConfig, getWhatsAppUrl, getPhoneUrl, getEmailUrl, getGoogleMapsUrl } from '@/lib/config'
@@ -113,8 +113,20 @@ export default async function ContactPage({ params }: PageProps) {
   // Defensive fallback: desteklenmeyen locale gelirse en → tr zinciri
   const l = labels[locale] || labels['en'] || labels['tr']
 
+  // Schema.org Breadcrumb
+  const breadcrumbItems = [
+    { name: dict.nav.home, url: `/${locale}` },
+    { name: dict.contact.title },
+  ]
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale as SupportedLocale)
+
   return (
     <div className="min-h-screen">
+      {/* Schema.org JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero Section */}
       <PageHeader
         title={dict.contact.title}

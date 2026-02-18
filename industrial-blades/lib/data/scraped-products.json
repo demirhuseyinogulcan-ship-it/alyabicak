@@ -2207,364 +2207,776 @@
     "id": "b122",
     "slug": "b122-segmentli-falcata-genislik-9mm",
     "code": "B122",
-    "name": "B122 - SEGMENTLİ FALÇATA GENİŞLİK: 9mm",
-    "description": "SEGMENTLİ FALÇATA GENİŞLİK: 9mm. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B122 - Segmentli Maket Bıçağı Yedek Ucu 9mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 9mm segmentli (kırılabilir) maket bıçağı yedek ucu. 13 segment noktası sayesinde her kırımda fabrika keskinliğinde yeni ağız elde edilir. OLFA, Stanley, Martor ve tüm standart 9mm dar tip maket bıçaklarıyla tam uyumlu. Standart, paslanmaz çelik, TiN kaplamalı ve 30° keskin açılı varyantlar mevcuttur.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/b122-segmentli-falcata-genislik-9mm.jpg",
     "variants": [
       {
-        "id": "b122-segmentli-falcata-genislik-9mm-standard",
-        "sku": "B122",
+        "id": "b122-001",
+        "sku": "B122 008 O01",
+        "name": "Segmentli Standart 80×9×0.40mm",
+        "dimensions": "80×9×0.40mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b122-002",
+        "sku": "B122 008 O02",
+        "name": "Segmentli Paslanmaz 80×9×0.40mm",
+        "dimensions": "80×9×0.40mm",
+        "material": "Paslanmaz Çelik (SUS420J2)",
+        "inStock": true
+      },
+      {
+        "id": "b122-003",
+        "sku": "B122 008 T01",
+        "name": "Segmentli TiN Kaplama 80×9×0.40mm",
+        "dimensions": "80×9×0.40mm",
+        "material": "SK5 + TiN Kaplama",
+        "inStock": true
+      },
+      {
+        "id": "b122-004",
+        "sku": "B122 009 O01",
+        "name": "Segmentli 30° Açı 72×9×0.40mm",
+        "dimensions": "72×9×0.40mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b122-005",
+        "sku": "B122 009 T01",
+        "name": "Segmentli 30° Açı TiN 72×9×0.40mm",
+        "dimensions": "72×9×0.40mm",
+        "material": "SK5 + TiN Kaplama",
+        "inStock": true
+      },
+      {
+        "id": "b122-006",
+        "sku": "B122 019 O01",
+        "name": "OLFA AB-10 Uyumlu 80×9×0.38mm",
+        "dimensions": "80×9×0.38mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b122-007",
+        "sku": "B122 019 O02",
+        "name": "OLFA AB-10S Uyumlu Paslanmaz 80×9×0.38mm",
+        "dimensions": "80×9×0.38mm",
+        "material": "Paslanmaz Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b122-008",
+        "sku": "B122 020 D01",
+        "name": "OLFA ABB-50 Ekstra Keskin 80×9×0.38mm",
+        "dimensions": "80×9×0.38mm",
+        "material": "SK5 Karbon Çelik (Extra Sharp)",
+        "inStock": true
+      },
+      {
+        "id": "b122-009",
+        "sku": "B122 009 O02",
+        "name": "OLFA SAB-10 30° Açı 74×9×0.38mm",
+        "dimensions": "74×9×0.38mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "80×9×0.40mm",
+      "edgeAngle": "55° (standart) / 30° (keskin açı)",
+      "coating": "Standart / TiN (Titanyum Nitrür)",
+      "packaging": "10 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "13 kırılabilir segment — her kırımda yeni ağız",
+      "0.40mm kalınlık (Sheffield) / 0.38mm (OLFA uyumlu)",
+      "TiN (Titanyum Nitrür) kaplama seçeneği — 3 kat uzun ömür",
+      "Paslanmaz çelik (SUS420J2) alternatifi — korozyon dayanımı",
+      "30° keskin açılı versiyon — hassas vinil ve film kesimi",
+      "OLFA AB-10, ABB-50, SAB-10 serisi tam uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield, İngiltere üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Ambalaj ve koli açma",
+      "Vinil kaplama ve folyo kesimi",
+      "Duvar kağıdı uygulama",
+      "Grafik tasarım ve baskı sonlandırma",
+      "Halıfleks ve PVC zemin döşeme",
+      "Depo ve lojistik operasyonları",
+      "Ofis ve kırtasiye kullanımı"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 119,
-    "slugEN": "b122-segmented-snap-off-9mm"
+    "slugEN": "b122-segmented-snap-off-9mm",
+    "availableSizes": [
+      "80×9×0.40mm — Standart",
+      "80×9×0.40mm — Paslanmaz",
+      "80×9×0.40mm — TiN Kaplama",
+      "72×9×0.40mm — 30° Keskin Açı",
+      "72×9×0.40mm — 30° Açı + TiN",
+      "80×9×0.38mm — OLFA AB-10 Uyumlu",
+      "80×9×0.38mm — OLFA AB-10S Paslanmaz",
+      "80×9×0.38mm — OLFA ABB-50 Ekstra Keskin",
+      "74×9×0.38mm — OLFA SAB-10 30° Açı"
+    ]
   },
   {
     "id": "b124",
     "slug": "b124-segmentsiz-falcata-genislik-9mm",
     "code": "B124",
-    "name": "B124 - SEGMENTSİZ FALÇATA GENİŞLİK: 9mm",
-    "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 9mm. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B124 - Segmentsiz Maket Bıçağı Yedek Ucu 9mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 9mm segmentsiz (bölünmemiş) maket bıçağı yedek ucu. Kesintisiz tek parça kenar yapısı sayesinde titreşimsiz ve düz hat kesimi sağlar. OLFA, Stanley ve tüm standart 9mm dar tip maket bıçaklarıyla uyumlu.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/b124-segmentsiz-falcata-genislik-9mm.jpg",
     "variants": [
       {
-        "id": "b124-segmentsiz-falcata-genislik-9mm-standard",
-        "sku": "B124",
+        "id": "b124-001",
+        "sku": "B124 008 O01",
+        "name": "Segmentsiz Standart 80×9×0.40mm",
+        "dimensions": "80×9×0.40mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "80×9×0.40mm",
+      "edgeAngle": "55°",
+      "packaging": "10 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "Segmentsiz kesintisiz kenar — titreşimsiz düz kesim",
+      "0.40mm kalınlık",
+      "Kırma noktası olmayan tek parça yapı — ağır yük uygulamaları",
+      "Tüm standart 9mm maket bıçaklarıyla uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Düz hat kesimi gerektiren hassas işler",
+      "Grafik tasarım ve maket yapımı",
+      "İnce film ve folyo kesimi",
+      "Kırtasiye ve ofis kullanımı"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 120,
-    "slugEN": "b124-non-segmented-snap-off-9mm"
+    "slugEN": "b124-non-segmented-snap-off-9mm",
+    "availableSizes": [
+      "80×9×0.40mm — Segmentsiz Standart"
+    ]
   },
   {
     "id": "b121",
     "slug": "b121-segmentli-falcata-genislik-18mm",
     "code": "B121",
-    "name": "B121 - SEGMENTLİ FALÇATA GENİŞLİK: 18mm",
-    "description": "SEGMENTLİ FALÇATA GENİŞLİK: 18mm. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B121 - Segmentli Maket Bıçağı Yedek Ucu 18mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 18mm segmentli (kırılabilir) maket bıçağı yedek ucu. Endüstriyel ağır kesim uygulamaları için geniş gövde tasarımı. 8 segment noktası, 0.50mm kalınlık. OLFA LB, LBB, LBD, LWB serileri dahil tüm standart 18mm maket bıçaklarıyla tam uyumlu. Standart karbon çelik, TiN kaplamalı, ekstra keskin ve 15-segmentli varyantlar mevcuttur.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/b121-segmentli-falcata-genislik-18mm.jpg",
     "variants": [
       {
-        "id": "b121-segmentli-falcata-genislik-18mm-standard",
-        "sku": "B121",
+        "id": "b121-001",
+        "sku": "B121 008 O01",
+        "name": "Segmentli Standart 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b121-002",
+        "sku": "B121 016 D01",
+        "name": "Segmentli İnce 100×18×0.43mm",
+        "dimensions": "100×18×0.43mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b121-003",
+        "sku": "B121 016T EJ1",
+        "name": "Segmentli TiN Kaplama 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 + TiN Kaplama",
+        "inStock": true
+      },
+      {
+        "id": "b121-004",
+        "sku": "B121 031 J01",
+        "name": "OLFA LB-10 Uyumlu 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b121-005",
+        "sku": "B121 038 J01",
+        "name": "OLFA LBB-50 Ekstra Keskin 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik (Extra Sharp)",
+        "inStock": true
+      },
+      {
+        "id": "b121-006",
+        "sku": "B121 038 J02",
+        "name": "OLFA LBD-50 15×Segment 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b121-007",
+        "sku": "B121 038 J03",
+        "name": "OLFA LWB-3B Dişli Kenar 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "100×18×0.50mm",
+      "edgeAngle": "55°",
+      "coating": "Standart / TiN (Titanyum Nitrür)",
+      "packaging": "10 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "8 kırılabilir segment — her kırımda yeni ağız",
+      "0.50mm kalınlık — ağır endüstriyel uygulamalar için",
+      "0.43mm ince versiyon — hassas kesim için",
+      "TiN (Titanyum Nitrür) kaplama seçeneği — 3 kat uzun ömür",
+      "15 segmentli OLFA LBD versiyon — daha ekonomik kullanım",
+      "Dişli kenar (LWB) versiyon — cam yünü ve fiberglas kesimi",
+      "OLFA LB-10, LBB-50, LBD-50, LWB-3B serisi tam uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield, İngiltere üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Karton ve mukavva kesimi",
+      "Halıfleks ve PVC zemin döşeme",
+      "İnşaat ve tadilat işleri",
+      "Ambalaj ve koli açma",
+      "Deri ve tekstil kesimi",
+      "Duvar kağıdı uygulama",
+      "Depo ve lojistik operasyonları"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 121,
-    "slugEN": "b121-segmented-snap-off-18mm"
+    "slugEN": "b121-segmented-snap-off-18mm",
+    "availableSizes": [
+      "100×18×0.50mm — Standart 8 Segment",
+      "100×18×0.43mm — İnce Versiyon",
+      "100×18×0.50mm — TiN Kaplama",
+      "100×18×0.50mm — OLFA LB-10 Uyumlu",
+      "100×18×0.50mm — OLFA LBB-50 Ekstra Keskin",
+      "100×18×0.50mm — OLFA LBD-50 15×Segment",
+      "100×18×0.50mm — OLFA LWB-3B Dişli Kenar"
+    ]
   },
   {
     "id": "b123",
     "slug": "b123-segmentsiz-falcata-genislik-18mm",
     "code": "B123",
-    "name": "B123 - SEGMENTSİZ FALÇATA GENİŞLİK: 18mm",
-    "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 18mm. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B123 - Segmentsiz Maket Bıçağı Yedek Ucu 18mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 18mm segmentsiz (bölünmemiş) maket bıçağı yedek ucu. Kesintisiz tek parça kenar yapısı sayesinde ağır yük altında eğilme ve kırılma riski minimumda. TiN kaplamalı ve OLFA LSOL-10 uyumlu varyantlar mevcuttur.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/b123-segmentsiz-falcata-genislik-18mm.jpg",
     "variants": [
       {
-        "id": "b123-segmentsiz-falcata-genislik-18mm-standard",
-        "sku": "B123",
+        "id": "b123-001",
+        "sku": "B123 004 J01",
+        "name": "Segmentsiz Standart 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b123-002",
+        "sku": "B123 017 D01",
+        "name": "Segmentsiz İnce 100×18×0.43mm",
+        "dimensions": "100×18×0.43mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b123-003",
+        "sku": "B123 017T EJ1",
+        "name": "Segmentsiz TiN Kaplama 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 + TiN Kaplama",
+        "inStock": true
+      },
+      {
+        "id": "b123-004",
+        "sku": "B123 031 J01",
+        "name": "OLFA LSOL-10 Uyumlu 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "100×18×0.50mm",
+      "edgeAngle": "55°",
+      "coating": "Standart / TiN (Titanyum Nitrür)",
+      "packaging": "10 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "Segmentsiz kesintisiz kenar — eğilme/kırılma direnci",
+      "0.50mm standart kalınlık / 0.43mm ince kalınlık",
+      "TiN (Titanyum Nitrür) kaplama seçeneği",
+      "OLFA LSOL-10 serisi tam uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Ağır yük altında sürekli kesim",
+      "Karton ve mukavva kesimi",
+      "Halıfleks ve PVC zemin döşeme",
+      "Deri ve kalın tekstil kesimi",
+      "Ambalaj sanayi"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 122,
-    "slugEN": "b123-non-segmented-snap-off-18mm"
+    "slugEN": "b123-non-segmented-snap-off-18mm",
+    "availableSizes": [
+      "100×18×0.50mm — Segmentsiz Standart",
+      "100×18×0.43mm — Segmentsiz İnce",
+      "100×18×0.50mm — TiN Kaplama",
+      "100×18×0.50mm — OLFA LSOL-10 Uyumlu"
+    ]
+  },
+  {
+    "id": "b123-018",
+    "slug": "b123-018-segmentsiz-falcata-18mm-kisa",
+    "code": "B123 018",
+    "name": "B123 018 - Segmentsiz Maket Bıçağı Yedek Ucu 18mm – Kısa",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 18mm segmentsiz kısa maket bıçağı yedek ucu. 60mm kompakt uzunluk, dar ve kısıtlı çalışma alanlarında üstün manevra kabiliyeti. Segmentsiz kesintisiz kenar yapısı.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "craft-blades",
+    "image": "/images/products/b123-018-segmentsiz-falcata-18mm-kisa.jpg",
+    "variants": [
+      {
+        "id": "b123-018-001",
+        "sku": "B123 018 D01",
+        "name": "Segmentsiz Kısa 60×18×0.50mm",
+        "dimensions": "60×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "60×18×0.50mm",
+      "edgeAngle": "55°",
+      "packaging": "10 adet/tüp"
+    },
+    "features": [
+      "SK5 yüksek karbonlu çelik gövde",
+      "Kompakt 60mm uzunluk — dar alan kesimi",
+      "Segmentsiz kesintisiz kenar",
+      "0.50mm kalınlık",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
+    ],
+    "applications": [
+      "Dar ve kısıtlı çalışma alanları",
+      "Hassas pozisyonlu kesim işleri",
+      "Modelleme ve maket yapımı",
+      "Kablo kanalı kesimi"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 311,
+    "slugEN": "b123-018-non-segmented-snap-off-18mm-short",
+    "availableSizes": [
+      "60×18×0.50mm — Segmentsiz Kısa"
+    ]
   },
   {
     "id": "b096",
     "slug": "b096-segmentsiz-falcata-genislik-12mm-oval-yu",
     "code": "B096",
-    "name": "B096 - SEGMENTSİZ FALÇATA GENİŞLİK: 12mm – OVAL YUVA",
-    "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 12mm – OVAL YUVA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B096 - Segmentsiz Falçata 12mm – Oval Yuva",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 12mm segmentsiz maket bıçağı yedek ucu. Oval montaj yuvası sayesinde özel tip el bıçaklarıyla uyumlu. 89mm uzunluk, 0.50mm kalınlık. Tek parça kesintisiz kenar.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/b096-segmentsiz-falcata-genislik-12mm-oval-yu.jpg",
     "variants": [
       {
-        "id": "b096-segmentsiz-falcata-genislik-12mm-oval-yu-standard",
-        "sku": "B096",
+        "id": "b096-001",
+        "sku": "B096 001 O01",
+        "name": "Segmentsiz Oval Yuva 89×12×0.50mm",
+        "dimensions": "89×12×0.50mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "89×12×0.50mm",
+      "edgeAngle": "55°",
+      "packaging": "10 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "Oval montaj yuvası — özel tip tutucularla uyumlu",
+      "Segmentsiz tek parça kenar",
+      "89mm uzunluk, 12mm genişlik",
+      "0.50mm kalınlık",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Oval yuvalı özel tip maket bıçakları",
+      "Hassas endüstriyel kesim",
+      "Karton ve ambalaj kesimi"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 123,
-    "slugEN": "b096-non-segmented-snap-off-12mm-oval-slot"
+    "slugEN": "b096-non-segmented-snap-off-12mm-oval-slot",
+    "availableSizes": [
+      "89×12×0.50mm — 1 Oval Yuva"
+    ]
   },
   {
-    "id": "segmentli",
-    "slug": "segmentli-falcata-genislik-125mm",
-    "code": "SEGMENTLİ",
-    "name": "SEGMENTLİ - FALÇATA GENİŞLİK: 12.5mm",
-    "description": "FALÇATA GENİŞLİK: 12.5mm. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "id": "olfa-mtb",
+    "slug": "olfa-mtb-segmentli-falcata-genislik-125mm",
+    "code": "OLFA-MTB",
+    "name": "OLFA-MTB - Segmentli Maket Bıçağı Yedek Ucu 12.5mm",
+    "description": "OLFA MTB ve FWB serisi el bıçaklarıyla tam uyumlu 12.5mm segmentli maket bıçağı yedek ucu. SK5 yüksek karbonlu çelik. Standart ve ekstra keskin (ultra ince 0.25mm) varyantlar.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/segmentli-falcata-genislik-125mm.jpg",
     "variants": [
       {
-        "id": "segmentli-falcata-genislik-125mm-standard",
-        "sku": "SEGMENTLİ",
+        "id": "olfa-mtb-001",
+        "sku": "OLFA MTB-10",
+        "name": "OLFA MTB-10 Segmentli 83.3×12.5×0.45mm",
+        "dimensions": "83.3×12.5×0.45mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "olfa-mtb-002",
+        "sku": "OLFA FWB-10",
+        "name": "OLFA FWB-10 Ekstra Keskin 85×12.5×0.25mm",
+        "dimensions": "85×12.5×0.25mm",
+        "material": "SK5 Karbon Çelik (Extra Sharp)",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "83.3×12.5×0.45mm",
+      "edgeAngle": "55°",
+      "packaging": "10 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "OLFA MTB-10 ve FWB-10 serileriyle tam uyumlu",
+      "Segmentli kırılabilir kenar yapısı",
+      "0.45mm standart / 0.25mm ultra ince (ekstra keskin) kalınlık",
+      "12.5mm genişlik — OLFA orta boy el bıçakları için",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "OLFA MTB serisi maket bıçakları",
+      "OLFA FWB serisi maket bıçakları",
+      "Grafik tasarım ve hassas kesim",
+      "Vinil ve film uygulama"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 124,
-    "slugEN": "segmented-snap-off-125mm"
+    "slugEN": "olfa-mtb-segmented-snap-off-125mm",
+    "availableSizes": [
+      "83.3×12.5×0.45mm — OLFA MTB-10 Standart",
+      "85×12.5×0.25mm — OLFA FWB-10 Ekstra Keskin (0.25mm ultra ince)"
+    ]
   },
   {
     "id": "lwb",
     "slug": "lwb-segmentsiz-falcata-genislik-18mm-disli",
     "code": "LWB",
-    "name": "LWB - SEGMENTSİZ FALÇATA GENİŞLİK: 18mm – DİŞLİ",
-    "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 18mm – DİŞLİ. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "LWB - Dişli Kenarlı Maket Bıçağı Yedek Ucu 18mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 18mm dişli kenarlı (serrated/testere dişli) maket bıçağı yedek ucu. Segmentsiz yapıda. Cam yünü, taş yünü, fiberglas, strafor ve yalıtım malzemeleri gibi lifli ve gözenekli malzemelerin kesiminde üstün performans. OLFA LWB-3B uyumlu.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/lwb-segmentsiz-falcata-genislik-18mm-disli.jpg",
     "variants": [
       {
-        "id": "lwb-segmentsiz-falcata-genislik-18mm-disli-standard",
-        "sku": "LWB",
+        "id": "lwb-001",
+        "sku": "LWB-3B",
+        "name": "OLFA LWB-3B Dişli Kenar 100×18×0.50mm",
+        "dimensions": "100×18×0.50mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "100×18×0.50mm",
+      "edgeAngle": "Testere dişi profili (serrated)",
+      "packaging": "3 adet/paket"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "Testere dişli kenar profili (serrated edge)",
+      "Segmentsiz yapı — kırılma riski yok",
+      "Lifli ve gözenekli malzemelerde sıkışmayan kesim",
+      "OLFA LWB-3B serisi tam uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Cam yünü ve taş yünü kesimi",
+      "Fiberglas panel kesimi",
+      "Strafor (EPS/XPS) kesimi",
+      "Yalıtım malzemesi kesimi",
+      "İnşaat ve tadilat işleri"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 125,
-    "slugEN": "lwb-non-segmented-snap-off-18mm-toothed"
+    "slugEN": "lwb-non-segmented-snap-off-18mm-toothed",
+    "availableSizes": [
+      "100×18×0.50mm — Dişli Kenar (Serrated)"
+    ]
   },
   {
     "id": "b126",
     "slug": "b126-segmentli-falcata-genislik-25mm",
     "code": "B126",
-    "name": "B126 - SEGMENTLİ FALÇATA GENİŞLİK: 25mm",
-    "description": "SEGMENTLİ FALÇATA GENİŞLİK: 25mm. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B126 - Segmentli Maket Bıçağı Yedek Ucu 25mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 25mm ekstra geniş segmentli (kırılabilir) maket bıçağı yedek ucu. 0.70mm kalınlık ile maksimum eğilme direnci. Ağır endüstriyel kesim uygulamaları için. OLFA HB-20 ve HBB-5B serileriyle uyumlu.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/b126-segmentli-falcata-genislik-25mm.jpg",
     "variants": [
       {
-        "id": "b126-segmentli-falcata-genislik-25mm-standard",
-        "sku": "B126",
+        "id": "b126-001",
+        "sku": "B126 001 O01",
+        "name": "Segmentli Standart 127×25×0.70mm",
+        "dimensions": "127×25×0.70mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b126-002",
+        "sku": "B126 OLFA HB-20",
+        "name": "OLFA HB-20 Uyumlu 126×25×0.70mm",
+        "dimensions": "126×25×0.70mm",
+        "material": "SK5 Karbon Çelik",
+        "inStock": true
+      },
+      {
+        "id": "b126-003",
+        "sku": "B126 OLFA HBB-5B",
+        "name": "OLFA HBB-5B Ekstra Keskin 126×25×0.70mm",
+        "dimensions": "126×25×0.70mm",
+        "material": "SK5 Karbon Çelik (Extra Sharp)",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "127×25×0.70mm",
+      "edgeAngle": "55°",
+      "coating": "Standart / Ekstra Keskin (Black Blade)",
+      "packaging": "5 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "25mm ekstra geniş gövde — maksimum kesim derinliği",
+      "0.70mm kalınlık — endüstriyel sınıf eğilme direnci",
+      "Kırılabilir segment yapısı",
+      "Ekstra keskin (Black Blade) alternatifi",
+      "OLFA HB-20 ve HBB-5B serileriyle tam uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kalın karton ve mukavva kesimi",
+      "Alçıpan (drywall) kesimi",
+      "Halı ve ağır zemin kaplama kesimi",
+      "Deri ve kalın tekstil kesimi",
+      "İnşaat ve tadilat uygulamaları",
+      "Endüstriyel ambalaj"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 126,
-    "slugEN": "b126-segmented-snap-off-25mm"
+    "slugEN": "b126-segmented-snap-off-25mm",
+    "availableSizes": [
+      "127×25×0.70mm — Standart",
+      "126×25×0.70mm — OLFA HB-20 Uyumlu",
+      "126×25×0.70mm — OLFA HBB-5B Ekstra Keskin"
+    ]
   },
   {
     "id": "b125",
     "slug": "b125-segmentsiz-falcata-genislik-25mm",
     "code": "B125",
-    "name": "B125 - SEGMENTSİZ FALÇATA GENİŞLİK: 25mm",
-    "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 25mm. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B125 - Segmentsiz Maket Bıçağı Yedek Ucu 25mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 25mm ekstra geniş segmentsiz (bölünmemiş) maket bıçağı yedek ucu. 0.70mm kalınlık. Kesintisiz tek parça kenar ile ağır endüstriyel uygulamalarda eğilme ve kırılma direnci.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/b125-segmentsiz-falcata-genislik-25mm.jpg",
     "variants": [
       {
-        "id": "b125-segmentsiz-falcata-genislik-25mm-standard",
-        "sku": "B125",
+        "id": "b125-001",
+        "sku": "B125 001 O01",
+        "name": "Segmentsiz Standart 127×25×0.70mm",
+        "dimensions": "127×25×0.70mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "127×25×0.70mm",
+      "edgeAngle": "55°",
+      "packaging": "5 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "25mm ekstra geniş gövde — maksimum kesim derinliği",
+      "0.70mm kalınlık — endüstriyel sınıf eğilme direnci",
+      "Segmentsiz kesintisiz kenar — bölünme riski yok",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Ağır endüstriyel kesim uygulamaları",
+      "Kalın karton ve mukavva",
+      "Halı ve zemin kaplama",
+      "Deri ve kalın tekstil"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 127,
-    "slugEN": "b125-non-segmented-snap-off-25mm"
+    "slugEN": "b125-non-segmented-snap-off-25mm",
+    "availableSizes": [
+      "127×25×0.70mm — Segmentsiz Standart"
+    ]
   },
   {
     "id": "hswb1",
     "slug": "hswb1-segmentsiz-falcata-genislik-25mm-disli",
     "code": "HSWB1",
-    "name": "HSWB1 - SEGMENTSİZ FALÇATA GENİŞLİK: 25mm – DİŞLİ",
-    "description": "SEGMENTSİZ FALÇATA GENİŞLİK: 25mm – DİŞLİ. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "HSWB1 - Dişli Kenarlı Maket Bıçağı Yedek Ucu 25mm",
+    "description": "SK5 yüksek karbonlu çelikten üretilen 25mm ekstra geniş dişli kenarlı (serrated/testere dişli) maket bıçağı yedek ucu. Segmentsiz yapıda. Kalın yalıtım malzemeleri, cam yünü ve fiberglas panellerin kesiminde üstün performans. OLFA HSWB-1 uyumlu.",
     "categoryId": "industrial-blades",
     "subcategoryId": "craft-blades",
     "image": "/images/products/hswb1-segmentsiz-falcata-genislik-25mm-disli.jpg",
     "variants": [
       {
-        "id": "hswb1-segmentsiz-falcata-genislik-25mm-disli-standard",
-        "sku": "HSWB1",
+        "id": "hswb1-001",
+        "sku": "HSWB-1",
+        "name": "OLFA HSWB-1 Dişli Kenar 106×25×0.50mm",
+        "dimensions": "106×25×0.50mm",
+        "material": "SK5 Karbon Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "SK5 Yüksek Karbonlu Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "106×25×0.50mm",
+      "edgeAngle": "Testere dişi profili (serrated)",
+      "packaging": "3 adet/paket"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "SK5 yüksek karbonlu çelik gövde",
+      "25mm ekstra geniş gövde",
+      "Testere dişli kenar profili (serrated edge)",
+      "Segmentsiz yapı — kırılma riski yok",
+      "Kalın lifli malzemelerde sıkışmayan kesim",
+      "OLFA HSWB-1 serisi tam uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kalın cam yünü ve taş yünü kesimi",
+      "Kalın fiberglas panel kesimi",
+      "XPS ve EPS yalıtım levhası kesimi",
+      "İnşaat yalıtım işleri",
+      "Endüstriyel ağır kesim"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 128,
-    "slugEN": "hswb1-non-segmented-snap-off-25mm-toothed"
+    "slugEN": "hswb1-non-segmented-snap-off-25mm-toothed",
+    "availableSizes": [
+      "106×25×0.50mm — Dişli Kenar (Serrated) OLFA HSWB-1"
+    ]
   },
   {
     "id": "b092",
     "slug": "b092-deliksiz",
     "code": "B092",
-    "name": "B092 - DELİKSİZ",
-    "description": "DELİKSİZ. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B092 - Deliksiz Yekpare Maket Bıçağı Yedek Ucu",
+    "description": "Yekpare seramik gövdeli özel tip maket bıçağı yedek ucu. 92×8.2×0.43mm boyutlarında deliksiz tasarım. Montaj deliği bulunmayan özel tutma mekanizmalı el bıçakları için üretilmiştir. Tek parça segmentsiz kenar yapısı.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
+    "subcategoryId": "craft-blades",
     "image": "/images/products/b092-deliksiz.jpg",
     "variants": [
       {
-        "id": "b092-deliksiz-standard",
-        "sku": "B092",
+        "id": "b092-001",
+        "sku": "B092 001",
+        "name": "Deliksiz Yekpare 92×8.2×0.43mm",
+        "dimensions": "92×8.2×0.43mm",
+        "material": "Yekpare Seramik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yekpare Seramik / Sheffield Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "92×8.2×0.43mm",
+      "edgeAngle": "55°",
+      "packaging": "10 adet/tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Yekpare seramik gövde yapısı",
+      "Deliksiz tasarım — özel tutma mekanizmalı bıçaklar için",
+      "92mm uzunluk, 8.2mm genişlik, 0.43mm kalınlık",
+      "Segmentsiz kesintisiz kenar",
+      "Kompakt boyut — dar tip el bıçakları uyumlu",
+      "ISO 9001 üretim standartlarında Sheffield üretimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Deliksiz montaj yuvası olan özel tip el bıçakları",
+      "Hassas endüstriyel kesim",
+      "Maket ve modelleme",
+      "Grafik tasarım uygulamaları"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 129,
-    "slugEN": "b092-holeless-blade"
+    "slugEN": "b092-holeless-blade",
+    "availableSizes": [
+      "92×8.2×0.43mm — Deliksiz Yekpare Seramik"
+    ]
   },
   {
     "id": "b207-2",
@@ -4322,7 +4734,7 @@
     "name": "H501 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
     "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
-    "subcategoryId": "craft-blades",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/h501-001-t03-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -4355,7 +4767,7 @@
     "name": "H502 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
     "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
-    "subcategoryId": "craft-blades",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/h502-001-t03-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -4388,7 +4800,7 @@
     "name": "H503 001 T03 - MAKET BIÇAĞI – FALÇATA",
     "description": "MAKET BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
-    "subcategoryId": "craft-blades",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/h503-001-t03-maket-bicagi-falcata.jpg",
     "variants": [
       {
@@ -4421,7 +4833,7 @@
     "name": "H504 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
     "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
-    "subcategoryId": "craft-blades",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/h504-001-t03-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -4650,7 +5062,7 @@
     "name": "H600 001 T03 - 9mm MAKET EL BIÇAĞI – FALÇATA",
     "description": "9mm MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
-    "subcategoryId": "craft-blades",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/h600-001-t03-9mm-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -4716,7 +5128,7 @@
     "name": "H605 001 T03 - 9mm MAKET EL BIÇAĞI – FALÇATA",
     "description": "9mm MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
-    "subcategoryId": "craft-blades",
+    "subcategoryId": "utility-knives",
     "image": "/images/products/h605-001-t03-9mm-maket-el-bicagi-falcata.jpg",
     "variants": [
       {
@@ -6528,7 +6940,7 @@
     "name": "KUTU - KAPAMA BIÇAKLARI – KOLİ BANDI BIÇAKLARI",
     "description": "KAPAMA BIÇAKLARI – KOLİ BANDI BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
-    "subcategoryId": "koli-bantlama",
+    "subcategoryId": "case-sealer",
     "image": "/images/products/kutu-kapama-bicaklari-koli-bandi-bicaklari.jpg",
     "variants": [
       {

@@ -1038,17 +1038,24 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Le HOB-1 est le modèle le plus grand et le plus épais de la série standard de lames crochet. Avec des dimensions de 90×39,5/20×0,80mm, il est nettement plus imposant que les autres lames crochet. Le corps large permet une découpe plus profonde et plus puissante.</p><p>Avec une épaisseur de 0,80mm, il est plus dur et plus durable que les lames crochet standard de 0,6mm. La configuration simple à 1 trou permet des changements de lame rapides.</p>`,
   },
-  'segmentli': {
-    name: 'Lame Segmentée – Snap-Off Blade',
-    description: 'Lame segmentée sécable permettant de renouveler le tranchant en cassant les segments usagés. Conception économique offrant plusieurs tranchants neufs sur une seule lame.',
-    features: [
-      'Segments sécables',
-      'Tranchant renouvelable',
-      'Économique',
-      'Multiple tranchants',
-      'Utilisation prolongée'
+  'olfa-mtb': {
+    name: 'OLFA-MTB - Lame Sécable 12,5mm',
+    subtitle: 'Lame de rechange compatible OLFA MTB/FWB',
+    description: 'Lame sécable segmentée de 12,5mm en acier SK5 haut carbone. Compatible avec les porte-lames OLFA séries MTB et FWB. Version standard 0,45mm et ultra-tranchante 0,25mm.',
+    shortDescription: 'Lame sécable 12,5mm compatible OLFA MTB-10 et FWB-10. Acier SK5, versions standard et ultra-tranchante.',
+    features: ['Acier SK5 haut carbone', 'Compatible OLFA MTB-10 et FWB-10', 'Segments sécables', 'Épaisseur 0,45mm standard / 0,25mm ultra-fine', 'Largeur 12,5mm pour cutters OLFA moyens', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Cutters OLFA série MTB', 'Cutters OLFA série FWB', 'Design graphique et découpe de précision', 'Application de vinyle et films'],
+    seo: {
+      title: 'OLFA-MTB Lame Sécable 12,5mm | Lame de Rechange OLFA | Alya Blade',
+      description: 'Lame sécable 12,5mm compatible OLFA MTB-10 et FWB-10. Acier SK5, épaisseur 0,45mm standard et 0,25mm ultra-tranchante. Qualité Sheffield, HRC 58-62.',
+      keywords: ['lame OLFA MTB', 'lame sécable 12,5mm', 'OLFA MTB-10', 'OLFA FWB-10', 'lame de rechange OLFA', 'lame cutter 12,5mm'],
+    },
+    benefits: [
+      { title: 'Compatibilité OLFA totale', description: 'Compatible avec les porte-lames OLFA séries MTB et FWB.', icon: 'CheckCircle' },
+      { title: 'Option ultra-tranchante', description: 'Version FWB-10 en 0,25mm pour une découpe de précision exceptionnelle.', icon: 'Target' },
     ],
-    applications: ['Découpe générale', 'Travaux de bureau', 'Artisanat', 'Applications variées nécessitant tranchant frais'],
+    longDescription: '<p>La lame sécable OLFA-MTB de 12,5mm est fabriquée en acier SK5 haut carbone, dureté HRC 58-62. Entièrement compatible avec les porte-lames OLFA séries MTB et FWB.</p><p>Disponible en deux versions : MTB-10 standard (83,3×12,5×0,45mm) et FWB-10 ultra-tranchante (85×12,5×0,25mm). La version ultra-fine de 0,25mm offre une précision de découpe exceptionnelle pour les matériaux fins et les films.</p>',
+    availableSizes: ['83,3×12,5×0,45mm — OLFA MTB-10 Standard', '85×12,5×0,25mm — OLFA FWB-10 Ultra-tranchante'],
   },
 
   // =============================================================================
@@ -1362,121 +1369,194 @@ export const productsFr: Record<string, ProductTranslation> = {
   // LAMES SÉCABLES - CUTTERS UTILITAIRES
   // =============================================================================
   'b122': {
-    name: 'B122 - Lame Sécable Largeur 9mm',
-    description: 'Lame cutter sécable de 9mm de largeur pour cutters de précision. Segments sécables permettant de renouveler le tranchant en cassant les segments usagés.',
-    features: [
-      'Largeur 9mm',
-      'Lame segmentée sécable',
-      'Tranchant renouvelable',
-      'Acier Sheffield haute qualité',
-      'Compatibilité universelle',
-      'Économique'
+    name: 'B122 - Lame Sécable 9mm',
+    subtitle: 'Lame cutter sécable 9mm — Acier SK5',
+    description: 'Lame cutter sécable de 9mm en acier SK5 haut carbone. 13 points de rupture pour renouveler le tranchant. Compatible OLFA AB-10, ABB-50 et SAB-10. Versions standard, inox, TiN et angle 30°.',
+    shortDescription: 'Lame sécable 9mm, acier SK5, 9 variantes : standard, inox SUS420J2, revêtement TiN, angle 30°. Compatible OLFA.',
+    features: ['Acier SK5 haut carbone — HRC 58-62', '13 segments sécables pour renouveler le tranchant', 'Épaisseur 0,40mm (Sheffield) / 0,38mm (compatible OLFA)', 'Option revêtement TiN (nitrure de titane) — durée de vie 3× plus longue', 'Alternative inox SUS420J2 — résistance à la corrosion', 'Version angle 30° — découpe précise vinyle et films', 'Compatible OLFA AB-10, ABB-50, SAB-10', 'Fabrication Sheffield, Angleterre conforme ISO 9001'],
+    applications: ['Emballage et ouverture de cartons', 'Découpe de vinyle, films et revêtements', 'Pose de papier peint', 'Design graphique et finition d\'impression', 'Revêtements de sol PVC et vinyle', 'Opérations logistiques et entrepôt', 'Bureau et papeterie'],
+    seo: {
+      title: 'B122 Lame Cutter Sécable 9mm | Lame de Cutter | Alya Blade',
+      description: 'Lame B122 sécable 9mm en acier SK5. 9 variantes : standard, inox, TiN, angle 30°. Compatible OLFA AB-10. Qualité Sheffield HRC 58-62.',
+      keywords: ['lame cutter 9mm', 'B122', 'lame sécable 9mm', 'lame OLFA AB-10', 'lame cutter TiN', 'lame sécable segmentée'],
+    },
+    benefits: [
+      { title: '9 variantes', description: 'Options standard, inox, TiN et angle 30° pour chaque application.', icon: 'Settings' },
+      { title: 'Revêtement TiN', description: 'Le nitrure de titane offre une durée de vie 3× supérieure au carbone standard.', icon: 'Clock' },
+      { title: 'Qualité Sheffield', description: 'Acier haut carbone traité thermiquement à HRC 58-62 à Sheffield, Angleterre.', icon: 'Award' },
     ],
-    applications: ['Travaux de précision', 'Artisanat', 'Découpe fine', 'Maquettes'],
+    longDescription: '<p>Les lames B122 sécables de 9mm sont fabriquées en acier SK5 haut carbone, dureté HRC 58-62. Avec 13 points de rupture, chaque cassure révèle un tranchant neuf d\'usine.</p><p>Disponibles en 9 variantes : carbone standard, inox SUS420J2 anticorrosion, revêtement TiN (nitrure de titane) durée 3×, angle 30° pour vinyle et films, et versions compatibles OLFA AB-10, AB-10S, ABB-50 et SAB-10.</p><p><strong>Options matériau :</strong> Carbone standard (SK5), inox (SUS420J2), revêtement TiN. Compatible avec tous les cutters standard 9mm dont OLFA, Stanley et Martor.</p>',
+    availableSizes: ['80×9×0,40mm — Standard', '80×9×0,40mm — Inox', '80×9×0,40mm — Revêtement TiN', '72×9×0,40mm — Angle 30°', '72×9×0,40mm — Angle 30° + TiN', '80×9×0,38mm — Compatible OLFA AB-10', '80×9×0,38mm — OLFA AB-10S Inox', '80×9×0,38mm — OLFA ABB-50 Extra-tranchante', '74×9×0,38mm — OLFA SAB-10 Angle 30°'],
   },
   'b124': {
-    name: 'B124 - Lame Sans Segment Largeur 9mm',
-    description: 'Lame cutter non-segmentée de 9mm de largeur offrant un tranchant continu. Idéale pour les découpes longues nécessitant une lame stable.',
-    features: [
-      'Largeur 9mm',
-      'Sans segment - lame continue',
-      'Tranchant stable',
-      'Acier Sheffield',
-      'Découpe fluide',
-      'Usage professionnel'
+    name: 'B124 - Lame Non-Segmentée 9mm',
+    subtitle: 'Lame cutter non-segmentée 9mm — Tranchant continu',
+    description: 'Lame cutter non-segmentée de 9mm en acier SK5 haut carbone. Tranchant continu sans points de rupture pour une découpe droite sans vibration. Compatible avec tous les cutters standard 9mm.',
+    shortDescription: 'Lame non-segmentée 9mm, acier SK5, tranchant continu sans vibration. 80×9×0,40mm.',
+    features: ['Acier SK5 haut carbone', 'Tranchant continu non-segmenté — découpe sans vibration', 'Épaisseur 0,40mm', 'Structure monobloc sans points de rupture — applications lourdes', 'Compatible tous cutters standard 9mm', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Découpes droites de précision', 'Design graphique et maquettisme', 'Découpe de films et revêtements fins', 'Bureau et papeterie'],
+    seo: {
+      title: 'B124 Lame Cutter Non-Segmentée 9mm | Lame Continue | Alya Blade',
+      description: 'Lame B124 non-segmentée 9mm, acier SK5, tranchant continu. 80×9×0,40mm. Découpe droite sans vibration. Qualité Sheffield.',
+      keywords: ['lame non-segmentée 9mm', 'B124', 'lame continue 9mm', 'lame cutter sans segment'],
+    },
+    benefits: [
+      { title: 'Découpe sans vibration', description: 'Tranchant continu sans point de rupture pour une coupe droite et précise.', icon: 'Target' },
+      { title: 'Robustesse supérieure', description: 'Structure monobloc résistant à la flexion sous charges lourdes.', icon: 'Shield' },
     ],
-    applications: ['Découpes longues', 'Travaux de précision', 'Applications continues', 'Usage professionnel'],
+    longDescription: '<p>La lame B124 non-segmentée de 9mm en acier SK5 haut carbone. Le tranchant continu sans points de rupture assure une découpe droite sans aucune vibration.</p><p>Idéale pour les lignes de coupe droites longues et les applications nécessitant une stabilité totale de la lame. Compatible avec tous les cutters standard 9mm.</p>',
+    availableSizes: ['80×9×0,40mm — Non-segmentée standard'],
   },
   'b121': {
-    name: 'B121 - Lame Sécable Largeur 18mm',
-    description: 'Lame cutter sécable standard de 18mm de largeur. Format universel compatible avec la majorité des cutters professionnels.',
-    features: [
-      'Largeur 18mm standard',
-      'Lame segmentée sécable',
-      'Compatibilité universelle',
-      'Acier Sheffield haute qualité',
-      'Tranchant renouvelable',
-      'Usage polyvalent'
+    name: 'B121 - Lame Sécable Industrielle 18mm',
+    subtitle: 'Lame cutter sécable industrielle 18mm — Acier SK5',
+    description: 'Lame cutter sécable de 18mm en acier SK5 haut carbone. 8 points de rupture, épaisseur 0,50mm. Compatible OLFA LB, LBB, LBD, LWB. Versions standard, TiN, extra-tranchante et 15 segments.',
+    shortDescription: 'Lame sécable industrielle 18mm, SK5, 7 variantes : standard, fine 0,43mm, TiN, OLFA LB-10/LBB-50/LBD-50.',
+    features: ['Acier SK5 haut carbone — HRC 58-62', '8 segments sécables pour renouveler le tranchant', 'Épaisseur 0,50mm — applications industrielles lourdes', 'Version fine 0,43mm — découpe de précision', 'Option revêtement TiN — durée 3× plus longue', 'Version OLFA LBD à 15 segments — usage plus économique', 'Compatible OLFA LB-10, LBB-50, LBD-50, LWB-3B', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Découpe de carton et ondulé', 'Revêtements de sol PVC et vinyle', 'Construction et rénovation', 'Emballage et ouverture de cartons', 'Découpe de cuir et textile', 'Pose de papier peint', 'Opérations logistiques et entrepôt'],
+    seo: {
+      title: 'B121 Lame Cutter Sécable 18mm | Lame Industrielle | Alya Blade',
+      description: 'Lame B121 sécable 18mm, acier SK5. 7 variantes : standard 0,50mm, fine 0,43mm, TiN. Compatible OLFA LB-10. Qualité Sheffield.',
+      keywords: ['lame cutter 18mm', 'B121', 'lame sécable 18mm', 'lame OLFA LB-10', 'lame industrielle 18mm', 'lame cutter TiN'],
+    },
+    benefits: [
+      { title: '7 variantes pro', description: 'Standard, fine, TiN, extra-tranchante, 15 segments et dentelée — pour chaque usage.', icon: 'Settings' },
+      { title: 'Résistance industrielle', description: 'Épaisseur 0,50mm pour une résistance supérieure à la flexion.', icon: 'Shield' },
+      { title: 'Compatibilité OLFA', description: 'Compatible avec les séries OLFA LB, LBB, LBD et LWB.', icon: 'CheckCircle' },
     ],
-    applications: ['Découpe générale', 'Emballage', 'Construction', 'Usage quotidien'],
+    longDescription: '<p>Les lames B121 sécables de 18mm sont fabriquées en acier SK5 haut carbone, dureté HRC 58-62. Épaisseur de 0,50mm pour les applications industrielles et 0,43mm pour la découpe de précision.</p><p>Disponibles en 7 variantes dont le revêtement TiN (durée 3×), OLFA LBD-50 à 15 segments pour un usage économique, et LWB-3B à tranchant dentelé pour l\'isolation et la fibre de verre.</p>',
+    availableSizes: ['100×18×0,50mm — Standard 8 segments', '100×18×0,43mm — Version fine', '100×18×0,50mm — Revêtement TiN', '100×18×0,50mm — Compatible OLFA LB-10', '100×18×0,50mm — OLFA LBB-50 Extra-tranchante', '100×18×0,50mm — OLFA LBD-50 15 segments', '100×18×0,50mm — OLFA LWB-3B Dentelée'],
   },
   'b123': {
-    name: 'B123 - Lame Sans Segment Largeur 18mm',
-    description: 'Lame cutter non-segmentée de 18mm offrant stabilité et durabilité pour les découpes exigeantes. Tranchant continu sans points de rupture.',
-    features: [
-      'Largeur 18mm',
-      'Sans segment - stabilité maximale',
-      'Tranchant continu',
-      'Durabilité supérieure',
-      'Acier Sheffield',
-      'Usage intensif'
+    name: 'B123 - Lame Non-Segmentée 18mm',
+    subtitle: 'Lame cutter non-segmentée 18mm — Résistance à la flexion',
+    description: 'Lame cutter non-segmentée de 18mm en acier SK5 haut carbone. Tranchant continu réduisant le risque de flexion et rupture sous charges lourdes. Versions TiN et OLFA LSOL-10.',
+    shortDescription: 'Lame non-segmentée 18mm, SK5, 4 variantes : standard 0,50mm, fine 0,43mm, TiN, OLFA LSOL-10.',
+    features: ['Acier SK5 haut carbone', 'Tranchant continu non-segmenté — résistance à la flexion/rupture', 'Épaisseur standard 0,50mm / fine 0,43mm', 'Option revêtement TiN (nitrure de titane)', 'Compatible OLFA LSOL-10', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Découpe continue sous charges lourdes', 'Carton et ondulé', 'Revêtements de sol PVC et vinyle', 'Cuir et textiles épais', 'Industrie de l\'emballage'],
+    seo: {
+      title: 'B123 Lame Non-Segmentée 18mm | Lame Industrielle Robuste | Alya Blade',
+      description: 'Lame B123 non-segmentée 18mm, acier SK5. 4 variantes : standard, fine, TiN. Compatible OLFA LSOL-10. Qualité Sheffield.',
+      keywords: ['lame non-segmentée 18mm', 'B123', 'lame industrielle robuste', 'lame OLFA LSOL-10', 'lame cutter continue'],
+    },
+    benefits: [
+      { title: 'Résistance à la flexion', description: 'Tranchant continu sans point de rupture résistant à la flexion sous charges lourdes.', icon: 'Shield' },
+      { title: 'Revêtement TiN', description: 'Option nitrure de titane pour une durée de vie prolongée.', icon: 'Clock' },
     ],
-    applications: ['Découpes longues', 'Matériaux épais', 'Applications industrielles', 'Usage intensif'],
+    longDescription: '<p>La lame B123 non-segmentée de 18mm en acier SK5 haut carbone. Le tranchant continu sans points de rupture réduit le risque de flexion et de cassure sous charges lourdes.</p><p>Disponible en 4 variantes : standard (0,50mm), fine (0,43mm), revêtement TiN et compatible OLFA LSOL-10.</p>',
+    availableSizes: ['100×18×0,50mm — Non-segmentée standard', '100×18×0,43mm — Non-segmentée fine', '100×18×0,50mm — Revêtement TiN', '100×18×0,50mm — Compatible OLFA LSOL-10'],
+  },
+  'b123-018': {
+    name: 'B123 018 - Lame Non-Segmentée 18mm – Courte',
+    subtitle: 'Lame cutter courte compacte 60mm',
+    description: 'Lame cutter non-segmentée courte de 18mm en acier SK5 haut carbone. Longueur compacte de 60mm pour manœuvrer dans les espaces restreints. Tranchant continu non-segmenté.',
+    shortDescription: 'Lame courte non-segmentée 60×18×0,50mm. Acier SK5 pour espaces restreints.',
+    features: ['Acier SK5 haut carbone', 'Longueur compacte 60mm — découpe en espace restreint', 'Tranchant continu non-segmenté', 'Épaisseur 0,50mm', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Espaces restreints et confinés', 'Opérations de découpe de précision', 'Maquettisme et modélisme', 'Découpe de goulottes de câbles'],
+    seo: {
+      title: 'B123 018 Lame Cutter Courte 18mm | Lame Compacte | Alya Blade',
+      description: 'Lame B123 018 courte non-segmentée, 60×18×0,50mm. Acier SK5, design compact pour espaces restreints. Qualité Sheffield.',
+      keywords: ['lame cutter courte', 'B123-018', 'lame compacte 18mm', 'lame 60mm'],
+    },
+    benefits: [
+      { title: 'Design compact', description: 'Longueur 60mm offrant une excellente manœuvrabilité en espace restreint.', icon: 'Minimize' },
+    ],
+    longDescription: '<p>La lame B123 018 courte non-segmentée de 60×18×0,50mm. La longueur compacte de 60mm offre une manœuvrabilité supérieure dans les espaces restreints et confinés.</p>',
+    availableSizes: ['60×18×0,50mm — Non-segmentée courte'],
   },
   'b096': {
-    name: 'B096 - Lame Sans Segment 12mm – Fente Ovale',
-    description: 'Lame cutter non-segmentée de 12mm avec système de fixation à fente ovale. Format intermédiaire offrant précision et robustesse.',
-    features: [
-      'Largeur 12mm',
-      'Fente ovale de fixation',
-      'Sans segment',
-      'Format intermédiaire',
-      'Acier Sheffield',
-      'Compatibilité spécifique'
+    name: 'B096 - Lame Non-Segmentée 12mm – Fente Ovale',
+    subtitle: 'Lame cutter 12mm à fente de fixation ovale',
+    description: 'Lame cutter non-segmentée de 12mm en acier SK5 haut carbone. Fente de fixation ovale compatible avec les cutters à mécanisme spécial. 89mm de long, 0,50mm d\'épaisseur. Tranchant continu monobloc.',
+    shortDescription: 'Lame non-segmentée 89×12×0,50mm à fente ovale. Acier SK5.',
+    features: ['Acier SK5 haut carbone', 'Fente de fixation ovale — compatible porte-lames spéciaux', 'Tranchant continu monobloc', '89mm de long, 12mm de large', 'Épaisseur 0,50mm', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Cutters à fente ovale', 'Découpe industrielle de précision', 'Découpe de carton et emballage'],
+    seo: {
+      title: 'B096 Lame Cutter 12mm Ovale | Lame Fente Ovale | Alya Blade',
+      description: 'Lame B096 non-segmentée 12mm à fente ovale, 89×12×0,50mm. Acier SK5. Qualité Sheffield.',
+      keywords: ['lame 12mm ovale', 'B096', 'lame fente ovale', 'lame cutter 12mm'],
+    },
+    benefits: [
+      { title: 'Fente ovale', description: 'Design spécial compatible avec les porte-lames à fente ovale.', icon: 'CheckCircle' },
     ],
-    applications: ['Cutters spécifiques', 'Découpe de précision', 'Applications intermédiaires', 'Usage professionnel'],
+    longDescription: '<p>La lame B096 non-segmentée de 12mm avec fente de fixation ovale unique. Dimensions 89×12×0,50mm en acier SK5 haut carbone. Conçue spécialement pour les cutters à mécanisme de fixation à fente ovale.</p>',
+    availableSizes: ['89×12×0,50mm — Fente ovale unique'],
   },
   'lwb': {
-    name: 'LWB - Lame Sans Segment 18mm – Dentée',
-    description: 'Lame cutter sans segment de 18mm avec tranchant denté. Conception spéciale pour la découpe de matériaux fibreux et synthétiques.',
-    features: [
-      'Largeur 18mm',
-      'Tranchant denté',
-      'Sans segment',
-      'Spécial matériaux fibreux',
-      'Acier Sheffield',
-      'Coupe sans glissement'
+    name: 'LWB - Lame Dentelée 18mm',
+    subtitle: 'Lame cutter dentelée 18mm — Isolation et fibres',
+    description: 'Lame cutter dentelée (denture scie) non-segmentée de 18mm en acier SK5 haut carbone. Performance supérieure pour la laine de verre, laine de roche, fibre de verre, polystyrène et matériaux d\'isolation. Compatible OLFA LWB-3B.',
+    shortDescription: 'Lame dentelée 100×18×0,50mm. Pour laine de verre, fibre de verre et isolation. Compatible OLFA LWB-3B.',
+    features: ['Acier SK5 haut carbone', 'Tranchant dentelé (denture scie) — anti-glissement', 'Non-segmentée — aucun risque de rupture', 'Découpe fluide des matériaux fibreux et poreux', 'Compatible OLFA LWB-3B', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Découpe laine de verre et de roche', 'Panneaux de fibre de verre', 'Découpe polystyrène EPS/XPS', 'Matériaux d\'isolation thermique', 'Construction et rénovation'],
+    seo: {
+      title: 'LWB Lame Dentelée 18mm | Lame Isolation | Alya Blade',
+      description: 'Lame LWB dentelée 18mm, 100×18×0,50mm. Pour laine de verre, fibre de verre, isolation. OLFA LWB-3B. Acier SK5 Sheffield.',
+      keywords: ['lame dentelée 18mm', 'LWB', 'lame isolation', 'lame laine de verre', 'OLFA LWB-3B', 'lame cutter denture scie'],
+    },
+    benefits: [
+      { title: 'Tranchant dentelé spécialisé', description: 'La denture scie empêche le glissement des matériaux fibreux lors de la découpe.', icon: 'Grip' },
+      { title: 'Anti-rupture', description: 'Structure non-segmentée éliminant tout risque de cassure.', icon: 'Shield' },
     ],
-    applications: ['Matériaux fibreux', 'Sangles synthétiques', 'Cordes', 'Textiles épais'],
+    longDescription: '<p>La lame LWB dentelée de 18mm est spécialement conçue pour la découpe de matériaux fibreux et poreux. Le tranchant dentelé empêche le glissement du matériau et assure une coupe nette dès le premier contact.</p><p>Idéale pour la laine de verre, laine de roche, fibre de verre, polystyrène (EPS/XPS) et matériaux d\'isolation. Compatible OLFA LWB-3B.</p>',
+    availableSizes: ['100×18×0,50mm — Tranchant dentelé (denture scie)'],
   },
   'b126': {
-    name: 'B126 - Lame Sécable Largeur 25mm',
-    description: 'Lame cutter sécable robuste de 25mm de largeur pour travaux lourds. Format extra-large pour la découpe de matériaux épais.',
-    features: [
-      'Largeur 25mm extra-large',
-      'Lame segmentée sécable',
-      'Pour travaux lourds',
-      'Acier Sheffield renforcé',
-      'Tranchant renouvelable',
-      'Usage intensif'
+    name: 'B126 - Lame Sécable Extra-Large 25mm',
+    subtitle: 'Lame cutter industrielle sécable 25mm — Épaisseur 0,70mm',
+    description: 'Lame cutter sécable extra-large de 25mm en acier SK5 haut carbone. Épaisseur 0,70mm pour une résistance maximale à la flexion. Applications industrielles lourdes. Compatible OLFA HB-20 et HBB-5B.',
+    shortDescription: 'Lame sécable 25mm, SK5, épaisseur 0,70mm. 3 variantes : standard, OLFA HB-20, OLFA HBB-5B extra-tranchante.',
+    features: ['Acier SK5 haut carbone — HRC 58-62', '25mm extra-large — profondeur de coupe maximale', 'Épaisseur 0,70mm — résistance industrielle à la flexion', 'Structure segmentée sécable', 'Alternative extra-tranchante (Black Blade)', 'Compatible OLFA HB-20 et HBB-5B', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Carton ondulé épais', 'Découpe de plaques de plâtre (drywall)', 'Moquette et revêtements de sol lourds', 'Cuir et textiles épais', 'Construction et rénovation', 'Emballage industriel'],
+    seo: {
+      title: 'B126 Lame Sécable 25mm | Lame Industrielle Extra-Large | Alya Blade',
+      description: 'Lame B126 sécable 25mm, épaisseur 0,70mm, acier SK5. Compatible OLFA HB-20. Qualité Sheffield HRC 58-62.',
+      keywords: ['lame cutter 25mm', 'B126', 'lame sécable extra-large', 'lame OLFA HB-20', 'lame industrielle 25mm', 'lame 0,70mm'],
+    },
+    benefits: [
+      { title: 'Épaisseur industrielle', description: '0,70mm offre une résistance supérieure à la flexion pour les découpes lourdes.', icon: 'Shield' },
+      { title: 'Profondeur maximale', description: '25mm de largeur pour couper les matériaux les plus épais.', icon: 'Maximize' },
+      { title: 'Compatibilité OLFA', description: 'Compatible avec les séries OLFA HB-20 et HBB-5B.', icon: 'CheckCircle' },
     ],
-    applications: ['Travaux lourds', 'Matériaux épais', 'Isolation', 'Construction'],
+    longDescription: '<p>Les lames B126 sécables de 25mm extra-larges sont fabriquées en acier SK5, épaisseur 0,70mm pour une résistance maximale à la flexion. Conçues pour les applications industrielles les plus exigeantes.</p><p>Disponibles en 3 variantes : standard (127×25×0,70mm), compatible OLFA HB-20 et extra-tranchante OLFA HBB-5B (Black Blade).</p>',
+    availableSizes: ['127×25×0,70mm — Standard', '126×25×0,70mm — Compatible OLFA HB-20', '126×25×0,70mm — OLFA HBB-5B Extra-tranchante'],
   },
   'b125': {
-    name: 'B125 - Lame Sans Segment Largeur 25mm',
-    description: 'Lame cutter non-segmentée de 25mm pour les découpes les plus exigeantes. Tranchant continu extra-robuste pour matériaux très épais.',
-    features: [
-      'Largeur 25mm',
-      'Sans segment - robustesse maximale',
-      'Tranchant extra-robuste',
-      'Acier Sheffield premium',
-      'Durabilité exceptionnelle',
-      'Usage industriel intensif'
+    name: 'B125 - Lame Non-Segmentée Extra-Large 25mm',
+    subtitle: 'Lame cutter non-segmentée 25mm — Résistance industrielle',
+    description: 'Lame cutter non-segmentée extra-large de 25mm en acier SK5 haut carbone. Épaisseur 0,70mm. Tranchant continu pour résistance à la flexion et rupture dans les applications industrielles lourdes.',
+    shortDescription: 'Lame non-segmentée 127×25×0,70mm. Acier SK5, tranchant continu industriel.',
+    features: ['Acier SK5 haut carbone — HRC 58-62', '25mm extra-large — profondeur de coupe maximale', 'Épaisseur 0,70mm — résistance industrielle à la flexion', 'Tranchant continu non-segmenté — aucun risque de rupture', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Applications industrielles lourdes', 'Carton ondulé épais', 'Moquette et revêtements de sol', 'Cuir et textiles épais'],
+    seo: {
+      title: 'B125 Lame Non-Segmentée 25mm | Lame Industrielle Robuste | Alya Blade',
+      description: 'Lame B125 non-segmentée 25mm, épaisseur 0,70mm, acier SK5. Tranchant continu industriel. Qualité Sheffield.',
+      keywords: ['lame non-segmentée 25mm', 'B125', 'lame industrielle extra-large', 'lame cutter robuste 25mm'],
+    },
+    benefits: [
+      { title: 'Robustesse maximale', description: 'Tranchant continu en 0,70mm résistant à la flexion dans les conditions les plus difficiles.', icon: 'Shield' },
     ],
-    applications: ['Découpe industrielle lourde', 'Isolation épaisse', 'Revêtements de sol', 'Construction'],
+    longDescription: '<p>La lame B125 non-segmentée de 25mm, épaisseur 0,70mm, offre une résistance maximale à la flexion et à la rupture. Le tranchant continu sans points de rupture est idéal pour les applications industrielles continues.</p>',
+    availableSizes: ['127×25×0,70mm — Non-segmentée standard'],
   },
   'b092': {
-    name: 'B092 - Lame Sans Perforations',
-    description: 'Lame professionnelle sans perforations pour applications spécifiques. Surface de lame continue pour montage sur systèmes propriétaires.',
-    features: [
-      'Sans perforations',
-      'Surface continue',
-      'Montage spécifique',
-      'Acier Sheffield',
-      'Usage spécialisé',
-      'Qualité professionnelle'
+    name: 'B092 - Lame Monobloc Sans Perforations',
+    subtitle: 'Lame céramique monobloc sans trous de fixation',
+    description: 'Lame monobloc à corps céramique sans perforations de fixation. Dimensions 92×8,2×0,43mm. Conçue pour les cutters à mécanisme de fixation spécial sans trou de montage. Tranchant continu non-segmenté.',
+    shortDescription: 'Lame céramique monobloc 92×8,2×0,43mm sans perforations. Pour cutters à fixation spéciale.',
+    features: ['Corps céramique monobloc', 'Sans perforations — pour cutters à fixation spéciale', '92mm de long, 8,2mm de large, 0,43mm d\'épaisseur', 'Tranchant continu non-segmenté', 'Format compact — compatible cutters étroits', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Cutters à fixation sans trou', 'Découpe industrielle de précision', 'Maquettisme et modélisme', 'Applications de design graphique'],
+    seo: {
+      title: 'B092 Lame Monobloc Sans Perforations | Lame Spéciale | Alya Blade',
+      description: 'Lame B092 céramique monobloc sans perforations, 92×8,2×0,43mm. Pour cutters à fixation spéciale. Qualité Sheffield, HRC 58-62.',
+      keywords: ['lame sans perforations', 'B092', 'lame céramique monobloc', 'lame cutter spéciale', 'lame 8,2mm'],
+    },
+    benefits: [
+      { title: 'Design unique', description: 'Corps céramique monobloc sans perforations pour cutters à fixation spéciale.', icon: 'Star' },
+      { title: 'Format compact', description: '92×8,2mm pour le travail dans les espaces restreints.', icon: 'Minimize' },
     ],
-    applications: ['Systèmes propriétaires', 'Applications spéciales', 'Montages personnalisés', 'Usage industriel'],
+    longDescription: '<p>La lame B092 est unique avec son corps céramique monobloc et son design sans perforations de fixation. Dimensions 92×8,2×0,43mm, conçue spécialement pour les cutters à mécanisme de fixation sans trou de montage.</p><p>Le tranchant continu non-segmenté offre une ligne de coupe nette et stable. Idéale pour les applications de précision et le modélisme.</p>',
+    availableSizes: ['92×8,2×0,43mm — Céramique monobloc sans perforations'],
   },
 
   // =============================================================================
@@ -1669,10 +1749,23 @@ export const productsFr: Record<string, ProductTranslation> = {
   // LAMES SUPPLÉMENTAIRES - TYPES DIVERS
   // =============================================================================
   'hswb1': {
-    name: 'HSWB1 - Lame Sans Segment 25mm – Dentée',
-    description: 'Lame cutter sans segment de 25mm avec tranchant denté pour travaux lourds. Acier Sheffield robuste.',
-    features: ['Largeur 25mm', 'Tranchant denté', 'Sans segment', 'Usage intensif', 'Acier Sheffield'],
-    applications: ['Travaux lourds', 'Matériaux fibreux épais', 'Sangles industrielles', 'Construction'],
+    name: 'HSWB1 - Lame Dentelée Extra-Large 25mm',
+    subtitle: 'Lame cutter dentelée 25mm — Isolation épaisse et fibres',
+    description: 'Lame cutter dentelée non-segmentée extra-large de 25mm en acier SK5 haut carbone. Performance supérieure pour la découpe de matériaux d\'isolation épais, laine de verre et panneaux fibreux. Compatible OLFA HSWB-1.',
+    shortDescription: 'Lame dentelée 106×25×0,50mm. Pour isolation épaisse et fibres. Compatible OLFA HSWB-1.',
+    features: ['Acier SK5 haut carbone — HRC 58-62', '25mm extra-large', 'Tranchant dentelé (denture scie)', 'Non-segmentée — aucun risque de rupture', 'Matériaux fibreux épais — sans blocage', 'Compatible OLFA HSWB-1', 'Fabrication Sheffield conforme ISO 9001'],
+    applications: ['Laine de verre et de roche épaisse', 'Panneaux de fibre de verre épais', 'Panneaux d\'isolation XPS et EPS', 'Travaux d\'isolation construction', 'Découpe industrielle lourde'],
+    seo: {
+      title: 'HSWB1 Lame Dentelée 25mm | Lame Isolation Épaisse | Alya Blade',
+      description: 'Lame HSWB1 dentelée 25mm, 106×25×0,50mm. Pour isolation épaisse et fibres. OLFA HSWB-1. Acier SK5 Sheffield.',
+      keywords: ['lame dentelée 25mm', 'HSWB1', 'lame isolation épaisse', 'OLFA HSWB-1', 'lame cutter denture scie 25mm'],
+    },
+    benefits: [
+      { title: '25mm dentelée', description: 'La plus large lame dentelée pour découper les matériaux d\'isolation et fibres les plus épais.', icon: 'Maximize' },
+      { title: 'Compatibilité OLFA', description: 'Compatible avec le porte-lame OLFA HSWB-1.', icon: 'CheckCircle' },
+    ],
+    longDescription: '<p>La lame HSWB1 dentelée de 25mm extra-large est conçue pour découper les matériaux d\'isolation et fibres les plus épais. Le tranchant dentelé empêche le glissement des matériaux fibreux et assure une coupe nette.</p><p>Dimensions 106×25×0,50mm, compatible OLFA HSWB-1. Idéale pour les travaux d\'isolation lourds en construction.</p>',
+    availableSizes: ['106×25×0,50mm — Dentelée OLFA HSWB-1'],
   },
   'kb-5': {
     name: 'KB-5 - Lame de Précision KB-5',

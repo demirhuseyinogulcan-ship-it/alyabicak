@@ -473,10 +473,20 @@ img {
   contain: inline-size;
 }
 
-/* Tüm child elemanlar container'ı aşmasın */
-.prose-article * {
+/* Tüm child elemanlar container'ı aşmasın (grafikler hariç) */
+.prose-article *:not(.not-prose):not(.not-prose *) {
   max-width: 100%;
   box-sizing: border-box;
+}
+
+/* Grafik container'ları (.not-prose) kısıtlamalardan muaf */
+.prose-article .not-prose {
+  max-width: none;
+  overflow: visible;
+  contain: none;
+}
+.prose-article .not-prose * {
+  max-width: none;
 }
 
 /* Tables: horizontal scroll wrapper via CSS */
