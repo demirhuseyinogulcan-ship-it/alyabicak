@@ -1560,189 +1560,103 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
 
   // =============================================================================
-  // LAMES DE PRÉCISION - SÉRIE B1XX
+  // LAMES D'ARTISANAT / LAMES DE HOBBY / LAMES DE COUTEAUX D'ART
   // =============================================================================
   'b111': {
-    name: 'B111 - Lame de Précision Trapézoïdale',
-    description: 'Lame de précision trapézoïdale pour cutters utilitaires. Géométrie optimisée pour une découpe nette et un changement facile.',
-    features: [
-      'Forme trapézoïdale',
-      'Tranchant de précision',
-      'Changement facile',
-      'Acier Sheffield',
-      'Double extrémité',
-      'Économique'
-    ],
-    applications: ['Découpe générale', 'Carton', 'Emballage', 'Travaux d\'entrepôt'],
+    name: 'B111 - Lame d\'Artisanat de Précision N°11',
+    description: 'Lame d\'artisanat/hobby de précision type N°11. 55,5×10,3×0,53mm. La lame de hobby la plus populaire au monde. Disponible en pointe aiguë et arrondie. Compatible X-Acto et OLFA. Pour modélisme, arts graphiques, architecture, électronique et laboratoire.',
+    features: ['Géométrie N°11 — la lame de hobby la plus populaire au monde', '55,5×10,3×0,53mm', 'Pointe aiguë et arrondie', 'Compatible X-Acto et OLFA', 'Découpe de précision pour les détails'],
+    applications: ['Modélisme et miniatures', 'Arts graphiques et illustration', 'Maquettes d\'architecture', 'Ébavurage de circuits électroniques', 'Dissection et préparation en laboratoire'],
   },
   'b112': {
-    name: 'B112 - Lame de Précision B112',
-    description: 'Lame de précision professionnelle modèle B112. Qualité Sheffield pour découpe de haute précision.',
-    features: [
-      'Haute précision',
-      'Qualité Sheffield',
-      'Tranchant durable',
-      'Usage professionnel',
-      'Finition de qualité'
-    ],
-    applications: ['Découpe de précision', 'Applications professionnelles', 'Travaux détaillés', 'Usage industriel'],
+    name: 'B112 - Lame d\'Artisanat Compacte N°12',
+    description: 'Lame de précision compacte type N°12. 42,6×9×0,53mm. Plus petite et agile que la N°11 pour espaces étroits et découpe courbe. Pour design graphique, maroquinerie et arts du papier.',
+    features: ['Géométrie compacte N°12', '42,6×9×0,53mm', 'Taille réduite pour espaces étroits', 'Idéale pour découpes courbes et détaillées', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Design graphique', 'Modélisme de précision', 'Maroquinerie', 'Arts du papier'],
   },
   'b113': {
-    name: 'B113 - Lame de Précision B113',
-    description: 'Lame de précision modèle B113 pour applications nécessitant un tranchant fin et durable. Acier Sheffield haute qualité.',
-    features: [
-      'Tranchant fin',
-      'Durabilité élevée',
-      'Acier Sheffield',
-      'Précision supérieure',
-      'Usage professionnel'
-    ],
-    applications: ['Travaux fins', 'Découpe de précision', 'Artisanat', 'Applications techniques'],
+    name: 'B113 - Lame d\'Artisanat Longue N°13',
+    description: 'Lame de précision longue type N°13. 52,7×9×0,60mm. Ligne de coupe étendue pour coupes droites longues. Épaisseur 0,60mm pour plus de rigidité. Pour modélisme, découpe d\'enseignes et vinyle.',
+    features: ['Géométrie longue N°13', '52,7×9×0,60mm', 'Épaisseur 0,60mm — rigidité et stabilité supplémentaires', 'Pour coupes droites longues', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Modélisme', 'Découpe d\'enseignes', 'Application de vinyle', 'Découpe industrielle de précision'],
   },
   'b114': {
-    name: 'B114 - Lame de Précision B114',
-    description: 'Lame de précision B114 offrant un excellent rapport qualité-prix pour usage quotidien. Construction fiable et tranchant constant.',
-    features: [
-      'Excellent rapport qualité-prix',
-      'Usage quotidien',
-      'Construction fiable',
-      'Tranchant constant',
-      'Acier Sheffield'
-    ],
-    applications: ['Usage quotidien', 'Découpe générale', 'Bureau', 'Applications variées'],
+    name: 'B114 - Lame d\'Artisanat N°14 — Titane et Carbone',
+    description: 'Lame de précision N°14 en deux options : revêtement TiN (nitrure de titane) et acier carbone. 50,3×9×0,60mm. Le revêtement titane offre une durée de vie jusqu\'à 3× plus longue. Tranchant large biseauté pour coupe puissante et contrôlée.',
+    features: ['Géométrie N°14 à tranchant large biseauté', '50,3×9×0,60mm', 'Revêtement TiN — durée de vie jusqu\'à 3× plus longue', 'Acier carbone — tranchant classique', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe de vinyle et films', 'Artisanat professionnel', 'Modélisme intensif', 'Découpe industrielle de précision'],
   },
   'b141': {
-    name: 'B141 - Lame Utilitaire Standard',
-    description: 'Lame utilitaire standard modèle B141 pour cutters universels. Compatibilité large et performance fiable.',
-    features: [
-      'Standard universel',
-      'Compatibilité large',
-      'Performance fiable',
-      'Acier Sheffield',
-      'Qualité constante'
-    ],
-    applications: ['Cutters universels', 'Découpe générale', 'Applications standard', 'Usage polyvalent'],
+    name: 'B141 - Lame de Précision Compacte à Pointe Biseautée',
+    description: 'Lame d\'artisanat compacte à pointe biseautée. 36,8×8,4×0,53mm. Maniabilité supérieure dans les espaces étroits. Pour nettoyage de circuits électroniques, modélisme miniature et ébavurage de précision.',
+    features: ['Design compact à pointe biseautée', '36,8×8,4×0,53mm', 'Idéal pour espaces étroits', 'Ébavurage et nettoyage de précision', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Modélisme miniature', 'Nettoyage de circuits électroniques', 'Travaux de détails fins'],
   },
   'b142': {
-    name: 'B142 - Lame Utilitaire Grande Taille',
-    description: 'Lame utilitaire grande taille pour découpe de matériaux épais. Format agrandi pour plus de stabilité et de puissance de coupe.',
-    features: [
-      'Grande taille',
-      'Stabilité accrue',
-      'Pour matériaux épais',
-      'Acier Sheffield renforcé',
-      'Puissance de coupe',
-      'Usage intensif'
-    ],
-    applications: ['Matériaux épais', 'Travaux lourds', 'Découpe industrielle', 'Applications exigeantes'],
+    name: 'B142 - Lame de Précision Large Grand Format',
+    description: 'Lame d\'artisanat large grand format. 47×11,3×0,63mm. Épaisseur 0,63mm pour usage intensif. Idéale pour découpe sur grandes surfaces et raclage. Pour modélisme, carton et prototypage industriel.',
+    features: ['Design large grand format', '47×11,3×0,63mm', 'Épaisseur 0,63mm — usage intensif', 'Découpe, raclage et nettoyage en une seule lame', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Grand modélisme', 'Raclage et nettoyage de surfaces', 'Prototypage industriel', 'Découpe de carton'],
+  },
+  'b142k': {
+    name: 'B142 Petit - Lame de Précision Compacte — Compatible OLFA KB4-S/5',
+    description: 'Version compacte de la famille B142. Deux options de taille : 40×9×0,53mm standard et 40,5×8×0,50mm compatible OLFA KB4-S/5. Pour modélisme miniature, assemblage électronique et découpe de précision avec couteaux OLFA AK-4.',
+    features: ['Deux options de taille', 'Standard 40×9×0,53mm', 'Compatible OLFA KB4-S/5 en 40,5×8×0,50mm', 'Design compact pour espaces étroits', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Modélisme miniature', 'Assemblage électronique', 'Découpe de détails de précision'],
   },
   'b143': {
-    name: 'B143 - Lame Utilitaire B143',
-    description: 'Lame utilitaire professionnelle B143. Qualité Sheffield pour des performances constantes et durables.',
-    features: [
-      'Qualité professionnelle',
-      'Performances constantes',
-      'Durabilité',
-      'Acier Sheffield',
-      'Polyvalence'
-    ],
-    applications: ['Usage professionnel', 'Découpe quotidienne', 'Applications industrielles', 'Polyvalent'],
+    name: 'B143 - Lame de Précision en Forme de Crochet',
+    description: 'Lame d\'artisanat compacte en forme de crochet. 37×10×0,53mm. La forme courbe excelle dans le raclage, l\'ébavurage et la découpe courbe. Pour maroquinerie, arts du papier et ébavurage industriel.',
+    features: ['Design crochet compact', '37×10×0,53mm', 'Raclage de précision et ébavurage', 'Forme de découpe courbe', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Maroquinerie', 'Arts du papier et ornementation', 'Ébavurage et finition'],
   },
   'b144': {
-    name: 'B144 - Lame Utilitaire B144',
-    description: 'Lame utilitaire modèle B144 pour applications variées. Construction robuste et tranchant durable.',
-    features: [
-      'Construction robuste',
-      'Tranchant durable',
-      'Applications variées',
-      'Acier Sheffield',
-      'Fiabilité'
-    ],
-    applications: ['Applications variées', 'Découpe générale', 'Entrepôt', 'Production'],
+    name: 'B144 - Lame de Précision à Tranchant Plat (Ciseau)',
+    description: 'Lame d\'artisanat à tranchant plat (ciseau). 40×10×0,53mm. Ligne de coupe droite pour découpe linéaire, raclage de surface et pochoirs. Pour préparation d\'impression, découpe de pochoirs et nettoyage industriel.',
+    features: ['Design tranchant plat (ciseau)', '40×10×0,53mm', 'Découpe linéaire et raclage de surfaces', 'Découpe de pochoirs et gabarits', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe de pochoirs et gabarits', 'Raclage et nettoyage de surfaces', 'Préparation d\'impression'],
   },
   'b145': {
-    name: 'B145 - Lame Utilitaire B145',
-    description: 'Lame utilitaire B145 offrant précision et robustesse. Idéale pour les environnements professionnels.',
-    features: [
-      'Précision et robustesse',
-      'Environnement professionnel',
-      'Acier Sheffield',
-      'Performance fiable',
-      'Qualité constante'
-    ],
-    applications: ['Environnements professionnels', 'Découpe de précision', 'Usage industriel', 'Applications exigeantes'],
+    name: 'B145 - Lame de Précision Multi-Tailles — Compatible OLFA KB4-F/5',
+    description: 'Lame à tranchant plat multi-tailles. 4 tailles : 45×12, 45×16, 45×20mm et 35,5×8×0,55mm compatible OLFA KB4-F/5. Pour modélisme professionnel, arts graphiques et découpe de gabarits larges.',
+    features: ['4 options de taille différentes', 'Tailles standard 45×12/16/20mm', 'Compatible OLFA KB4-F/5 en 35,5×8×0,55mm', 'Design tranchant plat pour découpe large', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Modélisme professionnel', 'Arts graphiques et design', 'Découpe de gabarits et pochoirs', 'Raclage de grandes surfaces'],
   },
   'b146': {
-    name: 'B146 - Lame Utilitaire B146',
-    description: 'Lame utilitaire professionnelle B146 avec tranchant optimisé. Excellence Sheffield pour performances supérieures.',
-    features: [
-      'Tranchant optimisé',
-      'Performances supérieures',
-      'Excellence Sheffield',
-      'Durabilité élevée',
-      'Usage intensif'
-    ],
-    applications: ['Performances supérieures', 'Usage intensif', 'Applications professionnelles', 'Industrie'],
+    name: 'B146 - Lame de Précision Large Biseautée',
+    description: 'Lame d\'artisanat large biseautée. 39×11,7×0,63mm. La forme biseautée offre un contrôle supérieur pour les découpes courbes et les travaux de moulage.',
+    features: ['Design large biseauté', '39×11,7×0,63mm', 'Épaisseur 0,63mm — robuste', 'Idéal pour découpes courbes', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe courbe', 'Finition de moules', 'Applications hobby industrielles'],
   },
   'b147': {
-    name: 'B147 - Lame Utilitaire B147',
-    description: 'Lame utilitaire B147 polyvalente pour diverses applications de découpe. Qualité Sheffield garantie.',
-    features: [
-      'Polyvalence',
-      'Qualité Sheffield garantie',
-      'Multiples applications',
-      'Construction fiable',
-      'Rapport qualité-prix'
-    ],
-    applications: ['Diverses applications', 'Polyvalent', 'Usage général', 'Professionnel et particulier'],
+    name: 'B147 - Lame de Précision Pointue Large',
+    description: 'Lame d\'artisanat pointue à corps large. 45×10×0,63mm. Pointe acérée pour des points d\'entrée précis et corps large pour une coupe stable et puissante. Pour maquettes d\'architecture, découpe d\'enseignes et graphisme professionnel.',
+    features: ['Design pointu à corps large', '45×10×0,63mm', 'Épaisseur 0,63mm — usage intensif', 'Découpe de précision à grande échelle', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Maquettes d\'architecture', 'Découpe d\'enseignes', 'Graphisme professionnel'],
   },
   'b148': {
-    name: 'B148 - Lame Utilitaire B148',
-    description: 'Lame utilitaire B148 pour découpe générale. Fiabilité et durabilité pour un usage quotidien.',
-    features: [
-      'Découpe générale',
-      'Fiabilité',
-      'Durabilité',
-      'Usage quotidien',
-      'Acier Sheffield'
-    ],
-    applications: ['Découpe générale', 'Usage quotidien', 'Bureau', 'Entrepôt'],
+    name: 'B148 - Lame de Précision Profilée Courbe',
+    description: 'Lame d\'artisanat à profil courbe. 45,4×10,3×0,63mm. La ligne de coupe courbe excelle dans la découpe de contours et de courbes. Pour maroquinerie, découpe de vinyle et finition décorative.',
+    features: ['Design de coupe courbe', '45,4×10,3×0,63mm', 'Épaisseur 0,63mm', 'Excellent pour contours et courbes', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Maroquinerie', 'Découpe de vinyle', 'Découpe décorative et finition'],
   },
   'b149': {
-    name: 'B149 - Lame Utilitaire B149',
-    description: 'Lame utilitaire B149 avec performances constantes. Idéale pour les applications standardisées.',
-    features: [
-      'Performances constantes',
-      'Applications standardisées',
-      'Qualité uniforme',
-      'Acier Sheffield',
-      'Fiabilité'
-    ],
-    applications: ['Applications standardisées', 'Usage régulier', 'Production', 'Logistique'],
+    name: 'B149 - Lame de Précision Compacte Large',
+    description: 'Lame d\'artisanat compacte large. 39,4×11×0,63mm. Pour raclage de précision et nivellement. Idéale pour post-traitement d\'impression 3D (retrait de supports), miniatures et finition de prototypes.',
+    features: ['Design compact large', '39,4×11×0,63mm', 'Épaisseur 0,63mm', 'Post-traitement impression 3D', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Nettoyage impression 3D et retrait de supports', 'Fabrication de miniatures', 'Raclage de précision et nivellement'],
   },
   'b150': {
-    name: 'B150 - Lame Utilitaire B150',
-    description: 'Lame utilitaire B150 offrant un excellent équilibre entre coût et performance. Usage professionnel quotidien.',
-    features: [
-      'Équilibre coût/performance',
-      'Usage quotidien',
-      'Professionnel',
-      'Acier Sheffield',
-      'Économique'
-    ],
-    applications: ['Usage quotidien professionnel', 'Applications économiques', 'Découpe standard', 'Volume élevé'],
+    name: 'B150 - Lame de Hobby N°25 Usage Intensif',
+    description: 'Lame de hobby N°25 à corps large pour usage intensif. Beaucoup plus large que la N°11 standard. Compatible X-Acto N°25. Pour carton épais, balsa, plastique et matériaux composites.',
+    features: ['Géométrie large N°25', 'Type lame de hobby usage intensif', 'Forme large pour matériaux épais', 'Compatible X-Acto N°25', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Modélisme en balsa', 'Découpe de carton épais', 'Découpe de plastique et composites', 'Prototypage industriel'],
   },
   'b151': {
-    name: 'B151 - Lame Utilitaire B151',
-    description: 'Lame utilitaire B151 pour applications générales. Qualité Sheffield fiable pour tous types de découpe.',
-    features: [
-      'Applications générales',
-      'Qualité Sheffield fiable',
-      'Tous types de découpe',
-      'Construction standard',
-      'Polyvalence'
-    ],
-    applications: ['Applications générales', 'Découpe variée', 'Usage polyvalent', 'Professionnel et domestique'],
+    name: 'B151 - Lame Pointue Large Professionnelle',
+    description: 'Lame de précision professionnelle pointue à corps large. 45×11×0,63mm. Pointe acérée avec corps large et épaisseur 0,63mm pour une coupe puissante et contrôlée. Pour découpe d\'enseignes, modélisme professionnel et mise en forme industrielle.',
+    features: ['Design pointu à corps large', '45×11×0,63mm', 'Épaisseur 0,63mm — usage intensif', 'Mise en forme et découpe à grande échelle', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe d\'enseignes', 'Modélisme professionnel', 'Découpe et mise en forme industrielle'],
   },
 
   // =============================================================================
@@ -1767,29 +1681,38 @@ export const productsFr: Record<string, ProductTranslation> = {
     longDescription: '<p>La lame HSWB1 dentelée de 25mm extra-large est conçue pour découper les matériaux d\'isolation et fibres les plus épais. Le tranchant dentelé empêche le glissement des matériaux fibreux et assure une coupe nette.</p><p>Dimensions 106×25×0,50mm, compatible OLFA HSWB-1. Idéale pour les travaux d\'isolation lourds en construction.</p>',
     availableSizes: ['106×25×0,50mm — Dentelée OLFA HSWB-1'],
   },
+  // =============================================================================
+  // SÉRIE KB — LAMES DE COUTEAUX D'ART COMPATIBLES OLFA
+  // =============================================================================
+  'kb': {
+    name: 'KB - Lame de Couteau d\'Art (Compatible OLFA KB)',
+    description: 'Lame de couteau d\'art compatible OLFA KB. 40,5×6×0,45mm, 1 encoche pour montage facile. Épaisseur ultra-fine de 0,45mm. Pour arts du papier, calligraphie, pochoirs et scrapbooking. Compatible couteaux OLFA AK.',
+    features: ['Lame de remplacement compatible OLFA KB', '40,5×6×0,45mm', '1 encoche pour montage facile et sûr', 'Épaisseur 0,45mm — découpe de précision', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Arts du papier et scrapbooking', 'Calligraphie', 'Découpe de pochoirs et gabarits', 'Travaux de détails ultra-fins'],
+  },
   'kb-5': {
-    name: 'KB-5 - Lame de Précision KB-5',
-    description: 'Lame de précision professionnelle KB-5 pour applications spécialisées. Qualité Sheffield.',
-    features: ['Haute précision', 'Usage spécialisé', 'Qualité Sheffield', 'Tranchant durable'],
-    applications: ['Applications spécialisées', 'Découpe de précision', 'Usage professionnel'],
+    name: 'KB-5 - Lame de Couteau d\'Art Ultra-Compacte',
+    description: 'Lame de couteau d\'art ultra-compacte et ultra-fine. 25×4×0,38mm — la plus petite et la plus fine de toute la série. Épaisseur 0,38mm. Compatible série OLFA AK. Pour arts du papier, calligraphie et travaux miniatures ultra-précis.',
+    features: ['Design ultra-fin et ultra-compact', '25×4×0,38mm — la plus petite lame de hobby de la gamme', 'Épaisseur 0,38mm — précision extrême', 'Compatible série OLFA AK', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Arts du papier', 'Calligraphie', 'Travaux miniatures ultra-précis'],
   },
   'kb4-r5': {
-    name: 'KB4-R/5 - Lame de Précision KB4-R/5',
-    description: 'Lame de précision KB4-R/5 pour cutters professionnels. Construction robuste.',
-    features: ['Précision élevée', 'Construction robuste', 'Qualité Sheffield'],
-    applications: ['Découpe professionnelle', 'Applications de précision'],
+    name: 'KB4-R/5 - Lame de Couteau d\'Art Courbe (Compatible OLFA)',
+    description: 'Lame de couteau d\'art courbe compatible OLFA KB4-R/5. 38,5×6×0,45mm. La forme courbe offre un contrôle supérieur pour découpes arrondies et pochoirs. Compatible couteaux OLFA AK-4.',
+    features: ['Lame de remplacement compatible OLFA KB4-R/5', '38,5×6×0,45mm', 'Forme de découpe courbe pour arcs et contours', 'Épaisseur 0,45mm — découpe de précision', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe courbe et de contours', 'Travaux de pochoirs et gabarits', 'Applications artistiques professionnelles'],
   },
   'kb4-ns3': {
-    name: 'KB4-NS/3 - Lame de Précision KB4-NS/3',
-    description: 'Lame de précision KB4-NS/3 pour applications industrielles. Qualité Sheffield.',
-    features: ['Précision industrielle', 'Qualité Sheffield', 'Usage professionnel'],
-    applications: ['Applications industrielles', 'Découpe de précision'],
+    name: 'KB4-NS/3 - Lame d\'Art Dentelée Étroite',
+    description: 'Lame de couteau d\'art dentelée étroite compatible OLFA KB4-NS/3. 64×11/6×0,35mm. Le tranchant dentelé coupe la mousse, l\'éponge et le polystyrène sans déchirement. Épaisseur ultra-fine 0,35mm. Compatible OLFA AK-4.',
+    features: ['Design dentelé étroit', '64×11/6×0,35mm', 'Épaisseur ultra-fine 0,35mm', 'Coupe mousse et matériaux tendres sans déchirement', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe de mousse', 'Modélisme en polystyrène', 'Découpe d\'éponge et matériaux tendres'],
   },
   'kb4-ws3': {
-    name: 'KB4-WS/3 - Lame de Précision KB4-WS/3',
-    description: 'Lame de précision KB4-WS/3 pour cutters professionnels.',
-    features: ['Précision élevée', 'Qualité Sheffield', 'Usage professionnel'],
-    applications: ['Découpe professionnelle', 'Applications techniques'],
+    name: 'KB4-WS/3 - Lame d\'Art Dentelée Large',
+    description: 'Lame de couteau d\'art dentelée large compatible OLFA KB4-WS/3. 66,5×11/6×0,35mm — la plus longue de la série. Denture large pour mousse épaisse, balsa et matériaux tendres denses sans déchirement. Compatible OLFA AK-4.',
+    features: ['Design dentelé large', '66,5×11/6×0,35mm — la plus longue de la série', 'Épaisseur ultra-fine 0,35mm', 'Coupe mousse épaisse et balsa sans déchirement', 'Qualité Sheffield Durham Duplex'],
+    applications: ['Découpe de mousse épaisse', 'Modélisme en balsa', 'Maquettes d\'architecture en mousse'],
   },
   'b581': {
     name: 'B581 - Lame Industrielle B581',
@@ -1917,9 +1840,9 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'b226': {
     name: 'B226 - Lame Supaslit',
-    description: 'Lame Supaslit B226 pour applications de refendage. Design spécialisé.',
-    features: ['Design Supaslit', 'Refendage spécialisé', 'Qualité Sheffield'],
-    applications: ['Refendage', 'Découpe spécialisée'],
+    description: 'Lame Supaslit industrielle pour le refendage. 44/26×9×0,40mm, deux trous Ø3mm. Conditionnement tube de 12 pièces. Pour machines de refendage de films et papiers de précision. Qualité Sheffield Durham Duplex.',
+    features: ['Design Supaslit — refendage de précision', '44/26×9×0,40mm', 'Configuration 2×Ø3mm trous', 'Conditionnement tube de 12 pièces', 'Pour machines de refendage industrielles'],
+    applications: ['Refendage de films', 'Refendage de papier', 'Machines de refendage de précision'],
   },
   'yuvarlatilmi': {
     name: 'Lame Crochet à Pointe Arrondie',

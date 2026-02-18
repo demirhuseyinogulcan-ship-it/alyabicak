@@ -3016,28 +3016,38 @@
     "slug": "b226-supaslit-jileti",
     "code": "B226",
     "name": "B226 - SUPASLIT JİLETİ",
-    "description": "SUPASLIT JİLETİ. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "Supaslit endüstriyel dilme jileti. 44/26×9×0.40mm, 2×Ø3mm delikli. 12'li tüp ambalajda. Hassas dilme ve slitting makinelerinde kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
     "image": "/images/products/b226-supaslit-jileti.jpg",
     "variants": [
       {
-        "id": "b226-supaslit-jileti-standard",
+        "id": "b226-supaslit-standard",
         "sku": "B226",
+        "name": "Supaslit Jileti 44/26×9×0.40mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "44/26×9×0.40mm",
+      "thickness": "0.40mm",
+      "holes": "2×Ø3mm",
+      "packaging": "12'li tüp"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Supaslit tasarım — hassas dilme",
+      "44/26×9×0.40mm boyut",
+      "2×Ø3mm delik konfigürasyonu",
+      "12'li tüp ambalaj",
+      "Endüstriyel dilme makineleri için"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Dilme makineleri",
+      "Film kesim",
+      "Endüstriyel slitting",
+      "Hassas dilme"
     ],
     "isFeatured": false,
     "isActive": true,
@@ -3046,612 +3056,853 @@
   },
   {
     "id": "b111",
-    "slug": "b111-b111",
+    "slug": "b111-hobi-jileti",
     "code": "B111",
-    "name": "B111 - B111",
-    "description": "B111. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B111 - HOBİ JİLETİ",
+    "description": "B111 hassas hobi jileti. 55.5×10.3×0.53mm, #11 numara bıçak geometrisi. Sivri uçlu ve yuvarlak uçlu varyantları mevcuttur. Maket yapımı, grafik sanatları, mimarlık, model yapım, elektronik montaj ve laboratuvar çalışmalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b111-b111.jpg",
+    "image": "/images/products/b111-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b111-b111-standard",
-        "sku": "B111",
+        "id": "b111-sivri-uclu",
+        "sku": "B111-01",
+        "name": "55.5×10.3×0.53mm Sivri Uçlu",
+        "inStock": true
+      },
+      {
+        "id": "b111-yuvarlak-uclu",
+        "sku": "B111-02",
+        "name": "55.5×10.3×0.53mm Yuvarlak Uçlu",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "55.5×10.3×0.53mm",
+      "thickness": "0.53mm",
+      "bladeType": "#11 Tipi",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "#11 numara bıçak geometrisi — en popüler hobi bıçak tipi",
+      "55.5×10.3×0.53mm boyut",
+      "Sivri uçlu ve yuvarlak uçlu varyantlar",
+      "İnce detay kesim için ideal sivri uç",
+      "X-Acto, OLFA ve benzeri tutucularla uyumlu"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Maket & model yapımı",
+      "Grafik sanatları",
+      "Mimarlık",
+      "Elektronik montaj",
+      "Laboratuvar"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 132
+    "order": 132,
+    "slugEN": "b111-precision-craft-blade"
   },
   {
     "id": "b112",
-    "slug": "b112-b112",
+    "slug": "b112-hobi-jileti",
     "code": "B112",
-    "name": "B112 - B112",
-    "description": "B112. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B112 - HOBİ JİLETİ",
+    "description": "B112 hassas hobi jileti. 42.6×9×0.53mm, kompakt #12 numara bıçak geometrisi. Dar alanlarda ince detay kesim için idealdir. Grafik tasarım, maket yapımı, deri işçiliği ve hassas el sanatlarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b112-b112.jpg",
+    "image": "/images/products/b112-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b112-b112-standard",
+        "id": "b112-standard",
         "sku": "B112",
+        "name": "42.6×9×0.53mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "42.6×9×0.53mm",
+      "thickness": "0.53mm",
+      "bladeType": "#12 Tipi",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "#12 numara kompakt bıçak geometrisi",
+      "42.6×9×0.53mm boyut",
+      "Dar alanlar için küçük profil",
+      "İnce eğrisel kesimler için ideal",
+      "Hassas detay çalışmaları"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Grafik tasarım",
+      "Maket yapımı",
+      "Deri işçiliği",
+      "Hassas el sanatları"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 133
+    "order": 133,
+    "slugEN": "b112-precision-craft-blade"
   },
   {
     "id": "b113",
-    "slug": "b113-b113",
+    "slug": "b113-hobi-jileti",
     "code": "B113",
-    "name": "B113 - B113",
-    "description": "B113. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B113 - HOBİ JİLETİ",
+    "description": "B113 hassas hobi jileti. 52.7×9×0.60mm, uzun profilli #13 numara bıçak geometrisi. Uzun düz kesimler ve hassas dilimleme işlemleri için tasarlanmıştır. Model yapım, tabela kesimi ve endüstriyel hassas kesim uygulamalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b113-b113.jpg",
+    "image": "/images/products/b113-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b113-b113-standard",
+        "id": "b113-standard",
         "sku": "B113",
+        "name": "52.7×9×0.60mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "52.7×9×0.60mm",
+      "thickness": "0.60mm",
+      "bladeType": "#13 Tipi",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "#13 numara uzun profilli bıçak geometrisi",
+      "52.7×9×0.60mm boyut",
+      "0.60mm kalınlık — ekstra dayanıklılık",
+      "Uzun düz kesimler için ideal",
+      "Hassas dilimleme ve şekillendirme"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Model yapımı",
+      "Tabela kesimi",
+      "Endüstriyel hassas kesim",
+      "Vinil kesim"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 134
+    "order": 134,
+    "slugEN": "b113-precision-craft-blade"
   },
   {
     "id": "b114",
-    "slug": "b114-b114",
+    "slug": "b114-hobi-jileti",
     "code": "B114",
-    "name": "B114 - B114",
-    "description": "B114. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B114 - HOBİ JİLETİ",
+    "description": "B114 hassas hobi jileti. 50.3×9×0.60mm, #14 numara bıçak geometrisi. TiN kaplama ve karbon çelik olmak üzere iki varyantla sunulur. Yüksek aşınma direnci gerektiren hassas kesim, vinil kesim ve profesyonel el sanatlarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b114-b114.jpg",
+    "image": "/images/products/b114-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b114-b114-standard",
-        "sku": "B114",
+        "id": "b114-tin-kaplama",
+        "sku": "B114-01",
+        "name": "50.3×9×0.60mm TiN Kaplama",
+        "inStock": true
+      },
+      {
+        "id": "b114-karbon",
+        "sku": "B114-02",
+        "name": "50.3×9×0.60mm Karbon",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik / TiN Kaplama",
+      "hardness": "HRC 58-62",
+      "dimensions": "50.3×9×0.60mm",
+      "thickness": "0.60mm",
+      "bladeType": "#14 Tipi",
+      "coating": "TiN Kaplama / Karbon"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "#14 numara bıçak geometrisi",
+      "50.3×9×0.60mm boyut",
+      "TiN kaplama varyant — %3x daha uzun ömür",
+      "Karbon çelik varyant — klasik keskinlik",
+      "Profesyonel hassas kesim"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Vinil kesim",
+      "Profesyonel el sanatları",
+      "Model yapımı",
+      "Endüstriyel hassas kesim"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 135
+    "order": 135,
+    "slugEN": "b114-precision-craft-blade"
   },
   {
     "id": "b141",
-    "slug": "b141-b141",
+    "slug": "b141-hobi-jileti",
     "code": "B141",
-    "name": "B141 - B141",
-    "description": "B141. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B141 - HOBİ JİLETİ",
+    "description": "B141 hassas hobi jileti. 36.8×8.4×0.53mm, kompakt eğimli uçlu tasarım. Dar ve erişilmesi zor alanlarda hassas kesim için idealdir. Elektronik kart temizliği, ince maket çalışmaları ve minyatür model yapımında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b141-b141.jpg",
+    "image": "/images/products/b141-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b141-b141-standard",
+        "id": "b141-standard",
         "sku": "B141",
+        "name": "36.8×8.4×0.53mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "36.8×8.4×0.53mm",
+      "thickness": "0.53mm",
+      "bladeType": "Eğimli Uç",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Kompakt eğimli uç tasarımı",
+      "36.8×8.4×0.53mm boyut",
+      "Dar alanlar için ideal boyut",
+      "Hassas kesim ve temizlik",
+      "Minyatür çalışmalar için"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Minyatür model yapımı",
+      "Elektronik kart temizliği",
+      "İnce maket çalışmaları",
+      "Hassas detay kesim"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 136
+    "order": 136,
+    "slugEN": "b141-precision-craft-blade"
   },
   {
     "id": "b142",
-    "slug": "b142-buyuk",
+    "slug": "b142-hobi-jileti-buyuk",
     "code": "B142",
-    "name": "B142 - BÜYÜK",
-    "description": "BÜYÜK. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B142 - HOBİ JİLETİ BÜYÜK",
+    "description": "B142 Büyük hobi jileti. 47×11.3×0.63mm, geniş profilli eğimli uç tasarımı. Büyük yüzeylerde düzgün kesim ve sıyırma işlemleri için idealdir. Maket yapımı, karton kesim ve endüstriyel prototip çalışmalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b142-buyuk.jpg",
+    "image": "/images/products/b142-hobi-jileti-buyuk.jpg",
     "variants": [
       {
         "id": "b142-buyuk-standard",
-        "sku": "B142",
+        "sku": "B142-B",
+        "name": "47×11.3×0.63mm Büyük",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "47×11.3×0.63mm",
+      "thickness": "0.63mm",
+      "bladeType": "Geniş Profil — Büyük",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Geniş profilli büyük boy tasarım",
+      "47×11.3×0.63mm boyut",
+      "0.63mm kalınlık — ağır hizmet dayanıklılığı",
+      "Büyük yüzeylerde düzgün kesim",
+      "Sıyırma ve kazıma işlemleri"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Maket yapımı",
+      "Karton kesim",
+      "Endüstriyel prototip",
+      "Sıyırma & kazıma"
     ],
     "isFeatured": false,
     "isActive": true,
     "order": 137,
-    "slugEN": "b142-large-blade"
+    "slugEN": "b142-precision-craft-blade-large"
   },
   {
     "id": "b143",
-    "slug": "b143-b143",
+    "slug": "b143-hobi-jileti",
     "code": "B143",
-    "name": "B143 - B143",
-    "description": "B143. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B143 - HOBİ JİLETİ",
+    "description": "B143 hassas hobi jileti. 37×10×0.53mm, kanca formlu kompakt tasarım. Hassas sıyırma, çapak alma ve eğrisel kesim işlemleri için idealdir. Deri işçiliği, kâğıt sanatları ve ince detay çalışmalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b143-b143.jpg",
+    "image": "/images/products/b143-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b143-b143-standard",
+        "id": "b143-standard",
         "sku": "B143",
+        "name": "37×10×0.53mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "37×10×0.53mm",
+      "thickness": "0.53mm",
+      "bladeType": "Kanca Form",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Kanca formlu kompakt tasarım",
+      "37×10×0.53mm boyut",
+      "Hassas sıyırma ve çapak alma",
+      "Eğrisel kesim profili",
+      "İnce detay çalışmaları"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Deri işçiliği",
+      "Kâğıt sanatları",
+      "Çapak alma",
+      "İnce detay kesim"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 138
+    "order": 138,
+    "slugEN": "b143-precision-craft-blade"
   },
   {
     "id": "b144",
-    "slug": "b144-b144",
+    "slug": "b144-hobi-jileti",
     "code": "B144",
-    "name": "B144 - B144",
-    "description": "B144. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B144 - HOBİ JİLETİ",
+    "description": "B144 hassas hobi jileti. 40×10×0.53mm, düz kenar (chisel) tasarımı. Düzgün çizgisel kesimler, kazıma ve sıyırma işlemleri için idealdir. Stencil kesim, baskı hazırlık ve endüstriyel temizlik uygulamalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b144-b144.jpg",
+    "image": "/images/products/b144-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b144-b144-standard",
+        "id": "b144-standard",
         "sku": "B144",
+        "name": "40×10×0.53mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "40×10×0.53mm",
+      "thickness": "0.53mm",
+      "bladeType": "Düz Kenar (Chisel)",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Düz kenar (chisel) tasarımı",
+      "40×10×0.53mm boyut",
+      "Çizgisel kesim ve kazıma",
+      "Stencil ve şablon kesimi",
+      "Yüzey temizleme ve sıyırma"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Stencil kesim",
+      "Baskı hazırlık",
+      "Endüstriyel temizlik",
+      "Kazıma & sıyırma"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 139
+    "order": 139,
+    "slugEN": "b144-precision-craft-blade"
   },
   {
     "id": "b145",
-    "slug": "b145-b145",
+    "slug": "b145-hobi-jileti-cok-boyutlu",
     "code": "B145",
-    "name": "B145 - B145",
-    "description": "B145. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B145 - HOBİ JİLETİ ÇOK BOYUTLU",
+    "description": "B145 çok boyutlu hobi jileti. 4 farklı boyutta sunulur: 45×12mm, 45×16mm, 45×20mm ve OLFA KB4-F/5 uyumlu 35.5×8mm. Düz kenar tasarımıyla geniş yüzey kesimi, şablon çalışmaları ve profesyonel maket/grafik işlerinde kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b145-b145.jpg",
+    "image": "/images/products/b145-hobi-jileti-cok-boyutlu.jpg",
     "variants": [
       {
-        "id": "b145-b145-standard",
-        "sku": "B145",
+        "id": "b145-45x12",
+        "sku": "B145-01",
+        "name": "45×12×0.63mm",
+        "inStock": true
+      },
+      {
+        "id": "b145-45x16",
+        "sku": "B145-02",
+        "name": "45×16×0.63mm",
+        "inStock": true
+      },
+      {
+        "id": "b145-45x20",
+        "sku": "B145-03",
+        "name": "45×20×0.63mm",
+        "inStock": true
+      },
+      {
+        "id": "b145-olfa-kb4f",
+        "sku": "B145-04",
+        "name": "(OLFA KB4-F/5) 35.5×8×0.55mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "45×12-20×0.63mm (çoklu)",
+      "thickness": "0.63mm / 0.55mm",
+      "bladeType": "Düz Kenar — Çoklu Boyut",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "4 farklı boyut seçeneği",
+      "45×12mm / 45×16mm / 45×20mm standart boyutlar",
+      "OLFA KB4-F/5 uyumlu 35.5×8×0.55mm varyant",
+      "Düz kenar tasarımı — geniş yüzey kesimi",
+      "Profesyonel maket ve grafik çalışmaları"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Profesyonel maket",
+      "Grafik işleri",
+      "Şablon çalışmaları",
+      "Geniş yüzey kesimi"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 140
+    "order": 140,
+    "slugEN": "b145-precision-craft-blade-multi-size"
   },
   {
     "id": "b146",
-    "slug": "b146-b146",
+    "slug": "b146-hobi-jileti",
     "code": "B146",
-    "name": "B146 - B146",
-    "description": "B146. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B146 - HOBİ JİLETİ",
+    "description": "B146 hassas hobi jileti. 39×11.7×0.63mm, eğimli geniş profil tasarımı. Kavisli kesimler, kalıp çalışmaları ve büyük ölçekli maket işlemlerinde kullanılır. 0.63mm kalınlık ile dayanıklı performans.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b146-b146.jpg",
+    "image": "/images/products/b146-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b146-b146-standard",
+        "id": "b146-standard",
         "sku": "B146",
+        "name": "39×11.7×0.63mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "39×11.7×0.63mm",
+      "thickness": "0.63mm",
+      "bladeType": "Eğimli Geniş Profil",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Eğimli geniş profil tasarımı",
+      "39×11.7×0.63mm boyut",
+      "0.63mm kalınlık — dayanıklı",
+      "Kavisli kesimler için ideal",
+      "Kalıp ve maket çalışmaları"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kavisli kesim",
+      "Kalıp çalışmaları",
+      "Büyük ölçekli maket",
+      "Endüstriyel hobi"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 141
+    "order": 141,
+    "slugEN": "b146-precision-craft-blade"
   },
   {
     "id": "b147",
-    "slug": "b147-b147",
+    "slug": "b147-hobi-jileti",
     "code": "B147",
-    "name": "B147 - B147",
-    "description": "B147. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B147 - HOBİ JİLETİ",
+    "description": "B147 hassas hobi jileti. 45×10×0.63mm, sivri uçlu geniş gövdeli tasarım. Büyük ölçekli hassas kesim ve detay çalışmalarında kullanılır. Mimari model yapım, tabela kesimi ve profesyonel grafik uygulamalarında tercih edilir.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b147-b147.jpg",
+    "image": "/images/products/b147-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b147-b147-standard",
+        "id": "b147-standard",
         "sku": "B147",
+        "name": "45×10×0.63mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "45×10×0.63mm",
+      "thickness": "0.63mm",
+      "bladeType": "Sivri Uç — Geniş Gövde",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Sivri uçlu geniş gövde tasarımı",
+      "45×10×0.63mm boyut",
+      "0.63mm kalınlık — ağır hizmet",
+      "Büyük ölçekli hassas kesim",
+      "Mimari ve grafik çalışmalar"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Mimari model yapımı",
+      "Tabela kesimi",
+      "Profesyonel grafik",
+      "Büyük ölçekli detay"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 142
+    "order": 142,
+    "slugEN": "b147-precision-craft-blade"
   },
   {
     "id": "b148",
-    "slug": "b148-b148",
+    "slug": "b148-hobi-jileti",
     "code": "B148",
-    "name": "B148 - B148",
-    "description": "B148. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B148 - HOBİ JİLETİ",
+    "description": "B148 hassas hobi jileti. 45.4×10.3×0.63mm, kavisli profilli kesim bıçağı. Eğrisel ve kontur kesimlerinde mükemmel performans sağlar. Deri işçiliği, kâğıt sanatları, vinil kesim ve dekoratif uygulamalarda kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b148-b148.jpg",
+    "image": "/images/products/b148-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b148-b148-standard",
+        "id": "b148-standard",
         "sku": "B148",
+        "name": "45.4×10.3×0.63mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "45.4×10.3×0.63mm",
+      "thickness": "0.63mm",
+      "bladeType": "Kavisli Profil",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Kavisli profilli kesim tasarımı",
+      "45.4×10.3×0.63mm boyut",
+      "0.63mm kalınlık",
+      "Eğrisel ve kontur kesimleri",
+      "Dekoratif kesim uygulamaları"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Deri işçiliği",
+      "Kâğıt sanatları",
+      "Vinil kesim",
+      "Dekoratif uygulamalar"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 143
+    "order": 143,
+    "slugEN": "b148-precision-craft-blade"
   },
   {
     "id": "b149",
-    "slug": "b149-b149",
+    "slug": "b149-hobi-jileti",
     "code": "B149",
-    "name": "B149 - B149",
-    "description": "B149. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B149 - HOBİ JİLETİ",
+    "description": "B149 hassas hobi jileti. 39.4×11×0.63mm, kompakt geniş profilli tasarım. Hassas sıyırma, düzeltme ve ince kesim işlemleri için idealdir. 3D baskı sonrası temizlik, minyatür model yapımı ve elektronik prototip çalışmalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b149-b149.jpg",
+    "image": "/images/products/b149-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b149-b149-standard",
+        "id": "b149-standard",
         "sku": "B149",
+        "name": "39.4×11×0.63mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "39.4×11×0.63mm",
+      "thickness": "0.63mm",
+      "bladeType": "Kompakt Geniş Profil",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Kompakt geniş profilli tasarım",
+      "39.4×11×0.63mm boyut",
+      "0.63mm kalınlık",
+      "Hassas sıyırma ve düzeltme",
+      "3D baskı post-processing"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "3D baskı temizliği",
+      "Minyatür model yapımı",
+      "Elektronik prototip",
+      "Hassas sıyırma"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 144
+    "order": 144,
+    "slugEN": "b149-precision-craft-blade"
   },
   {
     "id": "b150",
-    "slug": "b150-b150",
+    "slug": "b150-hobi-jileti-25",
     "code": "B150",
-    "name": "B150 - B150",
-    "description": "B150. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B150 - HOBİ JİLETİ #25",
+    "description": "B150 hassas hobi jileti #25. Geniş gövdeli #25 numara bıçak geometrisi. Ağır hizmet hobi ve endüstriyel kesim uygulamalarında kullanılır. Kalın karton, balsawood, plastik ve kompozit malzeme kesiminde tercih edilir.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b150-b150.jpg",
+    "image": "/images/products/b150-hobi-jileti-25.jpg",
     "variants": [
       {
-        "id": "b150-b150-standard",
+        "id": "b150-standard",
         "sku": "B150",
+        "name": "Hobi Jileti #25",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "#25 Numara",
+      "thickness": "0.63mm",
+      "bladeType": "#25 Geniş Gövde",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "#25 numara geniş gövdeli bıçak geometrisi",
+      "Ağır hizmet hobi bıçak tipi",
+      "Kalın malzeme kesimi için geniş profil",
+      "X-Acto #25 uyumlu",
+      "Balsawood, karton ve plastik kesimi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Ağır hizmet hobi kesimi",
+      "Balsawood & plastik",
+      "Kalın karton kesimi",
+      "Kompozit malzeme"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 145
+    "order": 145,
+    "slugEN": "b150-precision-craft-blade-no25"
   },
   {
     "id": "b151",
-    "slug": "b151-b151",
+    "slug": "b151-hobi-jileti",
     "code": "B151",
-    "name": "B151 - B151",
-    "description": "B151. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B151 - HOBİ JİLETİ",
+    "description": "B151 hassas hobi jileti. 45×11×0.63mm, sivri uçlu geniş gövde tasarımı. Büyük ölçekli hassas kesim ve şekillendirme işlemleri için uygundur. Profesyonel maket yapımı, tabela, reklam panosu ve endüstriyel kesim uygulamalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/b151-b151.jpg",
+    "image": "/images/products/b151-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "b151-b151-standard",
+        "id": "b151-standard",
         "sku": "B151",
+        "name": "45×11×0.63mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "45×11×0.63mm",
+      "thickness": "0.63mm",
+      "bladeType": "Sivri Uç — Geniş Gövde",
+      "packaging": "Standart"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Sivri uçlu geniş gövde tasarımı",
+      "45×11×0.63mm boyut",
+      "0.63mm kalınlık — ağır hizmet",
+      "Büyük ölçekli şekillendirme",
+      "Profesyonel endüstriyel kesim"
     ],
     "applications": [
+      "Profesyonel maket yapımı",
+      "Tabela kesimi",
+      "Reklam panosu",
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 146
+    "order": 146,
+    "slugEN": "b151-precision-craft-blade"
   },
   {
     "id": "kb-5",
-    "slug": "kb-5-kb-5",
+    "slug": "kb-5-hobi-jileti",
     "code": "KB-5",
-    "name": "KB-5 - KB-5",
-    "description": "KB-5. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "KB-5 - HOBİ JİLETİ",
+    "description": "KB-5 hassas sanat bıçağı jileti. 25×4×0.38mm, ultra ince ve kompakt. OLFA AK serisi sanat bıçaklarıyla tam uyumlu. Kâğıt sanatları, kaligrafi, ince kesim ve hassas detay çalışmalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/kb-5-kb-5.jpg",
+    "image": "/images/products/kb-5-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "kb-5-kb-5-standard",
+        "id": "kb-5-standard",
         "sku": "KB-5",
+        "name": "25×4×0.38mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "25×4×0.38mm",
+      "thickness": "0.38mm",
+      "bladeType": "Ultra İnce Kompakt",
+      "compatibility": "OLFA AK Serisi"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Ultra ince ve kompakt tasarım",
+      "25×4×0.38mm boyut — en küçük hobi jileti",
+      "0.38mm kalınlık — ultra hassas",
+      "OLFA AK serisi sanat bıçaklarıyla uyumlu",
+      "Kâğıt sanatları ve kaligrafi"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kâğıt sanatları",
+      "Kaligrafi",
+      "İnce kesim",
+      "Hassas detay çalışmaları"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 147
+    "order": 147,
+    "slugEN": "kb-5-precision-art-knife-blade"
   },
   {
     "id": "kb4-r5",
-    "slug": "kb4-r5-kb4-r5",
+    "slug": "kb4-r5-hobi-jileti",
     "code": "KB4-R/5",
-    "name": "KB4-R/5 - KB4-R/5",
-    "description": "KB4-R/5. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "KB4-R/5 - HOBİ JİLETİ",
+    "description": "KB4-R/5 hassas sanat bıçağı jileti. (OLFA KB4-R/5) 38.5×6×0.45mm. OLFA AK-4 serisi sanat bıçaklarıyla tam uyumlu yedek bıçak. Hassas eğrisel kesimler, stencil çalışmaları ve profesyonel sanat uygulamalarında kullanılır.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/kb4-r5-kb4-r5.jpg",
+    "image": "/images/products/kb4-r5-hobi-jileti.jpg",
     "variants": [
       {
-        "id": "kb4-r5-kb4-r5-standard",
+        "id": "kb4-r5-standard",
         "sku": "KB4-R/5",
+        "name": "(OLFA KB4-R/5) 38.5×6×0.45mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "38.5×6×0.45mm",
+      "thickness": "0.45mm",
+      "bladeType": "OLFA KB4-R Uyumlu",
+      "compatibility": "OLFA AK-4 Serisi"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "OLFA KB4-R/5 uyumlu yedek bıçak",
+      "38.5×6×0.45mm boyut",
+      "0.45mm kalınlık — hassas kesim",
+      "Eğrisel kesimler için ideal profil",
+      "Profesyonel sanat ve hobi uygulamaları"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Hassas eğrisel kesim",
+      "Stencil çalışmaları",
+      "Profesyonel sanat",
+      "Hobi uygulamaları"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 148
+    "order": 148,
+    "slugEN": "kb4-r5-precision-art-knife-blade"
   },
   {
     "id": "kb4-ns3",
-    "slug": "kb4-ns3-kb4-ns3",
+    "slug": "kb4-ns3-hobi-jileti-disli",
     "code": "KB4-NS/3",
-    "name": "KB4-NS/3 - KB4-NS/3",
-    "description": "KB4-NS/3. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "KB4-NS/3 - HOBİ JİLETİ DİŞLİ",
+    "description": "KB4-NS/3 dişli hassas sanat bıçağı jileti. (OLFA KB4-NS/3) 64×11/6×0.35mm, dar dişli kenar. Köpük, sünger, polistren ve yumuşak malzeme kesiminde mükemmel performans. OLFA AK-4 serisi uyumlu.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/kb4-ns3-kb4-ns3.jpg",
+    "image": "/images/products/kb4-ns3-hobi-jileti-disli.jpg",
     "variants": [
       {
-        "id": "kb4-ns3-kb4-ns3-standard",
+        "id": "kb4-ns3-standard",
         "sku": "KB4-NS/3",
+        "name": "(OLFA KB4-NS/3) 64×11/6×0.35mm Dişli",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "64×11/6×0.35mm",
+      "thickness": "0.35mm",
+      "bladeType": "Dar Dişli (Narrow Serrated)",
+      "edge": "Dişli Kenar",
+      "compatibility": "OLFA AK-4 Serisi"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Dar dişli kenar (narrow serrated) tasarımı",
+      "64×11/6×0.35mm boyut",
+      "0.35mm ultra ince kalınlık",
+      "Köpük ve yumuşak malzeme kesimi",
+      "OLFA AK-4 serisi uyumlu"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Köpük kesimi",
+      "Sünger & polistren",
+      "Yumuşak malzeme",
+      "Model yapımı"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 149
+    "order": 149,
+    "slugEN": "kb4-ns3-precision-serrated-art-blade"
   },
   {
     "id": "kb4-ws3",
-    "slug": "kb4-ws3-kb4-ws3",
+    "slug": "kb4-ws3-hobi-jileti-disli",
     "code": "KB4-WS/3",
-    "name": "KB4-WS/3 - KB4-WS/3",
-    "description": "KB4-WS/3. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "KB4-WS/3 - HOBİ JİLETİ DİŞLİ",
+    "description": "KB4-WS/3 dişli hassas sanat bıçağı jileti. (OLFA KB4-WS/3) 66.5×11/6×0.35mm, geniş dişli kenar. Köpük, sünger, polistren, balsawood ve yumuşak malzeme kesiminde üstün performans. Daha geniş dişli profil ile kalın köpük kesimi. OLFA AK-4 serisi uyumlu.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hobby-blades",
-    "image": "/images/products/kb4-ws3-kb4-ws3.jpg",
+    "image": "/images/products/kb4-ws3-hobi-jileti-disli.jpg",
     "variants": [
       {
-        "id": "kb4-ws3-kb4-ws3-standard",
+        "id": "kb4-ws3-standard",
         "sku": "KB4-WS/3",
+        "name": "(OLFA KB4-WS/3) 66.5×11/6×0.35mm Dişli",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "66.5×11/6×0.35mm",
+      "thickness": "0.35mm",
+      "bladeType": "Geniş Dişli (Wide Serrated)",
+      "edge": "Dişli Kenar",
+      "compatibility": "OLFA AK-4 Serisi"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Geniş dişli kenar (wide serrated) tasarımı",
+      "66.5×11/6×0.35mm boyut",
+      "0.35mm ultra ince kalınlık",
+      "Kalın köpük ve balsawood kesimi",
+      "OLFA AK-4 serisi uyumlu"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kalın köpük kesimi",
+      "Balsawood",
+      "Sünger & polistren",
+      "Model yapımı"
     ],
     "isFeatured": false,
     "isActive": true,
-    "order": 150
+    "order": 150,
+    "slugEN": "kb4-ws3-precision-serrated-art-blade"
   },
   {
     "id": "b581",
@@ -8445,5 +8696,98 @@
     "isActive": true,
     "order": 275,
     "slugEN": "3-hole-slitting-blade-stainless-titanium-scored-60x22"
+  },
+  {
+    "id": "kb",
+    "slug": "kb-hobi-jileti",
+    "slugEN": "kb-precision-art-knife-blade",
+    "code": "KB",
+    "name": "KB - HOBİ JİLETİ",
+    "description": "KB hassas sanat bıçağı jileti. (OLFA KB) 40.5×6×0.45mm, 1 çentikli. OLFA AK serisi sanat bıçaklarıyla tam uyumlu yedek bıçak. Kâğıt sanatları, ince maket kesimi, stencil ve hassas detay çalışmalarında kullanılır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
+    "image": "/images/products/kb-hobi-jileti.jpg",
+    "variants": [
+      {
+        "id": "kb-standard",
+        "sku": "KB",
+        "name": "(OLFA KB) 40.5×6×0.45mm 1 Çentik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "40.5×6×0.45mm",
+      "thickness": "0.45mm",
+      "bladeType": "OLFA KB Uyumlu",
+      "notches": "1 Çentik",
+      "compatibility": "OLFA AK Serisi"
+    },
+    "features": [
+      "OLFA KB uyumlu yedek bıçak",
+      "40.5×6×0.45mm boyut",
+      "1 çentikli kolay montaj",
+      "0.45mm kalınlık — hassas kesim",
+      "OLFA AK serisi sanat bıçaklarıyla uyumlu"
+    ],
+    "applications": [
+      "Kâğıt sanatları",
+      "İnce maket kesimi",
+      "Stencil",
+      "Hassas detay"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 148
+  },
+  {
+    "id": "b142k",
+    "slug": "b142k-hobi-jileti-kucuk",
+    "slugEN": "b142k-precision-craft-blade-small",
+    "code": "B142K",
+    "name": "B142 KÜÇÜK - HOBİ JİLETİ",
+    "description": "B142 Küçük hobi jileti. İki farklı varyant: 40×9×0.53mm standart ve OLFA KB4-S/5 uyumlu 40.5×8×0.50mm. Kompakt tasarımıyla dar alanlarda hassas kesim. Minyatür model yapımı, elektronik montaj ve ince detay çalışmalarında kullanılır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "hobby-blades",
+    "image": "/images/products/b142k-hobi-jileti-kucuk.jpg",
+    "variants": [
+      {
+        "id": "b142k-standard",
+        "sku": "B142K-01",
+        "name": "40×9×0.53mm",
+        "inStock": true
+      },
+      {
+        "id": "b142k-olfa",
+        "sku": "B142K-02",
+        "name": "(OLFA KB4-S/5) 40.5×8×0.50mm",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 58-62",
+      "dimensions": "40×9×0.53mm / 40.5×8×0.50mm",
+      "thickness": "0.53mm / 0.50mm",
+      "bladeType": "Kompakt Eğimli Uç — Küçük",
+      "compatibility": "OLFA KB4-S/5 uyumlu varyant"
+    },
+    "features": [
+      "İki farklı boyut varyantı",
+      "40×9×0.53mm standart varyant",
+      "OLFA KB4-S/5 uyumlu 40.5×8×0.50mm varyant",
+      "Kompakt tasarım — dar alanlar için",
+      "Hassas detay kesimi"
+    ],
+    "applications": [
+      "Minyatür model yapımı",
+      "Elektronik montaj",
+      "İnce detay",
+      "Hassas kesim"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 138
   }
 ]

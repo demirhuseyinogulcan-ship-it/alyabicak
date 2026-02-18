@@ -3816,6 +3816,1605 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 307,
   },
+
+  // ==========================================================================
+  // HOBİ JİLETLERİ (Precision Craft Blades / Hobby Blades / Art Knife Blades)
+  // ==========================================================================
+  // Uluslararası adlandırma: Precision Craft Blade, Hobby Blade, Scalpel Blade
+  // Kullanım: Maket/model yapımı, grafik sanatları, mimarlık, elektronik montaj,
+  //           deri işçiliği, vinil kesim, 3D baskı temizliği, laboratuvar, kaligrafi
+  // ==========================================================================
+
+  // ─── B226 SUPASLIT JİLETİ ─────────────────────────────────────────────────
+  {
+    id: 'b226',
+    slug: 'b226-supaslit-jileti',
+    slugEN: 'b226-supaslit-blade',
+    code: 'B226',
+    name: 'B226 - SUPASLIT JİLETİ',
+    subtitle: 'Endüstriyel Dilme Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['supaslit', 'dilme jileti', 'slitting blade', 'film kesim', '44mm'],
+
+    shortDescription: 'Supaslit endüstriyel dilme jileti. 44/26×9×0.40mm, 2×Ø3mm delikli. 12\'li tüp ambalajda. Hassas dilme ve slitting makinelerinde kullanılır.',
+
+    longDescription: `<p>B226 Supaslit jileti, endüstriyel dilme (slitting) makinelerinde kullanılmak üzere tasarlanmış özel profilli bir kesici bıçaktır. 44/26×9×0.40mm boyutları ve 2×Ø3mm delik konfigürasyonu ile makinaya hassas montaj sağlar.</p>
+<p>0.40mm ultra ince kalınlık, temiz ve pürüzsüz dilme kenarları oluşturur. 12'li tüp ambalajı ile ekonomik kullanım imkanı sunar.</p>
+<p><strong>Kullanım alanları:</strong> Film dilme, kağıt slitting, ince malzeme dilme makineleri ve hassas endüstriyel dilme operasyonları.</p>`,
+
+    images: {
+      main: { src: '/images/products/b226-supaslit-jileti.jpg', alt: 'B226 Supaslit Jileti - Dilme Bıçağı', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b226-supaslit-jileti.jpg', alt: 'B226 Supaslit', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '44/26×9×0.40mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.40mm', icon: 'Ruler' },
+      { label: 'holes', value: '2×Ø3mm', icon: 'Circle' },
+      { label: 'packaging', value: "12'li Tüp", icon: 'Package' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Film Dilme', icon: 'Film', description: 'Plastik film ve folyo dilme' },
+      { title: 'Kağıt Slitting', icon: 'FileText', description: 'Endüstriyel kağıt dilme' },
+      { title: 'Hassas Dilme', icon: 'Target', description: 'İnce malzeme hassas dilme' },
+    ],
+
+    benefits: [
+      { title: 'Ultra İnce', description: '0.40mm kalınlık — pürüzsüz dilme kenarları.', icon: 'Minimize' },
+      { title: 'Çift Delik Montaj', description: '2×Ø3mm delik — makinaya hassas ve sabit oturma.', icon: 'Target' },
+      { title: 'Ekonomik Ambalaj', description: "12'li tüp — toplu kullanım için ekonomik.", icon: 'Package' },
+    ],
+
+    features: [
+      'Supaslit tasarım — hassas dilme',
+      '44/26×9×0.40mm boyut',
+      '2×Ø3mm delik konfigürasyonu',
+      "12'li tüp ambalaj",
+      'Endüstriyel dilme makineleri için',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b111', 'b112', 'b113'],
+
+    seo: {
+      title: 'B226 Supaslit Jileti 44/26×9mm | Slitting Blade | Alya Bıçak',
+      description: 'B226 Supaslit endüstriyel dilme jileti. 44/26×9×0.40mm, 2×Ø3mm delik, 12\'li tüp. Film, kağıt dilme. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['supaslit jileti', 'dilme bıçağı', 'slitting blade', 'B226', 'film dilme jileti', 'endüstriyel dilme'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 310,
+  },
+
+  // ─── B111 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b111',
+    slug: 'b111-hobi-jileti',
+    slugEN: 'b111-precision-craft-blade',
+    code: 'B111',
+    name: 'B111 - HOBİ JİLETİ',
+    subtitle: '#11 Tipi Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['#11 bıçak', 'hobi jileti', 'precision blade', 'scalpel blade', 'craft blade', 'maket bıçağı'],
+
+    shortDescription: 'B111 hassas hobi jileti. 55.5×10.3×0.53mm, #11 numara bıçak geometrisi. Sivri uçlu ve yuvarlak uçlu varyantlar. Maket yapımı, grafik sanatları, mimarlık ve laboratuvar çalışmalarında kullanılır.',
+
+    longDescription: `<p>B111, dünya genelinde en popüler hobi/hassas kesim bıçak tipi olan <strong>#11 numara geometrisine</strong> sahip profesyonel bir jilet serisidirir. 55.5×10.3×0.53mm boyutlarıyla X-Acto, OLFA ve benzeri standart tutucularla tam uyumludur.</p>
+<p>İki farklı varyant sunulmaktadır: <strong>Sivri Uçlu</strong> — ince detay ve hassas nokta kesimleri için; <strong>Yuvarlak Uçlu</strong> — daha güvenli kullanım ve düzgün çizgisel kesimler için.</p>
+<p><strong>Kullanım alanları:</strong> Maket/model yapımı, grafik sanatları, mimari maket, elektronik PCB temizliği, laboratuvar disseksiyonu, vinil/decal kesimi, kâğıt sanatları, 3D baskı sonrası temizlik, minyatür boyama hazırlığı ve fotoğraf rötuşu.</p>`,
+
+    images: {
+      main: { src: '/images/products/b111-hobi-jileti.jpg', alt: 'B111 Hobi Jileti - #11 Hassas Kesim Bıçağı', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b111-hobi-jileti.jpg', alt: 'B111 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '55.5×10.3×0.53mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.53mm', icon: 'Ruler' },
+      { label: 'bladeType', value: '#11 Tipi', icon: 'Crosshair' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Maket & Model', icon: 'Box', description: 'Model yapımı, maket ve hobi kesim işleri' },
+      { title: 'Grafik Sanatları', icon: 'Palette', description: 'Grafik tasarım ve illüstrasyon' },
+      { title: 'Mimarlık', icon: 'Building', description: 'Mimari maket ve prototip' },
+      { title: 'Elektronik', icon: 'Cpu', description: 'PCB temizliği ve hassas montaj' },
+      { title: 'Laboratuvar', icon: 'FlaskConical', description: 'Laboratuvar disseksiyonu ve numune hazırlama' },
+    ],
+
+    benefits: [
+      { title: '#11 Geometri', description: 'Dünya standartı #11 bıçak profili — en popüler hobi bıçak tipi.', icon: 'Star' },
+      { title: '2 Varyant', description: 'Sivri uçlu (detay) ve yuvarlak uçlu (güvenli) seçenekleri.', icon: 'Layers' },
+      { title: 'Evrensel Uyum', description: 'X-Acto, OLFA ve benzeri standart tutucularla tam uyumlu.', icon: 'Link' },
+    ],
+
+    features: [
+      '#11 numara bıçak geometrisi — en popüler hobi bıçak tipi',
+      '55.5×10.3×0.53mm boyut',
+      'Sivri uçlu ve yuvarlak uçlu varyantlar',
+      'İnce detay kesim için ideal sivri uç',
+      'X-Acto, OLFA ve benzeri tutucularla uyumlu',
+    ],
+
+    availableSizes: [
+      '55.5×10.3×0.53mm — Sivri Uçlu',
+      '55.5×10.3×0.53mm — Yuvarlak Uçlu',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b112', 'b113', 'b114', 'b141'],
+
+    seo: {
+      title: 'B111 Hobi Jileti #11 | Precision Craft Blade | Alya Bıçak',
+      description: 'B111 hassas hobi jileti. 55.5×10.3×0.53mm, #11 numara. Sivri & yuvarlak uçlu. Maket, grafik, mimarlık, elektronik. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['#11 hobi jileti', 'precision craft blade', 'B111', 'maket bıçağı', 'scalpel blade', 'hobby blade', 'grafik sanatları jileti'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 311,
+  },
+
+  // ─── B112 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b112',
+    slug: 'b112-hobi-jileti',
+    slugEN: 'b112-precision-craft-blade',
+    code: 'B112',
+    name: 'B112 - HOBİ JİLETİ',
+    subtitle: '#12 Tipi Kompakt Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['#12 bıçak', 'hobi jileti', 'kompakt', 'precision blade', 'craft blade'],
+
+    shortDescription: 'B112 hassas hobi jileti. 42.6×9×0.53mm, kompakt #12 numara bıçak geometrisi. Dar alanlarda ince detay kesim. Grafik tasarım, maket yapımı ve deri işçiliğinde kullanılır.',
+
+    longDescription: `<p>B112, <strong>#12 numara kompakt bıçak geometrisine</strong> sahip hassas bir hobi jiletidir. 42.6×9×0.53mm boyutlarıyla standart #11 bıçaktan daha küçük ve çevik bir profile sahiptir.</p>
+<p>Dar ve erişilmesi zor alanlarda ince eğrisel kesimler yapmak için idealdir. Kompakt boyutu sayesinde detay çalışmalarında üstün manevra kabiliyeti sunar.</p>
+<p><strong>Kullanım alanları:</strong> Grafik tasarım, ince maket çalışmaları, deri işçiliği, kâğıt sanatları, minyatür boyama hazırlığı ve hassas detay kesimleri.</p>`,
+
+    images: {
+      main: { src: '/images/products/b112-hobi-jileti.jpg', alt: 'B112 Hobi Jileti - #12 Kompakt Hassas Kesim', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b112-hobi-jileti.jpg', alt: 'B112 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '42.6×9×0.53mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.53mm', icon: 'Ruler' },
+      { label: 'bladeType', value: '#12 Tipi', icon: 'Crosshair' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Grafik Tasarım', icon: 'Palette', description: 'İnce detay ve eğrisel kesimler' },
+      { title: 'Maket Yapımı', icon: 'Box', description: 'Kompakt alanlar ve ince çalışmalar' },
+      { title: 'Deri İşçiliği', icon: 'Scissors', description: 'İnce deri ve hassas kesim' },
+    ],
+
+    benefits: [
+      { title: 'Kompakt Profil', description: '#12 numara — dar alanlarda üstün manevra kabiliyeti.', icon: 'Minimize' },
+      { title: 'Eğrisel Kesim', description: 'Küçük yarıçaplı eğrilerde hassas performans.', icon: 'CircleDot' },
+      { title: 'Sheffield Kalite', description: 'İngiliz Sheffield çeliği — uzun ömürlü keskinlik.', icon: 'Shield' },
+    ],
+
+    features: [
+      '#12 numara kompakt bıçak geometrisi',
+      '42.6×9×0.53mm boyut',
+      'Dar alanlar için küçük profil',
+      'İnce eğrisel kesimler için ideal',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b111', 'b113', 'b141'],
+
+    seo: {
+      title: 'B112 Hobi Jileti #12 | Compact Precision Blade | Alya Bıçak',
+      description: 'B112 kompakt hobi jileti. 42.6×9×0.53mm, #12 numara. Grafik tasarım, deri işçiliği, ince maket. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['#12 hobi jileti', 'kompakt craft blade', 'B112', 'ince detay bıçağı', 'precision hobby blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 312,
+  },
+
+  // ─── B113 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b113',
+    slug: 'b113-hobi-jileti',
+    slugEN: 'b113-precision-craft-blade',
+    code: 'B113',
+    name: 'B113 - HOBİ JİLETİ',
+    subtitle: '#13 Tipi Uzun Profilli Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['#13 bıçak', 'hobi jileti', 'uzun profil', 'precision blade', 'craft blade'],
+
+    shortDescription: 'B113 hassas hobi jileti. 52.7×9×0.60mm, uzun profilli #13 numara bıçak geometrisi. Uzun düz kesimler ve hassas dilimleme işlemleri. Model yapımı ve endüstriyel hassas kesim uygulamalarında kullanılır.',
+
+    longDescription: `<p>B113, <strong>#13 numara uzun profilli bıçak geometrisine</strong> sahip hassas bir hobi jiletidir. 52.7×9×0.60mm boyutlarıyla uzun düz kesimlerde mükemmel performans sağlar.</p>
+<p>0.60mm kalınlık, standart 0.53mm hobi jiletlerine göre ekstra dayanıklılık sunar. Uzun kesim hattı sayesinde model yapımı ve tabela kesiminde tercih edilir.</p>
+<p><strong>Kullanım alanları:</strong> Model yapımı, tabela kesimi, vinil uygulama, endüstriyel hassas kesim ve uzun düz dilimleme operasyonları.</p>`,
+
+    images: {
+      main: { src: '/images/products/b113-hobi-jileti.jpg', alt: 'B113 Hobi Jileti - #13 Uzun Profil Hassas Kesim', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b113-hobi-jileti.jpg', alt: 'B113 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '52.7×9×0.60mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.60mm', icon: 'Ruler' },
+      { label: 'bladeType', value: '#13 Tipi', icon: 'Crosshair' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Model Yapımı', icon: 'Box', description: 'Uzun düz kesimler ve şekillendirme' },
+      { title: 'Tabela Kesimi', icon: 'Type', description: 'Vinil ve tabela materyali kesimi' },
+      { title: 'Endüstriyel', icon: 'Factory', description: 'Hassas endüstriyel dilimleme' },
+    ],
+
+    benefits: [
+      { title: 'Uzun Profil', description: '#13 geometri — uzun düz kesimlerde mükemmel performans.', icon: 'ArrowRight' },
+      { title: 'Ekstra Kalın', description: '0.60mm kalınlık — ekstra dayanıklılık ve stabilite.', icon: 'Shield' },
+      { title: 'Hassas Dilimleme', description: 'İnce uç ile hassas başlangıç, uzun gövde ile düzgün kesim.', icon: 'Target' },
+    ],
+
+    features: [
+      '#13 numara uzun profilli bıçak geometrisi',
+      '52.7×9×0.60mm boyut',
+      '0.60mm kalınlık — ekstra dayanıklılık',
+      'Uzun düz kesimler için ideal',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b111', 'b112', 'b114'],
+
+    seo: {
+      title: 'B113 Hobi Jileti #13 | Long Profile Precision Blade | Alya Bıçak',
+      description: 'B113 uzun profil hobi jileti. 52.7×9×0.60mm, #13 numara. Model yapımı, tabela, vinil kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['#13 hobi jileti', 'uzun profil craft blade', 'B113', 'tabela bıçağı', 'precision hobby blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 313,
+  },
+
+  // ─── B114 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b114',
+    slug: 'b114-hobi-jileti',
+    slugEN: 'b114-precision-craft-blade',
+    code: 'B114',
+    name: 'B114 - HOBİ JİLETİ',
+    subtitle: '#14 Tipi Hassas Kesim Jileti — TiN & Karbon',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['#14 bıçak', 'hobi jileti', 'TiN kaplama', 'karbon', 'precision blade'],
+
+    shortDescription: 'B114 hassas hobi jileti. 50.3×9×0.60mm, #14 numara bıçak geometrisi. TiN kaplama ve karbon çelik varyantları. Yüksek aşınma direnci gerektiren hassas kesimde kullanılır.',
+
+    longDescription: `<p>B114, <strong>#14 numara bıçak geometrisine</strong> sahip çift varyantlı profesyonel bir hobi jiletidir. 50.3×9×0.60mm boyutlarıyla hem TiN (Titanyum Nitrit) kaplama hem de karbon çelik seçeneği sunar.</p>
+<p><strong>TiN Kaplama</strong> varyant, standart karbon çeliğe göre 3 kata kadar daha uzun ömür sunar. Altın renkli kaplama sayesinde kolay tanınır. <strong>Karbon</strong> varyant ise klasik keskinlik ve ekonomik maliyet avantajı sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Vinil kesim, profesyonel el sanatları, model yapımı, endüstriyel hassas kesim ve yoğun kullanım gerektiren uygulamalar.</p>`,
+
+    images: {
+      main: { src: '/images/products/b114-hobi-jileti.jpg', alt: 'B114 Hobi Jileti - #14 TiN Kaplama & Karbon', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b114-hobi-jileti.jpg', alt: 'B114 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik / TiN Kaplama', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '50.3×9×0.60mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.60mm', icon: 'Ruler' },
+      { label: 'bladeType', value: '#14 Tipi', icon: 'Crosshair' },
+      { label: 'coating', value: 'TiN Kaplama / Karbon', icon: 'Sparkles' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Vinil Kesim', icon: 'Scissors', description: 'Vinil ve folyo hassas kesimi' },
+      { title: 'El Sanatları', icon: 'Palette', description: 'Profesyonel el sanatları ve hobi' },
+      { title: 'Model Yapımı', icon: 'Box', description: 'Hassas model ve maket kesimi' },
+    ],
+
+    benefits: [
+      { title: 'TiN Kaplama', description: 'Titanyum Nitrit kaplama — 3x daha uzun ömür.', icon: 'Sparkles' },
+      { title: 'Çift Varyant', description: 'TiN kaplama ve karbon çelik — ihtiyaca göre seçim.', icon: 'Layers' },
+      { title: '#14 Geometri', description: 'Geniş kesim açısı — kontrollü ve güçlü kesim.', icon: 'Target' },
+    ],
+
+    features: [
+      '#14 numara bıçak geometrisi',
+      '50.3×9×0.60mm boyut',
+      'TiN kaplama varyant — 3x daha uzun ömür',
+      'Karbon çelik varyant — klasik keskinlik',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: [
+      '50.3×9×0.60mm — TiN Kaplama',
+      '50.3×9×0.60mm — Karbon',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b111', 'b113', 'b147'],
+
+    seo: {
+      title: 'B114 Hobi Jileti #14 TiN Kaplama & Karbon | Precision Blade | Alya Bıçak',
+      description: 'B114 hassas hobi jileti. 50.3×9×0.60mm, #14 numara. TiN kaplama & karbon varyantları. Vinil, model, el sanatları. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['#14 hobi jileti', 'TiN kaplama bıçak', 'B114', 'titanyum nitrit jilet', 'precision craft blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 314,
+  },
+
+  // ─── B141 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b141',
+    slug: 'b141-hobi-jileti',
+    slugEN: 'b141-precision-craft-blade',
+    code: 'B141',
+    name: 'B141 - HOBİ JİLETİ',
+    subtitle: 'Kompakt Eğimli Uç Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['kompakt', 'eğimli uç', 'hobi jileti', 'minyatür', 'precision blade'],
+
+    shortDescription: 'B141 hassas hobi jileti. 36.8×8.4×0.53mm, kompakt eğimli uçlu tasarım. Dar alanlarda hassas kesim. Elektronik kart temizliği ve minyatür model yapımında kullanılır.',
+
+    longDescription: `<p>B141, 36.8×8.4×0.53mm boyutlarıyla kompakt eğimli uçlu bir hassas hobi jiletidir. Küçük boyutu sayesinde dar ve erişilmesi zor alanlarda üstün manevra kabiliyeti sunar.</p>
+<p><strong>Kullanım alanları:</strong> Elektronik kart temizliği, minyatür model yapımı, PCB prototip düzeltme, ince maket çalışmaları ve hassas detay kesim.</p>`,
+
+    images: {
+      main: { src: '/images/products/b141-hobi-jileti.jpg', alt: 'B141 Hobi Jileti - Kompakt Eğimli Uç', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b141-hobi-jileti.jpg', alt: 'B141 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '36.8×8.4×0.53mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.53mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Eğimli Uç', icon: 'Crosshair' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Minyatür', icon: 'Box', description: 'Minyatür model yapımı ve detay' },
+      { title: 'Elektronik', icon: 'Cpu', description: 'PCB ve elektronik kart temizliği' },
+      { title: 'İnce Maket', icon: 'Layers', description: 'Hassas maket ve detay çalışmaları' },
+    ],
+
+    benefits: [
+      { title: 'Kompakt', description: '36.8mm — dar alanlarda üstün manevra.', icon: 'Minimize' },
+      { title: 'Eğimli Uç', description: 'Açılı kesim profili — zor açılarda kontrol.', icon: 'CornerRightDown' },
+      { title: 'Hassas', description: '0.53mm kalınlık — ince detay çalışmaları için.', icon: 'Target' },
+    ],
+
+    features: [
+      'Kompakt eğimli uç tasarımı',
+      '36.8×8.4×0.53mm boyut',
+      'Dar alanlar için ideal boyut',
+      'Hassas kesim ve temizlik',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b142', 'b143', 'b111'],
+
+    seo: {
+      title: 'B141 Hobi Jileti Kompakt | Precision Craft Blade | Alya Bıçak',
+      description: 'B141 kompakt hobi jileti. 36.8×8.4×0.53mm, eğimli uç. Minyatür model, elektronik, ince maket. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B141 hobi jileti', 'kompakt craft blade', 'minyatür bıçağı', 'precision blade', 'elektronik kesim'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 315,
+  },
+
+  // ─── B142 BÜYÜK HOBİ JİLETİ ───────────────────────────────────────────────
+  {
+    id: 'b142',
+    slug: 'b142-hobi-jileti-buyuk',
+    slugEN: 'b142-precision-craft-blade-large',
+    code: 'B142',
+    name: 'B142 - HOBİ JİLETİ BÜYÜK',
+    subtitle: 'Geniş Profil Büyük Boy Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['büyük', 'geniş profil', 'hobi jileti', 'precision blade', 'chisel'],
+
+    shortDescription: 'B142 Büyük hobi jileti. 47×11.3×0.63mm, geniş profilli eğimli uç. Büyük yüzeylerde düzgün kesim ve sıyırma. Maket yapımı ve endüstriyel prototip çalışmalarında kullanılır.',
+
+    longDescription: `<p>B142 Büyük, 47×11.3×0.63mm boyutlarıyla geniş profilli bir hobi jiletidir. 0.63mm kalınlık ile ağır hizmet dayanıklılığı sunar.</p>
+<p>Geniş eğimli uç tasarımı, büyük yüzeylerde düzgün kesim, sıyırma ve kazıma işlemlerini kolaylaştırır.</p>
+<p><strong>Kullanım alanları:</strong> Maket yapımı, karton kesim, endüstriyel prototip, sıyırma ve kazıma operasyonları.</p>`,
+
+    images: {
+      main: { src: '/images/products/b142-hobi-jileti-buyuk.jpg', alt: 'B142 Büyük Hobi Jileti - Geniş Profil', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b142-hobi-jileti-buyuk.jpg', alt: 'B142 Büyük', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '47×11.3×0.63mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Geniş Profil — Büyük', icon: 'Maximize' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Maket Yapımı', icon: 'Box', description: 'Büyük yüzeylerde düzgün kesim' },
+      { title: 'Sıyırma & Kazıma', icon: 'Eraser', description: 'Yüzey sıyırma ve kazıma' },
+      { title: 'Prototip', icon: 'Cpu', description: 'Endüstriyel prototip çalışmaları' },
+    ],
+
+    benefits: [
+      { title: 'Geniş Profil', description: '47×11.3mm — büyük yüzeylerde verimli kesim.', icon: 'Maximize' },
+      { title: 'Ağır Hizmet', description: '0.63mm kalınlık — yoğun kullanıma dayanıklı.', icon: 'Shield' },
+      { title: 'Çok Amaçlı', description: 'Kesim, sıyırma ve kazıma tek bıçakta.', icon: 'Layers' },
+    ],
+
+    features: [
+      'Geniş profilli büyük boy tasarım',
+      '47×11.3×0.63mm boyut',
+      '0.63mm kalınlık — ağır hizmet',
+      'Sıyırma ve kazıma yapabilme',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b142k', 'b144', 'b145'],
+
+    seo: {
+      title: 'B142 Büyük Hobi Jileti 47×11.3mm | Large Craft Blade | Alya Bıçak',
+      description: 'B142 Büyük hobi jileti. 47×11.3×0.63mm geniş profil. Maket, sıyırma, kazıma, prototip. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B142 büyük', 'geniş profil jilet', 'large craft blade', 'sıyırma bıçağı', 'hobi jileti'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 316,
+  },
+
+  // ─── B142K KÜÇÜK HOBİ JİLETİ ──────────────────────────────────────────────
+  {
+    id: 'b142k',
+    slug: 'b142k-hobi-jileti-kucuk',
+    slugEN: 'b142k-precision-craft-blade-small',
+    code: 'B142K',
+    name: 'B142 KÜÇÜK - HOBİ JİLETİ',
+    subtitle: 'Kompakt Eğimli Uç Hassas Kesim Jileti — OLFA Uyumlu',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['kompakt', 'küçük', 'OLFA uyumlu', 'KB4-S/5', 'hobi jileti', 'precision blade'],
+
+    shortDescription: 'B142 Küçük hobi jileti. İki varyant: 40×9×0.53mm standart ve OLFA KB4-S/5 uyumlu 40.5×8×0.50mm. Minyatür model yapımı ve elektronik montajda kullanılır.',
+
+    longDescription: `<p>B142 Küçük, B142 ailesinin kompakt versiyonudur. İki farklı boyut varyantıyla sunulur: standart 40×9×0.53mm ve OLFA KB4-S/5 uyumlu 40.5×8×0.50mm.</p>
+<p>Kompakt eğimli uç tasarımı, dar alanlarda hassas kesim ve detay çalışmalarında üstün performans sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Minyatür model yapımı, elektronik montaj, ince detay kesimleri ve OLFA AK-4 serisi sanat bıçaklarıyla uyumlu yedek bıçak olarak.</p>`,
+
+    images: {
+      main: { src: '/images/products/b142k-hobi-jileti-kucuk.jpg', alt: 'B142 Küçük Hobi Jileti - OLFA Uyumlu', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b142k-hobi-jileti-kucuk.jpg', alt: 'B142 Küçük', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '40×9×0.53mm / 40.5×8×0.50mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.53mm / 0.50mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Kompakt Eğimli Uç — Küçük', icon: 'Crosshair' },
+      { label: 'compatibility', value: 'OLFA KB4-S/5 uyumlu', icon: 'Link' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Minyatür', icon: 'Box', description: 'Minyatür model yapımı' },
+      { title: 'Elektronik', icon: 'Cpu', description: 'Elektronik montaj ve detay' },
+      { title: 'İnce Detay', icon: 'Target', description: 'Hassas detay kesimleri' },
+    ],
+
+    benefits: [
+      { title: 'OLFA Uyumlu', description: 'KB4-S/5 varyant — OLFA AK-4 serisiyle tam uyum.', icon: 'Link' },
+      { title: 'Çift Boyut', description: '40×9mm ve 40.5×8mm — ihtiyaca göre seçim.', icon: 'Layers' },
+      { title: 'Kompakt', description: 'Küçük boyut — dar alanlarda üstün manevra.', icon: 'Minimize' },
+    ],
+
+    features: [
+      'İki farklı boyut varyantı',
+      '40×9×0.53mm standart varyant',
+      'OLFA KB4-S/5 uyumlu 40.5×8×0.50mm varyant',
+      'Kompakt tasarım — dar alanlar için',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: [
+      '40×9×0.53mm — Standart',
+      '(OLFA KB4-S/5) 40.5×8×0.50mm — OLFA Uyumlu',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b142', 'b141', 'b144'],
+
+    seo: {
+      title: 'B142 Küçük Hobi Jileti OLFA Uyumlu | Small Craft Blade | Alya Bıçak',
+      description: 'B142 Küçük hobi jileti. 40×9mm & OLFA KB4-S/5 uyumlu 40.5×8mm. Minyatür model, elektronik, detay. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B142 küçük', 'OLFA KB4-S/5 uyumlu', 'kompakt craft blade', 'minyatür jilet', 'hobi bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 317,
+  },
+
+  // ─── B143 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b143',
+    slug: 'b143-hobi-jileti',
+    slugEN: 'b143-precision-craft-blade',
+    code: 'B143',
+    name: 'B143 - HOBİ JİLETİ',
+    subtitle: 'Kanca Form Kompakt Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['kanca form', 'hobi jileti', 'sıyırma', 'çapak alma', 'precision blade'],
+
+    shortDescription: 'B143 hassas hobi jileti. 37×10×0.53mm, kanca formlu kompakt tasarım. Hassas sıyırma, çapak alma ve eğrisel kesim. Deri işçiliği ve kâğıt sanatlarında kullanılır.',
+
+    longDescription: `<p>B143, 37×10×0.53mm boyutlarıyla kanca formlu kompakt bir hobi jiletidir. Eğrisel profili sayesinde sıyırma, çapak alma ve kavisli kesim işlemlerinde üstün performans gösterir.</p>
+<p><strong>Kullanım alanları:</strong> Deri işçiliği, kâğıt sanatları, çapak alma, ince detay kesim ve dekoratif sıyırma.</p>`,
+
+    images: {
+      main: { src: '/images/products/b143-hobi-jileti.jpg', alt: 'B143 Hobi Jileti - Kanca Form', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b143-hobi-jileti.jpg', alt: 'B143 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '37×10×0.53mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.53mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Kanca Form', icon: 'Anchor' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Deri İşçiliği', icon: 'Scissors', description: 'İnce deri kesim ve sıyırma' },
+      { title: 'Kâğıt Sanatları', icon: 'FileText', description: 'Dekoratif kâğıt kesimi' },
+      { title: 'Çapak Alma', icon: 'Eraser', description: 'Hassas çapak alma işlemleri' },
+    ],
+
+    benefits: [
+      { title: 'Kanca Form', description: 'Eğrisel profil — sıyırma ve kavisli kesimde üstün.', icon: 'Anchor' },
+      { title: 'Kompakt', description: '37mm — erişilmesi zor alanlarda verimli.', icon: 'Minimize' },
+      { title: 'Çok Fonksiyonlu', description: 'Kesim, sıyırma ve çapak alma tek bıçakta.', icon: 'Layers' },
+    ],
+
+    features: [
+      'Kanca formlu kompakt tasarım',
+      '37×10×0.53mm boyut',
+      'Hassas sıyırma ve çapak alma',
+      'Eğrisel kesim profili',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b141', 'b144', 'b146'],
+
+    seo: {
+      title: 'B143 Hobi Jileti Kanca Form | Hook Craft Blade | Alya Bıçak',
+      description: 'B143 kanca form hobi jileti. 37×10×0.53mm. Deri işçiliği, kâğıt sanatları, çapak alma. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B143 hobi jileti', 'kanca form bıçak', 'sıyırma jileti', 'çapak alma', 'hook craft blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 318,
+  },
+
+  // ─── B144 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b144',
+    slug: 'b144-hobi-jileti',
+    slugEN: 'b144-precision-craft-blade',
+    code: 'B144',
+    name: 'B144 - HOBİ JİLETİ',
+    subtitle: 'Düz Kenar (Chisel) Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['düz kenar', 'chisel', 'hobi jileti', 'stencil', 'precision blade'],
+
+    shortDescription: 'B144 hassas hobi jileti. 40×10×0.53mm, düz kenar (chisel) tasarımı. Çizgisel kesim, kazıma ve stencil işlemleri. Baskı hazırlık ve endüstriyel temizlikte kullanılır.',
+
+    longDescription: `<p>B144, 40×10×0.53mm boyutlarıyla düz kenar (chisel) tasarımlı bir hobi jiletidir. Düz kesim hattı sayesinde çizgisel kesimler, kazıma ve sıyırma işlemlerinde mükemmel performans sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Stencil ve şablon kesimi, baskı hazırlık, yüzey kazıma ve temizleme, endüstriyel temizlik uygulamaları.</p>`,
+
+    images: {
+      main: { src: '/images/products/b144-hobi-jileti.jpg', alt: 'B144 Hobi Jileti - Düz Kenar Chisel', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b144-hobi-jileti.jpg', alt: 'B144 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '40×10×0.53mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.53mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Düz Kenar (Chisel)', icon: 'Minus' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Stencil Kesim', icon: 'Layers', description: 'Stencil ve şablon kesimi' },
+      { title: 'Kazıma', icon: 'Eraser', description: 'Yüzey kazıma ve temizleme' },
+      { title: 'Baskı Hazırlık', icon: 'Printer', description: 'Baskı öncesi malzeme hazırlığı' },
+    ],
+
+    benefits: [
+      { title: 'Düz Kenar', description: 'Chisel profil — çizgisel kesimlerde mükemmel düzlük.', icon: 'Minus' },
+      { title: 'Çok Fonksiyonlu', description: 'Kesim, kazıma ve sıyırma — tek bıçak.', icon: 'Layers' },
+      { title: 'Verimli', description: '40mm geniş kenar — geniş yüzeylerde verimli çalışma.', icon: 'Maximize' },
+    ],
+
+    features: [
+      'Düz kenar (chisel) tasarımı',
+      '40×10×0.53mm boyut',
+      'Çizgisel kesim ve kazıma',
+      'Stencil ve şablon kesimi',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b142', 'b145', 'b143'],
+
+    seo: {
+      title: 'B144 Hobi Jileti Chisel | Flat Edge Craft Blade | Alya Bıçak',
+      description: 'B144 düz kenar hobi jileti. 40×10×0.53mm chisel. Stencil, kazıma, baskı hazırlık. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B144 hobi jileti', 'chisel blade', 'düz kenar bıçak', 'stencil jileti', 'flat edge craft blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 319,
+  },
+
+  // ─── B145 HOBİ JİLETİ ÇOK BOYUTLU ────────────────────────────────────────
+  {
+    id: 'b145',
+    slug: 'b145-hobi-jileti-cok-boyutlu',
+    slugEN: 'b145-precision-craft-blade-multi-size',
+    code: 'B145',
+    name: 'B145 - HOBİ JİLETİ ÇOK BOYUTLU',
+    subtitle: 'Çoklu Boyut Düz Kenar Hassas Kesim Jileti — OLFA Uyumlu',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['çok boyutlu', 'düz kenar', 'OLFA uyumlu', 'KB4-F/5', 'hobi jileti'],
+
+    shortDescription: 'B145 çok boyutlu hobi jileti. 4 farklı boyut: 45×12mm, 45×16mm, 45×20mm ve OLFA KB4-F/5 uyumlu 35.5×8mm. Geniş yüzey kesimi ve profesyonel grafik işlerinde kullanılır.',
+
+    longDescription: `<p>B145, <strong>4 farklı boyutta</strong> sunulan çok yönlü bir düz kenar hobi jiletidir. 45×12mm, 45×16mm ve 45×20mm standart boyutlarının yanı sıra OLFA KB4-F/5 uyumlu 35.5×8×0.55mm varyantı da mevcuttur.</p>
+<p>Farklı genişliklerdeki düz kenar profilleri, çeşitli kesim ihtiyaçlarına tek ürün ailesiyle çözüm sunar. Dar kesimlerden geniş yüzey sıyırmaya kadar geniş bir uygulama yelpazesi.</p>
+<p><strong>Kullanım alanları:</strong> Profesyonel maket yapımı, grafik işleri, şablon kesimi, geniş yüzey sıyırma, baskı hazırlık ve OLFA AK-4 serisi uyumlu yedek bıçak.</p>`,
+
+    images: {
+      main: { src: '/images/products/b145-hobi-jileti-cok-boyutlu.jpg', alt: 'B145 Çok Boyutlu Hobi Jileti', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b145-hobi-jileti-cok-boyutlu.jpg', alt: 'B145 Çok Boyutlu', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '45×12-20×0.63mm (çoklu)', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm / 0.55mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Düz Kenar — Çoklu Boyut', icon: 'Minus' },
+      { label: 'compatibility', value: 'OLFA KB4-F/5 uyumlu', icon: 'Link' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Profesyonel Maket', icon: 'Box', description: 'Büyük ölçekli maket yapımı' },
+      { title: 'Grafik İşleri', icon: 'Palette', description: 'Profesyonel grafik ve tasarım' },
+      { title: 'Şablon Kesim', icon: 'Layers', description: 'Geniş şablon ve stencil işleri' },
+    ],
+
+    benefits: [
+      { title: '4 Boyut', description: '12mm, 16mm, 20mm ve 35.5mm — her ihtiyaca uygun.', icon: 'Layers' },
+      { title: 'OLFA Uyumlu', description: 'KB4-F/5 varyant — OLFA AK-4 serisiyle tam uyum.', icon: 'Link' },
+      { title: 'Çok Yönlü', description: 'Dar kesimden geniş sıyırmaya — tek ürün ailesi.', icon: 'ArrowLeftRight' },
+    ],
+
+    features: [
+      '4 farklı boyut seçeneği',
+      '45×12mm / 45×16mm / 45×20mm standart boyutlar',
+      'OLFA KB4-F/5 uyumlu 35.5×8×0.55mm varyant',
+      'Düz kenar tasarımı — geniş yüzey kesimi',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: [
+      '45×12×0.63mm',
+      '45×16×0.63mm',
+      '45×20×0.63mm',
+      '(OLFA KB4-F/5) 35.5×8×0.55mm',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b144', 'b142', 'b150'],
+
+    seo: {
+      title: 'B145 Hobi Jileti Çok Boyutlu | Multi-Size Craft Blade | Alya Bıçak',
+      description: 'B145 çok boyutlu hobi jileti. 45×12/16/20mm & OLFA KB4-F/5. Maket, grafik, şablon. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B145 çok boyutlu', 'multi-size craft blade', 'OLFA KB4-F/5', 'düz kenar jilet', 'hobi jileti seti'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: false,
+    inStock: true,
+    order: 320,
+  },
+
+  // ─── B146 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b146',
+    slug: 'b146-hobi-jileti',
+    slugEN: 'b146-precision-craft-blade',
+    code: 'B146',
+    name: 'B146 - HOBİ JİLETİ',
+    subtitle: 'Eğimli Geniş Profil Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['eğimli profil', 'hobi jileti', 'kavisli kesim', 'precision blade'],
+
+    shortDescription: 'B146 hassas hobi jileti. 39×11.7×0.63mm, eğimli geniş profil. Kavisli kesimler ve kalıp çalışmaları. Model yapımı ve endüstriyel hobi uygulamalarında kullanılır.',
+
+    longDescription: `<p>B146, 39×11.7×0.63mm boyutlarıyla eğimli geniş profilli bir hobi jiletidir. 0.63mm kalınlık ile dayanıklı performans sunar. Eğimli profili kavisli kesimlerde mükemmel kontrol sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Kavisli kesim, kalıp çalışmaları, büyük ölçekli maket, endüstriyel hobi ve prototip işlemleri.</p>`,
+
+    images: {
+      main: { src: '/images/products/b146-hobi-jileti.jpg', alt: 'B146 Hobi Jileti - Eğimli Geniş Profil', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b146-hobi-jileti.jpg', alt: 'B146 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '39×11.7×0.63mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Eğimli Geniş Profil', icon: 'TrendingUp' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kavisli Kesim', icon: 'CircleDot', description: 'Eğrisel ve kontur kesimleri' },
+      { title: 'Kalıp Çalışmaları', icon: 'Box', description: 'Kalıp ve şekillendirme işlemleri' },
+      { title: 'Endüstriyel Hobi', icon: 'Factory', description: 'Endüstriyel hobi ve prototip' },
+    ],
+
+    benefits: [
+      { title: 'Eğimli Profil', description: 'Kavisli kesimlerde mükemmel kontrol.', icon: 'TrendingUp' },
+      { title: 'Geniş Gövde', description: '11.7mm genişlik — güçlü ve stabil kesim.', icon: 'Maximize' },
+      { title: 'Dayanıklı', description: '0.63mm kalınlık — yoğun kullanıma uygun.', icon: 'Shield' },
+    ],
+
+    features: [
+      'Eğimli geniş profil tasarımı',
+      '39×11.7×0.63mm boyut',
+      '0.63mm kalınlık — dayanıklı',
+      'Kavisli kesimler için ideal',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b149', 'b148', 'b143'],
+
+    seo: {
+      title: 'B146 Hobi Jileti 39×11.7mm | Angled Craft Blade | Alya Bıçak',
+      description: 'B146 eğimli profil hobi jileti. 39×11.7×0.63mm. Kavisli kesim, kalıp, maket. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B146 hobi jileti', 'eğimli profil jilet', 'angled craft blade', 'kavisli kesim bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 321,
+  },
+
+  // ─── B147 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b147',
+    slug: 'b147-hobi-jileti',
+    slugEN: 'b147-precision-craft-blade',
+    code: 'B147',
+    name: 'B147 - HOBİ JİLETİ',
+    subtitle: 'Sivri Uç Geniş Gövde Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['sivri uç', 'geniş gövde', 'hobi jileti', 'mimari', 'precision blade'],
+
+    shortDescription: 'B147 hassas hobi jileti. 45×10×0.63mm, sivri uçlu geniş gövde. Büyük ölçekli hassas kesim ve detay çalışmaları. Mimari model yapım ve tabela kesiminde kullanılır.',
+
+    longDescription: `<p>B147, 45×10×0.63mm boyutlarıyla sivri uçlu geniş gövdeli bir hobi jiletidir. Sivri uç hassas başlangıç noktaları oluştururken, geniş gövde güçlü ve stabil kesim sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Mimari model yapım, tabela kesimi, profesyonel grafik, reklam panosu ve büyük ölçekli detay kesimleri.</p>`,
+
+    images: {
+      main: { src: '/images/products/b147-hobi-jileti.jpg', alt: 'B147 Hobi Jileti - Sivri Uç Geniş Gövde', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b147-hobi-jileti.jpg', alt: 'B147 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '45×10×0.63mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Sivri Uç — Geniş Gövde', icon: 'Crosshair' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Mimari Model', icon: 'Building', description: 'Mimari maket ve model yapımı' },
+      { title: 'Tabela Kesimi', icon: 'Type', description: 'Tabela ve reklam panosu kesimi' },
+      { title: 'Profesyonel Grafik', icon: 'Palette', description: 'Profesyonel grafik çalışmaları' },
+    ],
+
+    benefits: [
+      { title: 'Sivri Uç', description: 'Hassas başlangıç noktaları — ince detayda kontrol.', icon: 'Crosshair' },
+      { title: 'Geniş Gövde', description: '45×10mm — güçlü ve stabil kesim performansı.', icon: 'Maximize' },
+      { title: 'Ağır Hizmet', description: '0.63mm kalınlık — kalın malzemelerde dayanıklı.', icon: 'Shield' },
+    ],
+
+    features: [
+      'Sivri uçlu geniş gövde tasarımı',
+      '45×10×0.63mm boyut',
+      '0.63mm kalınlık — ağır hizmet',
+      'Büyük ölçekli hassas kesim',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b148', 'b151', 'b111'],
+
+    seo: {
+      title: 'B147 Hobi Jileti 45×10mm | Pointed Craft Blade | Alya Bıçak',
+      description: 'B147 sivri uç geniş gövde hobi jileti. 45×10×0.63mm. Mimari model, tabela, grafik. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B147 hobi jileti', 'sivri uç craft blade', 'mimari model bıçağı', 'tabela jileti', 'pointed precision blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 322,
+  },
+
+  // ─── B148 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b148',
+    slug: 'b148-hobi-jileti',
+    slugEN: 'b148-precision-craft-blade',
+    code: 'B148',
+    name: 'B148 - HOBİ JİLETİ',
+    subtitle: 'Kavisli Profil Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['kavisli', 'hobi jileti', 'kontur', 'precision blade', 'eğrisel'],
+
+    shortDescription: 'B148 hassas hobi jileti. 45.4×10.3×0.63mm, kavisli profil. Eğrisel ve kontur kesimleri. Deri işçiliği, vinil kesim ve dekoratif uygulamalarda kullanılır.',
+
+    longDescription: `<p>B148, 45.4×10.3×0.63mm boyutlarıyla kavisli profilli bir hobi jiletidir. Eğrisel kesim hattı, kontur ve kavisli kesimlerde mükemmel performans sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Deri işçiliği, kâğıt sanatları, vinil kesim, dekoratif uygulamalar ve eğrisel detay kesimleri.</p>`,
+
+    images: {
+      main: { src: '/images/products/b148-hobi-jileti.jpg', alt: 'B148 Hobi Jileti - Kavisli Profil', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b148-hobi-jileti.jpg', alt: 'B148 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '45.4×10.3×0.63mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Kavisli Profil', icon: 'CircleDot' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Deri İşçiliği', icon: 'Scissors', description: 'Kavisli deri kesim ve şekillendirme' },
+      { title: 'Vinil Kesim', icon: 'Film', description: 'Vinil ve folyo detay kesimleri' },
+      { title: 'Dekoratif', icon: 'Sparkles', description: 'Dekoratif kesim ve şekillendirme' },
+    ],
+
+    benefits: [
+      { title: 'Kavisli Profil', description: 'Eğrisel kesim hattı — konturlarda mükemmel takip.', icon: 'CircleDot' },
+      { title: 'Geniş Gövde', description: '45.4×10.3mm — stabil ve kontrollü kesim.', icon: 'Maximize' },
+      { title: 'Dayanıklı', description: '0.63mm kalınlık — uzun ömürlü performans.', icon: 'Shield' },
+    ],
+
+    features: [
+      'Kavisli profilli kesim tasarımı',
+      '45.4×10.3×0.63mm boyut',
+      '0.63mm kalınlık',
+      'Eğrisel ve kontur kesimleri',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b147', 'b146', 'b149'],
+
+    seo: {
+      title: 'B148 Hobi Jileti Kavisli 45.4×10.3mm | Curved Craft Blade | Alya Bıçak',
+      description: 'B148 kavisli profil hobi jileti. 45.4×10.3×0.63mm. Deri, vinil, dekoratif kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B148 hobi jileti', 'kavisli craft blade', 'curved precision blade', 'deri kesim jileti', 'kontur bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 323,
+  },
+
+  // ─── B149 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b149',
+    slug: 'b149-hobi-jileti',
+    slugEN: 'b149-precision-craft-blade',
+    code: 'B149',
+    name: 'B149 - HOBİ JİLETİ',
+    subtitle: 'Kompakt Geniş Profil Hassas Kesim Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['kompakt', 'geniş profil', 'hobi jileti', '3D baskı', 'precision blade'],
+
+    shortDescription: 'B149 hassas hobi jileti. 39.4×11×0.63mm, kompakt geniş profil. Hassas sıyırma ve düzeltme. 3D baskı sonrası temizlik ve minyatür model yapımında kullanılır.',
+
+    longDescription: `<p>B149, 39.4×11×0.63mm boyutlarıyla kompakt geniş profilli bir hobi jiletidir. Geniş profili ile hassas sıyırma ve düzeltme işlemlerinde üstün performans sağlar.</p>
+<p><strong>Kullanım alanları:</strong> 3D baskı sonrası temizlik (support removal), minyatür model yapımı, elektronik prototip düzeltme ve hassas sıyırma operasyonları.</p>`,
+
+    images: {
+      main: { src: '/images/products/b149-hobi-jileti.jpg', alt: 'B149 Hobi Jileti - Kompakt Geniş Profil', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b149-hobi-jileti.jpg', alt: 'B149 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '39.4×11×0.63mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Kompakt Geniş Profil', icon: 'Maximize' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: '3D Baskı Temizliği', icon: 'Printer', description: '3D baskı support temizliği' },
+      { title: 'Minyatür Model', icon: 'Box', description: 'Minyatür yapım ve düzeltme' },
+      { title: 'Hassas Sıyırma', icon: 'Eraser', description: 'Yüzey sıyırma ve düzeltme' },
+    ],
+
+    benefits: [
+      { title: 'Kompakt & Geniş', description: '39.4×11mm — geniş yüzeyde kompakt manevra.', icon: 'Maximize' },
+      { title: '3D Baskı Uyumlu', description: 'Support temizliği ve post-processing için ideal.', icon: 'Printer' },
+      { title: 'Dayanıklı', description: '0.63mm kalınlık — ağır hizmet dayanıklılığı.', icon: 'Shield' },
+    ],
+
+    features: [
+      'Kompakt geniş profilli tasarım',
+      '39.4×11×0.63mm boyut',
+      '0.63mm kalınlık',
+      '3D baskı post-processing',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b146', 'b150', 'b148'],
+
+    seo: {
+      title: 'B149 Hobi Jileti 39.4×11mm | Compact Wide Blade | Alya Bıçak',
+      description: 'B149 kompakt geniş profil hobi jileti. 39.4×11×0.63mm. 3D baskı temizlik, minyatür model, sıyırma. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B149 hobi jileti', 'kompakt geniş jilet', '3D baskı temizlik bıçağı', 'minyatür model jileti', 'craft blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 324,
+  },
+
+  // ─── B150 HOBİ JİLETİ #25 ─────────────────────────────────────────────────
+  {
+    id: 'b150',
+    slug: 'b150-hobi-jileti-25',
+    slugEN: 'b150-precision-craft-blade-no25',
+    code: 'B150',
+    name: 'B150 - HOBİ JİLETİ #25',
+    subtitle: '#25 Numara Geniş Gövde Ağır Hizmet Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['#25 bıçak', 'geniş gövde', 'ağır hizmet', 'hobi jileti', 'X-Acto uyumlu'],
+
+    shortDescription: 'B150 hassas hobi jileti #25. Geniş gövdeli ağır hizmet tasarımı. Kalın karton, balsawood, plastik ve kompozit malzeme kesiminde kullanılır. X-Acto #25 uyumlu.',
+
+    longDescription: `<p>B150, <strong>#25 numara geniş gövdeli</strong> ağır hizmet hobi jiletidir. Standart #11 bıçaklardan çok daha geniş profili ile kalın malzeme kesimlerinde üstün performans sağlar.</p>
+<p>X-Acto #25 serisi ile uyumlu olan bu yedek bıçak, balsawood, kalın karton, plastik levha ve kompozit malzeme kesiminde tercih edilir.</p>
+<p><strong>Kullanım alanları:</strong> Ağır hizmet hobi kesimi, balsawood ve plastik model yapımı, kalın karton kesim, kompozit malzeme işleme ve endüstriyel prototip.</p>`,
+
+    images: {
+      main: { src: '/images/products/b150-hobi-jileti-25.jpg', alt: 'B150 Hobi Jileti #25 - Geniş Gövde', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b150-hobi-jileti-25.jpg', alt: 'B150 #25', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '#25 Numara', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'bladeType', value: '#25 Geniş Gövde', icon: 'Maximize' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Ağır Hizmet', icon: 'Shield', description: 'Kalın malzeme kesimleri' },
+      { title: 'Balsawood', icon: 'TreePine', description: 'Model uçak ve balsawood' },
+      { title: 'Kompozit', icon: 'Layers', description: 'Plastik ve kompozit kesim' },
+    ],
+
+    benefits: [
+      { title: '#25 Geometri', description: 'Geniş gövde — kalın malzemelerde güçlü kesim.', icon: 'Maximize' },
+      { title: 'X-Acto Uyumlu', description: '#25 serisi — evrensel tutucu uyumluluğu.', icon: 'Link' },
+      { title: 'Ağır Hizmet', description: 'Kalın karton, plastik ve kompozit için tasarlanmış.', icon: 'Shield' },
+    ],
+
+    features: [
+      '#25 numara geniş gövdeli bıçak geometrisi',
+      'Ağır hizmet hobi bıçak tipi',
+      'Kalın malzeme kesimi için geniş profil',
+      'X-Acto #25 uyumlu',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b145', 'b151', 'b147'],
+
+    seo: {
+      title: 'B150 Hobi Jileti #25 Geniş Gövde | Heavy Duty Craft Blade | Alya Bıçak',
+      description: 'B150 #25 numara ağır hizmet hobi jileti. Geniş gövde. Balsawood, plastik, karton, kompozit. X-Acto uyumlu. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['#25 hobi jileti', 'B150', 'heavy duty craft blade', 'X-Acto #25 uyumlu', 'balsawood bıçağı', 'geniş gövde jilet'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 325,
+  },
+
+  // ─── B151 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'b151',
+    slug: 'b151-hobi-jileti',
+    slugEN: 'b151-precision-craft-blade',
+    code: 'B151',
+    name: 'B151 - HOBİ JİLETİ',
+    subtitle: 'Sivri Uç Geniş Gövde Profesyonel Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['sivri uç', 'geniş gövde', 'profesyonel', 'hobi jileti', 'precision blade'],
+
+    shortDescription: 'B151 hassas hobi jileti. 45×11×0.63mm, sivri uçlu geniş gövde. Büyük ölçekli şekillendirme ve profesyonel endüstriyel kesim. Tabela ve reklam panosu uygulamalarında kullanılır.',
+
+    longDescription: `<p>B151, 45×11×0.63mm boyutlarıyla sivri uçlu geniş gövdeli profesyonel bir hobi jiletidir. Sivri uç hassas başlangıç noktaları oluştururken, geniş gövde ve 0.63mm kalınlık güçlü ve kontrollü kesim sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Profesyonel maket yapımı, tabela kesimi, reklam panosu, endüstriyel kesim ve büyük ölçekli şekillendirme operasyonları.</p>`,
+
+    images: {
+      main: { src: '/images/products/b151-hobi-jileti.jpg', alt: 'B151 Hobi Jileti - Profesyonel Sivri Uç', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/b151-hobi-jileti.jpg', alt: 'B151 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '45×11×0.63mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Sivri Uç — Geniş Gövde', icon: 'Crosshair' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Tabela Kesimi', icon: 'Type', description: 'Tabela ve reklam panosu' },
+      { title: 'Profesyonel Maket', icon: 'Box', description: 'Büyük ölçekli maket yapımı' },
+      { title: 'Endüstriyel Kesim', icon: 'Factory', description: 'Endüstriyel şekillendirme' },
+    ],
+
+    benefits: [
+      { title: 'Sivri Uç', description: 'Hassas başlangıç — ince detayda kontrol.', icon: 'Crosshair' },
+      { title: 'Geniş Gövde', description: '45×11mm — güçlü kesim performansı.', icon: 'Maximize' },
+      { title: 'Profesyonel', description: '0.63mm kalınlık — profesyonel uygulamalar.', icon: 'Award' },
+    ],
+
+    features: [
+      'Sivri uçlu geniş gövde tasarımı',
+      '45×11×0.63mm boyut',
+      '0.63mm kalınlık — ağır hizmet',
+      'Büyük ölçekli şekillendirme',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['b147', 'b150', 'b148'],
+
+    seo: {
+      title: 'B151 Hobi Jileti 45×11mm | Professional Craft Blade | Alya Bıçak',
+      description: 'B151 profesyonel hobi jileti. 45×11×0.63mm sivri uç geniş gövde. Tabela, maket, endüstriyel kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['B151 hobi jileti', 'profesyonel craft blade', 'tabela bıçağı', 'precision hobby blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 326,
+  },
+
+  // ─── KB HOBİ JİLETİ ───────────────────────────────────────────────────────
+  {
+    id: 'kb',
+    slug: 'kb-hobi-jileti',
+    slugEN: 'kb-precision-art-knife-blade',
+    code: 'KB',
+    name: 'KB - HOBİ JİLETİ',
+    subtitle: 'OLFA KB Uyumlu Sanat Bıçağı Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['OLFA KB', 'sanat bıçağı', 'art knife', 'hobi jileti', 'çentikli'],
+
+    shortDescription: 'KB hassas sanat bıçağı jileti. (OLFA KB) 40.5×6×0.45mm, 1 çentikli. OLFA AK serisi sanat bıçaklarıyla uyumlu. Kâğıt sanatları ve hassas detay çalışmalarında kullanılır.',
+
+    longDescription: `<p>KB, <strong>OLFA KB uyumlu</strong> hassas sanat bıçağı jiletidir. 40.5×6×0.45mm boyutlarıyla OLFA AK serisi sanat bıçaklarına tam uyum sağlar. 1 çentikli montaj sistemi ile kolay ve güvenli bıçak değişimi sunar.</p>
+<p>Ultra ince 0.45mm kalınlık, kâğıt sanatları, kaligrafi, stencil ve hassas detay çalışmalarında mükemmel kesim performansı sağlar.</p>
+<p><strong>Kullanım alanları:</strong> Kâğıt sanatları, ince maket kesimi, stencil, kaligrafi, scrapbooking, vinil çıkartma ve hassas detay çalışmaları.</p>`,
+
+    images: {
+      main: { src: '/images/products/kb-hobi-jileti.jpg', alt: 'KB Hobi Jileti - OLFA KB Uyumlu Sanat Bıçağı', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/kb-hobi-jileti.jpg', alt: 'KB Sanat Bıçağı', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '40.5×6×0.45mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.45mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'OLFA KB Uyumlu', icon: 'Link' },
+      { label: 'notches', value: '1 Çentik', icon: 'Hash' },
+      { label: 'compatibility', value: 'OLFA AK Serisi', icon: 'Link' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kâğıt Sanatları', icon: 'FileText', description: 'Scrapbooking ve kâğıt kesim' },
+      { title: 'Kaligrafi', icon: 'PenTool', description: 'Kaligrafi ve yazı sanatı' },
+      { title: 'Stencil', icon: 'Layers', description: 'Stencil ve şablon kesimi' },
+      { title: 'Hassas Detay', icon: 'Target', description: 'Ultra hassas detay kesimleri' },
+    ],
+
+    benefits: [
+      { title: 'OLFA Uyumlu', description: 'OLFA AK serisi — dünya standartı sanat bıçağı uyumluluğu.', icon: 'Link' },
+      { title: 'Ultra İnce', description: '0.45mm kalınlık — kâğıtta ultra hassas kesim.', icon: 'Minimize' },
+      { title: 'Kolay Değişim', description: '1 çentikli montaj — hızlı ve güvenli bıçak değişimi.', icon: 'Zap' },
+    ],
+
+    features: [
+      'OLFA KB uyumlu yedek bıçak',
+      '40.5×6×0.45mm boyut',
+      '1 çentikli kolay montaj',
+      '0.45mm kalınlık — hassas kesim',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['kb-5', 'kb4-r5', 'b141'],
+
+    seo: {
+      title: 'KB Hobi Jileti OLFA KB Uyumlu | Art Knife Blade | Alya Bıçak',
+      description: 'KB hassas sanat bıçağı jileti. OLFA KB uyumlu 40.5×6×0.45mm, 1 çentik. Kâğıt sanatları, kaligrafi, stencil. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['OLFA KB jilet', 'sanat bıçağı jileti', 'art knife blade', 'KB hobi jileti', 'kâğıt sanatları bıçağı'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 327,
+  },
+
+  // ─── KB-5 HOBİ JİLETİ ─────────────────────────────────────────────────────
+  {
+    id: 'kb-5',
+    slug: 'kb-5-hobi-jileti',
+    slugEN: 'kb-5-precision-art-knife-blade',
+    code: 'KB-5',
+    name: 'KB-5 - HOBİ JİLETİ',
+    subtitle: 'Ultra Kompakt Sanat Bıçağı Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['KB-5', 'ultra kompakt', 'sanat bıçağı', 'art knife', 'kâğıt sanatları'],
+
+    shortDescription: 'KB-5 hassas sanat bıçağı jileti. 25×4×0.38mm, ultra ince ve kompakt. OLFA AK serisi uyumlu. Kâğıt sanatları, kaligrafi ve hassas detay çalışmalarında kullanılır.',
+
+    longDescription: `<p>KB-5, hobi jileti ailesinin <strong>en küçük ve en ince</strong> modelidir. 25×4×0.38mm boyutlarıyla ultra kompakt tasarım sunar. 0.38mm kalınlık, serinin en ince jiletidir.</p>
+<p>OLFA AK serisi sanat bıçaklarıyla tam uyumlu olan KB-5, ince kâğıt işleri, kaligrafi ve ultra hassas detay çalışmalarında tercih edilir.</p>
+<p><strong>Kullanım alanları:</strong> Kâğıt sanatları, kaligrafi, pul koleksiyonu, minyatür çalışmalar, ince vinil kesim ve ultra hassas detay işleri.</p>`,
+
+    images: {
+      main: { src: '/images/products/kb-5-hobi-jileti.jpg', alt: 'KB-5 Ultra Kompakt Hobi Jileti', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/kb-5-hobi-jileti.jpg', alt: 'KB-5 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '25×4×0.38mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.38mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Ultra İnce Kompakt', icon: 'Minimize' },
+      { label: 'compatibility', value: 'OLFA AK Serisi', icon: 'Link' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kâğıt Sanatları', icon: 'FileText', description: 'İnce kâğıt kesim ve detay' },
+      { title: 'Kaligrafi', icon: 'PenTool', description: 'Ultra hassas kaligrafi' },
+      { title: 'Minyatür', icon: 'Box', description: 'Minyatür ve ince detay' },
+    ],
+
+    benefits: [
+      { title: 'En Küçük', description: '25×4mm — ailenin en kompakt modeli.', icon: 'Minimize' },
+      { title: 'En İnce', description: '0.38mm — ultra hassas ince kesimler.', icon: 'ArrowDown' },
+      { title: 'OLFA Uyumlu', description: 'AK serisi — evrensel sanat bıçağı uyumu.', icon: 'Link' },
+    ],
+
+    features: [
+      'Ultra ince ve kompakt tasarım',
+      '25×4×0.38mm boyut — en küçük hobi jileti',
+      '0.38mm kalınlık — ultra hassas',
+      'OLFA AK serisi sanat bıçaklarıyla uyumlu',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['kb', 'kb4-r5', 'b141'],
+
+    seo: {
+      title: 'KB-5 Ultra Kompakt Hobi Jileti 25×4mm | Art Knife Blade | Alya Bıçak',
+      description: 'KB-5 ultra kompakt hobi jileti. 25×4×0.38mm, en ince model. Kâğıt sanatları, kaligrafi, minyatür. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['KB-5 hobi jileti', 'ultra kompakt jilet', 'kâğıt sanatları bıçağı', 'art knife blade', 'mini craft blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 328,
+  },
+
+  // ─── KB4-R/5 HOBİ JİLETİ ──────────────────────────────────────────────────
+  {
+    id: 'kb4-r5',
+    slug: 'kb4-r5-hobi-jileti',
+    slugEN: 'kb4-r5-precision-art-knife-blade',
+    code: 'KB4-R/5',
+    name: 'KB4-R/5 - HOBİ JİLETİ',
+    subtitle: 'OLFA KB4-R/5 Uyumlu Eğrisel Sanat Bıçağı Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['OLFA KB4-R', 'eğrisel', 'sanat bıçağı', 'art knife', 'stencil'],
+
+    shortDescription: 'KB4-R/5 hassas sanat bıçağı jileti. (OLFA KB4-R/5) 38.5×6×0.45mm. OLFA AK-4 serisi uyumlu. Hassas eğrisel kesimler ve stencil çalışmalarında kullanılır.',
+
+    longDescription: `<p>KB4-R/5, <strong>OLFA KB4-R/5 uyumlu</strong> eğrisel profilli sanat bıçağı jiletidir. 38.5×6×0.45mm boyutlarıyla OLFA AK-4 serisi sanat bıçaklarına tam uyum sağlar.</p>
+<p>Eğrisel profili, kavisli kesimlerde ve stencil çalışmalarında üstün kontrol sağlar. 0.45mm kalınlık ile hassas ve temiz kesim hattı oluşturur.</p>
+<p><strong>Kullanım alanları:</strong> Hassas eğrisel kesim, stencil çalışmaları, profesyonel sanat uygulamaları, kâğıt sanatları ve hobi projeleri.</p>`,
+
+    images: {
+      main: { src: '/images/products/kb4-r5-hobi-jileti.jpg', alt: 'KB4-R/5 Hobi Jileti - OLFA Uyumlu Eğrisel', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/kb4-r5-hobi-jileti.jpg', alt: 'KB4-R/5 Hobi Jileti', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '38.5×6×0.45mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.45mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'OLFA KB4-R Uyumlu', icon: 'Link' },
+      { label: 'compatibility', value: 'OLFA AK-4 Serisi', icon: 'Link' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Eğrisel Kesim', icon: 'CircleDot', description: 'Hassas eğrisel kesimler' },
+      { title: 'Stencil', icon: 'Layers', description: 'Stencil ve şablon çalışmaları' },
+      { title: 'Sanat', icon: 'Palette', description: 'Profesyonel sanat uygulamaları' },
+    ],
+
+    benefits: [
+      { title: 'OLFA KB4-R Uyumlu', description: 'AK-4 serisi — profesyonel sanat bıçağı uyumu.', icon: 'Link' },
+      { title: 'Eğrisel Profil', description: 'Kavisli kesimlerde üstün kontrol.', icon: 'CircleDot' },
+      { title: 'Hassas', description: '0.45mm kalınlık — temiz kesim hattı.', icon: 'Target' },
+    ],
+
+    features: [
+      'OLFA KB4-R/5 uyumlu yedek bıçak',
+      '38.5×6×0.45mm boyut',
+      'Eğrisel kesim profili',
+      '0.45mm kalınlık — hassas kesim',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['kb', 'kb-5', 'kb4-ns3'],
+
+    seo: {
+      title: 'KB4-R/5 Hobi Jileti OLFA Uyumlu | Curved Art Knife Blade | Alya Bıçak',
+      description: 'KB4-R/5 OLFA uyumlu hobi jileti. 38.5×6×0.45mm eğrisel. Stencil, sanat, hassas kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['KB4-R/5 jilet', 'OLFA KB4-R uyumlu', 'eğrisel sanat bıçağı', 'curved art knife', 'stencil jileti'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 329,
+  },
+
+  // ─── KB4-NS/3 HOBİ JİLETİ DİŞLİ ──────────────────────────────────────────
+  {
+    id: 'kb4-ns3',
+    slug: 'kb4-ns3-hobi-jileti-disli',
+    slugEN: 'kb4-ns3-precision-serrated-art-blade',
+    code: 'KB4-NS/3',
+    name: 'KB4-NS/3 - HOBİ JİLETİ DİŞLİ',
+    subtitle: 'OLFA KB4-NS/3 Dar Dişli (Narrow Serrated) Sanat Bıçağı Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['OLFA KB4-NS', 'dişli', 'serrated', 'köpük kesim', 'sanat bıçağı'],
+
+    shortDescription: 'KB4-NS/3 dişli hassas sanat bıçağı jileti. (OLFA KB4-NS/3) 64×11/6×0.35mm, dar dişli kenar. Köpük, sünger ve polistren kesiminde mükemmel performans. OLFA AK-4 uyumlu.',
+
+    longDescription: `<p>KB4-NS/3, <strong>OLFA KB4-NS/3 uyumlu dar dişli (narrow serrated)</strong> sanat bıçağı jiletidir. 64×11/6×0.35mm boyutlarıyla serinin en uzun modellerinden biridir.</p>
+<p>Dişli kenar profili, köpük, sünger, polistren (strafor) ve yumuşak malzemelerin kesilmesinde düz kenarlı bıçaklara göre çok daha üstün performans sağlar. Dişli yapı malzemeyi yırtmadan temiz keser.</p>
+<p><strong>Kullanım alanları:</strong> Köpük kesimi, sünger şekillendirme, polistren (strafor) model yapımı, yumuşak malzeme detay kesimi ve OLFA AK-4 serisi yedek bıçak.</p>`,
+
+    images: {
+      main: { src: '/images/products/kb4-ns3-hobi-jileti-disli.jpg', alt: 'KB4-NS/3 Dişli Hobi Jileti - Narrow Serrated', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/kb4-ns3-hobi-jileti-disli.jpg', alt: 'KB4-NS/3 Dişli', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '64×11/6×0.35mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.35mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Dar Dişli (Narrow Serrated)', icon: 'BarChart3' },
+      { label: 'edge', value: 'Dişli Kenar', icon: 'BarChart3' },
+      { label: 'compatibility', value: 'OLFA AK-4 Serisi', icon: 'Link' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Köpük Kesimi', icon: 'Cloud', description: 'Köpük ve sünger hassas kesimi' },
+      { title: 'Polistren', icon: 'Box', description: 'Strafor ve polistren model yapımı' },
+      { title: 'Yumuşak Malzeme', icon: 'Feather', description: 'Yumuşak malzeme detay kesimi' },
+    ],
+
+    benefits: [
+      { title: 'Dar Dişli', description: 'Narrow serrated — yumuşak malzemeyi yırtmadan keser.', icon: 'BarChart3' },
+      { title: 'Ultra İnce', description: '0.35mm — serinin en ince dişli jileti.', icon: 'Minimize' },
+      { title: 'OLFA AK-4', description: 'AK-4 serisi uyumlu — profesyonel kalite.', icon: 'Link' },
+    ],
+
+    features: [
+      'Dar dişli kenar (narrow serrated) tasarımı',
+      '64×11/6×0.35mm boyut',
+      '0.35mm ultra ince kalınlık',
+      'Köpük ve yumuşak malzeme kesimi',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['kb4-ws3', 'kb4-r5', 'kb'],
+
+    seo: {
+      title: 'KB4-NS/3 Dişli Hobi Jileti OLFA Uyumlu | Serrated Art Blade | Alya Bıçak',
+      description: 'KB4-NS/3 dar dişli hobi jileti. OLFA KB4-NS/3, 64×11/6×0.35mm. Köpük, sünger, polistren kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['KB4-NS/3 dişli jilet', 'OLFA serrated blade', 'köpük kesim bıçağı', 'narrow serrated', 'sünger jileti'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 330,
+  },
+
+  // ─── KB4-WS/3 HOBİ JİLETİ DİŞLİ ──────────────────────────────────────────
+  {
+    id: 'kb4-ws3',
+    slug: 'kb4-ws3-hobi-jileti-disli',
+    slugEN: 'kb4-ws3-precision-serrated-art-blade',
+    code: 'KB4-WS/3',
+    name: 'KB4-WS/3 - HOBİ JİLETİ DİŞLİ',
+    subtitle: 'OLFA KB4-WS/3 Geniş Dişli (Wide Serrated) Sanat Bıçağı Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'hobby-blades',
+    tags: ['OLFA KB4-WS', 'geniş dişli', 'wide serrated', 'köpük kesim', 'balsawood'],
+
+    shortDescription: 'KB4-WS/3 geniş dişli hassas sanat bıçağı jileti. (OLFA KB4-WS/3) 66.5×11/6×0.35mm. Kalın köpük, balsawood ve yumuşak malzeme kesiminde üstün performans. OLFA AK-4 uyumlu.',
+
+    longDescription: `<p>KB4-WS/3, <strong>OLFA KB4-WS/3 uyumlu geniş dişli (wide serrated)</strong> sanat bıçağı jiletidir. 66.5×11/6×0.35mm boyutlarıyla serinin en uzun modelidir.</p>
+<p>Geniş dişli profili, KB4-NS/3'ün dar dişli versiyonuna göre daha kalın köpük ve balsawood kesiminde üstün performans sağlar. Daha geniş diş aralığı, kalın yumuşak malzemelerin yırtılmadan kesilmesini mümkün kılar.</p>
+<p><strong>Kullanım alanları:</strong> Kalın köpük kesimi, balsawood model yapımı, sünger şekillendirme, polistren mimari maket ve OLFA AK-4 serisi yedek bıçak.</p>`,
+
+    images: {
+      main: { src: '/images/products/kb4-ws3-hobi-jileti-disli.jpg', alt: 'KB4-WS/3 Geniş Dişli Hobi Jileti - Wide Serrated', width: 800, height: 800 },
+      gallery: [],
+      thumbnail: { src: '/images/products/kb4-ws3-hobi-jileti-disli.jpg', alt: 'KB4-WS/3 Geniş Dişli', width: 400, height: 400 },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'dimensions', value: '66.5×11/6×0.35mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.35mm', icon: 'Ruler' },
+      { label: 'bladeType', value: 'Geniş Dişli (Wide Serrated)', icon: 'BarChart3' },
+      { label: 'edge', value: 'Dişli Kenar', icon: 'BarChart3' },
+      { label: 'compatibility', value: 'OLFA AK-4 Serisi', icon: 'Link' },
+    ],
+
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+
+    applications: [
+      { title: 'Kalın Köpük', icon: 'Cloud', description: 'Kalın köpük ve sünger kesimi' },
+      { title: 'Balsawood', icon: 'TreePine', description: 'Balsawood model yapımı' },
+      { title: 'Mimari Maket', icon: 'Building', description: 'Polistren mimari maket' },
+    ],
+
+    benefits: [
+      { title: 'Geniş Dişli', description: 'Wide serrated — kalın yumuşak malzemeyi yırtmadan keser.', icon: 'BarChart3' },
+      { title: 'En Uzun', description: '66.5mm — serinin en uzun dişli jileti.', icon: 'Maximize' },
+      { title: 'OLFA AK-4', description: 'AK-4 serisi uyumlu — profesyonel kalite.', icon: 'Link' },
+    ],
+
+    features: [
+      'Geniş dişli kenar (wide serrated) tasarımı',
+      '66.5×11/6×0.35mm boyut',
+      '0.35mm ultra ince kalınlık',
+      'Kalın köpük ve balsawood kesimi',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: ['kb4-ns3', 'kb4-r5', 'kb'],
+
+    seo: {
+      title: 'KB4-WS/3 Geniş Dişli Hobi Jileti OLFA Uyumlu | Wide Serrated Blade | Alya Bıçak',
+      description: 'KB4-WS/3 geniş dişli hobi jileti. OLFA KB4-WS/3, 66.5×11/6×0.35mm. Kalın köpük, balsawood, polistren. Sheffield Durham Duplex. Türkiye distribütörü.',
+      keywords: ['KB4-WS/3 geniş dişli', 'OLFA wide serrated', 'kalın köpük bıçağı', 'balsawood jileti', 'wide serrated blade'],
+    },
+
+    isActive: true,
+    isFeatured: false,
+    isNew: false,
+    inStock: true,
+    order: 331,
+  },
 ];
 
 // =============================================================================
