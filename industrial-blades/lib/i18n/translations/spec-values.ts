@@ -250,6 +250,31 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '5 adet/tüp': '5 adet/tüp',
     '10 adet/tüp': '10 adet/tüp',
     '3 adet/paket': '3 adet/paket',
+
+    // 3D Jilet & Slit Bıçak boyutları
+    '43x22mm': '43x22mm',
+    '57x19mm': '57x19mm',
+    '60x22mm': '60x22mm',
+    '38x19mm': '38x19mm',
+    '61×12.5×0.63mm': '61×12.5×0.63mm',
+    '71×17×0.63mm': '71×17×0.63mm',
+    '27.6×9×0.43mm': '27.6×9×0.43mm',
+    '0.10mm, 0.15mm, 0.20mm, 0.30mm, 0.40mm': '0.10mm, 0.15mm, 0.20mm, 0.30mm, 0.40mm',
+    '0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm': '0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm',
+    '0.15mm, 0.20mm, 0.30mm': '0.15mm, 0.20mm, 0.30mm',
+    '55°': '55°',
+
+    // Tek Kenar Jilet ek değerleri
+    'Yüksek Karbonlu Çelik (High Carbon Steel)': 'Yüksek Karbonlu Çelik (High Carbon Steel)',
+    'Korozyona dayanıklı yüzey işlemi': 'Korozyona dayanıklı yüzey işlemi',
+    'Kontrollü atmosfer sertleştirme': 'Kontrollü atmosfer sertleştirme',
+    '38x19mm (kılıflı) / 38x17mm (kılıfsız)': '38x19mm (kılıflı) / 38x17mm (kılıfsız)',
+    '%13+ Krom içeriği': '%13+ Krom içeriği',
+    'Doğal paslanmaz — ek kaplama gerektirmez': 'Doğal paslanmaz — ek kaplama gerektirmez',
+    'Paslanmaz Çelik + PTFE Kaplama (Stainless Steel + PTFE)': 'Paslanmaz Çelik + PTFE Kaplama (Stainless Steel + PTFE)',
+    'PTFE (Polytetrafluoroethylene / Teflon®)': 'PTFE (Polytetrafluoroethylene / Teflon®)',
+    '%40-60 sürtünme azaltma': '%40-60 sürtünme azaltma',
+    '0.30mm (0.012")': '0.30mm (0.012")',
   },
 
   // =============================================================================
@@ -492,6 +517,31 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '5 adet/tüp': '5 pcs/tube',
     '10 adet/tüp': '10 pcs/tube',
     '3 adet/paket': '3 pcs/pack',
+
+    // 3D Blade & Slitter dimensions
+    '43x22mm': '43x22mm',
+    '57x19mm': '57x19mm',
+    '60x22mm': '60x22mm',
+    '38x19mm': '38x19mm',
+    '61×12.5×0.63mm': '61×12.5×0.63mm',
+    '71×17×0.63mm': '71×17×0.63mm',
+    '27.6×9×0.43mm': '27.6×9×0.43mm',
+    '0.10mm, 0.15mm, 0.20mm, 0.30mm, 0.40mm': '0.10mm, 0.15mm, 0.20mm, 0.30mm, 0.40mm',
+    '0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm': '0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm',
+    '0.15mm, 0.20mm, 0.30mm': '0.15mm, 0.20mm, 0.30mm',
+    '55°': '55°',
+
+    // Single Edge Blade additional values
+    'Yüksek Karbonlu Çelik (High Carbon Steel)': 'High Carbon Steel',
+    'Korozyona dayanıklı yüzey işlemi': 'Corrosion-Resistant Surface Treatment',
+    'Kontrollü atmosfer sertleştirme': 'Controlled Atmosphere Hardening',
+    '38x19mm (kılıflı) / 38x17mm (kılıfsız)': '38x19mm (cased) / 38x17mm (uncased)',
+    '%13+ Krom içeriği': '13%+ Chromium Content',
+    'Doğal paslanmaz — ek kaplama gerektirmez': 'Naturally Stainless — No Additional Coating Required',
+    'Paslanmaz Çelik + PTFE Kaplama (Stainless Steel + PTFE)': 'Stainless Steel + PTFE Coating',
+    'PTFE (Polytetrafluoroethylene / Teflon®)': 'PTFE (Polytetrafluoroethylene / Teflon®)',
+    '%40-60 sürtünme azaltma': '40-60% Friction Reduction',
+    '0.30mm (0.012")': '0.30mm (0.012")',
   },
 
   // =============================================================================
@@ -734,6 +784,31 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '5 adet/tüp': '5 قطع/أنبوب',
     '10 adet/tüp': '10 قطع/أنبوب',
     '3 adet/paket': '3 قطع/حزمة',
+
+    // أبعاد شفرات ثلاثية الأبعاد والشفرات الشقّة
+    '43x22mm': '43×22 مم',
+    '57x19mm': '57×19 مم',
+    '60x22mm': '60×22 مم',
+    '38x19mm': '38×19 مم',
+    '61×12.5×0.63mm': '61×12.5×0.63 مم',
+    '71×17×0.63mm': '71×17×0.63 مم',
+    '27.6×9×0.43mm': '27.6×9×0.43 مم',
+    '0.10mm, 0.15mm, 0.20mm, 0.30mm, 0.40mm': '0.10مم، 0.15مم، 0.20مم، 0.30مم، 0.40مم',
+    '0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm': '0.25مم، 0.36مم، 0.38مم، 0.43مم، 0.63مم',
+    '0.15mm, 0.20mm, 0.30mm': '0.15مم، 0.20مم، 0.30مم',
+    '55°': '55°',
+
+    // قيم شفرات أحادية الحافة الإضافية
+    'Yüksek Karbonlu Çelik (High Carbon Steel)': 'فولاذ عالي الكربون',
+    'Korozyona dayanıklı yüzey işlemi': 'معالجة سطحية مقاومة للتآكل',
+    'Kontrollü atmosfer sertleştirme': 'تصليب بالغلاف الجوي المتحكم',
+    '38x19mm (kılıflı) / 38x17mm (kılıfsız)': '38×19مم (مغلف) / 38×17مم (بدون غلاف)',
+    '%13+ Krom içeriği': '+13% كروم',
+    'Doğal paslanmaz — ek kaplama gerektirmez': 'مقاوم للصدأ طبيعياً — لا يحتاج طلاء إضافي',
+    'Paslanmaz Çelik + PTFE Kaplama (Stainless Steel + PTFE)': 'فولاذ مقاوم للصدأ + طلاء PTFE',
+    'PTFE (Polytetrafluoroethylene / Teflon®)': 'PTFE (تفلون®)',
+    '%40-60 sürtünme azaltma': 'تقليل احتكاك 40-60%',
+    '0.30mm (0.012")': '0.30مم (0.012")',
   },
 
   // =============================================================================
@@ -976,6 +1051,31 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '5 adet/tüp': '5 pcs/tube',
     '10 adet/tüp': '10 pcs/tube',
     '3 adet/paket': '3 pcs/paquet',
+
+    // Dimensions lames 3D et refendeuses
+    '43x22mm': '43x22 mm',
+    '57x19mm': '57x19 mm',
+    '60x22mm': '60x22 mm',
+    '38x19mm': '38x19 mm',
+    '61×12.5×0.63mm': '61×12,5×0,63 mm',
+    '71×17×0.63mm': '71×17×0,63 mm',
+    '27.6×9×0.43mm': '27,6×9×0,43 mm',
+    '0.10mm, 0.15mm, 0.20mm, 0.30mm, 0.40mm': '0,10 mm, 0,15 mm, 0,20 mm, 0,30 mm, 0,40 mm',
+    '0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm': '0,25 mm, 0,36 mm, 0,38 mm, 0,43 mm, 0,63 mm',
+    '0.15mm, 0.20mm, 0.30mm': '0,15 mm, 0,20 mm, 0,30 mm',
+    '55°': '55°',
+
+    // Valeurs supplémentaires lames à un tranchant
+    'Yüksek Karbonlu Çelik (High Carbon Steel)': 'Acier à Haute Teneur en Carbone',
+    'Korozyona dayanıklı yüzey işlemi': 'Traitement de Surface Résistant à la Corrosion',
+    'Kontrollü atmosfer sertleştirme': 'Durcissement en Atmosphère Contrôlée',
+    '38x19mm (kılıflı) / 38x17mm (kılıfsız)': '38x19 mm (avec étui) / 38x17 mm (sans étui)',
+    '%13+ Krom içeriği': '13%+ Teneur en Chrome',
+    'Doğal paslanmaz — ek kaplama gerektirmez': 'Naturellement Inoxydable — Aucun Revêtement Supplémentaire Nécessaire',
+    'Paslanmaz Çelik + PTFE Kaplama (Stainless Steel + PTFE)': 'Acier Inoxydable + Revêtement PTFE',
+    'PTFE (Polytetrafluoroethylene / Teflon®)': 'PTFE (Polytétrafluoroéthylène / Téflon®)',
+    '%40-60 sürtünme azaltma': 'Réduction du Frottement 40-60%',
+    '0.30mm (0.012")': '0,30 mm (0,012")',
   },
 
   // =============================================================================
@@ -1218,6 +1318,31 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '5 adet/tüp': '5 шт/тюбик',
     '10 adet/tüp': '10 шт/тюбик',
     '3 adet/paket': '3 шт/пакет',
+
+    // Размеры 3D-лезвий и слиттерных ножей
+    '43x22mm': '43×22 мм',
+    '57x19mm': '57×19 мм',
+    '60x22mm': '60×22 мм',
+    '38x19mm': '38×19 мм',
+    '61×12.5×0.63mm': '61×12,5×0,63 мм',
+    '71×17×0.63mm': '71×17×0,63 мм',
+    '27.6×9×0.43mm': '27,6×9×0,43 мм',
+    '0.10mm, 0.15mm, 0.20mm, 0.30mm, 0.40mm': '0,10мм, 0,15мм, 0,20мм, 0,30мм, 0,40мм',
+    '0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm': '0,25мм, 0,36мм, 0,38мм, 0,43мм, 0,63мм',
+    '0.15mm, 0.20mm, 0.30mm': '0,15мм, 0,20мм, 0,30мм',
+    '55°': '55°',
+
+    // Дополнительные значения односторонних лезвий
+    'Yüksek Karbonlu Çelik (High Carbon Steel)': 'Высокоуглеродистая сталь',
+    'Korozyona dayanıklı yüzey işlemi': 'Коррозионностойкая обработка поверхности',
+    'Kontrollü atmosfer sertleştirme': 'Закалка в контролируемой атмосфере',
+    '38x19mm (kılıflı) / 38x17mm (kılıfsız)': '38×19мм (в чехле) / 38×17мм (без чехла)',
+    '%13+ Krom içeriği': '13%+ содержание хрома',
+    'Doğal paslanmaz — ek kaplama gerektirmez': 'Естественно нержавеющая — доп. покрытие не требуется',
+    'Paslanmaz Çelik + PTFE Kaplama (Stainless Steel + PTFE)': 'Нержавеющая сталь + покрытие PTFE',
+    'PTFE (Polytetrafluoroethylene / Teflon®)': 'PTFE (политетрафторэтилен / Тефлон®)',
+    '%40-60 sürtünme azaltma': 'Снижение трения 40-60%',
+    '0.30mm (0.012")': '0,30мм (0,012")',
   },
 };
 
