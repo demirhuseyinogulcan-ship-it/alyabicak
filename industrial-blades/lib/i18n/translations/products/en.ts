@@ -757,6 +757,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Supaslit precision slitting blade. 44/26x9x0.40mm with 2xO3mm mounting holes. 12-pack tube packaging.',
     features: ['Supaslit design for precision slitting', '44/26x9x0.40mm dimensions', '2xO3mm hole configuration for machine mounting', '12-pack tube packaging', 'For industrial slitting machines'],
     applications: ['Film slitting', 'Paper slitting', 'Precision slitting machines', 'Thin material processing'],
+    seo: {
+      title: 'B226 Supaslit Blade 44/26×9mm | Slitting Blade | Alya Blade',
+      description: 'B226 Supaslit industrial slitting blade. 44/26×9×0.40mm, 2×Ø3mm holes, 12-pack tube. Film and paper slitting. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['supaslit blade', 'slitting blade', 'B226', 'film slitting blade', 'industrial slitting blade', 'precision slitting'],
+    },
+    benefits: [
+      { title: 'Ultra Thin', description: '0.40mm thickness — smooth, clean slitting edges.', icon: 'Minimize' },
+      { title: 'Dual Hole Mount', description: '2×Ø3mm holes — precise and stable machine mounting.', icon: 'Target' },
+      { title: 'Economical Pack', description: '12-pack tube — cost-effective for bulk use.', icon: 'Package' },
+    ],
+    longDescription: `<p>The B226 Supaslit blade is a special-profile cutting blade designed for use in industrial slitting machines. Its 44/26×9×0.40mm dimensions and 2×Ø3mm hole configuration ensure precise machine mounting.</p><p>The 0.40mm ultra-thin thickness creates clean, burr-free slitting edges. Supplied in economical 12-pack tube packaging for bulk use.</p><p><strong>Applications:</strong> Film slitting, paper slitting, thin material slitting machines and precision industrial slitting operations.</p>`,
   },
   'b204': {
     name: 'B204 - Classic Blade',
@@ -772,6 +783,21 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Professional #11 hobby blade. 55.5x10.3x0.53mm. Pointed and round tip variants. X-Acto, OLFA compatible.',
     features: ['#11 blade geometry — the most popular hobby blade worldwide', '55.5x10.3x0.53mm dimensions', 'Pointed tip variant for fine detail', 'Round tip variant for safer handling', 'Compatible with X-Acto, OLFA and standard craft knife handles'],
     applications: ['Model making and miniatures', 'Graphic arts and illustration', 'Architectural model building', 'Electronics PCB trimming', 'Laboratory dissection and sample prep'],
+    seo: {
+      title: 'B111 Hobby Blade #11 | Precision Craft Blade | Alya Blade',
+      description: 'B111 precision hobby blade. 55.5×10.3×0.53mm, #11 type. Pointed & round tip. Model making, graphics, architecture, electronics. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['#11 hobby blade', 'precision craft blade', 'B111', 'model knife', 'scalpel blade', 'hobby blade', 'graphic arts blade'],
+    },
+    benefits: [
+      { title: '#11 Geometry', description: 'World-standard #11 blade profile — the most popular hobby blade type.', icon: 'Star' },
+      { title: '2 Variants', description: 'Pointed tip (detail) and round tip (safe) options.', icon: 'Layers' },
+      { title: 'Universal Fit', description: 'Fully compatible with X-Acto, OLFA and similar standard handles.', icon: 'Link' },
+    ],
+    longDescription: `<p>The B111 is a professional blade series featuring the <strong>#11 blade geometry</strong>, the world's most popular hobby/precision cutting blade type. At 55.5×10.3×0.53mm, it is fully compatible with X-Acto, OLFA and similar standard handles.</p><p>Two variants are offered: <strong>Pointed Tip</strong> — for fine detail and precise point cuts; <strong>Round Tip</strong> — for safer handling and smooth linear cuts.</p><p><strong>Applications:</strong> Model making, graphic arts, architectural models, electronics PCB cleaning, laboratory dissection, vinyl/decal cutting, paper arts, 3D print post-processing, miniature painting prep and photo retouching.</p>`,
+    availableSizes: [
+      '55.5×10.3×0.53mm — Pointed Tip',
+      '55.5×10.3×0.53mm — Round Tip',
+    ],
   },
   'b112': {
     name: 'B112 - Compact Precision Blade #12',
@@ -780,6 +806,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Compact #12 hobby blade. 42.6x9x0.53mm. Ideal for tight spaces and curved cuts.',
     features: ['#12 compact blade geometry', '42.6x9x0.53mm dimensions', 'Small profile for tight and hard-to-reach spaces', 'Ideal for curved and intricate cuts', 'Sheffield Durham Duplex quality'],
     applications: ['Graphic design detail work', 'Fine model making', 'Leathercraft', 'Paper arts'],
+    seo: {
+      title: 'B112 Hobby Blade #12 | Compact Precision Blade | Alya Blade',
+      description: 'B112 compact hobby blade. 42.6×9×0.53mm, #12 type. Graphic design, leathercraft, fine model making. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['#12 hobby blade', 'compact craft blade', 'B112', 'fine detail blade', 'precision hobby blade'],
+    },
+    benefits: [
+      { title: 'Compact Profile', description: '#12 type — superior manoeuvrability in tight spaces.', icon: 'Minimize' },
+      { title: 'Curved Cutting', description: 'Precision performance on small radius curves.', icon: 'CircleDot' },
+      { title: 'Sheffield Quality', description: 'British Sheffield steel — long-lasting sharpness.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The B112 is a precision hobby blade with the <strong>#12 compact blade geometry</strong>. At 42.6×9×0.53mm, it has a smaller and more agile profile than the standard #11 blade.</p><p>Ideal for making fine curved cuts in tight and hard-to-reach areas. Its compact size provides superior manoeuvrability for detail work.</p><p><strong>Applications:</strong> Graphic design, fine model making, leathercraft, paper arts, miniature painting prep and precision detail cuts.</p>`,
   },
   'b113': {
     name: 'B113 - Long Profile Precision Blade #13',
@@ -788,6 +825,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Long-profile #13 blade. 52.7x9x0.60mm, 0.60mm thick for extra rigidity.',
     features: ['#13 long-profile blade geometry', '52.7x9x0.60mm dimensions', '0.60mm thickness for extra durability and stability', 'Extended cutting line for long straight cuts', 'Sheffield Durham Duplex quality'],
     applications: ['Model building', 'Sign and display cutting', 'Vinyl application', 'Industrial precision slicing'],
+    seo: {
+      title: 'B113 Hobby Blade #13 | Long Profile Precision Blade | Alya Blade',
+      description: 'B113 long-profile hobby blade. 52.7×9×0.60mm, #13 type. Model building, sign cutting, vinyl application. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['#13 hobby blade', 'long profile craft blade', 'B113', 'sign cutting blade', 'precision hobby blade'],
+    },
+    benefits: [
+      { title: 'Long Profile', description: '#13 geometry — outstanding performance on long straight cuts.', icon: 'ArrowRight' },
+      { title: 'Extra Thick', description: '0.60mm thickness — extra durability and stability.', icon: 'Shield' },
+      { title: 'Precision Slicing', description: 'Fine tip for precise entry, long body for smooth cuts.', icon: 'Target' },
+    ],
+    longDescription: `<p>The B113 is a precision hobby blade with the <strong>#13 long-profile blade geometry</strong>. At 52.7×9×0.60mm, it delivers outstanding performance on long straight cuts.</p><p>The 0.60mm thickness provides extra durability compared to standard 0.53mm hobby blades. Preferred in model building and sign cutting for its extended cutting line.</p><p><strong>Applications:</strong> Model building, sign cutting, vinyl application, industrial precision cutting and long straight slicing operations.</p>`,
   },
   'b114': {
     name: 'B114 - Precision Craft Blade #14 — TiN Coated & Carbon',
@@ -796,6 +844,21 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Dual-variant #14 blade. 50.3x9x0.60mm. TiN coated (3x life) and carbon steel options.',
     features: ['#14 blade geometry with wide cutting angle', '50.3x9x0.60mm dimensions', 'TiN (Titanium Nitride) coated variant — up to 3x longer life', 'Carbon steel variant — classic sharpness', 'Sheffield Durham Duplex quality'],
     applications: ['Vinyl and film cutting', 'Professional craft and hobby', 'Heavy-duty model making', 'Industrial precision cutting'],
+    seo: {
+      title: 'B114 Hobby Blade #14 TiN Coated & Carbon | Precision Blade | Alya Blade',
+      description: 'B114 precision hobby blade. 50.3×9×0.60mm, #14 type. TiN coated & carbon variants. Vinyl, model making, crafts. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['#14 hobby blade', 'TiN coated blade', 'B114', 'titanium nitride blade', 'precision craft blade'],
+    },
+    benefits: [
+      { title: 'TiN Coating', description: 'Titanium Nitride coating — up to 3× longer edge life.', icon: 'Sparkles' },
+      { title: 'Dual Variant', description: 'TiN coated and carbon steel — choose to suit the task.', icon: 'Layers' },
+      { title: '#14 Geometry', description: 'Wide cutting angle — controlled, powerful cuts.', icon: 'Target' },
+    ],
+    longDescription: `<p>The B114 is a dual-variant professional hobby blade with the <strong>#14 blade geometry</strong>. At 50.3×9×0.60mm, it is available in both TiN (Titanium Nitride) coated and carbon steel options.</p><p>The <strong>TiN Coated</strong> variant offers up to 3× longer edge life than standard carbon steel. Easily identified by its gold-coloured coating. The <strong>Carbon</strong> variant provides classic sharpness at an economical price point.</p><p><strong>Applications:</strong> Vinyl cutting, professional crafts, model making, industrial precision cutting and heavy-use applications.</p>`,
+    availableSizes: [
+      '50.3×9×0.60mm — TiN Coated',
+      '50.3×9×0.60mm — Carbon',
+    ],
   },
 
   // B14x Series — Specialty Hobby Blades
@@ -806,6 +869,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Compact angled blade. 36.8x8.4x0.53mm. For tight spaces and miniature work.',
     features: ['Compact angled tip design', '36.8x8.4x0.53mm dimensions', 'Ideal for tight and hard-to-reach areas', 'Precision trimming and cleaning', 'Sheffield Durham Duplex quality'],
     applications: ['Miniature model building', 'Electronics PCB cleaning', 'Fine detail trimming'],
+    seo: {
+      title: 'B141 Compact Hobby Blade | Precision Craft Blade | Alya Blade',
+      description: 'B141 compact hobby blade. 36.8×8.4×0.53mm, angled tip. Miniature models, electronics, fine model making. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B141 hobby blade', 'compact craft blade', 'miniature blade', 'precision blade', 'electronics cutting'],
+    },
+    benefits: [
+      { title: 'Compact', description: '36.8mm — superior manoeuvrability in tight spaces.', icon: 'Minimize' },
+      { title: 'Angled Tip', description: 'Angled cutting profile — control at difficult angles.', icon: 'CornerRightDown' },
+      { title: 'Precision', description: '0.53mm thickness — for fine detail work.', icon: 'Target' },
+    ],
+    longDescription: `<p>The B141 is a compact angled-tip precision hobby blade at 36.8×8.4×0.53mm. Its small size provides superior manoeuvrability in tight and hard-to-reach areas.</p><p><strong>Applications:</strong> Electronics PCB cleaning, miniature model building, PCB prototype correction, fine model work and precision detail cutting.</p>`,
   },
   'b142': {
     name: 'B142 - Large Wide-Profile Blade',
@@ -814,6 +888,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Large wide blade. 47x11.3x0.63mm. For broad surface cutting, scraping, and prototyping.',
     features: ['Wide-profile large design', '47x11.3x0.63mm dimensions', '0.63mm thickness for heavy-duty use', 'Cutting, scraping and cleaning in one blade', 'Sheffield Durham Duplex quality'],
     applications: ['Large-scale model making', 'Scraping and surface cleaning', 'Industrial prototyping', 'Cardboard cutting'],
+    seo: {
+      title: 'B142 Large Hobby Blade 47×11.3mm | Large Craft Blade | Alya Blade',
+      description: 'B142 Large hobby blade. 47×11.3×0.63mm wide profile. Model making, scraping, prototyping. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B142 large', 'wide profile blade', 'large craft blade', 'scraping blade', 'hobby blade'],
+    },
+    benefits: [
+      { title: 'Wide Profile', description: '47×11.3mm — efficient cutting on large surfaces.', icon: 'Maximize' },
+      { title: 'Heavy Duty', description: '0.63mm thickness — built for intensive use.', icon: 'Shield' },
+      { title: 'Multi-Purpose', description: 'Cutting, scraping and cleaning in one blade.', icon: 'Layers' },
+    ],
+    longDescription: `<p>The B142 Large is a wide-profile hobby blade at 47×11.3×0.63mm. The 0.63mm thickness delivers heavy-duty durability.</p><p>The wide angled-tip design facilitates smooth cutting, scraping and cleaning on large surfaces.</p><p><strong>Applications:</strong> Model making, cardboard cutting, industrial prototyping, scraping and cleaning operations.</p>`,
   },
   'b142k': {
     name: 'B142 Small - Compact Blade — OLFA KB4-S/5 Compatible',
@@ -822,6 +907,21 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Compact B142. Two variants: 40x9x0.53mm standard and OLFA KB4-S/5 compatible 40.5x8x0.50mm.',
     features: ['Two size variants available', '40x9x0.53mm standard variant', 'OLFA KB4-S/5 compatible 40.5x8x0.50mm variant', 'Compact design for tight spaces', 'Sheffield Durham Duplex quality'],
     applications: ['Miniature model building', 'Electronics assembly', 'Fine detail cutting'],
+    seo: {
+      title: 'B142 Small Hobby Blade OLFA Compatible | Small Craft Blade | Alya Blade',
+      description: 'B142 Small hobby blade. 40×9mm & OLFA KB4-S/5 compatible 40.5×8mm. Miniature models, electronics, detail. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B142 small', 'OLFA KB4-S/5 compatible', 'compact craft blade', 'miniature blade', 'hobby blade'],
+    },
+    benefits: [
+      { title: 'OLFA Compatible', description: 'KB4-S/5 variant — full compatibility with OLFA AK-4 series.', icon: 'Link' },
+      { title: 'Dual Size', description: '40×9mm and 40.5×8mm — choose to suit the task.', icon: 'Layers' },
+      { title: 'Compact', description: 'Small size — superior manoeuvrability in tight spaces.', icon: 'Minimize' },
+    ],
+    longDescription: `<p>The B142 Small is the compact version of the B142 family. Available in two size variants: standard 40×9×0.53mm and OLFA KB4-S/5 compatible 40.5×8×0.50mm.</p><p>The compact angled-tip design delivers outstanding performance for precision cutting and detail work in tight spaces.</p><p><strong>Applications:</strong> Miniature model building, electronics assembly, fine detail cuts and as a replacement blade for OLFA AK-4 series art knives.</p>`,
+    availableSizes: [
+      '40×9×0.53mm — Standard',
+      '(OLFA KB4-S/5) 40.5×8×0.50mm — OLFA Compatible',
+    ],
   },
   'b143': {
     name: 'B143 - Hook Profile Compact Blade',
@@ -830,6 +930,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Hook-profile compact blade. 37x10x0.53mm. For scraping, deburring, and curved cuts.',
     features: ['Hook-form compact design', '37x10x0.53mm dimensions', 'Precision scraping and deburring', 'Curved cutting profile', 'Sheffield Durham Duplex quality'],
     applications: ['Leathercraft', 'Paper arts and decoration', 'Deburring and trimming'],
+    seo: {
+      title: 'B143 Hook Profile Hobby Blade | Hook Craft Blade | Alya Blade',
+      description: 'B143 hook-profile hobby blade. 37×10×0.53mm. Leathercraft, paper arts, deburring. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B143 hobby blade', 'hook profile blade', 'scraping blade', 'deburring', 'hook craft blade'],
+    },
+    benefits: [
+      { title: 'Hook Form', description: 'Curved profile — excels at scraping and curved cuts.', icon: 'Anchor' },
+      { title: 'Compact', description: '37mm — efficient in hard-to-reach areas.', icon: 'Minimize' },
+      { title: 'Multi-Functional', description: 'Cutting, scraping and deburring in one blade.', icon: 'Layers' },
+    ],
+    longDescription: `<p>The B143 is a hook-profile compact hobby blade at 37×10×0.53mm. Its curved profile excels at scraping, deburring and curved cutting operations.</p><p><strong>Applications:</strong> Leathercraft, paper arts, deburring, fine detail cutting and decorative scraping.</p>`,
   },
   'b144': {
     name: 'B144 - Chisel Edge (Flat) Blade',
@@ -838,6 +949,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Chisel edge blade. 40x10x0.53mm. For linear cuts, scraping, and stencil work.',
     features: ['Chisel (flat edge) design', '40x10x0.53mm dimensions', 'Linear cuts and surface scraping', 'Stencil and template cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Stencil and template cutting', 'Surface scraping and cleaning', 'Print preparation'],
+    seo: {
+      title: 'B144 Chisel Edge Hobby Blade | Flat Edge Craft Blade | Alya Blade',
+      description: 'B144 chisel edge hobby blade. 40×10×0.53mm. Stencil, scraping, print preparation. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B144 hobby blade', 'chisel blade', 'flat edge blade', 'stencil blade', 'flat edge craft blade'],
+    },
+    benefits: [
+      { title: 'Flat Edge', description: 'Chisel profile — perfect straightness on linear cuts.', icon: 'Minus' },
+      { title: 'Multi-Functional', description: 'Cutting, scraping and cleaning — one blade.', icon: 'Layers' },
+      { title: 'Efficient', description: '40mm wide edge — efficient work on broad surfaces.', icon: 'Maximize' },
+    ],
+    longDescription: `<p>The B144 is a chisel (flat edge) design hobby blade at 40×10×0.53mm. Its straight cutting line delivers outstanding performance on linear cuts, scraping and stencil work.</p><p><strong>Applications:</strong> Stencil and template cutting, print preparation, surface scraping and cleaning, and industrial cleaning applications.</p>`,
   },
   'b145': {
     name: 'B145 - Multi-Size Flat Edge Blade — OLFA KB4-F/5 Compatible',
@@ -846,6 +968,23 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: '4-size flat edge blade. 45x12/16/20mm and OLFA KB4-F/5 35.5x8x0.55mm.',
     features: ['4 different size options', '45x12mm / 45x16mm / 45x20mm standard sizes', 'OLFA KB4-F/5 compatible 35.5x8x0.55mm variant', 'Flat edge design for wide surface cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Professional model making', 'Graphic and design work', 'Template and stencil cutting', 'Wide surface scraping'],
+    seo: {
+      title: 'B145 Multi-Size Hobby Blade | Multi-Size Craft Blade | Alya Blade',
+      description: 'B145 multi-size hobby blade. 45×12/16/20mm & OLFA KB4-F/5. Model making, graphics, stencil. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B145 multi-size', 'multi-size craft blade', 'OLFA KB4-F/5', 'flat edge blade', 'hobby blade set'],
+    },
+    benefits: [
+      { title: '4 Sizes', description: '12mm, 16mm, 20mm and 35.5mm — a size for every need.', icon: 'Layers' },
+      { title: 'OLFA Compatible', description: 'KB4-F/5 variant — full compatibility with OLFA AK-4 series.', icon: 'Link' },
+      { title: 'Versatile', description: 'From narrow cuts to wide scraping — one product family.', icon: 'ArrowLeftRight' },
+    ],
+    longDescription: `<p>The B145 is a versatile flat-edge hobby blade offered in <strong>4 different sizes</strong>. Alongside the 45×12mm, 45×16mm and 45×20mm standard sizes, an OLFA KB4-F/5 compatible 35.5×8×0.55mm variant is also available.</p><p>The different-width flat-edge profiles provide a single product family solution for a wide range of cutting needs — from narrow cuts to wide surface scraping.</p><p><strong>Applications:</strong> Professional model making, graphic work, template cutting, wide surface scraping, print preparation and as a replacement blade for OLFA AK-4 series.</p>`,
+    availableSizes: [
+      '45×12×0.63mm',
+      '45×16×0.63mm',
+      '45×20×0.63mm',
+      '(OLFA KB4-F/5) 35.5×8×0.55mm',
+    ],
   },
   'b146': {
     name: 'B146 - Angled Wide-Profile Blade',
@@ -854,6 +993,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Angled wide blade. 39x11.7x0.63mm. For curved cuts and mold work.',
     features: ['Angled wide-profile design', '39x11.7x0.63mm dimensions', '0.63mm thickness for durability', 'Ideal for curved cuts', 'Sheffield Durham Duplex quality'],
     applications: ['Curved cutting', 'Mold trimming', 'Industrial hobby applications'],
+    seo: {
+      title: 'B146 Hobby Blade 39×11.7mm | Angled Craft Blade | Alya Blade',
+      description: 'B146 angled-profile hobby blade. 39×11.7×0.63mm. Curved cutting, mold work, model making. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B146 hobby blade', 'angled profile blade', 'angled craft blade', 'curved cutting blade'],
+    },
+    benefits: [
+      { title: 'Angled Profile', description: 'Superb control on curved cuts.', icon: 'TrendingUp' },
+      { title: 'Wide Body', description: '11.7mm width — strong, stable cutting.', icon: 'Maximize' },
+      { title: 'Durable', description: '0.63mm thickness — built for intensive use.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The B146 is an angled wide-profile hobby blade at 39×11.7×0.63mm. The 0.63mm thickness delivers durable performance, and the angled profile provides superb control on curved cuts.</p><p><strong>Applications:</strong> Curved cutting, mold trimming, large-scale modelling, industrial hobby and prototyping.</p>`,
   },
   'b147': {
     name: 'B147 - Pointed Wide-Body Blade',
@@ -862,6 +1012,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Pointed wide-body blade. 45x10x0.63mm. Precise entry, stable cutting.',
     features: ['Pointed tip wide-body design', '45x10x0.63mm dimensions', '0.63mm heavy-duty thickness', 'Large-scale precision cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Architectural model building', 'Sign and display cutting', 'Professional graphics'],
+    seo: {
+      title: 'B147 Hobby Blade 45×10mm | Pointed Craft Blade | Alya Blade',
+      description: 'B147 pointed wide-body hobby blade. 45×10×0.63mm. Architectural models, signs, graphics. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B147 hobby blade', 'pointed craft blade', 'architectural model blade', 'sign cutting blade', 'pointed precision blade'],
+    },
+    benefits: [
+      { title: 'Pointed Tip', description: 'Precise entry points — fine detail control.', icon: 'Crosshair' },
+      { title: 'Wide Body', description: '45×10mm — strong, stable cutting performance.', icon: 'Maximize' },
+      { title: 'Heavy Duty', description: '0.63mm thickness — durable on thick materials.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The B147 is a pointed wide-body hobby blade at 45×10×0.63mm. The sharp point creates precise entry while the wide body delivers strong, stable cuts.</p><p><strong>Applications:</strong> Architectural model building, sign cutting, professional graphics, advertising boards and large-scale detail cuts.</p>`,
   },
   'b148': {
     name: 'B148 - Curved Profile Blade',
@@ -870,6 +1031,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Curved profile blade. 45.4x10.3x0.63mm. For contour and curved cuts.',
     features: ['Curved profile cutting design', '45.4x10.3x0.63mm dimensions', '0.63mm thickness', 'Excellent for contour and curved cuts', 'Sheffield Durham Duplex quality'],
     applications: ['Leathercraft', 'Vinyl cutting', 'Decorative cutting and trimming'],
+    seo: {
+      title: 'B148 Curved Profile Hobby Blade 45.4×10.3mm | Curved Craft Blade | Alya Blade',
+      description: 'B148 curved profile hobby blade. 45.4×10.3×0.63mm. Leathercraft, vinyl, decorative cutting. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B148 hobby blade', 'curved craft blade', 'curved precision blade', 'leather cutting blade', 'contour blade'],
+    },
+    benefits: [
+      { title: 'Curved Profile', description: 'Curved cutting line — outstanding contour tracking.', icon: 'CircleDot' },
+      { title: 'Wide Body', description: '45.4×10.3mm — stable, controlled cutting.', icon: 'Maximize' },
+      { title: 'Durable', description: '0.63mm thickness — long-lasting performance.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The B148 is a curved-profile hobby blade at 45.4×10.3×0.63mm. Its curved cutting line delivers outstanding performance on contour and curved cuts.</p><p><strong>Applications:</strong> Leathercraft, paper arts, vinyl cutting, decorative applications and curved detail cuts.</p>`,
   },
   'b149': {
     name: 'B149 - Compact Wide-Profile Blade',
@@ -878,6 +1050,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Compact wide blade. 39.4x11x0.63mm. For scraping, leveling, and 3D print cleanup.',
     features: ['Compact wide-profile design', '39.4x11x0.63mm dimensions', '0.63mm thickness', '3D print post-processing and support removal', 'Sheffield Durham Duplex quality'],
     applications: ['3D print cleanup and support removal', 'Miniature model building', 'Precision scraping and leveling'],
+    seo: {
+      title: 'B149 Hobby Blade 39.4×11mm | Compact Wide Blade | Alya Blade',
+      description: 'B149 compact wide-profile hobby blade. 39.4×11×0.63mm. 3D print cleanup, miniature models, scraping. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B149 hobby blade', 'compact wide blade', '3D print cleanup blade', 'miniature model blade', 'craft blade'],
+    },
+    benefits: [
+      { title: 'Compact & Wide', description: '39.4×11mm — wide surface coverage with compact manoeuvrability.', icon: 'Maximize' },
+      { title: '3D Print Ready', description: 'Ideal for support removal and post-processing.', icon: 'Printer' },
+      { title: 'Durable', description: '0.63mm thickness — heavy-duty durability.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The B149 is a compact wide-profile hobby blade at 39.4×11×0.63mm. Its wide profile delivers outstanding performance for precision scraping and levelling.</p><p><strong>Applications:</strong> 3D print post-processing (support removal), miniature model building, electronic prototype trimming and precision scraping operations.</p>`,
   },
   'b150': {
     name: 'B150 - Precision Craft Blade #25 Heavy Duty',
@@ -886,6 +1069,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Heavy duty #25 blade. Wide body for thick materials. X-Acto #25 compatible.',
     features: ['#25 wide-body blade geometry', 'Heavy duty hobby blade type', 'Wide profile for cutting thick materials', 'X-Acto #25 compatible', 'Sheffield Durham Duplex quality'],
     applications: ['Balsa wood model building', 'Thick cardboard cutting', 'Plastic sheet and composite cutting', 'Industrial prototyping'],
+    seo: {
+      title: 'B150 Hobby Blade #25 Heavy Duty | Heavy Duty Craft Blade | Alya Blade',
+      description: 'B150 #25 heavy duty hobby blade. Wide body. Balsa wood, plastic, cardboard, composite. X-Acto compatible. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['#25 hobby blade', 'B150', 'heavy duty craft blade', 'X-Acto #25 compatible', 'balsa wood blade', 'wide body blade'],
+    },
+    benefits: [
+      { title: '#25 Geometry', description: 'Wide body — powerful cuts on thick materials.', icon: 'Maximize' },
+      { title: 'X-Acto Compatible', description: '#25 series — universal handle compatibility.', icon: 'Link' },
+      { title: 'Heavy Duty', description: 'Designed for thick cardboard, plastic and composites.', icon: 'Shield' },
+    ],
+    longDescription: `<p>The B150 is a <strong>#25 wide-body</strong> heavy duty hobby blade. With a much wider profile than the standard #11, it is designed for cutting thick materials.</p><p>Compatible with the X-Acto #25 series, this replacement blade is preferred for balsa wood, thick cardboard, plastic sheet and composite material cutting.</p><p><strong>Applications:</strong> Heavy duty hobby cutting, balsa wood and plastic model building, thick cardboard cutting, composite material processing and industrial prototyping.</p>`,
   },
   'b151': {
     name: 'B151 - Pointed Wide-Body Professional Blade',
@@ -894,6 +1088,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Professional wide-body blade. 45x11x0.63mm. For sign cutting and industrial shaping.',
     features: ['Pointed tip wide-body design', '45x11x0.63mm dimensions', '0.63mm heavy-duty thickness', 'Large-scale shaping and cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Sign and display cutting', 'Professional model making', 'Industrial cutting and shaping'],
+    seo: {
+      title: 'B151 Professional Hobby Blade 45×11mm | Professional Craft Blade | Alya Blade',
+      description: 'B151 professional hobby blade. 45×11×0.63mm pointed wide-body. Sign cutting, model making, industrial cutting. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['B151 hobby blade', 'professional craft blade', 'sign cutting blade', 'precision hobby blade'],
+    },
+    benefits: [
+      { title: 'Pointed Tip', description: 'Precise entry — fine detail control.', icon: 'Crosshair' },
+      { title: 'Wide Body', description: '45×11mm — strong cutting performance.', icon: 'Maximize' },
+      { title: 'Professional', description: '0.63mm thickness — for professional applications.', icon: 'Award' },
+    ],
+    longDescription: `<p>The B151 is a professional pointed wide-body precision blade at 45×11×0.63mm. The sharp tip creates precise entry points while the wide body and 0.63mm thickness deliver strong, controlled cuts.</p><p><strong>Applications:</strong> Professional model making, sign cutting, advertising boards, industrial cutting and large-scale shaping operations.</p>`,
   },
 
   // KB Series — OLFA Compatible Art Knife Blades
@@ -904,6 +1109,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'OLFA KB art knife blade. 40.5x6x0.45mm, 1 notch. For paper arts and stencil cutting.',
     features: ['OLFA KB compatible replacement blade', '40.5x6x0.45mm dimensions', '1 notch for easy and secure blade change', '0.45mm ultra-thin for precision cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Paper arts and scrapbooking', 'Calligraphy', 'Stencil and template cutting', 'Ultra-fine detail work'],
+    seo: {
+      title: 'KB Art Knife Blade OLFA KB Compatible | Art Knife Blade | Alya Blade',
+      description: 'KB precision art knife blade. OLFA KB compatible 40.5×6×0.45mm, 1 notch. Paper arts, calligraphy, stencil. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['OLFA KB blade', 'art knife blade', 'KB hobby blade', 'paper arts blade', 'calligraphy blade'],
+    },
+    benefits: [
+      { title: 'OLFA Compatible', description: 'OLFA AK series — world-standard art knife compatibility.', icon: 'Link' },
+      { title: 'Ultra Thin', description: '0.45mm thickness — ultra-precision paper cutting.', icon: 'Minimize' },
+      { title: 'Easy Change', description: '1 notch mount — fast and secure blade change.', icon: 'Zap' },
+    ],
+    longDescription: `<p>The KB is an <strong>OLFA KB compatible</strong> precision art knife blade. At 40.5×6×0.45mm, it is fully compatible with OLFA AK series art knives. The 1-notch mount system provides easy and secure blade changes.</p><p>The ultra-thin 0.45mm thickness delivers outstanding cutting performance for paper arts, calligraphy, stencil and fine detail work.</p><p><strong>Applications:</strong> Paper arts, fine model cutting, stencil, calligraphy, scrapbooking, vinyl decal and precision detail work.</p>`,
   },
   'kb-5': {
     name: 'KB-5 - Ultra Compact Art Knife Blade',
@@ -912,6 +1128,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Ultra compact blade. 25x4x0.38mm — smallest in the series. 0.38mm ultra-thin.',
     features: ['Ultra-thin and ultra-compact design', '25x4x0.38mm — the smallest hobby blade in the range', '0.38mm thickness for ultra-precision cutting', 'Compatible with OLFA AK series art knives', 'Sheffield Durham Duplex quality'],
     applications: ['Paper arts', 'Calligraphy', 'Miniature and precision work'],
+    seo: {
+      title: 'KB-5 Ultra Compact Hobby Blade 25×4mm | Art Knife Blade | Alya Blade',
+      description: 'KB-5 ultra compact hobby blade. 25×4×0.38mm, the thinnest model. Paper arts, calligraphy, miniatures. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['KB-5 hobby blade', 'ultra compact blade', 'paper arts blade', 'art knife blade', 'mini craft blade'],
+    },
+    benefits: [
+      { title: 'Smallest', description: '25×4mm — the most compact model in the range.', icon: 'Minimize' },
+      { title: 'Thinnest', description: '0.38mm — ultra-precision fine cuts.', icon: 'ArrowDown' },
+      { title: 'OLFA Compatible', description: 'AK series — universal art knife compatibility.', icon: 'Link' },
+    ],
+    longDescription: `<p>The KB-5 is the <strong>smallest and thinnest</strong> model in the hobby blade range. At 25×4×0.38mm, it offers an ultra-compact design with 0.38mm — the thinnest blade in the series.</p><p>Fully compatible with OLFA AK series art knives, the KB-5 is preferred for fine paper work, calligraphy and ultra-precision detail tasks.</p><p><strong>Applications:</strong> Paper arts, calligraphy, stamp collecting, miniature work, fine vinyl cutting and ultra-precision detail tasks.</p>`,
   },
   'kb4-r5': {
     name: 'KB4-R/5 - Curved Art Knife Blade (OLFA Compatible)',
@@ -920,6 +1147,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Curved art knife blade. OLFA KB4-R/5 compatible, 38.5x6x0.45mm.',
     features: ['OLFA KB4-R/5 compatible replacement blade', '38.5x6x0.45mm dimensions', 'Curved cutting profile for arcs and contours', '0.45mm thickness for precision', 'Sheffield Durham Duplex quality'],
     applications: ['Curved and contour cutting', 'Stencil and template work', 'Professional art applications'],
+    seo: {
+      title: 'KB4-R/5 Curved Art Knife Blade OLFA Compatible | Curved Art Blade | Alya Blade',
+      description: 'KB4-R/5 OLFA compatible hobby blade. 38.5×6×0.45mm curved profile. Stencil, art, precision cutting. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['KB4-R/5 blade', 'OLFA KB4-R compatible', 'curved art knife', 'stencil blade', 'curved art blade'],
+    },
+    benefits: [
+      { title: 'OLFA KB4-R Compatible', description: 'AK-4 series — professional art knife compatibility.', icon: 'Link' },
+      { title: 'Curved Profile', description: 'Superior control on curved cuts.', icon: 'CircleDot' },
+      { title: 'Precision', description: '0.45mm thickness — clean cutting line.', icon: 'Target' },
+    ],
+    longDescription: `<p>The KB4-R/5 is an <strong>OLFA KB4-R/5 compatible</strong> curved-profile art knife blade. At 38.5×6×0.45mm, it is fully compatible with OLFA AK-4 series art knives.</p><p>The curved profile provides superior control on curved cuts and stencil work. The 0.45mm thickness ensures a precise, clean cutting line.</p><p><strong>Applications:</strong> Precision curved cutting, stencil work, professional art applications, paper arts and hobby projects.</p>`,
   },
   'kb4-ns3': {
     name: 'KB4-NS/3 - Narrow Serrated Art Knife Blade',
@@ -928,6 +1166,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Narrow serrated blade. OLFA KB4-NS/3, 64x11/6x0.35mm. For foam and soft materials.',
     features: ['Narrow serrated (saw-tooth) edge design', '64x11/6x0.35mm dimensions', '0.35mm ultra-thin thickness', 'Cuts foam and soft materials without tearing', 'Sheffield Durham Duplex quality'],
     applications: ['Foam cutting', 'Polystyrene (styrofoam) model making', 'Sponge and soft material cutting'],
+    seo: {
+      title: 'KB4-NS/3 Serrated Hobby Blade OLFA Compatible | Serrated Art Blade | Alya Blade',
+      description: 'KB4-NS/3 narrow serrated hobby blade. OLFA KB4-NS/3, 64×11/6×0.35mm. Foam, sponge, polystyrene cutting. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['KB4-NS/3 serrated blade', 'OLFA serrated blade', 'foam cutting blade', 'narrow serrated', 'sponge blade'],
+    },
+    benefits: [
+      { title: 'Narrow Serrated', description: 'Narrow serrated edge — cuts soft materials without tearing.', icon: 'BarChart3' },
+      { title: 'Ultra Thin', description: '0.35mm — the thinnest serrated blade in the series.', icon: 'Minimize' },
+      { title: 'OLFA AK-4', description: 'AK-4 series compatible — professional quality.', icon: 'Link' },
+    ],
+    longDescription: `<p>The KB4-NS/3 is an <strong>OLFA KB4-NS/3 compatible narrow serrated (saw-tooth)</strong> art knife blade. At 64×11/6×0.35mm, it is one of the longest models in the series.</p><p>The serrated edge profile delivers far superior performance to straight-edged blades when cutting foam, sponge, polystyrene (styrofoam) and soft materials. The serrated structure cuts without tearing.</p><p><strong>Applications:</strong> Foam cutting, sponge shaping, polystyrene model making, soft material detail cutting and as a replacement blade for OLFA AK-4 series.</p>`,
   },
   'kb4-ws3': {
     name: 'KB4-WS/3 - Wide Serrated Art Knife Blade',
@@ -936,6 +1185,17 @@ export const productsEn: Record<string, ProductTranslation> = {
     shortDescription: 'Wide serrated blade. OLFA KB4-WS/3, 66.5x11/6x0.35mm. For thick foam and balsa wood.',
     features: ['Wide serrated (saw-tooth) edge design', '66.5x11/6x0.35mm — longest in the series', '0.35mm ultra-thin thickness', 'Cuts thick foam and balsa wood without tearing', 'Sheffield Durham Duplex quality'],
     applications: ['Thick foam cutting', 'Balsa wood model building', 'Architectural foam models'],
+    seo: {
+      title: 'KB4-WS/3 Wide Serrated Hobby Blade OLFA Compatible | Wide Serrated Blade | Alya Blade',
+      description: 'KB4-WS/3 wide serrated hobby blade. OLFA KB4-WS/3, 66.5×11/6×0.35mm. Thick foam, balsa wood, polystyrene. Sheffield Durham Duplex. Authorized distributor.',
+      keywords: ['KB4-WS/3 wide serrated', 'OLFA wide serrated', 'thick foam blade', 'balsa wood blade', 'wide serrated blade'],
+    },
+    benefits: [
+      { title: 'Wide Serrated', description: 'Wide serrated edge — cuts thick soft materials without tearing.', icon: 'BarChart3' },
+      { title: 'Longest', description: '66.5mm — the longest serrated blade in the series.', icon: 'Maximize' },
+      { title: 'OLFA AK-4', description: 'AK-4 series compatible — professional quality.', icon: 'Link' },
+    ],
+    longDescription: `<p>The KB4-WS/3 is an <strong>OLFA KB4-WS/3 compatible wide serrated (saw-tooth)</strong> art knife blade. At 66.5×11/6×0.35mm, it is the longest blade in the series.</p><p>The wide serration delivers superior performance over the KB4-NS/3 narrow serrated version when cutting thick foam and balsa wood. The wider tooth spacing enables clean cuts through thick soft materials without tearing.</p><p><strong>Applications:</strong> Thick foam cutting, balsa wood model building, sponge shaping, polystyrene architectural models and as a replacement blade for OLFA AK-4 series.</p>`,
   },
 
   // Other Hobby Blades
