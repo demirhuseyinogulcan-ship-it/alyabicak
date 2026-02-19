@@ -8789,5 +8789,682 @@
     "isFeatured": false,
     "isActive": true,
     "order": 138
+  },
+
+  {
+    "id": "b301",
+    "slug": "b301-bisturi-nester-jileti",
+    "slugEN": "b301-scalpel-blade-no10",
+    "code": "B301",
+    "name": "B301 - Bisturi / Neşter Jileti No.10",
+    "description": "Bisturi / Neşter jileti No.10 — 41×8.3×0.40mm. Kavisli kesim kenarı, keskin olmayan arka kenar. Genel cerrahi operasyonlar, karın ameliyatları ve cilt/kas insizyonlarında en yaygın kullanılan bisturi jileti. #3 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b301-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b301-standard",
+        "sku": "B301-001-S05",
+        "name": "No.10 — 41×8.3×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "41×8.3×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.10 — Kavisli Kesim Kenarı",
+      "handleCompatibility": "#3 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.10 — en yaygın cerrahi bisturi jileti profili",
+      "41×8.3×0.40mm boyut",
+      "Kavisli kesim kenarı, düz arka kenar",
+      "#3 sap uyumlu (Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Genel cerrahi",
+      "Histoloji laboratuvarı",
+      "Patoloji",
+      "Otopsi",
+      "Endüstriyel hassas kesim"
+    ],
+    "availableSizes": [
+      "41×8.3×0.40mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 312
+  },
+  {
+    "id": "b302",
+    "slug": "b302-bisturi-nester-jileti",
+    "slugEN": "b302-scalpel-blade-no10a",
+    "code": "B302",
+    "name": "B302 - Bisturi / Neşter Jileti No.10A",
+    "description": "Bisturi / Neşter jileti No.10A — 40×7.8×0.40mm. Düz, geniş karınlı profil. No.10'un düz versiyonu. Dermatoloji, plastik cerrahi ve doku kesim uygulamalarında tercih edilir. #3 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b302-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b302-standard",
+        "sku": "B302-001-S05",
+        "name": "No.10A — 40×7.8×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "40×7.8×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.10A — Düz Geniş Karınlı",
+      "handleCompatibility": "#3 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.10A — düz geniş karınlı profil",
+      "40×7.8×0.40mm boyut",
+      "No.10'un düz versiyonu",
+      "#3 sap uyumlu (Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Dermatoloji",
+      "Plastik cerrahi",
+      "Doku kesim",
+      "Laboratuvar",
+      "Endüstriyel hassas kesim"
+    ],
+    "availableSizes": [
+      "40×7.8×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 313
+  },
+  {
+    "id": "b303",
+    "slug": "b303-bisturi-nester-jileti",
+    "slugEN": "b303-scalpel-blade-no11",
+    "code": "B303",
+    "name": "B303 - Bisturi / Neşter Jileti No.11",
+    "description": "Bisturi / Neşter jileti No.11 — 41×6.5×0.40mm. Üçgen profil, sivri uç, sapa paralel düz kesim kenarı. Hassas delme kesimleri, stab insizyonlar ve şablon kesim için ideal. #3 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b303-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b303-standard",
+        "sku": "B303-001-S05",
+        "name": "No.11 — 41×6.5×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "41×6.5×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.11 — Üçgen Sivri Uçlu",
+      "handleCompatibility": "#3 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.11 — üçgen profil, sivri uç, hassas delme kesimi",
+      "41×6.5×0.40mm boyut",
+      "Sapa paralel düz kesim kenarı",
+      "#3 sap uyumlu (Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Hassas delme kesimleri",
+      "Stab insizyonlar",
+      "Şablon kesim",
+      "Laboratuvar",
+      "Elektronik bileşen kesimi"
+    ],
+    "availableSizes": [
+      "41×6.5×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 314
+  },
+  {
+    "id": "b304",
+    "slug": "b304-bisturi-nester-jileti",
+    "slugEN": "b304-scalpel-blade-no12",
+    "code": "B304",
+    "name": "B304 - Bisturi / Neşter Jileti No.12",
+    "description": "Bisturi / Neşter jileti No.12 — 37×11×0.40mm. Küçük hilal/kanca şeklinde, iç kenar bileli. Oftalmoloji, kulak-burun-boğaz (KBB) ve diş cerrahisinde kullanılır. #3 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b304-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b304-standard",
+        "sku": "B304-001-S05",
+        "name": "No.12 — 37×11×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "37×11×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.12 — Hilal/Kanca Şeklinde İç Kenar Bileli",
+      "handleCompatibility": "#3 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.12 — hilal/kanca şeklinde, iç kenar bileli",
+      "37×11×0.40mm boyut",
+      "Kavisli iç kenar kesim profili",
+      "#3 sap uyumlu (Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Oftalmoloji",
+      "KBB (Kulak-Burun-Boğaz)",
+      "Diş cerrahisi",
+      "Laboratuvar",
+      "Hassas detay kesim"
+    ],
+    "availableSizes": [
+      "37×11×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 315
+  },
+  {
+    "id": "b305",
+    "slug": "b305-bisturi-nester-jileti",
+    "slugEN": "b305-scalpel-blade-no15",
+    "code": "B305",
+    "name": "B305 - Bisturi / Neşter Jileti No.15",
+    "description": "Bisturi / Neşter jileti No.15 — 37×6×0.40mm. No.10'un küçük versiyonu, hassas diseksiyon için en popüler bisturi jileti. İnce doku kesimi, dermatolojik prosedürler ve mikro cerrahi uygulamalarında tercih edilir. #3 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b305-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b305-standard",
+        "sku": "B305-001-S05",
+        "name": "No.15 — 37×6×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "37×6×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.15 — No.10 Küçük Versiyon, Kavisli Kenar",
+      "handleCompatibility": "#3 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.15 — hassas diseksiyon için en popüler bisturi jileti",
+      "37×6×0.40mm boyut — kompakt form",
+      "No.10'un küçük versiyonu — ince doku kesimi",
+      "#3 sap uyumlu (Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Hassas diseksiyon",
+      "Dermatoloji",
+      "Mikro cerrahi",
+      "Histoloji",
+      "Patoloji laboratuvarı"
+    ],
+    "availableSizes": [
+      "37×6×0.40mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 316
+  },
+  {
+    "id": "b306",
+    "slug": "b306-bisturi-nester-jileti",
+    "slugEN": "b306-scalpel-blade-no20",
+    "code": "B306",
+    "name": "B306 - Bisturi / Neşter Jileti No.20",
+    "description": "Bisturi / Neşter jileti No.20 — 45×9×0.40mm. No.10'un büyük versiyonu, kavisli kesim kenarı. Genel cerrahi ve ortopedi ameliyatlarında geniş doku kesimi için kullanılır. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b306-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b306-standard",
+        "sku": "B306-001-S05",
+        "name": "No.20 — 45×9×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "45×9×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.20 — No.10 Büyük Versiyon, Kavisli Kenar",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.20 — No.10'un büyük versiyonu, #4 sap",
+      "45×9×0.40mm boyut",
+      "Kavisli kesim kenarı, düz arka kenar",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Genel cerrahi",
+      "Ortopedi",
+      "Geniş doku kesimi",
+      "Veterinerlik",
+      "Endüstriyel kesim"
+    ],
+    "availableSizes": [
+      "45×9×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 317
+  },
+  {
+    "id": "b307",
+    "slug": "b307-bisturi-nester-jileti",
+    "slugEN": "b307-scalpel-blade-no21",
+    "code": "B307",
+    "name": "B307 - Bisturi / Neşter Jileti No.21",
+    "description": "Bisturi / Neşter jileti No.21 — 53×10×0.40mm. Büyük üçgen profil, No.10 benzeri geniş kesim yüzeyi. Geniş alan cerrahisi ve büyük doku kesimlerinde kullanılır. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b307-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b307-standard",
+        "sku": "B307-001-S05",
+        "name": "No.21 — 53×10×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "53×10×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.21 — Büyük Üçgen Profil",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.21 — büyük üçgen profil, geniş kesim yüzeyi",
+      "53×10×0.40mm boyut",
+      "No.10 benzeri geniş kesim geometrisi",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Geniş alan cerrahisi",
+      "Büyük doku kesimi",
+      "Veterinerlik",
+      "Otopsi",
+      "Endüstriyel kesim"
+    ],
+    "availableSizes": [
+      "53×10×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 318
+  },
+  {
+    "id": "b308",
+    "slug": "b308-bisturi-nester-jileti",
+    "slugEN": "b308-scalpel-blade-no22",
+    "code": "B308",
+    "name": "B308 - Bisturi / Neşter Jileti No.22",
+    "description": "Bisturi / Neşter jileti No.22 — 58×11.4×0.40mm. No.20'nin biraz daha büyük versiyonu, kavisli kesim kenarı. Kardiyak ve torasik cerrahide cilt insizyonlarında kullanılır. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b308-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b308-standard",
+        "sku": "B308-001-S05",
+        "name": "No.22 — 58×11.4×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "58×11.4×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.22 — No.20 Büyük Versiyon, Kavisli Kenar",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.22 — kardiyak ve torasik cerrahide yaygın kullanım",
+      "58×11.4×0.40mm boyut",
+      "No.20'nin biraz daha büyük versiyonu",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Kardiyak cerrahi",
+      "Torasik cerrahi",
+      "Genel cerrahi",
+      "Veterinerlik",
+      "Endüstriyel kesim"
+    ],
+    "availableSizes": [
+      "58×11.4×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 319
+  },
+  {
+    "id": "b309",
+    "slug": "b309-bisturi-nester-jileti",
+    "slugEN": "b309-scalpel-blade-no23",
+    "code": "B309",
+    "name": "B309 - Bisturi / Neşter Jileti No.23",
+    "description": "Bisturi / Neşter jileti No.23 — 51.5×10×4×0.40mm. Yaprak şekilli profil, uzun insizyonlar için tasarlanmış. No.22 benzeri ancak yaprak formlu. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b309-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b309-standard",
+        "sku": "B309-001-S05",
+        "name": "No.23 — 51.5×10×4×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "51.5×10×4×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.23 — Yaprak Şekilli, Uzun İnsizyon",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.23 — yaprak şekilli profil, uzun insizyonlar",
+      "51.5×10×4×0.40mm boyut",
+      "No.22 benzeri ancak yaprak formlu",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Uzun insizyonlar",
+      "Genel cerrahi",
+      "Plastik cerrahi",
+      "Veterinerlik",
+      "Endüstriyel hassas kesim"
+    ],
+    "availableSizes": [
+      "51.5×10×4×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 320
+  },
+  {
+    "id": "b310",
+    "slug": "b310-bisturi-nester-jileti",
+    "slugEN": "b310-scalpel-blade-no24",
+    "code": "B310",
+    "name": "B310 - Bisturi / Neşter Jileti No.24",
+    "description": "Bisturi / Neşter jileti No.24 — 56×11.5×0.40mm. Geniş, düz, açılı kesim kenarı. Köşe kesimleri, budama, sıyırma ve conta/gasket kesimi için tasarlanmış. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b310-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b310-standard",
+        "sku": "B310-001-S05",
+        "name": "No.24 — 56×11.5×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "56×11.5×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.24 — Geniş Düz Açılı Kenar",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.24 — geniş düz açılı kesim kenarı",
+      "56×11.5×0.40mm boyut",
+      "Köşe kesimleri ve sıyırma için optimize",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Köşe kesimleri",
+      "Budama ve sıyırma",
+      "Conta/gasket kesimi",
+      "Mat kesimi",
+      "Endüstriyel kesim"
+    ],
+    "availableSizes": [
+      "56×11.5×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 321
+  },
+  {
+    "id": "b311",
+    "slug": "b311-bisturi-nester-jileti",
+    "slugEN": "b311-scalpel-blade-no25",
+    "code": "B311",
+    "name": "B311 - Bisturi / Neşter Jileti No.25",
+    "description": "Bisturi / Neşter jileti No.25 — 56×11.5×0.40mm. Öne bakan düz kenar, düz arka profil. Genel amaçlı kullanım ve laboratuvar çalışmaları için uygun. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b311-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b311-standard",
+        "sku": "B311-001-S05",
+        "name": "No.25 — 56×11.5×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "56×11.5×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.25 — Öne Bakan Düz Kenar",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.25 — öne bakan düz kenar, düz arka profil",
+      "56×11.5×0.40mm boyut",
+      "Genel amaçlı kullanım ve laboratuvar",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Genel cerrahi",
+      "Laboratuvar çalışması",
+      "Histoloji",
+      "Patoloji",
+      "Endüstriyel kesim"
+    ],
+    "availableSizes": [
+      "56×11.5×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 322
+  },
+  {
+    "id": "b312",
+    "slug": "b312-bisturi-nester-jileti",
+    "slugEN": "b312-scalpel-blade-no26",
+    "code": "B312",
+    "name": "B312 - Bisturi / Neşter Jileti No.26",
+    "description": "Bisturi / Neşter jileti No.26 — 57×10×0.40mm. Üçgen düz kenar, aşağı açılı arka kenar. Budama ve ince detay çalışmaları için tasarlanmış. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b312-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b312-standard",
+        "sku": "B312-001-S05",
+        "name": "No.26 — 57×10×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "57×10×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.26 — Üçgen Düz Kenar, Aşağı Açılı",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.26 — üçgen düz kenar, aşağı açılı arka profil",
+      "57×10×0.40mm boyut",
+      "Budama ve ince detay çalışmaları",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Budama",
+      "İnce detay kesim",
+      "Laboratuvar",
+      "Histopatoloji",
+      "Endüstriyel hassas kesim"
+    ],
+    "availableSizes": [
+      "57×10×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 323
+  },
+  {
+    "id": "b313",
+    "slug": "b313-bisturi-nester-jileti",
+    "slugEN": "b313-scalpel-blade-no27",
+    "code": "B313",
+    "name": "B313 - Bisturi / Neşter Jileti No.27",
+    "description": "Bisturi / Neşter jileti No.27 — 60×13.3×0.40mm. Geniş bıçak profili. Genel cerrahi, histoloji ve büyük doku kesimlerinde kullanılır. Serideki en geniş bisturi jileti. #4 sap uyumlu. Karbon çelik, hassas bileme, non-steril endüstriyel kalite. 100 adet/kutu (20×5 şerit). Swann Morton uyumlu.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "scalpel-blades",
+    "image": "/images/products/b313-bisturi-nester.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b313-standard",
+        "sku": "B313-001-S05",
+        "name": "No.27 — 60×13.3×0.40mm — 100 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Karbon Çelik",
+      "hardness": "HRC 55-58",
+      "dimensions": "60×13.3×0.40mm",
+      "thickness": "0.40mm",
+      "bladeType": "No.27 — Geniş Bıçak Profili",
+      "handleCompatibility": "#4 Sap Uyumlu",
+      "packaging": "100 Adet/Kutu (20×5 Şerit)",
+      "sterilization": "Non-Steril"
+    },
+    "features": [
+      "No.27 — serideki en geniş bisturi jileti",
+      "60×13.3×0.40mm boyut",
+      "Geniş bıçak profili — büyük doku kesimleri",
+      "#4 sap uyumlu (büyük Bard-Parker fitment)",
+      "Karbon çelik, hassas bileme",
+      "Non-steril endüstriyel kalite",
+      "100 adet/kutu (20×5 şerit ambalaj)"
+    ],
+    "applications": [
+      "Genel cerrahi",
+      "Histoloji",
+      "Büyük doku kesimi",
+      "Veterinerlik",
+      "Endüstriyel kesim"
+    ],
+    "availableSizes": [
+      "60×13.3×0.40mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 324
   }
 ]
