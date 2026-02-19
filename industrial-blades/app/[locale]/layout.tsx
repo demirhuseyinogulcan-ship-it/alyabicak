@@ -129,8 +129,18 @@ export async function generateMetadata({
     },
     manifest: '/site.webmanifest',
     verification: {
-      // Yandex verification is handled dynamically, but keeping this for completeness if needed by other services
-      // yandex: '...', 
+      // Google Search Console - domain bazlı doğrulama
+      ...(locale === 'tr'
+        ? (process.env.NEXT_PUBLIC_GSC_VERIFICATION_TR ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION_TR } : {})
+        : (process.env.NEXT_PUBLIC_GSC_VERIFICATION_GLOBAL ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION_GLOBAL } : {})
+      ),
+      // Bing Webmaster Tools - domain bazlı doğrulama
+      other: {
+        ...(locale === 'tr'
+          ? (process.env.NEXT_PUBLIC_BING_VERIFICATION_TR ? { 'msvalidate.01': process.env.NEXT_PUBLIC_BING_VERIFICATION_TR } : {})
+          : (process.env.NEXT_PUBLIC_BING_VERIFICATION_GLOBAL ? { 'msvalidate.01': process.env.NEXT_PUBLIC_BING_VERIFICATION_GLOBAL } : {})
+        ),
+      },
     },
   };
 }

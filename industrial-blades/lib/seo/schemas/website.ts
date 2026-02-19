@@ -40,6 +40,15 @@ export function generateWebsiteSchema(locale: Locale) {
       '@type': 'Organization',
       name: siteConfig.company.legalName,
     },
+    // Google Sitelinks Search Box — enables search from SERP
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${domain}/${locale}/products?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
   }
 }
 
