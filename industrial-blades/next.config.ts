@@ -9,9 +9,6 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 gün cache
   },
   
-  // Vercel için standalone output
-  output: 'standalone',
-  
   // Performans optimizasyonları
   reactStrictMode: true,
   
