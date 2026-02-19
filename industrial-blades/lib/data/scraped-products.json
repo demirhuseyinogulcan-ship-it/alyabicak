@@ -28,7 +28,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": true,
-    "isActive": true,
+    "isActive": false,
     "order": 100,
     "slugEN": "ok-blade"
   },
@@ -3933,7 +3933,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 151
   },
   {
@@ -3965,7 +3965,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 152
   },
   {
@@ -3997,7 +3997,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 153
   },
   {
@@ -4029,7 +4029,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 154
   },
   {
@@ -4061,7 +4061,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 155,
     "slugEN": "b204-classic-blade"
   },
@@ -7378,7 +7378,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 249,
     "slugEN": "p1-a-deburring-hobby-knife-allen-screw"
   },
@@ -7411,7 +7411,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 250,
     "slugEN": "p1-t-deburring-hobby-knife-twist-screw"
   },
@@ -7444,7 +7444,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 251,
     "slugEN": "p2-a-deburring-hobby-knife-allen-screw"
   },
@@ -7477,7 +7477,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 252,
     "slugEN": "p2-t-deburring-hobby-knife-twist-screw"
   },
@@ -7510,7 +7510,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 253,
     "slugEN": "p9-ss-deburring-hobby-knife-dual-slot"
   },
@@ -7543,7 +7543,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 254,
     "slugEN": "ws-1-deburring-hobby-workstation"
   },
