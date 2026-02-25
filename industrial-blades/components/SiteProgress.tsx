@@ -185,11 +185,12 @@ export default function SiteProgress() {
         className={`
           flex flex-col bg-steel-900/95 backdrop-blur-md rounded-xl
           shadow-2xl overflow-hidden
+          w-[290px] sm:w-[320px]
           transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]
           ${
             isExpanded
-              ? 'w-[290px] sm:w-[320px] border border-primary-500/20 shadow-primary-900/20'
-              : 'w-auto border border-steel-700/50 opacity-70 hover:opacity-100'
+              ? 'border border-primary-500/20 shadow-primary-900/20'
+              : 'border border-steel-700/50 opacity-70 hover:opacity-100'
           }
         `}
       >
@@ -316,7 +317,7 @@ export default function SiteProgress() {
           </span>
 
           {/* Progress bar */}
-          <div className="w-14 h-1.5 bg-steel-700/70 rounded-full overflow-hidden flex-shrink-0">
+          <div className="flex-1 h-1.5 bg-steel-700/70 rounded-full overflow-hidden min-w-[40px]">
             <div
               className="h-full bg-primary-500 rounded-full transition-all duration-1000 ease-out"
               style={{ width: `${progress}%` }}
