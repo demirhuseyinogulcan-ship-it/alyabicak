@@ -111,6 +111,7 @@ export default function SiteProgress() {
   const [progress, setProgress] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
   const panelRef = useRef<HTMLDivElement>(null)
+  const leaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const t = translations[locale as keyof typeof translations] || translations.en
 
@@ -145,11 +146,22 @@ export default function SiteProgress() {
   }, [isMobile, isExpanded])
 
   const handleMouseEnter = useCallback(() => {
-    if (!isMobile) setIsExpanded(true)
+    if (!isMobile) {
+      if (leaveTimer.current) {
+        clearTimeout(leaveTimer.current)
+        leaveTimer.current = null
+      }
+      setIsExpanded(true)
+    }
   }, [isMobile])
 
   const handleMouseLeave = useCallback(() => {
-    if (!isMobile) setIsExpanded(false)
+    if (!isMobile) {
+      leaveTimer.current = setTimeout(() => {
+        setIsExpanded(false)
+        leaveTimer.current = null
+      }, 180)
+    }
   }, [isMobile])
 
   const handleBarClick = useCallback(() => {
@@ -304,7 +316,7 @@ export default function SiteProgress() {
           </span>
 
           {/* Progress bar */}
-          <div className="w-20 h-1.5 bg-steel-700/70 rounded-full overflow-hidden flex-shrink-0">
+          <div className="w-14 h-1.5 bg-steel-700/70 rounded-full overflow-hidden flex-shrink-0">
             <div
               className="h-full bg-primary-500 rounded-full transition-all duration-1000 ease-out"
               style={{ width: `${progress}%` }}
