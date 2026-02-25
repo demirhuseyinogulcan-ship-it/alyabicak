@@ -3280,6 +3280,349 @@ export const productsEn: Record<string, ProductTranslation> = {
       keywords: ['scalpel blade no 27', 'surgical blade no 27', '#27 blade', 'broad scalpel blade', 'histology blade 27', 'large tissue blade', 'widest scalpel', 'Swann Morton 27', 'B313 scalpel', 'specimen preparation blade'],
     },
   },
+
+  // =============================================
+  // CHOPPED FIBER BLADES — B644 (MARK IV)
+  // =============================================
+
+  'b644-paslanmaz': {
+    name: 'Fiber Blade (Mark IV) – Stainless Steel',
+    subtitle: 'Stainless Steel — 74.5×15.6×0.88mm',
+    description: 'Stainless steel fiber blade for Mark IV fiber cutting machines. 74.5×15.6×0.88mm dimensions, providing high-performance cutting on chopped fiber production lines. Long-lasting, corrosion-resistant construction for synthetic and natural fiber cutting.',
+    shortDescription: 'Fiber blade for Mark IV machines. 74.5×15.6×0.88mm, stainless steel, corrosion-resistant.',
+    features: ['Fully compatible with Mark IV fiber cutting machines', '74.5×15.6×0.88mm precision dimensions', 'Stainless steel — corrosion-resistant', 'Optimized cutting edge for chopped fiber production', 'Long service life'],
+    applications: ['Chopped fiber production', 'Synthetic fiber cutting', 'Textile fiber cutting', 'Industrial fiber processing'],
+    benefits: [
+      { title: 'Corrosion-Resistant Build', description: 'Stainless steel construction resists corrosion in humid production environments, maintaining blade integrity over extended runs.', icon: 'Shield' },
+      { title: 'Precision Mark IV Fit', description: 'Manufactured to 74.5×15.6×0.88mm tolerance for direct drop-in replacement on Mark IV fiber cutting machines.', icon: 'Settings' },
+      { title: 'Cost-Effective Performance', description: 'Optimal performance-to-cost ratio for standard chopped fiber production — polyester, nylon, viscose, and polypropylene.', icon: 'DollarSign' },
+    ],
+    longDescription: `<p>The B644 stainless steel fiber blade is a <strong>direct replacement blade for Mark IV chopped fiber cutting machines</strong>, measuring 74.5×15.6×0.88mm. Stainless steel construction provides corrosion resistance in humid production environments.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 74.5×15.6×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Mark IV Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines processing polyester, nylon, polypropylene, viscose, and other synthetic and natural fibers. Suitable for glass fiber and textile fiber cutting under normal production conditions.</p>`,
+    seo: {
+      title: 'Fiber Blade Mark IV Stainless Steel 74.5×15.6mm | Chopped Fiber Blade',
+      description: 'Stainless steel fiber blade for Mark IV fiber cutting machines. 74.5×15.6×0.88mm. Corrosion-resistant, long service life. Chopped fiber production.',
+      keywords: ['fiber blade mark iv', 'chopped fiber blade', 'fiber cutting blade stainless steel', 'mark iv blade 74.5mm', 'fiber blade stainless', 'chopped fiber cutter', 'mark iv fiber cutting machine blade', 'B644 fiber blade', 'stainless steel chopped fiber', 'polyester fiber blade', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b644-tin-kaplama': {
+    name: 'Fiber Blade (Mark IV) – Stainless Steel + TiN Coating',
+    subtitle: 'Stainless Steel + TiN Coating — 74.5×15.6×0.88mm',
+    description: 'TiN (Titanium Nitride) coated stainless steel fiber blade for Mark IV fiber cutting machines. 74.5×15.6×0.88mm. TiN coating increases surface hardness, extending blade life 2-3 times. Superior performance on abrasive fiber types.',
+    shortDescription: 'TiN coated fiber blade for Mark IV machines. 74.5×15.6×0.88mm, 2-3x longer life.',
+    features: ['Fully compatible with Mark IV fiber cutting machines', '74.5×15.6×0.88mm precision dimensions', 'TiN coating — 2-3x extended service life', 'Superior performance on abrasive fibers', 'High surface hardness'],
+    applications: ['Chopped fiber production', 'Abrasive synthetic fiber cutting', 'Fiberglass cutting', 'High-volume fiber production lines'],
+    benefits: [
+      { title: 'TiN Surface Hardness', description: 'Titanium Nitride coating increases surface hardness to ~2300 HV, extending blade life 2-3 times versus uncoated steel.', icon: 'Award' },
+      { title: 'Reduced Friction & Heat', description: 'TiN coating lowers friction coefficient, reducing heat buildup during high-speed fiber cutting operations.', icon: 'Zap' },
+      { title: 'Direct Mark IV Replacement', description: 'Precision 74.5×15.6×0.88mm fitment ensures drop-in installation on Mark IV fiber cutting machines.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B644 TiN coated fiber blade is a <strong>premium replacement blade for Mark IV chopped fiber cutting machines</strong>, measuring 74.5×15.6×0.88mm. The Titanium Nitride (TiN) coating multiplies wear resistance, extending service life 2-3 times.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 74.5×15.6×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Machine Compatibility: Mark IV Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production lines, particularly for abrasive fiber types including fiberglass, aramid, and carbon fiber. The TiN coating reduces blade changes, improving line uptime.</p>`,
+    seo: {
+      title: 'Fiber Blade Mark IV TiN Coated 74.5×15.6mm | Chopped Fiber Blade',
+      description: 'TiN coated stainless steel fiber blade for Mark IV machines. 74.5×15.6×0.88mm. 2-3x longer life. Fiberglass and abrasive fiber cutting.',
+      keywords: ['fiber blade tin coated', 'tin coating fiber blade', 'mark iv fiber blade', 'chopped fiber blade tin', 'titanium nitride blade', 'abrasive fiber blade', 'B644 tin fiber blade', 'mark iv tin coated blade', 'fiberglass cutting blade tin', 'fiber blade 2x life', 'tin coated chopped fiber', 'fiber blade manufacturer'],
+    },
+  },
+  'b644-yekpare-tungsten': {
+    name: 'Fiber Blade (Mark IV) – Solid Tungsten Carbide',
+    subtitle: 'Solid Tungsten Carbide — 74.5×15.5×0.90mm',
+    description: 'Solid tungsten carbide fiber blade for Mark IV fiber cutting machines. 74.5×15.5×0.90mm. The superior hardness and wear resistance of tungsten carbide delivers exceptional service life in the most demanding fiber cutting applications.',
+    shortDescription: 'Solid tungsten carbide fiber blade for Mark IV machines. 74.5×15.5×0.90mm, maximum wear resistance.',
+    features: ['Fully compatible with Mark IV fiber cutting machines', '74.5×15.5×0.90mm precision dimensions', 'Solid tungsten carbide — maximum wear resistance', '3-4x longer life than steel blades', 'Ideal for fiberglass and carbon fiber'],
+    applications: ['Fiberglass cutting', 'Carbon fiber cutting', 'Abrasive synthetic fiber cutting', 'High-wear fiber production lines'],
+    benefits: [
+      { title: 'Maximum Wear Resistance', description: 'Solid tungsten carbide hardness (~1500 HV) delivers 3-4x service life versus steel blades in demanding applications.', icon: 'Shield' },
+      { title: 'Superior Edge Retention', description: 'Carbide cutting edge maintains sharpness far longer, reducing blade changes and production downtime.', icon: 'Target' },
+      { title: 'Precision Mark IV Fit', description: '74.5×15.5×0.90mm tolerance-matched for Mark IV machines — direct drop-in replacement.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B644 solid tungsten carbide fiber blade is the <strong>ultimate performance blade for Mark IV chopped fiber cutting machines</strong>, measuring 74.5×15.5×0.90mm. Solid tungsten carbide provides maximum wear resistance for the most demanding fiber cutting applications.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 74.5×15.5×0.90mm</li><li>Material: Solid Tungsten Carbide</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Mark IV Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and other highly abrasive fiber cutting. Ideal for lines where blade longevity is critical and frequent blade changes are costly.</p>`,
+    seo: {
+      title: 'Fiber Blade Mark IV Tungsten Carbide 74.5×15.5mm | Chopped Fiber Blade',
+      description: 'Solid tungsten carbide fiber blade for Mark IV machines. 74.5×15.5×0.90mm. Maximum wear resistance. Fiberglass, carbon fiber cutting.',
+      keywords: ['tungsten carbide fiber blade', 'solid tungsten fiber blade', 'mark iv tungsten blade', 'carbide chopped fiber blade', 'fiberglass cutting blade tungsten', 'carbon fiber cutting blade', 'B644 tungsten carbide', 'mark iv carbide blade', 'solid carbide fiber blade', 'fiber blade maximum life', 'tungsten fiber cutter', 'carbide blade manufacturer'],
+    },
+  },
+
+  // =============================================
+  // CHOPPED FIBER BLADES — B645 (MARK V)
+  // =============================================
+
+  'b645-paslanmaz': {
+    name: 'Fiber Blade (Mark V) – Stainless Steel',
+    subtitle: 'Stainless Steel — 117.5×15.6×0.88mm',
+    description: 'Stainless steel fiber blade for Mark V fiber cutting machines. 117.5×15.6×0.88mm, longer body than Mark IV provides wider cutting area. High-performance cutting on chopped fiber production lines.',
+    shortDescription: 'Fiber blade for Mark V machines. 117.5×15.6×0.88mm, stainless steel, wider cutting area.',
+    features: ['Fully compatible with Mark V fiber cutting machines', '117.5×15.6×0.88mm — longer body than Mark IV', 'Stainless steel — corrosion-resistant', 'Wider cutting area for higher efficiency', 'Long service life'],
+    applications: ['Chopped fiber production', 'Synthetic fiber cutting', 'Textile fiber cutting', 'Industrial fiber processing'],
+    benefits: [
+      { title: 'Corrosion-Resistant Build', description: 'Stainless steel construction withstands humid production environments, maintaining cutting integrity over extended runs.', icon: 'Shield' },
+      { title: 'Wider Cutting Area', description: '117.5mm body length offers a wider cutting area than Mark IV, increasing throughput on Mark V machines.', icon: 'Maximize' },
+      { title: 'Cost-Effective Performance', description: 'Optimal performance-to-cost ratio for standard chopped fiber production — polyester, nylon, viscose, and polypropylene.', icon: 'DollarSign' },
+    ],
+    longDescription: `<p>The B645 stainless steel fiber blade is a <strong>direct replacement blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.88mm. The longer body compared to Mark IV provides a wider cutting area for increased throughput.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines processing polyester, nylon, polypropylene, viscose, and other synthetic and natural fibers. The wider cutting area of the Mark V format makes it suitable for higher-throughput production lines.</p>`,
+    seo: {
+      title: 'Fiber Blade Mark V Stainless Steel 117.5×15.6mm | Chopped Fiber Blade',
+      description: 'Stainless steel fiber blade for Mark V fiber cutting machines. 117.5×15.6×0.88mm. Longer body, wider cutting area. Chopped fiber production.',
+      keywords: ['fiber blade mark v', 'chopped fiber blade mark v', 'fiber cutting blade 117mm', 'mark v stainless blade', 'fiber blade stainless 117', 'chopped fiber cutter', 'B645 fiber blade', 'mark v fiber cutting machine blade', 'stainless steel fiber blade 117', 'polyester fiber cutter', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b645-tin-kaplama': {
+    name: 'Fiber Blade (Mark V) – Stainless Steel + TiN Coating',
+    subtitle: 'Stainless Steel + TiN Coating — 117.5×15.6×0.88mm',
+    description: 'TiN coated stainless steel fiber blade for Mark V fiber cutting machines. 117.5×15.6×0.88mm. TiN coating extends blade life 2-3 times. Longer body provides wider cutting area.',
+    shortDescription: 'TiN coated fiber blade for Mark V machines. 117.5×15.6×0.88mm, 2-3x longer life.',
+    features: ['Fully compatible with Mark V fiber cutting machines', '117.5×15.6×0.88mm — wider cutting area', 'TiN coating — 2-3x extended service life', 'Superior performance on abrasive fibers', 'High surface hardness'],
+    applications: ['Chopped fiber production', 'Abrasive synthetic fiber cutting', 'Fiberglass cutting', 'High-volume fiber production lines'],
+    benefits: [
+      { title: 'TiN Surface Hardness', description: 'Titanium Nitride coating increases surface hardness to ~2300 HV, extending blade life 2-3 times versus uncoated steel.', icon: 'Award' },
+      { title: 'Reduced Friction & Heat', description: 'TiN coating lowers friction coefficient, reducing heat buildup during high-speed fiber cutting operations.', icon: 'Zap' },
+      { title: 'Direct Mark V Replacement', description: 'Precision 117.5×15.6×0.88mm fitment ensures drop-in installation on Mark V fiber cutting machines.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B645 TiN coated fiber blade is a <strong>premium replacement blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.88mm. The Titanium Nitride coating multiplies wear resistance, extending service life 2-3 times.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production lines, particularly for abrasive fiber types including fiberglass, aramid, and carbon fiber. The wider cutting area of the Mark V format maximizes throughput.</p>`,
+    seo: {
+      title: 'Fiber Blade Mark V TiN Coated 117.5×15.6mm | Chopped Fiber Blade',
+      description: 'TiN coated stainless steel fiber blade for Mark V machines. 117.5×15.6×0.88mm. 2-3x longer life. Fiberglass and abrasive fibers.',
+      keywords: ['fiber blade mark v tin', 'tin coated fiber blade 117mm', 'mark v chopped fiber blade', 'titanium nitride fiber blade', 'abrasive fiber blade mark v', 'B645 tin fiber blade', 'mark v tin coated blade', 'fiberglass cutting blade tin', 'fiber blade 2x life mark v', 'tin coated chopped fiber', 'fiber blade manufacturer'],
+    },
+  },
+  'b645-yekpare-tungsten-centikli': {
+    name: 'Fiber Blade (Mark V) – Solid Tungsten Carbide (Notched)',
+    subtitle: 'Solid Tungsten Carbide, Notched Edge — 117.5×15.6×0.89mm',
+    description: 'Notched-edge solid tungsten carbide fiber blade for Mark V fiber cutting machines. 117.5×15.6×0.89mm. The notched edge structure grips fibers for more controlled cutting. Tungsten carbide provides superior wear resistance.',
+    shortDescription: 'Solid tungsten carbide fiber blade (notched) for Mark V machines. 117.5×15.6×0.89mm.',
+    features: ['Fully compatible with Mark V fiber cutting machines', '117.5×15.6×0.89mm precision dimensions', 'Solid tungsten carbide — maximum wear resistance', 'Notched edge — grips fibers for controlled cutting', 'Ideal for fiberglass and carbon fiber'],
+    applications: ['Fiberglass cutting', 'Carbon fiber cutting', 'Abrasive synthetic fiber cutting', 'High-wear fiber production lines'],
+    benefits: [
+      { title: 'Maximum Wear Resistance', description: 'Solid tungsten carbide hardness (~1500 HV) delivers 3-4x service life versus steel blades in demanding applications.', icon: 'Shield' },
+      { title: 'Notched Edge Grip', description: 'Notched edge structure grips fibers for more controlled, consistent cutting — ideal for slippery fiber types.', icon: 'Target' },
+      { title: 'Precision Mark V Fit', description: '117.5×15.6×0.89mm tolerance-matched for Mark V machines — direct drop-in replacement.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B645 notched solid tungsten carbide fiber blade is an <strong>advanced performance blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.89mm. The notched edge structure provides enhanced fiber grip for controlled cutting, while solid tungsten carbide delivers maximum wear resistance.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.89mm</li><li>Material: Solid Tungsten Carbide</li><li>Edge Type: Notched</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and slippery fiber types where the notched edge provides better fiber grip. Ideal for high-wear production lines requiring maximum blade longevity.</p>`,
+    seo: {
+      title: 'Fiber Blade Mark V Tungsten Carbide Notched 117.5×15.6mm | Chopped Fiber',
+      description: 'Notched solid tungsten carbide fiber blade for Mark V machines. 117.5×15.6×0.89mm. Controlled cutting with notched edge. Fiberglass, carbon fiber.',
+      keywords: ['tungsten carbide fiber blade notched', 'mark v tungsten blade', 'notched fiber blade', 'carbide chopped fiber blade', 'fiberglass cutting blade notched', 'B645 tungsten notched', 'mark v carbide blade notched', 'notched edge fiber cutter', 'solid carbide fiber blade', 'tungsten fiber blade manufacturer'],
+    },
+  },
+  'b645-yekpare-tungsten-duz': {
+    name: 'Fiber Blade (Mark V) – Solid Tungsten Carbide (Plain)',
+    subtitle: 'Solid Tungsten Carbide, Plain Edge — 117.5×15.6×0.91mm',
+    description: 'Plain-edge solid tungsten carbide fiber blade for Mark V fiber cutting machines. 117.5×15.6×0.91mm. The smooth edge provides clean, burr-free cutting. Tungsten carbide delivers superior wear resistance.',
+    shortDescription: 'Solid tungsten carbide fiber blade (plain) for Mark V machines. 117.5×15.6×0.91mm.',
+    features: ['Fully compatible with Mark V fiber cutting machines', '117.5×15.6×0.91mm precision dimensions', 'Solid tungsten carbide — maximum wear resistance', 'Plain edge — clean, burr-free cutting', 'Ideal for fiberglass and carbon fiber'],
+    applications: ['Fiberglass cutting', 'Carbon fiber cutting', 'Precision fiber cutting applications', 'High-wear fiber production lines'],
+    benefits: [
+      { title: 'Maximum Wear Resistance', description: 'Solid tungsten carbide hardness (~1500 HV) delivers 3-4x service life versus steel blades in demanding applications.', icon: 'Shield' },
+      { title: 'Clean Burr-Free Cutting', description: 'Plain smooth edge delivers clean, burr-free cuts — ideal for applications requiring uniform fiber length.', icon: 'Target' },
+      { title: 'Precision Mark V Fit', description: '117.5×15.6×0.91mm tolerance-matched for Mark V machines — direct drop-in replacement.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B645 plain solid tungsten carbide fiber blade is an <strong>advanced performance blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.91mm. The plain smooth edge provides clean, burr-free cutting while solid tungsten carbide delivers maximum wear resistance.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.91mm</li><li>Material: Solid Tungsten Carbide</li><li>Edge Type: Plain (Smooth)</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, and precision fiber cutting where uniform cut quality is essential. The plain edge provides cleaner cuts than the notched variant, suitable for applications demanding tight fiber length tolerances.</p>`,
+    seo: {
+      title: 'Fiber Blade Mark V Tungsten Carbide Plain 117.5×15.6mm | Chopped Fiber',
+      description: 'Plain solid tungsten carbide fiber blade for Mark V machines. 117.5×15.6×0.91mm. Clean cutting with smooth edge. Fiberglass, carbon fiber.',
+      keywords: ['tungsten carbide fiber blade plain', 'mark v tungsten blade plain', 'smooth fiber blade', 'carbide fiber blade 117mm', 'precision fiber cutting blade', 'B645 tungsten plain', 'mark v carbide blade plain', 'plain edge fiber cutter', 'solid carbide fiber blade', 'tungsten fiber blade manufacturer'],
+    },
+  },
+
+  // =============================================
+  // CHOPPED FIBER BLADES — B573-B574 (HERCULES)
+  // =============================================
+
+  'b573-paslanmaz': {
+    name: 'Fiber Blade (Hercules Short) – Stainless Steel',
+    subtitle: 'Stainless Steel — 95×19×0.88mm',
+    description: 'Short-type stainless steel fiber blade for Hercules fiber cutting machines. 95×19×0.88mm dimensions. Provides standard cutting performance on Hercules series machines.',
+    shortDescription: 'Short fiber blade for Hercules machines. 95×19×0.88mm, stainless steel.',
+    features: ['Fully compatible with Hercules fiber cutting machines', '95×19×0.88mm — short type', 'Stainless steel — corrosion-resistant', 'Optimized for chopped fiber production', 'Long service life'],
+    applications: ['Chopped fiber production', 'Synthetic fiber cutting', 'Textile fiber cutting', 'Industrial fiber processing'],
+    benefits: [
+      { title: 'Corrosion-Resistant Build', description: 'Stainless steel construction resists corrosion in humid production environments, maintaining blade integrity over extended runs.', icon: 'Shield' },
+      { title: 'Hercules Direct Fit', description: 'Manufactured to 95×19×0.88mm tolerance for direct drop-in replacement on Hercules fiber cutting machines.', icon: 'Settings' },
+      { title: 'Cost-Effective Performance', description: 'Optimal performance-to-cost ratio for standard chopped fiber production on Hercules series machines.', icon: 'DollarSign' },
+    ],
+    longDescription: `<p>The B573 stainless steel fiber blade is a <strong>short-type direct replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 95×19×0.88mm. Stainless steel construction provides corrosion resistance in humid production environments.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 95×19×0.88mm</li><li>Material: Stainless Steel</li><li>Type: Short</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Hercules series machines. Suitable for polyester, nylon, polypropylene, viscose, and other synthetic and natural fiber cutting.</p>`,
+    seo: {
+      title: 'Fiber Blade Hercules Short Stainless Steel 95×19mm | Chopped Fiber',
+      description: 'Short stainless steel fiber blade for Hercules machines. 95×19×0.88mm. Corrosion-resistant. Chopped fiber production.',
+      keywords: ['hercules fiber blade', 'chopped fiber blade hercules', 'fiber blade 95mm', 'hercules stainless blade', 'short fiber blade', 'B573 fiber blade', 'hercules fiber cutting machine blade', 'stainless steel fiber blade 95mm', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b573-tin-kaplama': {
+    name: 'Fiber Blade (Hercules Short) – Stainless Steel + TiN Coating',
+    subtitle: 'Stainless Steel + TiN Coating — 95×19×0.88mm',
+    description: 'Short-type TiN coated stainless steel fiber blade for Hercules fiber cutting machines. 95×19×0.88mm. TiN coating extends blade life 2-3 times.',
+    shortDescription: 'TiN coated short fiber blade for Hercules machines. 95×19×0.88mm, 2-3x longer life.',
+    features: ['Fully compatible with Hercules fiber cutting machines', '95×19×0.88mm — short type', 'TiN coating — 2-3x extended service life', 'Superior performance on abrasive fibers', 'High surface hardness'],
+    applications: ['Chopped fiber production', 'Abrasive synthetic fiber cutting', 'Fiberglass cutting', 'High-volume fiber production lines'],
+    benefits: [
+      { title: 'TiN Surface Hardness', description: 'Titanium Nitride coating increases surface hardness to ~2300 HV, extending blade life 2-3 times versus uncoated steel.', icon: 'Award' },
+      { title: 'Reduced Friction & Heat', description: 'TiN coating lowers friction coefficient, reducing heat buildup during high-speed fiber cutting operations.', icon: 'Zap' },
+      { title: 'Direct Hercules Replacement', description: 'Precision 95×19×0.88mm short-type fitment ensures drop-in installation on Hercules fiber cutting machines.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B573 TiN coated fiber blade is a <strong>premium short-type replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 95×19×0.88mm. The Titanium Nitride coating extends service life 2-3 times.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 95×19×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Type: Short</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production on Hercules machines, particularly for abrasive fiber types including fiberglass and aramid.</p>`,
+    seo: {
+      title: 'Fiber Blade Hercules Short TiN Coated 95×19mm | Chopped Fiber',
+      description: 'TiN coated short stainless steel fiber blade for Hercules machines. 95×19×0.88mm. 2-3x longer life. Abrasive fibers.',
+      keywords: ['hercules fiber blade tin', 'tin coated fiber blade 95mm', 'hercules chopped fiber blade', 'titanium nitride hercules blade', 'B573 tin fiber blade', 'hercules tin coated blade', 'fiberglass cutting blade tin hercules', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b574-paslanmaz': {
+    name: 'Fiber Blade (Hercules Long) – Stainless Steel',
+    subtitle: 'Stainless Steel — 114×19×0.88mm',
+    description: 'Long-type stainless steel fiber blade for Hercules fiber cutting machines. 114×19×0.88mm dimensions. Longer body provides wider cutting area compared to the short type.',
+    shortDescription: 'Long fiber blade for Hercules machines. 114×19×0.88mm, stainless steel, wider cutting area.',
+    features: ['Fully compatible with Hercules fiber cutting machines', '114×19×0.88mm — long type', 'Stainless steel — corrosion-resistant', 'Wider cutting area for higher efficiency', 'Long service life'],
+    applications: ['Chopped fiber production', 'Synthetic fiber cutting', 'Textile fiber cutting', 'Industrial fiber processing'],
+    benefits: [
+      { title: 'Corrosion-Resistant Build', description: 'Stainless steel construction withstands humid production environments, maintaining cutting integrity over extended runs.', icon: 'Shield' },
+      { title: 'Extended Cutting Area', description: '114mm body length provides a wider cutting area than the short type, increasing throughput on Hercules machines.', icon: 'Maximize' },
+      { title: 'Cost-Effective Performance', description: 'Optimal performance-to-cost ratio for standard chopped fiber production on Hercules series machines.', icon: 'DollarSign' },
+    ],
+    longDescription: `<p>The B574 stainless steel fiber blade is a <strong>long-type direct replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 114×19×0.88mm. The longer body compared to the B573 short type provides a wider cutting area for increased throughput.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 114×19×0.88mm</li><li>Material: Stainless Steel</li><li>Type: Long</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Hercules series machines. The wider cutting area makes it suitable for higher-throughput production runs with polyester, nylon, and other fibers.</p>`,
+    seo: {
+      title: 'Fiber Blade Hercules Long Stainless Steel 114×19mm | Chopped Fiber',
+      description: 'Long stainless steel fiber blade for Hercules machines. 114×19×0.88mm. Wider cutting area, higher efficiency. Chopped fiber production.',
+      keywords: ['hercules long fiber blade', 'chopped fiber blade 114mm', 'hercules stainless blade long', 'fiber blade 114x19mm', 'B574 fiber blade', 'hercules fiber cutting machine blade', 'stainless steel fiber blade 114mm', 'long fiber blade hercules', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b574-tin-kaplama': {
+    name: 'Fiber Blade (Hercules Long) – Stainless Steel + TiN Coating',
+    subtitle: 'Stainless Steel + TiN Coating — 114×19×0.88mm',
+    description: 'Long-type TiN coated stainless steel fiber blade for Hercules fiber cutting machines. 114×19×0.88mm. TiN coating extends blade life 2-3 times. Longer body provides wider cutting area.',
+    shortDescription: 'TiN coated long fiber blade for Hercules machines. 114×19×0.88mm, 2-3x longer life.',
+    features: ['Fully compatible with Hercules fiber cutting machines', '114×19×0.88mm — long type', 'TiN coating — 2-3x extended service life', 'Superior performance on abrasive fibers', 'Wider cutting area for higher efficiency'],
+    applications: ['Chopped fiber production', 'Abrasive synthetic fiber cutting', 'Fiberglass cutting', 'High-volume fiber production lines'],
+    benefits: [
+      { title: 'TiN Surface Hardness', description: 'Titanium Nitride coating increases surface hardness to ~2300 HV, extending blade life 2-3 times versus uncoated steel.', icon: 'Award' },
+      { title: 'Reduced Friction & Heat', description: 'TiN coating lowers friction coefficient, reducing heat buildup during high-speed fiber cutting operations.', icon: 'Zap' },
+      { title: 'Direct Hercules Replacement', description: 'Precision 114×19×0.88mm long-type fitment ensures drop-in installation on Hercules fiber cutting machines.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B574 TiN coated fiber blade is a <strong>premium long-type replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 114×19×0.88mm. The Titanium Nitride coating extends service life 2-3 times, while the longer body provides a wider cutting area.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 114×19×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Type: Long</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production on Hercules machines, particularly for abrasive fiber types. The wider cutting area maximizes throughput on demanding production lines.</p>`,
+    seo: {
+      title: 'Fiber Blade Hercules Long TiN Coated 114×19mm | Chopped Fiber',
+      description: 'TiN coated long stainless steel fiber blade for Hercules machines. 114×19×0.88mm. 2-3x longer life. Abrasive fibers.',
+      keywords: ['hercules long fiber blade tin', 'tin coated fiber blade 114mm', 'hercules chopped fiber blade long', 'titanium nitride hercules blade', 'B574 tin fiber blade', 'hercules tin coated blade long', 'fiberglass cutting blade tin hercules', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+
+  // =============================================
+  // CHOPPED FIBER BLADES — B048-B064 (KRUPP)
+  // =============================================
+
+  'b048-paslanmaz': {
+    name: 'Fiber Blade (Krupp) 48mm – Stainless Steel',
+    subtitle: 'Stainless Steel — 48×7.9×0.88mm',
+    description: 'Stainless steel fiber blade for Krupp fiber cutting machines. 48×7.9×0.88mm compact dimensions. Standard cutting performance on Krupp series machines.',
+    shortDescription: 'Compact fiber blade for Krupp machines. 48×7.9×0.88mm, stainless steel.',
+    features: ['Fully compatible with Krupp fiber cutting machines', '48×7.9×0.88mm — compact size', 'Stainless steel — corrosion-resistant', 'Optimized for chopped fiber production', 'Long service life'],
+    applications: ['Chopped fiber production', 'Synthetic fiber cutting', 'Textile fiber cutting', 'Industrial fiber processing'],
+    benefits: [
+      { title: 'Corrosion-Resistant Build', description: 'Stainless steel construction resists corrosion in humid production environments, maintaining blade integrity over extended runs.', icon: 'Shield' },
+      { title: 'Precision Krupp Fit', description: 'Manufactured to 48×7.9×0.88mm tolerance for direct drop-in replacement on Krupp fiber cutting machines.', icon: 'Settings' },
+      { title: 'Cost-Effective Performance', description: 'Optimal performance-to-cost ratio for standard chopped fiber production on Krupp series machines.', icon: 'DollarSign' },
+    ],
+    longDescription: `<p>The B048 stainless steel fiber blade is a <strong>compact direct replacement blade for Krupp chopped fiber cutting machines</strong>, measuring 48×7.9×0.88mm. The compact format is designed specifically for the Krupp cutting head configuration.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 48×7.9×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Krupp series machines. Suitable for polyester, nylon, polypropylene, viscose, and other synthetic and natural fiber cutting.</p>`,
+    seo: {
+      title: 'Fiber Blade Krupp 48mm Stainless Steel 48×7.9mm | Chopped Fiber',
+      description: 'Stainless steel fiber blade for Krupp machines. 48×7.9×0.88mm compact. Chopped fiber production. Corrosion-resistant.',
+      keywords: ['krupp fiber blade', 'chopped fiber blade krupp', 'fiber blade 48mm', 'krupp stainless blade 48', 'compact fiber blade', 'B048 fiber blade', 'krupp fiber cutting machine blade', 'stainless steel fiber blade 48mm', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b048-tin-kaplama': {
+    name: 'Fiber Blade (Krupp) 48mm – Stainless Steel + TiN Coating',
+    subtitle: 'Stainless Steel + TiN Coating — 48×7.9×0.88mm',
+    description: 'TiN coated stainless steel fiber blade for Krupp fiber cutting machines. 48×7.9×0.88mm. TiN coating extends blade life 2-3 times.',
+    shortDescription: 'TiN coated compact fiber blade for Krupp machines. 48×7.9×0.88mm, 2-3x longer life.',
+    features: ['Fully compatible with Krupp fiber cutting machines', '48×7.9×0.88mm — compact size', 'TiN coating — 2-3x extended service life', 'Superior performance on abrasive fibers', 'High surface hardness'],
+    applications: ['Chopped fiber production', 'Abrasive synthetic fiber cutting', 'Fiberglass cutting', 'High-volume fiber production lines'],
+    benefits: [
+      { title: 'TiN Surface Hardness', description: 'Titanium Nitride coating increases surface hardness to ~2300 HV, extending blade life 2-3 times versus uncoated steel.', icon: 'Award' },
+      { title: 'Reduced Friction & Heat', description: 'TiN coating lowers friction coefficient, reducing heat buildup during high-speed fiber cutting operations.', icon: 'Zap' },
+      { title: 'Direct Krupp Replacement', description: 'Precision 48×7.9×0.88mm compact fitment ensures drop-in installation on Krupp fiber cutting machines.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B048 TiN coated fiber blade is a <strong>premium compact replacement blade for Krupp chopped fiber cutting machines</strong>, measuring 48×7.9×0.88mm. The Titanium Nitride coating extends service life 2-3 times.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 48×7.9×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production on Krupp machines, particularly for abrasive fiber types including fiberglass and aramid.</p>`,
+    seo: {
+      title: 'Fiber Blade Krupp 48mm TiN Coated 48×7.9mm | Chopped Fiber',
+      description: 'TiN coated stainless steel fiber blade for Krupp machines. 48×7.9×0.88mm. 2-3x longer life. Abrasive fibers.',
+      keywords: ['krupp fiber blade tin', 'tin coated fiber blade 48mm', 'krupp chopped fiber blade', 'titanium nitride krupp blade', 'B048 tin fiber blade', 'krupp tin coated blade', 'fiberglass cutting blade tin krupp', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b048-yekpare-tungsten': {
+    name: 'Fiber Blade (Krupp) 48mm – Solid Tungsten Carbide',
+    subtitle: 'Solid Tungsten Carbide — 48×7.9×0.88mm',
+    description: 'Solid tungsten carbide fiber blade for Krupp fiber cutting machines. 48×7.9×0.88mm. Exceptional service life in the most demanding fiber cutting applications.',
+    shortDescription: 'Solid tungsten carbide compact fiber blade for Krupp machines. 48×7.9×0.88mm.',
+    features: ['Fully compatible with Krupp fiber cutting machines', '48×7.9×0.88mm — compact size', 'Solid tungsten carbide — maximum wear resistance', '3-4x longer life than steel blades', 'Ideal for fiberglass and carbon fiber'],
+    applications: ['Fiberglass cutting', 'Carbon fiber cutting', 'Abrasive synthetic fiber cutting', 'High-wear fiber production lines'],
+    benefits: [
+      { title: 'Maximum Wear Resistance', description: 'Solid tungsten carbide hardness (~1500 HV) delivers 3-4x service life versus steel blades in demanding applications.', icon: 'Shield' },
+      { title: 'Superior Edge Retention', description: 'Carbide cutting edge maintains sharpness far longer, reducing blade changes and production downtime.', icon: 'Target' },
+      { title: 'Precision Krupp Fit', description: '48×7.9×0.88mm tolerance-matched for Krupp machines — direct drop-in replacement.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B048 solid tungsten carbide fiber blade is the <strong>ultimate performance compact blade for Krupp chopped fiber cutting machines</strong>, measuring 48×7.9×0.88mm. Solid tungsten carbide provides maximum wear resistance for the most demanding fiber cutting applications.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 48×7.9×0.88mm</li><li>Material: Solid Tungsten Carbide</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and other highly abrasive fiber cutting on Krupp machines. Ideal for lines where blade longevity is critical.</p>`,
+    seo: {
+      title: 'Fiber Blade Krupp 48mm Tungsten Carbide 48×7.9mm | Chopped Fiber',
+      description: 'Solid tungsten carbide fiber blade for Krupp machines. 48×7.9×0.88mm. Maximum wear resistance. Fiberglass, carbon fiber.',
+      keywords: ['tungsten carbide fiber blade krupp', 'krupp tungsten blade 48mm', 'carbide chopped fiber blade', 'fiberglass cutting blade krupp', 'B048 tungsten carbide', 'krupp carbide blade 48mm', 'solid carbide fiber blade krupp', 'fiber blade maximum life', 'tungsten fiber blade manufacturer'],
+    },
+  },
+  'b064-paslanmaz': {
+    name: 'Fiber Blade (Krupp) 64mm – Stainless Steel',
+    subtitle: 'Stainless Steel — 64×7.9×0.88mm',
+    description: 'Stainless steel fiber blade for Krupp fiber cutting machines. 64×7.9×0.88mm, longer body than the 48mm version provides wider cutting area.',
+    shortDescription: 'Fiber blade for Krupp machines. 64×7.9×0.88mm, stainless steel, wider cutting area.',
+    features: ['Fully compatible with Krupp fiber cutting machines', '64×7.9×0.88mm — longer body than 48mm', 'Stainless steel — corrosion-resistant', 'Wider cutting area for higher efficiency', 'Long service life'],
+    applications: ['Chopped fiber production', 'Synthetic fiber cutting', 'Textile fiber cutting', 'Industrial fiber processing'],
+    benefits: [
+      { title: 'Corrosion-Resistant Build', description: 'Stainless steel construction resists corrosion in humid production environments, maintaining blade integrity over extended runs.', icon: 'Shield' },
+      { title: 'Extended Cutting Area', description: '64mm body length provides a wider cutting area than the 48mm variant, increasing throughput on Krupp machines.', icon: 'Maximize' },
+      { title: 'Cost-Effective Performance', description: 'Optimal performance-to-cost ratio for standard chopped fiber production on Krupp series machines.', icon: 'DollarSign' },
+    ],
+    longDescription: `<p>The B064 stainless steel fiber blade is a <strong>direct replacement blade for Krupp chopped fiber cutting machines</strong>, measuring 64×7.9×0.88mm. The longer body compared to the B048 provides a wider cutting area for increased throughput.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 64×7.9×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Krupp series machines. The wider cutting area makes it suitable for higher-throughput production with polyester, nylon, and other fibers.</p>`,
+    seo: {
+      title: 'Fiber Blade Krupp 64mm Stainless Steel 64×7.9mm | Chopped Fiber',
+      description: 'Stainless steel fiber blade for Krupp machines. 64×7.9×0.88mm. Wider cutting area. Chopped fiber production.',
+      keywords: ['krupp fiber blade 64mm', 'chopped fiber blade krupp 64', 'fiber blade 64x7.9mm', 'krupp stainless blade 64', 'B064 fiber blade', 'krupp fiber cutting machine blade 64', 'stainless steel fiber blade 64mm', 'long fiber blade krupp', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b064-tin-kaplama': {
+    name: 'Fiber Blade (Krupp) 64mm – Stainless Steel + TiN Coating',
+    subtitle: 'Stainless Steel + TiN Coating — 64×7.9×0.88mm',
+    description: 'TiN coated stainless steel fiber blade for Krupp fiber cutting machines. 64×7.9×0.88mm. TiN coating extends blade life 2-3 times. Longer body provides wider cutting area.',
+    shortDescription: 'TiN coated fiber blade for Krupp machines. 64×7.9×0.88mm, 2-3x longer life.',
+    features: ['Fully compatible with Krupp fiber cutting machines', '64×7.9×0.88mm — longer body', 'TiN coating — 2-3x extended service life', 'Superior performance on abrasive fibers', 'High surface hardness'],
+    applications: ['Chopped fiber production', 'Abrasive synthetic fiber cutting', 'Fiberglass cutting', 'High-volume fiber production lines'],
+    benefits: [
+      { title: 'TiN Surface Hardness', description: 'Titanium Nitride coating increases surface hardness to ~2300 HV, extending blade life 2-3 times versus uncoated steel.', icon: 'Award' },
+      { title: 'Reduced Friction & Heat', description: 'TiN coating lowers friction coefficient, reducing heat buildup during high-speed fiber cutting operations.', icon: 'Zap' },
+      { title: 'Direct Krupp Replacement', description: 'Precision 64×7.9×0.88mm fitment ensures drop-in installation on Krupp fiber cutting machines.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B064 TiN coated fiber blade is a <strong>premium replacement blade for Krupp chopped fiber cutting machines</strong>, measuring 64×7.9×0.88mm. The Titanium Nitride coating extends service life 2-3 times, while the longer body provides a wider cutting area.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 64×7.9×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production on Krupp machines, particularly for abrasive fiber types. The wider cutting area maximizes throughput on demanding production lines.</p>`,
+    seo: {
+      title: 'Fiber Blade Krupp 64mm TiN Coated 64×7.9mm | Chopped Fiber',
+      description: 'TiN coated stainless steel fiber blade for Krupp machines. 64×7.9×0.88mm. 2-3x longer life. Abrasive fiber cutting.',
+      keywords: ['krupp fiber blade 64mm tin', 'tin coated fiber blade 64mm', 'krupp chopped fiber blade 64', 'titanium nitride krupp blade 64', 'B064 tin fiber blade', 'krupp tin coated blade 64', 'fiberglass cutting blade tin krupp', 'fiber blade manufacturer', 'fiber blade supplier'],
+    },
+  },
+  'b064-yekpare-tungsten': {
+    name: 'Fiber Blade (Krupp) 64mm – Solid Tungsten Carbide',
+    subtitle: 'Solid Tungsten Carbide — 64×7.9×0.88mm',
+    description: 'Solid tungsten carbide fiber blade for Krupp fiber cutting machines. 64×7.9×0.88mm. Exceptional service life in the most demanding fiber cutting applications.',
+    shortDescription: 'Solid tungsten carbide fiber blade for Krupp machines. 64×7.9×0.88mm, maximum wear resistance.',
+    features: ['Fully compatible with Krupp fiber cutting machines', '64×7.9×0.88mm — longer body', 'Solid tungsten carbide — maximum wear resistance', '3-4x longer life than steel blades', 'Ideal for fiberglass and carbon fiber'],
+    applications: ['Fiberglass cutting', 'Carbon fiber cutting', 'Abrasive synthetic fiber cutting', 'High-wear fiber production lines'],
+    benefits: [
+      { title: 'Maximum Wear Resistance', description: 'Solid tungsten carbide hardness (~1500 HV) delivers 3-4x service life versus steel blades in demanding applications.', icon: 'Shield' },
+      { title: 'Superior Edge Retention', description: 'Carbide cutting edge maintains sharpness far longer, reducing blade changes and production downtime.', icon: 'Target' },
+      { title: 'Precision Krupp Fit', description: '64×7.9×0.88mm tolerance-matched for Krupp machines — direct drop-in replacement.', icon: 'Settings' },
+    ],
+    longDescription: `<p>The B064 solid tungsten carbide fiber blade is the <strong>ultimate performance blade for Krupp chopped fiber cutting machines</strong>, measuring 64×7.9×0.88mm. Solid tungsten carbide provides maximum wear resistance for the most demanding fiber cutting applications.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 64×7.9×0.88mm</li><li>Material: Solid Tungsten Carbide</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and other highly abrasive fiber cutting on Krupp machines. Ideal for high-wear production lines requiring maximum blade longevity.</p>`,
+    seo: {
+      title: 'Fiber Blade Krupp 64mm Tungsten Carbide 64×7.9mm | Chopped Fiber',
+      description: 'Solid tungsten carbide fiber blade for Krupp machines. 64×7.9×0.88mm. Maximum wear resistance. Fiberglass, carbon fiber.',
+      keywords: ['tungsten carbide fiber blade krupp 64mm', 'krupp tungsten blade 64', 'carbide chopped fiber blade 64', 'fiberglass cutting blade krupp 64mm', 'B064 tungsten carbide', 'krupp carbide blade 64mm', 'solid carbide fiber blade krupp', 'fiber blade maximum life', 'tungsten fiber blade manufacturer'],
+    },
+  },
 };
 
 export default productsEn;

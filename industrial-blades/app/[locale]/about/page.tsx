@@ -37,7 +37,6 @@ export default async function AboutPage({ params }: PageProps) {
   const content = {
     tr: {
       badge: '30 Yıllık Deneyim',
-      storyTitle: 'Endüstrinin Güvenilir Tedarikçisi',
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> olarak 30 yıldır endüstriyel kesiciler tedarik ediyoruz. Endüstrinin hemen hemen her sektörüne lider firmalarla işbirliğimizi sürdürüyoruz.',
         'Sadece bıçak değil, İstanbul\'daki fabrikamızda <strong class="text-steel-900">tekstil sektörüne yönelik makine yedek parçası üretimi</strong> gerçekleştiriyor ve <strong class="text-steel-900"> 35 farklı ülkeye ihracatını</strong> yapıyoruz.',
@@ -77,7 +76,6 @@ export default async function AboutPage({ params }: PageProps) {
     },
     en: {
       badge: '30 Years of Experience',
-      storyTitle: 'Trusted Supplier of the Industry',
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> has been supplying industrial cutters for 30 years. We continue our partnership with leading companies in almost every sector of the industry.',
         'Not only blades, but at our factory in Istanbul, we <strong class="text-steel-900">manufacture machine spare parts for the textile sector</strong> and <strong class="text-steel-900">export to 35 different countries</strong>.',
@@ -117,7 +115,6 @@ export default async function AboutPage({ params }: PageProps) {
     },
     ar: {
       badge: '30 عامًا من الخبرة',
-      storyTitle: 'المورد الموثوق للصناعة',
       storyParagraphs: [
         '<strong class="text-steel-900">أليا</strong> تورد أدوات القطع الصناعية منذ 30 عامًا. نواصل شراكتنا مع الشركات الرائدة في جميع قطاعات الصناعة تقريبًا.',
         'ليس فقط الشفرات، ولكن في مصنعنا في إسطنبول، <strong class="text-steel-900">نصنع قطع غيار الآلات لقطاع النسيج</strong> و<strong class="text-steel-900">نصدر إلى 35 دولة مختلفة</strong>.',
@@ -157,7 +154,6 @@ export default async function AboutPage({ params }: PageProps) {
     },
     ru: {
       badge: '30 лет опыта',
-      storyTitle: 'Надёжный поставщик для промышленности',
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> поставляет промышленные резаки уже 30 лет. Мы продолжаем сотрудничество с ведущими компаниями практически во всех секторах промышленности.',
         'Не только лезвия, но и на нашем заводе в Стамбуле мы <strong class="text-steel-900">производим запасные части для текстильной отрасли</strong> и <strong class="text-steel-900">экспортируем в 35 стран</strong>.',
@@ -197,7 +193,6 @@ export default async function AboutPage({ params }: PageProps) {
     },
     fr: {
       badge: '30 ans d\'expérience',
-      storyTitle: 'Fournisseur de confiance de l\'industrie',
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> fournit des outils de coupe industriels depuis 30 ans. Nous poursuivons notre partenariat avec des entreprises de premier plan dans presque tous les secteurs de l\'industrie.',
         'Pas seulement des lames, mais dans notre usine d\'Istanbul, nous <strong class="text-steel-900">fabriquons des pièces détachées pour le secteur textile</strong> et <strong class="text-steel-900">exportons vers 35 pays différents</strong>.',
@@ -269,10 +264,6 @@ export default async function AboutPage({ params }: PageProps) {
               <Badge variant="primary" size="md" rounded="full" className="mb-6">
                 {c.badge}
               </Badge>
-              
-              <h2 className="text-2xl md:text-3xl font-semibold text-steel-900 mb-5">
-                {c.storyTitle}
-              </h2>
               
               <div className="space-y-4 text-steel-600 leading-relaxed">
                 {c.storyParagraphs.map((p, i) => (

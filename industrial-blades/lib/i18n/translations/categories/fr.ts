@@ -79,8 +79,19 @@ export const subcategoriesFr: SubcategoryTranslations = {
   },
   'chopped-fiber': {
     name: 'Lames Fibre Coupée',
-    description: 'Lames spécialement conçues pour la découpe de fibres',
-    seoKeywords: ['lame fibre coupée', 'lame de découpe fibre', 'lame fibre de carbone', 'lame composite', 'lame coupe-fibre', 'couteau fibre', 'lame industrielle fibre', 'lame fibre textile'],
+    description: 'Lames spécialement conçues pour la découpe de fibres. Lames haute résistance pour la coupe de fibres de verre, carbone, aramide et fibres techniques dans les machines de coupe.',
+    seoKeywords: [
+      'lame fibre coupée', 'lame de découpe fibre', 'lame chopper fibre', 'couteau fibre coupée',
+      'lame fibre de verre', 'lame fibre de carbone', 'aramide', 'kevlar',
+      'lame Mark IV', 'lame Mark V', 'lame Hercule', 'lame Krupp',
+      'Mark IV fibre', 'Mark V fibre', 'Hercule chopper', 'Krupp chopper',
+      'carbure tungstène fibre', 'lame TiN fibre', 'acier inoxydable fibre',
+      'nitrure titane chopper', 'lame carbure chopper',
+      'lame fibre 74,5mm', 'lame fibre 117,5mm', 'lame fibre 95mm', 'lame fibre 48mm', 'lame fibre 64mm',
+      'lame composite', 'lame fibre dentelée', 'lame fibre lisse',
+      'composite automobile', 'fibre aérospatiale', 'éolienne', 'fibre textile',
+      'prix lame fibre', 'fournisseur lame chopper', 'fabricant lame fibre'
+    ],
   },
   'fiberglass': {
     name: 'Lames Fibre de Verre',

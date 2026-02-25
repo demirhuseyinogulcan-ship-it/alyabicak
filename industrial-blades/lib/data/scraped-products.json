@@ -9466,5 +9466,765 @@
     "isFeatured": false,
     "isActive": true,
     "order": 324
+  },
+
+  {
+    "id": "b644-paslanmaz",
+    "slug": "elyaf-bicagi-mark-iv-paslanmaz",
+    "slugEN": "fiber-blade-mark-iv-stainless-steel",
+    "code": "B644",
+    "name": "Elyaf Bıçağı (Mark IV) – Paslanmaz",
+    "description": "Mark IV elyaf kesim makinesi için paslanmaz çelik elyaf bıçağı. 74.5×15.6×0.88mm boyutlarında, kesik elyaf üretim hatlarında yüksek performanslı kesim sağlar. Sentetik ve doğal elyaf kesiminde uzun ömürlü, korozyona dayanıklı yapı.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-mark-iv.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b644-paslanmaz-standard",
+        "sku": "B644-CS",
+        "name": "74.5×15.6×0.88mm — Paslanmaz Çelik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik",
+      "dimensions": "74.5×15.6×0.88mm",
+      "compatibility": "Mark IV Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Mark IV elyaf kesim makinelerine tam uyumlu",
+      "74.5×15.6×0.88mm hassas boyut",
+      "Paslanmaz çelik — korozyona dayanıklı",
+      "Kesik elyaf üretimi için optimize edilmiş kesim kenarı",
+      "Uzun ömürlü kullanım"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Sentetik elyaf kesimi",
+      "Tekstil lif kesimi",
+      "Endüstriyel elyaf işleme"
+    ],
+    "availableSizes": [
+      "74.5×15.6×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 325
+  },
+  {
+    "id": "b644-tin-kaplama",
+    "slug": "elyaf-bicagi-mark-iv-tin-kaplama",
+    "slugEN": "fiber-blade-mark-iv-tin-coated",
+    "code": "B644",
+    "name": "Elyaf Bıçağı (Mark IV) – Paslanmaz + TiN Kaplama",
+    "description": "Mark IV elyaf kesim makinesi için TiN (Titanyum Nitrür) kaplamalı paslanmaz çelik elyaf bıçağı. 74.5×15.6×0.88mm. TiN kaplama yüzey sertliğini artırarak bıçak ömrünü 2-3 kat uzatır. Aşındırıcı elyaf türlerinde üstün performans.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-mark-iv.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b644-tin-standard",
+        "sku": "B644-GM",
+        "name": "74.5×15.6×0.88mm — Paslanmaz + TiN Kaplama",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + TiN Kaplama",
+      "dimensions": "74.5×15.6×0.88mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "compatibility": "Mark IV Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Mark IV elyaf kesim makinelerine tam uyumlu",
+      "74.5×15.6×0.88mm hassas boyut",
+      "TiN kaplama — 2-3 kat artırılmış ömür",
+      "Aşındırıcı elyaf türlerinde üstün performans",
+      "Yüksek yüzey sertliği"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Cam elyaf kesimi",
+      "Yüksek hacimli elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "74.5×15.6×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 326
+  },
+  {
+    "id": "b644-yekpare-tungsten",
+    "slug": "elyaf-bicagi-mark-iv-yekpare-tungsten",
+    "slugEN": "fiber-blade-mark-iv-solid-tungsten-carbide",
+    "code": "B644",
+    "name": "Elyaf Bıçağı (Mark IV) – Yekpare Tungsten Karbür",
+    "description": "Mark IV elyaf kesim makinesi için yekpare tungsten karbür elyaf bıçağı. 74.5×15.5×0.90mm. Tungsten karbürün üstün sertlik ve aşınma direnci sayesinde en zorlu elyaf kesim uygulamalarında olağanüstü ömür sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-mark-iv.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b644-tc-standard",
+        "sku": "B644-TC",
+        "name": "74.5×15.5×0.90mm — Yekpare Tungsten Karbür",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Tungsten Karbür",
+      "dimensions": "74.5×15.5×0.90mm",
+      "compatibility": "Mark IV Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Mark IV elyaf kesim makinelerine tam uyumlu",
+      "74.5×15.5×0.90mm hassas boyut",
+      "Yekpare tungsten karbür — en yüksek aşınma direnci",
+      "Çelikten 3-4 kat daha uzun ömür",
+      "Cam elyaf ve karbon fiber gibi aşındırıcı malzemeler için ideal"
+    ],
+    "applications": [
+      "Cam elyaf kesimi",
+      "Karbon fiber kesimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Yüksek aşınma gerektiren elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "74.5×15.5×0.90mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 327
+  },
+
+  {
+    "id": "b645-paslanmaz",
+    "slug": "elyaf-bicagi-mark-v-paslanmaz",
+    "slugEN": "fiber-blade-mark-v-stainless-steel",
+    "code": "B645",
+    "name": "Elyaf Bıçağı (Mark V) – Paslanmaz",
+    "description": "Mark V elyaf kesim makinesi için paslanmaz çelik elyaf bıçağı. 117.5×15.6×0.88mm boyutlarında, Mark IV'e göre daha uzun gövde ile geniş kesim alanı sunar. Kesik elyaf üretim hatlarında yüksek performanslı kesim.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-mark-v.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b645-paslanmaz-standard",
+        "sku": "B645-CS",
+        "name": "117.5×15.6×0.88mm — Paslanmaz Çelik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik",
+      "dimensions": "117.5×15.6×0.88mm",
+      "compatibility": "Mark V Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Mark V elyaf kesim makinelerine tam uyumlu",
+      "117.5×15.6×0.88mm — Mark IV'e göre daha uzun gövde",
+      "Paslanmaz çelik — korozyona dayanıklı",
+      "Geniş kesim alanı ile yüksek verimlilik",
+      "Uzun ömürlü kullanım"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Sentetik elyaf kesimi",
+      "Tekstil lif kesimi",
+      "Endüstriyel elyaf işleme"
+    ],
+    "availableSizes": [
+      "117.5×15.6×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 328
+  },
+  {
+    "id": "b645-tin-kaplama",
+    "slug": "elyaf-bicagi-mark-v-tin-kaplama",
+    "slugEN": "fiber-blade-mark-v-tin-coated",
+    "code": "B645",
+    "name": "Elyaf Bıçağı (Mark V) – Paslanmaz + TiN Kaplama",
+    "description": "Mark V elyaf kesim makinesi için TiN kaplamalı paslanmaz çelik elyaf bıçağı. 117.5×15.6×0.88mm. TiN kaplama yüzey sertliğini artırarak bıçak ömrünü 2-3 kat uzatır. Uzun gövde ile geniş kesim alanı.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-mark-v.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b645-tin-standard",
+        "sku": "B645-GM",
+        "name": "117.5×15.6×0.88mm — Paslanmaz + TiN Kaplama",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + TiN Kaplama",
+      "dimensions": "117.5×15.6×0.88mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "compatibility": "Mark V Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Mark V elyaf kesim makinelerine tam uyumlu",
+      "117.5×15.6×0.88mm — geniş kesim alanı",
+      "TiN kaplama — 2-3 kat artırılmış ömür",
+      "Aşındırıcı elyaf türlerinde üstün performans",
+      "Yüksek yüzey sertliği"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Cam elyaf kesimi",
+      "Yüksek hacimli elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "117.5×15.6×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 329
+  },
+  {
+    "id": "b645-yekpare-tungsten-centikli",
+    "slug": "elyaf-bicagi-mark-v-yekpare-tungsten-centikli",
+    "slugEN": "fiber-blade-mark-v-solid-tungsten-carbide-notched",
+    "code": "B645",
+    "name": "Elyaf Bıçağı (Mark V) – Yekpare Tungsten Karbür (Çentikli)",
+    "description": "Mark V elyaf kesim makinesi için çentikli kenarlı yekpare tungsten karbür elyaf bıçağı. 117.5×15.6×0.89mm. Çentikli kenar yapısı elyafı kavrayarak daha kontrollü kesim sağlar. Tungsten karbür üstün aşınma direnci sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-mark-v.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b645-tc-notched-standard",
+        "sku": "B645-TC-N",
+        "name": "117.5×15.6×0.89mm — Yekpare Tungsten Karbür (Çentikli)",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Tungsten Karbür",
+      "dimensions": "117.5×15.6×0.89mm",
+      "edgeType": "Çentikli",
+      "compatibility": "Mark V Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Mark V elyaf kesim makinelerine tam uyumlu",
+      "117.5×15.6×0.89mm hassas boyut",
+      "Yekpare tungsten karbür — en yüksek aşınma direnci",
+      "Çentikli kenar — elyafı kavrayarak kontrollü kesim",
+      "Cam elyaf ve karbon fiber için ideal"
+    ],
+    "applications": [
+      "Cam elyaf kesimi",
+      "Karbon fiber kesimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Yüksek aşınma gerektiren elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "117.5×15.6×0.89mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 330
+  },
+  {
+    "id": "b645-yekpare-tungsten-duz",
+    "slug": "elyaf-bicagi-mark-v-yekpare-tungsten-duz",
+    "slugEN": "fiber-blade-mark-v-solid-tungsten-carbide-plain",
+    "code": "B645",
+    "name": "Elyaf Bıçağı (Mark V) – Yekpare Tungsten Karbür (Düz)",
+    "description": "Mark V elyaf kesim makinesi için düz kenarlı yekpare tungsten karbür elyaf bıçağı. 117.5×15.6×0.91mm. Düz kenar yapısı temiz ve pürüzsüz kesim sağlar. Tungsten karbür üstün aşınma direnci sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-mark-v.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b645-tc-plain-standard",
+        "sku": "B645-TC-P",
+        "name": "117.5×15.6×0.91mm — Yekpare Tungsten Karbür (Düz)",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Tungsten Karbür",
+      "dimensions": "117.5×15.6×0.91mm",
+      "edgeType": "Düz (Çentiksiz)",
+      "compatibility": "Mark V Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Mark V elyaf kesim makinelerine tam uyumlu",
+      "117.5×15.6×0.91mm hassas boyut",
+      "Yekpare tungsten karbür — en yüksek aşınma direnci",
+      "Düz kenar — temiz ve pürüzsüz kesim",
+      "Cam elyaf ve karbon fiber için ideal"
+    ],
+    "applications": [
+      "Cam elyaf kesimi",
+      "Karbon fiber kesimi",
+      "Hassas elyaf kesim uygulamaları",
+      "Yüksek aşınma gerektiren elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "117.5×15.6×0.91mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 331
+  },
+
+  {
+    "id": "b573-paslanmaz",
+    "slug": "elyaf-bicagi-herkul-kisa-paslanmaz",
+    "slugEN": "fiber-blade-hercules-short-stainless-steel",
+    "code": "B573",
+    "name": "Elyaf Bıçağı (Herkül Kısa) – Paslanmaz",
+    "description": "Herkül elyaf kesim makinesi için kısa tip paslanmaz çelik elyaf bıçağı. 95×19×0.88mm boyutlarında. Herkül serisi makinelerde standart kesim performansı sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-herkul.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b573-paslanmaz-standard",
+        "sku": "B573-CS",
+        "name": "95×19×0.88mm — Paslanmaz Çelik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik",
+      "dimensions": "95×19×0.88mm",
+      "compatibility": "Herkül Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Herkül elyaf kesim makinelerine tam uyumlu",
+      "95×19×0.88mm — kısa tip",
+      "Paslanmaz çelik — korozyona dayanıklı",
+      "Kesik elyaf üretimi için optimize edilmiş",
+      "Uzun ömürlü kullanım"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Sentetik elyaf kesimi",
+      "Tekstil lif kesimi",
+      "Endüstriyel elyaf işleme"
+    ],
+    "availableSizes": [
+      "95×19×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 332
+  },
+  {
+    "id": "b573-tin-kaplama",
+    "slug": "elyaf-bicagi-herkul-kisa-tin-kaplama",
+    "slugEN": "fiber-blade-hercules-short-tin-coated",
+    "code": "B573",
+    "name": "Elyaf Bıçağı (Herkül Kısa) – Paslanmaz + TiN Kaplama",
+    "description": "Herkül elyaf kesim makinesi için kısa tip TiN kaplamalı paslanmaz çelik elyaf bıçağı. 95×19×0.88mm. TiN kaplama bıçak ömrünü 2-3 kat uzatır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-herkul.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b573-tin-standard",
+        "sku": "B573-GM",
+        "name": "95×19×0.88mm — Paslanmaz + TiN Kaplama",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + TiN Kaplama",
+      "dimensions": "95×19×0.88mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "compatibility": "Herkül Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Herkül elyaf kesim makinelerine tam uyumlu",
+      "95×19×0.88mm — kısa tip",
+      "TiN kaplama — 2-3 kat artırılmış ömür",
+      "Aşındırıcı elyaf türlerinde üstün performans",
+      "Yüksek yüzey sertliği"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Cam elyaf kesimi",
+      "Yüksek hacimli elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "95×19×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 333
+  },
+  {
+    "id": "b574-paslanmaz",
+    "slug": "elyaf-bicagi-herkul-uzun-paslanmaz",
+    "slugEN": "fiber-blade-hercules-long-stainless-steel",
+    "code": "B574",
+    "name": "Elyaf Bıçağı (Herkül Uzun) – Paslanmaz",
+    "description": "Herkül elyaf kesim makinesi için uzun tip paslanmaz çelik elyaf bıçağı. 114×19×0.88mm boyutlarında. Kısa tipe göre daha geniş kesim alanı ile yüksek verimlilik.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-herkul.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b574-paslanmaz-standard",
+        "sku": "B574-CS",
+        "name": "114×19×0.88mm — Paslanmaz Çelik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik",
+      "dimensions": "114×19×0.88mm",
+      "compatibility": "Herkül Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Herkül elyaf kesim makinelerine tam uyumlu",
+      "114×19×0.88mm — uzun tip",
+      "Paslanmaz çelik — korozyona dayanıklı",
+      "Geniş kesim alanı ile yüksek verimlilik",
+      "Uzun ömürlü kullanım"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Sentetik elyaf kesimi",
+      "Tekstil lif kesimi",
+      "Endüstriyel elyaf işleme"
+    ],
+    "availableSizes": [
+      "114×19×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 334
+  },
+  {
+    "id": "b574-tin-kaplama",
+    "slug": "elyaf-bicagi-herkul-uzun-tin-kaplama",
+    "slugEN": "fiber-blade-hercules-long-tin-coated",
+    "code": "B574",
+    "name": "Elyaf Bıçağı (Herkül Uzun) – Paslanmaz + TiN Kaplama",
+    "description": "Herkül elyaf kesim makinesi için uzun tip TiN kaplamalı paslanmaz çelik elyaf bıçağı. 114×19×0.88mm. TiN kaplama bıçak ömrünü 2-3 kat uzatır. Uzun gövde ile geniş kesim alanı.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-herkul.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b574-tin-standard",
+        "sku": "B574-GM",
+        "name": "114×19×0.88mm — Paslanmaz + TiN Kaplama",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + TiN Kaplama",
+      "dimensions": "114×19×0.88mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "compatibility": "Herkül Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Herkül elyaf kesim makinelerine tam uyumlu",
+      "114×19×0.88mm — uzun tip",
+      "TiN kaplama — 2-3 kat artırılmış ömür",
+      "Aşındırıcı elyaf türlerinde üstün performans",
+      "Geniş kesim alanı ile yüksek verimlilik"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Cam elyaf kesimi",
+      "Yüksek hacimli elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "114×19×0.88mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 335
+  },
+
+  {
+    "id": "b048-paslanmaz",
+    "slug": "elyaf-bicagi-krupp-48-paslanmaz",
+    "slugEN": "fiber-blade-krupp-48-stainless-steel",
+    "code": "B048",
+    "name": "Elyaf Bıçağı (Krupp) 48mm – Paslanmaz",
+    "description": "Krupp elyaf kesim makinesi için 48mm paslanmaz çelik elyaf bıçağı. 48×7.9×0.88mm boyutlarında, kompakt yapısıyla Krupp serisi makinelerde standart kesim performansı sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-krupp.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b048-paslanmaz-standard",
+        "sku": "B048-CS",
+        "name": "48×7.9×0.88mm — Paslanmaz Çelik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik",
+      "dimensions": "48×7.9×0.88mm",
+      "compatibility": "Krupp Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Krupp elyaf kesim makinelerine tam uyumlu",
+      "48×7.9×0.88mm — kompakt boyut",
+      "Paslanmaz çelik — korozyona dayanıklı",
+      "Kesik elyaf üretimi için optimize edilmiş",
+      "Uzun ömürlü kullanım"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Sentetik elyaf kesimi",
+      "Tekstil lif kesimi",
+      "Endüstriyel elyaf işleme"
+    ],
+    "availableSizes": [
+      "48×7.9×0.88mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 336
+  },
+  {
+    "id": "b048-tin-kaplama",
+    "slug": "elyaf-bicagi-krupp-48-tin-kaplama",
+    "slugEN": "fiber-blade-krupp-48-tin-coated",
+    "code": "B048",
+    "name": "Elyaf Bıçağı (Krupp) 48mm – Paslanmaz + TiN Kaplama",
+    "description": "Krupp elyaf kesim makinesi için 48mm TiN kaplamalı paslanmaz çelik elyaf bıçağı. 48×7.9×0.88mm. TiN kaplama bıçak ömrünü 2-3 kat uzatır.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-krupp.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b048-tin-standard",
+        "sku": "B048-GM",
+        "name": "48×7.9×0.88mm — Paslanmaz + TiN Kaplama",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + TiN Kaplama",
+      "dimensions": "48×7.9×0.88mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "compatibility": "Krupp Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Krupp elyaf kesim makinelerine tam uyumlu",
+      "48×7.9×0.88mm — kompakt boyut",
+      "TiN kaplama — 2-3 kat artırılmış ömür",
+      "Aşındırıcı elyaf türlerinde üstün performans",
+      "Yüksek yüzey sertliği"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Cam elyaf kesimi",
+      "Yüksek hacimli elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "48×7.9×0.88mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 337
+  },
+  {
+    "id": "b048-yekpare-tungsten",
+    "slug": "elyaf-bicagi-krupp-48-yekpare-tungsten",
+    "slugEN": "fiber-blade-krupp-48-solid-tungsten-carbide",
+    "code": "B048",
+    "name": "Elyaf Bıçağı (Krupp) 48mm – Yekpare Tungsten Karbür",
+    "description": "Krupp elyaf kesim makinesi için 48mm yekpare tungsten karbür elyaf bıçağı. 48×7.9×0.88mm. En zorlu elyaf kesim uygulamalarında olağanüstü ömür sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-krupp.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b048-tc-standard",
+        "sku": "B048-TC",
+        "name": "48×7.9×0.88mm — Yekpare Tungsten Karbür",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Tungsten Karbür",
+      "dimensions": "48×7.9×0.88mm",
+      "compatibility": "Krupp Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Krupp elyaf kesim makinelerine tam uyumlu",
+      "48×7.9×0.88mm — kompakt boyut",
+      "Yekpare tungsten karbür — en yüksek aşınma direnci",
+      "Çelikten 3-4 kat daha uzun ömür",
+      "Cam elyaf ve karbon fiber için ideal"
+    ],
+    "applications": [
+      "Cam elyaf kesimi",
+      "Karbon fiber kesimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Yüksek aşınma gerektiren elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "48×7.9×0.88mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 338
+  },
+  {
+    "id": "b064-paslanmaz",
+    "slug": "elyaf-bicagi-krupp-64-paslanmaz",
+    "slugEN": "fiber-blade-krupp-64-stainless-steel",
+    "code": "B064",
+    "name": "Elyaf Bıçağı (Krupp) 64mm – Paslanmaz",
+    "description": "Krupp elyaf kesim makinesi için 64mm paslanmaz çelik elyaf bıçağı. 64×7.9×0.88mm boyutlarında, 48mm versiyona göre daha uzun gövde ile geniş kesim alanı sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-krupp.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b064-paslanmaz-standard",
+        "sku": "B064-CS",
+        "name": "64×7.9×0.88mm — Paslanmaz Çelik",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik",
+      "dimensions": "64×7.9×0.88mm",
+      "compatibility": "Krupp Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Krupp elyaf kesim makinelerine tam uyumlu",
+      "64×7.9×0.88mm — 48mm'ye göre daha uzun gövde",
+      "Paslanmaz çelik — korozyona dayanıklı",
+      "Geniş kesim alanı ile yüksek verimlilik",
+      "Uzun ömürlü kullanım"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Sentetik elyaf kesimi",
+      "Tekstil lif kesimi",
+      "Endüstriyel elyaf işleme"
+    ],
+    "availableSizes": [
+      "64×7.9×0.88mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 339
+  },
+  {
+    "id": "b064-tin-kaplama",
+    "slug": "elyaf-bicagi-krupp-64-tin-kaplama",
+    "slugEN": "fiber-blade-krupp-64-tin-coated",
+    "code": "B064",
+    "name": "Elyaf Bıçağı (Krupp) 64mm – Paslanmaz + TiN Kaplama",
+    "description": "Krupp elyaf kesim makinesi için 64mm TiN kaplamalı paslanmaz çelik elyaf bıçağı. 64×7.9×0.88mm. TiN kaplama bıçak ömrünü 2-3 kat uzatır. Uzun gövde ile geniş kesim alanı.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-krupp.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b064-tin-standard",
+        "sku": "B064-GM",
+        "name": "64×7.9×0.88mm — Paslanmaz + TiN Kaplama",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + TiN Kaplama",
+      "dimensions": "64×7.9×0.88mm",
+      "coating": "TiN (Titanyum Nitrür)",
+      "compatibility": "Krupp Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Krupp elyaf kesim makinelerine tam uyumlu",
+      "64×7.9×0.88mm — uzun gövde",
+      "TiN kaplama — 2-3 kat artırılmış ömür",
+      "Aşındırıcı elyaf türlerinde üstün performans",
+      "Yüksek yüzey sertliği"
+    ],
+    "applications": [
+      "Kesik elyaf üretimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Cam elyaf kesimi",
+      "Yüksek hacimli elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "64×7.9×0.88mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 340
+  },
+  {
+    "id": "b064-yekpare-tungsten",
+    "slug": "elyaf-bicagi-krupp-64-yekpare-tungsten",
+    "slugEN": "fiber-blade-krupp-64-solid-tungsten-carbide",
+    "code": "B064",
+    "name": "Elyaf Bıçağı (Krupp) 64mm – Yekpare Tungsten Karbür",
+    "description": "Krupp elyaf kesim makinesi için 64mm yekpare tungsten karbür elyaf bıçağı. 64×7.9×0.88mm. En zorlu elyaf kesim uygulamalarında olağanüstü ömür sunar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "chopped-fiber",
+    "image": "/images/products/elyaf-bicagi-krupp.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b064-tc-standard",
+        "sku": "B064-TC",
+        "name": "64×7.9×0.88mm — Yekpare Tungsten Karbür",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Yekpare Tungsten Karbür",
+      "dimensions": "64×7.9×0.88mm",
+      "compatibility": "Krupp Elyaf Kesim Makinesi"
+    },
+    "features": [
+      "Krupp elyaf kesim makinelerine tam uyumlu",
+      "64×7.9×0.88mm — uzun gövde",
+      "Yekpare tungsten karbür — en yüksek aşınma direnci",
+      "Çelikten 3-4 kat daha uzun ömür",
+      "Cam elyaf ve karbon fiber için ideal"
+    ],
+    "applications": [
+      "Cam elyaf kesimi",
+      "Karbon fiber kesimi",
+      "Aşındırıcı sentetik elyaf kesimi",
+      "Yüksek aşınma gerektiren elyaf üretim hatları"
+    ],
+    "availableSizes": [
+      "64×7.9×0.88mm"
+    ],
+    "isFeatured": false,
+    "isActive": true,
+    "order": 341
   }
 ]

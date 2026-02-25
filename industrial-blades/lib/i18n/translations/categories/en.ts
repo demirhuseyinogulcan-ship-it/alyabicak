@@ -236,14 +236,20 @@ export const subcategoriesEn: SubcategoryTranslations = {
       // Material types
       'glass fiber cutting', 'carbon fiber cutting', 'aramid cutting', 'kevlar cutting',
       'technical fiber blade', 'composite cutting',
-      // Machine
-      'chopper blade', 'fiber chopping blade', 'fiber chopper',
+      // Machine brands
+      'Mark IV fiber blade', 'Mark V fiber blade', 'Hercules chopper blade', 'Krupp fiber blade',
+      'Mark IV chopper', 'Mark V chopper', 'Hercules fiber cutter', 'Krupp chopper blade',
+      // Materials
+      'tungsten carbide fiber blade', 'TiN coated fiber blade', 'stainless steel fiber blade',
+      'titanium nitride chopper blade', 'carbide chopper blade',
+      // Dimensions
+      '74.5mm fiber blade', '117.5mm fiber blade', '95mm fiber blade', '48mm fiber blade', '64mm fiber blade',
       // Technical
-      'tungsten carbide fiber', 'ceramic fiber blade', 'wear resistant',
+      'wear resistant fiber blade', 'high hardness chopper', 'notched fiber blade', 'serrated chopper blade',
       // Industry
-      'automotive composite', 'aerospace fiber', 'wind turbine',
+      'automotive composite', 'aerospace fiber', 'wind turbine blade', 'textile fiber cutting',
       // Commercial
-      'fiber blade price', 'chopper blade supplier'
+      'fiber blade price', 'chopper blade supplier', 'fiber blade manufacturer', 'OEM chopper blade'
     ],
   },
   

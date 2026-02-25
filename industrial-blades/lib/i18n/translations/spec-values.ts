@@ -328,6 +328,21 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'No.25 — Öne Bakan Düz Kenar': 'No.25 — Öne Bakan Düz Kenar',
     'No.26 — Üçgen Düz Kenar, Aşağı Açılı': 'No.26 — Üçgen Düz Kenar, Aşağı Açılı',
     'No.27 — Geniş Bıçak Profili': 'No.27 — Geniş Bıçak Profili',
+
+    // Kesik Elyaf Bıçağı Malzemeleri
+    'Paslanmaz Çelik': 'Paslanmaz Çelik',
+    'Paslanmaz Çelik + TiN Kaplama': 'Paslanmaz Çelik + TiN Kaplama',
+    'Yekpare Tungsten Karbür': 'Yekpare Tungsten Karbür',
+
+    // Kesik Elyaf Bıçağı Uyumluluk
+    'Mark IV Elyaf Kesim Makinesi': 'Mark IV Elyaf Kesim Makinesi',
+    'Mark V Elyaf Kesim Makinesi': 'Mark V Elyaf Kesim Makinesi',
+    'Herkül Elyaf Kesim Makinesi': 'Herkül Elyaf Kesim Makinesi',
+    'Krupp Elyaf Kesim Makinesi': 'Krupp Elyaf Kesim Makinesi',
+
+    // Kesik Elyaf Bıçağı Kenar Tipleri
+    'Çentikli': 'Çentikli',
+    'Düz (Çentiksiz)': 'Düz (Çentiksiz)',
   },
 
   // =============================================================================
@@ -648,6 +663,21 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'No.25 — Öne Bakan Düz Kenar': 'No.25 — Front-Facing Straight Edge',
     'No.26 — Üçgen Düz Kenar, Aşağı Açılı': 'No.26 — Triangular Straight, Sloped Back',
     'No.27 — Geniş Bıçak Profili': 'No.27 — Broadest Blade Profile',
+
+    // Chopped Fiber Blade Materials
+    'Paslanmaz Çelik': 'Stainless Steel',
+    'Paslanmaz Çelik + TiN Kaplama': 'Stainless Steel + TiN Coating',
+    'Yekpare Tungsten Karbür': 'Solid Tungsten Carbide',
+
+    // Chopped Fiber Blade Compatibility
+    'Mark IV Elyaf Kesim Makinesi': 'Mark IV Fiber Cutting Machine',
+    'Mark V Elyaf Kesim Makinesi': 'Mark V Fiber Cutting Machine',
+    'Herkül Elyaf Kesim Makinesi': 'Hercules Fiber Cutting Machine',
+    'Krupp Elyaf Kesim Makinesi': 'Krupp Fiber Cutting Machine',
+
+    // Chopped Fiber Blade Edge Types
+    'Çentikli': 'Notched',
+    'Düz (Çentiksiz)': 'Plain (No Notches)',
   },
 
   // =============================================================================
@@ -933,6 +963,21 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'No.25 — Öne Bakan Düz Kenar': 'No.25 — مستقيم أمامي',
     'No.26 — Üçgen Düz Kenar, Aşağı Açılı': 'No.26 — مثلثي مستقيم بظهر منحدر',
     'No.27 — Geniş Bıçak Profili': 'No.27 — أعرض شفرة في السلسلة',
+
+    // مواد شفرات الألياف المقطعة
+    'Paslanmaz Çelik': 'فولاذ مقاوم للصدأ',
+    'Paslanmaz Çelik + TiN Kaplama': 'فولاذ مقاوم للصدأ + طلاء TiN',
+    'Yekpare Tungsten Karbür': 'كربيد التنغستن الصلب',
+
+    // توافق شفرات الألياف
+    'Mark IV Elyaf Kesim Makinesi': 'آلة قطع الألياف مارك IV',
+    'Mark V Elyaf Kesim Makinesi': 'آلة قطع الألياف مارك V',
+    'Herkül Elyaf Kesim Makinesi': 'آلة قطع الألياف هركول',
+    'Krupp Elyaf Kesim Makinesi': 'آلة قطع الألياف كروب',
+
+    // أنواع حافة شفرات الألياف
+    'Çentikli': 'مسننة',
+    'Düz (Çentiksiz)': 'ملساء (بدون تسنين)',
   },
 
   // =============================================================================
@@ -1253,6 +1298,21 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'No.25 — Öne Bakan Düz Kenar': 'N°25 — Tranchant droit frontal',
     'No.26 — Üçgen Düz Kenar, Aşağı Açılı': 'N°26 — Triangulaire droit, dos incliné',
     'No.27 — Geniş Bıçak Profili': 'N°27 — Profil de lame le plus large',
+
+    // Matériaux des lames pour fibres coupées
+    'Paslanmaz Çelik': 'Acier inoxydable',
+    'Paslanmaz Çelik + TiN Kaplama': 'Acier inoxydable + Revêtement TiN',
+    'Yekpare Tungsten Karbür': 'Carbure de tungstène monobloc',
+
+    // Compatibilité des lames pour fibres
+    'Mark IV Elyaf Kesim Makinesi': 'Machine de coupe de fibres Mark IV',
+    'Mark V Elyaf Kesim Makinesi': 'Machine de coupe de fibres Mark V',
+    'Herkül Elyaf Kesim Makinesi': 'Machine de coupe de fibres Hercule',
+    'Krupp Elyaf Kesim Makinesi': 'Machine de coupe de fibres Krupp',
+
+    // Types d'arêtes des lames pour fibres
+    'Çentikli': 'Dentelée',
+    'Düz (Çentiksiz)': 'Lisse (Sans denture)',
   },
 
   // =============================================================================
@@ -1573,6 +1633,21 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'No.25 — Öne Bakan Düz Kenar': 'No.25 — Фронтальное прямое',
     'No.26 — Üçgen Düz Kenar, Aşağı Açılı': 'No.26 — Треугольное прямое, скошенная спинка',
     'No.27 — Geniş Bıçak Profili': 'No.27 — Самое широкое лезвие серии',
+
+    // Материалы лезвий для рубленого волокна
+    'Paslanmaz Çelik': 'Нержавеющая сталь',
+    'Paslanmaz Çelik + TiN Kaplama': 'Нержавеющая сталь + TiN покрытие',
+    'Yekpare Tungsten Karbür': 'Цельный карбид вольфрама',
+
+    // Совместимость лезвий для волокна
+    'Mark IV Elyaf Kesim Makinesi': 'Волокнорезательная машина Mark IV',
+    'Mark V Elyaf Kesim Makinesi': 'Волокнорезательная машина Mark V',
+    'Herkül Elyaf Kesim Makinesi': 'Волокнорезательная машина Геркулес',
+    'Krupp Elyaf Kesim Makinesi': 'Волокнорезательная машина Крупп',
+
+    // Типы кромки лезвий для волокна
+    'Çentikli': 'Зубчатое',
+    'Düz (Çentiksiz)': 'Гладкое (Без зубцов)',
   },
 };
 

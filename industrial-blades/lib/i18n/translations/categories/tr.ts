@@ -234,14 +234,20 @@ export const subcategoriesTr = {
       // Malzeme tipi
       'cam elyaf kesim', 'karbon fiber kesim', 'aramid kesim', 'kevlar kesim',
       'teknik elyaf bıçağı', 'kompozit kesim',
-      // Makine
-      'chopper bıçağı', 'elyaf kıyma bıçağı', 'fiber chopper',
+      // Makine markaları
+      'Mark IV elyaf bıçağı', 'Mark V elyaf bıçağı', 'Herkül chopper bıçağı', 'Krupp elyaf bıçağı',
+      'Mark IV chopper', 'Mark V chopper', 'Herkül elyaf kesim', 'Krupp chopper',
+      // Malzeme
+      'tungsten karbür elyaf bıçağı', 'TiN kaplama elyaf bıçağı', 'paslanmaz çelik elyaf bıçağı',
+      'titanyum nitrit chopper', 'karbür chopper bıçağı',
+      // Boyutlar
+      '74,5mm elyaf bıçağı', '117,5mm elyaf bıçağı', '95mm elyaf bıçağı', '48mm elyaf bıçağı', '64mm elyaf bıçağı',
       // Teknik
-      'tungsten karbür elyaf', 'seramik elyaf bıçağı', 'aşınma dirençli',
+      'aşınma dirençli elyaf bıçağı', 'çentikli elyaf bıçağı', 'düz elyaf bıçağı',
       // Sektörel
-      'otomotiv kompozit', 'havacılık elyaf', 'rüzgar türbini',
+      'otomotiv kompozit', 'havacılık elyaf', 'rüzgar türbini', 'tekstil elyaf kesim',
       // Ticari
-      'elyaf bıçağı fiyat', 'chopper bıçağı tedarikçi'
+      'elyaf bıçağı fiyat', 'chopper bıçağı tedarikçi', 'elyaf bıçağı üretici', 'OEM chopper bıçağı'
     ],
   },
   
