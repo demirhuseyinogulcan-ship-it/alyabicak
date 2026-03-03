@@ -145,16 +145,21 @@ export default async function CatalogPage({ params }: PageProps) {
                 key={catalog.id}
                 className="group bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-primary-200 hover:shadow-sm transition-all"
               >
-                {/* PDF Preview Image */}
-                <div className="relative aspect-[3/4] bg-steel-100 overflow-hidden">
+                {/* PDF Preview Image — clickable */}
+                <Link
+                  href={`/${locale}/view/${catalog.id}`}
+                  className="block relative aspect-[3/4] bg-steel-100 overflow-hidden cursor-pointer"
+                >
                   <Image
                     src={catalog.previewImage}
                     alt={catalog.title}
                     fill
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-steel-900/0 group-hover:bg-steel-900/40 transition-colors duration-300" />
-                </div>
+                  <div className="absolute inset-0 bg-steel-900/0 group-hover:bg-steel-900/40 transition-colors duration-300 flex items-center justify-center">
+                    <Eye className="w-8 h-8 text-white opacity-0 group-hover:opacity-80 transition-opacity duration-300" />
+                  </div>
+                </Link>
 
                 {/* Content */}
                 <div className="p-4">
