@@ -47,6 +47,10 @@ export default async function ContactPage({ params }: PageProps) {
       quickSupport: 'Hızlı Destek İçin',
       whatsappText: 'WhatsApp üzerinden anında yanıt alın',
       whatsappButton: 'WhatsApp ile İletişime Geç',
+      mapTitle: 'Konumumuz',
+      mapSubtitle: 'Dudullu Organize Sanayi Bölgesi, Ümraniye / İstanbul',
+      openInMaps: 'Google Maps\'te Aç',
+      getDirections: 'Yol Tarifi Al',
     },
     en: {
       writeUs: 'Write to Us',
@@ -62,6 +66,10 @@ export default async function ContactPage({ params }: PageProps) {
       quickSupport: 'For Quick Support',
       whatsappText: 'Get instant response via WhatsApp',
       whatsappButton: 'Contact via WhatsApp',
+      mapTitle: 'Our Location',
+      mapSubtitle: 'Dudullu Organized Industrial Zone, Ümraniye / Istanbul, Turkey',
+      openInMaps: 'Open in Google Maps',
+      getDirections: 'Get Directions',
     },
     ar: {
       writeUs: 'راسلنا',
@@ -77,6 +85,10 @@ export default async function ContactPage({ params }: PageProps) {
       quickSupport: 'للدعم السريع',
       whatsappText: 'احصل على رد فوري عبر واتساب',
       whatsappButton: 'تواصل عبر واتساب',
+      mapTitle: 'موقعنا',
+      mapSubtitle: 'منطقة دودولو الصناعية المنظمة، أومرانية / إسطنبول، تركيا',
+      openInMaps: 'افتح في خرائط جوجل',
+      getDirections: 'احصل على الاتجاهات',
     },
     ru: {
       writeUs: 'Напишите нам',
@@ -92,6 +104,10 @@ export default async function ContactPage({ params }: PageProps) {
       quickSupport: 'Для быстрой поддержки',
       whatsappText: 'Получите мгновенный ответ через WhatsApp',
       whatsappButton: 'Связаться через WhatsApp',
+      mapTitle: 'Наше местоположение',
+      mapSubtitle: 'Организованная промышленная зона Дудуллу, Умрание / Стамбул, Турция',
+      openInMaps: 'Открыть в Google Картах',
+      getDirections: 'Проложить маршрут',
     },
     fr: {
       writeUs: 'Écrivez-nous',
@@ -107,6 +123,10 @@ export default async function ContactPage({ params }: PageProps) {
       quickSupport: 'Pour une assistance rapide',
       whatsappText: 'Obtenez une réponse instantanée via WhatsApp',
       whatsappButton: 'Contacter via WhatsApp',
+      mapTitle: 'Notre Emplacement',
+      mapSubtitle: 'Zone Industrielle Organisée de Dudullu, Ümraniye / Istanbul, Turquie',
+      openInMaps: 'Ouvrir dans Google Maps',
+      getDirections: 'Obtenir l\'itinéraire',
     },
   }
 
@@ -120,6 +140,48 @@ export default async function ContactPage({ params }: PageProps) {
   ]
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale as SupportedLocale)
 
+  // Schema.org LocalBusiness — Contact sayfası SEO güçlendirme
+  const localBusinessSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': `${getDomainUrl(locale as SupportedLocale)}/#organization`,
+    name: locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade',
+    legalName: 'Alya Tekstil Sanayi Ticaret Ltd. Şti.',
+    description: dict.contact.subtitle,
+    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/contact`,
+    telephone: siteConfig.contact.phoneRaw,
+    faxNumber: siteConfig.contact.fax,
+    email: siteConfig.contact.email,
+    image: `${getDomainUrl(locale as SupportedLocale)}/images/logo-512.png`,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: `${siteConfig.contact.address.line1}, ${siteConfig.contact.address.line2}`,
+      addressLocality: siteConfig.contact.address.district,
+      addressRegion: siteConfig.contact.address.city,
+      postalCode: siteConfig.contact.address.postalCode,
+      addressCountry: 'TR',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 40.9971882,
+      longitude: 29.1862235,
+    },
+    hasMap: 'https://maps.app.goo.gl/YRMreTyTnF4mGg578',
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+    priceRange: '$$',
+    foundingDate: '1996',
+    numberOfEmployees: {
+      '@type': 'QuantitativeValue',
+      minValue: 10,
+      maxValue: 50,
+    },
+  }
+
   return (
     <div className="min-h-screen">
       {/* Schema.org JSON-LD */}
@@ -127,12 +189,63 @@ export default async function ContactPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       {/* Hero Section */}
       <PageHeader
         title={dict.contact.title}
         description={dict.contact.subtitle}
         backgroundImage="/images/pages/iletisim.jpg"
       />
+
+      {/* ── Google Maps Embed ─────────────────────────────── */}
+      <section id="location" className="bg-white">
+        <div className="container mx-auto px-4 pt-12 pb-6">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-6">
+            <div>
+              <h2 className="text-2xl font-bold text-steel-900">
+                {l.mapTitle}
+              </h2>
+              <p className="text-sm text-steel-500 mt-1">
+                {l.mapSubtitle}
+              </p>
+            </div>
+            <div className="flex gap-3">
+              <a
+                href="https://maps.app.goo.gl/YRMreTyTnF4mGg578"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 bg-steel-900 hover:bg-steel-800 text-white text-sm font-medium rounded-lg transition-colors"
+              >
+                <MapPin className="w-4 h-4" />
+                {l.openInMaps}
+                <ExternalLink className="w-3 h-3 opacity-60" />
+              </a>
+              <a
+                href="https://www.google.com/maps/dir//Dudullu+Organize+Sanayi+B%C3%B6lgesi,+DES+Sanayi+Sitesi,+101.+Sokak+B4+Blok+No:+2,+34776+%C3%9Cmraniye%2F%C4%B0stanbul"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 border border-steel-200 hover:border-steel-300 text-steel-700 text-sm font-medium rounded-lg transition-colors"
+              >
+                {l.getDirections}
+                <ExternalLink className="w-3 h-3 opacity-60" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="w-full h-[350px] sm:h-[420px] lg:h-[480px]">
+          <iframe
+            src="https://www.google.com/maps?q=40.9971882,29.1862235&z=16&output=embed"
+            className="w-full h-full border-0"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title={l.mapTitle}
+          />
+        </div>
+      </section>
 
       {/* Contact Section */}
       <section className="py-20 bg-steel-50">
