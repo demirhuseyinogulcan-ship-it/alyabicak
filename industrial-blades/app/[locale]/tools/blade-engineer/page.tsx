@@ -1,5 +1,5 @@
 /**
- * Blade Engineer - Teknik Cizim Araci
+ * Blade Configurator - Bicak Sartname Araci
  * /[locale]/tools/blade-engineer
  * 
  * GIZLI SAYFA: Navigation, sitemap, robots'a dahil DEGIL
@@ -7,7 +7,7 @@
  */
 
 import { getDictionary, type Locale } from '@/lib/i18n'
-import BladeEngineer from '@/components/blade-engineer/BladeEngineer'
+import BladeConfigurator from '@/components/blade-configurator/BladeConfigurator'
 import type { Metadata } from 'next'
 
 interface PageProps {
@@ -17,11 +17,11 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
   const dict = await getDictionary(locale)
-  const t = dict.bladeEngineer
+  const t = dict.bladeConfigurator
 
   return {
-    title: t?.pageTitle || 'Blade Engineer',
-    description: t?.pageSubtitle || 'Technical drawing tool',
+    title: t?.pageTitle || 'Blade Configurator',
+    description: t?.pageSubtitle || 'Blade specification tool',
     robots: {
       index: false,
       follow: false,
@@ -29,10 +29,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 }
 
-export default async function BladeEngineerPage({ params }: PageProps) {
+export default async function BladeConfiguratorPage({ params }: PageProps) {
   const { locale } = await params
   const dict = await getDictionary(locale)
-  const t = dict.bladeEngineer
+  const t = dict.bladeConfigurator
 
-  return <BladeEngineer dict={t} locale={locale} />
+  return <BladeConfigurator dict={t} locale={locale} />
 }
