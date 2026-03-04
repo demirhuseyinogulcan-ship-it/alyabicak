@@ -288,19 +288,44 @@ const ar = {
   // API Messages
   apiMessages: {
     rateLimited: 'طلبات كثيرة جداً. يرجى الانتظار دقيقة.',
+    invalidFormData: 'بيانات النموذج غير صالحة',
     successMessage: 'تم إرسال رسالتك بنجاح. سنعود إليك قريباً.',
     developmentMode: 'تم استلام الرسالة (وضع التطوير).',
     emailNotConfigured: 'خدمة البريد الإلكتروني غير مهيأة.',
     genericError: 'حدث خطأ. يرجى المحاولة لاحقاً.',
   },
 
+  // FAQ Page
+  faq: {
+    badge: 'مركز المساعدة',
+    title: 'الأسئلة الشائعة',
+    subtitle: 'جميع الأسئلة والأجوبة حول الشفرات الصناعية',
+    needHelp: 'لم تجد سؤالك؟',
+    needHelpDesc: 'فريقنا المتخصص سعيد بمساعدتك.',
+    whatsapp: 'تواصل عبر واتساب',
+    call: 'اتصل بنا',
+  },
+
   // Catalog
   catalog: {
     title: 'الكتالوج الإلكتروني',
     subtitle: 'حمّل كتالوجنا الرقمي الذي يضم جميع منتجاتنا',
+    heroTitle: 'كتالوجات المنتجات',
+    heroDesc: 'عرض أو تحميل كتالوجاتنا بصيغة PDF',
     download: 'تحميل الكتالوج',
     view: 'عرض مباشر',
     pdfViewer: 'عارض PDF',
+    // Viewer (view/[slug]) labels
+    viewer: {
+      back: 'عودة',
+      copyCitation: 'نسخ بدون تحميل',
+      share: 'مشاركة',
+      citationCopied: 'تم النسخ',
+      zoomIn: 'تكبير',
+      zoomOut: 'تصغير',
+      zoomReset: 'إعادة',
+      fullscreen: 'ملء الشاشة',
+    },
   },
 
   // Quality

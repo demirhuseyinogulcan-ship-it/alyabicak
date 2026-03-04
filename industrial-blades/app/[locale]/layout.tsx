@@ -25,7 +25,6 @@ import {
   getHreflangUrls,
   getOGLocale,
   isRTL,
-  type SupportedLocale
 } from '@/lib/config/domains';
 
 import { Noto_Sans_Arabic } from 'next/font/google';
@@ -57,7 +56,7 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
 
   // Doğru domain'i belirle - locale'e göre (merkezi config'den)
-  const currentDomain = getDomainUrl(locale as SupportedLocale);
+  const currentDomain = getDomainUrl(locale);
 
   // Dinamik alternates için tüm dilleri doğru domain'lerle kullan
   const alternatesLanguages = getHreflangUrls('');
@@ -81,7 +80,7 @@ export async function generateMetadata({
       description: dict.meta.description,
       url: currentDomain,
       siteName: brandName,
-      locale: getOGLocale(locale as SupportedLocale),
+      locale: getOGLocale(locale),
       type: 'website',
       images: [
         {
@@ -166,7 +165,7 @@ export default async function LocaleLayout({
   const websiteSchema = generateWebsiteSchema(locale);
 
   // RTL dil kontrolü (merkezi config'den)
-  const isRtl = isRTL(locale as SupportedLocale);
+  const isRtl = isRTL(locale);
 
   // Domain'e göre Yandex verification code'u belirle
   const yandexCode = getYandexVerification(locale);
@@ -174,6 +173,12 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>
       <head>
+        {/* Preconnect — 3rd party sunuculara erken bağlantı (LCP iyileştirme) */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.clarity.ms" />
+
         {/* Yandex Webmaster Verification */}
         <meta name="yandex-verification" content={yandexCode} />
 

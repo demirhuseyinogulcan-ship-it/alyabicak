@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
 import { siteConfig } from '@/lib/config'
 import { i18nConfig, Locale } from '@/lib/i18n/config'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: descriptions[locale] || descriptions.tr,
     locale,
     path: '/cookie-policy',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/cookie-policy`,
+    url: `${getDomainUrl(locale)}/${locale}/cookie-policy`,
   })
 }
 

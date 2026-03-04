@@ -8,7 +8,7 @@ import { getDictionary, type Locale } from '@/lib/i18n'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, Package } from 'lucide-react'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps) {
     description: dict.categories.subtitle,
     locale,
     path: '/categories',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories`,
+    url: `${getDomainUrl(locale)}/${locale}/categories`,
   })
 }
 
@@ -31,7 +31,7 @@ export default async function CategoriesPage({ params }: PageProps) {
   const { locale } = await params
   const dict = await getDictionary(locale)
   const categories = categoryService.getAllCategoriesWithCounts(locale)
-  const domainUrl = getDomainUrl(locale as SupportedLocale)
+  const domainUrl = getDomainUrl(locale)
 
   // ItemList Schema - Google Carousel için
   const itemListSchema = generateItemListSchema(
@@ -50,7 +50,7 @@ export default async function CategoriesPage({ params }: PageProps) {
       { name: dict.nav.home, url: `/${locale}` },
       { name: dict.categories.title },
     ],
-    locale as SupportedLocale
+    locale
   )
 
   return (

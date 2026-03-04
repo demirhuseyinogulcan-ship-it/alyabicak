@@ -1,10 +1,10 @@
 /**
  * Language Switcher Component
- * Dil değiştirme butonu - Domain-aware
+ * Dil deÃ„Å¸iÃ…Å¸tirme butonu - Domain-aware
  * 
  * Domain Strategy:
- * - Türkçe (tr) → alyabicak.com
- * - English/Arabic → alyablade.com
+ * - TÃƒÂ¼rkÃƒÂ§e (tr) Ã¢â€ â€™ alyabicak.com
+ * - English/Arabic Ã¢â€ â€™ alyablade.com
  */
 
 'use client';
@@ -12,8 +12,8 @@
 import { usePathname, useRouter } from 'next/navigation';
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { Globe, ChevronDown, Check, X } from 'lucide-react';
-import { i18nConfig, type Locale } from '@/lib/i18n';
-import { getDomainHost, type SupportedLocale } from '@/lib/config/domains';
+import { i18nConfig, isLocale, type Locale } from '@/lib/i18n';
+import { getDomainHost } from '@/lib/config/domains';
 import { useTranslation } from '@/components/providers/LocaleProvider';
 
 export interface LanguageSwitcherProps {
@@ -30,11 +30,11 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
   // URL'den mevcut locale'i al
   const currentLocale = useMemo(() => {
     const segments = pathname.split('/');
-    const localeFromPath = segments[1] as Locale;
-    return i18nConfig.locales.includes(localeFromPath) ? localeFromPath : i18nConfig.defaultLocale;
+    const segment = segments[1];
+    return isLocale(segment) ? segment : i18nConfig.defaultLocale;
   }, [pathname]);
 
-  // Dışarı tıklandığında kapat
+  // DÃ„Â±Ã…Å¸arÃ„Â± tÃ„Â±klandÃ„Â±Ã„Å¸Ã„Â±nda kapat
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -48,14 +48,14 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
   const switchLocale = (newLocale: Locale) => {
     // =========================================================================
     // HREFLANG-AWARE LOCALE SWITCH
-    // Next.js Metadata API tarafından üretilen <link rel="alternate"> tag'larını
-    // DOM'dan okuyarak doğru locale URL'ini belirler.
-    // Bu sayede ürün sayfalarında slug çevirisi otomatik çalışır:
-    //   /tr/products/vakum-paketleme-bicagi → /en/products/vacuum-packaging-knife
+    // Next.js Metadata API tarafÃ„Â±ndan ÃƒÂ¼retilen <link rel="alternate"> tag'larÃ„Â±nÃ„Â±
+    // DOM'dan okuyarak doÃ„Å¸ru locale URL'ini belirler.
+    // Bu sayede ÃƒÂ¼rÃƒÂ¼n sayfalarÃ„Â±nda slug ÃƒÂ§evirisi otomatik ÃƒÂ§alÃ„Â±Ã…Å¸Ã„Â±r:
+    //   /tr/products/vakum-paketleme-bicagi Ã¢â€ â€™ /en/products/vacuum-packaging-knife
     // =========================================================================
     let newPath: string;
 
-    // 1. DOM'daki hreflang metadata'sından doğru URL'i oku
+    // 1. DOM'daki hreflang metadata'sÃ„Â±ndan doÃ„Å¸ru URL'i oku
     const alternateLink = typeof document !== 'undefined'
       ? document.querySelector(`link[rel="alternate"][hreflang="${newLocale}"]`)
       : null;
@@ -65,39 +65,39 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
         const alternateUrl = new URL(alternateLink.getAttribute('href')!);
         newPath = alternateUrl.pathname;
       } catch {
-        // URL parse hatası — fallback'e düş
+        // URL parse hatasÃ„Â± Ã¢â‚¬â€ fallback'e dÃƒÂ¼Ã…Å¸
         const segments = pathname.split('/');
         segments[1] = newLocale;
         newPath = segments.join('/');
       }
     } else {
-      // 2. Fallback: basit locale prefix değişikliği
+      // 2. Fallback: basit locale prefix deÃ„Å¸iÃ…Å¸ikliÃ„Å¸i
       const segments = pathname.split('/');
       segments[1] = newLocale;
       newPath = segments.join('/');
     }
     
-    // Cookie'yi güncelle
+    // Cookie'yi gÃƒÂ¼ncelle
     document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`;
     
-    // Production'da domain değişikliği gerekiyor mu kontrol et
+    // Production'da domain deÃ„Å¸iÃ…Å¸ikliÃ„Å¸i gerekiyor mu kontrol et
     const currentHost = typeof window !== 'undefined' ? window.location.hostname : '';
-    const targetDomain = getDomainHost(newLocale as SupportedLocale);
+    const targetDomain = getDomainHost(newLocale);
     const isProduction = currentHost.includes('alyablade.com') || currentHost.includes('alyabicak.com');
     
     if (isProduction && !currentHost.includes(targetDomain.replace('www.', ''))) {
-      // Farklı domain'e yönlendir
+      // FarklÃ„Â± domain'e yÃƒÂ¶nlendir
       const protocol = typeof window !== 'undefined' ? window.location.protocol : 'https:';
       window.location.href = `${protocol}//${targetDomain}${newPath}`;
     } else {
-      // Aynı domain'de kal
+      // AynÃ„Â± domain'de kal
       router.push(newPath);
     }
     
     setIsOpen(false);
   };
 
-  // Mobil için Bottom Sheet görünümü (scalable - 20+ dil için)
+  // Mobil iÃƒÂ§in Bottom Sheet gÃƒÂ¶rÃƒÂ¼nÃƒÂ¼mÃƒÂ¼ (scalable - 20+ dil iÃƒÂ§in)
   if (variant === 'bottomsheet') {
     return (
       <>
@@ -171,7 +171,7 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
     );
   }
 
-  // Mobil için yatay buton görünümü (3 dil için)
+  // Mobil iÃƒÂ§in yatay buton gÃƒÂ¶rÃƒÂ¼nÃƒÂ¼mÃƒÂ¼ (3 dil iÃƒÂ§in)
   if (variant === 'buttons') {
     return (
       <div className="flex gap-2">
@@ -195,13 +195,13 @@ export function LanguageSwitcher({ variant = 'dropdown' }: LanguageSwitcherProps
     );
   }
 
-  // Desktop için dropdown görünümü
+  // Desktop iÃƒÂ§in dropdown gÃƒÂ¶rÃƒÂ¼nÃƒÂ¼mÃƒÂ¼
   return (
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-1 px-2 py-1.5 text-sm font-medium text-steel-600 hover:text-primary-600 transition-colors rounded-md hover:bg-steel-50"
-        aria-label="Dil seçin"
+        aria-label="Dil seÃƒÂ§in"
         aria-expanded={isOpen}
       >
         <Globe className="w-3.5 h-3.5" />

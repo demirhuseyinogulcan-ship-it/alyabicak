@@ -1,4 +1,4 @@
-import { generateEnhancedProductSchema } from '@/lib/seo';
+import { generateEnhancedProductSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
 import { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
@@ -10,6 +10,7 @@ import {
   getRelatedProducts,
   getProductSlugPair,
   isProductUsingFallback,
+  getCategoryName,
 } from '@/lib/data/products-extended';
 import {
   ProductHero,
@@ -22,7 +23,7 @@ import { ProductViewTracker } from '@/components/analytics';
 import { siteConfig } from '@/lib/config/site.config';
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n';
 import { getBrandName } from '@/lib/i18n/locale-utils';
-import { getDomainUrl, getOGLocale, type SupportedLocale } from '@/lib/config/domains';
+import { getDomainUrl, getOGLocale } from '@/lib/config/domains';
 import { getCategoryById } from '@/lib/data/categories';
 
 interface ProductPageProps {
@@ -76,8 +77,8 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       title,
       description,
       type: 'website',
-      url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/products/${slug}`,
-      locale: getOGLocale(locale as SupportedLocale),
+      url: `${getDomainUrl(locale)}/${locale}/products/${slug}`,
+      locale: getOGLocale(locale),
       siteName: getBrandName(locale),
       images: [
         {
@@ -96,16 +97,16 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     },
     alternates: {
       // Canonical URL - locale'e göre doğru domain ve slug'a yönlendir
-      canonical: `${getDomainUrl(locale as SupportedLocale)}/${locale}/products/${product.slug}`,
+      canonical: `${getDomainUrl(locale)}/${locale}/products/${product.slug}`,
       // Hreflang: her locale için doğru slug kullanılır (TR=Türkçe, diğerleri=İngilizce)
       languages: (() => {
         const slugPair = getProductSlugPair(slug);
         const hreflangs: Record<string, string> = {};
         for (const loc of i18nConfig.locales) {
           const locSlug = loc === 'tr' ? slugPair.tr : slugPair.en;
-          hreflangs[loc] = `${getDomainUrl(loc as SupportedLocale)}/${loc}/products/${locSlug}`;
+          hreflangs[loc] = `${getDomainUrl(loc)}/${loc}/products/${locSlug}`;
         }
-        hreflangs['x-default'] = `${getDomainUrl('en' as SupportedLocale)}/en/products/${slugPair.en}`;
+        hreflangs['x-default'] = `${getDomainUrl('en')}/en/products/${slugPair.en}`;
         return hreflangs;
       })(),
     },
@@ -130,13 +131,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const relatedProducts = getRelatedProducts(product.id, locale);
 
   // Breadcrumb items (locale-aware)
-  const homeLabel = dict.nav.home;
   const category = getCategoryById(product.categoryId);
   const categorySlug = category?.slug || product.categoryId;
   const breadcrumbItems = [
-    { label: dict.nav.categories, href: `/${locale}/categories` },
-    { label: getCategoryDisplayName(product.categoryId, locale), href: `/${locale}/categories/${categorySlug}` },
-    { label: product.name },
+    { name: dict.nav.home, url: `/${locale}` },
+    { name: dict.nav.categories, url: `/${locale}/categories` },
+    { name: getCategoryName(product.categoryId, locale), url: `/${locale}/categories/${categorySlug}` },
+    { name: product.name },
   ];
 
   // JSON-LD Schema - Structured Product Data Schema (SPDS)
@@ -155,7 +156,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     image: product.images.main.src,
     images: product.images.gallery?.map(img => img.src) || [],
     brand: product.origin?.brand,
-    category: getCategoryDisplayName(product.categoryId, locale),
+    category: getCategoryName(product.categoryId, locale),
     material: product.specs?.find(s => s.label.toLowerCase().includes('malzeme') || s.label.toLowerCase().includes('material'))?.value,
     // weight: product.weight, // Data doesn't seem to have weight property directly exposed, assuming specs handle it or adding if exists
     inStock: product.inStock,
@@ -165,7 +166,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     origin: product.origin,
   });
 
-  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale, dict.breadcrumb?.home);
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale);
 
   return (
     <>
@@ -191,24 +192,20 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <nav aria-label="Breadcrumb" className="py-3 bg-steel-50 border-b border-steel-200">
         <div className="container mx-auto px-4">
           <ol className="flex items-center gap-1.5 text-sm flex-wrap">
-            <li>
-              <Link href={`/${locale}`} className="flex items-center gap-1 text-steel-500 hover:text-primary-600 transition-colors">
-                <Home className="w-4 h-4" />
-                <span className="hidden sm:inline">{homeLabel}</span>
-              </Link>
-            </li>
             {breadcrumbItems.map((item, index) => {
               const isLast = index === breadcrumbItems.length - 1;
+              const isFirst = index === 0;
               return (
                 <li key={index} className="flex items-center gap-1.5">
-                  <ChevronRight className="w-3.5 h-3.5 text-steel-300 flex-shrink-0" aria-hidden="true" />
-                  {item.href && !isLast ? (
-                    <Link href={item.href} className="text-steel-500 hover:text-primary-600 transition-colors">
-                      {item.label}
+                  {!isFirst && <ChevronRight className="w-3.5 h-3.5 text-steel-300 flex-shrink-0" aria-hidden="true" />}
+                  {item.url && !isLast ? (
+                    <Link href={item.url} className={`text-steel-500 hover:text-primary-600 transition-colors ${isFirst ? 'flex items-center gap-1' : ''}`}>
+                      {isFirst && <Home className="w-4 h-4" />}
+                      {isFirst ? <span className="hidden sm:inline">{item.name}</span> : item.name}
                     </Link>
                   ) : (
-                    <span className={isLast ? 'text-steel-800 font-medium truncate max-w-[250px] sm:max-w-none' : 'text-steel-500'} aria-current={isLast ? 'page' : undefined} title={item.label}>
-                      {item.label}
+                    <span className={isLast ? 'text-steel-800 font-medium truncate max-w-[250px] sm:max-w-none' : 'text-steel-500'} aria-current={isLast ? 'page' : undefined} title={item.name}>
+                      {item.name}
                     </span>
                   )}
                 </li>
@@ -279,67 +276,3 @@ export default async function ProductPage({ params }: ProductPageProps) {
     </>
   );
 }
-
-// Yardımcı fonksiyonlar
-function getCategoryDisplayName(categoryId: string, locale: string): string {
-  const names: Record<string, Record<string, string>> = {
-    tr: {
-      'safety-knives': 'İş Güvenliği El Bıçakları',
-      'industrial-blades': 'Sanayi Jiletleri',
-      'machine-knives': 'Makina Bıçakları',
-    },
-    en: {
-      'safety-knives': 'Safety Work Knives',
-      'industrial-blades': 'Industrial Blades',
-      'machine-knives': 'Machine Blades',
-    },
-    ar: {
-      'safety-knives': 'سكاكين السلامة',
-      'industrial-blades': 'شفرات صناعية',
-      'machine-knives': 'سكاكين الآلات',
-    },
-    ru: {
-      'safety-knives': 'Ножи безопасности',
-      'industrial-blades': 'Промышленные лезвия',
-      'machine-knives': 'Машинные ножи',
-    },
-    fr: {
-      'safety-knives': 'Couteaux de Sécurité',
-      'industrial-blades': 'Lames Industrielles',
-      'machine-knives': 'Couteaux de Machines',
-    },
-  };
-  return names[locale]?.[categoryId] || names['tr']?.[categoryId] || categoryId;
-}
-
-interface BreadcrumbItem {
-  label: string;
-  href?: string;
-}
-
-function generateBreadcrumbSchema(items: BreadcrumbItem[], locale: string, homeLabel: string = 'Home') {
-  const domain = getDomainUrl(locale as SupportedLocale);
-
-  const itemListElement = [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: homeLabel,
-      item: `${domain}/${locale}`,
-    },
-    ...items.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 2,
-      name: item.label,
-      item: item.href ? `${domain}${item.href}` : undefined,
-    })),
-  ];
-
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement,
-  };
-}
-
-

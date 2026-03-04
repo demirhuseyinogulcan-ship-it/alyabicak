@@ -5741,7 +5741,7 @@ export function getFeaturedProductsExtended(locale: string = DEFAULT_LOCALE): Pr
 }
 
 /** Kategori adını getir (locale aware) */
-function getCategoryName(categoryId: string, locale: string = DEFAULT_LOCALE): string {
+export function getCategoryName(categoryId: string, locale: string = DEFAULT_LOCALE): string {
   const catTranslation = getCategoryTranslation(categoryId, locale);
   if (catTranslation) return catTranslation.name;
 

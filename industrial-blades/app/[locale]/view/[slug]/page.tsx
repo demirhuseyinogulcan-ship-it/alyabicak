@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Copy, Download, Share2 } from 'lucide-react'
 import { getDictionary, type Locale } from '@/lib/i18n'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 import { Metadata } from 'next'
 import { CopyButton } from './copy-button'
 import { PDFViewer } from './pdf-viewer'
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!catalog) return {}
 
     const dict = await getDictionary(locale)
-    const domain = getDomainUrl(locale as SupportedLocale)
+    const domain = getDomainUrl(locale)
 
     return {
         title: `${catalog.title} - ${dict.catalog?.pdfViewer || 'PDF Viewer'}`,
@@ -50,50 +50,24 @@ export default async function PDFViewerPage({ params }: PageProps) {
         notFound()
     }
 
-    const domain = getDomainUrl(locale as SupportedLocale)
+    const domain = getDomainUrl(locale)
     const fullPdfUrl = `${domain}${catalog.pdfUrl}`
 
-    // Localized Labels
+    // Dict-based labels (i18n Batch 1 migration)
+    const brandName = locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'
+    const citationText = `${locale === 'tr' ? 'Kaynak' : 'Source'}: ${brandName} - ${catalog.title} (${domain}/${locale}/view/${slug})`
+    const v = dict.catalog.viewer
     const l = {
-        tr: {
-            back: 'Kataloğa Dön',
-            download: 'İndir',
-            copyCitation: 'İndirmeden Kopyala',
-            share: 'Paylaş',
-            citationCopied: 'Kopyalandı!',
-            citationText: `Kaynak: ${locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade'} - ${catalog.title} (${domain}/${locale}/view/${slug})`,
-            zoomIn: 'Yakınlaştır',
-            zoomOut: 'Uzaklaştır',
-            zoomReset: 'Sıfırla',
-            fullscreen: 'Tam Ekran',
-        },
-        en: {
-            back: 'Back to Catalog',
-            download: 'Download',
-            copyCitation: 'Copy Without Download',
-            share: 'Share',
-            citationCopied: 'Copied!',
-            citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`,
-            zoomIn: 'Zoom In',
-            zoomOut: 'Zoom Out',
-            zoomReset: 'Reset',
-            fullscreen: 'Fullscreen',
-        },
-        // Fallbacks for other languages to EN or simple translation
-        ar: { back: 'عودة', download: 'تحميل', copyCitation: 'نسخ بدون تحميل', share: 'مشاركة', citationCopied: 'تم النسخ', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`, zoomIn: 'تكبير', zoomOut: 'تصغير', zoomReset: 'إعادة', fullscreen: 'ملء الشاشة' },
-        ru: { back: 'Назад', download: 'Скачать', copyCitation: 'Копировать без скачивания', share: 'Поделиться', citationCopied: 'Скопировано', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`, zoomIn: 'Увеличить', zoomOut: 'Уменьшить', zoomReset: 'Сброс', fullscreen: 'Полный экран' },
-        fr: { back: 'Retour', download: 'Télécharger', copyCitation: 'Copier sans télécharger', share: 'Partager', citationCopied: 'Copié', citationText: `Source: Alya Blade - ${catalog.title} (${domain}/${locale}/view/${slug})`, zoomIn: 'Agrandir', zoomOut: 'Réduire', zoomReset: 'Réinitialiser', fullscreen: 'Plein écran' },
-    }[locale] || {
-        back: 'Back',
-        download: 'Download',
-        copyCitation: 'Copy Citation',
-        share: 'Share',
-        citationCopied: 'Copied',
-        citationText: `Source: Alya Blade`,
-        zoomIn: 'Zoom In',
-        zoomOut: 'Zoom Out',
-        zoomReset: 'Reset',
-        fullscreen: 'Fullscreen',
+        back: v.back,
+        download: dict.catalog.download,
+        copyCitation: v.copyCitation,
+        share: v.share,
+        citationCopied: v.citationCopied,
+        citationText,
+        zoomIn: v.zoomIn,
+        zoomOut: v.zoomOut,
+        zoomReset: v.zoomReset,
+        fullscreen: v.fullscreen,
     }
 
     // Schema: TechArticle (Google loves this for technical content)

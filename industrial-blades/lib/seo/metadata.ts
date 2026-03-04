@@ -1,14 +1,14 @@
-// SEO Metadata Generator — locale-aware title, OG, hreflang
+// SEO Metadata Generator Ã¢â‚¬â€ locale-aware title, OG, hreflang
 import { Metadata } from 'next'
 import { siteConfig } from '../config'
-import { type Locale } from '../i18n/config'
+import { type Locale, ensureLocale } from '../i18n/config'
 import { BRAND_NAME } from '../i18n/locale-utils'
 import {
   getDomainUrl,
   getHreflangUrls as getHreflangUrlsFromConfig,
   getCanonicalUrl as getCanonicalUrlFromConfig,
   getOGLocale,
-  type SupportedLocale
+
 } from '../config/domains'
 
 export interface SEOConfig {
@@ -27,40 +27,40 @@ export { getDomainUrl, getHreflangUrls as generateHreflangUrls } from '../config
 
 /**
  * Locale-aware SEO seed keywords
- * Her locale için ana keyword seti — generateMetadata tüm sayfalara bunları ekler
+ * Her locale iÃƒÂ§in ana keyword seti Ã¢â‚¬â€ generateMetadata tÃƒÂ¼m sayfalara bunlarÃ„Â± ekler
  */
 export const SEO_SEED_KEYWORDS: Record<Locale, string[]> = {
-  tr: ['alya bıçak', 'endüstriyel bıçak', 'sanayi jileti', 'kesici bıçak'],
+  tr: ['alya bÃ„Â±ÃƒÂ§ak', 'endÃƒÂ¼striyel bÃ„Â±ÃƒÂ§ak', 'sanayi jileti', 'kesici bÃ„Â±ÃƒÂ§ak'],
   en: ['alya blade', 'industrial blade', 'industrial razor', 'cutting blade'],
-  ar: ['شفرات صناعية', 'شفرات القطع', 'alya blade', 'سكاكين صناعية'],
-  ru: ['промышленные лезвия', 'режущие лезвия', 'alya blade', 'промышленные ножи'],
+  ar: ['Ã˜Â´Ã™ÂÃ˜Â±Ã˜Â§Ã˜Âª Ã˜ÂµÃ™â€ Ã˜Â§Ã˜Â¹Ã™Å Ã˜Â©', 'Ã˜Â´Ã™ÂÃ˜Â±Ã˜Â§Ã˜Âª Ã˜Â§Ã™â€Ã™â€šÃ˜Â·Ã˜Â¹', 'alya blade', 'Ã˜Â³Ã™Æ’Ã˜Â§Ã™Æ’Ã™Å Ã™â€  Ã˜ÂµÃ™â€ Ã˜Â§Ã˜Â¹Ã™Å Ã˜Â©'],
+  ru: ['ÄÂ¿Ã‘â‚¬ÄÂ¾ÄÂ¼Ã‘â€¹Ã‘Ë†ÄÂ»ÄÂµÄÂ½ÄÂ½Ã‘â€¹ÄÂµ ÄÂ»ÄÂµÄÂ·ÄÂ²ÄÂ¸Ã‘Â', 'Ã‘â‚¬ÄÂµÄÂ¶Ã‘Æ’Ã‘â€°ÄÂ¸ÄÂµ ÄÂ»ÄÂµÄÂ·ÄÂ²ÄÂ¸Ã‘Â', 'alya blade', 'ÄÂ¿Ã‘â‚¬ÄÂ¾ÄÂ¼Ã‘â€¹Ã‘Ë†ÄÂ»ÄÂµÄÂ½ÄÂ½Ã‘â€¹ÄÂµ ÄÂ½ÄÂ¾ÄÂ¶ÄÂ¸'],
   fr: ['lames industrielles', 'lames de coupe', 'alya blade', 'rasoirs industriels'],
 }
 
 // Internal helper
 function getCanonicalUrl(locale: Locale, path: string = ''): string {
-  return getCanonicalUrlFromConfig(locale as SupportedLocale, path)
+  return getCanonicalUrlFromConfig(locale, path)
 }
 
 /**
  * Locale-aware metadata generator
  * 
- * ZORUNLU: `locale` parametresi verilmelidir — tüm SEO sinyallerinin
- * dil tutarlılığı (title suffix, keywords, OG locale, siteName) buna bağlıdır.
+ * ZORUNLU: `locale` parametresi verilmelidir Ã¢â‚¬â€ tÃƒÂ¼m SEO sinyallerinin
+ * dil tutarlÃ„Â±lÃ„Â±Ã„Å¸Ã„Â± (title suffix, keywords, OG locale, siteName) buna baÃ„Å¸lÃ„Â±dÃ„Â±r.
  * 
- * ÖNERİLEN: `path` parametresi verilmelidir — hreflang alternates üretimi
- * ve cross-domain canonical URL oluşturmak için gereklidir.
+ * Ãƒâ€“NERÃ„Â°LEN: `path` parametresi verilmelidir Ã¢â‚¬â€ hreflang alternates ÃƒÂ¼retimi
+ * ve cross-domain canonical URL oluÃ…Å¸turmak iÃƒÂ§in gereklidir.
  */
 export function generateMetadata(config: SEOConfig): Metadata {
-  const locale = (config.locale || 'tr') as Locale
+  const locale = ensureLocale(config.locale)
   const brandName = BRAND_NAME[locale] || BRAND_NAME.en
 
-  // Title suffix — locale'e göre doğru marka adı
-  const title = config.title.includes('Alya Bıçak') || config.title.includes('Alya Blade')
+  // Title suffix Ã¢â‚¬â€ locale'e gÃƒÂ¶re doÃ„Å¸ru marka adÃ„Â±
+  const title = config.title.includes('Alya BÃ„Â±ÃƒÂ§ak') || config.title.includes('Alya Blade')
     ? config.title
     : `${config.title} | ${brandName}`
 
-  // Keywords — locale'e göre seed keywords + sayfa bazlı keywords
+  // Keywords Ã¢â‚¬â€ locale'e gÃƒÂ¶re seed keywords + sayfa bazlÃ„Â± keywords
   const seedKeywords = SEO_SEED_KEYWORDS[locale] || SEO_SEED_KEYWORDS.en
   const keywords = [
     ...seedKeywords,
@@ -68,7 +68,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
   ].join(', ')
 
   // OG locale
-  const ogLocale = getOGLocale(locale as SupportedLocale)
+  const ogLocale = getOGLocale(locale)
 
   // Canonical URL
   const canonicalUrl = config.path
@@ -79,11 +79,11 @@ export function generateMetadata(config: SEOConfig): Metadata {
   const hreflangUrls = config.path ? getHreflangUrlsFromConfig(config.path) : {}
 
   // Domain-aware OG image URL
-  const domainUrl = getDomainUrl(locale as SupportedLocale)
+  const domainUrl = getDomainUrl(locale)
 
   return {
-    // absolute: layout template'i (%s | Brand) devre dışı bırakır
-    // genMeta zaten marka ekini kendisi ekliyor, double-brand olmasın
+    // absolute: layout template'i (%s | Brand) devre dÃ„Â±Ã…Å¸Ã„Â± bÃ„Â±rakÃ„Â±r
+    // genMeta zaten marka ekini kendisi ekliyor, double-brand olmasÃ„Â±n
     title: { absolute: title },
     description: config.description,
     keywords,

@@ -47,8 +47,31 @@ const nextConfig: NextConfig = {
             value: 'nosniff',
           },
           {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block',
+            // X-XSS-Protection kaldırıldı — modern tarayıcılarda deprecated,
+            // bazı senaryolarda XSS'i kolaylaştırabilir. CSP ile değiştirildi.
+            key: 'Content-Security-Policy',
+            value: [
+              // Varsayılan: sadece kendi origin'i
+              "default-src 'self'",
+              // Script'ler: kendi origin + inline (JSON-LD, GA4, Clarity) + external analytics
+              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms https://va.vercel-scripts.com https://unpkg.com",
+              // Stiller: kendi origin + inline (Tailwind) + Google Fonts
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              // Fontlar: kendi origin + Google Fonts CDN
+              "font-src 'self' https://fonts.gstatic.com data:",
+              // Görseller: kendi origin + data URI + Vercel blob + Google services
+              "img-src 'self' data: blob: https://*.google-analytics.com https://*.googletagmanager.com https://*.clarity.ms",
+              // Bağlantılar (fetch/XHR): kendi origin + analytics + Formspree
+              "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.clarity.ms https://va.vercel-scripts.com https://vitals.vercel-insights.com https://formspree.io",
+              // Iframe'ler: Google Maps + PDF viewer
+              "frame-src 'self' https://www.google.com https://maps.google.com",
+              // Worker'lar: PDF.js worker
+              "worker-src 'self' blob: https://unpkg.com",
+              // Base URI: sadece kendi origin
+              "base-uri 'self'",
+              // Form action: kendi origin
+              "form-action 'self'",
+            ].join('; '),
           },
           {
             key: 'Referrer-Policy',

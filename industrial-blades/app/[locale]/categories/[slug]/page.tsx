@@ -10,7 +10,7 @@ import { ArrowRight, Package } from 'lucide-react'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { getBrandName } from '@/lib/i18n/locale-utils'
-import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl, getHreflangUrls } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: PageProps) {
     return {}
   }
 
-  const domainUrl = getDomainUrl(locale as SupportedLocale)
+  const domainUrl = getDomainUrl(locale)
   const pagePath = `/categories/${category.slug}`
   const brandSuffix = getBrandName(locale)
 
@@ -91,17 +91,17 @@ export default async function CategoryPage({ params }: PageProps) {
   }
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: dict.nav.home, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}` },
-    { name: dict.nav.categories, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories` },
-    { name: category.name, url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}` },
+    { name: dict.nav.home, url: `${getDomainUrl(locale)}/${locale}` },
+    { name: dict.nav.categories, url: `${getDomainUrl(locale)}/${locale}/categories` },
+    { name: category.name, url: `${getDomainUrl(locale)}/${locale}/categories/${category.slug}` },
   ])
 
   // Subcategory list schema (Google Carousel / List)
   const itemListSchema = generateItemListSchema(
     category.subcategories.map((sub, index) => ({
       name: sub.name,
-      url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/categories/${category.slug}/${sub.slug}`,
-      image: category.image || `${getDomainUrl(locale as SupportedLocale)}/images/logo-512.png`, // Fallback to category image
+      url: `${getDomainUrl(locale)}/${locale}/categories/${category.slug}/${sub.slug}`,
+      image: category.image || `${getDomainUrl(locale)}/images/logo-512.png`, // Fallback to category image
       position: index + 1
     })),
     `${category.name} ${dict.categories.subcategories}`

@@ -288,19 +288,44 @@ const ru = {
   // API Messages
   apiMessages: {
     rateLimited: 'Слишком много запросов. Пожалуйста, подождите минуту.',
+    invalidFormData: 'Неверные данные формы',
     successMessage: 'Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.',
     developmentMode: 'Сообщение получено (режим разработки).',
     emailNotConfigured: 'Служба email не настроена.',
     genericError: 'Произошла ошибка. Пожалуйста, попробуйте позже.',
   },
 
+  // FAQ Page
+  faq: {
+    badge: 'Центр помощи',
+    title: 'Часто задаваемые вопросы',
+    subtitle: 'Все вопросы и ответы о промышленных лезвиях',
+    needHelp: 'Не нашли свой вопрос?',
+    needHelpDesc: 'Наша команда экспертов будет рада вам помочь.',
+    whatsapp: 'Написать в WhatsApp',
+    call: 'Позвоните нам',
+  },
+
   // Catalog
   catalog: {
     title: 'э-Каталог',
     subtitle: 'Скачайте наш цифровой каталог со всей продукцией',
+    heroTitle: 'Каталоги продукции',
+    heroDesc: 'Просмотрите или скачайте наши PDF-каталоги',
     download: 'Скачать Каталог',
     view: 'Смотреть Онлайн',
     pdfViewer: 'Просмотр PDF',
+    // Viewer (view/[slug]) labels
+    viewer: {
+      back: 'Назад',
+      copyCitation: 'Копировать без скачивания',
+      share: 'Поделиться',
+      citationCopied: 'Скопировано',
+      zoomIn: 'Увеличить',
+      zoomOut: 'Уменьшить',
+      zoomReset: 'Сброс',
+      fullscreen: 'Полный экран',
+    },
   },
 
   // Quality

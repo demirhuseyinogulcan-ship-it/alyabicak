@@ -6,7 +6,7 @@ import { Download, Eye, Home, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getDictionary, type Locale } from '@/lib/i18n'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps) {
     description: dict.catalog.subtitle,
     locale,
     path: '/catalog',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/catalog`,
+    url: `${getDomainUrl(locale)}/${locale}/catalog`,
   })
 }
 
@@ -32,15 +32,13 @@ export default async function CatalogPage({ params }: PageProps) {
   const dict = await getDictionary(locale)
   const catalogs = CATALOGS[locale]
 
-  const labels = {
-    tr: { view: 'Görüntüle', download: 'İndir', heroTitle: 'Ürün Katalogları', heroDesc: 'PDF kataloglarımızı görüntüleyin veya indirin' },
-    en: { view: 'View', download: 'Download', heroTitle: 'Product Catalogs', heroDesc: 'View or download our PDF catalogs' },
-    ar: { view: 'عرض', download: 'تحميل', heroTitle: 'كتالوجات المنتجات', heroDesc: 'عرض أو تحميل كتالوجاتنا بصيغة PDF' },
-    ru: { view: 'Просмотр', download: 'Скачать', heroTitle: 'Каталоги продукции', heroDesc: 'Просмотрите или скачайте наши PDF-каталоги' },
-    fr: { view: 'Voir', download: 'Télécharger', heroTitle: 'Catalogues de Produits', heroDesc: 'Consultez ou téléchargez nos catalogues PDF' },
+  // Dict-based labels (i18n Batch 1 migration)
+  const l = {
+    view: dict.catalog.view,
+    download: dict.catalog.download,
+    heroTitle: dict.catalog.heroTitle,
+    heroDesc: dict.catalog.heroDesc,
   }
-
-  const l = labels[locale]
 
   // Catalog Schema (CreativeWork / Publication)
   // "PDF Hack" stratejisi için kritik: Google'a bu PDF'lerin resmi yayın olduğunu bildirir.
@@ -57,8 +55,8 @@ export default async function CatalogPage({ params }: PageProps) {
         '@type': 'CreativeWork',
         name: catalog.title,
         description: catalog.description,
-        url: `${getDomainUrl(locale as SupportedLocale)}${catalog.pdfUrl}`,
-        image: `${getDomainUrl(locale as SupportedLocale)}${catalog.previewImage}`,
+        url: `${getDomainUrl(locale)}${catalog.pdfUrl}`,
+        image: `${getDomainUrl(locale)}${catalog.previewImage}`,
         encodingFormat: 'application/pdf',
         fileFormat: 'application/pdf',
         publisher: {
@@ -66,7 +64,7 @@ export default async function CatalogPage({ params }: PageProps) {
           name: locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade',
           logo: {
             '@type': 'ImageObject',
-            url: `${getDomainUrl(locale as SupportedLocale)}/images/logo-512.png`
+            url: `${getDomainUrl(locale)}/images/logo-512.png`
           }
         },
         inLanguage: locale
@@ -83,7 +81,7 @@ export default async function CatalogPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 1,
         name: dict.nav?.home || 'Home',
-        item: `${getDomainUrl(locale as SupportedLocale)}/${locale}`,
+        item: `${getDomainUrl(locale)}/${locale}`,
       },
       {
         '@type': 'ListItem',

@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { Calendar, Clock, ArrowLeft, Share2, Tag, ChevronRight } from 'lucide-react'
 import { blogService } from '@/lib/data/blog'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
-import { getDomainUrl, getHreflangUrls, getOGLocale, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl, getHreflangUrls, getOGLocale } from '@/lib/config/domains'
 import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo'
 
 interface PageProps {
@@ -40,10 +40,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
   }
 
-  const canonicalUrl = `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/${slug}`
+  const canonicalUrl = `${getDomainUrl(locale)}/${locale}/newsletter/${slug}`
   const ogImage = post.coverImage.startsWith('http')
     ? post.coverImage
-    : `${getDomainUrl(locale as SupportedLocale)}${post.coverImage}`
+    : `${getDomainUrl(locale)}${post.coverImage}`
 
   return {
     title: post.seo?.title || `${post.title} | ${dict.blog.title}`,
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: post.excerpt,
       type: 'article',
       url: canonicalUrl,
-      locale: getOGLocale(locale as SupportedLocale),
+      locale: getOGLocale(locale),
       images: [
         {
           url: ogImage,
@@ -110,8 +110,8 @@ export default async function BlogPostPage({ params }: PageProps) {
   ]
 
   // Schema.org Article
-  const articleSchema = generateArticleSchema(post, locale as SupportedLocale, dict.blog.author.name)
-  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale as SupportedLocale)
+  const articleSchema = generateArticleSchema(post, locale, dict.blog.author.name)
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale)
   const faqSchema = post.faq && post.faq.length > 0 ? generateFAQSchema(post.faq) : null
 
   // Format date based on locale
@@ -331,7 +331,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 </span>
                 <div className="flex gap-2">
                   <a
-                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(`${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/${slug}`)}&text=${encodeURIComponent(post.title)}`}
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(`${getDomainUrl(locale)}/${locale}/newsletter/${slug}`)}&text=${encodeURIComponent(post.title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 flex items-center justify-center bg-steel-100 hover:bg-[#1DA1F2] hover:text-white text-steel-600 rounded-full transition-colors"
@@ -342,7 +342,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                     </svg>
                   </a>
                   <a
-                    href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/${slug}`)}`}
+                    href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`${getDomainUrl(locale)}/${locale}/newsletter/${slug}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 flex items-center justify-center bg-steel-100 hover:bg-[#0A66C2] hover:text-white text-steel-600 rounded-full transition-colors"
@@ -353,7 +353,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                     </svg>
                   </a>
                   <a
-                    href={`https://wa.me/?text=${encodeURIComponent(`${post.title} - ${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/${slug}`)}`}
+                    href={`https://wa.me/?text=${encodeURIComponent(`${post.title} - ${getDomainUrl(locale)}/${locale}/newsletter/${slug}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 flex items-center justify-center bg-steel-100 hover:bg-[#25D366] hover:text-white text-steel-600 rounded-full transition-colors"

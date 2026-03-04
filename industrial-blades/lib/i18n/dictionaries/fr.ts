@@ -288,19 +288,44 @@ const fr = {
   // API Messages
   apiMessages: {
     rateLimited: 'Vous avez envoyé trop de demandes. Veuillez attendre une minute.',
+    invalidFormData: 'Données de formulaire invalides',
     successMessage: 'Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.',
     developmentMode: 'Votre message a été reçu (mode développement).',
     emailNotConfigured: 'Le service e-mail n\'est pas configuré.',
     genericError: 'Une erreur s\'est produite. Veuillez réessayer plus tard.',
   },
 
+  // FAQ Page
+  faq: {
+    badge: 'Centre d\'aide',
+    title: 'Questions fréquemment posées',
+    subtitle: 'Toutes les questions et réponses sur les lames industrielles',
+    needHelp: 'Vous n\'avez pas trouvé votre question ?',
+    needHelpDesc: 'Notre équipe d\'experts se fera un plaisir de vous aider.',
+    whatsapp: 'Discuter sur WhatsApp',
+    call: 'Appelez-nous',
+  },
+
   // Catalog
   catalog: {
     title: 'e-Catalogue',
     subtitle: 'Téléchargez notre catalogue numérique contenant tous nos produits',
+    heroTitle: 'Catalogues de Produits',
+    heroDesc: 'Consultez ou téléchargez nos catalogues PDF',
     download: 'Télécharger le Catalogue',
     view: 'Visualiser en Ligne',
     pdfViewer: 'Visionneuse PDF',
+    // Viewer (view/[slug]) labels
+    viewer: {
+      back: 'Retour',
+      copyCitation: 'Copier sans télécharger',
+      share: 'Partager',
+      citationCopied: 'Copié',
+      zoomIn: 'Agrandir',
+      zoomOut: 'Réduire',
+      zoomReset: 'Réinitialiser',
+      fullscreen: 'Plein écran',
+    },
   },
 
   // Quality

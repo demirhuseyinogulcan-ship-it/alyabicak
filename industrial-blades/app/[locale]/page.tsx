@@ -14,7 +14,7 @@ import TrustLogos from '@/components/TrustLogos';
 import { siteConfig } from '@/lib/config';
 import { getDictionary, type Locale } from '@/lib/i18n';
 import { generateMetadata as genMeta } from '@/lib/seo';
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains';
+import { getDomainUrl } from '@/lib/config/domains';
 
 interface HomePageProps {
   params: Promise<{ locale: Locale }>;
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
     description: dict.meta.description,
     locale,
     path: '',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}`,
+    url: `${getDomainUrl(locale)}/${locale}`,
   });
 }
 

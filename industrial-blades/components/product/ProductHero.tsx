@@ -206,7 +206,7 @@ export function ProductHero({ product }: ProductHeroProps) {
             <div className="mt-8 space-y-3">
               {/* Birincil CTA - Teklif İste */}
               <a
-                href={`mailto:${siteConfig.contact.email}?subject=${encodeURIComponent(t.productDetail.emailSubject.replace('{{code}}', product.code).replace('{{name}}', product.name))}&body=${encodeURIComponent(t.productDetail.emailBody.replace(/{{code}}/g, product.code).replace(/{{name}}/g, product.name))}`}
+                href={`mailto:${siteConfig.contact.email}?cc=${encodeURIComponent('satis3@alyatekstil.com')}&subject=${encodeURIComponent(t.productDetail.emailSubject.replace('{{code}}', product.code).replace('{{name}}', product.name))}&body=${encodeURIComponent(t.productDetail.emailBody.replace(/{{code}}/g, product.code).replace(/{{name}}/g, product.name))}`}
                 className="group flex items-center gap-4 w-full p-4 border-2 border-steel-900 rounded-lg hover:bg-steel-900 transition-all duration-200"
               >
                 <div className="flex items-center justify-center w-10 h-10 bg-steel-900 group-hover:bg-white rounded-lg transition-colors flex-shrink-0">

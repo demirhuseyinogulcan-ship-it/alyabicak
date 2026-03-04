@@ -18,51 +18,11 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import { contactFormSchema } from '@/lib/validations'
-import { i18nConfig, type Locale } from '@/lib/i18n/config'
+import { i18nConfig, isLocale, type Locale } from '@/lib/i18n/config'
+import { getDictionary } from '@/lib/i18n'
 
-// i18n API messages
-const apiMessages = {
-  tr: {
-    rateLimited: 'Çok fazla istek gönderdiniz. Lütfen bir dakika bekleyin.',
-    invalidFormData: 'Geçersiz form verisi',
-    successMessage: 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.',
-    developmentMode: 'Mesajınız alındı (development mode).',
-    emailNotConfigured: 'E-posta servisi yapılandırılmamış.',
-    genericError: 'Bir hata oluştu. Lütfen daha sonra tekrar deneyin.',
-  },
-  en: {
-    rateLimited: 'Too many requests. Please wait a minute.',
-    invalidFormData: 'Invalid form data',
-    successMessage: 'Your message has been sent successfully. We will get back to you shortly.',
-    developmentMode: 'Message received (development mode).',
-    emailNotConfigured: 'Email service not configured.',
-    genericError: 'An error occurred. Please try again later.',
-  },
-  ar: {
-    rateLimited: 'طلبات كثيرة جداً. يرجى الانتظار دقيقة.',
-    invalidFormData: 'بيانات النموذج غير صالحة',
-    successMessage: 'تم إرسال رسالتك بنجاح. سنعود إليك قريباً.',
-    developmentMode: 'تم استلام الرسالة (وضع التطوير).',
-    emailNotConfigured: 'خدمة البريد الإلكتروني غير مهيأة.',
-    genericError: 'حدث خطأ. يرجى المحاولة لاحقاً.',
-  },
-  ru: {
-    rateLimited: 'Слишком много запросов. Пожалуйста, подождите минуту.',
-    invalidFormData: 'Неверные данные формы',
-    successMessage: 'Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.',
-    developmentMode: 'Сообщение получено (режим разработки).',
-    emailNotConfigured: 'Служба электронной почты не настроена.',
-    genericError: 'Произошла ошибка. Пожалуйста, попробуйте позже.',
-  },
-  fr: {
-    rateLimited: 'Trop de requêtes. Veuillez patienter une minute.',
-    invalidFormData: 'Données de formulaire invalides',
-    successMessage: 'Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.',
-    developmentMode: 'Message reçu (mode développement).',
-    emailNotConfigured: 'Service de messagerie non configuré.',
-    genericError: 'Une erreur est survenue. Veuillez réessayer ultérieurement.',
-  },
-}
+// API messages are now loaded from the i18n dictionary system
+// See: lib/i18n/dictionaries/{locale}.ts → apiMessages section
 
 // Rate limiting için basit in-memory store
 const rateLimitStore = new Map<string, { count: number; timestamp: number }>()
@@ -90,8 +50,8 @@ function isRateLimited(ip: string): boolean {
 function getLocaleFromRequest(request: NextRequest): Locale {
   // 1. Cookie'den kontrol et
   const localeCookie = request.cookies.get('NEXT_LOCALE')?.value
-  if (localeCookie && i18nConfig.locales.includes(localeCookie as Locale)) {
-    return localeCookie as Locale
+  if (localeCookie && isLocale(localeCookie)) {
+    return localeCookie
   }
   
   // 2. Accept-Language header'dan kontrol et
@@ -100,17 +60,29 @@ function getLocaleFromRequest(request: NextRequest): Locale {
     const preferredLocale = acceptLanguage
       .split(',')
       .map((lang) => lang.split(';')[0].trim().substring(0, 2))
-      .find((lang) => i18nConfig.locales.includes(lang as Locale))
+      .find((lang): lang is Locale => isLocale(lang))
     
-    if (preferredLocale) return preferredLocale as Locale
+    if (preferredLocale) return preferredLocale
   }
   
   return i18nConfig.defaultLocale
 }
 
 export async function POST(request: NextRequest) {
+  // ─── FORM DEVRE DIŞI ───
+  // İletişim formu şu an aktif değil. E-posta servisi bağlandığında
+  // aşağıdaki kodu aktifleştir ve bu early-return'ü kaldır.
+  // Neden: Formspree/Resend olmadan endpoint açık bırakmak spam riskine
+  // ve Vercel serverless kaynak tüketimine yol açar.
   const locale = getLocaleFromRequest(request)
-  const t = apiMessages[locale]
+  const dict = await getDictionary(locale)
+  return NextResponse.json(
+    { success: true, message: dict.apiMessages.successMessage },
+    { status: 200 }
+  )
+
+  /* ─── AKTİFLEŞTİRME: Yukarıdaki return'ü sil, aşağıdaki bloğu uncomment et ───
+  const t = dict.apiMessages
   
   try {
     // Rate limiting kontrolü
@@ -200,6 +172,7 @@ export async function POST(request: NextRequest) {
       { status: 500 }
     )
   }
+  */
 }
 
 // OPTIONS - CORS preflight

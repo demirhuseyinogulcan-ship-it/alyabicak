@@ -127,12 +127,17 @@ export function getPhoneUrl(): string {
   return `tel:${siteConfig.contact.phoneRaw}`;
 }
 
+// CC adresi: Tüm mailto linklerinde info@ + satis3@ birlikte gider
+const CC_EMAIL = 'satis3@alyatekstil.com';
+
 export function getEmailUrl(subject?: string): string {
   const baseUrl = `mailto:${siteConfig.contact.email}`;
+  const params: string[] = [];
+  params.push(`cc=${encodeURIComponent(CC_EMAIL)}`);
   if (subject) {
-    return `${baseUrl}?subject=${encodeURIComponent(subject)}`;
+    params.push(`subject=${encodeURIComponent(subject)}`);
   }
-  return baseUrl;
+  return `${baseUrl}?${params.join('&')}`;
 }
 
 export function getGoogleMapsUrl(): string {

@@ -11,16 +11,16 @@ import Link from 'next/link'
 import { cookies } from 'next/headers'
 import { Home, Search } from 'lucide-react'
 import { Button } from '@/components/ui'
-import { i18nConfig, type Locale } from '@/lib/i18n/config'
+import { isLocale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 
 export default async function NotFound() {
   // Cookie'den locale oku, yoksa default kullan
   const cookieStore = await cookies()
   const localeCookie = cookieStore.get('NEXT_LOCALE')?.value
-  const locale = (localeCookie && i18nConfig.locales.includes(localeCookie as Locale)) 
-    ? localeCookie as Locale 
-    : i18nConfig.defaultLocale
+  const locale = (localeCookie && isLocale(localeCookie)) 
+    ? localeCookie 
+    : 'tr' as const
   
   const dict = await getDictionary(locale)
   const t = dict.notFoundPage

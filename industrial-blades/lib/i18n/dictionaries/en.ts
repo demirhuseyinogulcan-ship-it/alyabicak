@@ -287,19 +287,44 @@ const en = {
   // API Messages
   apiMessages: {
     rateLimited: 'Too many requests. Please wait a minute.',
+    invalidFormData: 'Invalid form data',
     successMessage: 'Your message has been sent successfully. We will get back to you shortly.',
     developmentMode: 'Message received (development mode).',
     emailNotConfigured: 'Email service not configured.',
     genericError: 'An error occurred. Please try again later.',
   },
 
+  // FAQ Page
+  faq: {
+    badge: 'Help Center',
+    title: 'Frequently Asked Questions',
+    subtitle: 'All the questions and answers about industrial blades',
+    needHelp: "Couldn't find your question?",
+    needHelpDesc: 'Our expert team is happy to help you.',
+    whatsapp: 'Chat on WhatsApp',
+    call: 'Call Us',
+  },
+
   // Catalog
   catalog: {
     title: 'e-Catalog',
     subtitle: 'Download our digital catalog featuring all our products',
+    heroTitle: 'Product Catalogs',
+    heroDesc: 'View or download our PDF catalogs',
     download: 'Download Catalog',
     view: 'View Online',
     pdfViewer: 'PDF Viewer',
+    // Viewer (view/[slug]) labels
+    viewer: {
+      back: 'Back to Catalog',
+      copyCitation: 'Copy Without Download',
+      share: 'Share',
+      citationCopied: 'Copied!',
+      zoomIn: 'Zoom In',
+      zoomOut: 'Zoom Out',
+      zoomReset: 'Reset',
+      fullscreen: 'Fullscreen',
+    },
   },
 
   // Quality

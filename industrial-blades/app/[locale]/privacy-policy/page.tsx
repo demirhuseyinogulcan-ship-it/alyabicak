@@ -3,7 +3,7 @@ import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
 import { siteConfig } from '@/lib/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 import { i18nConfig, Locale } from '@/lib/i18n/config'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: descriptions[locale] || descriptions.tr,
     locale,
     path: '/privacy-policy',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/privacy-policy`,
+    url: `${getDomainUrl(locale)}/${locale}/privacy-policy`,
   })
 }
 

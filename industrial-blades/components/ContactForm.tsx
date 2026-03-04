@@ -7,7 +7,7 @@
 
 import { useState, useCallback } from 'react'
 import { Send, CheckCircle, AlertCircle } from 'lucide-react'
-import { contactFormSchema, type ContactFormData, validateForm } from '@/lib/validations'
+import { createContactFormSchema, type ContactFormData, validateForm } from '@/lib/validations'
 import { Button } from '@/components/ui'
 import { useLocale } from '@/lib/i18n/client'
 import { trackContactFormSubmit } from '@/lib/analytics'
@@ -27,6 +27,9 @@ const initialFormData: ContactFormData = {
 export default function ContactForm() {
   const { locale, dictionary } = useLocale();
   const t = dictionary.contactForm;
+
+  // Locale-aware Zod schema
+  const contactFormSchema = createContactFormSchema(locale);
   
   const [formData, setFormData] = useState<ContactFormData>(initialFormData)
   const [errors, setErrors] = useState<FormErrors>({})

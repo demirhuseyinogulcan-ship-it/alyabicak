@@ -9,7 +9,7 @@ import { getDictionary, type Locale } from '@/lib/i18n'
 import { getFAQsGroupedByCategory, getCategoryNames, CATEGORY_ORDER, type FAQCategory } from '@/lib/data/faq'
 import { generateFAQSchema, generateBreadcrumbSchema } from '@/lib/seo'
 import { siteConfig, getWhatsAppUrl, getCanonicalUrl, getHreflangUrls } from '@/lib/config'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 import Link from 'next/link'
 
 interface PageProps {
@@ -70,79 +70,17 @@ export default async function FAQPage({ params }: PageProps) {
   
   const faqSchema = generateFAQSchema(allFaqs)
 
-  // BreadcrumbList Schema - Home → FAQ
-  const faqTitles: Record<Locale, string> = {
-    tr: 'Sıkça Sorulan Sorular',
-    en: 'FAQ',
-    ar: 'الأسئلة الشائعة',
-    ru: 'ЧаВо',
-    fr: 'FAQ',
-  }
-  const homeTitles: Record<Locale, string> = {
-    tr: 'Ana Sayfa',
-    en: 'Home',
-    ar: 'الرئيسية',
-    ru: 'Главная',
-    fr: 'Accueil',
-  }
+  // BreadcrumbList Schema - Home → FAQ (dict-based)
   const breadcrumbSchema = generateBreadcrumbSchema(
     [
-      { name: homeTitles[locale], url: `/${locale}` },
-      { name: faqTitles[locale] },
+      { name: dict.nav.home, url: `/${locale}` },
+      { name: dict.faq.title },
     ],
-    locale as SupportedLocale
+    locale
   )
 
-  // Page content by locale
-  const content = {
-    tr: {
-      badge: 'Yardım Merkezi',
-      title: 'Sıkça Sorulan Sorular',
-      subtitle: 'Endüstriyel bıçaklar hakkında merak edilen tüm sorular ve cevapları',
-      needHelp: 'Sorunuzu bulamadınız mı?',
-      needHelpDesc: 'Uzman ekibimiz size yardımcı olmaktan mutluluk duyar.',
-      whatsapp: 'WhatsApp ile Yazın',
-      call: 'Bizi Arayın',
-    },
-    en: {
-      badge: 'Help Center',
-      title: 'Frequently Asked Questions',
-      subtitle: 'All the questions and answers about industrial blades',
-      needHelp: "Couldn't find your question?",
-      needHelpDesc: 'Our expert team is happy to help you.',
-      whatsapp: 'Chat on WhatsApp',
-      call: 'Call Us',
-    },
-    ar: {
-      badge: 'مركز المساعدة',
-      title: 'الأسئلة الشائعة',
-      subtitle: 'جميع الأسئلة والأجوبة حول الشفرات الصناعية',
-      needHelp: 'لم تجد سؤالك؟',
-      needHelpDesc: 'فريقنا المتخصص سعيد بمساعدتك.',
-      whatsapp: 'تواصل عبر واتساب',
-      call: 'اتصل بنا',
-    },
-    ru: {
-      badge: 'Центр помощи',
-      title: 'Часто задаваемые вопросы',
-      subtitle: 'Все вопросы и ответы о промышленных лезвиях',
-      needHelp: 'Не нашли свой вопрос?',
-      needHelpDesc: 'Наша команда экспертов будет рада вам помочь.',
-      whatsapp: 'Написать в WhatsApp',
-      call: 'Позвоните нам',
-    },
-    fr: {
-      badge: 'Centre d\'aide',
-      title: 'Questions fréquemment posées',
-      subtitle: 'Toutes les questions et réponses sur les lames industrielles',
-      needHelp: 'Vous n\'avez pas trouvé votre question ?',
-      needHelpDesc: 'Notre équipe d\'experts se fera un plaisir de vous aider.',
-      whatsapp: 'Discuter sur WhatsApp',
-      call: 'Appelez-nous',
-    },
-  }
-  
-  const t = content[locale]
+  // Dict-based FAQ content (i18n Batch 1 migration)
+  const t = dict.faq
 
   return (
     <>

@@ -8,7 +8,7 @@ import { siteConfig, getWhatsAppUrl, getPhoneUrl, getEmailUrl, getGoogleMapsUrl 
 import { WhatsAppIcon } from '@/components/icons'
 import { PageHeader } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps) {
     description: dict.contact.subtitle,
     locale,
     path: '/contact',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/contact`,
+    url: `${getDomainUrl(locale)}/${locale}/contact`,
   })
 }
 
@@ -138,21 +138,21 @@ export default async function ContactPage({ params }: PageProps) {
     { name: dict.nav.home, url: `/${locale}` },
     { name: dict.contact.title },
   ]
-  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale as SupportedLocale)
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale)
 
   // Schema.org LocalBusiness — Contact sayfası SEO güçlendirme
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': `${getDomainUrl(locale as SupportedLocale)}/#organization`,
+    '@id': `${getDomainUrl(locale)}/#organization`,
     name: locale === 'tr' ? 'Alya Bıçak' : 'Alya Blade',
     legalName: 'Alya Tekstil Sanayi Ticaret Ltd. Şti.',
     description: dict.contact.subtitle,
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/contact`,
+    url: `${getDomainUrl(locale)}/${locale}/contact`,
     telephone: siteConfig.contact.phoneRaw,
     faxNumber: siteConfig.contact.fax,
     email: siteConfig.contact.email,
-    image: `${getDomainUrl(locale as SupportedLocale)}/images/logo-512.png`,
+    image: `${getDomainUrl(locale)}/images/logo-512.png`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: `${siteConfig.contact.address.line1}, ${siteConfig.contact.address.line2}`,

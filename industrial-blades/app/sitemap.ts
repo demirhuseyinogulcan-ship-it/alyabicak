@@ -14,7 +14,19 @@ import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/confi
  * - alyablade.com/sitemap.xml → Sadece /en/, /ar/, /ru/, /fr/ URL'leri
  * 
  * NOT: Ürünü olmayan alt kategoriler sitemap'e dahil edilmez (Soft 404 önleme)
+ * 
+ * lastModified Stratejisi:
+ * - Static sayfalar → sabit tarih (son büyük içerik güncellemesi)
+ * - Blog → post.updatedAt || post.publishedAt (gerçek tarih)
+ * - Ürünler/Kategoriler → sabit tarih (veri değiştiğinde commit'te güncellenir)
+ * 
+ * NOT: new Date() kullanmak her build'de tüm URL'leri "yeni" gösterir,
+ * Google crawl budget'ını israf eder ve lastModified güvenilirliğini düşürür.
  */
+
+// Son veri güncellemesi tarihi — veri dosyaları değiştiğinde bu tarihi güncelleyin
+const LAST_DATA_UPDATE = new Date('2026-03-04')
+const LAST_CONTENT_UPDATE = new Date('2026-03-04')
 
 // Generate URL for a specific locale
 function getLocalizedUrl(locale: Locale, path: string): string {
@@ -63,7 +75,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = locales.flatMap((locale) => 
     staticRoutes.map((route) => ({
       url: getLocalizedUrl(locale, route),
-      lastModified: new Date(),
+      lastModified: LAST_CONTENT_UPDATE,
       changeFrequency: 'weekly' as const,
       priority: route === '' ? 1 : 0.8,
       alternates: {
@@ -81,7 +93,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const path = `/categories/${category.slug}`
       return {
         url: getLocalizedUrl(locale, path),
-        lastModified: new Date(),
+        lastModified: LAST_DATA_UPDATE,
         changeFrequency: 'weekly' as const,
         priority: 0.7,
         alternates: {
@@ -101,7 +113,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const path = `/categories/${parentCategory?.slug}/${subcategory.slug}`
       return {
         url: getLocalizedUrl(locale, path),
-        lastModified: new Date(),
+        lastModified: LAST_DATA_UPDATE,
         changeFrequency: 'weekly' as const,
         priority: 0.6,
         alternates: {
@@ -129,7 +141,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       
       return {
         url: getLocalizedUrl(locale, path),
-        lastModified: new Date(),
+        lastModified: LAST_DATA_UPDATE,
         changeFrequency: 'monthly' as const,
         priority: 0.5,
         alternates: {
@@ -139,14 +151,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   )
 
-  // Blog yazıları (her dil için)
+  // Blog yazıları (her dil için) — gerçek tarihler kullanılır
   const blogSlugs = blogService.getAllSlugs()
   const blogRoutes = locales.flatMap((locale) =>
     blogSlugs.map((slug) => {
+      const post = blogService.getPostBySlug(slug, locale)
       const path = `/newsletter/${slug}`
       return {
         url: getLocalizedUrl(locale, path),
-        lastModified: new Date(),
+        lastModified: post?.updatedAt ? new Date(post.updatedAt) : post?.publishedAt ? new Date(post.publishedAt) : LAST_CONTENT_UPDATE,
         changeFrequency: 'monthly' as const,
         priority: 0.6,
         alternates: {

@@ -1,10 +1,10 @@
 /**
  * IndexNow API Integration
  * 
- * IndexNow, Bing ve Yandex'e URL'lerin anında indexlenmesini sağlar.
- * Google desteklemiyor, kendi crawl sistemini kullanıyor.
+ * IndexNow, Bing ve Yandex'e URL'lerin anÃ„Â±nda indexlenmesini saÃ„Å¸lar.
+ * Google desteklemiyor, kendi crawl sistemini kullanÃ„Â±yor.
  * 
- * Destekleyen arama motorları:
+ * Destekleyen arama motorlarÃ„Â±:
  * - Bing (Microsoft)
  * - Yandex (Russia)
  * - Seznam.cz (Czech Republic)
@@ -14,7 +14,7 @@
  */
 
 import { i18nConfig, type Locale } from '@/lib/i18n/config';
-import { getDomainHost, type SupportedLocale } from '@/lib/config/domains';
+import { getDomainHost } from '@/lib/config/domains';
 
 // IndexNow API endpoint'leri (herhangi birini kullanabilirsiniz)
 const INDEXNOW_ENDPOINTS = [
@@ -39,10 +39,10 @@ interface IndexNowResult {
 }
 
 /**
- * IndexNow API'ye URL listesi gönderir
+ * IndexNow API'ye URL listesi gÃƒÂ¶nderir
  * @param urls - Indexlenmesi istenen URL listesi
- * @param host - Domain adı (alyabicak.com veya alyablade.com)
- * @returns IndexNow API yanıtı
+ * @param host - Domain adÃ„Â± (alyabicak.com veya alyablade.com)
+ * @returns IndexNow API yanÃ„Â±tÃ„Â±
  */
 export async function submitToIndexNow(
   urls: string[],
@@ -81,7 +81,7 @@ export async function submitToIndexNow(
     urlList: validUrls,
   };
 
-  // İlk başarılı endpoint'i kullan
+  // Ã„Â°lk baÃ…Å¸arÃ„Â±lÃ„Â± endpoint'i kullan
   for (const endpoint of INDEXNOW_ENDPOINTS) {
     try {
       const response = await fetch(endpoint, {
@@ -118,14 +118,14 @@ export async function submitToIndexNow(
 }
 
 /**
- * Tüm site URL'lerini IndexNow'a gönderir
- * Build sonrası veya büyük içerik güncellemesinde kullanılır
+ * TÃƒÂ¼m site URL'lerini IndexNow'a gÃƒÂ¶nderir
+ * Build sonrasÃ„Â± veya bÃƒÂ¼yÃƒÂ¼k iÃƒÂ§erik gÃƒÂ¼ncellemesinde kullanÃ„Â±lÃ„Â±r
  */
 export async function submitAllUrlsToIndexNow(): Promise<IndexNowResult[]> {
   const results: IndexNowResult[] = [];
 
   for (const locale of i18nConfig.locales) {
-    const host = getDomainHost(locale as SupportedLocale);
+    const host = getDomainHost(locale);
     const baseUrl = `https://${host}/${locale}`;
 
     // Ana sayfalar
@@ -149,8 +149,8 @@ export async function submitAllUrlsToIndexNow(): Promise<IndexNowResult[]> {
 }
 
 /**
- * Belirli bir ürün URL'ini IndexNow'a gönderir
- * Yeni ürün eklendiğinde veya ürün güncellendiğinde kullanılır
+ * Belirli bir ÃƒÂ¼rÃƒÂ¼n URL'ini IndexNow'a gÃƒÂ¶nderir
+ * Yeni ÃƒÂ¼rÃƒÂ¼n eklendiÃ„Å¸inde veya ÃƒÂ¼rÃƒÂ¼n gÃƒÂ¼ncellendiÃ„Å¸inde kullanÃ„Â±lÃ„Â±r
  */
 export async function submitProductToIndexNow(
   productSlug: string
@@ -158,7 +158,7 @@ export async function submitProductToIndexNow(
   const results: IndexNowResult[] = [];
 
   for (const locale of i18nConfig.locales) {
-    const host = getDomainHost(locale as SupportedLocale);
+    const host = getDomainHost(locale);
     const productUrl = `https://${host}/${locale}/products/${productSlug}`;
 
     const result = await submitToIndexNow([productUrl], host);
@@ -169,7 +169,7 @@ export async function submitProductToIndexNow(
 }
 
 /**
- * Belirli bir kategori URL'ini IndexNow'a gönderir
+ * Belirli bir kategori URL'ini IndexNow'a gÃƒÂ¶nderir
  */
 export async function submitCategoryToIndexNow(
   categorySlug: string
@@ -177,7 +177,7 @@ export async function submitCategoryToIndexNow(
   const results: IndexNowResult[] = [];
 
   for (const locale of i18nConfig.locales) {
-    const host = getDomainHost(locale as SupportedLocale);
+    const host = getDomainHost(locale);
     const categoryUrl = `https://${host}/${locale}/categories/${categorySlug}`;
 
     const result = await submitToIndexNow([categoryUrl], host);

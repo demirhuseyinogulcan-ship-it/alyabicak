@@ -5,17 +5,17 @@
 
 import Link from 'next/link';
 import { Search, Home } from 'lucide-react';
-import { getDictionary, type Locale } from '@/lib/i18n';
-import { i18nConfig } from '@/lib/i18n/config';
+import { getDictionary } from '@/lib/i18n';
+import { isLocale } from '@/lib/i18n/config';
 import { cookies } from 'next/headers';
 
 export default async function ProductNotFound() {
   // Cookie'den locale oku
   const cookieStore = await cookies();
   const localeCookie = cookieStore.get('NEXT_LOCALE')?.value;
-  const locale = (localeCookie && i18nConfig.locales.includes(localeCookie as Locale)) 
-    ? localeCookie as Locale 
-    : i18nConfig.defaultLocale;
+  const locale = (localeCookie && isLocale(localeCookie)) 
+    ? localeCookie 
+    : 'tr' as const;
   
   const dict = await getDictionary(locale);
   const t = dict.productNotFound;

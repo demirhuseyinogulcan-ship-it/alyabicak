@@ -9,7 +9,7 @@ import { Button, Badge, PageHeader } from '@/components/ui'
 import { getWhatsAppUrl } from '@/lib/config'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import Link from 'next/link'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 import { getBrandName } from '@/lib/i18n/locale-utils'
 
 interface PageProps {
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps) {
     description: dict.about.subtitle,
     locale,
     path: '/about',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/about`,
+    url: `${getDomainUrl(locale)}/${locale}/about`,
   })
 }
 
@@ -240,7 +240,7 @@ export default async function AboutPage({ params }: PageProps) {
     { name: dict.nav.home, url: `/${locale}` },
     { name: dict.about.title },
   ]
-  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale as SupportedLocale)
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems, locale)
 
   return (
     <div className="min-h-screen">

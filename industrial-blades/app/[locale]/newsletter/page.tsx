@@ -10,7 +10,7 @@ import { BLOG_CATEGORIES } from '@/lib/types/blog'
 import { PageHeader } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import { getDateLocale } from '@/lib/i18n/locale-utils'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps) {
     description: dict.blog.subtitle,
     locale,
     path: '/newsletter',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter`,
+    url: `${getDomainUrl(locale)}/${locale}/newsletter`,
   })
 }
 

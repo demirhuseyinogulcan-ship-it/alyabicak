@@ -287,19 +287,44 @@ const tr = {
   // API Messages
   apiMessages: {
     rateLimited: 'Çok fazla istek gönderdiniz. Lütfen bir dakika bekleyin.',
+    invalidFormData: 'Geçersiz form verisi',
     successMessage: 'Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.',
     developmentMode: 'Mesajınız alındı (development mode).',
     emailNotConfigured: 'E-posta servisi yapılandırılmamış.',
     genericError: 'Bir hata oluştu. Lütfen daha sonra tekrar deneyin.',
   },
 
+  // FAQ Page
+  faq: {
+    badge: 'Yardım Merkezi',
+    title: 'Sıkça Sorulan Sorular',
+    subtitle: 'Endüstriyel bıçaklar hakkında merak edilen tüm sorular ve cevapları',
+    needHelp: 'Sorunuzu bulamadınız mı?',
+    needHelpDesc: 'Uzman ekibimiz size yardımcı olmaktan mutluluk duyar.',
+    whatsapp: 'WhatsApp ile Yazın',
+    call: 'Bizi Arayın',
+  },
+
   // Catalog
   catalog: {
     title: 'e-Katalog',
     subtitle: 'Tüm ürünlerimizi içeren dijital kataloğumuzu indirin',
+    heroTitle: 'Ürün Katalogları',
+    heroDesc: 'PDF kataloglarımızı görüntüleyin veya indirin',
     download: 'Kataloğu İndir',
     view: 'Online Görüntüle',
     pdfViewer: 'PDF Görüntüleyici',
+    // Viewer (view/[slug]) labels
+    viewer: {
+      back: 'Kataloğa Dön',
+      copyCitation: 'İndirmeden Kopyala',
+      share: 'Paylaş',
+      citationCopied: 'Kopyalandı!',
+      zoomIn: 'Yakınlaştır',
+      zoomOut: 'Uzaklaştır',
+      zoomReset: 'Sıfırla',
+      fullscreen: 'Tam Ekran',
+    },
   },
 
   // Quality

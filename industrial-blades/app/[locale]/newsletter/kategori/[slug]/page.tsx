@@ -11,7 +11,7 @@ import { BLOG_CATEGORIES } from '@/lib/types/blog'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { getDateLocale } from '@/lib/i18n/locale-utils'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
     params: Promise<{ locale: Locale; slug: string }>
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps) {
         description: category.description || dict.blog.subtitle,
         locale,
         path: `/newsletter/kategori/${slug}`,
-        url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/newsletter/kategori/${slug}`,
+        url: `${getDomainUrl(locale)}/${locale}/newsletter/kategori/${slug}`,
     })
 }
 

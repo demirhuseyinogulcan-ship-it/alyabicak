@@ -10,7 +10,7 @@ import { ArrowRight, Award, Shield, Globe, Factory } from 'lucide-react'
 import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
 import VideoBackground from '@/components/VideoBackground'
 import { i18nConfig, Locale } from '@/lib/i18n/config'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: descriptions[locale] || descriptions['en'] || descriptions['tr'],
     locale,
     path: '/quality-standards',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/quality-standards`,
+    url: `${getDomainUrl(locale)}/${locale}/quality-standards`,
   })
 }
 

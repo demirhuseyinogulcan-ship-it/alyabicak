@@ -31,6 +31,23 @@ export const i18nConfig = {
 
 export type Locale = (typeof i18nConfig.locales)[number];
 
+/**
+ * Runtime type guard — string'in geçerli bir Locale olup olmadığını kontrol eder.
+ * Kullanım: if (isLocale(value)) { // value artık Locale tipinde }
+ */
+export function isLocale(value: string): value is Locale {
+  return (i18nConfig.locales as readonly string[]).includes(value);
+}
+
+/**
+ * String → Locale dönüşümü (güvenli).
+ * Geçersiz değer gelirse defaultLocale ('tr') döner.
+ */
+export function ensureLocale(value: string | undefined | null): Locale {
+  if (value && isLocale(value)) return value;
+  return i18nConfig.defaultLocale as Locale;
+}
+
 // Default URL paths — tüm diller için aynı (international SEO consistency)
 // Belirli bir dil için farklı path gerekirse localePathOverrides'a ekleyin
 const defaultPaths: Record<string, string> = {

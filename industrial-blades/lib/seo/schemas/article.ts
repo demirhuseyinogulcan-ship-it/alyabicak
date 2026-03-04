@@ -7,19 +7,19 @@ import {
 
 /**
  * Locale-aware TechArticle dependencies
- * Yeni dil eklendiğinde buraya ekleyin — fallback EN'e düşer
+ * Yeni dil eklendiÄŸinde buraya ekleyin â€” fallback EN'e dÃ¼ÅŸer
  */
 const ARTICLE_DEPENDENCIES: Record<string, string> = {
-  tr: 'Endüstriyel üretim ve malzeme bilimi bilgisi',
+  tr: 'EndÃ¼striyel Ã¼retim ve malzeme bilimi bilgisi',
   en: 'Industrial manufacturing and material science knowledge',
-  ar: 'معرفة التصنيع الصناعي وعلوم المواد',
-  ru: 'Знания в области промышленного производства и материаловедения',
-  fr: 'Connaissances en fabrication industrielle et science des matériaux',
+  ar: 'Ù…Ø¹Ø±ÙØ© Ø§Ù„ØªØµÙ†ÙŠØ¹ Ø§Ù„ØµÙ†Ø§Ø¹ÙŠ ÙˆØ¹Ù„ÙˆÙ… Ø§Ù„Ù…ÙˆØ§Ø¯',
+  ru: 'Ğ—Ğ½Ğ°Ğ½Ğ¸Ñ Ğ² Ğ¾Ğ±Ğ»Ğ°ÑÑ‚Ğ¸ Ğ¿Ñ€Ğ¾Ğ¼Ñ‹ÑˆĞ»ĞµĞ½Ğ½Ğ¾Ğ³Ğ¾ Ğ¿Ñ€Ğ¾Ğ¸Ğ·Ğ²Ğ¾Ğ´ÑÑ‚Ğ²Ğ° Ğ¸ Ğ¼Ğ°Ñ‚ĞµÑ€Ğ¸Ğ°Ğ»Ğ¾Ğ²ĞµĞ´ĞµĞ½Ğ¸Ñ',
+  fr: 'Connaissances en fabrication industrielle et science des matÃ©riaux',
 }
 
 /**
- * Article Schema Generator - Blog/Bülten yazıları için
- * TechArticle kullanılıyor (endüstriyel teknik içerik)
+ * Article Schema Generator - Blog/BÃ¼lten yazÄ±larÄ± iÃ§in
+ * TechArticle kullanÄ±lÄ±yor (endÃ¼striyel teknik iÃ§erik)
  */
 export function generateArticleSchema(post: {
   title: string;

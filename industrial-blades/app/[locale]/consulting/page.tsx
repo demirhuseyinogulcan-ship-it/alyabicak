@@ -7,7 +7,7 @@ import { MessageCircle, CheckCircle, ArrowRight, Phone, FileText, Settings, Wren
 import { Button, PageHeader } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import { getWhatsAppUrl, siteConfig } from '@/lib/config'
-import { getDomainUrl, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl } from '@/lib/config/domains'
 
 interface PageProps {
   params: Promise<{ locale: Locale }>
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps) {
     description: dict.consulting.subtitle,
     locale,
     path: '/consulting',
-    url: `${getDomainUrl(locale as SupportedLocale)}/${locale}/consulting`,
+    url: `${getDomainUrl(locale)}/${locale}/consulting`,
   })
 }
 

@@ -5,7 +5,7 @@ import {
 } from '../../config/domains'
 
 /**
- * Breadcrumb Schema Generator - Dinamik breadcrumb için
+ * Breadcrumb Schema Generator - Dinamik breadcrumb iÃ§in
  */
 export function generateBreadcrumbSchema(
   items: Array<{ name: string; url?: string }>,

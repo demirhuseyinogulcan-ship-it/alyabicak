@@ -3,7 +3,7 @@ import { siteConfig } from '../../config'
 import { i18nConfig, type Locale } from '../../i18n/config'
 import {
   getDomainUrl,
-  type SupportedLocale
+
 } from '../../config/domains'
 
 // Locale to language name mapping
@@ -23,7 +23,7 @@ const languageNameMap: Record<string, string> = {
 
 export function generateOrganizationSchema(locale?: Locale) {
   const availableLanguages = i18nConfig.locales.map(l => languageNameMap[l] || l)
-  const domainUrl = locale ? getDomainUrl(locale as SupportedLocale) : siteConfig.url
+  const domainUrl = locale ? getDomainUrl(locale) : siteConfig.url
 
   return {
     '@context': 'https://schema.org',
@@ -63,15 +63,15 @@ export function generateOrganizationSchema(locale?: Locale) {
     ].filter(Boolean),
     parentOrganization: {
       '@type': 'Organization',
-      name: 'Alya Tekstil San. ve Tic. Ltd. Şti.',
+      name: 'Alya Tekstil San. ve Tic. Ltd. Ã…Âti.',
       url: 'https://www.alyatekstil.com',
-      description: 'Tekstil sektörüne yönelik Makine Yedek Parçaları ve Endüstriyel Kesiciler üreticisi',
+      description: 'Tekstil sektÃƒÂ¶rÃƒÂ¼ne yÃƒÂ¶nelik Makine Yedek ParÃƒÂ§alarÃ„Â± ve EndÃƒÂ¼striyel Kesiciler ÃƒÂ¼reticisi',
     },
   }
 }
 
 export function generateLocalBusinessSchema(locale?: Locale) {
-  const domainUrl = locale ? getDomainUrl(locale as SupportedLocale) : siteConfig.url
+  const domainUrl = locale ? getDomainUrl(locale) : siteConfig.url
 
   return {
     '@context': 'https://schema.org',

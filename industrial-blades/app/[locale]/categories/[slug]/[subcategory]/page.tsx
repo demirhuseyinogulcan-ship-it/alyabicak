@@ -11,7 +11,7 @@ import { ArrowRight, Package, Filter } from 'lucide-react'
 import { PageHeader } from '@/components/ui'
 import { i18nConfig, getDictionary, type Locale } from '@/lib/i18n'
 import { siteConfig } from '@/lib/config'
-import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
+import { getDomainUrl, getHreflangUrls } from '@/lib/config/domains'
 import { getBrandName } from '@/lib/i18n/locale-utils'
 
 interface PageProps {
@@ -62,7 +62,7 @@ export async function generateMetadata({ params }: PageProps) {
   // SEO keywords - önce subcategory'nin kendi seoKeywords'leri, sonra genel
   const baseKeywords = [subcategory.name.toLowerCase(), category.name.toLowerCase()]
   const seoKeywords = (subcategory as { seoKeywords?: string[] }).seoKeywords || []
-  const domainUrl = getDomainUrl(locale as SupportedLocale)
+  const domainUrl = getDomainUrl(locale)
   const pagePath = `/categories/${category.slug}/${subcategory.slug}`
 
   // Güçlü meta title: ürün adı + teknik sinyal + marka
@@ -122,7 +122,7 @@ export default async function SubcategoryPage({ params }: PageProps) {
 
   // Bu alt kategorideki ürünleri getir (çevrilmiş olarak)
   const products = productService.getSubcategoryCards(subcategory.id, locale)
-  const domainUrl = getDomainUrl(locale as SupportedLocale)
+  const domainUrl = getDomainUrl(locale)
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: dict.nav.home, url: `${domainUrl}/${locale}` },

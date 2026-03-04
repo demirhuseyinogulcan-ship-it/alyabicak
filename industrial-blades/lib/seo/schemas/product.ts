@@ -4,22 +4,22 @@ import { type Locale } from '../../i18n/config'
 import { BRAND_NAME, SCHEMA_LANGUAGE } from '../../i18n/locale-utils'
 import {
   getDomainUrl,
-  type SupportedLocale
+
 } from '../../config/domains'
 
 /**
  * Locale-aware schema property labels
- * Google Structured Data'da property isimleri locale'e göre değişmeli
+ * Google Structured Data'da property isimleri locale'e gÃƒÂ¶re deÃ„Å¸iÃ…Å¸meli
  */
 const SCHEMA_LABELS: Record<string, Record<string, string>> = {
   origin: {
-    tr: 'Menşei', en: 'Origin', ar: 'المنشأ', ru: 'Происхождение', fr: 'Origine',
+    tr: 'MenÃ…Å¸ei', en: 'Origin', ar: 'Ã˜Â§Ã™â€Ã™â€¦Ã™â€ Ã˜Â´Ã˜Â£', ru: 'ÄÅ¸Ã‘â‚¬ÄÂ¾ÄÂ¸Ã‘ÂÃ‘â€¦ÄÂ¾ÄÂ¶ÄÂ´ÄÂµÄÂ½ÄÂ¸ÄÂµ', fr: 'Origine',
   },
   qualityStandard: {
-    tr: 'Kalite Standardı', en: 'Quality Standard', ar: 'معيار الجودة', ru: 'Стандарт качества', fr: 'Norme de qualité',
+    tr: 'Kalite StandardÃ„Â±', en: 'Quality Standard', ar: 'Ã™â€¦Ã˜Â¹Ã™Å Ã˜Â§Ã˜Â± Ã˜Â§Ã™â€Ã˜Â¬Ã™Ë†Ã˜Â¯Ã˜Â©', ru: 'ÄÂ¡Ã‘â€šÄÂ°ÄÂ½ÄÂ´ÄÂ°Ã‘â‚¬Ã‘â€š ÄÂºÄÂ°Ã‘â€¡ÄÂµÃ‘ÂÃ‘â€šÄÂ²ÄÂ°', fr: 'Norme de qualitÃƒÂ©',
   },
   countryName: {
-    tr: 'İngiltere', en: 'England', ar: 'إنجلترا', ru: 'Англия', fr: 'Angleterre',
+    tr: 'Ã„Â°ngiltere', en: 'England', ar: 'Ã˜Â¥Ã™â€ Ã˜Â¬Ã™â€Ã˜ÂªÃ˜Â±Ã˜Â§', ru: 'ÄÂÄÂ½ÄÂ³ÄÂ»ÄÂ¸Ã‘Â', fr: 'Angleterre',
   },
 }
 
@@ -77,7 +77,7 @@ export interface ProductSchemaInput {
 }
 
 /**
- * Spec value'dan ölçü birimi bilgisi çıkar (GEO için)
+ * Spec value'dan ÃƒÂ¶lÃƒÂ§ÃƒÂ¼ birimi bilgisi ÃƒÂ§Ã„Â±kar (GEO iÃƒÂ§in)
  */
 function extractUnitInfo(value: string): { unitCode?: string; unitText?: string } {
   const v = value.toLowerCase()
@@ -85,12 +85,12 @@ function extractUnitInfo(value: string): { unitCode?: string; unitText?: string 
   if (v.includes('hv') || v.includes('vickers')) return { unitCode: 'HV', unitText: 'Vickers Hardness' }
   if (v.includes('hra')) return { unitCode: 'HRA', unitText: 'Rockwell A' }
   if (/\d+\.?\d*\s*mm\b/i.test(value)) return { unitCode: 'MMT', unitText: 'mm' }
-  if (/\d+\.?\d*\s*g\b/i.test(value) && !v.includes('°')) return { unitCode: 'GRM', unitText: 'g' }
+  if (/\d+\.?\d*\s*g\b/i.test(value) && !v.includes('Ã‚Â°')) return { unitCode: 'GRM', unitText: 'g' }
   if (/\d+\.?\d*\s*kg\b/i.test(value)) return { unitCode: 'KGM', unitText: 'kg' }
-  if (/\d+°/.test(value)) return { unitCode: 'DD', unitText: 'degrees' }
-  if (/\d+\s*°?\s*C\b/.test(value) && v.includes('°')) return { unitCode: 'CEL', unitText: '°C' }
+  if (/\d+Ã‚Â°/.test(value)) return { unitCode: 'DD', unitText: 'degrees' }
+  if (/\d+\s*Ã‚Â°?\s*C\b/.test(value) && v.includes('Ã‚Â°')) return { unitCode: 'CEL', unitText: 'Ã‚Â°C' }
   if (/%/.test(value)) return { unitCode: 'P1', unitText: 'percent' }
-  if (/\d+\.?\d*\s*("|inch|inç)/i.test(value)) return { unitCode: 'INH', unitText: 'inch' }
+  if (/\d+\.?\d*\s*("|inch|inÃƒÂ§)/i.test(value)) return { unitCode: 'INH', unitText: 'inch' }
   return {}
 }
 
@@ -103,14 +103,14 @@ function getCountryCode(country?: string): string {
     'England': 'GB', 'UK': 'GB', 'United Kingdom': 'GB', 'Great Britain': 'GB',
     'USA': 'US', 'United States': 'US', 'ABD': 'US',
     'Germany': 'DE', 'Almanya': 'DE',
-    'Turkey': 'TR', 'Türkiye': 'TR',
+    'Turkey': 'TR', 'TÃƒÂ¼rkiye': 'TR',
     'Japan': 'JP', 'Japonya': 'JP',
   }
   return map[country] || 'GB'
 }
 
 export function generateEnhancedProductSchema(product: ProductSchemaInput) {
-  const domain = getDomainUrl(product.locale as SupportedLocale)
+  const domain = getDomainUrl(product.locale)
   const productUrl = `${domain}/${product.locale}/products/${product.slug}`
 
   const specProperties = (product.specs || []).map(spec => {
@@ -191,7 +191,7 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
 
     ...(product.category && { category: product.category }),
 
-    // Language signal — Google needs this to associate schema with correct locale
+    // Language signal Ã¢â‚¬â€ Google needs this to associate schema with correct locale
     inLanguage: SCHEMA_LANGUAGE[product.locale] || SCHEMA_LANGUAGE.en || product.locale,
 
     additionalProperty: [
