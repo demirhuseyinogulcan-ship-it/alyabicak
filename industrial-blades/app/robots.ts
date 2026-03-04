@@ -14,7 +14,7 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/admin/'],
+        disallow: ['/api/', '/admin/', '/tools/'],
       },
       // AI Crawlers - llms.txt dosyasına yönlendir
       {
