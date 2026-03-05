@@ -343,6 +343,11 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Kesik Elyaf Bıçağı Kenar Tipleri
     'Çentikli': 'Çentikli',
     'Düz (Çentiksiz)': 'Düz (Çentiksiz)',
+
+    // B581 Cam Elyaf Bıçağı Değerleri
+    'Tungsten Karbür Alaşımlı Çelik': 'Tungsten Karbür Alaşımlı Çelik',
+    '30° Çift Taraflı': '30° Çift Taraflı',
+    '25 adet / deste': '25 adet / deste',
   },
 
   // =============================================================================
@@ -678,6 +683,11 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Chopped Fiber Blade Edge Types
     'Çentikli': 'Notched',
     'Düz (Çentiksiz)': 'Plain (No Notches)',
+
+    // B581 Fiberglass Chopper Blade Values
+    'Tungsten Karbür Alaşımlı Çelik': 'Tungsten Carbide Tipped Steel',
+    '30° Çift Taraflı': '30° Double Bevel',
+    '25 adet / deste': '25 pcs / bundle',
   },
 
   // =============================================================================
@@ -978,6 +988,11 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // أنواع حافة شفرات الألياف
     'Çentikli': 'مسننة',
     'Düz (Çentiksiz)': 'ملساء (بدون تسنين)',
+
+    // قيم شفرة تقطيع الألياف الزجاجية B581
+    'Tungsten Karbür Alaşımlı Çelik': 'فولاذ بسبيكة كربيد التنغستن',
+    '30° Çift Taraflı': '30° شحذ مزدوج',
+    '25 adet / deste': '25 قطعة / حزمة',
   },
 
   // =============================================================================
@@ -1313,6 +1328,11 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Types d'arêtes des lames pour fibres
     'Çentikli': 'Dentelée',
     'Düz (Çentiksiz)': 'Lisse (Sans denture)',
+
+    // Valeurs B581 Lame Hachoir Fibre de Verre
+    'Tungsten Karbür Alaşımlı Çelik': 'Acier à Pointe Carbure de Tungstène',
+    '30° Çift Taraflı': '30° Double Biseau',
+    '25 adet / deste': '25 pcs / lot',
   },
 
   // =============================================================================
@@ -1648,6 +1668,11 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Типы кромки лезвий для волокна
     'Çentikli': 'Зубчатое',
     'Düz (Çentiksiz)': 'Гладкое (Без зубцов)',
+
+    // Значения B581 Лезвие для рубки стекловолокна
+    'Tungsten Karbür Alaşımlı Çelik': 'Сталь с напайкой из карбида вольфрама',
+    '30° Çift Taraflı': '30° Двусторонняя заточка',
+    '25 adet / deste': '25 шт / пачка',
   },
 };
 

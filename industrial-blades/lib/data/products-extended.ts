@@ -1545,7 +1545,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Sertlik', value: 'HRC 68-72', icon: 'Shield', highlight: true },
       { label: 'Boyutlar', value: '120 × 7.94 × 0.71 mm', icon: 'Ruler' },
       { label: 'Bileme Açısı', value: '30° Çift Taraflı', icon: 'Triangle' },
-      { label: 'Kaplama', value: 'Tungsten Karbür', icon: 'Sparkles' },
       { label: 'Ambalaj', value: '25 adet / deste', icon: 'Package' },
     ],
 
