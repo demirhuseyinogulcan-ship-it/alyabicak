@@ -1617,6 +1617,137 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     order: 10,
   },
 
+  // --- DAİRESEL JİLETLER (CIRCULAR / ROTARY BLADES) ---
+  {
+    id: 'b657',
+    slug: 'b657-dairesel-jilet-olfa-uyumlu',
+    slugEN: 'b657-circular-rotary-blade-olfa-compatible',
+    code: 'B657',
+    name: 'B657 – Dairesel Jiletler (Rotary Blade)',
+    subtitle: 'OLFA Uyumlu — 18mm / 28mm / 45mm / 60mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'circular-blades',
+    tags: ['dairesel jilet', 'rotary blade', 'OLFA', 'circular blade', 'rotary cutter', 'tekstil kesim', 'deri kesim', 'kumaş kesim'],
+
+    shortDescription: 'OLFA uyumlu B657 serisi dairesel jiletler. 18mm, 28mm, 45mm ve 60mm çaplarda paslanmaz ve karbonlu çelik seçenekleri. Tekstil, deri, kağıt ve hobi kesim uygulamaları için yüksek kaliteli rotary blade.',
+
+    longDescription: `
+<p>B657 serisi dairesel jiletler (rotary blade), <strong>OLFA rotary cutter</strong> makineleriyle tam uyumlu olarak üretilmiş profesyonel kesici bıçaklardır. Yüksek karbonlu çelik ve paslanmaz çelik seçenekleriyle farklı kesim ihtiyaçlarına çözüm sunar.</p>
+
+<h3>Model Seçenekleri</h3>
+<ul>
+  <li><strong>RB18-2 (18mm, Paslanmaz):</strong> Altıgen delikli, hassas detay kesimi için ideal. Paslanmaz çelikten üretilmiştir.</li>
+  <li><strong>RB28-10 (28mm):</strong> 3 çentikli montaj yapısı, orta boy kesim işleri için uygundur.</li>
+  <li><strong>RB45-10 (45mm):</strong> 3 çentikli, en yaygın kullanılan rotary blade çapı. Kumaş ve deri kesiminde standart seçim.</li>
+  <li><strong>RB60-1 (60mm):</strong> 3 çentikli, büyük çaplı kesimler ve kalın malzemeler için tasarlanmıştır.</li>
+  <li><strong>PRB18-2 (18mm, Perfore, Paslanmaz):</strong> 8 perfore kanallı, delikli kesim hattı oluşturmak için özel tasarım. Paslanmaz çelikten üretilmiştir.</li>
+</ul>
+
+<h3>Kullanım Alanları</h3>
+<p>Tekstil ve konfeksiyon atölyelerinde kumaş kesimi, deri işleme sektöründe hassas kesim, kağıt ve karton üzerinde düzgün hat kesimi, patchwork ve quilt gibi hobi uygulamalarında yaygın şekilde tercih edilmektedir.</p>
+
+<h3>Teknik Özellikler</h3>
+<p>RB18 ve PRB18 modelleri paslanmaz çelikten üretilmiş olup nem ve korozyona karşı dayanıklıdır. RB28, RB45 ve RB60 modelleri yüksek karbonlu çelikten üretilmiş olup üstün kesim performansı sunar. Tüm modeller OLFA rotary cutter saplara doğrudan takılabilir.</p>`,
+
+    images: {
+      main: {
+        src: '/images/products/b657-dairesel-jilet.jpg',
+        alt: 'B657 Dairesel Jilet - OLFA Uyumlu Rotary Blade',
+        width: 800,
+        height: 800,
+      },
+      gallery: [
+        { src: '/images/products/b657-dairesel-jilet.jpg', alt: 'B657 Dairesel Jilet Serisi - Genel Görünüm', width: 800, height: 800 },
+      ],
+      thumbnail: {
+        src: '/images/products/b657-dairesel-jilet.jpg',
+        alt: 'B657 Dairesel Jilet',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik / Paslanmaz Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield', highlight: true },
+      { label: 'Çap', value: '18mm / 28mm / 45mm / 60mm', icon: 'Circle' },
+      { label: 'Kalınlık', value: '0.30mm – 0.35mm', icon: 'Ruler' },
+      { label: 'Uyumluluk', value: 'OLFA Rotary Cutter', icon: 'Settings' },
+      { label: 'Delik', value: 'Altıgen / 3 Çentik', icon: 'Target' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'England',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Tekstil Kesimi', icon: 'Scissors', description: 'Kumaş, tül, brode ve her türlü tekstil malzemesinin hassas dairesel kesimi' },
+      { title: 'Deri İşleme', icon: 'Layers', description: 'Doğal ve suni deri kesim işlemlerinde temiz ve pürüzsüz hat' },
+      { title: 'Kağıt ve Karton', icon: 'FileText', description: 'Kağıt, karton ve mukavva üzerinde düzgün kesim hattı' },
+      { title: 'Hobi ve El Sanatları', icon: 'Heart', description: 'Patchwork, quilt, scrapbooking ve model yapım uygulamaları' },
+    ],
+
+    benefits: [
+      {
+        title: 'OLFA Tam Uyumluluk',
+        description: 'OLFA rotary cutter saplara doğrudan takılabilir, ek adaptör gerektirmez',
+        icon: 'CheckCircle',
+      },
+      {
+        title: 'Geniş Çap Yelpazesi',
+        description: '18mm detay kesimden 60mm büyük çaplı kesimlere kadar 4 farklı boyut seçeneği',
+        icon: 'Maximize',
+      },
+      {
+        title: 'Malzeme Seçenekleri',
+        description: 'Paslanmaz çelik ve yüksek karbonlu çelik seçenekleriyle her uygulamaya uygun çözüm',
+        icon: 'Layers',
+      },
+      {
+        title: 'Perfore Kesim Seçeneği',
+        description: 'PRB18 modeli ile 8 perfore kanallı delikli kesim hattı oluşturma imkanı',
+        icon: 'MoreHorizontal',
+      },
+    ],
+
+    features: [
+      'OLFA rotary cutter makineleriyle tam uyumlu',
+      'Paslanmaz çelik modeller (RB18, PRB18) — korozyona dayanıklı',
+      'Yüksek karbonlu çelik modeller (RB28, RB45, RB60) — üstün keskinlik',
+      '18mm, 28mm, 45mm ve 60mm çap seçenekleri',
+      'Altıgen delikli ve 3 çentikli montaj seçenekleri',
+      'PRB18: 8 perfore kanallı özel kesim modeli',
+      'HRC 58-62 sertlik değeri',
+    ],
+
+    availableSizes: [
+      '18 × 7/5 × 0.30 mm (RB18)',
+      '28 × 7/5 × 0.30 mm (RB28)',
+      '45 × 10.2/8.3 × 0.30 mm (RB45)',
+      '60 × 13/10 × 0.35 mm (RB60)',
+      '18 × 7/5 × 0.30 mm (PRB18 Perfore)',
+    ],
+
+    certifications: ['ISO 9001:2015'],
+
+    relatedProductIds: [],
+
+    seo: {
+      title: 'B657 Dairesel Jilet OLFA Uyumlu | 18-28-45-60mm Rotary Blade | Alya Bıçak',
+      description: 'OLFA uyumlu B657 dairesel jiletler. 18mm, 28mm, 45mm, 60mm çaplarda paslanmaz ve karbonlu çelik rotary blade. Tekstil, deri, kağıt kesimi için profesyonel kalite.',
+      keywords: ['dairesel jilet', 'rotary blade', 'OLFA uyumlu jilet', 'OLFA bıçak', 'circular blade', 'kumaş kesim bıçağı', 'deri kesim jilet', 'RB45', 'RB28', 'RB60', 'RB18', 'PRB18', 'B657'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 12,
+  },
+
   // --- MAKİNA BIÇAKLARI: TERMOFORM / VAKUM PAKETLEME ---
   // 9 ürün: kontör, yarım yıldız, tam yıldız, düz/lama, dairesel, yuvarlak zımba, oval zımba, dişli, genel VPB-001
 

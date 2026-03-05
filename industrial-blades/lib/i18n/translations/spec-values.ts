@@ -348,6 +348,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Tungsten Karbür Alaşımlı Çelik': 'Tungsten Karbür Alaşımlı Çelik',
     '30° Çift Taraflı': '30° Çift Taraflı',
     '25 adet / deste': '25 adet / deste',
+
+    // B657 Dairesel Jilet Değerleri
+    'Yüksek Karbonlu Çelik / Paslanmaz Çelik': 'Yüksek Karbonlu Çelik / Paslanmaz Çelik',
+    '18mm / 28mm / 45mm / 60mm': '18mm / 28mm / 45mm / 60mm',
+    '0.30mm – 0.35mm': '0.30mm – 0.35mm',
+    'OLFA Rotary Cutter': 'OLFA Rotary Cutter',
+    'Altıgen / 3 Çentik': 'Altıgen / 3 Çentik',
   },
 
   // =============================================================================
@@ -688,6 +695,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Tungsten Karbür Alaşımlı Çelik': 'Tungsten Carbide Tipped Steel',
     '30° Çift Taraflı': '30° Double Bevel',
     '25 adet / deste': '25 pcs / bundle',
+
+    // B657 Circular Rotary Blade Values
+    'Yüksek Karbonlu Çelik / Paslanmaz Çelik': 'High Carbon Steel / Stainless Steel',
+    '18mm / 28mm / 45mm / 60mm': '18mm / 28mm / 45mm / 60mm',
+    '0.30mm – 0.35mm': '0.30mm – 0.35mm',
+    'OLFA Rotary Cutter': 'OLFA Rotary Cutter',
+    'Altıgen / 3 Çentik': 'Hex Hole / 3 Notches',
   },
 
   // =============================================================================
@@ -993,6 +1007,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Tungsten Karbür Alaşımlı Çelik': 'فولاذ بسبيكة كربيد التنغستن',
     '30° Çift Taraflı': '30° شحذ مزدوج',
     '25 adet / deste': '25 قطعة / حزمة',
+
+    // قيم شفرات B657 الدائرية الدوارة
+    'Yüksek Karbonlu Çelik / Paslanmaz Çelik': 'فولاذ عالي الكربون / فولاذ مقاوم للصدأ',
+    '18mm / 28mm / 45mm / 60mm': '18 مم / 28 مم / 45 مم / 60 مم',
+    '0.30mm – 0.35mm': '0.30 مم – 0.35 مم',
+    'OLFA Rotary Cutter': 'قاطع OLFA الدوار',
+    'Altıgen / 3 Çentik': 'فتحة سداسية / 3 شقوق',
   },
 
   // =============================================================================
@@ -1333,6 +1354,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Tungsten Karbür Alaşımlı Çelik': 'Acier à Pointe Carbure de Tungstène',
     '30° Çift Taraflı': '30° Double Biseau',
     '25 adet / deste': '25 pcs / lot',
+
+    // Valeurs B657 Lames Circulaires Rotatives
+    'Yüksek Karbonlu Çelik / Paslanmaz Çelik': 'Acier à Haute Teneur en Carbone / Acier Inoxydable',
+    '18mm / 28mm / 45mm / 60mm': '18 mm / 28 mm / 45 mm / 60 mm',
+    '0.30mm – 0.35mm': '0,30 mm – 0,35 mm',
+    'OLFA Rotary Cutter': 'Cutter Rotatif OLFA',
+    'Altıgen / 3 Çentik': 'Trou Hexagonal / 3 Encoches',
   },
 
   // =============================================================================
@@ -1673,6 +1701,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Tungsten Karbür Alaşımlı Çelik': 'Сталь с напайкой из карбида вольфрама',
     '30° Çift Taraflı': '30° Двусторонняя заточка',
     '25 adet / deste': '25 шт / пачка',
+
+    // Значения B657 Круговые дисковые лезвия
+    'Yüksek Karbonlu Çelik / Paslanmaz Çelik': 'Высокоуглеродистая сталь / Нержавеющая сталь',
+    '18mm / 28mm / 45mm / 60mm': '18 мм / 28 мм / 45 мм / 60 мм',
+    '0.30mm – 0.35mm': '0,30 мм – 0,35 мм',
+    'OLFA Rotary Cutter': 'Роторный резак OLFA',
+    'Altıgen / 3 Çentik': 'Шестигранное отверстие / 3 паза',
   },
 };
 

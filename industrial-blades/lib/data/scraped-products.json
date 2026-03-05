@@ -3962,35 +3962,80 @@
   },
   {
     "id": "b657",
-    "slug": "b657-b657",
+    "slug": "b657-dairesel-jilet-olfa-uyumlu",
+    "slugEN": "b657-circular-rotary-blade-olfa-compatible",
     "code": "B657",
-    "name": "B657 - B657",
-    "description": "B657. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B657 – Dairesel Jiletler (Rotary Blade) – OLFA Uyumlu",
+    "description": "OLFA uyumlu B657 serisi dairesel jiletler. 18mm, 28mm, 45mm ve 60mm çaplarda paslanmaz ve karbonlu çelik seçenekleri. Tekstil, deri, kağıt ve hobi kesim uygulamaları için yüksek kaliteli rotary blade.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
-    "image": "/images/products/b657-b657.jpg",
+    "subcategoryId": "circular-blades",
+    "image": "/images/products/b657-dairesel-jilet.jpg",
     "variants": [
       {
-        "id": "b657-b657-standard",
-        "sku": "B657",
+        "id": "b657-rb18",
+        "sku": "B657-RB18",
+        "name": "OLFA RB18-2 (18mm Paslanmaz)",
+        "size": "18×7/5×0.30mm",
+        "inStock": true
+      },
+      {
+        "id": "b657-rb28",
+        "sku": "B657-RB28",
+        "name": "OLFA RB28-10 (28mm)",
+        "size": "28×7/5×0.30mm",
+        "inStock": true
+      },
+      {
+        "id": "b657-rb45",
+        "sku": "B657-RB45",
+        "name": "OLFA RB45-10 (45mm)",
+        "size": "45×10.2/8.3×0.30mm",
+        "inStock": true
+      },
+      {
+        "id": "b657-rb60",
+        "sku": "B657-RB60",
+        "name": "OLFA RB60-1 (60mm)",
+        "size": "60×13/10×0.35mm",
+        "inStock": true
+      },
+      {
+        "id": "b657-prb18",
+        "sku": "B657-PRB18",
+        "name": "OLFA PRB18-2 (18mm Perfore, Paslanmaz)",
+        "size": "18×7/5×0.30mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yüksek Karbonlu Çelik / Paslanmaz Çelik",
+      "hardness": "HRC 58-62",
+      "diameter": "18mm / 28mm / 45mm / 60mm",
+      "thickness": "0.30mm – 0.35mm",
+      "compatibility": "OLFA Rotary Cutter"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "OLFA rotary cutter tam uyumlu",
+      "Paslanmaz ve karbonlu çelik seçenekleri",
+      "18mm, 28mm, 45mm, 60mm çap seçenekleri",
+      "Perfore kanal seçenekli model mevcut",
+      "Hassas dairesel kesim"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Tekstil ve kumaş kesimi",
+      "Deri kesim işlemleri",
+      "Kağıt ve karton kesimi",
+      "Hobi ve el sanatları"
     ],
-    "isFeatured": false,
-    "isActive": false,
-    "order": 152
+    "availableSizes": [
+      "18×7/5×0.30mm",
+      "28×7/5×0.30mm",
+      "45×10.2/8.3×0.30mm",
+      "60×13/10×0.35mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 12
   },
   {
     "id": "2cs1",
