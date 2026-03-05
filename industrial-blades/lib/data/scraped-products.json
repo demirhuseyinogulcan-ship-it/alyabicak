@@ -4039,35 +4039,63 @@
   },
   {
     "id": "2cs1",
-    "slug": "2cs1-2cs1",
+    "slug": "2cs1-besgen-bicak-tungsten-seramik",
+    "slugEN": "2cs1-pentagon-blade-tungsten-ceramic",
     "code": "2CS1",
-    "name": "2CS1 - 2CS1",
-    "description": "2CS1. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "2CS1 – Beşgen Bıçak (Pentagon Blade) – Tungsten & Seramik",
+    "description": "Yekpare tungsten karbür ve seramik seçenekli 2CS1 beşgen bıçaklar, 66/63/40×0.54mm. Çuval, bigbag ve PP dokuma kesim hatları için özel geometrili endüstriyel kesim bıçağı.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
-    "image": "/images/products/2cs1-2cs1.jpg",
+    "subcategoryId": "pentagon-blades",
+    "image": "/images/products/2cs1-besgen-bicak.jpg",
     "variants": [
       {
-        "id": "2cs1-2cs1-standard",
-        "sku": "2CS1",
+        "id": "2cs1-tungsten",
+        "sku": "2CS1-TC",
+        "name": "Yekpare Tungsten Karbür",
+        "size": "66/63/40×0.54mm",
+        "inStock": true
+      },
+      {
+        "id": "2cs1-seramik-beyaz",
+        "sku": "2CS1-CW",
+        "name": "Yekpare Seramik – Beyaz",
+        "size": "66/63/40×0.54mm",
+        "inStock": true
+      },
+      {
+        "id": "2cs1-seramik-gri",
+        "sku": "2CS1-CG",
+        "name": "Yekpare Seramik – Gri",
+        "size": "66/63/40×0.54mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yekpare Tungsten Karbür / Yekpare Seramik",
+      "hardness": "HRC 90+ (Tungsten) / HV 1600+ (Seramik)",
+      "dimensions": "66/63/40×0.54mm",
+      "holes": "2×4mm Delik",
+      "geometry": "Beşgen (Pentagon)"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Beşgen (pentagon) özel geometri",
+      "Yekpare tungsten karbür seçeneği",
+      "Yekpare seramik seçeneği (beyaz ve gri)",
+      "2×4mm montaj delikleri",
+      "Çuval ve bigbag üretim hatlarına özel"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Çuval kesim hatları",
+      "Bigbag (FIBC) üretim hatları",
+      "PP dokuma kumaş kesimi",
+      "Ambalaj sektörü endüstriyel kesim"
     ],
-    "isFeatured": false,
-    "isActive": false,
-    "order": 153
+    "availableSizes": [
+      "66/63/40×0.54mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 13
   },
   {
     "id": "b084075",

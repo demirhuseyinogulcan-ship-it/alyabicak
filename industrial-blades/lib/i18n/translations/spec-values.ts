@@ -355,6 +355,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.30mm – 0.35mm': '0.30mm – 0.35mm',
     'OLFA Rotary Cutter': 'OLFA Rotary Cutter',
     'Altıgen / 3 Çentik': 'Altıgen / 3 Çentik',
+
+    // 2CS1 Beşgen Bıçak Değerleri
+    'Yekpare Tungsten Karbür / Yekpare Seramik': 'Yekpare Tungsten Karbür / Yekpare Seramik',
+    'HRC 90+ (Tungsten) / HV 1600+ (Seramik)': 'HRC 90+ (Tungsten) / HV 1600+ (Seramik)',
+    '66/63/40 × 0.54 mm': '66/63/40 × 0.54 mm',
+    '2 × 4 mm': '2 × 4 mm',
+    'Beşgen (Pentagon)': 'Beşgen (Pentagon)',
   },
 
   // =============================================================================
@@ -702,6 +709,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.30mm – 0.35mm': '0.30mm – 0.35mm',
     'OLFA Rotary Cutter': 'OLFA Rotary Cutter',
     'Altıgen / 3 Çentik': 'Hex Hole / 3 Notches',
+
+    // 2CS1 Pentagon Blade Values
+    'Yekpare Tungsten Karbür / Yekpare Seramik': 'Solid Tungsten Carbide / Solid Ceramic',
+    'HRC 90+ (Tungsten) / HV 1600+ (Seramik)': 'HRC 90+ (Tungsten) / HV 1600+ (Ceramic)',
+    '66/63/40 × 0.54 mm': '66/63/40 × 0.54 mm',
+    '2 × 4 mm': '2 × 4 mm',
+    'Beşgen (Pentagon)': 'Pentagon',
   },
 
   // =============================================================================
@@ -1014,6 +1028,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.30mm – 0.35mm': '0.30 مم – 0.35 مم',
     'OLFA Rotary Cutter': 'قاطع OLFA الدوار',
     'Altıgen / 3 Çentik': 'فتحة سداسية / 3 شقوق',
+
+    // قيم شفرة 2CS1 الخماسية
+    'Yekpare Tungsten Karbür / Yekpare Seramik': 'كربيد تنغستن صلب / سيراميك صلب',
+    'HRC 90+ (Tungsten) / HV 1600+ (Seramik)': 'HRC 90+ (تنغستن) / HV 1600+ (سيراميك)',
+    '66/63/40 × 0.54 mm': '66/63/40 × 0.54 مم',
+    '2 × 4 mm': '2 × 4 مم',
+    'Beşgen (Pentagon)': 'خماسي الأضلاع',
   },
 
   // =============================================================================
@@ -1361,6 +1382,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.30mm – 0.35mm': '0,30 mm – 0,35 mm',
     'OLFA Rotary Cutter': 'Cutter Rotatif OLFA',
     'Altıgen / 3 Çentik': 'Trou Hexagonal / 3 Encoches',
+
+    // Valeurs 2CS1 Lame Pentagonale
+    'Yekpare Tungsten Karbür / Yekpare Seramik': 'Carbure de Tungstène Monobloc / Céramique Monobloc',
+    'HRC 90+ (Tungsten) / HV 1600+ (Seramik)': 'HRC 90+ (Tungstène) / HV 1600+ (Céramique)',
+    '66/63/40 × 0.54 mm': '66/63/40 × 0,54 mm',
+    '2 × 4 mm': '2 × 4 mm',
+    'Beşgen (Pentagon)': 'Pentagonal',
   },
 
   // =============================================================================
@@ -1708,6 +1736,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.30mm – 0.35mm': '0,30 мм – 0,35 мм',
     'OLFA Rotary Cutter': 'Роторный резак OLFA',
     'Altıgen / 3 Çentik': 'Шестигранное отверстие / 3 паза',
+
+    // Значения 2CS1 Пятиугольное лезвие
+    'Yekpare Tungsten Karbür / Yekpare Seramik': 'Цельный карбид вольфрама / Цельная керамика',
+    'HRC 90+ (Tungsten) / HV 1600+ (Seramik)': 'HRC 90+ (вольфрам) / HV 1600+ (керамика)',
+    '66/63/40 × 0.54 mm': '66/63/40 × 0,54 мм',
+    '2 × 4 mm': '2 × 4 мм',
+    'Beşgen (Pentagon)': 'Пятиугольник',
   },
 };
 

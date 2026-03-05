@@ -1748,6 +1748,132 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     order: 12,
   },
 
+  // --- BEŞGEN BIÇAKLAR (PENTAGON BLADES) ---
+  {
+    id: '2cs1',
+    slug: '2cs1-besgen-bicak-tungsten-seramik',
+    slugEN: '2cs1-pentagon-blade-tungsten-ceramic',
+    code: '2CS1',
+    name: '2CS1 – Beşgen Bıçak (Pentagon Blade)',
+    subtitle: 'Yekpare Tungsten & Seramik — 66/63/40×0.54mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'pentagon-blades',
+    tags: ['beşgen bıçak', 'pentagon blade', 'tungsten karbür', 'seramik bıçak', 'çuval kesim', 'bigbag', 'FIBC', 'PP dokuma'],
+
+    shortDescription: 'Yekpare tungsten karbür ve seramik seçenekli 2CS1 beşgen bıçaklar, 66/63/40×0.54mm. Çuval, bigbag ve PP dokuma kesim hatları için özel geometrili endüstriyel kesim bıçağı.',
+
+    longDescription: `
+<p>2CS1 serisi beşgen bıçaklar (pentagon blade), <strong>yekpare tungsten karbür</strong> ve <strong>yekpare seramik</strong> malzeme seçenekleriyle üretilen, özel geometrili endüstriyel kesim bıçaklarıdır. 66/63/40×0.54mm ölçüleri ve 2×4mm montaj delikleri ile çuval ve bigbag üretim makinelerine doğrudan uyumlu tasarlanmıştır.</p>
+
+<h3>Malzeme Seçenekleri</h3>
+<ul>
+  <li><strong>Yekpare Tungsten Karbür:</strong> HRC 90+ sertlik değeri ile en yüksek aşınma direnci. Yoğun üretim hatlarında uzun ömür sunar. Sert ve abrazif malzemelerin kesiminde tercih edilir.</li>
+  <li><strong>Yekpare Seramik – Beyaz (Zirkonyum Oksit):</strong> HV 1600+ mikro sertlik ile kimyasal olarak inert yapı. Gıda temas onaylı uygulamalarda ve korozyon direnci gereken ortamlarda idealdir.</li>
+  <li><strong>Yekpare Seramik – Gri (Silisyum Karbür):</strong> HV 1600+ mikro sertlik ile yüksek termal dayanım. Isıya maruz kalan kesim uygulamalarında üstün performans gösterir.</li>
+</ul>
+
+<h3>Kullanım Alanları</h3>
+<p>PP (polipropilen) dokuma çuval üretim hatlarında, FIBC bigbag üretim makinelerinde, geotekstil ve tarım örtüsü kesim hatlarında kullanılır. Beşgen geometri sayesinde kesim açısı optimize edilerek düzgün ve temiz kesim hattı elde edilir.</p>
+
+<h3>Teknik Detaylar</h3>
+<p>2×4mm montaj delikleri makineye sabit ve titreşimsiz bağlantı sağlar. 0.54mm kalınlık ince ve hassas kesim hattı oluştururken, beşgen geometri bıçağın 5 farklı kenarından yararlanılmasını mümkün kılar.</p>`,
+
+    images: {
+      main: {
+        src: '/images/products/2cs1-besgen-bicak.jpg',
+        alt: '2CS1 Beşgen Bıçak - Yekpare Tungsten Karbür ve Seramik Pentagon Blade',
+        width: 800,
+        height: 800,
+      },
+      gallery: [
+        { src: '/images/products/2cs1-besgen-bicak.jpg', alt: '2CS1 Beşgen Bıçak Serisi - Genel Görünüm', width: 800, height: 800 },
+      ],
+      thumbnail: {
+        src: '/images/products/2cs1-besgen-bicak.jpg',
+        alt: '2CS1 Beşgen Bıçak',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Yekpare Tungsten Karbür / Yekpare Seramik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 90+ (Tungsten) / HV 1600+ (Seramik)', icon: 'Shield', highlight: true },
+      { label: 'Boyutlar', value: '66/63/40 × 0.54 mm', icon: 'Ruler' },
+      { label: 'Delik', value: '2 × 4 mm', icon: 'Target' },
+      { label: 'Geometri', value: 'Beşgen (Pentagon)', icon: 'Pentagon' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'England',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Çuval Üretimi', icon: 'Package', description: 'PP dokuma çuval üretim hatlarında kesme ve şekillendirme işlemleri' },
+      { title: 'Bigbag (FIBC) Üretimi', icon: 'Box', description: 'FIBC bigbag üretim makinelerinde hassas kesim' },
+      { title: 'PP Dokuma Kesim', icon: 'Scissors', description: 'Polipropilen dokuma kumaşların endüstriyel kesimi' },
+      { title: 'Ambalaj Sektörü', icon: 'Package', description: 'Geotekstil, tarım örtüsü ve endüstriyel ambalaj malzemesi kesimi' },
+    ],
+
+    benefits: [
+      {
+        title: 'Ultra Yüksek Aşınma Direnci',
+        description: 'Yekpare tungsten karbür HRC 90+ sertlik ile standart çeliğe göre 20 kata varan kullanım ömrü',
+        icon: 'Shield',
+      },
+      {
+        title: 'Seramik Bıçak Seçeneği',
+        description: 'Kimyasal olarak inert seramik yapı, korozyon direnci ve gıda temas uyumluluğu',
+        icon: 'Zap',
+      },
+      {
+        title: 'Beşgen Geometri Avantajı',
+        description: '5 kenarlı özel beşgen tasarım ile optimize edilmiş kesim açısı ve uzun kullanım ömrü',
+        icon: 'Pentagon',
+      },
+      {
+        title: 'Düşük Üretim Maliyeti',
+        description: 'Uzun bıçak ömrü sayesinde daha az duruş süresi ve düşük birim başı kesim maliyeti',
+        icon: 'TrendingDown',
+      },
+    ],
+
+    features: [
+      'Beşgen (pentagon) özel geometrili kesim bıçağı',
+      'Yekpare tungsten karbür — HRC 90+ ultra sertlik',
+      'Yekpare seramik beyaz (Zirkonyum Oksit) — HV 1600+',
+      'Yekpare seramik gri (Silisyum Karbür) — HV 1600+',
+      '66/63/40×0.54mm ölçüleri, 2×4mm montaj delikleri',
+      'Çuval ve bigbag (FIBC) üretim hatlarına özel tasarım',
+      'PP dokuma kumaş kesiminde optimum performans',
+    ],
+
+    availableSizes: [
+      '66/63/40 × 0.54 mm (Yekpare Tungsten Karbür)',
+      '66/63/40 × 0.54 mm (Yekpare Seramik – Beyaz)',
+      '66/63/40 × 0.54 mm (Yekpare Seramik – Gri)',
+    ],
+
+    certifications: ['ISO 9001:2015'],
+
+    relatedProductIds: [],
+
+    seo: {
+      title: '2CS1 Beşgen Bıçak 66mm | Tungsten Karbür & Seramik Pentagon Blade | Alya Bıçak',
+      description: 'Yekpare tungsten karbür ve seramik 2CS1 beşgen bıçak (pentagon blade), 66/63/40×0.54mm. Çuval, bigbag ve PP dokuma kesim hatları için ultra dayanıklı endüstriyel kesim bıçağı.',
+      keywords: ['beşgen bıçak', 'pentagon blade', 'tungsten karbür bıçak', 'seramik bıçak', 'çuval kesim bıçağı', 'bigbag bıçak', 'FIBC bıçak', 'PP dokuma bıçak', '2CS1', 'pentagon kesim'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 13,
+  },
+
   // --- MAKİNA BIÇAKLARI: TERMOFORM / VAKUM PAKETLEME ---
   // 9 ürün: kontör, yarım yıldız, tam yıldız, düz/lama, dairesel, yuvarlak zımba, oval zımba, dişli, genel VPB-001
 
