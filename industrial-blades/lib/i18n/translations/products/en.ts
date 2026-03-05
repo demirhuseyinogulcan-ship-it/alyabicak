@@ -1198,10 +1198,45 @@ export const productsEn: Record<string, ProductTranslation> = {
     longDescription: `<p>The KB4-WS/3 is an <strong>OLFA KB4-WS/3 compatible wide serrated (saw-tooth)</strong> art knife blade. At 66.5×11/6×0.35mm, it is the longest blade in the series.</p><p>The wide serration delivers superior performance over the KB4-NS/3 narrow serrated version when cutting thick foam and balsa wood. The wider tooth spacing enables clean cuts through thick soft materials without tearing.</p><p><strong>Applications:</strong> Thick foam cutting, balsa wood model building, sponge shaping, polystyrene architectural models and as a replacement blade for OLFA AK-4 series.</p>`,
   },
 
-  // Other Hobby Blades
+  // --- FIBERGLASS CHOPPER BLADES ---
   'b581': {
-    name: 'B581 Industrial Blade',
-    description: 'B581 industrial blade. Sheffield quality professional cutting blade.',
+    name: 'B581 – Fiberglass Chopper Blade – Tungsten Carbide',
+    subtitle: 'Tungsten Carbide Tipped — 120×7.94×0.71mm',
+    shortDescription: 'Tungsten carbide tipped B581 fiberglass chopper blade, 120×7.94×0.71mm. Double-beveled 30° edge for glass fiber roving lines with superior wear resistance.',
+    description: 'B581 tungsten carbide tipped fiberglass chopper blade for glass fiber roving cutting lines. 120×7.94×0.71mm, 30° double bevel, HRC 68-72 hardness. Available in 100mm, 108.8mm and 120mm lengths.',
+    features: [
+      'Tungsten carbide tipped special steel',
+      'HRC 68-72 hardness rating',
+      '30° double bevel edge geometry',
+      'Designed specifically for fiberglass cutting lines',
+      '±0.02mm dimensional accuracy',
+      'Packed in bundles of 25 blades',
+      '3 length options: 100mm, 108.8mm, 120mm',
+    ],
+    applications: [
+      'Fiberglass roving cutting',
+      'GRP/FRP production lines',
+      'Composite material cutting',
+      'Automotive composite manufacturing',
+      'Wind turbine blade production',
+    ],
+    benefits: [
+      { title: 'Superior Wear Resistance', description: 'Tungsten carbide alloy delivers 5-8x longer life than standard steel blades', icon: 'Shield' },
+      { title: 'Precision Cutting', description: '30° double bevel ensures uniform fiber length and low dust generation', icon: 'Target' },
+      { title: 'Lower Total Cost', description: 'Extended blade life and fewer changeovers reduce production costs', icon: 'TrendingDown' },
+      { title: 'Quick Changeover', description: 'Packed in bundles of 25 for fast bulk blade replacement', icon: 'RefreshCw' },
+    ],
+    availableSizes: [
+      '100 × 7.94 × 0.71 mm',
+      '108.8 × 7.94 × 0.71 mm',
+      '120 × 7.94 × 0.71 mm',
+    ],
+    longDescription: `<p>The B581 series fiberglass chopper blades are manufactured from <strong>tungsten carbide tipped</strong> special steel, engineered for fiberglass roving cutting lines. With an HRC 68-72 hardness rating, they deliver exceptional resistance against abrasive glass fiber strands.</p><h3>Technical Details</h3><ul><li><strong>30° double bevel:</strong> Even wear distribution and extended service life</li><li><strong>Tungsten carbide alloy:</strong> 5-8x longer cutting performance compared to standard steel</li><li><strong>Precision tolerance:</strong> ±0.02mm dimensional accuracy for perfect machine fit</li><li><strong>Bundles of 25:</strong> Easy inventory management and quick bulk changeover</li></ul><h3>Applications</h3><p>Used in GRP (Glass Reinforced Plastic) and FRP (Fiber Reinforced Plastic) production lines, fiberglass roving cutting machines (chopper guns, roving cutters). Essential for composite material applications including automotive parts, boat hulls, wind turbine blades, pipe and tank manufacturing.</p><h3>Available Sizes</h3><p>The B581 series is available in three lengths: 100mm, 108.8mm and 120mm. Width (7.94mm) and thickness (0.71mm) are consistent across all variants.</p>`,
+    seo: {
+      title: 'B581 Fiberglass Chopper Blade 120mm | Tungsten Carbide | Alya Blade',
+      description: 'B581 tungsten carbide tipped fiberglass chopper blade, 120×7.94×0.71mm. Double-beveled 30° edge for glass fiber roving lines. Superior wear resistance for continuous GRP/FRP production.',
+      keywords: ['fiberglass chopper blade', 'glass fiber cutting blade', 'tungsten carbide chopper blade', 'GRP cutting blade', 'roving cutter blade', 'B581', 'fiberglass blade', 'FRP blade', 'chopper gun blade'],
+    },
   },
   'b657': {
     name: 'B657 Industrial Blade',

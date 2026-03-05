@@ -1490,6 +1490,134 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     order: 288,
   },
 
+  // --- CAM ELYAF BIÇAKLARI (FIBERGLASS CHOPPER BLADES) ---
+  {
+    id: 'b581',
+    slug: 'b581-cam-elyaf-bicagi-tungsten-alasimli',
+    slugEN: 'b581-fiberglass-chopper-blade-tungsten-carbide',
+    code: 'B581',
+    name: 'B581 – Cam Elyaf Bıçağı (Chopper Blade)',
+    subtitle: 'Tungsten Karbür Alaşımlı — 120×7.94×0.71mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'fiberglass',
+    tags: ['cam elyaf', 'fiberglass', 'chopper blade', 'tungsten karbür', 'tungsten carbide', 'GRP', 'FRP', 'roving', 'kompozit'],
+
+    shortDescription: 'Tungsten karbür alaşımlı B581 cam elyaf bıçağı (chopper blade), 120×7.94×0.71mm. Fiberglass roving kesim hatları için 30° çift taraflı bileme ile üstün aşınma direnci.',
+
+    longDescription: `
+<p>B581 serisi cam elyaf bıçakları (chopper blade), <strong>tungsten karbür alaşımlı</strong> özel çelikten üretilmiş olup cam elyaf (fiberglass) roving kesim hatlarında kullanılmak üzere tasarlanmıştır. HRC 68-72 sertlik değeri sayesinde aşındırıcı cam elyaf liflerine karşı olağanüstü dayanıklılık sunar.</p>
+
+<h3>Teknik Detaylar</h3>
+<ul>
+  <li><strong>30° çift taraflı bileme:</strong> Eşit aşınma dağılımı ve uzun kullanım ömrü</li>
+  <li><strong>Tungsten karbür alaşım:</strong> Standart çeliğe kıyasla 5-8 kat daha uzun kesim performansı</li>
+  <li><strong>Hassas tolerans:</strong> ±0.02mm boyut hassasiyeti ile makinaya tam uyum</li>
+  <li><strong>25'li desteler:</strong> Kolay stok yönetimi ve toplu değişim kolaylığı</li>
+</ul>
+
+<h3>Kullanım Alanları</h3>
+<p>GRP (Glass Reinforced Plastic) ve FRP (Fiber Reinforced Plastic) üretim hatlarında, cam elyaf roving kesim makinelerinde (chopper gun, roving cutter) kullanılır. Otomotiv parçaları, tekne gövdeleri, rüzgar türbini kanatları, boru ve tank üretimi gibi kompozit malzeme uygulamalarında vazgeçilmezdir.</p>
+
+<h3>Mevcut Ölçüler</h3>
+<p>B581 serisi üç farklı uzunlukta temin edilebilir: 100mm, 108.8mm ve 120mm. Tüm varyantlarda genişlik 7.94mm ve kalınlık 0.71mm sabittir.</p>`,
+
+    images: {
+      main: {
+        src: '/images/products/b581-cam-elyaf-bicagi.jpg',
+        alt: 'B581 Cam Elyaf Bıçağı - Tungsten Karbür Alaşımlı Chopper Blade',
+        width: 800,
+        height: 800,
+      },
+      gallery: [
+        { src: '/images/products/b581-cam-elyaf-bicagi.jpg', alt: 'B581 Cam Elyaf Bıçağı - Genel Görünüm', width: 800, height: 800 },
+      ],
+      thumbnail: {
+        src: '/images/products/b581-cam-elyaf-bicagi.jpg',
+        alt: 'B581 Cam Elyaf Bıçağı',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Tungsten Karbür Alaşımlı Çelik', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HRC 68-72', icon: 'Shield', highlight: true },
+      { label: 'Boyutlar', value: '120 × 7.94 × 0.71 mm', icon: 'Ruler' },
+      { label: 'Bileme Açısı', value: '30° Çift Taraflı', icon: 'Triangle' },
+      { label: 'Kaplama', value: 'Tungsten Karbür', icon: 'Sparkles' },
+      { label: 'Ambalaj', value: '25 adet / deste', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'England',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Cam Elyaf Üretimi', icon: 'Factory', description: 'Fiberglass roving kesim hatları ve chopper gun sistemleri' },
+      { title: 'GRP/FRP Üretimi', icon: 'Layers', description: 'Kompozit panel, boru, tank ve tekne gövdesi üretimi' },
+      { title: 'Otomotiv Kompozit', icon: 'Car', description: 'Otomotiv parçaları için cam elyaf takviyeli plastik üretimi' },
+      { title: 'Rüzgar Enerjisi', icon: 'Wind', description: 'Rüzgar türbini kanatları için elyaf kesim prosesleri' },
+    ],
+
+    benefits: [
+      {
+        title: 'Üstün Aşınma Direnci',
+        description: 'Tungsten karbür alaşım sayesinde standart çelik bıçaklara göre 5-8 kat daha uzun ömür',
+        icon: 'Shield',
+      },
+      {
+        title: 'Hassas Kesim',
+        description: '30° çift taraflı bileme ile temiz ve eşit fiber uzunluğu, düşük toz oranı',
+        icon: 'Target',
+      },
+      {
+        title: 'Düşük Toplam Maliyet',
+        description: 'Uzun kullanım ömrü ve daha az duruş süresi ile üretim maliyetlerinde tasarruf',
+        icon: 'TrendingDown',
+      },
+      {
+        title: 'Kolay Değişim',
+        description: '25\'li desteler halinde ambalajlanmış, hızlı toplu bıçak değişimi',
+        icon: 'RefreshCw',
+      },
+    ],
+
+    features: [
+      'Tungsten karbür alaşımlı özel çelik',
+      'HRC 68-72 sertlik değeri',
+      '30° çift taraflı (double bevel) bileme',
+      'Cam elyaf kesim hatlarına özel tasarım',
+      '±0.02mm boyut hassasiyeti',
+      '25\'li desteler halinde ambalaj',
+      '3 farklı uzunluk seçeneği: 100mm, 108.8mm, 120mm',
+    ],
+
+    availableSizes: [
+      '100 × 7.94 × 0.71 mm',
+      '108.8 × 7.94 × 0.71 mm',
+      '120 × 7.94 × 0.71 mm',
+    ],
+
+    certifications: ['ISO 9001:2015'],
+
+    relatedProductIds: [],
+
+    seo: {
+      title: 'B581 Cam Elyaf Bıçağı 120mm | Tungsten Alaşımlı Chopper Blade | Alya Bıçak',
+      description: 'Tungsten karbür alaşımlı B581 cam elyaf bıçağı (chopper blade), 120×7.94×0.71mm. 30° çift taraflı bileme, 25\'li deste. Fiberglass roving kesim hatları için yüksek aşınma direnci.',
+      keywords: ['cam elyaf bıçağı', 'chopper blade', 'fiberglass bıçak', 'tungsten karbür bıçak', 'cam elyaf kesim bıçağı', 'roving kesim bıçağı', 'GRP bıçak', 'FRP bıçak', 'B581', 'fiberglass chopper blade'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 10,
+  },
+
   // --- MAKİNA BIÇAKLARI: TERMOFORM / VAKUM PAKETLEME ---
   // 9 ürün: kontör, yarım yıldız, tam yıldız, düz/lama, dairesel, yuvarlak zımba, oval zımba, dişli, genel VPB-001
 

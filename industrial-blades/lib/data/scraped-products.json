@@ -3906,35 +3906,60 @@
   },
   {
     "id": "b581",
-    "slug": "b581-b581",
+    "slug": "b581-cam-elyaf-bicagi-tungsten-alasimli",
+    "slugEN": "b581-fiberglass-chopper-blade-tungsten-carbide",
     "code": "B581",
-    "name": "B581 - B581",
-    "description": "B581. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B581 – Cam Elyaf Bıçağı (Chopper Blade) – Tungsten Alaşımlı",
+    "description": "Tungsten karbür alaşımlı B581 cam elyaf bıçağı, 120×7.94×0.71mm. Fiberglass roving kesim hatları için 30° çift taraflı bileme ile yüksek aşınma direnci.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
-    "image": "/images/products/b581-b581.jpg",
+    "subcategoryId": "fiberglass",
+    "image": "/images/products/b581-cam-elyaf-bicagi.jpg",
     "variants": [
       {
-        "id": "b581-b581-standard",
-        "sku": "B581",
+        "id": "b581-100mm",
+        "sku": "B581-0100",
+        "size": "100×7.94×0.71mm",
+        "inStock": true
+      },
+      {
+        "id": "b581-108mm",
+        "sku": "B581-0108",
+        "size": "108.8×7.94×0.71mm",
+        "inStock": true
+      },
+      {
+        "id": "b581-120mm",
+        "sku": "B581-001-D01",
+        "size": "120×7.94×0.71mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Tungsten Karbür Alaşım",
+      "hardness": "HRC 68-72",
+      "dimensions": "120×7.94×0.71mm",
+      "edgeAngle": "30°",
+      "coating": "Tungsten Karbür"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Tungsten karbür alaşımlı",
+      "30° çift taraflı bileme",
+      "Yüksek aşınma direnci",
+      "Cam elyaf kesim hatlarına özel"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Cam elyaf (fiberglass) roving kesimi",
+      "GRP/FRP üretim hatları",
+      "Kompozit malzeme kesimi"
     ],
-    "isFeatured": false,
-    "isActive": false,
-    "order": 151
+    "availableSizes": [
+      "100×7.94×0.71mm",
+      "108.8×7.94×0.71mm",
+      "120×7.94×0.71mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 10
   },
   {
     "id": "b657",
