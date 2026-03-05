@@ -4099,35 +4099,55 @@
   },
   {
     "id": "b084075",
-    "slug": "b084075-b084075",
+    "slug": "b084075-lamel-yaprak-bicak-seramik-tungsten",
+    "slugEN": "b084075-lamella-leaf-blade-ceramic-tungsten",
     "code": "B084.075",
-    "name": "B084.075 - B084.075",
-    "description": "B084.075. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B084.075 – Lamel (Yaprak) Bıçak – Seramik & Tungsten",
+    "description": "Yekpare seramik ve yekpare tungsten karbür seçenekli B084.075 lamel (yaprak) bıçak, 84/80×7.5×1.0mm. Film, folyo, etiket, ambalaj ve kağıt kesim hatları için ultra uzun ömürlü endüstriyel kesim bıçağı.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
-    "image": "/images/products/b084075-b084075.jpg",
+    "subcategoryId": "lamella-blades",
+    "image": "/images/products/b084075-lamel-bicak.jpg",
     "variants": [
       {
-        "id": "b084075-b084075-standard",
-        "sku": "B084.075",
+        "id": "b084075-seramik-beyaz",
+        "sku": "B084.075-CW",
+        "name": "Yekpare Seramik – Beyaz",
+        "size": "84/80×7.5×1.0mm",
+        "inStock": true
+      },
+      {
+        "id": "b084075-tungsten",
+        "sku": "B084.075-TC",
+        "name": "Yekpare Tungsten Karbür",
+        "size": "84/80×7.5×1.0mm",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür",
+      "hardness": "HV 1200+ (Seramik) / HRC 90+ (Tungsten)",
+      "dimensions": "84/80×7.5×1.0mm",
+      "form": "Lamel / Yaprak (Lamella / Leaf)"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Lamel (yaprak) form özel geometri",
+      "Yekpare seramik beyaz (Zirkonyum Oksit) seçeneği",
+      "Yekpare tungsten karbür seçeneği",
+      "Film, folyo ve etiket kesim hatlarına özel",
+      "Ultra uzun kesim ömrü"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Film ve folyo kesim hatları",
+      "Etiket ve bant kesim makineleri",
+      "Kağıt ve karton dönüştürme hatları",
+      "Ambalaj makineleri"
     ],
-    "isFeatured": false,
-    "isActive": false,
-    "order": 154
+    "availableSizes": [
+      "84/80×7.5×1.0mm"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 14
   },
   {
     "id": "b204",

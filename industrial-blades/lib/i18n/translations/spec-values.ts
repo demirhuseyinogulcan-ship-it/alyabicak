@@ -362,6 +362,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '66/63/40 × 0.54 mm': '66/63/40 × 0.54 mm',
     '2 × 4 mm': '2 × 4 mm',
     'Beşgen (Pentagon)': 'Beşgen (Pentagon)',
+
+    // B084.075 Lamel (Yaprak) Bıçak Değerleri
+    'Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür': 'Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür',
+    'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (Seramik) / HRC 90+ (Tungsten)',
+    '84/80 × 7.5 × 1.0 mm': '84/80 × 7.5 × 1.0 mm',
+    'Lamel / Yaprak (Lamella / Leaf)': 'Lamel / Yaprak (Lamella / Leaf)',
   },
 
   // =============================================================================
@@ -716,6 +722,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '66/63/40 × 0.54 mm': '66/63/40 × 0.54 mm',
     '2 × 4 mm': '2 × 4 mm',
     'Beşgen (Pentagon)': 'Pentagon',
+
+    // B084.075 Lamella (Leaf) Blade Values
+    'Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür': 'Solid Ceramic (ZrO₂) / Solid Tungsten Carbide',
+    'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (Ceramic) / HRC 90+ (Tungsten)',
+    '84/80 × 7.5 × 1.0 mm': '84/80 × 7.5 × 1.0 mm',
+    'Lamel / Yaprak (Lamella / Leaf)': 'Lamella / Leaf',
   },
 
   // =============================================================================
@@ -1035,6 +1047,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '66/63/40 × 0.54 mm': '66/63/40 × 0.54 مم',
     '2 × 4 mm': '2 × 4 مم',
     'Beşgen (Pentagon)': 'خماسي الأضلاع',
+
+    // قيم شفرة B084.075 اللاميلا (الورقية)
+    'Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür': 'سيراميك صلب (ZrO₂) / كربيد تنغستن صلب',
+    'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (سيراميك) / HRC 90+ (تنغستن)',
+    '84/80 × 7.5 × 1.0 mm': '84/80 × 7.5 × 1.0 مم',
+    'Lamel / Yaprak (Lamella / Leaf)': 'لاميلا / ورقي',
   },
 
   // =============================================================================
@@ -1389,6 +1407,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '66/63/40 × 0.54 mm': '66/63/40 × 0,54 mm',
     '2 × 4 mm': '2 × 4 mm',
     'Beşgen (Pentagon)': 'Pentagonal',
+
+    // Valeurs B084.075 Lame Lamelle (Feuille)
+    'Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür': 'Céramique Monobloc (ZrO₂) / Carbure de Tungstène Monobloc',
+    'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (Céramique) / HRC 90+ (Tungstène)',
+    '84/80 × 7.5 × 1.0 mm': '84/80 × 7,5 × 1,0 mm',
+    'Lamel / Yaprak (Lamella / Leaf)': 'Lamelle / Feuille',
   },
 
   // =============================================================================
@@ -1743,6 +1767,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '66/63/40 × 0.54 mm': '66/63/40 × 0,54 мм',
     '2 × 4 mm': '2 × 4 мм',
     'Beşgen (Pentagon)': 'Пятиугольник',
+
+    // Значения B084.075 Ламельное (листовое) лезвие
+    'Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür': 'Цельная керамика (ZrO₂) / Цельный карбид вольфрама',
+    'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (керамика) / HRC 90+ (вольфрам)',
+    '84/80 × 7.5 × 1.0 mm': '84/80 × 7,5 × 1,0 мм',
+    'Lamel / Yaprak (Lamella / Leaf)': 'Ламель / Лист',
   },
 };
 

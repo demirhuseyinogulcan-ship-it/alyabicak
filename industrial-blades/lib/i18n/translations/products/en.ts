@@ -1319,8 +1319,42 @@ export const productsEn: Record<string, ProductTranslation> = {
     },
   },
   'b084075': {
-    name: 'B084.075 Industrial Blade',
-    description: 'B084.075 industrial blade. Sheffield quality professional cutting blade.',
+    name: 'B084.075 – Lamella (Leaf) Blade – Ceramic & Tungsten Carbide',
+    subtitle: 'Solid Ceramic & Tungsten Carbide — 84/80×7.5×1.0mm',
+    shortDescription: 'Solid ceramic and solid tungsten carbide B084.075 lamella (leaf) blade, 84/80×7.5×1.0mm. Ultra-long-life industrial cutting blade for film, foil, label, packaging and paper converting lines.',
+    description: 'Solid ceramic and tungsten carbide B084.075 lamella blade for film, foil, label and paper slitting lines. 84/80×7.5×1.0mm.',
+    features: [
+      'Lamella (leaf) form special cutting geometry',
+      'Solid white ceramic (ZrO₂) — HV 1200+, non-stick surface',
+      'Solid tungsten carbide — HRC 90+, ultra wear resistance',
+      '84/80×7.5×1.0mm dimensions, compact slitter compatible',
+      'Designed for film, foil, label and paper cutting lines',
+      'Chemically inert — food packaging compatible (ceramic)',
+      'Vibration-free and burr-free cutting performance',
+    ],
+    applications: [
+      'Film and foil slitting lines',
+      'Label and tape cutting machines',
+      'Paper and cardboard converting lines',
+      'Packaging machine cutting units',
+      'Aluminium foil cutting lines',
+    ],
+    benefits: [
+      { title: 'Non-Stick Ceramic Surface', description: 'Zirconium oxide ceramic structure provides clean cuts on adhesive films and labels without residue', icon: 'Sparkles' },
+      { title: 'Ultra-Long Cutting Life', description: 'Tungsten carbide HRC 90+ hardness delivers 15-20x longer life than standard steel blades', icon: 'Shield' },
+      { title: 'Burr-Free Precision Cutting', description: 'Lamella geometry and 1.0mm thickness provide burr-free cut lines on films and foils', icon: 'Target' },
+      { title: 'Low Maintenance Cost', description: 'Extended blade life means fewer changeovers, less downtime and lower total cost', icon: 'TrendingDown' },
+    ],
+    availableSizes: [
+      '84/80 × 7.5 × 1.0 mm (Solid Ceramic – White)',
+      '84/80 × 7.5 × 1.0 mm (Solid Tungsten Carbide)',
+    ],
+    longDescription: `<p>The B084.075 series lamella (leaf) blades are special geometry industrial blades manufactured in <strong>solid ceramic</strong> and <strong>solid tungsten carbide</strong> material options. With 84/80×7.5×1.0mm dimensions, they are designed for compatibility with slitter and cutting machines.</p><h3>Material Options</h3><ul><li><strong>Solid Ceramic – White (Zirconium Oxide / ZrO₂):</strong> HV 1200+ micro-hardness with a chemically inert, non-stick structure. Leaves no adhesive residue on film and foil cuts. Safe for food packaging cutting lines.</li><li><strong>Solid Tungsten Carbide:</strong> HRC 90+ hardness delivering the highest wear resistance. Superior performance on abrasive materials and high-speed production lines.</li></ul><h3>Applications</h3><p>Widely used in PE/PP/PET/PVC film and foil slitting lines, label and tape converting machines, paper and cardboard converting lines, cutting units of packaging machines, aluminium foil slitting lines and lamination machines.</p><h3>Technical Details</h3><p>The lamella (leaf) form features geometry optimised for thin, precision cuts. The 1.0mm thickness ensures vibration-free and burr-free cutting. 84mm total length with 80mm effective cutting length for compact slitter unit compatibility.</p>`,
+    seo: {
+      title: 'B084.075 Lamella Leaf Blade 84mm | Ceramic & Tungsten | Film Slitting | Alya Blade',
+      description: 'Solid ceramic and tungsten carbide B084.075 lamella (leaf) blade, 84/80×7.5×1.0mm. Ultra-long-life industrial cutting blade for film, foil, label and paper slitting lines.',
+      keywords: ['lamella blade', 'leaf blade', 'film cutting blade', 'foil cutting blade', 'label cutting blade', 'slitter blade', 'ceramic blade', 'tungsten blade', 'B084.075'],
+    },
   },
 
   // =============================================================================

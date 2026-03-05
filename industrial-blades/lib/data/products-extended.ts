@@ -1874,6 +1874,129 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     order: 13,
   },
 
+  // --- LAMEL / YAPRAK BIÇAKLAR (LAMELLA / LEAF BLADES) ---
+  {
+    id: 'b084075',
+    slug: 'b084075-lamel-yaprak-bicak-seramik-tungsten',
+    slugEN: 'b084075-lamella-leaf-blade-ceramic-tungsten',
+    code: 'B084.075',
+    name: 'B084.075 – Lamel (Yaprak) Bıçak',
+    subtitle: 'Yekpare Seramik & Tungsten Karbür — 84/80×7.5×1.0mm',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'lamella-blades',
+    tags: ['lamel bıçak', 'yaprak bıçak', 'lamella blade', 'leaf blade', 'seramik bıçak', 'tungsten karbür', 'film kesim', 'folyo kesim', 'etiket kesim', 'slitter blade'],
+
+    shortDescription: 'Yekpare seramik ve yekpare tungsten karbür seçenekli B084.075 lamel (yaprak) bıçak, 84/80×7.5×1.0mm. Film, folyo, etiket, ambalaj ve kağıt kesim hatları için ultra uzun ömürlü endüstriyel kesim bıçağı.',
+
+    longDescription: `
+<p>B084.075 serisi lamel (yaprak) bıçaklar, <strong>yekpare seramik</strong> ve <strong>yekpare tungsten karbür</strong> malzeme seçenekleriyle üretilen, ince film ve folyo kesim hatlarına yönelik özel geometrili endüstriyel bıçaklardır. 84/80×7.5×1.0mm ölçüleri ile slitter ve kesim makinelerine uyumlu tasarlanmıştır.</p>
+
+<h3>Malzeme Seçenekleri</h3>
+<ul>
+  <li><strong>Yekpare Seramik – Beyaz (Zirkonyum Oksit / ZrO₂):</strong> HV 1200+ mikro sertlik, kimyasal olarak inert yapısı sayesinde yapışma yapmaz. Film ve folyo kesimlerinde yapışkan kalıntısı bırakmaz. Gıda ambalajı kesim hatlarında güvenle kullanılır.</li>
+  <li><strong>Yekpare Tungsten Karbür:</strong> HRC 90+ sertlik ile en yüksek aşınma direnci sunar. Abrazif malzemelerin kesiminde ve yüksek hızlı üretim hatlarında üstün performans gösterir.</li>
+</ul>
+
+<h3>Kullanım Alanları</h3>
+<p>PE/PP/PET/PVC film ve folyo kesim (slitting) hatlarında, etiket ve bant kesim makinelerinde, kağıt ve karton dönüştürme (converting) hatlarında, ambalaj makinelerinin kesim ünitelerinde, alüminyum folyo kesim hatlarında ve laminasyon makinelerinde yaygın olarak kullanılmaktadır.</p>
+
+<h3>Teknik Detaylar</h3>
+<p>Lamel (yaprak) form, ince ve hassas kesimler için optimize edilmiş geometriye sahiptir. 1.0mm kalınlık ile titreşimsiz ve çapaksız kesim sağlar. 84mm toplam uzunluk ve 80mm etkili kesim uzunluğu ile kompakt slitter ünitelerine uyumludur.</p>`,
+
+    images: {
+      main: {
+        src: '/images/products/b084075-lamel-bicak.jpg',
+        alt: 'B084.075 Lamel Yaprak Bıçak - Yekpare Seramik ve Tungsten Karbür',
+        width: 800,
+        height: 800,
+      },
+      gallery: [
+        { src: '/images/products/b084075-lamel-bicak.jpg', alt: 'B084.075 Lamel Bıçak Serisi - Genel Görünüm', width: 800, height: 800 },
+      ],
+      thumbnail: {
+        src: '/images/products/b084075-lamel-bicak.jpg',
+        alt: 'B084.075 Lamel Bıçak',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'Malzeme', value: 'Yekpare Seramik (ZrO₂) / Yekpare Tungsten Karbür', icon: 'Layers', highlight: true },
+      { label: 'Sertlik', value: 'HV 1200+ (Seramik) / HRC 90+ (Tungsten)', icon: 'Shield', highlight: true },
+      { label: 'Boyutlar', value: '84/80 × 7.5 × 1.0 mm', icon: 'Ruler' },
+      { label: 'Form', value: 'Lamel / Yaprak (Lamella / Leaf)', icon: 'Feather' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'England',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Film ve Folyo Kesim', icon: 'Film', description: 'PE, PP, PET, PVC film ve folyo slitting hatlarında hassas boyuna kesim' },
+      { title: 'Etiket ve Bant Kesim', icon: 'Tag', description: 'Etiket dönüştürme ve yapışkanlı bant kesim makinelerinde temiz hat' },
+      { title: 'Kağıt Dönüştürme', icon: 'FileText', description: 'Kağıt ve karton converting hatlarında tam boy kesim ve dilme' },
+      { title: 'Ambalaj Makineleri', icon: 'Package', description: 'Dikey/yatay paketleme makinelerinin kesim ünitelerinde kullanım' },
+    ],
+
+    benefits: [
+      {
+        title: 'Yapışmaz Seramik Yüzey',
+        description: 'Zirkonyum oksit seramik yapı, yapışkan filmler ve etiketlerde kalıntı bırakmadan temiz kesim sağlar',
+        icon: 'Sparkles',
+      },
+      {
+        title: 'Ultra Uzun Kesim Ömrü',
+        description: 'Tungsten karbür HRC 90+ sertlik ile standart çelik bıçaklara göre 15-20 kat daha uzun ömür',
+        icon: 'Shield',
+      },
+      {
+        title: 'Çapaksız Hassas Kesim',
+        description: 'Lamel geometri ve 1.0mm kalınlık ile film ve folyolarda burr-free (çapaksız) kesim hattı',
+        icon: 'Target',
+      },
+      {
+        title: 'Düşük Bakım Maliyeti',
+        description: 'Uzun bıçak ömrü sayesinde daha az değişim, daha az duruş süresi, düşük toplam maliyet',
+        icon: 'TrendingDown',
+      },
+    ],
+
+    features: [
+      'Lamel (yaprak) form özel kesim geometrisi',
+      'Yekpare seramik beyaz (ZrO₂) — HV 1200+, yapışmaz yüzey',
+      'Yekpare tungsten karbür — HRC 90+, ultra aşınma direnci',
+      '84/80×7.5×1.0mm ölçüleri, kompakt slitter uyumu',
+      'Film, folyo, etiket, kağıt kesim hatlarına özel',
+      'Kimyasal olarak inert — gıda ambalajı uyumlu (seramik)',
+      'Titreşimsiz ve çapaksız kesim performansı',
+    ],
+
+    availableSizes: [
+      '84/80 × 7.5 × 1.0 mm (Yekpare Seramik – Beyaz)',
+      '84/80 × 7.5 × 1.0 mm (Yekpare Tungsten Karbür)',
+    ],
+
+    certifications: ['ISO 9001:2015'],
+
+    relatedProductIds: [],
+
+    seo: {
+      title: 'B084.075 Lamel Yaprak Bıçak 84mm | Seramik & Tungsten | Film Kesim | Alya Bıçak',
+      description: 'Yekpare seramik ve tungsten karbür B084.075 lamel (yaprak) bıçak, 84/80×7.5×1.0mm. Film, folyo, etiket ve kağıt kesim hatları için ultra uzun ömürlü endüstriyel kesim bıçağı.',
+      keywords: ['lamel bıçak', 'yaprak bıçak', 'lamella blade', 'leaf blade', 'film kesim bıçağı', 'folyo kesim bıçağı', 'etiket kesim bıçağı', 'slitter blade', 'seramik bıçak', 'tungsten bıçak', 'B084.075'],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 14,
+  },
+
   // --- MAKİNA BIÇAKLARI: TERMOFORM / VAKUM PAKETLEME ---
   // 9 ürün: kontör, yarım yıldız, tam yıldız, düz/lama, dairesel, yuvarlak zımba, oval zımba, dişli, genel VPB-001
 
