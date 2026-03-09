@@ -4151,36 +4151,58 @@
   },
   {
     "id": "b204",
-    "slug": "b204-klasik-jilet",
+    "slug": "b204-klasik-jilet-endustriyel",
     "code": "B204",
-    "name": "B204 - KLASİK JİLET",
-    "description": "KLASİK JİLET. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "B204 KLASİK JİLET — ENDÜSTRİYEL",
+    "description": "B204 Endüstriyel Klasik Jilet, 43×22×0.10mm boyutlarında (37mm kesim kenarı), paslanmaz çelik tek kenar jilet. 3 varyant: Paslanmaz/Yağlı, Paslanmaz+PTFE Kaplamalı/Yağlı, Paslanmaz+PTFE Kaplamalı/Yağsız. Kağıt, ambalaj, matbaa, etiket sökme, boya kazıma, plastik film dilme ve tekstil sektörlerinde profesyonel kullanım. PTFE kaplama sürtünmeyi %40-50 azaltır, yapışkan birikmeyi önler ve jilet ömrünü 2-3 kat uzatır. Snap-off (kırma uçlu) jiletlere göre daha sert, daha hassas ve esnemez yapı.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
+    "subcategoryId": "classic-blades",
     "image": "/images/products/b204-klasik-jilet.jpg",
+    "images": ["/images/products/b204-klasik-jilet.jpg"],
     "variants": [
-      {
-        "id": "b204-klasik-jilet-standard",
-        "sku": "B204",
-        "inStock": true
-      }
+      { "id": "b204-003", "sku": "B204-003", "name": "B204 003 — Paslanmaz, Yağlı", "inStock": true },
+      { "id": "b204-004", "sku": "B204-004", "name": "B204 004 — Paslanmaz+PTFE, Yağlı", "inStock": true },
+      { "id": "b204-007", "sku": "B204-007", "name": "B204 007 — Paslanmaz+PTFE, Yağsız", "inStock": true }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Paslanmaz Çelik",
+      "dimensions": "43×22×0.10mm (37mm Kesim Kenarı)",
+      "thickness": "0.10mm",
+      "edge": "Tek Kenar (Single Edge)",
+      "coating": "Standart / PTFE Kaplamalı",
+      "surfaceFinish": "Yağlı (Oiled) / Yağsız (Oil-Free)"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "Paslanmaz çelik — korozyon direnci",
+      "PTFE kaplamalı varyant — %40-50 düşük sürtünme",
+      "Yapışkan birikmesi önlenir",
+      "Yağsız versiyon — gıda/medikal uyum",
+      "0.10mm ultra ince kalınlık",
+      "250'li ve 2000'li ambalaj seçenekleri",
+      "Snap-off jiletlere göre daha sert ve hassas"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kağıt/ambalaj dilme",
+      "Matbaa mürekkep kazıma",
+      "Etiket/barkod sökme",
+      "Boya/vernik kazıma",
+      "Yapışkan temizliği",
+      "Plastik film dilme",
+      "Gıda ambalajı kesimi",
+      "Tekstil kenarı budama"
     ],
-    "isFeatured": false,
-    "isActive": false,
-    "order": 155,
-    "slugEN": "b204-classic-blade"
+    "seoKeywords": [
+      "klasik jilet", "endüstriyel klasik jilet", "tek kenarlı jilet", "single edge blade",
+      "B204", "classic blade stainless", "paslanmaz jilet", "PTFE kaplamalı jilet",
+      "kazıma jileti", "dilme jileti", "etiket sökme jileti", "boya kazıma jileti",
+      "43x22mm jilet", "0.10mm jilet", "kağıt kesim jileti", "ambalaj kesim jileti",
+      "matbaa jileti", "yapışkan temizleme jileti", "single edge razor blade industrial"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 347,
+    "availableSizes": ["43×22×0.10mm"],
+    "slugEN": "b204-classic-blade-industrial"
   },
   {
     "id": "b207-3",
@@ -10642,5 +10664,54 @@
     "isFeatured": true,
     "isActive": true,
     "order": 346
+  },
+  {
+    "id": "b684-b685",
+    "slug": "b684-b685-klasik-jilet-medikal",
+    "code": "B684 / B685",
+    "name": "B684/B685 KLASİK JİLET — MEDİKAL",
+    "description": "B684/B685 Medikal Klasik Jilet, 38×19×0.10mm boyutlarında, paslanmaz çelik, 3 açılı bileme (triple facet), kaplamalı. Histoloji, patoloji, dermatoloji laboratuvarlarında doku kesimi ve hassas kazıma işlemlerinde kullanılır. B684: 100 adet/kutu, B685: 250 adet/kutu. 3 açılı bileme geometrisi sayesinde ultra hassas kesim kenarı sağlar.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "classic-blades",
+    "image": "/images/products/b684-klasik-jilet-medikal.jpg",
+    "images": ["/images/products/b684-klasik-jilet-medikal.jpg"],
+    "variants": [
+      { "id": "b684-001", "sku": "B684-001", "name": "B684 001 — 100'lü Kutu", "inStock": true },
+      { "id": "b685-001", "sku": "B685-001", "name": "B685 001 — 250'li Kutu", "inStock": true }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik",
+      "dimensions": "38×19×0.10mm",
+      "thickness": "0.10mm",
+      "edge": "3 Açılı Bileme (Triple Facet)",
+      "coating": "Kaplama",
+      "packaging": "100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)"
+    },
+    "features": [
+      "Paslanmaz çelik — korozyon direnci",
+      "3 açılı bileme (triple facet) — ultra hassas kesim kenarı",
+      "Kaplamalı yüzey",
+      "Medikal ve laboratuvar standartları",
+      "38×19mm kompakt boyut",
+      "100'lü ve 250'li ambalaj seçenekleri"
+    ],
+    "applications": [
+      "Histoloji — doku kesimi",
+      "Patoloji — biyopsi materyali hazırlama",
+      "Dermatoloji — deri kazıma numune alma",
+      "Laboratuvar — hassas kazıma ve preparasyon",
+      "Hassas endüstriyel kesim"
+    ],
+    "seoKeywords": [
+      "medikal jilet", "medikal klasik jilet", "klasik jilet medikal", "single edge blade medical",
+      "B684", "B685", "triple facet blade", "3 açılı jilet", "paslanmaz medikal jilet",
+      "histoloji jileti", "patoloji jileti", "laboratuvar jileti", "dermatoloji jileti",
+      "38x19mm jilet", "medikal tek kenar jilet", "medical single edge blade"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 348,
+    "availableSizes": ["38×19×0.10mm"],
+    "slugEN": "b684-b685-classic-blade-medical"
   }
 ]

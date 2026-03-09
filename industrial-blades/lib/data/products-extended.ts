@@ -6561,7 +6561,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     shortDescription: 'B621 Cam Kazıyıcı Jilet serisi. 3 delikli, laklı, paslanmaz çelik (Rostfrei). 60mm, 80mm, 100mm, 150mm genişlik seçenekleri. Cam yüzeylerde yapışkan, silikon, bant, etiket, folyo ve boya kalıntılarını çizmeden temizler. PPF/folyo sökme, cam filmi temizliği, inşaat sonrası cam kazıma, oto detailing ve vitrin folyo sökümü için profesyonel kalite.',
 
     longDescription: `
-      <p><strong>B621 Cam Kazıyıcı Jilet Serisi</strong>, cam ve hassas yüzeylerde yapışkan, silikon, bant kalıntıları, etiket, folyo artıkları ve boya sıçramalarını yüzeye zarar vermeden temizlemek için üretilmiş profesyonel paslanmaz çelik kazıma jiletidir. Sheffield Durham Duplex kalitesinde, Alman menşeli Rostfrei (paslanmaz) çelikten imal edilir.</p>
+      <p><strong>B621 Cam Kazıyıcı Jilet Serisi</strong>, cam ve hassas yüzeylerde yapışkan, silikon, bant kalıntıları, etiket, folyo artıkları ve boya sıçramalarını yüzeye zarar vermeden temizlemek için üretilmiş profesyonel paslanmaz çelik kazıma jiletidir. Alman menşeli Rostfrei (paslanmaz) çelikten imal edilir.</p>
 
       <h3>Neden Paslanmaz Çelik Cam Kazıyıcı?</h3>
       <p>Piyasadaki ucuz karbon çelik kazıyıcılar; esneme, düzensiz bileme açısı ve mikro kırılma sorunları nedeniyle lüks cam yüzeylerde çiziklere yol açar. B621 serisi paslanmaz metal yapısı sayesinde esnemeyi önler ve her jilet <strong>mikron seviyesinde aynı bileme açısına</strong> sahiptir. Rezistanslara ve cam yüzeylere zarar vermez, ıslak zeminlerde bile güvenle kullanılabilir.</p>
@@ -6722,6 +6722,329 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     isNew: true,
     inStock: true,
     order: 344,
+  },
+
+  // ─── B204 KLASİK JİLET — ENDÜSTRİYEL ───────────────────────────────────────
+  {
+    id: 'b204',
+    slug: 'b204-klasik-jilet-endustriyel',
+    slugEN: 'b204-classic-blade-industrial',
+    code: 'B204',
+    name: 'B204 KLASİK JİLET — ENDÜSTRİYEL',
+    subtitle: 'Paslanmaz Çelik Tek Kenar Jilet — PTFE Kaplamalı / Yağsız Seçenekleri',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'classic-blades',
+    tags: [
+      'klasik jilet', 'single edge blade', 'tek kenarlı jilet', 'classic blade',
+      'paslanmaz jilet', 'PTFE kaplamalı', 'endüstriyel jilet', 'kazıma jileti',
+      'dilme jileti', 'etiket sökme', 'boya kazıma', 'kağıt kesim',
+      'ambalaj jilet', 'matbaa jileti', 'yapışkan temizleme', 'film dilme',
+    ],
+
+    shortDescription: 'B204 Endüstriyel Klasik Jilet. 43×22×0.10mm (37mm kesim kenarı), paslanmaz çelik, tek kenar. 3 varyant: Paslanmaz/Yağlı, Paslanmaz+PTFE/Yağlı, Paslanmaz+PTFE/Yağsız. Kağıt, ambalaj, matbaa, etiket sökme, boya kazıma, plastik film dilme ve tekstil sektörlerinde profesyonel kullanım.',
+
+    longDescription: `
+      <p><strong>B204 Endüstriyel Klasik Jilet</strong>, 43×22×0.10mm boyutlarında (37mm aktif kesim kenarı), paslanmaz çelik tek kenar jiletdir. Kağıt, ambalaj, matbaa, etiket sökme, boya kazıma, plastik film dilme gibi geniş bir endüstriyel yelpazede profesyonel kalitede kesim ve kazıma sağlar.</p>
+
+      <h3>Neden Klasik Jilet (Single Edge Blade)?</h3>
+      <p>Snap-off (kırma uçlu) jiletler her kırıldığında kesim geometrisi değişir ve ince malzemelerde düzensiz kesim oluşturur. Klasik jiletler ise <strong>tek parça sert metal yapısı</strong> sayesinde esneme ve kırılma riski taşımaz. Her jilet fabrikada aynı bileme açısıyla üretildiğinden, <strong>her kesim eşit ve öngörülebilirdir</strong>. Bu özellik özellikle dilme makinelerinde, matbaa silindiri temizliğinde ve hassas kazıma işlerinde kritik öneme sahiptir.</p>
+
+      <h3>Neden Paslanmaz Çelik?</h3>
+      <p>Karbon çelik jiletler nemli ortamlarda hızla korozyona uğrar ve paslanma kesim kalitesini düşürür. Paslanmaz çelik yapı; gıda ambalajı, nemli ortamlar ve korozif malzemelerle temas gerektiren işlerde <strong>hijyen ve dayanıklılık garantisi</strong> sağlar. Paslanmaz versiyonlar ayrıca jilet ömrü boyunca kesim performansını korur.</p>
+
+      <h3>PTFE Kaplamanın Farkı</h3>
+      <p>PTFE (Teflon) kaplama, jilet yüzeyine kayganlık katmanı ekleyerek:</p>
+      <ul>
+        <li><strong>Sürtünmeyi %40-50 azaltır</strong> → Yapışkan malzemelerde (etiket, bant, folyo) kazıma kolaylığı</li>
+        <li><strong>Yapışkan birikmeyi önler</strong> → Jilet yüzeyine kalıntı yapışmaz, temizlik arası gerekmez</li>
+        <li><strong>Jilet ömrünü 2-3 kat uzatır</strong> → Düşük sürtünme, kenarın aşınmasını yavaşlatır</li>
+        <li><strong>Daha pürüzsüz kesim</strong> → Hassas malzemelerde (ince film, kağıt) yırtılma riskini azaltır</li>
+      </ul>
+
+      <h3>Yağlı vs. Yağsız Versiyon</h3>
+      <p><strong>Yağlı (Oiled)</strong> versiyonlar korozyon koruması ve yumuşak kesim sağlar — genel endüstriyel kullanım için idealdir. <strong>Yağsız (Oil-Free)</strong> versiyonlar ise yağ kontaminasyonunun istenmeyen olduğu <strong>gıda ambalajı</strong> ve <strong>medikal/hijyenik</strong> ortamlar için tasarlanmıştır.</p>
+
+      <h3>Teknik Özellikler</h3>
+      <ul>
+        <li><strong>Boyut:</strong> 43×22×0.10mm (37mm aktif kesim kenarı)</li>
+        <li><strong>Malzeme:</strong> Paslanmaz Çelik</li>
+        <li><strong>Kalınlık:</strong> 0.10mm — ultra ince, hassas kesim</li>
+        <li><strong>Kenar:</strong> Tek kenar (Single Edge)</li>
+      </ul>
+
+      <h3>Varyantlar</h3>
+      <table>
+        <tr><th>Kod</th><th>Özellik</th><th>Ambalaj</th><th>İdeal Kullanım</th></tr>
+        <tr><td>B204 003</td><td>Paslanmaz, Yağlı</td><td>250'li Sargılı Kutu</td><td>Genel endüstriyel işler</td></tr>
+        <tr><td>B204 004</td><td>Paslanmaz + PTFE, Yağlı</td><td>2000'li Çubuklu Kutu</td><td>Yapışkan/etiket kazıma, yoğun kullanım</td></tr>
+        <tr><td>B204 007</td><td>Paslanmaz + PTFE, Yağsız</td><td>2000'li Çubuklu Kutu</td><td>Gıda ambalajı, hijyenik ortamlar</td></tr>
+      </table>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Kağıt / Ambalaj Endüstrisi:</strong> Kağıt, karton, streç film, bant dilme ve kesme makinelerinde</li>
+        <li><strong>Matbaa / Baskı:</strong> Mürekkep kazıma, baskı silindiri temizliği, kağıt kenarı budama</li>
+        <li><strong>Etiket Sökme:</strong> Cam, metal, plastik yüzeylerden etiket, barkod, fiyat etiketi kazıma</li>
+        <li><strong>Boya Kazıma:</strong> Cam yüzeylerden boya sıçraması, vernik kazıma (inşaat sonrası)</li>
+        <li><strong>Yapışkan Temizliği:</strong> Bant kalıntısı, yapışkan artığı, tutkal temizleme</li>
+        <li><strong>Otomotiv:</strong> Conta sökme, çıkartma kazıma, cam temizliği</li>
+        <li><strong>Plastik / Film Dilme:</strong> İnce film, folyo, laminasyon dilme makinelerinde düz kesim</li>
+        <li><strong>Gıda Ambalajı:</strong> Hijyenik kesim gerektiren ambalaj hatlarında (yağsız versiyon)</li>
+        <li><strong>Tekstil:</strong> Kumaş kenarı budama, iplik kesme</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/b204-klasik-jilet.jpg',
+        alt: 'B204 Endüstriyel Klasik Jilet Paslanmaz Çelik Tek Kenar PTFE Kaplamalı — Alya Bıçak',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/b204-klasik-jilet.jpg',
+        alt: 'B204 Klasik Jilet — Alya Bıçak',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Paslanmaz Çelik', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '43×22×0.10mm (37mm Kesim Kenarı)', icon: 'Maximize' },
+      { label: 'thickness', value: '0.10mm', icon: 'Ruler' },
+      { label: 'edge', value: 'Tek Kenar (Single Edge)', icon: 'Triangle' },
+      { label: 'coating', value: 'Standart / PTFE Kaplamalı', icon: 'Sparkles' },
+      { label: 'surfaceFinish', value: 'Yağlı / Yağsız', icon: 'Droplets' },
+      { label: 'packaging', value: '250li Kutu / 2000li Çubuklu Kutu', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Kağıt/Ambalaj Dilme', icon: 'Newspaper', description: 'Kağıt, karton, streç film, bant dilme ve kesme makinelerinde' },
+      { title: 'Matbaa/Baskı', icon: 'Printer', description: 'Mürekkep kazıma, baskı silindiri temizliği, kağıt kenarı budama' },
+      { title: 'Etiket Sökme', icon: 'Tag', description: 'Cam, metal, plastik yüzeylerden etiket, barkod, fiyat etiketi kazıma' },
+      { title: 'Boya Kazıma', icon: 'Paintbrush', description: 'Cam yüzeylerden boya sıçraması, vernik kazıma' },
+      { title: 'Yapışkan Temizliği', icon: 'Eraser', description: 'Bant kalıntısı, yapışkan artığı, tutkal temizleme' },
+      { title: 'Plastik/Film Dilme', icon: 'Film', description: 'İnce film, folyo, laminasyon dilme makinelerinde düz kesim' },
+      { title: 'Gıda Ambalajı', icon: 'Apple', description: 'Hijyenik kesim gerektiren ambalaj hatlarında (yağsız versiyon)' },
+      { title: 'Tekstil', icon: 'Scissors', description: 'Kumaş kenarı budama, iplik kesme' },
+    ],
+
+    benefits: [
+      {
+        title: 'Paslanmaz — Korozyona Dayanıklı',
+        description: 'Paslanmaz çelik yapı nemli ortamlarda, gıda temasında ve korozif malzemelerle çalışırken jilet kalitesini korur.',
+        icon: 'ShieldCheck',
+      },
+      {
+        title: 'PTFE Kaplama — Sürtünmesiz Kesim',
+        description: 'PTFE kaplamalı varyant sürtünmeyi %40-50 azaltır, yapışkan birikmeyi önler ve jilet ömrünü 2-3 kat uzatır.',
+        icon: 'Sparkles',
+      },
+      {
+        title: 'Yağsız Opsiyon — Hijyenik Kullanım',
+        description: 'Yağsız (Oil-Free) versiyonu gıda ambalajı ve hijyenik kesim ortamları için yağ kontaminasyonu riski olmadan çalışır.',
+        icon: 'Droplets',
+      },
+      {
+        title: 'Ultra İnce 0.10mm — Hassas Kesim',
+        description: '0.10mm kalınlık ince film, kağıt ve hassas malzemelerde temiz, yırtılmasız kesim sağlar.',
+        icon: 'Ruler',
+      },
+    ],
+
+    features: [
+      'Paslanmaz çelik — korozyon direnci ve hijyen',
+      'PTFE kaplamalı varyant — sürtünmeyi %40-50 azaltır',
+      'Yapışkan birikmesini önler — temizlik arası gerektirmez',
+      'Yağsız (Oil-Free) versiyon — gıda ve medikal uyum',
+      '0.10mm ultra ince kalınlık — hassas kesim',
+      '43×22mm standart boyut — yaygın kazıyıcı aparatlarla uyumlu',
+      '37mm aktif kesim kenarı — geniş çalışma alanı',
+      '250li ve 2000li ambalaj seçenekleri — düşük ve yüksek tüketim',
+    ],
+
+    availableSizes: ['43×22×0.10mm'],
+    certifications: ['CE'],
+    relatedProductIds: ['b684-b685', 'b621'],
+
+    seo: {
+      title: 'B204 Klasik Jilet Paslanmaz PTFE Kaplamalı 43×22mm | Tek Kenar Endüstriyel Jilet | Alya Bıçak',
+      description: 'B204 endüstriyel klasik jilet, 43×22×0.10mm, paslanmaz çelik, tek kenar. PTFE kaplamalı ve yağsız seçenekleri. Kağıt dilme, etiket sökme, boya kazıma, matbaa, ambalaj. Türkiye distribütörü Alya Bıçak.',
+      keywords: [
+        'klasik jilet', 'endüstriyel klasik jilet', 'tek kenarlı jilet', 'single edge blade',
+        'B204', 'classic blade stainless steel', 'paslanmaz jilet', 'PTFE kaplamalı jilet',
+        'kazıma jileti', 'dilme jileti', 'etiket sökme jileti', 'boya kazıma jileti',
+        '43x22mm jilet', '0.10mm jilet', 'kağıt kesim jileti', 'ambalaj kesim jileti',
+        'matbaa jileti', 'yapışkan temizleme', 'single edge razor blade',
+        'PTFE coated single edge blade', 'oil-free single edge blade',
+        'industrial scraper blade', 'label removal blade', 'paint scraping blade',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 345,
+  },
+
+  // ─── B684/B685 KLASİK JİLET — MEDİKAL ──────────────────────────────────────
+  {
+    id: 'b684-b685',
+    slug: 'b684-b685-klasik-jilet-medikal',
+    slugEN: 'b684-b685-classic-blade-medical',
+    code: 'B684 / B685',
+    name: 'B684/B685 KLASİK JİLET — MEDİKAL',
+    subtitle: 'Paslanmaz Çelik, 3 Açılı Bileme (Triple Facet) — Medikal / Laboratuvar',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'classic-blades',
+    tags: [
+      'medikal jilet', 'medikal klasik jilet', 'triple facet blade', '3 açılı jilet',
+      'single edge blade medical', 'paslanmaz medikal', 'histoloji jileti',
+      'patoloji jileti', 'dermatoloji jileti', 'laboratuvar jileti', 'skin scraping blade',
+      'klasik jilet medikal', '38x19mm jilet', 'B684', 'B685',
+    ],
+
+    shortDescription: 'B684/B685 Medikal Klasik Jilet. 38×19×0.10mm, paslanmaz çelik, 3 açılı bileme (triple facet), kaplamalı. Histoloji, patoloji, dermatoloji ve laboratuvar kullanımı. B684: 100 adet/kutu, B685: 250 adet/kutu.',
+
+    longDescription: `
+      <p><strong>B684/B685 Medikal Klasik Jilet</strong>, 38×19×0.10mm boyutlarında, paslanmaz çelik, 3 açılı bileme (triple facet) geometrisine sahip kaplamalı medikal tip tek kenar jiletdir. Histoloji, patoloji, dermatoloji laboratuvarlarında doku kesimi, numune hazırlama ve hassas kazıma işlemlerinde kullanılmak üzere tasarlanmıştır.</p>
+
+      <h3>Neden 3 Açılı Bileme (Triple Facet)?</h3>
+      <p>Standart tek açılı bileme yerine <strong>üç kademeli bileme geometrisi</strong> kullanılır. Bu geometri kenar dayanıklılığını artırırken, kesim noktasında ultra ince bir profil oluşturur. Sonuç olarak:</p>
+      <ul>
+        <li><strong>Doku hasarı minimumda kalır</strong> — patoloji numunelerinde histolojik artefakt oluşmaz</li>
+        <li><strong>Kenar ömrü uzar</strong> — üç kademe yükü dağıtarak tek noktada aşınmayı önler</li>
+        <li><strong>Daha pürüzsüz kesim yüzeyi</strong> — deri kazıma (skin scraping) numunelerinde hücre bütünlüğü korunur</li>
+      </ul>
+
+      <h3>Medikal / Laboratuvar Kullanımı</h3>
+      <p>B684/B685, özellikle aşağıdaki tıbbi ve laboratuvar uygulamaları için uygundur:</p>
+      <ul>
+        <li><strong>Histoloji:</strong> Parafin gömülü doku bloklarından ince kesitler alma — mikrotom jiletinin alternatifi olarak rutin histoloji prosedürlerinde</li>
+        <li><strong>Patoloji:</strong> Biyopsi materyalinin hazırlanması, gross disseksiyon sırasında doku düzeltme</li>
+        <li><strong>Dermatoloji:</strong> KOH preparatı için deri kazıma (skin scraping), mantar numunesi toplama</li>
+        <li><strong>Genel Laboratuvar:</strong> Hassas kazıma, preparasyon, slayt hazırlama</li>
+      </ul>
+
+      <h3>Ambalaj Seçenekleri</h3>
+      <table>
+        <tr><th>Kod</th><th>Adet</th><th>İdeal Kullanım</th></tr>
+        <tr><td>B684 001</td><td>100 Adet/Kutu</td><td>Küçük laboratuvarlar, düşük tüketim</td></tr>
+        <tr><td>B685 001</td><td>250 Adet/Kutu</td><td>Yoğun laboratuvarlar, hastane patoloji bölümü</td></tr>
+      </table>
+
+      <h3>Neden Paslanmaz Çelik?</h3>
+      <p>Medikal uygulamalarda korozyon riski kabul edilemez. Paslanmaz çelik yapı; nemli laboratuvar ortamlarında, kimyasal solüsyonlarla temas halinde ve sterilizasyon süreçlerinde jilet bütünlüğünü korur.</p>
+
+      <h3>Hassas Endüstriyel Kullanım</h3>
+      <p>Medikal segment dışında, 3 açılı bileme geometrisi hassas endüstriyel kazıma ve temizlik işlerinde de tercih edilir: optik lens temizliği, elektronik devre kartı kazıma, hassas yüzey hazırlama gibi ultra düşük toleranslı işlerde klasik tek açılı jiletlere göre üstün performans sağlar.</p>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/b684-klasik-jilet-medikal.jpg',
+        alt: 'B684 B685 Medikal Klasik Jilet Paslanmaz 3 Açılı Bileme Triple Facet— Alya Bıçak',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/b684-klasik-jilet-medikal.jpg',
+        alt: 'B684/B685 Medikal Klasik Jilet — Alya Bıçak',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Paslanmaz Çelik', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '38×19×0.10mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.10mm', icon: 'Ruler' },
+      { label: 'edge', value: '3 Açılı Bileme (Triple Facet)', icon: 'Triangle', highlight: true },
+      { label: 'coating', value: 'Kaplamalı', icon: 'Sparkles' },
+      { label: 'packaging', value: '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Histoloji', icon: 'Microscope', description: 'Parafin gömülü doku bloklarından ince kesit alma' },
+      { title: 'Patoloji', icon: 'FlaskConical', description: 'Biyopsi materyali hazırlama, gross disseksiyon' },
+      { title: 'Dermatoloji', icon: 'Stethoscope', description: 'KOH preparatı için deri kazıma (skin scraping), mantar numunesi' },
+      { title: 'Laboratuvar Genel', icon: 'TestTube', description: 'Hassas kazıma, preparasyon, slayt hazırlama' },
+      { title: 'Hassas Endüstriyel', icon: 'Cpu', description: 'Optik lens temizliği, elektronik devre kartı kazıma' },
+    ],
+
+    benefits: [
+      {
+        title: '3 Açılı Bileme — Ultra Hassas Kenar',
+        description: 'Triple facet geometrisi doku hasarını minimuma indirir, kenar ömrünü uzatır ve pürüzsüz kesim yüzeyi sağlar.',
+        icon: 'Triangle',
+      },
+      {
+        title: 'Paslanmaz Çelik — Medikal Güvenlik',
+        description: 'Nemli laboratuvar ortamlarında, kimyasal solüsyonlarla temasta ve sterilizasyon süreçlerinde jilet bütünlüğü korunur.',
+        icon: 'ShieldCheck',
+      },
+      {
+        title: 'Kaplamalı Yüzey — Düşük Sürtünme',
+        description: 'Kaplama sayesinde doku ve malzemelere minimum sürtünmeyle temas sağlar, hücre bütünlüğü korunur.',
+        icon: 'Sparkles',
+      },
+      {
+        title: '2 Ambalaj Seçeneği — B684 / B685',
+        description: 'B684: 100 adet/kutu (küçük lab), B685: 250 adet/kutu (yoğun kullanım) — tüketim hacminize göre esneklik.',
+        icon: 'Package',
+      },
+    ],
+
+    features: [
+      'Paslanmaz çelik — korozyon direnci ve medikal güvenlik',
+      '3 açılı bileme (triple facet) — ultra hassas kesim kenarı',
+      'Kaplamalı yüzey — düşük sürtünme ve pürüzsüz kesim',
+      '38×19mm kompakt boyut — standart kazıyıcı aparatlarla uyumlu',
+      '0.10mm ultra ince kalınlık',
+      '100 adet (B684) ve 250 adet (B685) ambalaj seçenekleri',
+      'Histoloji, patoloji, dermatoloji laboratuvar uyumlu',
+    ],
+
+    availableSizes: ['38×19×0.10mm'],
+    certifications: ['CE'],
+    relatedProductIds: ['b204', 'b575'],
+
+    seo: {
+      title: 'B684/B685 Medikal Klasik Jilet 3 Açılı Bileme Triple Facet | Paslanmaz | Alya Bıçak',
+      description: 'B684/B685 medikal klasik jilet, 38×19×0.10mm, paslanmaz çelik, 3 açılı bileme (triple facet), kaplamalı. Histoloji, patoloji, dermatoloji, laboratuvar kullanımı. 100 ve 250 adetlik kutular.',
+      keywords: [
+        'medikal jilet', 'medikal klasik jilet', 'klasik jilet medikal', 'single edge blade medical',
+        'B684', 'B685', 'triple facet blade', '3 açılı jilet', 'paslanmaz medikal jilet',
+        'histoloji jileti', 'patoloji jileti', 'dermatoloji jileti', 'laboratuvar jileti',
+        '38x19mm jilet', 'medikal tek kenar jilet', 'medical single edge blade',
+        'skin scraping blade', 'deri kazıma jileti', 'KOH preparatı jileti',
+        'triple facet single edge blade', 'coated medical blade',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 346,
   },
 ];
 

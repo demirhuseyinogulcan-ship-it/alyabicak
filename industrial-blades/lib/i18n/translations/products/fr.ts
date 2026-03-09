@@ -2121,12 +2121,6 @@ export const productsFr: Record<string, ProductTranslation> = {
       keywords: ['lame lamelle', 'lame feuille', 'lame coupe film', 'lame coupe feuille', 'lame coupe étiquettes', 'lame slitter', 'lame céramique', 'lame tungstène', 'B084.075'],
     },
   },
-  'b204': {
-    name: 'B204 - Lame Classique',
-    description: 'Lame classique B204 pour usage quotidien. Design traditionnel avec qualité Sheffield.',
-    features: ['Design classique', 'Usage quotidien', 'Qualité Sheffield'],
-    applications: ['Usage quotidien', 'Découpe générale', 'Applications standard'],
-  },
   'b207-2': {
     name: 'B207 L - Lame Trapézoïdale Allongée',
     subtitle: 'Lame trapézoïdale allongée',
@@ -3966,6 +3960,88 @@ export const productsFr: Record<string, ProductTranslation> = {
       title: 'Lame Grattoir B621 Acier Inoxydable 60–150mm | Lame de Grattage Vitre | Nettoyage Vitres',
       description: 'Lame grattoir B621, acier inoxydable, 3 trous, laquée. 60mm–150mm. Gratte sans rayer. Retrait PPF, films, detailing auto. Qualité Sheffield.',
       keywords: ['lame grattoir vitre', 'grattoir à vitre', 'lame de grattage', 'B621', 'retrait colle', 'nettoyage vitres', 'retrait PPF', 'detailing auto', 'retrait film fenêtre', 'grattoir professionnel'],
+    },
+  },
+
+  // ─── B204 LAME CLASSIQUE — INDUSTRIELLE ───────────────────────────────────────
+  'b204': {
+    name: 'B204 LAME CLASSIQUE — INDUSTRIELLE',
+    subtitle: 'Acier Inoxydable Simple Tranchant — Options Revêtement PTFE / Sans Huile',
+    description: 'Lame classique industrielle B204. 43×22×0,10mm (bord de coupe 37mm), acier inoxydable, simple tranchant. 3 variantes : Inox/Huilée, Inox+PTFE/Huilée, Inox+PTFE/Sans huile. Coupe et grattage professionnels pour papier, emballage, impression, retrait d\'étiquettes, grattage de peinture, découpe de films plastiques et textile.',
+    shortDescription: 'Lame classique industrielle B204. 43×22×0,10mm, acier inoxydable, simple tranchant. Options PTFE et sans huile pour découpe papier, retrait d\'étiquettes, grattage peinture.',
+    features: [
+      'Acier inoxydable — résistance à la corrosion et hygiène',
+      'Variante revêtement PTFE — réduit la friction de 40-50%',
+      'Empêche l\'accumulation d\'adhésif — pas de pauses nettoyage',
+      'Version sans huile — conformité alimentaire et médicale',
+      '0,10mm ultra-fin — coupe de précision',
+      '43×22mm taille standard — compatible avec les supports de grattoir courants',
+      'Bord de coupe actif 37mm — large zone de travail',
+      'Options d\'emballage 250 et 2000 pièces',
+    ],
+    applications: [
+      'Découpe papier/emballage — machines de découpe papier, carton, film étirable, ruban',
+      'Impression — grattage d\'encre, nettoyage de cylindres, ébavurage de bords de papier',
+      'Retrait d\'étiquettes — étiquettes, codes-barres, prix sur verre, métal, plastique',
+      'Grattage de peinture — éclaboussures de peinture, vernis sur surfaces vitrées',
+      'Retrait d\'adhésif — résidus de ruban, colle, adhésif',
+      'Automobile — retrait de joints, décalcomanies, nettoyage de vitres',
+      'Découpe plastique/film — machines de découpe de films fins, feuilles, lamination',
+      'Emballage alimentaire — coupe hygiénique en ligne (version sans huile)',
+      'Textile — ébavurage de bords de tissu, coupe de fils',
+    ],
+    benefits: [
+      { title: 'Inoxydable — Résistant à la Corrosion', description: 'L\'acier inoxydable maintient la qualité de la lame en milieu humide, au contact alimentaire et avec des matériaux corrosifs.', icon: 'ShieldCheck' },
+      { title: 'Revêtement PTFE — Coupe Sans Friction', description: 'Le revêtement PTFE réduit la friction de 40-50%, empêche l\'accumulation d\'adhésif et prolonge la durée de vie 2-3x.', icon: 'Sparkles' },
+      { title: 'Option Sans Huile — Usage Hygiénique', description: 'La version sans huile fonctionne sans risque de contamination pour l\'emballage alimentaire et les environnements hygiéniques.', icon: 'Droplets' },
+      { title: '0,10mm Ultra-Fin — Précision', description: '0,10mm d\'épaisseur pour des coupes nettes sans déchirure dans les films fins, le papier et les matériaux délicats.', icon: 'Ruler' },
+    ],
+    longDescription: `<p>La <strong>lame classique industrielle B204</strong> mesure 43×22×0,10mm (bord de coupe actif 37mm), acier inoxydable à simple tranchant. Elle assure une coupe et un grattage professionnels : papier, emballage, impression, retrait d'étiquettes, grattage de peinture et découpe de films plastiques.</p>
+<h3>Pourquoi une lame classique ?</h3><p>Contrairement aux lames à segments qui changent de géométrie à chaque cassure, les lames classiques offrent une <strong>structure métallique monobloc</strong> sans risque de flexion ou de rupture.</p>
+<h3>Avantage du PTFE</h3><ul><li><strong>Réduit la friction de 40-50%</strong></li><li><strong>Empêche l'accumulation d'adhésif</strong></li><li><strong>Prolonge la durée de vie 2-3x</strong></li><li><strong>Coupe plus lisse</strong> — réduit le risque de déchirure</li></ul>
+<h3>Variantes</h3><table><tr><th>Code</th><th>Caractéristique</th><th>Emballage</th><th>Usage idéal</th></tr><tr><td>B204 003</td><td>Inox, Huilée</td><td>Boîte 250 pcs</td><td>Usage industriel général</td></tr><tr><td>B204 004</td><td>Inox + PTFE, Huilée</td><td>Boîte bâton 2000 pcs</td><td>Grattage adhésif/étiquettes, gros volume</td></tr><tr><td>B204 007</td><td>Inox + PTFE, Sans huile</td><td>Boîte bâton 2000 pcs</td><td>Emballage alimentaire, hygiénique</td></tr></table>`,
+    seo: {
+      title: 'Lame Classique B204 Inox PTFE 43×22mm | Lame Simple Tranchant Industrielle | Alya Blade',
+      description: 'Lame classique industrielle B204, 43×22×0,10mm, acier inoxydable, simple tranchant. Options PTFE et sans huile. Découpe papier, retrait étiquettes, grattage peinture.',
+      keywords: ['lame classique', 'lame simple tranchant', 'B204', 'lame PTFE', 'lame grattoir', 'retrait étiquettes', 'grattage peinture', 'lame découpe', 'lame industrielle', 'sans huile'],
+    },
+  },
+
+  // ─── B684/B685 LAME CLASSIQUE — MÉDICALE ──────────────────────────────────────
+  'b684-b685': {
+    name: 'B684/B685 LAME CLASSIQUE — MÉDICALE',
+    subtitle: 'Acier Inoxydable, Affûtage Triple Facette — Médical / Laboratoire',
+    description: 'Lame classique médicale B684/B685. 38×19×0,10mm, acier inoxydable, affûtage triple facette, revêtue. Pour histologie, pathologie, dermatologie et laboratoire. B684 : 100 pcs/boîte, B685 : 250 pcs/boîte.',
+    shortDescription: 'Lame classique médicale B684/B685. 38×19×0,10mm, acier inoxydable, triple facette. Laboratoires d\'histologie, pathologie, dermatologie.',
+    features: [
+      'Acier inoxydable — résistance à la corrosion et sécurité médicale',
+      'Affûtage triple facette — bord de coupe ultra-tranchant',
+      'Surface revêtue — faible friction et coupe lisse',
+      '38×19mm format compact — compatible supports de grattoir standards',
+      '0,10mm ultra-fin',
+      'Options 100 pcs (B684) et 250 pcs (B685)',
+      'Compatible laboratoires histologie, pathologie, dermatologie',
+    ],
+    applications: [
+      'Histologie — coupes fines de blocs tissulaires enrobés de paraffine',
+      'Pathologie — préparation de biopsies, dissection macroscopique',
+      'Dermatologie — grattage cutané pour préparation KOH, prélèvement fongique',
+      'Laboratoire général — grattage de précision, préparation, montage de lames',
+      'Industriel de précision — nettoyage de lentilles optiques, grattage de circuits',
+    ],
+    benefits: [
+      { title: 'Triple Facette — Bord Ultra-Tranchant', description: 'La géométrie triple facette minimise les dommages tissulaires, prolonge la durée de vie et offre une surface de coupe plus lisse.', icon: 'Triangle' },
+      { title: 'Acier Inoxydable — Sécurité Médicale', description: 'Maintient l\'intégrité en milieu humide de laboratoire, contact chimique et processus de stérilisation.', icon: 'ShieldCheck' },
+      { title: 'Surface Revêtue — Faible Friction', description: 'Le revêtement assure un contact minimal avec les tissus et matériaux, préservant l\'intégrité cellulaire.', icon: 'Sparkles' },
+      { title: '2 Formats — B684 / B685', description: 'B684 : 100 pcs/boîte (petit labo), B685 : 250 pcs/boîte (gros volume).', icon: 'Package' },
+    ],
+    longDescription: `<p>La <strong>lame classique médicale B684/B685</strong> mesure 38×19×0,10mm, acier inoxydable avec affûtage triple facette — conçue pour les laboratoires d'histologie, pathologie et dermatologie.</p>
+<h3>Pourquoi le triple facette ?</h3><ul><li><strong>Dommages tissulaires minimaux</strong> — pas d'artéfacts histologiques</li><li><strong>Durée de vie prolongée</strong> — répartition de la charge sur trois niveaux</li><li><strong>Surface de coupe plus lisse</strong> — préserve l'intégrité cellulaire</li></ul>
+<h3>Applications</h3><ul><li><strong>Histologie :</strong> Coupes fines de blocs de paraffine</li><li><strong>Pathologie :</strong> Préparation de biopsies</li><li><strong>Dermatologie :</strong> Grattage cutané pour KOH</li><li><strong>Laboratoire :</strong> Grattage de précision, montage de lames</li></ul>`,
+    seo: {
+      title: 'Lame Classique Médicale B684/B685 Triple Facette Inox | Lame Médicale Simple Tranchant',
+      description: 'Lame classique médicale B684/B685, 38×19×0,10mm, acier inoxydable, triple facette. Histologie, pathologie, dermatologie. 100 et 250 pièces.',
+      keywords: ['lame médicale', 'lame classique médicale', 'B684', 'B685', 'triple facette', 'lame histologie', 'lame pathologie', 'lame dermatologie', 'grattage cutané', 'lame laboratoire'],
     },
   },
 };

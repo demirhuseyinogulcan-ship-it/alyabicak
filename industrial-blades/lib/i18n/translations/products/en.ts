@@ -769,12 +769,6 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B226 Supaslit blade is a special-profile cutting blade designed for use in industrial slitting machines. Its 44/26×9×0.40mm dimensions and 2×Ø3mm hole configuration ensure precise machine mounting.</p><p>The 0.40mm ultra-thin thickness creates clean, burr-free slitting edges. Supplied in economical 12-pack tube packaging for bulk use.</p><p><strong>Applications:</strong> Film slitting, paper slitting, thin material slitting machines and precision industrial slitting operations.</p>`,
   },
-  'b204': {
-    name: 'B204 - Classic Blade',
-    description: 'Classic design industrial blade. Sheffield quality professional cutting blade.',
-    features: ['Classic design', 'Proven performance', 'Sheffield quality'],
-    applications: ['General cutting', 'Industrial use', 'Everyday tasks'],
-  },
   // B1xx Series — #11 to #14 Precision Craft Blades
   'b111': {
     name: 'B111 - Precision Craft Blade #11',
@@ -4123,6 +4117,103 @@ export const productsEn: Record<string, ProductTranslation> = {
         'sign removal blade', 'vinyl removal scraper', 'façade cleaning blade',
         'glass cleaning blade', 'stainless scraper', 'Rostfrei scraper blade',
         'scraper blade 100mm', 'scraper blade 150mm', 'industrial scraper blade',
+      ],
+    },
+  },
+
+  // ─── B204 CLASSIC BLADE — INDUSTRIAL ─────────────────────────────────────────
+  'b204': {
+    name: 'B204 CLASSIC BLADE — INDUSTRIAL',
+    subtitle: 'Stainless Steel Single Edge Blade — PTFE Coated / Oil-Free Options',
+    description: 'B204 Industrial Classic Blade. 43×22×0.10mm (37mm cutting edge), stainless steel, single edge. 3 variants: Stainless/Oiled, Stainless+PTFE/Oiled, Stainless+PTFE/Oil-Free. Professional cutting and scraping for paper, packaging, printing, label removal, paint scraping, plastic film slitting, and textile industries.',
+    shortDescription: 'B204 Industrial Classic Blade. 43×22×0.10mm, stainless steel, single edge. PTFE coated and oil-free options for paper slitting, label removal, paint scraping.',
+    features: [
+      'Stainless steel — corrosion resistance and hygiene',
+      'PTFE coated variant — reduces friction by 40-50%',
+      'Prevents adhesive build-up — no cleaning breaks needed',
+      'Oil-Free version — food and medical compliance',
+      '0.10mm ultra-thin — precision cutting',
+      '43×22mm standard size — fits common scraper holders',
+      '37mm active cutting edge — wide working area',
+      '250-pc and 2000-pc packaging options',
+    ],
+    applications: [
+      'Paper/packaging slitting — paper, cardboard, stretch film, tape slitting machines',
+      'Printing/press — ink scraping, print cylinder cleaning, paper edge trimming',
+      'Label removal — labels, barcodes, price tags from glass, metal, plastic surfaces',
+      'Paint scraping — paint splatter, varnish from glass surfaces (post-construction)',
+      'Adhesive removal — tape residue, adhesive remnants, glue cleaning',
+      'Automotive — gasket removal, decal scraping, glass cleaning',
+      'Plastic/film slitting — thin film, foil, lamination slitting machines',
+      'Food packaging — hygienic cutting on packaging lines (oil-free version)',
+      'Textile — fabric edge trimming, thread cutting',
+    ],
+    benefits: [
+      { title: 'Stainless — Corrosion Resistant', description: 'Stainless steel construction maintains blade quality in humid environments, food contact, and corrosive material handling.', icon: 'ShieldCheck' },
+      { title: 'PTFE Coating — Frictionless Cutting', description: 'PTFE coated variant reduces friction by 40-50%, prevents adhesive build-up, and extends blade life 2-3x.', icon: 'Sparkles' },
+      { title: 'Oil-Free Option — Hygienic Use', description: 'Oil-Free version works without oil contamination risk for food packaging and hygienic cutting environments.', icon: 'Droplets' },
+      { title: 'Ultra-Thin 0.10mm — Precision', description: '0.10mm thickness delivers clean, tear-free cuts in thin film, paper, and delicate materials.', icon: 'Ruler' },
+    ],
+    longDescription: `<p>The <strong>B204 Industrial Classic Blade</strong> is a 43×22×0.10mm (37mm active cutting edge) stainless steel single edge blade. It provides professional-grade cutting and scraping across a wide industrial range: paper, packaging, printing, label removal, paint scraping, and plastic film slitting.</p>
+<h3>Why Classic Blades (Single Edge)?</h3><p>Unlike snap-off blades that change cutting geometry with each break, classic blades offer a <strong>solid one-piece metal structure</strong> with zero flex or break risk. Each blade is factory-ground to the same bevel angle — <strong>every cut is equal and predictable</strong>. This matters in slitting machines, print cylinder cleaning, and precision scraping.</p>
+<h3>Why Stainless Steel?</h3><p>Carbon steel blades corrode quickly in humid environments. Stainless steel ensures <strong>hygiene and durability</strong> in food packaging, wet environments, and corrosive material contact.</p>
+<h3>PTFE Coating Advantage</h3><ul><li><strong>Reduces friction 40-50%</strong> — easier scraping on adhesives (labels, tape, foil)</li><li><strong>Prevents adhesive build-up</strong> — no residue sticks to the blade surface</li><li><strong>Extends blade life 2-3x</strong> — less friction means slower edge wear</li><li><strong>Smoother cuts</strong> — reduces tearing risk in thin film and paper</li></ul>
+<h3>Oiled vs Oil-Free</h3><p><strong>Oiled</strong> versions provide corrosion protection and smooth cutting — ideal for general industrial use. <strong>Oil-Free</strong> versions are designed for <strong>food packaging</strong> and <strong>medical/hygienic</strong> environments where oil contamination is unacceptable.</p>
+<h3>Variants</h3><table><tr><th>Code</th><th>Feature</th><th>Packaging</th><th>Ideal Use</th></tr><tr><td>B204 003</td><td>Stainless, Oiled</td><td>250-pc Wrapped Box</td><td>General industrial</td></tr><tr><td>B204 004</td><td>Stainless + PTFE, Oiled</td><td>2000-pc Stick Box</td><td>Adhesive/label scraping, high volume</td></tr><tr><td>B204 007</td><td>Stainless + PTFE, Oil-Free</td><td>2000-pc Stick Box</td><td>Food packaging, hygienic</td></tr></table>`,
+    seo: {
+      title: 'B204 Classic Blade Stainless PTFE Coated 43×22mm | Single Edge Industrial Blade | Alya Blade',
+      description: 'B204 industrial classic blade, 43×22×0.10mm, stainless steel, single edge. PTFE coated and oil-free options. Paper slitting, label removal, paint scraping, printing, packaging. Turkey distributor Alya Blade.',
+      keywords: [
+        'classic blade', 'single edge blade', 'industrial single edge blade',
+        'B204', 'stainless single edge', 'PTFE coated blade', 'oil-free blade',
+        'scraper blade', 'slitting blade', 'label removal blade', 'paint scraping blade',
+        '43x22mm blade', 'paper cutting blade', 'packaging blade',
+        'print cylinder blade', 'adhesive removal blade', 'industrial razor blade',
+      ],
+    },
+  },
+
+  // ─── B684/B685 CLASSIC BLADE — MEDICAL ──────────────────────────────────────
+  'b684-b685': {
+    name: 'B684/B685 CLASSIC BLADE — MEDICAL',
+    subtitle: 'Stainless Steel, Triple Facet Grind — Medical / Laboratory',
+    description: 'B684/B685 Medical Classic Blade. 38×19×0.10mm, stainless steel, triple facet grind, coated. For histology, pathology, dermatology, and laboratory use. B684: 100 pcs/box, B685: 250 pcs/box.',
+    shortDescription: 'B684/B685 Medical Classic Blade. 38×19×0.10mm, stainless steel, triple facet. Histology, pathology, dermatology labs. 100-pc and 250-pc boxes.',
+    features: [
+      'Stainless steel — corrosion resistance and medical safety',
+      'Triple facet grind — ultra-sharp cutting edge',
+      'Coated surface — low friction and smooth cutting',
+      '38×19mm compact size — fits standard scraper holders',
+      '0.10mm ultra-thin',
+      '100-pc (B684) and 250-pc (B685) packaging options',
+      'Histology, pathology, dermatology laboratory compatible',
+    ],
+    applications: [
+      'Histology — thin sectioning from paraffin-embedded tissue blocks',
+      'Pathology — biopsy material preparation, gross dissection',
+      'Dermatology — skin scraping for KOH preparation, fungal sample collection',
+      'General laboratory — precision scraping, preparation, slide making',
+      'Precision industrial — optical lens cleaning, circuit board scraping',
+    ],
+    benefits: [
+      { title: 'Triple Facet — Ultra-Sharp Edge', description: 'Triple facet geometry minimizes tissue damage, extends edge life, and delivers a smoother cutting surface.', icon: 'Triangle' },
+      { title: 'Stainless Steel — Medical Safety', description: 'Maintains blade integrity in humid lab environments, chemical contact, and sterilisation processes.', icon: 'ShieldCheck' },
+      { title: 'Coated Surface — Low Friction', description: 'Coating ensures minimum friction contact with tissue and materials, preserving cell integrity.', icon: 'Sparkles' },
+      { title: '2 Pack Sizes — B684 / B685', description: 'B684: 100 pcs/box (small lab), B685: 250 pcs/box (high volume) — flexibility for your consumption.', icon: 'Package' },
+    ],
+    longDescription: `<p>The <strong>B684/B685 Medical Classic Blade</strong> is a 38×19×0.10mm stainless steel blade with triple facet grind geometry — designed for histology, pathology, and dermatology laboratories.</p>
+<h3>Why Triple Facet?</h3><p>Instead of a single bevel, <strong>three-stage grind geometry</strong> is used. This increases edge durability while creating an ultra-thin profile at the cutting point:</p><ul><li><strong>Minimal tissue damage</strong> — no histological artefacts in pathology specimens</li><li><strong>Extended edge life</strong> — three stages distribute load, preventing single-point wear</li><li><strong>Smoother cutting surface</strong> — preserves cell integrity in skin scraping (KOH) specimens</li></ul>
+<h3>Medical / Laboratory Applications</h3><ul><li><strong>Histology:</strong> Thin sections from paraffin-embedded tissue blocks — routine histology alternative to microtome blades</li><li><strong>Pathology:</strong> Biopsy material preparation, tissue trimming during gross dissection</li><li><strong>Dermatology:</strong> Skin scraping for KOH preparation, fungal sample collection</li><li><strong>General Laboratory:</strong> Precision scraping, preparation, slide making</li></ul>
+<h3>Pack Sizes</h3><table><tr><th>Code</th><th>Quantity</th><th>Ideal Use</th></tr><tr><td>B684 001</td><td>100 pcs/box</td><td>Small laboratories, low consumption</td></tr><tr><td>B685 001</td><td>250 pcs/box</td><td>High-volume labs, hospital pathology departments</td></tr></table>`,
+    seo: {
+      title: 'B684/B685 Medical Classic Blade Triple Facet Stainless | Medical Single Edge Blade | Alya Blade',
+      description: 'B684/B685 medical classic blade, 38×19×0.10mm, stainless steel, triple facet grind, coated. Histology, pathology, dermatology, laboratory use. 100 and 250-pc boxes.',
+      keywords: [
+        'medical blade', 'medical single edge blade', 'classic blade medical',
+        'B684', 'B685', 'triple facet blade', 'stainless medical blade',
+        'histology blade', 'pathology blade', 'dermatology blade', 'laboratory blade',
+        'skin scraping blade', 'KOH preparation blade',
+        'triple facet single edge blade', 'coated medical blade',
       ],
     },
   },

@@ -395,6 +395,19 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Laklı': 'Laklı',
     'Hassas Endüstriyel Bileme': 'Hassas Endüstriyel Bileme',
     '60mm / 80mm / 100mm / 150mm': '60mm / 80mm / 100mm / 150mm',
+
+    // B204 Klasik Jilet (Endüstriyel) Değerleri
+    '43×22×0.10mm (37mm Kesim Kenarı)': '43×22×0.10mm (37mm Kesim Kenarı)',
+    '0.10mm': '0.10mm',
+    'Tek Kenar (Single Edge)': 'Tek Kenar (Single Edge)',
+    'Standart / PTFE Kaplamalı': 'Standart / PTFE Kaplamalı',
+    'Yağlı / Yağsız': 'Yağlı / Yağsız',
+    '250li Kutu / 2000li Çubuklu Kutu': '250li Kutu / 2000li Çubuklu Kutu',
+
+    // B684/B685 Klasik Jilet (Medikal) Değerleri
+    '38×19×0.10mm': '38×19×0.10mm',
+    'Kaplamalı': 'Kaplamalı',
+    '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)',
   },
 
   // =============================================================================
@@ -782,6 +795,19 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Laklı': 'Lacquered',
     'Hassas Endüstriyel Bileme': 'Precision Industrial Grind',
     '60mm / 80mm / 100mm / 150mm': '60mm / 80mm / 100mm / 150mm',
+
+    // B204 Classic Blade (Industrial) Values
+    '43×22×0.10mm (37mm Kesim Kenarı)': '43×22×0.10mm (37mm Cutting Edge)',
+    '0.10mm': '0.10mm',
+    'Tek Kenar (Single Edge)': 'Single Edge',
+    'Standart / PTFE Kaplamalı': 'Standard / PTFE Coated',
+    'Yağlı / Yağsız': 'Oiled / Oil-Free',
+    '250li Kutu / 2000li Çubuklu Kutu': '250-pc Box / 2000-pc Stick Box',
+
+    // B684/B685 Classic Blade (Medical) Values
+    '38×19×0.10mm': '38×19×0.10mm',
+    'Kaplamalı': 'Coated',
+    '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 pcs/box (B684) — 250 pcs/box (B685)',
   },
 
   // =============================================================================
@@ -1134,6 +1160,19 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Laklı': 'مطلية باللك',
     'Hassas Endüstriyel Bileme': 'شحذ صناعي دقيق',
     '60mm / 80mm / 100mm / 150mm': '60مم / 80مم / 100مم / 150مم',
+
+    // قيم شفرة كلاسيكية B204 (صناعية)
+    '43×22×0.10mm (37mm Kesim Kenarı)': '43×22×0.10مم (حافة قطع 37مم)',
+    '0.10mm': '0.10مم',
+    'Tek Kenar (Single Edge)': 'حافة واحدة',
+    'Standart / PTFE Kaplamalı': 'قياسي / مطلي PTFE',
+    'Yağlı / Yağsız': 'مزيّت / خالي من الزيت',
+    '250li Kutu / 2000li Çubuklu Kutu': 'صندوق 250 قطعة / صندوق شرائح 2000 قطعة',
+
+    // قيم شفرة كلاسيكية B684/B685 (طبية)
+    '38×19×0.10mm': '38×19×0.10مم',
+    'Kaplamalı': 'مطلية',
+    '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 قطعة/صندوق (B684) — 250 قطعة/صندوق (B685)',
   },
 
   // =============================================================================
@@ -1521,6 +1560,19 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Laklı': 'Laquée',
     'Hassas Endüstriyel Bileme': 'Affûtage industriel de précision',
     '60mm / 80mm / 100mm / 150mm': '60mm / 80mm / 100mm / 150mm',
+
+    // Valeurs lame classique B204 (industrielle)
+    '43×22×0.10mm (37mm Kesim Kenarı)': '43×22×0.10mm (bord de coupe 37mm)',
+    '0.10mm': '0,10mm',
+    'Tek Kenar (Single Edge)': 'Simple tranchant',
+    'Standart / PTFE Kaplamalı': 'Standard / Revêtement PTFE',
+    'Yağlı / Yağsız': 'Huilée / Sans huile',
+    '250li Kutu / 2000li Çubuklu Kutu': 'Boîte 250 pcs / Boîte bâton 2000 pcs',
+
+    // Valeurs lame classique B684/B685 (médicale)
+    '38×19×0.10mm': '38×19×0,10mm',
+    'Kaplamalı': 'Revêtue',
+    '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 pcs/boîte (B684) — 250 pcs/boîte (B685)',
   },
 
   // =============================================================================
@@ -1908,6 +1960,19 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Laklı': 'Лакированное',
     'Hassas Endüstriyel Bileme': 'Точная промышленная заточка',
     '60mm / 80mm / 100mm / 150mm': '60мм / 80мм / 100мм / 150мм',
+
+    // Значения классического лезвия B204 (промышленное)
+    '43×22×0.10mm (37mm Kesim Kenarı)': '43×22×0,10мм (режущая кромка 37мм)',
+    '0.10mm': '0,10мм',
+    'Tek Kenar (Single Edge)': 'Односторонний',
+    'Standart / PTFE Kaplamalı': 'Стандартное / с PTFE покрытием',
+    'Yağlı / Yağsız': 'С маслом / Без масла',
+    '250li Kutu / 2000li Çubuklu Kutu': 'Коробка 250 шт / Коробка-стик 2000 шт',
+
+    // Значения классического лезвия B684/B685 (медицинское)
+    '38×19×0.10mm': '38×19×0,10мм',
+    'Kaplamalı': 'С покрытием',
+    '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 шт/кор. (B684) — 250 шт/кор. (B685)',
   },
 };
 
