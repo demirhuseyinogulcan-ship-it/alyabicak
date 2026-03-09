@@ -3934,4 +3934,38 @@ export const productsFr: Record<string, ProductTranslation> = {
       ],
     },
   },
+
+  // --- LAMES GRATTOIR À VITRE ---
+
+  'b621': {
+    name: 'B621 LAME GRATTOIR À VITRE',
+    subtitle: 'Lame de grattage professionnelle en acier inoxydable — 3 trous, laquée',
+    description: 'Série de lames grattoir B621. 3 trous, laquée, acier inoxydable (Rostfrei). Largeurs 60mm, 80mm, 100mm, 150mm. Gratte en toute sécurité les résidus de colle, silicone, ruban adhésif, étiquettes et films des surfaces vitrées sans rayer.',
+    shortDescription: 'Lame grattoir B621 en acier inoxydable, 3 trous, laquée. 60–150mm. Gratte sans rayer. Retrait PPF, films de fenêtre, detailing auto.',
+    features: [
+      'Acier inoxydable (Rostfrei) — pas de corrosion, pas de flexion',
+      'Angle d\'affûtage uniforme au micron — ne raye pas le verre',
+      'Montage universel 3 trous — compatible tous supports grattoir',
+      'Surface laquée — glisse douce, friction minimale',
+      'Épaisseur 0,20mm — précise et résistante',
+      '4 largeurs : 60mm, 80mm, 100mm, 150mm',
+      'Fonctionne sur surfaces humides et sèches',
+      'Qualité Sheffield Durham Duplex',
+    ],
+    applications: ['Nettoyage de vitres', 'Retrait PPF/vinyle', 'Detailing auto', 'Retrait de film de fenêtre', 'Habillage de façade', 'Retrait d\'enseignes et vinyle', 'Nettoyage céramique'],
+    benefits: [
+      { title: 'Sans rayure — qualité inox', description: 'Acier Rostfrei et angle d\'affûtage uniforme au micron garantissent zéro rayure.', icon: 'ShieldCheck' },
+      { title: 'Pas de flexion — métal rigide', description: 'L\'acier inoxydable empêche la flexion et assure un grattage plat et contrôlé.', icon: 'Shield' },
+      { title: '4 options de largeur', description: 'De 60mm pour les coins étroits à 150mm pour les grands panneaux vitrés.', icon: 'Maximize' },
+      { title: 'Prêt pour les professionnels', description: 'Choix des entreprises de nettoyage de vitres, detailing auto et retrait d\'enseignes.', icon: 'Award' },
+    ],
+    longDescription: `<p>La série <strong>lames grattoir B621</strong> est fabriquée en acier inoxydable (Rostfrei) pour retirer en toute sécurité les résidus de colle, silicone, ruban et étiquettes des surfaces vitrées.</p>
+<h3>Dimensions</h3><ul><li>60×22×0,20mm : Zones étroites</li><li>80×22×0,20mm : Grattage standard</li><li>100×22×0,20mm : Surfaces larges</li><li>150×22×0,20mm : Grands panneaux</li></ul>
+<h3>Applications</h3><ul><li>Nettoyage de vitres après construction</li><li>Retrait PPF et vinyle automobile</li><li>Detailing auto</li><li>Retrait de film de fenêtre</li><li>Nettoyage de façades et enseignes</li></ul>`,
+    seo: {
+      title: 'Lame Grattoir B621 Acier Inoxydable 60–150mm | Lame de Grattage Vitre | Nettoyage Vitres',
+      description: 'Lame grattoir B621, acier inoxydable, 3 trous, laquée. 60mm–150mm. Gratte sans rayer. Retrait PPF, films, detailing auto. Qualité Sheffield.',
+      keywords: ['lame grattoir vitre', 'grattoir à vitre', 'lame de grattage', 'B621', 'retrait colle', 'nettoyage vitres', 'retrait PPF', 'detailing auto', 'retrait film fenêtre', 'grattoir professionnel'],
+    },
+  },
 };

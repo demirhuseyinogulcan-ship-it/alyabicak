@@ -6524,6 +6524,195 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 343,
   },
+
+  // ─── B621 CAM KAZIYICI JİLET SERİSİ ──────────────────────────────────────────
+  {
+    id: 'b621',
+    slug: 'b621-cam-kaziyici-jilet',
+    slugEN: 'b621-glass-scraper-blade',
+    code: 'B621',
+    name: 'B621 CAM KAZIYICI JİLET',
+    subtitle: 'Profesyonel Paslanmaz Cam Kazıma Jileti — 3 Delikli, Laklı',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'glass-scraper',
+    tags: [
+      'cam kazıyıcı', 'cam kazıma', 'kazıyıcı jilet', 'glass scraper', 'scraper blade',
+      'paslanmaz', 'rostfrei', '3 delik', 'laklı', 'ppf sökme', 'folyo sökme',
+      'cam filmi sökme', 'cam temizlik', 'yapışkan temizleme', 'silikon sökme',
+      'etiket sökme', 'cephe temizlik', 'oto detailing', 'vitrin folyo sökme',
+    ],
+
+    shortDescription: 'B621 Cam Kazıyıcı Jilet serisi. 3 delikli, laklı, paslanmaz çelik (Rostfrei). 60mm, 80mm, 100mm, 150mm genişlik seçenekleri. Cam yüzeylerde yapışkan, silikon, bant, etiket, folyo ve boya kalıntılarını çizmeden temizler. PPF/folyo sökme, cam filmi temizliği, inşaat sonrası cam kazıma, oto detailing ve vitrin folyo sökümü için profesyonel kalite.',
+
+    longDescription: `
+      <p><strong>B621 Cam Kazıyıcı Jilet Serisi</strong>, cam ve hassas yüzeylerde yapışkan, silikon, bant kalıntıları, etiket, folyo artıkları ve boya sıçramalarını yüzeye zarar vermeden temizlemek için üretilmiş profesyonel paslanmaz çelik kazıma jiletidir. Sheffield Durham Duplex kalitesinde, Alman menşeli Rostfrei (paslanmaz) çelikten imal edilir.</p>
+
+      <h3>Neden Paslanmaz Çelik Cam Kazıyıcı?</h3>
+      <p>Piyasadaki ucuz karbon çelik kazıyıcılar; esneme, düzensiz bileme açısı ve mikro kırılma sorunları nedeniyle lüks cam yüzeylerde çiziklere yol açar. B621 serisi paslanmaz metal yapısı sayesinde esnemeyi önler ve her jilet <strong>mikron seviyesinde aynı bileme açısına</strong> sahiptir. Rezistanslara ve cam yüzeylere zarar vermez, ıslak zeminlerde bile güvenle kullanılabilir.</p>
+
+      <h3>Teknik Özellikler</h3>
+      <ul>
+        <li><strong>Malzeme:</strong> Paslanmaz Çelik (Rostfrei / Stainless Steel)</li>
+        <li><strong>Kalınlık:</strong> 0.20mm — hassas ve esnemez</li>
+        <li><strong>Yapı:</strong> 3 delikli montaj, laklı yüzey</li>
+        <li><strong>Genişlik Seçenekleri:</strong> 60mm, 80mm, 100mm, 150mm</li>
+        <li><strong>Standart Yükseklik:</strong> 22mm</li>
+      </ul>
+
+      <h3>Boyut Seçenekleri</h3>
+      <table>
+        <tr><th>Model</th><th>Boyut</th><th>Kullanım</th></tr>
+        <tr><td>B621-01</td><td>60×22×0.20mm</td><td>Dar alanlar, köşeler, detay işleri</td></tr>
+        <tr><td>B621-02</td><td>80×22×0.20mm</td><td>Standart cam kazıma, etiket sökme</td></tr>
+        <tr><td>B621-03</td><td>100×22×0.20mm</td><td>Geniş yüzey, folyo sökme, cephe temizliği</td></tr>
+        <tr><td>B621-04</td><td>150×22×0.20mm</td><td>Büyük cam paneller, endüstriyel temizlik</td></tr>
+      </table>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Cam Temizlik Firmaları:</strong> İnşaat ve tadilat sonrası cam yüzeylerde kemikleşmiş silikon, bant ve yapışkan kalıntılarının temizlenmesi</li>
+        <li><strong>PPF ve Folyo Kaplama Firmaları:</strong> Araçlarda PPF kaplama ve folyo sökümü sırasında cam/boya yüzeylerinin temizlenmesi</li>
+        <li><strong>Oto Detailing:</strong> Araç camlarından etiket, vignette, vergi pulu kalıntılarının çıkarılması</li>
+        <li><strong>Cam Filmi Sökümü:</strong> Araç ve bina camlarından eski cam filmi ve tutkal kalıntılarının temizlenmesi</li>
+        <li><strong>Cephe Giydirme:</strong> Dış cephe cam panellerinden yapışkan ve folyo kalıntılarının temizlenmesi</li>
+        <li><strong>Vitrin Folyo Sökümü:</strong> Mağaza vitrini, reklam panosu ve tabela folyo/afiş sökümü</li>
+        <li><strong>Seramik/Fayans Temizliği:</strong> Fuga kalıntıları ve etiket temizliği</li>
+        <li><strong>Buzlu Cam Filmi Montajı:</strong> Eski filmin sökülmesi ve cam yüzey hazırlığı</li>
+      </ul>
+
+      <h3>Kalite Farkı</h3>
+      <p>B621 serisi ucuz karbon alternatiflerinden farklı olarak:</p>
+      <ul>
+        <li>Paslanmaz yapı = esneme yok, korozyon yok</li>
+        <li>Mikron seviyesinde homojen bileme açısı = çizmeden kazıma</li>
+        <li>Laklı yüzey = kolay kayma, minimum sürtünme</li>
+        <li>3 delikli montaj = evrensel kazıyıcı aparatlarla uyum</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/b621-cam-kaziyici-jilet.jpg',
+        alt: 'B621 Cam Kazıyıcı Jilet Paslanmaz Çelik 3 Delikli — Alya Bıçak Cam Kazıma Jileti',
+        width: 800,
+        height: 800,
+      },
+      gallery: [
+        {
+          src: '/images/products/b621-cam-kaziyici-jilet-detay.jpg',
+          alt: 'B621 Cam Kazıyıcı Jilet Detay — Alya Bıçak Profesyonel Kazıma Jileti Paslanmaz',
+          width: 800,
+          height: 800,
+        },
+      ],
+      thumbnail: {
+        src: '/images/products/b621-cam-kaziyici-jilet.jpg',
+        alt: 'B621 Cam Kazıma Jileti — Alya Bıçak',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Paslanmaz Çelik (Rostfrei)', icon: 'Layers', highlight: true },
+      { label: 'thickness', value: '0.20mm', icon: 'Ruler' },
+      { label: 'height', value: '22mm', icon: 'ArrowUpDown' },
+      { label: 'holes', value: '3 Delik', icon: 'Circle' },
+      { label: 'surfaceFinish', value: 'Laklı', icon: 'Sparkles' },
+      { label: 'edge', value: 'Hassas Endüstriyel Bileme', icon: 'Triangle' },
+      { label: 'availableWidths', value: '60mm / 80mm / 100mm / 150mm', icon: 'Maximize' },
+    ],
+
+    specLabelTranslations: {
+      height: { en: 'Height', ar: 'الارتفاع', ru: 'Высота', fr: 'Hauteur' },
+      availableWidths: { en: 'Available Widths', ar: 'العروض المتاحة', ru: 'Доступные ширины', fr: 'Largeurs disponibles' },
+    },
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Cam Temizliği', icon: 'Droplets', description: 'İnşaat sonrası cam yüzeylerde silikon, bant, yapışkan kazıma' },
+      { title: 'PPF/Folyo Sökme', icon: 'Layers', description: 'Araç PPF kaplama ve folyo sökümünde cam/boya temizliği' },
+      { title: 'Oto Detailing', icon: 'Car', description: 'Araç camlarından etiket, vignette ve kalıntı temizliği' },
+      { title: 'Cam Filmi Sökümü', icon: 'Film', description: 'Eski cam filmi ve tutkal kalıntılarının temizlenmesi' },
+      { title: 'Cephe Giydirme', icon: 'Building', description: 'Dış cephe camlarından yapışkan ve folyo kalıntı temizliği' },
+      { title: 'Vitrin/Tabela Söküm', icon: 'Store', description: 'Mağaza vitrini, reklam panosu, afiş folyo sökümü' },
+      { title: 'Seramik/Fayans', icon: 'Grid3x3', description: 'Fuga ve etiket kalıntılarının kazınması' },
+      { title: 'Buzlu Cam Filmi', icon: 'Snowflake', description: 'Buzlu film sökümü ve cam yüzey hazırlığı' },
+    ],
+
+    benefits: [
+      {
+        title: 'Çizmez — Paslanmaz Kalite',
+        description: 'Rostfrei paslanmaz çelik yapı ve mikron seviyesinde homojen bileme açısı sayesinde cam yüzeylerde çizik oluşturmaz.',
+        icon: 'ShieldCheck',
+      },
+      {
+        title: 'Esnemez — Sert Metal',
+        description: 'Ucuz karbon jiletlerin aksine paslanmaz metal esnemeyi önler, düz ve kontrollü kazıma sağlar.',
+        icon: 'Shield',
+      },
+      {
+        title: '4 Farklı Genişlik',
+        description: '60mm ile 150mm arasında 4 boyut seçeneği: dar köşelerden geniş cam panellere her iş için uygun boy.',
+        icon: 'Maximize',
+      },
+      {
+        title: 'Profesyonel Sektör Uyumu',
+        description: 'Cam temizlik, PPF sökme, oto detailing, folyo söküm ve cephe giydirme firmalarının profesyonel tercihi.',
+        icon: 'Award',
+      },
+    ],
+
+    features: [
+      'Paslanmaz çelik (Rostfrei) — korozyon ve esneme yok',
+      'Mikron seviyesinde homojen bileme açısı — cam çizmez',
+      '3 delikli evrensel montaj — tüm kazıyıcı aparatlarla uyumlu',
+      'Laklı yüzey — kolay kayma, minimum sürtünme',
+      '0.20mm kalınlık — hassas ve dayanıklı',
+      '4 genişlik: 60mm, 80mm, 100mm, 150mm',
+      'Islak ve kuru zeminlerde kullanılabilir',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: [
+      '60×22×0.20mm',
+      '80×22×0.20mm',
+      '100×22×0.20mm',
+      '150×22×0.20mm',
+    ],
+
+    certifications: ['CE'],
+    relatedProductIds: [],
+
+    seo: {
+      title: 'B621 Cam Kazıyıcı Jilet Paslanmaz 60-80-100-150mm | Cam Kazıma Jileti | Alya Bıçak',
+      description: 'B621 cam kazıyıcı jilet, paslanmaz çelik (Rostfrei), 3 delikli, laklı. 60mm, 80mm, 100mm, 150mm. Cam yüzeyleri çizmeden kazır. PPF sökme, cam filmi temizliği, oto detailing, folyo söküm, cam temizlik. Türkiye distribütörü Alya Bıçak.',
+      keywords: [
+        'cam kazıyıcı jilet', 'cam kazıma jileti', 'kazıma jileti', 'glass scraper blade',
+        'cam kazıyıcı', 'cam kazıma bıçağı', 'paslanmaz cam kazıyıcı', 'scraper blade',
+        'B621', 'cam kazıyıcı jilet fiyat', 'cam kazıma jileti fiyat',
+        'ppf sökme jileti', 'folyo sökme jileti', 'cam filmi sökme jileti',
+        'cam temizlik jileti', 'yapışkan kazıma jileti', 'silikon kazıma jileti',
+        'oto detailing jileti', 'vitrin folyo sökme', 'etiket sökme jileti',
+        'cephe cam temizlik jileti', 'endüstriyel cam kazıyıcı',
+        'cam kazıyıcı jilet 100mm', 'cam kazıyıcı jilet 150mm',
+        'glass scraper blade stainless', 'window scraper blade',
+        'razorblade scraper', 'professional scraper blade',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 344,
+  },
 ];
 
 // =============================================================================

@@ -4056,6 +4056,76 @@ export const productsEn: Record<string, ProductTranslation> = {
       ],
     },
   },
+
+  // --- GLASS SCRAPER BLADES ---
+
+  'b621': {
+    name: 'B621 GLASS SCRAPER BLADE SERIES',
+    subtitle: 'Professional Stainless Steel Glass Scraping Blade — 3-Hole, Lacquered',
+    description: 'B621 glass scraper blade series. 3-hole, lacquered, stainless steel (Rostfrei). 60mm, 80mm, 100mm, 150mm width options. Safely scrapes adhesive, silicone, tape, labels, film and paint residues from glass surfaces without scratching. Professional quality for PPF removal, window film cleaning, auto detailing, cladding work and sign removal.',
+    shortDescription: 'B621 glass scraper blade, stainless steel (Rostfrei), 3-hole, lacquered. 60–150mm widths. Scrapes residues from glass without scratching. For PPF removal, window film, auto detailing, sign removal.',
+    features: [
+      'Stainless steel (Rostfrei) — no corrosion, no flexing',
+      'Micron-level uniform sharpening angle — will not scratch glass',
+      '3-hole universal mounting — fits all standard scraper holders',
+      'Lacquered surface — smooth glide, minimal friction',
+      '0.20mm thickness — precise yet durable',
+      '4 widths: 60mm, 80mm, 100mm, 150mm',
+      'Works on wet and dry surfaces',
+      'Sheffield Durham Duplex quality',
+    ],
+    applications: [
+      'Glass cleaning — post-construction silicone, adhesive and tape residue removal',
+      'PPF/wrap removal — vehicle PPF and wrap film cleaning',
+      'Auto detailing — sticker, vignette and residue removal from car glass',
+      'Window film removal — old tint film and adhesive cleanup',
+      'Façade cladding — adhesive and wrap residue on exterior glass panels',
+      'Storefront/sign removal — vinyl lettering, posters, decals',
+      'Ceramic/tile cleaning — grout and label residue scraping',
+    ],
+    benefits: [
+      {
+        title: 'Scratch-Free — Stainless Quality',
+        description: 'Rostfrei stainless steel and micron-level uniform sharpening angle ensures zero scratching on glass surfaces.',
+        icon: 'ShieldCheck',
+      },
+      {
+        title: 'No Flexing — Rigid Metal',
+        description: 'Unlike cheap carbon blades, stainless metal prevents flexing and delivers flat, controlled scraping.',
+        icon: 'Shield',
+      },
+      {
+        title: '4 Width Options',
+        description: 'From 60mm for tight corners to 150mm for large glass panels — the right size for every job.',
+        icon: 'Maximize',
+      },
+      {
+        title: 'Professional Trade Ready',
+        description: 'Trusted by glass cleaners, PPF installers, auto detailers, sign removers and façade contractors.',
+        icon: 'Award',
+      },
+    ],
+    longDescription: `<p>The <strong>B621 Glass Scraper Blade Series</strong> is a professional-grade stainless steel (Rostfrei) scraping blade designed to safely remove adhesive, silicone, tape, label, film and paint residues from glass and sensitive surfaces without scratching.</p>
+<h3>Why Stainless Steel?</h3>
+<p>Cheap carbon steel scrapers cause scratches on premium glass due to flexing, inconsistent sharpening angles and micro-fractures at the edge. The B621 series uses stainless metal that prevents flexing, with each blade ground to the same micron-level sharpening angle. It will not damage heated glass, low-E coatings or tempered panels.</p>
+<h3>Size Options</h3>
+<ul><li><strong>60×22×0.20mm:</strong> Tight areas, corners, detail work</li><li><strong>80×22×0.20mm:</strong> Standard glass scraping, label removal</li><li><strong>100×22×0.20mm:</strong> Wide surfaces, film removal, façade cleaning</li><li><strong>150×22×0.20mm:</strong> Large glass panels, industrial cleaning</li></ul>
+<h3>Applications</h3>
+<ul><li><strong>Glass Cleaning Companies:</strong> Post-construction silicone, adhesive and tape residue removal from glass surfaces</li><li><strong>PPF & Wrap Installers:</strong> Vehicle PPF and vinyl wrap removal, adhesive cleanup</li><li><strong>Auto Detailing:</strong> Sticker, vignette and tax disc residue from windshields</li><li><strong>Window Film Removal:</strong> Old tint film and glue cleanup from vehicle and building glass</li><li><strong>Façade Contractors:</strong> Adhesive and wrap residue on exterior cladding glass</li><li><strong>Sign & Vinyl Removal:</strong> Storefront vinyl lettering, posters, banner and decal removal</li></ul>`,
+    seo: {
+      title: 'B621 Glass Scraper Blade Stainless Steel 60-80-100-150mm | Scraper Blade | Window Scraping',
+      description: 'B621 glass scraper blade, stainless steel (Rostfrei), 3-hole, lacquered. 60mm, 80mm, 100mm, 150mm. Scrapes without scratching. PPF removal, window film, auto detailing, sign removal. Sheffield quality.',
+      keywords: [
+        'glass scraper blade', 'window scraper blade', 'scraper blade stainless',
+        'glass scraping blade', 'razor scraper blade', 'professional scraper blade',
+        'B621', 'glass scraper blade price', 'PPF removal blade',
+        'window tint removal blade', 'adhesive scraper blade', 'auto detailing blade',
+        'sign removal blade', 'vinyl removal scraper', 'façade cleaning blade',
+        'glass cleaning blade', 'stainless scraper', 'Rostfrei scraper blade',
+        'scraper blade 100mm', 'scraper blade 150mm', 'industrial scraper blade',
+      ],
+    },
+  },
 };
 
 export default productsEn;

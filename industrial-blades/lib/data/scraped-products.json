@@ -10580,5 +10580,67 @@
     "isFeatured": true,
     "isActive": true,
     "order": 345
+  },
+  {
+    "id": "b621",
+    "slug": "b621-cam-kaziyici-jilet",
+    "slugEN": "b621-glass-scraper-blade",
+    "code": "B621",
+    "name": "B621 - Cam Kazıyıcı Jilet Serisi",
+    "description": "Cam Kazıyıcı Jilet, 3 Delikli, Laklı, Paslanmaz Çelik (Rostfrei). 60mm, 80mm, 100mm, 150mm genişlik seçenekleri. Cam yüzeylerde yapışkan, silikon, bant, etiket, folyo ve boya kalıntılarını çizmeden temizler. PPF sökme, cam filmi temizliği, oto detailing, vitrin folyo sökümü için profesyonel kalite. Sheffield Durham Duplex.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "glass-scraper",
+    "image": "/images/products/b621-cam-kaziyici-jilet.jpg",
+    "images": [
+      "/images/products/b621-cam-kaziyici-jilet-detay.jpg"
+    ],
+    "variants": [
+      { "id": "b621-01", "sku": "B621-01", "name": "B621-01 — 60×22×0.20mm", "inStock": true },
+      { "id": "b621-02", "sku": "B621-02", "name": "B621-02 — 80×22×0.20mm", "inStock": true },
+      { "id": "b621-03", "sku": "B621-03", "name": "B621-03 — 100×22×0.20mm", "inStock": true },
+      { "id": "b621-04", "sku": "B621-04", "name": "B621-04 — 150×22×0.20mm", "inStock": true }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik (Rostfrei)",
+      "thickness": "0.20mm",
+      "height": "22mm",
+      "holes": "3 Delik",
+      "surfaceFinish": "Laklı",
+      "edge": "Hassas Endüstriyel Bileme",
+      "availableWidths": "60mm / 80mm / 100mm / 150mm"
+    },
+    "features": [
+      "Paslanmaz çelik (Rostfrei)",
+      "3 delikli evrensel montaj",
+      "Laklı yüzey",
+      "0.20mm kalınlık",
+      "4 genişlik seçeneği",
+      "Islak ve kuru zeminlerde kullanılır",
+      "Cam yüzeyleri çizmez"
+    ],
+    "applications": [
+      "Cam temizliği",
+      "PPF/folyo sökme",
+      "Oto detailing",
+      "Cam filmi sökümü",
+      "Cephe giydirme",
+      "Vitrin folyo sökümü",
+      "Seramik/fayans temizliği"
+    ],
+    "availableSizes": [
+      "60×22×0.20mm",
+      "80×22×0.20mm",
+      "100×22×0.20mm",
+      "150×22×0.20mm"
+    ],
+    "seoKeywords": [
+      "cam kazıyıcı jilet", "cam kazıma jileti", "kazıma jileti", "glass scraper blade",
+      "cam kazıyıcı", "paslanmaz cam kazıyıcı", "scraper blade", "B621",
+      "ppf sökme jileti", "folyo sökme jileti", "cam filmi sökme jileti",
+      "cam temizlik jileti", "yapışkan kazıma jileti", "oto detailing jileti"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 346
   }
 ]

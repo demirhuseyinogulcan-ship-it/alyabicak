@@ -388,6 +388,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Moria, Hansatome, Zyoptix': 'Moria, Hansatome, Zyoptix',
     'Amadeus, Carriazo-Barraquer, Schwind': 'Amadeus, Carriazo-Barraquer, Schwind',
     '5 Adet/Kutu (Bireysel Steril)': '5 Adet/Kutu (Bireysel Steril)',
+
+    // B621 Cam Kazıyıcı Jilet Değerleri
+    'Paslanmaz Çelik (Rostfrei)': 'Paslanmaz Çelik (Rostfrei)',
+    '3 Delik': '3 Delik',
+    'Laklı': 'Laklı',
+    'Hassas Endüstriyel Bileme': 'Hassas Endüstriyel Bileme',
+    '60mm / 80mm / 100mm / 150mm': '60mm / 80mm / 100mm / 150mm',
   },
 
   // =============================================================================
@@ -768,6 +775,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Moria, Hansatome, Zyoptix': 'Moria, Hansatome, Zyoptix',
     'Amadeus, Carriazo-Barraquer, Schwind': 'Amadeus, Carriazo-Barraquer, Schwind',
     '5 Adet/Kutu (Bireysel Steril)': '5 pcs/box (Individual Sterile)',
+
+    // B621 Glass Scraper Blade Values
+    'Paslanmaz Çelik (Rostfrei)': 'Stainless Steel (Rostfrei)',
+    '3 Delik': '3 Holes',
+    'Laklı': 'Lacquered',
+    'Hassas Endüstriyel Bileme': 'Precision Industrial Grind',
+    '60mm / 80mm / 100mm / 150mm': '60mm / 80mm / 100mm / 150mm',
   },
 
   // =============================================================================
@@ -1113,6 +1127,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Moria, Hansatome, Zyoptix': 'Moria, Hansatome, Zyoptix',
     'Amadeus, Carriazo-Barraquer, Schwind': 'Amadeus, Carriazo-Barraquer, Schwind',
     '5 Adet/Kutu (Bireysel Steril)': '5 قطع/صندوق (معقمة فردياً)',
+
+    // قيم شفرات كاشطة الزجاج B621
+    'Paslanmaz Çelik (Rostfrei)': 'فولاذ مقاوم للصدأ (Rostfrei)',
+    '3 Delik': '3 ثقوب',
+    'Laklı': 'مطلية باللك',
+    'Hassas Endüstriyel Bileme': 'شحذ صناعي دقيق',
+    '60mm / 80mm / 100mm / 150mm': '60مم / 80مم / 100مم / 150مم',
   },
 
   // =============================================================================
@@ -1493,6 +1514,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Moria, Hansatome, Zyoptix': 'Moria, Hansatome, Zyoptix',
     'Amadeus, Carriazo-Barraquer, Schwind': 'Amadeus, Carriazo-Barraquer, Schwind',
     '5 Adet/Kutu (Bireysel Steril)': '5 pcs/boîte (Stérile individuel)',
+
+    // Valeurs lames grattoir B621
+    'Paslanmaz Çelik (Rostfrei)': 'Acier inoxydable (Rostfrei)',
+    '3 Delik': '3 trous',
+    'Laklı': 'Laquée',
+    'Hassas Endüstriyel Bileme': 'Affûtage industriel de précision',
+    '60mm / 80mm / 100mm / 150mm': '60mm / 80mm / 100mm / 150mm',
   },
 
   // =============================================================================
@@ -1873,6 +1901,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Moria, Hansatome, Zyoptix': 'Moria, Hansatome, Zyoptix',
     'Amadeus, Carriazo-Barraquer, Schwind': 'Amadeus, Carriazo-Barraquer, Schwind',
     '5 Adet/Kutu (Bireysel Steril)': '5 шт/коробка (Индивидуально стерильные)',
+
+    // Значения лезвий скребка B621
+    'Paslanmaz Çelik (Rostfrei)': 'Нержавеющая сталь (Rostfrei)',
+    '3 Delik': '3 отверстия',
+    'Laklı': 'Лакированное',
+    'Hassas Endüstriyel Bileme': 'Точная промышленная заточка',
+    '60mm / 80mm / 100mm / 150mm': '60мм / 80мм / 100мм / 150мм',
   },
 };
 
