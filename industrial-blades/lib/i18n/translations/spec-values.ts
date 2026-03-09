@@ -368,6 +368,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (Seramik) / HRC 90+ (Tungsten)',
     '84/80 × 7.5 × 1.0 mm': '84/80 × 7.5 × 1.0 mm',
     'Lamel / Yaprak (Lamella / Leaf)': 'Lamel / Yaprak (Lamella / Leaf)',
+
+    // B575 / B724 Mikrotom Jileti Değerleri
+    'Paslanmaz Çelik + Kaplama': 'Paslanmaz Çelik + Kaplama',
+    'Alçak Profil (Low Profile)': 'Alçak Profil (Low Profile)',
+    'Yüksek Profil (High Profile)': 'Yüksek Profil (High Profile)',
+    '3 Açılı Bileme (Triple Facet)': '3 Açılı Bileme (Triple Facet)',
+    'PTFE / Platin-Krom Kaplama': 'PTFE / Platin-Krom Kaplama',
+    'PTFE / Platin-Krom / Seramik Kaplama': 'PTFE / Platin-Krom / Seramik Kaplama',
+    'Non-Steril / Endüstriyel Kalite': 'Non-Steril / Endüstriyel Kalite',
+    'Leica, Thermo, Sakura, SLEE': 'Leica, Thermo, Sakura, SLEE',
+    '50 Adet/Kutu': '50 Adet/Kutu',
   },
 
   // =============================================================================
@@ -728,6 +739,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (Ceramic) / HRC 90+ (Tungsten)',
     '84/80 × 7.5 × 1.0 mm': '84/80 × 7.5 × 1.0 mm',
     'Lamel / Yaprak (Lamella / Leaf)': 'Lamella / Leaf',
+
+    // B575 / B724 Microtome Blade Values
+    'Paslanmaz Çelik + Kaplama': 'Stainless Steel + Coating',
+    'Alçak Profil (Low Profile)': 'Low Profile',
+    'Yüksek Profil (High Profile)': 'High Profile',
+    '3 Açılı Bileme (Triple Facet)': 'Triple Facet Grind',
+    'PTFE / Platin-Krom Kaplama': 'PTFE / Platinum-Chrome Coating',
+    'PTFE / Platin-Krom / Seramik Kaplama': 'PTFE / Platinum-Chrome / Ceramic Coating',
+    'Non-Steril / Endüstriyel Kalite': 'Non-Sterile / Industrial Grade',
+    'Leica, Thermo, Sakura, SLEE': 'Leica, Thermo, Sakura, SLEE',
+    '50 Adet/Kutu': '50 pcs/box',
   },
 
   // =============================================================================
@@ -1053,6 +1075,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (سيراميك) / HRC 90+ (تنغستن)',
     '84/80 × 7.5 × 1.0 mm': '84/80 × 7.5 × 1.0 مم',
     'Lamel / Yaprak (Lamella / Leaf)': 'لاميلا / ورقي',
+
+    // قيم شفرات الميكروتوم B575 / B724
+    'Paslanmaz Çelik + Kaplama': 'فولاذ مقاوم للصدأ + طلاء',
+    'Alçak Profil (Low Profile)': 'ملف منخفض',
+    'Yüksek Profil (High Profile)': 'ملف عالي',
+    '3 Açılı Bileme (Triple Facet)': 'شحذ ثلاثي الأوجه',
+    'PTFE / Platin-Krom Kaplama': 'طلاء PTFE / بلاتين-كروم',
+    'PTFE / Platin-Krom / Seramik Kaplama': 'طلاء PTFE / بلاتين-كروم / سيراميك',
+    'Non-Steril / Endüstriyel Kalite': 'غير معقم / درجة صناعية',
+    'Leica, Thermo, Sakura, SLEE': 'Leica, Thermo, Sakura, SLEE',
+    '50 Adet/Kutu': '50 قطعة/صندوق',
   },
 
   // =============================================================================
@@ -1413,6 +1446,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (Céramique) / HRC 90+ (Tungstène)',
     '84/80 × 7.5 × 1.0 mm': '84/80 × 7,5 × 1,0 mm',
     'Lamel / Yaprak (Lamella / Leaf)': 'Lamelle / Feuille',
+
+    // Valeurs lames microtome B575 / B724
+    'Paslanmaz Çelik + Kaplama': 'Acier inoxydable + Revêtement',
+    'Alçak Profil (Low Profile)': 'Profil bas',
+    'Yüksek Profil (High Profile)': 'Profil haut',
+    '3 Açılı Bileme (Triple Facet)': 'Affûtage triple facette',
+    'PTFE / Platin-Krom Kaplama': 'Revêtement PTFE / Platine-Chrome',
+    'PTFE / Platin-Krom / Seramik Kaplama': 'Revêtement PTFE / Platine-Chrome / Céramique',
+    'Non-Steril / Endüstriyel Kalite': 'Non stérile / Usage industriel',
+    'Leica, Thermo, Sakura, SLEE': 'Leica, Thermo, Sakura, SLEE',
+    '50 Adet/Kutu': '50 pcs/boîte',
   },
 
   // =============================================================================
@@ -1773,6 +1817,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HV 1200+ (Seramik) / HRC 90+ (Tungsten)': 'HV 1200+ (керамика) / HRC 90+ (вольфрам)',
     '84/80 × 7.5 × 1.0 mm': '84/80 × 7,5 × 1,0 мм',
     'Lamel / Yaprak (Lamella / Leaf)': 'Ламель / Лист',
+
+    // Значения микротомных лезвий B575 / B724
+    'Paslanmaz Çelik + Kaplama': 'Нержавеющая сталь + Покрытие',
+    'Alçak Profil (Low Profile)': 'Низкий профиль',
+    'Yüksek Profil (High Profile)': 'Высокий профиль',
+    '3 Açılı Bileme (Triple Facet)': 'Трёхгранная заточка',
+    'PTFE / Platin-Krom Kaplama': 'PTFE / Платина-хром покрытие',
+    'PTFE / Platin-Krom / Seramik Kaplama': 'PTFE / Платина-хром / Керамическое покрытие',
+    'Non-Steril / Endüstriyel Kalite': 'Нестерильное / Промышленного класса',
+    'Leica, Thermo, Sakura, SLEE': 'Leica, Thermo, Sakura, SLEE',
+    '50 Adet/Kutu': '50 шт/коробка',
   },
 };
 
