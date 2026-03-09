@@ -381,7 +381,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '50 Adet/Kutu': '50 Adet/Kutu',
 
     // B723 LASIK / Mikrokeratom Jileti Değerleri
-    'Paslanmaz Çelik': 'Paslanmaz Çelik',
     '2 Yuva (Double Slot)': '2 Yuva (Double Slot)',
     '1 Yuva (Single Slot)': '1 Yuva (Single Slot)',
     'Yağdan Arındırılmış (Oil-Free)': 'Yağdan Arındırılmış (Oil-Free)',
@@ -762,7 +761,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '50 Adet/Kutu': '50 pcs/box',
 
     // B723 LASIK / Microkeratome Blade Values
-    'Paslanmaz Çelik': 'Stainless Steel',
     '2 Yuva (Double Slot)': '2-Slot (Double Slot)',
     '1 Yuva (Single Slot)': '1-Slot (Single Slot)',
     'Yağdan Arındırılmış (Oil-Free)': 'Oil-Free (Degreased)',
@@ -1108,7 +1106,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '50 Adet/Kutu': '50 قطعة/صندوق',
 
     // قيم شفرات الليزك / الميكروكيراتوم B723
-    'Paslanmaz Çelik': 'فولاذ مقاوم للصدأ',
     '2 Yuva (Double Slot)': '2 فتحة (مزدوجة)',
     '1 Yuva (Single Slot)': '1 فتحة (مفردة)',
     'Yağdan Arındırılmış (Oil-Free)': 'خالية من الزيوت (منزوعة الدهن)',
@@ -1489,7 +1486,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '50 Adet/Kutu': '50 pcs/boîte',
 
     // Valeurs lames LASIK / Microkératome B723
-    'Paslanmaz Çelik': 'Acier inoxydable',
     '2 Yuva (Double Slot)': '2 Encoches (Double Slot)',
     '1 Yuva (Single Slot)': '1 Encoche (Single Slot)',
     'Yağdan Arındırılmış (Oil-Free)': 'Dégraissée (Sans huile)',
@@ -1870,7 +1866,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '50 Adet/Kutu': '50 шт/коробка',
 
     // Значения лезвий LASIK / Микрокератом B723
-    'Paslanmaz Çelik': 'Нержавеющая сталь',
     '2 Yuva (Double Slot)': '2 Паза (Double Slot)',
     '1 Yuva (Single Slot)': '1 Паз (Single Slot)',
     'Yağdan Arındırılmış (Oil-Free)': 'Обезжиренное (Oil-Free)',
