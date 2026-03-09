@@ -3812,6 +3812,66 @@ export const productsFr: Record<string, ProductTranslation> = {
     },
   },
 
+  // --- LAMES LASIK / MICROKÉRATOME ---
+
+  'b723-001': {
+    name: 'B723 001 LAME LASIK / MICROKÉRATOME – 2 ENCOCHES',
+    subtitle: 'Lame microkératome jetable pour chirurgie oculaire',
+    description: 'Lame LASIK B723 001 à 2 encoches. 38,1×7,94×0,25mm, affûtage triple facette, acier inoxydable, dégraissée. Lame chirurgicale jetable pour la création du volet cornéen. Compatible Moria, Hansatome, Zyoptix.',
+    shortDescription: 'Lame LASIK B723 001 à 2 encoches. 38,1×7,94×0,25mm. Pour création du volet cornéen. Compatible Moria, Hansatome.',
+    features: [
+      'Dimensions de précision 38,1×7,94×0,25mm',
+      'Système de montage à 2 encoches',
+      'Affûtage triple facette pour surface optiquement plane',
+      'Acier inoxydable',
+      'Surface dégraissée (sans huile)',
+      'Emballage stérile individuel',
+      'Compatible avec microkératomes Moria, Hansatome, Zyoptix',
+      'Qualité Sheffield Durham Duplex',
+    ],
+    applications: ['Chirurgie LASIK', 'Chirurgie réfractive', 'Greffe de cornée', 'Chirurgie du ptérygion', 'Recherche ophtalmique'],
+    benefits: [
+      { title: 'Coupe ultra-précise', description: 'Affûtage triple facette offrant une surface optiquement plane — dommage cornéen minimal.', icon: 'Target' },
+      { title: 'Sécurité double verrouillage', description: 'Montage 2 encoches empêche le glissement lors de l\'oscillation haute vitesse.', icon: 'Shield' },
+      { title: 'Surface biocompatible', description: 'Surface dégraissée et sans contaminant pour une cicatrisation optimale.', icon: 'Sparkles' },
+    ],
+    longDescription: `<p>La <strong>lame LASIK B723 001 (2 encoches)</strong> est une lame chirurgicale ultra-précise jetable pour la création du volet cornéen en chirurgie LASIK. Dimensions : 38,1×7,94×0,25mm.</p><h3>Spécifications</h3><ul><li>Dimensions : 38,1×7,94×0,25mm</li><li>Montage : 2 encoches</li><li>Affûtage : Triple facette</li><li>Matériau : Acier inoxydable, dégraissé</li></ul><h3>Applications</h3><ul><li>Chirurgie LASIK — création du volet cornéen</li><li>Chirurgie réfractive — correction myopie et hypermétropie</li><li>Greffe de cornée — préparation de greffons lamellaires</li></ul>`,
+    seo: {
+      title: 'Lame LASIK B723 001 2 Encoches 38mm | Chirurgie Oculaire | Microkératome',
+      description: 'Lame LASIK B723 001 à 2 encoches 38,1×7,94×0,25mm. Pour LASIK, chirurgie réfractive. Compatible Moria, Hansatome.',
+      keywords: ['lame LASIK', 'lame microkératome', 'chirurgie oculaire', 'volet cornéen', 'B723 001', 'Moria', 'Hansatome', 'lame ophtalmique', 'chirurgie réfractive', 'prix lame LASIK'],
+    },
+  },
+
+  'b723-501': {
+    name: 'B723 501 LAME LASIK / MICROKÉRATOME – 1 ENCOCHE',
+    subtitle: 'Lame microkératome à encoche unique pour chirurgie oculaire',
+    description: 'Lame LASIK B723 501 à 1 encoche. 38,1×7,94×0,25mm, affûtage triple facette, acier inoxydable, dégraissée. Compatible Amadeus, Carriazo-Barraquer, Schwind.',
+    shortDescription: 'Lame LASIK B723 501 à 1 encoche. 38,1×7,94×0,25mm. Compatible Amadeus, Carriazo-Barraquer.',
+    features: [
+      'Dimensions de précision 38,1×7,94×0,25mm',
+      'Système de montage à 1 encoche',
+      'Affûtage triple facette',
+      'Acier inoxydable',
+      'Surface dégraissée',
+      'Emballage stérile individuel',
+      'Compatible avec Amadeus, Carriazo-Barraquer, Schwind',
+      'Qualité Sheffield Durham Duplex',
+    ],
+    applications: ['Chirurgie LASIK', 'Chirurgie réfractive', 'Procédure ALK', 'Greffe de cornée', 'Recherche ophtalmique'],
+    benefits: [
+      { title: 'Fixation centrale', description: 'Montage 1 encoche offre un positionnement équilibré pour une profondeur uniforme.', icon: 'Target' },
+      { title: 'Pureté chirurgicale', description: 'Surface dégraissée et emballage stérile individuel.', icon: 'ShieldCheck' },
+      { title: 'Large compatibilité', description: 'Compatible Amadeus, Carriazo-Barraquer, Schwind.', icon: 'Link' },
+    ],
+    longDescription: `<p>La <strong>lame LASIK B723 501 (1 encoche)</strong> est une lame chirurgicale jetable ultra-précise. 38,1×7,94×0,25mm avec montage 1 encoche.</p><h3>Spécifications</h3><ul><li>Dimensions : 38,1×7,94×0,25mm</li><li>Montage : 1 encoche</li><li>Affûtage : Triple facette</li><li>Matériau : Acier inoxydable, dégraissé</li></ul><h3>Applications</h3><ul><li>Chirurgie LASIK — création du volet cornéen</li><li>ALK — Kératoplastie lamellaire automatisée</li><li>Greffe de cornée</li></ul>`,
+    seo: {
+      title: 'Lame LASIK B723 501 1 Encoche 38mm | Chirurgie Oculaire | Microkératome',
+      description: 'Lame LASIK B723 501 à 1 encoche 38,1×7,94×0,25mm. Compatible Amadeus, Carriazo-Barraquer.',
+      keywords: ['lame LASIK', 'lame microkératome', 'chirurgie oculaire', 'B723 501', '1 encoche', 'Amadeus', 'Carriazo-Barraquer', 'Schwind', 'lame ophtalmique', 'prix lame LASIK'],
+    },
+  },
+
   'b724': {
     name: 'B724 LAME MICROTOME – PROFIL HAUT',
     subtitle: 'Lame microtome profil haut pour coupes de tissus durs',

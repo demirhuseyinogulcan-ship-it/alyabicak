@@ -6235,6 +6235,295 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 341,
   },
+
+  // --- LASİK / MİKROKERATOM JİLETLERİ ---
+  {
+    id: 'b723-001',
+    slug: 'b723-001-lasik-mikrokeratom-jileti-2-yuva',
+    slugEN: 'b723-001-lasik-microkeratome-blade-2-slot',
+    code: 'B723 001',
+    name: 'B723 001 LASİK / MİKROKERATOM JİLETİ – 2 YUVA',
+    subtitle: 'Göz Cerrahisi İçin Tek Kullanımlık Mikrokeratom Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'microkeratome-blades',
+    tags: ['lasik', 'mikrokeratom', 'göz cerrahisi', 'kornea', 'refraktif', 'oftalmik', '2 yuva', 'steril', 'tek kullanımlık'],
+
+    shortDescription: 'B723 001 LASIK / Mikrokeratom jileti, 2 yuvalı. 38.1×7.94×0.25mm, 3 açılı bileme, paslanmaz çelik, yağdan arındırılmış. LASIK ve refraktif göz cerrahisinde kornea flebinin hassas oluşturulması için tek kullanımlık cerrahi jilet. Moria, Hansatome, Zyoptix uyumlu.',
+
+    longDescription: `
+      <p><strong>B723 001 LASİK / Mikrokeratom Jileti (2 Yuva)</strong>, LASIK ve diğer refraktif göz cerrahisi prosedürlerinde kornea flebinin (flap) oluşturulması için tasarlanmış ultra hassas, tek kullanımlık cerrahi jiletdir. 38.1×7.94×0.25mm boyutlarında, 2 yuvalı (slot) montaj yapısıyla yaygın kullanılan mikrokeratom cihazlarına tam uyum sağlar.</p>
+
+      <h3>Teknik Özellikler</h3>
+      <ul>
+        <li><strong>Boyut:</strong> 38.1 × 7.94 × 0.25mm</li>
+        <li><strong>Montaj:</strong> 2 Yuva (2-Slot / Double Notch)</li>
+        <li><strong>Bileme:</strong> 3 açılı hassas bileme (triple facet grind)</li>
+        <li><strong>Malzeme:</strong> Paslanmaz çelik</li>
+        <li><strong>Yüzey:</strong> Yağdan arındırılmış (oil-free / degreased)</li>
+        <li><strong>Sterilite:</strong> Bireysel steril paketleme</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <p>B723 001, oftalmoloji alanında korneal cerrahi işlemler için tasarlanmıştır. Başlıca kullanım alanları:</p>
+      <ul>
+        <li><strong>LASIK Cerrahisi:</strong> Kornea flebinin (flap) oluşturulması — refraktif hata düzeltme ameliyatlarının ilk adımı</li>
+        <li><strong>PRK / LASEK:</strong> Epitel tabakasının kaldırılması gereken refraktif prosedürler</li>
+        <li><strong>Kornea Transplantasyonu:</strong> Lamelar keratoplasti (DALK, DSAEK) gibi korneal greft hazırlama işlemleri</li>
+        <li><strong>Pterygium Cerrahisi:</strong> Göz yüzeyindeki anormal doku büyümelerinin çıkarılması</li>
+        <li><strong>Araştırma Laboratuvarları:</strong> Kornea doku çalışmaları ve oftalmik araştırmalar</li>
+      </ul>
+
+      <h3>Neden 2 Yuvalı Tasarım?</h3>
+      <p>2 yuvalı (double-slot) montaj sistemi, jiletin mikrokeratom başlığına sabitlenmesinde çift noktalı kilitleme sağlar. Bu tasarım, özellikle yüksek hızlı osilasyon sırasında jiletin kaymasını önleyerek kornea yüzeyinde düzgün, homojen bir flep oluşturulmasını garanti eder. Moria M2, Moria One Use-Plus, Hansatome ve benzeri 2 yuvalı mikrokeratom sistemleriyle uyumludur.</p>
+
+      <h3>Yağdan Arındırılmış Yüzey</h3>
+      <p>Üretim sürecinde uygulanan özel temizleme protokolü sayesinde jilet yüzeyinde yağ ve kontaminant kalıntısı bulunmaz. Bu, göz cerrahisinde kritik olan biyouyumluluk gerekliliklerini karşılayarak, kornea dokusunun zarar görmesini önler ve postoperatif iyileşme sürecini destekler.</p>
+
+      <h3>Kalite ve Güvenlik</h3>
+      <p>Her jilet bireysel olarak paketlenir ve kalite kontrolden geçirilir. 3 açılı bileme teknolojisi, optik düzlükte yüzey kalitesi sağlayarak kornea kesitlerinde minimum doku hasarı ile pürüzsüz, temiz kesimler gerçekleştirir.</p>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/b723-001-lasik-mikrokeratom-jileti-2-yuva.jpg',
+        alt: 'B723 001 LASİK Mikrokeratom Jileti – 2 Yuva 38.1×7.94×0.25mm',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/b723-001-lasik-mikrokeratom-jileti-2-yuva.jpg',
+        alt: 'B723 001 LASİK Jileti 2 Yuva',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Paslanmaz Çelik', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '38.1×7.94×0.25mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.25mm', icon: 'Ruler' },
+      { label: 'bladeProfile', value: '2 Yuva (Double Slot)', icon: 'BarChart3' },
+      { label: 'edge', value: '3 Açılı Bileme (Triple Facet)', icon: 'Triangle' },
+      { label: 'surfaceFinish', value: 'Yağdan Arındırılmış (Oil-Free)', icon: 'Droplets' },
+      { label: 'sterilization', value: 'Bireysel Steril Paketleme', icon: 'ShieldCheck' },
+      { label: 'compatibility', value: 'Moria, Hansatome, Zyoptix', icon: 'Link' },
+      { label: 'packaging', value: '5 Adet/Kutu (Bireysel Steril)', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'LASIK Cerrahisi', icon: 'Eye', description: 'Kornea flebinin (flap) oluşturulması' },
+      { title: 'Refraktif Cerrahi', icon: 'Focus', description: 'Miyopi, hipermetropi ve astigmat düzeltme' },
+      { title: 'Kornea Transplantasyonu', icon: 'Heart', description: 'Lamelar keratoplasti (DALK, DSAEK) greft hazırlığı' },
+      { title: 'Pterygium Cerrahisi', icon: 'Scissors', description: 'Göz yüzeyindeki anormal doku çıkarılması' },
+      { title: 'Oftalmik Araştırma', icon: 'Microscope', description: 'Kornea doku çalışmaları ve araştırmalar' },
+    ],
+
+    benefits: [
+      {
+        title: 'Ultra Hassas Kesim',
+        description: '3 açılı bileme ile optik düzlükte yüzey kalitesi — kornea dokusunda minimum hasar.',
+        icon: 'Target',
+      },
+      {
+        title: 'Çift Kilitleme Güvenliği',
+        description: '2 yuvalı montaj, yüksek hızlı osilasyonda jiletin kaymasını önleyerek homojen flep sağlar.',
+        icon: 'Shield',
+      },
+      {
+        title: 'Biyouyumlu Yüzey',
+        description: 'Yağdan arındırılmış ve kontaminantsız yüzey, postoperatif iyileşmeyi destekler.',
+        icon: 'Sparkles',
+      },
+    ],
+
+    features: [
+      '38.1×7.94×0.25mm hassas boyut',
+      '2 yuvalı (double slot) montaj sistemi',
+      '3 açılı bileme (triple facet grind)',
+      'Paslanmaz çelik malzeme',
+      'Yağdan arındırılmış (oil-free) yüzey',
+      'Bireysel steril paketleme',
+      'Moria, Hansatome, Zyoptix uyumlu',
+      'Tek kullanımlık (disposable) cerrahi kalite',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: ['38.1×7.94×0.25mm'],
+    certifications: ['CE', 'ISO 13485'],
+    relatedProductIds: ['b723-501'],
+
+    seo: {
+      title: 'B723 001 LASİK Mikrokeratom Jileti 2 Yuva | LASIK Blade | Göz Cerrahisi Jileti | Alya Bıçak',
+      description: 'B723 001 LASIK / Mikrokeratom jileti 38.1×7.94×0.25mm, 2 yuva, 3 açılı bileme, paslanmaz, yağdan arındırılmış. Kornea flep cerrahisi, LASIK, refraktif cerrahi. Moria, Hansatome uyumlu.',
+      keywords: [
+        'lasik jileti', 'LASIK blade', 'mikrokeratom jileti', 'microkeratome blade',
+        'göz cerrahisi jileti', 'kornea jileti', 'kornea flep', 'refraktif cerrahi',
+        'B723 001', 'B723 lasik', '2 yuvalı mikrokeratom', 'double slot microkeratome',
+        'Moria mikrokeratom', 'Hansatome jileti', 'Zyoptix jileti',
+        'oftalmik jilet', 'ophthalmic blade', 'tek kullanımlık cerrahi jilet',
+        'lasik jileti fiyat', 'mikrokeratom jileti tedarikçi',
+        'göz ameliyatı bıçağı', 'kornea transplantasyonu', 'keratoplasti',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 342,
+  },
+
+  {
+    id: 'b723-501',
+    slug: 'b723-501-lasik-mikrokeratom-jileti-1-yuva',
+    slugEN: 'b723-501-lasik-microkeratome-blade-1-slot',
+    code: 'B723 501',
+    name: 'B723 501 LASİK / MİKROKERATOM JİLETİ – 1 YUVA',
+    subtitle: 'Tek Yuvalı Mikrokeratom Jileti — Göz Cerrahisi',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'microkeratome-blades',
+    tags: ['lasik', 'mikrokeratom', 'göz cerrahisi', 'kornea', 'refraktif', 'oftalmik', '1 yuva', 'steril', 'tek kullanımlık'],
+
+    shortDescription: 'B723 501 LASIK / Mikrokeratom jileti, 1 yuvalı. 38.1×7.94×0.25mm, 3 açılı bileme, paslanmaz çelik, yağdan arındırılmış. LASIK ve refraktif göz cerrahisinde kornea flebinin hassas oluşturulması için tek kullanımlık cerrahi jilet. Amadeus, Carriazo-Barraquer uyumlu.',
+
+    longDescription: `
+      <p><strong>B723 501 LASİK / Mikrokeratom Jileti (1 Yuva)</strong>, LASIK ve refraktif göz cerrahisi prosedürlerinde kornea flebinin (flap) oluşturulması için üretilmiş ultra hassas, tek kullanımlık cerrahi jiletdir. 38.1×7.94×0.25mm boyutlarında olup, 1 yuvalı (single slot) montaj yapısıyla merkezi sabitleme gerektiren mikrokeratom cihazlarına tam uyum sağlar.</p>
+
+      <h3>Teknik Özellikler</h3>
+      <ul>
+        <li><strong>Boyut:</strong> 38.1 × 7.94 × 0.25mm</li>
+        <li><strong>Montaj:</strong> 1 Yuva (Single Slot / Single Notch)</li>
+        <li><strong>Bileme:</strong> 3 açılı hassas bileme (triple facet grind)</li>
+        <li><strong>Malzeme:</strong> Paslanmaz çelik</li>
+        <li><strong>Yüzey:</strong> Yağdan arındırılmış (oil-free / degreased)</li>
+        <li><strong>Sterilite:</strong> Bireysel steril paketleme</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <p>B723 501, oftalmoloji alanında korneal cerrahi işlemler için tasarlanmıştır. Başlıca kullanım alanları:</p>
+      <ul>
+        <li><strong>LASIK Cerrahisi:</strong> Kornea flebinin oluşturulması — miyopi, hipermetropi ve astigmat düzeltme</li>
+        <li><strong>PRK / LASEK:</strong> Epitel tabakasının kaldırılması gereken refraktif prosedürler</li>
+        <li><strong>ALK (Otomatik Lamelar Keratoplasti):</strong> Kornea tabaka ayrıştırma işlemleri</li>
+        <li><strong>Kornea Transplantasyonu:</strong> Lamelar keratoplasti ve greft hazırlama</li>
+        <li><strong>Oftalmik Araştırma:</strong> Kornea araştırma ve eğitim amaçlı kesimler</li>
+      </ul>
+
+      <h3>Neden 1 Yuvalı Tasarım?</h3>
+      <p>1 yuvalı (single-slot) montaj sistemi, jiletin mikrokeratom başlığına merkezi bir noktadan sabitlenmesini sağlar. Bu konfigürasyon, özellikle Amadeus (AMO), Carriazo-Barraquer, Schwind ve benzeri tek yuvalı mikrokeratom sistemlerinde standart montaj biçimidir. Merkezi kilitleme, jiletin osilasyon ekseninde dengeli tutulmasını sağlayarak homojen kesim derinliği elde edilmesine katkıda bulunur.</p>
+
+      <h3>Yağdan Arındırılmış Yüzey</h3>
+      <p>Göz cerrahisinde kullanılan jiletlerde yüzey temizliği kritik önem taşır. B723 501, üretim sürecinde özel yağ giderme (degreasing) işleminden geçirilerek tüm organik kontaminantlardan arındırılır. Bu sayede kornea ile temas eden yüzey tamamen biyouyumlu olur ve ameliyat sonrası enfeksiyon riskini minimize eder.</p>
+
+      <h3>Kalite ve Güvenlik</h3>
+      <p>Her jilet bireysel steril ambalajda sunulur. ISO 13485 tıbbi cihaz kalite yönetim sistemi kapsamında üretilir. 3 açılı bileme teknolojisi, 0.25mm kalınlıktaki paslanmaz çelik üzerinde optik düzlükte kesim yüzeyi oluşturarak, kornea dokusunda minimum travma ile pürüzsüz flep kesimi gerçekleştirir.</p>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/b723-501-lasik-mikrokeratom-jileti-1-yuva.jpg',
+        alt: 'B723 501 LASİK Mikrokeratom Jileti – 1 Yuva 38.1×7.94×0.25mm',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/b723-501-lasik-mikrokeratom-jileti-1-yuva.jpg',
+        alt: 'B723 501 LASİK Jileti 1 Yuva',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Paslanmaz Çelik', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '38.1×7.94×0.25mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.25mm', icon: 'Ruler' },
+      { label: 'bladeProfile', value: '1 Yuva (Single Slot)', icon: 'BarChart3' },
+      { label: 'edge', value: '3 Açılı Bileme (Triple Facet)', icon: 'Triangle' },
+      { label: 'surfaceFinish', value: 'Yağdan Arındırılmış (Oil-Free)', icon: 'Droplets' },
+      { label: 'sterilization', value: 'Bireysel Steril Paketleme', icon: 'ShieldCheck' },
+      { label: 'compatibility', value: 'Amadeus, Carriazo-Barraquer, Schwind', icon: 'Link' },
+      { label: 'packaging', value: '5 Adet/Kutu (Bireysel Steril)', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'LASIK Cerrahisi', icon: 'Eye', description: 'Kornea flebinin (flap) oluşturulması' },
+      { title: 'Refraktif Cerrahi', icon: 'Focus', description: 'Miyopi, hipermetropi ve astigmat düzeltme' },
+      { title: 'ALK Prosedürü', icon: 'Layers', description: 'Otomatik lamelar keratoplasti' },
+      { title: 'Kornea Transplantasyonu', icon: 'Heart', description: 'Lamelar keratoplasti ve greft hazırlığı' },
+      { title: 'Oftalmik Araştırma', icon: 'Microscope', description: 'Kornea araştırma ve eğitim' },
+    ],
+
+    benefits: [
+      {
+        title: 'Merkezi Sabitleme',
+        description: 'Tek yuva montaj sistemi, osilasyon ekseninde dengeli tutularak homojen kesim derinliği sağlar.',
+        icon: 'Target',
+      },
+      {
+        title: 'Cerrahi Saflık',
+        description: 'Yağdan arındırılmış yüzey ve bireysel steril paketleme ile maksimum biyouyumluluk.',
+        icon: 'ShieldCheck',
+      },
+      {
+        title: 'Geniş Cihaz Uyumu',
+        description: 'Amadeus, Carriazo-Barraquer, Schwind ve diğer tek yuvalı mikrokeratom sistemleriyle uyumlu.',
+        icon: 'Link',
+      },
+    ],
+
+    features: [
+      '38.1×7.94×0.25mm hassas boyut',
+      '1 yuvalı (single slot) montaj sistemi',
+      '3 açılı bileme (triple facet grind)',
+      'Paslanmaz çelik malzeme',
+      'Yağdan arındırılmış (oil-free) yüzey',
+      'Bireysel steril paketleme',
+      'Amadeus, Carriazo-Barraquer, Schwind uyumlu',
+      'Tek kullanımlık (disposable) cerrahi kalite',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: ['38.1×7.94×0.25mm'],
+    certifications: ['CE', 'ISO 13485'],
+    relatedProductIds: ['b723-001'],
+
+    seo: {
+      title: 'B723 501 LASİK Mikrokeratom Jileti 1 Yuva | LASIK Blade | Göz Cerrahisi Jileti | Alya Bıçak',
+      description: 'B723 501 LASIK / Mikrokeratom jileti 38.1×7.94×0.25mm, 1 yuva, 3 açılı bileme, paslanmaz, yağdan arındırılmış. Kornea flep cerrahisi, LASIK. Amadeus, Carriazo-Barraquer uyumlu.',
+      keywords: [
+        'lasik jileti', 'LASIK blade', 'mikrokeratom jileti', 'microkeratome blade',
+        'göz cerrahisi jileti', 'kornea jileti', 'kornea flep', 'refraktif cerrahi',
+        'B723 501', 'B723 lasik', '1 yuvalı mikrokeratom', 'single slot microkeratome',
+        'Amadeus mikrokeratom', 'Carriazo-Barraquer jileti', 'Schwind mikrokeratom',
+        'oftalmik jilet', 'ophthalmic blade', 'tek kullanımlık cerrahi jilet',
+        'lasik jileti fiyat', 'mikrokeratom jileti tedarikçi',
+        'göz ameliyatı bıçağı', 'kornea transplantasyonu',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 343,
+  },
 ];
 
 // =============================================================================

@@ -3849,6 +3849,130 @@ export const productsEn: Record<string, ProductTranslation> = {
     },
   },
 
+  // --- LASIK / MICROKERATOME BLADES ---
+
+  'b723-001': {
+    name: 'B723 001 LASIK / MICROKERATOME BLADE – 2 SLOT',
+    subtitle: 'Disposable Microkeratome Blade for Eye Surgery',
+    description: 'B723 001 LASIK / Microkeratome blade, 2-slot. 38.1×7.94×0.25mm, triple facet grind, stainless steel, oil-free. Single-use surgical blade for precise corneal flap creation in LASIK and refractive eye surgery. Compatible with Moria, Hansatome, Zyoptix microkeratomes.',
+    shortDescription: 'B723 001 LASIK / Microkeratome blade, 2-slot. 38.1×7.94×0.25mm, triple facet grind, stainless steel, oil-free. For corneal flap creation. Moria, Hansatome compatible.',
+    features: [
+      '38.1×7.94×0.25mm precision dimensions',
+      '2-slot (double slot) mounting system',
+      'Triple facet grind for optically flat surface',
+      'Stainless steel material',
+      'Oil-free (degreased) surface',
+      'Individual sterile packaging',
+      'Compatible with Moria, Hansatome, Zyoptix microkeratomes',
+      'Single-use (disposable) surgical grade',
+      'Sheffield Durham Duplex quality',
+    ],
+    applications: [
+      'LASIK surgery',
+      'Refractive surgery',
+      'Corneal transplantation',
+      'Pterygium surgery',
+      'Ophthalmic research',
+    ],
+    benefits: [
+      {
+        title: 'Ultra-Precise Cutting',
+        description: 'Triple facet grind delivers optically flat surface quality — minimal corneal tissue damage.',
+        icon: 'Target',
+      },
+      {
+        title: 'Dual-Lock Safety',
+        description: '2-slot mounting prevents blade slippage during high-speed oscillation, ensuring uniform flap.',
+        icon: 'Shield',
+      },
+      {
+        title: 'Biocompatible Surface',
+        description: 'Oil-free and contaminant-free surface supports postoperative healing.',
+        icon: 'Sparkles',
+      },
+    ],
+    longDescription: `<p>The <strong>B723 001 LASIK / Microkeratome Blade (2-Slot)</strong> is an ultra-precise, single-use surgical blade designed for corneal flap creation in LASIK and refractive eye surgery procedures. Measuring 38.1×7.94×0.25mm with a 2-slot mounting configuration, it fits all major dual-notch microkeratome systems.</p>
+<h3>Technical Specifications</h3>
+<ul><li><strong>Dimensions:</strong> 38.1 × 7.94 × 0.25mm</li><li><strong>Mounting:</strong> 2-Slot (Double Notch)</li><li><strong>Grind:</strong> Triple facet grind</li><li><strong>Material:</strong> Stainless steel</li><li><strong>Surface:</strong> Oil-free (degreased)</li><li><strong>Sterility:</strong> Individual sterile packaging</li></ul>
+<h3>Applications</h3>
+<ul><li><strong>LASIK Surgery:</strong> Corneal flap creation for refractive error correction</li><li><strong>PRK / LASEK:</strong> Epithelial layer removal in refractive procedures</li><li><strong>Corneal Transplantation:</strong> Lamellar graft preparation (DALK, DSAEK)</li><li><strong>Pterygium Surgery:</strong> Removal of abnormal tissue growth on eye surface</li></ul>
+<h3>Why 2-Slot Design?</h3>
+<p>The dual-slot mounting system provides two-point locking when securing the blade to the microkeratome head. This design prevents blade slippage during high-speed oscillation, ensuring a smooth, homogeneous corneal flap. Compatible with Moria M2, Moria One Use-Plus, Hansatome and similar 2-slot microkeratome systems.</p>`,
+    seo: {
+      title: 'B723 001 LASIK Microkeratome Blade 2-Slot | Eye Surgery Blade | Corneal Flap Blade',
+      description: 'B723 001 LASIK microkeratome blade 38.1×7.94×0.25mm, 2-slot, triple facet grind, stainless steel, oil-free. For corneal flap creation, LASIK, refractive surgery. Moria, Hansatome compatible.',
+      keywords: [
+        'LASIK blade', 'microkeratome blade', 'corneal flap blade', 'eye surgery blade',
+        'B723 001', 'double slot microkeratome', 'Moria microkeratome blade',
+        'Hansatome blade', 'Zyoptix blade', 'ophthalmic blade',
+        'refractive surgery blade', 'disposable microkeratome blade',
+        'corneal transplant blade', 'keratome blade', 'LASIK blade price',
+        'microkeratome blade supplier', 'ophthalmology blade',
+      ],
+    },
+  },
+
+  'b723-501': {
+    name: 'B723 501 LASIK / MICROKERATOME BLADE – 1 SLOT',
+    subtitle: 'Single-Slot Microkeratome Blade for Eye Surgery',
+    description: 'B723 501 LASIK / Microkeratome blade, 1-slot. 38.1×7.94×0.25mm, triple facet grind, stainless steel, oil-free. Single-use surgical blade for precise corneal flap creation. Compatible with Amadeus, Carriazo-Barraquer, Schwind microkeratomes.',
+    shortDescription: 'B723 501 LASIK / Microkeratome blade, 1-slot. 38.1×7.94×0.25mm, triple facet grind, stainless steel, oil-free. For corneal flap creation. Amadeus, Carriazo-Barraquer compatible.',
+    features: [
+      '38.1×7.94×0.25mm precision dimensions',
+      '1-slot (single slot) mounting system',
+      'Triple facet grind for optically flat surface',
+      'Stainless steel material',
+      'Oil-free (degreased) surface',
+      'Individual sterile packaging',
+      'Compatible with Amadeus, Carriazo-Barraquer, Schwind microkeratomes',
+      'Single-use (disposable) surgical grade',
+      'Sheffield Durham Duplex quality',
+    ],
+    applications: [
+      'LASIK surgery',
+      'Refractive surgery',
+      'ALK procedure',
+      'Corneal transplantation',
+      'Ophthalmic research',
+    ],
+    benefits: [
+      {
+        title: 'Central Fixation',
+        description: 'Single-slot mounting provides balanced positioning along the oscillation axis for uniform cutting depth.',
+        icon: 'Target',
+      },
+      {
+        title: 'Surgical Purity',
+        description: 'Oil-free surface and individual sterile packaging ensure maximum biocompatibility.',
+        icon: 'ShieldCheck',
+      },
+      {
+        title: 'Wide Device Compatibility',
+        description: 'Compatible with Amadeus, Carriazo-Barraquer, Schwind and other single-slot microkeratome systems.',
+        icon: 'Link',
+      },
+    ],
+    longDescription: `<p>The <strong>B723 501 LASIK / Microkeratome Blade (1-Slot)</strong> is an ultra-precise, single-use surgical blade for corneal flap creation in LASIK and refractive eye surgery. Measuring 38.1×7.94×0.25mm with 1-slot mounting, it fits single-notch microkeratome systems.</p>
+<h3>Technical Specifications</h3>
+<ul><li><strong>Dimensions:</strong> 38.1 × 7.94 × 0.25mm</li><li><strong>Mounting:</strong> 1-Slot (Single Notch)</li><li><strong>Grind:</strong> Triple facet grind</li><li><strong>Material:</strong> Stainless steel</li><li><strong>Surface:</strong> Oil-free (degreased)</li><li><strong>Sterility:</strong> Individual sterile packaging</li></ul>
+<h3>Applications</h3>
+<ul><li><strong>LASIK Surgery:</strong> Corneal flap creation for myopia, hyperopia and astigmatism correction</li><li><strong>ALK:</strong> Automated lamellar keratoplasty procedures</li><li><strong>Corneal Transplantation:</strong> Lamellar keratoplasty and graft preparation</li></ul>
+<h3>Why 1-Slot Design?</h3>
+<p>The single-slot mounting secures the blade from a central point, providing balanced positioning along the oscillation axis. This is the standard configuration for Amadeus (AMO), Carriazo-Barraquer, Schwind and similar systems. Central locking contributes to homogeneous cutting depth across the corneal surface.</p>`,
+    seo: {
+      title: 'B723 501 LASIK Microkeratome Blade 1-Slot | Eye Surgery Blade | Corneal Flap Blade',
+      description: 'B723 501 LASIK microkeratome blade 38.1×7.94×0.25mm, 1-slot, triple facet grind, stainless steel, oil-free. For LASIK, refractive surgery. Amadeus, Carriazo-Barraquer compatible.',
+      keywords: [
+        'LASIK blade', 'microkeratome blade', 'corneal flap blade', 'eye surgery blade',
+        'B723 501', 'single slot microkeratome', 'Amadeus microkeratome blade',
+        'Carriazo-Barraquer blade', 'Schwind microkeratome blade', 'ophthalmic blade',
+        'refractive surgery blade', 'disposable microkeratome blade',
+        'ALK blade', 'keratome blade', 'LASIK blade price',
+        'microkeratome blade supplier', 'ophthalmology blade',
+      ],
+    },
+  },
+
   'b724': {
     name: 'B724 MICROTOME BLADE – HIGH PROFILE',
     subtitle: 'High Profile Microtome Blade for Hard Tissue Sectioning',
