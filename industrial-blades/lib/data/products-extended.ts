@@ -3645,74 +3645,145 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     order: 206,
   },
 
-  // ─── B207-XXL — TRAPEZ XXL (Extra Long) ───────────────────────────────────
+  // ─── B207-XXL — ALÇI LEVHA (KARTONPİYER) BIÇAĞI ──────────────────────────
   {
     id: 'b207-3',
-    slug: 'b207-xxl-uzun-3',
-    slugEN: 'b207-xxl-extra-long-trapezoid-blade',
+    slug: 'b207-xxl-alci-levha-bicagi',
+    slugEN: 'b207-xxl-drywall-plasterboard-blade',
     code: 'B207 XXL',
-    name: 'TRAPEZ – XXL (UZUN)',
-    subtitle: 'Ekstra Uzun Trapez Bıçak',
+    name: 'B207 XXL (UZUN) — ALÇI LEVHA BIÇAĞI',
+    subtitle: '170×19×0.80mm — 2 Çentik, 4 Delik — Alçıpan / Kartonpiyer Kesim Bıçağı',
 
     categoryId: 'industrial-blades',
-    subcategoryId: 'trapezoid-blades',
-    tags: ['xxl trapez', 'extra long utility blade', 'XXL trapez', 'ekstra uzun'],
+    subcategoryId: 'drywall-blades',
+    tags: [
+      'alçı levha bıçağı', 'alçıpan bıçağı', 'kartonpiyer bıçağı', 'drywall blade',
+      'plasterboard blade', 'alçıpan kesim bıçağı', 'B207 XXL', 'kuru duvar bıçağı',
+      '170mm bıçak', 'tadilat bıçağı', 'inşaat bıçağı', 'alçıpan falçata',
+    ],
 
-    shortDescription: 'B207 serisinin ekstra uzun (XXL) versiyonu. En geniş kesim alanı sunan trapez bıçak. Endüstriyel ölçekli kesim uygulamaları için.',
+    shortDescription: 'B207 XXL Alçı Levha Bıçağı. 170×19×0.80mm, yüksek karbonlu çelik, 2 çentik, 4 delik. Alçıpan, kartonpiyer, alçı levha kesimi için uzun gövdeli profesyonel bıçak. İnşaat ve tadilat sektörü.',
 
-    longDescription: `<p>B207 XXL ekstra uzun trapez bıçak, trapez ailesinin en büyük boyutlu standart ürünüdür. Endüstriyel ölçekli kesim uygulamalarında maksimum verimlilik sağlamak için tasarlanmıştır.</p>
-<p>100×19mm boyutlu trapezlerle birlikte en uzun kesim hattına sahip ürünler arasındadır. Büyük atölyelerde, fabrikalarda ve endüstriyel tesislerde sürekli yoğun kullanım için uygundur.</p>`,
+    longDescription: `
+      <p><strong>B207 XXL Alçı Levha Bıçağı</strong>, 170×19×0.80mm boyutlarında, yüksek karbonlu çelikten üretilmiş, 2 çentik ve 4 delik tasarımlı profesyonel bir kuru duvar (drywall) kesim bıçağıdır. Alçıpan, kartonpiyer ve alçı levha montaj/tadilat işlerinde uzmanlaşmış ekipler için tasarlanmıştır.</p>
+
+      <h3>Neden 170mm Uzun Gövde?</h3>
+      <p>Standart trapez bıçaklar 60-100mm aralığındayken, B207 XXL'in <strong>170mm gövde uzunluğu</strong> geniş alçıpan panellerinde (1200×2400mm standart levha) tek seferde düz ve uzun kesim yapabilme avantajı sağlar. Bu da:</p>
+      <ul>
+        <li><strong>Daha az geçiş sayısı</strong> → Kesim hattında kırık ve düzensizlik oluşmaz</li>
+        <li><strong>Zaman tasarrufu</strong> → Bir levhada 3-4 geçiş yerine 1-2 geçiş yeterli</li>
+        <li><strong>Profesyonel sonuç</strong> → Düz ve temiz kesim hatları, minimum toz</li>
+      </ul>
+
+      <h3>0.80mm Kalınlık — Rijit Yapı</h3>
+      <p>İnce bıçaklar alçıpan kesiminde eğilir ve kesim hattından sapar. B207 XXL'in <strong>0.80mm kalınlığı</strong> bıçağa rijitlik kazandırır — levha boyunca sapmadan düz ilerler. Özellikle 12.5mm ve 15mm kalınlıktaki alçıpan levhalarında kritik bir avantajdır.</p>
+
+      <h3>2 Çentik + 4 Delik Tasarımı</h3>
+      <p><strong>2 çentik</strong> bıçağın tutucuda kaymasını önler ve güvenli kilitleme sağlar. <strong>4 delik</strong> ise farklı tutucu tipleriyle uyumluluk sunarak çoklu montaj opsiyonu verir. Bu sayede bıçak; standart maket bıçağı tutucuları, profesyonel alçıpan tutucuları ve özel endüstriyel aparatlarla kullanılabilir.</p>
+
+      <h3>Yüksek Karbonlu Çelik — Keskinlik ve Dayanıklılık</h3>
+      <p>Yüksek karbonlu çelik, alçıpan karton tabakasını kolayca keserken, alçı çekirdeğinde de temiz kırılma hattı oluşturur. HRC 58-62 sertlik aralığı, bıçağın yüzlerce kesim boyunca keskinliğini korumasını sağlar.</p>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Alçıpan Montajı:</strong> Standart 12.5mm ve 15mm alçıpan levha kesimi</li>
+        <li><strong>Kartonpiyer:</strong> Dekoratif kartonpiyer profili budama ve düzeltme</li>
+        <li><strong>Tadilat/Renovasyon:</strong> Mevcut alçıpan açıklık kesme, priz/anahtar yuvası açma</li>
+        <li><strong>Yalıtım:</strong> Alçıpan + yalıtım sandviç panellerinde kesim</li>
+        <li><strong>Profesyonel İnşaat:</strong> Yeni bina alçıpan duvar ve tavan montajı</li>
+      </ul>
+    `,
 
     images: {
-      main: { src: '/images/products/b207-xxl-uzun.jpg', alt: 'B207 XXL Ekstra Uzun Trapez Bıçak', width: 800, height: 800 },
-      gallery: [
-        { src: '/images/products/b207-xxl-uzun.jpg', alt: 'B207 XXL Ekstra Uzun Trapez', width: 800, height: 800 },
-      ],
-      thumbnail: { src: '/images/products/b207-xxl-uzun.jpg', alt: 'B207 XXL', width: 400, height: 400 },
+      main: {
+        src: '/images/products/b207-xxl-uzun.jpg',
+        alt: 'B207 XXL Alçı Levha Bıçağı 170×19×0.80mm 2 Çentik 4 Delik — Alya Bıçak',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/b207-xxl-uzun.jpg',
+        alt: 'B207 XXL Alçı Levha Bıçağı — Alya Bıçak',
+        width: 400,
+        height: 400,
+      },
     },
 
     specs: [
-      { label: 'material', value: 'Yüksek Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'material', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '170×19×0.80mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.80mm', icon: 'Ruler' },
       { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
-      { label: 'thickness', value: '0.63mm', icon: 'Ruler' },
-      { label: 'form', value: 'Trapez XXL (Ekstra Uzun)', icon: 'Triangle' },
-      { label: 'bladeProfile', value: 'B207 serisi ekstra genişletilmiş', icon: 'ArrowRight' },
+      { label: 'form', value: '2 Çentik + 4 Delik', icon: 'Settings' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
 
     applications: [
-      { title: 'Endüstriyel Kesim', icon: 'Factory', description: 'Fabrika ve atölye ölçeğinde ağır malzeme kesimi' },
-      { title: 'Büyük Ambalaj', icon: 'Package', description: 'Büyük boy palet shrink, endüstriyel ambalaj' },
-      { title: 'İnşaat Projesi', icon: 'HardHat', description: 'Büyük yalıtım panelleri, membran kesimi' },
+      { title: 'Alçıpan Montajı', icon: 'LayoutGrid', description: '12.5mm ve 15mm standart alçıpan levha kesimi' },
+      { title: 'Kartonpiyer Kesimi', icon: 'Crown', description: 'Dekoratif kartonpiyer profili budama ve düzeltme' },
+      { title: 'Tadilat/Renovasyon', icon: 'Wrench', description: 'Mevcut alçıpan açıklık kesme, priz/anahtar yuvası açma' },
+      { title: 'Yalıtım', icon: 'ThermometerSun', description: 'Alçıpan + yalıtım sandviç panel kesimi' },
+      { title: 'Profesyonel İnşaat', icon: 'Building', description: 'Yeni bina duvar ve tavan alçıpan montajı' },
     ],
 
     benefits: [
-      { title: 'Maksimum Kesim', description: 'Trapez ailesindeki en geniş kesim hattı: tek seferde maksimum verimlilik.', icon: 'Maximize' },
-      { title: 'Endüstriyel Dayanım', description: '0.63mm kalınlık + uzun gövde: ağır hizmet uygulamalarında güvenilir.', icon: 'Shield' },
+      {
+        title: '170mm Uzun Gövde — Tek Geçiş',
+        description: 'Geniş alçıpan panellerinde tek seferde düz ve uzun kesim. Daha az geçiş, daha az düzensizlik.',
+        icon: 'Maximize',
+      },
+      {
+        title: '0.80mm Rijit Yapı — Sapmaz',
+        description: '0.80mm kalınlık bıçağa rijitlik kazandırır, levha boyunca sapmadan düz ilerler.',
+        icon: 'Shield',
+      },
+      {
+        title: '2 Çentik + 4 Delik — Güvenli Montaj',
+        description: 'Çentikler kayma önler, 4 delik farklı tutucu tipleriyle uyumluluk sağlar.',
+        icon: 'Lock',
+      },
+      {
+        title: 'HRC 58-62 — Uzun Ömür',
+        description: 'Yüksek karbonlu çelik sertliği yüzlerce kesim boyunca keskinliği korur.',
+        icon: 'Shield',
+      },
     ],
 
     features: [
-      'B207 serisinin ekstra uzun (XXL) versiyonu',
-      '0.63mm kalın profil',
-      'En geniş kesim hattı',
-      'Endüstriyel seviye dayanıklılık',
-      'Sheffield kalitesinde karbon çelik',
+      '170×19×0.80mm — alçıpan için optimum uzun gövde',
+      '0.80mm kalınlık — rijit, eğilmez yapı',
+      '2 çentik — tutucuda güvenli kilitleme',
+      '4 delik — çoklu montaj opsiyonu',
+      'Yüksek karbonlu çelik — HRC 58-62 sertlik',
+      'Tek seferde uzun ve düz kesim hattı',
+      'Sheffield Durham Duplex kalitesi',
     ],
 
+    availableSizes: ['170×19×0.80mm'],
     certifications: ['CE'],
-
-    relatedProductIds: ['b207', 'b207-2', 'b206'],
+    relatedProductIds: ['b207', 'b207-2'],
 
     seo: {
-      title: 'B207 XXL Ekstra Uzun Trapez Bıçak | Extra Long Utility Blade | Alya Bıçak',
-      description: 'B207 XXL ekstra uzun trapez bıçak. En geniş kesim hattı, endüstriyel ağır hizmet. Sheffield çelik, HRC 58-62. Türkiye distribütörü.',
-      keywords: ['xxl trapez bıçak', 'B207 XXL', 'extra long trapezoid', 'ekstra uzun utility blade', 'endüstriyel trapez'],
+      title: 'B207 XXL Alçı Levha Bıçağı 170×19mm | Alçıpan Kartonpiyer Kesim Bıçağı | Alya Bıçak',
+      description: 'B207 XXL alçı levha bıçağı, 170×19×0.80mm, yüksek karbonlu çelik, 2 çentik, 4 delik. Alçıpan, kartonpiyer, kuru duvar kesimi. Sheffield kalitesi. Türkiye distribütörü Alya Bıçak.',
+      keywords: [
+        'alçı levha bıçağı', 'alçıpan bıçağı', 'kartonpiyer bıçağı', 'drywall blade',
+        'B207 XXL', 'plasterboard blade', 'plasterboard knife blade', 'drywall cutting blade',
+        'alçıpan kesim bıçağı', 'kuru duvar bıçağı', '170mm alçıpan bıçağı',
+        'alçıpan falçatası', 'gypsum board blade', 'gypsum board cutting blade',
+        'drywall scoring blade', 'plasterboard scoring knife', 'score and snap blade',
+      ],
     },
 
     isActive: true,
-    isFeatured: false,
-    isNew: false,
+    isFeatured: true,
+    isNew: true,
     inStock: true,
     order: 207,
   },
@@ -7045,6 +7116,156 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     isNew: true,
     inStock: true,
     order: 346,
+  },
+
+  // ─── OK BIÇAK — ARROW BLADE ─────────────────────────────────────────────────
+  {
+    id: 'ok',
+    slug: 'ok-bicak',
+    slugEN: 'ok-arrow-blade',
+    code: 'OK',
+    name: 'OK BIÇAK — Arrow Blade',
+    subtitle: '30.4×25.0×0.50mm — Karbon Çelik, Çift Kenar, 2 Slot + 1 Delik',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'arrow-blades',
+    tags: [
+      'ok bıçak', 'arrow blade', 'ok biçak', 'endüstriyel ok bıçak',
+      'kablo soyma bıçağı', 'etiket kesme bıçağı', 'otomatik kesim bıçağı',
+      'çift kenarlı bıçak', 'double edge blade', 'mini utility blade',
+      'plastik kesim bıçağı', 'film kesim bıçağı', 'bant kesme bıçağı',
+    ],
+
+    shortDescription: 'OK Bıçak (Arrow Blade). 30.4×25.0×0.50mm, karbon çelik, çift taraflı bilemeli (iki keskin kenar), 2 açık yuva (slot) + 1 delik. Endüstriyel hassas kesim makineleri, etiket/kablo soyma, bant kesme, paket açma, otomatik kesim sistemleri.',
+
+    longDescription: `
+      <p><strong>OK Bıçak (Arrow Blade)</strong>, 30.4×25.0×0.50mm boyutlarında, karbon çelikten üretilmiş kompakt ve çift taraflı bilemeli (iki keskin kenar) bir endüstriyel bıçaktır. 2 açık yuva (slot) ve 1 delik tasarımıyla farklı tutucu ve makine sistemlerine güvenli montaj sağlar.</p>
+
+      <h3>Neden OK Bıçak (Arrow Blade)?</h3>
+      <p>Single-edge utility blade'lere kıyasla daha küçük boyutta olan OK Bıçak, <strong>hassas ve kontrollü kesim</strong> gerektiren uygulamalar için idealdir. Kompakt yapısı sayesinde dar alanlarda, otomatik makine yuvalarında ve hassas pozisyonlama gerektiren işlerde kolayca kullanılır.</p>
+
+      <h3>Çift Taraflı Bileme — İki Keskin Kenar</h3>
+      <p>Her iki kenarı da bilemelidir. Bu özellik:</p>
+      <ul>
+        <li><strong>Bıçak ömrünü iki katına çıkarır</strong> → Bir kenar körleşince diğer taraf kullanılır</li>
+        <li><strong>Çift yönlü kesim</strong> → Hem ileri hem geri harekette kesim yapabilme imkânı</li>
+        <li><strong>Bileme yapılabilir</strong> → Karbon çelik yapısı sayesinde tekrar bilenerek uzun ömürlü kullanım</li>
+      </ul>
+
+      <h3>2 Açık Yuva + 1 Delik — Çoklu Montaj</h3>
+      <p>2 açık yuva (slot) bıçağın çeşitli tutucu ve aparatlara kayarak takılmasını sağlar. Merkezdeki 1 delik ise vidalı sabitleme veya otomatik makine pin sistemi ile kilitleme imkânı sunar. Bu tasarım sayesinde OK Bıçak; el tutucuları, otomatik dilme makineleri, etiket makineleri ve özel endüstriyel aparatlarla kullanılabilir.</p>
+
+      <h3>Karbon Çelik — Keskinlik ve Maliyet Avantajı</h3>
+      <p>Karbon çelik; paslanmaz çeliğe göre <strong>daha yüksek keskinlik</strong> sağlar ve <strong>kolay bilenebilir</strong> yapısıyla operasyonel maliyeti düşürür. Kuru ortam uygulamalarında (plastik, film, bant, kablo izolasyonu) karbon çelik ideal malzeme tercihidir.</p>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Etiket / Kablo Soyma:</strong> Etiket makinelerinde kesim, kablo izolasyonu soyma</li>
+        <li><strong>Bant Kesme:</strong> Bant, streç film, yapışkan şerit kesimi</li>
+        <li><strong>Paket Açma:</strong> Karton, koli, ambalaj açma işlemlerinde</li>
+        <li><strong>Otomatik Kesim Sistemleri:</strong> Etiket makineleri, dilme makineleri, otomatik paketleme hatları</li>
+        <li><strong>Elektronik:</strong> Devre kartı soyma, PCB temizleme, hassas kazıma</li>
+        <li><strong>Plastik / Film / Folyo:</strong> İnce plastik, film, folyo ve laminasyon dilme</li>
+        <li><strong>Tekstil:</strong> İnce kumaş, şerit ve iplik kesimi</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/ok-bicak.jpg',
+        alt: 'OK Bıçak Arrow Blade 30.4×25.0×0.50mm Karbon Çelik Çift Kenar — Alya Bıçak',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/ok-bicak.jpg',
+        alt: 'OK Bıçak Arrow Blade — Alya Bıçak',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Karbon Çelik', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '30.4×25.0×0.50mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.50mm', icon: 'Ruler' },
+      { label: 'hardness', value: 'HRC 58-62', icon: 'Shield' },
+      { label: 'edge', value: 'Çift Taraflı Bileme (Double Edge)', icon: 'Triangle', highlight: true },
+      { label: 'form', value: '2 Açık Yuva (Slot) + 1 Delik', icon: 'Settings' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Etiket / Kablo Soyma', icon: 'Tag', description: 'Etiket makinelerinde kesim, kablo izolasyonu soyma' },
+      { title: 'Bant Kesme', icon: 'Scissors', description: 'Bant, streç film, yapışkan şerit kesimi' },
+      { title: 'Paket Açma', icon: 'Package', description: 'Karton, koli, ambalaj açma işlemleri' },
+      { title: 'Otomatik Kesim Sistemleri', icon: 'Cpu', description: 'Etiket ve dilme makineleri, otomatik paketleme hatları' },
+      { title: 'Elektronik', icon: 'CircuitBoard', description: 'Devre kartı soyma, PCB temizleme, hassas kazıma' },
+      { title: 'Plastik / Film / Folyo', icon: 'Film', description: 'İnce plastik, film, folyo ve laminasyon dilme' },
+      { title: 'Tekstil', icon: 'Shirt', description: 'İnce kumaş, şerit ve iplik kesimi' },
+    ],
+
+    benefits: [
+      {
+        title: 'Çift Kenar — 2× Ömür',
+        description: 'Her iki kenarı da bilemeli: bir kenar körleşince diğer taraf kullanılır, bıçak ömrü iki katına çıkar.',
+        icon: 'RotateCcw',
+      },
+      {
+        title: 'Kompakt Boyut — Hassas Kesim',
+        description: '30.4×25.0mm boyut dar alanlarda, otomatik makine yuvalarında ve hassas pozisyonlama gerektiren işlerde ideal.',
+        icon: 'Target',
+      },
+      {
+        title: 'Karbon Çelik — Kolay Bileme',
+        description: 'Karbon çelik yüksek keskinlik sağlar ve bileme yapılabilir yapısıyla uzun ömürlü, düşük maliyetli kullanım sunar.',
+        icon: 'Layers',
+      },
+      {
+        title: '2 Slot + 1 Delik — Çoklu Montaj',
+        description: 'Açık yuvalar ve merkez delik sayesinde el tutucuları, otomatik makineler ve özel aparatlarla uyumlu.',
+        icon: 'Link',
+      },
+    ],
+
+    features: [
+      '30.4×25.0×0.50mm kompakt boyut',
+      'Çift taraflı bileme — iki keskin kenar',
+      '2 açık yuva (slot) + 1 delik — çoklu montaj opsiyonu',
+      'Karbon çelik — yüksek keskinlik, kolay bileme',
+      '0.50mm kalınlık — ince ve hassas kesim',
+      'HRC 58-62 sertlik — uzun ömürlü keskinlik',
+      'Bileme yapılabilir yapı — tekrar kullanım',
+    ],
+
+    availableSizes: ['30.4×25.0×0.50mm'],
+    certifications: ['CE'],
+    relatedProductIds: ['b204', 'b206'],
+
+    seo: {
+      title: 'OK Bıçak Arrow Blade 30.4×25mm | Çift Kenar Karbon Çelik Endüstriyel Bıçak | Alya Bıçak',
+      description: 'OK Bıçak (Arrow Blade), 30.4×25.0×0.50mm, karbon çelik, çift taraflı bilemeli, 2 slot + 1 delik. Etiket/kablo soyma, bant kesme, otomatik kesim, elektronik PCB. Türkiye distribütörü.',
+      keywords: [
+        'ok bıçak', 'arrow blade', 'ok biçak', 'endüstriyel ok bıçak',
+        'kablo soyma bıçağı', 'etiket kesme bıçağı', 'otomatik kesim bıçağı',
+        'çift kenarlı bıçak', 'double edge blade', 'mini utility blade',
+        'plastik kesim bıçağı', 'film kesim bıçağı', 'bant kesme bıçağı',
+        'arrow point blade', 'industrial arrow blade', 'cable stripping blade',
+        'label cutting blade', 'PCB scraping blade', 'double edged utility blade',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 347,
   },
 ];
 

@@ -3,34 +3,50 @@
     "id": "ok",
     "slug": "ok-bicak",
     "code": "OK",
-    "name": "OK - BIÇAK",
-    "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "OK BIÇAK — Arrow Blade",
+    "description": "OK Bıçak (Arrow Blade). 30.4×25.0×0.50mm, 2 açık yuva (slot), 1 delik, karbon çelik, çift taraflı bilemeli. Endüstriyel hassas kesim makineleri, etiket/kablo soyma, bant kesme, paket açma, otomatik kesim sistemleri, elektronik devre kartı soyma.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "hobby-blades",
+    "subcategoryId": "arrow-blades",
     "image": "/images/products/ok-bicak.jpg",
     "variants": [
       {
-        "id": "ok-bicak-standard",
+        "id": "ok-001",
         "sku": "OK",
+        "name": "OK Bıçak — 30.4×25.0×0.50mm, Karbon Çelik, Çift Kenar",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Karbon Çelik",
+      "dimensions": "30.4×25.0×0.50mm",
+      "thickness": "0.50mm",
+      "hardness": "HRC 58-62",
+      "edge": "Çift Taraflı Bileme",
+      "design": "2 Açık Yuva (Slot) + 1 Delik"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "30.4×25.0×0.50mm kompakt boyut",
+      "Çift taraflı bileme — iki keskin kenar",
+      "2 açık yuva + 1 delik — güvenli montaj",
+      "Karbon çelik — yüksek keskinlik, kolay bileme",
+      "Bileme yapılabilir — uzun ömürlü"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Etiket/kablo soyma",
+      "Bant kesme",
+      "Paket açma",
+      "Otomatik kesim sistemleri",
+      "Elektronik devre kartı soyma",
+      "Plastik/film/folyo kesimi"
+    ],
+    "seoKeywords": [
+      "ok bıçak", "arrow blade", "ok biçak", "endüstriyel ok bıçak",
+      "kablo soyma bıçağı", "etiket kesme bıçağı", "otomatik kesim bıçağı"
     ],
     "isFeatured": true,
-    "isActive": false,
-    "order": 100,
-    "slugEN": "ok-blade"
+    "isActive": true,
+    "order": 350,
+    "slugEN": "ok-arrow-blade"
   },
   {
     "id": "slotted-karbon-celik",
@@ -4206,36 +4222,50 @@
   },
   {
     "id": "b207-3",
-    "slug": "b207-xxl-uzun-3",
-    "code": "B207",
-    "name": "B207 - XXL (UZUN)",
-    "description": "XXL (UZUN). Sheffield kalitesinde profesyonel kesici bıçak.",
+    "slug": "b207-xxl-alci-levha-bicagi",
+    "code": "B207 XXL",
+    "name": "B207 XXL (UZUN) — ALÇI LEVHA BIÇAĞI",
+    "description": "Alçı levha (kartonpiyer) bıçağı. 170×19×0.80mm, 2 çentik, 4 delik. Yüksek karbonlu çelik. Alçıpan, kartonpiyer, alçı levha kesimi için uzun gövdeli profesyonel bıçak.",
     "categoryId": "industrial-blades",
-    "subcategoryId": "trapezoid-blades",
+    "subcategoryId": "drywall-blades",
     "image": "/images/products/b207-xxl-uzun.jpg",
     "variants": [
       {
-        "id": "b207-xxl-uzun-standard",
-        "sku": "B207",
+        "id": "b207-xxl-001",
+        "sku": "B207 XXL",
+        "name": "B207 XXL — 170×19×0.80mm, 2 Çentik, 4 Delik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "Yüksek Karbonlu Çelik",
+      "dimensions": "170×19×0.80mm",
+      "thickness": "0.80mm",
+      "hardness": "HRC 58-62",
+      "design": "2 Çentik, 4 Delik"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "170mm uzun gövde — geniş alçıpan panellerinde tek seferde kesim",
+      "0.80mm kalınlık — eğilme ve bükülmeye karşı rijit",
+      "2 çentik tasarımı — bıçak tutucularda güvenli kilitleme",
+      "4 delik — çoklu montaj opsiyonu",
+      "Yüksek karbonlu çelik — keskinlik ve dayanıklılık"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Alçıpan kesimi",
+      "Kartonpiyer kesimi",
+      "Alçı levha düzeltme",
+      "İnşaat/tadilat",
+      "Kuru duvar (drywall) uygulamaları"
     ],
-    "isFeatured": false,
+    "seoKeywords": [
+      "alçı levha bıçağı", "alçıpan bıçağı", "kartonpiyer bıçağı", "drywall blade",
+      "B207 XXL", "170mm alçıpan bıçağı", "alçıpan kesim bıçağı", "plasterboard knife blade"
+    ],
+    "isFeatured": true,
     "isActive": true,
-    "order": 156,
-    "slugEN": "b207-xxl-extra-long-trapezoid-blade"
+    "order": 349,
+    "slugEN": "b207-xxl-drywall-plasterboard-blade"
   },
   {
     "id": "h006-001-x01",

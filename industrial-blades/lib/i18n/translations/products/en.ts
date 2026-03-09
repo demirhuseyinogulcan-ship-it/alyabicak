@@ -256,10 +256,46 @@ export const productsEn: Record<string, ProductTranslation> = {
   // SANAYİ JİLETLERİ - HOBİ JİLETLERİ
   // =============================================================================
   'ok': {
-    name: 'Arrow Blade',
-    description: 'Arrow-shaped professional cutting blade. Sheffield quality industrial blade for precision work.',
-    features: ['Arrow shape design', 'Long lasting', 'Sheffield quality', 'Professional use'],
-    applications: ['Industrial cutting', 'Precision work'],
+    name: 'OK Blade — Arrow Blade',
+    subtitle: '30.4×25.0×0.50mm — Carbon Steel, Double Edge, 2 Slots + 1 Hole',
+    description: 'OK Blade (Arrow Blade). 30.4×25.0×0.50mm, carbon steel, double-edged (two sharp edges), 2 open slots + 1 hole. Industrial precision cutting machines, label/cable stripping, tape cutting, package opening, automatic cutting systems.',
+    shortDescription: 'OK Arrow Blade. 30.4×25.0×0.50mm, carbon steel, double edge, 2 slots + 1 hole. Label stripping, tape cutting, automatic cutting systems.',
+    features: [
+      '30.4×25.0×0.50mm compact size',
+      'Double edge grind — two sharp edges',
+      '2 open slots + 1 hole — multiple mounting options',
+      'Carbon steel — high sharpness, easy to resharpen',
+      '0.50mm thickness — thin and precise cutting',
+      'HRC 58-62 hardness — long-lasting sharpness',
+      'Resharpenable structure — reusable',
+    ],
+    applications: [
+      'Label / Cable Stripping',
+      'Tape Cutting',
+      'Package Opening',
+      'Automatic Cutting Systems',
+      'Electronics',
+      'Plastic / Film / Foil',
+      'Textile',
+    ],
+    seo: {
+      title: 'OK Arrow Blade 30.4×25mm | Double Edge Carbon Steel Industrial Blade | Alya Blade',
+      description: 'OK Arrow Blade, 30.4×25.0×0.50mm, carbon steel, double-edged, 2 slots + 1 hole. Label/cable stripping, tape cutting, automatic cutting, electronics PCB. Authorized distributor.',
+      keywords: ['arrow blade', 'OK blade', 'double edge blade', 'cable stripping blade', 'label cutting blade', 'automatic cutting blade', 'arrow point blade', 'industrial arrow blade', 'mini utility blade'],
+    },
+    benefits: [
+      { title: 'Double Edge — 2× Life', description: 'Both edges are sharpened: when one edge dulls, use the other side, doubling blade life.', icon: 'RotateCcw' },
+      { title: 'Compact Size — Precision Cutting', description: '30.4×25.0mm size is ideal for tight spaces, automatic machine slots and precision positioning.', icon: 'Target' },
+      { title: 'Carbon Steel — Easy Resharpening', description: 'Carbon steel provides high sharpness and resharpenable structure for long-lasting, low-cost use.', icon: 'Layers' },
+      { title: '2 Slots + 1 Hole — Multiple Mounting', description: 'Open slots and centre hole compatible with hand holders, automatic machines and custom fixtures.', icon: 'Link' },
+    ],
+    longDescription: `<p><strong>OK Blade (Arrow Blade)</strong> is a compact, double-edged industrial blade manufactured from carbon steel, measuring 30.4×25.0×0.50mm. Its 2 open slots and 1 hole design provides secure mounting to various holders and machine systems.</p>
+      <h3>Why OK Arrow Blade?</h3>
+      <p>Smaller than single-edge utility blades, the OK Blade is ideal for applications requiring <strong>precise and controlled cutting</strong>. Its compact structure allows easy use in tight spaces, automatic machine slots and precision positioning tasks.</p>
+      <h3>Double Edge Grind — Two Sharp Edges</h3>
+      <p>Both edges are sharpened. When one edge dulls, use the other side — doubling blade life. Carbon steel structure also allows resharpening for extended use.</p>
+      <h3>2 Open Slots + 1 Hole — Multiple Mounting</h3>
+      <p>2 open slots allow the blade to slide into various holders and fixtures. The centre hole enables screw fixing or automatic machine pin locking.</p>`,
   },
 
   // =============================================================================
@@ -1506,22 +1542,45 @@ export const productsEn: Record<string, ProductTranslation> = {
     longDescription: `<p>The B207 L (Long) trapezoid blade is the extended version of the standard B207 series. It offers a wider cutting line, enabling more material to be cut in a single pass.</p><p>Especially preferred for large box carton opening, cutting wide packaging films, large surface carpet installation and industrial packaging operations, providing more efficient work compared to the standard size.</p>`,
   },
   'b207-3': {
-    name: 'B207 XXL - Extra Long Trapezoid Blade',
-    subtitle: 'Extra Long Trapezoid Blade',
-    description: 'Extra long (XXL) version of B207 series. Maximum cutting area in the trapezoid family. For industrial-scale cutting applications.',
-    shortDescription: 'Extra long (XXL) B207 series. Maximum cutting area, industrial-scale cutting applications.',
-    features: ['B207 series extra long (XXL) version', '0.63mm thick profile', 'Maximum cutting line', 'Industrial-grade durability', 'Sheffield quality carbon steel'],
-    applications: ['Industrial cutting', 'Large packaging', 'Construction projects'],
+    name: 'B207 XXL (LONG) — Drywall / Plasterboard Blade',
+    subtitle: '170×19×0.80mm — 2 Notches, 4 Holes — Drywall / Plasterboard Cutting Blade',
+    description: 'B207 XXL Drywall Blade. 170×19×0.80mm, high carbon steel, 2 notches, 4 holes. Professional long-body blade for plasterboard, drywall and gypsum board cutting. Construction and renovation sector.',
+    shortDescription: 'B207 XXL Drywall Blade. 170×19×0.80mm, high carbon steel, 2 notches, 4 holes. Professional plasterboard cutting blade for construction and renovation.',
+    features: [
+      '170×19×0.80mm — optimum long body for drywall',
+      '0.80mm thickness — rigid, non-flexing structure',
+      '2 notches — secure locking in holder',
+      '4 holes — multiple mounting options',
+      'High carbon steel — HRC 58-62 hardness',
+      'Single-pass long and straight cutting line',
+      'Sheffield Durham Duplex quality',
+    ],
+    applications: [
+      'Plasterboard Installation',
+      'Crown Moulding Cutting',
+      'Renovation / Refurbishment',
+      'Insulation',
+      'Professional Construction',
+    ],
     seo: {
-      title: 'B207 XXL Extra Long Trapezoid Blade | Extra Long Utility Blade | Alya Blade',
-      description: 'B207 XXL extra long trapezoid blade. Maximum cutting line, industrial heavy duty. Sheffield steel, HRC 58-62. Authorized distributor.',
-      keywords: ['xxl trapezoid blade', 'B207 XXL', 'extra long trapezoid', 'extra long utility blade', 'industrial trapezoid'],
+      title: 'B207 XXL Drywall Blade 170×19mm | Plasterboard Cutting Blade | Alya Blade',
+      description: 'B207 XXL drywall blade, 170×19×0.80mm, high carbon steel, 2 notches, 4 holes. Plasterboard, gypsum board, drywall cutting. Sheffield quality. Authorized distributor.',
+      keywords: ['drywall blade', 'plasterboard blade', 'B207 XXL', 'gypsum board blade', 'plasterboard cutting blade', 'drywall scoring blade', '170mm drywall blade', 'score and snap blade'],
     },
     benefits: [
-      { title: 'Maximum Cutting', description: 'The widest cutting line in the trapezoid family: maximum efficiency in a single pass.', icon: 'Maximize' },
-      { title: 'Industrial Durability', description: '0.63mm thickness + long body: reliable in heavy duty applications.', icon: 'Shield' },
+      { title: '170mm Long Body — Single Pass', description: 'Straight and long cuts on wide plasterboard panels in a single pass. Fewer passes, fewer irregularities.', icon: 'Maximize' },
+      { title: '0.80mm Rigid Structure — No Deviation', description: '0.80mm thickness gives rigidity — advances straight without deviation along the board.', icon: 'Shield' },
+      { title: '2 Notches + 4 Holes — Secure Mount', description: 'Notches prevent slippage, 4 holes provide compatibility with different holder types.', icon: 'Lock' },
+      { title: 'HRC 58-62 — Long Life', description: 'High carbon steel hardness maintains sharpness through hundreds of cuts.', icon: 'Shield' },
     ],
-    longDescription: `<p>The B207 XXL extra long trapezoid blade is the largest standard product in the trapezoid family. Designed to provide maximum efficiency in industrial-scale cutting applications.</p><p>Together with 100×19mm trapezoids, it is among the products with the longest cutting line. Suitable for continuous intensive use in large workshops, factories and industrial facilities.</p>`,
+    longDescription: `<p><strong>B207 XXL Drywall Blade</strong> is a professional drywall cutting blade manufactured from high carbon steel, measuring 170×19×0.80mm with 2 notches and 4 holes. Designed for teams specialising in plasterboard, gypsum board and drywall installation/renovation work.</p>
+      <h3>Why 170mm Long Body?</h3>
+      <p>While standard utility blades range from 60-100mm, the B207 XXL's <strong>170mm body length</strong> provides the advantage of making straight and long cuts in a single pass on wide plasterboard panels (1200×2400mm standard sheet). This means:</p>
+      <ul><li><strong>Fewer passes</strong> → No breaks or irregularities in the cut line</li><li><strong>Time saving</strong> → 1-2 passes instead of 3-4 per sheet</li><li><strong>Professional finish</strong> → Straight and clean cut lines, minimum dust</li></ul>
+      <h3>0.80mm Thickness — Rigid Structure</h3>
+      <p>Thin blades flex during drywall cutting and deviate from the cut line. The B207 XXL's <strong>0.80mm thickness</strong> gives the blade rigidity — it advances straight without deviation along the board. This is a critical advantage especially for 12.5mm and 15mm thick plasterboard sheets.</p>
+      <h3>2 Notches + 4 Holes Design</h3>
+      <p><strong>2 notches</strong> prevent the blade from slipping in the holder and provide secure locking. <strong>4 holes</strong> offer compatibility with different holder types, giving multiple mounting options.</p>`,
   },
   'trapez': {
     name: 'Trapezoid – Custom Design',

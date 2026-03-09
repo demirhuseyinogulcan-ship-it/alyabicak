@@ -408,6 +408,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '38×19×0.10mm': '38×19×0.10mm',
     'Kaplamalı': 'Kaplamalı',
     '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)',
+
+    // B207 XXL Alçı Levha Bıçağı Değerleri
+    '170×19×0.80mm': '170×19×0.80mm',
+    '0.80mm': '0.80mm',
+    '2 Çentik + 4 Delik': '2 Çentik + 4 Delik',
+
+    // OK Bıçak (Arrow Blade) Değerleri
+    '30.4×25.0×0.50mm': '30.4×25.0×0.50mm',
+    '0.50mm': '0.50mm',
+    'Çift Taraflı Bileme (Double Edge)': 'Çift Taraflı Bileme (Double Edge)',
+    '2 Açık Yuva (Slot) + 1 Delik': '2 Açık Yuva (Slot) + 1 Delik',
   },
 
   // =============================================================================
@@ -808,6 +819,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '38×19×0.10mm': '38×19×0.10mm',
     'Kaplamalı': 'Coated',
     '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 pcs/box (B684) — 250 pcs/box (B685)',
+
+    // B207 XXL Drywall Blade Values
+    '170×19×0.80mm': '170×19×0.80mm',
+    '0.80mm': '0.80mm',
+    '2 Çentik + 4 Delik': '2 Notches + 4 Holes',
+
+    // OK Arrow Blade Values
+    '30.4×25.0×0.50mm': '30.4×25.0×0.50mm',
+    '0.50mm': '0.50mm',
+    'Çift Taraflı Bileme (Double Edge)': 'Double Edge Grind',
+    '2 Açık Yuva (Slot) + 1 Delik': '2 Open Slots + 1 Hole',
   },
 
   // =============================================================================
@@ -1173,6 +1195,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '38×19×0.10mm': '38×19×0.10مم',
     'Kaplamalı': 'مطلية',
     '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 قطعة/صندوق (B684) — 250 قطعة/صندوق (B685)',
+
+    // قيم شفرة ألواح الجبس B207 XXL
+    '170×19×0.80mm': '170×19×0.80مم',
+    '0.80mm': '0.80مم',
+    '2 Çentik + 4 Delik': '2 شق + 4 ثقوب',
+
+    // قيم شفرة السهم OK
+    '30.4×25.0×0.50mm': '30.4×25.0×0.50مم',
+    '0.50mm': '0.50مم',
+    'Çift Taraflı Bileme (Double Edge)': 'شحذ مزدوج الحواف',
+    '2 Açık Yuva (Slot) + 1 Delik': '2 فتحة مفتوحة + 1 ثقب',
   },
 
   // =============================================================================
@@ -1573,6 +1606,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '38×19×0.10mm': '38×19×0,10mm',
     'Kaplamalı': 'Revêtue',
     '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 pcs/boîte (B684) — 250 pcs/boîte (B685)',
+
+    // Valeurs lame plaque de plâtre B207 XXL
+    '170×19×0.80mm': '170×19×0,80mm',
+    '0.80mm': '0,80mm',
+    '2 Çentik + 4 Delik': '2 Encoches + 4 Trous',
+
+    // Valeurs lame flèche OK
+    '30.4×25.0×0.50mm': '30,4×25,0×0,50mm',
+    '0.50mm': '0,50mm',
+    'Çift Taraflı Bileme (Double Edge)': 'Affûtage Double Tranchant',
+    '2 Açık Yuva (Slot) + 1 Delik': '2 Fentes Ouvertes + 1 Trou',
   },
 
   // =============================================================================
@@ -1973,6 +2017,17 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '38×19×0.10mm': '38×19×0,10мм',
     'Kaplamalı': 'С покрытием',
     '100 Adet/Kutu (B684) — 250 Adet/Kutu (B685)': '100 шт/кор. (B684) — 250 шт/кор. (B685)',
+
+    // Значения лезвия для гипсокартона B207 XXL
+    '170×19×0.80mm': '170×19×0,80мм',
+    '0.80mm': '0,80мм',
+    '2 Çentik + 4 Delik': '2 насечки + 4 отверстия',
+
+    // Значения лезвия-стрелки OK
+    '30.4×25.0×0.50mm': '30,4×25,0×0,50мм',
+    '0.50mm': '0,50мм',
+    'Çift Taraflı Bileme (Double Edge)': 'Двусторонняя заточка',
+    '2 Açık Yuva (Slot) + 1 Delik': '2 открытых паза + 1 отверстие',
   },
 };
 

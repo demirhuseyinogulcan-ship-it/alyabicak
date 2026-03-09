@@ -1062,16 +1062,46 @@ export const productsFr: Record<string, ProductTranslation> = {
   // COUTEAUX DE SÉCURITÉ - MARTOR & PROFESSIONNELS
   // =============================================================================
   'ok': {
-    name: 'OK - Couteau Professionnel',
-    description: 'Couteau de découpe professionnel de qualité Sheffield. Conception robuste pour usage industriel quotidien avec tranchant durable et prise ergonomique.',
+    name: 'OK Lame — Lame Flèche',
+    subtitle: '30,4×25,0×0,50mm — Acier Carbone, Double Tranchant, 2 Fentes + 1 Trou',
+    description: 'Lame OK (Arrow Blade). 30,4×25,0×0,50mm, acier carbone, double tranchant (deux bords affûtés), 2 fentes ouvertes + 1 trou. Machines de coupe industrielles de précision, décollage d\'étiquettes/câbles, coupe de rubans, ouverture d\'emballages, systèmes de coupe automatiques.',
+    shortDescription: 'Lame flèche OK. 30,4×25,0×0,50mm, acier carbone, double tranchant, 2 fentes + 1 trou. Décollage d\'étiquettes, coupe de rubans, systèmes automatiques.',
     features: [
-      'Qualité Sheffield',
-      'Longue durée de vie',
-      'Prise ergonomique',
-      'Usage professionnel',
-      'Construction robuste'
+      '30,4×25,0×0,50mm taille compacte',
+      'Affûtage double tranchant — deux bords affûtés',
+      '2 fentes ouvertes + 1 trou — options de montage multiples',
+      'Acier carbone — grand tranchant, facile à réaffûter',
+      'Épaisseur 0,50mm — coupe fine et précise',
+      'Dureté HRC 58-62 — tranchant durable',
+      'Structure réaffûtable — réutilisable',
     ],
-    applications: ['Découpe industrielle', 'Entrepôt & Logistique', 'Emballage', 'Production'],
+    applications: [
+      'Décollage d\'étiquettes / câbles',
+      'Coupe de rubans',
+      'Ouverture d\'emballages',
+      'Systèmes de coupe automatiques',
+      'Électronique',
+      'Plastique / film / feuille',
+      'Textile',
+    ],
+    seo: {
+      title: 'OK Lame Flèche 30,4×25mm | Lame Industrielle Acier Carbone Double Tranchant | Alya Blade',
+      description: 'Lame flèche OK, 30,4×25,0×0,50mm, acier carbone, double tranchant, 2 fentes + 1 trou. Étiquettes, câbles, rubans, coupe automatique, électronique. Distributeur autorisé.',
+      keywords: ['lame flèche', 'lame OK', 'lame double tranchant', 'lame industrielle', 'acier carbone', 'coupe étiquettes', 'décapage câbles'],
+    },
+    benefits: [
+      { title: 'Double Tranchant — 2× Durée', description: 'Les deux bords sont affûtés : quand un bord s\'émousse, utilisez l\'autre côté, doublant la durée de vie.', icon: 'RotateCcw' },
+      { title: 'Taille Compacte — Coupe Précise', description: '30,4×25,0mm idéal pour espaces restreints, logements de machines automatiques et positionnement précis.', icon: 'Target' },
+      { title: 'Acier Carbone — Réaffûtage Facile', description: 'L\'acier carbone offre un grand tranchant et une structure réaffûtable pour un usage durable et économique.', icon: 'Layers' },
+      { title: '2 Fentes + 1 Trou — Montage Multiple', description: 'Fentes ouvertes et trou central compatibles avec supports manuels, machines automatiques et fixations spéciales.', icon: 'Link' },
+    ],
+    longDescription: `<p><strong>Lame OK (Arrow Blade)</strong> est une lame industrielle compacte à double tranchant en acier carbone de 30,4×25,0×0,50mm. Sa conception avec 2 fentes ouvertes et 1 trou assure un montage sécurisé dans divers supports et systèmes de machines.</p>
+      <h3>Pourquoi la lame flèche OK ?</h3>
+      <p>Plus petite que les lames utilitaires à simple tranchant, la lame OK est idéale pour les applications nécessitant une <strong>coupe précise et contrôlée</strong>. Sa structure compacte permet une utilisation facile dans les espaces restreints et les logements de machines automatiques.</p>
+      <h3>Affûtage double tranchant — deux bords affûtés</h3>
+      <p>Les deux bords sont affûtés. Quand un bord s'émousse, utilisez l'autre côté — doublant la durée de vie. La structure en acier carbone permet également le réaffûtage pour une utilisation prolongée.</p>
+      <h3>2 fentes ouvertes + 1 trou — montage multiple</h3>
+      <p>Les 2 fentes ouvertes permettent à la lame de coulisser dans divers supports. Le trou central permet la fixation par vis ou le verrouillage par goupille de machine automatique.</p>`,
   },
   'h014-001-x01': {
     name: 'H014 001 X01 - RETRACTABLE TRIM KNIFE – Couteau de Sécurité Rétractable',
@@ -2139,21 +2169,44 @@ export const productsFr: Record<string, ProductTranslation> = {
     longDescription: `<p>La lame trapézoïdale B207 L (Longue) est la version allongée de la série B207 standard. Elle offre une ligne de coupe plus large, permettant de couper plus de matériau en un seul passage.</p><p>Particulièrement utilisée pour l'ouverture de grands cartons, la coupe de films d'emballage larges, la pose de moquette sur grandes surfaces et les opérations d'emballage industriel, offrant un travail plus efficace par rapport au format standard.</p>`,
   },
   'b207-3': {
-    name: 'B207 XXL - Lame Trapézoïdale Extra Longue',
-    subtitle: 'Lame trapézoïdale extra longue',
-    description: 'Version extra longue (XXL) de la série B207. Zone de coupe maximale dans la famille trapézoïdale. Pour échelle industrielle.',
-    features: ['Version extra longue du B207', 'Épaisseur 0,63mm', 'Ligne de coupe maximale', 'Résistance industrielle', 'Acier carbone Sheffield'],
-    applications: ['Coupe industrielle', 'Grand emballage', 'Projets de construction'],
+    name: 'B207 XXL (LONG) — Lame pour Plaques de Plâtre',
+    subtitle: '170×19×0,80mm — 2 Encoches, 4 Trous — Lame de Coupe Placo / Cloison Sèche',
+    description: 'B207 XXL lame pour plaques de plâtre. 170×19×0,80mm, acier à haute teneur en carbone, 2 encoches, 4 trous. Lame professionnelle à corps allongé pour la coupe de plaques de plâtre et cloisons sèches. Secteur construction et rénovation.',
+    shortDescription: 'B207 XXL lame pour plaques de plâtre. 170×19×0,80mm, acier à haute teneur en carbone, 2 encoches, 4 trous. Coupe professionnelle de plaques de plâtre.',
+    features: [
+      '170×19×0,80mm — corps allongé optimal pour les plaques de plâtre',
+      'Épaisseur 0,80mm — structure rigide et inflexible',
+      '2 encoches — verrouillage sécurisé dans le support',
+      '4 trous — options de montage multiples',
+      'Acier à haute teneur en carbone — dureté HRC 58-62',
+      'Ligne de coupe longue et droite en un seul passage',
+      'Qualité Sheffield Durham Duplex',
+    ],
+    applications: [
+      'Installation de plaques de plâtre',
+      'Découpe de corniches',
+      'Rénovation / Réhabilitation',
+      'Isolation',
+      'Construction professionnelle',
+    ],
     seo: {
-      title: 'B207 XXL Lame Trapézoïdale Extra Longue | Alya Blade',
-      description: 'B207 XXL lame trapézoïdale extra longue. Zone de coupe maximale. Acier Sheffield, HRC 58-62. Distributeur autorisé.',
-      keywords: ['lame trapézoïdale extra longue', 'B207 XXL', 'lame extra longue', 'trapézoïdale industrielle'],
+      title: 'B207 XXL Lame Plaques de Plâtre 170×19mm | Lame Coupe Placo | Alya Blade',
+      description: 'B207 XXL lame pour plaques de plâtre, 170×19×0,80mm, acier haute teneur carbone, 2 encoches, 4 trous. Coupe placo, cloison sèche. Qualité Sheffield. Distributeur autorisé.',
+      keywords: ['lame plaques de plâtre', 'lame placo', 'B207 XXL', 'lame cloison sèche', 'lame coupe placo', '170mm lame', 'lame construction'],
     },
     benefits: [
-      { title: 'Coupe Maximale', description: 'La ligne de coupe la plus large de la famille trapézoïdale : efficacité maximale en un seul passage.', icon: 'Maximize' },
-      { title: 'Résistance Industrielle', description: 'Épaisseur 0,63mm + corps allongé : fiable dans les applications intensives.', icon: 'Shield' },
+      { title: 'Corps allongé 170mm — passage unique', description: 'Coupes droites et longues sur panneaux larges en un seul passage. Moins de passages, moins d\'irrégularités.', icon: 'Maximize' },
+      { title: 'Rigidité 0,80mm — sans déviation', description: 'L\'épaisseur de 0,80mm confère de la rigidité — avance droit sans dévier le long du panneau.', icon: 'Shield' },
+      { title: '2 encoches + 4 trous — montage sécurisé', description: 'Les encoches empêchent le glissement, les 4 trous assurent la compatibilité avec différents types de supports.', icon: 'Lock' },
+      { title: 'HRC 58-62 — longue durée', description: 'La dureté de l\'acier haute teneur en carbone maintient le tranchant pendant des centaines de coupes.', icon: 'Shield' },
     ],
-    longDescription: `<p>La lame trapézoïdale B207 XXL extra longue est le plus grand produit standard de la famille trapézoïdale. Conçue pour offrir une efficacité maximale dans les applications de coupe à échelle industrielle.</p><p>Avec les trapézoïdales 100×19mm, elle figure parmi les produits ayant la ligne de coupe la plus longue. Adaptée à une utilisation intensive continue dans les grands ateliers, usines et installations industrielles.</p>`,
+    longDescription: `<p><strong>B207 XXL — Lame pour plaques de plâtre</strong> est une lame professionnelle en acier à haute teneur en carbone de 170×19×0,80mm avec 2 encoches et 4 trous. Conçue pour les équipes spécialisées dans l'installation et la rénovation de plaques de plâtre et cloisons sèches.</p>
+      <h3>Pourquoi un corps allongé de 170mm ?</h3>
+      <p>Alors que les lames standard mesurent 60-100mm, le <strong>corps de 170mm</strong> du B207 XXL permet des coupes droites et longues en un seul passage sur les panneaux larges (feuille standard 1200×2400mm).</p>
+      <h3>Épaisseur 0,80mm — structure rigide</h3>
+      <p>Les lames fines fléchissent lors de la coupe des plaques de plâtre et dévient de la ligne de coupe. L'épaisseur de <strong>0,80mm</strong> confère rigidité — la lame avance droit sans dévier. Avantage critique pour les plaques de 12,5mm et 15mm d'épaisseur.</p>
+      <h3>2 encoches + 4 trous</h3>
+      <p><strong>2 encoches</strong> empêchent le glissement dans le support. <strong>4 trous</strong> assurent la compatibilité avec différents types de supports et offrent plusieurs options de montage.</p>`,
   },
   'b213': {
     name: 'B213 - Lame Trapézoïdale Compacte',
