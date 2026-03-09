@@ -6855,24 +6855,30 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
  * Non-TR locales için slug'ı slugEN ile değiştirir (SEO)
  */
 function translateProductExtended(product: ProductExtended, locale: string): ProductExtended {
-  if (locale === 'tr') return product; // Türkçe master data, çevirmeye gerek yok
+  // Specs label'larını VE value'larını çevir (tüm locale'ler için)
+  // İki format desteklenir:
+  //   1) camelCase key: { label: 'material', ... }  → specLabelTranslations[locale]['material']
+  //   2) Türkçe değer: { label: 'Malzeme', ... }    → reverse-lookup → key → çeviri
+  const translatedSpecs = product.specs?.map(spec => {
+    // Önce: label doğrudan bir key mi? (yeni format: 'material', 'thickness', vb.)
+    const directKey = specLabelTranslations['tr']?.[spec.label] ? spec.label : undefined;
+    // Yoksa: Türkçe value'dan key'e reverse-lookup (eski format: 'Malzeme', 'Kalınlık', vb.)
+    const keyFromLabel = !directKey
+      ? Object.entries(specLabelTranslations['tr']).find(([, v]) => v === spec.label)?.[0]
+      : undefined;
+    const resolvedKey = directKey || keyFromLabel;
+
+    return {
+      ...spec,
+      label: resolvedKey ? getSpecLabel(resolvedKey, locale) : spec.label,
+      value: getSpecValueTranslation(spec.value, locale),
+    };
+  });
+
+  if (locale === 'tr') return { ...product, specs: translatedSpecs };
 
   // Non-TR locales: slug'ı İngilizce'ye çevir (varsa)
   const localizedSlug = product.slugEN || product.slug;
-
-  // Specs label'larını VE value'larını çevir
-  const translatedSpecs = product.specs?.map(spec => {
-    // Spec key'i bulmak için Türkçe label'dan key'e dönüştür
-    const keyFromLabel = Object.entries(specLabelTranslations['tr']).find(
-      ([, label]) => label === spec.label
-    )?.[0];
-    
-    return {
-      ...spec,
-      label: keyFromLabel ? getSpecLabel(keyFromLabel, locale) : spec.label,
-      value: getSpecValueTranslation(spec.value, locale), // VALUE çevirisi eklendi!
-    };
-  });
 
   const translation = getProductTranslation(product.id, locale);
   if (translation) {
