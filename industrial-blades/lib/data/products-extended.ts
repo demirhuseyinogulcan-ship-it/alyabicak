@@ -82,6 +82,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     sterilization: 'Sterilizasyon',
     bladeNumber: 'Bıçak Numarası',
     standard: 'Standart',
+    height: 'Yükseklik',
+    availableWidths: 'Mevcut Genişlikler',
+    surfaceFinish: 'Yüzey İşlemi',
   },
   en: {
     material: 'Material',
@@ -144,6 +147,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     sterilization: 'Sterilization',
     bladeNumber: 'Blade Number',
     standard: 'Standard',
+    height: 'Height',
+    availableWidths: 'Available Widths',
+    surfaceFinish: 'Surface Finish',
   },
   ar: {
     material: 'المادة',
@@ -206,6 +212,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     sterilization: 'التعقيم',
     bladeNumber: 'رقم الشفرة',
     standard: 'المعيار',
+    height: 'الارتفاع',
+    availableWidths: 'العروض المتاحة',
+    surfaceFinish: 'تشطيب السطح',
   },
   ru: {
     material: 'Материал',
@@ -268,6 +277,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     sterilization: 'Стерилизация',
     bladeNumber: 'Номер лезвия',
     standard: 'Стандарт',
+    height: 'Высота',
+    availableWidths: 'Доступные ширины',
+    surfaceFinish: 'Обработка поверхности',
   },
   fr: {
     material: 'Matériau',
@@ -330,6 +342,9 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     sterilization: 'Stérilisation',
     bladeNumber: 'Numéro de lame',
     standard: 'Norme',
+    height: 'Hauteur',
+    availableWidths: 'Largeurs disponibles',
+    surfaceFinish: 'Finition de surface',
   },
 };
 
@@ -6623,11 +6638,6 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'edge', value: 'Hassas Endüstriyel Bileme', icon: 'Triangle' },
       { label: 'availableWidths', value: '60mm / 80mm / 100mm / 150mm', icon: 'Maximize' },
     ],
-
-    specLabelTranslations: {
-      height: { en: 'Height', ar: 'الارتفاع', ru: 'Высота', fr: 'Hauteur' },
-      availableWidths: { en: 'Available Widths', ar: 'العروض المتاحة', ru: 'Доступные ширины', fr: 'Largeurs disponibles' },
-    },
 
     origin: {
       brand: 'Durham Duplex',
