@@ -5947,6 +5947,294 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 331,
   },
+
+  // --- DOKUBILIM / MİKROTOM JİLETLERİ ---
+  {
+    id: 'b575',
+    slug: 'b575-mikrotom-jileti-alcak-profil',
+    slugEN: 'b575-microtome-blade-low-profile',
+    code: 'B575',
+    name: 'B575 MİKROTOM JİLETİ – ALÇAK PROFİL',
+    subtitle: 'Histoloji Laboratuvarı İçin Tek Kullanımlık Mikrotom Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'microtome-blades',
+    tags: ['mikrotom', 'histoloji', 'alçak profil', 'low profile', 'patoloji', 'doku kesim', 'laboratuvar', 'disposable'],
+
+    shortDescription: 'B575 alçak profil mikrotom jileti. 80.01×8.13×0.25mm, 3 açılı bileme, paslanmaz çelik + özel kaplama. Histoloji ve patoloji laboratuvarlarında rutin parafin doku kesitleri için yüksek hassasiyetli tek kullanımlık jilet. Leica, Thermo, Sakura mikrotom uyumlu.',
+
+    longDescription: `
+      <p><strong>B575 Alçak Profil Mikrotom Jileti</strong>, histopatoloji ve araştırma laboratuvarlarında doku örneklerinden mikroskop altında incelenebilecek kadar ince kesitler almak için tasarlanmış yüksek hassasiyetli bir kesici araçtır. 80.01×8.13×0.25mm boyutlarıyla alçak profil (low profile) bıçak tutucularına tam uyum sağlar.</p>
+
+      <h3>Teknik Özellikler</h3>
+      <ul>
+        <li><strong>Boyut:</strong> 80.01 × 8.13 × 0.25mm</li>
+        <li><strong>Profil:</strong> Alçak Profil (Low Profile)</li>
+        <li><strong>Bileme:</strong> 3 açılı hassas bileme (triple facet grind)</li>
+        <li><strong>Malzeme:</strong> Paslanmaz çelik + özel kaplama</li>
+        <li><strong>Kesim Kalınlığı:</strong> 1–50 mikron arası kesit alabilme kapasitesi</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <p>B575, özellikle yumuşak doku örneklerinin parafin bloklardan kesilmesinde standart tercih edilen alçak profil mikrotom jiletidir. Başlıca kullanım alanları:</p>
+      <ul>
+        <li><strong>Histopatoloji:</strong> Rutin doku inceleme ve tanı koyma</li>
+        <li><strong>Patoloji Laboratuvarları:</strong> Biyopsi ve cerrahi doku örneklerinin mikron kalınlığında kesimi</li>
+        <li><strong>Araştırma Laboratuvarları:</strong> İmmünohistokimya (IHK) ve in-situ hibridizasyon (ISH) preparatları</li>
+        <li><strong>Veteriner Patoloji:</strong> Hayvan doku örneklerinin histolojik incelenmesi</li>
+        <li><strong>Eğitim Kurumları:</strong> Tıp ve biyoloji fakültelerinde histoloji eğitimi</li>
+      </ul>
+
+      <h3>Neden Alçak Profil?</h3>
+      <p>Alçak profil jiletler, dar gövde yapıları sayesinde standart mikrotom bıçak tutucularında (blade holder) stabil oturum sağlar. 0.25mm kalınlık, kesim sırasında minimum titreşim ve pürüzsüz yüzey elde edilmesini garanti eder. Özellikle yumuşak ve orta sertlikteki parafin bloklar için idealdir.</p>
+
+      <h3>Kaplama ve Kalite</h3>
+      <p>Paslanmaz çelik üzerine uygulanan özel kaplama, sürtünmeyi azaltarak dokunun jilete yapışmasını önler. Bu sayede ardışık kesitler arasında tutarlı kesim kalitesi elde edilir. PTFE bazlı veya platin/krom esaslı kaplamalı versiyonları mevcuttur.</p>
+
+      <h3>Uyumluluk</h3>
+      <p>B575, Leica, Thermo Scientific (Microm), Sakura, SLEE ve diğer yaygın rotary mikrotom markalarının standart alçak profil bıçak tutucularıyla uyumludur.</p>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/b575-mikrotom-jileti-alcak-profil.jpg',
+        alt: 'B575 Mikrotom Jileti – Alçak Profil 80.01×8.13×0.25mm',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/b575-mikrotom-jileti-alcak-profil.jpg',
+        alt: 'B575 Mikrotom Jileti Alçak Profil',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Paslanmaz Çelik + Kaplama', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '80.01×8.13×0.25mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.25mm', icon: 'Ruler' },
+      { label: 'bladeProfile', value: 'Alçak Profil (Low Profile)', icon: 'BarChart3' },
+      { label: 'edge', value: '3 Açılı Bileme (Triple Facet)', icon: 'Triangle' },
+      { label: 'coating', value: 'PTFE / Platin-Krom Kaplama', icon: 'Sparkles' },
+      { label: 'sterilization', value: 'Non-Steril / Endüstriyel Kalite', icon: 'ShieldCheck' },
+      { label: 'compatibility', value: 'Leica, Thermo, Sakura, SLEE', icon: 'Link' },
+      { label: 'packaging', value: '50 Adet/Kutu', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Histopatoloji', icon: 'Microscope', description: 'Rutin doku inceleme, tanı koyma ve patoloji raporlama' },
+      { title: 'Patoloji Laboratuvarı', icon: 'FlaskConical', description: 'Biyopsi ve cerrahi örneklerin mikron kesimi' },
+      { title: 'Araştırma Lab.', icon: 'Search', description: 'İmmünohistokimya (IHK) ve in-situ hibridizasyon preparatları' },
+      { title: 'Parafin Kesim', icon: 'Layers', description: 'Parafin bloktan 1–50 mikron kalınlığında doku kesiti' },
+      { title: 'Veteriner Patoloji', icon: 'Heart', description: 'Hayvan doku örneklerinin histolojik incelenmesi' },
+      { title: 'Eğitim', icon: 'GraduationCap', description: 'Tıp ve biyoloji fakültelerinde histoloji eğitimi' },
+    ],
+
+    benefits: [
+      {
+        title: 'Yüksek Hassasiyet',
+        description: '3 açılı bileme teknolojisi sayesinde 1–50 mikron aralığında pürüzsüz kesit alımı sağlar.',
+        icon: 'Target',
+      },
+      {
+        title: 'Düşük Sürtünme',
+        description: 'Özel kaplama, dokunun jilete yapışmasını önleyerek ardışık kesitlerde tutarlı kalite sağlar.',
+        icon: 'Sparkles',
+      },
+      {
+        title: 'Geniş Uyumluluk',
+        description: 'Leica, Thermo, Sakura, SLEE ve tüm standart rotary mikrotomlarla uyumlu alçak profil tasarım.',
+        icon: 'Link',
+      },
+    ],
+
+    features: [
+      '80.01×8.13×0.25mm alçak profil boyut',
+      '3 açılı bileme (triple facet grind)',
+      'Paslanmaz çelik + özel kaplama',
+      '1–50 mikron arası kesim kapasitesi',
+      'Tek kullanımlık (disposable) hijyenik tasarım',
+      'Leica, Thermo, Sakura, SLEE mikrotom uyumlu',
+      'PTFE / Platin-Krom kaplama seçenekleri',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: ['80.01×8.13×0.25mm'],
+    certifications: ['CE', 'ISO 9001'],
+    relatedProductIds: ['b724'],
+
+    seo: {
+      title: 'B575 Mikrotom Jileti Alçak Profil 80mm | Histoloji Bıçağı | Low Profile Microtome Blade | Alya Bıçak',
+      description: 'B575 alçak profil mikrotom jileti 80.01×8.13×0.25mm. Histopatoloji, patoloji laboratuvarı, parafin doku kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Sheffield kalitesi.',
+      keywords: [
+        'mikrotom jileti', 'microtome blade', 'alçak profil mikrotom', 'low profile microtome blade',
+        'histoloji jileti', 'histology blade', 'B575 mikrotom', 'patoloji jileti',
+        'doku kesim jileti', 'parafin kesim', 'disposable microtome blade',
+        'Leica mikrotom jileti', 'Thermo mikrotom jileti', 'Sakura mikrotom',
+        'mikrotom jileti fiyat', '80mm mikrotom jileti', 'tek kullanımlık mikrotom',
+        'histopatoloji ekipmanları', 'laboratuvar sarf malzemesi',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 340,
+  },
+
+  {
+    id: 'b724',
+    slug: 'b724-mikrotom-jileti-yuksek-profil',
+    slugEN: 'b724-microtome-blade-high-profile',
+    code: 'B724',
+    name: 'B724 MİKROTOM JİLETİ – YÜKSEK PROFİL',
+    subtitle: 'Sert Doku Kesimi İçin Yüksek Profil Mikrotom Jileti',
+
+    categoryId: 'industrial-blades',
+    subcategoryId: 'microtome-blades',
+    tags: ['mikrotom', 'histoloji', 'yüksek profil', 'high profile', 'patoloji', 'sert doku', 'laboratuvar', 'disposable'],
+
+    shortDescription: 'B724 yüksek profil mikrotom jileti. 80.01×13.97×0.30mm, 3 açılı bileme, paslanmaz çelik + özel kaplama. Sert doku örnekleri, kalsifiye dokular ve büyük parafin blokların kesilmesi için stabilite odaklı yüksek profil tasarım. Leica, Thermo, Sakura mikrotom uyumlu.',
+
+    longDescription: `
+      <p><strong>B724 Yüksek Profil Mikrotom Jileti</strong>, histopatoloji laboratuvarlarında özellikle sert doku örneklerinin kesilmesinde üstün performans göstermek üzere tasarlanmış premium mikrotom jiletidir. 80.01×13.97×0.30mm boyutlarıyla yüksek profil (high profile) bıçak tutucularına tam uyum sağlar.</p>
+
+      <h3>Teknik Özellikler</h3>
+      <ul>
+        <li><strong>Boyut:</strong> 80.01 × 13.97 × 0.30mm</li>
+        <li><strong>Profil:</strong> Yüksek Profil (High Profile)</li>
+        <li><strong>Bileme:</strong> 3 açılı hassas bileme (triple facet grind)</li>
+        <li><strong>Malzeme:</strong> Paslanmaz çelik + özel kaplama</li>
+        <li><strong>Kesim Kalınlığı:</strong> 1–50 mikron arası kesit alabilme kapasitesi</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <p>B724 yüksek profil jileti, geniş gövde yapısı ve 0.30mm kalınlığı sayesinde sert dokuların kesilmesinde ekstra stabilite sağlar. Başlıca kullanım alanları:</p>
+      <ul>
+        <li><strong>Sert Doku Patolojisi:</strong> Kalsifiye (kireçlenmiş) doku örneklerinin kesimi</li>
+        <li><strong>Büyük Blok Kesimi:</strong> Geniş yüzeyli parafin blokların stabil kesilmesi</li>
+        <li><strong>Kemik Patolojisi:</strong> Dekalsifiye kemik örneklerinin histolojik incelenmesi</li>
+        <li><strong>Dermatoloji:</strong> Kalın cilt biyopsi örneklerinin kesimi</li>
+        <li><strong>Nöropatoloji:</strong> Beyin dokusu gibi büyük hacimli örneklerin kesimi</li>
+        <li><strong>Kriyostat Kesimi:</strong> Dondurulmuş doku kesitleri (frozen section) için uygun</li>
+      </ul>
+
+      <h3>Neden Yüksek Profil?</h3>
+      <p>Yüksek profil jiletler, 13.97mm genişlikteki gövdeleriyle bıçak tutucusunda maksimum stabilite sağlar. Bu stabilite, özellikle sert dokuların kesilmesinde titreşimi en aza indirerek düzgün, paralel kesitler elde edilmesini mümkün kılar. 0.30mm kalınlık ise jiletin bükülme direncini artırarak büyük blokların güvenle kesilmesine olanak tanır.</p>
+
+      <h3>Kaplama ve Kalite</h3>
+      <p>Paslanmaz çelik gövde üzerine uygulanan ileri kaplama teknolojisi, kesim esnasında sürtünmeyi minimize eder. Bu kaplama, özellikle sert ve kalsifiye dokularda jilet ömrünü uzatırken, doku morfolojisinin bozulmasını önler. PTFE, platin/krom veya seramik kaplama seçenekleri mevcuttur.</p>
+
+      <h3>Uyumluluk</h3>
+      <p>B724, Leica, Thermo Scientific (Microm), Sakura, SLEE ve diğer yaygın rotary mikrotom markalarının yüksek profil bıçak tutucularıyla uyumludur.</p>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/b724-mikrotom-jileti-yuksek-profil.jpg',
+        alt: 'B724 Mikrotom Jileti – Yüksek Profil 80.01×13.97×0.30mm',
+        width: 800,
+        height: 800,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/b724-mikrotom-jileti-yuksek-profil.jpg',
+        alt: 'B724 Mikrotom Jileti Yüksek Profil',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'Paslanmaz Çelik + Kaplama', icon: 'Layers', highlight: true },
+      { label: 'dimensions', value: '80.01×13.97×0.30mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.30mm', icon: 'Ruler' },
+      { label: 'bladeProfile', value: 'Yüksek Profil (High Profile)', icon: 'BarChart3' },
+      { label: 'edge', value: '3 Açılı Bileme (Triple Facet)', icon: 'Triangle' },
+      { label: 'coating', value: 'PTFE / Platin-Krom / Seramik Kaplama', icon: 'Sparkles' },
+      { label: 'sterilization', value: 'Non-Steril / Endüstriyel Kalite', icon: 'ShieldCheck' },
+      { label: 'compatibility', value: 'Leica, Thermo, Sakura, SLEE', icon: 'Link' },
+      { label: 'packaging', value: '50 Adet/Kutu', icon: 'Package' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Sert Doku Patolojisi', icon: 'Shield', description: 'Kalsifiye ve sert doku örneklerinin hassas kesimi' },
+      { title: 'Kemik Patolojisi', icon: 'Bone', description: 'Dekalsifiye kemik dokularının histolojik incelenmesi' },
+      { title: 'Nöropatoloji', icon: 'Brain', description: 'Beyin dokusu gibi büyük hacimli örneklerin kesimi' },
+      { title: 'Kriyostat / Frozen', icon: 'Snowflake', description: 'Dondurulmuş doku kesitleri (frozen section)' },
+      { title: 'Dermatoloji', icon: 'Scan', description: 'Kalın cilt biyopsi örneklerinin kesimi' },
+      { title: 'Büyük Blok Kesimi', icon: 'Maximize', description: 'Geniş yüzeyli parafin blokların stabil kesimi' },
+    ],
+
+    benefits: [
+      {
+        title: 'Maksimum Stabilite',
+        description: '13.97mm geniş gövde ve 0.30mm kalınlık, sert dokularda titreşimsiz düzgün kesit sağlar.',
+        icon: 'Shield',
+      },
+      {
+        title: 'Sert Doku Performansı',
+        description: 'Kalsifiye kemik, kalın dermal biyopsi ve büyük blokların güvenle kesilmesi için optimize edilmiştir.',
+        icon: 'Target',
+      },
+      {
+        title: 'Uzun Jilet Ömrü',
+        description: 'İleri kaplama teknolojisi, sert dokularda bile jilet ömrünü uzatarak maliyet avantajı sağlar.',
+        icon: 'Clock',
+      },
+    ],
+
+    features: [
+      '80.01×13.97×0.30mm yüksek profil boyut',
+      '3 açılı bileme (triple facet grind)',
+      'Paslanmaz çelik + özel kaplama',
+      '1–50 mikron arası kesim kapasitesi',
+      'Sert doku ve kalsifiye örnekler için optimize',
+      'Tek kullanımlık (disposable) hijyenik tasarım',
+      'Leica, Thermo, Sakura, SLEE mikrotom uyumlu',
+      'PTFE / Platin-Krom / Seramik kaplama seçenekleri',
+      'Sheffield Durham Duplex kalitesi',
+    ],
+
+    availableSizes: ['80.01×13.97×0.30mm'],
+    certifications: ['CE', 'ISO 9001'],
+    relatedProductIds: ['b575'],
+
+    seo: {
+      title: 'B724 Mikrotom Jileti Yüksek Profil 80mm | Sert Doku Histoloji | High Profile Microtome Blade | Alya Bıçak',
+      description: 'B724 yüksek profil mikrotom jileti 80.01×13.97×0.30mm. Sert doku, kalsifiye kemik, kriyostat kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Sheffield kalitesi.',
+      keywords: [
+        'mikrotom jileti', 'microtome blade', 'yüksek profil mikrotom', 'high profile microtome blade',
+        'histoloji jileti', 'histology blade', 'B724 mikrotom', 'patoloji jileti',
+        'sert doku kesim jileti', 'kalsifiye doku', 'kriyostat jileti', 'frozen section blade',
+        'Leica mikrotom jileti', 'Thermo mikrotom jileti', 'Sakura mikrotom',
+        'mikrotom jileti fiyat', '80mm mikrotom jileti', 'tek kullanımlık mikrotom',
+        'kemik patolojisi', 'nöropatoloji', 'dermatoloji biyopsi',
+        'histopatoloji ekipmanları', 'laboratuvar sarf malzemesi',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 341,
+  },
 ];
 
 // =============================================================================

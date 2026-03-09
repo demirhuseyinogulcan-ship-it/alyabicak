@@ -10343,5 +10343,126 @@
     "isFeatured": false,
     "isActive": true,
     "order": 341
+  },
+  {
+    "id": "b575",
+    "slug": "b575-mikrotom-jileti-alcak-profil",
+    "slugEN": "b575-microtome-blade-low-profile",
+    "code": "B575",
+    "name": "B575 - Mikrotom Jileti – Alçak Profil",
+    "description": "Mikrotom Jileti 80.01×8.13×0.25mm, Alçak Profil, 3 Açılı Bileme, Paslanmaz Çelik + Kaplama. Histopatoloji ve patoloji laboratuvarlarında rutin parafin doku kesitleri için yüksek hassasiyetli tek kullanımlık jilet. Leica, Thermo, Sakura mikrotom uyumlu. Sheffield Durham Duplex kalitesi.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "microtome-blades",
+    "image": "/images/products/b575-mikrotom-jileti-alcak-profil.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b575-standard",
+        "sku": "B575-001",
+        "name": "B575 — 80.01×8.13×0.25mm — 50 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + Kaplama",
+      "dimensions": "80.01×8.13×0.25mm",
+      "thickness": "0.25mm",
+      "bladeProfile": "Alçak Profil (Low Profile)",
+      "edge": "3 Açılı Bileme (Triple Facet)",
+      "coating": "PTFE / Platin-Krom",
+      "sterilization": "Non-Steril / Endüstriyel Kalite",
+      "compatibility": "Leica, Thermo, Sakura, SLEE",
+      "packaging": "50 Adet/Kutu"
+    },
+    "features": [
+      "80.01×8.13×0.25mm alçak profil boyut",
+      "3 açılı bileme (triple facet grind)",
+      "Paslanmaz çelik + özel kaplama",
+      "1–50 mikron arası kesim kapasitesi",
+      "Tek kullanımlık (disposable) hijyenik tasarım",
+      "Leica, Thermo, Sakura, SLEE mikrotom uyumlu",
+      "PTFE / Platin-Krom kaplama seçenekleri"
+    ],
+    "applications": [
+      "Histopatoloji",
+      "Patoloji laboratuvarı",
+      "Araştırma laboratuvarı",
+      "Parafin kesim",
+      "Veteriner patoloji",
+      "Tıp eğitimi"
+    ],
+    "availableSizes": [
+      "80.01×8.13×0.25mm"
+    ],
+    "seoKeywords": [
+      "mikrotom jileti", "microtome blade", "alçak profil mikrotom", "low profile microtome blade",
+      "histoloji jileti", "B575", "patoloji jileti", "doku kesim jileti",
+      "Leica mikrotom jileti", "Thermo mikrotom", "Sakura mikrotom",
+      "mikrotom jileti fiyat", "tek kullanımlık mikrotom"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 342
+  },
+  {
+    "id": "b724",
+    "slug": "b724-mikrotom-jileti-yuksek-profil",
+    "slugEN": "b724-microtome-blade-high-profile",
+    "code": "B724",
+    "name": "B724 - Mikrotom Jileti – Yüksek Profil",
+    "description": "Mikrotom Jileti 80.01×13.97×0.30mm, Yüksek Profil, 3 Açılı Bileme, Paslanmaz Çelik + Kaplama. Sert doku örnekleri, kalsifiye dokular ve büyük parafin blokların kesilmesi için stabilite odaklı yüksek profil tasarım. Leica, Thermo, Sakura mikrotom uyumlu. Sheffield Durham Duplex kalitesi.",
+    "categoryId": "industrial-blades",
+    "subcategoryId": "microtome-blades",
+    "image": "/images/products/b724-mikrotom-jileti-yuksek-profil.jpg",
+    "images": [],
+    "variants": [
+      {
+        "id": "b724-standard",
+        "sku": "B724-001",
+        "name": "B724 — 80.01×13.97×0.30mm — 50 Adet/Kutu",
+        "inStock": true
+      }
+    ],
+    "specifications": {
+      "material": "Paslanmaz Çelik + Kaplama",
+      "dimensions": "80.01×13.97×0.30mm",
+      "thickness": "0.30mm",
+      "bladeProfile": "Yüksek Profil (High Profile)",
+      "edge": "3 Açılı Bileme (Triple Facet)",
+      "coating": "PTFE / Platin-Krom / Seramik",
+      "sterilization": "Non-Steril / Endüstriyel Kalite",
+      "compatibility": "Leica, Thermo, Sakura, SLEE",
+      "packaging": "50 Adet/Kutu"
+    },
+    "features": [
+      "80.01×13.97×0.30mm yüksek profil boyut",
+      "3 açılı bileme (triple facet grind)",
+      "Paslanmaz çelik + özel kaplama",
+      "1–50 mikron arası kesim kapasitesi",
+      "Sert doku ve kalsifiye örnekler için optimize",
+      "Tek kullanımlık (disposable) hijyenik tasarım",
+      "Leica, Thermo, Sakura, SLEE mikrotom uyumlu",
+      "PTFE / Platin-Krom / Seramik kaplama seçenekleri"
+    ],
+    "applications": [
+      "Sert doku patolojisi",
+      "Kemik patolojisi",
+      "Nöropatoloji",
+      "Kriyostat / Frozen section",
+      "Dermatoloji",
+      "Büyük blok kesimi"
+    ],
+    "availableSizes": [
+      "80.01×13.97×0.30mm"
+    ],
+    "seoKeywords": [
+      "mikrotom jileti", "microtome blade", "yüksek profil mikrotom", "high profile microtome blade",
+      "histoloji jileti", "B724", "sert doku jileti", "kriyostat jileti",
+      "Leica mikrotom jileti", "Thermo mikrotom", "Sakura mikrotom",
+      "mikrotom jileti fiyat", "kemik patolojisi", "frozen section blade"
+    ],
+    "isFeatured": true,
+    "isActive": true,
+    "order": 343
   }
 ]

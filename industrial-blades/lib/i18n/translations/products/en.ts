@@ -3764,6 +3764,174 @@ export const productsEn: Record<string, ProductTranslation> = {
       keywords: ['tungsten carbide fiber blade krupp 64mm', 'krupp tungsten blade 64', 'carbide chopped fiber blade 64', 'fiberglass cutting blade krupp 64mm', 'B064 tungsten carbide', 'krupp carbide blade 64mm', 'solid carbide fiber blade krupp', 'fiber blade maximum life', 'tungsten fiber blade manufacturer'],
     },
   },
+
+  // --- MICROTOME / HISTOLOGY BLADES ---
+
+  'b575': {
+    name: 'B575 MICROTOME BLADE – LOW PROFILE',
+    subtitle: 'Disposable Microtome Blade for Histology Laboratories',
+    description: 'B575 low profile microtome blade. 80.01×8.13×0.25mm, triple facet grind, stainless steel + coating. High-precision disposable blade for routine paraffin tissue sectioning in histology and pathology laboratories. Compatible with Leica, Thermo, Sakura microtomes.',
+    shortDescription: 'B575 low profile microtome blade. 80.01×8.13×0.25mm, triple facet grind, stainless steel + coating. For routine paraffin tissue sectioning. Leica, Thermo, Sakura compatible.',
+    features: [
+      '80.01×8.13×0.25mm low profile dimensions',
+      'Triple facet grind for ultra-smooth sections',
+      'Stainless steel + special coating',
+      '1–50 micron sectioning capacity',
+      'Disposable hygienic design',
+      'Compatible with Leica, Thermo, Sakura, SLEE microtomes',
+      'PTFE / Platinum-Chrome coating options',
+      'Sheffield Durham Duplex quality',
+    ],
+    applications: [
+      'Histopathology',
+      'Pathology laboratory',
+      'Research laboratory',
+      'Paraffin sectioning',
+      'Veterinary pathology',
+      'Medical education',
+    ],
+    benefits: [
+      {
+        title: 'High Precision',
+        description: 'Triple facet grind technology delivers smooth sections in the 1–50 micron range.',
+        icon: 'Target',
+      },
+      {
+        title: 'Low Friction',
+        description: 'Special coating prevents tissue adhesion, ensuring consistent quality across consecutive sections.',
+        icon: 'Sparkles',
+      },
+      {
+        title: 'Wide Compatibility',
+        description: 'Low profile design compatible with all standard rotary microtomes including Leica, Thermo, Sakura and SLEE.',
+        icon: 'Link',
+      },
+    ],
+    longDescription: `<p>The <strong>B575 Low Profile Microtome Blade</strong> is a high-precision cutting instrument designed for preparing ultra-thin tissue sections suitable for microscopic examination in histopathology and research laboratories. With 80.01×8.13×0.25mm dimensions, it provides perfect fit for low profile blade holders.</p>
+
+<h3>Technical Specifications</h3>
+<ul>
+  <li><strong>Dimensions:</strong> 80.01 × 8.13 × 0.25mm</li>
+  <li><strong>Profile:</strong> Low Profile</li>
+  <li><strong>Grind:</strong> Triple facet grind</li>
+  <li><strong>Material:</strong> Stainless steel + special coating</li>
+  <li><strong>Section Thickness:</strong> 1–50 micron capacity</li>
+</ul>
+
+<h3>Applications</h3>
+<p>The B575 is the standard low profile microtome blade for paraffin-embedded soft tissue sectioning. Primary applications include:</p>
+<ul>
+  <li><strong>Histopathology:</strong> Routine tissue examination and diagnostic reporting</li>
+  <li><strong>Pathology Laboratories:</strong> Micron-level sectioning of biopsy and surgical tissue samples</li>
+  <li><strong>Research Laboratories:</strong> Immunohistochemistry (IHC) and in-situ hybridization (ISH) preparations</li>
+  <li><strong>Veterinary Pathology:</strong> Histological examination of animal tissue samples</li>
+  <li><strong>Educational Institutions:</strong> Histology training in medical and biology faculties</li>
+</ul>
+
+<h3>Why Low Profile?</h3>
+<p>Low profile blades provide stable seating in standard microtome blade holders due to their narrow body structure. The 0.25mm thickness ensures minimal vibration during cutting and guarantees smooth surface quality. Ideal for soft and medium-hardness paraffin blocks.</p>
+
+<h3>Coating & Quality</h3>
+<p>The special coating applied to the stainless steel body reduces friction, preventing tissue adhesion to the blade. This ensures consistent section quality between consecutive cuts. Available in PTFE-based or platinum/chrome coating variants.</p>`,
+    seo: {
+      title: 'B575 Low Profile Microtome Blade 80mm | Histology Blade | Disposable Microtome Blade',
+      description: 'B575 low profile microtome blade 80.01×8.13×0.25mm. Triple facet grind, stainless steel with PTFE coating. For histopathology, paraffin sectioning. Leica, Thermo, Sakura compatible. Sheffield quality.',
+      keywords: [
+        'microtome blade', 'low profile microtome blade', 'disposable microtome blade',
+        'histology blade', 'histopathology blade', 'pathology blade', 'tissue sectioning blade',
+        'B575 microtome blade', 'paraffin sectioning', 'triple facet grind',
+        'Leica microtome blade', 'Thermo microtome blade', 'Sakura microtome blade',
+        'microtome blade price', '80mm microtome blade', 'PTFE coated microtome blade',
+        'laboratory consumable', 'histology equipment', 'cryostat blade',
+        'Feather S35 alternative', 'Leica 819 alternative',
+        'microtome blade manufacturer', 'microtome blade supplier',
+      ],
+    },
+  },
+
+  'b724': {
+    name: 'B724 MICROTOME BLADE – HIGH PROFILE',
+    subtitle: 'High Profile Microtome Blade for Hard Tissue Sectioning',
+    description: 'B724 high profile microtome blade. 80.01×13.97×0.30mm, triple facet grind, stainless steel + coating. Stability-focused high profile design for hard tissue specimens, calcified tissues and large paraffin block sectioning. Compatible with Leica, Thermo, Sakura microtomes.',
+    shortDescription: 'B724 high profile microtome blade. 80.01×13.97×0.30mm, triple facet grind, stainless steel + coating. For hard tissue and large block sectioning. Leica, Thermo, Sakura compatible.',
+    features: [
+      '80.01×13.97×0.30mm high profile dimensions',
+      'Triple facet grind for ultra-smooth sections',
+      'Stainless steel + special coating',
+      '1–50 micron sectioning capacity',
+      'Optimized for hard and calcified tissue',
+      'Disposable hygienic design',
+      'Compatible with Leica, Thermo, Sakura, SLEE microtomes',
+      'PTFE / Platinum-Chrome / Ceramic coating options',
+      'Sheffield Durham Duplex quality',
+    ],
+    applications: [
+      'Hard tissue pathology',
+      'Bone pathology',
+      'Neuropathology',
+      'Cryostat / Frozen section',
+      'Dermatology',
+      'Large block sectioning',
+    ],
+    benefits: [
+      {
+        title: 'Maximum Stability',
+        description: '13.97mm wide body and 0.30mm thickness deliver vibration-free smooth sections in hard tissues.',
+        icon: 'Shield',
+      },
+      {
+        title: 'Hard Tissue Performance',
+        description: 'Optimized for safe sectioning of calcified bone, thick dermal biopsies and large paraffin blocks.',
+        icon: 'Target',
+      },
+      {
+        title: 'Extended Blade Life',
+        description: 'Advanced coating technology extends blade life even in hard tissues, providing cost advantage.',
+        icon: 'Clock',
+      },
+    ],
+    longDescription: `<p>The <strong>B724 High Profile Microtome Blade</strong> is a premium microtome blade engineered for superior performance in cutting hard tissue specimens in histopathology laboratories. With 80.01×13.97×0.30mm dimensions, it provides perfect fit for high profile blade holders.</p>
+
+<h3>Technical Specifications</h3>
+<ul>
+  <li><strong>Dimensions:</strong> 80.01 × 13.97 × 0.30mm</li>
+  <li><strong>Profile:</strong> High Profile</li>
+  <li><strong>Grind:</strong> Triple facet grind</li>
+  <li><strong>Material:</strong> Stainless steel + special coating</li>
+  <li><strong>Section Thickness:</strong> 1–50 micron capacity</li>
+</ul>
+
+<h3>Applications</h3>
+<p>The B724 high profile blade provides extra stability for hard tissue sectioning thanks to its wide body and 0.30mm thickness. Primary applications include:</p>
+<ul>
+  <li><strong>Hard Tissue Pathology:</strong> Sectioning of calcified tissue specimens</li>
+  <li><strong>Large Block Sectioning:</strong> Stable cutting of large-surface paraffin blocks</li>
+  <li><strong>Bone Pathology:</strong> Histological examination of decalcified bone specimens</li>
+  <li><strong>Dermatology:</strong> Sectioning of thick skin biopsy specimens</li>
+  <li><strong>Neuropathology:</strong> Sectioning of large-volume specimens such as brain tissue</li>
+  <li><strong>Cryostat Sectioning:</strong> Suitable for frozen tissue sections</li>
+</ul>
+
+<h3>Why High Profile?</h3>
+<p>High profile blades with their 13.97mm wide body provide maximum stability in the blade holder. This stability minimizes vibration during hard tissue cutting, enabling smooth, parallel sections. The 0.30mm thickness increases flexural rigidity, allowing safe cutting of large blocks.</p>
+
+<h3>Coating & Quality</h3>
+<p>Advanced coating technology applied to the stainless steel body minimizes friction during cutting. This coating extends blade life especially in hard and calcified tissues while preventing tissue morphology distortion. Available in PTFE, platinum/chrome or ceramic coating options.</p>`,
+    seo: {
+      title: 'B724 High Profile Microtome Blade 80mm | Hard Tissue Histology | Disposable Microtome Blade',
+      description: 'B724 high profile microtome blade 80.01×13.97×0.30mm. For hard tissue, calcified bone, cryostat sectioning. Triple facet grind, stainless steel + coating. Leica, Thermo, Sakura compatible. Sheffield quality.',
+      keywords: [
+        'microtome blade', 'high profile microtome blade', 'disposable microtome blade',
+        'histology blade', 'hard tissue blade', 'pathology blade', 'tissue sectioning blade',
+        'B724 microtome blade', 'calcified tissue', 'cryostat blade', 'frozen section blade',
+        'Leica microtome blade', 'Thermo microtome blade', 'Sakura microtome blade',
+        'microtome blade price', '80mm microtome blade', 'bone pathology blade',
+        'neuropathology', 'dermatology biopsy', 'large block sectioning',
+        'Leica 818 alternative', 'high profile blade supplier',
+        'microtome blade manufacturer', 'laboratory consumable',
+      ],
+    },
+  },
 };
 
 export default productsEn;

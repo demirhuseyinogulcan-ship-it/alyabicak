@@ -3748,4 +3748,130 @@ export const productsFr: Record<string, ProductTranslation> = {
       keywords: ['krupp tungstène 64mm', 'lame tungstène krupp 64', 'lame monobloc tungstène krupp 64', 'lame carbure coupe fibre krupp 64', 'tungstène 64×7,9mm', 'lame fibre verre tungstène krupp', 'lame fibre carbone krupp 64', 'b064 tungstène', 'lame haute résistance krupp 64', 'krupp carbure tungstène 64', 'couteau tungstène krupp 64mm', 'lame tungstène surface élargie'],
     },
   },
+
+  // --- LAMES MICROTOME / HISTOLOGIE ---
+
+  'b575': {
+    name: 'B575 LAME MICROTOME – PROFIL BAS',
+    subtitle: 'Lame microtome jetable pour laboratoires d\'histologie',
+    description: 'Lame microtome B575 profil bas. 80,01×8,13×0,25mm, affûtage triple facette, acier inoxydable + revêtement. Lame jetable haute précision pour coupes de routine de tissus en paraffine dans les laboratoires d\'histologie et de pathologie. Compatible avec microtomes Leica, Thermo, Sakura.',
+    shortDescription: 'Lame microtome B575 profil bas. 80,01×8,13×0,25mm, affûtage triple facette. Pour coupes de routine en paraffine. Compatible Leica, Thermo, Sakura.',
+    features: [
+      'Dimensions profil bas 80,01×8,13×0,25mm',
+      'Affûtage triple facette pour coupes ultra-lisses',
+      'Acier inoxydable + revêtement spécial',
+      'Capacité de coupe 1–50 microns',
+      'Design hygiénique jetable',
+      'Compatible avec microtomes Leica, Thermo, Sakura, SLEE',
+      'Options de revêtement PTFE / platine-chrome',
+      'Qualité Sheffield Durham Duplex',
+    ],
+    applications: [
+      'Histopathologie',
+      'Laboratoire de pathologie',
+      'Laboratoire de recherche',
+      'Coupes en paraffine',
+      'Pathologie vétérinaire',
+      'Enseignement médical',
+    ],
+    benefits: [
+      {
+        title: 'Haute précision',
+        description: 'L\'affûtage triple facette produit des coupes lisses dans la plage de 1 à 50 microns.',
+        icon: 'Target',
+      },
+      {
+        title: 'Faible friction',
+        description: 'Le revêtement spécial empêche l\'adhérence des tissus, assurant une qualité constante entre les coupes.',
+        icon: 'Sparkles',
+      },
+      {
+        title: 'Large compatibilité',
+        description: 'Design profil bas compatible avec tous les microtomes rotatifs standard Leica, Thermo, Sakura et SLEE.',
+        icon: 'Link',
+      },
+    ],
+    longDescription: `<p>La <strong>lame microtome B575 profil bas</strong> est un instrument de coupe haute précision conçu pour préparer des coupes de tissus ultra-fines adaptées à l'examen microscopique dans les laboratoires d'histopathologie et de recherche. Dimensions : 80,01×8,13×0,25mm.</p>
+<h3>Spécifications techniques</h3>
+<ul><li><strong>Dimensions :</strong> 80,01 × 8,13 × 0,25mm</li><li><strong>Profil :</strong> Profil bas (Low Profile)</li><li><strong>Affûtage :</strong> Triple facette</li><li><strong>Matériau :</strong> Acier inoxydable + revêtement</li><li><strong>Épaisseur de coupe :</strong> 1–50 microns</li></ul>
+<h3>Applications</h3>
+<ul><li><strong>Histopathologie :</strong> Examen de routine des tissus et diagnostic</li><li><strong>Laboratoires de pathologie :</strong> Coupes au micron de biopsies et d'échantillons chirurgicaux</li><li><strong>Laboratoires de recherche :</strong> Préparations d'immunohistochimie (IHC) et hybridation in situ</li><li><strong>Pathologie vétérinaire :</strong> Examen histologique de tissus animaux</li></ul>
+<h3>Pourquoi le profil bas ?</h3>
+<p>Les lames profil bas offrent un positionnement stable dans les porte-lames grâce à leur structure étroite. L'épaisseur de 0,25mm assure une vibration minimale et garantit une surface de coupe lisse. Idéal pour les blocs de paraffine tendres et de dureté moyenne.</p>`,
+    seo: {
+      title: 'Lame Microtome B575 Profil Bas 80mm | Lame Histologie | Lame Microtome Jetable',
+      description: 'Lame microtome B575 profil bas 80,01×8,13×0,25mm. Affûtage triple facette, acier inoxydable. Pour histopathologie, coupes en paraffine. Compatible Leica, Thermo, Sakura. Qualité Sheffield.',
+      keywords: [
+        'lame microtome', 'lame microtome profil bas', 'lame histologie', 'lame pathologie',
+        'B575 microtome', 'coupe paraffine', 'lame jetable microtome', 'lame laboratoire',
+        'Leica microtome', 'Thermo microtome', 'Sakura microtome',
+        'prix lame microtome', 'fournisseur lame microtome', 'lame 80mm',
+        'consommables laboratoire', 'histopathologie', 'cryostat',
+        'alternative Feather S35', 'alternative Leica 819',
+      ],
+    },
+  },
+
+  'b724': {
+    name: 'B724 LAME MICROTOME – PROFIL HAUT',
+    subtitle: 'Lame microtome profil haut pour coupes de tissus durs',
+    description: 'Lame microtome B724 profil haut. 80,01×13,97×0,30mm, affûtage triple facette, acier inoxydable + revêtement. Design profil haut pour une stabilité maximale lors de la coupe de tissus durs, calcifiés et de grands blocs de paraffine. Compatible avec microtomes Leica, Thermo, Sakura.',
+    shortDescription: 'Lame microtome B724 profil haut. 80,01×13,97×0,30mm. Pour tissus durs et grands blocs. Compatible Leica, Thermo, Sakura.',
+    features: [
+      'Dimensions profil haut 80,01×13,97×0,30mm',
+      'Affûtage triple facette pour coupes ultra-lisses',
+      'Acier inoxydable + revêtement spécial',
+      'Capacité de coupe 1–50 microns',
+      'Optimisée pour tissus durs et calcifiés',
+      'Design hygiénique jetable',
+      'Compatible avec microtomes Leica, Thermo, Sakura, SLEE',
+      'Options de revêtement PTFE / platine-chrome / céramique',
+      'Qualité Sheffield Durham Duplex',
+    ],
+    applications: [
+      'Pathologie des tissus durs',
+      'Pathologie osseuse',
+      'Neuropathologie',
+      'Cryostat / coupes congelées',
+      'Dermatologie',
+      'Coupe de grands blocs',
+    ],
+    benefits: [
+      {
+        title: 'Stabilité maximale',
+        description: 'Corps large de 13,97mm et épaisseur de 0,30mm offrent des coupes lisses sans vibration dans les tissus durs.',
+        icon: 'Shield',
+      },
+      {
+        title: 'Performance tissus durs',
+        description: 'Optimisée pour la coupe sécurisée des os calcifiés, biopsies dermiques épaisses et grands blocs de paraffine.',
+        icon: 'Target',
+      },
+      {
+        title: 'Durée de vie prolongée',
+        description: 'La technologie de revêtement avancée prolonge la durée de vie même dans les tissus durs, offrant un avantage économique.',
+        icon: 'Clock',
+      },
+    ],
+    longDescription: `<p>La <strong>lame microtome B724 profil haut</strong> est une lame microtome premium conçue pour des performances supérieures dans la coupe de tissus durs en laboratoires d'histopathologie. Dimensions : 80,01×13,97×0,30mm.</p>
+<h3>Spécifications techniques</h3>
+<ul><li><strong>Dimensions :</strong> 80,01 × 13,97 × 0,30mm</li><li><strong>Profil :</strong> Profil haut (High Profile)</li><li><strong>Affûtage :</strong> Triple facette</li><li><strong>Matériau :</strong> Acier inoxydable + revêtement</li><li><strong>Épaisseur de coupe :</strong> 1–50 microns</li></ul>
+<h3>Applications</h3>
+<ul><li><strong>Pathologie des tissus durs :</strong> Coupes d'échantillons tissulaires calcifiés</li><li><strong>Pathologie osseuse :</strong> Examen histologique d'échantillons osseux décalcifiés</li><li><strong>Neuropathologie :</strong> Coupes de grands échantillons tels que le tissu cérébral</li><li><strong>Cryostat :</strong> Coupes de tissus congelés (frozen sections)</li><li><strong>Dermatologie :</strong> Coupes de biopsies cutanées épaisses</li></ul>
+<h3>Pourquoi le profil haut ?</h3>
+<p>Les lames profil haut avec leur corps large de 13,97mm offrent une stabilité maximale dans le porte-lame. Cette stabilité minimise les vibrations lors de la coupe des tissus durs, permettant des coupes lisses et parallèles. L'épaisseur de 0,30mm augmente la rigidité pour une coupe sécurisée des grands blocs.</p>`,
+    seo: {
+      title: 'Lame Microtome B724 Profil Haut 80mm | Tissus Durs | Lame Microtome Jetable',
+      description: 'Lame microtome B724 profil haut 80,01×13,97×0,30mm. Pour tissus durs, os calcifiés, cryostat. Compatible Leica, Thermo, Sakura. Qualité Sheffield.',
+      keywords: [
+        'lame microtome', 'lame microtome profil haut', 'lame tissus durs', 'lame pathologie',
+        'B724 microtome', 'tissus calcifiés', 'cryostat', 'coupes congelées',
+        'Leica microtome', 'Thermo microtome', 'Sakura microtome',
+        'prix lame microtome', 'fournisseur lame microtome', 'pathologie osseuse',
+        'neuropathologie', 'dermatologie biopsie', 'coupe grands blocs',
+        'consommables laboratoire', 'histologie',
+        'alternative Leica 818', 'lame haute stabilité',
+      ],
+    },
+  },
 };
