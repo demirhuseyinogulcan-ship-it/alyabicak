@@ -56,7 +56,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The SK5 (C85) high carbon steel slotted slitting blade is the standard workhorse of the industrial slitting blade family. Manufactured in the standard 57x19mm format, the central slotted slot ensures secure and rapid machine mounting.</p><h3>Technical Specifications</h3><ul><li>Material: SK5 / C85 high carbon steel (0.85-1.00% C)</li><li>Hardness: HRC 59-61</li><li>Standard dimensions: 57x19mm</li><li>Available thicknesses: 0.25mm, 0.36mm, 0.38mm, 0.43mm, 0.63mm</li><li>Edge angle: 22°</li></ul><h3>Applications</h3><p>Cost-effective standard solution for paper, cardboard, plastic film, packaging material, and textile slitting operations. Reliable performance in high-speed slotted slitting machines.</p>`,
     seo: {
-      title: 'Slotted Slitting Blade Carbon Steel | Industrial Razor Blade 57x19mm',
+      title: 'Slotted Slitting Blade Carbon Steel | Alya Blade',
       description: 'Premium carbon steel slotted slitting blade for BOPP film, flexible packaging, and industrial cutting. SK5 steel, 22° edge angle, 3-5x longer life. Sheffield quality.',
       keywords: ['slotted blade', 'slotted slitting blade', 'carbon steel blade', 'industrial razor blade', 'slitting blade', 'film slitting blade', '57x19 blade', '57x19mm blade', 'textile blade', 'paper cutting blade', 'packaging blade', 'high carbon blade', 'SK5 blade', 'professional blade', 'long lasting blade', 'sharp blade', 'slitter blade', 'BOPP film blade', 'flexible packaging blade', 'slitter rewinder blade', 'converter blade']
     },
@@ -79,7 +79,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Visual Wear Indicator', description: 'Golden coating provides easy visual inspection of coating condition.', icon: 'Eye' },
     ],
     seo: {
-      title: 'Slotted Blade TiN Titanium Coating | Gold Industrial Slitting Blade',
+      title: 'Slotted Blade TiN Titanium Coating | Alya Blade',
       description: 'TiN titanium coated slotted slitting blade with 2300 HV hardness. 40% lower friction, ideal for adhesive tape, lamination, and heat-sensitive film cutting.',
       keywords: ['slotted blade titanium', 'titanium coated blade', 'TiN coating blade', 'PVD coating blade', 'gold blade', 'adhesive tape blade', 'lamination blade', '57x19 blade', '57x19mm blade', 'slotted blade titanium', 'titanium coated blade', 'low friction blade', 'film slitting blade', 'label cutting blade', 'industrial titanium blade', 'professional coated blade', 'long lasting titanium', 'slitting blade TiN', 'industrial razor blade coated']
     },
@@ -102,7 +102,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Ultra Wear Resistance', description: 'Extraordinary lifespan on abrasive substrates.', icon: 'Clock' },
     ],
     seo: {
-      title: 'Slotted Blade Ceramic Coating | 3200 HV Ultra-Hard Slitting Blade',
+      title: 'Slotted Blade Ceramic Coating | Alya Blade',
       description: 'Ceramic coated slotted slitting blade with 3200 HV hardness. Ideal for abrasive materials, fiberglass, carbon fiber, and sandpaper cutting. 5-7x longer life.',
       keywords: ['slotted blade ceramic', 'ceramic coated blade', 'abrasive material blade', 'fiberglass blade', 'carbon fiber blade', 'sandpaper blade', 'technical textile blade', 'ultra hard blade', '3200 HV blade', '57x19 blade', '57x19mm blade', 'slotted ceramic blade', 'abrasive cutting blade', 'fiberglass cutting blade', 'carbon fiber blade', 'sandpaper slitting blade', 'industrial ceramic blade', 'high hardness blade']
     },
@@ -126,7 +126,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Hygienic Surface', description: 'Easy-to-clean surface with low bacterial adhesion.', icon: 'Sparkles' },
     ],
     seo: {
-      title: 'Slotted Blade Stainless Steel | FDA Approved Food Industry Blade',
+      title: 'Slotted Blade Stainless Steel | Alya Blade',
       description: 'Stainless steel slotted slitting blade, AISI 420, FDA approved. Corrosion resistant, ideal for food packaging, pharmaceutical, and humid environment applications.',
       keywords: ['slotted blade stainless', 'stainless steel blade', 'food blade', 'hygienic blade', 'FDA approved blade', 'corrosion resistant blade', 'humid environment blade', 'AISI 420 blade', '57x19 blade', '57x19mm blade', 'slotted stainless blade', 'food grade blade', 'hygienic blade', 'corrosion resistant blade', 'medical packaging blade', 'pharmaceutical blade', 'rust free blade', 'inox blade']
     },
@@ -150,7 +150,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Premium Performance', description: 'Top-tier durability for demanding environments.', icon: 'Award' },
     ],
     seo: {
-      title: 'Slotted Blade Stainless + Titanium | Dual Protection Industrial Blade',
+      title: 'Slotted Blade Stainless + Titanium | Alya Blade',
       description: 'Stainless steel + TiN titanium coated slotted blade. Dual protection against corrosion and wear. Ideal for food lamination, pharmaceutical blister, and medical foil applications.',
       keywords: ['slotted stainless titanium blade', 'stainless titanium coating', 'stainless titanium blade', 'TiN stainless blade', 'food lamination blade', 'pharmaceutical packaging blade', 'blister cutting blade', 'sterile packaging blade', 'medical foil blade', '57x19 blade', '57x19mm blade', 'slotted stainless TiN', 'dual protection blade', 'corrosion wear resistant', 'hygienic titanium blade', 'pharmaceutical cutting blade', 'medical foil blade', 'premium slotted blade']
     },
@@ -246,7 +246,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       { title: 'Biocompatible', description: 'Suitable material for medical and food-contact applications.', icon: 'Heart' },
     ],
     seo: {
-      title: 'Slotted Blade Zirconia Ceramic | Metal-Free Food Industry Blade',
+      title: 'Slotted Blade Zirconia Ceramic | Alya Blade',
       description: 'Solid zirconia ceramic slotted blade, metal-free, biocompatible. FDA compliant for food industry, metal detector safe, cleanroom and medical packaging applications.',
       keywords: ['slotted ceramic blade', 'zirconia blade', 'ceramic blade', 'zirconia blade', 'metal contamination free blade', 'food sector blade', 'electronic cutting blade', 'battery separator blade', 'medical packaging blade', '57x19 blade', '57x19mm blade', 'slotted ceramic blade', 'non-conductive blade', 'food industry blade', 'cleanroom blade', 'battery separator blade', 'medical packaging blade', 'biocompatible blade', 'Y-TZP blade']
     },
@@ -257,7 +257,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   // =============================================================================
   'ok': {
     name: 'OK Blade — Arrow Blade',
-    subtitle: '30.4×25.0×0.50mm — Carbon Steel, Double Edge, 2 Slots + 1 Hole',
+    subtitle: '30.4×25.0×0.50mm',
     description: 'OK Blade (Arrow Blade). 30.4×25.0×0.50mm, carbon steel, double-edged (two sharp edges), 2 open slots + 1 hole. Industrial precision cutting machines, label/cable stripping, tape cutting, package opening, automatic cutting systems.',
     shortDescription: 'OK Arrow Blade. 30.4×25.0×0.50mm, carbon steel, double edge, 2 slots + 1 hole. Label stripping, tape cutting, automatic cutting systems.',
     features: [
@@ -279,7 +279,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Textile',
     ],
     seo: {
-      title: 'OK Arrow Blade 30.4×25mm | Double Edge Carbon Steel Industrial Blade | Alya Blade',
+      title: 'OK Arrow Blade 30.4×25mm | Alya Blade',
       description: 'OK Arrow Blade, 30.4×25.0×0.50mm, carbon steel, double-edged, 2 slots + 1 hole. Label/cable stripping, tape cutting, automatic cutting, electronics PCB. Authorized distributor.',
       keywords: ['arrow blade', 'OK blade', 'double edge blade', 'cable stripping blade', 'label cutting blade', 'automatic cutting blade', 'arrow point blade', 'industrial arrow blade', 'mini utility blade'],
     },
@@ -314,7 +314,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Precision label cutting', 'Thin film slitting', 'Laboratory applications', 'Micro-cutting operations', 'Electronic component cutting'],
     seo: {
-      title: 'Injector Blade Carbon Steel 38x8mm | 2-Slot Precision Slitting Blade',
+      title: 'Injector Blade Carbon Steel 38x8mm | Alya Blade',
       description: '38x8x0.25mm carbon steel injector blade with 2-slot design. SK5 steel, 20° edge angle for precision label cutting, thin film slitting, and micro-cutting operations.',
       keywords: ['injector blade', 'injector blade', '38x8 blade', '38x8x0.25 blade', '2 slot blade', 'injector blade', 'carbon steel injector', 'precision cutting blade', 'label cutting blade', 'film slitting blade', 'laboratory blade', 'micro cutting', 'injector razor blade', 'slitting blade 38x8', 'industrial injector blade', 'precision cutting blade', 'label cutting blade', 'SK5 injector blade']
     },
@@ -332,7 +332,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Food packaging cutting', 'Pharmaceutical packaging', 'Medical tape cutting', 'Hygienic production lines', 'Humid environment applications'],
     seo: {
-      title: 'Injector Blade Stainless Steel 38x8mm | FDA Approved Food Industry',
+      title: 'Injector Blade Stainless Steel 38x8mm | Alya Blade',
       description: '38x8x0.25mm stainless steel injector blade, AISI 420, FDA approved. Corrosion resistant for food packaging, pharmaceutical, and medical applications.',
       keywords: ['injector blade stainless', 'stainless injector blade', 'stainless injector blade', '38x8 stainless blade', 'food blade', 'medical blade', 'hygienic blade', 'FDA approved blade', 'AISI 420 injector', 'corrosion resistant blade', 'sterile blade', 'pharmaceutical blade', 'stainless 38x8x0.25', 'rust free blade', 'food grade injector blade', 'medical cutting blade']
     },
@@ -350,7 +350,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Adhesive tape cutting', 'Silicone material slitting', 'Medical wound tape cutting', 'Resin product cutting', 'Label and sticker cutting'],
     seo: {
-      title: 'Injector Blade PTFE Teflon Coating | Non-Stick Adhesive Tape Blade',
+      title: 'Injector Blade PTFE Teflon Coating | Alya Blade',
       description: 'PTFE Teflon coated injector blade, ~0.04 friction coefficient. Non-stick surface for adhesive tape, silicone, medical tape, and sticker cutting applications.',
       keywords: ['injector blade PTFE', 'teflon coated blade', 'non-stick blade', 'PTFE coated blade', 'teflon blade', 'non-stick injector blade', 'adhesive tape blade', 'silicone cutting blade', 'medical tape blade', 'low friction blade', '38x8 PTFE blade', 'adhesive tape blade', 'sticker cutting blade', 'low friction blade', 'medical tape blade', 'stainless PTFE injector']
     },
@@ -368,7 +368,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Abrasive paper cutting', 'Composite material slitting', 'Technical textile cutting', 'Precision fiberglass cutting', 'Sandpaper product slitting'],
     seo: {
-      title: 'Injector Blade Ceramic Coating 3200 HV | Abrasive Material Blade',
+      title: 'Injector Blade Ceramic Coating 3200 HV | Alya Blade',
       description: 'Ceramic coated injector blade, 3200 HV hardness. 5-7x longer life for abrasive paper, composite material, fiberglass, and technical textile cutting.',
       keywords: ['injector blade ceramic', 'ceramic coated injector', 'ceramic coated injector blade', '38x8 ceramic blade', 'abrasive material blade', 'composite cutting blade', 'ultra hard blade', '3200 HV blade', 'stainless ceramic injector', 'abrasive material blade', 'composite cutting blade', 'technical textile blade', 'high hardness injector', 'wear resistant blade']
     },
@@ -386,7 +386,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Precision film cutting', 'Optical film slitting', 'Electronic foil cutting', 'Lamination slitting', 'Heat-sensitive packaging cutting'],
     seo: {
-      title: 'Injector Blade TiN Titanium Coating | Gold Precision Film Blade',
+      title: 'Injector Blade TiN Titanium Coating | Alya Blade',
       description: 'TiN titanium coated injector blade, 2300 HV, 40% lower friction. Ideal for precision film, optical film, electronic foil, and lamination cutting.',
       keywords: ['injector blade titanium', 'titanium coated injector', 'TiN injector blade', '38x8 titanium blade', 'gold blade', 'PVD coated injector', 'stainless titanium blade', 'film cutting blade', 'optical film blade', 'electronic foil blade', 'titanium coated blade', 'gold injector blade', 'low friction injector', 'precision film blade', 'lamination cutting blade']
     },
@@ -404,7 +404,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['High-speed slitting operations', 'Precision tolerance cutting', 'Automatic cutting lines', 'Vibration-sensitive applications', 'Continuous production lines'],
     seo: {
-      title: 'Injector Blade 2-Channel Slot TiN | High-Speed Anti-Slip Blade',
+      title: 'Injector Blade 2-Channel Slot TiN | Alya Blade',
       description: '2-channel slot injector blade with TiN coating. Reinforced grip, anti-slip for high-speed slitting, automatic cutting lines, and vibration-sensitive applications.',
       keywords: ['injector blade 2 channel', '2 channel slot blade', 'dual channel injector', 'dual channel injector blade', '38x8 2 channel', 'reinforced grip blade', 'high speed blade', 'stability blade', 'vibration-free cutting', 'professional injector', 'automatic cutting blade', 'high speed injector blade', 'precision slitting blade', 'anti-slip blade', 'continuous production blade']
     },
@@ -440,7 +440,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Ultra-abrasive material micro-cutting', 'Ceramic-coated paper slitting', 'Metal foil precision cutting', 'Battery electrode material slitting', 'Special holder applications'],
     seo: {
-      title: 'Injector Blade Tungsten Carbide Slotless | HRA 92-94 Ultra-Hard',
+      title: 'Injector Blade Tungsten Carbide Slotless | Alya Blade',
       description: 'Solid tungsten carbide injector blade, slotless, HRA 92-94. 20-50x longer life for abrasive materials, metal foil, and battery electrode micro-cutting.',
       keywords: ['injector blade tungsten', 'tungsten carbide injector', 'solid tungsten blade', 'tungsten carbide injector blade', '38x8 tungsten blade', 'slotless blade', 'WC blade', 'carbide injector', 'ultra hard blade', 'HRA 92 blade', 'solid carbide blade', 'metal foil blade', 'battery electrode blade', 'monolithic carbide', 'slotless injector blade']
     },
@@ -458,7 +458,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Food industry (metal detector lines)', 'Electronic component cutting', 'Battery separator film slitting', 'Medical sterile packaging', 'Cleanroom applications'],
     seo: {
-      title: 'Injector Blade Zirconia Ceramic 0.30mm | Metal-Free Food Industry',
+      title: 'Injector Blade Zirconia Ceramic 0.30mm | Alya Blade',
       description: 'Solid zirconia ceramic injector blade 0.30mm, pure white, metal-free. Metal detector safe, FDA compliant for food industry, medical, and cleanroom applications.',
       keywords: ['injector blade ceramic', 'white ceramic blade', 'zirconia injector', 'ceramic injector blade', 'white ceramic blade', '38x8x0.30 blade', 'metal contamination free', 'food blade', 'medical blade', 'biocompatible blade', 'zirconia blade', 'non-conductive blade', 'food industry blade', 'cleanroom blade', 'Y-TZP injector', 'metal detector safe blade']
     },
@@ -476,7 +476,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     applications: ['Heavy-duty food cutting', 'Thick material slitting', 'Intensive use lines', 'Industrial cleanroom', 'Premium medical applications'],
     seo: {
-      title: 'Injector Blade Zirconia Ceramic 0.64mm | Heavy-Duty Thick Blade',
+      title: 'Injector Blade Zirconia Ceramic 0.64mm | Alya Blade',
       description: 'Solid zirconia ceramic injector blade 0.64mm, thick section for heavy-duty applications. High strength for intensive use, cleanroom, and premium medical applications.',
       keywords: ['injector blade ceramic 0.64', 'thick ceramic blade', '0.64mm zirconia blade', 'thick ceramic blade', 'heavy duty ceramic', '38x8x0.64 blade', 'white ceramic injector', 'high strength blade', 'heavy duty blade', 'premium ceramic blade', 'industrial zirconia', 'durable ceramic blade', 'white zirconia injector', 'thick blade', 'high strength ceramic']
     },
@@ -533,7 +533,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       <p>The aluminum back design provides safe transport and storage. The notched edge profile enables compatible mounting with standard scraper tools. A corrosion-resistant surface treatment has been applied.</p>
     `,
     seo: {
-      title: 'Single Edge Blade Carbon Steel 0.23mm 2-Facet B201 | Alya Blade',
+      title: 'Single Edge Blade Carbon Steel 0.23mm | Alya Blade',
       description: 'High carbon steel single edge blade. 0.23mm (0.009"), HRC 58-62, 2-facet grind, aluminum back. Glass scraping, label removal, automotive deburring. Industrial scraper blade.',
       keywords: ['single edge blade', 'single edge razor blade', 'glass scraper blade', 'scraper blade', 'B201 blade', 'carbon steel single edge', '0.009 inch blade', '2-facet blade', 'glass cleaning blade', 'label removal blade', 'industrial single edge', 'window scraper blade', 'paint scraper blade', 'notched single edge', 'razor scraper blade'],
     },
@@ -572,7 +572,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       </ul>
     `,
     seo: {
-      title: 'Single Edge Blade 3-Facet Carbon Steel 0.23mm B201 | Alya Blade',
+      title: 'Single Edge Blade 3-Facet Carbon Steel | Alya Blade',
       description: '3-facet ultra-sharp single edge blade. 0.23mm high carbon steel, HRC 58-62. Precision glass cleaning, label removal, thin film cutting. Cased/uncased/1000-count bulk.',
       keywords: ['3 facet single edge blade', 'precision single edge razor', 'ultra sharp scraper blade', 'glass cleaning blade', 'B201 131 blade', 'uncased single edge', 'bulk single edge blade 1000', 'laboratory blade', 'cleanroom scraper blade', 'precision scraping blade', 'three facet blade grind', 'fine scraper blade', 'surgical sharp blade', 'window cleaning blade'],
     },
@@ -653,7 +653,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       </ul>
     `,
     seo: {
-      title: 'Single Edge Blade PTFE Coated Stainless Steel 0.23mm | Alya Blade',
+      title: 'Single Edge Blade PTFE Coated Stainless | Alya Blade',
       description: 'PTFE Teflon coated stainless steel single edge blade. 40-60% friction reduction. Adhesive label removal, window tint removal, tape scraping. Non-stick industrial blade.',
       keywords: ['PTFE coated blade', 'Teflon coated single edge', 'non-stick scraper blade', 'adhesive removal blade', 'B201 901 blade', 'window tint blade', 'stainless PTFE blade', 'anti-stick blade', 'label removal blade PTFE', 'Teflon razor blade', 'coated single edge blade', 'non-stick single edge', 'tape residue blade', 'low friction blade'],
     },
@@ -696,7 +696,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       </ul>
     `,
     seo: {
-      title: 'Single Edge Blade 0.30mm Heavy Duty Carbon Steel | Alya Blade',
+      title: 'Single Edge Blade 0.30mm Heavy Duty Carbon | Alya Blade',
       description: 'Heavy duty thick profile single edge blade. 0.30mm (0.012"), HRC 58-62, 2-facet. Heavy paint scraping, metal surface prep, gasket removal. Aluminum/metal spine back.',
       keywords: ['heavy duty single edge blade', 'thick single edge blade', '0.30mm blade', '0.012 inch blade', 'heavy duty scraper blade', 'B201 501 blade', 'metal spine blade', 'paint scraper blade heavy', 'industrial heavy duty blade', 'gasket scraping blade', 'thick razor blade', 'construction scraper blade', 'heavy gauge blade', 'metal back single edge'],
     },
@@ -738,7 +738,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Broad arms tip profile', 'Designed for textile cutting', 'DD 1% carbon steel material', 'Minimises thread pulling', '52×19×0.6mm standard size', 'Sheffield Durham Duplex quality'],
     applications: ['Textile cutting', 'Bale opening', 'Leather cutting', 'Fibre cutting'],
     seo: {
-      title: 'B208 Broad Tip Textile Hook Blade | Textile Hook Blade | Alya Blade',
+      title: 'B208 Broad Tip Textile Hook Blade | Alya Blade',
       description: 'B208 broad tip hook blade for textile cutting. 52×19×0.6mm broad arms design. DD 1% carbon steel. Authorized distributor.',
       keywords: ['textile hook blade', 'B208 textile', 'broad arms hook blade', 'fabric cutting blade', 'textile blade', 'garment cutting blade'],
     },
@@ -769,7 +769,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Graphic design applications'
     ],
     seo: {
-      title: 'B092 Holeless Monobloc Utility Blade | Ceramic Body | Alya Blade',
+      title: 'B092 Holeless Monobloc Utility Blade | Alya Blade',
       description: 'B092 holeless monobloc blade, ceramic body, 92×8.2×0.43mm. For holeless-mount utility knives. Non-segmented. Sheffield quality. Authorized distributor.',
       keywords: ['holeless blade', 'B092', 'monobloc utility blade', 'ceramic blade', 'no hole blade', 'special mount blade', 'holeless cutter blade'],
     },
@@ -856,7 +856,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['#13 long-profile blade geometry', '52.7x9x0.60mm dimensions', '0.60mm thickness for extra durability and stability', 'Extended cutting line for long straight cuts', 'Sheffield Durham Duplex quality'],
     applications: ['Model building', 'Sign and display cutting', 'Vinyl application', 'Industrial precision slicing'],
     seo: {
-      title: 'B113 Hobby Blade #13 | Long Profile Precision Blade | Alya Blade',
+      title: 'B113 Hobby Blade #13 | Alya Blade',
       description: 'B113 long-profile hobby blade. 52.7×9×0.60mm, #13 type. Model building, sign cutting, vinyl application. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['#13 hobby blade', 'long profile craft blade', 'B113', 'sign cutting blade', 'precision hobby blade'],
     },
@@ -875,7 +875,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['#14 blade geometry with wide cutting angle', '50.3x9x0.60mm dimensions', 'TiN (Titanium Nitride) coated variant — up to 3x longer life', 'Carbon steel variant — classic sharpness', 'Sheffield Durham Duplex quality'],
     applications: ['Vinyl and film cutting', 'Professional craft and hobby', 'Heavy-duty model making', 'Industrial precision cutting'],
     seo: {
-      title: 'B114 Hobby Blade #14 TiN Coated & Carbon | Precision Blade | Alya Blade',
+      title: 'B114 Hobby Blade #14 TiN Coated & Carbon | Alya Blade',
       description: 'B114 precision hobby blade. 50.3×9×0.60mm, #14 type. TiN coated & carbon variants. Vinyl, model making, crafts. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['#14 hobby blade', 'TiN coated blade', 'B114', 'titanium nitride blade', 'precision craft blade'],
     },
@@ -900,7 +900,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Compact angled tip design', '36.8x8.4x0.53mm dimensions', 'Ideal for tight and hard-to-reach areas', 'Precision trimming and cleaning', 'Sheffield Durham Duplex quality'],
     applications: ['Miniature model building', 'Electronics PCB cleaning', 'Fine detail trimming'],
     seo: {
-      title: 'B141 Compact Hobby Blade | Precision Craft Blade | Alya Blade',
+      title: 'B141 Compact Hobby Blade | Alya Blade',
       description: 'B141 compact hobby blade. 36.8×8.4×0.53mm, angled tip. Miniature models, electronics, fine model making. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B141 hobby blade', 'compact craft blade', 'miniature blade', 'precision blade', 'electronics cutting'],
     },
@@ -919,7 +919,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Wide-profile large design', '47x11.3x0.63mm dimensions', '0.63mm thickness for heavy-duty use', 'Cutting, scraping and cleaning in one blade', 'Sheffield Durham Duplex quality'],
     applications: ['Large-scale model making', 'Scraping and surface cleaning', 'Industrial prototyping', 'Cardboard cutting'],
     seo: {
-      title: 'B142 Large Hobby Blade 47×11.3mm | Large Craft Blade | Alya Blade',
+      title: 'B142 Large Hobby Blade 47×11.3mm | Alya Blade',
       description: 'B142 Large hobby blade. 47×11.3×0.63mm wide profile. Model making, scraping, prototyping. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B142 large', 'wide profile blade', 'large craft blade', 'scraping blade', 'hobby blade'],
     },
@@ -938,7 +938,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Two size variants available', '40x9x0.53mm standard variant', 'OLFA KB4-S/5 compatible 40.5x8x0.50mm variant', 'Compact design for tight spaces', 'Sheffield Durham Duplex quality'],
     applications: ['Miniature model building', 'Electronics assembly', 'Fine detail cutting'],
     seo: {
-      title: 'B142 Small Hobby Blade OLFA Compatible | Small Craft Blade | Alya Blade',
+      title: 'B142 Small Hobby Blade OLFA Compatible | Alya Blade',
       description: 'B142 Small hobby blade. 40×9mm & OLFA KB4-S/5 compatible 40.5×8mm. Miniature models, electronics, detail. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B142 small', 'OLFA KB4-S/5 compatible', 'compact craft blade', 'miniature blade', 'hobby blade'],
     },
@@ -961,7 +961,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Hook-form compact design', '37x10x0.53mm dimensions', 'Precision scraping and deburring', 'Curved cutting profile', 'Sheffield Durham Duplex quality'],
     applications: ['Leathercraft', 'Paper arts and decoration', 'Deburring and trimming'],
     seo: {
-      title: 'B143 Hook Profile Hobby Blade | Hook Craft Blade | Alya Blade',
+      title: 'B143 Hook Profile Hobby Blade | Alya Blade',
       description: 'B143 hook-profile hobby blade. 37×10×0.53mm. Leathercraft, paper arts, deburring. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B143 hobby blade', 'hook profile blade', 'scraping blade', 'deburring', 'hook craft blade'],
     },
@@ -980,7 +980,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Chisel (flat edge) design', '40x10x0.53mm dimensions', 'Linear cuts and surface scraping', 'Stencil and template cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Stencil and template cutting', 'Surface scraping and cleaning', 'Print preparation'],
     seo: {
-      title: 'B144 Chisel Edge Hobby Blade | Flat Edge Craft Blade | Alya Blade',
+      title: 'B144 Chisel Edge Hobby Blade | Alya Blade',
       description: 'B144 chisel edge hobby blade. 40×10×0.53mm. Stencil, scraping, print preparation. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B144 hobby blade', 'chisel blade', 'flat edge blade', 'stencil blade', 'flat edge craft blade'],
     },
@@ -999,7 +999,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['4 different size options', '45x12mm / 45x16mm / 45x20mm standard sizes', 'OLFA KB4-F/5 compatible 35.5x8x0.55mm variant', 'Flat edge design for wide surface cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Professional model making', 'Graphic and design work', 'Template and stencil cutting', 'Wide surface scraping'],
     seo: {
-      title: 'B145 Multi-Size Hobby Blade | Multi-Size Craft Blade | Alya Blade',
+      title: 'B145 Multi-Size Hobby Blade | Alya Blade',
       description: 'B145 multi-size hobby blade. 45×12/16/20mm & OLFA KB4-F/5. Model making, graphics, stencil. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B145 multi-size', 'multi-size craft blade', 'OLFA KB4-F/5', 'flat edge blade', 'hobby blade set'],
     },
@@ -1062,7 +1062,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Curved profile cutting design', '45.4x10.3x0.63mm dimensions', '0.63mm thickness', 'Excellent for contour and curved cuts', 'Sheffield Durham Duplex quality'],
     applications: ['Leathercraft', 'Vinyl cutting', 'Decorative cutting and trimming'],
     seo: {
-      title: 'B148 Curved Profile Hobby Blade 45.4×10.3mm | Curved Craft Blade | Alya Blade',
+      title: 'B148 Curved Profile Hobby Blade 45.4×10.3mm | Alya Blade',
       description: 'B148 curved profile hobby blade. 45.4×10.3×0.63mm. Leathercraft, vinyl, decorative cutting. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B148 hobby blade', 'curved craft blade', 'curved precision blade', 'leather cutting blade', 'contour blade'],
     },
@@ -1100,7 +1100,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['#25 wide-body blade geometry', 'Heavy duty hobby blade type', 'Wide profile for cutting thick materials', 'X-Acto #25 compatible', 'Sheffield Durham Duplex quality'],
     applications: ['Balsa wood model building', 'Thick cardboard cutting', 'Plastic sheet and composite cutting', 'Industrial prototyping'],
     seo: {
-      title: 'B150 Hobby Blade #25 Heavy Duty | Heavy Duty Craft Blade | Alya Blade',
+      title: 'B150 Hobby Blade #25 Heavy Duty | Alya Blade',
       description: 'B150 #25 heavy duty hobby blade. Wide body. Balsa wood, plastic, cardboard, composite. X-Acto compatible. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['#25 hobby blade', 'B150', 'heavy duty craft blade', 'X-Acto #25 compatible', 'balsa wood blade', 'wide body blade'],
     },
@@ -1119,7 +1119,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Pointed tip wide-body design', '45x11x0.63mm dimensions', '0.63mm heavy-duty thickness', 'Large-scale shaping and cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Sign and display cutting', 'Professional model making', 'Industrial cutting and shaping'],
     seo: {
-      title: 'B151 Professional Hobby Blade 45×11mm | Professional Craft Blade | Alya Blade',
+      title: 'B151 Professional Hobby Blade 45×11mm | Alya Blade',
       description: 'B151 professional hobby blade. 45×11×0.63mm pointed wide-body. Sign cutting, model making, industrial cutting. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['B151 hobby blade', 'professional craft blade', 'sign cutting blade', 'precision hobby blade'],
     },
@@ -1140,7 +1140,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['OLFA KB compatible replacement blade', '40.5x6x0.45mm dimensions', '1 notch for easy and secure blade change', '0.45mm ultra-thin for precision cutting', 'Sheffield Durham Duplex quality'],
     applications: ['Paper arts and scrapbooking', 'Calligraphy', 'Stencil and template cutting', 'Ultra-fine detail work'],
     seo: {
-      title: 'KB Art Knife Blade OLFA KB Compatible | Art Knife Blade | Alya Blade',
+      title: 'KB Art Knife Blade OLFA KB Compatible | Alya Blade',
       description: 'KB precision art knife blade. OLFA KB compatible 40.5×6×0.45mm, 1 notch. Paper arts, calligraphy, stencil. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['OLFA KB blade', 'art knife blade', 'KB hobby blade', 'paper arts blade', 'calligraphy blade'],
     },
@@ -1159,7 +1159,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Ultra-thin and ultra-compact design', '25x4x0.38mm — the smallest hobby blade in the range', '0.38mm thickness for ultra-precision cutting', 'Compatible with OLFA AK series art knives', 'Sheffield Durham Duplex quality'],
     applications: ['Paper arts', 'Calligraphy', 'Miniature and precision work'],
     seo: {
-      title: 'KB-5 Ultra Compact Hobby Blade 25×4mm | Art Knife Blade | Alya Blade',
+      title: 'KB-5 Ultra Compact Hobby Blade 25×4mm | Alya Blade',
       description: 'KB-5 ultra compact hobby blade. 25×4×0.38mm, the thinnest model. Paper arts, calligraphy, miniatures. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['KB-5 hobby blade', 'ultra compact blade', 'paper arts blade', 'art knife blade', 'mini craft blade'],
     },
@@ -1178,7 +1178,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['OLFA KB4-R/5 compatible replacement blade', '38.5x6x0.45mm dimensions', 'Curved cutting profile for arcs and contours', '0.45mm thickness for precision', 'Sheffield Durham Duplex quality'],
     applications: ['Curved and contour cutting', 'Stencil and template work', 'Professional art applications'],
     seo: {
-      title: 'KB4-R/5 Curved Art Knife Blade OLFA Compatible | Curved Art Blade | Alya Blade',
+      title: 'KB4-R/5 Curved Art Knife Blade OLFA Compatible | Alya Blade',
       description: 'KB4-R/5 OLFA compatible hobby blade. 38.5×6×0.45mm curved profile. Stencil, art, precision cutting. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['KB4-R/5 blade', 'OLFA KB4-R compatible', 'curved art knife', 'stencil blade', 'curved art blade'],
     },
@@ -1197,7 +1197,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Narrow serrated (saw-tooth) edge design', '64x11/6x0.35mm dimensions', '0.35mm ultra-thin thickness', 'Cuts foam and soft materials without tearing', 'Sheffield Durham Duplex quality'],
     applications: ['Foam cutting', 'Polystyrene (styrofoam) model making', 'Sponge and soft material cutting'],
     seo: {
-      title: 'KB4-NS/3 Serrated Hobby Blade OLFA Compatible | Serrated Art Blade | Alya Blade',
+      title: 'KB4-NS/3 Serrated Hobby Blade OLFA Compatible | Alya Blade',
       description: 'KB4-NS/3 narrow serrated hobby blade. OLFA KB4-NS/3, 64×11/6×0.35mm. Foam, sponge, polystyrene cutting. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['KB4-NS/3 serrated blade', 'OLFA serrated blade', 'foam cutting blade', 'narrow serrated', 'sponge blade'],
     },
@@ -1216,7 +1216,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Wide serrated (saw-tooth) edge design', '66.5x11/6x0.35mm — longest in the series', '0.35mm ultra-thin thickness', 'Cuts thick foam and balsa wood without tearing', 'Sheffield Durham Duplex quality'],
     applications: ['Thick foam cutting', 'Balsa wood model building', 'Architectural foam models'],
     seo: {
-      title: 'KB4-WS/3 Wide Serrated Hobby Blade OLFA Compatible | Wide Serrated Blade | Alya Blade',
+      title: 'KB4-WS/3 Wide Serrated Hobby Blade OLFA | Alya Blade',
       description: 'KB4-WS/3 wide serrated hobby blade. OLFA KB4-WS/3, 66.5×11/6×0.35mm. Thick foam, balsa wood, polystyrene. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['KB4-WS/3 wide serrated', 'OLFA wide serrated', 'thick foam blade', 'balsa wood blade', 'wide serrated blade'],
     },
@@ -1263,7 +1263,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B581 series fiberglass chopper blades are manufactured from <strong>tungsten carbide tipped</strong> special steel, engineered for fiberglass roving cutting lines. With an HRC 68-72 hardness rating, they deliver exceptional resistance against abrasive glass fiber strands.</p><h3>Technical Details</h3><ul><li><strong>30° double bevel:</strong> Even wear distribution and extended service life</li><li><strong>Tungsten carbide alloy:</strong> 5-8x longer cutting performance compared to standard steel</li><li><strong>Precision tolerance:</strong> ±0.02mm dimensional accuracy for perfect machine fit</li><li><strong>Bundles of 25:</strong> Easy inventory management and quick bulk changeover</li></ul><h3>Applications</h3><p>Used in GRP (Glass Reinforced Plastic) and FRP (Fiber Reinforced Plastic) production lines, fiberglass roving cutting machines (chopper guns, roving cutters). Essential for composite material applications including automotive parts, boat hulls, wind turbine blades, pipe and tank manufacturing.</p><h3>Available Sizes</h3><p>The B581 series is available in three lengths: 100mm, 108.8mm and 120mm. Width (7.94mm) and thickness (0.71mm) are consistent across all variants.</p>`,
     seo: {
-      title: 'B581 Fiberglass Chopper Blade 120mm | Tungsten Carbide | Alya Blade',
+      title: 'B581 Fiberglass Chopper Blade 120mm | Alya Blade',
       description: 'B581 tungsten carbide tipped fiberglass chopper blade, 120×7.94×0.71mm. Double-beveled 30° edge for glass fiber roving lines. Superior wear resistance for continuous GRP/FRP production.',
       keywords: ['fiberglass chopper blade', 'glass fiber cutting blade', 'tungsten carbide chopper blade', 'GRP cutting blade', 'roving cutter blade', 'B581', 'fiberglass blade', 'FRP blade', 'chopper gun blade'],
     },
@@ -1304,7 +1304,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B657 series circular rotary blades are manufactured to be <strong>fully compatible with OLFA rotary cutters</strong>, delivering professional-grade cutting performance. Available in both high carbon steel and stainless steel options to suit different cutting requirements.</p><h3>Model Options</h3><ul><li><strong>RB18-2 (18mm, Stainless):</strong> Hex hole mount, ideal for precision detail cutting. Made from stainless steel.</li><li><strong>RB28-10 (28mm):</strong> 3-notch mounting system, suitable for medium-sized cutting tasks.</li><li><strong>RB45-10 (45mm):</strong> 3-notch mount, the most commonly used rotary blade size. Standard choice for fabric and leather cutting.</li><li><strong>RB60-1 (60mm):</strong> 3-notch mount, designed for large diameter cuts and thick materials.</li><li><strong>PRB18-2 (18mm, Perforating, Stainless):</strong> 8 perforation channels for creating perforated cut lines. Made from stainless steel.</li></ul><h3>Applications</h3><p>Widely used in textile and garment workshops for fabric cutting, precision cutting in the leather industry, straight line cutting on paper and cardboard, and hobby applications such as patchwork, quilting and scrapbooking.</p><h3>Technical Specifications</h3><p>The RB18 and PRB18 models are made from stainless steel, providing moisture and corrosion resistance. The RB28, RB45 and RB60 models are made from high carbon steel, delivering superior cutting performance. All models fit directly onto OLFA rotary cutter handles.</p>`,
     seo: {
-      title: 'B657 Circular Rotary Blades OLFA Compatible | 18-28-45-60mm | Alya Blade',
+      title: 'B657 Circular Rotary Blades OLFA Compatible | Alya Blade',
       description: 'OLFA compatible B657 circular rotary blades. 18mm, 28mm, 45mm, 60mm diameters in stainless and carbon steel. Professional rotary blades for textile, leather and paper cutting.',
       keywords: ['circular rotary blade', 'OLFA compatible blade', 'rotary cutter blade', 'fabric cutting blade', 'leather cutting blade', 'RB45', 'RB28', 'RB60', 'RB18', 'PRB18', 'B657', 'OLFA blade'],
     },
@@ -1343,7 +1343,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The 2CS1 series pentagon blades are special geometry industrial cutting blades manufactured in <strong>solid tungsten carbide</strong> and <strong>solid ceramic</strong> material options. With 66/63/40×0.54mm dimensions and 2×4mm mounting holes, they are designed for direct compatibility with sack and big bag production machines.</p><h3>Material Options</h3><ul><li><strong>Solid Tungsten Carbide:</strong> HRC 90+ hardness rating with the highest wear resistance. Delivers extended life on intensive production lines. Preferred for cutting hard and abrasive materials.</li><li><strong>Solid Ceramic – White (Zirconium Oxide):</strong> HV 1600+ micro-hardness with a chemically inert structure. Ideal for food-contact approved applications and environments requiring corrosion resistance.</li><li><strong>Solid Ceramic – Grey (Silicon Carbide):</strong> HV 1600+ micro-hardness with high thermal resistance. Superior performance in heat-exposed cutting applications.</li></ul><h3>Applications</h3><p>Used in PP (polypropylene) woven sack production lines, FIBC big bag production machines, geotextile and agricultural cover cutting lines. Pentagon geometry optimises the cutting angle to achieve a clean, uniform cut line.</p><h3>Technical Details</h3><p>The 2×4mm mounting holes provide a secure, vibration-free connection to the machine. The 0.54mm thickness creates a thin, precise cut line, while the pentagon geometry allows utilisation of all 5 cutting edges.</p>`,
     seo: {
-      title: '2CS1 Pentagon Blade 66mm | Tungsten Carbide & Ceramic | Alya Blade',
+      title: '2CS1 Pentagon Blade 66mm | Alya Blade',
       description: 'Solid tungsten carbide and ceramic 2CS1 pentagon blade, 66/63/40×0.54mm. Ultra-durable industrial cutting blade for sack, big bag and PP woven fabric production lines.',
       keywords: ['pentagon blade', 'tungsten carbide blade', 'ceramic blade', 'sack cutting blade', 'big bag blade', 'FIBC blade', 'PP woven blade', '2CS1', 'pentagon cutting'],
     },
@@ -1381,7 +1381,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B084.075 series lamella (leaf) blades are special geometry industrial blades manufactured in <strong>solid ceramic</strong> and <strong>solid tungsten carbide</strong> material options. With 84/80×7.5×1.0mm dimensions, they are designed for compatibility with slitter and cutting machines.</p><h3>Material Options</h3><ul><li><strong>Solid Ceramic – White (Zirconium Oxide / ZrO₂):</strong> HV 1200+ micro-hardness with a chemically inert, non-stick structure. Leaves no adhesive residue on film and foil cuts. Safe for food packaging cutting lines.</li><li><strong>Solid Tungsten Carbide:</strong> HRC 90+ hardness delivering the highest wear resistance. Superior performance on abrasive materials and high-speed production lines.</li></ul><h3>Applications</h3><p>Widely used in PE/PP/PET/PVC film and foil slitting lines, label and tape converting machines, paper and cardboard converting lines, cutting units of packaging machines, aluminium foil slitting lines and lamination machines.</p><h3>Technical Details</h3><p>The lamella (leaf) form features geometry optimised for thin, precision cuts. The 1.0mm thickness ensures vibration-free and burr-free cutting. 84mm total length with 80mm effective cutting length for compact slitter unit compatibility.</p>`,
     seo: {
-      title: 'B084.075 Lamella Leaf Blade 84mm | Ceramic & Tungsten | Film Slitting | Alya Blade',
+      title: 'B084.075 Lamella Leaf Blade 84mm | Alya Blade',
       description: 'Solid ceramic and tungsten carbide B084.075 lamella (leaf) blade, 84/80×7.5×1.0mm. Ultra-long-life industrial cutting blade for film, foil, label and paper slitting lines.',
       keywords: ['lamella blade', 'leaf blade', 'film cutting blade', 'foil cutting blade', 'label cutting blade', 'slitter blade', 'ceramic blade', 'tungsten blade', 'B084.075'],
     },
@@ -1398,7 +1398,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['High carbon steel (SK5) body', '0.63mm standard / 1.00mm stainless thickness', '5 different lengths from 50-100mm', 'TiN (Titanium Nitride) coating option', 'Stainless steel alternative', 'Rounded tip safety option', 'Single-side sharpening option', '2 or 3 notch configuration', '0-5 hole pattern alternatives', 'Standard trapezoid form compatible'],
     applications: ['Warehouse & logistics', 'Flooring installation', 'Construction & renovation', 'Packaging industry', 'Leather & textile', 'Automotive'],
     seo: {
-      title: 'B207 Heavy Duty Trapezoid Blade 0.63mm | Utility Blade | Alya Blade',
+      title: 'B207 Heavy Duty Trapezoid Blade 0.63mm | Alya Blade',
       description: 'B207 heavy duty trapezoid blade, 0.63mm, Sheffield steel. 10 variants: carbon, stainless, TiN coated. Warehouse, flooring, construction, packaging cutting. Authorized distributor.',
       keywords: ['trapezoid blade', 'B207', 'heavy duty utility blade', 'thick trapezoid blade', '0.63mm trapezoid', 'TiN coated trapezoid', 'stainless trapezoid', 'sheffield utility blade', 'industrial trapezoid blade', 'wholesale trapezoid blades'],
     },
@@ -1430,7 +1430,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['High carbon steel', '0.43mm thin profile', '50mm and 59mm length options', '2 notch standard configuration', 'Single-side sharpening option', '2×6.4mm holed variant', 'Standard trapezoid form compatible'],
     applications: ['Paper & packaging', 'Wallpaper installation', 'Office & warehouse', 'Glass & surface scraping'],
     seo: {
-      title: 'B206 Thin Trapezoid Blade 0.43mm | Thin Utility Blade | Alya Blade',
+      title: 'B206 Thin Trapezoid Blade 0.43mm | Alya Blade',
       description: 'B206 thin trapezoid blade, 0.43mm, Sheffield carbon steel, HRC 58-62. Paper, packaging, wallpaper, glass scraping. Single-side sharpening. Authorized distributor.',
       keywords: ['thin trapezoid blade', 'B206', 'thin utility blade', '0.43mm trapezoid', 'precision utility blade', 'paper cutting blade', 'wallpaper blade'],
     },
@@ -1454,7 +1454,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Single-side serrated edge', '82×25×1.0mm wide and thick body', '2 mounting holes', 'Superior performance on fibrous materials', 'Sheffield quality carbon steel'],
     applications: ['Rope & cord cutting', 'Fiber composites', 'Textile & synthetic', 'Agriculture & garden'],
     seo: {
-      title: 'B082 Serrated Trapezoid Blade | Serrated Utility Blade | Alya Blade',
+      title: 'B082 Serrated Trapezoid Blade | Alya Blade',
       description: 'B082 serrated edge trapezoid blade, 82×25×1.0mm, Sheffield steel. Rope, fiberglass, Kevlar cutting. Single-side serration. Authorized distributor.',
       keywords: ['serrated trapezoid blade', 'B082', 'serrated utility blade', 'rope cutting blade', 'fiberglass cutting blade', 'serrated edge blade'],
     },
@@ -1474,7 +1474,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['61×12.5×0.63mm compact size', '1-hole mounting design', 'Compatible with special tools', 'Sheffield quality carbon steel'],
     applications: ['Narrow space cutting', 'Electronics', 'Detail work', 'Model making'],
     seo: {
-      title: 'B213 Compact Trapezoid Blade 61×12.5mm | Compact Utility Blade | Alya Blade',
+      title: 'B213 Compact Trapezoid Blade 61×12.5mm | Alya Blade',
       description: 'B213 compact trapezoid blade, 61×12.5×0.63mm. Narrow spaces, electronics, detail cutting. Sheffield steel. Authorized distributor.',
       keywords: ['compact trapezoid', 'B213', 'compact utility blade', 'mini trapezoid blade', '61mm trapezoid', 'small utility blade'],
     },
@@ -1493,7 +1493,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['71×17×0.63mm special size', '1×6mm hole mounting', 'Extended cutting line', '17mm narrow width', 'Sheffield quality carbon steel'],
     applications: ['Industrial machines', 'Automation systems', 'Special hand tools'],
     seo: {
-      title: 'B218 Special Trapezoid Blade 71×17mm | Medium Utility Blade | Alya Blade',
+      title: 'B218 Special Trapezoid Blade 71×17mm | Alya Blade',
       description: 'B218 special size trapezoid blade, 71×17×0.63mm, 1×6mm hole. Industrial machine, automation system blade. Sheffield steel. Authorized distributor.',
       keywords: ['special trapezoid blade', 'B218', '71mm trapezoid', 'medium trapezoid blade', 'special size utility blade', 'machine trapezoid blade'],
     },
@@ -1512,7 +1512,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['27.6×9×0.43mm ultra compact size', '3×3.5mm triple hole configuration', '0.43mm thin profile', 'Compatible with miniature holders', 'Sheffield quality carbon steel'],
     applications: ['Electronics assembly', 'Model & hobby', 'Laboratory', 'Medical devices'],
     seo: {
-      title: 'B214 Micro Trapezoid Blade 27.6×9mm | Micro Utility Blade | Alya Blade',
+      title: 'B214 Micro Trapezoid Blade 27.6×9mm | Alya Blade',
       description: 'B214 micro trapezoid blade, 27.6×9×0.43mm, 3×3.5mm holes. Electronics, model making, laboratory, medical. Sheffield steel. Authorized distributor.',
       keywords: ['micro trapezoid', 'B214', 'micro utility blade', 'mini trap blade', '27mm trapezoid', 'precision blade', 'miniature cutting blade'],
     },
@@ -1531,7 +1531,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['B207 series long version', '0.63mm thick profile', 'Wide cutting line', 'Sheffield quality carbon steel'],
     applications: ['Large material cutting', 'Flooring installation', 'Construction'],
     seo: {
-      title: 'B207 L Long Trapezoid Blade | Long Utility Blade | Alya Blade',
+      title: 'B207 L Long Trapezoid Blade | Alya Blade',
       description: 'B207 L long trapezoid blade. Extended version of B207, wide cutting line. Sheffield steel, HRC 58-62. Authorized distributor.',
       keywords: ['long trapezoid blade', 'B207 L', 'long utility blade', 'large utility blade', 'wide cutting trapezoid'],
     },
@@ -1543,7 +1543,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'b207-3': {
     name: 'B207 XXL (LONG) — Drywall / Plasterboard Blade',
-    subtitle: '170×19×0.80mm — 2 Notches, 4 Holes — Drywall / Plasterboard Cutting Blade',
+    subtitle: '170×19×0.80mm',
     description: 'B207 XXL Drywall Blade. 170×19×0.80mm, high carbon steel, 2 notches, 4 holes. Professional long-body blade for plasterboard, drywall and gypsum board cutting. Construction and renovation sector.',
     shortDescription: 'B207 XXL Drywall Blade. 170×19×0.80mm, high carbon steel, 2 notches, 4 holes. Professional plasterboard cutting blade for construction and renovation.',
     features: [
@@ -1563,7 +1563,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Professional Construction',
     ],
     seo: {
-      title: 'B207 XXL Drywall Blade 170×19mm | Plasterboard Cutting Blade | Alya Blade',
+      title: 'B207 XXL Drywall Blade 170×19mm | Alya Blade',
       description: 'B207 XXL drywall blade, 170×19×0.80mm, high carbon steel, 2 notches, 4 holes. Plasterboard, gypsum board, drywall cutting. Sheffield quality. Authorized distributor.',
       keywords: ['drywall blade', 'plasterboard blade', 'B207 XXL', 'gypsum board blade', 'plasterboard cutting blade', 'drywall scoring blade', '170mm drywall blade', 'score and snap blade'],
     },
@@ -1590,7 +1590,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['100×19×0.63mm large size standard product', 'Custom size manufacturing', 'Carbon, stainless, TiN coating options', 'Custom notch and hole configurations', 'OEM and project-based production', 'Sheffield quality standards'],
     applications: ['Custom machines', 'Automation lines', 'Industrial projects', 'OEM manufacturing'],
     seo: {
-      title: 'Custom Design Trapezoid Blade 100×19mm | Custom Utility Blade | Alya Blade',
+      title: 'Custom Design Trapezoid Blade 100×19mm | Alya Blade',
       description: 'Custom design trapezoid blades. 100×19mm large size + custom sizes, materials, coatings. Sheffield steel, HRC 58-62. OEM supply. Authorized distributor.',
       keywords: ['custom trapezoid blade', 'custom utility blade', '100mm trapezoid', 'large utility blade', 'OEM trapezoid blade', 'custom production trapezoid', 'trapezoid blade manufacturer'],
     },
@@ -1634,7 +1634,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Rounded tip design — safety first', 'Minimum risk of damage to underlying material', '52×19×0.6mm standard hook size', '2 notches, 3 holes configuration', 'Sheffield Durham Duplex quality'],
     applications: ['Safe package opening', 'Retail operations', 'Warehouse safety', 'Valuable product handling'],
     seo: {
-      title: 'Rounded Tip Hook Blade 52×19mm | Safety Hook Blade | Alya Blade',
+      title: 'Rounded Tip Hook Blade 52×19mm | Alya Blade',
       description: 'Rounded tip hook blade. 52×19×0.6mm, safe package opening. No damage to underlying material. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['rounded tip hook blade', 'safety hook blade', 'rounded hook', 'safe package opening blade', 'damage-free cutting blade'],
     },
@@ -1652,7 +1652,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['IF-1: 80×13×0.71mm — single-sided', 'IF-2: 87×10×0.71mm — double-sided', 'IF-2R: 87×10×0.71mm — double-sided, round holes', '0.71mm thickness — no flex in fabric cutting', 'Special textile industry profile', 'Sheffield Durham Duplex quality'],
     applications: ['Fabric cutting', 'Garment production', 'Bale opening', 'Yarn & fibre cutting'],
     seo: {
-      title: 'IF Hook Blade Textile IF-1 IF-2 | Textile Hook Blade | Alya Blade',
+      title: 'IF Hook Blade Textile IF-1 IF-2 | Alya Blade',
       description: 'IF series textile hook blade. IF-1: 80×13mm single-sided, IF-2: 87×10mm double-sided. Fabric and textile cutting. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['IF hook blade', 'textile hook blade', 'fabric cutting blade', 'IF-1 blade', 'IF-2 blade', 'garment blade', 'textile cutter blade'],
     },
@@ -1675,7 +1675,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Single-sided edge — controlled cutting direction', '59×19×0.6mm size', 'Carbon, TiN coated, stainless variants', '2 notches, 3 holes configuration', 'Sheffield Durham Duplex quality'],
     applications: ['Controlled cutting', 'Precision packaging', 'Film stripping', 'Industrial production lines'],
     seo: {
-      title: 'B209 Single-Sided Hook Blade 59×19mm | One Side Hook Blade | Alya Blade',
+      title: 'B209 Single-Sided Hook Blade 59×19mm | Alya Blade',
       description: 'B209 single-sided hook blade. 59×19×0.6mm, carbon/TiN/stainless. Controlled directional cutting. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['single-sided hook blade', 'B209', 'one side hook blade', 'controlled cutting blade', 'stainless hook blade', 'directional hook blade'],
     },
@@ -1701,7 +1701,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['90×39.5/20×0.80mm — largest model in the family', '0.80mm thickness — heavy duty', '1-hole simple mount', 'Large body for maximum control', 'Sheffield Durham Duplex quality'],
     applications: ['Heavy duty textile', 'Bale opening', 'Rope & strap cutting', 'Industrial operations'],
     seo: {
-      title: 'Hook Blade HOB-1 Large 90×39.5mm | Large Hook Blade | Alya Blade',
+      title: 'Hook Blade HOB-1 Large 90×39.5mm | Alya Blade',
       description: 'HOB-1 large hook blade. 90×39.5/20×0.80mm, heavy duty. Textile, bale opening, rope cutting. Sheffield Durham Duplex. Authorized distributor.',
       keywords: ['HOB-1 hook blade', 'large hook blade', '90mm hook blade', 'heavy duty hook', 'bale cutting blade', 'textile hook blade'],
     },
@@ -1741,7 +1741,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Office and stationery use'
     ],
     seo: {
-      title: 'B122 9mm Segmented Snap-Off Blade | OLFA Compatible | Alya Blade',
+      title: 'B122 9mm Segmented Snap-Off Blade | Alya Blade',
       description: 'B122 9mm snap-off blade, SK5 carbon steel, HRC 58-62. 9 variants: standard, stainless, TiN-coated, 30° acute. OLFA AB-10/ABB-50/SAB-10 compatible. Sheffield quality.',
       keywords: ['9mm snap-off blade', 'B122', 'segmented utility blade', 'OLFA AB-10 blade', 'OLFA compatible blade 9mm', 'snap-off cutter blade', 'TiN coated snap-off', '30 degree blade', 'Sheffield snap-off blade', 'wholesale utility blades'],
     },
@@ -1784,7 +1784,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Office and stationery use'
     ],
     seo: {
-      title: 'B124 9mm Non-Segmented Utility Blade | Continuous Edge | Alya Blade',
+      title: 'B124 9mm Non-Segmented Utility Blade | Alya Blade',
       description: 'B124 9mm non-segmented blade, SK5 carbon steel, HRC 58-62. Continuous edge for vibration-free precision cutting. Sheffield quality. Authorized distributor.',
       keywords: ['9mm non-segmented blade', 'B124', 'continuous edge utility blade', 'non-snap blade 9mm', 'precision utility blade', 'Sheffield blade'],
     },
@@ -1824,7 +1824,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Warehouse and logistics operations'
     ],
     seo: {
-      title: 'B121 18mm Segmented Snap-Off Blade | OLFA LB Compatible | Alya Blade',
+      title: 'B121 18mm Segmented Snap-Off Blade | Alya Blade',
       description: 'B121 18mm snap-off blade, SK5 carbon steel, HRC 58-62. 7 variants: standard, thin, TiN-coated, OLFA LB-10/LBB-50/LBD-50 compatible. Heavy-duty industrial cutting.',
       keywords: ['18mm snap-off blade', 'B121', 'heavy duty snap-off blade', 'OLFA LB-10 blade', 'OLFA compatible blade 18mm', 'wide snap-off blade', 'TiN coated 18mm blade', 'industrial snap-off blade', 'Sheffield snap-off', 'wholesale snap-off blades'],
     },
@@ -1866,7 +1866,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Packaging industry'
     ],
     seo: {
-      title: 'B123 18mm Non-Segmented Utility Blade | Continuous Edge | Alya Blade',
+      title: 'B123 18mm Non-Segmented Utility Blade | Alya Blade',
       description: 'B123 18mm non-segmented blade, SK5 carbon steel, HRC 58-62. 4 variants: standard, thin, TiN-coated, OLFA LSOL-10 compatible. Heavy-duty industrial cutting.',
       keywords: ['18mm non-segmented blade', 'B123', 'continuous edge 18mm blade', 'non-snap blade 18mm', 'heavy duty utility blade', 'OLFA LSOL-10 blade', 'Sheffield utility blade'],
     },
@@ -1903,7 +1903,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Cable trunking cutting'
     ],
     seo: {
-      title: 'B123-018 Short 18mm Non-Segmented Blade | Compact Utility Blade | Alya Blade',
+      title: 'B123-018 Short 18mm Non-Segmented Blade | Alya Blade',
       description: 'B123-018 short 18mm non-segmented blade, 60mm compact length, SK5 carbon steel, HRC 58-62. Confined space cutting. Sheffield quality. Authorized distributor.',
       keywords: ['short utility blade', 'B123-018', 'compact snap-off blade', '60mm utility blade', 'short non-segmented blade', 'confined space blade'],
     },
@@ -1936,7 +1936,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Cardboard and packaging cutting'
     ],
     seo: {
-      title: 'B096 12mm Oval Slot Utility Blade | Non-Segmented | Alya Blade',
+      title: 'B096 12mm Oval Slot Utility Blade | Alya Blade',
       description: 'B096 12mm non-segmented blade with oval mounting slot, SK5 carbon steel, HRC 58-62. For special-type utility knives. Sheffield quality. Authorized distributor.',
       keywords: ['12mm oval slot blade', 'B096', 'oval slot utility blade', 'special mount blade', 'non-segmented 12mm blade', 'Sheffield blade'],
     },
@@ -1970,7 +1970,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Vinyl and film application'
     ],
     seo: {
-      title: 'OLFA MTB 12.5mm Snap-Off Blade | MTB-10 FWB-10 Compatible | Alya Blade',
+      title: 'OLFA MTB 12.5mm Snap-Off Blade | Alya Blade',
       description: 'OLFA MTB-10 and FWB-10 compatible 12.5mm snap-off blade, SK5 carbon steel. Standard 0.45mm and ultra-thin 0.25mm variants. Sheffield quality.',
       keywords: ['OLFA MTB blade', 'OLFA MTB-10', 'OLFA FWB-10', '12.5mm snap-off blade', 'OLFA replacement blade', 'OLFA compatible blade', 'medium snap-off blade'],
     },
@@ -2006,7 +2006,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Construction and renovation'
     ],
     seo: {
-      title: 'LWB 18mm Serrated Edge Blade | Insulation Cutting | Alya Blade',
+      title: 'LWB 18mm Serrated Edge Blade | Alya Blade',
       description: 'LWB 18mm serrated edge blade, SK5 carbon steel. OLFA LWB-3B compatible. Glass wool, fibreglass, polystyrene insulation cutting. Sheffield quality.',
       keywords: ['serrated utility blade', 'LWB blade', 'OLFA LWB-3B', 'insulation cutting blade', 'saw-tooth blade 18mm', 'glass wool cutting blade', 'fibreglass cutting blade', 'serrated snap-off blade'],
     },
@@ -2044,7 +2044,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Industrial packaging'
     ],
     seo: {
-      title: 'B126 25mm Segmented Snap-Off Blade | OLFA HB Compatible | Alya Blade',
+      title: 'B126 25mm Segmented Snap-Off Blade | Alya Blade',
       description: 'B126 25mm snap-off blade, SK5 carbon steel, 0.70mm thick, HRC 58-62. 3 variants: standard, OLFA HB-20, HBB-5B extra-sharp. Heavy-duty industrial cutting.',
       keywords: ['25mm snap-off blade', 'B126', 'extra wide utility blade', 'OLFA HB-20 blade', 'OLFA HBB-5B blade', '0.70mm snap-off blade', 'heavy duty snap-off', 'drywall blade', 'wide utility blade'],
     },
@@ -2080,7 +2080,7 @@ export const productsEn: Record<string, ProductTranslation> = {
       'Leather and thick textile'
     ],
     seo: {
-      title: 'B125 25mm Non-Segmented Utility Blade | Continuous Edge | Alya Blade',
+      title: 'B125 25mm Non-Segmented Utility Blade | Alya Blade',
       description: 'B125 25mm non-segmented blade, SK5 carbon steel, 0.70mm thick, HRC 58-62. Continuous edge for heavy-duty industrial cutting. Sheffield quality. Authorized distributor.',
       keywords: ['25mm non-segmented blade', 'B125', 'extra wide continuous blade', 'non-snap 25mm blade', 'heavy duty utility blade', 'Sheffield blade'],
     },
@@ -2209,7 +2209,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Sheffield high-carbon steel', 'HRC 58-60 hardness', 'Food-grade Ra ≤0.4 µm surface', 'HACCP & BRC compliant', 'CNC precision machined', '10+ machine brand compatibility'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'MAP (Modified Atmosphere) packaging', 'Food industry — meat, cheese, ready meals', 'Medical device packaging'],
     seo: {
-      title: 'Vacuum Packaging Blade | Thermoform Machine Knife | Sheffield Steel',
+      title: 'Vacuum Packaging Blade | Alya Blade',
       description: 'Professional vacuum packaging blade for thermoform and MAP machines. Sheffield steel HRC 58-60, food-grade Ra ≤0.4 µm. Compatible with Multivac, Tiromat, GEA, Ulma, Sealpac. ISO 9001 certified manufacturer.',
       keywords: ['vacuum packaging blade', 'thermoform blade', 'thermoform machine knife', 'vacuum packaging machine knife', 'MAP packaging blade', 'Multivac blade', 'Tiromat blade', 'GEA blade', 'Sealpac blade', 'food packaging knife', 'packaging machine blade', 'thermoform cutting blade', 'vacuum sealer blade', 'industrial packaging blade'],
     },
@@ -2240,7 +2240,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Contour design', 'Sheffield steel', 'Food industry approved', 'Clean and precise cuts', 'Titanium coating option'],
     applications: ['Vacuum packaging', 'Thermoforming', 'Food packaging', 'Meat and cheese packaging', 'Industrial packaging'],
     seo: {
-      title: 'Contour Blade Thermoform | Multivac Tiromat Vacuum Packaging Blade',
+      title: 'Contour Blade Thermoform | Alya Blade',
       description: 'Contour blades for thermoform vacuum packaging. Multivac, Tiromat, Opack, GEA, Ulma compatible. Sheffield steel, food-grade, titanium coating option.',
       keywords: ['contour blade', 'contour blade', 'thermoform blade', 'vacuum packaging blade', 'multivac blade', 'tiromat blade', 'tiromat contour', 'opack blade', 'betapak blade', 'gea blade', 'alcan blade', 'ulma blade', 'variovac blade', 'food packaging blade', 'thermoform blade', 'thermoform cutting blade', 'vacuum packaging knife', 'MAP packaging blade']
     },
@@ -2262,7 +2262,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Half star geometry', 'D2 Tool Steel', 'High wear resistance', 'Titanium coating option', 'Precision punching', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry punching', 'Meat and cheese packaging', 'Industrial packaging'],
     seo: {
-      title: 'Half Star Punch Blade | Vacuum Packaging Triangle Punch D2 Steel',
+      title: 'Half Star Punch Blade | Alya Blade',
       description: 'Half star triangle punch blades for vacuum packaging. D2 tool steel, Multivac, Tiromat, GEA compatible. Titanium coating option for extended life.',
       keywords: ['half star punch', 'triangle punch blade', 'vacuum packaging punch', 'thermoform punch', 'D2 tool steel punch', 'multivac punch', 'tiromat punch', 'food industry punch', 'meat packaging punch', 'cheese packaging punch', 'titanium coated punch', 'precision punch blade']
     },
@@ -2326,7 +2326,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Circular geometry', 'Sheffield steel', 'Rotary cutting compatible', 'Precision cutting', 'Long-lasting', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Rotary cutting', 'Food industry', 'Industrial packaging'],
     seo: {
-      title: 'Circular Rotary Blade | Vacuum Packaging Thermoform Round Blade',
+      title: 'Circular Rotary Blade | Alya Blade',
       description: 'Circular rotary blades for vacuum packaging. Sheffield steel, Multivac, Tiromat, GEA compatible. Precision rotary cutting for food industry.',
       keywords: ['circular blade', 'rotary blade', 'round blade', 'vacuum packaging rotary', 'thermoform rotary', 'sheffield rotary blade', 'multivac circular', 'tiromat circular', 'food industry rotary', 'precision rotary blade', 'industrial circular blade']
     },
@@ -2347,7 +2347,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Round geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
     seo: {
-      title: 'Round Air Punch Blade 440C | Vacuum Packaging Ventilation Hole',
+      title: 'Round Air Punch Blade 440C | Alya Blade',
       description: 'Round air punch blades for vacuum packaging ventilation. 440C stainless steel, Multivac, Tiromat, GEA compatible. Food-grade corrosion resistant.',
       keywords: ['round air punch', 'air hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'multivac air punch', 'tiromat air punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
     },
@@ -2368,7 +2368,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Oval geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
     seo: {
-      title: 'Oval Air Punch Blade 440C | Vacuum Packaging Ventilation Hole',
+      title: 'Oval Air Punch Blade 440C | Alya Blade',
       description: 'Oval air punch blades for vacuum packaging ventilation. 440C stainless steel, Multivac, Tiromat, GEA compatible. Food-grade corrosion resistant.',
       keywords: ['oval air punch', 'oval hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'multivac oval punch', 'tiromat oval punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
     },
@@ -2389,7 +2389,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Saw-tooth edge', 'Sheffield steel', 'Ideal for tough materials', 'Anti-slip cutting', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Tough film cutting', 'Food industry', 'Industrial packaging'],
     seo: {
-      title: 'Serrated Saw-Tooth Blade | Vacuum Packaging Tough Material Blade',
+      title: 'Serrated Saw-Tooth Blade | Alya Blade',
       description: 'Serrated saw-tooth blades for vacuum packaging. Sheffield steel, Multivac, Tiromat, GEA compatible. Anti-slip cutting for tough materials.',
       keywords: ['serrated blade', 'saw-tooth blade', 'vacuum packaging serrated', 'thermoform serrated', 'sheffield serrated blade', 'multivac serrated', 'tiromat serrated', 'tough material blade', 'anti-slip blade', 'food industry serrated', 'industrial serrated blade']
     },
@@ -2993,7 +2993,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['High carbon content (0.85-1.00%)', 'Martensitic microstructure', 'Optimum 22° edge angle', 'Precision heat treatment process', 'Industrial-grade durability', '3-5x longer life than razor blades'],
     applications: ['Textile cutting', 'Film and foil slitting', 'Paper cutting', 'Plastic slitting', 'Packaging cutting'],
     seo: {
-      title: '3-Hole Slitting Blade Carbon Steel 43x22mm | Industrial Razor Blade',
+      title: '3-Hole Slitting Blade Carbon Steel 43x22mm | Alya Blade',
       description: 'High carbon 3-hole slitting blade for BOPP film, textile, and packaging. SK5 steel, 22° edge angle, 3-5x longer life than razor blades. Sheffield quality.',
       keywords: ['3 hole blade', '3 hole slitting blade', 'carbon steel blade', 'industrial blade', 'industrial blade', 'slitting blade', 'slitting blade', 'three hole blade', '43x22 blade', '43x22mm blade', '43x22x0.10mm', '43x22x0.15mm', '43x22x0.20mm', '43x22x0.30mm', '43x22x0.40mm', 'textile blade', 'film cutting blade', 'paper cutting blade', 'packaging blade', 'high carbon blade', 'SK5 blade', 'industrial blade', 'professional blade', 'long lasting blade', 'sharp blade', 'slitter blade']
     },
@@ -3004,7 +3004,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['TiN coating (2300 HV)', 'PVD application method', '40% reduced friction', 'Increased heat resistance', '2-3x longer life', 'Ideal for adhesive materials'],
     applications: ['Adhesive tape cutting', 'Lamination slitting', 'Heat-sensitive film cutting', 'Label cutting', 'Protective film slitting'],
     seo: {
-      title: '3-Hole Blade TiN Titanium Coating | Gold Industrial Slitting Blade',
+      title: '3-Hole Blade TiN Titanium Coating | Alya Blade',
       description: 'TiN titanium coated 3-hole slitting blade, 2300 HV. 40% lower friction for adhesive tape, lamination, and heat-sensitive film cutting.',
       keywords: ['3 hole blade titanium', '3 hole slitting blade TiN', 'titanium coated blade', 'TiN coating blade', 'PVD coating blade', 'gold blade', 'adhesive tape blade', 'lamination blade', '43x22 titanium blade', 'film slitting blade', 'label cutting blade', 'industrial titanium blade', 'professional coated blade', 'long lasting titanium', 'slitting blade TiN']
     },
@@ -3015,7 +3015,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Superior coating adhesion', 'Stainless substrate', 'Corrosion resistance', 'Humid environment compatible', 'Food sector safe', 'Long-lasting coating'],
     applications: ['Food packaging cutting', 'Humid environment applications', 'Hygienic cutting requirements', 'Lamination cutting', 'Film slitting'],
     seo: {
-      title: '3-Hole Blade Stainless + Titanium | FDA Safe Food Industry Blade',
+      title: '3-Hole Blade Stainless + Titanium | Alya Blade',
       description: '3-hole stainless steel + TiN coated blade with superior coating adhesion. Corrosion resistant for food packaging, pharmaceutical, and humid environment applications.',
       keywords: ['3 hole blade stainless titanium', 'stainless titanium coating blade', 'stainless TiN blade', 'food packaging blade', 'hygienic blade', 'FDA compliant blade', 'corrosion resistant blade', 'humid environment blade', '43x22 stainless TiN', 'food industry blade', 'pharmaceutical blade', 'dual protection blade']
     },
@@ -3026,7 +3026,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Center-splittable design', 'Laser score line', 'Half-length usage option', 'Stainless + TiN coating', 'Economical usage', 'Dual machine compatible'],
     applications: ['Half-blade textile machines', 'Narrow cut applications', 'Multi-station systems', 'Packaging machines'],
     seo: {
-      title: '3-Hole Blade Scored Splittable | Half-Blade Economical Design',
+      title: '3-Hole Blade Scored Splittable | Alya Blade',
       description: '3-hole scored blade for splitting into halves. Laser etched center line, stainless + TiN coating. Economical for multi-station systems and textile machines.',
       keywords: ['3 hole blade scored', 'splittable blade', 'half blade', 'scored slitting blade', 'center score blade', 'economical blade', 'dual station blade', 'textile half blade', 'multi machine blade', 'stainless TiN scored', 'laser scored blade', 'breakable blade']
     },
@@ -3037,7 +3037,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Advanced ceramic coating (3200+ HV)', '800°C temperature resistance', '50-60% friction reduction', 'High-speed compatible', 'Oxidation resistance', 'Superior performance'],
     applications: ['High-speed slitting', 'Heat-sensitive materials', 'Friction-critical applications', 'Extended cutting operations', 'Abrasive material cutting'],
     seo: {
-      title: '3-Hole Blade Ceramic Coating 3200 HV | High-Speed Heat Resistant',
+      title: '3-Hole Blade Ceramic Coating 3200 HV | Alya Blade',
       description: '3-hole ceramic coated blade, 3200+ HV, 800°C resistance. 50-60% lower friction for high-speed slitting and abrasive material cutting.',
       keywords: ['3 hole blade ceramic', 'ceramic coated blade', 'high temperature blade', '800 degree blade', 'high speed blade', 'abrasive material blade', 'low friction blade', '3200 HV blade', 'oxidation resistant blade', 'heat resistant blade', 'industrial ceramic blade', 'advanced coating blade']
     },
@@ -3059,7 +3059,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Solid ceramic structure', 'Near-zero friction', 'Minimal heat generation', 'Chemically inert', 'HV 1200-1400 hardness', 'No metal contamination'],
     applications: ['Extremely heat-sensitive films', 'Food sector (metal detector compatible)', 'Reactive chemical materials', 'Clean room applications', 'Electronic component cutting'],
     seo: {
-      title: '3-Hole Blade Zirconia Ceramic | Metal-Free Food Industry Blade',
+      title: '3-Hole Blade Zirconia Ceramic | Alya Blade',
       description: 'Solid zirconia ceramic 3-hole blade, HV 1200-1400, metal-free. Near-zero friction for food industry, cleanroom, and electronic component cutting.',
       keywords: ['3 hole blade ceramic', 'zirconia blade', 'solid ceramic blade', 'metal-free blade', 'food industry blade', 'cleanroom blade', 'electronic blade', 'chemical inert blade', 'heat sensitive blade', 'zero friction blade', 'non-conductive blade', 'biocompatible blade']
     },
@@ -3081,7 +3081,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     features: ['Round edge + TiN coating', 'Stainless substrate', 'Corrosion resistance', 'Low friction', 'Razor blade ergonomics', 'Premium combination'],
     applications: ['Humid environment applications', 'Food sector transition users', 'Adhesive material cutting', 'Ergonomics-priority operations'],
     seo: {
-      title: '3-Hole Blade Round Edge Stainless TiN | Premium Ergonomic Blade',
+      title: '3-Hole Blade Round Edge Stainless TiN | Alya Blade',
       description: '3-hole round edge blade with stainless + TiN coating. Premium ergonomic design for food sector, humid environments, and adhesive material cutting.',
       keywords: ['3 hole blade round edge TiN', 'round edge stainless blade', 'ergonomic TiN blade', 'food sector blade', 'humid environment blade', 'premium round edge', 'transition blade', 'corrosion resistant round', 'low friction round blade']
     },
@@ -3145,7 +3145,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B301 is a <strong>No.10 scalpel blade</strong> measuring 41×8.3×0.40mm, the most universally used surgical blade profile in the world. The curved cutting edge with unsharpened back edge is designed for making incisions in skin and muscle tissue.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.10</li><li>Dimensions: 41×8.3×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #3 compatible (Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>General surgery, abdominal operations, histology, pathology, autopsy, and industrial precision cutting. Swann Morton compatible form factor.</p>`,
     seo: {
-      title: 'Scalpel Blade No.10 (B301) 41×8.3mm Carbon Steel | Surgical Blade #3 Handle',
+      title: 'Scalpel Blade No.10 (B301) 41×8.3mm Carbon | Alya Blade',
       description: 'No.10 scalpel blade 41×8.3×0.40mm carbon steel, #3 handle compatible. BS 2982, ISO 7740. 100 pcs/box. For surgery, histology, pathology. Swann Morton compatible.',
       keywords: ['scalpel blade no 10', 'surgical blade no 10', 'carbon steel scalpel', '#10 blade', 'scalpel blade #3 handle', 'BS 2982 blade', 'ISO 7740', 'Swann Morton compatible', 'histology blade', 'pathology blade', 'autopsy blade', 'non sterile scalpel', 'surgical blade supplier', 'B301 scalpel', 'disposable scalpel blade'],
     },
@@ -3172,7 +3172,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B302 is a <strong>No.10A scalpel blade</strong> measuring 40×7.8×0.40mm. The flat, wide-bellied profile is the straight version of the classic No.10, offering a broader cutting surface for flat-plane incisions.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.10A</li><li>Dimensions: 40×7.8×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #3 compatible (Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Dermatology, plastic surgery, tissue sectioning, laboratory dissection, and industrial applications requiring flat-plane precision cuts.</p>`,
     seo: {
-      title: 'Scalpel Blade No.10A (B302) 40×7.8mm Carbon Steel | Flat Surgical Blade',
+      title: 'Scalpel Blade No.10A (B302) 40×7.8mm Carbon | Alya Blade',
       description: 'No.10A scalpel blade 40×7.8×0.40mm, flat wide-bellied profile. Carbon steel, #3 handle. Dermatology, plastic surgery, tissue cutting. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 10A', 'surgical blade no 10A', '#10A blade', 'flat scalpel blade', 'dermatology blade', 'plastic surgery blade', 'tissue cutting blade', 'Swann Morton 10A', 'B302 scalpel', 'wide belly scalpel', 'non sterile scalpel 10A'],
     },
@@ -3199,7 +3199,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B303 is a <strong>No.11 scalpel blade</strong> measuring 41×6.5×0.40mm. The triangular profile with sharp pointed tip and flat cutting edge parallel to the handle makes it ideal for precision stab incisions and puncture cuts.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.11</li><li>Dimensions: 41×6.5×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #3 compatible (Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Precision stab incisions, fine puncture work, stencil cutting, electronic component trimming, and laboratory dissection requiring sharp-angle cuts.</p>`,
     seo: {
-      title: 'Scalpel Blade No.11 (B303) 41×6.5mm Carbon Steel | Pointed Surgical Blade',
+      title: 'Scalpel Blade No.11 (B303) 41×6.5mm Carbon | Alya Blade',
       description: 'No.11 scalpel blade 41×6.5×0.40mm, triangular sharp tip. Carbon steel, #3 handle. Stab incisions, stencil cutting, laboratory. 100 pcs/box. BS 2982, ISO 7740.',
       keywords: ['scalpel blade no 11', 'surgical blade no 11', '#11 pointed blade', 'triangular scalpel', 'stab incision blade', 'stencil cutting blade', 'precision scalpel', 'Swann Morton 11', 'B303 scalpel', 'pointed surgical blade', 'laboratory scalpel 11'],
     },
@@ -3226,7 +3226,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B304 is a <strong>No.12 scalpel blade</strong> measuring 37×11×0.40mm. The small crescent/hook-shaped blade with inside edge sharpening is specifically designed for curved incisions in delicate surgical fields.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.12</li><li>Dimensions: 37×11×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #3 compatible (Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Ophthalmology, ENT surgery, dental procedures, and laboratory applications requiring curved inside-edge incisions.</p>`,
     seo: {
-      title: 'Scalpel Blade No.12 (B304) 37×11mm Carbon Steel | Hook Shaped Surgical Blade',
+      title: 'Scalpel Blade No.12 (B304) 37×11mm Carbon Steel | Alya Blade',
       description: 'No.12 scalpel blade 37×11×0.40mm, crescent hook shape. Carbon steel, #3 handle. Ophthalmology, ENT, dental surgery. 100 pcs/box. BS 2982, ISO 7740.',
       keywords: ['scalpel blade no 12', 'surgical blade no 12', '#12 hook blade', 'crescent scalpel', 'ophthalmology blade', 'ENT blade', 'dental surgery blade', 'Swann Morton 12', 'B304 scalpel', 'curved surgical blade', 'hook shaped blade'],
     },
@@ -3253,7 +3253,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B305 is a <strong>No.15 scalpel blade</strong> measuring 37×6×0.40mm, the most popular scalpel blade for fine dissection worldwide. As a smaller version of the No.10, it provides superior control for delicate tissue cutting.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.15</li><li>Dimensions: 37×6×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #3 compatible (Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Fine dissection, dermatological procedures, micro surgery, histology, pathology laboratory, and any application requiring precise, controlled incisions in delicate tissue.</p>`,
     seo: {
-      title: 'Scalpel Blade No.15 (B305) 37×6mm Carbon Steel | Fine Dissection Blade',
+      title: 'Scalpel Blade No.15 (B305) 37×6mm Carbon Steel | Alya Blade',
       description: 'No.15 scalpel blade 37×6×0.40mm — the most popular fine dissection blade. Carbon steel, #3 handle. Dermatology, micro surgery, histology. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 15', 'surgical blade no 15', '#15 blade', 'fine dissection blade', 'dermatology scalpel', 'micro surgery blade', 'histology blade', 'Swann Morton 15', 'B305 scalpel', 'small scalpel blade', 'precision surgical blade'],
     },
@@ -3280,7 +3280,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B306 is a <strong>No.20 scalpel blade</strong> measuring 45×9×0.40mm, the larger version of the classic No.10 designed for #4 handle use. The curved cutting edge with flat unsharpened back edge is standard for general and orthopaedic surgery on larger tissue areas.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.20</li><li>Dimensions: 45×9×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>General surgery, orthopaedic procedures, veterinary medicine, and industrial precision cutting requiring larger blade format.</p>`,
     seo: {
-      title: 'Scalpel Blade No.20 (B306) 45×9mm Carbon Steel | Large Surgical Blade #4 Handle',
+      title: 'Scalpel Blade No.20 (B306) 45×9mm Carbon Steel | Alya Blade',
       description: 'No.20 scalpel blade 45×9×0.40mm, large curved edge. Carbon steel, #4 handle. General surgery, orthopaedics, veterinary. 100 pcs/box. BS 2982, ISO 7740.',
       keywords: ['scalpel blade no 20', 'surgical blade no 20', '#20 blade', 'large scalpel blade', '#4 handle blade', 'orthopaedic blade', 'general surgery blade', 'Swann Morton 20', 'B306 scalpel', 'veterinary scalpel', 'large surgical blade'],
     },
@@ -3307,7 +3307,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B307 is a <strong>No.21 scalpel blade</strong> measuring 53×10×0.40mm. The large triangular profile with wide cutting surface provides extended cutting capability for general surgery on larger tissue areas.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.21</li><li>Dimensions: 53×10×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Wide-area surgery, large tissue incisions, autopsy, veterinary medicine, and industrial applications requiring extended cutting surface.</p>`,
     seo: {
-      title: 'Scalpel Blade No.21 (B307) 53×10mm Carbon Steel | Large Triangular Blade',
+      title: 'Scalpel Blade No.21 (B307) 53×10mm Carbon Steel | Alya Blade',
       description: 'No.21 scalpel blade 53×10×0.40mm, large triangular profile. Carbon steel, #4 handle. General surgery, autopsy, veterinary. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 21', 'surgical blade no 21', '#21 blade', 'large triangular scalpel', '#4 handle scalpel', 'autopsy blade', 'veterinary blade', 'Swann Morton 21', 'B307 scalpel', 'wide area surgical blade'],
     },
@@ -3334,7 +3334,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B308 is a <strong>No.22 scalpel blade</strong> measuring 58×11.4×0.40mm, a slightly larger version of the No.20 designed for cardiac and thoracic surgical procedures. The curved cutting edge with flat unsharpened back provides long, controlled cutting capability.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.22</li><li>Dimensions: 58×11.4×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Cardiac surgery (skin incisions), thoracic surgery (bronchus cutting in lung resection), general surgery, and veterinary medicine.</p>`,
     seo: {
-      title: 'Scalpel Blade No.22 (B308) 58×11.4mm Carbon Steel | Cardiac Surgery Blade',
+      title: 'Scalpel Blade No.22 (B308) 58×11.4mm Carbon | Alya Blade',
       description: 'No.22 scalpel blade 58×11.4×0.40mm for cardiac and thoracic surgery. Carbon steel, #4 handle. Lung resection, skin incisions. 100 pcs/box. BS 2982, ISO 7740.',
       keywords: ['scalpel blade no 22', 'surgical blade no 22', '#22 blade', 'cardiac surgery blade', 'thoracic blade', 'lung resection blade', '#4 handle scalpel', 'Swann Morton 22', 'B308 scalpel', 'large curved surgical blade'],
     },
@@ -3361,7 +3361,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B309 is a <strong>No.23 scalpel blade</strong> measuring 51.5×10×4×0.40mm. The leaf-shaped profile, similar to No.22 but with a distinctive form, is specifically designed for long incisions requiring continuous cutting capability.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.23</li><li>Dimensions: 51.5×10×4×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Long surgical incisions, general surgery, plastic surgery, veterinary medicine, and industrial precision cutting.</p>`,
     seo: {
-      title: 'Scalpel Blade No.23 (B309) 51.5×10mm Carbon Steel | Leaf-Shaped Surgical Blade',
+      title: 'Scalpel Blade No.23 (B309) 51.5×10mm Carbon | Alya Blade',
       description: 'No.23 scalpel blade 51.5×10×4×0.40mm, leaf-shaped for long incisions. Carbon steel, #4 handle. General surgery, plastic surgery. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 23', 'surgical blade no 23', '#23 blade', 'leaf shaped scalpel', 'long incision blade', '#4 handle scalpel', 'Swann Morton 23', 'B309 scalpel', 'general surgery blade 23'],
     },
@@ -3388,7 +3388,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B310 is a <strong>No.24 scalpel blade</strong> measuring 56×11.5×0.40mm. The wide, flat blade with angled cutting edge is specifically designed for corner cuts, trimming, stripping, and cutting mats and gaskets.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.24</li><li>Dimensions: 56×11.5×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Corner cuts, trimming, stripping, mat and gasket cutting, and laboratory applications requiring angled cutting operations.</p>`,
     seo: {
-      title: 'Scalpel Blade No.24 (B310) 56×11.5mm Carbon Steel | Angled Cutting Blade',
+      title: 'Scalpel Blade No.24 (B310) 56×11.5mm Carbon | Alya Blade',
       description: 'No.24 scalpel blade 56×11.5×0.40mm, wide flat angled edge. Carbon steel, #4 handle. Corner cuts, trimming, gasket cutting. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 24', 'surgical blade no 24', '#24 blade', 'angled scalpel blade', 'trimming blade', 'gasket cutting blade', 'mat cutting blade', 'Swann Morton 24', 'B310 scalpel', 'corner cutting blade'],
     },
@@ -3415,7 +3415,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B311 is a <strong>No.25 scalpel blade</strong> measuring 56×11.5×0.40mm. The front-facing straight blade with flat back profile provides a versatile multi-purpose cutting tool for both surgical and laboratory applications.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.25</li><li>Dimensions: 56×11.5×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>General surgery, laboratory dissection, histology, pathology, and industrial cutting requiring straight-edge precision.</p>`,
     seo: {
-      title: 'Scalpel Blade No.25 (B311) 56×11.5mm Carbon Steel | Straight Surgical Blade',
+      title: 'Scalpel Blade No.25 (B311) 56×11.5mm Carbon | Alya Blade',
       description: 'No.25 scalpel blade 56×11.5×0.40mm, front-facing straight blade. Carbon steel, #4 handle. General surgery, histology, laboratory. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 25', 'surgical blade no 25', '#25 blade', 'straight scalpel blade', 'general purpose scalpel', 'laboratory blade', 'histology blade 25', 'Swann Morton 25', 'B311 scalpel', 'front facing scalpel blade'],
     },
@@ -3442,7 +3442,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B312 is a <strong>No.26 scalpel blade</strong> measuring 57×10×0.40mm. The triangular straight blade with flat back edge taking a downwards angle is specifically designed for trimming and fine detail work.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.26</li><li>Dimensions: 57×10×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>Trimming, fine detail cutting, histopathology, laboratory dissection, and industrial precision cutting requiring controlled angled cuts.</p>`,
     seo: {
-      title: 'Scalpel Blade No.26 (B312) 57×10mm Carbon Steel | Detail Trimming Blade',
+      title: 'Scalpel Blade No.26 (B312) 57×10mm Carbon Steel | Alya Blade',
       description: 'No.26 scalpel blade 57×10×0.40mm, triangular downward-angle profile. Carbon steel, #4 handle. Trimming, histopathology, detail cutting. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 26', 'surgical blade no 26', '#26 blade', 'triangular scalpel', 'trimming blade 26', 'detail cutting blade', 'histopathology blade', 'Swann Morton 26', 'B312 scalpel', 'angled surgical blade'],
     },
@@ -3469,7 +3469,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B313 is a <strong>No.27 scalpel blade</strong> measuring 60×13.3×0.40mm, the widest scalpel blade in the entire series. The broad blade profile provides the maximum cutting surface area for large tissue sectioning operations.</p><h3>Technical Specifications</h3><ul><li>Blade number: No.27</li><li>Dimensions: 60×13.3×0.40mm</li><li>Material: Carbon steel, HRC 55-58</li><li>Handle: #4 compatible (large Bard-Parker fitment)</li><li>Packaging: 100 pcs/box (20×5 strips), non-sterile</li><li>Standards: BS 2982, ISO 7740</li></ul><h3>Applications</h3><p>General surgery, histology, large tissue sectioning, veterinary medicine, and industrial applications requiring the widest cutting surface.</p>`,
     seo: {
-      title: 'Scalpel Blade No.27 (B313) 60×13.3mm Carbon Steel | Broadest Surgical Blade',
+      title: 'Scalpel Blade No.27 (B313) 60×13.3mm Carbon | Alya Blade',
       description: 'No.27 scalpel blade 60×13.3×0.40mm — the widest blade in the series. Carbon steel, #4 handle. Histology, general surgery, large tissue. 100 pcs/box. BS 2982.',
       keywords: ['scalpel blade no 27', 'surgical blade no 27', '#27 blade', 'broad scalpel blade', 'histology blade 27', 'large tissue blade', 'widest scalpel', 'Swann Morton 27', 'B313 scalpel', 'specimen preparation blade'],
     },
@@ -3493,7 +3493,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B644 stainless steel fiber blade is a <strong>direct replacement blade for Mark IV chopped fiber cutting machines</strong>, measuring 74.5×15.6×0.88mm. Stainless steel construction provides corrosion resistance in humid production environments.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 74.5×15.6×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Mark IV Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines processing polyester, nylon, polypropylene, viscose, and other synthetic and natural fibers. Suitable for glass fiber and textile fiber cutting under normal production conditions.</p>`,
     seo: {
-      title: 'Fiber Blade Mark IV Stainless Steel 74.5×15.6mm | Chopped Fiber Blade',
+      title: 'Fiber Blade Mark IV Stainless Steel 74.5×15.6mm | Alya Blade',
       description: 'Stainless steel fiber blade for Mark IV fiber cutting machines. 74.5×15.6×0.88mm. Corrosion-resistant, long service life. Chopped fiber production.',
       keywords: ['fiber blade mark iv', 'chopped fiber blade', 'fiber cutting blade stainless steel', 'mark iv blade 74.5mm', 'fiber blade stainless', 'chopped fiber cutter', 'mark iv fiber cutting machine blade', 'B644 fiber blade', 'stainless steel chopped fiber', 'polyester fiber blade', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3512,7 +3512,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B644 TiN coated fiber blade is a <strong>premium replacement blade for Mark IV chopped fiber cutting machines</strong>, measuring 74.5×15.6×0.88mm. The Titanium Nitride (TiN) coating multiplies wear resistance, extending service life 2-3 times.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 74.5×15.6×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Machine Compatibility: Mark IV Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production lines, particularly for abrasive fiber types including fiberglass, aramid, and carbon fiber. The TiN coating reduces blade changes, improving line uptime.</p>`,
     seo: {
-      title: 'Fiber Blade Mark IV TiN Coated 74.5×15.6mm | Chopped Fiber Blade',
+      title: 'Fiber Blade Mark IV TiN Coated 74.5×15.6mm | Alya Blade',
       description: 'TiN coated stainless steel fiber blade for Mark IV machines. 74.5×15.6×0.88mm. 2-3x longer life. Fiberglass and abrasive fiber cutting.',
       keywords: ['fiber blade tin coated', 'tin coating fiber blade', 'mark iv fiber blade', 'chopped fiber blade tin', 'titanium nitride blade', 'abrasive fiber blade', 'B644 tin fiber blade', 'mark iv tin coated blade', 'fiberglass cutting blade tin', 'fiber blade 2x life', 'tin coated chopped fiber', 'fiber blade manufacturer'],
     },
@@ -3531,7 +3531,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B644 solid tungsten carbide fiber blade is the <strong>ultimate performance blade for Mark IV chopped fiber cutting machines</strong>, measuring 74.5×15.5×0.90mm. Solid tungsten carbide provides maximum wear resistance for the most demanding fiber cutting applications.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 74.5×15.5×0.90mm</li><li>Material: Solid Tungsten Carbide</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Mark IV Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and other highly abrasive fiber cutting. Ideal for lines where blade longevity is critical and frequent blade changes are costly.</p>`,
     seo: {
-      title: 'Fiber Blade Mark IV Tungsten Carbide 74.5×15.5mm | Chopped Fiber Blade',
+      title: 'Fiber Blade Mark IV Tungsten Carbide | Alya Blade',
       description: 'Solid tungsten carbide fiber blade for Mark IV machines. 74.5×15.5×0.90mm. Maximum wear resistance. Fiberglass, carbon fiber cutting.',
       keywords: ['tungsten carbide fiber blade', 'solid tungsten fiber blade', 'mark iv tungsten blade', 'carbide chopped fiber blade', 'fiberglass cutting blade tungsten', 'carbon fiber cutting blade', 'B644 tungsten carbide', 'mark iv carbide blade', 'solid carbide fiber blade', 'fiber blade maximum life', 'tungsten fiber cutter', 'carbide blade manufacturer'],
     },
@@ -3555,7 +3555,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B645 stainless steel fiber blade is a <strong>direct replacement blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.88mm. The longer body compared to Mark IV provides a wider cutting area for increased throughput.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines processing polyester, nylon, polypropylene, viscose, and other synthetic and natural fibers. The wider cutting area of the Mark V format makes it suitable for higher-throughput production lines.</p>`,
     seo: {
-      title: 'Fiber Blade Mark V Stainless Steel 117.5×15.6mm | Chopped Fiber Blade',
+      title: 'Fiber Blade Mark V Stainless Steel 117.5×15.6mm | Alya Blade',
       description: 'Stainless steel fiber blade for Mark V fiber cutting machines. 117.5×15.6×0.88mm. Longer body, wider cutting area. Chopped fiber production.',
       keywords: ['fiber blade mark v', 'chopped fiber blade mark v', 'fiber cutting blade 117mm', 'mark v stainless blade', 'fiber blade stainless 117', 'chopped fiber cutter', 'B645 fiber blade', 'mark v fiber cutting machine blade', 'stainless steel fiber blade 117', 'polyester fiber cutter', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3574,7 +3574,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B645 TiN coated fiber blade is a <strong>premium replacement blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.88mm. The Titanium Nitride coating multiplies wear resistance, extending service life 2-3 times.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production lines, particularly for abrasive fiber types including fiberglass, aramid, and carbon fiber. The wider cutting area of the Mark V format maximizes throughput.</p>`,
     seo: {
-      title: 'Fiber Blade Mark V TiN Coated 117.5×15.6mm | Chopped Fiber Blade',
+      title: 'Fiber Blade Mark V TiN Coated 117.5×15.6mm | Alya Blade',
       description: 'TiN coated stainless steel fiber blade for Mark V machines. 117.5×15.6×0.88mm. 2-3x longer life. Fiberglass and abrasive fibers.',
       keywords: ['fiber blade mark v tin', 'tin coated fiber blade 117mm', 'mark v chopped fiber blade', 'titanium nitride fiber blade', 'abrasive fiber blade mark v', 'B645 tin fiber blade', 'mark v tin coated blade', 'fiberglass cutting blade tin', 'fiber blade 2x life mark v', 'tin coated chopped fiber', 'fiber blade manufacturer'],
     },
@@ -3593,7 +3593,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B645 notched solid tungsten carbide fiber blade is an <strong>advanced performance blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.89mm. The notched edge structure provides enhanced fiber grip for controlled cutting, while solid tungsten carbide delivers maximum wear resistance.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.89mm</li><li>Material: Solid Tungsten Carbide</li><li>Edge Type: Notched</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and slippery fiber types where the notched edge provides better fiber grip. Ideal for high-wear production lines requiring maximum blade longevity.</p>`,
     seo: {
-      title: 'Fiber Blade Mark V Tungsten Carbide Notched 117.5×15.6mm | Chopped Fiber',
+      title: 'Fiber Blade Mark V Tungsten Carbide Notched | Alya Blade',
       description: 'Notched solid tungsten carbide fiber blade for Mark V machines. 117.5×15.6×0.89mm. Controlled cutting with notched edge. Fiberglass, carbon fiber.',
       keywords: ['tungsten carbide fiber blade notched', 'mark v tungsten blade', 'notched fiber blade', 'carbide chopped fiber blade', 'fiberglass cutting blade notched', 'B645 tungsten notched', 'mark v carbide blade notched', 'notched edge fiber cutter', 'solid carbide fiber blade', 'tungsten fiber blade manufacturer'],
     },
@@ -3612,7 +3612,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B645 plain solid tungsten carbide fiber blade is an <strong>advanced performance blade for Mark V chopped fiber cutting machines</strong>, measuring 117.5×15.6×0.91mm. The plain smooth edge provides clean, burr-free cutting while solid tungsten carbide delivers maximum wear resistance.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 117.5×15.6×0.91mm</li><li>Material: Solid Tungsten Carbide</li><li>Edge Type: Plain (Smooth)</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Mark V Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, and precision fiber cutting where uniform cut quality is essential. The plain edge provides cleaner cuts than the notched variant, suitable for applications demanding tight fiber length tolerances.</p>`,
     seo: {
-      title: 'Fiber Blade Mark V Tungsten Carbide Plain 117.5×15.6mm | Chopped Fiber',
+      title: 'Fiber Blade Mark V Tungsten Carbide Plain | Alya Blade',
       description: 'Plain solid tungsten carbide fiber blade for Mark V machines. 117.5×15.6×0.91mm. Clean cutting with smooth edge. Fiberglass, carbon fiber.',
       keywords: ['tungsten carbide fiber blade plain', 'mark v tungsten blade plain', 'smooth fiber blade', 'carbide fiber blade 117mm', 'precision fiber cutting blade', 'B645 tungsten plain', 'mark v carbide blade plain', 'plain edge fiber cutter', 'solid carbide fiber blade', 'tungsten fiber blade manufacturer'],
     },
@@ -3636,7 +3636,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B573 stainless steel fiber blade is a <strong>short-type direct replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 95×19×0.88mm. Stainless steel construction provides corrosion resistance in humid production environments.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 95×19×0.88mm</li><li>Material: Stainless Steel</li><li>Type: Short</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Hercules series machines. Suitable for polyester, nylon, polypropylene, viscose, and other synthetic and natural fiber cutting.</p>`,
     seo: {
-      title: 'Fiber Blade Hercules Short Stainless Steel 95×19mm | Chopped Fiber',
+      title: 'Fiber Blade Hercules Short Stainless Steel | Alya Blade',
       description: 'Short stainless steel fiber blade for Hercules machines. 95×19×0.88mm. Corrosion-resistant. Chopped fiber production.',
       keywords: ['hercules fiber blade', 'chopped fiber blade hercules', 'fiber blade 95mm', 'hercules stainless blade', 'short fiber blade', 'B573 fiber blade', 'hercules fiber cutting machine blade', 'stainless steel fiber blade 95mm', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3655,7 +3655,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B573 TiN coated fiber blade is a <strong>premium short-type replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 95×19×0.88mm. The Titanium Nitride coating extends service life 2-3 times.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 95×19×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Type: Short</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production on Hercules machines, particularly for abrasive fiber types including fiberglass and aramid.</p>`,
     seo: {
-      title: 'Fiber Blade Hercules Short TiN Coated 95×19mm | Chopped Fiber',
+      title: 'Fiber Blade Hercules Short TiN Coated 95×19mm | Alya Blade',
       description: 'TiN coated short stainless steel fiber blade for Hercules machines. 95×19×0.88mm. 2-3x longer life. Abrasive fibers.',
       keywords: ['hercules fiber blade tin', 'tin coated fiber blade 95mm', 'hercules chopped fiber blade', 'titanium nitride hercules blade', 'B573 tin fiber blade', 'hercules tin coated blade', 'fiberglass cutting blade tin hercules', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3674,7 +3674,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B574 stainless steel fiber blade is a <strong>long-type direct replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 114×19×0.88mm. The longer body compared to the B573 short type provides a wider cutting area for increased throughput.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 114×19×0.88mm</li><li>Material: Stainless Steel</li><li>Type: Long</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Hercules series machines. The wider cutting area makes it suitable for higher-throughput production runs with polyester, nylon, and other fibers.</p>`,
     seo: {
-      title: 'Fiber Blade Hercules Long Stainless Steel 114×19mm | Chopped Fiber',
+      title: 'Fiber Blade Hercules Long Stainless Steel | Alya Blade',
       description: 'Long stainless steel fiber blade for Hercules machines. 114×19×0.88mm. Wider cutting area, higher efficiency. Chopped fiber production.',
       keywords: ['hercules long fiber blade', 'chopped fiber blade 114mm', 'hercules stainless blade long', 'fiber blade 114x19mm', 'B574 fiber blade', 'hercules fiber cutting machine blade', 'stainless steel fiber blade 114mm', 'long fiber blade hercules', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3693,7 +3693,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B574 TiN coated fiber blade is a <strong>premium long-type replacement blade for Hercules chopped fiber cutting machines</strong>, measuring 114×19×0.88mm. The Titanium Nitride coating extends service life 2-3 times, while the longer body provides a wider cutting area.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 114×19×0.88mm</li><li>Material: Stainless Steel + TiN Coating</li><li>Coating: TiN (Titanium Nitride) — ~2300 HV surface hardness</li><li>Type: Long</li><li>Machine Compatibility: Hercules Fiber Cutting Machine</li></ul><h3>Applications</h3><p>High-volume chopped fiber production on Hercules machines, particularly for abrasive fiber types. The wider cutting area maximizes throughput on demanding production lines.</p>`,
     seo: {
-      title: 'Fiber Blade Hercules Long TiN Coated 114×19mm | Chopped Fiber',
+      title: 'Fiber Blade Hercules Long TiN Coated 114×19mm | Alya Blade',
       description: 'TiN coated long stainless steel fiber blade for Hercules machines. 114×19×0.88mm. 2-3x longer life. Abrasive fibers.',
       keywords: ['hercules long fiber blade tin', 'tin coated fiber blade 114mm', 'hercules chopped fiber blade long', 'titanium nitride hercules blade', 'B574 tin fiber blade', 'hercules tin coated blade long', 'fiberglass cutting blade tin hercules', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3717,7 +3717,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B048 stainless steel fiber blade is a <strong>compact direct replacement blade for Krupp chopped fiber cutting machines</strong>, measuring 48×7.9×0.88mm. The compact format is designed specifically for the Krupp cutting head configuration.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 48×7.9×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Krupp series machines. Suitable for polyester, nylon, polypropylene, viscose, and other synthetic and natural fiber cutting.</p>`,
     seo: {
-      title: 'Fiber Blade Krupp 48mm Stainless Steel 48×7.9mm | Chopped Fiber',
+      title: 'Fiber Blade Krupp 48mm Stainless Steel 48×7.9mm | Alya Blade',
       description: 'Stainless steel fiber blade for Krupp machines. 48×7.9×0.88mm compact. Chopped fiber production. Corrosion-resistant.',
       keywords: ['krupp fiber blade', 'chopped fiber blade krupp', 'fiber blade 48mm', 'krupp stainless blade 48', 'compact fiber blade', 'B048 fiber blade', 'krupp fiber cutting machine blade', 'stainless steel fiber blade 48mm', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3755,7 +3755,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B048 solid tungsten carbide fiber blade is the <strong>ultimate performance compact blade for Krupp chopped fiber cutting machines</strong>, measuring 48×7.9×0.88mm. Solid tungsten carbide provides maximum wear resistance for the most demanding fiber cutting applications.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 48×7.9×0.88mm</li><li>Material: Solid Tungsten Carbide</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and other highly abrasive fiber cutting on Krupp machines. Ideal for lines where blade longevity is critical.</p>`,
     seo: {
-      title: 'Fiber Blade Krupp 48mm Tungsten Carbide 48×7.9mm | Chopped Fiber',
+      title: 'Fiber Blade Krupp 48mm Tungsten Carbide | Alya Blade',
       description: 'Solid tungsten carbide fiber blade for Krupp machines. 48×7.9×0.88mm. Maximum wear resistance. Fiberglass, carbon fiber.',
       keywords: ['tungsten carbide fiber blade krupp', 'krupp tungsten blade 48mm', 'carbide chopped fiber blade', 'fiberglass cutting blade krupp', 'B048 tungsten carbide', 'krupp carbide blade 48mm', 'solid carbide fiber blade krupp', 'fiber blade maximum life', 'tungsten fiber blade manufacturer'],
     },
@@ -3774,7 +3774,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B064 stainless steel fiber blade is a <strong>direct replacement blade for Krupp chopped fiber cutting machines</strong>, measuring 64×7.9×0.88mm. The longer body compared to the B048 provides a wider cutting area for increased throughput.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 64×7.9×0.88mm</li><li>Material: Stainless Steel</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Standard chopped fiber production lines using Krupp series machines. The wider cutting area makes it suitable for higher-throughput production with polyester, nylon, and other fibers.</p>`,
     seo: {
-      title: 'Fiber Blade Krupp 64mm Stainless Steel 64×7.9mm | Chopped Fiber',
+      title: 'Fiber Blade Krupp 64mm Stainless Steel 64×7.9mm | Alya Blade',
       description: 'Stainless steel fiber blade for Krupp machines. 64×7.9×0.88mm. Wider cutting area. Chopped fiber production.',
       keywords: ['krupp fiber blade 64mm', 'chopped fiber blade krupp 64', 'fiber blade 64x7.9mm', 'krupp stainless blade 64', 'B064 fiber blade', 'krupp fiber cutting machine blade 64', 'stainless steel fiber blade 64mm', 'long fiber blade krupp', 'fiber blade manufacturer', 'fiber blade supplier'],
     },
@@ -3812,7 +3812,7 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>The B064 solid tungsten carbide fiber blade is the <strong>ultimate performance blade for Krupp chopped fiber cutting machines</strong>, measuring 64×7.9×0.88mm. Solid tungsten carbide provides maximum wear resistance for the most demanding fiber cutting applications.</p><h3>Technical Specifications</h3><ul><li>Dimensions: 64×7.9×0.88mm</li><li>Material: Solid Tungsten Carbide</li><li>Hardness: ~1500 HV</li><li>Machine Compatibility: Krupp Fiber Cutting Machine</li></ul><h3>Applications</h3><p>Fiberglass, carbon fiber, aramid, and other highly abrasive fiber cutting on Krupp machines. Ideal for high-wear production lines requiring maximum blade longevity.</p>`,
     seo: {
-      title: 'Fiber Blade Krupp 64mm Tungsten Carbide 64×7.9mm | Chopped Fiber',
+      title: 'Fiber Blade Krupp 64mm Tungsten Carbide | Alya Blade',
       description: 'Solid tungsten carbide fiber blade for Krupp machines. 64×7.9×0.88mm. Maximum wear resistance. Fiberglass, carbon fiber.',
       keywords: ['tungsten carbide fiber blade krupp 64mm', 'krupp tungsten blade 64', 'carbide chopped fiber blade 64', 'fiberglass cutting blade krupp 64mm', 'B064 tungsten carbide', 'krupp carbide blade 64mm', 'solid carbide fiber blade krupp', 'fiber blade maximum life', 'tungsten fiber blade manufacturer'],
     },
@@ -3887,7 +3887,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Coating & Quality</h3>
 <p>The special coating applied to the stainless steel body reduces friction, preventing tissue adhesion to the blade. This ensures consistent section quality between consecutive cuts. Available in PTFE-based or platinum/chrome coating variants.</p>`,
     seo: {
-      title: 'B575 Low Profile Microtome Blade 80mm | Histology Blade | Disposable Microtome Blade',
+      title: 'B575 Low Profile Microtome Blade 80mm | Alya Blade',
       description: 'B575 low profile microtome blade 80.01×8.13×0.25mm. Triple facet grind, stainless steel with PTFE coating. For histopathology, paraffin sectioning. Leica, Thermo, Sakura compatible. Sheffield quality.',
       keywords: [
         'microtome blade', 'low profile microtome blade', 'disposable microtome blade',
@@ -3952,7 +3952,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Why 2-Slot Design?</h3>
 <p>The dual-slot mounting system provides two-point locking when securing the blade to the microkeratome head. This design prevents blade slippage during high-speed oscillation, ensuring a smooth, homogeneous corneal flap. Compatible with Moria M2, Moria One Use-Plus, Hansatome and similar 2-slot microkeratome systems.</p>`,
     seo: {
-      title: 'B723 001 LASIK Microkeratome Blade 2-Slot | Eye Surgery Blade | Corneal Flap Blade',
+      title: 'B723 001 LASIK Microkeratome Blade 2-Slot | Alya Blade',
       description: 'B723 001 LASIK microkeratome blade 38.1×7.94×0.25mm, 2-slot, triple facet grind, stainless steel, oil-free. For corneal flap creation, LASIK, refractive surgery. Moria, Hansatome compatible.',
       keywords: [
         'LASIK blade', 'microkeratome blade', 'corneal flap blade', 'eye surgery blade',
@@ -4013,7 +4013,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Why 1-Slot Design?</h3>
 <p>The single-slot mounting secures the blade from a central point, providing balanced positioning along the oscillation axis. This is the standard configuration for Amadeus (AMO), Carriazo-Barraquer, Schwind and similar systems. Central locking contributes to homogeneous cutting depth across the corneal surface.</p>`,
     seo: {
-      title: 'B723 501 LASIK Microkeratome Blade 1-Slot | Eye Surgery Blade | Corneal Flap Blade',
+      title: 'B723 501 LASIK Microkeratome Blade 1-Slot | Alya Blade',
       description: 'B723 501 LASIK microkeratome blade 38.1×7.94×0.25mm, 1-slot, triple facet grind, stainless steel, oil-free. For LASIK, refractive surgery. Amadeus, Carriazo-Barraquer compatible.',
       keywords: [
         'LASIK blade', 'microkeratome blade', 'corneal flap blade', 'eye surgery blade',
@@ -4095,7 +4095,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Coating & Quality</h3>
 <p>Advanced coating technology applied to the stainless steel body minimizes friction during cutting. This coating extends blade life especially in hard and calcified tissues while preventing tissue morphology distortion. Available in PTFE, platinum/chrome or ceramic coating options.</p>`,
     seo: {
-      title: 'B724 High Profile Microtome Blade 80mm | Hard Tissue Histology | Disposable Microtome Blade',
+      title: 'B724 High Profile Microtome Blade 80mm | Alya Blade',
       description: 'B724 high profile microtome blade 80.01×13.97×0.30mm. For hard tissue, calcified bone, cryostat sectioning. Triple facet grind, stainless steel + coating. Leica, Thermo, Sakura compatible. Sheffield quality.',
       keywords: [
         'microtome blade', 'high profile microtome blade', 'disposable microtome blade',
@@ -4114,7 +4114,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 
   'b621': {
     name: 'B621 GLASS SCRAPER BLADE SERIES',
-    subtitle: 'Professional Stainless Steel Glass Scraping Blade — 3-Hole, Lacquered',
+    subtitle: 'Professional Stainless Steel Glass Scraping Blade',
     description: 'B621 glass scraper blade series. 3-hole, lacquered, stainless steel (Rostfrei). 60mm, 80mm, 100mm, 150mm width options. Safely scrapes adhesive, silicone, tape, labels, film and paint residues from glass surfaces without scratching. Professional quality for PPF removal, window film cleaning, auto detailing, cladding work and sign removal.',
     shortDescription: 'B621 glass scraper blade, stainless steel (Rostfrei), 3-hole, lacquered. 60–150mm widths. Scrapes residues from glass without scratching. For PPF removal, window film, auto detailing, sign removal.',
     features: [
@@ -4166,7 +4166,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Applications</h3>
 <ul><li><strong>Glass Cleaning Companies:</strong> Post-construction silicone, adhesive and tape residue removal from glass surfaces</li><li><strong>PPF & Wrap Installers:</strong> Vehicle PPF and vinyl wrap removal, adhesive cleanup</li><li><strong>Auto Detailing:</strong> Sticker, vignette and tax disc residue from windshields</li><li><strong>Window Film Removal:</strong> Old tint film and glue cleanup from vehicle and building glass</li><li><strong>Façade Contractors:</strong> Adhesive and wrap residue on exterior cladding glass</li><li><strong>Sign & Vinyl Removal:</strong> Storefront vinyl lettering, posters, banner and decal removal</li></ul>`,
     seo: {
-      title: 'B621 Glass Scraper Blade Stainless Steel 60-80-100-150mm | Scraper Blade | Window Scraping',
+      title: 'B621 Glass Scraper Blade Stainless Steel | Alya Blade',
       description: 'B621 glass scraper blade, stainless steel (Rostfrei), 3-hole, lacquered. 60mm, 80mm, 100mm, 150mm. Scrapes without scratching. PPF removal, window film, auto detailing, sign removal. Sheffield quality.',
       keywords: [
         'glass scraper blade', 'window scraper blade', 'scraper blade stainless',
@@ -4183,7 +4183,7 @@ export const productsEn: Record<string, ProductTranslation> = {
   // ─── B204 CLASSIC BLADE — INDUSTRIAL ─────────────────────────────────────────
   'b204': {
     name: 'B204 CLASSIC BLADE — INDUSTRIAL',
-    subtitle: 'Stainless Steel Single Edge Blade — PTFE Coated / Oil-Free Options',
+    subtitle: 'Stainless Steel Single Edge Blade',
     description: 'B204 Industrial Classic Blade. 43×22×0.10mm (37mm cutting edge), stainless steel, single edge. 3 variants: Stainless/Oiled, Stainless+PTFE/Oiled, Stainless+PTFE/Oil-Free. Professional cutting and scraping for paper, packaging, printing, label removal, paint scraping, plastic film slitting, and textile industries.',
     shortDescription: 'B204 Industrial Classic Blade. 43×22×0.10mm, stainless steel, single edge. PTFE coated and oil-free options for paper slitting, label removal, paint scraping.',
     features: [
@@ -4220,7 +4220,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Oiled vs Oil-Free</h3><p><strong>Oiled</strong> versions provide corrosion protection and smooth cutting — ideal for general industrial use. <strong>Oil-Free</strong> versions are designed for <strong>food packaging</strong> and <strong>medical/hygienic</strong> environments where oil contamination is unacceptable.</p>
 <h3>Variants</h3><table><tr><th>Code</th><th>Feature</th><th>Packaging</th><th>Ideal Use</th></tr><tr><td>B204 003</td><td>Stainless, Oiled</td><td>250-pc Wrapped Box</td><td>General industrial</td></tr><tr><td>B204 004</td><td>Stainless + PTFE, Oiled</td><td>2000-pc Stick Box</td><td>Adhesive/label scraping, high volume</td></tr><tr><td>B204 007</td><td>Stainless + PTFE, Oil-Free</td><td>2000-pc Stick Box</td><td>Food packaging, hygienic</td></tr></table>`,
     seo: {
-      title: 'B204 Classic Blade Stainless PTFE Coated 43×22mm | Single Edge Industrial Blade | Alya Blade',
+      title: 'B204 Classic Blade Stainless PTFE Coated | Alya Blade',
       description: 'B204 industrial classic blade, 43×22×0.10mm, stainless steel, single edge. PTFE coated and oil-free options. Paper slitting, label removal, paint scraping, printing, packaging. Turkey distributor Alya Blade.',
       keywords: [
         'classic blade', 'single edge blade', 'industrial single edge blade',
@@ -4265,7 +4265,7 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Medical / Laboratory Applications</h3><ul><li><strong>Histology:</strong> Thin sections from paraffin-embedded tissue blocks — routine histology alternative to microtome blades</li><li><strong>Pathology:</strong> Biopsy material preparation, tissue trimming during gross dissection</li><li><strong>Dermatology:</strong> Skin scraping for KOH preparation, fungal sample collection</li><li><strong>General Laboratory:</strong> Precision scraping, preparation, slide making</li></ul>
 <h3>Pack Sizes</h3><table><tr><th>Code</th><th>Quantity</th><th>Ideal Use</th></tr><tr><td>B684 001</td><td>100 pcs/box</td><td>Small laboratories, low consumption</td></tr><tr><td>B685 001</td><td>250 pcs/box</td><td>High-volume labs, hospital pathology departments</td></tr></table>`,
     seo: {
-      title: 'B684/B685 Medical Classic Blade Triple Facet Stainless | Medical Single Edge Blade | Alya Blade',
+      title: 'B684/B685 Medical Classic Blade Triple Facet | Alya Blade',
       description: 'B684/B685 medical classic blade, 38×19×0.10mm, stainless steel, triple facet grind, coated. Histology, pathology, dermatology, laboratory use. 100 and 250-pc boxes.',
       keywords: [
         'medical blade', 'medical single edge blade', 'classic blade medical',

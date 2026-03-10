@@ -650,7 +650,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['slotted-karbon-celik'],
 
     seo: {
-      title: '3 Delikli Dilme Jileti 0.20mm | Titanyum Kaplamalı | Alya Bıçak',
+      title: '3 Delikli Dilme Jileti 0.20mm TiN | Alya Bıçak',
       description: 'Sheffield çeliğinden üretilmiş titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performans. Türkiye distribütörü.',
       keywords: ['3 delikli jilet', 'dilme jileti', 'titanyum kaplama', 'sheffield çelik', 'endüstriyel jilet'],
     },
@@ -1304,7 +1304,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['slotted-karbon-seramik', 'slotted-yekpare-tungsten'],
 
     seo: {
-      title: 'Slotted Dilme Jileti Endurium HSS Seramik 57x19mm | Alya Bıçak',
+      title: 'Slotted Jileti Endurium HSS Seramik | Alya Bıçak',
       description: 'Endurium HSS + seramik kaplama slotted dilme jileti. 57x19mm, HRC 64-66, 600°C dayanım. Metal folyo ve kompozit kesimde premium performans.',
       keywords: ['Endurium jilet', 'HSS jilet', 'slotted HSS', '57x19mm jilet', 'yüksek hız çeliği jilet'],
     },
@@ -1620,7 +1620,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: [],
 
     seo: {
-      title: 'B581 Cam Elyaf Bıçağı 120mm | Tungsten Alaşımlı Chopper Blade | Alya Bıçak',
+      title: 'B581 Cam Elyaf Bıçağı 120mm Tungsten | Alya Bıçak',
       description: 'Tungsten karbür alaşımlı B581 cam elyaf bıçağı (chopper blade), 120×7.94×0.71mm. 30° çift taraflı bileme, 25\'li deste. Fiberglass roving kesim hatları için yüksek aşınma direnci.',
       keywords: ['cam elyaf bıçağı', 'chopper blade', 'fiberglass bıçak', 'tungsten karbür bıçak', 'cam elyaf kesim bıçağı', 'roving kesim bıçağı', 'GRP bıçak', 'FRP bıçak', 'B581', 'fiberglass chopper blade'],
     },
@@ -1751,7 +1751,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: [],
 
     seo: {
-      title: 'B657 Dairesel Jilet OLFA Uyumlu | 18-28-45-60mm Rotary Blade | Alya Bıçak',
+      title: 'B657 Dairesel Jilet OLFA 18-60mm | Alya Bıçak',
       description: 'OLFA uyumlu B657 dairesel jiletler. 18mm, 28mm, 45mm, 60mm çaplarda paslanmaz ve karbonlu çelik rotary blade. Tekstil, deri, kağıt kesimi için profesyonel kalite.',
       keywords: ['dairesel jilet', 'rotary blade', 'OLFA uyumlu jilet', 'OLFA bıçak', 'circular blade', 'kumaş kesim bıçağı', 'deri kesim jilet', 'RB45', 'RB28', 'RB60', 'RB18', 'PRB18', 'B657'],
     },
@@ -1877,7 +1877,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: [],
 
     seo: {
-      title: '2CS1 Beşgen Bıçak 66mm | Tungsten Karbür & Seramik Pentagon Blade | Alya Bıçak',
+      title: '2CS1 Beşgen Bıçak 66mm Tungsten Karbür | Alya Bıçak',
       description: 'Yekpare tungsten karbür ve seramik 2CS1 beşgen bıçak (pentagon blade), 66/63/40×0.54mm. Çuval, bigbag ve PP dokuma kesim hatları için ultra dayanıklı endüstriyel kesim bıçağı.',
       keywords: ['beşgen bıçak', 'pentagon blade', 'tungsten karbür bıçak', 'seramik bıçak', 'çuval kesim bıçağı', 'bigbag bıçak', 'FIBC bıçak', 'PP dokuma bıçak', '2CS1', 'pentagon kesim'],
     },
@@ -2000,7 +2000,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: [],
 
     seo: {
-      title: 'B084.075 Lamel Yaprak Bıçak 84mm | Seramik & Tungsten | Film Kesim | Alya Bıçak',
+      title: 'B084 Lamel Yaprak Bıçak 84mm Seramik | Alya Bıçak',
       description: 'Yekpare seramik ve tungsten karbür B084.075 lamel (yaprak) bıçak, 84/80×7.5×1.0mm. Film, folyo, etiket ve kağıt kesim hatları için ultra uzun ömürlü endüstriyel kesim bıçağı.',
       keywords: ['lamel bıçak', 'yaprak bıçak', 'lamella blade', 'leaf blade', 'film kesim bıçağı', 'folyo kesim bıçağı', 'etiket kesim bıçağı', 'slitter blade', 'seramik bıçak', 'tungsten bıçak', 'B084.075'],
     },
@@ -2057,7 +2057,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['ISO 9001:2015', 'CE'],
     relatedProductIds: ['kontr-biai', 'yarim', 'tam', 'dz-biaklar', 'dairesel'],
     seo: {
-      title: 'Vakum Paketleme Bıçağı VPB-001 | Termoform Makina Bıçağı | Alya Bıçak',
+      title: 'Vakum Paketleme Bıçağı VPB-001 | Alya Bıçak',
       description: 'Sheffield çeliğinden vakum paketleme bıçağı. HRC 58-60, gıda sınıfı Ra ≤0.4 µm. Multivac, Tiromat, GEA, Ulma, Sealpac uyumlu. Türkiye distribütörü.',
       keywords: ['vakum paketleme bıçağı', 'thermoform bıçak', 'vacuum packaging blade', 'MAP packaging knife', 'multivac bıçak', 'tiromat bıçak', 'termoform kesim', 'gıda ambalaj bıçağı'],
     },
@@ -2115,7 +2115,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['yarim', 'tam', 'dz-biaklar', 'dairesel', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Kontör Bıçağı Termoform Vakum | Multivac Tiromat Uyumlu | Alya Bıçak',
+      title: 'Kontör Bıçağı Termoform Vakum | Alya Bıçak',
       description: 'Sheffield çeliğinden kontör/contour bıçağı. HRC 58-62, TiN 2300 HV kaplama. Multivac, Tiromat, GEA, Ulma uyumlu. ISO 9001 sertifikalı.',
       keywords: ['kontör bıçağı', 'contour blade', 'termoform bıçak', 'vakum paketleme bıçağı', 'multivac bıçak', 'tiromat bıçak', 'thermoform blade', 'vacuum packaging knife'],
     },
@@ -2170,7 +2170,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['tam', 'kontr-biai', 'yuvarlak', 'oval', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Yarım Yıldız Zımba D2 Çelik | Vakum Paketleme Zımba Bıçağı | Alya Bıçak',
+      title: 'Yarım Yıldız Zımba D2 Çelik | Alya Bıçak',
       description: 'D2 takım çeliğinden yarım yıldız zımba bıçağı. HRC 58-60, DIN 1.2379, TiN 2300 HV kaplama. Multivac, Tiromat uyumlu.',
       keywords: ['yarım yıldız zımba', 'half star punch', 'vakum paketleme zımba', 'D2 çelik zımba', 'termoform zımba', 'multivac zımba', 'tiromat zımba'],
     },
@@ -2225,7 +2225,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['yarim', 'kontr-biai', 'yuvarlak', 'oval', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Tam Yıldız Zımba D2 Çelik | Vakum Paketleme Full Star Punch | Alya Bıçak',
+      title: 'Tam Yıldız Zımba D2 Çelik | Alya Bıçak',
       description: 'D2 takım çeliğinden tam yıldız zımba. HRC 58-60, DIN 1.2379. Yarım yıldıza göre 2x alan. Multivac, Tiromat, GEA uyumlu.',
       keywords: ['tam yıldız zımba', 'full star punch', 'vakum paketleme zımba', 'D2 çelik zımba', 'star punch blade', 'multivac star punch', 'termoform zımba'],
     },
@@ -2283,7 +2283,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['kontr-biai', 'dairesel', 'dili', 'yarim', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Düz Lama Bıçak HSS M2 | Vakum Paketleme Straight Blade | Alya Bıçak',
+      title: 'Düz Lama Bıçak HSS M2 Vakum Paketleme | Alya Bıçak',
       description: 'HSS M2 yüksek hız çeliğinden düz lama bıçak. HRC 62-65, 600°C termal kararlılık. Multivac, Tiromat, GEA uyumlu.',
       keywords: ['lama bıçak', 'düz bıçak', 'straight blade', 'HSS bıçak', 'M2 çelik', 'vakum paketleme lama', 'termoform bıçak', 'film cutting blade'],
     },
@@ -2336,7 +2336,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['kontr-biai', 'dz-biaklar', 'dili', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Dairesel Döner Bıçak | Vakum Paketleme Rotary Blade | Alya Bıçak',
+      title: 'Dairesel Döner Bıçak Vakum Paketleme | Alya Bıçak',
       description: 'Sheffield çeliğinden dairesel döner bıçak. HRC 58-62, dinamik dengelenmiş, 3000+ RPM. Multivac, Tiromat, GEA uyumlu.',
       keywords: ['dairesel bıçak', 'circular blade', 'döner bıçak', 'rotary blade', 'vakum paketleme dairesel', 'termoform dairesel', 'round cutting blade'],
     },
@@ -2389,7 +2389,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['oval', 'yarim', 'tam', 'kontr-biai', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Yuvarlak Hava Zımbası 440C | Vakum Paketleme Vent Punch | Alya Bıçak',
+      title: 'Yuvarlak Hava Zımbası 440C | Alya Bıçak',
       description: '440C paslanmaz çelik yuvarlak hava zımbası. HRC 58-60, %17 krom, HACCP uyumlu. Multivac, Tiromat, GEA uyumlu.',
       keywords: ['yuvarlak hava zımba', 'round air punch', 'vakum hava zımbası', '440C zımba', 'vent hole punch', 'multivac air punch', 'termoform zımba'],
     },
@@ -2442,7 +2442,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['yuvarlak', 'yarim', 'tam', 'kontr-biai', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Oval Hava Zımbası 440C | Vakum Paketleme Elips Vent Punch | Alya Bıçak',
+      title: 'Oval Hava Zımbası 440C Vakum Paketleme | Alya Bıçak',
       description: '440C paslanmaz çelik oval hava zımbası. HRC 58-60, %17 krom, %40 daha geniş alan. Multivac, Tiromat, GEA uyumlu.',
       keywords: ['oval hava zımba', 'oval air punch', 'elips zımba', 'vakum hava zımbası', '440C zımba', 'vent hole punch', 'multivac oval punch'],
     },
@@ -2502,7 +2502,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     certifications: ['CE'],
     relatedProductIds: ['kontr-biai', 'dz-biaklar', 'dairesel', 'vakum-paketleme-bicak'],
     seo: {
-      title: 'Dişli Testere Bıçak | Vakum Paketleme Serrated Blade | Alya Bıçak',
+      title: 'Dişli Testere Bıçak Vakum Paketleme | Alya Bıçak',
       description: 'Sheffield çeliğinden testere dişli bıçak. HRC 58-62, ±0.02mm CNC. Kalın film, folyo, PET/PVC rigid. Multivac, Tiromat uyumlu.',
       keywords: ['dişli bıçak', 'serrated blade', 'testere dişli', 'saw tooth blade', 'vakum paketleme dişli', 'termoform serrated', 'multivac serrated'],
     },
@@ -2609,7 +2609,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['single-edge-carbon-3f', 'single-edge-carbon-030', 'single-edge-stainless-ptfe'],
 
     seo: {
-      title: 'Tek Kenar Jilet Karbon Çelik 0.23mm 2-Facet B201 | Alya Bıçak',
+      title: 'Tek Kenar Jilet Karbon 0.23mm 2-Facet | Alya Bıçak',
       description: 'Yüksek karbonlu çelik tek kenar jilet. 0.23mm, HRC 58-62, 2-facet bileme, alüminyum kılıflı. Cam kazıma, etiket sökme, otomotiv çapak alma. Türkiye distribütörü.',
       keywords: ['tek kenar jilet', 'single edge blade', 'cam kazıma jileti', 'scraper blade', 'B201', 'karbon çelik jilet', '0.23mm jilet', '2-facet jilet', 'cam temizleme jileti', 'etiket sökme jileti'],
     },
@@ -2717,7 +2717,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['single-edge-carbon-2f', 'single-edge-stainless', 'single-edge-stainless-ptfe'],
 
     seo: {
-      title: 'Tek Kenar Jilet 3-Facet Karbon Çelik 0.23mm B201 | Alya Bıçak',
+      title: 'Tek Kenar Jilet 3-Facet Karbon 0.23mm | Alya Bıçak',
       description: '3-facet ultra keskin tek kenar jilet. 0.23mm karbon çelik, HRC 58-62. Hassas cam temizleme, etiket sökme, ince film kesimi. Kılıflı/kılıfsız/1000\'li.',
       keywords: ['tek kenar jilet 3 facet', 'single edge blade 3 facet', 'hassas cam jileti', 'precision single edge', 'B201 131', 'ultra keskin jilet', 'cam temizleme jileti', 'kılıfsız jilet 1000li', 'bulk single edge blade', 'laboratory blade'],
     },
@@ -3158,7 +3158,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     ],
 
     seo: {
-      title: 'B207 Trapez Bıçak Kalın 0.63mm | Heavy Duty Utility Blade | Alya Bıçak',
+      title: 'B207 Trapez Bıçak Kalın 0.63mm | Alya Bıçak',
       description: 'B207 heavy duty trapez bıçak, 0.63mm kalınlık, Sheffield çelik. 10 varyant: karbon, paslanmaz, TiN kaplamalı. 50-100mm boyut. Depo, zemin döşeme, inşaat, ambalaj kesimi. Türkiye distribütörü.',
       keywords: ['trapez bıçak', 'B207', 'heavy duty trapez', 'kalın trapez jilet', 'utility blade', 'maket bıçağı ucu', '0.63mm trapez', 'TiN kaplama trapez', 'paslanmaz trapez', 'sheffield trapez bıçak', 'trapez bıçak toptan', 'endüstriyel trapez bıçak'],
     },
@@ -3250,7 +3250,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     ],
 
     seo: {
-      title: 'B206 İnce Trapez Bıçak 0.43mm | Thin Utility Blade | Alya Bıçak',
+      title: 'B206 İnce Trapez Bıçak 0.43mm | Alya Bıçak',
       description: 'B206 ince trapez bıçak/jilet. 0.43mm, Sheffield karbon çelik, HRC 58-62. Kağıt, ambalaj, duvar kağıdı, cam kazıma. Tek taraflı bileme. Türkiye distribütörü.',
       keywords: ['ince trapez bıçak', 'B206', 'thin trapezoid blade', '0.43mm trapez', 'trapez jilet ince', 'utility blade thin', 'maket bıçağı jilet', 'kağıt kesim bıçağı', 'trapez jilet toptan'],
     },
@@ -3331,7 +3331,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b207', 'b206', 'trapez'],
 
     seo: {
-      title: 'B082 Tırtıklı Kenar Trapez Bıçak | Serrated Utility Blade | Alya Bıçak',
+      title: 'B082 Tırtıklı Kenar Trapez Bıçak | Alya Bıçak',
       description: 'B082 tırtıklı kenarlı trapez bıçak. 82×25×1.0mm, Sheffield çelik. Halat, elyaf, Kevlar kesimi. Tek taraftan tırtıklı kenar. Türkiye distribütörü.',
       keywords: ['tırtıklı trapez bıçak', 'B082', 'serrated trapezoid', 'tırtıklı kenar', 'halat kesim bıçağı', 'elyaf kesim bıçağı', 'serrated utility blade', 'hook blade'],
     },
@@ -3407,7 +3407,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b214', 'b218', 'b207', 'trapez'],
 
     seo: {
-      title: 'B213 Kompakt Trapez Bıçak 61×12.5mm | Compact Utility Blade | Alya Bıçak',
+      title: 'B213 Kompakt Trapez Bıçak 61×12.5mm | Alya Bıçak',
       description: 'B213 kompakt trapez bıçak, 61×12.5×0.63mm. Dar alanlar, elektronik, detay kesim. Sheffield çelik. Türkiye distribütörü.',
       keywords: ['kompakt trapez', 'B213', 'compact trapezoid', 'mini utility blade', '61mm trapez', 'küçük trapez bıçak'],
     },
@@ -3484,7 +3484,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b213', 'b214', 'b207', 'trapez'],
 
     seo: {
-      title: 'B218 Özel Trapez Bıçak 71×17mm | Medium Special Blade | Alya Bıçak',
+      title: 'B218 Özel Trapez Bıçak 71×17mm | Alya Bıçak',
       description: 'B218 özel boyut trapez bıçak, 71×17×0.63mm, 1×6mm delik. Endüstriyel makine, otomasyon sistemi yedek ucu. Sheffield çelik. Türkiye distribütörü.',
       keywords: ['özel trapez bıçak', 'B218', '71mm trapez', 'medium trapezoid blade', 'özel boyut utility blade', 'makine trapez bıçağı'],
     },
@@ -3562,7 +3562,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b213', 'b218', 'b206', 'trapez'],
 
     seo: {
-      title: 'B214 Mikro Trapez Bıçak 27.6×9mm | Micro Utility Blade | Alya Bıçak',
+      title: 'B214 Mikro Trapez Bıçak 27.6×9mm | Alya Bıçak',
       description: 'B214 mikro trapez bıçak, 27.6×9×0.43mm, 3×3.5mm delik. Elektronik, model, laboratuvar, tıbbi cihaz kesimi. Sheffield çelik. Türkiye distribütörü.',
       keywords: ['mikro trapez', 'B214', 'micro trapezoid blade', 'mini utility blade', '27mm trapez', 'hassas trapez bıçak', 'minyatür kesim bıçağı'],
     },
@@ -3770,7 +3770,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b207', 'b207-2'],
 
     seo: {
-      title: 'B207 XXL Alçı Levha Bıçağı 170×19mm | Alçıpan Kartonpiyer Kesim Bıçağı | Alya Bıçak',
+      title: 'B207 XXL Alçı Levha Bıçağı 170×19mm | Alya Bıçak',
       description: 'B207 XXL alçı levha bıçağı, 170×19×0.80mm, yüksek karbonlu çelik, 2 çentik, 4 delik. Alçıpan, kartonpiyer, kuru duvar kesimi. Sheffield kalitesi. Türkiye distribütörü Alya Bıçak.',
       keywords: [
         'alçı levha bıçağı', 'alçıpan bıçağı', 'kartonpiyer bıçağı', 'drywall blade',
@@ -3859,7 +3859,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b207', 'b206', 'b082', 'b213', 'b218', 'b214'],
 
     seo: {
-      title: 'Özel Tasarım Trapez Bıçak 100×19mm | Custom Utility Blade | Alya Bıçak',
+      title: 'Özel Tasarım Trapez Bıçak 100×19mm | Alya Bıçak',
       description: 'Özel tasarım trapez bıçaklar. 100×19mm büyük boy + müşteriye özel boyut, malzeme, kaplama. Sheffield çelik, HRC 58-62. OEM tedarik. Türkiye distribütörü.',
       keywords: ['özel trapez bıçak', 'custom trapezoid blade', '100mm trapez', 'büyük boy utility blade', 'OEM trapez bıçak', 'özel üretim trapez', 'trapez bıçak üretici'],
     },
@@ -4028,7 +4028,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b208', 'if', 'sper', 'b209'],
 
     seo: {
-      title: 'B208 Geniş Uçlu Tekstil Kanca Bıçak | Textile Hook Blade | Alya Bıçak',
+      title: 'B208 Geniş Uçlu Tekstil Kanca Bıçak | Alya Bıçak',
       description: 'B208 geniş uçlu kanca bıçak, tekstil kesimi için geniş kollu (broad arms) tasarım. 52×19×0.6mm, DD %1 karbon çelik. Türkiye distribütörü.',
       keywords: ['tekstil kanca bıçak', 'B208 tekstil', 'geniş kollu kanca', 'broad arms hook blade', 'kumaş kesim bıçağı', 'tekstil bıçağı'],
     },
@@ -4103,7 +4103,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b208', 'b209', 'yuvarlatilmi', 'if'],
 
     seo: {
-      title: 'Süper Kanca Uzun Bıçak 55×19mm | Long Hook Blade | Alya Bıçak',
+      title: 'Süper Kanca Uzun Bıçak 55×19mm | Alya Bıçak',
       description: 'Süper Kanca uzun model kanca bıçak. 55×19×0.6mm, 4 delik, yüksek karbon çelik. Kalın ambalaj, halat, sert film kesimi. Türkiye distribütörü.',
       keywords: ['süper kanca bıçak', 'uzun kanca', 'long hook blade', '55mm kanca', 'kalın ambalaj bıçağı', 'halat kesim bıçağı'],
     },
@@ -4178,7 +4178,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b208', 'sper', 'b209', 'kanca'],
 
     seo: {
-      title: 'Yuvarlatılmış Uçlu Kanca Bıçak 52×19mm | Rounded Hook Blade | Alya Bıçak',
+      title: 'Yuvarlatılmış Uçlu Kanca 52×19mm | Alya Bıçak',
       description: 'Yuvarlatılmış uçlu kanca bıçak. 52×19×0.6mm, güvenli ambalaj açma. Alt malzemeye zarar vermez. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['yuvarlatılmış uçlu kanca', 'rounded tip hook blade', 'güvenli kanca bıçak', 'safety hook blade', 'ambalaj açma bıçağı'],
     },
@@ -4264,7 +4264,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b208-tekstil', 'b208', 'b209', 'sper'],
 
     seo: {
-      title: 'IF Kanca Bıçak Tekstil IF-1 IF-2 | Textile Hook Blade | Alya Bıçak',
+      title: 'IF Kanca Bıçak Tekstil IF-1 IF-2 | Alya Bıçak',
       description: 'IF serisi tekstil kanca bıçak. IF-1: 80×13mm tek taraflı, IF-2: 87×10mm çift taraflı. Kumaş ve tekstil kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['IF kanca bıçak', 'tekstil kanca', 'kumaş kesim bıçağı', 'IF-1 blade', 'IF-2 blade', 'textile hook blade', 'konfeksiyon bıçağı'],
     },
@@ -4349,7 +4349,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b208', 'sper', 'yuvarlatilmi', 'kanca'],
 
     seo: {
-      title: 'B209 Tek Taraflı Kanca Bıçak 59×19mm | One Side Hook Blade | Alya Bıçak',
+      title: 'B209 Tek Taraflı Kanca Bıçak 59×19mm | Alya Bıçak',
       description: 'B209 tek taraflı kanca bıçak. 59×19×0.6mm, karbon/TiN/paslanmaz. Kontrollü yönde kesim, güvenli ambalaj açma. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['tek taraflı kanca', 'B209', 'one side hook blade', 'single sided hook', 'kontrollü kesim bıçağı', 'paslanmaz kanca bıçak'],
     },
@@ -4423,7 +4423,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b208', 'sper', 'b209', 'yuvarlatilmi'],
 
     seo: {
-      title: 'Kanca HOB-1 Büyük Boy Bıçak 90×39.5mm | Large Hook Blade | Alya Bıçak',
+      title: 'Kanca HOB-1 Büyük Boy 90×39.5mm | Alya Bıçak',
       description: 'Kanca HOB-1 büyük boy kanca bıçak. 90×39.5/20×0.80mm, ağır hizmet. Tekstil, balya açma, halat kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['kanca HOB-1', 'büyük kanca bıçak', 'large hook blade', '90mm kanca', 'ağır hizmet kanca', 'HOB-1 hook blade'],
     },
@@ -4723,7 +4723,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b111', 'b112', 'b114'],
 
     seo: {
-      title: 'B113 Hobi Jileti #13 | Long Profile Precision Blade | Alya Bıçak',
+      title: 'B113 Hobi Jileti #13 Long Profile | Alya Bıçak',
       description: 'B113 uzun profil hobi jileti. 52.7×9×0.60mm, #13 numara. Model yapımı, tabela, vinil kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['#13 hobi jileti', 'uzun profil craft blade', 'B113', 'tabela bıçağı', 'precision hobby blade'],
     },
@@ -4800,7 +4800,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b111', 'b113', 'b147'],
 
     seo: {
-      title: 'B114 Hobi Jileti #14 TiN Kaplama & Karbon | Precision Blade | Alya Bıçak',
+      title: 'B114 Hobi Jileti #14 TiN Kaplama | Alya Bıçak',
       description: 'B114 hassas hobi jileti. 50.3×9×0.60mm, #14 numara. TiN kaplama & karbon varyantları. Vinil, model, el sanatları. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['#14 hobi jileti', 'TiN kaplama bıçak', 'B114', 'titanyum nitrit jilet', 'precision craft blade'],
     },
@@ -4870,7 +4870,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b142', 'b143', 'b111'],
 
     seo: {
-      title: 'B141 Hobi Jileti Kompakt | Precision Craft Blade | Alya Bıçak',
+      title: 'B141 Hobi Jileti Kompakt | Alya Bıçak',
       description: 'B141 kompakt hobi jileti. 36.8×8.4×0.53mm, eğimli uç. Minyatür model, elektronik, ince maket. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['B141 hobi jileti', 'kompakt craft blade', 'minyatür bıçağı', 'precision blade', 'elektronik kesim'],
     },
@@ -4941,7 +4941,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b142k', 'b144', 'b145'],
 
     seo: {
-      title: 'B142 Büyük Hobi Jileti 47×11.3mm | Large Craft Blade | Alya Bıçak',
+      title: 'B142 Büyük Hobi Jileti 47×11.3mm | Alya Bıçak',
       description: 'B142 Büyük hobi jileti. 47×11.3×0.63mm geniş profil. Maket, sıyırma, kazıma, prototip. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['B142 büyük', 'geniş profil jilet', 'large craft blade', 'sıyırma bıçağı', 'hobi jileti'],
     },
@@ -5018,7 +5018,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b142', 'b141', 'b144'],
 
     seo: {
-      title: 'B142 Küçük Hobi Jileti OLFA Uyumlu | Small Craft Blade | Alya Bıçak',
+      title: 'B142K Küçük Hobi Jileti OLFA | Alya Bıçak',
       description: 'B142 Küçük hobi jileti. 40×9mm & OLFA KB4-S/5 uyumlu 40.5×8mm. Minyatür model, elektronik, detay. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['B142 küçük', 'OLFA KB4-S/5 uyumlu', 'kompakt craft blade', 'minyatür jilet', 'hobi bıçağı'],
     },
@@ -5237,7 +5237,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b144', 'b142', 'b150'],
 
     seo: {
-      title: 'B145 Hobi Jileti Çok Boyutlu | Multi-Size Craft Blade | Alya Bıçak',
+      title: 'B145 Hobi Jileti Çok Boyutlu | Alya Bıçak',
       description: 'B145 çok boyutlu hobi jileti. 45×12/16/20mm & OLFA KB4-F/5. Maket, grafik, şablon. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['B145 çok boyutlu', 'multi-size craft blade', 'OLFA KB4-F/5', 'düz kenar jilet', 'hobi jileti seti'],
     },
@@ -5447,7 +5447,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b147', 'b146', 'b149'],
 
     seo: {
-      title: 'B148 Hobi Jileti Kavisli 45.4×10.3mm | Curved Craft Blade | Alya Bıçak',
+      title: 'B148 Hobi Jileti Kavisli 45.4×10.3mm | Alya Bıçak',
       description: 'B148 kavisli profil hobi jileti. 45.4×10.3×0.63mm. Deri, vinil, dekoratif kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['B148 hobi jileti', 'kavisli craft blade', 'curved precision blade', 'deri kesim jileti', 'kontur bıçağı'],
     },
@@ -5588,7 +5588,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b145', 'b151', 'b147'],
 
     seo: {
-      title: 'B150 Hobi Jileti #25 Geniş Gövde | Heavy Duty Craft Blade | Alya Bıçak',
+      title: 'B150 Hobi Jileti #25 Geniş Gövde | Alya Bıçak',
       description: 'B150 #25 numara ağır hizmet hobi jileti. Geniş gövde. Balsawood, plastik, karton, kompozit. X-Acto uyumlu. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['#25 hobi jileti', 'B150', 'heavy duty craft blade', 'X-Acto #25 uyumlu', 'balsawood bıçağı', 'geniş gövde jilet'],
     },
@@ -5658,7 +5658,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b147', 'b150', 'b148'],
 
     seo: {
-      title: 'B151 Hobi Jileti 45×11mm | Professional Craft Blade | Alya Bıçak',
+      title: 'B151 Hobi Jileti 45×11mm | Alya Bıçak',
       description: 'B151 profesyonel hobi jileti. 45×11×0.63mm sivri uç geniş gövde. Tabela, maket, endüstriyel kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['B151 hobi jileti', 'profesyonel craft blade', 'tabela bıçağı', 'precision hobby blade'],
     },
@@ -5804,7 +5804,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['kb', 'kb4-r5', 'b141'],
 
     seo: {
-      title: 'KB-5 Ultra Kompakt Hobi Jileti 25×4mm | Art Knife Blade | Alya Bıçak',
+      title: 'KB-5 Ultra Kompakt Hobi Jileti 25×4mm | Alya Bıçak',
       description: 'KB-5 ultra kompakt hobi jileti. 25×4×0.38mm, en ince model. Kâğıt sanatları, kaligrafi, minyatür. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB-5 hobi jileti', 'ultra kompakt jilet', 'kâğıt sanatları bıçağı', 'art knife blade', 'mini craft blade'],
     },
@@ -5876,7 +5876,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['kb', 'kb-5', 'kb4-ns3'],
 
     seo: {
-      title: 'KB4-R/5 Hobi Jileti OLFA Uyumlu | Curved Art Knife Blade | Alya Bıçak',
+      title: 'KB4-R/5 Hobi Jileti OLFA Kavisli | Alya Bıçak',
       description: 'KB4-R/5 OLFA uyumlu hobi jileti. 38.5×6×0.45mm eğrisel. Stencil, sanat, hassas kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB4-R/5 jilet', 'OLFA KB4-R uyumlu', 'eğrisel sanat bıçağı', 'curved art knife', 'stencil jileti'],
     },
@@ -5949,7 +5949,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['kb4-ws3', 'kb4-r5', 'kb'],
 
     seo: {
-      title: 'KB4-NS/3 Dişli Hobi Jileti OLFA Uyumlu | Serrated Art Blade | Alya Bıçak',
+      title: 'KB4-NS/3 Dişli Hobi Jileti OLFA | Alya Bıçak',
       description: 'KB4-NS/3 dar dişli hobi jileti. OLFA KB4-NS/3, 64×11/6×0.35mm. Köpük, sünger, polistren kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB4-NS/3 dişli jilet', 'OLFA serrated blade', 'köpük kesim bıçağı', 'narrow serrated', 'sünger jileti'],
     },
@@ -6022,7 +6022,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['kb4-ns3', 'kb4-r5', 'kb'],
 
     seo: {
-      title: 'KB4-WS/3 Geniş Dişli Hobi Jileti OLFA Uyumlu | Wide Serrated Blade | Alya Bıçak',
+      title: 'KB4-WS/3 Geniş Dişli Hobi Jileti OLFA | Alya Bıçak',
       description: 'KB4-WS/3 geniş dişli hobi jileti. OLFA KB4-WS/3, 66.5×11/6×0.35mm. Kalın köpük, balsawood, polistren. Sheffield Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB4-WS/3 geniş dişli', 'OLFA wide serrated', 'kalın köpük bıçağı', 'balsawood jileti', 'wide serrated blade'],
     },
@@ -6158,7 +6158,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b724'],
 
     seo: {
-      title: 'B575 Mikrotom Jileti Alçak Profil 80mm | Histoloji Bıçağı | Low Profile Microtome Blade | Alya Bıçak',
+      title: 'B575 Mikrotom Jileti Alçak Profil 80mm | Alya Bıçak',
       description: 'B575 alçak profil mikrotom jileti 80.01×8.13×0.25mm. Histopatoloji, patoloji laboratuvarı, parafin doku kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Sheffield kalitesi.',
       keywords: [
         'mikrotom jileti', 'microtome blade', 'alçak profil mikrotom', 'low profile microtome blade',
@@ -6302,7 +6302,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b575'],
 
     seo: {
-      title: 'B724 Mikrotom Jileti Yüksek Profil 80mm | Sert Doku Histoloji | High Profile Microtome Blade | Alya Bıçak',
+      title: 'B724 Mikrotom Jileti Yüksek Profil 80mm | Alya Bıçak',
       description: 'B724 yüksek profil mikrotom jileti 80.01×13.97×0.30mm. Sert doku, kalsifiye kemik, kriyostat kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Sheffield kalitesi.',
       keywords: [
         'mikrotom jileti', 'microtome blade', 'yüksek profil mikrotom', 'high profile microtome blade',
@@ -6447,7 +6447,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b723-501'],
 
     seo: {
-      title: 'B723 001 LASİK Mikrokeratom Jileti 2 Yuva | LASIK Blade | Göz Cerrahisi Jileti | Alya Bıçak',
+      title: 'B723 001 LASIK Jileti 2 Yuva | Alya Bıçak',
       description: 'B723 001 LASIK / Mikrokeratom jileti 38.1×7.94×0.25mm, 2 yuva, 3 açılı bileme, paslanmaz, yağdan arındırılmış. Kornea flep cerrahisi, LASIK, refraktif cerrahi. Moria, Hansatome uyumlu.',
       keywords: [
         'lasik jileti', 'LASIK blade', 'mikrokeratom jileti', 'microkeratome blade',
@@ -6591,7 +6591,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b723-001'],
 
     seo: {
-      title: 'B723 501 LASİK Mikrokeratom Jileti 1 Yuva | LASIK Blade | Göz Cerrahisi Jileti | Alya Bıçak',
+      title: 'B723 501 LASIK Jileti 1 Yuva | Alya Bıçak',
       description: 'B723 501 LASIK / Mikrokeratom jileti 38.1×7.94×0.25mm, 1 yuva, 3 açılı bileme, paslanmaz, yağdan arındırılmış. Kornea flep cerrahisi, LASIK. Amadeus, Carriazo-Barraquer uyumlu.',
       keywords: [
         'lasik jileti', 'LASIK blade', 'mikrokeratom jileti', 'microkeratome blade',
@@ -6772,7 +6772,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: [],
 
     seo: {
-      title: 'B621 Cam Kazıyıcı Jilet Paslanmaz 60-80-100-150mm | Cam Kazıma Jileti | Alya Bıçak',
+      title: 'B621 Cam Kazıyıcı Jilet 60-150mm | Alya Bıçak',
       description: 'B621 cam kazıyıcı jilet, paslanmaz çelik (Rostfrei), 3 delikli, laklı. 60mm, 80mm, 100mm, 150mm. Cam yüzeyleri çizmeden kazır. PPF sökme, cam filmi temizliği, oto detailing, folyo söküm, cam temizlik. Türkiye distribütörü Alya Bıçak.',
       keywords: [
         'cam kazıyıcı jilet', 'cam kazıma jileti', 'kazıma jileti', 'glass scraper blade',
@@ -6948,7 +6948,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b684-b685', 'b621'],
 
     seo: {
-      title: 'B204 Klasik Jilet Paslanmaz PTFE Kaplamalı 43×22mm | Tek Kenar Endüstriyel Jilet | Alya Bıçak',
+      title: 'B204 Klasik Jilet PTFE Paslanmaz 43×22mm | Alya Bıçak',
       description: 'B204 endüstriyel klasik jilet, 43×22×0.10mm, paslanmaz çelik, tek kenar. PTFE kaplamalı ve yağsız seçenekleri. Kağıt dilme, etiket sökme, boya kazıma, matbaa, ambalaj. Türkiye distribütörü Alya Bıçak.',
       keywords: [
         'klasik jilet', 'endüstriyel klasik jilet', 'tek kenarlı jilet', 'single edge blade',
@@ -7099,7 +7099,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b204', 'b575'],
 
     seo: {
-      title: 'B684/B685 Medikal Klasik Jilet 3 Açılı Bileme Triple Facet | Paslanmaz | Alya Bıçak',
+      title: 'B684/B685 Medikal Jilet Triple Facet | Alya Bıçak',
       description: 'B684/B685 medikal klasik jilet, 38×19×0.10mm, paslanmaz çelik, 3 açılı bileme (triple facet), kaplamalı. Histoloji, patoloji, dermatoloji, laboratuvar kullanımı. 100 ve 250 adetlik kutular.',
       keywords: [
         'medikal jilet', 'medikal klasik jilet', 'klasik jilet medikal', 'single edge blade medical',
@@ -7249,7 +7249,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['b204', 'b206'],
 
     seo: {
-      title: 'OK Bıçak Arrow Blade 30.4×25mm | Çift Kenar Karbon Çelik Endüstriyel Bıçak | Alya Bıçak',
+      title: 'OK Bıçak Arrow Blade 30.4×25mm | Alya Bıçak',
       description: 'OK Bıçak (Arrow Blade), 30.4×25.0×0.50mm, karbon çelik, çift taraflı bilemeli, 2 slot + 1 delik. Etiket/kablo soyma, bant kesme, otomatik kesim, elektronik PCB. Türkiye distribütörü.',
       keywords: [
         'ok bıçak', 'arrow blade', 'ok biçak', 'endüstriyel ok bıçak',

@@ -55,7 +55,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       <p>Solution économique standard pour le refendage de papier, carton, film plastique, matériaux d'emballage et textiles. Performances fiables sur les machines de refendage slotted à haute vitesse.</p>
     `,
     seo: {
-      title: 'Lame Refendage à Fente Acier Carbone | Lame Industrielle 57x19mm',
+      title: 'Lame Refendage à Fente Acier Carbone | Alya Blade',
       description: 'Lame de refendage à fente en acier carbone pour film BOPP, emballage flexible et découpe industrielle. Acier SK5, angle 22°, durée de vie 3-5x supérieure. Qualité Sheffield.',
       keywords: ['lame à fente', 'lame refendage', 'lame acier carbone', 'lame industrielle', 'lame rasoir industriel', 'lame 57x19', 'lame 57x19mm', 'lame textile', 'lame film', 'lame papier', 'lame emballage', 'lame SK5', 'lame professionnelle', 'lame longue durée', 'lame slitter', 'lame BOPP', 'lame emballage flexible', 'lame convertisseur']
     },
@@ -103,7 +103,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       { title: 'Ultra Résistance à l\'Usure', description: 'Durée de vie extraordinaire sur substrats abrasifs.', icon: 'Clock' },
     ],
     seo: {
-      title: 'Lame à Fente Revêtement Céramique | Dureté 3200 HV Ultra-Résistante',
+      title: 'Lame à Fente Revêtement Céramique | Alya Blade',
       description: 'Lame de refendage à fente avec revêtement céramique multicouche, dureté 3200 HV. Idéale pour matériaux abrasifs, fibre de verre, carbone et papier abrasif. Durée de vie 5-7x supérieure.',
       keywords: ['lame céramique', 'lame revêtement céramique', 'lame abrasif', 'lame fibre de verre', 'lame fibre de carbone', 'lame industrielle céramique', 'lame haute dureté', 'lame 3200 HV', 'lame composite', 'lame résistante usure', 'lame refendage céramique']
     },
@@ -151,7 +151,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       { title: 'Performance Premium', description: 'Durabilité de premier ordre pour environnements exigeants.', icon: 'Award' },
     ],
     seo: {
-      title: 'Lame Inoxydable + Titane TiN | Double Protection Corrosion et Usure',
+      title: 'Lame Inoxydable + Titane TiN | Alya Blade',
       description: 'Lame de refendage à fente inoxydable avec revêtement titane TiN, dureté 2300 HV. Double protection corrosion et usure pour lamination alimentaire, blister pharmaceutique et emballage stérile.',
       keywords: ['lame inoxydable titane', 'lame double protection', 'lame TiN inoxydable', 'lame blister', 'lame lamination', 'lame stérile', 'lame hygiénique durable', 'lame dorée inoxydable', 'lame pharmaceutique', 'lame emballage médical']
     },
@@ -175,7 +175,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       { title: 'Durée de Vie Maximale', description: 'La plus longue durée de service parmi toutes les options de revêtement.', icon: 'Clock' },
     ],
     seo: {
-      title: 'Lame Inoxydable + XCD Carbone Diamant | 5000 HV Ultra Anti-Adhésif',
+      title: 'Lame Inoxydable + XCD Carbone Diamant | Alya Blade',
       description: 'Lame de refendage à fente inoxydable avec revêtement XCD carbone diamant, dureté 5000 HV. Coefficient friction <0,1, idéale pour ruban ultra-adhésif, silicone et étiquettes.',
       keywords: ['lame XCD', 'lame carbone diamant', 'lame DLC', 'lame anti-adhésif', 'lame 5000 HV', 'lame diamant noir', 'lame ruban adhésif', 'lame silicone', 'lame étiquettes', 'lame ultra-résistante', 'lame faible friction']
     },
@@ -199,7 +199,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       { title: 'Coupe Premium', description: 'Lame slotted haut de gamme pour les applications les plus exigeantes.', icon: 'Award' },
     ],
     seo: {
-      title: 'Lame Endurium HSS + Céramique | Résistance 600°C Haute Vitesse',
+      title: 'Lame Endurium HSS + Céramique | Alya Blade',
       description: 'Lame de refendage à fente Endurium HSS avec revêtement céramique 3500 HV. Résiste à 600°C, idéale pour refendage haute vitesse, feuille métallique et production 24/7.',
       keywords: ['lame Endurium', 'lame HSS', 'lame acier rapide', 'lame haute température', 'lame 600°C', 'lame haute vitesse', 'lame céramique HSS', 'lame feuille métallique', 'lame production continue', 'lame industrielle premium']
     },
@@ -223,7 +223,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       { title: 'HRA 92-94 Ultra Dur', description: 'Coupe même les matériaux les plus abrasifs avec facilité.', icon: 'Diamond' },
     ],
     seo: {
-      title: 'Lame Carbure de Tungstène Massif | HRA 92-94 Durée de Vie 50x',
+      title: 'Lame Carbure de Tungstène Massif | Alya Blade',
       description: 'Lame de refendage à fente en carbure de tungstène massif WC-Co, dureté HRA 92-94. Durée de vie 20-50x supérieure à l\'acier pour matériaux ultra-abrasifs et électrodes batterie.',
       keywords: ['lame tungstène', 'lame carbure tungstène', 'lame WC-Co', 'lame HRA 92', 'lame ultra-dure', 'lame longue durée', 'lame abrasif extrême', 'lame feuille métallique', 'lame batterie', 'lame monolithique', 'lame métallurgie poudres']
     },
@@ -287,7 +287,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe d\'emballage alimentaire', 'Applications en environnement humide', 'Production pharmaceutique', 'Lignes de production hygiéniques', 'Emballage médical'],
     seo: {
-      title: 'Lame Injecteur Acier Inoxydable 38x8mm | AISI 420 FDA Hygiénique',
+      title: 'Lame Injecteur Acier Inoxydable 38x8mm | Alya Blade',
       description: 'Lame injecteur 38x8mm en acier inoxydable AISI 420, approuvée FDA. Résistante à la corrosion, idéale pour industrie alimentaire, pharmaceutique et environnements humides.',
       keywords: ['lame injecteur inoxydable', 'lame 38x8', 'lame AISI 420', 'lame FDA', 'lame alimentaire', 'lame hygiénique', 'lame pharmaceutique', 'lame médicale', 'lame anti-corrosion', 'lame double fente']
     },
@@ -359,7 +359,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Refendage haute vitesse', 'Applications haute précision', 'Lignes de production automatisées', 'Découpe de film mince', 'Refendage de feuille de précision'],
     seo: {
-      title: 'Lame Injecteur Titane Rainurée 38x8mm | Anti-Vibration Haute Vitesse',
+      title: 'Lame Injecteur Titane Rainurée 38x8mm | Alya Blade',
       description: 'Lame injecteur 38x8mm titane avec fentes rainurées anti-glissement. Ancrage mécanique supérieur, 2300 HV. Idéale pour refendage haute vitesse et précision.',
       keywords: ['lame injecteur rainurée', 'lame 38x8', 'lame titane cannelée', 'lame haute vitesse', 'lame anti-vibration', 'lame précision', 'lame automatisée', 'lame film mince', 'lame TiN', 'lame refendage professionnel']
     },
@@ -377,7 +377,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe de ruban ultra-adhésif', 'Refendage de silicone', 'Découpe d\'étiquettes adhésives', 'Tissus imprégnés de résine', 'Rubans adhésifs médicaux'],
     seo: {
-      title: 'Lame Injecteur XCD Carbone Diamant 38x8mm | 5000 HV Anti-Adhésif',
+      title: 'Lame Injecteur XCD Carbone Diamant 38x8mm | Alya Blade',
       description: 'Lame injecteur 38x8mm avec revêtement XCD carbone diamant, dureté 5000 HV, friction <0,1. Propriétés anti-adhésives ultimes pour silicone et rubans adhésifs.',
       keywords: ['lame injecteur XCD', 'lame 38x8', 'lame carbone diamant', 'lame DLC', 'lame 5000 HV', 'lame anti-adhésif', 'lame diamant noir', 'lame silicone', 'lame adhésif médical', 'lame ultra-résistante']
     },
@@ -413,7 +413,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe d\'emballage alimentaire de précision', 'Applications médicales', 'Découpe de film électronique', 'Salles blanches', 'Production pharmaceutique haute pureté'],
     seo: {
-      title: 'Lame Injecteur Céramique Zircone 38x8x0,30mm | Biocompatible Sans Métal',
+      title: 'Lame Injecteur Céramique Zircone 38x8x0,30mm | Alya Blade',
       description: 'Lame injecteur 38x8mm céramique zircone 0,30mm ultra-mince, biocompatible et sans métal. Isolation électrique, résistance chimique pour salles blanches et médical.',
       keywords: ['lame injecteur céramique', 'lame 38x8', 'lame zircone', 'lame 0,30mm', 'lame biocompatible', 'lame sans métal', 'lame salle blanche', 'lame médicale', 'lame isolante', 'lame pharmaceutique précision']
     },
@@ -431,7 +431,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe alimentaire industrielle', 'Applications médicales robustes', 'Découpe de film épais', 'Production pharmaceutique', 'Environnements industriels exigeants'],
     seo: {
-      title: 'Lame Injecteur Céramique Zircone 38x8x0,64mm | Robuste Sans Métal',
+      title: 'Lame Injecteur Céramique Zircone 38x8x0,64mm | Alya Blade',
       description: 'Lame injecteur 38x8mm céramique zircone 0,64mm robuste, sans métal et biocompatible. Rigidité supérieure pour usage industriel intensif, alimentaire et médical.',
       keywords: ['lame injecteur céramique', 'lame 38x8', 'lame zircone robuste', 'lame 0,64mm', 'lame industrielle céramique', 'lame sans métal', 'lame alimentaire', 'lame médicale robuste', 'lame isolante', 'lame usage intensif']
     },
@@ -449,7 +449,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Opérations de refendage haute vitesse', 'Coupe interrompue', 'Refendage de feuille métallique', 'Découpe de composite technique', 'Production industrielle 24/7'],
     seo: {
-      title: 'Lame Injecteur Endurium HSS Céramique 38x8mm | 600°C Haute Vitesse',
+      title: 'Lame Injecteur Endurium HSS Céramique 38x8mm | Alya Blade',
       description: 'Lame injecteur 38x8mm Endurium HSS avec revêtement céramique 3500 HV. Résiste à 600°C, idéale pour refendage haute vitesse, feuille métallique et production 24/7.',
       keywords: ['lame injecteur Endurium', 'lame 38x8', 'lame HSS céramique', 'lame acier rapide', 'lame 600°C', 'lame haute vitesse', 'lame 3500 HV', 'lame feuille métallique', 'lame production continue', 'lame industrielle premium']
     },
@@ -536,7 +536,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       </ul>
     `,
     seo: {
-      title: 'Lame Tranchant Simple 3-Facet Acier Carbone 0,23mm | Alya Blade',
+      title: 'Lame Tranchant Simple 3-Facet Acier Carbone | Alya Blade',
       description: 'Lame 3-facettes ultra-tranchante. 0,23mm acier carbone, HRC 58-62. Nettoyage vitres délicat, suppression étiquettes, découpe films. Avec/sans étui/1000 pcs.',
       keywords: ['lame 3 facettes', 'lame précision tranchant simple', 'grattoir précision', 'nettoyage vitre', 'lame B201 131', 'lame sans étui', 'boîte 1000 pièces', 'lame laboratoire', 'lame salle blanche', 'découpe fine'],
     },
@@ -775,7 +775,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       <p>Utilisée pour le refendage de précision de textiles, papier, film plastique, matériaux d'emballage et matériaux fins similaires. Offre des performances supérieures notamment sur les machines de refendage à haute vitesse.</p>
     `,
     seo: {
-      title: 'Lame de Refendage 3 Trous 0,20mm | Revêtement Titane | Alya Blade',
+      title: 'Lame de Refendage 3 Trous 0,20mm | Alya Blade',
       description: 'Lame de refendage 3 trous avec revêtement titane en acier Sheffield. Haute performance pour la découpe de textiles, papier et films. Distributeur autorisé.',
       keywords: ['lame 3 trous', 'lame de refendage', 'revêtement titane', 'acier Sheffield', 'lame industrielle'],
     },
@@ -911,7 +911,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Profil à bras larges', 'Conçue pour la découpe textile', 'Acier DD 1% carbone', 'Minimise l\'effilochage', '52×19×0,6mm', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe textile', 'Ouverture de balles', 'Découpe de cuir', 'Découpe de fibres'],
     seo: {
-      title: 'Lame Crochet B208 Textile Bras Larges | Lame Textile | Alya Blade',
+      title: 'Lame Crochet B208 Textile Bras Larges | Alya Blade',
       description: 'Lame crochet B208 textile à bras larges. 52×19×0,6mm. Acier DD 1% carbone. Distributeur autorisé.',
       keywords: ['lame crochet textile', 'B208 textile', 'lame crochet bras larges', 'lame découpe tissu', 'lame textile'],
     },
@@ -929,7 +929,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Tranchant unilatéral — direction contrôlée', '59×19×0,6mm', 'Variantes carbone, TiN, inox', '2 encoches, 3 trous', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe contrôlée', 'Emballage de précision', 'Décapage de films', 'Lignes de production'],
     seo: {
-      title: 'Lame Crochet B209 Unilatérale 59×19mm | Lame Crochet | Alya Blade',
+      title: 'Lame Crochet B209 Unilatérale 59×19mm | Alya Blade',
       description: 'Lame crochet B209 unilatérale. 59×19×0,6mm, carbone/TiN/inox. Découpe directionnelle contrôlée. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame crochet unilatérale', 'B209', 'lame crochet un côté', 'lame découpe contrôlée', 'lame crochet inox'],
     },
@@ -986,7 +986,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['55×19×0,6mm — corps plus grand que le standard', 'Système de fixation 4 trous', 'Optimisée pour matériaux épais', 'Acier haut carbone', 'Qualité Sheffield Durham Duplex'],
     applications: ['Emballages épais', 'Découpe de cordes et sangles', 'Films résistants', 'Rubans industriels'],
     seo: {
-      title: 'Lame Crochet Super Longue 55×19mm | Lame Crochet Longue | Alya Blade',
+      title: 'Lame Crochet Super Longue 55×19mm | Alya Blade',
       description: 'Lame crochet Super modèle long. 55×19×0,6mm, 4 trous, acier haut carbone. Emballages épais, cordes, films résistants. Distributeur autorisé.',
       keywords: ['lame crochet super', 'lame crochet longue', 'lame crochet 55mm', 'lame emballage épais', 'lame corde', 'lame crochet robuste'],
     },
@@ -1004,7 +1004,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['IF-1 : 80×13×0,71mm — unilatérale', 'IF-2 : 87×10×0,71mm — bilatérale', 'IF-2R : 87×10×0,71mm — bilatérale, trous ronds', 'Épaisseur 0,71mm — pas de flexion', 'Profil spécial textile', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe de tissus', 'Confection', 'Ouverture de balles', 'Découpe de fils et fibres'],
     seo: {
-      title: 'Lame Crochet IF Textile IF-1 IF-2 | Lame Crochet Textile | Alya Blade',
+      title: 'Lame Crochet IF Textile IF-1 IF-2 | Alya Blade',
       description: 'Lame crochet série IF textile. IF-1 : 80×13mm unilatérale, IF-2 : 87×10mm bilatérale. Découpe tissu et textile. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame crochet IF', 'lame crochet textile', 'lame découpe tissu', 'lame IF-1', 'lame IF-2', 'lame confection'],
     },
@@ -1027,7 +1027,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['90×39,5/20×0,80mm — le plus grand modèle', 'Épaisseur 0,80mm — usage intensif', 'Fixation simple 1 trou', 'Corps large pour contrôle maximal', 'Qualité Sheffield Durham Duplex'],
     applications: ['Textile lourd', 'Ouverture de balles', 'Découpe de cordes et sangles', 'Opérations industrielles'],
     seo: {
-      title: 'Lame Crochet HOB-1 Grande 90×39,5mm | Grande Lame Crochet | Alya Blade',
+      title: 'Lame Crochet HOB-1 Grande 90×39,5mm | Alya Blade',
       description: 'Lame crochet HOB-1 grande taille. 90×39,5/20×0,80mm, usage intensif. Textile, balles, cordes. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame crochet HOB-1', 'grande lame crochet', 'lame crochet 90mm', 'lame crochet robuste', 'lame balle', 'lame crochet textile'],
     },
@@ -1046,7 +1046,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone', 'Compatible OLFA MTB-10 et FWB-10', 'Segments sécables', 'Épaisseur 0,45mm standard / 0,25mm ultra-fine', 'Largeur 12,5mm pour cutters OLFA moyens', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Cutters OLFA série MTB', 'Cutters OLFA série FWB', 'Design graphique et découpe de précision', 'Application de vinyle et films'],
     seo: {
-      title: 'OLFA-MTB Lame Sécable 12,5mm | Lame de Rechange OLFA | Alya Blade',
+      title: 'OLFA-MTB Lame Sécable 12,5mm | Alya Blade',
       description: 'Lame sécable 12,5mm compatible OLFA MTB-10 et FWB-10. Acier SK5, épaisseur 0,45mm standard et 0,25mm ultra-tranchante. Qualité Sheffield, HRC 58-62.',
       keywords: ['lame OLFA MTB', 'lame sécable 12,5mm', 'OLFA MTB-10', 'OLFA FWB-10', 'lame de rechange OLFA', 'lame cutter 12,5mm'],
     },
@@ -1063,7 +1063,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   // =============================================================================
   'ok': {
     name: 'OK Lame — Lame Flèche',
-    subtitle: '30,4×25,0×0,50mm — Acier Carbone, Double Tranchant, 2 Fentes + 1 Trou',
+    subtitle: '30,4×25,0×0,50mm',
     description: 'Lame OK (Arrow Blade). 30,4×25,0×0,50mm, acier carbone, double tranchant (deux bords affûtés), 2 fentes ouvertes + 1 trou. Machines de coupe industrielles de précision, décollage d\'étiquettes/câbles, coupe de rubans, ouverture d\'emballages, systèmes de coupe automatiques.',
     shortDescription: 'Lame flèche OK. 30,4×25,0×0,50mm, acier carbone, double tranchant, 2 fentes + 1 trou. Décollage d\'étiquettes, coupe de rubans, systèmes automatiques.',
     features: [
@@ -1085,7 +1085,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Textile',
     ],
     seo: {
-      title: 'OK Lame Flèche 30,4×25mm | Lame Industrielle Acier Carbone Double Tranchant | Alya Blade',
+      title: 'OK Lame Flèche 30,4×25mm | Alya Blade',
       description: 'Lame flèche OK, 30,4×25,0×0,50mm, acier carbone, double tranchant, 2 fentes + 1 trou. Étiquettes, câbles, rubans, coupe automatique, électronique. Distributeur autorisé.',
       keywords: ['lame flèche', 'lame OK', 'lame double tranchant', 'lame industrielle', 'acier carbone', 'coupe étiquettes', 'décapage câbles'],
     },
@@ -1426,7 +1426,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone', 'Tranchant continu non-segmenté — découpe sans vibration', 'Épaisseur 0,40mm', 'Structure monobloc sans points de rupture — applications lourdes', 'Compatible tous cutters standard 9mm', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Découpes droites de précision', 'Design graphique et maquettisme', 'Découpe de films et revêtements fins', 'Bureau et papeterie'],
     seo: {
-      title: 'B124 Lame Cutter Non-Segmentée 9mm | Lame Continue | Alya Blade',
+      title: 'B124 Lame Cutter Non-Segmentée 9mm | Alya Blade',
       description: 'Lame B124 non-segmentée 9mm, acier SK5, tranchant continu. 80×9×0,40mm. Découpe droite sans vibration. Qualité Sheffield.',
       keywords: ['lame non-segmentée 9mm', 'B124', 'lame continue 9mm', 'lame cutter sans segment'],
     },
@@ -1445,7 +1445,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone — HRC 58-62', '8 segments sécables pour renouveler le tranchant', 'Épaisseur 0,50mm — applications industrielles lourdes', 'Version fine 0,43mm — découpe de précision', 'Option revêtement TiN — durée 3× plus longue', 'Version OLFA LBD à 15 segments — usage plus économique', 'Compatible OLFA LB-10, LBB-50, LBD-50, LWB-3B', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Découpe de carton et ondulé', 'Revêtements de sol PVC et vinyle', 'Construction et rénovation', 'Emballage et ouverture de cartons', 'Découpe de cuir et textile', 'Pose de papier peint', 'Opérations logistiques et entrepôt'],
     seo: {
-      title: 'B121 Lame Cutter Sécable 18mm | Lame Industrielle | Alya Blade',
+      title: 'B121 Lame Cutter Sécable 18mm | Alya Blade',
       description: 'Lame B121 sécable 18mm, acier SK5. 7 variantes : standard 0,50mm, fine 0,43mm, TiN. Compatible OLFA LB-10. Qualité Sheffield.',
       keywords: ['lame cutter 18mm', 'B121', 'lame sécable 18mm', 'lame OLFA LB-10', 'lame industrielle 18mm', 'lame cutter TiN'],
     },
@@ -1465,7 +1465,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone', 'Tranchant continu non-segmenté — résistance à la flexion/rupture', 'Épaisseur standard 0,50mm / fine 0,43mm', 'Option revêtement TiN (nitrure de titane)', 'Compatible OLFA LSOL-10', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Découpe continue sous charges lourdes', 'Carton et ondulé', 'Revêtements de sol PVC et vinyle', 'Cuir et textiles épais', 'Industrie de l\'emballage'],
     seo: {
-      title: 'B123 Lame Non-Segmentée 18mm | Lame Industrielle Robuste | Alya Blade',
+      title: 'B123 Lame Non-Segmentée 18mm | Alya Blade',
       description: 'Lame B123 non-segmentée 18mm, acier SK5. 4 variantes : standard, fine, TiN. Compatible OLFA LSOL-10. Qualité Sheffield.',
       keywords: ['lame non-segmentée 18mm', 'B123', 'lame industrielle robuste', 'lame OLFA LSOL-10', 'lame cutter continue'],
     },
@@ -1484,7 +1484,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone', 'Longueur compacte 60mm — découpe en espace restreint', 'Tranchant continu non-segmenté', 'Épaisseur 0,50mm', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Espaces restreints et confinés', 'Opérations de découpe de précision', 'Maquettisme et modélisme', 'Découpe de goulottes de câbles'],
     seo: {
-      title: 'B123 018 Lame Cutter Courte 18mm | Lame Compacte | Alya Blade',
+      title: 'B123 018 Lame Cutter Courte 18mm | Alya Blade',
       description: 'Lame B123 018 courte non-segmentée, 60×18×0,50mm. Acier SK5, design compact pour espaces restreints. Qualité Sheffield.',
       keywords: ['lame cutter courte', 'B123-018', 'lame compacte 18mm', 'lame 60mm'],
     },
@@ -1539,7 +1539,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone — HRC 58-62', '25mm extra-large — profondeur de coupe maximale', 'Épaisseur 0,70mm — résistance industrielle à la flexion', 'Structure segmentée sécable', 'Alternative extra-tranchante (Black Blade)', 'Compatible OLFA HB-20 et HBB-5B', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Carton ondulé épais', 'Découpe de plaques de plâtre (drywall)', 'Moquette et revêtements de sol lourds', 'Cuir et textiles épais', 'Construction et rénovation', 'Emballage industriel'],
     seo: {
-      title: 'B126 Lame Sécable 25mm | Lame Industrielle Extra-Large | Alya Blade',
+      title: 'B126 Lame Sécable 25mm | Alya Blade',
       description: 'Lame B126 sécable 25mm, épaisseur 0,70mm, acier SK5. Compatible OLFA HB-20. Qualité Sheffield HRC 58-62.',
       keywords: ['lame cutter 25mm', 'B126', 'lame sécable extra-large', 'lame OLFA HB-20', 'lame industrielle 25mm', 'lame 0,70mm'],
     },
@@ -1559,7 +1559,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone — HRC 58-62', '25mm extra-large — profondeur de coupe maximale', 'Épaisseur 0,70mm — résistance industrielle à la flexion', 'Tranchant continu non-segmenté — aucun risque de rupture', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Applications industrielles lourdes', 'Carton ondulé épais', 'Moquette et revêtements de sol', 'Cuir et textiles épais'],
     seo: {
-      title: 'B125 Lame Non-Segmentée 25mm | Lame Industrielle Robuste | Alya Blade',
+      title: 'B125 Lame Non-Segmentée 25mm | Alya Blade',
       description: 'Lame B125 non-segmentée 25mm, épaisseur 0,70mm, acier SK5. Tranchant continu industriel. Qualité Sheffield.',
       keywords: ['lame non-segmentée 25mm', 'B125', 'lame industrielle extra-large', 'lame cutter robuste 25mm'],
     },
@@ -1577,7 +1577,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Corps céramique monobloc', 'Sans perforations — pour cutters à fixation spéciale', '92mm de long, 8,2mm de large, 0,43mm d\'épaisseur', 'Tranchant continu non-segmenté', 'Format compact — compatible cutters étroits', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Cutters à fixation sans trou', 'Découpe industrielle de précision', 'Maquettisme et modélisme', 'Applications de design graphique'],
     seo: {
-      title: 'B092 Lame Monobloc Sans Perforations | Lame Spéciale | Alya Blade',
+      title: 'B092 Lame Monobloc Sans Perforations | Alya Blade',
       description: 'Lame B092 céramique monobloc sans perforations, 92×8,2×0,43mm. Pour cutters à fixation spéciale. Qualité Sheffield, HRC 58-62.',
       keywords: ['lame sans perforations', 'B092', 'lame céramique monobloc', 'lame cutter spéciale', 'lame 8,2mm'],
     },
@@ -1619,7 +1619,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Géométrie compacte N°12', '42,6×9×0,53mm', 'Taille réduite pour espaces étroits', 'Idéale pour découpes courbes et détaillées', 'Qualité Sheffield Durham Duplex'],
     applications: ['Design graphique', 'Modélisme de précision', 'Maroquinerie', 'Arts du papier'],
     seo: {
-      title: 'B112 Lame Hobby N°12 | Lame Compacte de Précision | Alya Blade',
+      title: 'B112 Lame Hobby N°12 | Alya Blade',
       description: 'B112 lame hobby compacte. 42,6×9×0,53mm, N°12. Design graphique, maroquinerie, modélisme fin. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame hobby N°12', 'lame artisanat compacte', 'B112', 'lame détail fin', 'lame hobby précision'],
     },
@@ -1653,7 +1653,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Géométrie N°14 à tranchant large biseauté', '50,3×9×0,60mm', 'Revêtement TiN — durée de vie jusqu\'à 3× plus longue', 'Acier carbone — tranchant classique', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe de vinyle et films', 'Artisanat professionnel', 'Modélisme intensif', 'Découpe industrielle de précision'],
     seo: {
-      title: 'B114 Lame Hobby N°14 TiN & Carbone | Lame de Précision | Alya Blade',
+      title: 'B114 Lame Hobby N°14 TiN & Carbone | Alya Blade',
       description: 'B114 lame hobby de précision. 50,3×9×0,60mm, N°14. Revêtement TiN & carbone. Vinyle, modélisme, artisanat. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame hobby N°14', 'lame revêtement TiN', 'B114', 'lame nitrure de titane', 'lame artisanat précision'],
     },
@@ -1674,7 +1674,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Design compact à pointe biseautée', '36,8×8,4×0,53mm', 'Idéal pour espaces étroits', 'Ébavurage et nettoyage de précision', 'Qualité Sheffield Durham Duplex'],
     applications: ['Modélisme miniature', 'Nettoyage de circuits électroniques', 'Travaux de détails fins'],
     seo: {
-      title: 'B141 Lame Hobby Compacte | Lame Artisanat Précision | Alya Blade',
+      title: 'B141 Lame Hobby Compacte | Alya Blade',
       description: 'B141 lame hobby compacte. 36,8×8,4×0,53mm, pointe biseautée. Miniatures, électronique, modélisme fin. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['B141 lame hobby', 'lame artisanat compacte', 'lame miniature', 'lame précision', 'électronique découpe'],
     },
@@ -1708,7 +1708,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Deux options de taille', 'Standard 40×9×0,53mm', 'Compatible OLFA KB4-S/5 en 40,5×8×0,50mm', 'Design compact pour espaces étroits', 'Qualité Sheffield Durham Duplex'],
     applications: ['Modélisme miniature', 'Assemblage électronique', 'Découpe de détails de précision'],
     seo: {
-      title: 'B142 Petite Lame Hobby Compatible OLFA | Lame Compacte | Alya Blade',
+      title: 'B142 Petite Lame Hobby Compatible OLFA | Alya Blade',
       description: 'B142 Petite lame hobby. 40×9mm & OLFA KB4-S/5 compatible 40,5×8mm. Miniatures, électronique, détail. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['B142 petite', 'OLFA KB4-S/5 compatible', 'lame artisanat compacte', 'lame miniature', 'lame hobby'],
     },
@@ -1729,7 +1729,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Design crochet compact', '37×10×0,53mm', 'Raclage de précision et ébavurage', 'Forme de découpe courbe', 'Qualité Sheffield Durham Duplex'],
     applications: ['Maroquinerie', 'Arts du papier et ornementation', 'Ébavurage et finition'],
     seo: {
-      title: 'B143 Lame Hobby Crochet | Lame Crochet Artisanat | Alya Blade',
+      title: 'B143 Lame Hobby Crochet | Alya Blade',
       description: 'B143 lame hobby forme crochet. 37×10×0,53mm. Maroquinerie, arts du papier, ébavurage. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['B143 lame hobby', 'lame forme crochet', 'lame raclage', 'ébavurage', 'lame crochet artisanat'],
     },
@@ -1763,7 +1763,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['4 options de taille différentes', 'Tailles standard 45×12/16/20mm', 'Compatible OLFA KB4-F/5 en 35,5×8×0,55mm', 'Design tranchant plat pour découpe large', 'Qualité Sheffield Durham Duplex'],
     applications: ['Modélisme professionnel', 'Arts graphiques et design', 'Découpe de gabarits et pochoirs', 'Raclage de grandes surfaces'],
     seo: {
-      title: 'B145 Lame Hobby Multi-Tailles | Lame Multi-Format | Alya Blade',
+      title: 'B145 Lame Hobby Multi-Tailles | Alya Blade',
       description: 'B145 lame hobby multi-tailles. 45×12/16/20mm & OLFA KB4-F/5. Modélisme, graphisme, pochoirs. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['B145 multi-tailles', 'lame artisanat multi-format', 'OLFA KB4-F/5', 'lame tranchant plat', 'set lames hobby'],
     },
@@ -1820,7 +1820,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Design de coupe courbe', '45,4×10,3×0,63mm', 'Épaisseur 0,63mm', 'Excellent pour contours et courbes', 'Qualité Sheffield Durham Duplex'],
     applications: ['Maroquinerie', 'Découpe de vinyle', 'Découpe décorative et finition'],
     seo: {
-      title: 'B148 Lame Hobby Courbe 45,4×10,3mm | Lame Courbe | Alya Blade',
+      title: 'B148 Lame Hobby Courbe 45,4×10,3mm | Alya Blade',
       description: 'B148 lame hobby profil courbe. 45,4×10,3×0,63mm. Maroquinerie, vinyle, découpe décorative. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['B148 lame hobby', 'lame artisanat courbe', 'lame précision courbe', 'lame maroquinerie', 'lame contours'],
     },
@@ -1854,7 +1854,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Géométrie large N°25', 'Type lame de hobby usage intensif', 'Forme large pour matériaux épais', 'Compatible X-Acto N°25', 'Qualité Sheffield Durham Duplex'],
     applications: ['Modélisme en balsa', 'Découpe de carton épais', 'Découpe de plastique et composites', 'Prototypage industriel'],
     seo: {
-      title: 'B150 Lame Hobby N°25 Usage Intensif | Lame Artisanat Robuste | Alya Blade',
+      title: 'B150 Lame Hobby N°25 Usage Intensif | Alya Blade',
       description: 'B150 lame hobby N°25 usage intensif. Corps large. Balsa, plastique, carton, composites. Compatible X-Acto. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame hobby N°25', 'B150', 'lame artisanat usage intensif', 'X-Acto N°25 compatible', 'lame balsa', 'lame corps large'],
     },
@@ -1871,7 +1871,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Design pointu à corps large', '45×11×0,63mm', 'Épaisseur 0,63mm — usage intensif', 'Mise en forme et découpe à grande échelle', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe d\'enseignes', 'Modélisme professionnel', 'Découpe et mise en forme industrielle'],
     seo: {
-      title: 'B151 Lame Hobby Professionnelle 45×11mm | Lame Pro | Alya Blade',
+      title: 'B151 Lame Hobby Professionnelle 45×11mm | Alya Blade',
       description: 'B151 lame hobby professionnelle. 45×11×0,63mm pointue corps large. Enseignes, modélisme, découpe industrielle. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['B151 lame hobby', 'lame artisanat professionnelle', 'lame enseignes', 'lame hobby précision'],
     },
@@ -1894,7 +1894,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Acier SK5 haut carbone — HRC 58-62', '25mm extra-large', 'Tranchant dentelé (denture scie)', 'Non-segmentée — aucun risque de rupture', 'Matériaux fibreux épais — sans blocage', 'Compatible OLFA HSWB-1', 'Fabrication Sheffield conforme ISO 9001'],
     applications: ['Laine de verre et de roche épaisse', 'Panneaux de fibre de verre épais', 'Panneaux d\'isolation XPS et EPS', 'Travaux d\'isolation construction', 'Découpe industrielle lourde'],
     seo: {
-      title: 'HSWB1 Lame Dentelée 25mm | Lame Isolation Épaisse | Alya Blade',
+      title: 'HSWB1 Lame Dentelée 25mm | Alya Blade',
       description: 'Lame HSWB1 dentelée 25mm, 106×25×0,50mm. Pour isolation épaisse et fibres. OLFA HSWB-1. Acier SK5 Sheffield.',
       keywords: ['lame dentelée 25mm', 'HSWB1', 'lame isolation épaisse', 'OLFA HSWB-1', 'lame cutter denture scie 25mm'],
     },
@@ -1914,7 +1914,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Lame de remplacement compatible OLFA KB', '40,5×6×0,45mm', '1 encoche pour montage facile et sûr', 'Épaisseur 0,45mm — découpe de précision', 'Qualité Sheffield Durham Duplex'],
     applications: ['Arts du papier et scrapbooking', 'Calligraphie', 'Découpe de pochoirs et gabarits', 'Travaux de détails ultra-fins'],
     seo: {
-      title: 'KB Lame Couteau d\'Art Compatible OLFA KB | Lame Couteau d\'Art | Alya Blade',
+      title: 'KB Lame Couteau d\'Art Compatible OLFA | Alya Blade',
       description: 'KB lame couteau d\'art de précision. OLFA KB compatible 40,5×6×0,45mm, 1 encoche. Arts du papier, calligraphie, pochoirs. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame OLFA KB', 'lame couteau d\'art', 'KB lame hobby', 'lame arts du papier', 'lame calligraphie'],
     },
@@ -1948,7 +1948,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Lame de remplacement compatible OLFA KB4-R/5', '38,5×6×0,45mm', 'Forme de découpe courbe pour arcs et contours', 'Épaisseur 0,45mm — découpe de précision', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe courbe et de contours', 'Travaux de pochoirs et gabarits', 'Applications artistiques professionnelles'],
     seo: {
-      title: 'KB4-R/5 Lame Couteau d\'Art Courbe Compatible OLFA | Lame Courbe | Alya Blade',
+      title: 'KB4-R/5 Lame Hobby Courbe OLFA | Alya Blade',
       description: 'KB4-R/5 lame hobby compatible OLFA. 38,5×6×0,45mm profil courbe. Pochoirs, art, découpe précision. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['KB4-R/5 lame', 'OLFA KB4-R compatible', 'couteau d\'art courbe', 'lame pochoir', 'lame art courbe'],
     },
@@ -1965,7 +1965,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Design dentelé étroit', '64×11/6×0,35mm', 'Épaisseur ultra-fine 0,35mm', 'Coupe mousse et matériaux tendres sans déchirement', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe de mousse', 'Modélisme en polystyrène', 'Découpe d\'éponge et matériaux tendres'],
     seo: {
-      title: 'KB4-NS/3 Lame Hobby Dentelée Compatible OLFA | Lame Dentelée | Alya Blade',
+      title: 'KB4-NS/3 Lame Hobby Dentelée Compatible OLFA | Alya Blade',
       description: 'KB4-NS/3 lame hobby dentelée étroite. OLFA KB4-NS/3, 64×11/6×0,35mm. Mousse, éponge, polystyrène. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['KB4-NS/3 lame dentelée', 'OLFA lame dentelée', 'lame découpe mousse', 'dentelure étroite', 'lame éponge'],
     },
@@ -1982,7 +1982,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Design dentelé large', '66,5×11/6×0,35mm — la plus longue de la série', 'Épaisseur ultra-fine 0,35mm', 'Coupe mousse épaisse et balsa sans déchirement', 'Qualité Sheffield Durham Duplex'],
     applications: ['Découpe de mousse épaisse', 'Modélisme en balsa', 'Maquettes d\'architecture en mousse'],
     seo: {
-      title: 'KB4-WS/3 Lame Hobby Dentelée Large Compatible OLFA | Lame Dentelée Large | Alya Blade',
+      title: 'KB4-WS/3 Lame Hobby Dentelée Large | Alya Blade',
       description: 'KB4-WS/3 lame hobby dentelée large. OLFA KB4-WS/3, 66,5×11/6×0,35mm. Mousse épaisse, balsa, polystyrène. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['KB4-WS/3 dentelée large', 'OLFA dentelée large', 'lame mousse épaisse', 'lame balsa', 'lame dentelure large'],
     },
@@ -2028,7 +2028,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Les lames hachoir fibre de verre de la série B581 sont fabriquées en <strong>acier spécial avec pointe en carbure de tungstène</strong>, conçues pour les lignes de coupe de roving en fibre de verre. Avec une dureté HRC 68-72, elles offrent une résistance exceptionnelle contre les brins de fibre de verre abrasifs.</p><h3>Détails Techniques</h3><ul><li><strong>Double biseau 30° :</strong> Distribution uniforme de l'usure et durée de vie prolongée</li><li><strong>Alliage de carbure de tungstène :</strong> Performance de coupe 5 à 8 fois supérieure à l'acier standard</li><li><strong>Tolérance de précision :</strong> Précision dimensionnelle ±0,02 mm pour un ajustement parfait à la machine</li><li><strong>Lots de 25 :</strong> Gestion facile des stocks et changement groupé rapide</li></ul><h3>Applications</h3><p>Utilisées dans les lignes de production GRP et FRP, les machines de coupe de roving en fibre de verre. Essentielles pour les composites : pièces automobiles, coques de bateaux, pales d'éoliennes, fabrication de tuyaux et réservoirs.</p>`,
     seo: {
-      title: 'B581 Lame Hachoir Fibre de Verre 120mm | Carbure de Tungstène | Alya Blade',
+      title: 'B581 Lame Hachoir Fibre de Verre 120mm | Alya Blade',
       description: 'Lame hachoir B581 en carbure de tungstène pour fibre de verre, 120×7,94×0,71mm. Affûtage double face 30°. Haute résistance à l\'usure pour lignes GRP/FRP.',
       keywords: ['lame hachoir fibre de verre', 'lame coupe fibre de verre', 'carbure de tungstène', 'lame GRP', 'B581', 'lame FRP', 'lame fiberglass'],
     },
@@ -2069,7 +2069,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Les lames circulaires rotatives de la série B657 sont fabriquées pour être <strong>entièrement compatibles avec les cutters rotatifs OLFA</strong>, offrant une performance de coupe professionnelle. Disponibles en acier à haute teneur en carbone et en acier inoxydable.</p><h3>Options de modèles</h3><ul><li><strong>RB18-2 (18 mm, inoxydable) :</strong> Montage hexagonal, idéal pour la coupe de détail. En acier inoxydable.</li><li><strong>RB28-10 (28 mm) :</strong> Système de montage à 3 encoches, adapté aux travaux de coupe moyens.</li><li><strong>RB45-10 (45 mm) :</strong> 3 encoches, le diamètre le plus couramment utilisé. Choix standard pour la coupe de tissu et de cuir.</li><li><strong>RB60-1 (60 mm) :</strong> 3 encoches, conçu pour les coupes de grand diamètre et les matériaux épais.</li><li><strong>PRB18-2 (18 mm, perforant, inoxydable) :</strong> 8 canaux de perforation pour créer des lignes de coupe perforées. En acier inoxydable.</li></ul><h3>Applications</h3><p>Largement utilisé dans les ateliers textiles et de confection, l'industrie du cuir, la découpe de papier et carton, et les loisirs créatifs comme le patchwork, le quilting et le scrapbooking.</p>`,
     seo: {
-      title: 'B657 Lames Circulaires Rotatives Compatible OLFA | 18-28-45-60 mm | Alya Blade',
+      title: 'B657 Lames Circulaires Rotatives Compatible | Alya Blade',
       description: 'Lames circulaires rotatives B657 compatibles OLFA. Diamètres 18 mm, 28 mm, 45 mm, 60 mm en acier inoxydable et carbone. Lames rotatives professionnelles pour textile, cuir et papier.',
       keywords: ['lame circulaire rotative', 'lame compatible OLFA', 'lame cutter rotatif', 'lame coupe tissu', 'lame coupe cuir', 'RB45', 'RB28', 'RB60', 'RB18', 'PRB18', 'B657', 'lame OLFA'],
     },
@@ -2108,14 +2108,14 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Les lames pentagonales de la série 2CS1 sont des lames de coupe industrielles à géométrie spéciale fabriquées en <strong>carbure de tungstène monobloc</strong> et <strong>céramique monobloc</strong>. Avec des dimensions de 66/63/40×0,54 mm et des trous de montage de 2×4 mm, elles sont conçues pour une compatibilité directe avec les machines de production de sacs et big bags.</p><h3>Options de matériaux</h3><ul><li><strong>Carbure de tungstène monobloc :</strong> Dureté HRC 90+ avec la plus haute résistance à l'usure. Durée de vie prolongée sur les lignes de production intensives.</li><li><strong>Céramique monobloc – Blanche (Oxyde de zirconium) :</strong> Microdureté HV 1600+ avec structure chimiquement inerte. Idéale pour les applications approuvées au contact alimentaire.</li><li><strong>Céramique monobloc – Grise (Carbure de silicium) :</strong> Microdureté HV 1600+ avec haute résistance thermique.</li></ul><h3>Applications</h3><p>Utilisé dans les lignes de production de sacs en PP, les machines de big bags FIBC, les lignes de coupe de géotextile et bâches agricoles.</p>`,
     seo: {
-      title: '2CS1 Lame Pentagonale 66 mm | Carbure de Tungstène & Céramique | Alya Blade',
+      title: '2CS1 Lame Pentagonale 66 mm | Alya Blade',
       description: 'Lame pentagonale 2CS1 en carbure de tungstène monobloc et céramique, 66/63/40×0,54 mm. Lame de coupe industrielle ultra-résistante pour production de sacs, big bags et tissus PP.',
       keywords: ['lame pentagonale', 'lame carbure de tungstène', 'lame céramique', 'lame coupe sacs', 'lame big bag', 'lame FIBC', '2CS1', 'coupe pentagonale'],
     },
   },
   'b084075': {
     name: 'B084.075 – Lame Lamelle (Feuille) – Céramique & Carbure de Tungstène',
-    subtitle: 'Céramique monobloc & Carbure de tungstène monobloc — 84/80×7,5×1,0 mm',
+    subtitle: 'Céramique monobloc & Carbure de tungstène monobloc',
     shortDescription: 'Lame lamelle (feuille) B084.075 en céramique monobloc et carbure de tungstène monobloc, 84/80×7,5×1,0 mm. Lame de coupe industrielle ultra-longue durée pour lignes de refente de film, feuille, étiquettes, emballage et conversion de papier.',
     description: 'Lame lamelle B084.075 en céramique monobloc et carbure de tungstène pour lignes de refente de film, feuille, étiquettes et papier. 84/80×7,5×1,0 mm.',
     features: [
@@ -2146,7 +2146,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Les lames lamelles (feuilles) de la série B084.075 sont des lames industrielles à géométrie spéciale fabriquées en options <strong>céramique monobloc</strong> et <strong>carbure de tungstène monobloc</strong>. Avec des dimensions de 84/80×7,5×1,0 mm, elles sont conçues pour la compatibilité avec les machines de refente et de coupe.</p><h3>Options de Matériaux</h3><ul><li><strong>Céramique monobloc – Blanche (Oxyde de zirconium / ZrO₂) :</strong> Microdureté HV 1200+ avec une structure chimiquement inerte et anti-adhérente. Ne laisse aucun résidu adhésif sur les coupes de film et feuille. Sûr pour les lignes de coupe d'emballage alimentaire.</li><li><strong>Carbure de tungstène monobloc :</strong> Dureté HRC 90+ offrant la plus haute résistance à l'usure. Performance supérieure sur les matériaux abrasifs et les lignes de production à haute vitesse.</li></ul><h3>Applications</h3><p>Largement utilisé dans les lignes de refente de film et feuille PE/PP/PET/PVC, les machines de conversion d'étiquettes et rubans, les lignes de conversion de papier et carton, les unités de coupe de machines d'emballage, les lignes de refente de feuille d'aluminium et les machines de lamination.</p><h3>Détails Techniques</h3><p>La forme lamelle (feuille) présente une géométrie optimisée pour les coupes fines et précises. L'épaisseur de 1,0 mm assure une coupe sans vibration et sans bavure. Longueur totale de 84 mm avec une longueur de coupe effective de 80 mm pour la compatibilité avec les unités de refente compactes.</p>`,
     seo: {
-      title: 'B084.075 Lame Lamelle Feuille 84 mm | Céramique & Tungstène | Refente Film | Alya Blade',
+      title: 'B084.075 Lame Lamelle Feuille 84 mm | Alya Blade',
       description: 'Lame lamelle (feuille) B084.075 en céramique monobloc et carbure de tungstène monobloc, 84/80×7,5×1,0 mm. Lame de coupe industrielle ultra-longue durée pour lignes de refente de film, feuille, étiquettes et papier.',
       keywords: ['lame lamelle', 'lame feuille', 'lame coupe film', 'lame coupe feuille', 'lame coupe étiquettes', 'lame slitter', 'lame céramique', 'lame tungstène', 'B084.075'],
     },
@@ -2170,7 +2170,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'b207-3': {
     name: 'B207 XXL (LONG) — Lame pour Plaques de Plâtre',
-    subtitle: '170×19×0,80mm — 2 Encoches, 4 Trous — Lame de Coupe Placo / Cloison Sèche',
+    subtitle: '170×19×0,80mm',
     description: 'B207 XXL lame pour plaques de plâtre. 170×19×0,80mm, acier à haute teneur en carbone, 2 encoches, 4 trous. Lame professionnelle à corps allongé pour la coupe de plaques de plâtre et cloisons sèches. Secteur construction et rénovation.',
     shortDescription: 'B207 XXL lame pour plaques de plâtre. 170×19×0,80mm, acier à haute teneur en carbone, 2 encoches, 4 trous. Coupe professionnelle de plaques de plâtre.',
     features: [
@@ -2190,7 +2190,7 @@ export const productsFr: Record<string, ProductTranslation> = {
       'Construction professionnelle',
     ],
     seo: {
-      title: 'B207 XXL Lame Plaques de Plâtre 170×19mm | Lame Coupe Placo | Alya Blade',
+      title: 'B207 XXL Lame Plaques de Plâtre 170×19mm | Alya Blade',
       description: 'B207 XXL lame pour plaques de plâtre, 170×19×0,80mm, acier haute teneur carbone, 2 encoches, 4 trous. Coupe placo, cloison sèche. Qualité Sheffield. Distributeur autorisé.',
       keywords: ['lame plaques de plâtre', 'lame placo', 'B207 XXL', 'lame cloison sèche', 'lame coupe placo', '170mm lame', 'lame construction'],
     },
@@ -2274,7 +2274,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Design Supaslit — refendage de précision', '44/26×9×0,40mm', 'Configuration 2×Ø3mm trous', 'Conditionnement tube de 12 pièces', 'Pour machines de refendage industrielles'],
     applications: ['Refendage de films', 'Refendage de papier', 'Machines de refendage de précision'],
     seo: {
-      title: 'B226 Lame Supaslit 44/26×9mm | Lame de Refendage | Alya Blade',
+      title: 'B226 Lame Supaslit 44/26×9mm | Alya Blade',
       description: 'B226 lame Supaslit industrielle. 44/26×9×0,40mm, 2×Ø3mm, tube de 12. Films et papier. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame supaslit', 'lame refendage', 'B226', 'lame film refendage', 'lame refendage industrielle', 'refendage précision'],
     },
@@ -2292,7 +2292,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['Pointe arrondie — sécurité d\'abord', 'Risque minimal d\'endommagement du matériau sous-jacent', '52×19×0,6mm taille standard crochet', '2 encoches, 3 trous', 'Qualité Sheffield Durham Duplex'],
     applications: ['Ouverture sécurisée d\'emballages', 'Opérations de commerce de détail', 'Sécurité en entrepôt', 'Manipulation de produits de valeur'],
     seo: {
-      title: 'Lame Crochet Pointe Arrondie 52×19mm | Lame Crochet Sécurisée | Alya Blade',
+      title: 'Lame Crochet Pointe Arrondie 52×19mm | Alya Blade',
       description: 'Lame crochet à pointe arrondie. 52×19×0,6mm, ouverture sécurisée d\'emballages. Sans endommagement du matériau. Sheffield Durham Duplex. Distributeur autorisé.',
       keywords: ['lame crochet pointe arrondie', 'lame crochet sécurisée', 'lame crochet arrondie', 'lame ouverture emballage', 'lame sans dommage'],
     },
@@ -2670,7 +2670,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Emballage MAP (Atmosphère Modifiée)', 'Industrie alimentaire — viande, fromage, plats préparés', 'Emballage dispositifs médicaux'],
     seo: {
-      title: 'Lame Emballage Sous Vide | Couteau Thermoformage | Acier Sheffield',
+      title: 'Lame Emballage Sous Vide | Alya Blade',
       description: 'Lame professionnelle pour emballage sous vide et thermoformage. Acier Sheffield HRC 58-60, qualité alimentaire Ra ≤0.4 µm. Compatible Multivac, Tiromat, GEA, Ulma, Sealpac. Fabricant certifié ISO 9001.',
       keywords: ['lame emballage sous vide', 'couteau thermoformage', 'lame machine emballage', 'lame Multivac', 'lame Tiromat', 'couteau emballage alimentaire', 'lame MAP', 'lame vacuum packaging', 'couteau machine emballage sous vide', 'lame industrielle emballage'],
     },
@@ -2726,7 +2726,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Poinçonnage alimentaire'],
     seo: {
-      title: 'Poinçon Demi-Étoile Thermoformage | Multivac Tiromat Compatible',
+      title: 'Poinçon Demi-Étoile Thermoformage | Alya Blade',
       description: 'Poinçon demi-étoile professionnel pour emballage sous vide et thermoformage. Acier D2 haute résistance, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon demi-étoile', 'poinçon thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'acier D2']
     },
@@ -2754,7 +2754,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Poinçonnage industriel'],
     seo: {
-      title: 'Poinçon Étoile Complète Thermoformage | Multivac Tiromat Compatible',
+      title: 'Poinçon Étoile Complète Thermoformage | Alya Blade',
       description: 'Poinçon étoile complète professionnel pour emballage sous vide et thermoformage. Acier D2 qualité Sheffield, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon étoile', 'poinçon thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire', 'poinçon industriel']
     },
@@ -2811,7 +2811,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Découpe rotative'],
     seo: {
-      title: 'Lame Circulaire Rotative Thermoformage | Multivac Tiromat Compatible',
+      title: 'Lame Circulaire Rotative Thermoformage | Alya Blade',
       description: 'Lame circulaire rotative pour machines thermoformage et emballage sous vide. Acier Sheffield qualité, compatible Multivac, Tiromat, Opack, GEA, Ulma, Variovac.',
       keywords: ['lame circulaire', 'lame rotative', 'lame thermoformage', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'industrie alimentaire']
     },
@@ -2839,7 +2839,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Trous d\'aération'],
     seo: {
-      title: 'Poinçon à Air Rond Thermoformage | Multivac Tiromat Compatible',
+      title: 'Poinçon à Air Rond Thermoformage | Alya Blade',
       description: 'Poinçon rond pour trous d\'aération emballage sous vide et thermoformage. Acier inoxydable 440C, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon à air', 'poinçon rond', 'poinçon thermoformage', 'trou aération', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'inoxydable 440C']
     },
@@ -2867,7 +2867,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Emballage sous vide', 'Thermoformage', 'Trous d\'aération ovales'],
     seo: {
-      title: 'Poinçon à Air Ovale Thermoformage | Multivac Tiromat Compatible',
+      title: 'Poinçon à Air Ovale Thermoformage | Alya Blade',
       description: 'Poinçon ovale pour trous d\'aération emballage sous vide et thermoformage. Acier inoxydable 440C, compatible Multivac, Tiromat, Opack, GEA, Ulma.',
       keywords: ['poinçon à air', 'poinçon ovale', 'poinçon thermoformage', 'trou aération', 'emballage sous vide', 'Multivac', 'Tiromat', 'Opack', 'Betapak', 'GEA', 'Alcan', 'Ulma', 'Variovac', 'inoxydable 440C']
     },
@@ -3045,7 +3045,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe textile', 'Refendage de films', 'Découpe de papier', 'Refendage plastique', 'Emballage'],
     seo: {
-      title: 'Lame 3 Trous Acier Carbone 43x22mm | Refendage Industriel HRC 58-60',
+      title: 'Lame 3 Trous Acier Carbone 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous en acier carbone haute teneur (0,85-1,00% C), dureté HRC 58-60. Angle 22°, durée de vie 3-5x supérieure. Pour textile, film et papier.',
       keywords: ['lame 3 trous', 'lame refendage', 'lame acier carbone', 'lame 43x22', 'lame industrielle', 'lame textile', 'lame film', 'lame papier', 'lame emballage', 'lame slitter']
     },
@@ -3063,7 +3063,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe ruban adhésif', 'Refendage lamination', 'Films thermosensibles', 'Découpe étiquettes'],
     seo: {
-      title: 'Lame 3 Trous Revêtement Titane TiN 43x22mm | 2300 HV Faible Friction',
+      title: 'Lame 3 Trous Revêtement Titane TiN 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous avec revêtement titane TiN PVD, dureté 2300 HV. 40% moins de friction, durée de vie 2-3x. Idéale pour ruban adhésif et lamination.',
       keywords: ['lame 3 trous titane', 'lame TiN', 'lame dorée', 'lame 43x22', 'lame 2300 HV', 'lame faible friction', 'lame ruban adhésif', 'lame lamination', 'lame PVD', 'lame refendage']
     },
@@ -3081,7 +3081,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Emballage alimentaire', 'Environnements humides', 'Découpe hygiénique', 'Lamination', 'Refendage de films'],
     seo: {
-      title: 'Lame 3 Trous Inoxydable + Titane 43x22mm | Double Protection Corrosion',
+      title: 'Lame 3 Trous Inoxydable + Titane 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous inoxydable avec revêtement titane TiN. Adhérence supérieure 25-30%, résistance corrosion. Pour emballage alimentaire et environnements humides.',
       keywords: ['lame 3 trous inoxydable', 'lame titane inox', 'lame 43x22', 'lame anti-corrosion', 'lame alimentaire', 'lame hygiénique', 'lame TiN inoxydable', 'lame refendage', 'lame double protection']
     },
@@ -3099,7 +3099,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Machines textiles demi-lame', 'Découpe étroite', 'Systèmes multi-stations', 'Machines d\'emballage'],
     seo: {
-      title: 'Lame 3 Trous Inox + Titane Incisée 43x22mm | Sécable en Demi-Lame',
+      title: 'Lame 3 Trous Inox + Titane Incisée 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous inoxydable + TiN avec ligne de rupture laser. Divisible en deux demi-lames 21,5mm. Usage flexible et économique pour multi-stations.',
       keywords: ['lame 3 trous incisée', 'lame sécable', 'lame divisible', 'lame 43x22', 'lame demi-lame', 'lame inox titane', 'lame textile', 'lame multi-stations', 'lame économique', 'lame refendage']
     },
@@ -3117,7 +3117,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Refendage haute vitesse', 'Matériaux thermosensibles', 'Applications friction critique', 'Découpe matériaux abrasifs'],
     seo: {
-      title: 'Lame 3 Trous Revêtement Céramique 43x22mm | 3200 HV Haute Température',
+      title: 'Lame 3 Trous Revêtement Céramique 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous avec revêtement céramique 3200+ HV, résiste à 800°C. 50-60% moins de friction. Pour refendage haute vitesse et matériaux abrasifs.',
       keywords: ['lame 3 trous céramique', 'lame 3200 HV', 'lame 43x22', 'lame haute température', 'lame 800°C', 'lame haute vitesse', 'lame faible friction', 'lame abrasif', 'lame refendage', 'lame industrielle']
     },
@@ -3153,7 +3153,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Films ultrasensibles à la chaleur', 'Industrie alimentaire (compatible détecteur métaux)', 'Matériaux chimiques réactifs', 'Salles blanches', 'Composants électroniques'],
     seo: {
-      title: 'Lame 3 Trous Céramique Zircone Massif 43x22mm | Sans Métal Biocompatible',
+      title: 'Lame 3 Trous Céramique Zircone Massif 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous en céramique zircone massive, dureté HV 1200-1400. Sans contamination métallique, compatible détecteur métaux. Pour alimentaire et salles blanches.',
       keywords: ['lame 3 trous céramique', 'lame zircone', 'lame 43x22', 'lame sans métal', 'lame biocompatible', 'lame salle blanche', 'lame alimentaire', 'lame détecteur métaux', 'lame chimiquement inerte', 'lame électronique']
     },
@@ -3171,7 +3171,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Transition depuis rasoirs', 'Découpe textile', 'Refendage de films', 'Usage général'],
     seo: {
-      title: 'Lame 3 Trous Acier Carbone Bord Arrondi 43x22mm | Style Rasoir',
+      title: 'Lame 3 Trous Acier Carbone Bord Arrondi 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous acier carbone avec bord arrondi style rasoir. Ergonomie familière avec durabilité industrielle. Pour transition depuis rasoirs standard.',
       keywords: ['lame 3 trous bord arrondi', 'lame carbone arrondi', 'lame 43x22', 'lame style rasoir', 'lame ergonomique', 'lame textile', 'lame refendage film', 'lame transition', 'lame industrielle']
     },
@@ -3189,7 +3189,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Environnements humides', 'Transition industrie alimentaire', 'Découpe matériaux adhésifs', 'Entreprises priorité ergonomie'],
     seo: {
-      title: 'Lame 3 Trous Inox + Titane Bord Arrondi 43x22mm | Ergonomique Premium',
+      title: 'Lame 3 Trous Inox + Titane Bord Arrondi 43x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous inoxydable + TiN avec bord arrondi ergonomique. Résistance corrosion et faible friction. Pour environnements humides et alimentaire.',
       keywords: ['lame 3 trous bord arrondi', 'lame inox titane arrondi', 'lame 43x22', 'lame ergonomique premium', 'lame anti-corrosion', 'lame alimentaire', 'lame humide', 'lame adhésif', 'lame TiN', 'lame refendage']
     },
@@ -3207,7 +3207,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Découpe haute vitesse ergonomique', 'Matériaux thermosensibles', 'Transition utilisateurs segment premium'],
     seo: {
-      title: 'Lame 3 Trous Carbone + Céramique Bord Arrondi 43x22mm | 800°C',
+      title: 'Lame 3 Trous Carbone + Céramique Bord | Alya Blade',
       description: 'Lame de refendage 3 trous carbone + céramique avec bord arrondi. Résiste à 800°C avec ergonomie familière. Pour découpe haute vitesse et thermosensibles.',
       keywords: ['lame 3 trous céramique arrondi', 'lame carbone céramique', 'lame 43x22', 'lame ergonomique', 'lame haute température', 'lame 800°C', 'lame haute vitesse', 'lame faible friction', 'lame thermosensible', 'lame premium']
     },
@@ -3225,7 +3225,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     applications: ['Refendage bobines larges', 'Opérations multi-bandes', 'Machines refendage haute capacité', 'Production échelle industrielle'],
     seo: {
-      title: 'Lame 3 Trous Inox + Titane 60x22mm | Grand Format Bobines Larges',
+      title: 'Lame 3 Trous Inox + Titane 60x22mm | Alya Blade',
       description: 'Lame de refendage 3 trous grand format 60x22mm inoxydable + TiN. Ligne de coupe étendue pour bobines larges et machines haute capacité. Moins de changements lame.',
       keywords: ['lame 3 trous 60x22', 'lame grand format', 'lame inox titane', 'lame bobines larges', 'lame haute capacité', 'lame multi-bandes', 'lame TiN', 'lame production industrielle', 'lame refendage', 'lame longue']
     },
@@ -3273,7 +3273,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Le B301 est une <strong>lame de scalpel N°10</strong> de 41×8,3×0,40mm, le profil de lame chirurgicale le plus universellement utilisé au monde. Le bord de coupe incurvé avec dos non affûté est conçu pour les incisions cutanées et musculaires.</p><h3>Spécifications Techniques</h3><ul><li>Numéro de lame : N°10</li><li>Dimensions : 41×8,3×0,40mm</li><li>Matériau : Acier carbone, HRC 55-58</li><li>Manche : Compatible #3 (fixation Bard-Parker)</li><li>Conditionnement : 100 pcs/boîte (20×5 bandes), non stérile</li><li>Normes : BS 2982, ISO 7740</li></ul>`,
     seo: {
-      title: 'Lame Scalpel N°10 (B301) 41×8,3mm Acier Carbone | Lame Chirurgicale Manche #3',
+      title: 'Lame Scalpel N°10 (B301) 41×8,3mm Acier Carbone | Alya Blade',
       description: 'Lame scalpel N°10 41×8,3×0,40mm acier carbone, compatible manche #3. BS 2982, ISO 7740. 100 pcs/boîte. Chirurgie, histologie, pathologie. Compatible Swann Morton.',
       keywords: ['lame scalpel n°10', 'lame chirurgicale n°10', 'scalpel acier carbone', 'lame bistouri 10', 'scalpel manche #3', 'BS 2982', 'ISO 7740', 'compatible Swann Morton', 'lame histologie', 'lame pathologie', 'lame autopsie', 'scalpel non stérile', 'B301 scalpel', 'lame chirurgicale fournisseur'],
     },
@@ -3311,7 +3311,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Le B303 est une <strong>lame de scalpel N°11</strong> de 41×6,5×0,40mm. Le profil triangulaire à pointe aiguë avec bord de coupe parallèle au manche est idéal pour les ponctions et incisions de précision.</p><h3>Spécifications</h3><ul><li>N°11 — 41×6,5×0,40mm</li><li>Acier carbone, HRC 55-58</li><li>Manche #3 (Bard-Parker)</li><li>100 pcs/boîte, non stérile</li><li>BS 2982, ISO 7740</li></ul>`,
     seo: {
-      title: 'Lame Scalpel N°11 (B303) 41×6,5mm | Lame Triangulaire Pointue',
+      title: 'Lame Scalpel N°11 (B303) 41×6,5mm | Alya Blade',
       description: 'Lame scalpel N°11 41×6,5×0,40mm, triangulaire pointe aiguë. Acier carbone, manche #3. Ponctions, pochoirs, laboratoire. 100 pcs/boîte. BS 2982, ISO 7740.',
       keywords: ['lame scalpel n°11', 'lame chirurgicale 11', 'scalpel triangulaire', 'lame pointue', 'scalpel ponction', 'lame pochoir', 'Swann Morton 11', 'B303 scalpel'],
     },
@@ -3368,7 +3368,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Le B306 est une <strong>lame de scalpel N°20</strong> de 45×9×0,40mm, version agrandie du N°10 pour manche #4.</p><h3>Spécifications</h3><ul><li>N°20 — 45×9×0,40mm</li><li>Acier carbone, HRC 55-58</li><li>Manche #4 (grand Bard-Parker)</li><li>100 pcs/boîte, non stérile</li><li>BS 2982, ISO 7740</li></ul>`,
     seo: {
-      title: 'Lame Scalpel N°20 (B306) 45×9mm | Grande Lame Chirurgicale Manche #4',
+      title: 'Lame Scalpel N°20 (B306) 45×9mm | Alya Blade',
       description: 'Lame scalpel N°20 45×9×0,40mm, grand bord incurvé. Acier carbone, manche #4. Chirurgie générale, orthopédie, vétérinaire. 100 pcs/boîte. BS 2982.',
       keywords: ['lame scalpel n°20', 'lame chirurgicale 20', 'scalpel grand format', 'lame manche #4', 'scalpel orthopédie', 'Swann Morton 20', 'B306 scalpel'],
     },
@@ -3394,7 +3394,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['N°22 — chirurgie cardiaque et thoracique', '58×11,4×0,40mm', 'Version agrandie du N°20', 'Compatible manche #4 (grand Bard-Parker)', 'Acier carbone', 'Non stérile, 100 pcs/boîte'],
     applications: ['Chirurgie cardiaque', 'Chirurgie thoracique', 'Chirurgie générale', 'Médecine vétérinaire', 'Découpe industrielle'],
     seo: {
-      title: 'Lame Scalpel N°22 (B308) 58×11,4mm | Lame Chirurgie Cardiaque',
+      title: 'Lame Scalpel N°22 (B308) 58×11,4mm | Alya Blade',
       description: 'Lame scalpel N°22 58×11,4×0,40mm, chirurgie cardiaque et thoracique. Acier carbone, manche #4. Résection pulmonaire. 100 pcs/boîte. BS 2982, ISO 7740.',
       keywords: ['lame scalpel n°22', 'lame chirurgicale 22', 'scalpel cardiaque', 'scalpel thoracique', 'lame résection pulmonaire', 'Swann Morton 22', 'B308 scalpel'],
     },
@@ -3407,7 +3407,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     features: ['N°23 — profil en forme de feuille', '51,5×10×4×0,40mm', 'Pour incisions longues continues', 'Compatible manche #4 (grand Bard-Parker)', 'Acier carbone', 'Non stérile, 100 pcs/boîte'],
     applications: ['Incisions longues', 'Chirurgie générale', 'Chirurgie plastique', 'Médecine vétérinaire', 'Découpe industrielle'],
     seo: {
-      title: 'Lame Scalpel N°23 (B309) 51,5×10mm | Lame en Feuille Incisions Longues',
+      title: 'Lame Scalpel N°23 (B309) 51,5×10mm | Alya Blade',
       description: 'Lame scalpel N°23 51,5×10×4×0,40mm, forme feuille pour incisions longues. Acier carbone, manche #4. Chirurgie générale, plastique. 100 pcs/boîte. BS 2982.',
       keywords: ['lame scalpel n°23', 'lame chirurgicale 23', 'scalpel feuille', 'incisions longues', 'Swann Morton 23', 'B309 scalpel'],
     },
@@ -3483,7 +3483,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>Notre lame pour fibres Mark IV en acier inoxydable offre des performances fiables sur les lignes de production de fibres coupées. Spécialement conçue avec des dimensions de 74,5×15,6×0,88mm pour une compatibilité parfaite avec les machines Mark IV.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 74,5×15,6×0,88mm</li><li>Matériau : Acier inoxydable anticorrosion</li><li>Arête optimisée pour fibres synthétiques et textiles</li></ul><h3>Applications</h3><ul><li>Lignes de production de fibres coupées</li><li>Fibres synthétiques (polyester, nylon, polypropylène)</li><li>Fibres textiles et industrielles</li></ul>',
     seo: {
-      title: 'Lame Mark IV Acier Inoxydable 74,5×15,6mm | Lame Fibres Coupées',
+      title: 'Lame Mark IV Acier Inoxydable 74,5×15,6mm | Alya Blade',
       description: 'Lame acier inoxydable pour machines Mark IV. 74,5×15,6×0,88mm. Résistant à la corrosion. Production de fibres coupées.',
       keywords: ['lame fibre mark iv', 'lame fibres coupées', 'lame fibre acier inoxydable', 'mark iv lame 74,5mm', 'lame coupe fibre mark iv', 'lame acier inoxydable fibres', 'mark iv 74,5×15,6mm', 'lame industrielle fibres coupées', 'couteau fibre mark iv', 'lame fibre polyester', 'lame fibre synthétique', 'b644 lame fibre'],
     },
@@ -3502,7 +3502,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame Mark IV revêtue TiN (nitrure de titane) prolonge la durée de vie de 2 à 3 fois par rapport à l\'acier inoxydable standard. Idéale pour les fibres abrasives comme le verre et le carbone.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 74,5×15,6×0,88mm</li><li>Revêtement : TiN — dureté ~2300 HV</li><li>Durée de vie : 2-3x plus longue que l\'acier standard</li></ul><h3>Applications</h3><ul><li>Fibres de verre — résistance à l\'abrasion</li><li>Fibres synthétiques haute production</li><li>Lignes de production nécessitant moins d\'arrêts</li></ul>',
     seo: {
-      title: 'Lame Mark IV Revêtement TiN 74,5×15,6mm | Lame Fibres Coupées',
+      title: 'Lame Mark IV Revêtement TiN 74,5×15,6mm | Alya Blade',
       description: 'Lame revêtue TiN pour Mark IV. 74,5×15,6×0,88mm. Durée de vie 2-3 fois plus longue. Fibres de verre et abrasives.',
       keywords: ['lame fibre tin', 'revêtement tin lame', 'mark iv lame tin', 'nitrure titane lame fibre', 'lame tin mark iv 74,5mm', 'lame fibres verre tin', 'lame tin coupe fibre', 'revêtement nitrure titane', 'lame longue durée fibre', 'b644 tin lame', 'lame abrasive tin mark iv', 'mark iv tin 74,5×15,6mm'],
     },
@@ -3521,7 +3521,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame Mark IV en carbure de tungstène monobloc est la solution ultime pour les applications les plus exigeantes. Avec une dureté de ~1500 HV, elle offre une résistance à l\'usure inégalée.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 74,5×15,5×0,90mm</li><li>Matériau : Carbure de tungstène monobloc — ~1500 HV</li><li>Durée de vie : 3-4x plus longue que l\'acier</li></ul><h3>Applications</h3><ul><li>Fibres de verre — résistance à l\'abrasion extrême</li><li>Fibres de carbone — coupe de haute précision</li><li>Lignes de production à forte usure</li></ul>',
     seo: {
-      title: 'Lame Mark IV Carbure Tungstène 74,5×15,5mm | Lame Fibres Coupées',
+      title: 'Lame Mark IV Carbure Tungstène 74,5×15,5mm | Alya Blade',
       description: 'Lame carbure de tungstène monobloc pour Mark IV. 74,5×15,5×0,90mm. Résistance maximale. Fibres de verre, carbone.',
       keywords: ['carbure tungstène lame mark iv', 'lame tungstène fibre', 'mark iv tungstène', 'lame monobloc tungstène mark iv', 'lame carbure coupe fibre', 'tungstène 74,5×15,5mm', 'lame fibre verre tungstène', 'lame fibre carbone', 'b644 tungstène', 'lame haute résistance fibre', 'lame tungstène monobloc industrielle', 'mark iv carbure tungstène'],
     },
@@ -3541,7 +3541,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame Mark V en acier inoxydable offre une surface de coupe plus large grâce à son corps allongé de 117,5mm. Conçue pour les machines Mark V avec une résistance à la corrosion optimale.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 117,5×15,6×0,88mm — corps allongé</li><li>Matériau : Acier inoxydable anticorrosion</li><li>Surface de coupe plus large que le Mark IV</li></ul><h3>Applications</h3><ul><li>Lignes de production de fibres coupées haute capacité</li><li>Fibres synthétiques (polyester, nylon, polypropylène)</li><li>Fibres textiles et industrielles</li></ul>',
     seo: {
-      title: 'Lame Mark V Acier Inoxydable 117,5×15,6mm | Lame Fibres Coupées',
+      title: 'Lame Mark V Acier Inoxydable 117,5×15,6mm | Alya Blade',
       description: 'Lame acier inoxydable pour Mark V. 117,5×15,6×0,88mm. Surface de coupe plus large. Fibres coupées.',
       keywords: ['lame fibre mark v', 'lame fibres coupées mark v', 'lame fibre 117mm', 'mark v lame acier inoxydable', 'lame coupe fibre mark v', 'mark v 117,5×15,6mm', 'lame industrielle mark v', 'couteau fibre mark v', 'lame fibre polyester mark v', 'b645 lame fibre', 'lame longue mark v', 'lame fibre synthétique mark v'],
     },
@@ -3560,14 +3560,14 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame Mark V revêtue TiN combine le corps allongé de 117,5mm avec le revêtement nitrure de titane pour une durée de vie 2-3 fois plus longue. Idéale pour les fibres abrasives à haute production.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 117,5×15,6×0,88mm — corps allongé</li><li>Revêtement : TiN — dureté ~2300 HV</li><li>Durée de vie : 2-3x plus longue que l\'acier standard</li></ul><h3>Applications</h3><ul><li>Fibres de verre et abrasives</li><li>Lignes haute production nécessitant moins d\'arrêts</li><li>Fibres synthétiques haute résistance</li></ul>',
     seo: {
-      title: 'Lame Mark V Revêtement TiN 117,5×15,6mm | Lame Fibres Coupées',
+      title: 'Lame Mark V Revêtement TiN 117,5×15,6mm | Alya Blade',
       description: 'Lame revêtue TiN pour Mark V. 117,5×15,6×0,88mm. Durée de vie 2-3x plus longue.',
       keywords: ['mark v lame tin', 'lame fibre tin 117mm', 'revêtement tin mark v', 'lame tin coupe fibre mark v', 'nitrure titane mark v', 'lame longue durée mark v', 'mark v tin 117,5×15,6mm', 'lame abrasive tin mark v', 'b645 tin lame', 'lame fibres verre tin mark v', 'lame tin haute production', 'couteau tin mark v'],
     },
   },
   'b645-yekpare-tungsten-centikli': {
     name: 'Lame pour Fibres (Mark V) – Carbure de Tungstène Monobloc (Dentelée)',
-    subtitle: 'Carbure de Tungstène Monobloc, Arête Dentelée — 117,5×15,6×0,89mm',
+    subtitle: 'Carbure de Tungstène Monobloc, Arête Dentelée',
     description: 'Lame dentelée en carbure de tungstène monobloc pour machines Mark V. 117,5×15,6×0,89mm. L\'arête dentelée saisit les fibres pour une coupe plus contrôlée.',
     shortDescription: 'Lame tungstène dentelée pour Mark V. 117,5×15,6×0,89mm.',
     features: ['Compatible machines Mark V', '117,5×15,6×0,89mm', 'Carbure de tungstène monobloc', 'Arête dentelée — coupe contrôlée', 'Fibres de verre et carbone'],
@@ -3579,14 +3579,14 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame Mark V en carbure de tungstène monobloc avec arête dentelée combine la résistance maximale du tungstène avec un design d\'arête qui saisit les fibres. Idéale pour les fibres de verre et de carbone nécessitant une coupe contrôlée.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 117,5×15,6×0,89mm — corps allongé</li><li>Matériau : Carbure de tungstène monobloc — ~1500 HV</li><li>Arête dentelée pour coupe contrôlée</li></ul><h3>Applications</h3><ul><li>Fibres de verre — coupe contrôlée abrasive</li><li>Fibres de carbone — précision avec agrippement</li><li>Lignes de production à forte usure</li></ul>',
     seo: {
-      title: 'Lame Mark V Tungstène Dentelée 117,5×15,6mm | Lame Fibres Coupées',
+      title: 'Lame Mark V Tungstène Dentelée 117,5×15,6mm | Alya Blade',
       description: 'Lame tungstène dentelée pour Mark V. 117,5×15,6×0,89mm. Coupe contrôlée. Fibres de verre, carbone.',
       keywords: ['lame tungstène dentelée', 'mark v tungstène dentelée', 'lame fibre dentelée', 'lame dentelée coupe fibre', 'tungstène dentelée mark v', 'lame carbure dentelée 117mm', 'b645 tungstène dentelée', 'lame fibre verre dentelée', 'lame fibre carbone dentelée', 'couteau tungstène dentelé mark v', 'lame monobloc dentelée', 'mark v tungstène 117,5mm'],
     },
   },
   'b645-yekpare-tungsten-duz': {
     name: 'Lame pour Fibres (Mark V) – Carbure de Tungstène Monobloc (Lisse)',
-    subtitle: 'Carbure de Tungstène Monobloc, Arête Lisse — 117,5×15,6×0,91mm',
+    subtitle: 'Carbure de Tungstène Monobloc, Arête Lisse',
     description: 'Lame lisse en carbure de tungstène monobloc pour machines Mark V. 117,5×15,6×0,91mm. L\'arête lisse offre une coupe nette sans bavures.',
     shortDescription: 'Lame tungstène lisse pour Mark V. 117,5×15,6×0,91mm.',
     features: ['Compatible machines Mark V', '117,5×15,6×0,91mm', 'Carbure de tungstène monobloc', 'Arête lisse — coupe nette', 'Fibres de verre et carbone'],
@@ -3598,7 +3598,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame Mark V en carbure de tungstène monobloc avec arête lisse offre une coupe nette et sans bavures. La dureté de ~1500 HV garantit une durée de vie exceptionnelle sur les fibres les plus abrasives.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 117,5×15,6×0,91mm — corps allongé</li><li>Matériau : Carbure de tungstène monobloc — ~1500 HV</li><li>Arête lisse pour coupe nette</li></ul><h3>Applications</h3><ul><li>Fibres de verre — coupe lisse abrasive</li><li>Fibres de carbone — précision sans bavures</li><li>Coupe de précision sur lignes à forte usure</li></ul>',
     seo: {
-      title: 'Lame Mark V Tungstène Lisse 117,5×15,6mm | Lame Fibres Coupées',
+      title: 'Lame Mark V Tungstène Lisse 117,5×15,6mm | Alya Blade',
       description: 'Lame tungstène lisse pour Mark V. 117,5×15,6×0,91mm. Coupe nette. Fibres de verre, carbone.',
       keywords: ['lame tungstène lisse', 'mark v tungstène lisse', 'lame fibre lisse', 'lame lisse coupe fibre', 'tungstène lisse mark v', 'lame carbure lisse 117mm', 'b645 tungstène lisse', 'lame fibre verre lisse', 'lame fibre carbone lisse', 'couteau tungstène lisse mark v', 'lame monobloc lisse', 'mark v tungstène lisse 117,5mm'],
     },
@@ -3618,7 +3618,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame courte Hercule en acier inoxydable offre des performances fiables sur les machines de coupe de fibres Hercule. Dimensions 95×19×0,88mm optimisées pour le type court.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 95×19×0,88mm — type court</li><li>Matériau : Acier inoxydable anticorrosion</li><li>Optimisée pour fibres synthétiques et textiles</li></ul><h3>Applications</h3><ul><li>Lignes de production de fibres coupées</li><li>Fibres synthétiques (polyester, nylon, polypropylène)</li><li>Fibres textiles industrielles</li></ul>',
     seo: {
-      title: 'Lame Hercule Court Acier Inoxydable 95×19mm | Lame Fibres Coupées',
+      title: 'Lame Hercule Court Acier Inoxydable 95×19mm | Alya Blade',
       description: 'Lame courte acier inoxydable pour machines Hercule. 95×19×0,88mm. Fibres coupées.',
       keywords: ['lame hercule', 'lame fibre hercule court', 'lame fibre 95mm', 'hercule lame acier inoxydable', 'lame coupe fibre hercule', 'hercule 95×19mm', 'lame industrielle hercule', 'couteau fibre hercule', 'b573 lame fibre', 'lame fibre synthétique hercule', 'lame hercule courte', 'lame fibres coupées hercule'],
     },
@@ -3656,7 +3656,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame longue Hercule en acier inoxydable offre une surface de coupe plus large grâce à son corps de 114mm. Conçue pour les machines Hercule avec une résistance à la corrosion optimale.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 114×19×0,88mm — type long</li><li>Matériau : Acier inoxydable anticorrosion</li><li>Surface de coupe 20% plus large que le type court</li></ul><h3>Applications</h3><ul><li>Lignes de production de fibres coupées haute capacité</li><li>Fibres synthétiques (polyester, nylon, polypropylène)</li><li>Fibres textiles industrielles</li></ul>',
     seo: {
-      title: 'Lame Hercule Long Acier Inoxydable 114×19mm | Lame Fibres Coupées',
+      title: 'Lame Hercule Long Acier Inoxydable 114×19mm | Alya Blade',
       description: 'Lame longue acier inoxydable pour Hercule. 114×19×0,88mm. Surface de coupe plus large.',
       keywords: ['hercule lame longue', 'lame fibre 114mm', 'fibres coupées hercule', 'hercule long acier inoxydable', 'lame coupe fibre hercule long', 'hercule 114×19mm', 'lame industrielle hercule long', 'couteau fibre hercule long', 'b574 lame fibre', 'lame fibre synthétique hercule', 'lame hercule longue surface', 'lame fibres textiles hercule'],
     },
@@ -3695,7 +3695,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame compacte Krupp en acier inoxydable offre des performances fiables pour les machines de coupe de fibres Krupp. Les dimensions 48×7,9×0,88mm sont optimisées pour un ajustement précis.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 48×7,9×0,88mm — format compact</li><li>Matériau : Acier inoxydable anticorrosion</li><li>Optimisée pour fibres synthétiques et textiles</li></ul><h3>Applications</h3><ul><li>Lignes de production de fibres coupées</li><li>Fibres synthétiques (polyester, nylon, polypropylène)</li><li>Fibres textiles industrielles</li></ul>',
     seo: {
-      title: 'Lame Krupp 48mm Acier Inoxydable 48×7,9mm | Lame Fibres Coupées',
+      title: 'Lame Krupp 48mm Acier Inoxydable 48×7,9mm | Alya Blade',
       description: 'Lame acier inoxydable pour Krupp. 48×7,9×0,88mm. Fibres coupées.',
       keywords: ['lame krupp', 'krupp lame 48mm', 'lame fibres coupées krupp', 'krupp acier inoxydable 48mm', 'lame coupe fibre krupp', 'krupp 48×7,9mm', 'lame industrielle krupp', 'couteau fibre krupp', 'b048 lame fibre', 'lame fibre synthétique krupp', 'lame compacte krupp', 'lame krupp acier'],
     },
@@ -3752,7 +3752,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: '<p>La lame Krupp 64mm en acier inoxydable offre une surface de coupe plus large que la version 48mm. Conçue pour les machines Krupp avec une résistance à la corrosion optimale.</p><h3>Caractéristiques Techniques</h3><ul><li>Dimensions : 64×7,9×0,88mm — plus long que le 48mm</li><li>Matériau : Acier inoxydable anticorrosion</li><li>Surface de coupe élargie</li></ul><h3>Applications</h3><ul><li>Lignes de production de fibres coupées</li><li>Fibres synthétiques (polyester, nylon, polypropylène)</li><li>Fibres textiles industrielles</li></ul>',
     seo: {
-      title: 'Lame Krupp 64mm Acier Inoxydable 64×7,9mm | Lame Fibres Coupées',
+      title: 'Lame Krupp 64mm Acier Inoxydable 64×7,9mm | Alya Blade',
       description: 'Lame acier inoxydable pour Krupp. 64×7,9×0,88mm. Surface de coupe plus large.',
       keywords: ['krupp lame 64mm', 'lame fibres coupées krupp 64', 'krupp acier inoxydable 64mm', 'lame coupe fibre krupp 64', 'krupp 64×7,9mm', 'lame industrielle krupp 64', 'couteau fibre krupp 64mm', 'b064 lame fibre', 'lame fibre synthétique krupp', 'lame krupp longue', 'lame krupp acier 64', 'fibres textiles krupp 64mm'],
     },
@@ -3846,7 +3846,7 @@ export const productsFr: Record<string, ProductTranslation> = {
 <h3>Pourquoi le profil bas ?</h3>
 <p>Les lames profil bas offrent un positionnement stable dans les porte-lames grâce à leur structure étroite. L'épaisseur de 0,25mm assure une vibration minimale et garantit une surface de coupe lisse. Idéal pour les blocs de paraffine tendres et de dureté moyenne.</p>`,
     seo: {
-      title: 'Lame Microtome B575 Profil Bas 80mm | Lame Histologie | Lame Microtome Jetable',
+      title: 'Lame Microtome B575 Profil Bas 80mm | Alya Blade',
       description: 'Lame microtome B575 profil bas 80,01×8,13×0,25mm. Affûtage triple facette, acier inoxydable. Pour histopathologie, coupes en paraffine. Compatible Leica, Thermo, Sakura. Qualité Sheffield.',
       keywords: [
         'lame microtome', 'lame microtome profil bas', 'lame histologie', 'lame pathologie',
@@ -3884,7 +3884,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>La <strong>lame LASIK B723 001 (2 encoches)</strong> est une lame chirurgicale ultra-précise jetable pour la création du volet cornéen en chirurgie LASIK. Dimensions : 38,1×7,94×0,25mm.</p><h3>Spécifications</h3><ul><li>Dimensions : 38,1×7,94×0,25mm</li><li>Montage : 2 encoches</li><li>Affûtage : Triple facette</li><li>Matériau : Acier inoxydable, dégraissé</li></ul><h3>Applications</h3><ul><li>Chirurgie LASIK — création du volet cornéen</li><li>Chirurgie réfractive — correction myopie et hypermétropie</li><li>Greffe de cornée — préparation de greffons lamellaires</li></ul>`,
     seo: {
-      title: 'Lame LASIK B723 001 2 Encoches 38mm | Chirurgie Oculaire | Microkératome',
+      title: 'Lame LASIK B723 001 2 Encoches 38mm | Alya Blade',
       description: 'Lame LASIK B723 001 à 2 encoches 38,1×7,94×0,25mm. Pour LASIK, chirurgie réfractive. Compatible Moria, Hansatome.',
       keywords: ['lame LASIK', 'lame microkératome', 'chirurgie oculaire', 'volet cornéen', 'B723 001', 'Moria', 'Hansatome', 'lame ophtalmique', 'chirurgie réfractive', 'prix lame LASIK'],
     },
@@ -3913,7 +3913,7 @@ export const productsFr: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>La <strong>lame LASIK B723 501 (1 encoche)</strong> est une lame chirurgicale jetable ultra-précise. 38,1×7,94×0,25mm avec montage 1 encoche.</p><h3>Spécifications</h3><ul><li>Dimensions : 38,1×7,94×0,25mm</li><li>Montage : 1 encoche</li><li>Affûtage : Triple facette</li><li>Matériau : Acier inoxydable, dégraissé</li></ul><h3>Applications</h3><ul><li>Chirurgie LASIK — création du volet cornéen</li><li>ALK — Kératoplastie lamellaire automatisée</li><li>Greffe de cornée</li></ul>`,
     seo: {
-      title: 'Lame LASIK B723 501 1 Encoche 38mm | Chirurgie Oculaire | Microkératome',
+      title: 'Lame LASIK B723 501 1 Encoche 38mm | Alya Blade',
       description: 'Lame LASIK B723 501 à 1 encoche 38,1×7,94×0,25mm. Compatible Amadeus, Carriazo-Barraquer.',
       keywords: ['lame LASIK', 'lame microkératome', 'chirurgie oculaire', 'B723 501', '1 encoche', 'Amadeus', 'Carriazo-Barraquer', 'Schwind', 'lame ophtalmique', 'prix lame LASIK'],
     },
@@ -3968,7 +3968,7 @@ export const productsFr: Record<string, ProductTranslation> = {
 <h3>Pourquoi le profil haut ?</h3>
 <p>Les lames profil haut avec leur corps large de 13,97mm offrent une stabilité maximale dans le porte-lame. Cette stabilité minimise les vibrations lors de la coupe des tissus durs, permettant des coupes lisses et parallèles. L'épaisseur de 0,30mm augmente la rigidité pour une coupe sécurisée des grands blocs.</p>`,
     seo: {
-      title: 'Lame Microtome B724 Profil Haut 80mm | Tissus Durs | Lame Microtome Jetable',
+      title: 'Lame Microtome B724 Profil Haut 80mm | Alya Blade',
       description: 'Lame microtome B724 profil haut 80,01×13,97×0,30mm. Pour tissus durs, os calcifiés, cryostat. Compatible Leica, Thermo, Sakura. Qualité Sheffield.',
       keywords: [
         'lame microtome', 'lame microtome profil haut', 'lame tissus durs', 'lame pathologie',
@@ -3986,7 +3986,7 @@ export const productsFr: Record<string, ProductTranslation> = {
 
   'b621': {
     name: 'B621 LAME GRATTOIR À VITRE',
-    subtitle: 'Lame de grattage professionnelle en acier inoxydable — 3 trous, laquée',
+    subtitle: 'Lame de grattage professionnelle en acier inoxydable',
     description: 'Série de lames grattoir B621. 3 trous, laquée, acier inoxydable (Rostfrei). Largeurs 60mm, 80mm, 100mm, 150mm. Gratte en toute sécurité les résidus de colle, silicone, ruban adhésif, étiquettes et films des surfaces vitrées sans rayer.',
     shortDescription: 'Lame grattoir B621 en acier inoxydable, 3 trous, laquée. 60–150mm. Gratte sans rayer. Retrait PPF, films de fenêtre, detailing auto.',
     features: [
@@ -4010,7 +4010,7 @@ export const productsFr: Record<string, ProductTranslation> = {
 <h3>Dimensions</h3><ul><li>60×22×0,20mm : Zones étroites</li><li>80×22×0,20mm : Grattage standard</li><li>100×22×0,20mm : Surfaces larges</li><li>150×22×0,20mm : Grands panneaux</li></ul>
 <h3>Applications</h3><ul><li>Nettoyage de vitres après construction</li><li>Retrait PPF et vinyle automobile</li><li>Detailing auto</li><li>Retrait de film de fenêtre</li><li>Nettoyage de façades et enseignes</li></ul>`,
     seo: {
-      title: 'Lame Grattoir B621 Acier Inoxydable 60–150mm | Lame de Grattage Vitre | Nettoyage Vitres',
+      title: 'Lame Grattoir B621 Acier Inoxydable 60–150mm | Alya Blade',
       description: 'Lame grattoir B621, acier inoxydable, 3 trous, laquée. 60mm–150mm. Gratte sans rayer. Retrait PPF, films, detailing auto. Qualité Sheffield.',
       keywords: ['lame grattoir vitre', 'grattoir à vitre', 'lame de grattage', 'B621', 'retrait colle', 'nettoyage vitres', 'retrait PPF', 'detailing auto', 'retrait film fenêtre', 'grattoir professionnel'],
     },
@@ -4019,7 +4019,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   // ─── B204 LAME CLASSIQUE — INDUSTRIELLE ───────────────────────────────────────
   'b204': {
     name: 'B204 LAME CLASSIQUE — INDUSTRIELLE',
-    subtitle: 'Acier Inoxydable Simple Tranchant — Options Revêtement PTFE / Sans Huile',
+    subtitle: 'Acier Inoxydable Simple Tranchant',
     description: 'Lame classique industrielle B204. 43×22×0,10mm (bord de coupe 37mm), acier inoxydable, simple tranchant. 3 variantes : Inox/Huilée, Inox+PTFE/Huilée, Inox+PTFE/Sans huile. Coupe et grattage professionnels pour papier, emballage, impression, retrait d\'étiquettes, grattage de peinture, découpe de films plastiques et textile.',
     shortDescription: 'Lame classique industrielle B204. 43×22×0,10mm, acier inoxydable, simple tranchant. Options PTFE et sans huile pour découpe papier, retrait d\'étiquettes, grattage peinture.',
     features: [
@@ -4054,7 +4054,7 @@ export const productsFr: Record<string, ProductTranslation> = {
 <h3>Avantage du PTFE</h3><ul><li><strong>Réduit la friction de 40-50%</strong></li><li><strong>Empêche l'accumulation d'adhésif</strong></li><li><strong>Prolonge la durée de vie 2-3x</strong></li><li><strong>Coupe plus lisse</strong> — réduit le risque de déchirure</li></ul>
 <h3>Variantes</h3><table><tr><th>Code</th><th>Caractéristique</th><th>Emballage</th><th>Usage idéal</th></tr><tr><td>B204 003</td><td>Inox, Huilée</td><td>Boîte 250 pcs</td><td>Usage industriel général</td></tr><tr><td>B204 004</td><td>Inox + PTFE, Huilée</td><td>Boîte bâton 2000 pcs</td><td>Grattage adhésif/étiquettes, gros volume</td></tr><tr><td>B204 007</td><td>Inox + PTFE, Sans huile</td><td>Boîte bâton 2000 pcs</td><td>Emballage alimentaire, hygiénique</td></tr></table>`,
     seo: {
-      title: 'Lame Classique B204 Inox PTFE 43×22mm | Lame Simple Tranchant Industrielle | Alya Blade',
+      title: 'Lame Classique B204 Inox PTFE 43×22mm | Alya Blade',
       description: 'Lame classique industrielle B204, 43×22×0,10mm, acier inoxydable, simple tranchant. Options PTFE et sans huile. Découpe papier, retrait étiquettes, grattage peinture.',
       keywords: ['lame classique', 'lame simple tranchant', 'B204', 'lame PTFE', 'lame grattoir', 'retrait étiquettes', 'grattage peinture', 'lame découpe', 'lame industrielle', 'sans huile'],
     },
@@ -4063,7 +4063,7 @@ export const productsFr: Record<string, ProductTranslation> = {
   // ─── B684/B685 LAME CLASSIQUE — MÉDICALE ──────────────────────────────────────
   'b684-b685': {
     name: 'B684/B685 LAME CLASSIQUE — MÉDICALE',
-    subtitle: 'Acier Inoxydable, Affûtage Triple Facette — Médical / Laboratoire',
+    subtitle: 'Acier Inoxydable, Affûtage Triple Facette',
     description: 'Lame classique médicale B684/B685. 38×19×0,10mm, acier inoxydable, affûtage triple facette, revêtue. Pour histologie, pathologie, dermatologie et laboratoire. B684 : 100 pcs/boîte, B685 : 250 pcs/boîte.',
     shortDescription: 'Lame classique médicale B684/B685. 38×19×0,10mm, acier inoxydable, triple facette. Laboratoires d\'histologie, pathologie, dermatologie.',
     features: [
@@ -4092,7 +4092,7 @@ export const productsFr: Record<string, ProductTranslation> = {
 <h3>Pourquoi le triple facette ?</h3><ul><li><strong>Dommages tissulaires minimaux</strong> — pas d'artéfacts histologiques</li><li><strong>Durée de vie prolongée</strong> — répartition de la charge sur trois niveaux</li><li><strong>Surface de coupe plus lisse</strong> — préserve l'intégrité cellulaire</li></ul>
 <h3>Applications</h3><ul><li><strong>Histologie :</strong> Coupes fines de blocs de paraffine</li><li><strong>Pathologie :</strong> Préparation de biopsies</li><li><strong>Dermatologie :</strong> Grattage cutané pour KOH</li><li><strong>Laboratoire :</strong> Grattage de précision, montage de lames</li></ul>`,
     seo: {
-      title: 'Lame Classique Médicale B684/B685 Triple Facette Inox | Lame Médicale Simple Tranchant',
+      title: 'Lame Classique Médicale B684/B685 Triple | Alya Blade',
       description: 'Lame classique médicale B684/B685, 38×19×0,10mm, acier inoxydable, triple facette. Histologie, pathologie, dermatologie. 100 et 250 pièces.',
       keywords: ['lame médicale', 'lame classique médicale', 'B684', 'B685', 'triple facette', 'lame histologie', 'lame pathologie', 'lame dermatologie', 'grattage cutané', 'lame laboratoire'],
     },

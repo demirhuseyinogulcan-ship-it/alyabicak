@@ -265,7 +265,46 @@ npm run dev       # Local dev server
 
 ---
 
-## 10. QUICK COMMAND REFERENCE
+## 10. PRODUCT GOLD STANDARD
+
+> **MANDATORY: All new products must meet Gold Standard quality.**
+> See `docs/PRODUCT_GOLD_STANDARD.md` for the full specification.
+
+### Quick Quality Requirements
+| Field | Minimum |
+|-------|---------|
+| `tags[]` | 10-16 items (TR + EN mix) |
+| `shortDescription` | 200-280 chars |
+| `longDescription` | 2000+ chars, 3+ `<h3>` sections |
+| `specs[]` | 5+ specs (material, dimensions, thickness, hardness, edge/form) |
+| `applications[]` | 5-9 items with title + icon + description |
+| `benefits[]` | 3-4 items with title + description + icon |
+| `features[]` | 7-10 items |
+| `seo.title` | Max 60 chars (TR/EN), 55 chars (AR), 58 chars (RU) |
+| `seo.description` | Max 155 chars |
+| `seo.keywords[]` | 12-18 localized keywords |
+| `relatedProductIds[]` | 2-5 related products |
+| `certifications[]` | Min `['CE']` |
+| Translations | ALL 4 locales (en, ar, fr, ru) with ALL 12 fields |
+
+### Content Authority Rules
+- **Rare Token Injection**: Use `HRC 58-62`, `SK5 / C85`, `Martensitik`, `PVD` — NOT `Premium`, `Yüksek kalite`
+- **Trinity Rule**: Schema.org `additionalProperty` ↔ `llms.txt` ↔ visible UI must show same values
+- **Fact-Based Authority**: Cite standards by name: CE, ISO 9001, DIN, GOST, SASO
+- **Arabic SEO**: Include regional keywords — `مصر`, `السعودية`, `الإمارات` in `seo.keywords[]`
+
+### Validation
+```bash
+# Run Gold Standard validator
+npx tsx scripts/validate-products.ts
+
+# Run i18n completeness check
+npx tsx scripts/check-i18n.ts
+```
+
+---
+
+## 11. QUICK COMMAND REFERENCE
 
 ```bash
 # Check for TypeScript errors
@@ -276,6 +315,12 @@ npm run build
 
 # Start dev server
 npm run dev
+
+# Validate products against Gold Standard
+npx tsx scripts/validate-products.ts
+
+# Check i18n coverage
+npx tsx scripts/check-i18n.ts
 
 # Find products without slugEN
 node -e "const d=require('./lib/data/scraped-products.json');(d.products||d).filter(p=>!p.slugEN).forEach(p=>console.log(p.id,p.slug))"
