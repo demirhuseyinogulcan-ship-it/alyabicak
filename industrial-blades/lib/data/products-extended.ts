@@ -6680,21 +6680,21 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     images: {
       main: {
         src: '/images/products/b621-cam-kaziyici-jilet.jpg',
-        alt: 'B621 Cam Kazıyıcı Jilet Paslanmaz Çelik 3 Delikli — Alya Bıçak Cam Kazıma Jileti',
+        alt: 'B621 Cam Kazıyıcı Jilet — Paslanmaz Çelik 3 Delikli Profesyonel Cam Kazıma Jileti 65×19×0.20mm | Alya Bıçak Sheffield Durham Duplex',
         width: 800,
         height: 800,
       },
       gallery: [
         {
           src: '/images/products/b621-cam-kaziyici-jilet-detay.jpg',
-          alt: 'B621 Cam Kazıyıcı Jilet Detay — Alya Bıçak Profesyonel Kazıma Jileti Paslanmaz',
+          alt: 'B621 Cam Kazıma Jileti Detay Görünüm — Laklı Paslanmaz Çelik Yüzey, Endüstriyel Cam Temizlik Bıçağı | Alya Bıçak',
           width: 800,
           height: 800,
         },
       ],
       thumbnail: {
         src: '/images/products/b621-cam-kaziyici-jilet.jpg',
-        alt: 'B621 Cam Kazıma Jileti — Alya Bıçak',
+        alt: 'B621 Cam Kazıyıcı Jilet Paslanmaz Çelik — Alya Bıçak',
         width: 400,
         height: 400,
       },
@@ -7266,6 +7266,171 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     isNew: true,
     inStock: true,
     order: 347,
+  },
+
+  // ─── VENT CUTTER — KANATLI KESİM BIÇAĞI ──────────────────────────────────
+  {
+    id: 'vent-cutter',
+    slug: 'vent-cutter-kanatli-kesim-bicagi',
+    slugEN: 'vent-cutter-poultry-processing-blade',
+    code: 'VENT CUTTER',
+    name: 'VENT CUTTER — Kanatlı Kesim Bıçağı',
+    subtitle: 'Dairesel Silindirik Bıçak — AISI 420 Paslanmaz Çelik, Gıda Sınıfı, Eviscerasyon Hattı',
+
+    categoryId: 'machine-knives',
+    subcategoryId: 'advanced-processing',
+    tags: [
+      'vent cutter', 'kanatlı kesim bıçağı', 'tavuk kesim bıçağı',
+      'eviscerasyon bıçağı', 'poultry processing blade', 'vent cutter blade',
+      'kümes hayvanı bıçağı', 'anüs kesim bıçağı', 'kloaka bıçağı',
+      'marel vent cutter', 'meyn vent cutter', 'baader bıçak',
+      'tavuk kesimhane bıçağı', 'hindi işleme bıçağı', 'kanatlı eviscerasyon',
+    ],
+
+    shortDescription: 'Vent Cutter (Kanatlı Kesim Bıçağı). AISI 420 paslanmaz çelik, dairesel silindirik kesim geometrisi, gıda sınıfı yüzey Ra ≤0.4 µm. Tavuk, hindi, ördek, kaz işleme tesislerinde eviscerasyon hattında kloaka bölgesinin hijyenik kesimi. Marel, Meyn, Baader, Stork uyumlu.',
+
+    longDescription: `
+      <p><strong>Vent Cutter (Kanatlı Kesim Bıçağı)</strong>, kanatlı hayvan (tavuk, hindi, ördek, kaz) işleme tesislerinde eviscerasyon (iç organ çıkarma) hattının ilk ve en kritik adımında kullanılan dairesel silindirik kesim bıçağıdır. AISI 420 paslanmaz çelikten üretilmiş olup HRC 50-54 sertlik değerine sahiptir.</p>
+
+      <h3>Vent Cutter Nedir ve Neden Kritik?</h3>
+      <p>Vent cutter, hayvanın kloaka (vent) bölgesini ve Fabricius kesesini hijyenik bir şekilde kesip çıkarmak için tasarlanmıştır. Bağırsaklara zarar vermeden anüs bölgesini dairesel bir kesimle ayırır — bu sayede kontaminasyon riski minimuma indirilir. <strong>Eviscerasyon hattındaki tüm sürecin başarısı bu ilk kesime bağlıdır.</strong></p>
+
+      <h3>Çalışma Prensibi — Dairesel Kesim Teknolojisi</h3>
+      <p>Bıçak, silindirik dönen bir geometriyle çalışır:</p>
+      <ul>
+        <li><strong>Dairesel kesim</strong> → Kuşun vent çevresinde hassas, temiz bir halka kesim yapar</li>
+        <li><strong>Vakum sistemi</strong> → Kesilen dışkı maddesi otomatik olarak emilerek kontaminasyon önlenir</li>
+        <li><strong>Geri çekilme</strong> → Bıçak geri çekilirken venti bağırsaklara zarar vermeden dışarı çeker</li>
+        <li><strong>Otomatik konumlama</strong> → Kuyruk silindirleri ve göğüs tutucuları ile hassas pozisyonlama</li>
+      </ul>
+
+      <h3>AISI 420 Paslanmaz Çelik — Gıda Sınıfı Hijyen</h3>
+      <p>AISI 420 martensitik paslanmaz çelik, gıda işleme ortamlarının gerektirdiği korozyon direncini ve hijyen standartlarını karşılar. Ra ≤0.4 µm yüzey kalitesi sayesinde bakteri tutunması engellenir. HRC 50-54 sertlik değeri, keskinliğin korunması ile kolay bilenebilirlik arasında ideal dengeyi sağlar.</p>
+
+      <h3>Makine Uyumluluğu</h3>
+      <p>Bıçaklarımız endüstri lideri makine üreticileriyle tam uyumludur:</p>
+      <ul>
+        <li><strong>Marel:</strong> VC-i serisi akıllı vent cutter dahil tüm modeller</li>
+        <li><strong>Meyn:</strong> Maestro serisi eviscerasyon hatları</li>
+        <li><strong>Baader:</strong> Kanatlı işleme otomasyonu</li>
+        <li><strong>Stork (Marel):</strong> GP serisi vent cutter makineleri</li>
+      </ul>
+
+      <h3>Kullanım Alanları</h3>
+      <ul>
+        <li><strong>Tavuk İşleme:</strong> Broiler ve piliç kesimhanelerinde eviscerasyon hattı — saatte 6.000-15.000 adet kapasite</li>
+        <li><strong>Hindi İşleme:</strong> Büyük kanatlı hayvanlarda hassas vent kesimi</li>
+        <li><strong>Ördek / Kaz İşleme:</strong> Su kuşları için özel geometri adaptasyonu</li>
+        <li><strong>Otomatik Eviscerasyon:</strong> Konveyör entegreli karusel tipi makinelerde tam otomatik kesim</li>
+        <li><strong>Yarı Otomatik İşleme:</strong> Manuel ve vakum destekli el aletleriyle küçük ölçekli tesisler</li>
+        <li><strong>Halal Kesim Tesisleri:</strong> Halal sertifikalı üretim hatlarında hijyenik eviscerasyon</li>
+      </ul>
+    `,
+
+    images: {
+      main: {
+        src: '/images/products/vent-cutter-kanatli-kesim-bicagi.jpg',
+        alt: 'Vent Cutter Kanatlı Kesim Bıçağı — AISI 420 Paslanmaz Çelik Dairesel Eviscerasyon Bıçağı Tavuk Hindi İşleme | Alya Bıçak',
+        width: 800,
+        height: 800,
+      },
+      gallery: [
+        {
+          src: '/images/products/vent-cutter-kanatli-kesim-bicagi-2.jpg',
+          alt: 'Vent Cutter İleri İşlem Bıçağı Detay — Kanatlı Hayvan Kesimhane Eviscerasyon Hattı Bıçağı Marel Meyn Uyumlu | Alya Bıçak',
+          width: 800,
+          height: 800,
+        },
+      ],
+      thumbnail: {
+        src: '/images/products/vent-cutter-kanatli-kesim-bicagi.jpg',
+        alt: 'Vent Cutter Kanatlı Kesim Bıçağı — Alya Bıçak',
+        width: 400,
+        height: 400,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'AISI 420 Paslanmaz Çelik', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 50-54', icon: 'Shield' },
+      { label: 'form', value: 'Silindirik Dairesel Bıçak', icon: 'Circle', highlight: true },
+      { label: 'surface', value: 'Ra ≤0.4 µm (Gıda Sınıfı)', icon: 'Sparkles' },
+      { label: 'compatibility', value: 'Marel, Meyn, Baader, Stork', icon: 'Settings' },
+      { label: 'certification', value: 'CE, Gıda Sınıfı Hijyen', icon: 'Award' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: 'İngiltere',
+      city: 'Sheffield',
+    },
+
+    applications: [
+      { title: 'Tavuk İşleme', icon: 'Bird', description: 'Broiler ve piliç kesimhanelerinde eviscerasyon hattı' },
+      { title: 'Hindi İşleme', icon: 'Activity', description: 'Büyük kanatlı hayvanlarda hassas vent kesimi' },
+      { title: 'Ördek / Kaz İşleme', icon: 'Droplets', description: 'Su kuşları için özel geometri adaptasyonu' },
+      { title: 'Otomatik Eviscerasyon', icon: 'Cpu', description: 'Konveyör entegreli karusel tipi makinelerde tam otomatik kesim' },
+      { title: 'Yarı Otomatik İşleme', icon: 'HandMetal', description: 'Manuel ve vakum destekli el aletleriyle küçük ölçekli tesisler' },
+      { title: 'Halal Kesim Tesisleri', icon: 'ShieldCheck', description: 'Halal sertifikalı üretim hatlarında hijyenik eviscerasyon' },
+    ],
+
+    benefits: [
+      {
+        title: 'Gıda Sınıfı Hijyen',
+        description: 'AISI 420 paslanmaz çelik, Ra ≤0.4 µm yüzey kalitesi — bakteri tutunmasını engeller, kolay temizlenir.',
+        icon: 'ShieldCheck',
+      },
+      {
+        title: 'Sıfır Kontaminasyon',
+        description: 'Dairesel kesim + vakum sistemi ile dışkı maddesi otomatik emilir, bağırsak hasarı önlenir.',
+        icon: 'Ban',
+      },
+      {
+        title: 'Tam Makine Uyumu',
+        description: 'Marel VC-i, Meyn Maestro, Baader ve Stork GP serisi dahil tüm büyük OEM makinelerle uyumlu.',
+        icon: 'Settings',
+      },
+      {
+        title: 'Yüksek Verim — Düşük Fire',
+        description: 'Hassas kesim geometrisi verim kaybını önler, saatte 15.000 adede kadar işleme kapasitesi.',
+        icon: 'TrendingUp',
+      },
+    ],
+
+    features: [
+      'AISI 420 martensitik paslanmaz çelik',
+      'Dairesel silindirik kesim geometrisi',
+      'HRC 50-54 sertlik — keskinlik ve bilenebilirlik dengesi',
+      'Ra ≤0.4 µm gıda sınıfı yüzey kalitesi',
+      'Vakum destekli kontaminasyon önleme sistemi uyumlu',
+      'Marel, Meyn, Baader, Stork makine uyumlu',
+      'Kuyruk silindirleri ve göğüs tutucuları ile hassas konumlama',
+      'Halal sertifikalı üretim hatlarına uygun',
+      'Kolay bilenebilir — operasyonel maliyet düşürme',
+    ],
+
+    availableSizes: ['Standart (makine modeline göre uyumlu boyutlar)'],
+    certifications: ['CE', 'ISO 9001'],
+    relatedProductIds: ['sosis', 'tray'],
+
+    seo: {
+      title: 'Vent Cutter Kanatlı Kesim Bıçağı | Alya Bıçak',
+      description: 'Vent Cutter (Kanatlı Kesim Bıçağı). AISI 420 paslanmaz çelik, dairesel silindirik, gıda sınıfı. Tavuk, hindi eviscerasyon. Marel, Meyn, Baader uyumlu. Türkiye distribütörü.',
+      keywords: [
+        'vent cutter', 'vent cutter bıçağı', 'kanatlı kesim bıçağı', 'tavuk kesim bıçağı',
+        'eviscerasyon bıçağı', 'anüs kesim bıçağı', 'kloaka bıçağı', 'havalandırma bıçağı',
+        'kümes hayvanı bıçağı', 'tavuk kesimhane bıçağı', 'hindi işleme bıçağı',
+        'poultry processing blade', 'vent cutter blade', 'evisceration blade',
+        'marel vent cutter bıçağı', 'meyn kesim bıçağı', 'baader bıçak',
+        'kanatlı hayvan işleme', 'halal kesim bıçağı',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 348,
   },
 ];
 

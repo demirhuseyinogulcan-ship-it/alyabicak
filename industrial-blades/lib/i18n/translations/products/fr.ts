@@ -2912,10 +2912,93 @@ export const productsFr: Record<string, ProductTranslation> = {
 <p><strong>Machines Compatibles :</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
   },
   'vent-cutter': {
-    name: 'Vent Cutter – Lame de Découpe à Ailettes',
-    description: 'Lame de découpe à ailettes (vent cutter) pour applications spécialisées. Qualité Sheffield.',
-    features: ['Design à ailettes', 'Qualité Sheffield', 'Usage professionnel'],
-    applications: ['Découpe industrielle', 'Applications spécialisées'],
+    name: 'Vent Cutter – Lame d\'Éviscération de Volaille',
+    subtitle: 'Lame Circulaire Cylindrique — Acier Inoxydable AISI 420 HRC 50-54',
+    description: 'Lames de vent cutter professionnelles pour lignes d\'éviscération automatisées de volaille. Acier inoxydable AISI 420, finition alimentaire Ra ≤0,4 µm. Compatible Marel, Meyn, Baader et Stork. Capacité jusqu\'à 15 000 volailles/heure.',
+    shortDescription: 'Lame vent cutter en acier AISI 420 pour le traitement de la volaille.',
+    features: [
+      'Acier inoxydable AISI 420 — résistance à la corrosion alimentaire',
+      'Dureté HRC 50-54 — tranchant longue durée',
+      'Surface polie Ra ≤0,4 µm — hygiène maximale',
+      'Conception lame circulaire cylindrique — coupe uniforme à 360°',
+      'Compatibilité système d\'aspiration sous vide',
+      'Rectification CNC précision ±0,02 mm',
+      'Certification CE hygiène alimentaire',
+      'Capacité de traitement jusqu\'à 15 000 volailles/heure',
+      'Adaptée au poulet, à la dinde, au canard et à l\'oie',
+    ],
+    applications: [
+      'Lignes d\'éviscération automatisées de volaille',
+      'Traitement semi-automatique de volaille',
+      'Découpe circulaire de la zone cloacale',
+      'Traitement du poulet, de la dinde, du canard et de l\'oie',
+      'Systèmes d\'éviscération haute cadence',
+      'Installations agroalimentaires conformes HACCP',
+    ],
+    benefits: [
+      {
+        title: 'Hygiène Alimentaire',
+        description: 'Acier AISI 420 avec finition Ra ≤0,4 µm garantissant une hygiène maximale et un nettoyage facile en environnement HACCP.',
+        icon: 'shield',
+      },
+      {
+        title: 'Traitement Haute Cadence',
+        description: 'Conçue pour les lignes automatisées traitant jusqu\'à 15 000 volailles par heure sans perte de qualité de coupe.',
+        icon: 'zap',
+      },
+      {
+        title: 'Compatibilité Machine Universelle',
+        description: 'Remplacement direct pour les systèmes Marel VC-i, Meyn Maestro, Baader et Stork GP.',
+        icon: 'settings',
+      },
+      {
+        title: 'Durée de Vie Prolongée',
+        description: 'Dureté HRC 50-54 combinée à la rectification CNC pour des coupes régulières et moins d\'arrêts machine.',
+        icon: 'clock',
+      },
+    ],
+    longDescription: `<h3>Vent Cutter — Lame Professionnelle d'Éviscération de Volaille</h3>
+<p>Le vent cutter est une lame circulaire cylindrique spécialement conçue pour l'étape d'éviscération des lignes automatisées de traitement de volaille. Elle découpe précisément la zone cloacale pour permettre un retrait propre des organes sans contamination de la carcasse.</p>
+
+<h3>Matériau et Qualité de Surface Premium</h3>
+<p>Fabriquée en acier inoxydable AISI 420 trempé à HRC 50-54, assurant une résistance exceptionnelle à la corrosion dans les environnements humides de transformation de volaille. La finition de surface alimentaire Ra ≤0,4 µm empêche l'adhésion bactérienne et facilite les cycles de nettoyage CIP.</p>
+
+<h3>Technologie de Découpe Circulaire de Précision</h3>
+<p>La conception de lame circulaire cylindrique assure une coupe uniforme à 360° autour de la zone cloacale. Le système d'extraction sous vide fonctionne en tandem avec la lame pour éliminer instantanément les matières découpées.</p>
+
+<h3>Compatibilité Machines</h3>
+<p><strong>Machines Compatibles :</strong> Marel VC-i, Meyn Maestro, modules Baader, série Stork GP. Chaque lame est rectifiée CNC avec une tolérance de ±0,02 mm.</p>
+
+<h3>Capacité et Polyvalence</h3>
+<p>Conçue pour les lignes haute cadence traitant jusqu'à 15 000 volailles par heure. Adaptée au traitement du poulet, de la dinde, du canard et de l'oie.</p>
+
+<h3>Certifications et Assurance Qualité</h3>
+<p>Toutes les lames vent cutter portent la certification CE hygiène alimentaire et sont fabriquées conformément aux réglementations européennes sur les matériaux en contact alimentaire. Adaptées aux usines certifiées HACCP, BRC et IFS.</p>`,
+    availableSizes: ['Dimensions spécifiques à la machine — contactez-nous pour votre modèle'],
+    seo: {
+      title: 'Vent Cutter Lame Éviscération Volaille | AISI 420',
+      description: 'Lames vent cutter professionnelles pour l\'éviscération automatisée de volaille. Acier AISI 420, HRC 50-54. Compatible Marel, Meyn, Baader, Stork.',
+      keywords: [
+        'lame vent cutter',
+        'lame éviscération volaille',
+        'vent cutter traitement volaille',
+        'couteau éviscération',
+        'lame traitement volaille',
+        'vent cutter Marel',
+        'lame éviscération Meyn',
+        'vent cutter Baader',
+        'lame éviscération Stork',
+        'lame volaille AISI 420',
+        'lame circulaire éviscération',
+        'lame découpe cloacale',
+        'traitement automatisé volaille',
+        'lame de découpe alimentaire',
+        'équipement abattoir volaille',
+        'lame ligne éviscération',
+        'lame traitement poulet',
+        'lame traitement dinde',
+      ],
+    },
   },
 
   // =============================================================================

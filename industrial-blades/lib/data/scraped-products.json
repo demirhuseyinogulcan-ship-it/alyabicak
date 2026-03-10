@@ -6364,34 +6364,52 @@
     "id": "vent-cutter",
     "slug": "vent-cutter-kanatli-kesim-bicagi",
     "code": "VENT CUTTER",
-    "name": "VENT CUTTER - Kanatlı Kesim Bıçağı",
-    "description": "Kanatlı Kesim Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "name": "VENT CUTTER — Kanatlı Kesim Bıçağı",
+    "description": "Vent Cutter (Kanatlı Kesim Bıçağı). Kanatlı hayvan (tavuk, hindi, ördek) işleme tesislerinde eviscerasyon hattında kullanılan dairesel kesim bıçağı. AISI 420 paslanmaz çelik, gıda sınıfı, hijyenik tasarım. Marel, Meyn, Baader, Stork uyumlu.",
     "categoryId": "machine-knives",
-    "subcategoryId": "utility-knives",
+    "subcategoryId": "advanced-processing",
     "image": "/images/products/vent-cutter-kanatli-kesim-bicagi.jpg",
     "variants": [
       {
-        "id": "vent-cutter-kanatli-kesim-bicagi-standard",
-        "sku": "VENT CUTTER",
+        "id": "vent-cutter-standard",
+        "name": "Vent Cutter — Standart",
+        "sku": "VC-STD",
+        "material": "AISI 420 Paslanmaz Çelik",
         "inStock": true
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
-      "hardness": "HRC 58-62"
+      "material": "AISI 420 Paslanmaz Çelik",
+      "hardness": "HRC 50-54",
+      "form": "Silindirik Dairesel Bıçak",
+      "surface": "Ra ≤0.4 µm (Gıda Sınıfı)"
     },
     "features": [
-      "Uzun ömürlü",
-      "Sheffield kalitesi",
-      "Profesyonel kullanım"
+      "AISI 420 paslanmaz çelik",
+      "Dairesel silindirik kesim geometrisi",
+      "Gıda sınıfı yüzey kalitesi Ra ≤0.4 µm",
+      "Eviscerasyon hattı uyumlu",
+      "Hijyenik tasarım — kolay temizlik",
+      "Marel, Meyn, Baader, Stork uyumlu"
     ],
     "applications": [
-      "Endüstriyel kesim"
+      "Kanatlı hayvan işleme",
+      "Eviscerasyon hattı",
+      "Tavuk kesimhanesi",
+      "Hindi işleme",
+      "Ördek / kaz işleme"
     ],
-    "isFeatured": false,
+    "seoKeywords": [
+      "vent cutter",
+      "kanatlı kesim bıçağı",
+      "tavuk kesim bıçağı",
+      "eviscerasyon bıçağı",
+      "poultry processing blade"
+    ],
+    "isFeatured": true,
     "isActive": true,
     "order": 221,
-    "slugEN": "vent-cutter-winged-cutting-blade"
+    "slugEN": "vent-cutter-poultry-processing-blade"
   },
   {
     "id": "kontr-biai",

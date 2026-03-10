@@ -200,7 +200,7 @@ const SLUG_OVERRIDES = {
   'olfa-sk-12': 'olfa-sk-12-stainless-nsf-certified',
   'olfa-sk-15': 'olfa-sk-15-safety-knife',
   'suka01': 'suka01-sliding-hook-knife',
-  'vent-cutter': 'vent-cutter-winged-cutting-blade',
+  'vent-cutter': 'vent-cutter-poultry-processing-blade',
   // Machine knives - thermoform/vacuum
   'kontr-biai': 'contour-blade-thermoform-vacuum',
   'yarim': 'half-star-punches-vacuum-packaging',
