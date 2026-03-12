@@ -5,7 +5,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react'
 import { getActiveSlides } from '@/lib/data/hero-slides'
-import { CheckIcon } from '@/components/icons'
 import { useLocale } from '@/lib/i18n/client'
 import { getHeroSlideTranslation } from '@/lib/i18n/translations'
 
@@ -197,25 +196,6 @@ export default function HeroSlider() {
                       <span>{slide.ctaText || dict.consulting.cta}</span>
                       <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
                     </Link>
-                  </div>
-
-                  {/* Features */}
-                  <div 
-                    className={`mt-12 flex flex-wrap gap-6 transition-all duration-700 ${
-                      index === currentSlide 
-                        ? 'translate-y-0 opacity-100' 
-                        : 'translate-y-8 opacity-0'
-                    }`}
-                    style={{ 
-                      transitionDelay: index === currentSlide ? '800ms' : '0ms' 
-                    }}
-                  >
-                    {[dict.heroFeatures.sheffieldQuality, dict.heroFeatures.customProduction, dict.heroFeatures.fastDelivery].map((feature) => (
-                      <div key={feature} className="flex items-center gap-2 text-white/80">
-                        <CheckIcon className="w-6 h-6" />
-                        <span className="text-sm font-medium">{feature}</span>
-                      </div>
-                    ))}
                   </div>
                 </div>
               </div>
