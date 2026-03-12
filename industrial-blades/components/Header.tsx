@@ -17,9 +17,8 @@ import dynamic from 'next/dynamic'
 import { Menu, X, Search } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { categoryService } from '@/lib/services'
-import { mainNavigation, siteConfig } from '@/lib/config'
+import { mainNavigation } from '@/lib/config'
 import { Logo, DesktopNav, MobileMenu } from '@/components/layout'
-import { WhatsAppIcon } from '@/components/icons'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { useLocale, useTranslation } from '@/components/providers/LocaleProvider'
 
@@ -121,9 +120,6 @@ export default function Header() {
     setIsMobileMenuOpen(false)
   }, [])
   
-  // Localized WhatsApp message — dictionary'den
-  const whatsappMessage = dict.whatsapp?.defaultMessage || 'Hello, I am writing from the website.'
-
   return (
     <header 
       ref={headerRef}
@@ -161,24 +157,14 @@ export default function Header() {
               <span className="xl:hidden">Katalog</span>
             </a>
             
-            {/* WhatsApp */}
-            <a
-              href={`https://wa.me/${siteConfig.contact.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-1 h-8 xl:h-9 px-2 xl:px-3 bg-green-500 hover:bg-green-600 text-white text-xs xl:text-sm font-medium rounded-lg transition-colors"
-            >
-              <WhatsAppIcon className="w-4 h-4" />
-              <span className="hidden 2xl:inline">WhatsApp</span>
-            </a>
-            
             {/* Arama */}
             <button
               onClick={openSearch}
-              className="flex items-center justify-center h-8 xl:h-9 w-8 xl:w-auto xl:px-2.5 text-steel-500 bg-steel-100 hover:bg-steel-200 rounded-lg transition-colors"
+              className="flex items-center justify-center gap-1.5 h-8 xl:h-9 px-2 xl:px-3 text-steel-600 bg-steel-100 hover:bg-steel-200 text-xs xl:text-sm font-medium rounded-lg transition-colors whitespace-nowrap"
               aria-label={dict.nav.search}
             >
               <Search className="w-4 h-4" />
+              <span className="hidden xl:inline">{dict.nav.search}</span>
             </button>
             
             {/* Dil Seçici - Sadece Desktop */}
