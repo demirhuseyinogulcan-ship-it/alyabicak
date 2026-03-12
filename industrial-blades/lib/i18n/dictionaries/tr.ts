@@ -5,7 +5,7 @@
 const tr = {
   // Meta & SEO
   meta: {
-    title: 'Endüstriyel Bıçaklar | Sheffield Kalite Sanayi Jiletleri | Alya Bıçak',
+    title: 'ALYA BIÇAK | Endüstriyel Bıçaklar - Jiletler - El Bıçakları',
     description: 'Sheffield kalitesinde endüstriyel bıçak tedarikçisi. Sanayi jiletleri, makine bıçakları, iş güvenliği el bıçakları, falçata yedek uçları. FDA/USDA onaylı. 30+ yıl deneyim. Türkiye geneli hızlı teslimat.',
     keywords: 'endüstriyel bıçak, sanayi jileti, makina bıçağı, dilme jileti, kesici takım, falçata, maket bıçağı, güvenlik bıçağı, vakum paketleme bıçağı, döner bıçak, trapez bıçak, tungsten karbür bıçak, titanyum kaplama jilet, OLFA bıçak, geri dönüşüm bıçağı, Sheffield bıçak, FDA onaylı bıçak, paslanmaz çelik jilet, karbon çelik bıçak',
   },

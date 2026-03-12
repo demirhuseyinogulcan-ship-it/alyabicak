@@ -192,7 +192,7 @@ export default function HeroSlider() {
                     {/* Primary CTA */}
                     <Link
                       href={slide.ctaLink || `/${locale}/categories`}
-                      className="group inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium tracking-wide transition-colors duration-200"
+                      className="group inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg tracking-wide transition-colors duration-200"
                     >
                       <span>{slide.ctaText || dict.consulting.cta}</span>
                       <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
