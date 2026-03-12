@@ -11,7 +11,7 @@ export default function ConsultingSection() {
   const t = dict.consultingSection
   
   return (
-    <section className="py-16 lg:py-20 bg-gradient-to-br from-primary-50 to-white">
+    <section className="py-16 lg:py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Image */}

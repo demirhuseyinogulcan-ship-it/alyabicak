@@ -14,21 +14,10 @@ import { useLocale } from '@/lib/i18n/client'
 
 export default function WhatsAppButton() {
   const [isVisible, setIsVisible] = useState(false)
-  const [showTooltip, setShowTooltip] = useState(false)
-  const [hasInteracted, setHasInteracted] = useState(false)
   const [isExpanded, setIsExpanded] = useState(false)
   const pathname = usePathname()
   const { locale, dictionary: dict } = useLocale();
   const t = dict.whatsapp;
-
-  // Oturumda daha önce kapatıldı mı kontrol et
-  useEffect(() => {
-    try {
-      if (sessionStorage.getItem('wa_tooltip_dismissed') === '1') {
-        setHasInteracted(true)
-      }
-    } catch {}
-  }, [])
 
   // Dinamik sayfa mesajı oluştur
   const getPageMessage = (path: string): string => {
@@ -81,33 +70,8 @@ export default function WhatsAppButton() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // İlk ziyarette tooltip göster
-  useEffect(() => {
-    if (isVisible && !hasInteracted) {
-      const timer = setTimeout(() => {
-        setShowTooltip(true)
-      }, 4000)
-      
-      return () => clearTimeout(timer)
-    }
-  }, [isVisible, hasInteracted])
-
-  const handleClick = () => {
-    setHasInteracted(true)
-    setShowTooltip(false)
-  }
-
-  const dismissTooltip = () => {
-    setShowTooltip(false)
-    setHasInteracted(true)
-    try { sessionStorage.setItem('wa_tooltip_dismissed', '1') } catch {}
-  }
-
   const toggleExpand = () => {
     setIsExpanded(!isExpanded)
-    setShowTooltip(false)
-    setHasInteracted(true)
-    try { sessionStorage.setItem('wa_tooltip_dismissed', '1') } catch {}
   }
 
   if (!siteConfig.features.enableWhatsApp) return null
@@ -126,27 +90,6 @@ export default function WhatsAppButton() {
         ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}
       `}
     >
-      {/* Tooltip */}
-      {showTooltip && !isExpanded && (
-        <div className="absolute bottom-full right-0 mb-3 animate-fade-in">
-          <div className="relative bg-white rounded-lg shadow-xl p-4 max-w-[260px]">
-            <button
-              onClick={dismissTooltip}
-              className="absolute -top-2 -right-2 w-6 h-6 bg-steel-100 hover:bg-steel-200 rounded-full flex items-center justify-center transition-colors"
-              aria-label={dict.common.close}
-            >
-              <X className="w-4 h-4 text-steel-600" />
-            </button>
-            <p className="text-sm text-steel-700">
-              <strong className="text-steel-900">{t.chatTitle}</strong>
-              <br />
-              {t.tooltip}
-            </p>
-            <div className="absolute -bottom-2 right-6 w-4 h-4 bg-white transform rotate-45 shadow-lg" />
-          </div>
-        </div>
-      )}
-
       {/* Expanded Chat Widget */}
       {isExpanded && (
         <div className="absolute bottom-20 right-0 mb-2 animate-scale-in">
@@ -193,7 +136,6 @@ export default function WhatsAppButton() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={handleClick}
                 className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg transition-colors"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -208,22 +150,6 @@ export default function WhatsAppButton() {
 
       {/* Main Button */}
       <div className="relative">
-        {/* Canlı Destek Label */}
-        <button
-          onClick={toggleExpand}
-          className="
-            absolute right-full mr-3 top-1/2 -translate-y-1/2
-            hidden md:flex items-center gap-2
-            px-4 py-2 bg-white rounded-full shadow-lg
-            text-sm font-medium text-steel-700
-            hover:bg-steel-50 transition-colors
-            whitespace-nowrap
-          "
-        >
-          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-          {t.chatTitle}
-        </button>
-
         {/* WhatsApp Button */}
         <button
           onClick={toggleExpand}

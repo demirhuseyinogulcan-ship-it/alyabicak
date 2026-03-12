@@ -5,8 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react'
 import { getActiveSlides } from '@/lib/data/hero-slides'
-import { siteConfig, getWhatsAppUrl } from '@/lib/config'
-import { WhatsAppIcon, CheckIcon } from '@/components/icons'
+import { CheckIcon } from '@/components/icons'
 import { useLocale } from '@/lib/i18n/client'
 import { getHeroSlideTranslation } from '@/lib/i18n/translations'
 
@@ -193,22 +192,11 @@ export default function HeroSlider() {
                     {/* Primary CTA */}
                     <Link
                       href={slide.ctaLink || `/${locale}/categories`}
-                      className="group inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all shadow-elevated hover:shadow-floating"
+                      className="group inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium tracking-wide transition-colors duration-200"
                     >
                       <span>{slide.ctaText || dict.consulting.cta}</span>
-                      <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+                      <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
                     </Link>
-
-                    {/* WhatsApp */}
-                    <a
-                      href={getWhatsAppUrl(dict.heroSlider.whatsappMessage.replace('{{title}}', slide.title))}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-all shadow-elevated hover:shadow-floating"
-                    >
-                      <WhatsAppIcon className="w-5 h-5" />
-                      <span>WhatsApp</span>
-                    </a>
                   </div>
 
                   {/* Features */}

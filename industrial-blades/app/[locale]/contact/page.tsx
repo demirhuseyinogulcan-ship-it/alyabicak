@@ -4,8 +4,7 @@
 import { generateMetadata as genMeta, generateBreadcrumbSchema } from '@/lib/seo'
 import ContactForm from '@/components/ContactForm'
 import { MapPin, Phone, Mail, Clock, Printer, ExternalLink } from 'lucide-react'
-import { siteConfig, getWhatsAppUrl, getPhoneUrl, getEmailUrl, getGoogleMapsUrl } from '@/lib/config'
-import { WhatsAppIcon } from '@/components/icons'
+import { siteConfig, getPhoneUrl, getEmailUrl, getGoogleMapsUrl } from '@/lib/config'
 import { PageHeader } from '@/components/ui'
 import { getDictionary, type Locale } from '@/lib/i18n'
 import { getDomainUrl } from '@/lib/config/domains'
@@ -346,25 +345,6 @@ export default async function ContactPage({ params }: PageProps) {
                     </p>
                   </div>
                 </div>
-              </div>
-
-              {/* WhatsApp CTA */}
-              <div className="mt-8 p-6 bg-green-50 rounded-xl border border-green-200">
-                <h3 className="font-semibold text-steel-900 mb-2">
-                  {l.quickSupport}
-                </h3>
-                <p className="text-sm text-steel-600 mb-4">
-                  {l.whatsappText}
-                </p>
-                <a
-                  href={getWhatsAppUrl(dict.whatsapp?.contactMessage || 'Hello, I would like to get information about Alya Blade.')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors"
-                >
-                  <WhatsAppIcon className="w-5 h-5" />
-                  {l.whatsappButton}
-                </a>
               </div>
             </div>
           </div>
