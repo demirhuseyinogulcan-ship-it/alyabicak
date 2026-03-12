@@ -41,7 +41,6 @@ export default function TrustLogos() {
                 <div className="w-2 h-2 bg-primary-500 rounded-full" />
                 <div>
                   <span className="font-semibold text-sm">{cert.name}</span>
-                  <span className="text-xs text-white/50 ml-1 hidden sm:inline">· {cert.desc}</span>
                 </div>
               </div>
             ))}
