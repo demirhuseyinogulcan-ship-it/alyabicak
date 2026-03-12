@@ -112,6 +112,9 @@ export default function WhatsAppButton() {
 
   if (!siteConfig.features.enableWhatsApp) return null
 
+  // Simülatör sayfasında gizle — landscape overlay ile çakışır
+  if (pathname.includes('/simulator')) return null
+
   const message = getPageMessage(pathname)
   const whatsappUrl = `https://wa.me/${siteConfig.contact.whatsapp}?text=${encodeURIComponent(message)}`
 

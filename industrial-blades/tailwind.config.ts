@@ -134,6 +134,11 @@ const config: Config = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    // landscape: variant — @media (orientation: landscape)
+    function ({ addVariant }: { addVariant: (name: string, rule: string) => void }) {
+      addVariant('landscape', '@media (orientation: landscape)');
+      addVariant('portrait', '@media (orientation: portrait)');
+    },
   ],
 }
 export default config

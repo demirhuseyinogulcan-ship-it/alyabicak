@@ -128,7 +128,7 @@ export function middleware(request: NextRequest) {
     // TR sadece alyabicak.com'da, diğerleri sadece alyablade.com'da yaşamalı
     // localhost'ta cross-domain redirect yapma (development ortamı)
     const hostname = request.headers.get('host') || '';
-    const isLocalhost = hostname.includes('localhost') || hostname.includes('127.0.0.1');
+    const isLocalhost = hostname.includes('localhost') || hostname.includes('127.0.0.1') || hostname.match(/^(10\.|172\.(1[6-9]|2\d|3[01])\.|192\.168\.)/) !== null;
     const urlLocale = pathname.match(/^\/([a-z]{2})(?:\/|$)/)?.[1];
     const isTurkishDomain = hostname.includes('alyabicak.com');
 
