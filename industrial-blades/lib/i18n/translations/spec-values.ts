@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Spec Value Translations
  * 
  * Ürün teknik özelliklerinin değerlerini (VALUE) çevirir.
@@ -6,7 +6,7 @@
  * 
  * KULLANIM:
  * import { getSpecValueTranslation } from '@/lib/i18n/translations/spec-values';
- * const translatedValue = getSpecValueTranslation('Sheffield Çelik', 'en'); // "Sheffield Steel"
+ * const translatedValue = getSpecValueTranslation('Yüksek Kalite Çelik', 'en'); // "Premium Steel"
  */
 
 export const specValueTranslations: Record<string, Record<string, string>> = {
@@ -15,7 +15,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
   // =============================================================================
   tr: {
     // Malzemeler
-    'Sheffield Çelik': 'Sheffield Çelik',
+    'Yüksek Kalite Çelik': 'Yüksek Kalite Çelik',
     'Yüksek Karbonlu Çelik (SK5 / C85)': 'Yüksek Karbonlu Çelik (SK5 / C85)',
     'AISI 420 Martensitik Paslanmaz Çelik': 'AISI 420 Martensitik Paslanmaz Çelik',
     'AISI 420 Paslanmaz Çelik': 'AISI 420 Paslanmaz Çelik',
@@ -156,7 +156,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'İnce tane (0.5-1.0 µm)': 'İnce tane (0.5-1.0 µm)',
 
     // Vakum Paketleme Değerleri
-    'Sheffield Çelik (Yüksek Karbonlu)': 'Sheffield Çelik (Yüksek Karbonlu)',
+    'Yüksek Karbonlu Çelik': 'Yüksek Karbonlu Çelik',
     'D2 Takım Çeliği (DIN 1.2379)': 'D2 Takım Çeliği (DIN 1.2379)',
     'HSS M2 (DIN 1.3343)': 'HSS M2 (DIN 1.3343)',
     'AISI 440C Martensitik Paslanmaz': 'AISI 440C Martensitik Paslanmaz',
@@ -179,7 +179,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '%17 Cr (Yüksek Korozyon Direnci)': '%17 Cr (Yüksek Korozyon Direnci)',
 
     // Tek Kenar Jilet (Single Edge) — B201 Serisi
-    'Yüksek Karbonlu Çelik': 'Yüksek Karbonlu Çelik',
     'Paslanmaz Çelik (Stainless Steel)': 'Paslanmaz Çelik (Stainless Steel)',
     'Paslanmaz Çelik + PTFE': 'Paslanmaz Çelik + PTFE',
     'PTFE (Teflon®)': 'PTFE (Teflon®)',
@@ -239,7 +238,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Craft Blade (Maket Bıçağı) spec değerleri
     'SK5 Yüksek Karbonlu Çelik': 'SK5 Yüksek Karbonlu Çelik',
-    'Yekpare Seramik / Sheffield Çelik': 'Yekpare Seramik / Sheffield Çelik',
+    'Yekpare Seramik': 'Yekpare Seramik',
     'Standart / TiN (Titanyum Nitrür)': 'Standart / TiN (Titanyum Nitrür)',
     'Standart / Ekstra Keskin (Black Blade)': 'Standart / Ekstra Keskin (Black Blade)',
     'Testere dişi profili (serrated)': 'Testere dişi profili (serrated)',
@@ -431,7 +430,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
   // =============================================================================
   en: {
     // Materials
-    'Sheffield Çelik': 'Sheffield Steel',
+    'Yüksek Kalite Çelik': 'Premium Steel',
     'Yüksek Karbonlu Çelik (SK5 / C85)': 'High Carbon Steel (SK5 / C85)',
     'AISI 420 Martensitik Paslanmaz Çelik': 'AISI 420 Martensitic Stainless Steel',
     'AISI 420 Paslanmaz Çelik': 'AISI 420 Stainless Steel',
@@ -572,7 +571,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'İnce tane (0.5-1.0 µm)': 'Fine grain (0.5-1.0 µm)',
 
     // Vacuum Packaging Values
-    'Sheffield Çelik (Yüksek Karbonlu)': 'Sheffield High-Carbon Steel',
+    'Yüksek Karbonlu Çelik': 'High-Carbon Steel',
     'D2 Takım Çeliği (DIN 1.2379)': 'D2 Tool Steel (DIN 1.2379)',
     'HSS M2 (DIN 1.3343)': 'HSS M2 High-Speed Steel (DIN 1.3343)',
     'AISI 440C Martensitik Paslanmaz': 'AISI 440C Martensitic Stainless',
@@ -595,7 +594,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '%17 Cr (Yüksek Korozyon Direnci)': '17% Cr (High Corrosion Resistance)',
 
     // Single Edge Blades — B201 Series
-    'Yüksek Karbonlu Çelik': 'High Carbon Steel',
     'Paslanmaz Çelik (Stainless Steel)': 'Stainless Steel',
     'Paslanmaz Çelik + PTFE': 'Stainless Steel + PTFE',
     'PTFE (Teflon®)': 'PTFE (Teflon®)',
@@ -655,7 +653,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Craft Blade spec values
     'SK5 Yüksek Karbonlu Çelik': 'SK5 High Carbon Steel',
-    'Yekpare Seramik / Sheffield Çelik': 'Solid Ceramic / Sheffield Steel',
+    'Yekpare Seramik': 'Solid Ceramic',
     'Standart / TiN (Titanyum Nitrür)': 'Standard / TiN (Titanium Nitride)',
     'Standart / Ekstra Keskin (Black Blade)': 'Standard / Extra Sharp (Black Blade)',
     'Testere dişi profili (serrated)': 'Serrated Edge Profile',
@@ -847,7 +845,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
   // =============================================================================
   ar: {
     // Materials
-    'Sheffield Çelik': 'فولاذ شيفيلد',
+    'Yüksek Kalite Çelik': 'فولاذ عالي الجودة',
     'Yüksek Karbonlu Çelik (SK5 / C85)': 'فولاذ عالي الكربون (SK5 / C85)',
     'AISI 420 Martensitik Paslanmaz Çelik': 'فولاذ مقاوم للصدأ مارتنسيتي AISI 420',
     'AISI 420 Paslanmaz Çelik': 'فولاذ مقاوم للصدأ AISI 420',
@@ -988,7 +986,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'İnce tane (0.5-1.0 µm)': 'حبيبات دقيقة (0.5-1.0 ميكرومتر)',
 
     // Vacuum Packaging Values
-    'Sheffield Çelik (Yüksek Karbonlu)': 'فولاذ شيفيلد عالي الكربون',
+    'Yüksek Karbonlu Çelik': 'فولاذ عالي الكربون',
     'D2 Takım Çeliği (DIN 1.2379)': 'فولاذ أدوات D2 (DIN 1.2379)',
     'HSS M2 (DIN 1.3343)': 'فولاذ عالي السرعة HSS M2 (DIN 1.3343)',
     'AISI 440C Martensitik Paslanmaz': 'فولاذ مقاوم للصدأ مارتنسيتي AISI 440C',
@@ -1011,7 +1009,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '%17 Cr (Yüksek Korozyon Direnci)': '17% كروم (مقاومة تآكل عالية)',
 
     // شفرات أحادية الحافة — سلسلة B201
-    'Yüksek Karbonlu Çelik': 'فولاذ كربوني عالي',
     'Paslanmaz Çelik (Stainless Steel)': 'فولاذ مقاوم للصدأ',
     'Paslanmaz Çelik + PTFE': 'فولاذ مقاوم للصدأ + PTFE',
     'PTFE (Teflon®)': 'PTFE (تفلون®)',
@@ -1071,7 +1068,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // قيم مواصفات شفرات الحرف
     'SK5 Yüksek Karbonlu Çelik': 'فولاذ عالي الكربون SK5',
-    'Yekpare Seramik / Sheffield Çelik': 'سيراميك صلب / فولاذ شيفيلد',
+    'Yekpare Seramik': 'سيراميك صلب',
     'Standart / TiN (Titanyum Nitrür)': 'قياسي / TiN (نيتريد التيتانيوم)',
     'Standart / Ekstra Keskin (Black Blade)': 'قياسي / حاد للغاية (شفرة سوداء)',
     'Testere dişi profili (serrated)': 'ملف حافة مسننة',
@@ -1228,7 +1225,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
   // =============================================================================
   fr: {
     // Materials
-    'Sheffield Çelik': 'Acier Sheffield',
+    'Yüksek Kalite Çelik': 'Acier Premium',
     'Yüksek Karbonlu Çelik (SK5 / C85)': 'Acier à Haute Teneur en Carbone (SK5 / C85)',
     'AISI 420 Martensitik Paslanmaz Çelik': 'Acier Inoxydable Martensitique AISI 420',
     'AISI 420 Paslanmaz Çelik': 'Acier Inoxydable AISI 420',
@@ -1369,7 +1366,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'İnce tane (0.5-1.0 µm)': 'Grain fin (0,5-1,0 µm)',
 
     // Vacuum Packaging Values
-    'Sheffield Çelik (Yüksek Karbonlu)': 'Acier Sheffield Haut Carbone',
+    'Yüksek Karbonlu Çelik': 'Acier Haut Carbone',
     'D2 Takım Çeliği (DIN 1.2379)': 'Acier d\'outillage D2 (DIN 1.2379)',
     'HSS M2 (DIN 1.3343)': 'Acier rapide HSS M2 (DIN 1.3343)',
     'AISI 440C Martensitik Paslanmaz': 'Inox martensitique AISI 440C',
@@ -1392,7 +1389,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '%17 Cr (Yüksek Korozyon Direnci)': '17% Cr (Haute résistance corrosion)',
 
     // Lames à tranchant simple — Série B201
-    'Yüksek Karbonlu Çelik': 'Acier à haute teneur en carbone',
     'Paslanmaz Çelik (Stainless Steel)': 'Acier inoxydable',
     'Paslanmaz Çelik + PTFE': 'Acier inoxydable + PTFE',
     'PTFE (Teflon®)': 'PTFE (Téflon®)',
@@ -1452,7 +1448,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Valeurs de spécifications pour lames artisanales
     'SK5 Yüksek Karbonlu Çelik': 'Acier à Haute Teneur en Carbone SK5',
-    'Yekpare Seramik / Sheffield Çelik': 'Céramique Massif / Acier Sheffield',
+    'Yekpare Seramik': 'Céramique Massif',
     'Standart / TiN (Titanyum Nitrür)': 'Standard / TiN (Nitrure de Titane)',
     'Standart / Ekstra Keskin (Black Blade)': 'Standard / Extra Tranchant (Lame Noire)',
     'Testere dişi profili (serrated)': 'Profil de Tranchant Dentelé',
@@ -1644,7 +1640,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
   // =============================================================================
   ru: {
     // Materials
-    'Sheffield Çelik': 'Шеффилдская сталь',
+    'Yüksek Kalite Çelik': 'Высококачественная сталь',
     'Yüksek Karbonlu Çelik (SK5 / C85)': 'Высокоуглеродистая сталь (SK5 / C85)',
     'AISI 420 Martensitik Paslanmaz Çelik': 'Мартенситная нержавеющая сталь AISI 420',
     'AISI 420 Paslanmaz Çelik': 'Нержавеющая сталь AISI 420',
@@ -1785,7 +1781,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'İnce tane (0.5-1.0 µm)': 'Мелкое зерно (0,5-1,0 мкм)',
 
     // Vacuum Packaging Values
-    'Sheffield Çelik (Yüksek Karbonlu)': 'Шеффилдская высокоуглеродистая сталь',
+    'Yüksek Karbonlu Çelik': 'Высокоуглеродистая сталь',
     'D2 Takım Çeliği (DIN 1.2379)': 'Инструментальная сталь D2 (DIN 1.2379)',
     'HSS M2 (DIN 1.3343)': 'Быстрорежущая сталь HSS M2 (DIN 1.3343)',
     'AISI 440C Martensitik Paslanmaz': 'Мартенситная нержавеющая AISI 440C',
@@ -1808,7 +1804,6 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '%17 Cr (Yüksek Korozyon Direnci)': '17% Cr (Высокая коррозионная стойкость)',
 
     // Односторонние лезвия — серия B201
-    'Yüksek Karbonlu Çelik': 'Высокоуглеродистая сталь',
     'Paslanmaz Çelik (Stainless Steel)': 'Нержавеющая сталь',
     'Paslanmaz Çelik + PTFE': 'Нержавеющая сталь + PTFE',
     'PTFE (Teflon®)': 'PTFE (Тефлон®)',
@@ -1868,7 +1863,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
 
     // Значения спецификаций для ремесленных лезвий
     'SK5 Yüksek Karbonlu Çelik': 'Высокоуглеродистая сталь SK5',
-    'Yekpare Seramik / Sheffield Çelik': 'Монолитная керамика / Шеффилдская сталь',
+    'Yekpare Seramik': 'Монолитная керамика',
     'Standart / TiN (Titanyum Nitrür)': 'Стандарт / TiN (нитрид титана)',
     'Standart / Ekstra Keskin (Black Blade)': 'Стандарт / Ультраострый (чёрное лезвие)',
     'Testere dişi profili (serrated)': 'Зубчатый профиль режущей кромки',

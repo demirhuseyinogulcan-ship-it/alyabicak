@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Alya Bıçak - Ürün Verileri
  * Single Source of Truth for Products
  * 
@@ -38,7 +38,7 @@ const MANUAL_PRODUCTS: Product[] = [
       },
     ],
     specifications: {
-      material: 'Sheffield Çelik',
+      material: 'Yüksek Kalite Çelik',
       hardness: 'HRC 58-62',
     },
     features: ['Döküm metal gövde', 'Ergonomik tasarım', 'Uzun ömürlü'],
@@ -64,7 +64,7 @@ const MANUAL_PRODUCTS: Product[] = [
       },
     ],
     specifications: {
-      material: 'Sheffield Çelik',
+      material: 'Yüksek Kalite Çelik',
       hardness: 'HRC 58-62',
     },
     features: ['Otomatik geri çekilme', 'Güvenlik kilidi', 'Ergonomik kavrama'],
@@ -92,7 +92,7 @@ const MANUAL_PRODUCTS: Product[] = [
       },
     ],
     specifications: {
-      material: 'Sheffield Çelik',
+      material: 'Yüksek Kalite Çelik',
       hardness: 'HRC 58-62',
     },
     features: ['Alyan vidalı', 'Hassas kesim', 'Değiştirilebilir uç'],
@@ -127,7 +127,7 @@ const MANUAL_PRODUCTS: Product[] = [
       },
     ],
     specifications: {
-      material: 'Sheffield Çelik',
+      material: 'Yüksek Kalite Çelik',
       hardness: 'HRC 58-60',
       dimensions: '61mm x 19mm',
     },
@@ -192,7 +192,7 @@ const MANUAL_PRODUCTS: Product[] = [
       },
     ],
     specifications: {
-      material: 'Sheffield Çelik',
+      material: 'Yüksek Kalite Çelik',
       hardness: 'HRC 58-60',
     },
     features: ['Özel profil', 'Uzun ömür', 'Temiz kesim'],

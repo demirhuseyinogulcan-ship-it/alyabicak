@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Alya Bıçak - Genişletilmiş Ürün Verileri
  * Profesyonel ürün detay sayfaları için
  * 
@@ -376,14 +376,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     subcategoryId: 'fixed-blade',
     tags: ['döküm metal', 'sabit uç', 'profesyonel', 'iş güvenliği'],
 
-    shortDescription: 'İş güvenliği standartlarına uygun, dayanıklı döküm metal gövdeli profesyonel el bıçağı. Sheffield çeliğinden üretilmiş kesici uç ile uzun ömürlü performans.',
+    shortDescription: 'İş güvenliği standartlarına uygun, dayanıklı döküm metal gövdeli profesyonel el bıçağı. Yüksek kalite çelikten üretilmiş kesici uç ile uzun ömürlü performans.',
 
     longDescription: `
       <p>RETRO LIGHT KNIFE, endüstriyel kullanım için tasarlanmış premium bir el bıçağıdır. Döküm metal gövdesi sayesinde yoğun kullanımda bile dayanıklılığını korur.</p>
       
       <h3>Öne Çıkan Özellikler</h3>
       <ul>
-        <li>Sheffield çeliğinden üretilmiş kesici uç</li>
+        <li>Yüksek kalite çelikten üretilmiş kesici uç</li>
         <li>Döküm metal gövde ile maksimum dayanıklılık</li>
         <li>Ergonomik tasarım sayesinde uzun süreli kullanımda yorgunluk yapmaz</li>
         <li>Kolay ve güvenli bıçak değişim mekanizması</li>
@@ -414,7 +414,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     },
 
     specs: [
-      { label: 'Malzeme', value: 'Sheffield Çelik', icon: 'Layers', highlight: true },
+      { label: 'Malzeme', value: 'Yüksek Kalite Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield' },
       { label: 'Gövde', value: 'Döküm Metal', icon: 'Box' },
       { label: 'Ağırlık', value: '120g', icon: 'Scale' },
@@ -425,7 +425,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -437,7 +437,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     benefits: [
       {
         title: 'Uzun Ömür',
-        description: 'Sheffield çeliği sayesinde standart bıçaklara göre daha uzun kesim performansı',
+        description: 'Yüksek kalite çelik sayesinde standart bıçaklara göre daha uzun kesim performansı',
         icon: 'Clock',
       },
       {
@@ -456,7 +456,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Döküm metal gövde',
       'Ergonomik kavrama',
       'Kolay bıçak değişimi',
-      'Uzun ömürlü Sheffield çeliği',
+      'Uzun ömürlü yüksek kalite çelik',
       'İş güvenliği standartlarına uygun',
     ],
 
@@ -471,8 +471,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'RETRO LIGHT KNIFE | Döküm Metal El Bıçağı | Alya Bıçak',
-      description: 'Sheffield çeliğinden üretilmiş RETRO LIGHT KNIFE döküm metal el bıçağı. İş güvenliği standartlarına uygun, dayanıklı ve ergonomik. Türkiye distribütörü.',
-      keywords: ['el bıçağı', 'döküm metal bıçak', 'iş güvenliği bıçağı', 'sheffield çelik', 'durham duplex'],
+      description: ' RETRO LIGHT KNIFE döküm metal el bıçağı. İş güvenliği standartlarına uygun, dayanıklı ve ergonomik. Türkiye distribütörü.',
+      keywords: ['el bıçağı', 'döküm metal bıçak', 'iş güvenliği bıçağı', 'Yüksek Kalite Çelik', 'durham duplex'],
     },
 
     isActive: true,
@@ -513,7 +513,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     },
 
     specs: [
-      { label: 'Malzeme', value: 'Sheffield Çelik', icon: 'Layers', highlight: true },
+      { label: 'Malzeme', value: 'Yüksek Kalite Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield' },
       { label: 'Mekanizma', value: 'Otomatik Geri Çekilme', icon: 'Zap' },
       { label: 'Ağırlık', value: '95g', icon: 'Scale' },
@@ -522,7 +522,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -560,16 +560,16 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     categoryId: 'industrial-blades',
     subcategoryId: '3-hole-slitting',
-    tags: ['3 delikli', 'dilme jileti', 'titanyum kaplama', 'endüstriyel jilet', 'sheffield'],
+    tags: ['3 delikli', 'dilme jileti', 'titanyum kaplama', 'endüstriyel jilet', 'endüstriyel'],
 
-    shortDescription: 'Sheffield çeliğinden üretilmiş, titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performanslı endüstriyel jilet.',
+    shortDescription: 'titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performanslı endüstriyel jilet.',
 
     longDescription: `
       <p>3 Delikli Dilme Jileti, endüstriyel dilme makineleri için özel olarak tasarlanmış yüksek performanslı bir kesim jiletdir. Titanyum kaplama sayesinde uzun ömürlü ve aşınmaya dayanıklıdır.</p>
       
       <h3>Öne Çıkan Özellikler</h3>
       <ul>
-        <li>Sheffield çeliğinden üretilmiş</li>
+        <li></li>
         <li>Titanyum kaplama ile ekstra dayanıklılık</li>
         <li>HRC 60-62 sertlik değeri</li>
         <li>3 delikli standart montaj sistemi</li>
@@ -597,7 +597,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     },
 
     specs: [
-      { label: 'Malzeme', value: 'Sheffield Çelik', icon: 'Layers', highlight: true },
+      { label: 'Malzeme', value: 'Yüksek Kalite Çelik', icon: 'Layers', highlight: true },
       { label: 'Kaplama', value: 'Titanyum', icon: 'Shield', highlight: true },
       { label: 'Sertlik', value: 'HRC 60-62', icon: 'Gauge' },
       { label: 'Kalınlık', value: '0.20mm', icon: 'Ruler' },
@@ -607,7 +607,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -636,7 +636,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     features: [
       'Titanyum kaplama',
-      'Sheffield çeliği',
+      'Yüksek kalite çelik',
       'HRC 60-62 sertlik',
       '3 delikli montaj',
       'Farklı kalınlık seçenekleri',
@@ -651,8 +651,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: '3 Delikli Dilme Jileti 0.20mm TiN | Alya Bıçak',
-      description: 'Sheffield çeliğinden üretilmiş titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performans. Türkiye distribütörü.',
-      keywords: ['3 delikli jilet', 'dilme jileti', 'titanyum kaplama', 'sheffield çelik', 'endüstriyel jilet'],
+      description: ' titanyum kaplamalı 3 delikli dilme jileti. Tekstil, kağıt ve film kesimi için yüksek performans. Türkiye distribütörü.',
+      keywords: ['3 delikli jilet', 'dilme jileti', 'titanyum kaplama', 'Yüksek Kalite Çelik', 'endüstriyel jilet'],
     },
 
     isActive: true,
@@ -673,9 +673,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     categoryId: 'industrial-blades',
     subcategoryId: 'slotted-slitting',
-    tags: ['slotted', 'karbon çelik', 'dilme jileti', 'SK5', '57x19mm', 'sheffield'],
+    tags: ['slotted', 'karbon çelik', 'dilme jileti', 'SK5', '57x19mm', 'endüstriyel'],
 
-    shortDescription: 'Sheffield çeliğinden üretilmiş SK5 karbon çelik slotted dilme jileti. 57x19mm standart ölçü, 5 farklı kalınlık seçeneği. Kağıt, film ve tekstil dilme makinelerinde yüksek performans.',
+    shortDescription: ' SK5 karbon çelik slotted dilme jileti. 57x19mm standart ölçü, 5 farklı kalınlık seçeneği. Kağıt, film ve tekstil dilme makinelerinde yüksek performans.',
 
     longDescription: `
       <p>SK5 (C85) yüksek karbonlu çelikten üretilmiş slotted dilme jileti. Standart 57x19mm formatında, merkezi slotted yuva ile makinelere güvenli montaj sağlar.</p>
@@ -718,7 +718,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -759,8 +759,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'Slotted Dilme Jileti Karbon Çelik SK5 57x19mm | Alya Bıçak',
-      description: 'Sheffield SK5 karbon çelik slotted dilme jileti. 57x19mm, HRC 59-61, 5 kalınlık: 0.25-0.63mm. Kağıt, film, tekstil dilme. Türkiye distribütörü.',
-      keywords: ['slotted jilet', 'karbon çelik jilet', 'dilme jileti', 'SK5 jilet', '57x19mm jilet', 'sheffield jilet', 'slotted slitting blade'],
+      description: 'SK5 karbon çelik slotted dilme jileti. 57x19mm, HRC 59-61, 5 kalınlık: 0.25-0.63mm. Kağıt, film, tekstil dilme. Türkiye distribütörü.',
+      keywords: ['slotted jilet', 'karbon çelik jilet', 'dilme jileti', 'SK5 jilet', '57x19mm jilet', 'endüstriyel jilet', 'slotted slitting blade'],
     },
 
     isActive: true,
@@ -779,7 +779,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     categoryId: 'industrial-blades',
     subcategoryId: 'slotted-slitting',
-    tags: ['slotted', 'titanyum kaplama', 'TiN', 'PVD', '57x19mm', 'sheffield'],
+    tags: ['slotted', 'titanyum kaplama', 'TiN', 'PVD', '57x19mm', 'endüstriyel'],
 
     shortDescription: 'SK5 karbon çelik üzerine PVD titanyum nitrür (TiN) kaplama slotted dilme jileti. 57x19mm, 2300 HV yüzey sertliği ile 3-5 kat uzun ömür.',
 
@@ -809,7 +809,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -900,7 +900,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -991,7 +991,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1081,7 +1081,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1172,7 +1172,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1263,7 +1263,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1356,7 +1356,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1450,7 +1450,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1566,7 +1566,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1695,7 +1695,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1823,7 +1823,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -1947,7 +1947,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'England',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -2021,12 +2021,12 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     slugEN: 'vacuum-packaging-knife',
     code: 'VPB-001',
     name: 'Vakum Paketleme Bıçağı',
-    subtitle: 'Sheffield Çelik — Termoform & MAP Makineleri',
+    subtitle: 'Yüksek kalite çelik — Termoform & MAP Makineleri',
     categoryId: 'machine-knives',
     subcategoryId: 'thermoform-vacuum',
-    tags: ['vakum paketleme', 'thermoform', 'MAP', 'gıda ambalaj', 'sheffield', 'makina bıçağı'],
-    shortDescription: 'Termoform ve vakum paketleme makineleri için Sheffield çeliğinden üretilmiş profesyonel kesim bıçağı. HRC 58-60 sertlik, gıda sınıfı yüzey kalitesi, ISO 9001:2015 sertifikalı üretim süreçleri.',
-    longDescription: `<p>Vakum paketleme (MAP — Modified Atmosphere Packaging) makinelerinde kullanılan bu profesyonel bıçak, Sheffield çeliğinden hassas CNC işleme ile üretilmiştir. HRC 58-60 Rockwell sertlik değeri, kontrollü atmosfer fırınlarında uygulanan ısıl işlem ile elde edilir.</p>
+    tags: ['vakum paketleme', 'thermoform', 'MAP', 'gıda ambalaj', 'endüstriyel', 'makina bıçağı'],
+    shortDescription: 'Termoform ve vakum paketleme makineleri için  profesyonel kesim bıçağı. HRC 58-60 sertlik, gıda sınıfı yüzey kalitesi, ISO 9001:2015 sertifikalı üretim süreçleri.',
+    longDescription: `<p>Vakum paketleme (MAP — Modified Atmosphere Packaging) makinelerinde kullanılan bu profesyonel bıçak, hassas CNC işleme ile üretilmiştir. HRC 58-60 Rockwell sertlik değeri, kontrollü atmosfer fırınlarında uygulanan ısıl işlem ile elde edilir.</p>
 <p>Gıda sanayiinde HACCP ve BRC standartlarına uygun yüzey kalitesi sunar. Ra ≤0.4 µm yüzey pürüzlülüğü sayesinde gıda parçacıklarının bıçak yüzeyine yapışması önlenir, böylece hijyen standartları korunur.</p>
 <p><strong>Uyumlu Makina Markaları:</strong> Multivac, Tiromat, Opack, Betapak, GEA CFS, Alcan, Ulma Packaging, Variovac, Sealpac, Webomatic, Henkelman.</p>
 <p>Düz kesim, kontör kesim, yıldız zımba ve hava zımbası dahil tüm termoform vakum paketleme bıçak tiplerinin genel referans ürünüdür. Spesifik makine modeli için teknik destek ekibimiz en uygun SKU eşleşmesini sağlar.</p>`,
@@ -2036,13 +2036,13 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       thumbnail: { src: '/images/products/vakum-paketleme.jpg', alt: 'VPB-001 Vacuum Packaging Blade', width: 400, height: 400 },
     },
     specs: [
-      { label: 'Malzeme', value: 'Sheffield Çelik (Yüksek Karbonlu)', icon: 'Layers', highlight: true },
+      { label: 'Malzeme', value: 'Yüksek kalite çelik (Yüksek Karbonlu)', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-60', icon: 'Shield', highlight: true },
       { label: 'Yüzey Kalitesi', value: 'Ra ≤0.4 µm (Gıda Sınıfı)', icon: 'Gauge' },
       { label: 'Isıl İşlem', value: 'Kontrollü atmosfer fırını', icon: 'Flame' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Ulma, Sealpac', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'Vakum Paketleme', icon: 'Package', description: 'MAP ve vakum makinelerinde film kesimi' },
       { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Et, peynir, hazır gıda ambalajlama' },
@@ -2053,12 +2053,12 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { title: 'Gıda Sınıfı Yüzey', description: 'Ra ≤0.4 µm pürüzlülük — HACCP ve BRC uyumlu hijyenik kesim', icon: 'CheckCircle' },
       { title: 'Geniş Makina Uyumu', description: 'Multivac, Tiromat, GEA, Ulma, Sealpac dahil 10+ marka uyumluluğu', icon: 'Settings' },
     ],
-    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-60 sertlik', 'Ra ≤0.4 µm yüzey', 'Gıda sınıfı hijyen', 'CNC hassas işleme', '10+ makina markası uyumlu'],
+    features: ['Yüksek Karbonlu Çelik', 'HRC 58-60 sertlik', 'Ra ≤0.4 µm yüzey', 'Gıda sınıfı hijyen', 'CNC hassas işleme', '10+ makina markası uyumlu'],
     certifications: ['ISO 9001:2015', 'CE'],
     relatedProductIds: ['kontr-biai', 'yarim', 'tam', 'dz-biaklar', 'dairesel'],
     seo: {
       title: 'Vakum Paketleme Bıçağı VPB-001 | Alya Bıçak',
-      description: 'Sheffield çeliğinden vakum paketleme bıçağı. HRC 58-60, gıda sınıfı Ra ≤0.4 µm. Multivac, Tiromat, GEA, Ulma, Sealpac uyumlu. Türkiye distribütörü.',
+      description: 'vakum paketleme bıçağı. HRC 58-60, gıda sınıfı Ra ≤0.4 µm. Multivac, Tiromat, GEA, Ulma, Sealpac uyumlu. Türkiye distribütörü.',
       keywords: ['vakum paketleme bıçağı', 'thermoform bıçak', 'vacuum packaging blade', 'MAP packaging knife', 'multivac bıçak', 'tiromat bıçak', 'termoform kesim', 'gıda ambalaj bıçağı'],
     },
     isActive: true,
@@ -2073,12 +2073,12 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     slugEN: 'contour-blade-thermoform-vacuum-packaging',
     code: 'CONTOUR BLADE',
     name: 'KONTÖR BIÇAĞI - Termoform Vakum Paketleme Bıçağı',
-    subtitle: 'Kontör Profil Kesim — Sheffield Çelik HRC 58-62',
+    subtitle: 'Kontör Profil Kesim — Yüksek kalite çelik HRC 58-62',
     categoryId: 'machine-knives',
     subcategoryId: 'thermoform-vacuum',
-    tags: ['kontör bıçağı', 'contour blade', 'termoform', 'vakum paketleme', 'multivac', 'tiromat', 'sheffield'],
-    shortDescription: 'Termoform ve vakum paketleme makinaları için kontör (contour) profil bıçağı. Sheffield çeliği HRC 58-62, Multivac, Tiromat, GEA uyumlu. Titanyum nitrür (TiN) kaplama opsiyonu ile 2300 HV yüzey sertliği.',
-    longDescription: `<p>Kontör bıçağı, termoform ambalaj makinelerinde film kenarlarını profil takip ederek kesen özel geometrili bıçaktır. Sheffield yüksek karbonlu çelikten CNC ile işlenir, HRC 58-62 sertlik değeri hassas ısıl işlemle elde edilir.</p>
+    tags: ['kontör bıçağı', 'contour blade', 'termoform', 'vakum paketleme', 'multivac', 'tiromat', 'endüstriyel'],
+    shortDescription: 'Termoform ve vakum paketleme makinaları için kontör (contour) profil bıçağı. yüksek kalite çelik HRC 58-62, Multivac, Tiromat, GEA uyumlu. Titanyum nitrür (TiN) kaplama opsiyonu ile 2300 HV yüzey sertliği.',
+    longDescription: `<p>Kontör bıçağı, termoform ambalaj makinelerinde film kenarlarını profil takip ederek kesen özel geometrili bıçaktır. yüksek karbonlu çelikten CNC ile işlenir, HRC 58-62 sertlik değeri hassas ısıl işlemle elde edilir.</p>
 <p><strong>Profil Geometrisi:</strong> Makineye özel kontör profili, film kenar geometrisini birebir takip eder. Burr-free (çapaksız) kesim sağlar — ambalaj yüzeyinde kesim izi oluşmaz.</p>
 <p><strong>Kaplama Seçenekleri:</strong></p>
 <ul>
@@ -2092,14 +2092,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       thumbnail: { src: '/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg', alt: 'Contour Blade VPB', width: 400, height: 400 },
     },
     specs: [
-      { label: 'Malzeme', value: 'Sheffield Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield', highlight: true },
       { label: 'Kaplama', value: 'Standart veya TiN PVD (2300 HV)', icon: 'Diamond' },
       { label: 'Yüzey Kalitesi', value: 'Ra ≤0.4 µm (Gıda Sınıfı)', icon: 'Gauge' },
       { label: 'Kesim Tipi', value: 'Kontör/Profil Takipli Kesim', icon: 'Scissors' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'Vakum Paketleme', icon: 'Package', description: 'Kontör profilli film kesimi' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Kalıp kenarı takipli hassas kesim' },
@@ -2111,12 +2111,12 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { title: 'Burr-Free Kesim', description: 'Kontör profil geometrisi ile çapaksız, temiz kenar kesimi', icon: 'Zap' },
       { title: 'TiN Kaplama Opsiyonu', description: '2300 HV yüzey sertliği, 3-5x ömür artışı, yapışma önleme', icon: 'Diamond' },
     ],
-    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-62 sertlik', 'Kontör profil geometrisi', 'Burr-free kesim', 'TiN PVD kaplama seçeneği', 'Gıda sınıfı Ra ≤0.4 µm'],
+    features: ['Yüksek Karbonlu Çelik', 'HRC 58-62 sertlik', 'Kontör profil geometrisi', 'Burr-free kesim', 'TiN PVD kaplama seçeneği', 'Gıda sınıfı Ra ≤0.4 µm'],
     certifications: ['CE'],
     relatedProductIds: ['yarim', 'tam', 'dz-biaklar', 'dairesel', 'vakum-paketleme-bicak'],
     seo: {
       title: 'Kontör Bıçağı Termoform Vakum | Alya Bıçak',
-      description: 'Sheffield çeliğinden kontör/contour bıçağı. HRC 58-62, TiN 2300 HV kaplama. Multivac, Tiromat, GEA, Ulma uyumlu. ISO 9001 sertifikalı.',
+      description: 'kontör/contour bıçağı. HRC 58-62, TiN 2300 HV kaplama. Multivac, Tiromat, GEA, Ulma uyumlu. ISO 9001 sertifikalı.',
       keywords: ['kontör bıçağı', 'contour blade', 'termoform bıçak', 'vakum paketleme bıçağı', 'multivac bıçak', 'tiromat bıçak', 'thermoform blade', 'vacuum packaging knife'],
     },
     isActive: true,
@@ -2155,7 +2155,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Geometri', value: 'Yarım Yıldız (Half Star / Triangle)', icon: 'Star' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'Vakum Zımbalama', icon: 'Target', description: 'Film üzerinde havalandırma deseni açma' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Termoform makinelerinde zımba operasyonu' },
@@ -2210,7 +2210,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Kimyasal Bileşim', value: '%1.55 C, %12 Cr, %0.85 Mo, %0.9 V', icon: 'Beaker' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Sealpac', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'MAP Paketleme', icon: 'Wind', description: 'Modifiye atmosfer hızlı gaz değişimi' },
       { title: 'Vakum Zımbalama', icon: 'Target', description: 'Geniş havalandırma deseni açma' },
@@ -2250,7 +2250,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Alaşım Bileşimi:</strong> %0.85 C, %6.15 W, %5.0 Mo, %4.15 Cr, %1.85 V — bu bileşim ikincil sertleşme fenomeni sayesinde HRC 62-65 sertliğe ulaşırken 600°C'ye kadar termal kararlılık sunar.</p>
 <p><strong>Üstünlükleri:</strong></p>
 <ul>
-<li>Ezilmeye karşı olağanüstü direnç — Sheffield çeliğe göre 5x deformasyon direnci</li>
+<li>Ezilmeye karşı olağanüstü direnç — standart çeliğe göre 5x deformasyon direnci</li>
 <li>Kırmızı sertlik (red hardness): 600°C'de bile HRC 60+ koruma</li>
 <li>Vanadyum karbür mikro-yapı: MC karbürler aşınmaya karşı doğal bariyer oluşturur</li>
 </ul>
@@ -2268,7 +2268,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Kenar Tipi', value: 'Düz Kesim (Straight Edge)', icon: 'Minus' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Alcan', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'Film Kesimi', icon: 'Scissors', description: 'Vakum paketleme film kesim hattı' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Düz hat kesim operasyonları' },
@@ -2299,12 +2299,12 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     slugEN: 'circular-blades-vacuum-packaging',
     code: 'CIRCULAR BLADE',
     name: 'DAİRESEL BIÇAKLAR - Vakum Paketleme Döner Bıçak',
-    subtitle: 'Sheffield Çelik — Döner (Rotary) Kesim HRC 58-62',
+    subtitle: 'Yüksek kalite çelik — Döner (Rotary) Kesim HRC 58-62',
     categoryId: 'machine-knives',
     subcategoryId: 'thermoform-vacuum',
     tags: ['dairesel bıçak', 'circular blade', 'döner bıçak', 'rotary blade', 'vakum paketleme', 'termoform'],
-    shortDescription: 'Sheffield çeliğinden dairesel (circular) döner kesim bıçakları. HRC 58-62, hassas bileme açısı, dinamik dengelenmiş yapı. Termoform ve vakum paketleme makinelerinde rotary kesim.',
-    longDescription: `<p>Dairesel bıçaklar, termoform ve vakum paketleme makinelerinde döner (rotary) kesim sistemiyle çalışır. Sheffield yüksek karbonlu çelikten CNC torna ve taşlama ile üretilir.</p>
+    shortDescription: 'dairesel (circular) döner kesim bıçakları. HRC 58-62, hassas bileme açısı, dinamik dengelenmiş yapı. Termoform ve vakum paketleme makinelerinde rotary kesim.',
+    longDescription: `<p>Dairesel bıçaklar, termoform ve vakum paketleme makinelerinde döner (rotary) kesim sistemiyle çalışır. yüksek karbonlu çelikten CNC torna ve taşlama ile üretilir.</p>
 <p><strong>Dinamik Dengeleme:</strong> Her dairesel bıçak, yüksek hız dönüşünde titreşim oluşturmaması için dinamik olarak dengelenir. Bu sayede 3000+ RPM'de bile burr-free kesim garanti edilir.</p>
 <p><strong>Bileme:</strong> Kenar açısı 18-22° hassas taşlama ile oluşturulur. Yeniden bileme kalibrasyon hizmeti mevcuttur.</p>
 <p><strong>Uyumlu Makinalar:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
@@ -2314,14 +2314,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       thumbnail: { src: '/images/products/dairesel-bicaklar.jpg', alt: 'Circular Rotary Blade', width: 400, height: 400 },
     },
     specs: [
-      { label: 'Malzeme', value: 'Sheffield Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield', highlight: true },
       { label: 'Geometri', value: 'Dairesel (Circular Rotary)', icon: 'Circle', highlight: true },
       { label: 'Bileme Açısı', value: '18-22°', icon: 'Gauge' },
       { label: 'Dengeleme', value: 'Dinamik Dengelenmiş (3000+ RPM)', icon: 'RotateCw' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'Döner Kesim', icon: 'RotateCw', description: 'Yüksek hızlı rotary film kesimi' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Dairesel kesim operasyonları' },
@@ -2329,15 +2329,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     ],
     benefits: [
       { title: 'Dinamik Dengelenmiş', description: '3000+ RPM\'de titreşimsiz, burr-free kesim garantisi', icon: 'RotateCw' },
-      { title: 'HRC 58-62 Sertlik', description: 'Sheffield çeliğinden uzun ömürlü keskin kenar', icon: 'Shield' },
+      { title: 'HRC 58-62 Sertlik', description: 'uzun ömürlü keskin kenar', icon: 'Shield' },
       { title: 'Yeniden Bileme', description: '18-22° hassas taşlama ile bileme kalibrasyon hizmeti', icon: 'RefreshCw' },
     ],
-    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-62 sertlik', 'Dairesel rotary geometri', 'Dinamik dengelenmiş', '18-22° bileme açısı', '3000+ RPM kapasitesi'],
+    features: ['Yüksek Karbonlu Çelik', 'HRC 58-62 sertlik', 'Dairesel rotary geometri', 'Dinamik dengelenmiş', '18-22° bileme açısı', '3000+ RPM kapasitesi'],
     certifications: ['CE'],
     relatedProductIds: ['kontr-biai', 'dz-biaklar', 'dili', 'vakum-paketleme-bicak'],
     seo: {
       title: 'Dairesel Döner Bıçak Vakum Paketleme | Alya Bıçak',
-      description: 'Sheffield çeliğinden dairesel döner bıçak. HRC 58-62, dinamik dengelenmiş, 3000+ RPM. Multivac, Tiromat, GEA uyumlu.',
+      description: 'dairesel döner bıçak. HRC 58-62, dinamik dengelenmiş, 3000+ RPM. Multivac, Tiromat, GEA uyumlu.',
       keywords: ['dairesel bıçak', 'circular blade', 'döner bıçak', 'rotary blade', 'vakum paketleme dairesel', 'termoform dairesel', 'round cutting blade'],
     },
     isActive: true,
@@ -2374,7 +2374,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Geometri', value: 'Yuvarlak (Round) Hava Deliği', icon: 'Circle' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'Havalandırma Zımbalama', icon: 'Wind', description: 'Vakum ambalajda vent deliği açma' },
       { title: 'Gıda Paketleme', icon: 'Utensils', description: 'Et, peynir, taze gıda MAP ambalajı' },
@@ -2427,7 +2427,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Havalandırma', value: 'Yuvarlağa göre %40 daha geniş alan', icon: 'Wind' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'MAP Havalandırma', icon: 'Wind', description: 'Hızlı gaz değişimli modifiye atmosfer' },
       { title: 'Gıda Paketleme', icon: 'Utensils', description: 'Et, peynir, taze gıda ambalajı' },
@@ -2458,14 +2458,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     slugEN: 'serrated-blades-vacuum-packaging',
     code: 'SERRATED BLADE',
     name: 'DİŞLİ BIÇAKLAR - Vakum Paketleme Testere Dişli Bıçak',
-    subtitle: 'Sheffield Çelik — Testere Dişli (Serrated) Kenar',
+    subtitle: 'Yüksek kalite çelik — Testere Dişli (Serrated) Kenar',
     categoryId: 'machine-knives',
     subcategoryId: 'thermoform-vacuum',
     tags: ['dişli bıçak', 'serrated blade', 'testere dişli', 'saw tooth', 'vakum paketleme', 'termoform'],
-    shortDescription: 'Sheffield çeliğinden testere dişli (serrated) kesim bıçakları. HRC 58-62, mikro-serrated kenar geometrisi. Kalın film, alüminyum folyo ve sert ambalaj malzemelerinde kayma önleyici kesim.',
+    shortDescription: 'testere dişli (serrated) kesim bıçakları. HRC 58-62, mikro-serrated kenar geometrisi. Kalın film, alüminyum folyo ve sert ambalaj malzemelerinde kayma önleyici kesim.',
     longDescription: `<p>Testere dişli (serrated/saw-tooth) bıçaklar, kalın filmler, alüminyum folyo laminasyonlar ve sert termoplastik ambalajlar gibi düz bıçağın kayacağı malzemelerde kullanılır.</p>
 <p><strong>Diş Geometrisi:</strong> Mikro-serrated kenar profili, malzemeyi önce deler sonra keser. Bu iki aşamalı mekanizma kayma (slip) riskini ortadan kaldırır ve her kesimde düzgün kenar oluşturur.</p>
-<p><strong>Malzeme:</strong> Sheffield yüksek karbonlu çelik, HRC 58-62 sertlik. Dişler CNC ile hassas olarak açılır, her diş arası tolerans ±0.02mm.</p>
+<p><strong>Malzeme:</strong> yüksek karbonlu çelik, HRC 58-62 sertlik. Dişler CNC ile hassas olarak açılır, her diş arası tolerans ±0.02mm.</p>
 <p><strong>İdeal Kullanım:</strong></p>
 <ul>
 <li>Kalın PE/PP filmler (100+ mikron)</li>
@@ -2480,14 +2480,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       thumbnail: { src: '/images/products/dili-bicaklar.jpg', alt: 'Serrated Saw-Tooth Blade', width: 400, height: 400 },
     },
     specs: [
-      { label: 'Malzeme', value: 'Sheffield Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
+      { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
       { label: 'Sertlik', value: 'HRC 58-62', icon: 'Shield', highlight: true },
       { label: 'Kenar Tipi', value: 'Mikro-Serrated (Testere Dişli)', icon: 'Scissors', highlight: true },
       { label: 'Diş Toleransı', value: '±0.02mm CNC hassasiyet', icon: 'Gauge' },
       { label: 'İdeal Malzeme', value: 'Kalın film, Al folyo, PET/PVC rigid', icon: 'Layers' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
     ],
-    origin: { brand: 'Sheffield Steel', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
     applications: [
       { title: 'Sert Film Kesimi', icon: 'Scissors', description: 'PET, PVC, rigid ambalaj kesimi' },
       { title: 'Laminasyon Kesimi', icon: 'Layers', description: 'Alüminyum folyo laminasyonlar' },
@@ -2498,12 +2498,12 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { title: '±0.02mm Diş Hassasiyeti', description: 'CNC ile açılmış hassas dişler, düzgün kenar kalitesi', icon: 'Gauge' },
       { title: 'Çok Malzeme Uyumu', description: 'Kalın film, folyo, rigid plastik, bariyerli film — tek bıçak', icon: 'Layers' },
     ],
-    features: ['Sheffield yüksek karbonlu çelik', 'HRC 58-62 sertlik', 'Mikro-serrated kenar', '±0.02mm CNC diş toleransı', 'Kayma önleyici mekanizma', 'Kalın film/folyo/rigid uyumlu'],
+    features: ['Yüksek Karbonlu Çelik', 'HRC 58-62 sertlik', 'Mikro-serrated kenar', '±0.02mm CNC diş toleransı', 'Kayma önleyici mekanizma', 'Kalın film/folyo/rigid uyumlu'],
     certifications: ['CE'],
     relatedProductIds: ['kontr-biai', 'dz-biaklar', 'dairesel', 'vakum-paketleme-bicak'],
     seo: {
       title: 'Dişli Testere Bıçak Vakum Paketleme | Alya Bıçak',
-      description: 'Sheffield çeliğinden testere dişli bıçak. HRC 58-62, ±0.02mm CNC. Kalın film, folyo, PET/PVC rigid. Multivac, Tiromat uyumlu.',
+      description: 'testere dişli bıçak. HRC 58-62, ±0.02mm CNC. Kalın film, folyo, PET/PVC rigid. Multivac, Tiromat uyumlu.',
       keywords: ['dişli bıçak', 'serrated blade', 'testere dişli', 'saw tooth blade', 'vakum paketleme dişli', 'termoform serrated', 'multivac serrated'],
     },
     isActive: true,
@@ -3080,7 +3080,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     shortDescription: 'Profesyonel kullanım için 0.63mm kalınlığında heavy duty trapez bıçak. Karbon çelik, paslanmaz ve TiN kaplamalı seçenekler. 2-3 çentik, delik konfigürasyonları.',
 
     longDescription: `<p>B207 serisi kalın trapez bıçaklar, endüstriyel kullanım için tasarlanmış 0.63mm (standart) ve 1.00mm (paslanmaz) kalınlıklarda profesyonel kesim bıçaklarıdır.</p>
-<p>Yüksek karbon çelikten imal edilen bıçaklar, Sheffield kalitesinde üretilmektedir. 50mm ile 100mm arası farklı uzunluk seçenekleri, 2 veya 3 çentik konfigürasyonu ve çeşitli delik düzenleri ile geniş bir kullanım yelpazesi sunar.</p>
+<p>Yüksek karbon çelikten imal edilen bıçaklar, üretilmektedir. 50mm ile 100mm arası farklı uzunluk seçenekleri, 2 veya 3 çentik konfigürasyonu ve çeşitli delik düzenleri ile geniş bir kullanım yelpazesi sunar.</p>
 <p><strong>Malzeme seçenekleri:</strong> Karbon çelik (standart), paslanmaz çelik (korozyona dayanıklı), TiN kaplamalı (uzun ömür). İş güvenliği için yuvarlatılmış uç ve tek taraflı bileme alternatifleri mevcuttur.</p>
 <p>Maket bıçakları, güvenlik kesiciler, zemin döşeme aletleri ve profesyonel el aletlerinde yedek uç olarak kullanılır. Karton, halı, linoleum, PVC, ambalaj filmi, deri ve tekstil kesiminde üstün performans sağlar.</p>`,
 
@@ -3105,7 +3105,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'packaging', value: '5, 10, 100 adet (dispenser / kutu)', icon: 'Package' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Depo & Lojistik', icon: 'Warehouse', description: 'Koli açma, ambalaj kesimi, streç film kesme' },
@@ -3119,7 +3119,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     benefits: [
       { title: 'Heavy Duty Dayanım', description: '0.63mm kalın profil, ağır hizmet uygulamalarında bükülme ve kırılmaya karşı üstün direnç sağlar.', icon: 'Shield' },
       { title: '10 Farklı Varyant', description: 'Farklı boyut, çentik, delik ve kaplama seçenekleri ile her uygulamaya özel çözüm.', icon: 'Settings' },
-      { title: 'Sheffield Kalitesi', description: 'İngiltere Sheffield\'de HRC 58-62 sertliğinde ısıl işlem görmüş yüksek karbon çelik.', icon: 'Award' },
+      { title: 'Yüksek kalite', description: 'HRC 58-62 sertliğinde ısıl işlem görmüş yüksek karbon çelik.', icon: 'Award' },
       { title: 'Uzun Ömür', description: 'TiN (Titanyum Nitrür) kaplamalı versiyon ile standart karbona göre 3 kat daha uzun kesim ömrü.', icon: 'Clock' },
     ],
 
@@ -3159,8 +3159,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B207 Trapez Bıçak Kalın 0.63mm | Alya Bıçak',
-      description: 'B207 heavy duty trapez bıçak, 0.63mm kalınlık, Sheffield çelik. 10 varyant: karbon, paslanmaz, TiN kaplamalı. 50-100mm boyut. Depo, zemin döşeme, inşaat, ambalaj kesimi. Türkiye distribütörü.',
-      keywords: ['trapez bıçak', 'B207', 'heavy duty trapez', 'kalın trapez jilet', 'utility blade', 'maket bıçağı ucu', '0.63mm trapez', 'TiN kaplama trapez', 'paslanmaz trapez', 'sheffield trapez bıçak', 'trapez bıçak toptan', 'endüstriyel trapez bıçak'],
+      description: 'B207 heavy duty trapez bıçak, 0.63mm kalınlık, Yüksek kalite çelik. 10 varyant: karbon, paslanmaz, TiN kaplamalı. 50-100mm boyut. Depo, zemin döşeme, inşaat, ambalaj kesimi. Türkiye distribütörü.',
+      keywords: ['trapez bıçak', 'B207', 'heavy duty trapez', 'kalın trapez jilet', 'utility blade', 'maket bıçağı ucu', '0.63mm trapez', 'TiN kaplama trapez', 'paslanmaz trapez', 'endüstriyel trapez bıçak', 'trapez bıçak toptan', 'endüstriyel trapez bıçak'],
     },
 
     isActive: true,
@@ -3210,7 +3210,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'packaging', value: '5, 10, 100 adet', icon: 'Package' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Kağıt & Ambalaj', icon: 'FileText', description: 'Kağıt, karton, ince ambalaj filmi kesimi' },
@@ -3251,7 +3251,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B206 İnce Trapez Bıçak 0.43mm | Alya Bıçak',
-      description: 'B206 ince trapez bıçak/jilet. 0.43mm, Sheffield karbon çelik, HRC 58-62. Kağıt, ambalaj, duvar kağıdı, cam kazıma. Tek taraflı bileme. Türkiye distribütörü.',
+      description: 'B206 ince trapez bıçak/jilet. 0.43mm, karbon çelik, HRC 58-62. Kağıt, ambalaj, duvar kağıdı, cam kazıma. Tek taraflı bileme. Türkiye distribütörü.',
       keywords: ['ince trapez bıçak', 'B206', 'thin trapezoid blade', '0.43mm trapez', 'trapez jilet ince', 'utility blade thin', 'maket bıçağı jilet', 'kağıt kesim bıçağı', 'trapez jilet toptan'],
     },
 
@@ -3299,7 +3299,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'edgeType', value: 'Tek taraftan tırtıklı kenar', icon: 'Zap', highlight: true },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Halat & İp Kesimi', icon: 'Link', description: 'Naylon halat, sicim, çelik halat kılıfı kesimi' },
@@ -3319,7 +3319,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '82×25×1.0mm geniş ve kalın gövde',
       '2 montaj deliği',
       'Lifli malzemelerde üstün performans',
-      'Sheffield kalitesinde karbon çelik',
+      'karbon çelik',
     ],
 
     availableSizes: [
@@ -3332,7 +3332,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B082 Tırtıklı Kenar Trapez Bıçak | Alya Bıçak',
-      description: 'B082 tırtıklı kenarlı trapez bıçak. 82×25×1.0mm, Sheffield çelik. Halat, elyaf, Kevlar kesimi. Tek taraftan tırtıklı kenar. Türkiye distribütörü.',
+      description: 'B082 tırtıklı kenarlı trapez bıçak. 82×25×1.0mm, Yüksek kalite çelik. Halat, elyaf, Kevlar kesimi. Tek taraftan tırtıklı kenar. Türkiye distribütörü.',
       keywords: ['tırtıklı trapez bıçak', 'B082', 'serrated trapezoid', 'tırtıklı kenar', 'halat kesim bıçağı', 'elyaf kesim bıçağı', 'serrated utility blade', 'hook blade'],
     },
 
@@ -3378,7 +3378,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: '1 delik', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Dar Alan Kesimi', icon: 'Minimize', description: 'Dar ve ulaşılması zor alanlarda hassas kesim' },
@@ -3395,7 +3395,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '61×12.5×0.63mm kompakt boyut',
       '1 delikli montaj tasarımı',
       'Özel aletlere uyumlu',
-      'Sheffield kalitesinde karbon çelik',
+      'karbon çelik',
     ],
 
     availableSizes: [
@@ -3408,7 +3408,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B213 Kompakt Trapez Bıçak 61×12.5mm | Alya Bıçak',
-      description: 'B213 kompakt trapez bıçak, 61×12.5×0.63mm. Dar alanlar, elektronik, detay kesim. Sheffield çelik. Türkiye distribütörü.',
+      description: 'B213 kompakt trapez bıçak, 61×12.5×0.63mm. Dar alanlar, elektronik, detay kesim. Yüksek kalite çelik. Türkiye distribütörü.',
       keywords: ['kompakt trapez', 'B213', 'compact trapezoid', 'mini utility blade', '61mm trapez', 'küçük trapez bıçak'],
     },
 
@@ -3454,7 +3454,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: '1×6mm delik', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Endüstriyel Makineler', icon: 'Settings', description: 'Özel kesici ünitelere yedek bıçak' },
@@ -3472,7 +3472,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '1×6mm delikli montaj',
       'Uzun kesim hattı',
       '17mm dar genişlik',
-      'Sheffield kalitesinde karbon çelik',
+      'karbon çelik',
     ],
 
     availableSizes: [
@@ -3485,7 +3485,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B218 Özel Trapez Bıçak 71×17mm | Alya Bıçak',
-      description: 'B218 özel boyut trapez bıçak, 71×17×0.63mm, 1×6mm delik. Endüstriyel makine, otomasyon sistemi yedek ucu. Sheffield çelik. Türkiye distribütörü.',
+      description: 'B218 özel boyut trapez bıçak, 71×17×0.63mm, 1×6mm delik. Endüstriyel makine, otomasyon sistemi yedek ucu. Yüksek kalite çelik. Türkiye distribütörü.',
       keywords: ['özel trapez bıçak', 'B218', '71mm trapez', 'medium trapezoid blade', 'özel boyut utility blade', 'makine trapez bıçağı'],
     },
 
@@ -3531,7 +3531,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: '3×3.5mm delik', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Elektronik Montaj', icon: 'Cpu', description: 'Elektronik bileşen, kablo ve PCB kesimi' },
@@ -3550,7 +3550,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '3×3.5mm üçlü delik konfigürasyonu',
       '0.43mm ince profil',
       'Minyatür tutuculara uyumlu',
-      'Sheffield kalitesinde karbon çelik',
+      'karbon çelik',
     ],
 
     availableSizes: [
@@ -3563,7 +3563,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B214 Mikro Trapez Bıçak 27.6×9mm | Alya Bıçak',
-      description: 'B214 mikro trapez bıçak, 27.6×9×0.43mm, 3×3.5mm delik. Elektronik, model, laboratuvar, tıbbi cihaz kesimi. Sheffield çelik. Türkiye distribütörü.',
+      description: 'B214 mikro trapez bıçak, 27.6×9×0.43mm, 3×3.5mm delik. Elektronik, model, laboratuvar, tıbbi cihaz kesimi. Yüksek kalite çelik. Türkiye distribütörü.',
       keywords: ['mikro trapez', 'B214', 'micro trapezoid blade', 'mini utility blade', '27mm trapez', 'hassas trapez bıçak', 'minyatür kesim bıçağı'],
     },
 
@@ -3608,7 +3608,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeProfile', value: 'Standart B207 serisi genişletilmiş', icon: 'ArrowRight' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Büyük Boy Kesim', icon: 'Maximize', description: 'Büyük karton, geniş ambalaj filmi' },
@@ -3618,14 +3618,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     benefits: [
       { title: 'Geniş Kesim Alanı', description: 'Standart B207\'ye göre daha uzun bıçak uzunluğu ile tek seferde daha fazla malzeme keser.', icon: 'Maximize' },
-      { title: 'Aynı Kalite', description: 'B207 serisinin tüm kalite standartları: Sheffield çelik, HRC 58-62.', icon: 'Award' },
+      { title: 'Aynı Kalite', description: 'B207 serisinin tüm kalite standartları: Yüksek kalite çelik, HRC 58-62.', icon: 'Award' },
     ],
 
     features: [
       'B207 serisinin uzun versiyonu',
       '0.63mm kalın profil',
       'Geniş kesim hattı',
-      'Sheffield kalitesinde karbon çelik',
+      'karbon çelik',
     ],
 
     certifications: ['CE'],
@@ -3634,7 +3634,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B207 L Uzun Trapez Bıçak | Long Utility Blade | Alya Bıçak',
-      description: 'B207 L uzun trapez bıçak. Standart B207\'nin uzatılmış versiyonu, geniş kesim hattı. Sheffield çelik, HRC 58-62. Türkiye distribütörü.',
+      description: 'B207 L uzun trapez bıçak. Standart B207\'nin uzatılmış versiyonu, geniş kesim hattı. Yüksek kalite çelik, HRC 58-62. Türkiye distribütörü.',
       keywords: ['uzun trapez bıçak', 'B207 L', 'long trapezoid blade', 'büyük utility blade', 'geniş kesim trapez'],
     },
 
@@ -3721,7 +3721,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -3762,7 +3762,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '4 delik — çoklu montaj opsiyonu',
       'Yüksek karbonlu çelik — HRC 58-62 sertlik',
       'Tek seferde uzun ve düz kesim hattı',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: ['170×19×0.80mm'],
@@ -3771,7 +3771,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B207 XXL Alçı Levha Bıçağı 170×19mm | Alya Bıçak',
-      description: 'B207 XXL alçı levha bıçağı, 170×19×0.80mm, yüksek karbonlu çelik, 2 çentik, 4 delik. Alçıpan, kartonpiyer, kuru duvar kesimi. Sheffield kalitesi. Türkiye distribütörü Alya Bıçak.',
+      description: 'B207 XXL alçı levha bıçağı, 170×19×0.80mm, yüksek karbonlu çelik, 2 çentik, 4 delik. Alçıpan, kartonpiyer, kuru duvar kesimi. Yüksek kalite. Türkiye distribütörü Alya Bıçak.',
       keywords: [
         'alçı levha bıçağı', 'alçıpan bıçağı', 'kartonpiyer bıçağı', 'drywall blade',
         'B207 XXL', 'plasterboard blade', 'plasterboard knife blade', 'drywall cutting blade',
@@ -3825,7 +3825,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: 'Müşteriye özel delik konfigürasyonu', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
 
     applications: [
       { title: 'Özel Makineler', icon: 'Settings', description: 'Standart dışı kesici ünitelere özel bıçak' },
@@ -3837,7 +3837,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     benefits: [
       { title: 'Tam Özelleştirme', description: 'Boyut, malzeme, kaplama, çentik ve delik: tamamen ihtiyaca özel.', icon: 'Settings' },
       { title: '100mm Boy', description: 'Standart gamımızdaki en uzun trapez: 100×19mm büyük boy seçeneği.', icon: 'Maximize' },
-      { title: 'Sheffield Üretim', description: 'Tüm özel siparişler aynı Sheffield kalite standartlarında.', icon: 'Award' },
+      { title: 'endüstriyel Üretim', description: 'Tüm özel siparişler aynı kalite standartlarında.', icon: 'Award' },
     ],
 
     features: [
@@ -3846,7 +3846,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Karbon, paslanmaz, TiN kaplama seçenekleri',
       'Özel çentik ve delik konfigürasyonları',
       'OEM ve proje bazlı üretim',
-      'Sheffield kalite standartları',
+      'endüstriyel kalite standartları',
     ],
 
     availableSizes: [
@@ -3860,7 +3860,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'Özel Tasarım Trapez Bıçak 100×19mm | Alya Bıçak',
-      description: 'Özel tasarım trapez bıçaklar. 100×19mm büyük boy + müşteriye özel boyut, malzeme, kaplama. Sheffield çelik, HRC 58-62. OEM tedarik. Türkiye distribütörü.',
+      description: 'Özel tasarım trapez bıçaklar. 100×19mm büyük boy + müşteriye özel boyut, malzeme, kaplama. Yüksek kalite çelik, HRC 58-62. OEM tedarik. Türkiye distribütörü.',
       keywords: ['özel trapez bıçak', 'custom trapezoid blade', '100mm trapez', 'büyük boy utility blade', 'OEM trapez bıçak', 'özel üretim trapez', 'trapez bıçak üretici'],
     },
 
@@ -3912,7 +3912,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'packaging', value: '5, 10, 100 adet', icon: 'Package' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Ambalaj Açma', icon: 'Package', description: 'Koli ve ambalaj filmlerinin güvenli açılması' },
@@ -3933,7 +3933,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '49/51/52×19mm boyut seçenekleri',
       'Karbon çelik, yüksek karbon, TiN kaplama varyantları',
       '2-3 çentik, 2-5 delik konfigürasyonları',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: [
@@ -3953,8 +3953,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B208 Sivri Uçlu Kanca Bıçak | Hook Blade | Alya Bıçak',
-      description: 'B208 standart sivri uçlu kanca bıçak. 49-52×19×0.6mm, karbon/yüksek karbon/TiN. Ambalaj, film ve bant kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
-      keywords: ['kanca bıçak', 'B208', 'hook blade', 'sivri uçlu kanca', 'ambalaj kesim bıçağı', 'film kesim bıçağı', 'Sheffield kanca bıçak'],
+      description: 'B208 standart sivri uçlu kanca bıçak. 49-52×19×0.6mm, karbon/yüksek karbon/TiN. Ambalaj, film ve bant kesimi. Durham Duplex. Türkiye distribütörü.',
+      keywords: ['kanca bıçak', 'B208', 'hook blade', 'sivri uçlu kanca', 'ambalaj kesim bıçağı', 'film kesim bıçağı', 'endüstriyel kanca bıçak'],
     },
 
     isActive: true,
@@ -4000,7 +4000,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Tekstil Kesimi', icon: 'Scissors', description: 'Kumaş topları ve tekstil enfes kesimi' },
@@ -4021,7 +4021,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'DD %1 karbon çelik malzeme',
       'İplik çekmesini minimize eder',
       '52×19×0.6mm standart boyut',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4076,7 +4076,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Kalın Ambalaj', icon: 'Package', description: 'Kalın karton ve ambalaj malzemeleri kesimi' },
@@ -4096,7 +4096,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '4 delikli montaj sistemi',
       'Kalın malzeme kesimi için optimize',
       'Yüksek karbon çelik',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4151,7 +4151,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Güvenli Ambalaj Açma', icon: 'ShieldCheck', description: 'Ürüne zarar vermeden ambalaj açma' },
@@ -4171,7 +4171,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Alt malzemeye zarar verme riski minimum',
       '52×19×0.6mm standart kanca boyutu',
       '2 çentik, 3 delik konfigürasyonu',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4179,7 +4179,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'Yuvarlatılmış Uçlu Kanca 52×19mm | Alya Bıçak',
-      description: 'Yuvarlatılmış uçlu kanca bıçak. 52×19×0.6mm, güvenli ambalaj açma. Alt malzemeye zarar vermez. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'Yuvarlatılmış uçlu kanca bıçak. 52×19×0.6mm, güvenli ambalaj açma. Alt malzemeye zarar vermez. Durham Duplex. Türkiye distribütörü.',
       keywords: ['yuvarlatılmış uçlu kanca', 'rounded tip hook blade', 'güvenli kanca bıçak', 'safety hook blade', 'ambalaj açma bıçağı'],
     },
 
@@ -4230,7 +4230,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: 'IF-1: 1 oval+1 yuvarlak / IF-2R: 2 yuvarlak', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Kumaş Kesimi', icon: 'Scissors', description: 'Tekstil ve kumaş toplarının kesilmesi' },
@@ -4251,7 +4251,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'IF-2R: 87×10×0.71mm — çift taraflı, yuvarlak delik',
       '0.71mm kalınlık — kumaş kesiminde esneme yapmaz',
       'Tekstil endüstrisi için özel profil',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: [
@@ -4265,7 +4265,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'IF Kanca Bıçak Tekstil IF-1 IF-2 | Alya Bıçak',
-      description: 'IF serisi tekstil kanca bıçak. IF-1: 80×13mm tek taraflı, IF-2: 87×10mm çift taraflı. Kumaş ve tekstil kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'IF serisi tekstil kanca bıçak. IF-1: 80×13mm tek taraflı, IF-2: 87×10mm çift taraflı. Kumaş ve tekstil kesimi. Durham Duplex. Türkiye distribütörü.',
       keywords: ['IF kanca bıçak', 'tekstil kanca', 'kumaş kesim bıçağı', 'IF-1 blade', 'IF-2 blade', 'textile hook blade', 'konfeksiyon bıçağı'],
     },
 
@@ -4313,7 +4313,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'packaging', value: '5, 10, 100 adet', icon: 'Package' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Kontrollü Kesim', icon: 'Target', description: 'Tek yönde kontrollü ve güvenli kesim' },
@@ -4333,7 +4333,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '59×19×0.6mm boyut',
       'Karbon çelik, TiN kaplama, paslanmaz çelik varyantları',
       '2 çentik, 3 delik konfigürasyonu',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: [
@@ -4350,7 +4350,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B209 Tek Taraflı Kanca Bıçak 59×19mm | Alya Bıçak',
-      description: 'B209 tek taraflı kanca bıçak. 59×19×0.6mm, karbon/TiN/paslanmaz. Kontrollü yönde kesim, güvenli ambalaj açma. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B209 tek taraflı kanca bıçak. 59×19×0.6mm, karbon/TiN/paslanmaz. Kontrollü yönde kesim, güvenli ambalaj açma. Durham Duplex. Türkiye distribütörü.',
       keywords: ['tek taraflı kanca', 'B209', 'one side hook blade', 'single sided hook', 'kontrollü kesim bıçağı', 'paslanmaz kanca bıçak'],
     },
 
@@ -4396,7 +4396,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'edge', value: 'Çift taraflı', icon: 'Scissors' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Ağır Hizmet Tekstil', icon: 'Scissors', description: 'Kalın tekstil ve kumaş kesimi' },
@@ -4416,7 +4416,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '0.80mm kalınlık — ağır hizmet',
       '1 delikli basit montaj',
       'Büyük gövde ile maksimum kontrol',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4424,7 +4424,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'Kanca HOB-1 Büyük Boy 90×39.5mm | Alya Bıçak',
-      description: 'Kanca HOB-1 büyük boy kanca bıçak. 90×39.5/20×0.80mm, ağır hizmet. Tekstil, balya açma, halat kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'Kanca HOB-1 büyük boy kanca bıçak. 90×39.5/20×0.80mm, ağır hizmet. Tekstil, balya açma, halat kesimi. Durham Duplex. Türkiye distribütörü.',
       keywords: ['kanca HOB-1', 'büyük kanca bıçak', 'large hook blade', '90mm kanca', 'ağır hizmet kanca', 'HOB-1 hook blade'],
     },
 
@@ -4477,7 +4477,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'packaging', value: "12'li Tüp", icon: 'Package' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Film Dilme', icon: 'Film', description: 'Plastik film ve folyo dilme' },
@@ -4504,7 +4504,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B226 Supaslit Jileti 44/26×9mm | Slitting Blade | Alya Bıçak',
-      description: 'B226 Supaslit endüstriyel dilme jileti. 44/26×9×0.40mm, 2×Ø3mm delik, 12\'li tüp. Film, kağıt dilme. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B226 Supaslit endüstriyel dilme jileti. 44/26×9×0.40mm, 2×Ø3mm delik, 12\'li tüp. Film, kağıt dilme. Durham Duplex. Türkiye distribütörü.',
       keywords: ['supaslit jileti', 'dilme bıçağı', 'slitting blade', 'B226', 'film dilme jileti', 'endüstriyel dilme'],
     },
 
@@ -4548,7 +4548,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: '#11 Tipi', icon: 'Crosshair' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Maket & Model', icon: 'Box', description: 'Model yapımı, maket ve hobi kesim işleri' },
@@ -4582,7 +4582,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B111 Hobi Jileti #11 | Precision Craft Blade | Alya Bıçak',
-      description: 'B111 hassas hobi jileti. 55.5×10.3×0.53mm, #11 numara. Sivri & yuvarlak uçlu. Maket, grafik, mimarlık, elektronik. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B111 hassas hobi jileti. 55.5×10.3×0.53mm, #11 numara. Sivri & yuvarlak uçlu. Maket, grafik, mimarlık, elektronik. Durham Duplex. Türkiye distribütörü.',
       keywords: ['#11 hobi jileti', 'precision craft blade', 'B111', 'maket bıçağı', 'scalpel blade', 'hobby blade', 'grafik sanatları jileti'],
     },
 
@@ -4626,7 +4626,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: '#12 Tipi', icon: 'Crosshair' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Grafik Tasarım', icon: 'Palette', description: 'İnce detay ve eğrisel kesimler' },
@@ -4637,7 +4637,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     benefits: [
       { title: 'Kompakt Profil', description: '#12 numara — dar alanlarda üstün manevra kabiliyeti.', icon: 'Minimize' },
       { title: 'Eğrisel Kesim', description: 'Küçük yarıçaplı eğrilerde hassas performans.', icon: 'CircleDot' },
-      { title: 'Sheffield Kalite', description: 'İngiliz Sheffield çeliği — uzun ömürlü keskinlik.', icon: 'Shield' },
+      { title: 'endüstriyel Kalite', description: 'İngiliz yüksek kalite çelik — uzun ömürlü keskinlik.', icon: 'Shield' },
     ],
 
     features: [
@@ -4645,7 +4645,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '42.6×9×0.53mm boyut',
       'Dar alanlar için küçük profil',
       'İnce eğrisel kesimler için ideal',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4653,7 +4653,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B112 Hobi Jileti #12 | Compact Precision Blade | Alya Bıçak',
-      description: 'B112 kompakt hobi jileti. 42.6×9×0.53mm, #12 numara. Grafik tasarım, deri işçiliği, ince maket. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B112 kompakt hobi jileti. 42.6×9×0.53mm, #12 numara. Grafik tasarım, deri işçiliği, ince maket. Durham Duplex. Türkiye distribütörü.',
       keywords: ['#12 hobi jileti', 'kompakt craft blade', 'B112', 'ince detay bıçağı', 'precision hobby blade'],
     },
 
@@ -4697,7 +4697,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: '#13 Tipi', icon: 'Crosshair' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Model Yapımı', icon: 'Box', description: 'Uzun düz kesimler ve şekillendirme' },
@@ -4716,7 +4716,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '52.7×9×0.60mm boyut',
       '0.60mm kalınlık — ekstra dayanıklılık',
       'Uzun düz kesimler için ideal',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4724,7 +4724,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B113 Hobi Jileti #13 Long Profile | Alya Bıçak',
-      description: 'B113 uzun profil hobi jileti. 52.7×9×0.60mm, #13 numara. Model yapımı, tabela, vinil kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B113 uzun profil hobi jileti. 52.7×9×0.60mm, #13 numara. Model yapımı, tabela, vinil kesim. Durham Duplex. Türkiye distribütörü.',
       keywords: ['#13 hobi jileti', 'uzun profil craft blade', 'B113', 'tabela bıçağı', 'precision hobby blade'],
     },
 
@@ -4769,7 +4769,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'coating', value: 'TiN Kaplama / Karbon', icon: 'Sparkles' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Vinil Kesim', icon: 'Scissors', description: 'Vinil ve folyo hassas kesimi' },
@@ -4788,7 +4788,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '50.3×9×0.60mm boyut',
       'TiN kaplama varyant — 3x daha uzun ömür',
       'Karbon çelik varyant — klasik keskinlik',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: [
@@ -4801,7 +4801,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B114 Hobi Jileti #14 TiN Kaplama | Alya Bıçak',
-      description: 'B114 hassas hobi jileti. 50.3×9×0.60mm, #14 numara. TiN kaplama & karbon varyantları. Vinil, model, el sanatları. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B114 hassas hobi jileti. 50.3×9×0.60mm, #14 numara. TiN kaplama & karbon varyantları. Vinil, model, el sanatları. Durham Duplex. Türkiye distribütörü.',
       keywords: ['#14 hobi jileti', 'TiN kaplama bıçak', 'B114', 'titanyum nitrit jilet', 'precision craft blade'],
     },
 
@@ -4844,7 +4844,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Eğimli Uç', icon: 'Crosshair' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Minyatür', icon: 'Box', description: 'Minyatür model yapımı ve detay' },
@@ -4863,7 +4863,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '36.8×8.4×0.53mm boyut',
       'Dar alanlar için ideal boyut',
       'Hassas kesim ve temizlik',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4871,7 +4871,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B141 Hobi Jileti Kompakt | Alya Bıçak',
-      description: 'B141 kompakt hobi jileti. 36.8×8.4×0.53mm, eğimli uç. Minyatür model, elektronik, ince maket. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B141 kompakt hobi jileti. 36.8×8.4×0.53mm, eğimli uç. Minyatür model, elektronik, ince maket. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B141 hobi jileti', 'kompakt craft blade', 'minyatür bıçağı', 'precision blade', 'elektronik kesim'],
     },
 
@@ -4915,7 +4915,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Geniş Profil — Büyük', icon: 'Maximize' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Maket Yapımı', icon: 'Box', description: 'Büyük yüzeylerde düzgün kesim' },
@@ -4934,7 +4934,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '47×11.3×0.63mm boyut',
       '0.63mm kalınlık — ağır hizmet',
       'Sıyırma ve kazıma yapabilme',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -4942,7 +4942,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B142 Büyük Hobi Jileti 47×11.3mm | Alya Bıçak',
-      description: 'B142 Büyük hobi jileti. 47×11.3×0.63mm geniş profil. Maket, sıyırma, kazıma, prototip. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B142 Büyük hobi jileti. 47×11.3×0.63mm geniş profil. Maket, sıyırma, kazıma, prototip. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B142 büyük', 'geniş profil jilet', 'large craft blade', 'sıyırma bıçağı', 'hobi jileti'],
     },
 
@@ -4987,7 +4987,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'compatibility', value: 'OLFA KB4-S/5 uyumlu', icon: 'Link' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Minyatür', icon: 'Box', description: 'Minyatür model yapımı' },
@@ -5006,7 +5006,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '40×9×0.53mm standart varyant',
       'OLFA KB4-S/5 uyumlu 40.5×8×0.50mm varyant',
       'Kompakt tasarım — dar alanlar için',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: [
@@ -5019,7 +5019,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B142K Küçük Hobi Jileti OLFA | Alya Bıçak',
-      description: 'B142 Küçük hobi jileti. 40×9mm & OLFA KB4-S/5 uyumlu 40.5×8mm. Minyatür model, elektronik, detay. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B142 Küçük hobi jileti. 40×9mm & OLFA KB4-S/5 uyumlu 40.5×8mm. Minyatür model, elektronik, detay. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B142 küçük', 'OLFA KB4-S/5 uyumlu', 'kompakt craft blade', 'minyatür jilet', 'hobi bıçağı'],
     },
 
@@ -5062,7 +5062,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Kanca Form', icon: 'Anchor' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Deri İşçiliği', icon: 'Scissors', description: 'İnce deri kesim ve sıyırma' },
@@ -5081,7 +5081,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '37×10×0.53mm boyut',
       'Hassas sıyırma ve çapak alma',
       'Eğrisel kesim profili',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5089,7 +5089,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B143 Hobi Jileti Kanca Form | Hook Craft Blade | Alya Bıçak',
-      description: 'B143 kanca form hobi jileti. 37×10×0.53mm. Deri işçiliği, kâğıt sanatları, çapak alma. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B143 kanca form hobi jileti. 37×10×0.53mm. Deri işçiliği, kâğıt sanatları, çapak alma. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B143 hobi jileti', 'kanca form bıçak', 'sıyırma jileti', 'çapak alma', 'hook craft blade'],
     },
 
@@ -5132,7 +5132,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Düz Kenar (Chisel)', icon: 'Minus' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Stencil Kesim', icon: 'Layers', description: 'Stencil ve şablon kesimi' },
@@ -5151,7 +5151,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '40×10×0.53mm boyut',
       'Çizgisel kesim ve kazıma',
       'Stencil ve şablon kesimi',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5159,7 +5159,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B144 Hobi Jileti Chisel | Flat Edge Craft Blade | Alya Bıçak',
-      description: 'B144 düz kenar hobi jileti. 40×10×0.53mm chisel. Stencil, kazıma, baskı hazırlık. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B144 düz kenar hobi jileti. 40×10×0.53mm chisel. Stencil, kazıma, baskı hazırlık. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B144 hobi jileti', 'chisel blade', 'düz kenar bıçak', 'stencil jileti', 'flat edge craft blade'],
     },
 
@@ -5204,7 +5204,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'compatibility', value: 'OLFA KB4-F/5 uyumlu', icon: 'Link' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Profesyonel Maket', icon: 'Box', description: 'Büyük ölçekli maket yapımı' },
@@ -5223,7 +5223,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '45×12mm / 45×16mm / 45×20mm standart boyutlar',
       'OLFA KB4-F/5 uyumlu 35.5×8×0.55mm varyant',
       'Düz kenar tasarımı — geniş yüzey kesimi',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: [
@@ -5238,7 +5238,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B145 Hobi Jileti Çok Boyutlu | Alya Bıçak',
-      description: 'B145 çok boyutlu hobi jileti. 45×12/16/20mm & OLFA KB4-F/5. Maket, grafik, şablon. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B145 çok boyutlu hobi jileti. 45×12/16/20mm & OLFA KB4-F/5. Maket, grafik, şablon. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B145 çok boyutlu', 'multi-size craft blade', 'OLFA KB4-F/5', 'düz kenar jilet', 'hobi jileti seti'],
     },
 
@@ -5281,7 +5281,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Eğimli Geniş Profil', icon: 'TrendingUp' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Kavisli Kesim', icon: 'CircleDot', description: 'Eğrisel ve kontur kesimleri' },
@@ -5300,7 +5300,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '39×11.7×0.63mm boyut',
       '0.63mm kalınlık — dayanıklı',
       'Kavisli kesimler için ideal',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5308,7 +5308,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B146 Hobi Jileti 39×11.7mm | Angled Craft Blade | Alya Bıçak',
-      description: 'B146 eğimli profil hobi jileti. 39×11.7×0.63mm. Kavisli kesim, kalıp, maket. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B146 eğimli profil hobi jileti. 39×11.7×0.63mm. Kavisli kesim, kalıp, maket. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B146 hobi jileti', 'eğimli profil jilet', 'angled craft blade', 'kavisli kesim bıçağı'],
     },
 
@@ -5351,7 +5351,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Sivri Uç — Geniş Gövde', icon: 'Crosshair' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Mimari Model', icon: 'Building', description: 'Mimari maket ve model yapımı' },
@@ -5370,7 +5370,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '45×10×0.63mm boyut',
       '0.63mm kalınlık — ağır hizmet',
       'Büyük ölçekli hassas kesim',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5378,7 +5378,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B147 Hobi Jileti 45×10mm | Pointed Craft Blade | Alya Bıçak',
-      description: 'B147 sivri uç geniş gövde hobi jileti. 45×10×0.63mm. Mimari model, tabela, grafik. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B147 sivri uç geniş gövde hobi jileti. 45×10×0.63mm. Mimari model, tabela, grafik. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B147 hobi jileti', 'sivri uç craft blade', 'mimari model bıçağı', 'tabela jileti', 'pointed precision blade'],
     },
 
@@ -5421,7 +5421,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Kavisli Profil', icon: 'CircleDot' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Deri İşçiliği', icon: 'Scissors', description: 'Kavisli deri kesim ve şekillendirme' },
@@ -5440,7 +5440,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '45.4×10.3×0.63mm boyut',
       '0.63mm kalınlık',
       'Eğrisel ve kontur kesimleri',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5448,7 +5448,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B148 Hobi Jileti Kavisli 45.4×10.3mm | Alya Bıçak',
-      description: 'B148 kavisli profil hobi jileti. 45.4×10.3×0.63mm. Deri, vinil, dekoratif kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B148 kavisli profil hobi jileti. 45.4×10.3×0.63mm. Deri, vinil, dekoratif kesim. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B148 hobi jileti', 'kavisli craft blade', 'curved precision blade', 'deri kesim jileti', 'kontur bıçağı'],
     },
 
@@ -5491,7 +5491,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Kompakt Geniş Profil', icon: 'Maximize' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: '3D Baskı Temizliği', icon: 'Printer', description: '3D baskı support temizliği' },
@@ -5510,7 +5510,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '39.4×11×0.63mm boyut',
       '0.63mm kalınlık',
       '3D baskı post-processing',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5518,7 +5518,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B149 Hobi Jileti 39.4×11mm | Compact Wide Blade | Alya Bıçak',
-      description: 'B149 kompakt geniş profil hobi jileti. 39.4×11×0.63mm. 3D baskı temizlik, minyatür model, sıyırma. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B149 kompakt geniş profil hobi jileti. 39.4×11×0.63mm. 3D baskı temizlik, minyatür model, sıyırma. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B149 hobi jileti', 'kompakt geniş jilet', '3D baskı temizlik bıçağı', 'minyatür model jileti', 'craft blade'],
     },
 
@@ -5562,7 +5562,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: '#25 Geniş Gövde', icon: 'Maximize' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Ağır Hizmet', icon: 'Shield', description: 'Kalın malzeme kesimleri' },
@@ -5581,7 +5581,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Ağır hizmet hobi bıçak tipi',
       'Kalın malzeme kesimi için geniş profil',
       'X-Acto #25 uyumlu',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5589,7 +5589,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B150 Hobi Jileti #25 Geniş Gövde | Alya Bıçak',
-      description: 'B150 #25 numara ağır hizmet hobi jileti. Geniş gövde. Balsawood, plastik, karton, kompozit. X-Acto uyumlu. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B150 #25 numara ağır hizmet hobi jileti. Geniş gövde. Balsawood, plastik, karton, kompozit. X-Acto uyumlu. Durham Duplex. Türkiye distribütörü.',
       keywords: ['#25 hobi jileti', 'B150', 'heavy duty craft blade', 'X-Acto #25 uyumlu', 'balsawood bıçağı', 'geniş gövde jilet'],
     },
 
@@ -5632,7 +5632,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeType', value: 'Sivri Uç — Geniş Gövde', icon: 'Crosshair' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Tabela Kesimi', icon: 'Type', description: 'Tabela ve reklam panosu' },
@@ -5651,7 +5651,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '45×11×0.63mm boyut',
       '0.63mm kalınlık — ağır hizmet',
       'Büyük ölçekli şekillendirme',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5659,7 +5659,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B151 Hobi Jileti 45×11mm | Alya Bıçak',
-      description: 'B151 profesyonel hobi jileti. 45×11×0.63mm sivri uç geniş gövde. Tabela, maket, endüstriyel kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'B151 profesyonel hobi jileti. 45×11×0.63mm sivri uç geniş gövde. Tabela, maket, endüstriyel kesim. Durham Duplex. Türkiye distribütörü.',
       keywords: ['B151 hobi jileti', 'profesyonel craft blade', 'tabela bıçağı', 'precision hobby blade'],
     },
 
@@ -5705,7 +5705,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'compatibility', value: 'OLFA AK Serisi', icon: 'Link' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Kâğıt Sanatları', icon: 'FileText', description: 'Scrapbooking ve kâğıt kesim' },
@@ -5725,7 +5725,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '40.5×6×0.45mm boyut',
       '1 çentikli kolay montaj',
       '0.45mm kalınlık — hassas kesim',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5733,7 +5733,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'KB Hobi Jileti OLFA KB Uyumlu | Art Knife Blade | Alya Bıçak',
-      description: 'KB hassas sanat bıçağı jileti. OLFA KB uyumlu 40.5×6×0.45mm, 1 çentik. Kâğıt sanatları, kaligrafi, stencil. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'KB hassas sanat bıçağı jileti. OLFA KB uyumlu 40.5×6×0.45mm, 1 çentik. Kâğıt sanatları, kaligrafi, stencil. Durham Duplex. Türkiye distribütörü.',
       keywords: ['OLFA KB jilet', 'sanat bıçağı jileti', 'art knife blade', 'KB hobi jileti', 'kâğıt sanatları bıçağı'],
     },
 
@@ -5778,7 +5778,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'compatibility', value: 'OLFA AK Serisi', icon: 'Link' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Kâğıt Sanatları', icon: 'FileText', description: 'İnce kâğıt kesim ve detay' },
@@ -5797,7 +5797,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '25×4×0.38mm boyut — en küçük hobi jileti',
       '0.38mm kalınlık — ultra hassas',
       'OLFA AK serisi sanat bıçaklarıyla uyumlu',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5805,7 +5805,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'KB-5 Ultra Kompakt Hobi Jileti 25×4mm | Alya Bıçak',
-      description: 'KB-5 ultra kompakt hobi jileti. 25×4×0.38mm, en ince model. Kâğıt sanatları, kaligrafi, minyatür. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'KB-5 ultra kompakt hobi jileti. 25×4×0.38mm, en ince model. Kâğıt sanatları, kaligrafi, minyatür. Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB-5 hobi jileti', 'ultra kompakt jilet', 'kâğıt sanatları bıçağı', 'art knife blade', 'mini craft blade'],
     },
 
@@ -5850,7 +5850,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'compatibility', value: 'OLFA AK-4 Serisi', icon: 'Link' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Eğrisel Kesim', icon: 'CircleDot', description: 'Hassas eğrisel kesimler' },
@@ -5869,7 +5869,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '38.5×6×0.45mm boyut',
       'Eğrisel kesim profili',
       '0.45mm kalınlık — hassas kesim',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5877,7 +5877,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'KB4-R/5 Hobi Jileti OLFA Kavisli | Alya Bıçak',
-      description: 'KB4-R/5 OLFA uyumlu hobi jileti. 38.5×6×0.45mm eğrisel. Stencil, sanat, hassas kesim. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'KB4-R/5 OLFA uyumlu hobi jileti. 38.5×6×0.45mm eğrisel. Stencil, sanat, hassas kesim. Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB4-R/5 jilet', 'OLFA KB4-R uyumlu', 'eğrisel sanat bıçağı', 'curved art knife', 'stencil jileti'],
     },
 
@@ -5923,7 +5923,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'compatibility', value: 'OLFA AK-4 Serisi', icon: 'Link' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Köpük Kesimi', icon: 'Cloud', description: 'Köpük ve sünger hassas kesimi' },
@@ -5942,7 +5942,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '64×11/6×0.35mm boyut',
       '0.35mm ultra ince kalınlık',
       'Köpük ve yumuşak malzeme kesimi',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -5950,7 +5950,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'KB4-NS/3 Dişli Hobi Jileti OLFA | Alya Bıçak',
-      description: 'KB4-NS/3 dar dişli hobi jileti. OLFA KB4-NS/3, 64×11/6×0.35mm. Köpük, sünger, polistren kesimi. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'KB4-NS/3 dar dişli hobi jileti. OLFA KB4-NS/3, 64×11/6×0.35mm. Köpük, sünger, polistren kesimi. Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB4-NS/3 dişli jilet', 'OLFA serrated blade', 'köpük kesim bıçağı', 'narrow serrated', 'sünger jileti'],
     },
 
@@ -5996,7 +5996,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'compatibility', value: 'OLFA AK-4 Serisi', icon: 'Link' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: 'Sheffield' },
+    origin: { brand: 'Durham Duplex', country: 'İngiltere', city: '' },
 
     applications: [
       { title: 'Kalın Köpük', icon: 'Cloud', description: 'Kalın köpük ve sünger kesimi' },
@@ -6015,7 +6015,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '66.5×11/6×0.35mm boyut',
       '0.35mm ultra ince kalınlık',
       'Kalın köpük ve balsawood kesimi',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     certifications: ['CE'],
@@ -6023,7 +6023,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'KB4-WS/3 Geniş Dişli Hobi Jileti OLFA | Alya Bıçak',
-      description: 'KB4-WS/3 geniş dişli hobi jileti. OLFA KB4-WS/3, 66.5×11/6×0.35mm. Kalın köpük, balsawood, polistren. Sheffield Durham Duplex. Türkiye distribütörü.',
+      description: 'KB4-WS/3 geniş dişli hobi jileti. OLFA KB4-WS/3, 66.5×11/6×0.35mm. Kalın köpük, balsawood, polistren. Durham Duplex. Türkiye distribütörü.',
       keywords: ['KB4-WS/3 geniş dişli', 'OLFA wide serrated', 'kalın köpük bıçağı', 'balsawood jileti', 'wide serrated blade'],
     },
 
@@ -6112,7 +6112,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -6150,7 +6150,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Tek kullanımlık (disposable) hijyenik tasarım',
       'Leica, Thermo, Sakura, SLEE mikrotom uyumlu',
       'PTFE / Platin-Krom kaplama seçenekleri',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: ['80.01×8.13×0.25mm'],
@@ -6159,7 +6159,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B575 Mikrotom Jileti Alçak Profil 80mm | Alya Bıçak',
-      description: 'B575 alçak profil mikrotom jileti 80.01×8.13×0.25mm. Histopatoloji, patoloji laboratuvarı, parafin doku kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Sheffield kalitesi.',
+      description: 'B575 alçak profil mikrotom jileti 80.01×8.13×0.25mm. Histopatoloji, patoloji laboratuvarı, parafin doku kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Yüksek kalite.',
       keywords: [
         'mikrotom jileti', 'microtome blade', 'alçak profil mikrotom', 'low profile microtome blade',
         'histoloji jileti', 'histology blade', 'B575 mikrotom', 'patoloji jileti',
@@ -6255,7 +6255,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -6294,7 +6294,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Tek kullanımlık (disposable) hijyenik tasarım',
       'Leica, Thermo, Sakura, SLEE mikrotom uyumlu',
       'PTFE / Platin-Krom / Seramik kaplama seçenekleri',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: ['80.01×13.97×0.30mm'],
@@ -6303,7 +6303,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'B724 Mikrotom Jileti Yüksek Profil 80mm | Alya Bıçak',
-      description: 'B724 yüksek profil mikrotom jileti 80.01×13.97×0.30mm. Sert doku, kalsifiye kemik, kriyostat kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Sheffield kalitesi.',
+      description: 'B724 yüksek profil mikrotom jileti 80.01×13.97×0.30mm. Sert doku, kalsifiye kemik, kriyostat kesimi. 3 açılı bileme, paslanmaz çelik + kaplama. Leica, Thermo, Sakura uyumlu. Yüksek kalite.',
       keywords: [
         'mikrotom jileti', 'microtome blade', 'yüksek profil mikrotom', 'high profile microtome blade',
         'histoloji jileti', 'histology blade', 'B724 mikrotom', 'patoloji jileti',
@@ -6401,7 +6401,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -6439,7 +6439,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Bireysel steril paketleme',
       'Moria, Hansatome, Zyoptix uyumlu',
       'Tek kullanımlık (disposable) cerrahi kalite',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: ['38.1×7.94×0.25mm'],
@@ -6545,7 +6545,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -6583,7 +6583,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       'Bireysel steril paketleme',
       'Amadeus, Carriazo-Barraquer, Schwind uyumlu',
       'Tek kullanımlık (disposable) cerrahi kalite',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: ['38.1×7.94×0.25mm'],
@@ -6680,7 +6680,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     images: {
       main: {
         src: '/images/products/b621-cam-kaziyici-jilet.jpg',
-        alt: 'B621 Cam Kazıyıcı Jilet — Paslanmaz Çelik 3 Delikli Profesyonel Cam Kazıma Jileti 65×19×0.20mm | Alya Bıçak Sheffield Durham Duplex',
+        alt: 'B621 Cam Kazıyıcı Jilet — Paslanmaz Çelik 3 Delikli Profesyonel Cam Kazıma Jileti 65×19×0.20mm | Alya Bıçak Durham Duplex',
         width: 800,
         height: 800,
       },
@@ -6713,7 +6713,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -6758,7 +6758,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '0.20mm kalınlık — hassas ve dayanıklı',
       '4 genişlik: 60mm, 80mm, 100mm, 150mm',
       'Islak ve kuru zeminlerde kullanılabilir',
-      'Sheffield Durham Duplex kalitesi',
+      'Durham Duplex kalitesi',
     ],
 
     availableSizes: [
@@ -6895,7 +6895,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -7050,7 +7050,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -7198,7 +7198,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -7362,7 +7362,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     origin: {
       brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: [
@@ -7525,9 +7525,9 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
     specs,
 
     origin: {
-      brand: 'Sheffield Steel',
+      brand: 'Durham Duplex',
       country: 'İngiltere',
-      city: 'Sheffield',
+      city: '',
     },
 
     applications: baseProduct.applications?.map(app => ({

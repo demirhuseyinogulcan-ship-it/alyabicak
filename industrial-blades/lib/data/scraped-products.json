@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "ok",
     "slug": "ok-bicak",
@@ -1748,7 +1748,7 @@
     "slug": "b207-trapez-kalin",
     "code": "B207",
     "name": "B207 - TRAPEZ – KALIN",
-    "description": "TRAPEZ – KALIN. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "TRAPEZ – KALIN. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b207-trapez-kalin.jpg",
@@ -1760,12 +1760,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -1781,7 +1780,7 @@
     "slug": "b206-trapez-bicak-jilet-ince",
     "code": "B206",
     "name": "B206 - TRAPEZ BIÇAK / JİLET – İNCE",
-    "description": "TRAPEZ BIÇAK / JİLET – İNCE. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "TRAPEZ BIÇAK / JİLET – İNCE. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b206-trapez-bicak-jilet-ince.jpg",
@@ -1793,12 +1792,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -1814,7 +1812,7 @@
     "slug": "b082-trapez-tirtikli-kenar",
     "code": "B082",
     "name": "B082 - TRAPEZ – TIRTIKLI KENAR",
-    "description": "TRAPEZ – TIRTIKLI KENAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "TRAPEZ – TIRTIKLI KENAR. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b082-trapez-tirtikli-kenar.jpg",
@@ -1826,12 +1824,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -1847,7 +1844,7 @@
     "slug": "trapez-ozel-tasarim",
     "code": "TRAPEZ",
     "name": "TRAPEZ - – ÖZEL TASARIM",
-    "description": "– ÖZEL TASARIM. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "– ÖZEL TASARIM. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/trapez-ozel-tasarim.jpg",
@@ -1859,12 +1856,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -1880,7 +1876,7 @@
     "slug": "b213-trapez-kompakt",
     "code": "B213",
     "name": "B213 - KOMPAKT TRAPEZ BIÇAK",
-    "description": "Kompakt trapez bıçak 61×12.5×0.63mm. Dar alanlar ve hassas kesim için. Sheffield kalitesi.",
+    "description": "Kompakt trapez bıçak 61×12.5×0.63mm. Dar alanlar ve hassas kesim için.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/trapez-ozel-tasarim.jpg",
@@ -1892,15 +1888,14 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62",
       "dimensions": "61×12.5×0.63mm"
     },
     "features": [
       "Kompakt boyut 61×12.5mm",
       "0.63mm kalınlık",
-      "1 montaj deliği",
-      "Sheffield kalitesi"
+      "1 montaj deliği"
     ],
     "applications": [
       "Dar alan kesimi",
@@ -1917,7 +1912,7 @@
     "slug": "b218-trapez-orta-ozel",
     "code": "B218",
     "name": "B218 - ÖZEL TRAPEZ BIÇAK",
-    "description": "Özel boyut trapez bıçak 71×17×0.63mm. Endüstriyel makineler için. Sheffield kalitesi.",
+    "description": "Özel boyut trapez bıçak 71×17×0.63mm. Endüstriyel makineler için.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/trapez-ozel-tasarim.jpg",
@@ -1929,15 +1924,14 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62",
       "dimensions": "71×17×0.63mm"
     },
     "features": [
       "Özel boyut 71×17mm",
       "0.63mm kalınlık",
-      "1×6mm delik",
-      "Sheffield kalitesi"
+      "1×6mm delik"
     ],
     "applications": [
       "Endüstriyel makineler",
@@ -1954,7 +1948,7 @@
     "slug": "b214-mikro-trapez",
     "code": "B214",
     "name": "B214 - MİKRO TRAPEZ BIÇAK",
-    "description": "Ultra kompakt mikro trapez bıçak 27.6×9×0.43mm. Elektronik, model yapımı, laboratuvar için. Sheffield kalitesi.",
+    "description": "Ultra kompakt mikro trapez bıçak 27.6×9×0.43mm. Elektronik, model yapımı, laboratuvar için.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/trapez-ozel-tasarim.jpg",
@@ -1966,15 +1960,14 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62",
       "dimensions": "27.6×9×0.43mm"
     },
     "features": [
       "Ultra kompakt 27.6×9mm",
       "0.43mm ince profil",
-      "3×3.5mm delikler",
-      "Sheffield kalitesi"
+      "3×3.5mm delikler"
     ],
     "applications": [
       "Elektronik montaj",
@@ -1992,7 +1985,7 @@
     "slug": "b208-sivri-uc-standart-tip",
     "code": "B208",
     "name": "B208 - SİVRİ UÇ (STANDART TİP)",
-    "description": "SİVRİ UÇ (STANDART TİP). Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SİVRİ UÇ (STANDART TİP). profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hook-blades",
     "image": "/images/products/b208-sivri-uc-standart-tip.jpg",
@@ -2004,12 +1997,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -2025,7 +2017,7 @@
     "slug": "b208-genis-uclu-tekstil",
     "code": "B208 TEXTILE",
     "name": "B208 - GENİŞ UÇLU (TEKSTİL)",
-    "description": "GENİŞ UÇLU (TEKSTİL). Tekstil kesimi için geniş kollu kanca bıçak. Durham Duplex Sheffield kalitesi.",
+    "description": "GENİŞ UÇLU (TEKSTİL). Tekstil kesimi için geniş kollu kanca bıçak. Durham Duplex.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hook-blades",
     "image": "/images/products/b208-genis-uclu-tekstil.jpg",
@@ -2037,13 +2029,12 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Geniş kollu tasarım",
-      "Tekstil kesimi için optimize",
-      "Sheffield kalitesi"
+      "Tekstil kesimi için optimize"
     ],
     "applications": [
       "Tekstil kesimi",
@@ -2059,7 +2050,7 @@
     "slug": "sper-kanca-uzun",
     "code": "SÜPER",
     "name": "SÜPER - KANCA – UZUN",
-    "description": "KANCA – UZUN. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "KANCA – UZUN. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hook-blades",
     "image": "/images/products/sper-kanca-uzun.jpg",
@@ -2071,12 +2062,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -2092,7 +2082,7 @@
     "slug": "yuvarlatilmi-uclu-kanca",
     "code": "YUVARLATILMIŞ",
     "name": "YUVARLATILMIŞ - UÇLU KANCA",
-    "description": "UÇLU KANCA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "UÇLU KANCA. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hook-blades",
     "image": "/images/products/yuvarlatilmi-uclu-kanca.jpg",
@@ -2104,12 +2094,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -2125,7 +2114,7 @@
     "slug": "if-kanca-tekstil",
     "code": "IF",
     "name": "IF - – KANCA (TEKSTİL)",
-    "description": "– KANCA (TEKSTİL). Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "– KANCA (TEKSTİL). profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hook-blades",
     "image": "/images/products/if-kanca-tekstil.jpg",
@@ -2137,12 +2126,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -2158,7 +2146,7 @@
     "slug": "b209-tek-tarafli-kanca",
     "code": "B209",
     "name": "B209 - TEK TARAFLI KANCA",
-    "description": "TEK TARAFLI KANCA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "TEK TARAFLI KANCA. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hook-blades",
     "image": "/images/products/b209-tek-tarafli-kanca.jpg",
@@ -2170,12 +2158,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -2191,7 +2178,7 @@
     "slug": "kanca-hob-1",
     "code": "KANCA",
     "name": "KANCA - HOB-1",
-    "description": "HOB-1. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "HOB-1. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "hook-blades",
     "image": "/images/products/kanca-hob-1.jpg",
@@ -2203,12 +2190,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -2313,12 +2299,12 @@
     "features": [
       "SK5 yüksek karbonlu çelik gövde",
       "13 kırılabilir segment — her kırımda yeni ağız",
-      "0.40mm kalınlık (Sheffield) / 0.38mm (OLFA uyumlu)",
+      "0.40mm kalınlık (Standart) / 0.38mm (OLFA uyumlu)",
       "TiN (Titanyum Nitrür) kaplama seçeneği — 3 kat uzun ömür",
       "Paslanmaz çelik (SUS420J2) alternatifi — korozyon dayanımı",
       "30° keskin açılı versiyon — hassas vinil ve film kesimi",
       "OLFA AB-10, ABB-50, SAB-10 serisi tam uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield, İngiltere üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Ambalaj ve koli açma",
@@ -2377,7 +2363,7 @@
       "0.40mm kalınlık",
       "Kırma noktası olmayan tek parça yapı — ağır yük uygulamaları",
       "Tüm standart 9mm maket bıçaklarıyla uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Düz hat kesimi gerektiren hassas işler",
@@ -2477,7 +2463,7 @@
       "15 segmentli OLFA LBD versiyon — daha ekonomik kullanım",
       "Dişli kenar (LWB) versiyon — cam yünü ve fiberglas kesimi",
       "OLFA LB-10, LBB-50, LBD-50, LWB-3B serisi tam uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield, İngiltere üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Karton ve mukavva kesimi",
@@ -2559,7 +2545,7 @@
       "0.50mm standart kalınlık / 0.43mm ince kalınlık",
       "TiN (Titanyum Nitrür) kaplama seçeneği",
       "OLFA LSOL-10 serisi tam uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Ağır yük altında sürekli kesim",
@@ -2610,7 +2596,7 @@
       "Kompakt 60mm uzunluk — dar alan kesimi",
       "Segmentsiz kesintisiz kenar",
       "0.50mm kalınlık",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Dar ve kısıtlı çalışma alanları",
@@ -2658,7 +2644,7 @@
       "Segmentsiz tek parça kenar",
       "89mm uzunluk, 12mm genişlik",
       "0.50mm kalınlık",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Oval yuvalı özel tip maket bıçakları",
@@ -2713,7 +2699,7 @@
       "Segmentli kırılabilir kenar yapısı",
       "0.45mm standart / 0.25mm ultra ince (ekstra keskin) kalınlık",
       "12.5mm genişlik — OLFA orta boy el bıçakları için",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "OLFA MTB serisi maket bıçakları",
@@ -2762,7 +2748,7 @@
       "Segmentsiz yapı — kırılma riski yok",
       "Lifli ve gözenekli malzemelerde sıkışmayan kesim",
       "OLFA LWB-3B serisi tam uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Cam yünü ve taş yünü kesimi",
@@ -2829,7 +2815,7 @@
       "Kırılabilir segment yapısı",
       "Ekstra keskin (Black Blade) alternatifi",
       "OLFA HB-20 ve HBB-5B serileriyle tam uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Kalın karton ve mukavva kesimi",
@@ -2880,7 +2866,7 @@
       "25mm ekstra geniş gövde — maksimum kesim derinliği",
       "0.70mm kalınlık — endüstriyel sınıf eğilme direnci",
       "Segmentsiz kesintisiz kenar — bölünme riski yok",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Ağır endüstriyel kesim uygulamaları",
@@ -2929,7 +2915,7 @@
       "Segmentsiz yapı — kırılma riski yok",
       "Kalın lifli malzemelerde sıkışmayan kesim",
       "OLFA HSWB-1 serisi tam uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Kalın cam yünü ve taş yünü kesimi",
@@ -2966,7 +2952,7 @@
       }
     ],
     "specifications": {
-      "material": "Yekpare Seramik / Sheffield Çelik",
+      "material": "Yekpare Seramik",
       "hardness": "HRC 58-62",
       "dimensions": "92×8.2×0.43mm",
       "edgeAngle": "55°",
@@ -2978,7 +2964,7 @@
       "92mm uzunluk, 8.2mm genişlik, 0.43mm kalınlık",
       "Segmentsiz kesintisiz kenar",
       "Kompakt boyut — dar tip el bıçakları uyumlu",
-      "ISO 9001 üretim standartlarında Sheffield üretimi"
+      "ISO 9001 üretim standartları"
     ],
     "applications": [
       "Deliksiz montaj yuvası olan özel tip el bıçakları",
@@ -2999,7 +2985,7 @@
     "slug": "b207-l-2",
     "code": "B207",
     "name": "B207 - L",
-    "description": "L. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "L. profesyonel kesici bıçak.",
     "categoryId": "industrial-blades",
     "subcategoryId": "trapezoid-blades",
     "image": "/images/products/b207-l.jpg",
@@ -3011,12 +2997,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4272,7 +4257,7 @@
     "slug": "h006-001-x01-retro-light-knife-dokum-metal-el-bicagi",
     "code": "H006 001 X01",
     "name": "H006 001 X01 - RETRO LIGHT KNIFE – Döküm Metal El Bıçağı",
-    "description": "RETRO LIGHT KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "RETRO LIGHT KNIFE – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "fixed-blade",
     "image": "/images/products/h006-001-x01-retro-light-knife-dokum-metal-el-bicagi.jpg",
@@ -4284,12 +4269,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4305,7 +4289,7 @@
     "slug": "h008-001-a03-auto-retract-otomatik-geri-cekilebilir",
     "code": "H008 001 A03",
     "name": "H008 001 A03 - AUTO RETRACT – Otomatik Geri Çekilebilir",
-    "description": "AUTO RETRACT – Otomatik Geri Çekilebilir. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "AUTO RETRACT – Otomatik Geri Çekilebilir. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "auto-retract",
     "image": "/images/products/h008-001-a03-auto-retract-otomatik-geri-cekilebilir.jpg",
@@ -4317,12 +4301,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4338,7 +4321,7 @@
     "slug": "h014-001-x01-retractable-trim-knife-dokum-metal-el-bi",
     "code": "H014 001 X01",
     "name": "H014 001 X01 - RETRACTABLE TRIM KNIFE – Döküm Metal El Bıçağı",
-    "description": "RETRACTABLE TRIM KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "RETRACTABLE TRIM KNIFE – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h014-001-x01-retractable-trim-knife-dokum-metal-el-bi.jpg",
@@ -4350,12 +4333,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4371,7 +4353,7 @@
     "slug": "h015-001-z01-retro-heavy-duty-dokum-metal-el-bicagi",
     "code": "H015 001 Z01",
     "name": "H015 001 Z01 - RETRO HEAVY DUTY – Döküm Metal El Bıçağı",
-    "description": "RETRO HEAVY DUTY – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "RETRO HEAVY DUTY – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "fixed-blade",
     "image": "/images/products/h015-001-z01-retro-heavy-duty-dokum-metal-el-bicagi.jpg",
@@ -4383,12 +4365,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4404,7 +4385,7 @@
     "slug": "h016-001-j01-safety-roll-stripper-is-guvenligi-el-bic",
     "code": "H016 001 J01",
     "name": "H016 001 J01 - SAFETY ROLL STRIPPER – İş Güvenliği El Bıçağı",
-    "description": "SAFETY ROLL STRIPPER – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SAFETY ROLL STRIPPER – İş Güvenliği El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h016-001-j01-safety-roll-stripper-is-guvenligi-el-bic.jpg",
@@ -4416,12 +4397,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4437,7 +4417,7 @@
     "slug": "h016-101-a03-safety-roll-stripper-plus-is-guvenligi-e",
     "code": "H016 101 A03",
     "name": "H016 101 A03 - SAFETY ROLL STRIPPER PLUS – İş Güvenliği El Bıçağı",
-    "description": "SAFETY ROLL STRIPPER PLUS – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SAFETY ROLL STRIPPER PLUS – İş Güvenliği El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h016-101-a03-safety-roll-stripper-plus-is-guvenligi-e.jpg",
@@ -4449,12 +4429,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4470,7 +4449,7 @@
     "slug": "h016-201-a03-roll-stripper-heavy-duty-is-guvenligi-el",
     "code": "H016 201 A03",
     "name": "H016 201 A03 - ROLL STRIPPER HEAVY DUTY – İş Güvenliği El Bıçağı",
-    "description": "ROLL STRIPPER HEAVY DUTY – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ROLL STRIPPER HEAVY DUTY – İş Güvenliği El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h016-201-a03-roll-stripper-heavy-duty-is-guvenligi-el.jpg",
@@ -4482,12 +4461,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4503,7 +4481,7 @@
     "slug": "h020-001-s05-fixed-slim-knife-sabit-uclu-el-bicagi",
     "code": "H020 001 S05",
     "name": "H020 001 S05 - FIXED SLIM KNIFE – Sabit Uçlu El Bıçağı",
-    "description": "FIXED SLIM KNIFE – Sabit Uçlu El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "FIXED SLIM KNIFE – Sabit Uçlu El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "fixed-blade",
     "image": "/images/products/h020-001-s05-fixed-slim-knife-sabit-uclu-el-bicagi.jpg",
@@ -4515,12 +4493,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4536,7 +4513,7 @@
     "slug": "h023-002-s05-retractable-slim-knife-dokum-metal-el-bi",
     "code": "H023 002 S05",
     "name": "H023 002 S05 - RETRACTABLE “SLIM” KNIFE – Döküm Metal El Bıçağı",
-    "description": "RETRACTABLE “SLIM” KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "RETRACTABLE “SLIM” KNIFE – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h023-002-s05-retractable-slim-knife-dokum-metal-el-bi.jpg",
@@ -4548,12 +4525,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4569,7 +4545,7 @@
     "slug": "h024-001-s05",
     "code": "H024",
     "name": "H024 - 001 S05",
-    "description": "001 S05. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 S05. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h024-001-s05.jpg",
@@ -4581,12 +4557,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4601,7 +4576,7 @@
     "slug": "h028-002-x01-easy-change-knife-dokum-metal-el-bicagi",
     "code": "H028 002 X01",
     "name": "H028 002 X01 - EASY CHANGE KNIFE – Döküm Metal El Bıçağı",
-    "description": "EASY CHANGE KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "EASY CHANGE KNIFE – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h028-002-x01-easy-change-knife-dokum-metal-el-bicagi.jpg",
@@ -4613,12 +4588,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4634,7 +4608,7 @@
     "slug": "h030-001-a03-polytrim-emniyetli-film-kesici",
     "code": "H030 001 A03",
     "name": "H030 001 A03 - POLYTRIM – Emniyetli Film Kesici",
-    "description": "POLYTRIM – Emniyetli Film Kesici. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "POLYTRIM – Emniyetli Film Kesici. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h030-001-a03-polytrim-emniyetli-film-kesici.jpg",
@@ -4646,12 +4620,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4667,7 +4640,7 @@
     "slug": "h032-001-a03-squeeze-knife-otomatik-geri-cekilebilir",
     "code": "H032 001 A03",
     "name": "H032 001 A03 - SQUEEZE KNIFE – Otomatik Geri Çekilebilir",
-    "description": "SQUEEZE KNIFE – Otomatik Geri Çekilebilir. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SQUEEZE KNIFE – Otomatik Geri Çekilebilir. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "auto-retract",
     "image": "/images/products/h032-001-a03-squeeze-knife-otomatik-geri-cekilebilir.jpg",
@@ -4679,12 +4652,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4700,7 +4672,7 @@
     "slug": "h033-001-n03-yellowblack-slitter-seramik-uclu-emniyet",
     "code": "H033 001 N03",
     "name": "H033 001 N03 - YELLOW/BLACK SLITTER – Seramik Uçlu, Emniyetli El Bıçağı",
-    "description": "YELLOW/BLACK SLITTER – Seramik Uçlu, Emniyetli El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "YELLOW/BLACK SLITTER – Seramik Uçlu, Emniyetli El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h033-001-n03-yellowblack-slitter-seramik-uclu-emniyet.jpg",
@@ -4712,12 +4684,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4733,7 +4704,7 @@
     "slug": "h040-004-l01",
     "code": "H040",
     "name": "H040 - 004 L01",
-    "description": "004 L01. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "004 L01. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h040-004-l01.jpg",
@@ -4745,12 +4716,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4765,7 +4735,7 @@
     "slug": "h041-004-a01-cam-kaziyici-bicak-dokum-metal-el-bicag",
     "code": "H041 004 A01",
     "name": "H041 004 A01 - CAM KAZIYICI BIÇAK- Döküm Metal El Bıçağı",
-    "description": "CAM KAZIYICI BIÇAK- Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "CAM KAZIYICI BIÇAK- Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h041-004-a01-cam-kaziyici-bicak-dokum-metal-el-bicag.jpg",
@@ -4777,12 +4747,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4798,7 +4767,7 @@
     "slug": "h042-001-a01",
     "code": "H042",
     "name": "H042 - 001 A01",
-    "description": "001 A01. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 A01. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h042-001-a01.jpg",
@@ -4810,12 +4779,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4830,7 +4798,7 @@
     "slug": "h050-002-p02",
     "code": "H050",
     "name": "H050 - 002 P02",
-    "description": "002 P02. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "002 P02. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h050-002-p02.jpg",
@@ -4842,12 +4810,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4862,7 +4829,7 @@
     "slug": "h051-002-p02",
     "code": "H051",
     "name": "H051 - 002 P02",
-    "description": "002 P02. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "002 P02. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h051-002-p02.jpg",
@@ -4874,12 +4841,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4894,7 +4860,7 @@
     "slug": "h052-002-p02",
     "code": "H052",
     "name": "H052 - 002 P02",
-    "description": "002 P02. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "002 P02. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h052-002-p02.jpg",
@@ -4906,12 +4872,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4926,7 +4891,7 @@
     "slug": "h060-001-a03",
     "code": "H060",
     "name": "H060 - 001 A03",
-    "description": "001 A03. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 A03. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h060-001-a03.jpg",
@@ -4938,12 +4903,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4958,7 +4922,7 @@
     "slug": "h063-001-x01-orange-spring-safety-cutter-is-guvenligi",
     "code": "H063 001 X01",
     "name": "H063 001 X01 - ORANGE SPRING SAFETY CUTTER – İş Güvenliği El Bıçağı",
-    "description": "ORANGE SPRING SAFETY CUTTER – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ORANGE SPRING SAFETY CUTTER – İş Güvenliği El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h063-001-x01-orange-spring-safety-cutter-is-guvenligi.jpg",
@@ -4970,12 +4934,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -4991,7 +4954,7 @@
     "slug": "h081-501-k01-yuzuk-bicak-ayrik-turuncu",
     "code": "H081",
     "name": "H081 - 501 K01 YÜZÜK BIÇAK (AYRIK) – TURUNCU",
-    "description": "501 K01 YÜZÜK BIÇAK (AYRIK) – TURUNCU. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "501 K01 YÜZÜK BIÇAK (AYRIK) – TURUNCU. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h081-501-k01-yuzuk-bicak-ayrik-turuncu.jpg",
@@ -5003,12 +4966,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5024,7 +4986,7 @@
     "slug": "h090-001-s05",
     "code": "H090",
     "name": "H090 - 001 S05",
-    "description": "001 S05. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 S05. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h090-001-s05.jpg",
@@ -5036,12 +4998,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5056,7 +5017,7 @@
     "slug": "h091-001-s05",
     "code": "H091",
     "name": "H091 - 001 S05",
-    "description": "001 S05. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 S05. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h091-001-s05.jpg",
@@ -5068,12 +5029,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5088,7 +5048,7 @@
     "slug": "h101-001-o01-olfa-rty-1g",
     "code": "H101",
     "name": "H101 - 001 O01 / OLFA RTY-1/G",
-    "description": "001 O01 / OLFA RTY-1/G. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / OLFA RTY-1/G. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "olfa-rotary",
     "image": "/images/products/h101-001-o01-olfa-rty-1g.jpg",
@@ -5100,12 +5060,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5120,7 +5079,7 @@
     "slug": "h102-001-o01-rty-2g",
     "code": "H102",
     "name": "H102 - 001 O01 / RTY-2/G",
-    "description": "001 O01 / RTY-2/G. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / RTY-2/G. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "olfa-rotary",
     "image": "/images/products/h102-001-o01-rty-2g.jpg",
@@ -5132,12 +5091,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5152,7 +5110,7 @@
     "slug": "h501-001-t03-maket-el-bicagi-falcata",
     "code": "H501 001 T03",
     "name": "H501 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
-    "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "MAKET EL BIÇAĞI – FALÇATA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "utility-knives",
     "image": "/images/products/h501-001-t03-maket-el-bicagi-falcata.jpg",
@@ -5164,12 +5122,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5185,7 +5142,7 @@
     "slug": "h502-001-t03-maket-el-bicagi-falcata",
     "code": "H502 001 T03",
     "name": "H502 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
-    "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "MAKET EL BIÇAĞI – FALÇATA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "utility-knives",
     "image": "/images/products/h502-001-t03-maket-el-bicagi-falcata.jpg",
@@ -5197,12 +5154,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5218,7 +5174,7 @@
     "slug": "h503-001-t03-maket-bicagi-falcata",
     "code": "H503 001 T03",
     "name": "H503 001 T03 - MAKET BIÇAĞI – FALÇATA",
-    "description": "MAKET BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "MAKET BIÇAĞI – FALÇATA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "utility-knives",
     "image": "/images/products/h503-001-t03-maket-bicagi-falcata.jpg",
@@ -5230,12 +5186,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5251,7 +5206,7 @@
     "slug": "h504-001-t03-maket-el-bicagi-falcata",
     "code": "H504 001 T03",
     "name": "H504 001 T03 - MAKET EL BIÇAĞI – FALÇATA",
-    "description": "MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "MAKET EL BIÇAĞI – FALÇATA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "utility-knives",
     "image": "/images/products/h504-001-t03-maket-el-bicagi-falcata.jpg",
@@ -5263,12 +5218,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5284,7 +5238,7 @@
     "slug": "h506-001-o01-olfa-ml18mm-dokum-metal-el-bicag",
     "code": "H506",
     "name": "H506 - 001 O01 / OLFA ML18mm – Döküm Metal El Bıçağı",
-    "description": "001 O01 / OLFA ML18mm – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / OLFA ML18mm – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h506-001-o01-olfa-ml18mm-dokum-metal-el-bicag.jpg",
@@ -5296,12 +5250,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5317,7 +5270,7 @@
     "slug": "h507-001-o01-olfa-nl-al",
     "code": "H507",
     "name": "H507 - 001 O01 / OLFA NL-AL",
-    "description": "001 O01 / OLFA NL-AL. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / OLFA NL-AL. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h507-001-o01-olfa-nl-al.jpg",
@@ -5329,12 +5282,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5350,7 +5302,7 @@
     "slug": "h508-001-o01-olfa-l-2",
     "code": "H508",
     "name": "H508 - 001 O01 / OLFA L-2",
-    "description": "001 O01 / OLFA L-2. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / OLFA L-2. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h508-001-o01-olfa-l-2.jpg",
@@ -5362,12 +5314,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5383,7 +5334,7 @@
     "slug": "h512-001-s04",
     "code": "H512",
     "name": "H512 - 001 S04",
-    "description": "001 S04. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 S04. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h512-001-s04.jpg",
@@ -5395,12 +5346,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5415,7 +5365,7 @@
     "slug": "h525-001-z01",
     "code": "H525",
     "name": "H525 - 001 Z01",
-    "description": "001 Z01. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 Z01. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h525-001-z01.jpg",
@@ -5427,12 +5377,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5447,7 +5396,7 @@
     "slug": "h531-001-z01-automatic-trimming-knife-dokum-metal-el",
     "code": "H531 001 Z01",
     "name": "H531 001 Z01 - AUTOMATIC TRIMMING KNIFE – Döküm Metal El Bıçağı",
-    "description": "AUTOMATIC TRIMMING KNIFE – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "AUTOMATIC TRIMMING KNIFE – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h531-001-z01-automatic-trimming-knife-dokum-metal-el.jpg",
@@ -5459,12 +5408,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5480,7 +5428,7 @@
     "slug": "h600-001-t03-9mm-maket-el-bicagi-falcata",
     "code": "H600 001 T03",
     "name": "H600 001 T03 - 9mm MAKET EL BIÇAĞI – FALÇATA",
-    "description": "9mm MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "9mm MAKET EL BIÇAĞI – FALÇATA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "utility-knives",
     "image": "/images/products/h600-001-t03-9mm-maket-el-bicagi-falcata.jpg",
@@ -5492,12 +5440,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5513,7 +5460,7 @@
     "slug": "h603-001-o01-olfa-ml-9mm-dokum-metal-el-bicag",
     "code": "H603",
     "name": "H603 - 001 O01 / OLFA ML 9mm – Döküm Metal El Bıçağı",
-    "description": "001 O01 / OLFA ML 9mm – Döküm Metal El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / OLFA ML 9mm – Döküm Metal El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h603-001-o01-olfa-ml-9mm-dokum-metal-el-bicag.jpg",
@@ -5525,12 +5472,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5546,7 +5492,7 @@
     "slug": "h605-001-t03-9mm-maket-el-bicagi-falcata",
     "code": "H605 001 T03",
     "name": "H605 001 T03 - 9mm MAKET EL BIÇAĞI – FALÇATA",
-    "description": "9mm MAKET EL BIÇAĞI – FALÇATA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "9mm MAKET EL BIÇAĞI – FALÇATA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "utility-knives",
     "image": "/images/products/h605-001-t03-9mm-maket-el-bicagi-falcata.jpg",
@@ -5558,12 +5504,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5579,7 +5524,7 @@
     "slug": "h606-001-s04",
     "code": "H606",
     "name": "H606 - 001 S04",
-    "description": "001 S04. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 S04. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h606-001-s04.jpg",
@@ -5591,12 +5536,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5611,7 +5555,7 @@
     "slug": "h907-003-t03",
     "code": "H907",
     "name": "H907 - 003 T03",
-    "description": "003 T03. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "003 T03. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h907-003-t03.jpg",
@@ -5623,12 +5567,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5643,7 +5586,7 @@
     "slug": "h907-003-t03b-supaslit-koruyucu-kapakli-slitter",
     "code": "H907 003 T03B",
     "name": "H907 003 T03B - SUPASLIT – Koruyucu Kapaklı Slitter",
-    "description": "SUPASLIT – Koruyucu Kapaklı Slitter. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SUPASLIT – Koruyucu Kapaklı Slitter. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h907-003-t03b-supaslit-koruyucu-kapakli-slitter.jpg",
@@ -5655,12 +5598,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5676,7 +5618,7 @@
     "slug": "h907-012-a03-el-bicagi-polysafe-plus-film-kesici",
     "code": "H907 012 A03",
     "name": "H907 012 A03 - EL BIÇAĞI – POLYSAFE PLUS FİLM KESİCİ",
-    "description": "EL BIÇAĞI – POLYSAFE PLUS FİLM KESİCİ. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "EL BIÇAĞI – POLYSAFE PLUS FİLM KESİCİ. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h907-012-a03-el-bicagi-polysafe-plus-film-kesici.jpg",
@@ -5688,12 +5630,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5709,7 +5650,7 @@
     "slug": "h909-001-o01-olfa-tk-1-cep-tipi-pratik-maket",
     "code": "H909",
     "name": "H909 - 001 O01 / OLFA TK-1 – Cep Tipi Pratik Maket Bıçağı",
-    "description": "001 O01 / OLFA TK-1 – Cep Tipi Pratik Maket Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / OLFA TK-1 – Cep Tipi Pratik Maket Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h909-001-o01-olfa-tk-1-cep-tipi-pratik-maket.jpg",
@@ -5721,12 +5662,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5742,7 +5682,7 @@
     "slug": "h911-002-o01-olfa-maru-cutter",
     "code": "H911",
     "name": "H911 - 002 O01 / OLFA MARU CUTTER",
-    "description": "002 O01 / OLFA MARU CUTTER. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "002 O01 / OLFA MARU CUTTER. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "utility-knives",
     "image": "/images/products/h911-002-o01-olfa-maru-cutter.jpg",
@@ -5754,12 +5694,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5775,7 +5714,7 @@
     "slug": "h913-007-s02",
     "code": "H913",
     "name": "H913 - 007 S02",
-    "description": "007 S02. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "007 S02. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h913-007-s02.jpg",
@@ -5787,12 +5726,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5807,7 +5745,7 @@
     "slug": "h913-008-t03-polyslit-emniyetli-el-bicagi",
     "code": "H913 008 T03",
     "name": "H913 008 T03 - POLYSLIT – Emniyetli El Bıçağı",
-    "description": "POLYSLIT – Emniyetli El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "POLYSLIT – Emniyetli El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h913-008-t03-polyslit-emniyetli-el-bicagi.jpg",
@@ -5819,12 +5757,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5840,7 +5777,7 @@
     "slug": "h914-001-a03-springer-knife-metal-is-guvenligi-el-bic",
     "code": "H914 001 A03",
     "name": "H914 001 A03 - SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı (Sol El Bıçak)",
-    "description": "SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı (Sol El Bıçak). Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı (Sol El Bıçak). profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h914-001-a03-springer-knife-metal-is-guvenligi-el-bic.jpg",
@@ -5852,12 +5789,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5873,7 +5809,7 @@
     "slug": "h914-002-a03-springer-knife-metal-is-guvenligi-el-bic",
     "code": "H914 002 A03",
     "name": "H914 002 A03 - SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı",
-    "description": "SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SPRINGER KNIFE – Metal İş Güvenliği El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h914-002-a03-springer-knife-metal-is-guvenligi-el-bic.jpg",
@@ -5885,12 +5821,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5906,7 +5841,7 @@
     "slug": "h915-003-a02",
     "code": "H915",
     "name": "H915 - 003 A02",
-    "description": "003 A02. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "003 A02. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h915-003-a02.jpg",
@@ -5918,12 +5853,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5938,7 +5872,7 @@
     "slug": "h917-001-t10-fish-knife-cuval-acma-el-bicagi",
     "code": "H917 001 T10",
     "name": "H917 001 T10 - FISH KNIFE – Çuval Açma El Bıçağı",
-    "description": "FISH KNIFE – Çuval Açma El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "FISH KNIFE – Çuval Açma El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h917-001-t10-fish-knife-cuval-acma-el-bicagi.jpg",
@@ -5950,12 +5884,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -5971,7 +5904,7 @@
     "slug": "h918-001-t10-fish-knife-cuval-acma-el-bicagi",
     "code": "H918 001 T10",
     "name": "H918 001 T10 - FISH KNIFE – Çuval Açma El Bıçağı",
-    "description": "FISH KNIFE – Çuval Açma El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "FISH KNIFE – Çuval Açma El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h918-001-t10-fish-knife-cuval-acma-el-bicagi.jpg",
@@ -5983,12 +5916,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6004,7 +5936,7 @@
     "slug": "h941-001-o01-olfa-hok-1",
     "code": "H941",
     "name": "H941 - 001 O01 / OLFA HOK-1",
-    "description": "001 O01 / OLFA HOK-1. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "001 O01 / OLFA HOK-1. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h941-001-o01-olfa-hok-1.jpg",
@@ -6016,12 +5948,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6036,7 +5967,7 @@
     "slug": "h944-001-t03-ambi-safe-spring-is-guvenligi-el-bicagi",
     "code": "H944 001 T03",
     "name": "H944 001 T03 - AMBI SAFE SPRING – İş Güvenliği El Bıçağı",
-    "description": "AMBI SAFE SPRING – İş Güvenliği El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "AMBI SAFE SPRING – İş Güvenliği El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/h944-001-t03-ambi-safe-spring-is-guvenligi-el-bicagi.jpg",
@@ -6048,12 +5979,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6069,7 +5999,7 @@
     "slug": "h946-001-u-cut-kanca-tipi-el-bicagi",
     "code": "H946 001",
     "name": "H946 001 - U-CUT – Kanca Tipi El Bıçağı",
-    "description": "U-CUT – Kanca Tipi El Bıçağı. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "U-CUT – Kanca Tipi El Bıçağı. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hook-blades",
     "image": "/images/products/h946-001-u-cut-kanca-tipi-el-bicagi.jpg",
@@ -6081,12 +6011,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6138,7 +6067,7 @@
     "slug": "kk01-kk01",
     "code": "KK01",
     "name": "KK01 - KK01",
-    "description": "KK01. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "KK01. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/kk01-kk01.jpg",
@@ -6150,12 +6079,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6170,7 +6098,7 @@
     "slug": "olfa-sk-12-paslanmaz-nsf-sertifikali-el-bicagi",
     "code": "OLFA SK-12",
     "name": "OLFA SK-12 - PASLANMAZ NSF SERTİFİKALI EL BIÇAĞI",
-    "description": "PASLANMAZ NSF SERTİFİKALI EL BIÇAĞI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "PASLANMAZ NSF SERTİFİKALI EL BIÇAĞI. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-sk-12-paslanmaz-nsf-sertifikali-el-bicagi.jpg",
@@ -6182,12 +6110,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6203,7 +6130,7 @@
     "slug": "olfa-sk-15-emniyetli-is-guvenligi-el-bicagi",
     "code": "OLFA SK-15",
     "name": "OLFA SK-15 - EMNİYETLİ İŞ GÜVENLİĞİ EL BIÇAĞI",
-    "description": "EMNİYETLİ İŞ GÜVENLİĞİ EL BIÇAĞI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "EMNİYETLİ İŞ GÜVENLİĞİ EL BIÇAĞI. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-sk-15-emniyetli-is-guvenligi-el-bicagi.jpg",
@@ -6215,12 +6142,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6236,7 +6162,7 @@
     "slug": "saka01t-saka01t",
     "code": "SAKA01T",
     "name": "SAKA01T - SAKA01T",
-    "description": "SAKA01T. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SAKA01T. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/saka01t-saka01t.jpg",
@@ -6248,12 +6174,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6268,7 +6193,7 @@
     "slug": "sk01-sk01",
     "code": "SK01",
     "name": "SK01 - SK01",
-    "description": "SK01. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SK01. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/sk01-sk01.jpg",
@@ -6280,12 +6205,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6300,7 +6224,7 @@
     "slug": "suka01-el-bicagi-surgulu-kanca",
     "code": "SUKA01",
     "name": "SUKA01 - EL BIÇAĞI – SÜRGÜLÜ KANCA",
-    "description": "EL BIÇAĞI – SÜRGÜLÜ KANCA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "EL BIÇAĞI – SÜRGÜLÜ KANCA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hook-blades",
     "image": "/images/products/suka01-el-bicagi-surgulu-kanca.jpg",
@@ -6312,12 +6236,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6333,7 +6256,7 @@
     "slug": "suka02-suka02",
     "code": "SUKA02",
     "name": "SUKA02 - SUKA02",
-    "description": "SUKA02. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SUKA02. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/suka02-suka02.jpg",
@@ -6345,12 +6268,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6416,7 +6338,7 @@
     "slug": "kontr-biai-termoform-vakum-paketleme-bicagi",
     "code": "CONTOUR BLADE",
     "name": "KONTÖR BIÇAĞI - Termoform Vakum Paketleme Bıçağı",
-    "description": "Termoform ve vakum paketleme makinaları için kontör (contour) bıçağı. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac gibi markaların makinalarına uyumlu. Sheffield çeliğinden üretilmiş, gıda sanayiinde kullanıma uygun profesyonel kesici bıçak.",
+    "description": "Termoform ve vakum paketleme makinaları için kontör (contour) bıçağı. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac gibi markaların makinalarına uyumlu. gıda sanayiinde kullanıma uygun profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "thermoform-vacuum",
     "image": "/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg",
@@ -6448,12 +6370,12 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62",
       "coating": "Standart veya Titanyum Kaplama"
     },
     "features": [
-      "Uzun ömürlü Sheffield çeliği",
+      "Uzun ömürlü yüksek kalite çelik",
       "Gıda sanayiine uygun",
       "Termoform makinalarına uyumlu",
       "Temiz ve hassas kesim",
@@ -6526,7 +6448,6 @@
     },
     "features": [
       "Yarım yıldız geometrisi",
-      "Sheffield çelik kalitesi",
       "Titanyum kaplama opsiyonu",
       "Hassas zımbalama",
       "Uzun ömürlü keskin kenar",
@@ -6597,7 +6518,6 @@
     },
     "features": [
       "Tam yıldız geometrisi",
-      "Sheffield çelik kalitesi",
       "Titanyum kaplama opsiyonu",
       "Hassas zımbalama",
       "Uzun ömürlü keskin kenar",
@@ -6682,7 +6602,7 @@
     "slug": "dairesel-bicaklar-vakum-paketleme",
     "code": "CIRCULAR BLADE",
     "name": "DAİRESEL BIÇAKLAR - Vakum Paketleme Döner Bıçak",
-    "description": "Dairesel (circular) döner bıçaklar. Vakum paketleme ve termoform makinaları için. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu dairesel kesim bıçakları. Sheffield çeliğinden üretilmiş.",
+    "description": "Dairesel (circular) döner bıçaklar. Vakum paketleme ve termoform makinaları için. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu dairesel kesim bıçakları. .",
     "categoryId": "machine-knives",
     "subcategoryId": "thermoform-vacuum",
     "image": "/images/products/dairesel-bicaklar.jpg",
@@ -6708,13 +6628,12 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62",
       "shape": "Dairesel (Circular)"
     },
     "features": [
       "Dairesel geometri",
-      "Sheffield çelik kalitesi",
       "Döner kesim uyumlu",
       "Hassas kesim",
       "Uzun ömürlü",
@@ -6859,7 +6778,7 @@
     "slug": "disli-bicaklar-vakum-paketleme",
     "code": "SERRATED BLADE",
     "name": "DİŞLİ BIÇAKLAR - Vakum Paketleme Testere Dişli Bıçak",
-    "description": "Dişli (serrated) kesim bıçakları. Vakum paketleme ve termoform makinaları için testere dişli bıçak. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. Sheffield çeliğinden üretilmiş, sert malzemeler için ideal.",
+    "description": "Dişli (serrated) kesim bıçakları. Vakum paketleme ve termoform makinaları için testere dişli bıçak. Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac makinalarına uyumlu. sert malzemeler için ideal.",
     "categoryId": "machine-knives",
     "subcategoryId": "thermoform-vacuum",
     "image": "/images/products/dili-bicaklar.jpg",
@@ -6885,13 +6804,12 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62",
       "edge": "Testere Dişli (Serrated)"
     },
     "features": [
       "Testere dişli kenar",
-      "Sheffield çelik kalitesi",
       "Sert malzemeler için ideal",
       "Kayma önleyici kesim",
       "Uzun ömürlü keskin kenar",
@@ -6914,7 +6832,7 @@
     "slug": "st-tabak-bicaklar",
     "code": "ÜST",
     "name": "ÜST - ‘TABAK’ BIÇAKLAR",
-    "description": "‘TABAK’ BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "‘TABAK’ BIÇAKLAR. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/st-tabak-bicaklar.jpg",
@@ -6926,12 +6844,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6947,7 +6864,7 @@
     "slug": "alt-bicaklar",
     "code": "ALT",
     "name": "ALT - BIÇAKLAR",
-    "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "BIÇAKLAR. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/alt-bicaklar.jpg",
@@ -6959,12 +6876,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -6980,7 +6896,7 @@
     "slug": "pelet-bicaklari",
     "code": "PELET",
     "name": "PELET - BIÇAKLARI",
-    "description": "BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/pelet-bicaklari.jpg",
@@ -6992,12 +6908,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7013,7 +6928,7 @@
     "slug": "taneciklendirici-bicak",
     "code": "TANECİKLENDİRİCİ",
     "name": "TANECİKLENDİRİCİ - BIÇAK",
-    "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "BIÇAK. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/taneciklendirici-bicak.jpg",
@@ -7025,12 +6940,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7046,7 +6960,7 @@
     "slug": "paralayici-bicak",
     "code": "PARÇALAYICI",
     "name": "PARÇALAYICI - BIÇAK",
-    "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "BIÇAK. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/paralayici-bicak.jpg",
@@ -7058,12 +6972,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7079,7 +6992,7 @@
     "slug": "oluklu-mukavva-dilme-bicaklari",
     "code": "OLUKLU",
     "name": "OLUKLU - MUKAVVA DİLME BIÇAKLARI",
-    "description": "MUKAVVA DİLME BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "MUKAVVA DİLME BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/oluklu-mukavva-dilme-bicaklari.jpg",
@@ -7091,12 +7004,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7112,7 +7024,7 @@
     "slug": "disiz-doner-kesim-bicaklari",
     "code": "DİŞSİZ",
     "name": "DİŞSİZ - DÖNER KESİM BIÇAKLARI",
-    "description": "DÖNER KESİM BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "DÖNER KESİM BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/disiz-doner-kesim-bicaklari.jpg",
@@ -7124,12 +7036,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7145,7 +7056,7 @@
     "slug": "dili-doner-kesim-bicaklari-2",
     "code": "DİŞLİ",
     "name": "DİŞLİ - DÖNER KESİM BIÇAKLARI",
-    "description": "DÖNER KESİM BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "DÖNER KESİM BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/dili-doner-kesim-bicaklari.jpg",
@@ -7157,12 +7068,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7178,7 +7088,7 @@
     "slug": "dili-bicak-3",
     "code": "DİŞLİ",
     "name": "DİŞLİ - BIÇAK",
-    "description": "BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "BIÇAK. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/dili-bicak.jpg",
@@ -7190,12 +7100,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7211,7 +7120,7 @@
     "slug": "biak-tutacak-aparati",
     "code": "BIÇAK",
     "name": "BIÇAK - TUTACAK APARATI",
-    "description": "TUTACAK APARATI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "TUTACAK APARATI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/biak-tutacak-aparati.jpg",
@@ -7223,12 +7132,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7244,7 +7152,7 @@
     "slug": "dairesel-ezici-bicaklar-2",
     "code": "DAİRESEL",
     "name": "DAİRESEL - EZİCİ BIÇAKLAR",
-    "description": "EZİCİ BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "EZİCİ BIÇAKLAR. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/dairesel-ezici-bicaklar.jpg",
@@ -7256,12 +7164,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7277,7 +7184,7 @@
     "slug": "et-acma-derinder-bicak",
     "code": "ET",
     "name": "ET - AÇMA ( DERİNDER ) BIÇAK",
-    "description": "AÇMA ( DERİNDER ) BIÇAK. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "AÇMA ( DERİNDER ) BIÇAK. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/et-acma-derinder-bicak.jpg",
@@ -7289,12 +7196,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7310,7 +7216,7 @@
     "slug": "log-saw-bicaklari",
     "code": "LOG-SAW",
     "name": "LOG-SAW - BIÇAKLARI",
-    "description": "BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "logsaw-knives",
     "image": "/images/products/log-saw-bicaklari.jpg",
@@ -7322,12 +7228,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7343,7 +7248,7 @@
     "slug": "masura-kesim-bicaklari",
     "code": "MASURA",
     "name": "MASURA - KESİM BIÇAKLARI",
-    "description": "KESİM BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "KESİM BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/masura-kesim-bicaklari.jpg",
@@ -7355,12 +7260,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7376,7 +7280,7 @@
     "slug": "kutu-kapama-bicaklari-koli-bandi-bicaklari",
     "code": "KUTU",
     "name": "KUTU - KAPAMA BIÇAKLARI – KOLİ BANDI BIÇAKLARI",
-    "description": "KAPAMA BIÇAKLARI – KOLİ BANDI BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "KAPAMA BIÇAKLARI – KOLİ BANDI BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "case-sealer",
     "image": "/images/products/kutu-kapama-bicaklari-koli-bandi-bicaklari.jpg",
@@ -7388,12 +7292,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7409,7 +7312,7 @@
     "slug": "test-urun",
     "code": "Test",
     "name": "Test - Ürün",
-    "description": "Ürün. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "Ürün. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/test-urun.jpg",
@@ -7421,12 +7324,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7442,7 +7344,7 @@
     "slug": "erit-bicaklar",
     "code": "ŞERİT",
     "name": "ŞERİT - BIÇAKLAR",
-    "description": "BIÇAKLAR. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "BIÇAKLAR. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/erit-bicaklar.jpg",
@@ -7454,12 +7356,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7475,7 +7376,7 @@
     "slug": "tray-kase-kalip-bicaklari",
     "code": "TRAY",
     "name": "TRAY - (KASE) KALIP BIÇAKLARI",
-    "description": "(KASE) KALIP BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "(KASE) KALIP BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/tray-kase-kalip-bicaklari.jpg",
@@ -7487,12 +7388,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7508,7 +7408,7 @@
     "slug": "sosis-siyirma-bicaklari",
     "code": "SOSİS",
     "name": "SOSİS - SIYIRMA BIÇAKLARI",
-    "description": "SIYIRMA BIÇAKLARI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SIYIRMA BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
     "subcategoryId": "rotary-cutting",
     "image": "/images/products/sosis-siyirma-bicaklari.jpg",
@@ -7520,12 +7420,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7541,7 +7440,7 @@
     "slug": "p1-a-capak-alma-hobi-el-bicagi-alyan-vidali",
     "code": "P1-A",
     "name": "P1-A - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI",
-    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hobby-blades",
     "image": "/images/products/p1-a-capak-alma-hobi-el-bicagi-alyan-vidali.jpg",
@@ -7553,12 +7452,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7574,7 +7472,7 @@
     "slug": "p1-t-capak-alma-hobi-el-bicagi-cevirmeli-vida",
     "code": "P1-T",
     "name": "P1-T - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI",
-    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hobby-blades",
     "image": "/images/products/p1-t-capak-alma-hobi-el-bicagi-cevirmeli-vida.jpg",
@@ -7586,12 +7484,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7607,7 +7504,7 @@
     "slug": "p2-a-capak-alma-hobi-el-bicagi-alyan-vidali",
     "code": "P2-A",
     "name": "P2-A - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI",
-    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ALYAN VİDALI. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hobby-blades",
     "image": "/images/products/p2-a-capak-alma-hobi-el-bicagi-alyan-vidali.jpg",
@@ -7619,12 +7516,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7640,7 +7536,7 @@
     "slug": "p2-t-capak-alma-hobi-el-bicagi-cevirmeli-vida",
     "code": "P2-T",
     "name": "P2-T - ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI",
-    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – ÇEVİRMELİ VİDALI. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hobby-blades",
     "image": "/images/products/p2-t-capak-alma-hobi-el-bicagi-cevirmeli-vida.jpg",
@@ -7652,12 +7548,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7673,7 +7568,7 @@
     "slug": "p9-ss-capak-alma-hobi-el-bicagi-2xyuvali-vida",
     "code": "P9-SS",
     "name": "P9-SS - ÇAPAK ALMA / HOBİ EL BIÇAĞI – 2xYUVALI VİDA",
-    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – 2xYUVALI VİDA. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA / HOBİ EL BIÇAĞI – 2xYUVALI VİDA. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hobby-blades",
     "image": "/images/products/p9-ss-capak-alma-hobi-el-bicagi-2xyuvali-vida.jpg",
@@ -7685,12 +7580,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7706,7 +7600,7 @@
     "slug": "ws-1-capak-alma-hobi-calisma-istasyonu",
     "code": "WS-1",
     "name": "WS-1 - ÇAPAK ALMA / HOBİ ÇALIŞMA İSTASYONU",
-    "description": "ÇAPAK ALMA / HOBİ ÇALIŞMA İSTASYONU. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA / HOBİ ÇALIŞMA İSTASYONU. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "hobby-blades",
     "image": "/images/products/ws-1-capak-alma-hobi-calisma-istasyonu.jpg",
@@ -7718,12 +7612,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7739,7 +7632,7 @@
     "slug": "f01-capak-alma-bicagi-evrensel-tip",
     "code": "F01",
     "name": "F01 - ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP",
-    "description": "ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "deburring-hobby",
     "image": "/images/products/f01-capak-alma-bicagi-evrensel-tip.jpg",
@@ -7751,12 +7644,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7772,7 +7664,7 @@
     "slug": "f21-capak-alma-bicagi-kisa-tip",
     "code": "F21",
     "name": "F21 - ÇAPAK ALMA BIÇAĞI – KISA TİP",
-    "description": "ÇAPAK ALMA BIÇAĞI – KISA TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA BIÇAĞI – KISA TİP. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "deburring-hobby",
     "image": "/images/products/f21-capak-alma-bicagi-kisa-tip.jpg",
@@ -7784,12 +7676,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7805,7 +7696,7 @@
     "slug": "f22-capak-alma-bicagi-dayanikli-tip",
     "code": "F22",
     "name": "F22 - ÇAPAK ALMA BIÇAĞI – DAYANIKLI TİP",
-    "description": "ÇAPAK ALMA BIÇAĞI – DAYANIKLI TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA BIÇAĞI – DAYANIKLI TİP. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "deburring-hobby",
     "image": "/images/products/f22-capak-alma-bicagi-dayanikli-tip.jpg",
@@ -7817,12 +7708,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7838,7 +7728,7 @@
     "slug": "f03-capak-alma-bicagi-sivri-tip",
     "code": "F03",
     "name": "F03 - ÇAPAK ALMA BIÇAĞI – SİVRİ TİP",
-    "description": "ÇAPAK ALMA BIÇAĞI – SİVRİ TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA BIÇAĞI – SİVRİ TİP. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "deburring-hobby",
     "image": "/images/products/f03-capak-alma-bicagi-sivri-tip.jpg",
@@ -7850,12 +7740,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7871,7 +7760,7 @@
     "slug": "f04-capak-alma-bicagi-yuvarlak-uclu-tip",
     "code": "F04",
     "name": "F04 - ÇAPAK ALMA BIÇAĞI – YUVARLAK UÇLU TİP",
-    "description": "ÇAPAK ALMA BIÇAĞI – YUVARLAK UÇLU TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA BIÇAĞI – YUVARLAK UÇLU TİP. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "deburring-hobby",
     "image": "/images/products/f04-capak-alma-bicagi-yuvarlak-uclu-tip.jpg",
@@ -7883,12 +7772,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7904,7 +7792,7 @@
     "slug": "g01-capak-alma-bicagi-evrensel-tip",
     "code": "G01",
     "name": "G01 - ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP",
-    "description": "ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "ÇAPAK ALMA BIÇAĞI – EVRENSEL TİP. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "deburring-hobby",
     "image": "/images/products/g01-capak-alma-bicagi-evrensel-tip.jpg",
@@ -7916,12 +7804,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7937,7 +7824,7 @@
     "slug": "olfa-prc-3c",
     "code": "OLFA",
     "name": "OLFA - PRC-3/C",
-    "description": "PRC-3/C. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "PRC-3/C. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-prc-3c.jpg",
@@ -7949,12 +7836,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -7969,7 +7855,7 @@
     "slug": "olfa-125mm-cs-5-2",
     "code": "OLFA",
     "name": "OLFA - 12.5mm CS-5",
-    "description": "12.5mm CS-5. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "12.5mm CS-5. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-125mm-cs-5.jpg",
@@ -7981,12 +7867,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -8001,7 +7886,7 @@
     "slug": "olfa-sk-10-3",
     "code": "OLFA",
     "name": "OLFA - SK-10",
-    "description": "SK-10. Sheffield kalitesinde profesyonel kesici bıçak.",
+    "description": "SK-10. profesyonel kesici bıçak.",
     "categoryId": "safety-knives",
     "subcategoryId": "safety-cutters",
     "image": "/images/products/olfa-sk-10.jpg",
@@ -8013,12 +7898,11 @@
       }
     ],
     "specifications": {
-      "material": "Sheffield Çelik",
+      "material": "Yüksek Kalite Çelik",
       "hardness": "HRC 58-62"
     },
     "features": [
       "Uzun ömürlü",
-      "Sheffield kalitesi",
       "Profesyonel kullanım"
     ],
     "applications": [
@@ -10420,7 +10304,7 @@
     "slugEN": "b575-microtome-blade-low-profile",
     "code": "B575",
     "name": "B575 - Mikrotom Jileti – Alçak Profil",
-    "description": "Mikrotom Jileti 80.01×8.13×0.25mm, Alçak Profil, 3 Açılı Bileme, Paslanmaz Çelik + Kaplama. Histopatoloji ve patoloji laboratuvarlarında rutin parafin doku kesitleri için yüksek hassasiyetli tek kullanımlık jilet. Leica, Thermo, Sakura mikrotom uyumlu. Sheffield Durham Duplex kalitesi.",
+    "description": "Mikrotom Jileti 80.01×8.13×0.25mm, Alçak Profil, 3 Açılı Bileme, Paslanmaz Çelik + Kaplama. Histopatoloji ve patoloji laboratuvarlarında rutin parafin doku kesitleri için yüksek hassasiyetli tek kullanımlık jilet. Leica, Thermo, Sakura mikrotom uyumlu. Durham Duplex kalitesi.",
     "categoryId": "industrial-blades",
     "subcategoryId": "microtome-blades",
     "image": "/images/products/b575-mikrotom-jileti-alcak-profil.jpg",
@@ -10480,7 +10364,7 @@
     "slugEN": "b724-microtome-blade-high-profile",
     "code": "B724",
     "name": "B724 - Mikrotom Jileti – Yüksek Profil",
-    "description": "Mikrotom Jileti 80.01×13.97×0.30mm, Yüksek Profil, 3 Açılı Bileme, Paslanmaz Çelik + Kaplama. Sert doku örnekleri, kalsifiye dokular ve büyük parafin blokların kesilmesi için stabilite odaklı yüksek profil tasarım. Leica, Thermo, Sakura mikrotom uyumlu. Sheffield Durham Duplex kalitesi.",
+    "description": "Mikrotom Jileti 80.01×13.97×0.30mm, Yüksek Profil, 3 Açılı Bileme, Paslanmaz Çelik + Kaplama. Sert doku örnekleri, kalsifiye dokular ve büyük parafin blokların kesilmesi için stabilite odaklı yüksek profil tasarım. Leica, Thermo, Sakura mikrotom uyumlu. Durham Duplex kalitesi.",
     "categoryId": "industrial-blades",
     "subcategoryId": "microtome-blades",
     "image": "/images/products/b724-mikrotom-jileti-yuksek-profil.jpg",
@@ -10541,7 +10425,7 @@
     "slugEN": "b723-001-lasik-microkeratome-blade-2-slot",
     "code": "B723 001",
     "name": "B723 001 - LASİK / Mikrokeratom Jileti – 2 Yuva",
-    "description": "LASİK / Mikrokeratom Jileti 38.1×7.94×0.25mm, 2 Yuva, 3 Açılı Bileme, Paslanmaz Çelik, Yağdan Arındırılmış. LASIK ve refraktif göz cerrahisinde kornea flebinin hassas oluşturulması için tek kullanımlık cerrahi jilet. Moria, Hansatome, Zyoptix uyumlu. Sheffield Durham Duplex kalitesi.",
+    "description": "LASİK / Mikrokeratom Jileti 38.1×7.94×0.25mm, 2 Yuva, 3 Açılı Bileme, Paslanmaz Çelik, Yağdan Arındırılmış. LASIK ve refraktif göz cerrahisinde kornea flebinin hassas oluşturulması için tek kullanımlık cerrahi jilet. Moria, Hansatome, Zyoptix uyumlu. Durham Duplex kalitesi.",
     "categoryId": "industrial-blades",
     "subcategoryId": "microkeratome-blades",
     "image": "/images/products/b723-001-lasik-mikrokeratom-jileti-2-yuva.jpg",
@@ -10599,7 +10483,7 @@
     "slugEN": "b723-501-lasik-microkeratome-blade-1-slot",
     "code": "B723 501",
     "name": "B723 501 - LASİK / Mikrokeratom Jileti – 1 Yuva",
-    "description": "LASİK / Mikrokeratom Jileti 38.1×7.94×0.25mm, 1 Yuva, 3 Açılı Bileme, Paslanmaz Çelik, Yağdan Arındırılmış. LASIK ve refraktif göz cerrahisinde kornea flebinin hassas oluşturulması için tek kullanımlık cerrahi jilet. Amadeus, Carriazo-Barraquer, Schwind uyumlu. Sheffield Durham Duplex kalitesi.",
+    "description": "LASİK / Mikrokeratom Jileti 38.1×7.94×0.25mm, 1 Yuva, 3 Açılı Bileme, Paslanmaz Çelik, Yağdan Arındırılmış. LASIK ve refraktif göz cerrahisinde kornea flebinin hassas oluşturulması için tek kullanımlık cerrahi jilet. Amadeus, Carriazo-Barraquer, Schwind uyumlu. Durham Duplex kalitesi.",
     "categoryId": "industrial-blades",
     "subcategoryId": "microkeratome-blades",
     "image": "/images/products/b723-501-lasik-mikrokeratom-jileti-1-yuva.jpg",
@@ -10657,7 +10541,7 @@
     "slugEN": "b621-glass-scraper-blade",
     "code": "B621",
     "name": "B621 - Cam Kazıyıcı Jilet Serisi",
-    "description": "Cam Kazıyıcı Jilet, 3 Delikli, Laklı, Paslanmaz Çelik (Rostfrei). 60mm, 80mm, 100mm, 150mm genişlik seçenekleri. Cam yüzeylerde yapışkan, silikon, bant, etiket, folyo ve boya kalıntılarını çizmeden temizler. PPF sökme, cam filmi temizliği, oto detailing, vitrin folyo sökümü için profesyonel kalite. Sheffield Durham Duplex.",
+    "description": "Cam Kazıyıcı Jilet, 3 Delikli, Laklı, Paslanmaz Çelik (Rostfrei). 60mm, 80mm, 100mm, 150mm genişlik seçenekleri. Cam yüzeylerde yapışkan, silikon, bant, etiket, folyo ve boya kalıntılarını çizmeden temizler. PPF sökme, cam filmi temizliği, oto detailing, vitrin folyo sökümü için profesyonel kalite. Durham Duplex.",
     "categoryId": "industrial-blades",
     "subcategoryId": "glass-scraper",
     "image": "/images/products/b621-cam-kaziyici-jilet.jpg",

@@ -29,7 +29,7 @@ export function ProductHero({ product }: ProductHeroProps) {
   // Orijin badge metni
   const originText = product.origin 
     ? `${product.origin.city || ''} ${product.origin.city ? '·' : ''} ${product.origin.country || ''}`.trim()
-    : 'Sheffield · England';
+    : '';
 
 
   return (
@@ -145,8 +145,12 @@ export function ProductHero({ product }: ProductHeroProps) {
             <div className="mt-4 inline-flex items-center gap-2 self-start">
               <div className="flex items-center gap-2 px-3 py-1.5 bg-steel-50 border border-steel-200 rounded-sm">
                 <span className="text-xs font-medium text-steel-700">{t.productDetail.premiumSteel || 'Premium Steel'}</span>
-                <span className="w-px h-3 bg-steel-300" />
-                <span className="text-xs text-steel-500">{originText}</span>
+                {originText && (
+                  <>
+                    <span className="w-px h-3 bg-steel-300" />
+                    <span className="text-xs text-steel-500">{originText}</span>
+                  </>
+                )}
               </div>
               
               {/* Sertifikalar */}
