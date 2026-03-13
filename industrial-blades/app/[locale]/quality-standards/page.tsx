@@ -6,7 +6,7 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowRight, Award, Shield, Globe, Factory } from 'lucide-react'
+import { ArrowRight, Globe } from 'lucide-react'
 import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
 import VideoBackground from '@/components/VideoBackground'
 import { i18nConfig, Locale } from '@/lib/i18n/config'
@@ -54,32 +54,15 @@ const content = {
     heroDescription: 'Dünya genelinde tanınan kalite standartlarıyla, endüstriyel kesici çözümlerimizi dünya geneline sunuyoruz.',
     exploreProducts: 'Ürünleri İncele',
     madeInSheffield: 'Made in Sheffield',
-    whySheffield: 'Neden Sheffield?',
-    whySheffieldDesc: 'Sheffield, yüzyıllardır dünya çelik endüstrisinin kalbi olmuştur.',
-    ctaTitle: 'Sheffield Kalitesini Deneyimleyin',
-    ctaDescription: 'Endüstriyel kesicilerde en yüksek kalite standardı için bizimle iletişime geçin.',
-    contactUs: 'İletişime Geçin',
-    qualityPoints: [
-      {
-        icon: Award,
-        title: 'Dünya Çapında Tanınan Marka',
-        description: 'Made in Sheffield, 1800\'lerden bu yana dünya genelinde kalite ve güvenilirliğin simgesi olmuştur.',
-      },
-      {
-        icon: Shield,
-        title: 'Tescilli Kalite İşareti',
-        description: 'UK Patent Office tarafından tescillenmiş, orijinallik ve kalite garantisi sunan resmi işaret.',
-      },
-      {
-        icon: Factory,
-        title: 'İleri Üretim Teknolojisi',
-        description: 'Geleneksel ustalık ile modern üretim teknolojisinin mükemmel birleşimi.',
-      },
-      {
-        icon: Globe,
-        title: 'Global Kalite Standardı',
-        description: 'Dünyanın önde gelen markaları tarafından tercih edilen, uluslararası alanda kabul görmüş kalite güvencesi.',
-      },
+    sheffieldTitle: 'Sheffield Kalite Mirası',
+    sheffieldParagraph: 'Sheffield, yüzyıllardır dünya çelik endüstrisinin kalbi olmuştur. "Made in Sheffield" markası, 1800\'lerden bu yana dünya genelinde kalite ve güvenilirliğin simgesidir. UK Patent Office tarafından tescillenmiş bu resmi işaret, orijinallik ve kalite garantisi sunar. Geleneksel ustalık ile modern üretim teknolojisinin mükemmel birleşimi sayesinde, dünyanın önde gelen markaları tarafından tercih edilen uluslararası alanda kabul görmüş bir kalite güvencesi sağlar.',
+    valueTitle: 'Kaliteli Hammadde, Uzun Vadede Tasarruf',
+    valueDescription: 'Hammadde ve proses kalitesinde en yüksek seviyedeki çeliklerden üretilen endüstriyel kesiciler, makine duruşlarını azaltır ve üretim verimliliğinizi artırır.',
+    valuePoints: [
+      { highlight: 'Verimlilik', title: 'Daha Az Makine Duruşu', description: 'Kaliteli çelik = uzun bıçak ömrü = daha az değişim. Üretim hattınız kesintisiz çalışır.' },
+      { highlight: 'Dayanıklılık', title: 'Uzun Bıçak Ömrü', description: 'Yüksek kalite hammadde ve hassas üretim prosesi ile standart bıçaklardan çok daha uzun ömür.' },
+      { highlight: 'Gıda Güvenliği', title: 'FDA & USDA Uyumlu', description: 'Gıda, ilaç ve hijyen gerektiren tüm sektörlerde güvenle kullanım. Uluslararası sertifikalar.' },
+      { highlight: 'Uzman Destek', title: '30 Yıllık Sektör Deneyimi', description: 'Türkiye\'nin lider firmaları ile çalışıyoruz. Teknik danışmanlık ve satış sonrası destek.' },
     ],
   },
   en: {
@@ -87,32 +70,15 @@ const content = {
     heroDescription: 'We deliver industrial cutting solutions worldwide with globally recognized quality standards.',
     exploreProducts: 'Explore Products',
     madeInSheffield: 'Made in Sheffield',
-    whySheffield: 'Why Sheffield?',
-    whySheffieldDesc: 'Sheffield has been the heart of the global steel industry for centuries.',
-    ctaTitle: 'Experience Sheffield Quality',
-    ctaDescription: 'Contact us for the highest quality standards in industrial cutters.',
-    contactUs: 'Contact Us',
-    qualityPoints: [
-      {
-        icon: Award,
-        title: 'Globally Recognized Brand',
-        description: 'Made in Sheffield has been a symbol of quality and reliability worldwide since the 1800s.',
-      },
-      {
-        icon: Shield,
-        title: 'Registered Quality Mark',
-        description: 'Official mark registered with the UK Patent Office, offering authenticity and quality guarantee.',
-      },
-      {
-        icon: Factory,
-        title: 'Advanced Manufacturing Technology',
-        description: 'Perfect combination of traditional craftsmanship and modern manufacturing technology.',
-      },
-      {
-        icon: Globe,
-        title: 'Global Quality Standard',
-        description: 'Internationally recognized quality assurance preferred by world-leading brands.',
-      },
+    sheffieldTitle: 'Sheffield Quality Heritage',
+    sheffieldParagraph: 'Sheffield has been the heart of the global steel industry for centuries. The "Made in Sheffield" brand has been a symbol of quality and reliability worldwide since the 1800s. This official mark, registered with the UK Patent Office, offers authenticity and quality guarantee. Through the perfect combination of traditional craftsmanship and modern manufacturing technology, it provides internationally recognized quality assurance preferred by world-leading brands.',
+    valueTitle: 'Quality Raw Materials, Long-Term Savings',
+    valueDescription: 'Industrial cutters manufactured from the highest quality steels reduce machine downtime and increase your production efficiency.',
+    valuePoints: [
+      { highlight: 'Efficiency', title: 'Less Machine Downtime', description: 'Quality steel = longer blade life = fewer changes. Your production line runs without interruption.' },
+      { highlight: 'Durability', title: 'Extended Blade Life', description: 'Much longer life than standard blades with high quality raw materials and precision manufacturing processes.' },
+      { highlight: 'Food Safety', title: 'FDA & USDA Compliant', description: 'Safe use in all sectors requiring food, pharmaceutical and hygiene standards. International certifications.' },
+      { highlight: 'Expert Support', title: '30 Years of Industry Experience', description: 'We work with Turkey\'s leading companies. Technical consulting and after-sales support.' },
     ],
   },
   ar: {
@@ -120,32 +86,15 @@ const content = {
     heroDescription: 'نقدم حلول القطع الصناعية في جميع أنحاء العالم بمعايير جودة معترف بها عالميًا.',
     exploreProducts: 'استكشف المنتجات',
     madeInSheffield: 'صنع في شيفيلد',
-    whySheffield: 'لماذا شيفيلد؟',
-    whySheffieldDesc: 'كانت شيفيلد قلب صناعة الصلب العالمية لعدة قرون.',
-    ctaTitle: 'اختبر جودة شيفيلد',
-    ctaDescription: 'تواصل معنا للحصول على أعلى معايير الجودة في أدوات القطع الصناعية.',
-    contactUs: 'تواصل معنا',
-    qualityPoints: [
-      {
-        icon: Award,
-        title: 'علامة تجارية معترف بها عالميًا',
-        description: 'صنع في شيفيلد كان رمزًا للجودة والموثوقية في جميع أنحاء العالم منذ القرن التاسع عشر.',
-      },
-      {
-        icon: Shield,
-        title: 'علامة جودة مسجلة',
-        description: 'علامة رسمية مسجلة لدى مكتب براءات الاختراع البريطاني، تقدم ضمان الأصالة والجودة.',
-      },
-      {
-        icon: Factory,
-        title: 'تكنولوجيا تصنيع متقدمة',
-        description: 'مزيج مثالي من الحرفية التقليدية وتكنولوجيا التصنيع الحديثة.',
-      },
-      {
-        icon: Globe,
-        title: 'معيار جودة عالمي',
-        description: 'ضمان جودة معترف به دوليًا ومفضل من قبل العلامات التجارية الرائدة عالميًا.',
-      },
+    sheffieldTitle: 'تراث جودة شيفيلد',
+    sheffieldParagraph: 'كانت شيفيلد قلب صناعة الصلب العالمية لعدة قرون. علامة "صنع في شيفيلد" كانت رمزًا للجودة والموثوقية في جميع أنحاء العالم منذ القرن التاسع عشر. هذه العلامة الرسمية المسجلة لدى مكتب براءات الاختراع البريطاني تقدم ضمان الأصالة والجودة. من خلال المزيج المثالي من الحرفية التقليدية وتكنولوجيا التصنيع الحديثة، توفر ضمان جودة معترف به دوليًا ومفضل من قبل العلامات التجارية الرائدة عالميًا.',
+    valueTitle: 'مواد خام عالية الجودة، توفير طويل الأمد',
+    valueDescription: 'أدوات القطع الصناعية المصنوعة من أعلى أنواع الفولاذ جودة تقلل من توقف الآلات وتزيد من كفاءة إنتاجك.',
+    valuePoints: [
+      { highlight: 'الكفاءة', title: 'توقف أقل للآلات', description: 'فولاذ عالي الجودة = عمر أطول للشفرة = تغييرات أقل. خط إنتاجك يعمل بدون انقطاع.' },
+      { highlight: 'المتانة', title: 'عمر شفرة أطول', description: 'عمر أطول بكثير من الشفرات القياسية بفضل المواد الخام عالية الجودة وعمليات التصنيع الدقيقة.' },
+      { highlight: 'سلامة الغذاء', title: 'متوافق مع FDA و USDA', description: 'استخدام آمن في جميع القطاعات التي تتطلب معايير الغذاء والأدوية والنظافة. شهادات دولية.' },
+      { highlight: 'دعم الخبراء', title: '30 عامًا من الخبرة', description: 'نعمل مع الشركات الرائدة في تركيا. استشارات فنية ودعم ما بعد البيع.' },
     ],
   },
   ru: {
@@ -153,32 +102,15 @@ const content = {
     heroDescription: 'Мы поставляем промышленные режущие решения по всему миру с глобально признанными стандартами качества.',
     exploreProducts: 'Посмотреть продукцию',
     madeInSheffield: 'Сделано в Шеффилде',
-    whySheffield: 'Почему Шеффилд?',
-    whySheffieldDesc: 'Шеффилд был сердцем мировой сталелитейной промышленности на протяжении веков.',
-    ctaTitle: 'Испытайте качество Шеффилда',
-    ctaDescription: 'Свяжитесь с нами для получения высочайших стандартов качества в промышленных резаках.',
-    contactUs: 'Свяжитесь с нами',
-    qualityPoints: [
-      {
-        icon: Award,
-        title: 'Всемирно признанный бренд',
-        description: 'Сделано в Шеффилде — символ качества и надёжности во всём мире с 1800-х годов.',
-      },
-      {
-        icon: Shield,
-        title: 'Зарегистрированный знак качества',
-        description: 'Официальный знак, зарегистрированный в Патентном ведомстве Великобритании, гарантирующий подлинность и качество.',
-      },
-      {
-        icon: Factory,
-        title: 'Передовые производственные технологии',
-        description: 'Идеальное сочетание традиционного мастерства и современных производственных технологий.',
-      },
-      {
-        icon: Globe,
-        title: 'Глобальный стандарт качества',
-        description: 'Международно признанная гарантия качества, предпочитаемая ведущими мировыми брендами.',
-      },
+    sheffieldTitle: 'Наследие качества Шеффилда',
+    sheffieldParagraph: 'Шеффилд был сердцем мировой сталелитейной промышленности на протяжении веков. Бренд "Сделано в Шеффилде" является символом качества и надёжности во всём мире с 1800-х годов. Этот официальный знак, зарегистрированный в Патентном ведомстве Великобритании, гарантирует подлинность и качество. Благодаря идеальному сочетанию традиционного мастерства и современных производственных технологий обеспечивается международно признанная гарантия качества.',
+    valueTitle: 'Качественное сырьё, долгосрочная экономия',
+    valueDescription: 'Промышленные резаки из стали высочайшего качества сокращают простои оборудования и повышают эффективность производства.',
+    valuePoints: [
+      { highlight: 'Эффективность', title: 'Меньше простоев', description: 'Качественная сталь = долгий срок службы = меньше замен. Ваша линия работает без перебоев.' },
+      { highlight: 'Долговечность', title: 'Длительный срок службы', description: 'Гораздо более длительный срок службы благодаря качественному сырью и точным процессам.' },
+      { highlight: 'Пищевая безопасность', title: 'Соответствие FDA и USDA', description: 'Безопасное использование в пищевой, фармацевтической промышленности. Международные сертификаты.' },
+      { highlight: 'Экспертная поддержка', title: '30 лет опыта', description: 'Работаем с ведущими компаниями Турции. Техническая консультация и послепродажная поддержка.' },
     ],
   },
   fr: {
@@ -186,32 +118,15 @@ const content = {
     heroDescription: 'Nous fournissons des solutions de coupe industrielle dans le monde entier avec des normes de qualité mondialement reconnues.',
     exploreProducts: 'Explorer les produits',
     madeInSheffield: 'Fabriqué à Sheffield',
-    whySheffield: 'Pourquoi Sheffield ?',
-    whySheffieldDesc: 'Sheffield est le cœur de l\'industrie sidérurgique mondiale depuis des siècles.',
-    ctaTitle: 'Découvrez la qualité Sheffield',
-    ctaDescription: 'Contactez-nous pour les normes de qualité les plus élevées dans les outils de coupe industriels.',
-    contactUs: 'Contactez-nous',
-    qualityPoints: [
-      {
-        icon: Award,
-        title: 'Marque mondialement reconnue',
-        description: 'Fabriqué à Sheffield est un symbole de qualité et de fiabilité dans le monde entier depuis les années 1800.',
-      },
-      {
-        icon: Shield,
-        title: 'Marque de qualité enregistrée',
-        description: 'Marque officielle enregistrée auprès de l\'Office britannique des brevets, offrant une garantie d\'authenticité et de qualité.',
-      },
-      {
-        icon: Factory,
-        title: 'Technologie de fabrication avancée',
-        description: 'Combinaison parfaite de savoir-faire traditionnel et de technologie de fabrication moderne.',
-      },
-      {
-        icon: Globe,
-        title: 'Norme de qualité mondiale',
-        description: 'Assurance qualité internationalement reconnue, privilégiée par les marques mondiales de premier plan.',
-      },
+    sheffieldTitle: 'L\'héritage de qualité Sheffield',
+    sheffieldParagraph: 'Sheffield est le cœur de l\'industrie sidérurgique mondiale depuis des siècles. La marque "Fabriqué à Sheffield" est un symbole de qualité et de fiabilité dans le monde entier depuis les années 1800. Cette marque officielle, enregistrée auprès de l\'Office britannique des brevets, offre une garantie d\'authenticité et de qualité. Grâce à la combinaison parfaite du savoir-faire traditionnel et de la technologie de fabrication moderne, elle fournit une assurance qualité internationalement reconnue.',
+    valueTitle: 'Matières premières de qualité, économies à long terme',
+    valueDescription: 'Les outils de coupe industriels fabriqués à partir des aciers de la plus haute qualité réduisent les temps d\'arrêt des machines et augmentent l\'efficacité de votre production.',
+    valuePoints: [
+      { highlight: 'Efficacité', title: 'Moins d\'arrêts machine', description: 'Acier de qualité = durée de vie plus longue = moins de changements. Votre ligne de production fonctionne sans interruption.' },
+      { highlight: 'Durabilité', title: 'Durée de vie prolongée', description: 'Durée de vie beaucoup plus longue grâce aux matières premières de qualité et aux processus de fabrication précis.' },
+      { highlight: 'Sécurité alimentaire', title: 'Conforme FDA & USDA', description: 'Utilisation sûre dans tous les secteurs nécessitant des normes alimentaires et d\'hygiène. Certifications internationales.' },
+      { highlight: 'Support expert', title: '30 ans d\'expérience', description: 'Nous travaillons avec les entreprises leaders de Turquie. Conseil technique et support après-vente.' },
     ],
   },
 };
@@ -224,7 +139,6 @@ export default async function KaliteStandartlariPage({ params }: PageProps) {
     <div className="min-h-screen">
       {/* Hero Section with Video */}
       <section className="relative min-h-[85vh] flex items-center text-white overflow-hidden">
-        {/* Video Background with Progressive Loading */}
         <VideoBackground
           videoSrc="/videos/hero-bg.mp4"
           posterSrc="/images/hero-bg-poster.jpg"
@@ -234,7 +148,6 @@ export default async function KaliteStandartlariPage({ params }: PageProps) {
 
         <div className="container mx-auto px-4 relative z-10 py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center">
-            {/* Made in Sheffield Logo */}
             <div className="inline-block mb-8">
               <Image
                 src="/images/made-in-sheffield-logo.png"
@@ -255,85 +168,68 @@ export default async function KaliteStandartlariPage({ params }: PageProps) {
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 href={`/${locale}/categories`}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium rounded-lg tracking-wide transition-all"
               >
                 {t.exploreProducts}
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="w-4 h-4" />
               </Link>
               <a
                 href="https://www.madeinsheffield.org"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg transition-all border border-white/20"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white text-sm font-medium rounded-lg tracking-wide transition-all border border-white/20"
               >
                 {t.madeInSheffield}
-                <Globe className="w-5 h-5" />
+                <Globe className="w-4 h-4" />
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Quality Points */}
+      {/* Sheffield Heritage - Paragraph */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-2">
-              {t.whySheffield}
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-6">
+              {t.sheffieldTitle}
             </h2>
-            <p className="text-base text-steel-600 leading-relaxed max-w-2xl mx-auto">
-              {t.whySheffieldDesc}
+            <p className="text-base text-steel-600 leading-relaxed">
+              {t.sheffieldParagraph}
             </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {t.qualityPoints.map((point, index) => (
-              <div
-                key={index}
-                className="group p-6 bg-steel-50 rounded-xl hover:bg-white hover:shadow-card transition-all duration-300 border border-steel-100"
-              >
-                <div className="w-14 h-14 bg-primary-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary-600 transition-colors">
-                  <point.icon className="w-7 h-7 text-primary-600 group-hover:text-white transition-colors" />
-                </div>
-                <h3 className="text-lg font-bold text-steel-900 mb-2">
-                  {point.title}
-                </h3>
-                <p className="text-steel-600 text-sm">
-                  {point.description}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section - Minimal ve uyumlu */}
-      <section className="py-10 bg-steel-50 border-t border-steel-200">
+      {/* Value Proposition Cards */}
+      <section className="py-20 bg-steel-50">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div>
-              <h2 className="text-xl md:text-2xl font-semibold text-steel-900 mb-1">
-                {t.ctaTitle}
-              </h2>
-              <p className="text-steel-600 text-sm">
-                {t.ctaDescription}
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                href={`/${locale}/contact`}
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-steel-900 text-white text-sm font-medium rounded-lg hover:bg-steel-800 transition-all"
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-medium text-steel-900 mb-2">
+              {t.valueTitle}
+            </h2>
+            <p className="text-base text-steel-600 leading-relaxed max-w-2xl mx-auto">
+              {t.valueDescription}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {t.valuePoints.map((point, index) => (
+              <div
+                key={index}
+                className="group p-6 bg-white rounded-xl hover:shadow-card transition-all duration-300 border border-steel-100"
               >
-                {t.contactUs}
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                href={`/${locale}/categories`}
-                className="inline-flex items-center gap-2 px-5 py-2.5 border border-steel-300 text-steel-700 text-sm font-medium rounded-lg hover:bg-steel-100 transition-all"
-              >
-                {t.exploreProducts}
-              </Link>
-            </div>
+                <span className="text-xs font-semibold text-primary-600 uppercase tracking-wider">
+                  {point.highlight}
+                </span>
+                <h3 className="text-lg font-bold text-steel-900 mt-2 mb-2">
+                  {point.title}
+                </h3>
+                <p className="text-steel-600 text-sm leading-relaxed">
+                  {point.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

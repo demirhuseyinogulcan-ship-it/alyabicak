@@ -9,7 +9,6 @@ import SheffieldSection from '@/components/SheffieldSection';
 import ConsultingSection from '@/components/ConsultingSection';
 import BestSellers from '@/components/BestSellers';
 import BlogSection from '@/components/BlogSection';
-import ValueProposition from '@/components/ValueProposition';
 import TrustLogos from '@/components/TrustLogos';
 import { siteConfig } from '@/lib/config';
 import { getDictionary, type Locale } from '@/lib/i18n';
@@ -43,9 +42,6 @@ export default async function HomePage({ params }: HomePageProps) {
       
       {/* Trust Logos - Müşteri/Sertifika Logoları */}
       <TrustLogos />
-      
-      {/* Value Proposition - Neden Alya? */}
-      <ValueProposition />
       
       {/* Kategoriler */}
       <CategoryGrid />
