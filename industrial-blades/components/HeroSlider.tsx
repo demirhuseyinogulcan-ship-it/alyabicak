@@ -157,7 +157,7 @@ export default function HeroSlider() {
                     }`}
                     style={{ 
                       transitionDelay: index === currentSlide ? '200ms' : '0ms',
-                      fontFamily: 'var(--font-montserrat)'
+                      fontFamily: 'var(--font-geist-sans)'
                     }}
                   >
                     {slide.title}

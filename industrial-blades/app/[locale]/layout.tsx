@@ -4,7 +4,7 @@
  */
 
 import type { Metadata } from 'next';
-import { Montserrat } from 'next/font/google';
+import { GeistSans } from 'geist/font/sans';
 import { notFound } from 'next/navigation';
 import '../globals.css';
 import Header from '@/components/Header';
@@ -29,13 +29,9 @@ import {
 
 import { Noto_Sans_Arabic } from 'next/font/google';
 
-const montserrat = Montserrat({
-  subsets: ['latin', 'latin-ext', 'cyrillic'],
-  variable: '--font-montserrat',
-  display: 'swap',
-});
+const geist = GeistSans;
 
-// Arapça için özel font - Montserrat ile uyumlu ağırlıklar
+// Arapça için özel font
 const notoArabic = Noto_Sans_Arabic({
   subsets: ['arabic'],
   variable: '--font-arabic',
@@ -195,7 +191,7 @@ export default async function LocaleLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <body className={`${montserrat.variable} ${locale === 'ar' ? notoArabic.variable : ''} font-sans antialiased bg-white text-steel-900`}>
+      <body className={`${geist.variable} ${locale === 'ar' ? notoArabic.variable : ''} font-sans antialiased bg-white text-steel-900`}>
         <LocaleProvider locale={locale} dictionary={dict}>
           <SkipLink href="#main-content" />
           <Header />
