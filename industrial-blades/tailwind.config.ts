@@ -35,8 +35,8 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
-        display: ['var(--font-geist-sans)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
       },
       colors: {
         // Alya Marka Rengi - Daha derin ve premium mavi

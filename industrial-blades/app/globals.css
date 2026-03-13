@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 :root {
+  --font-montserrat: 'Montserrat', system-ui, -apple-system, sans-serif;
   --font-arabic: 'Noto Sans Arabic', 'Segoe UI', system-ui, sans-serif;
 }
 
 /* Arapça için özel font */
 [dir="rtl"] body {
-  font-family: var(--font-arabic), var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-arabic), var(--font-montserrat), system-ui, sans-serif;
 }
 
 * {
@@ -25,7 +26,7 @@ html, body {
 body {
   background: #f8fafc;
   color: #0f172a;
-  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  font-family: var(--font-montserrat), system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   font-feature-settings: "rlig" 1, "calt" 1;
   margin: 0;
