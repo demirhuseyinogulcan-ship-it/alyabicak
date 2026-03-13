@@ -7,9 +7,7 @@ import HeroSlider from '@/components/HeroSlider';
 import CategoryGrid from '@/components/CategoryGrid';
 import ConsultingSection from '@/components/ConsultingSection';
 import BestSellers from '@/components/BestSellers';
-import BlogSection from '@/components/BlogSection';
 import TrustLogos from '@/components/TrustLogos';
-import { siteConfig } from '@/lib/config';
 import { getDictionary, type Locale } from '@/lib/i18n';
 import { generateMetadata as genMeta } from '@/lib/seo';
 import { getDomainUrl } from '@/lib/config/domains';
@@ -33,7 +31,6 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
 
 export default async function HomePage({ params }: HomePageProps) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
 
   return (
     <>
@@ -44,21 +41,6 @@ export default async function HomePage({ params }: HomePageProps) {
       
       {/* Kategoriler */}
       <CategoryGrid />
-      
-      {/* Blog/Bülten - Sadece aktifse göster */}
-      {siteConfig.features.enableBlog && (
-        <BlogSection 
-          locale={locale}
-          translations={{
-            title: dict.blog.title,
-            subtitle: dict.blog.subtitle,
-            readMore: dict.blog.readMore,
-            viewAll: dict.blog.viewAll,
-            readTime: dict.blog.readTime,
-          }}
-          categoryLabels={dict.blog.categories}
-        />
-      )}
       
       {/* Danışmanlık */}
       <ConsultingSection />

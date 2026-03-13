@@ -15,7 +15,7 @@ export default function CategoryGrid() {
   const categories = categoryService.getAllCategoriesWithCounts(locale)
 
   return (
-    <section id="kategoriler" className="py-16 bg-steel-50 scroll-mt-24">
+    <section id="kategoriler" className="py-16 bg-white scroll-mt-24">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <SectionHeader
