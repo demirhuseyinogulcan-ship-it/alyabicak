@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Spec Value Translations
  * 
  * Ürün teknik özelliklerinin değerlerini (VALUE) çevirir.

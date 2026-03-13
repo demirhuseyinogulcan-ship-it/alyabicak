@@ -6,8 +6,8 @@ const tr = {
   // Meta & SEO
   meta: {
     title: 'ALYA BIÇAK | Endüstriyel Bıçaklar - Jiletler - El Bıçakları',
-    description: 'Sheffield kalitesinde endüstriyel bıçak tedarikçisi. Sanayi jiletleri, makine bıçakları, iş güvenliği el bıçakları, falçata yedek uçları. FDA/USDA onaylı. 30+ yıl deneyim. Türkiye geneli hızlı teslimat.',
-    keywords: 'endüstriyel bıçak, sanayi jileti, makina bıçağı, dilme jileti, kesici takım, falçata, maket bıçağı, güvenlik bıçağı, vakum paketleme bıçağı, döner bıçak, trapez bıçak, tungsten karbür bıçak, titanyum kaplama jilet, OLFA bıçak, geri dönüşüm bıçağı, Sheffield bıçak, FDA onaylı bıçak, paslanmaz çelik jilet, karbon çelik bıçak',
+    description: 'Endüstriyel bıçak tedarikçisi. Sanayi jiletleri, makine bıçakları, iş güvenliği el bıçakları, falçata yedek uçları. FDA/USDA onaylı. 30+ yıl deneyim. Türkiye geneli hızlı teslimat.',
+    keywords: 'endüstriyel bıçak, sanayi jileti, makina bıçağı, dilme jileti, kesici takım, falçata, maket bıçağı, güvenlik bıçağı, vakum paketleme bıçağı, döner bıçak, trapez bıçak, tungsten karbür bıçak, titanyum kaplama jilet, OLFA bıçak, geri dönüşüm bıçağı, FDA onaylı bıçak, paslanmaz çelik jilet, karbon çelik bıçak',
   },
 
   // Navigation
@@ -72,7 +72,7 @@ const tr = {
   // Hero Section
   hero: {
     title: 'Endüstriyel Kesici Çözümler',
-    subtitle: 'Sheffield kalitesinde profesyonel bıçaklar',
+    subtitle: 'Profesyonel endüstriyel bıçaklar',
     cta: 'Ürünleri Keşfet',
     ctaSecondary: 'Teklif Al',
   },
@@ -88,7 +88,7 @@ const tr = {
     subcategories: 'Alt Kategoriler',
     productsInCategory: 'Bu kategorideki ürünler',
     subcategoryMetaTitle: '{{name}} | {{count}} Çeşit | {{brand}}',
-    subcategoryMetaDesc: '{{description}} {{count}} farklı model. Karbon çelik, paslanmaz ve tungsten karbür seçenekleri. Sheffield kalitesi, Türkiye distribütörü.',
+    subcategoryMetaDesc: '{{description}} {{count}} farklı model. Karbon çelik, paslanmaz ve tungsten karbür seçenekleri. Alya kalitesinde, Türkiye distribütörü.',
   },
 
   // Products
@@ -406,12 +406,12 @@ const tr = {
   // Sheffield Section
   sheffield: {
     title: 'Kalite Standartlarımız',
-    description: 'Sheffield, yüzyıllardır dünyanın en kaliteli çelik ve bıçak üretim merkezi olarak bilinir. 1910\'dan bu yana İngiltere\'nin kalp merkezinde, precision engineering ile üretilen endüstriyel bıçaklar, gıda güvenliği standartlarına tam uyumluluk ile sizlere sunuluyor.',
+    description: 'Hammadde ve proses kalitesinde en yüksek seviyedeki çeliklerden üretilen endüstriyel bıçaklarımız, makine duruşlarını azaltır ve üretim verimliliğinizi artırır.',
     moreInfo: 'Daha Fazla Bilgi',
     qualityTitle: 'Kalite Standartları',
     features: {
-      sheffieldQuality: 'Sheffield Kalitesi',
-      sheffieldQualityDesc: 'İngiltere Sheffield çelik standardı',
+      sheffieldQuality: 'Alya Kalite Standartı',
+      sheffieldQualityDesc: 'Yüksek kalite hammadde ve üretim',
       highPerformance: 'Yüksek Performans',
       highPerformanceDesc: 'Uzun ömür ve keskin performans',
       durability: 'Dayanıklılık',
@@ -426,8 +426,6 @@ const tr = {
       usdaDesc: 'ABD tarım bakanlığı sertifikası',
       iso: 'ISO 9001:2015',
       isoDesc: 'Kalite yönetim sistemi',
-      sheffield: 'Made in Sheffield',
-      sheffieldDesc: 'Dünya standartlarında üretim',
     },
   },
 
@@ -483,7 +481,7 @@ const tr = {
       iso: { name: 'ISO 9001:2015', desc: 'Kalite Yönetimi' },
       fda: { name: 'FDA', desc: 'Gıda Güvenliği' },
       usda: { name: 'USDA', desc: 'ABD Onaylı' },
-      sheffield: { name: 'Made in Sheffield', desc: 'İngiltere' },
+
     },
     stats: {
       exportCountries: { value: '35+', label: 'Ülkeye İhracat' },
@@ -578,7 +576,7 @@ const tr = {
 
   // Hero Slider Features
   heroFeatures: {
-    sheffieldQuality: 'Sheffield Kalitesi',
+    sheffieldQuality: 'Alya Kalite Standartı',
     customProduction: 'Özel Üretim',
     fastDelivery: 'Hızlı Teslimat',
     prevSlide: 'Önceki Slayt',
@@ -589,7 +587,7 @@ const tr = {
   durhamDuplex: {
     tagline: 'Razor Sharp Since 1910',
     intro: '115 yıllık',
-    description: 'İngiliz mühendislik geleneği ile Sheffield\'da üretilen dünya standartlarında endüstriyel bıçakların Türkiye distribütörüyüz.',
+    description: 'Dünya standartlarında endüstriyel bıçakların Türkiye distribütörüyüz.',
     certifications: {
       isoTitle: 'ISO 9001:2015',
       isoDesc: 'Kalite yönetim sistemi',
@@ -597,15 +595,15 @@ const tr = {
       fdaDesc: 'Gıda güvenliği onaylı',
       usdaTitle: 'USDA Approved',
       usdaDesc: 'ABD tarım bakanlığı onaylı',
-      ukTitle: 'Made in Sheffield',
-      ukDesc: 'İngiltere üretimi',
+      ukTitle: 'Uluslararası Standart',
+      ukDesc: 'Dünya kalitesinde üretim',
     },
     cta: 'Daha Fazla Bilgi',
     imageAlt: 'Durham Duplex Bıçakları',
     stats: {
       experience: 'Yıllık Deneyim',
       products: 'Ürün Çeşidi',
-      location: 'Sheffield',
+      location: 'Dünya',
     },
   },
 

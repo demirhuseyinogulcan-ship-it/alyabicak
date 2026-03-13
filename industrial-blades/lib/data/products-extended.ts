@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Alya Bıçak - Genişletilmiş Ürün Verileri
  * Profesyonel ürün detay sayfaları için
  * 
@@ -424,7 +424,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -521,7 +521,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -606,7 +606,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -717,7 +717,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -808,7 +808,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -899,7 +899,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -990,7 +990,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1080,7 +1080,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1171,7 +1171,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1262,7 +1262,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1355,7 +1355,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1449,7 +1449,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1565,7 +1565,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1694,7 +1694,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1822,7 +1822,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -1946,7 +1946,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     origin: {
       brand: 'Durham Duplex',
-      country: 'England',
+      country: '',
       city: '',
     },
 
@@ -2042,7 +2042,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Isıl İşlem', value: 'Kontrollü atmosfer fırını', icon: 'Flame' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Ulma, Sealpac', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'Vakum Paketleme', icon: 'Package', description: 'MAP ve vakum makinelerinde film kesimi' },
       { title: 'Gıda Sanayii', icon: 'Utensils', description: 'Et, peynir, hazır gıda ambalajlama' },
@@ -2099,7 +2099,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Kesim Tipi', value: 'Kontör/Profil Takipli Kesim', icon: 'Scissors' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'Vakum Paketleme', icon: 'Package', description: 'Kontör profilli film kesimi' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Kalıp kenarı takipli hassas kesim' },
@@ -2155,7 +2155,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Geometri', value: 'Yarım Yıldız (Half Star / Triangle)', icon: 'Star' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'Vakum Zımbalama', icon: 'Target', description: 'Film üzerinde havalandırma deseni açma' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Termoform makinelerinde zımba operasyonu' },
@@ -2210,7 +2210,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Kimyasal Bileşim', value: '%1.55 C, %12 Cr, %0.85 Mo, %0.9 V', icon: 'Beaker' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Sealpac', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'MAP Paketleme', icon: 'Wind', description: 'Modifiye atmosfer hızlı gaz değişimi' },
       { title: 'Vakum Zımbalama', icon: 'Target', description: 'Geniş havalandırma deseni açma' },
@@ -2268,7 +2268,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Kenar Tipi', value: 'Düz Kesim (Straight Edge)', icon: 'Minus' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Alcan', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'Film Kesimi', icon: 'Scissors', description: 'Vakum paketleme film kesim hattı' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Düz hat kesim operasyonları' },
@@ -2321,7 +2321,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Dengeleme', value: 'Dinamik Dengelenmiş (3000+ RPM)', icon: 'RotateCw' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'Döner Kesim', icon: 'RotateCw', description: 'Yüksek hızlı rotary film kesimi' },
       { title: 'Termoform Ambalaj', icon: 'Box', description: 'Dairesel kesim operasyonları' },
@@ -2374,7 +2374,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Geometri', value: 'Yuvarlak (Round) Hava Deliği', icon: 'Circle' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'Havalandırma Zımbalama', icon: 'Wind', description: 'Vakum ambalajda vent deliği açma' },
       { title: 'Gıda Paketleme', icon: 'Utensils', description: 'Et, peynir, taze gıda MAP ambalajı' },
@@ -2427,7 +2427,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'Havalandırma', value: 'Yuvarlağa göre %40 daha geniş alan', icon: 'Wind' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Betapak', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'MAP Havalandırma', icon: 'Wind', description: 'Hızlı gaz değişimli modifiye atmosfer' },
       { title: 'Gıda Paketleme', icon: 'Utensils', description: 'Et, peynir, taze gıda ambalajı' },
@@ -2487,7 +2487,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'İdeal Malzeme', value: 'Kalın film, Al folyo, PET/PVC rigid', icon: 'Layers' },
       { label: 'Uyumluluk', value: 'Multivac, Tiromat, GEA, Opack, Ulma', icon: 'Settings' },
     ],
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
     applications: [
       { title: 'Sert Film Kesimi', icon: 'Scissors', description: 'PET, PVC, rigid ambalaj kesimi' },
       { title: 'Laminasyon Kesimi', icon: 'Layers', description: 'Alüminyum folyo laminasyonlar' },
@@ -3105,7 +3105,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'packaging', value: '5, 10, 100 adet (dispenser / kutu)', icon: 'Package' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Depo & Lojistik', icon: 'Warehouse', description: 'Koli açma, ambalaj kesimi, streç film kesme' },
@@ -3210,7 +3210,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'packaging', value: '5, 10, 100 adet', icon: 'Package' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Kağıt & Ambalaj', icon: 'FileText', description: 'Kağıt, karton, ince ambalaj filmi kesimi' },
@@ -3299,7 +3299,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'edgeType', value: 'Tek taraftan tırtıklı kenar', icon: 'Zap', highlight: true },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Halat & İp Kesimi', icon: 'Link', description: 'Naylon halat, sicim, çelik halat kılıfı kesimi' },
@@ -3378,7 +3378,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: '1 delik', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Dar Alan Kesimi', icon: 'Minimize', description: 'Dar ve ulaşılması zor alanlarda hassas kesim' },
@@ -3454,7 +3454,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: '1×6mm delik', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Endüstriyel Makineler', icon: 'Settings', description: 'Özel kesici ünitelere yedek bıçak' },
@@ -3531,7 +3531,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: '3×3.5mm delik', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Elektronik Montaj', icon: 'Cpu', description: 'Elektronik bileşen, kablo ve PCB kesimi' },
@@ -3608,7 +3608,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'bladeProfile', value: 'Standart B207 serisi genişletilmiş', icon: 'ArrowRight' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Büyük Boy Kesim', icon: 'Maximize', description: 'Büyük karton, geniş ambalaj filmi' },
@@ -3825,7 +3825,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { label: 'holes', value: 'Müşteriye özel delik konfigürasyonu', icon: 'Circle' },
     ],
 
-    origin: { brand: 'Durham Duplex', country: 'England', city: '' },
+    origin: { brand: 'Durham Duplex', country: '', city: '' },
 
     applications: [
       { title: 'Özel Makineler', icon: 'Settings', description: 'Standart dışı kesici ünitelere özel bıçak' },

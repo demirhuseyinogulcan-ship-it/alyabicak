@@ -6,9 +6,9 @@
 const fr = {
   // Meta & SEO
   meta: {
-    title: 'Lames Industrielles | Qualité Sheffield Couteaux de Machine | Alya Lame',
-    description: 'Fournisseur de lames industrielles qualité Sheffield premium. Lames de refente, couteaux de machine, cutters de sécurité, lames utilitaires. Approuvé FDA/USDA. 30+ ans d\'expérience. Livraison mondiale.',
-    keywords: 'lames industrielles, lames de refente, couteaux de machine, cutters de sécurité, lames trapézoïdales, lames carbure de tungstène, lames revêtement titane, lames OLFA, lames recyclage, lames Sheffield, lames approuvées FDA, lames inox, lames acier carbone, lames granulateur, lames emballage',
+    title: 'Lames Industrielles | Couteaux de Machine Premium | Alya Lame',
+    description: 'Fournisseur de lames industrielles premium. Lames de refente, couteaux de machine, cutters de sécurité, lames utilitaires. Approuvé FDA/USDA. 30+ ans d\'expérience. Livraison mondiale.',
+    keywords: 'lames industrielles, lames de refente, couteaux de machine, cutters de sécurité, lames trapézoïdales, lames carbure de tungstène, lames revêtement titane, lames OLFA, lames recyclage, lames approuvées FDA, lames inox, lames acier carbone, lames granulateur, lames emballage',
   },
 
   // Navigation
@@ -73,7 +73,7 @@ const fr = {
   // Hero Section
   hero: {
     title: 'Solutions de Découpe Industrielle',
-    subtitle: 'Lames professionnelles de qualité Sheffield',
+    subtitle: 'Lames professionnelles industrielles',
     cta: 'Découvrir les Produits',
     ctaSecondary: 'Demander un Devis',
   },
@@ -89,7 +89,7 @@ const fr = {
     subcategories: 'Sous-catégories',
     productsInCategory: 'Produits dans cette catégorie',
     subcategoryMetaTitle: '{{name}} | {{count}} Variétés | {{brand}}',
-    subcategoryMetaDesc: '{{description}} {{count}} modèles disponibles. Acier au carbone, inox et carbure de tungstène. Qualité Sheffield premium.',
+    subcategoryMetaDesc: '{{description}} {{count}} modèles disponibles. Acier au carbone, inox et carbure de tungstène. Qualité premium.',
   },
 
   // Products
@@ -407,12 +407,12 @@ const fr = {
   // Sheffield Section
   sheffield: {
     title: 'Nos Normes de Qualité',
-    description: 'Sheffield est reconnu depuis des siècles comme le centre de production d\'acier et de lames de la plus haute qualité au monde. Depuis 1910, au cœur de l\'Angleterre, des lames industrielles fabriquées avec une ingénierie de précision vous sont proposées en totale conformité avec les normes de sécurité alimentaire.',
+    description: 'Les lames industrielles fabriquées à partir des aciers de la plus haute qualité réduisent les temps d\'arrêt des machines et augmentent l\'efficacité de votre production.',
     moreInfo: 'En Savoir Plus',
     qualityTitle: 'Normes de Qualité',
     features: {
-      sheffieldQuality: 'Qualité Sheffield',
-      sheffieldQualityDesc: 'Norme d\'acier Sheffield, Angleterre',
+      sheffieldQuality: 'Standard de qualité Alya',
+      sheffieldQualityDesc: 'Matières premières et fabrication de haute qualité',
       highPerformance: 'Haute Performance',
       highPerformanceDesc: 'Longue durée de vie et performance tranchante',
       durability: 'Durabilité',
@@ -427,8 +427,6 @@ const fr = {
       usdaDesc: 'Certificat du ministère de l\'Agriculture américain',
       iso: 'ISO 9001:2015',
       isoDesc: 'Système de gestion de la qualité',
-      sheffield: 'Made in Sheffield',
-      sheffieldDesc: 'Production aux normes mondiales',
     },
   },
 
@@ -484,7 +482,6 @@ const fr = {
       iso: { name: 'ISO 9001:2015', desc: 'Gestion de la Qualité' },
       fda: { name: 'FDA', desc: 'Sécurité Alimentaire' },
       usda: { name: 'USDA', desc: 'Approuvé USA' },
-      sheffield: { name: 'Made in Sheffield', desc: 'Angleterre' },
     },
     stats: {
       exportCountries: { value: '35+', label: 'Pays d\'Exportation' },
@@ -579,7 +576,7 @@ const fr = {
 
   // Hero Slider Features
   heroFeatures: {
-    sheffieldQuality: 'Qualité Sheffield',
+    sheffieldQuality: 'Standard de qualité Alya',
     customProduction: 'Production Sur Mesure',
     fastDelivery: 'Livraison Rapide',
     prevSlide: 'Diapositive Précédente',
@@ -590,7 +587,7 @@ const fr = {
   durhamDuplex: {
     tagline: 'Razor Sharp Since 1910',
     intro: '115 ans de',
-    description: 'tradition d\'ingénierie britannique avec des lames industrielles de normes mondiales fabriquées à Sheffield, dont nous sommes le distributeur en Turquie.',
+    description: 'Nous sommes le distributeur en Turquie de lames industrielles de normes mondiales.',
     certifications: {
       isoTitle: 'ISO 9001:2015',
       isoDesc: 'Système de gestion de la qualité',
@@ -598,15 +595,15 @@ const fr = {
       fdaDesc: 'Approuvé pour la sécurité alimentaire',
       usdaTitle: 'USDA Approved',
       usdaDesc: 'Approuvé par le ministère de l\'Agriculture américain',
-      ukTitle: 'Made in Sheffield',
-      ukDesc: 'Fabriqué en Angleterre',
+      ukTitle: 'Norme internationale',
+      ukDesc: 'Fabrication aux normes mondiales',
     },
     cta: 'En Savoir Plus',
     imageAlt: 'Lames Durham Duplex',
     stats: {
       experience: 'Ans d\'Expérience',
       products: 'Variétés de Produits',
-      location: 'Sheffield',
+      location: 'Mondial',
     },
   },
 

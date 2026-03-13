@@ -40,7 +40,6 @@ export default async function AboutPage({ params }: PageProps) {
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> olarak 30 yıldır endüstriyel kesiciler tedarik ediyoruz. Endüstrinin hemen hemen her sektörüne lider firmalarla işbirliğimizi sürdürüyoruz.',
         'Sadece bıçak değil, İstanbul\'daki fabrikamızda <strong class="text-steel-900">tekstil sektörüne yönelik makine yedek parçası üretimi</strong> gerçekleştiriyor ve <strong class="text-steel-900"> 35 farklı ülkeye ihracatını</strong> yapıyoruz.',
-        'Sheffield, İngiltere\'nin kalp merkezinde 1910\'dan bu yana dünya standartlarında endüstriyel bıçak üretimi yapan Durham Duplex\'in yetkili distribütörüyüz.',
       ],
       textileLinkLabel: 'Tekstil makineleri ve yedek parçalar:',
       values: [
@@ -53,7 +52,7 @@ export default async function AboutPage({ params }: PageProps) {
       whyAlyaTitle: 'Neden Alya?',
       whyAlyaDesc: 'Sektörde fark yaratan değerlerimiz',
       whyAlyaItems: [
-        { title: 'Sheffield Kalitesi', desc: 'Durham Duplex yetkili distribütörü olarak dünya standartlarında ürünler' },
+        { title: 'Alya Kalite Standardı', desc: 'Dünya standartlarında endüstriyel kesiciler' },
         { title: 'Yerli Üretim', desc: 'İstanbul fabrikamızda tekstil makinesi yedek parçası üretimi' },
         { title: 'Global Erişim', desc: '35 farklı ülkeye ihracat ve dünya çapında müşteri ağı' },
         { title: 'Uzman Ekip', desc: '30 yıllık tecrübeyle profesyonel danışmanlık ve destek' },
@@ -79,7 +78,6 @@ export default async function AboutPage({ params }: PageProps) {
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> has been supplying industrial cutters for 30 years. We continue our partnership with leading companies in almost every sector of the industry.',
         'Not only blades, but at our factory in Istanbul, we <strong class="text-steel-900">manufacture machine spare parts for the textile sector</strong> and <strong class="text-steel-900">export to 35 different countries</strong>.',
-        'We are the authorized distributor of Durham Duplex, which has been manufacturing world-class industrial blades in Sheffield, the heart of England, since 1910.',
       ],
       textileLinkLabel: 'Textile machinery and spare parts:',
       values: [
@@ -92,7 +90,7 @@ export default async function AboutPage({ params }: PageProps) {
       whyAlyaTitle: 'Why Alya?',
       whyAlyaDesc: 'Our values that make a difference in the industry',
       whyAlyaItems: [
-        { title: 'Sheffield Quality', desc: 'World-class products as authorized distributor of Durham Duplex' },
+        { title: 'Alya Quality Standard', desc: 'World-class industrial cutting products' },
         { title: 'Local Production', desc: 'Textile machine spare parts manufacturing at our Istanbul factory' },
         { title: 'Global Reach', desc: 'Export to 35 countries and worldwide customer network' },
         { title: 'Expert Team', desc: 'Professional consulting and support with 30 years of experience' },
@@ -118,7 +116,6 @@ export default async function AboutPage({ params }: PageProps) {
       storyParagraphs: [
         '<strong class="text-steel-900">أليا</strong> تورد أدوات القطع الصناعية منذ 30 عامًا. نواصل شراكتنا مع الشركات الرائدة في جميع قطاعات الصناعة تقريبًا.',
         'ليس فقط الشفرات، ولكن في مصنعنا في إسطنبول، <strong class="text-steel-900">نصنع قطع غيار الآلات لقطاع النسيج</strong> و<strong class="text-steel-900">نصدر إلى 35 دولة مختلفة</strong>.',
-        'نحن الموزع المعتمد لشركة Durham Duplex، التي تصنع شفرات صناعية عالمية المستوى في شيفيلد، قلب إنجلترا، منذ عام 1910.',
       ],
       textileLinkLabel: 'آلات النسيج وقطع الغيار:',
       values: [
@@ -131,7 +128,7 @@ export default async function AboutPage({ params }: PageProps) {
       whyAlyaTitle: 'لماذا أليا؟',
       whyAlyaDesc: 'قيمنا التي تحدث فرقًا في الصناعة',
       whyAlyaItems: [
-        { title: 'جودة شيفيلد', desc: 'منتجات عالمية المستوى كموزع معتمد لـ Durham Duplex' },
+        { title: 'معيار جودة أليا', desc: 'منتجات قطع صناعية عالمية المستوى' },
         { title: 'الإنتاج المحلي', desc: 'تصنيع قطع غيار آلات النسيج في مصنعنا بإسطنبول' },
         { title: 'الانتشار العالمي', desc: 'التصدير إلى 35 دولة وشبكة عملاء عالمية' },
         { title: 'فريق متخصص', desc: 'استشارات ودعم احترافي بخبرة 30 عامًا' },
@@ -157,7 +154,6 @@ export default async function AboutPage({ params }: PageProps) {
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> поставляет промышленные резаки уже 30 лет. Мы продолжаем сотрудничество с ведущими компаниями практически во всех секторах промышленности.',
         'Не только лезвия, но и на нашем заводе в Стамбуле мы <strong class="text-steel-900">производим запасные части для текстильной отрасли</strong> и <strong class="text-steel-900">экспортируем в 35 стран</strong>.',
-        'Мы являемся авторизованным дистрибьютором Durham Duplex, которая производит промышленные лезвия мирового класса в Шеффилде, сердце Англии, с 1910 года.',
       ],
       textileLinkLabel: 'Текстильные машины и запчасти:',
       values: [
@@ -170,7 +166,7 @@ export default async function AboutPage({ params }: PageProps) {
       whyAlyaTitle: 'Почему Alya?',
       whyAlyaDesc: 'Наши ценности, которые делают разницу в отрасли',
       whyAlyaItems: [
-        { title: 'Качество Шеффилда', desc: 'Продукция мирового класса как авторизованный дистрибьютор Durham Duplex' },
+        { title: 'Стандарт качества Alya', desc: 'Промышленные режущие инструменты мирового класса' },
         { title: 'Местное производство', desc: 'Производство запчастей для текстильных машин на нашем заводе в Стамбуле' },
         { title: 'Глобальный охват', desc: 'Экспорт в 35 стран и всемирная сеть клиентов' },
         { title: 'Команда экспертов', desc: 'Профессиональное консультирование и поддержка с 30-летним опытом' },
@@ -196,7 +192,6 @@ export default async function AboutPage({ params }: PageProps) {
       storyParagraphs: [
         '<strong class="text-steel-900">Alya</strong> fournit des outils de coupe industriels depuis 30 ans. Nous poursuivons notre partenariat avec des entreprises de premier plan dans presque tous les secteurs de l\'industrie.',
         'Pas seulement des lames, mais dans notre usine d\'Istanbul, nous <strong class="text-steel-900">fabriquons des pièces détachées pour le secteur textile</strong> et <strong class="text-steel-900">exportons vers 35 pays différents</strong>.',
-        'Nous sommes le distributeur autorisé de Durham Duplex, qui fabrique des lames industrielles de classe mondiale à Sheffield, au cœur de l\'Angleterre, depuis 1910.',
       ],
       textileLinkLabel: 'Machines textiles et pièces détachées :',
       values: [
@@ -209,7 +204,7 @@ export default async function AboutPage({ params }: PageProps) {
       whyAlyaTitle: 'Pourquoi Alya ?',
       whyAlyaDesc: 'Nos valeurs qui font la différence dans l\'industrie',
       whyAlyaItems: [
-        { title: 'Qualité Sheffield', desc: 'Produits de classe mondiale en tant que distributeur autorisé de Durham Duplex' },
+        { title: 'Standard de qualité Alya', desc: 'Produits de coupe industriels de classe mondiale' },
         { title: 'Production locale', desc: 'Fabrication de pièces détachées pour machines textiles dans notre usine d\'Istanbul' },
         { title: 'Portée mondiale', desc: 'Exportation vers 35 pays et réseau de clients dans le monde entier' },
         { title: 'Équipe d\'experts', desc: 'Conseil professionnel et support avec 30 ans d\'expérience' },

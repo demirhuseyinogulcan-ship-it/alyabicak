@@ -5,9 +5,9 @@
 const en = {
   // Meta & SEO
   meta: {
-    title: 'Industrial Blades | Sheffield Quality Machine Knives | Alya Blade',
-    description: 'Premium Sheffield-quality industrial blade supplier. Slitter blades, machine knives, safety cutters, utility knife blades. FDA/USDA approved. 30+ years experience. Worldwide shipping.',
-    keywords: 'industrial blades, slitter blades, machine knives, safety cutters, utility knife blades, trapezoid blades, tungsten carbide blades, titanium coated blades, OLFA blades, recycling blades, Sheffield blades, FDA approved blades, stainless steel blades, carbon steel blades, granulator blades, packaging blades',
+    title: 'Industrial Blades | Premium Machine Knives | Alya Blade',
+    description: 'Premium industrial blade supplier. Slitter blades, machine knives, safety cutters, utility knife blades. FDA/USDA approved. 30+ years experience. Worldwide shipping.',
+    keywords: 'industrial blades, slitter blades, machine knives, safety cutters, utility knife blades, trapezoid blades, tungsten carbide blades, titanium coated blades, OLFA blades, recycling blades, FDA approved blades, stainless steel blades, carbon steel blades, granulator blades, packaging blades',
   },
 
   // Navigation
@@ -72,7 +72,7 @@ const en = {
   // Hero Section
   hero: {
     title: 'Industrial Cutting Solutions',
-    subtitle: 'Professional blades in Sheffield quality',
+    subtitle: 'Professional industrial blades',
     cta: 'Explore Products',
     ctaSecondary: 'Get Quote',
   },
@@ -88,7 +88,7 @@ const en = {
     subcategories: 'Subcategories',
     productsInCategory: 'Products in this category',
     subcategoryMetaTitle: '{{name}} | {{count}} Varieties | {{brand}}',
-    subcategoryMetaDesc: '{{description}} {{count}} models available. Carbon steel, stainless and tungsten carbide options. Premium Sheffield quality industrial blades.',
+    subcategoryMetaDesc: '{{description}} {{count}} models available. Carbon steel, stainless and tungsten carbide options. Premium quality industrial blades.',
   },
 
   // Products
@@ -406,12 +406,12 @@ const en = {
   // Sheffield Section
   sheffield: {
     title: 'Our Quality Standards',
-    description: 'Sheffield has been known as the world\'s premier steel and blade manufacturing center for centuries. Since 1910, industrial blades produced with precision engineering in the heart of England are offered to you with full compliance to food safety standards.',
+    description: 'Industrial blades manufactured from the highest quality steels reduce machine downtime and increase your production efficiency.',
     moreInfo: 'Learn More',
     qualityTitle: 'Quality Standards',
     features: {
-      sheffieldQuality: 'Sheffield Quality',
-      sheffieldQualityDesc: 'England Sheffield steel standard',
+      sheffieldQuality: 'Alya Quality Standard',
+      sheffieldQualityDesc: 'High quality materials and manufacturing',
       highPerformance: 'High Performance',
       highPerformanceDesc: 'Long life and sharp performance',
       durability: 'Durability',
@@ -426,8 +426,6 @@ const en = {
       usdaDesc: 'US Department of Agriculture certified',
       iso: 'ISO 9001:2015',
       isoDesc: 'Quality management system',
-      sheffield: 'Made in Sheffield',
-      sheffieldDesc: 'World-class manufacturing',
     },
   },
 
@@ -483,7 +481,6 @@ const en = {
       iso: { name: 'ISO 9001:2015', desc: 'Quality Management' },
       fda: { name: 'FDA', desc: 'Food Safety' },
       usda: { name: 'USDA', desc: 'US Approved' },
-      sheffield: { name: 'Made in Sheffield', desc: 'England' },
     },
     stats: {
       exportCountries: { value: '35+', label: 'Export Countries' },
@@ -578,7 +575,7 @@ const en = {
 
   // Hero Slider Features
   heroFeatures: {
-    sheffieldQuality: 'Sheffield Quality',
+    sheffieldQuality: 'Alya Quality Standard',
     customProduction: 'Custom Production',
     fastDelivery: 'Fast Delivery',
     prevSlide: 'Previous Slide',
@@ -589,7 +586,7 @@ const en = {
   durhamDuplex: {
     tagline: 'Razor Sharp Since 1910',
     intro: '115 years of',
-    description: 'British engineering tradition. We are the Turkey distributor of world-class industrial blades manufactured in Sheffield.',
+    description: 'We are the Turkey distributor of world-class industrial blades.',
     certifications: {
       isoTitle: 'ISO 9001:2015',
       isoDesc: 'Quality management system',
@@ -597,15 +594,15 @@ const en = {
       fdaDesc: 'Food safety approved',
       usdaTitle: 'USDA Approved',
       usdaDesc: 'US Department of Agriculture approved',
-      ukTitle: 'Made in Sheffield',
-      ukDesc: 'Manufactured in England',
+      ukTitle: 'International Standard',
+      ukDesc: 'World-class manufacturing',
     },
     cta: 'Learn More',
     imageAlt: 'Durham Duplex Blades',
     stats: {
       experience: 'Years Experience',
       products: 'Product Variety',
-      location: 'Sheffield',
+      location: 'Worldwide',
     },
   },
 

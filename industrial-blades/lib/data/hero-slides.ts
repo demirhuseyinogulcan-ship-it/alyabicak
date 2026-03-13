@@ -7,7 +7,7 @@ import { HeroSlide } from '../types';
 export const HERO_SLIDES: HeroSlide[] = [
   {
     id: 'slide-1',
-    title: 'Sheffield Kalitesinde Endüstriyel Bıçaklar',
+    title: 'Alya Kalite Standartında Endüstriyel Bıçaklar',
     subtitle: 'Dünya Çapında Tanınan Kalite',
     description: 'Üstün çelik kalitesi ile uzun ömürlü ve keskin performans',
     image: '/images/hero/sheffield-quality.jpg',

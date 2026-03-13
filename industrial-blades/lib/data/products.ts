@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Alya Bıçak - Ürün Verileri
  * Single Source of Truth for Products
  * 

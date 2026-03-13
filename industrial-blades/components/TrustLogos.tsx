@@ -17,7 +17,6 @@ export default function TrustLogos() {
     { name: t.trustLogos.certifications.iso.name, desc: t.trustLogos.certifications.iso.desc },
     { name: t.trustLogos.certifications.fda.name, desc: t.trustLogos.certifications.fda.desc },
     { name: t.trustLogos.certifications.usda.name, desc: t.trustLogos.certifications.usda.desc },
-    { name: t.trustLogos.certifications.sheffield.name, desc: t.trustLogos.certifications.sheffield.desc },
   ]
 
   const stats = [

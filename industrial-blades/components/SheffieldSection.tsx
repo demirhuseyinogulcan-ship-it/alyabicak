@@ -36,7 +36,6 @@ export default function SheffieldSection() {
     { name: t.standards.fda, desc: t.standards.fdaDesc },
     { name: t.standards.usda, desc: t.standards.usdaDesc },
     { name: t.standards.iso, desc: t.standards.isoDesc },
-    { name: t.standards.sheffield, desc: t.standards.sheffieldDesc }
   ]
 
   return (
@@ -107,8 +106,8 @@ export default function SheffieldSection() {
           <div className="relative">
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/brand/sheffield-badge.webp"
-                alt="Sheffield Kalitesi"
+                src="/images/pages/hakkimizda-bg.jpg"
+                alt="Alya Kalite Standartları"
                 fill
                 className="object-cover"
               />

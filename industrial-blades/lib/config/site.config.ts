@@ -17,8 +17,8 @@
 export const siteConfig = {
   // Site Bilgileri
   name: 'Alya Bıçak',
-  tagline: 'Endüstriyel Kesici Bıçaklar | Sheffield Kalitesi',
-  description: 'Alya Bıçak - Endüstriyel kesici bıçaklar, makina bıçakları, sanayi jiletleri. Sheffield kalitesi ile üretilmiş profesyonel bıçaklar. 30 yıllık tecrübe.',
+  tagline: 'Endüstriyel Kesici Bıçaklar | Alya Kalite Standardı',
+  description: 'Alya Bıçak - Endüstriyel kesici bıçaklar, makina bıçakları, sanayi jiletleri. Yüksek kalite çeliklerden üretilmiş profesyonel bıçaklar. 30 yıllık tecrübe.',
   
   // URL'ler - Multi-domain
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://alyabicak.com',      // Turkish domain
@@ -87,7 +87,7 @@ export const siteConfig = {
       'kesici bıçak',
       'makina bıçağı',
       'sanayi jileti',
-      'sheffield bıçak',
+      'FDA onaylı bıçak',
       'özel üretim bıçak',
       'endüstriyel kesici',
       'martor alternatifi',

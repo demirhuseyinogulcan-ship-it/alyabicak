@@ -12,7 +12,7 @@ const CATALOGS_DIR = path.join(__dirname, '../public/catalogs');
 const META_MAP = {
     'Is-Guvenligi-El-Bicaklari-Urun-Katalogu.pdf': {
         title: 'İş Güvenliği ve El Bıçakları Kataloğu - Alya Bıçak',
-        keywords: ['Safety Knives', 'Utility Knives', 'İş Güvenliği Bıçağı', 'Maket Bıçağı', 'Alya Bıçak', 'Sheffield Steel']
+        keywords: ['Safety Knives', 'Utility Knives', 'İş Güvenliği Bıçağı', 'Maket Bıçağı', 'Alya Bıçak', 'Industrial Blades']
     },
     'Makine-Bicaklari-Urun-Katalogu.pdf': {
         title: 'Makine Bıçakları Kataloğu - Alya Bıçak',
@@ -20,7 +20,7 @@ const META_MAP = {
     },
     'Sanayi-Jiletleri-Urun-Katalogu.pdf': {
         title: 'Sanayi Jiletleri Kataloğu - Alya Bıçak',
-        keywords: ['Industrial Razor Blades', 'Slitting Razor', 'Trapezoid Blades', 'Sanayi Jileti', 'Trapez Jilet', 'Alya Bıçak', 'Sheffield']
+        keywords: ['Industrial Razor Blades', 'Slitting Razor', 'Trapezoid Blades', 'Sanayi Jileti', 'Trapez Jilet', 'Alya Bıçak', 'Premium Quality']
     },
     'Vakum-PaketlemeBicaklari-Katalugu.pdf': {
         title: 'Vakum Paketleme Bıçakları Kataloğu - Alya Bıçak',
