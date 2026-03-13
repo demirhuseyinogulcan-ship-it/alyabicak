@@ -143,10 +143,10 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
     },
     manufacturer: {
       '@type': 'Organization',
-      name: product.origin?.brand || 'Sheffield Steel',
+      name: product.origin?.brand || 'Alya',
       address: {
         '@type': 'PostalAddress',
-        addressLocality: product.origin?.city || 'Sheffield',
+        addressLocality: product.origin?.city || 'Istanbul',
         addressCountry: getCountryCode(product.origin?.country),
       },
     },
@@ -200,7 +200,7 @@ export function generateEnhancedProductSchema(product: ProductSchemaInput) {
         name: SCHEMA_LABELS.origin[product.locale] || SCHEMA_LABELS.origin.en,
         value: product.origin?.city
           ? `${product.origin.city}, ${product.origin.country || SCHEMA_LABELS.countryName[product.locale] || SCHEMA_LABELS.countryName.en}`
-          : `Sheffield, ${SCHEMA_LABELS.countryName[product.locale] || SCHEMA_LABELS.countryName.en}`,
+          : `Istanbul, ${SCHEMA_LABELS.countryName[product.locale] || SCHEMA_LABELS.countryName.en}`,
       },
       {
         '@type': 'PropertyValue',

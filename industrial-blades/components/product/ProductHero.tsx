@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { FileText, ChevronLeft, ChevronRight } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/icons';
+import { ProductWatermark } from './ProductWatermark';
 import type { ProductExtended } from '@/lib/types/product.types';
 import { siteConfig, getWhatsAppUrl } from '@/lib/config/site.config';
 import { useLocale } from '@/lib/i18n/client';
@@ -49,6 +50,7 @@ export function ProductHero({ product }: ProductHeroProps) {
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
               />
+              <ProductWatermark />
               
               {/* Galeri Navigasyon Okları - Her Zaman Görünür */}
               {allImages.length > 1 && (

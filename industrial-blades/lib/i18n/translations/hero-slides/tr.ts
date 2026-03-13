@@ -7,11 +7,11 @@
 
 export const heroSlidesTr = {
   'slide-1': {
-    title: 'Sheffield Kalitesinde Endüstriyel Bıçaklar',
+    title: 'Alya Kalite Standartında Endüstriyel Bıçaklar',
     subtitle: 'Dünya Çapında Tanınan Kalite',
     description: 'Üstün çelik kalitesi ile uzun ömürlü ve keskin performans',
     ctaText: 'Ürünleri İncele',
-    imageAlt: 'Sheffield kalitesinde endüstriyel bıçaklar - sanayi tipi kesici bıçaklar, dilme jiletleri, makine bıçakları',
+    imageAlt: 'Alya kalite standartında endüstriyel bıçaklar - sanayi tipi kesici bıçaklar, dilme jiletleri, makine bıçakları',
   },
   'slide-2': {
     title: 'Özel Tasarım Bıçaklar',

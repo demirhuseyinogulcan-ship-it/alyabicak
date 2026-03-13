@@ -5,6 +5,7 @@
 
 export { ProductHero } from './ProductHero';
 export { ProductGallery } from './ProductGallery';
+export { ProductWatermark } from './ProductWatermark';
 export { ProductSpecs } from './ProductSpecs';
 export { WhyThisProduct } from './WhyThisProduct';
 export { ProductApplications } from './ProductApplications';

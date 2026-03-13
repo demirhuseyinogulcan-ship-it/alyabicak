@@ -16,7 +16,7 @@ const ar = {
     home: 'الرئيسية',
     products: 'المنتجات',
     categories: 'الفئات',
-    industrialCutters: 'أدوات القطع الصناعية',
+    industrialCutters: 'الشفرات الصناعية',
     qualityStandards: 'معايير الجودة',
     blog: 'المدونة',
     consulting: 'الاستشارات',

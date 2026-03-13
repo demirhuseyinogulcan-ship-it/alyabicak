@@ -9,11 +9,11 @@ import type { HeroSlideTranslations } from './tr';
 
 export const heroSlidesEn: HeroSlideTranslations = {
   'slide-1': {
-    title: 'Industrial Blades in Sheffield Quality',
+    title: 'Premium Quality Industrial Blades',
     subtitle: 'Globally Recognized Quality',
     description: 'Superior steel quality for long-lasting and sharp performance',
     ctaText: 'Explore Products',
-    imageAlt: 'Sheffield quality industrial blades - machine knives, slitting blades, industrial cutting tools',
+    imageAlt: 'Premium quality industrial blades - machine knives, slitting blades, industrial cutting tools',
   },
   'slide-2': {
     title: 'Custom Designed Blades',

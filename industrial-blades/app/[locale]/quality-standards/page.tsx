@@ -156,9 +156,7 @@ export default async function KaliteStandartlariPage({ params }: PageProps) {
               {t.valuePoints.map((point, index) => (
                 <div
                   key={index}
-                  className={`backdrop-blur-xl bg-white/[0.06] border border-white/[0.10] rounded-2xl p-6 transition-all duration-500 hover:bg-white/[0.12] hover:border-white/[0.20] ${
-                    index % 2 === 1 ? 'sm:translate-y-6' : ''
-                  }`}
+                  className="backdrop-blur-xl bg-white/[0.06] border border-white/[0.10] rounded-2xl p-6 transition-all duration-500 hover:bg-white/[0.12] hover:border-white/[0.20]"
                 >
                   <span className="inline-block text-[11px] font-semibold text-primary-400 uppercase tracking-[0.15em] mb-3">
                     {point.highlight}

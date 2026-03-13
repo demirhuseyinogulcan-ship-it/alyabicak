@@ -16,7 +16,7 @@ const fr = {
     home: 'Accueil',
     products: 'Produits',
     categories: 'Catégories',
-    industrialCutters: 'Découpes Industrielles',
+    industrialCutters: 'Lames Industrielles',
     qualityStandards: 'Normes de Qualité',
     blog: 'Blog',
     consulting: 'Conseil',

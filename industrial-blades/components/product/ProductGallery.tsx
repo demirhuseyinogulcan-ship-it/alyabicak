@@ -3,6 +3,7 @@
 import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
+import { ProductWatermark } from './ProductWatermark';
 import type { ProductImage } from '@/lib/types/product.types';
 
 interface ProductGalleryProps {
@@ -49,6 +50,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
             sizes="(max-width: 768px) 100vw, 50vw"
             priority
           />
+          <ProductWatermark />
           
           {/* Zoom Icon */}
           <div className="absolute bottom-4 right-4 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-md">

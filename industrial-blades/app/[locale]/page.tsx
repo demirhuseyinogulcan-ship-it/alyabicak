@@ -5,7 +5,6 @@
 import { Metadata } from 'next';
 import HeroSlider from '@/components/HeroSlider';
 import CategoryGrid from '@/components/CategoryGrid';
-import SheffieldSection from '@/components/SheffieldSection';
 import ConsultingSection from '@/components/ConsultingSection';
 import BestSellers from '@/components/BestSellers';
 import BlogSection from '@/components/BlogSection';
@@ -45,9 +44,6 @@ export default async function HomePage({ params }: HomePageProps) {
       
       {/* Kategoriler */}
       <CategoryGrid />
-      
-      {/* Sheffield Kalitesi */}
-      <SheffieldSection />
       
       {/* Blog/Bülten - Sadece aktifse göster */}
       {siteConfig.features.enableBlog && (

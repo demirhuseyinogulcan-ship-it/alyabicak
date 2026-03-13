@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { MessageCircle, ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { Button, Badge } from '@/components/ui'
 import { getWhatsAppUrl } from '@/lib/config'
 import { useLocale } from '@/lib/i18n/client'
@@ -24,21 +24,7 @@ export default function ConsultingSection() {
                 className="object-cover"
               />
             </div>
-            {/* Floating Card */}
-            <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-2xl max-w-xs">
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                  <MessageCircle className="w-6 h-6 text-green-600" />
-                </div>
-                <div>
-                  <div className="font-semibold text-steel-900">{t.freeConsulting}</div>
-                  <div className="text-sm text-steel-600">{t.support247}</div>
-                </div>
-              </div>
-              <p className="text-sm text-steel-600">
-                {t.helpText}
-              </p>
-            </div>
+
           </div>
 
           {/* Right: Content */}
@@ -86,7 +72,7 @@ export default function ConsultingSection() {
             <div className="flex flex-wrap gap-4">
               <Button 
                 href={`/${locale}/consulting`}
-                size="lg" 
+                size="md" 
                 icon={ArrowRight}
               >
                 {t.cta}
@@ -95,7 +81,7 @@ export default function ConsultingSection() {
               <Button
                 href={getWhatsAppUrl(dict.whatsapp.consultingMessage)}
                 variant="whatsapp"
-                size="lg"
+                size="md"
               >
                 {t.whatsappCta}
               </Button>

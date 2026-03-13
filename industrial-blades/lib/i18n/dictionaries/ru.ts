@@ -16,7 +16,7 @@ const ru = {
     home: 'Главная',
     products: 'Продукция',
     categories: 'Категории',
-    industrialCutters: 'Промышленные Резаки',
+    industrialCutters: 'Промышленные Лезвия',
     qualityStandards: 'Стандарты Качества',
     blog: 'Блог',
     consulting: 'Консалтинг',

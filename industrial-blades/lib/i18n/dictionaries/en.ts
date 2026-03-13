@@ -15,7 +15,7 @@ const en = {
     home: 'Home',
     products: 'Products',
     categories: 'Categories',
-    industrialCutters: 'Industrial Cutters',
+    industrialCutters: 'Industrial Blades',
     qualityStandards: 'Quality Standards',
     blog: 'Blog',
     consulting: 'Consulting',

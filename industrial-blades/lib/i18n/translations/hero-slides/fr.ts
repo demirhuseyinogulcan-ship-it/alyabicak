@@ -9,11 +9,11 @@ import type { HeroSlideTranslations } from './tr';
 
 export const heroSlidesFr: HeroSlideTranslations = {
   'slide-1': {
-    title: 'Lames Industrielles de Qualité Sheffield',
+    title: 'Lames Industrielles de Qualité Premium',
     subtitle: 'Qualité Reconnue Mondialement',
     description: 'Qualité d\'acier supérieure pour une performance durable et tranchante',
     ctaText: 'Découvrir les Produits',
-    imageAlt: 'Lames industrielles qualité Sheffield - couteaux machines, lames de refente, outils de coupe industriels',
+    imageAlt: 'Lames industrielles qualité premium - couteaux machines, lames de refente, outils de coupe industriels',
   },
   'slide-2': {
     title: 'Lames Conçues Sur Mesure',

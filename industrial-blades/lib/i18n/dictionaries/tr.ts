@@ -15,7 +15,7 @@ const tr = {
     home: 'Ana Sayfa',
     products: 'Ürünler',
     categories: 'Kategoriler',
-    industrialCutters: 'Endüstriyel Kesiciler',
+    industrialCutters: 'Endüstriyel Bıçaklar',
     qualityStandards: 'Kalite Standartlarımız',
     blog: 'Bülten',
     consulting: 'Danışmanlık',

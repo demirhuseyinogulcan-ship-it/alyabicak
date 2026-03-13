@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Eye, Star, ArrowRight, ChevronLeft, ChevronRight, Package } from 'lucide-react'
+import { ProductWatermark } from '@/components/product/ProductWatermark'
 import { productService } from '@/lib/services'
 import { useLocale } from '@/lib/i18n/client'
 
@@ -28,7 +29,7 @@ export default function BestSellers() {
     : productService.getAll(locale).slice(0, 6).map(p => productService.toCardView(p, locale))
 
   return (
-    <section className="py-20 lg:py-24 bg-steel-50">
+    <section className="py-20 lg:py-24 bg-white">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
@@ -74,6 +75,7 @@ export default function BestSellers() {
                   {/* Image Container - 4:3 aspect ratio */}
                   <div className="relative aspect-[4/3] bg-white overflow-hidden">
                     {product.image ? (
+                      <>
                       <Image
                         src={product.image}
                         alt={product.name}
@@ -81,6 +83,8 @@ export default function BestSellers() {
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
                         sizes="320px"
                       />
+                      <ProductWatermark />
+                      </>
                     ) : (
                       <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-steel-50 to-steel-100">
                         <Package className="w-16 h-16 text-steel-300 group-hover:text-primary-400 transition-colors" />
@@ -157,7 +161,7 @@ export default function BestSellers() {
         <div className="text-center mt-12">
           <Link
             href={`/${locale}/categories`}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-steel-900 hover:bg-steel-800 text-white font-medium rounded-lg transition-all hover:shadow-lg"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-steel-900 hover:bg-steel-800 text-white text-sm font-medium rounded-lg transition-all hover:shadow-lg"
           >
             {t.viewAllCategories}
             <ArrowRight className="w-5 h-5" />

@@ -9,11 +9,11 @@ import type { HeroSlideTranslations } from './tr';
 
 export const heroSlidesAr: HeroSlideTranslations = {
   'slide-1': {
-    title: 'شفرات صناعية بجودة شيفيلد',
+    title: 'شفرات صناعية بجودة عالمية',
     subtitle: 'جودة معترف بها عالمياً',
     description: 'جودة فولاذ فائقة لأداء طويل الأمد وحاد',
     ctaText: 'استكشف المنتجات',
-    imageAlt: 'شفرات صناعية بجودة شيفيلد - سكاكين آلات، شفرات التقطيع، أدوات القطع الصناعية',
+    imageAlt: 'شفرات صناعية بجودة عالمية - سكاكين آلات، شفرات التقطيع، أدوات القطع الصناعية',
   },
   'slide-2': {
     title: 'شفرات مصممة خصيصاً',

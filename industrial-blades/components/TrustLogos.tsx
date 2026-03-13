@@ -45,9 +45,6 @@ export default function TrustLogos() {
             ))}
           </div>
 
-          {/* Divider */}
-          <div className="hidden lg:block w-px h-10 bg-steel-700" />
-
           {/* Stats */}
           <div className="flex items-center gap-8">
             {stats.map((stat, i) => (

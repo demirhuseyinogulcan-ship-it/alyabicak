@@ -44,7 +44,7 @@ export default async function ConsultingPage({ params }: PageProps) {
         },
         {
           title: 'Bıçak Önerisi',
-          desc: 'Analiz sonuçlarına göre size en uygun bıçak modelini öneriyoruz. Sheffield kalitesinde, performans ve dayanıklılık açısından optimize edilmiş çözümler.',
+          desc: 'Analiz sonuçlarına göre size en uygun bıçak modelini öneriyoruz. Yüksek kalite standartlarında, performans ve dayanıklılık açısından optimize edilmiş çözümler.',
           items: ['Bıçak tipi ve boyut önerisi', 'Çelik kalitesi ve sertlik değeri', 'Özel tasarım gereksinimleri'],
         },
         {
