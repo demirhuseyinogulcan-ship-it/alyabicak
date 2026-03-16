@@ -79,9 +79,9 @@
 
 | Field | Size | Format |
 |-------|------|--------|
-| `images.main` | 800×800 | `{ src, alt, width: 800, height: 800 }` — Alt text includes product name + code + brand |
-| `images.thumbnail` | 400×400 | `{ src, alt, width: 400, height: 400 }` |
-| `images.gallery[]` | 800×800 | Additional angles. Min 0, ideal 2-4 images |
+| `images.main` | 1920×1080 (16:9) | `{ src, alt, width: 1920, height: 1080 }` — Alt text includes product name + code |
+| `images.thumbnail` | 640×360 (16:9) | `{ src, alt, width: 640, height: 360 }` |
+| `images.gallery[]` | 1920×1080 (16:9) | Additional angles. Min 0, ideal 2-4 images |
 
 ### 2.5 Technical Specifications (ZORUNLU)
 

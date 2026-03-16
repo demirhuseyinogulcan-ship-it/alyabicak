@@ -76,7 +76,7 @@ export function SkeletonCard({ className = '' }: { className?: string }) {
 export function SkeletonProductCard({ className = '' }: { className?: string }) {
   return (
     <div className={`bg-white rounded-xl overflow-hidden shadow-sm ${className}`}>
-      <Skeleton className="aspect-square w-full" rounded="none" />
+      <Skeleton className="aspect-video w-full" rounded="none" />
       <div className="p-4 space-y-3">
         <Skeleton height={12} className="w-1/3" />
         <Skeleton height={20} className="w-full" />

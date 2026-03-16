@@ -39,14 +39,14 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
       <div className="space-y-4" onKeyDown={handleKeyDown} tabIndex={0}>
         {/* Ana Görsel */}
         <div 
-          className="relative aspect-square bg-white rounded-lg border border-steel-100 overflow-hidden cursor-zoom-in group"
+          className="relative aspect-video bg-white rounded-lg border border-steel-100 overflow-hidden cursor-zoom-in group"
           onClick={() => setIsLightboxOpen(true)}
         >
           <Image
             src={activeImage.src}
             alt={activeImage.alt || productName}
             fill
-            className="object-contain p-6 transition-transform duration-300 group-hover:scale-105"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority
           />
@@ -133,7 +133,7 @@ export function ProductGallery({ images, productName }: ProductGalleryProps) {
           
           {/* Görsel */}
           <div 
-            className="relative w-full max-w-4xl aspect-square mx-4"
+            className="relative w-full max-w-5xl aspect-video mx-4"
             onClick={(e) => e.stopPropagation()}
           >
             <Image

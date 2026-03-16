@@ -17,10 +17,10 @@ export interface ProductImage {
 
 /** Ürün görsel koleksiyonu */
 export interface ProductImages {
-  main: ProductImage;           // Ana görsel (800x800)
-  mainLarge?: ProductImage;     // Zoom için büyük görsel (1600x1600)
-  gallery: ProductImage[];      // Galeri görselleri (3-4 adet)
-  thumbnail: ProductImage;      // Liste için küçük görsel (400x400)
+  main: ProductImage;           // Ana görsel (1920x1080, 16:9)
+  mainLarge?: ProductImage;     // Zoom için büyük görsel (1920x1080)
+  gallery: ProductImage[];      // Galeri görselleri (3-4 adet, 16:9)
+  thumbnail: ProductImage;      // Liste için küçük görsel (640x360, 16:9)
 }
 
 // =============================================================================
@@ -160,8 +160,8 @@ export interface ProductCardData {
 export const PLACEHOLDER_IMAGE: ProductImage = {
   src: '/images/products/placeholder.jpg',
   alt: 'Ürün görseli hazırlanıyor',
-  width: 800,
-  height: 800,
+  width: 1920,
+  height: 1080,
 };
 
 export const PLACEHOLDER_IMAGES: ProductImages = {
@@ -170,8 +170,8 @@ export const PLACEHOLDER_IMAGES: ProductImages = {
   thumbnail: {
     src: '/images/products/placeholder-thumb.jpg',
     alt: 'Ürün görseli hazırlanıyor',
-    width: 400,
-    height: 400,
+    width: 640,
+    height: 360,
   },
 };
 

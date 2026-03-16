@@ -41,12 +41,12 @@ export function ProductHero({ product }: ProductHeroProps) {
           {/* Sol: Görsel Galerisi */}
           <div className="space-y-4">
             {/* Ana Görsel */}
-            <div className="relative aspect-square bg-white rounded-xl border border-steel-200 overflow-hidden group shadow-sm">
+            <div className="relative aspect-video bg-white rounded-xl border border-steel-200 overflow-hidden group shadow-sm">
               <Image
                 src={activeImage.src}
                 alt={activeImage.alt}
                 fill
-                className="object-contain p-6 transition-transform duration-300 group-hover:scale-105"
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
               />
