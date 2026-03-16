@@ -2228,18 +2228,16 @@ export const productsEn: Record<string, ProductTranslation> = {
   // =============================================================================
   'vent-cutter': {
     name: 'Vent Cutter – Poultry Evisceration Blade',
-    subtitle: 'Circular Evisceration Blade — AISI 420 Stainless Steel HRC 50-54',
-    description: 'Professional vent cutter blades for automated poultry evisceration lines. AISI 420 stainless steel, food-grade surface finish Ra ≤0.4 µm. Compatible with Marel, Meyn, Baader and Stork machines. Capacity up to 15,000 birds/hour.',
-    shortDescription: 'AISI 420 stainless steel vent cutter blade for poultry processing.',
+    subtitle: 'Circular Evisceration Blade — Stainless Steel, Food-Grade',
+    description: 'Professional vent cutter blades for automated poultry evisceration lines. Stainless steel, food-grade polished surface finish. Designed for chicken, turkey, duck and goose processing.',
+    shortDescription: 'Stainless steel vent cutter blade for poultry processing.',
     features: [
-      'AISI 420 stainless steel — food-grade corrosion resistance',
-      'HRC 50-54 hardness — long-lasting sharp edge',
-      'Ra ≤0.4 µm polished surface — maximum hygiene',
+      'Stainless steel — food-grade corrosion resistance',
+      'Long-lasting sharp edge',
+      'Polished surface finish — maximum hygiene',
       'Cylindrical circular blade design — 360° consistent cut',
       'Vacuum-assisted waste removal system compatibility',
-      'CNC precision ground to ±0.02 mm tolerance',
       'CE food-grade hygiene certified',
-      'Up to 15,000 birds/hour processing capacity',
       'Suitable for chicken, turkey, duck and goose processing',
     ],
     applications: [
@@ -2253,22 +2251,22 @@ export const productsEn: Record<string, ProductTranslation> = {
     benefits: [
       {
         title: 'Food-Grade Hygiene',
-        description: 'AISI 420 stainless steel with Ra ≤0.4 µm surface finish ensures maximum hygiene and easy cleaning in HACCP environments.',
+        description: 'Stainless steel with polished surface finish ensures maximum hygiene and easy cleaning in HACCP environments.',
         icon: 'shield',
       },
       {
         title: 'High-Speed Processing',
-        description: 'Designed for automated lines processing up to 15,000 birds per hour without loss of cut quality.',
+        description: 'Designed for automated evisceration lines without loss of cut quality.',
         icon: 'zap',
       },
       {
-        title: 'Universal Machine Compatibility',
-        description: 'Drop-in replacement for Marel VC-i, Meyn Maestro, Baader and Stork GP series evisceration systems.',
+        title: 'Wide Machine Compatibility',
+        description: 'Compatible with leading evisceration machines. Contact us for your specific machine model.',
         icon: 'settings',
       },
       {
         title: 'Extended Service Life',
-        description: 'HRC 50-54 hardness combined with CNC precision grinding delivers consistent cuts and reduced downtime.',
+        description: 'Premium stainless steel delivers consistent cuts and reduced downtime.',
         icon: 'clock',
       },
     ],
@@ -2276,34 +2274,29 @@ export const productsEn: Record<string, ProductTranslation> = {
 <p>The vent cutter is a cylindrical circular blade specifically designed for the evisceration stage of automated poultry processing lines. It precisely cuts the cloaca (vent) area to enable clean organ removal without contaminating the carcass.</p>
 
 <h3>Premium Material & Surface Quality</h3>
-<p>Manufactured from AISI 420 stainless steel hardened to HRC 50-54, ensuring outstanding corrosion resistance in high-moisture poultry processing environments. The food-grade polished surface finish of Ra ≤0.4 µm prevents bacterial adhesion and facilitates rapid CIP (Clean-in-Place) sanitation cycles.</p>
+<p>Manufactured from stainless steel, ensuring outstanding corrosion resistance in high-moisture poultry processing environments. The food-grade polished surface finish prevents bacterial adhesion and facilitates rapid CIP (Clean-in-Place) sanitation cycles.</p>
 
 <h3>Precision Circular Cutting Technology</h3>
 <p>The cylindrical circular blade design provides a consistent 360° cut around the vent area. Vacuum-assisted waste extraction works in tandem with the blade to remove excised material instantly, maintaining line hygiene and preventing cross-contamination.</p>
 
 <h3>Machine Compatibility</h3>
-<p><strong>Compatible Machines:</strong> Marel VC-i, Meyn Maestro, Baader evisceration modules, Stork GP series. Each blade is CNC ground to ±0.02 mm tolerance for exact fit and optimal performance on all major evisceration platforms.</p>
+<p>Our blades are compatible with leading evisceration machines in the industry. Contact our technical team for your specific machine model and dimensions.</p>
 
-<h3>Processing Capacity & Versatility</h3>
-<p>Engineered for high-throughput lines running up to 15,000 birds per hour. Suitable for processing chicken, turkey, duck and goose. The blade geometry is optimised for different carcass sizes while maintaining uniform cut quality.</p>
+<h3>Processing Versatility</h3>
+<p>Suitable for processing chicken, turkey, duck and goose. The blade geometry is optimised for different carcass sizes while maintaining uniform cut quality.</p>
 
 <h3>Certifications & Quality Assurance</h3>
 <p>All vent cutter blades carry CE food-grade hygiene certification and are manufactured in compliance with EU food contact material regulations. Suitable for HACCP, BRC and IFS certified processing plants.</p>`,
     availableSizes: ['Machine-specific dimensions — contact us for your evisceration system model'],
     seo: {
-      title: 'Vent Cutter Poultry Evisceration Blade | AISI 420',
-      description: 'Professional vent cutter blades for automated poultry evisceration. AISI 420 stainless steel, HRC 50-54. Compatible with Marel, Meyn, Baader, Stork machines.',
+      title: 'Vent Cutter Poultry Evisceration Blade | Alya Blades',
+      description: 'Professional vent cutter blades for automated poultry evisceration. Stainless steel, food-grade. Chicken, turkey processing.',
       keywords: [
         'vent cutter blade',
         'poultry evisceration blade',
         'vent cutter poultry processing',
         'evisceration knife',
         'poultry processing blade',
-        'Marel vent cutter',
-        'Meyn evisceration blade',
-        'Baader vent cutter',
-        'Stork evisceration blade',
-        'AISI 420 poultry blade',
         'circular evisceration blade',
         'cloaca cutting blade',
         'automated poultry processing',

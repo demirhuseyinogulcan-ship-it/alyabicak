@@ -2912,18 +2912,16 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'vent-cutter': {
     name: 'Vent Cutter – Lame d\'Éviscération de Volaille',
-    subtitle: 'Lame Circulaire Cylindrique — Acier Inoxydable AISI 420 HRC 50-54',
-    description: 'Lames de vent cutter professionnelles pour lignes d\'éviscération automatisées de volaille. Acier inoxydable AISI 420, finition alimentaire Ra ≤0,4 µm. Compatible Marel, Meyn, Baader et Stork. Capacité jusqu\'à 15 000 volailles/heure.',
-    shortDescription: 'Lame vent cutter en acier AISI 420 pour le traitement de la volaille.',
+    subtitle: 'Lame Circulaire Cylindrique — Acier Inoxydable, Qualité Alimentaire',
+    description: 'Lames de vent cutter professionnelles pour lignes d\'éviscération automatisées de volaille. Acier inoxydable, finition polie alimentaire. Adaptée au poulet, à la dinde, au canard et à l\'oie.',
+    shortDescription: 'Lame vent cutter en acier inoxydable pour le traitement de la volaille.',
     features: [
-      'Acier inoxydable AISI 420 — résistance à la corrosion alimentaire',
-      'Dureté HRC 50-54 — tranchant longue durée',
-      'Surface polie Ra ≤0,4 µm — hygiène maximale',
+      'Acier inoxydable — résistance à la corrosion alimentaire',
+      'Tranchant longue durée',
+      'Surface polie — hygiène maximale',
       'Conception lame circulaire cylindrique — coupe uniforme à 360°',
       'Compatibilité système d\'aspiration sous vide',
-      'Rectification CNC précision ±0,02 mm',
       'Certification CE hygiène alimentaire',
-      'Capacité de traitement jusqu\'à 15 000 volailles/heure',
       'Adaptée au poulet, à la dinde, au canard et à l\'oie',
     ],
     applications: [
@@ -2937,57 +2935,52 @@ export const productsFr: Record<string, ProductTranslation> = {
     benefits: [
       {
         title: 'Hygiène Alimentaire',
-        description: 'Acier AISI 420 avec finition Ra ≤0,4 µm garantissant une hygiène maximale et un nettoyage facile en environnement HACCP.',
+        description: 'Acier inoxydable avec finition polie garantissant une hygiène maximale et un nettoyage facile en environnement HACCP.',
         icon: 'shield',
       },
       {
         title: 'Traitement Haute Cadence',
-        description: 'Conçue pour les lignes automatisées traitant jusqu\'à 15 000 volailles par heure sans perte de qualité de coupe.',
+        description: 'Conçue pour les lignes automatisées sans perte de qualité de coupe.',
         icon: 'zap',
       },
       {
-        title: 'Compatibilité Machine Universelle',
-        description: 'Remplacement direct pour les systèmes Marel VC-i, Meyn Maestro, Baader et Stork GP.',
+        title: 'Large Compatibilité Machine',
+        description: 'Compatible avec les systèmes d\'éviscération leaders. Contactez-nous pour votre modèle de machine.',
         icon: 'settings',
       },
       {
         title: 'Durée de Vie Prolongée',
-        description: 'Dureté HRC 50-54 combinée à la rectification CNC pour des coupes régulières et moins d\'arrêts machine.',
+        description: 'Acier inoxydable de qualité supérieure pour des coupes régulières et moins d\'arrêts machine.',
         icon: 'clock',
       },
     ],
     longDescription: `<h3>Vent Cutter — Lame Professionnelle d'Éviscération de Volaille</h3>
 <p>Le vent cutter est une lame circulaire cylindrique spécialement conçue pour l'étape d'éviscération des lignes automatisées de traitement de volaille. Elle découpe précisément la zone cloacale pour permettre un retrait propre des organes sans contamination de la carcasse.</p>
 
-<h3>Matériau et Qualité de Surface Premium</h3>
-<p>Fabriquée en acier inoxydable AISI 420 trempé à HRC 50-54, assurant une résistance exceptionnelle à la corrosion dans les environnements humides de transformation de volaille. La finition de surface alimentaire Ra ≤0,4 µm empêche l'adhésion bactérienne et facilite les cycles de nettoyage CIP.</p>
+<h3>Matériau et Qualité de Surface</h3>
+<p>Fabriquée en acier inoxydable, assurant une résistance exceptionnelle à la corrosion dans les environnements humides de transformation de volaille. La finition de surface polie alimentaire empêche l'adhésion bactérienne et facilite les cycles de nettoyage CIP.</p>
 
 <h3>Technologie de Découpe Circulaire de Précision</h3>
 <p>La conception de lame circulaire cylindrique assure une coupe uniforme à 360° autour de la zone cloacale. Le système d'extraction sous vide fonctionne en tandem avec la lame pour éliminer instantanément les matières découpées.</p>
 
 <h3>Compatibilité Machines</h3>
-<p><strong>Machines Compatibles :</strong> Marel VC-i, Meyn Maestro, modules Baader, série Stork GP. Chaque lame est rectifiée CNC avec une tolérance de ±0,02 mm.</p>
+<p>Nos lames sont compatibles avec les machines d'éviscération leaders du marché. Contactez notre équipe technique pour votre modèle spécifique et les dimensions adaptées.</p>
 
-<h3>Capacité et Polyvalence</h3>
-<p>Conçue pour les lignes haute cadence traitant jusqu'à 15 000 volailles par heure. Adaptée au traitement du poulet, de la dinde, du canard et de l'oie.</p>
+<h3>Polyvalence</h3>
+<p>Adaptée au traitement du poulet, de la dinde, du canard et de l'oie. La géométrie de la lame est optimisée pour différentes tailles de carcasses tout en maintenant une qualité de coupe uniforme.</p>
 
 <h3>Certifications et Assurance Qualité</h3>
 <p>Toutes les lames vent cutter portent la certification CE hygiène alimentaire et sont fabriquées conformément aux réglementations européennes sur les matériaux en contact alimentaire. Adaptées aux usines certifiées HACCP, BRC et IFS.</p>`,
     availableSizes: ['Dimensions spécifiques à la machine — contactez-nous pour votre modèle'],
     seo: {
-      title: 'Vent Cutter Lame Éviscération Volaille | AISI 420',
-      description: 'Lames vent cutter professionnelles pour l\'éviscération automatisée de volaille. Acier AISI 420, HRC 50-54. Compatible Marel, Meyn, Baader, Stork.',
+      title: 'Vent Cutter Lame Éviscération Volaille | Alya Blades',
+      description: 'Lames vent cutter professionnelles pour l\'éviscération automatisée de volaille. Acier inoxydable, qualité alimentaire.',
       keywords: [
         'lame vent cutter',
         'lame éviscération volaille',
         'vent cutter traitement volaille',
         'couteau éviscération',
         'lame traitement volaille',
-        'vent cutter Marel',
-        'lame éviscération Meyn',
-        'vent cutter Baader',
-        'lame éviscération Stork',
-        'lame volaille AISI 420',
         'lame circulaire éviscération',
         'lame découpe cloacale',
         'traitement automatisé volaille',
