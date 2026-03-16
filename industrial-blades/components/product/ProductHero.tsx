@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { FileText, ChevronLeft, ChevronRight } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/icons';
 import { ProductWatermark } from './ProductWatermark';
+import { ImageMagnifier } from './ImageMagnifier';
 import type { ProductExtended } from '@/lib/types/product.types';
 import { siteConfig, getWhatsAppUrl } from '@/lib/config/site.config';
 import { useLocale } from '@/lib/i18n/client';
@@ -39,18 +40,19 @@ export function ProductHero({ product }: ProductHeroProps) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           
           {/* Sol: Görsel Galerisi */}
-          <div className="space-y-4">
-            {/* Ana Görsel */}
-            <div className="relative aspect-video bg-white rounded-xl border border-steel-200 overflow-hidden group shadow-sm">
-              <Image
-                src={activeImage.src}
-                alt={activeImage.alt}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
-                priority
-              />
-              <ProductWatermark />
+          <div className="space-y-4 relative">
+            {/* Ana Görsel + Magnifier */}
+            <div className="relative aspect-video bg-white rounded-xl border border-steel-200 overflow-visible group shadow-sm">
+              <div className="relative w-full h-full rounded-xl overflow-hidden">
+                <ImageMagnifier
+                  src={activeImage.src}
+                  alt={activeImage.alt}
+                  zoomLevel={2.5}
+                  lensSize={140}
+                />
+                {/* Watermark — normal view only, magnifier panel has no watermark */}
+                <ProductWatermark />
+              </div>
               
               {/* Galeri Navigasyon Okları - Her Zaman Görünür */}
               {allImages.length > 1 && (

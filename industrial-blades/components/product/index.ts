@@ -6,6 +6,7 @@
 export { ProductHero } from './ProductHero';
 export { ProductGallery } from './ProductGallery';
 export { ProductWatermark } from './ProductWatermark';
+export { ImageMagnifier } from './ImageMagnifier';
 export { ProductSpecs } from './ProductSpecs';
 export { WhyThisProduct } from './WhyThisProduct';
 export { ProductApplications } from './ProductApplications';
