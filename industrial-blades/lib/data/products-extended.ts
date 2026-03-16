@@ -7310,14 +7310,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     images: {
       main: {
         src: '/images/products/vent-cutter-kanatli-kesim-bicagi.jpg',
-        alt: 'Vent Cutter Kanatlı Kesim Bıçağı — AISI 420 Paslanmaz Çelik Dairesel Eviscerasyon Bıçağı Tavuk Hindi İşleme | Alya Bıçak',
-        width: 800,
-        height: 800,
+        alt: 'Vent Cutter Kanatlı Kesim Bıçağı — Paslanmaz Çelik Dairesel Eviscerasyon Bıçağı Tavuk Hindi İşleme | Alya Bıçak',
+        width: 1920,
+        height: 1080,
       },
       gallery: [
         {
           src: '/images/products/vent-cutter-kanatli-kesim-bicagi-2.jpg',
-          alt: 'Vent Cutter İleri İşlem Bıçağı Detay — Kanatlı Hayvan Kesimhane Eviscerasyon Hattı Bıçağı Marel Meyn Uyumlu | Alya Bıçak',
+          alt: 'Vent Cutter İleri İşlem Bıçağı Detay — Kanatlı Hayvan Kesimhane Eviscerasyon Hattı Bıçağı | Alya Bıçak',
           width: 800,
           height: 800,
         },
