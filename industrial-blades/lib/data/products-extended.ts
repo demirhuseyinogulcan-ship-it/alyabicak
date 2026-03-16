@@ -397,19 +397,19 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/h006-001-x01/main.webp',
         alt: 'RETRO LIGHT KNIFE - Döküm Metal El Bıçağı',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [
-        { src: '/images/products/h006-001-x01/gallery-1.webp', alt: 'Yan görünüm', width: 800, height: 800 },
-        { src: '/images/products/h006-001-x01/gallery-2.webp', alt: 'Detay görünüm', width: 800, height: 800 },
-        { src: '/images/products/h006-001-x01/gallery-3.webp', alt: 'Kullanım örneği', width: 800, height: 800 },
+        { src: '/images/products/h006-001-x01/gallery-1.webp', alt: 'Yan görünüm', width: 1920, height: 1080 },
+        { src: '/images/products/h006-001-x01/gallery-2.webp', alt: 'Detay görünüm', width: 1920, height: 1080 },
+        { src: '/images/products/h006-001-x01/gallery-3.webp', alt: 'Kullanım örneği', width: 1920, height: 1080 },
       ],
       thumbnail: {
         src: '/images/products/h006-001-x01/thumb.webp',
         alt: 'RETRO LIGHT KNIFE',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -500,15 +500,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/placeholder.jpg',
         alt: 'AUTO RETRACT - Otomatik Geri Çekilebilir',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/placeholder-thumb.jpg',
         alt: 'AUTO RETRACT',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -585,14 +585,14 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         src: '/images/products/3-delikli-jilet.jpg',
         alt: '3 Delikli Dilme Jileti - Titanyum Kaplamalı',
         width: 800,
-        height: 800,
+        height: 450,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/3-delikli-jilet.jpg',
         alt: '3 Delikli Dilme Jileti',
-        width: 400,
-        height: 400,
+        width: 800,
+        height: 450,
       },
     },
 
@@ -697,15 +697,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-karbon-celik.jpg',
         alt: 'Slotted Dilme Jileti - Karbon Çelik SK5 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-karbon-celik.jpg',
         alt: 'Slotted Dilme Jileti Karbon Çelik',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -787,15 +787,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-karbon-titanyum.jpg',
         alt: 'Slotted Dilme Jileti - Karbon Çelik TiN Kaplama 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-karbon-titanyum.jpg',
         alt: 'Slotted TiN Kaplama',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -878,15 +878,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-karbon-seramik.jpg',
         alt: 'Slotted Dilme Jileti - Seramik Kaplama 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-karbon-seramik.jpg',
         alt: 'Slotted Seramik Kaplama',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -969,15 +969,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-paslanmaz.jpg',
         alt: 'Slotted Dilme Jileti - Paslanmaz Çelik 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-paslanmaz.jpg',
         alt: 'Slotted Paslanmaz Çelik',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1060,15 +1060,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-paslanmaz-titanyum.jpg',
         alt: 'Slotted Dilme Jileti - Paslanmaz TiN Kaplama 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-paslanmaz-titanyum.jpg',
         alt: 'Slotted Paslanmaz TiN',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1150,15 +1150,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-paslanmaz-xcd.jpg',
         alt: 'Slotted Dilme Jileti - XCD DLC Kaplama 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-paslanmaz-xcd.jpg',
         alt: 'Slotted XCD Kaplama',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1241,15 +1241,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-endurium-seramik.jpg',
         alt: 'Slotted Dilme Jileti - Endurium HSS Seramik 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-endurium-seramik.jpg',
         alt: 'Slotted Endurium HSS',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1333,15 +1333,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-yekpare-tungsten.jpg',
         alt: 'Slotted Dilme Jileti - Yekpare Tungsten Karbür 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-yekpare-tungsten.jpg',
         alt: 'Slotted Tungsten Karbür',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1427,15 +1427,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/slotted-yekpare-seramik.jpg',
         alt: 'Slotted Dilme Jileti - Yekpare Zirkonya Seramik 57x19mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/slotted-yekpare-seramik.jpg',
         alt: 'Slotted Zirkonya Seramik',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1541,17 +1541,17 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b581-cam-elyaf-bicagi.jpg',
         alt: 'B581 Cam Elyaf Bıçağı - Tungsten Karbür Alaşımlı Chopper Blade',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [
-        { src: '/images/products/b581-cam-elyaf-bicagi.jpg', alt: 'B581 Cam Elyaf Bıçağı - Genel Görünüm', width: 800, height: 800 },
+        { src: '/images/products/b581-cam-elyaf-bicagi.jpg', alt: 'B581 Cam Elyaf Bıçağı - Genel Görünüm', width: 1920, height: 1080 },
       ],
       thumbnail: {
         src: '/images/products/b581-cam-elyaf-bicagi.jpg',
         alt: 'B581 Cam Elyaf Bıçağı',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1669,17 +1669,17 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b657-dairesel-jilet.jpg',
         alt: 'B657 Dairesel Jilet - OLFA Uyumlu Rotary Blade',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [
-        { src: '/images/products/b657-dairesel-jilet.jpg', alt: 'B657 Dairesel Jilet Serisi - Genel Görünüm', width: 800, height: 800 },
+        { src: '/images/products/b657-dairesel-jilet.jpg', alt: 'B657 Dairesel Jilet Serisi - Genel Görünüm', width: 1920, height: 1080 },
       ],
       thumbnail: {
         src: '/images/products/b657-dairesel-jilet.jpg',
         alt: 'B657 Dairesel Jilet',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1798,17 +1798,17 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/2cs1-besgen-bicak.jpg',
         alt: '2CS1 Beşgen Bıçak - Yekpare Tungsten Karbür ve Seramik Pentagon Blade',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [
-        { src: '/images/products/2cs1-besgen-bicak.jpg', alt: '2CS1 Beşgen Bıçak Serisi - Genel Görünüm', width: 800, height: 800 },
+        { src: '/images/products/2cs1-besgen-bicak.jpg', alt: '2CS1 Beşgen Bıçak Serisi - Genel Görünüm', width: 1920, height: 1080 },
       ],
       thumbnail: {
         src: '/images/products/2cs1-besgen-bicak.jpg',
         alt: '2CS1 Beşgen Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -1923,17 +1923,17 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b084075-lamel-bicak.jpg',
         alt: 'B084.075 Lamel Yaprak Bıçak - Yekpare Seramik ve Tungsten Karbür',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [
-        { src: '/images/products/b084075-lamel-bicak.jpg', alt: 'B084.075 Lamel Bıçak Serisi - Genel Görünüm', width: 800, height: 800 },
+        { src: '/images/products/b084075-lamel-bicak.jpg', alt: 'B084.075 Lamel Bıçak Serisi - Genel Görünüm', width: 1920, height: 1080 },
       ],
       thumbnail: {
         src: '/images/products/b084075-lamel-bicak.jpg',
         alt: 'B084.075 Lamel Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -2030,9 +2030,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>Gıda sanayiinde HACCP ve BRC standartlarına uygun yüzey kalitesi sunar. Ra ≤0.4 µm yüzey pürüzlülüğü sayesinde gıda parçacıklarının bıçak yüzeyine yapışması önlenir, böylece hijyen standartları korunur.</p>
 <p>Düz kesim, kontör kesim, yıldız zımba ve hava zımbası dahil tüm termoform vakum paketleme bıçak tiplerinin genel referans ürünüdür. Spesifik makine modeli için teknik destek ekibimiz en uygun SKU eşleşmesini sağlar.</p>`,
     images: {
-      main: { src: '/images/products/vakum-paketleme.jpg', alt: 'Vakum Paketleme Bıçağı - VPB-001 - Thermoform Machine Knife', width: 800, height: 800 },
+      main: { src: '/images/products/vakum-paketleme.jpg', alt: 'Vakum Paketleme Bıçağı - VPB-001 - Thermoform Machine Knife', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/vakum-paketleme.jpg', alt: 'VPB-001 Vacuum Packaging Blade', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/vakum-paketleme.jpg', alt: 'VPB-001 Vacuum Packaging Blade', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'Yüksek kalite çelik (Yüksek Karbonlu)', icon: 'Layers', highlight: true },
@@ -2085,9 +2085,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 </ul>
 <p>Tüm büyük termoform ve vakum paketleme makinelerine uyumludur. Spesifik makine modeli için teknik destek ekibimizle iletişime geçiniz.</p>`,
     images: {
-      main: { src: '/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg', alt: 'Kontör Bıçağı - Contour Blade - Thermoform Vacuum Packaging', width: 800, height: 800 },
+      main: { src: '/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg', alt: 'Kontör Bıçağı - Contour Blade - Thermoform Vacuum Packaging', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg', alt: 'Contour Blade VPB', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/kontr-biai-termoform-vakum-paketleme-bicagi.jpg', alt: 'Contour Blade VPB', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
@@ -2138,11 +2138,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Geometri:</strong> Yarım yıldız deseni, filmde optimum havalandırma alanı oluştururken ambalaj bütünlüğünü korur.</p>
 <p><strong>Kaplama:</strong> TiN (Titanyum Nitrür) PVD kaplama ile yüzey sertliği önemli ölçüde artar, sürtünme %40 azalır, bıçak ömrü 3-5x artar.</p>`,
     images: {
-      main: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Yarım Yıldız Zımba - Half Star Punch - Vacuum Packaging', width: 800, height: 800 },
+      main: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Yarım Yıldız Zımba - Half Star Punch - Vacuum Packaging', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/titanyum-kaplamali-zimba-bicaklar.jpg', alt: 'TiN Coated Half Star Punch Blade', width: 800, height: 800 },
+        { src: '/images/products/titanyum-kaplamali-zimba-bicaklar.jpg', alt: 'TiN Coated Half Star Punch Blade', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Half Star Punch D2 Steel', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Half Star Punch D2 Steel', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'D2 Takım Çeliği', icon: 'Layers', highlight: true },
@@ -2191,11 +2191,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Malzeme:</strong> D2 soğuk iş takım çeliği. İkincil sertleşme etkisiyle HRC 58-60 kararlı sertlik.</p>
 <p>Tüm büyük termoform ve vakum paketleme makinelerine uyumludur.</p>`,
     images: {
-      main: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Tam Yıldız Zımba - Full Star Punch - Vacuum Packaging', width: 800, height: 800 },
+      main: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Tam Yıldız Zımba - Full Star Punch - Vacuum Packaging', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/titanyum-kaplamali-zimba-bicaklar.jpg', alt: 'TiN Coated Full Star Punch', width: 800, height: 800 },
+        { src: '/images/products/titanyum-kaplamali-zimba-bicaklar.jpg', alt: 'TiN Coated Full Star Punch', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Full Star Punch D2 Steel', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/vakum-zimba-bicaklar.jpg', alt: 'Full Star Punch D2 Steel', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'D2 Takım Çeliği', icon: 'Layers', highlight: true },
@@ -2249,9 +2249,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 </ul>
 <p>Tüm büyük termoform ve vakum paketleme makinelerine uyumludur.</p>`,
     images: {
-      main: { src: '/images/products/vakum-lama-bicaklar.jpg', alt: 'Düz Lama Bıçak - Straight Blade - HSS M2 Vacuum Packaging', width: 800, height: 800 },
+      main: { src: '/images/products/vakum-lama-bicaklar.jpg', alt: 'Düz Lama Bıçak - Straight Blade - HSS M2 Vacuum Packaging', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/vakum-lama-bicaklar.jpg', alt: 'HSS M2 Straight Blade', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/vakum-lama-bicaklar.jpg', alt: 'HSS M2 Straight Blade', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'HSS M2 Yüksek Hız Çeliği', icon: 'Layers', highlight: true },
@@ -2300,9 +2300,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Bileme:</strong> Kenar açısı 18-22° hassas taşlama ile oluşturulur. Yeniden bileme kalibrasyon hizmeti mevcuttur.</p>
 <p>Tüm büyük termoform ve vakum paketleme makinelerine uyumludur.</p>`,
     images: {
-      main: { src: '/images/products/dairesel-bicaklar.jpg', alt: 'Dairesel Bıçak - Circular Blade - Vacuum Packaging Rotary', width: 800, height: 800 },
+      main: { src: '/images/products/dairesel-bicaklar.jpg', alt: 'Dairesel Bıçak - Circular Blade - Vacuum Packaging Rotary', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/dairesel-bicaklar.jpg', alt: 'Circular Rotary Blade', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/dairesel-bicaklar.jpg', alt: 'Circular Rotary Blade', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
@@ -2352,9 +2352,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Yüzey İşlemi:</strong> Elektropolisaj ile Ra ≤0.3 µm pürüzlülük, HACCP ve FDA 21 CFR 175.300 standartlarına uygun gıda teması kalitesi.</p>
 <p>Tüm büyük termoform ve vakum paketleme makinelerine uyumludur.</p>`,
     images: {
-      main: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Yuvarlak Hava Zımbası - Round Air Punch - Vacuum Packaging', width: 800, height: 800 },
+      main: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Yuvarlak Hava Zımbası - Round Air Punch - Vacuum Packaging', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Round Air Punch 440C', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Round Air Punch 440C', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'AISI 440C Martensitik Paslanmaz', icon: 'Layers', highlight: true },
@@ -2404,9 +2404,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>440C Özellikleri:</strong> Martensitik yapıda hem HRC 58-60 sertlik hem de üstün korozyon direnci sunar. Elektropolisaj ile Ra ≤0.3 µm gıda sınıfı yüzey.</p>
 <p>Tüm büyük termoform ve vakum paketleme makinelerine uyumludur.</p>`,
     images: {
-      main: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Oval Hava Zımbası - Oval Air Punch - Vacuum Packaging', width: 800, height: 800 },
+      main: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Oval Hava Zımbası - Oval Air Punch - Vacuum Packaging', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Oval Air Punch 440C', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/vakum-hava-zimba-bicaklari.jpg', alt: 'Oval Air Punch 440C', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'AISI 440C Martensitik Paslanmaz', icon: 'Layers', highlight: true },
@@ -2463,9 +2463,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 </ul>
 <p>Tüm büyük termoform ve vakum paketleme makinelerine uyumludur.</p>`,
     images: {
-      main: { src: '/images/products/dili-bicaklar.jpg', alt: 'Dişli Bıçak - Serrated Blade - Vacuum Packaging Saw-Tooth', width: 800, height: 800 },
+      main: { src: '/images/products/dili-bicaklar.jpg', alt: 'Dişli Bıçak - Serrated Blade - Vacuum Packaging Saw-Tooth', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/dili-bicaklar.jpg', alt: 'Serrated Saw-Tooth Blade', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/dili-bicaklar.jpg', alt: 'Serrated Saw-Tooth Blade', width: 1920, height: 1080 },
     },
     specs: [
       { label: 'Malzeme', value: 'Yüksek Karbonlu Çelik', icon: 'Layers', highlight: true },
@@ -2540,15 +2540,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/single-edge-carbon-2f.jpg',
         alt: 'Tek Kenar Jilet Karbon Çelik 0.23mm 2-Facet B201',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/single-edge-carbon-2f.jpg',
         alt: 'Tek Kenar Jilet Karbon Çelik 2-Facet',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -2648,15 +2648,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/single-edge-carbon-3f.jpg',
         alt: 'Tek Kenar Jilet Karbon Çelik 0.23mm 3-Facet',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/single-edge-carbon-3f.jpg',
         alt: 'Tek Kenar Jilet Karbon Çelik 3-Facet',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -2755,15 +2755,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/single-edge-stainless.jpg',
         alt: 'Tek Kenar Jilet Paslanmaz Çelik 0.23mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/single-edge-stainless.jpg',
         alt: 'Tek Kenar Jilet Paslanmaz Çelik',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -2867,15 +2867,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/single-edge-stainless-ptfe.jpg',
         alt: 'Tek Kenar Jilet Paslanmaz Çelik PTFE Kaplama 0.23mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/single-edge-stainless-ptfe.jpg',
         alt: 'Tek Kenar Jilet PTFE Kaplama',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -2979,15 +2979,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/single-edge-carbon-030.jpg',
         alt: 'Tek Kenar Jilet Karbon Çelik 0.30mm Heavy Duty',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/single-edge-carbon-030.jpg',
         alt: 'Tek Kenar Jilet Heavy Duty 0.30mm',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -3072,11 +3072,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>Maket bıçakları, güvenlik kesiciler, zemin döşeme aletleri ve profesyonel el aletlerinde yedek uç olarak kullanılır. Karton, halı, linoleum, PVC, ambalaj filmi, deri ve tekstil kesiminde üstün performans sağlar.</p>`,
 
     images: {
-      main: { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Bıçak Kalın 0.63mm', width: 800, height: 800 },
+      main: { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Bıçak Kalın 0.63mm', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Kalın - Genel Görünüm', width: 800, height: 800 },
+        { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Kalın - Genel Görünüm', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Kalın', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b207-trapez-kalin.jpg', alt: 'B207 Trapez Kalın', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3178,11 +3178,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Trapez bıçaklar</strong> tek başına makinelerde kesim için kullanılabileceği gibi, el bıçaklarında yedek uç olarak da kullanılmaktadır.</p>`,
 
     images: {
-      main: { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 Trapez Bıçak İnce 0.43mm', width: 800, height: 800 },
+      main: { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 Trapez Bıçak İnce 0.43mm', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 İnce Trapez - Genel Görünüm', width: 800, height: 800 },
+        { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 İnce Trapez - Genel Görünüm', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 İnce Trapez', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b206-trapez-bicak-jilet-ince.jpg', alt: 'B206 İnce Trapez', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3269,11 +3269,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>Halat, ip, sicim, sentetik elyaf, cam elyaf, karbon elyaf, Kevlar ve benzeri güç gerektiren malzemelerde tercih edilir.</p>`,
 
     images: {
-      main: { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Trapez Tırtıklı Kenar Bıçak', width: 800, height: 800 },
+      main: { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Trapez Tırtıklı Kenar Bıçak', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Tırtıklı Trapez - Genel Görünüm', width: 800, height: 800 },
+        { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Tırtıklı Trapez - Genel Görünüm', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Tırtıklı Trapez', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b082-trapez-tirtikli-kenar.jpg', alt: 'B082 Tırtıklı Trapez', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3349,11 +3349,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>0.63mm standart kalınlık ve 1 delikli montaj tasarımı ile özel el aletleri ve kompakt kesicilerde yedek uç olarak kullanılır. Elektronik bileşen kesimi, ince kablo soyma ve detay işlerinde tercih edilen özel bir trapez formudur.</p>`,
 
     images: {
-      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez Bıçak 61×12.5mm', width: 800, height: 800 },
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez Bıçak 61×12.5mm', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez', width: 800, height: 800 },
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B213 Kompakt Trapez', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3425,11 +3425,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>1×6mm delikli tasarımı, özel tutucular ve endüstriyel makinelerde kullanıma uygundur. Belirli marka el bıçakları ve otomasyon sistemlerindeki kesici ünitelere yedek uç olarak tercih edilir.</p>`,
 
     images: {
-      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez Bıçak 71×17mm', width: 800, height: 800 },
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez Bıçak 71×17mm', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez', width: 800, height: 800 },
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B218 Orta Özel Trapez', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3502,11 +3502,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>0.43mm kalınlık ve 3×3.5mm üçlü delik konfigürasyonu ile özel tutucu sistemlerine monte edilir. Elektronik montaj, tıbbi cihaz imalatı, model yapımı ve mikro kesim gerektiren laboratuvar işlemlerinde kullanılır.</p>`,
 
     images: {
-      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez Bıçak 27.6×9mm', width: 800, height: 800 },
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez Bıçak 27.6×9mm', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez', width: 800, height: 800 },
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'B214 Mikro Trapez', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3580,11 +3580,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>Özellikle büyük boy karton kutu açma, geniş ambalaj filmlerinin kesilmesi, büyük yüzey halılarının döşenmesi ve endüstriyel paketleme işlemlerinde standart boyuta göre daha verimli çalışma sağlar.</p>`,
 
     images: {
-      main: { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun Trapez Bıçak', width: 800, height: 800 },
+      main: { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun Trapez Bıçak', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun Trapez', width: 800, height: 800 },
+        { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun Trapez', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b207-l.jpg', alt: 'B207 L Uzun', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3685,15 +3685,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b207-xxl-uzun.jpg',
         alt: 'B207 XXL Alçı Levha Bıçağı 170×19×0.80mm 2 Çentik 4 Delik — Alya Bıçak',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/b207-xxl-uzun.jpg',
         alt: 'B207 XXL Alçı Levha Bıçağı — Alya Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -3795,11 +3795,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Özel sipariş sürecimiz:</strong> İhtiyacınıza uygun boyut, malzeme, kalınlık, çentik/delik konfigürasyonu ve kaplama seçenekleri ile müşteriye özel trapez bıçak üretimi yapılmaktadır. Minimum sipariş adedi için bizimle iletişime geçin.</p>`,
 
     images: {
-      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Özel Tasarım Trapez Bıçak 100×19mm', width: 800, height: 800 },
+      main: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Özel Tasarım Trapez Bıçak 100×19mm', width: 1920, height: 1080 },
       gallery: [
-        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Trapez Özel Tasarım', width: 800, height: 800 },
+        { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Trapez Özel Tasarım', width: 1920, height: 1080 },
       ],
-      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Özel Trapez', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/trapez-ozel-tasarim.jpg', alt: 'Özel Trapez', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3882,9 +3882,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Ambalaj açma, shrink film kesimi, bant/etiket sıyırma, koli açma. Depo, lojistik ve üretim hatlarında güvenli kesim için tercih edilir.</p>`,
 
     images: {
-      main: { src: '/images/products/b208-sivri-uc-standart-tip.jpg', alt: 'B208 Sivri Uçlu Kanca Bıçak', width: 800, height: 800 },
+      main: { src: '/images/products/b208-sivri-uc-standart-tip.jpg', alt: 'B208 Sivri Uçlu Kanca Bıçak', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b208-sivri-uc-standart-tip.jpg', alt: 'B208 Hook Blade', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b208-sivri-uc-standart-tip.jpg', alt: 'B208 Hook Blade', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -3971,9 +3971,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Tekstil uygulamaları:</strong> Kumaş topları açma, balya kesimi, sentetik elyaf kesimi, deri ve suni deri kesimi. Geniş kollu form iplik çekmesi ve kumaş yırtılmasını minimize eder.</p>`,
 
     images: {
-      main: { src: '/images/products/b208-genis-uclu-tekstil.jpg', alt: 'B208 Geniş Uçlu Tekstil Kanca Bıçak', width: 800, height: 800 },
+      main: { src: '/images/products/b208-genis-uclu-tekstil.jpg', alt: 'B208 Geniş Uçlu Tekstil Kanca Bıçak', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b208-genis-uclu-tekstil.jpg', alt: 'B208 Tekstil', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b208-genis-uclu-tekstil.jpg', alt: 'B208 Tekstil', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4047,9 +4047,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Öne çıkan özellik:</strong> 4 delikli montaj sistemi, farklı kanca bıçak tutucularına maksimum uyum. Yüksek karbon çelik ile uzun ömürlü keskinlik.</p>`,
 
     images: {
-      main: { src: '/images/products/sper-kanca-uzun.jpg', alt: 'Süper Kanca Uzun Hook Blade', width: 800, height: 800 },
+      main: { src: '/images/products/sper-kanca-uzun.jpg', alt: 'Süper Kanca Uzun Hook Blade', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/sper-kanca-uzun.jpg', alt: 'Süper Kanca', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/sper-kanca-uzun.jpg', alt: 'Süper Kanca', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4122,9 +4122,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Güvenlik avantajı:</strong> Yuvarlatılmış uç, operatörün yanlışlıkla alt malzemeyi çizmesini veya delmesini önler. Özellikle değerli ürünlerin ambalaj açma işlemlerinde tercih edilir.</p>`,
 
     images: {
-      main: { src: '/images/products/yuvarlatilmi-uclu-kanca.jpg', alt: 'Yuvarlatılmış Uçlu Kanca Bıçak', width: 800, height: 800 },
+      main: { src: '/images/products/yuvarlatilmi-uclu-kanca.jpg', alt: 'Yuvarlatılmış Uçlu Kanca Bıçak', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/yuvarlatilmi-uclu-kanca.jpg', alt: 'Yuvarlatılmış Kanca', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/yuvarlatilmi-uclu-kanca.jpg', alt: 'Yuvarlatılmış Kanca', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4202,9 +4202,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p>Tekstil fabrikaları, konfeksiyon atölyeleri ve kumaş depoları için standart kesim bıçağıdır.</p>`,
 
     images: {
-      main: { src: '/images/products/if-kanca-tekstil.jpg', alt: 'IF Kanca Tekstil Bıçak', width: 800, height: 800 },
+      main: { src: '/images/products/if-kanca-tekstil.jpg', alt: 'IF Kanca Tekstil Bıçak', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/if-kanca-tekstil.jpg', alt: 'IF Kanca', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/if-kanca-tekstil.jpg', alt: 'IF Kanca', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4283,9 +4283,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Avantaj:</strong> Tek taraflı kenar, operatörün kesim yönünü tam kontrol etmesini sağlar. Özellikle hassas ambalaj açma operasyonlarında alt ürüne zarar vermeden tek yönlü kesim yapılabilir.</p>`,
 
     images: {
-      main: { src: '/images/products/b209-tek-tarafli-kanca.jpg', alt: 'B209 Tek Taraflı Kanca Bıçak', width: 800, height: 800 },
+      main: { src: '/images/products/b209-tek-tarafli-kanca.jpg', alt: 'B209 Tek Taraflı Kanca Bıçak', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b209-tek-tarafli-kanca.jpg', alt: 'B209 Kanca', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b209-tek-tarafli-kanca.jpg', alt: 'B209 Kanca', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4368,9 +4368,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Ağır hizmet tekstil kesimi, kalın halat ve kayış kesimi, büyük balya açma ve endüstriyel ambalaj operasyonları. Büyük gövde ile operatöre maksimum kontrol sağlar.</p>`,
 
     images: {
-      main: { src: '/images/products/kanca-hob-1.jpg', alt: 'Kanca HOB-1 Büyük Boy Hook Blade', width: 800, height: 800 },
+      main: { src: '/images/products/kanca-hob-1.jpg', alt: 'Kanca HOB-1 Büyük Boy Hook Blade', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/kanca-hob-1.jpg', alt: 'HOB-1 Kanca', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/kanca-hob-1.jpg', alt: 'HOB-1 Kanca', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4450,9 +4450,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Film dilme, kağıt slitting, ince malzeme dilme makineleri ve hassas endüstriyel dilme operasyonları.</p>`,
 
     images: {
-      main: { src: '/images/products/b226-supaslit-jileti.jpg', alt: 'B226 Supaslit Jileti - Dilme Bıçağı', width: 800, height: 800 },
+      main: { src: '/images/products/b226-supaslit-jileti.jpg', alt: 'B226 Supaslit Jileti - Dilme Bıçağı', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b226-supaslit-jileti.jpg', alt: 'B226 Supaslit', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b226-supaslit-jileti.jpg', alt: 'B226 Supaslit', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4522,9 +4522,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Maket/model yapımı, grafik sanatları, mimari maket, elektronik PCB temizliği, laboratuvar disseksiyonu, vinil/decal kesimi, kâğıt sanatları, 3D baskı sonrası temizlik, minyatür boyama hazırlığı ve fotoğraf rötuşu.</p>`,
 
     images: {
-      main: { src: '/images/products/b111-hobi-jileti.jpg', alt: 'B111 Hobi Jileti - #11 Hassas Kesim Bıçağı', width: 800, height: 800 },
+      main: { src: '/images/products/b111-hobi-jileti.jpg', alt: 'B111 Hobi Jileti - #11 Hassas Kesim Bıçağı', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b111-hobi-jileti.jpg', alt: 'B111 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b111-hobi-jileti.jpg', alt: 'B111 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4600,9 +4600,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Grafik tasarım, ince maket çalışmaları, deri işçiliği, kâğıt sanatları, minyatür boyama hazırlığı ve hassas detay kesimleri.</p>`,
 
     images: {
-      main: { src: '/images/products/b112-hobi-jileti.jpg', alt: 'B112 Hobi Jileti - #12 Kompakt Hassas Kesim', width: 800, height: 800 },
+      main: { src: '/images/products/b112-hobi-jileti.jpg', alt: 'B112 Hobi Jileti - #12 Kompakt Hassas Kesim', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b112-hobi-jileti.jpg', alt: 'B112 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b112-hobi-jileti.jpg', alt: 'B112 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4671,9 +4671,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Model yapımı, tabela kesimi, vinil uygulama, endüstriyel hassas kesim ve uzun düz dilimleme operasyonları.</p>`,
 
     images: {
-      main: { src: '/images/products/b113-hobi-jileti.jpg', alt: 'B113 Hobi Jileti - #13 Uzun Profil Hassas Kesim', width: 800, height: 800 },
+      main: { src: '/images/products/b113-hobi-jileti.jpg', alt: 'B113 Hobi Jileti - #13 Uzun Profil Hassas Kesim', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b113-hobi-jileti.jpg', alt: 'B113 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b113-hobi-jileti.jpg', alt: 'B113 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4742,9 +4742,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Vinil kesim, profesyonel el sanatları, model yapımı, endüstriyel hassas kesim ve yoğun kullanım gerektiren uygulamalar.</p>`,
 
     images: {
-      main: { src: '/images/products/b114-hobi-jileti.jpg', alt: 'B114 Hobi Jileti - #14 TiN Kaplama & Karbon', width: 800, height: 800 },
+      main: { src: '/images/products/b114-hobi-jileti.jpg', alt: 'B114 Hobi Jileti - #14 TiN Kaplama & Karbon', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b114-hobi-jileti.jpg', alt: 'B114 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b114-hobi-jileti.jpg', alt: 'B114 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4818,9 +4818,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Elektronik kart temizliği, minyatür model yapımı, PCB prototip düzeltme, ince maket çalışmaları ve hassas detay kesim.</p>`,
 
     images: {
-      main: { src: '/images/products/b141-hobi-jileti.jpg', alt: 'B141 Hobi Jileti - Kompakt Eğimli Uç', width: 800, height: 800 },
+      main: { src: '/images/products/b141-hobi-jileti.jpg', alt: 'B141 Hobi Jileti - Kompakt Eğimli Uç', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b141-hobi-jileti.jpg', alt: 'B141 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b141-hobi-jileti.jpg', alt: 'B141 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4889,9 +4889,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Maket yapımı, karton kesim, endüstriyel prototip, sıyırma ve kazıma operasyonları.</p>`,
 
     images: {
-      main: { src: '/images/products/b142-hobi-jileti-buyuk.jpg', alt: 'B142 Büyük Hobi Jileti - Geniş Profil', width: 800, height: 800 },
+      main: { src: '/images/products/b142-hobi-jileti-buyuk.jpg', alt: 'B142 Büyük Hobi Jileti - Geniş Profil', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b142-hobi-jileti-buyuk.jpg', alt: 'B142 Büyük', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b142-hobi-jileti-buyuk.jpg', alt: 'B142 Büyük', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -4960,9 +4960,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Minyatür model yapımı, elektronik montaj, ince detay kesimleri ve OLFA AK-4 serisi sanat bıçaklarıyla uyumlu yedek bıçak olarak.</p>`,
 
     images: {
-      main: { src: '/images/products/b142k-hobi-jileti-kucuk.jpg', alt: 'B142 Küçük Hobi Jileti - OLFA Uyumlu', width: 800, height: 800 },
+      main: { src: '/images/products/b142k-hobi-jileti-kucuk.jpg', alt: 'B142 Küçük Hobi Jileti - OLFA Uyumlu', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b142k-hobi-jileti-kucuk.jpg', alt: 'B142 Küçük', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b142k-hobi-jileti-kucuk.jpg', alt: 'B142 Küçük', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5036,9 +5036,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Deri işçiliği, kâğıt sanatları, çapak alma, ince detay kesim ve dekoratif sıyırma.</p>`,
 
     images: {
-      main: { src: '/images/products/b143-hobi-jileti.jpg', alt: 'B143 Hobi Jileti - Kanca Form', width: 800, height: 800 },
+      main: { src: '/images/products/b143-hobi-jileti.jpg', alt: 'B143 Hobi Jileti - Kanca Form', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b143-hobi-jileti.jpg', alt: 'B143 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b143-hobi-jileti.jpg', alt: 'B143 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5106,9 +5106,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Stencil ve şablon kesimi, baskı hazırlık, yüzey kazıma ve temizleme, endüstriyel temizlik uygulamaları.</p>`,
 
     images: {
-      main: { src: '/images/products/b144-hobi-jileti.jpg', alt: 'B144 Hobi Jileti - Düz Kenar Chisel', width: 800, height: 800 },
+      main: { src: '/images/products/b144-hobi-jileti.jpg', alt: 'B144 Hobi Jileti - Düz Kenar Chisel', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b144-hobi-jileti.jpg', alt: 'B144 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b144-hobi-jileti.jpg', alt: 'B144 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5177,9 +5177,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Profesyonel maket yapımı, grafik işleri, şablon kesimi, geniş yüzey sıyırma, baskı hazırlık ve OLFA AK-4 serisi uyumlu yedek bıçak.</p>`,
 
     images: {
-      main: { src: '/images/products/b145-hobi-jileti-cok-boyutlu.jpg', alt: 'B145 Çok Boyutlu Hobi Jileti', width: 800, height: 800 },
+      main: { src: '/images/products/b145-hobi-jileti-cok-boyutlu.jpg', alt: 'B145 Çok Boyutlu Hobi Jileti', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b145-hobi-jileti-cok-boyutlu.jpg', alt: 'B145 Çok Boyutlu', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b145-hobi-jileti-cok-boyutlu.jpg', alt: 'B145 Çok Boyutlu', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5255,9 +5255,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Kavisli kesim, kalıp çalışmaları, büyük ölçekli maket, endüstriyel hobi ve prototip işlemleri.</p>`,
 
     images: {
-      main: { src: '/images/products/b146-hobi-jileti.jpg', alt: 'B146 Hobi Jileti - Eğimli Geniş Profil', width: 800, height: 800 },
+      main: { src: '/images/products/b146-hobi-jileti.jpg', alt: 'B146 Hobi Jileti - Eğimli Geniş Profil', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b146-hobi-jileti.jpg', alt: 'B146 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b146-hobi-jileti.jpg', alt: 'B146 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5325,9 +5325,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Mimari model yapım, tabela kesimi, profesyonel grafik, reklam panosu ve büyük ölçekli detay kesimleri.</p>`,
 
     images: {
-      main: { src: '/images/products/b147-hobi-jileti.jpg', alt: 'B147 Hobi Jileti - Sivri Uç Geniş Gövde', width: 800, height: 800 },
+      main: { src: '/images/products/b147-hobi-jileti.jpg', alt: 'B147 Hobi Jileti - Sivri Uç Geniş Gövde', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b147-hobi-jileti.jpg', alt: 'B147 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b147-hobi-jileti.jpg', alt: 'B147 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5395,9 +5395,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Deri işçiliği, kâğıt sanatları, vinil kesim, dekoratif uygulamalar ve eğrisel detay kesimleri.</p>`,
 
     images: {
-      main: { src: '/images/products/b148-hobi-jileti.jpg', alt: 'B148 Hobi Jileti - Kavisli Profil', width: 800, height: 800 },
+      main: { src: '/images/products/b148-hobi-jileti.jpg', alt: 'B148 Hobi Jileti - Kavisli Profil', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b148-hobi-jileti.jpg', alt: 'B148 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b148-hobi-jileti.jpg', alt: 'B148 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5465,9 +5465,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> 3D baskı sonrası temizlik (support removal), minyatür model yapımı, elektronik prototip düzeltme ve hassas sıyırma operasyonları.</p>`,
 
     images: {
-      main: { src: '/images/products/b149-hobi-jileti.jpg', alt: 'B149 Hobi Jileti - Kompakt Geniş Profil', width: 800, height: 800 },
+      main: { src: '/images/products/b149-hobi-jileti.jpg', alt: 'B149 Hobi Jileti - Kompakt Geniş Profil', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b149-hobi-jileti.jpg', alt: 'B149 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b149-hobi-jileti.jpg', alt: 'B149 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5536,9 +5536,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Ağır hizmet hobi kesimi, balsawood ve plastik model yapımı, kalın karton kesim, kompozit malzeme işleme ve endüstriyel prototip.</p>`,
 
     images: {
-      main: { src: '/images/products/b150-hobi-jileti-25.jpg', alt: 'B150 Hobi Jileti #25 - Geniş Gövde', width: 800, height: 800 },
+      main: { src: '/images/products/b150-hobi-jileti-25.jpg', alt: 'B150 Hobi Jileti #25 - Geniş Gövde', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b150-hobi-jileti-25.jpg', alt: 'B150 #25', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b150-hobi-jileti-25.jpg', alt: 'B150 #25', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5606,9 +5606,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Profesyonel maket yapımı, tabela kesimi, reklam panosu, endüstriyel kesim ve büyük ölçekli şekillendirme operasyonları.</p>`,
 
     images: {
-      main: { src: '/images/products/b151-hobi-jileti.jpg', alt: 'B151 Hobi Jileti - Profesyonel Sivri Uç', width: 800, height: 800 },
+      main: { src: '/images/products/b151-hobi-jileti.jpg', alt: 'B151 Hobi Jileti - Profesyonel Sivri Uç', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/b151-hobi-jileti.jpg', alt: 'B151 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/b151-hobi-jileti.jpg', alt: 'B151 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5677,9 +5677,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Kâğıt sanatları, ince maket kesimi, stencil, kaligrafi, scrapbooking, vinil çıkartma ve hassas detay çalışmaları.</p>`,
 
     images: {
-      main: { src: '/images/products/kb-hobi-jileti.jpg', alt: 'KB Hobi Jileti - OLFA KB Uyumlu Sanat Bıçağı', width: 800, height: 800 },
+      main: { src: '/images/products/kb-hobi-jileti.jpg', alt: 'KB Hobi Jileti - OLFA KB Uyumlu Sanat Bıçağı', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/kb-hobi-jileti.jpg', alt: 'KB Sanat Bıçağı', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/kb-hobi-jileti.jpg', alt: 'KB Sanat Bıçağı', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5751,9 +5751,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Kâğıt sanatları, kaligrafi, pul koleksiyonu, minyatür çalışmalar, ince vinil kesim ve ultra hassas detay işleri.</p>`,
 
     images: {
-      main: { src: '/images/products/kb-5-hobi-jileti.jpg', alt: 'KB-5 Ultra Kompakt Hobi Jileti', width: 800, height: 800 },
+      main: { src: '/images/products/kb-5-hobi-jileti.jpg', alt: 'KB-5 Ultra Kompakt Hobi Jileti', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/kb-5-hobi-jileti.jpg', alt: 'KB-5 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/kb-5-hobi-jileti.jpg', alt: 'KB-5 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5823,9 +5823,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Hassas eğrisel kesim, stencil çalışmaları, profesyonel sanat uygulamaları, kâğıt sanatları ve hobi projeleri.</p>`,
 
     images: {
-      main: { src: '/images/products/kb4-r5-hobi-jileti.jpg', alt: 'KB4-R/5 Hobi Jileti - OLFA Uyumlu Eğrisel', width: 800, height: 800 },
+      main: { src: '/images/products/kb4-r5-hobi-jileti.jpg', alt: 'KB4-R/5 Hobi Jileti - OLFA Uyumlu Eğrisel', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/kb4-r5-hobi-jileti.jpg', alt: 'KB4-R/5 Hobi Jileti', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/kb4-r5-hobi-jileti.jpg', alt: 'KB4-R/5 Hobi Jileti', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5895,9 +5895,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Köpük kesimi, sünger şekillendirme, polistren (strafor) model yapımı, yumuşak malzeme detay kesimi ve OLFA AK-4 serisi yedek bıçak.</p>`,
 
     images: {
-      main: { src: '/images/products/kb4-ns3-hobi-jileti-disli.jpg', alt: 'KB4-NS/3 Dişli Hobi Jileti - Narrow Serrated', width: 800, height: 800 },
+      main: { src: '/images/products/kb4-ns3-hobi-jileti-disli.jpg', alt: 'KB4-NS/3 Dişli Hobi Jileti - Narrow Serrated', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/kb4-ns3-hobi-jileti-disli.jpg', alt: 'KB4-NS/3 Dişli', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/kb4-ns3-hobi-jileti-disli.jpg', alt: 'KB4-NS/3 Dişli', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -5968,9 +5968,9 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 <p><strong>Kullanım alanları:</strong> Kalın köpük kesimi, balsawood model yapımı, sünger şekillendirme, polistren mimari maket ve OLFA AK-4 serisi yedek bıçak.</p>`,
 
     images: {
-      main: { src: '/images/products/kb4-ws3-hobi-jileti-disli.jpg', alt: 'KB4-WS/3 Geniş Dişli Hobi Jileti - Wide Serrated', width: 800, height: 800 },
+      main: { src: '/images/products/kb4-ws3-hobi-jileti-disli.jpg', alt: 'KB4-WS/3 Geniş Dişli Hobi Jileti - Wide Serrated', width: 1920, height: 1080 },
       gallery: [],
-      thumbnail: { src: '/images/products/kb4-ws3-hobi-jileti-disli.jpg', alt: 'KB4-WS/3 Geniş Dişli', width: 400, height: 400 },
+      thumbnail: { src: '/images/products/kb4-ws3-hobi-jileti-disli.jpg', alt: 'KB4-WS/3 Geniş Dişli', width: 1920, height: 1080 },
     },
 
     specs: [
@@ -6072,15 +6072,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b575-mikrotom-jileti-alcak-profil.jpg',
         alt: 'B575 Mikrotom Jileti – Alçak Profil 80.01×8.13×0.25mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/b575-mikrotom-jileti-alcak-profil.jpg',
         alt: 'B575 Mikrotom Jileti Alçak Profil',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -6215,15 +6215,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b724-mikrotom-jileti-yuksek-profil.jpg',
         alt: 'B724 Mikrotom Jileti – Yüksek Profil 80.01×13.97×0.30mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/b724-mikrotom-jileti-yuksek-profil.jpg',
         alt: 'B724 Mikrotom Jileti Yüksek Profil',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -6361,15 +6361,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b723-001-lasik-mikrokeratom-jileti-2-yuva.jpg',
         alt: 'B723 001 LASİK Mikrokeratom Jileti – 2 Yuva 38.1×7.94×0.25mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/b723-001-lasik-mikrokeratom-jileti-2-yuva.jpg',
         alt: 'B723 001 LASİK Jileti 2 Yuva',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -6505,15 +6505,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b723-501-lasik-mikrokeratom-jileti-1-yuva.jpg',
         alt: 'B723 501 LASİK Mikrokeratom Jileti – 1 Yuva 38.1×7.94×0.25mm',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/b723-501-lasik-mikrokeratom-jileti-1-yuva.jpg',
         alt: 'B723 501 LASİK Jileti 1 Yuva',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -6668,22 +6668,22 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b621-cam-kaziyici-jilet.jpg',
         alt: 'B621 Cam Kazıyıcı Jilet — Paslanmaz Çelik 3 Delikli Profesyonel Cam Kazıma Jileti 65×19×0.20mm | Alya Bıçak Durham Duplex',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [
         {
           src: '/images/products/b621-cam-kaziyici-jilet-detay.jpg',
           alt: 'B621 Cam Kazıma Jileti Detay Görünüm — Laklı Paslanmaz Çelik Yüzey, Endüstriyel Cam Temizlik Bıçağı | Alya Bıçak',
-          width: 800,
-          height: 800,
+          width: 1920,
+          height: 1080,
         },
       ],
       thumbnail: {
         src: '/images/products/b621-cam-kaziyici-jilet.jpg',
         alt: 'B621 Cam Kazıyıcı Jilet Paslanmaz Çelik — Alya Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -6857,15 +6857,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b204-klasik-jilet.jpg',
         alt: 'B204 Endüstriyel Klasik Jilet Paslanmaz Çelik Tek Kenar PTFE Kaplamalı — Alya Bıçak',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/b204-klasik-jilet.jpg',
         alt: 'B204 Klasik Jilet — Alya Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -7013,15 +7013,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/b684-klasik-jilet-medikal.jpg',
         alt: 'B684 B685 Medikal Klasik Jilet Paslanmaz 3 Açılı Bileme Triple Facet— Alya Bıçak',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/b684-klasik-jilet-medikal.jpg',
         alt: 'B684/B685 Medikal Klasik Jilet — Alya Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -7161,15 +7161,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       main: {
         src: '/images/products/ok-bicak.jpg',
         alt: 'OK Bıçak Arrow Blade 30.4×25.0×0.50mm Karbon Çelik Çift Kenar — Alya Bıçak',
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery: [],
       thumbnail: {
         src: '/images/products/ok-bicak.jpg',
         alt: 'OK Bıçak Arrow Blade — Alya Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -7318,15 +7318,15 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         {
           src: '/images/products/vent-cutter-kanatli-kesim-bicagi-2.jpg',
           alt: 'Vent Cutter İleri İşlem Bıçağı Detay — Kanatlı Hayvan Kesimhane Eviscerasyon Hattı Bıçağı | Alya Bıçak',
-          width: 800,
-          height: 800,
+          width: 1920,
+          height: 1080,
         },
       ],
       thumbnail: {
         src: '/images/products/vent-cutter-kanatli-kesim-bicagi.jpg',
         alt: 'Vent Cutter Kanatlı Kesim Bıçağı — Alya Bıçak',
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
@@ -7462,8 +7462,8 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
     .map((img: string, index: number) => ({
       src: img,
       alt: `${baseProduct.name} - Görsel ${index + 2}`,
-      width: 800,
-      height: 800,
+      width: 1920,
+      height: 1080,
     }));
 
   return {
@@ -7485,15 +7485,15 @@ function convertBaseToExtended(baseProduct: ReturnType<typeof getBaseProductBySl
       main: {
         src: productImage,
         alt: `${baseProduct.name} - ${baseProduct.code}`,
-        width: 800,
-        height: 800,
+        width: 1920,
+        height: 1080,
       },
       gallery,
       thumbnail: {
         src: productImage,
         alt: baseProduct.name,
-        width: 400,
-        height: 400,
+        width: 1920,
+        height: 1080,
       },
     },
 
