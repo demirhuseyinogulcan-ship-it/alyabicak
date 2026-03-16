@@ -2204,23 +2204,22 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'vakum-paketleme-bicak': {
     name: 'Vacuum Packaging Blade',
-    subtitle: 'Sheffield Steel — Thermoform & MAP Machines',
-    description: 'Professional vacuum packaging machine blade manufactured from Sheffield steel. HRC 58-60 hardness, food-grade surface finish Ra ≤0.4 µm. Compatible with Multivac, Tiromat, GEA, Ulma, Sealpac, Webomatic thermoform and MAP packaging machines.',
-    features: ['Sheffield high-carbon steel', 'HRC 58-60 hardness', 'Food-grade Ra ≤0.4 µm surface', 'HACCP & BRC compliant', 'CNC precision machined', '10+ machine brand compatibility'],
+    subtitle: 'High-Quality Steel — Thermoform & MAP Machines',
+    description: 'Professional vacuum packaging machine blade manufactured from high-quality steel. HRC 58-60 hardness, food-grade surface finish Ra ≤0.4 µm. Compatible with all major thermoform and MAP packaging machines.',
+    features: ['High-carbon steel', 'HRC 58-60 hardness', 'Food-grade Ra ≤0.4 µm surface', 'HACCP & BRC compliant', 'CNC precision machined', 'Wide machine compatibility'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'MAP (Modified Atmosphere) packaging', 'Food industry — meat, cheese, ready meals', 'Medical device packaging'],
     seo: {
       title: 'Vacuum Packaging Blade | Alya Blade',
-      description: 'Professional vacuum packaging blade for thermoform and MAP machines. Sheffield steel HRC 58-60, food-grade Ra ≤0.4 µm. Compatible with Multivac, Tiromat, GEA, Ulma, Sealpac. ISO 9001 certified manufacturer.',
-      keywords: ['vacuum packaging blade', 'thermoform blade', 'thermoform machine knife', 'vacuum packaging machine knife', 'MAP packaging blade', 'Multivac blade', 'Tiromat blade', 'GEA blade', 'Sealpac blade', 'food packaging knife', 'packaging machine blade', 'thermoform cutting blade', 'vacuum sealer blade', 'industrial packaging blade'],
+      description: 'Professional vacuum packaging blade for thermoform and MAP machines. High-quality steel HRC 58-60, food-grade Ra ≤0.4 µm. Compatible with all major thermoform machines. ISO 9001 certified manufacturer.',
+      keywords: ['vacuum packaging blade', 'thermoform blade', 'thermoform machine knife', 'vacuum packaging machine knife', 'MAP packaging blade', 'food packaging knife', 'packaging machine blade', 'thermoform cutting blade', 'vacuum sealer blade', 'industrial packaging blade'],
     },
     benefits: [
       { title: 'HRC 58-60 Hardness', description: 'Lasting sharpness and 3x lifespan through controlled atmosphere heat treatment', icon: 'Shield' },
       { title: 'Food-Grade Surface', description: 'Ra ≤0.4 µm roughness — HACCP and BRC compliant hygienic cutting', icon: 'CheckCircle' },
-      { title: 'Wide Machine Compatibility', description: 'Compatible with 10+ brands including Multivac, Tiromat, GEA, Ulma, Sealpac', icon: 'Settings' },
+      { title: 'Wide Machine Compatibility', description: 'Compatible with all major thermoform and vacuum packaging machines', icon: 'Settings' },
     ],
-    longDescription: `<p>This professional blade for vacuum packaging (MAP — Modified Atmosphere Packaging) machines is precision CNC-machined from Sheffield steel. HRC 58-60 Rockwell hardness is achieved through heat treatment in controlled atmosphere furnaces.</p>
+    longDescription: `<p>This professional blade for vacuum packaging (MAP — Modified Atmosphere Packaging) machines is precision CNC-machined from high-quality steel. HRC 58-60 Rockwell hardness is achieved through heat treatment in controlled atmosphere furnaces.</p>
 <p>Delivers surface quality compliant with HACCP and BRC standards for the food industry. Ra ≤0.4 µm surface roughness prevents food particles from adhering to the blade surface, maintaining hygiene standards.</p>
-<p><strong>Compatible Machine Brands:</strong> Multivac, Tiromat, Opack, Betapak, GEA CFS, Alcan, Ulma Packaging, Variovac, Sealpac, Webomatic, Henkelman.</p>
 <p>This is the general reference product for all thermoform vacuum packaging blade types including straight cut, contour cut, star punch, and air punch. Our technical support team ensures the optimal SKU match for your specific machine model.</p>`,
   },
 
@@ -2318,163 +2317,163 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'kontr-biai': {
     name: 'Contour Blade - Thermoform Vacuum Packaging Blade',
-    subtitle: 'Contour Profile Cutting — Sheffield Steel HRC 58-62',
-    description: 'Professional contour blades for thermoform and vacuum packaging machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac machines. Sheffield steel, food-grade quality.',
-    features: ['Contour design', 'Sheffield steel', 'Food industry approved', 'Clean and precise cuts', 'Titanium coating option'],
+    subtitle: 'Contour Profile Cutting — High-Quality Steel HRC 58-62',
+    description: 'Professional contour blades for thermoform and vacuum packaging machines. High-quality steel, food-grade quality.',
+    features: ['Contour design', 'High-carbon steel', 'Food industry approved', 'Clean and precise cuts', 'Titanium coating option'],
     applications: ['Vacuum packaging', 'Thermoforming', 'Food packaging', 'Meat and cheese packaging', 'Industrial packaging'],
     seo: {
       title: 'Contour Blade Thermoform | Alya Blade',
-      description: 'Contour blades for thermoform vacuum packaging. Multivac, Tiromat, Opack, GEA, Ulma compatible. Sheffield steel, food-grade, titanium coating option.',
-      keywords: ['contour blade', 'contour blade', 'thermoform blade', 'vacuum packaging blade', 'multivac blade', 'tiromat blade', 'tiromat contour', 'opack blade', 'betapak blade', 'gea blade', 'alcan blade', 'ulma blade', 'variovac blade', 'food packaging blade', 'thermoform blade', 'thermoform cutting blade', 'vacuum packaging knife', 'MAP packaging blade']
+      description: 'Contour blades for thermoform vacuum packaging. High-quality steel, food-grade, titanium coating option.',
+      keywords: ['contour blade', 'thermoform blade', 'vacuum packaging blade', 'food packaging blade', 'thermoform cutting blade', 'vacuum packaging knife', 'MAP packaging blade']
     },
     benefits: [
       { title: 'HRC 58-62 Hardness', description: 'Consistent cutting quality and long life through precision heat treatment', icon: 'Shield' },
       { title: 'Burr-Free Cutting', description: 'Contour profile geometry delivers clean, burr-free edge cuts', icon: 'Zap' },
-      { title: 'TiN Coating Option', description: '2300 HV surface hardness, 3-5x life extension, anti-adhesion', icon: 'Diamond' },
+      { title: 'TiN Coating Option', description: 'Significantly increased surface hardness, 3-5x life extension, anti-adhesion', icon: 'Diamond' },
     ],
-    longDescription: `<p>The contour blade is a specially profiled blade that cuts film edges by following the profile in thermoform packaging machines. CNC-machined from Sheffield high-carbon steel, achieving HRC 58-62 hardness through precision heat treatment.</p>
+    longDescription: `<p>The contour blade is a specially profiled blade that cuts film edges by following the profile in thermoform packaging machines. CNC-machined from high-carbon steel, achieving HRC 58-62 hardness through precision heat treatment.</p>
 <p><strong>Profile Geometry:</strong> Machine-specific contour profile precisely follows the film edge geometry. Delivers burr-free cutting — no cut marks on the package surface.</p>
 <p><strong>Coating Options:</strong></p>
-<ul><li>Standard: Polished bright surface, Ra ≤0.4 µm</li><li>TiN (Titanium Nitride) PVD coating: 2300 HV surface hardness, golden color, 3-5x life extension</li></ul>
-<p><strong>Compatible Machines:</strong> Multivac R-series (R105, R145, R245, R535), Tiromat 3000/660, GEA PowerPak, Opack, Betapak, Alcan, Ulma TFS series, Variovac.</p>`,
+<ul><li>Standard: Polished bright surface, Ra ≤0.4 µm</li><li>TiN (Titanium Nitride) PVD coating: increased surface hardness, golden color, 3-5x life extension</li></ul>
+<p>Compatible with all major thermoform and vacuum packaging machines. Contact our technical team for specific machine model matching.</p>`,
   },
   'yarim': {
     name: 'Half Star Punches - Vacuum Packaging Triangle Blade',
     subtitle: 'D2 Tool Steel — Half Star Geometry',
-    description: 'Half star (triangle) punch blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
+    description: 'Half star (triangle) punch blades for vacuum packaging and thermoform machines. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
     features: ['Half star geometry', 'D2 Tool Steel', 'High wear resistance', 'Titanium coating option', 'Precision punching', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry punching', 'Meat and cheese packaging', 'Industrial packaging'],
     seo: {
       title: 'Half Star Punch Blade | Alya Blade',
-      description: 'Half star triangle punch blades for vacuum packaging. D2 tool steel, Multivac, Tiromat, GEA compatible. Titanium coating option for extended life.',
-      keywords: ['half star punch', 'triangle punch blade', 'vacuum packaging punch', 'thermoform punch', 'D2 tool steel punch', 'multivac punch', 'tiromat punch', 'food industry punch', 'meat packaging punch', 'cheese packaging punch', 'titanium coated punch', 'precision punch blade']
+      description: 'Half star triangle punch blades for vacuum packaging. D2 tool steel. Titanium coating option for extended life.',
+      keywords: ['half star punch', 'triangle punch blade', 'vacuum packaging punch', 'thermoform punch', 'D2 tool steel punch', 'food industry punch', 'meat packaging punch', 'cheese packaging punch', 'titanium coated punch', 'precision punch blade']
     },
     benefits: [
-      { title: 'D2 Tool Steel', description: '12% chromium, 1.55% carbon — superior wear resistance and dimensional stability', icon: 'Shield' },
-      { title: 'TiN Coating Option', description: '2300 HV surface, 40% friction reduction, 3-5x lifespan', icon: 'Diamond' },
+      { title: 'D2 Tool Steel', description: 'Superior wear resistance and dimensional stability', icon: 'Shield' },
+      { title: 'TiN Coating Option', description: 'Significantly increased surface hardness, 40% friction reduction, 3-5x lifespan', icon: 'Diamond' },
       { title: 'Precision Geometry', description: 'Triangle form with optimal ventilation area to packaging integrity balance', icon: 'Star' },
     ],
-    longDescription: `<p>Half star punch blades are used to create ventilation patterns on film in vacuum packaging. D2 tool steel (1.55% C, 12% Cr, 0.85% Mo, 0.9% V) offers both wear resistance and dimensional stability thanks to its high chromium content.</p>
-<p><strong>Heat Treatment Parameters:</strong> 1020-1040°C austenite transformation → oil quenching → 200-250°C tempering. This 3-stage process achieves HRC 58-60 hardness with adequate toughness balance.</p>
-<p><strong>Geometry:</strong> The triangle-shaped half star pattern creates optimal ventilation area in the film while maintaining package integrity. DIN 1.2379 equivalent material standard.</p>
-<p><strong>Coating:</strong> TiN (Titanium Nitride) PVD coating increases surface hardness to 2300 HV, reduces friction by 40%, and extends blade life 3-5x.</p>`,
+    longDescription: `<p>Half star punch blades are used to create ventilation patterns on film in vacuum packaging. D2 tool steel offers both wear resistance and dimensional stability thanks to its high chromium content.</p>
+<p><strong>Heat Treatment:</strong> Special heat treatment process achieves HRC 58-60 hardness with adequate toughness balance.</p>
+<p><strong>Geometry:</strong> The half star pattern creates optimal ventilation area in the film while maintaining package integrity.</p>
+<p><strong>Coating:</strong> TiN (Titanium Nitride) PVD coating significantly increases surface hardness, reduces friction by 40%, and extends blade life 3-5x.</p>`,
   },
   'tam': {
     name: 'Full Star Punches - Vacuum Packaging Star Blade',
     subtitle: 'D2 Tool Steel — Full Star Geometry',
-    description: 'Full star punch blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
+    description: 'Full star punch blades for vacuum packaging and thermoform machines. Made from D2 tool steel with high wear resistance. Titanium coating options available.',
     features: ['Full star geometry', 'D2 Tool Steel', 'High wear resistance', 'Titanium coating option', 'Precision punching', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry punching', 'Meat and cheese packaging', 'Industrial packaging'],
     seo: {
       title: 'Full Star Punch Blade | Vacuum Packaging Star Punch D2 Steel',
-      description: 'Full star punch blades for vacuum packaging. D2 tool steel, Multivac, Tiromat, GEA compatible. Titanium coating option for extended life.',
-      keywords: ['full star punch', 'star punch blade', 'vacuum packaging punch', 'thermoform punch', 'D2 tool steel punch', 'multivac star punch', 'tiromat star punch', 'food industry punch', 'meat packaging punch', 'titanium coated punch', 'precision star punch']
+      description: 'Full star punch blades for vacuum packaging. D2 tool steel. Titanium coating option for extended life.',
+      keywords: ['full star punch', 'star punch blade', 'vacuum packaging punch', 'thermoform punch', 'D2 tool steel punch', 'food industry punch', 'meat packaging punch', 'titanium coated punch', 'precision star punch']
     },
     benefits: [
       { title: '2x Ventilation Area', description: 'Double the gas passage surface compared to half star', icon: 'Wind' },
-      { title: 'D2 Steel Durability', description: 'DIN 1.2379, 12% chromium for superior wear and corrosion resistance', icon: 'Shield' },
-      { title: 'TiN Coating Option', description: '2300 HV surface hardness, 3-5x life extension', icon: 'Diamond' },
+      { title: 'D2 Steel Durability', description: 'Superior wear and corrosion resistance', icon: 'Shield' },
+      { title: 'TiN Coating Option', description: 'Significantly increased surface hardness, 3-5x life extension', icon: 'Diamond' },
     ],
-    longDescription: `<p>Full star punch blades create 2x wider ventilation patterns in vacuum packaging compared to half star. Manufactured from D2 tool steel (1.55% C, 12% Cr, 0.85% Mo, 0.9% V).</p>
+    longDescription: `<p>Full star punch blades create 2x wider ventilation patterns in vacuum packaging compared to half star. Manufactured from D2 tool steel.</p>
 <p><strong>Advantage:</strong> In MAP (Modified Atmosphere Packaging) applications requiring rapid gas exchange, full star geometry accelerates gas transfer. Widely preferred in meat, cheese, and ready meal packaging.</p>
-<p><strong>Material:</strong> DIN 1.2379 / AISI D2 — chromium-molybdenum-vanadium alloyed cold work tool steel. Stable HRC 58-60 hardness through secondary hardening effect.</p>
-<p><strong>Compatible Machines:</strong> Multivac, Tiromat, GEA PowerPak, Opack, Betapak, Alcan, Ulma, Variovac, Sealpac.</p>`,
+<p><strong>Material:</strong> D2 cold work tool steel. Stable HRC 58-60 hardness through secondary hardening effect.</p>
+<p>Compatible with all major thermoform and vacuum packaging machines.</p>`,
   },
   'dz-biaklar': {
     name: 'Straight Blades - Lama Blades for Vacuum Packaging',
     subtitle: 'HSS (M2) High Speed Steel — HRC 62-65',
-    description: 'Straight (lama) blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from HSS (High Speed Steel), extremely durable, crush-resistant and stays sharp longer.',
+    description: 'Straight (lama) blades for vacuum packaging and thermoform machines. Made from HSS (High Speed Steel), extremely durable, crush-resistant and stays sharp longer.',
     features: ['Straight edge geometry', 'HSS (High Speed Steel)', 'Extremely durable', 'Crush resistant', 'Stays sharp longer', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Food industry cutting', 'Film cutting', 'Industrial packaging'],
     seo: {
       title: 'Straight Lama Blade HSS | Vacuum Packaging Thermoform Blade',
-      description: 'Straight lama blades for vacuum packaging. HSS high speed steel, Multivac, Tiromat, GEA compatible. Crush-resistant, stays sharp longer.',
-      keywords: ['straight blade', 'lama blade', 'vacuum packaging blade', 'thermoform blade', 'HSS blade', 'high speed steel blade', 'multivac lama', 'tiromat lama', 'food industry blade', 'film cutting blade', 'crush resistant blade', 'durable blade']
+      description: 'Straight lama blades for vacuum packaging. HSS high speed steel. Crush-resistant, stays sharp longer.',
+      keywords: ['straight blade', 'lama blade', 'vacuum packaging blade', 'thermoform blade', 'HSS blade', 'high speed steel blade', 'food industry blade', 'film cutting blade', 'crush resistant blade', 'durable blade']
     },
     benefits: [
       { title: 'HRC 62-65 Ultra Hardness', description: 'M2 HSS secondary hardening achieves the highest value among steels', icon: 'Shield' },
       { title: '600°C Thermal Stability', description: 'Red hardness — no hardness loss even in high-speed cutting', icon: 'Flame' },
       { title: 'Crush-Proof Structure', description: 'Vanadium carbide micro-structure provides 5x deformation resistance', icon: 'Zap' },
     ],
-    longDescription: `<p>Straight (lama) blades are used in the film cutting line of thermoform and vacuum packaging machines. Manufactured from HSS M2 (DIN 1.3343 / AISI M2) high-speed steel.</p>
-<p><strong>Alloy Composition:</strong> 0.85% C, 6.15% W, 5.0% Mo, 4.15% Cr, 1.85% V — this composition achieves HRC 62-65 hardness through secondary hardening while offering thermal stability up to 600°C.</p>
+    longDescription: `<p>Straight (lama) blades are used in the film cutting line of thermoform and vacuum packaging machines. Manufactured from HSS M2 high-speed steel.</p>
+<p><strong>Properties:</strong> Achieves HRC 62-65 hardness through secondary hardening while offering thermal stability up to 600°C.</p>
 <p><strong>Advantages:</strong></p>
-<ul><li>Extraordinary resistance to crushing — 5x deformation resistance compared to Sheffield steel</li><li>Red hardness: Maintains HRC 60+ even at 600°C</li><li>Vanadium carbide micro-structure: MC carbides form a natural barrier against wear</li></ul>
-<p><strong>Compatible Machines:</strong> Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac.</p>`,
+<ul><li>Extraordinary resistance to crushing — 5x deformation resistance compared to standard steel</li><li>Red hardness: Maintains HRC 60+ even at 600°C</li><li>Vanadium carbide micro-structure: MC carbides form a natural barrier against wear</li></ul>
+<p>Compatible with all major thermoform and vacuum packaging machines.</p>`,
   },
   'dairesel': {
     name: 'Circular Blades - Vacuum Packaging Rotary Blade',
-    subtitle: 'Sheffield Steel — Rotary Cutting HRC 58-62',
-    description: 'Circular rotary blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Sheffield steel quality.',
-    features: ['Circular geometry', 'Sheffield steel', 'Rotary cutting compatible', 'Precision cutting', 'Long-lasting', 'Food industry approved'],
+    subtitle: 'High-Quality Steel — Rotary Cutting HRC 58-62',
+    description: 'Circular rotary blades for vacuum packaging and thermoform machines. High-quality steel.',
+    features: ['Circular geometry', 'High-carbon steel', 'Rotary cutting compatible', 'Precision cutting', 'Long-lasting', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Rotary cutting', 'Food industry', 'Industrial packaging'],
     seo: {
       title: 'Circular Rotary Blade | Alya Blade',
-      description: 'Circular rotary blades for vacuum packaging. Sheffield steel, Multivac, Tiromat, GEA compatible. Precision rotary cutting for food industry.',
-      keywords: ['circular blade', 'rotary blade', 'round blade', 'vacuum packaging rotary', 'thermoform rotary', 'sheffield rotary blade', 'multivac circular', 'tiromat circular', 'food industry rotary', 'precision rotary blade', 'industrial circular blade']
+      description: 'Circular rotary blades for vacuum packaging. High-quality steel. Precision rotary cutting for food industry.',
+      keywords: ['circular blade', 'rotary blade', 'round blade', 'vacuum packaging rotary', 'thermoform rotary', 'food industry rotary', 'precision rotary blade', 'industrial circular blade']
     },
     benefits: [
       { title: 'Dynamically Balanced', description: 'Vibration-free, burr-free cutting guaranteed at 3000+ RPM', icon: 'RotateCw' },
-      { title: 'HRC 58-62 Hardness', description: 'Long-lasting sharp edge from Sheffield steel', icon: 'Shield' },
+      { title: 'HRC 58-62 Hardness', description: 'Long-lasting sharp edge', icon: 'Shield' },
       { title: 'Re-Sharpening Service', description: '18-22° precision grinding with resharpening calibration service', icon: 'RefreshCw' },
     ],
-    longDescription: `<p>Circular blades operate with a rotary cutting system in thermoform and vacuum packaging machines. CNC turned and ground from Sheffield high-carbon steel.</p>
+    longDescription: `<p>Circular blades operate with a rotary cutting system in thermoform and vacuum packaging machines. CNC turned and ground from high-carbon steel.</p>
 <p><strong>Dynamic Balancing:</strong> Each circular blade is dynamically balanced to prevent vibration during high-speed rotation. This guarantees burr-free cutting even at 3000+ RPM.</p>
 <p><strong>Sharpening:</strong> Edge angle formed with 18-22° precision grinding. Re-sharpening calibration service available.</p>
-<p><strong>Compatible Machines:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+<p>Compatible with all major thermoform and vacuum packaging machines.</p>`,
   },
   'yuvarlak': {
     name: 'Round Air Punch - Vacuum Packaging Air Hole Blade',
     subtitle: '440C Martensitic Stainless Steel — Air Hole',
-    description: 'Round air punch blades for vacuum packaging and thermoform machines. Air hole punching compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
+    description: 'Round air punch blades for vacuum packaging and thermoform machines. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
     features: ['Round geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
     seo: {
       title: 'Round Air Punch Blade 440C | Alya Blade',
-      description: 'Round air punch blades for vacuum packaging ventilation. 440C stainless steel, Multivac, Tiromat, GEA compatible. Food-grade corrosion resistant.',
-      keywords: ['round air punch', 'air hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'multivac air punch', 'tiromat air punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
+      description: 'Round air punch blades for vacuum packaging ventilation. 440C stainless steel. Food-grade corrosion resistant.',
+      keywords: ['round air punch', 'air hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
     },
     benefits: [
-      { title: '17% Chromium Corrosion Resistance', description: 'Full protection against rust in wet and salty food environments', icon: 'Droplet' },
+      { title: 'High Corrosion Resistance', description: 'Full protection against rust in wet and salty food environments', icon: 'Droplet' },
       { title: 'HACCP Compliant Surface', description: 'Ra ≤0.3 µm electropolished food-grade hygiene', icon: 'CheckCircle' },
       { title: 'HRC 58-60 Hardness', description: 'Martensitic structure balances edge retention and corrosion resistance', icon: 'Shield' },
     ],
-    longDescription: `<p>Round air punch blades create circular ventilation (vent) holes in vacuum packaging. Manufactured from AISI 440C (1.0% C, 17% Cr) martensitic stainless steel.</p>
-<p><strong>Corrosion Resistance:</strong> 17% chromium content provides superior resistance to rust and pitting corrosion in wet food packaging environments. No performance loss even in salty environments (seafood packaging).</p>
+    longDescription: `<p>Round air punch blades create circular ventilation (vent) holes in vacuum packaging. Manufactured from AISI 440C martensitic stainless steel.</p>
+<p><strong>Corrosion Resistance:</strong> High chromium content provides superior resistance to rust and pitting corrosion in wet food packaging environments. No performance loss even in salty environments (seafood packaging).</p>
 <p><strong>Surface Treatment:</strong> Electropolished to Ra ≤0.3 µm roughness, food contact quality compliant with HACCP and FDA 21 CFR 175.300 standards.</p>
-<p><strong>Compatible Machines:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+<p>Compatible with all major thermoform and vacuum packaging machines.</p>`,
   },
   'oval': {
     name: 'Oval Air Punch - Vacuum Packaging Air Hole Blade',
     subtitle: '440C Martensitic Stainless Steel — Oval Air Hole',
-    description: 'Oval air punch blades for vacuum packaging and thermoform machines. Air hole punching compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
+    description: 'Oval air punch blades for vacuum packaging and thermoform machines. Made from 440C stainless steel with high corrosion resistance, food-grade quality.',
     features: ['Oval geometry', 'Air hole design', '440C Stainless Steel', 'High corrosion resistance', 'Precision punching', 'Food industry approved'],
     applications: ['Vacuum packaging ventilation', 'Thermoform packaging', 'Food industry punching', 'Air hole punching', 'Industrial packaging'],
     seo: {
       title: 'Oval Air Punch Blade 440C | Alya Blade',
-      description: 'Oval air punch blades for vacuum packaging ventilation. 440C stainless steel, Multivac, Tiromat, GEA compatible. Food-grade corrosion resistant.',
-      keywords: ['oval air punch', 'oval hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'multivac oval punch', 'tiromat oval punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
+      description: 'Oval air punch blades for vacuum packaging ventilation. 440C stainless steel. Food-grade corrosion resistant.',
+      keywords: ['oval air punch', 'oval hole punch', 'ventilation punch', 'vacuum packaging punch', 'thermoform punch', '440C stainless punch', 'food industry punch', 'corrosion resistant punch', 'food grade punch']
     },
     benefits: [
       { title: '40% More Area', description: 'Oval geometry provides 40% more ventilation than round punch', icon: 'Wind' },
-      { title: '440C Corrosion Resistance', description: '17% chromium, full protection in wet and salty environments', icon: 'Droplet' },
+      { title: '440C Corrosion Resistance', description: 'Full protection in wet and salty environments', icon: 'Droplet' },
       { title: 'HACCP Compliant Surface', description: 'Ra ≤0.3 µm electropolished food-grade hygiene', icon: 'CheckCircle' },
     ],
-    longDescription: `<p>Oval air punch blades create wider ventilation areas in elliptical profiles compared to round punches. Manufactured from the same AISI 440C (1.0% C, 17% Cr) martensitic stainless steel.</p>
+    longDescription: `<p>Oval air punch blades create wider ventilation areas in elliptical profiles compared to round punches. Manufactured from AISI 440C martensitic stainless steel.</p>
 <p><strong>Oval Advantage:</strong> Elliptical geometry provides 40% more gas passage surface in the same film area. This feature is preferred in MAP (Modified Atmosphere Packaging) requiring rapid gas exchange.</p>
-<p><strong>440C Properties:</strong> 1.0% carbon + 17% chromium composition delivers both HRC 58-60 hardness and superior corrosion resistance in martensitic structure. Electropolished to Ra ≤0.3 µm food-grade surface.</p>
-<p><strong>Compatible Machines:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+<p><strong>440C Properties:</strong> Martensitic structure delivers both HRC 58-60 hardness and superior corrosion resistance. Electropolished to Ra ≤0.3 µm food-grade surface.</p>
+<p>Compatible with all major thermoform and vacuum packaging machines.</p>`,
   },
   'dili': {
     name: 'Serrated Blades - Vacuum Packaging Saw-Tooth Blade',
-    subtitle: 'Sheffield Steel — Serrated Edge',
-    description: 'Serrated (saw-tooth) cutting blades for vacuum packaging and thermoform machines. Compatible with Multivac, Tiromat, Opack, Betapak, GEA, Alcan, Ulma, Variovac. Sheffield steel, ideal for tough materials.',
-    features: ['Saw-tooth edge', 'Sheffield steel', 'Ideal for tough materials', 'Anti-slip cutting', 'Long-lasting sharp edge', 'Food industry approved'],
+    subtitle: 'High-Quality Steel — Serrated Edge',
+    description: 'Serrated (saw-tooth) cutting blades for vacuum packaging and thermoform machines. High-quality steel, ideal for tough materials.',
+    features: ['Saw-tooth edge', 'High-carbon steel', 'Ideal for tough materials', 'Anti-slip cutting', 'Long-lasting sharp edge', 'Food industry approved'],
     applications: ['Vacuum packaging', 'Thermoform packaging', 'Tough film cutting', 'Food industry', 'Industrial packaging'],
     seo: {
       title: 'Serrated Saw-Tooth Blade | Alya Blade',
-      description: 'Serrated saw-tooth blades for vacuum packaging. Sheffield steel, Multivac, Tiromat, GEA compatible. Anti-slip cutting for tough materials.',
-      keywords: ['serrated blade', 'saw-tooth blade', 'vacuum packaging serrated', 'thermoform serrated', 'sheffield serrated blade', 'multivac serrated', 'tiromat serrated', 'tough material blade', 'anti-slip blade', 'food industry serrated', 'industrial serrated blade']
+      description: 'Serrated saw-tooth blades for vacuum packaging. High-quality steel. Anti-slip cutting for tough materials.',
+      keywords: ['serrated blade', 'saw-tooth blade', 'vacuum packaging serrated', 'thermoform serrated', 'tough material blade', 'anti-slip blade', 'food industry serrated', 'industrial serrated blade']
     },
     benefits: [
       { title: 'Anti-Slip Cutting', description: 'Micro-serrated tooth profile ensures safe cutting even on slippery materials', icon: 'Zap' },
@@ -2483,10 +2482,10 @@ export const productsEn: Record<string, ProductTranslation> = {
     ],
     longDescription: `<p>Serrated (saw-tooth) blades are used for thick films, aluminum foil laminates, and rigid thermoplastic packages where straight blades would slip.</p>
 <p><strong>Tooth Geometry:</strong> The micro-serrated edge profile first pierces then cuts the material. This two-stage mechanism eliminates slip risk and creates a clean edge with every cut.</p>
-<p><strong>Material:</strong> Sheffield high-carbon steel, HRC 58-62 hardness. Teeth are CNC-machined with precision, inter-tooth tolerance ±0.02mm.</p>
+<p><strong>Material:</strong> High-carbon steel, HRC 58-62 hardness. Teeth are CNC-machined with precision, inter-tooth tolerance ±0.02mm.</p>
 <p><strong>Ideal Use:</strong></p>
 <ul><li>Thick PE/PP films (100+ micron)</li><li>Aluminum foil laminates</li><li>PET/PVC rigid packaging</li><li>Multi-layer barrier films</li></ul>
-<p><strong>Compatible Machines:</strong> Multivac, Tiromat, GEA, Opack, Betapak, Alcan, Ulma, Variovac.</p>`,
+<p>Compatible with all major thermoform and vacuum packaging machines.</p>`,
   },
   'st': {
     name: 'Top "Plate" Blades',
