@@ -7,7 +7,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { generateMetadata as generateSeoMetadata } from '@/lib/seo'
-import VideoBackground from '@/components/VideoBackground'
+import Image from 'next/image'
 import { i18nConfig, Locale } from '@/lib/i18n/config'
 import { getDomainUrl } from '@/lib/config/domains'
 
@@ -116,14 +116,17 @@ export default async function KaliteStandartlariPage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen">
-      {/* Full-page video with glassmorphic overlay content */}
+      {/* Full-page hero with DEKUBE tungsten image */}
       <section className="relative min-h-screen flex items-center text-white overflow-hidden">
-        <VideoBackground
-          videoSrc="/videos/hero-bg.mp4"
-          posterSrc="/images/hero-bg-poster.jpg"
-          overlay={true}
-          overlayOpacity={60}
+        <Image
+          src="/images/quality-hero-tungsten.jpg"
+          alt="Durham Duplex endüstriyel tungsten karbür bıçak — siyah arka planda profesyonel ürün fotoğrafı"
+          fill
+          className="object-cover"
+          priority
+          quality={90}
         />
+        <div className="absolute inset-0 bg-black/60" />
 
         <div className="container mx-auto px-4 relative z-10 py-28 lg:py-36">
           {/* Asymmetric layout — title left, cards right-staggered */}
