@@ -164,7 +164,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HSS M2 (DIN 1.3343)': 'HSS M2 (DIN 1.3343)',
     'AISI 440C Martensitik Paslanmaz': 'AISI 440C Martensitik Paslanmaz',
     'Kaplamasız veya TiN (Titanyum Nitrür)': 'Kaplamasız veya TiN (Titanyum Nitrür)',
-    'Standart veya TiN PVD (2300 HV)': 'Standart veya TiN PVD (2300 HV)'
+    'Standart veya TiN PVD (2300 HV)': 'Standart veya TiN PVD (2300 HV)',
     'Ra ≤0.4 µm (Gıda Sınıfı)': 'Ra ≤0.4 µm (Gıda Sınıfı)',
     'Ra ≤0.3 µm (Elektropolisaj)': 'Ra ≤0.3 µm (Elektropolisaj)',
     'Kontör/Profil Takipli Kesim': 'Kontör/Profil Takipli Kesim',
