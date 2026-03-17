@@ -9,6 +9,7 @@ import { ImageMagnifier } from './ImageMagnifier';
 import type { ProductExtended } from '@/lib/types/product.types';
 import { siteConfig, getWhatsAppUrl } from '@/lib/config/site.config';
 import { useLocale } from '@/lib/i18n/client';
+import { ProductSpecTableInline } from './ProductSpecTable';
 
 interface ProductHeroProps {
   product: ProductExtended;
@@ -117,6 +118,11 @@ export function ProductHero({ product }: ProductHeroProps) {
                   </button>
                 ))}
               </div>
+            )}
+
+            {/* Ürün Ölçü Tablosu — görselin altında */}
+            {product.specTable && (
+              <ProductSpecTableInline data={product.specTable} />
             )}
           </div>
           
