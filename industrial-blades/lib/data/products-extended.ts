@@ -7702,7 +7702,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         [60,  30,  10,  8,    false, true,  true,  false],
         [60,  40,  5,   3.5,  true,  false, false, true],
         [60,  40,  10,  8,    true,  false, false, true],
-        [77,  45,  10,  8,    true,  true,  true,  true],
+        [77,  45,  10,  8,    true,  false, false, true],
         [77,  45,  15,  13,   false, true,  true,  false],
         [77,  60,  5,   3.5,  true,  false, false, true],
         [77,  60,  10,  8.5,  true,  false, false, true],
