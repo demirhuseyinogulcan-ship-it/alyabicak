@@ -35,6 +35,26 @@ export interface ProductSpec {
   highlight?: boolean;          // Vurgulanacak mı?
 }
 
+/** Ürün ölçü/özellik tablosu veri yapısı */
+export interface SpecTableColumn {
+  key: string;                  // "outerDiameter"
+  label: string;                // "Dış Çap"
+  unit?: string;                // "mm"
+}
+
+export interface SpecTableColumnGroup {
+  label: string;                // "Ölçüler" | "Bileme" | "Çelik"
+  span: number;                 // colspan
+}
+
+export interface SpecTableData {
+  title?: string;               // Özel başlık (opsiyonel)
+  columns: SpecTableColumn[];   // Sütun tanımları
+  columnGroups?: SpecTableColumnGroup[]; // Üst başlık grupları
+  rows: (string | number | boolean)[][]; // Veri satırları
+  note?: string | false;        // Alt not (false = gösterme)
+}
+
 // =============================================================================
 // KULLANIM ALANI TİPLERİ
 // =============================================================================
@@ -104,6 +124,9 @@ export interface ProductExtended {
 
   // Mevcut Ölçüler (Farklı varyantlar için esnek yapı)
   availableSizes?: string[];    // ["43x22x0.10mm", "43x22x0.15mm", ...]
+
+  // Teknik Ölçü Tablosu (profil karşılaştırma için)
+  specTable?: SpecTableData;
 
   // Sertifikalar
   certifications?: string[];    // ["CE", "ISO 9001"]

@@ -15,6 +15,7 @@ import {
 import {
   ProductHero,
   ProductSpecs,
+  ProductSpecTable,
   WhyThisProduct,
   ProductApplications,
   RelatedProducts,
@@ -221,6 +222,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
       {/* Teknik Özellikler */}
       {product.specs && product.specs.length > 0 && (
         <ProductSpecs specs={product.specs} />
+      )}
+
+      {/* Ürün Ölçü Tablosu */}
+      {product.specTable && (
+        <ProductSpecTable data={product.specTable} />
       )}
 
       {/* Neden Bu Ürün */}

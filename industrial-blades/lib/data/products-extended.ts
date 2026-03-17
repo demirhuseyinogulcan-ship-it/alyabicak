@@ -7507,6 +7507,45 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       '150×80×2.0mm', '150×80×2.5mm',
     ],
 
+    specTable: {
+      columns: [
+        { key: 'od', label: 'Dış Çap', unit: 'mm' },
+        { key: 'id', label: 'İç Çap', unit: 'mm' },
+        { key: 'th', label: 'Kalınlık', unit: 'mm' },
+        { key: 'single', label: 'Tek Açı' },
+        { key: 'double', label: 'Çift Açı' },
+        { key: 'concave', label: 'Konkav' },
+        { key: 'o1', label: 'O1' },
+        { key: 'd2', label: 'D2' },
+      ],
+      columnGroups: [
+        { label: 'Ölçüler', span: 3 },
+        { label: 'Bileme', span: 3 },
+        { label: 'Çelik', span: 2 },
+      ],
+      rows: [
+        [62,  40,  0.6, true,  false, false, false, true],
+        [62,  40,  0.8, true,  false, false, false, true],
+        [62,  40,  1.2, true,  false, false, false, true],
+        [65,  40,  1.2, true,  false, false, false, true],
+        [65,  40,  1.0, true,  false, false, false, true],
+        [68,  40,  1.2, true,  false, false, false, true],
+        [75,  50,  1.0, true,  true,  false, false, true],
+        [90,  60,  1.2, true,  true,  false, false, true],
+        [100, 70,  1.2, true,  true,  false, false, true],
+        [102, 70,  1.2, true,  true,  false, false, true],
+        [105, 65,  1.2, true,  false, false, true,  false],
+        [105, 70,  1.2, true,  true,  false, false, true],
+        [105, 75,  1.2, true,  true,  false, false, true],
+        [130, 80,  1.5, true,  true,  false, false, true],
+        [130, 90,  1.4, true,  true,  false, false, true],
+        [130, 100, 1.5, true,  true,  false, false, true],
+        [140, 70,  3.0, true,  true,  false, false, true],
+        [150, 80,  2.0, true,  true,  false, false, true],
+        [150, 80,  2.5, true,  true,  false, false, true],
+      ],
+    },
+
     relatedProductIds: ['alt-bicak', 'dairesel', 'dairesel-2'],
 
     seo: {
