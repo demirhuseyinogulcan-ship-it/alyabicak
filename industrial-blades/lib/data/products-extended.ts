@@ -7612,7 +7612,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   <li>Plastik film ve folyo dilme</li>
   <li>Ambalaj malzemesi kesim</li>
   <li>Dönüştürme (converting) hatları</li>
-  <li>Olmuklu mukavva dilme</li>
+  <li>Oluklu mukavva dilme</li>
 </ul>
 
 <p><em>NOT: Belirtilen standart ürünler dışında farklı ölçüler bulunmaktadır. Özel ölçü talepleriniz için iletişime geçiniz.</em></p>`,
