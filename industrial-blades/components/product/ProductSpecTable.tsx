@@ -45,6 +45,7 @@ const colLabels: Record<string, Record<string, string>> = {
   'Serbest':    { en: 'Free-Running', fr: 'Libre', ar: 'حر', ru: 'Свободный' },
   'Kilitli':    { en: 'Self-Locking', fr: 'Auto-bloquant', ar: 'ذاتي القفل', ru: 'Самоблок.' },
   'Kesici Kalınlık': { en: 'Edge Th.', fr: 'Ép. Coupe', ar: 'سمك القطع', ru: 'Толщ. реза' },
+  'Kal. "C"':       { en: 'Th. "C"', fr: 'Ép. "C"', ar: 'سمك "C"', ru: 'Толщ. "C"' },
 };
 
 function tCol(label: string, locale: string): string {
