@@ -51,7 +51,7 @@ export interface SpecTableData {
   title?: string;               // Özel başlık (opsiyonel)
   columns: SpecTableColumn[];   // Sütun tanımları
   columnGroups?: SpecTableColumnGroup[]; // Üst başlık grupları
-  rows: (string | number | boolean)[][]; // Veri satırları
+  rows: (string | number | boolean | null)[][]; // Veri satırları
   note?: string | false;        // Alt not (false = gösterme)
 }
 
