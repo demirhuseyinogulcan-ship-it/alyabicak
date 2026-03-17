@@ -27,12 +27,6 @@ export function ProductHero({ product }: ProductHeroProps) {
     .replace('{{code}}', product.code)
     .replace('{{name}}', product.name);
   const whatsappUrl = getWhatsAppUrl(whatsappMessage);
-  
-  // Orijin badge metni
-  const originText = product.origin 
-    ? `${product.origin.city || ''} ${product.origin.city ? '·' : ''} ${product.origin.country || ''}`.trim()
-    : '';
-
 
   return (
     <section className="py-8 lg:py-12">
@@ -145,32 +139,15 @@ export function ProductHero({ product }: ProductHeroProps) {
               </p>
             )}
             
-            {/* Orijin Badge - Yıldız yerine */}
-            <div className="mt-4 inline-flex items-center gap-2 self-start">
-              <div className="flex items-center gap-2 px-3 py-1.5 bg-steel-50 border border-steel-200 rounded-sm">
-                <span className="text-xs font-medium text-steel-700">{t.productDetail.premiumSteel || 'Premium Steel'}</span>
-                {originText && (
-                  <>
-                    <span className="w-px h-3 bg-steel-300" />
-                    <span className="text-xs text-steel-500">{originText}</span>
-                  </>
-                )}
+            {/* Stok Durumu Badge */}
+            {product.inStock !== undefined && (
+              <div className="mt-4 inline-flex items-center gap-2 self-start px-3 py-1.5 bg-steel-50 border border-steel-200 rounded-sm">
+                <span className={`w-2 h-2 rounded-full ${product.inStock ? 'bg-green-500' : 'bg-red-500'}`} />
+                <span className="text-xs font-medium text-steel-700">
+                  {product.inStock ? t.productDetail.inStock : t.productDetail.askStock}
+                </span>
               </div>
-              
-              {/* Sertifikalar */}
-              {product.certifications && product.certifications.length > 0 && (
-                <div className="flex gap-1">
-                  {product.certifications.slice(0, 2).map((cert) => (
-                    <span 
-                      key={cert}
-                      className="px-2 py-1 text-xs font-medium text-steel-600 bg-steel-100 rounded"
-                    >
-                      {cert}
-                    </span>
-                  ))}
-                </div>
-              )}
-            </div>
+            )}
             
             {/* Kısa Açıklama */}
             <p className="mt-6 text-steel-600 leading-relaxed">
@@ -252,18 +229,7 @@ export function ProductHero({ product }: ProductHeroProps) {
                 <ChevronRight className="w-5 h-5 text-steel-300 group-hover:text-green-500 group-hover:translate-x-0.5 transition-all flex-shrink-0" />
               </a>
             </div>
-            
-            {/* Stok Durumu */}
-            {product.inStock !== undefined && (
-              <div className="mt-6 pt-6 border-t border-steel-100">
-                <div className="flex items-center gap-2">
-                  <span className={`w-2 h-2 rounded-full ${product.inStock ? 'bg-green-500' : 'bg-red-500'}`} />
-                  <span className="text-sm text-steel-600">
-                    {product.inStock ? t.productDetail.inStock : t.productDetail.askStock}
-                  </span>
-                </div>
-              </div>
-            )}
+
           </div>
         </div>
       </div>
