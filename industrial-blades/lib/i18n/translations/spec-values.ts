@@ -434,7 +434,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Dairesel Dilme Bıçakları (Circular Slitting) Değerleri
     'O1 / D2 Takım Çeliği': 'O1 / D2 Takım Çeliği',
     'Tabak (Dish / Bombeli)': 'Tabak (Dish / Bombeli)',
-    'Dış Çap: 62-150mm': 'Dış Çap: 62-150mm',
+    'Dış Çap: 62-250mm': 'Dış Çap: 62-250mm',
     '0.6 - 3.0mm': '0.6 - 3.0mm',
     'Tek Açı / Çift Açı / Konkav': 'Tek Açı / Çift Açı / Konkav',
     'O1 / D2 Takım Çeliği / HSS': 'O1 / D2 Takım Çeliği / HSS',
@@ -868,7 +868,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Circular Slitting Blades Values
     'O1 / D2 Takım Çeliği': 'O1 / D2 Tool Steel',
     'Tabak (Dish / Bombeli)': 'Dish (Concave / Dished)',
-    'Dış Çap: 62-150mm': 'OD: 62-150mm',
+    'Dış Çap: 62-250mm': 'OD: 62-250mm',
     '0.6 - 3.0mm': '0.6 - 3.0mm',
     'Tek Açı / Çift Açı / Konkav': 'Single Bevel / Double Bevel / Concave',
     'O1 / D2 Takım Çeliği / HSS': 'O1 / D2 Tool Steel / HSS',
@@ -1267,7 +1267,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // قيم شفرات التقطيع الدائرية
     'O1 / D2 Takım Çeliği': 'فولاذ أدوات O1 / D2',
     'Tabak (Dish / Bombeli)': 'طبق (مقعر / محدب)',
-    'Dış Çap: 62-150mm': 'القطر الخارجي: 62-150مم',
+    'Dış Çap: 62-250mm': 'القطر الخارجي: 62-250مم',
     '0.6 - 3.0mm': '0.6 - 3.0مم',
     'Tek Açı / Çift Açı / Konkav': 'زاوية واحدة / زاوية مزدوجة / مقعر',
     'O1 / D2 Takım Çeliği / HSS': 'فولاذ أدوات O1 / D2 / HSS',
@@ -1701,7 +1701,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Valeurs lames de refente circulaire
     'O1 / D2 Takım Çeliği': 'Acier à outils O1 / D2',
     'Tabak (Dish / Bombeli)': 'Assiette (Concave / Bombé)',
-    'Dış Çap: 62-150mm': 'Diamètre ext. : 62-150mm',
+    'Dış Çap: 62-250mm': 'Diamètre ext. : 62-250mm',
     '0.6 - 3.0mm': '0,6 - 3,0mm',
     'Tek Açı / Çift Açı / Konkav': 'Simple biseau / Double biseau / Concave',
     'O1 / D2 Takım Çeliği / HSS': 'Acier à outils O1 / D2 / HSS',
@@ -2135,7 +2135,7 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     // Значения круглых ножей для продольной резки
     'O1 / D2 Takım Çeliği': 'Инструментальная сталь O1 / D2',
     'Tabak (Dish / Bombeli)': 'Тарелка (вогнутая / выпуклая)',
-    'Dış Çap: 62-150mm': 'Наружный диаметр: 62-150мм',
+    'Dış Çap: 62-250mm': 'Наружный диаметр: 62-250мм',
     '0.6 - 3.0mm': '0,6 - 3,0мм',
     'Tek Açı / Çift Açı / Konkav': 'Односторонняя / Двухсторонняя / Конкавная',
     'O1 / D2 Takım Çeliği / HSS': 'Инструментальная сталь O1 / D2 / HSS',

@@ -4358,12 +4358,12 @@ export const productsEn: Record<string, ProductTranslation> = {
   'ust-tabak': {
     name: 'Top Dish Slitter Knives — Circular Slitting Upper Blade',
     subtitle: 'O1 & D2 Tool Steel — Single Bevel, Double Bevel & Concave Grinding',
-    description: 'Top dish (dished) slitter knives manufactured from O1 and D2 tool steel. Outer diameter range from 62mm to 150mm. Available in single bevel, double bevel and concave grinding profiles. Used in paper, film, foil, textile and packaging slitter rewinder machines.',
-    features: ['O1 and D2 tool steel', 'Single / double bevel / concave grinding', '62-150mm outer diameter range', '0.6-3.0mm thickness options', 'Slitter rewinder compatible', 'Custom size manufacturing'],
+    description: 'Top dish (dished) slitter knives manufactured from O1 and D2 tool steel. Outer diameter range from 62mm to 250mm. Available in single bevel, double bevel and concave grinding profiles. Used in paper, film, foil, textile and packaging slitter rewinder machines.',
+    features: ['O1 and D2 tool steel', 'Single / double bevel / concave grinding', '62-250mm outer diameter range', '0.6-3.0mm thickness options', 'Slitter rewinder compatible', 'Custom size manufacturing'],
     benefits: [
       { title: 'O1 & D2 Steel Options', description: 'Optimum steel selection per application', icon: 'Shield' },
       { title: '3 Grinding Profiles', description: 'Single bevel, double bevel and concave for every material type', icon: 'Target' },
-      { title: '19 Standard Sizes', description: 'Wide OD range from 62mm to 150mm', icon: 'Ruler' },
+      { title: '19 Standard Sizes', description: 'Wide OD range from 62mm to 250mm', icon: 'Ruler' },
       { title: 'Custom Manufacturing', description: 'Production for non-standard sizes on request', icon: 'Settings' },
     ],
     applications: ['Paper slitting', 'Film & foil slitting', 'Packaging cutting', 'Textile slitting'],
@@ -4373,8 +4373,8 @@ export const productsEn: Record<string, ProductTranslation> = {
 <h3>Applications</h3><ul><li>Paper and cardboard slitting (slitter rewinder)</li><li>Plastic film and foil slitting</li><li>Packaging material cutting</li><li>Textile fabric slitting</li><li>Aluminium foil and metallized film slitting</li></ul>
 <p><em>NOTE: Different sizes are available beyond the listed standard products. Please contact us for custom size requests.</em></p>`,
     seo: {
-      title: 'Top Dish Slitter Knives — O1 D2 Steel | 62-150mm | Alya Blade',
-      description: 'O1 & D2 tool steel top dish slitter knives. 62-150mm OD, 0.6-3.0mm thickness, single/double bevel & concave grinding. Compatible with all major slitter rewinder machines. 19 standard sizes + custom manufacturing.',
+      title: 'Top Dish Slitter Knives — O1 D2 Steel | 62-250mm | Alya Blade',
+      description: 'O1 & D2 tool steel top dish slitter knives. 62-250mm OD, 0.6-3.0mm thickness, single/double bevel & concave grinding. Compatible with all major slitter rewinder machines. 19 standard sizes + custom manufacturing.',
       keywords: [
         'top dish slitter knife', 'dish slitter knife', 'top slitter knife',
         'circular slitting knife', 'dished knife', 'round slitting knife',

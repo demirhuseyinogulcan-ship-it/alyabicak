@@ -4179,12 +4179,12 @@ export const productsFr: Record<string, ProductTranslation> = {
   'ust-tabak': {
     name: 'Couteaux Supérieurs Dish — Lame Supérieure de Refente Circulaire',
     subtitle: 'Acier O1 & D2 — Affûtage Simple, Double et Concave',
-    description: 'Couteaux supérieurs dish (bombés) en acier O1 et D2. Diamètre extérieur de 62 à 150 mm. Disponibles en affûtage simple face, double face et concave. Utilisés dans les machines de refente de papier, film, feuille et textile.',
-    features: ['Acier O1 et D2', 'Affûtage simple / double / concave', 'Diamètre 62-150 mm', 'Épaisseurs 0,6-3,0 mm', 'Compatible refendeuse', 'Fabrication sur mesure'],
+    description: 'Couteaux supérieurs dish (bombés) en acier O1 et D2. Diamètre extérieur de 62 à 250 mm. Disponibles en affûtage simple face, double face et concave. Utilisés dans les machines de refente de papier, film, feuille et textile.',
+    features: ['Acier O1 et D2', 'Affûtage simple / double / concave', 'Diamètre 62-250 mm', 'Épaisseurs 0,6-3,0 mm', 'Compatible refendeuse', 'Fabrication sur mesure'],
     benefits: [
       { title: 'Choix Acier O1 & D2', description: 'Sélection optimale par application', icon: 'Shield' },
       { title: '3 Profils d\'Affûtage', description: 'Simple, double et concave pour chaque type de matériau', icon: 'Target' },
-      { title: '19 Tailles Standard', description: 'Large gamme de 62 à 150 mm', icon: 'Ruler' },
+      { title: '19 Tailles Standard', description: 'Large gamme de 62 à 250 mm', icon: 'Ruler' },
       { title: 'Fabrication Sur Mesure', description: 'Production de tailles non standard sur demande', icon: 'Settings' },
     ],
     applications: ['Refente de papier', 'Refente de films et feuilles', 'Découpe d\'emballage', 'Refente textile'],
@@ -4192,8 +4192,8 @@ export const productsFr: Record<string, ProductTranslation> = {
 <h3>Types d'Affûtage</h3><ul><li><strong>Simple face :</strong> Affûtage unilatéral, coupe de précision pour matériaux fins.</li><li><strong>Double face :</strong> Affûtage bilatéral, force de coupe équilibrée pour matériaux épais.</li><li><strong>Concave :</strong> Profil concave pour applications de refente spéciales.</li></ul>
 <h3>Types d'Acier</h3><ul><li><strong>Acier O1 :</strong> Acier à froid trempé à l'huile. Bonne résistance à l'usure, réaffûtage facile.</li><li><strong>Acier D2 :</strong> Acier à froid haute teneur en chrome. Résistance supérieure, durée de vie prolongée.</li></ul>`,
     seo: {
-      title: 'Couteaux Supérieurs Dish — Acier O1 D2 | 62-150mm | Alya Blade',
-      description: 'Couteaux supérieurs dish en acier O1 & D2. 62-150 mm, épaisseur 0,6-3,0 mm. Affûtage simple, double et concave. 19 tailles standard + fabrication sur mesure.',
+      title: 'Couteaux Supérieurs Dish — Acier O1 D2 | 62-250mm | Alya Blade',
+      description: 'Couteaux supérieurs dish en acier O1 & D2. 62-250 mm, épaisseur 0,6-3,0 mm. Affûtage simple, double et concave. 19 tailles standard + fabrication sur mesure.',
       keywords: ['couteau supérieur dish', 'couteau de refente circulaire', 'lame supérieure', 'couteau refendeuse', 'acier O1', 'acier D2', 'couteau papier', 'couteau film'],
     },
   },

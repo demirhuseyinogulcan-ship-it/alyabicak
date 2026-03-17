@@ -7425,7 +7425,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     categoryId: 'machine-knives',
     subcategoryId: 'circular-slitting',
     tags: ['üst tabak bıçak', 'top dish slitter', 'dairesel dilme', 'üst bıçak', 'dish knife', 'circular slitting', 'O1 çelik', 'D2 çelik', 'dilme bıçağı'],
-    shortDescription: 'O1 ve D2 takım çeliğinden üretilmiş üst tabak (dish) bıçaklar. 62mm\'den 150mm\'ye kadar dış çap seçenekleri. Tek açı, çift açı ve konkav bileme tipleri. Kağıt, film, folyo, tekstil ve ambalaj dilme makinelerinde kullanılır.',
+    shortDescription: 'O1 ve D2 takım çeliğinden üretilmiş üst tabak (dish) bıçaklar. 62mm\'den 250mm\'ye kadar dış çap seçenekleri. Tek açı, çift açı ve konkav bileme tipleri. Kağıt, film, folyo, tekstil ve ambalaj dilme makinelerinde kullanılır.',
     longDescription: `<p>Üst tabak (dish / dished top) bıçaklar, dairesel dilme sistemlerinde alt bıçakla birlikte çalışarak makas (shear cut) prensibiyle malzemeyi keser. Bombeli (tabak) profil, kesim hattında malzemenin yönlendirilmesini ve temiz ayrılmasını sağlar.</p>
 
 <h3>Bileme Tipleri</h3>
@@ -7471,7 +7471,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     specs: [
       { label: 'material', value: 'O1 / D2 Takım Çeliği', icon: 'Layers', highlight: true },
       { label: 'form', value: 'Tabak (Dish / Bombeli)', icon: 'Circle', highlight: true },
-      { label: 'dimensions', value: 'Dış Çap: 62-150mm', icon: 'Maximize' },
+      { label: 'dimensions', value: 'Dış Çap: 62-250mm', icon: 'Maximize' },
       { label: 'thickness', value: '0.6 - 3.0mm', icon: 'Ruler' },
       { label: 'edge', value: 'Tek Açı / Çift Açı / Konkav', icon: 'Triangle' },
     ],
@@ -7492,11 +7492,11 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     benefits: [
       { title: 'O1 & D2 Çelik Seçenekleri', description: 'Uygulamaya göre optimum çelik seçimi: O1 standart, D2 ağır iş', icon: 'Layers' },
       { title: '3 Bileme Profili', description: 'Tek açı, çift açı ve konkav — her malzeme tipine uygun bileme', icon: 'Triangle' },
-      { title: '19 Standart Ölçü', description: '62mm\'den 150mm\'ye kadar geniş dış çap yelpazesi', icon: 'Maximize' },
+      { title: '19 Standart Ölçü', description: '62mm\'den 250mm\'ye kadar geniş dış çap yelpazesi', icon: 'Maximize' },
       { title: 'Özel Ölçü Üretimi', description: 'Standart dışı ölçüler için talebe göre üretim imkanı', icon: 'Settings' },
     ],
 
-    features: ['O1 ve D2 takım çeliği', 'Tek açı / çift açı / konkav bileme', '62-150mm dış çap aralığı', '0.6-3.0mm kalınlık seçenekleri', 'Slitter rewinder uyumlu', 'Özel ölçü üretimi'],
+    features: ['O1 ve D2 takım çeliği', 'Tek açı / çift açı / konkav bileme', '62-250mm dış çap aralığı', '0.6-3.0mm kalınlık seçenekleri', 'Slitter rewinder uyumlu', 'Özel ölçü üretimi'],
     certifications: ['CE'],
 
     availableSizes: [
@@ -7554,8 +7554,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     relatedProductIds: ['alt-bicak', 'dairesel', 'dairesel-2'],
 
     seo: {
-      title: 'Üst Tabak Bıçak — Dairesel Dilme Üst Bıçağı O1 D2 Çelik | 62-150mm | Alya Bıçak',
-      description: 'O1 ve D2 takım çeliğinden üst tabak (dish) bıçaklar. 62-150mm dış çap, 0.6-3.0mm kalınlık, tek açı/çift açı/konkav bileme. Kağıt, film, folyo, tekstil dilme makinelerine uyumlu. 19 standart ölçü, özel ölçü üretimi.',
+      title: 'Üst Tabak Bıçak — Dairesel Dilme Üst Bıçağı O1 D2 Çelik | 62-250mm | Alya Bıçak',
+      description: 'O1 ve D2 takım çeliğinden üst tabak (dish) bıçaklar. 62-250mm dış çap, 0.6-3.0mm kalınlık, tek açı/çift açı/konkav bileme. Kağıt, film, folyo, tekstil dilme makinelerine uyumlu. 19 standart ölçü, özel ölçü üretimi.',
       keywords: [
         'üst tabak bıçak', 'tabak bıçak', 'üst bıçak', 'dish slitter knife', 'top dish knife',
         'dairesel dilme bıçağı', 'circular slitting knife', 'top slitter knife',
