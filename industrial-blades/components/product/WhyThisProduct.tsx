@@ -27,6 +27,9 @@ import {
   Droplet,
   Layers,
   Scissors,
+  Triangle,
+  Maximize,
+  Lock,
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductBenefit } from '@/lib/types/product.types';
@@ -60,6 +63,9 @@ const iconMap: Record<string, LucideIcon> = {
   Droplet,
   Layers,
   Scissors,
+  Triangle,
+  Maximize,
+  Lock,
 };
 
 interface WhyThisProductProps {

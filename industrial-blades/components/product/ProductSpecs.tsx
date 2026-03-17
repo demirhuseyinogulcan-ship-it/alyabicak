@@ -22,6 +22,8 @@ import {
   Droplet,
   Wind,
   Maximize,
+  Triangle,
+  Lock,
   type LucideIcon
 } from 'lucide-react';
 import type { ProductSpec } from '@/lib/types/product.types';
@@ -50,6 +52,8 @@ const iconMap: Record<string, LucideIcon> = {
   Droplet,
   Wind,
   Maximize,
+  Triangle,
+  Lock,
 };
 
 interface ProductSpecsProps {

@@ -430,6 +430,18 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.50mm': '0.50mm',
     'Çift Taraflı Bileme (Double Edge)': 'Çift Taraflı Bileme (Double Edge)',
     '2 Açık Yuva (Slot) + 1 Delik': '2 Açık Yuva (Slot) + 1 Delik',
+
+    // Dairesel Dilme Bıçakları (Circular Slitting) Değerleri
+    'O1 / D2 Takım Çeliği': 'O1 / D2 Takım Çeliği',
+    'Tabak (Dish / Bombeli)': 'Tabak (Dish / Bombeli)',
+    'Dış Çap: 62-150mm': 'Dış Çap: 62-150mm',
+    '0.6 - 3.0mm': '0.6 - 3.0mm',
+    'Tek Açı / Çift Açı / Konkav': 'Tek Açı / Çift Açı / Konkav',
+    'O1 / D2 Takım Çeliği / HSS': 'O1 / D2 Takım Çeliği / HSS',
+    'Alt Bıçak (Bottom Knife)': 'Alt Bıçak (Bottom Knife)',
+    'Dış Çap: 46-150mm': 'Dış Çap: 46-150mm',
+    'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Toplam: 5-20mm / Kenar: 3.5-17.5mm',
+    'Serbest Geçişli / Kendinden Kilitli': 'Serbest Geçişli / Kendinden Kilitli',
   },
 
   // =============================================================================
@@ -852,6 +864,18 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.50mm': '0.50mm',
     'Çift Taraflı Bileme (Double Edge)': 'Double Edge Grind',
     '2 Açık Yuva (Slot) + 1 Delik': '2 Open Slots + 1 Hole',
+
+    // Circular Slitting Blades Values
+    'O1 / D2 Takım Çeliği': 'O1 / D2 Tool Steel',
+    'Tabak (Dish / Bombeli)': 'Dish (Concave / Dished)',
+    'Dış Çap: 62-150mm': 'OD: 62-150mm',
+    '0.6 - 3.0mm': '0.6 - 3.0mm',
+    'Tek Açı / Çift Açı / Konkav': 'Single Bevel / Double Bevel / Concave',
+    'O1 / D2 Takım Çeliği / HSS': 'O1 / D2 Tool Steel / HSS',
+    'Alt Bıçak (Bottom Knife)': 'Bottom Knife',
+    'Dış Çap: 46-150mm': 'OD: 46-150mm',
+    'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Total: 5-20mm / Edge: 3.5-17.5mm',
+    'Serbest Geçişli / Kendinden Kilitli': 'Free Fit / Self-Locking',
   },
 
   // =============================================================================
@@ -1239,6 +1263,18 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.50mm': '0.50مم',
     'Çift Taraflı Bileme (Double Edge)': 'شحذ مزدوج الحواف',
     '2 Açık Yuva (Slot) + 1 Delik': '2 فتحة مفتوحة + 1 ثقب',
+
+    // قيم شفرات التقطيع الدائرية
+    'O1 / D2 Takım Çeliği': 'فولاذ أدوات O1 / D2',
+    'Tabak (Dish / Bombeli)': 'طبق (مقعر / محدب)',
+    'Dış Çap: 62-150mm': 'القطر الخارجي: 62-150مم',
+    '0.6 - 3.0mm': '0.6 - 3.0مم',
+    'Tek Açı / Çift Açı / Konkav': 'زاوية واحدة / زاوية مزدوجة / مقعر',
+    'O1 / D2 Takım Çeliği / HSS': 'فولاذ أدوات O1 / D2 / HSS',
+    'Alt Bıçak (Bottom Knife)': 'الشفرة السفلية',
+    'Dış Çap: 46-150mm': 'القطر الخارجي: 46-150مم',
+    'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'الإجمالي: 5-20مم / الحافة: 3.5-17.5مم',
+    'Serbest Geçişli / Kendinden Kilitli': 'تركيب حر / قفل ذاتي',
   },
 
   // =============================================================================
@@ -1661,6 +1697,18 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.50mm': '0,50mm',
     'Çift Taraflı Bileme (Double Edge)': 'Affûtage Double Tranchant',
     '2 Açık Yuva (Slot) + 1 Delik': '2 Fentes Ouvertes + 1 Trou',
+
+    // Valeurs lames de refente circulaire
+    'O1 / D2 Takım Çeliği': 'Acier à outils O1 / D2',
+    'Tabak (Dish / Bombeli)': 'Assiette (Concave / Bombé)',
+    'Dış Çap: 62-150mm': 'Diamètre ext. : 62-150mm',
+    '0.6 - 3.0mm': '0,6 - 3,0mm',
+    'Tek Açı / Çift Açı / Konkav': 'Simple biseau / Double biseau / Concave',
+    'O1 / D2 Takım Çeliği / HSS': 'Acier à outils O1 / D2 / HSS',
+    'Alt Bıçak (Bottom Knife)': 'Couteau inférieur',
+    'Dış Çap: 46-150mm': 'Diamètre ext. : 46-150mm',
+    'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Total : 5-20mm / Bord : 3,5-17,5mm',
+    'Serbest Geçişli / Kendinden Kilitli': 'Passage libre / Auto-bloquant',
   },
 
   // =============================================================================
@@ -2083,6 +2131,18 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     '0.50mm': '0,50мм',
     'Çift Taraflı Bileme (Double Edge)': 'Двусторонняя заточка',
     '2 Açık Yuva (Slot) + 1 Delik': '2 открытых паза + 1 отверстие',
+
+    // Значения круглых ножей для продольной резки
+    'O1 / D2 Takım Çeliği': 'Инструментальная сталь O1 / D2',
+    'Tabak (Dish / Bombeli)': 'Тарелка (вогнутая / выпуклая)',
+    'Dış Çap: 62-150mm': 'Наружный диаметр: 62-150мм',
+    '0.6 - 3.0mm': '0,6 - 3,0мм',
+    'Tek Açı / Çift Açı / Konkav': 'Односторонняя / Двухсторонняя / Конкавная',
+    'O1 / D2 Takım Çeliği / HSS': 'Инструментальная сталь O1 / D2 / HSS',
+    'Alt Bıçak (Bottom Knife)': 'Нижний нож',
+    'Dış Çap: 46-150mm': 'Наружный диаметр: 46-150мм',
+    'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Общая: 5-20мм / Кромка: 3,5-17,5мм',
+    'Serbest Geçişli / Kendinden Kilitli': 'Свободная посадка / Самоблокирующийся',
   },
 };
 

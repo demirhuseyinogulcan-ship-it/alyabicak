@@ -30,6 +30,8 @@ import {
   Utensils,
   RotateCw,
   Fish,
+  Newspaper,
+  RefreshCw,
   type LucideIcon 
 } from 'lucide-react';
 import type { ProductApplication } from '@/lib/types/product.types';
@@ -66,6 +68,8 @@ const iconMap: Record<string, LucideIcon> = {
   Utensils,
   RotateCw,
   Fish,
+  Newspaper,
+  RefreshCw,
 };
 
 interface ProductApplicationsProps {
