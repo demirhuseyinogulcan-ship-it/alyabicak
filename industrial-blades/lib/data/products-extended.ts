@@ -7407,6 +7407,254 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     inStock: true,
     order: 348,
   },
+  // ==========================================================================
+  // DAİRESEL DİLME BIÇAKLARI — CIRCULAR SLITTING KNIVES
+  // ==========================================================================
+  {
+    id: 'ust-tabak',
+    slug: 'ust-tabak-bicaklar-dairesel-dilme',
+    slugEN: 'top-dish-slitter-knives-circular-slitting',
+    code: 'TOP-DISH',
+    name: 'Üst Tabak Bıçaklar — Dairesel Dilme Üst Bıçağı',
+    subtitle: 'O1 ve D2 Takım Çeliği — Tek Açı, Çift Açı ve Konkav Bileme',
+    categoryId: 'machine-knives',
+    subcategoryId: 'circular-slitting',
+    tags: ['üst tabak bıçak', 'top dish slitter', 'dairesel dilme', 'üst bıçak', 'dish knife', 'circular slitting', 'O1 çelik', 'D2 çelik', 'dilme bıçağı'],
+    shortDescription: 'O1 ve D2 takım çeliğinden üretilmiş üst tabak (dish) bıçaklar. 62mm\'den 150mm\'ye kadar dış çap seçenekleri. Tek açı, çift açı ve konkav bileme tipleri. Kağıt, film, folyo, tekstil ve ambalaj dilme makinelerinde kullanılır.',
+    longDescription: `<p>Üst tabak (dish / dished top) bıçaklar, dairesel dilme sistemlerinde alt bıçakla birlikte çalışarak makas (shear cut) prensibiyle malzemeyi keser. Bombeli (tabak) profil, kesim hattında malzemenin yönlendirilmesini ve temiz ayrılmasını sağlar.</p>
+
+<h3>Bileme Tipleri</h3>
+<ul>
+  <li><strong>Tek Açı (Single Bevel):</strong> Tek taraflı bileme, ince malzemelerde hassas kesim. 62-68mm çaplarda standart.</li>
+  <li><strong>Çift Açı (Double Bevel):</strong> Çift taraflı bileme, kalın malzemelerde dengeli kesim kuvveti. 75mm ve üzeri çaplarda mevcut.</li>
+  <li><strong>Konkav (Concave):</strong> İçbükey bileme profili, özel dilme uygulamaları için. Talebe göre üretim.</li>
+</ul>
+
+<h3>Çelik Tipleri</h3>
+<ul>
+  <li><strong>O1 Takım Çeliği:</strong> Yağda sertleştirilen soğuk iş çeliği. İyi aşınma direnci, kolay bilelenebilirlik. Standart uygulamalar için.</li>
+  <li><strong>D2 Takım Çeliği:</strong> Yüksek kromlu soğuk iş çeliği. Üstün aşınma direnci, uzun bıçak ömrü. Aşındırıcı malzemeler ve yoğun üretim hatları için.</li>
+</ul>
+
+<h3>Kullanım Alanları</h3>
+<ul>
+  <li>Kağıt ve karton dilme (slitter rewinder)</li>
+  <li>Plastik film ve folyo dilme</li>
+  <li>Ambalaj malzemesi kesim</li>
+  <li>Tekstil kumaş dilme</li>
+  <li>Alüminyum folyo ve metalize film dilme</li>
+</ul>
+
+<p><em>NOT: Belirtilen standart ürünler dışında farklı ölçüler bulunmaktadır. Özel ölçü talepleriniz için iletişime geçiniz.</em></p>`,
+
+    images: {
+      main: {
+        src: '/images/products/ust-tabak-bicak.jpg',
+        alt: 'Üst Tabak Bıçak — Dairesel Dilme Üst Bıçağı O1 D2 Çelik Top Dish Slitter Knife | Alya Bıçak',
+        width: 1920,
+        height: 1080,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/ust-tabak-bicak.jpg',
+        alt: 'Üst Tabak Bıçak — Alya Bıçak',
+        width: 1920,
+        height: 1080,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'O1 / D2 Takım Çeliği', icon: 'Layers', highlight: true },
+      { label: 'form', value: 'Tabak (Dish / Bombeli)', icon: 'Circle', highlight: true },
+      { label: 'dimensions', value: 'Dış Çap: 62-150mm', icon: 'Maximize' },
+      { label: 'thickness', value: '0.6 - 3.0mm', icon: 'Ruler' },
+      { label: 'edge', value: 'Tek Açı / Çift Açı / Konkav', icon: 'Triangle' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: '',
+      city: '',
+    },
+
+    applications: [
+      { title: 'Kağıt Dilme', icon: 'Newspaper', description: 'Kağıt, karton rulolar için slitter rewinder makinelerinde' },
+      { title: 'Film & Folyo Dilme', icon: 'Film', description: 'Plastik film, alüminyum folyo, metalize film dilme' },
+      { title: 'Ambalaj Kesim', icon: 'Box', description: 'Ambalaj malzemesi dilme ve kesim hatlarında' },
+      { title: 'Tekstil', icon: 'Scissors', description: 'Kumaş dilme ve kenar budama makinelerinde' },
+    ],
+
+    benefits: [
+      { title: 'O1 & D2 Çelik Seçenekleri', description: 'Uygulamaya göre optimum çelik seçimi: O1 standart, D2 ağır iş', icon: 'Layers' },
+      { title: '3 Bileme Profili', description: 'Tek açı, çift açı ve konkav — her malzeme tipine uygun bileme', icon: 'Triangle' },
+      { title: '19 Standart Ölçü', description: '62mm\'den 150mm\'ye kadar geniş dış çap yelpazesi', icon: 'Maximize' },
+      { title: 'Özel Ölçü Üretimi', description: 'Standart dışı ölçüler için talebe göre üretim imkanı', icon: 'Settings' },
+    ],
+
+    features: ['O1 ve D2 takım çeliği', 'Tek açı / çift açı / konkav bileme', '62-150mm dış çap aralığı', '0.6-3.0mm kalınlık seçenekleri', 'Slitter rewinder uyumlu', 'Özel ölçü üretimi'],
+    certifications: ['CE'],
+
+    availableSizes: [
+      '62×40×0.6mm', '62×40×0.8mm', '62×40×1.2mm',
+      '65×40×1.0mm', '65×40×1.2mm',
+      '68×40×1.2mm',
+      '75×50×1.0mm',
+      '90×60×1.2mm',
+      '100×70×1.2mm', '102×70×1.2mm',
+      '105×65×1.2mm', '105×70×1.2mm', '105×75×1.2mm',
+      '130×80×1.5mm', '130×90×1.4mm', '130×100×1.5mm',
+      '140×70×3.0mm',
+      '150×80×2.0mm', '150×80×2.5mm',
+    ],
+
+    relatedProductIds: ['alt-bicak', 'dairesel', 'dairesel-2'],
+
+    seo: {
+      title: 'Üst Tabak Bıçak — Dairesel Dilme Üst Bıçağı O1 D2 Çelik | 62-150mm | Alya Bıçak',
+      description: 'O1 ve D2 takım çeliğinden üst tabak (dish) bıçaklar. 62-150mm dış çap, 0.6-3.0mm kalınlık, tek açı/çift açı/konkav bileme. Kağıt, film, folyo, tekstil dilme makinelerine uyumlu. 19 standart ölçü, özel ölçü üretimi.',
+      keywords: [
+        'üst tabak bıçak', 'tabak bıçak', 'üst bıçak', 'dish slitter knife', 'top dish knife',
+        'dairesel dilme bıçağı', 'circular slitting knife', 'top slitter knife',
+        'dilme üst bıçak', 'slitter rewinder knife', 'O1 çelik bıçak', 'D2 çelik bıçak',
+        'kağıt dilme bıçağı', 'film dilme bıçağı', 'folyo dilme bıçağı',
+        'bombeli bıçak', 'dished knife', 'round slitting knife',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 350,
+  },
+  {
+    id: 'alt-bicak',
+    slug: 'alt-bicaklar-dairesel-dilme',
+    slugEN: 'bottom-slitter-knives-circular-slitting',
+    code: 'BOTTOM-SLITTER',
+    name: 'Alt Bıçaklar — Dairesel Dilme Alt Bıçağı',
+    subtitle: 'O1 ve D2 Takım Çeliği — Serbest Geçişli ve Kendinden Kilitli Tipler',
+    categoryId: 'machine-knives',
+    subcategoryId: 'circular-slitting',
+    tags: ['alt bıçak', 'bottom slitter', 'dairesel dilme', 'alt dilme bıçağı', 'bottom knife', 'circular slitting', 'O1 çelik', 'D2 çelik', 'serbest geçişli', 'kendinden kilitli'],
+    shortDescription: 'O1 ve D2 takım çeliğinden üretilmiş alt dilme bıçakları. 46mm\'den 150mm\'ye kadar dış çap. Serbest geçişli (free-running) ve kendinden kilitli (self-locking) olmak üzere iki montaj tipi. Kağıt, film, folyo ve ambalaj dilme makinelerinde kullanılır.',
+    longDescription: `<p>Alt bıçaklar (bottom knives), dairesel dilme sistemlerinde üst tabak bıçakla eşleşerek makas (shear cut) prensibiyle çalışır. Mil üzerine montaj şekline göre iki temel tipi vardır:</p>
+
+<h3>Montaj Tipleri</h3>
+<ul>
+  <li><strong>Serbest Geçişli (Free-Running):</strong> Mil üzerinde serbest dönen tip. Malzeme tarafından çevrilerek döner. Düşük torklu ve ince malzeme uygulamalarında tercih edilir.</li>
+  <li><strong>Kendinden Kilitli (Self-Locking):</strong> Mil üzerine kilitlenmeli montaj. Mil ile birlikte döner. Yüksek torklu ve kalın malzeme uygulamalarında gereklidir.</li>
+</ul>
+
+<h3>Çelik Tipleri</h3>
+<ul>
+  <li><strong>O1 Takım Çeliği:</strong> Yağda sertleştirilen soğuk iş çeliği. Standart dilme uygulamaları için uygun maliyet-performans dengesi.</li>
+  <li><strong>D2 Takım Çeliği:</strong> Yüksek kromlu soğuk iş çeliği. Aşındırıcı malzemeler ve uzun seri üretim hatlarında üstün performans.</li>
+  <li><strong>HSS (Yüksek Hız Çeliği):</strong> Özel uygulamalar için en yüksek aşınma direnci ve termal kararlılık.</li>
+</ul>
+
+<h3>Boyutlandırma</h3>
+<p>Alt bıçaklarda dört kritik ölçü bulunur:</p>
+<ul>
+  <li><strong>"A" — Dış Çap:</strong> 46mm'den 150mm'ye kadar</li>
+  <li><strong>"B" — İç Çap:</strong> Mil çapına göre 25mm'den 120mm'ye kadar</li>
+  <li><strong>"Th" — Toplam Kalınlık:</strong> 5mm'den 20mm'ye kadar</li>
+  <li><strong>"C" — Kesim Kenarı Kalınlığı:</strong> 3.5mm'den 17.5mm'ye kadar</li>
+</ul>
+
+<h3>Kullanım Alanları</h3>
+<ul>
+  <li>Kağıt ve karton dilme (slitter rewinder)</li>
+  <li>Plastik film ve folyo dilme</li>
+  <li>Ambalaj malzemesi kesim</li>
+  <li>Dönüştürme (converting) hatları</li>
+  <li>Olmuklu mukavva dilme</li>
+</ul>
+
+<p><em>NOT: Belirtilen standart ürünler dışında farklı ölçüler bulunmaktadır. Özel ölçü talepleriniz için iletişime geçiniz.</em></p>`,
+
+    images: {
+      main: {
+        src: '/images/products/alt-bicak-dairesel-dilme.jpg',
+        alt: 'Alt Bıçak — Dairesel Dilme Alt Bıçağı O1 D2 Çelik Bottom Slitter Knife | Alya Bıçak',
+        width: 1920,
+        height: 1080,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/alt-bicak-dairesel-dilme.jpg',
+        alt: 'Alt Dilme Bıçağı — Alya Bıçak',
+        width: 1920,
+        height: 1080,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'O1 / D2 Takım Çeliği / HSS', icon: 'Layers', highlight: true },
+      { label: 'form', value: 'Alt Bıçak (Bottom Knife)', icon: 'Circle', highlight: true },
+      { label: 'dimensions', value: 'Dış Çap: 46-150mm', icon: 'Maximize' },
+      { label: 'thickness', value: 'Toplam: 5-20mm / Kenar: 3.5-17.5mm', icon: 'Ruler' },
+      { label: 'mounting', value: 'Serbest Geçişli / Kendinden Kilitli', icon: 'Lock' },
+    ],
+
+    origin: {
+      brand: 'Durham Duplex',
+      country: '',
+      city: '',
+    },
+
+    applications: [
+      { title: 'Kağıt Dilme', icon: 'Newspaper', description: 'Kağıt, karton rulolar için slitter rewinder makinelerinde' },
+      { title: 'Film & Folyo Dilme', icon: 'Film', description: 'Plastik film, alüminyum folyo dilme hatlarında' },
+      { title: 'Ambalaj Kesim', icon: 'Box', description: 'Ambalaj malzemesi dilme ve kesim hatlarında' },
+      { title: 'Converting', icon: 'RefreshCw', description: 'Dönüştürme hatlarında rulo dilme operasyonları' },
+    ],
+
+    benefits: [
+      { title: 'İki Montaj Tipi', description: 'Serbest geçişli ve kendinden kilitli — uygulamaya göre seçim', icon: 'Lock' },
+      { title: 'O1 / D2 / HSS Çelik', description: 'Üç farklı çelik kalitesi ile her bütçe ve performans ihtiyacına çözüm', icon: 'Layers' },
+      { title: '31 Standart Ölçü', description: '46mm\'den 150mm\'ye kadar geniş dış çap yelpazesi', icon: 'Maximize' },
+      { title: 'Özel Ölçü Üretimi', description: 'Standart dışı ölçüler ve mil çaplarına göre üretim', icon: 'Settings' },
+    ],
+
+    features: ['O1, D2 ve HSS çelik seçenekleri', 'Serbest geçişli ve kendinden kilitli montaj', '46-150mm dış çap aralığı', '4 kritik boyut parametresi', 'Slitter rewinder uyumlu', 'Özel ölçü üretimi'],
+    certifications: ['CE'],
+
+    availableSizes: [
+      '46×25×10×8mm', '50×25×10×8mm',
+      '60×30×10×8mm', '60×40×5×3.5mm', '60×40×10×8mm',
+      '77×45×10×8mm', '77×45×15×13mm', '77×60×5×3.5mm', '77×60×10×8.5mm', '77×60×10×8mm',
+      '80×60×5×3.5mm', '80×60×10×8.5mm', '80×60×10×8mm', '80×60×10×7.5mm',
+      '82×60×10×8mm',
+      '90×60×10×8mm', '90×60×15×12.5mm',
+      '105×60×15×12.5mm', '105×60×20×17.5mm',
+      '105×80×10×7.5mm', '105×80×10×8mm', '105×80×15×12.5mm', '105×80×20×17.5mm',
+      '105×90×5×3.5mm', '105×90×10×8mm', '105×90×19×17mm',
+      '125×100×18×16mm',
+      '150×100×6mm', '150×100×10×8mm',
+      '150×120×10×8mm', '150×120×15×13mm',
+    ],
+
+    relatedProductIds: ['ust-tabak', 'dairesel', 'dairesel-2'],
+
+    seo: {
+      title: 'Alt Dilme Bıçağı — Dairesel Dilme Alt Bıçak O1 D2 Çelik | 46-150mm | Alya Bıçak',
+      description: 'O1 ve D2 takım çeliğinden alt dilme bıçakları. 46-150mm dış çap, serbest geçişli ve kendinden kilitli montaj. Kağıt, film, folyo dilme makinelerine uyumlu. 31 standart ölçü, özel ölçü üretimi.',
+      keywords: [
+        'alt bıçak', 'alt dilme bıçağı', 'bottom slitter knife', 'bottom knife',
+        'dairesel dilme bıçağı', 'circular slitting knife', 'bottom slitter blade',
+        'serbest geçişli bıçak', 'kendinden kilitli bıçak', 'free running knife', 'self locking knife',
+        'slitter rewinder knife', 'O1 çelik bıçak', 'D2 çelik bıçak', 'HSS bıçak',
+        'kağıt dilme bıçağı', 'film dilme bıçağı', 'converting knife',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 351,
+  },
 ];
 
 // =============================================================================

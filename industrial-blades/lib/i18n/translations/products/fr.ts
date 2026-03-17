@@ -4172,4 +4172,50 @@ export const productsFr: Record<string, ProductTranslation> = {
       keywords: ['lame médicale', 'lame classique médicale', 'B684', 'B685', 'triple facette', 'lame histologie', 'lame pathologie', 'lame dermatologie', 'grattage cutané', 'lame laboratoire'],
     },
   },
+
+  // ========================================================================
+  // COUTEAUX DE REFENTE CIRCULAIRE
+  // ========================================================================
+  'ust-tabak': {
+    name: 'Couteaux Supérieurs Dish — Lame Supérieure de Refente Circulaire',
+    subtitle: 'Acier O1 & D2 — Affûtage Simple, Double et Concave',
+    description: 'Couteaux supérieurs dish (bombés) en acier O1 et D2. Diamètre extérieur de 62 à 150 mm. Disponibles en affûtage simple face, double face et concave. Utilisés dans les machines de refente de papier, film, feuille et textile.',
+    features: ['Acier O1 et D2', 'Affûtage simple / double / concave', 'Diamètre 62-150 mm', 'Épaisseurs 0,6-3,0 mm', 'Compatible refendeuse', 'Fabrication sur mesure'],
+    benefits: [
+      { title: 'Choix Acier O1 & D2', description: 'Sélection optimale par application', icon: 'Shield' },
+      { title: '3 Profils d\'Affûtage', description: 'Simple, double et concave pour chaque type de matériau', icon: 'Target' },
+      { title: '19 Tailles Standard', description: 'Large gamme de 62 à 150 mm', icon: 'Ruler' },
+      { title: 'Fabrication Sur Mesure', description: 'Production de tailles non standard sur demande', icon: 'Settings' },
+    ],
+    applications: ['Refente de papier', 'Refente de films et feuilles', 'Découpe d\'emballage', 'Refente textile'],
+    longDescription: `<p>Les couteaux supérieurs (dish) fonctionnent avec les couteaux inférieurs dans les systèmes de refente circulaire par cisaillement. Le profil bombé guide le matériau à la ligne de coupe et assure une séparation nette.</p>
+<h3>Types d'Affûtage</h3><ul><li><strong>Simple face :</strong> Affûtage unilatéral, coupe de précision pour matériaux fins.</li><li><strong>Double face :</strong> Affûtage bilatéral, force de coupe équilibrée pour matériaux épais.</li><li><strong>Concave :</strong> Profil concave pour applications de refente spéciales.</li></ul>
+<h3>Types d'Acier</h3><ul><li><strong>Acier O1 :</strong> Acier à froid trempé à l'huile. Bonne résistance à l'usure, réaffûtage facile.</li><li><strong>Acier D2 :</strong> Acier à froid haute teneur en chrome. Résistance supérieure, durée de vie prolongée.</li></ul>`,
+    seo: {
+      title: 'Couteaux Supérieurs Dish — Acier O1 D2 | 62-150mm | Alya Blade',
+      description: 'Couteaux supérieurs dish en acier O1 & D2. 62-150 mm, épaisseur 0,6-3,0 mm. Affûtage simple, double et concave. 19 tailles standard + fabrication sur mesure.',
+      keywords: ['couteau supérieur dish', 'couteau de refente circulaire', 'lame supérieure', 'couteau refendeuse', 'acier O1', 'acier D2', 'couteau papier', 'couteau film'],
+    },
+  },
+  'alt-bicak': {
+    name: 'Couteaux Inférieurs — Lame Inférieure de Refente Circulaire',
+    subtitle: 'Acier O1 & D2 & HSS — Types Libre et Auto-bloquant',
+    description: 'Couteaux inférieurs de refente en acier O1, D2 et HSS. Diamètre extérieur de 46 à 150 mm. Disponibles en montage libre et auto-bloquant. Utilisés dans les machines de refente de papier, film et emballage.',
+    features: ['Acier O1, D2 et HSS', 'Montage libre et auto-bloquant', 'Diamètre 46-150 mm', '4 paramètres dimensionnels', 'Compatible refendeuse', 'Fabrication sur mesure'],
+    benefits: [
+      { title: 'Deux Types de Montage', description: 'Libre et auto-bloquant selon l\'application', icon: 'Settings' },
+      { title: 'Acier O1 / D2 / HSS', description: 'Trois nuances pour chaque besoin', icon: 'Shield' },
+      { title: '31 Tailles Standard', description: 'Large gamme de 46 à 150 mm', icon: 'Ruler' },
+      { title: 'Fabrication Sur Mesure', description: 'Pour tailles et diamètres d\'arbre non standard', icon: 'Target' },
+    ],
+    applications: ['Refente de papier', 'Refente de films et feuilles', 'Découpe d\'emballage', 'Lignes de transformation'],
+    longDescription: `<p>Les couteaux inférieurs fonctionnent en paire avec les couteaux supérieurs dish dans les systèmes de refente circulaire par cisaillement. Deux types de montage fondamentaux :</p>
+<h3>Types de Montage</h3><ul><li><strong>Libre :</strong> Rotation libre sur l'arbre. Entraîné par le matériau. Pour applications faible couple et matériaux fins.</li><li><strong>Auto-bloquant :</strong> Montage verrouillé sur l'arbre. Tourne avec l'arbre. Pour applications fort couple et matériaux épais.</li></ul>
+<h3>Types d'Acier</h3><ul><li><strong>Acier O1 :</strong> Équilibre optimal coût-performance pour applications standard.</li><li><strong>Acier D2 :</strong> Performance supérieure pour matériaux abrasifs et longues séries.</li><li><strong>HSS :</strong> Résistance maximale à l'usure et stabilité thermique.</li></ul>`,
+    seo: {
+      title: 'Couteaux Inférieurs de Refente — Acier O1 D2 | 46-150mm | Alya Blade',
+      description: 'Couteaux inférieurs de refente en acier O1, D2 et HSS. 46-150 mm, montage libre et auto-bloquant. 31 tailles standard + fabrication sur mesure.',
+      keywords: ['couteau inférieur', 'couteau de refente inférieur', 'lame inférieure', 'couteau refendeuse', 'acier O1', 'acier D2', 'acier HSS', 'montage libre', 'auto-bloquant'],
+    },
+  },
 };

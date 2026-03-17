@@ -4351,6 +4351,69 @@ export const productsEn: Record<string, ProductTranslation> = {
       ],
     },
   },
+
+  // ========================================================================
+  // CIRCULAR SLITTING KNIVES
+  // ========================================================================
+  'ust-tabak': {
+    name: 'Top Dish Slitter Knives — Circular Slitting Upper Blade',
+    subtitle: 'O1 & D2 Tool Steel — Single Bevel, Double Bevel & Concave Grinding',
+    description: 'Top dish (dished) slitter knives manufactured from O1 and D2 tool steel. Outer diameter range from 62mm to 150mm. Available in single bevel, double bevel and concave grinding profiles. Used in paper, film, foil, textile and packaging slitter rewinder machines.',
+    features: ['O1 and D2 tool steel', 'Single / double bevel / concave grinding', '62-150mm outer diameter range', '0.6-3.0mm thickness options', 'Slitter rewinder compatible', 'Custom size manufacturing'],
+    benefits: [
+      { title: 'O1 & D2 Steel Options', description: 'Optimum steel selection per application', icon: 'Shield' },
+      { title: '3 Grinding Profiles', description: 'Single bevel, double bevel and concave for every material type', icon: 'Target' },
+      { title: '19 Standard Sizes', description: 'Wide OD range from 62mm to 150mm', icon: 'Ruler' },
+      { title: 'Custom Manufacturing', description: 'Production for non-standard sizes on request', icon: 'Settings' },
+    ],
+    applications: ['Paper slitting', 'Film & foil slitting', 'Packaging cutting', 'Textile slitting'],
+    longDescription: `<p>Top dish (dished top) knives work together with bottom knives in circular slitting systems, cutting material through the shear cut principle. The dished (dish) profile guides the material at the cutting line and ensures clean separation.</p>
+<h3>Grinding Types</h3><ul><li><strong>Single Bevel:</strong> One-sided grinding, precision cutting for thin materials. Standard on 62-68mm diameters.</li><li><strong>Double Bevel:</strong> Two-sided grinding, balanced cutting force for thick materials. Available on 75mm and above diameters.</li><li><strong>Concave:</strong> Concave grinding profile for special slitting applications. Made to order.</li></ul>
+<h3>Steel Types</h3><ul><li><strong>O1 Tool Steel:</strong> Oil-hardening cold work steel. Good wear resistance, easy resharpening. For standard applications.</li><li><strong>D2 Tool Steel:</strong> High-chromium cold work steel. Superior wear resistance, extended blade life. For abrasive materials and high-volume production lines.</li></ul>
+<h3>Applications</h3><ul><li>Paper and cardboard slitting (slitter rewinder)</li><li>Plastic film and foil slitting</li><li>Packaging material cutting</li><li>Textile fabric slitting</li><li>Aluminium foil and metallized film slitting</li></ul>
+<p><em>NOTE: Different sizes are available beyond the listed standard products. Please contact us for custom size requests.</em></p>`,
+    seo: {
+      title: 'Top Dish Slitter Knives — O1 D2 Steel | 62-150mm | Alya Blade',
+      description: 'O1 & D2 tool steel top dish slitter knives. 62-150mm OD, 0.6-3.0mm thickness, single/double bevel & concave grinding. Compatible with all major slitter rewinder machines. 19 standard sizes + custom manufacturing.',
+      keywords: [
+        'top dish slitter knife', 'dish slitter knife', 'top slitter knife',
+        'circular slitting knife', 'dished knife', 'round slitting knife',
+        'slitter rewinder knife', 'O1 steel knife', 'D2 steel knife',
+        'paper slitting knife', 'film slitting knife', 'foil slitting knife',
+        'single bevel', 'double bevel', 'concave grinding',
+      ],
+    },
+  },
+  'alt-bicak': {
+    name: 'Bottom Slitter Knives — Circular Slitting Lower Blade',
+    subtitle: 'O1 & D2 Tool Steel — Free-Running & Self-Locking Types',
+    description: 'Bottom slitter knives manufactured from O1 and D2 tool steel. Outer diameter range from 46mm to 150mm. Available in free-running and self-locking mounting types. Used in paper, film, foil and packaging slitter rewinder machines.',
+    features: ['O1, D2 and HSS steel options', 'Free-running and self-locking mounting', '46-150mm outer diameter range', '4 critical dimension parameters', 'Slitter rewinder compatible', 'Custom size manufacturing'],
+    benefits: [
+      { title: 'Two Mounting Types', description: 'Free-running and self-locking for application-specific selection', icon: 'Settings' },
+      { title: 'O1 / D2 / HSS Steel', description: 'Three steel grades for every budget and performance need', icon: 'Shield' },
+      { title: '31 Standard Sizes', description: 'Wide OD range from 46mm to 150mm', icon: 'Ruler' },
+      { title: 'Custom Manufacturing', description: 'Production for non-standard sizes and shaft diameters', icon: 'Target' },
+    ],
+    applications: ['Paper slitting', 'Film & foil slitting', 'Packaging cutting', 'Converting lines'],
+    longDescription: `<p>Bottom knives work in pairs with top dish knives in circular slitting systems, operating on the shear cut principle. Two fundamental mounting types based on shaft installation:</p>
+<h3>Mounting Types</h3><ul><li><strong>Free-Running:</strong> Freely rotating type on the shaft. Rotated by the material. Preferred for low-torque and thin material applications.</li><li><strong>Self-Locking:</strong> Locked mounting on the shaft. Rotates together with the shaft. Required for high-torque and thick material applications.</li></ul>
+<h3>Steel Types</h3><ul><li><strong>O1 Tool Steel:</strong> Oil-hardening cold work steel. Optimal cost-performance balance for standard slitting applications.</li><li><strong>D2 Tool Steel:</strong> High-chromium cold work steel. Superior performance for abrasive materials and long production runs.</li><li><strong>HSS (High Speed Steel):</strong> Maximum wear resistance and thermal stability for special applications.</li></ul>
+<h3>Dimensioning</h3><p>Bottom knives have four critical measurements:</p><ul><li><strong>"A" — Outer Diameter:</strong> From 46mm to 150mm</li><li><strong>"B" — Inner Diameter:</strong> From 25mm to 120mm based on shaft diameter</li><li><strong>"Th" — Total Thickness:</strong> From 5mm to 20mm</li><li><strong>"C" — Cutting Edge Thickness:</strong> From 3.5mm to 17.5mm</li></ul>
+<h3>Applications</h3><ul><li>Paper and cardboard slitting (slitter rewinder)</li><li>Plastic film and foil slitting</li><li>Packaging material cutting</li><li>Converting lines</li><li>Corrugated board slitting</li></ul>
+<p><em>NOTE: Different sizes are available beyond the listed standard products. Please contact us for custom size requests.</em></p>`,
+    seo: {
+      title: 'Bottom Slitter Knives — O1 D2 Steel | 46-150mm | Alya Blade',
+      description: 'O1 & D2 tool steel bottom slitter knives. 46-150mm OD, free-running & self-locking types. Compatible with all major slitter rewinder machines. 31 standard sizes + custom manufacturing.',
+      keywords: [
+        'bottom slitter knife', 'bottom knife', 'bottom slitting knife',
+        'circular slitting knife', 'lower slitter knife',
+        'free running knife', 'self locking knife',
+        'slitter rewinder knife', 'O1 steel knife', 'D2 steel knife', 'HSS knife',
+        'paper slitting knife', 'film slitting knife', 'converting knife',
+      ],
+    },
+  },
 };
 
 export default productsEn;
