@@ -24,6 +24,7 @@ interface DevNote {
 
 interface Translation {
   label: string
+  title: string
   notes: DevNote[]
   footer: string
   poweredBy: string
@@ -33,13 +34,13 @@ interface Translation {
 const translations: Record<string, Translation> = {
   tr: {
     label: 'Geliştiriliyor',
+    title: 'Geliştirme Notları',
     notes: [
-      { text: 'Ürün teknik özellikleri ve bilgileri ekleniyor', done: true },
       { text: '5 dil desteği aktif: TR · EN · FR · RU · AR', done: true },
-      { text: 'SEO ve yapısal veri optimizasyonu tamamlandı', done: true },
+      { text: 'Mobil uyumlu responsive tasarım tamamlandı', done: true },
+      { text: 'Ürün teknik özellikleri ve bilgileri ekleniyor', done: false },
       { text: 'Ürün görselleri ekleniyor', done: false },
       { text: 'Çoklu dil çevirilerinin detaylandırılması devam ediyor', done: false },
-      { text: 'Gelişmiş filtreleme ve karşılaştırma araçları hazırlanıyor', done: false },
     ],
     footer:
       'Ürünlerin detaylı bilgileri, fiyat ve ölçü talepleri için ana sitemiz alyatekstil.com\'u ziyaret edebilir veya bizimle iletişime geçebilirsiniz.',
@@ -47,13 +48,13 @@ const translations: Record<string, Translation> = {
   },
   en: {
     label: 'In Development',
+    title: 'Development Notes',
     notes: [
-      { text: 'Product technical specs & information being added', done: true },
       { text: '5 language support active: TR · EN · FR · RU · AR', done: true },
-      { text: 'SEO & structured data optimization completed', done: true },
+      { text: 'Mobile-responsive design completed', done: true },
+      { text: 'Product technical specs & information being added', done: false },
       { text: 'Product images being uploaded', done: false },
       { text: 'Multi-language translation refinements in progress', done: false },
-      { text: 'Advanced filtering & comparison tools coming', done: false },
     ],
     footer:
       'For detailed product information, pricing and dimensions, please visit our main site alyatekstil.com or contact us directly.',
@@ -61,13 +62,13 @@ const translations: Record<string, Translation> = {
   },
   fr: {
     label: 'En Développement',
+    title: 'Notes de Développement',
     notes: [
-      { text: 'Spécifications techniques et informations produits en cours d\'ajout', done: true },
       { text: 'Support 5 langues actif : TR · EN · FR · RU · AR', done: true },
-      { text: 'Optimisation SEO et données structurées terminée', done: true },
+      { text: 'Design responsive mobile terminé', done: true },
+      { text: 'Spécifications techniques et informations produits en cours d\'ajout', done: false },
       { text: 'Images produits en cours de téléchargement', done: false },
       { text: 'Affinement des traductions multilingues en cours', done: false },
-      { text: 'Outils de filtrage et comparaison avancés à venir', done: false },
     ],
     footer:
       'Pour des informations détaillées, prix et dimensions, visitez notre site principal alyatekstil.com ou contactez-nous.',
@@ -75,13 +76,13 @@ const translations: Record<string, Translation> = {
   },
   ar: {
     label: 'قيد التطوير',
+    title: 'ملاحظات التطوير',
     notes: [
-      { text: 'إضافة المواصفات الفنية ومعلومات المنتجات', done: true },
       { text: 'دعم 5 لغات نشط: TR · EN · FR · RU · AR', done: true },
-      { text: 'تحسين محركات البحث والبيانات المنظمة مكتمل', done: true },
+      { text: 'تصميم متجاوب للجوال مكتمل', done: true },
+      { text: 'إضافة المواصفات الفنية ومعلومات المنتجات', done: false },
       { text: 'جاري تحميل صور المنتجات', done: false },
       { text: 'تحسين الترجمات متعددة اللغات قيد التقدم', done: false },
-      { text: 'أدوات تصفية ومقارنة متقدمة قادمة', done: false },
     ],
     footer:
       'للحصول على معلومات تفصيلية عن المنتجات والأسعار والأبعاد، يرجى زيارة موقعنا الرئيسي alyatekstil.com أو التواصل معنا.',
@@ -89,13 +90,13 @@ const translations: Record<string, Translation> = {
   },
   ru: {
     label: 'В разработке',
+    title: 'Заметки о Разработке',
     notes: [
-      { text: 'Добавляются технические характеристики продукции', done: true },
       { text: 'Поддержка 5 языков: TR · EN · FR · RU · AR', done: true },
-      { text: 'SEO и оптимизация структурных данных завершены', done: true },
+      { text: 'Адаптивный мобильный дизайн завершён', done: true },
+      { text: 'Добавляются технические характеристики продукции', done: false },
       { text: 'Загружаются изображения продукции', done: false },
       { text: 'Уточнение переводов на другие языки', done: false },
-      { text: 'Инструменты фильтрации и сравнения в разработке', done: false },
     ],
     footer:
       'Для подробной информации о продукции, ценах и размерах посетите наш основной сайт alyatekstil.com или свяжитесь с нами.',
@@ -215,6 +216,11 @@ export default function SiteProgress() {
               scrollbarColor: 'rgba(71,85,105,.5) transparent',
             }}
           >
+            {/* Panel title */}
+            <h3 className="text-[12px] font-semibold text-steel-200 tracking-wide mb-3">
+              {t.title}
+            </h3>
+
             {/* Status items */}
             <div className="space-y-2.5 mb-3">
               {t.notes.map((note, i) => (

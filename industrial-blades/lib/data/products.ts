@@ -201,6 +201,54 @@ const MANUAL_PRODUCTS: Product[] = [
     isActive: true,
     order: 2,
   },
+
+  // --- DAİRESEL DİLME BIÇAKLARI ---
+  {
+    id: 'ust-tabak',
+    slug: 'ust-tabak-bicaklar-dairesel-dilme',
+    slugEN: 'top-dish-slitter-knives-circular-slitting',
+    code: 'TOP-DISH',
+    name: 'Üst Tabak Bıçaklar — Dairesel Dilme Üst Bıçak',
+    description: 'O1 ve D2 takım çeliğinden üretilen üst tabak (dish) bıçaklar. 62-150mm dış çap aralığı, tek yüz, çift yüz ve konkav bileme seçenekleri.',
+    categoryId: 'machine-knives',
+    subcategoryId: 'circular-slitting',
+    image: '/images/products/ust-tabak.jpg',
+    variants: [
+      { id: 'ust-tabak-standard', sku: 'TOP-DISH-001', inStock: true },
+    ],
+    specifications: {
+      material: 'O1 / D2 Takım Çeliği',
+      hardness: 'HRC 58-62',
+    },
+    features: ['O1 ve D2 çelik', 'Tek/çift yüz/konkav bileme', '62-150mm çap', 'Slitter rewinder uyumlu'],
+    applications: ['Kağıt dilme', 'Film ve folyo dilme', 'Ambalaj kesimi', 'Tekstil dilme'],
+    isFeatured: true,
+    isActive: true,
+    order: 350,
+  },
+  {
+    id: 'alt-bicak',
+    slug: 'alt-bicaklar-dairesel-dilme',
+    slugEN: 'bottom-slitter-knives-circular-slitting',
+    code: 'BOTTOM-SLITTER',
+    name: 'Alt Bıçaklar — Dairesel Dilme Alt Bıçak',
+    description: 'O1, D2 ve HSS takım çeliğinden üretilen alt bıçaklar. 46-150mm dış çap aralığı, serbest ve kilitli montaj seçenekleri.',
+    categoryId: 'machine-knives',
+    subcategoryId: 'circular-slitting',
+    image: '/images/products/alt-bicak.jpg',
+    variants: [
+      { id: 'alt-bicak-standard', sku: 'BOTTOM-SLITTER-001', inStock: true },
+    ],
+    specifications: {
+      material: 'O1 / D2 / HSS Takım Çeliği',
+      hardness: 'HRC 58-64',
+    },
+    features: ['O1, D2 ve HSS çelik', 'Serbest ve kilitli montaj', '46-150mm çap', 'Slitter rewinder uyumlu'],
+    applications: ['Kağıt dilme', 'Film ve folyo dilme', 'Ambalaj kesimi', 'Dönüştürme hatları'],
+    isFeatured: true,
+    isActive: true,
+    order: 351,
+  },
 ];
 
 // Scraped ürün tipi (JSON dosyasından gelen veri yapısı)
