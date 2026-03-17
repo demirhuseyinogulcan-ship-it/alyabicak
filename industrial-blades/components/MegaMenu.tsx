@@ -16,7 +16,6 @@ import { useState, useRef, useEffect, useCallback, memo } from 'react'
 import { ChevronRight } from 'lucide-react'
 import { CategoryView } from '@/lib/types'
 import Link from 'next/link'
-import Image from 'next/image'
 import { useLocale } from '@/lib/i18n/client'
 import type { Dictionary } from '@/lib/i18n'
 
@@ -50,23 +49,6 @@ const SubcategoryCard = memo(function SubcategoryCard({
                  hover:border-primary-300 hover:shadow-md 
                  transition-[border-color,box-shadow] duration-200"
     >
-      {/* Arka plan görseli */}
-      {subcategory.image && (
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={subcategory.image}
-            alt={subcategory.name}
-            fill
-            className="object-cover opacity-20 group-hover:opacity-30 
-                       group-hover:scale-105 transition-[opacity,transform] duration-300
-                       will-change-transform"
-            sizes="(max-width: 768px) 100vw, 20vw"
-            loading="lazy"
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-white/90 to-white/80" />
-        </div>
-      )}
-
       {/* İçerik */}
       <div className="relative z-10 p-2.5 h-full flex flex-col justify-between min-h-[70px]">
         <div>
