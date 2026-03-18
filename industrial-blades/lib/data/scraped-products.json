@@ -6919,7 +6919,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 232,
     "slugEN": "pelletizer-blades"
   },
@@ -6951,7 +6951,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 233,
     "slugEN": "granulator-blade"
   },
@@ -6983,7 +6983,7 @@
       "Endüstriyel kesim"
     ],
     "isFeatured": false,
-    "isActive": true,
+    "isActive": false,
     "order": 234,
     "slugEN": "shredder-blade"
   },

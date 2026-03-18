@@ -7790,7 +7790,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   <li>Polimer ekstrüzyon hatları</li>
 </ul>
 
-<p><em>NOT: Tablodaki standart ölçüler dışında farklı makine ve boyut talepleri için özel üretim yapılmaktadır. Bileme ve yenileme hizmeti mevcuttur.</em></p>`,
+<p><em>NOT: Tablodaki standart ölçüler dışında farklı makine ve boyut talepleri için özel üretim yapılmaktadır.</em></p>`,
 
     images: {
       main: {
@@ -7836,7 +7836,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       { title: '3 Boyut Grubu', description: '40.6mm, 44mm ve 46mm ölçülerinde standart üretim', icon: 'Maximize' },
     ],
 
-    features: ['D2, M2 HSS, Karbon Çelik seçenekleri', 'TiN kaplama opsiyonu', 'EREMA, GALA, NGR makine uyumu', 'Su altı peletleme sistemi', '40.6-46mm boyut aralığı', 'Bileme ve yenileme hizmeti'],
+    features: ['D2, M2 HSS, Karbon Çelik seçenekleri', 'TiN kaplama opsiyonu', 'EREMA, GALA, NGR makine uyumu', 'Su altı peletleme sistemi', '40.6-46mm boyut aralığı', 'Özel ölçü üretimi'],
     certifications: ['CE'],
 
     availableSizes: [
@@ -7867,7 +7867,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
         ['NGR',   '44×20',     1.0, true,  true,  true,  true],
         ['NGR',   '44×13',     1.0, true,  true,  true,  true],
       ],
-      note: 'Tabloda belirtilen standart ölçüler dışında farklı makine ve boyut taleplerine yönelik özel üretim yapılmaktadır. Bileme ve yenileme hizmeti mevcuttur. Detaylı bilgi için iletişime geçiniz.',
+      note: 'Tabloda belirtilen standart ölçüler dışında farklı makine ve boyut taleplerine yönelik özel üretim yapılmaktadır. Detaylı bilgi için iletişime geçiniz.',
     },
 
     relatedProductIds: ['taneciklendirici', 'paralayici'],

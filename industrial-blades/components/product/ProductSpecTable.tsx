@@ -149,8 +149,8 @@ function SpecTableCore({ data, locale, t }: { data: SpecTableData; locale: strin
 
       {/* Footer notu */}
       {data.note !== false && (
-        <div className="px-3 py-2 bg-amber-50 border-t border-amber-200">
-          <p className="text-[10px] text-amber-700 font-medium">
+        <div className="px-3 py-2 bg-white border-t border-gray-200">
+          <p className="text-[10px] text-gray-500 font-medium">
             {data.note || t.note}
           </p>
         </div>
