@@ -230,6 +230,7 @@ AI-Verified compatibility mapping for industrial machinery:
 | Erema        | PELET (Recycling)       | Pelletizer Blade — D2 / M2 HSS / Carbon Steel, TiN option, 46×24mm & 46×13mm, underwater pelletizing |
 | GALA         | PELET (Recycling)       | Pelletizer Blade — D2 / M2 HSS / Carbon Steel, TiN option, 40.6×20.6mm, underwater pelletizing |
 | NGR          | PELET (Recycling)       | Pelletizer Blade — D2 / M2 HSS / Carbon Steel, TiN option, 44×20mm & 44×13mm, die face cutter |
+| (Universal)  | GRANUL (Recycling)      | Granulator Blade — D2 / 2379 / HSS / Carbon Steel, Flat / Angled / Segmented, 100–600mm × 5–40mm, bolted & slide-in mounting |
 | Mark IV      | B644-CS, B644-GM, B644-TC | Fiber Blade (Stainless / TiN / Tungsten) |
 | Mark V       | B645-CS, B645-GM, B645-TC-N, B645-TC-P | Fiber Blade (Stainless / TiN / Tungsten Notched & Plain) |
 | Hercules     | B573-CS, B573-GM, B574-CS, B574-GM | Fiber Blade Short & Long (Stainless / TiN) |

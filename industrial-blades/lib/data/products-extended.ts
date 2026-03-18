@@ -7873,7 +7873,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
       note: 'Tabloda belirtilen standart ölçüler dışında farklı makine ve boyut taleplerine yönelik özel üretim yapılmaktadır. Detaylı bilgi için iletişime geçiniz.',
     },
 
-    relatedProductIds: ['taneciklendirici', 'paralayici'],
+    relatedProductIds: ['granul-bicaklari', 'paralayici'],
 
     seo: {
       title: 'Pelet Bıçakları - Erema & NGR Uyumlu | D2, M2 HSS, TiN Kaplama | Alya Bıçak',
@@ -7897,6 +7897,148 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     isNew: true,
     inStock: true,
     order: 400,
+  },
+
+  // --- GRANÜL BIÇAKLARI (GERİ DÖNÜŞÜM) ---
+  {
+    id: 'granul-bicaklari',
+    slug: 'granul-bicaklari',
+    slugEN: 'granulator-blades-plastic-recycling',
+    code: 'GRANUL',
+    name: 'Granül Bıçakları | Plastik Kırma ve Geri Dönüşüm Granülatör Bıçakları',
+    subtitle: 'D2, 2379 (DIN 1.2379), HSS Çelik — Düz, Eğimli ve Segmentli Modeller — Cıvatalı & Geçmeli Montaj',
+    categoryId: 'machine-knives',
+    subcategoryId: 'recycling-knives',
+    tags: ['granül bıçağı', 'granül bıçakları', 'granül makinesi bıçağı', 'granülatör bıçağı', 'plastik kırma bıçağı', 'kırma bıçağı', 'taneciklendirici bıçak', 'geri dönüşüm bıçağı', 'D2 granül bıçak', '2379 granül bıçak', 'recycling granulator blade'],
+    shortDescription: 'Plastik kırma ve geri dönüşüm makinelerinde kullanılan yüksek aşınma dirençli granül bıçakları. D2 ve 2379 takım çeliği seçenekleri ile uzun bıçak ömrü; düz, eğimli ve segmentli profiller ile her makine tipine uyum. 100 mm\'den 600 mm\'e kadar uzunluk, 5-40 mm kalınlık aralığında standart ve özel ölçü üretim.',
+    longDescription: `<p>Granül bıçakları (granülatör bıçağı), plastik geri dönüşüm tesislerinde kırma işlemi sonrası elde edilen plastik parçaları granül haline getiren makinelerde kullanılan kritik kesim elemanlarıdır. Sabit ve döner bıçak çiftleri şeklinde çalışarak malzemeyi istenilen boyutta keser ve homojen granül elde edilmesini sağlar.</p>
+
+<h3>Bıçak Profil Tipleri</h3>
+<ul>
+  <li><strong>Düz Granül Bıçağı:</strong> Standart düz kesim yüzeyi. Genel amaçlı PE, PP, PET plastik kırma hatlarında en yaygın tercih.</li>
+  <li><strong>Eğimli Granül Bıçağı:</strong> Açılı kesim kenarı sayesinde daha düşük enerji tüketimi ve makaslanma etkisi ile temiz kesim. Kalın cidarlı malzemeler ve yüksek kapasiteli hatlar için ideal.</li>
+  <li><strong>Segmentli Granül Bıçağı:</strong> Bölünmüş yapı ile büyük ızgaralı makinelerde esnek montaj. Hasar gören segment tek başına değiştirilebilir; bakım maliyetini düşürür.</li>
+</ul>
+
+<h3>Çelik Tipleri</h3>
+<ul>
+  <li><strong>D2 / 2379 (DIN 1.2379) Takım Çeliği:</strong> Yüksek kromlu soğuk iş çeliği, HRC 58-62. Plastik geri dönüşüm sektöründe en yaygın tercih; üstün aşınma direnci sayesinde yoğun üretim hatlarında uzun ömür.</li>
+  <li><strong>HSS (Yüksek Hız Çeliği):</strong> HRC 62-64. Aşındırıcı katkı maddeli plastiklerde (cam elyaf, CaCO₃) performans düşüşü yaşanmaz; en uzun bıçak ömrünü sağlar.</li>
+  <li><strong>Karbon Çeliği:</strong> HRC 55-58. Düşük bütçeli standart uygulamalar için ekonomik ve güvenilir seçenek.</li>
+</ul>
+
+<h3>Montaj Tipleri</h3>
+<ul>
+  <li><strong>Cıvatalı Montaj:</strong> Deliklerden geçen cıvatalarla makineye sabitlenir. Kolay söküm ve montaj; hızlı bıçak değişimi.</li>
+  <li><strong>Geçmeli (Kanal) Montaj:</strong> Makinedeki kanal sistemine oturarak sabitlenir. Yüksek titreşimli uygulamalarda daha stabil bağlantı.</li>
+</ul>
+
+<h3>Kullanım Alanları</h3>
+<ul>
+  <li>Plastik kırma ve granül makineleri — PE, PP, PET, PS, ABS</li>
+  <li>Plastik geri dönüşüm hatları</li>
+  <li>Şişe, boru, kapak, kasa kırma makineleri</li>
+  <li>Hammadde hazırlama ve granül üretim sistemleri</li>
+  <li>Film, levha ve profil kırma hatları</li>
+</ul>
+
+<p><em>NOT: Tablodaki standart ölçüler dışında müşteriye özel ölçü, delik pozisyonu ve profil üretimi yapılmaktadır.</em></p>`,
+
+    images: {
+      main: {
+        src: '/images/products/taneciklendirici-bicak.jpg',
+        alt: 'Granül Bıçağı — Plastik Kırma Geri Dönüşüm Granülatör Bıçak D2 2379 HSS | Alya Bıçak',
+        width: 1920,
+        height: 1080,
+      },
+      gallery: [],
+      thumbnail: {
+        src: '/images/products/taneciklendirici-bicak.jpg',
+        alt: 'Granül Bıçağı — Alya Bıçak',
+        width: 1920,
+        height: 1080,
+      },
+    },
+
+    specs: [
+      { label: 'material', value: 'D2 / 2379 (DIN 1.2379) / HSS', icon: 'Layers', highlight: true },
+      { label: 'hardness', value: 'HRC 55-64', icon: 'Shield', highlight: true },
+      { label: 'profile', value: 'Düz / Eğimli / Segmentli', icon: 'Triangle' },
+      { label: 'mounting', value: 'Cıvatalı / Geçmeli (Kanal)', icon: 'Settings' },
+      { label: 'dimensions', value: '100–600mm × 5–40mm', icon: 'Ruler' },
+    ],
+
+    origin: {
+      brand: 'Alya Bıçak',
+      country: '',
+      city: '',
+    },
+
+    applications: [
+      { title: 'Plastik Geri Dönüşüm', icon: 'Recycle', description: 'PE, PP, PET, PS, ABS kırma ve granül hatlarında yüksek verimli kesim' },
+      { title: 'Şişe & Kasa Kırma', icon: 'Package', description: 'PET şişe, HDPE kasa ve boru kırma makinelerinde dayanıklı performans' },
+      { title: 'Film & Levha Kırma', icon: 'Layers', description: 'Plastik film, levha ve profil artıklarının granüle dönüştürülmesi' },
+      { title: 'Hammadde Hazırlama', icon: 'Factory', description: 'Granül üretim ve hammadde hazırlama sistemlerinde homojen çıktı' },
+    ],
+
+    benefits: [
+      { title: '3 Profil Seçeneği', description: 'Düz, eğimli ve segmentli; her makine tipine ve malzemeye uygun kesim geometrisi', icon: 'Triangle' },
+      { title: 'D2/2379 + HSS Çelik', description: 'Yoğun geri dönüşüm hatlarında HRC 58-64 sertlik ile uzun bıçak ömrü', icon: 'Shield' },
+      { title: 'Esnek Boyutlandırma', description: '100 mm\'den 600 mm\'e uzunluk, 5-40 mm kalınlık; müşteriye özel delik pozisyonu', icon: 'Ruler' },
+      { title: '2 Montaj Sistemi', description: 'Cıvatalı veya geçmeli (kanal) bağlantı; hızlı bıçak değişimi, minimum duruş süresi', icon: 'Settings' },
+    ],
+
+    features: ['D2, 2379, HSS çelik seçenekleri', 'Düz, eğimli, segmentli profiller', 'Cıvatalı ve geçmeli montaj', '100-600mm uzunluk aralığı', '5-40mm kalınlık seçenekleri', 'Özel ölçü üretimi'],
+    certifications: ['CE'],
+
+    availableSizes: [
+      '100–600mm (uzunluk)',
+      '5–40mm (kalınlık)',
+    ],
+
+    specTable: {
+      columns: [
+        { key: 'profile', label: 'Profil' },
+        { key: 'length', label: 'Uzunluk', unit: 'mm' },
+        { key: 'thickness', label: 'Kalınlık', unit: 'mm' },
+        { key: 'd2', label: 'D2/2379' },
+        { key: 'hss', label: 'HSS' },
+        { key: 'carbon', label: 'Karbon' },
+      ],
+      columnGroups: [
+        { label: 'Bıçak Tipi', span: 1 },
+        { label: 'Boyutlar', span: 2 },
+        { label: 'Çelik Seçenekleri', span: 3 },
+      ],
+      rows: [
+        ['Düz',       '100–600', '5–40',  true,  true,  true],
+        ['Eğimli',    '100–600', '5–40',  true,  true,  true],
+        ['Segmentli', '100–400', '10–40', true,  true,  false],
+      ],
+      note: 'Tablodaki ölçüler standart aralıktır. Farklı makine ve boyut taleplerine yönelik özel üretim yapılmaktadır. Detaylı bilgi için iletişime geçiniz.',
+    },
+
+    relatedProductIds: ['pelet-bicaklari', 'paralayici'],
+
+    seo: {
+      title: 'Granül Bıçakları — Plastik Kırma & Geri Dönüşüm | D2, HSS | Alya Bıçak',
+      description: 'Plastik kırma ve geri dönüşüm makineleri için granül bıçakları. D2, 2379, HSS çelik seçenekleri; düz, eğimli, segmentli profiller. 100-600 mm uzunluk, 5-40 mm kalınlık. Cıvatalı ve geçmeli montaj. Özel ölçü üretim.',
+      keywords: [
+        'granül bıçakları', 'granül bıçağı', 'granül makinesi bıçağı', 'granülatör bıçağı',
+        'plastik kırma bıçağı', 'plastik kırma makinesi bıçağı', 'geri dönüşüm bıçağı', 'kırma bıçağı',
+        'D2 granül bıçağı', '2379 granül bıçağı', 'HSS granül bıçağı',
+        'düz granül bıçak', 'eğimli granül bıçak', 'segmentli granül bıçak', 'cıvatalı granül bıçak',
+        'pet şişe kırma bıçağı', 'plastik geri dönüşüm bıçağı',
+        'granül bıçağı fiyat', 'granül bıçağı üretici',
+        'granulator blade', 'granulator knife', 'plastic recycling blade',
+      ],
+    },
+
+    isActive: true,
+    isFeatured: true,
+    isNew: true,
+    inStock: true,
+    order: 401,
   },
 ];
 
