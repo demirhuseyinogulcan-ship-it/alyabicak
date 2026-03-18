@@ -442,6 +442,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Dış Çap: 46-150mm': 'Dış Çap: 46-150mm',
     'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Toplam: 5-20mm / Kenar: 3.5-17.5mm',
     'Serbest Geçişli / Kendinden Kilitli': 'Serbest Geçişli / Kendinden Kilitli',
+
+    // Pelet Bıçakları (Pelletizer Blades) Değerleri
+    'D2 / M2 HSS / Karbon Çelik': 'D2 / M2 HSS / Karbon Çelik',
+    'HRC 58-64': 'HRC 58-64',
+    'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
+    'Die Face / Su Altı Peletleme': 'Die Face / Su Altı Peletleme',
   },
 
   // =============================================================================
@@ -876,6 +882,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Dış Çap: 46-150mm': 'OD: 46-150mm',
     'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Total: 5-20mm / Edge: 3.5-17.5mm',
     'Serbest Geçişli / Kendinden Kilitli': 'Free Fit / Self-Locking',
+
+    // Pelletizer Blades Values
+    'D2 / M2 HSS / Karbon Çelik': 'D2 / M2 HSS / Carbon Steel',
+    'HRC 58-64': 'HRC 58-64',
+    'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
+    'Die Face / Su Altı Peletleme': 'Die Face / Underwater Pelletizing',
   },
 
   // =============================================================================
@@ -1275,6 +1287,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Dış Çap: 46-150mm': 'القطر الخارجي: 46-150مم',
     'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'الإجمالي: 5-20مم / الحافة: 3.5-17.5مم',
     'Serbest Geçişli / Kendinden Kilitli': 'تركيب حر / قفل ذاتي',
+
+    // قيم شفرات التحبيب
+    'D2 / M2 HSS / Karbon Çelik': 'D2 / M2 HSS / فولاذ كربوني',
+    'HRC 58-64': 'HRC 58-64',
+    'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
+    'Die Face / Su Altı Peletleme': 'قطع وجه القالب / التحبيب تحت الماء',
   },
 
   // =============================================================================
@@ -1709,6 +1727,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Dış Çap: 46-150mm': 'Diamètre ext. : 46-150mm',
     'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Total : 5-20mm / Bord : 3,5-17,5mm',
     'Serbest Geçişli / Kendinden Kilitli': 'Passage libre / Auto-bloquant',
+
+    // Valeurs lames de granulation
+    'D2 / M2 HSS / Karbon Çelik': 'D2 / M2 HSS / Acier carbone',
+    'HRC 58-64': 'HRC 58-64',
+    'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
+    'Die Face / Su Altı Peletleme': 'Face de filière / Granulation sous-marine',
   },
 
   // =============================================================================
@@ -2143,6 +2167,12 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'Dış Çap: 46-150mm': 'Наружный диаметр: 46-150мм',
     'Toplam: 5-20mm / Kenar: 3.5-17.5mm': 'Общая: 5-20мм / Кромка: 3,5-17,5мм',
     'Serbest Geçişli / Kendinden Kilitli': 'Свободная посадка / Самоблокирующийся',
+
+    // Значения ножей гранулятора
+    'D2 / M2 HSS / Karbon Çelik': 'D2 / M2 HSS / Углеродистая сталь',
+    'HRC 58-64': 'HRC 58-64',
+    'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
+    'Die Face / Su Altı Peletleme': 'Резка на лицевой стороне / Подводная грануляция',
   },
 };
 

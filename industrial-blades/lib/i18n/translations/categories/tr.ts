@@ -485,20 +485,25 @@ export const subcategoriesTr = {
   
   'recycling-knives': {
     name: 'Geri Dönüşüm Bıçakları',
-    description: 'Geri dönüşüm tesisleri için profesyonel bıçaklar. Plastik, kağıt, metal ve tekstil geri dönüşümünde kırıcı, granülatör ve shredder makinelerinde kullanılan dayanıklı kesici sistemler.',
+    description: 'Geri dönüşüm tesisleri için profesyonel bıçaklar. Plastik, kağıt, metal ve tekstil geri dönüşümünde kırıcı, granülatör, peletleyici ve shredder makinelerinde kullanılan dayanıklı kesici sistemler.',
     seoKeywords: [
       // Ana terimler
       'geri dönüşüm bıçağı', 'recycling blade', 'kırıcı bıçağı', 'granülatör bıçağı',
+      // Peletleyici terimler
+      'pelet bıçağı', 'peletleyici bıçak', 'peletleme bıçağı', 'granül bıçağı',
+      'Erema bıçak', 'GALA bıçak', 'NGR bıçak', 'BKG bıçak',
+      'su altı peletleyici', 'die face cutter', 'kalıp yüzü kesici',
       // Makine tipi
       'shredder bıçağı', 'kıyıcı bıçağı', 'parçalayıcı bıçağı', 'öğütücü bıçağı',
       // Malzeme tipi
       'plastik kırıcı bıçağı', 'pet şişe kırıcı', 'film geri dönüşüm',
       'kağıt kırıcı', 'tekstil kırıcı', 'kauçuk kırıcı',
-      // Teknik
+      // Teknik — Malzeme
+      'D2 çelik', 'M2 HSS', 'TiN kaplama', 'tungsten karbür',
       'yüksek aşınma direnci', 'darbe dayanımı', 'sertleştirilmiş çelik',
       'rotor bıçağı', 'sabit bıçak', 'hareketli bıçak',
       // Ticari
-      'geri dönüşüm bıçağı fiyat', 'kırıcı bıçağı tedarikçi'
+      'geri dönüşüm bıçağı fiyat', 'kırıcı bıçağı tedarikçi', 'pelet bıçağı üretici'
     ],
   },
   

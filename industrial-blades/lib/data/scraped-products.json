@@ -6898,7 +6898,7 @@
     "name": "PELET - BIÇAKLARI",
     "description": "BIÇAKLARI. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
+    "subcategoryId": "recycling-knives",
     "image": "/images/products/pelet-bicaklari.jpg",
     "variants": [
       {
@@ -6930,7 +6930,7 @@
     "name": "TANECİKLENDİRİCİ - BIÇAK",
     "description": "BIÇAK. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
+    "subcategoryId": "recycling-knives",
     "image": "/images/products/taneciklendirici-bicak.jpg",
     "variants": [
       {
@@ -6962,7 +6962,7 @@
     "name": "PARÇALAYICI - BIÇAK",
     "description": "BIÇAK. profesyonel kesici bıçak.",
     "categoryId": "machine-knives",
-    "subcategoryId": "rotary-cutting",
+    "subcategoryId": "recycling-knives",
     "image": "/images/products/paralayici-bicak.jpg",
     "variants": [
       {

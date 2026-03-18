@@ -249,6 +249,77 @@ const MANUAL_PRODUCTS: Product[] = [
     isActive: true,
     order: 351,
   },
+
+  // --- GERİ DÖNÜŞÜM BIÇAKLARI ---
+  {
+    id: 'pelet-bicaklari',
+    slug: 'pelet-bicaklari',
+    slugEN: 'pelletizer-blades-erema-gala-ngr',
+    code: 'PELET',
+    name: 'Pelet Bıçakları | Erema, GALA, NGR Uyumlu Peletleyici Bıçaklar',
+    description: 'EREMA, GALA ve NGR plastik geri dönüşüm makineleri için yüksek kalite pelet bıçakları. D2, M2 HSS ve TiN kaplamalı peletleyici bıçaklar. Su altı peletleme sistemleri için 40.6mm, 44mm ve 46mm ölçülerde üretim.',
+    categoryId: 'machine-knives',
+    subcategoryId: 'recycling-knives',
+    image: '/images/products/pelet-bicaklari.jpg',
+    variants: [
+      { id: 'pelet-bicaklari-standard', sku: 'PELET-001', inStock: true },
+    ],
+    specifications: {
+      material: 'D2 / M2 HSS / Karbon Çelik',
+      hardness: 'HRC 58-64',
+    },
+    features: ['D2, M2 HSS, Karbon Çelik seçenekleri', 'TiN kaplama opsiyonu', 'EREMA, GALA, NGR uyumlu', 'Su altı peletleme sistemi'],
+    applications: ['Plastik geri dönüşüm', 'Peletleme makineleri', 'Granül üretimi', 'Su altı peletleme'],
+    isFeatured: true,
+    isActive: true,
+    order: 400,
+  },
+  {
+    id: 'taneciklendirici-bicak',
+    slug: 'taneciklendirici-bicak',
+    slugEN: 'granulator-blade-recycling',
+    code: 'TANECIK',
+    name: 'Taneciklendirici Bıçak — Plastik Geri Dönüşüm',
+    description: 'Plastik geri dönüşüm tesislerinde granülatör makinelerinde kullanılan taneciklendirici bıçaklar. Yüksek aşınma dirençli çelikten üretim.',
+    categoryId: 'machine-knives',
+    subcategoryId: 'recycling-knives',
+    image: '/images/products/taneciklendirici-bicak.jpg',
+    variants: [
+      { id: 'taneciklendirici-bicak-standard', sku: 'TANECIK-001', inStock: true },
+    ],
+    specifications: {
+      material: 'Yüksek Kalite Çelik',
+      hardness: 'HRC 58-62',
+    },
+    features: ['Yüksek aşınma direnci', 'Granülatör uyumlu', 'Uzun ömürlü'],
+    applications: ['Plastik geri dönüşüm', 'Granülatör makineleri', 'Tanecik üretimi'],
+    isFeatured: false,
+    isActive: true,
+    order: 401,
+  },
+  {
+    id: 'parcalayici-bicak',
+    slug: 'parcalayici-bicak',
+    slugEN: 'shredder-blade-recycling',
+    code: 'PARCALAYICI',
+    name: 'Parçalayıcı Bıçak — Shredder Bıçağı',
+    description: 'Plastik, kağıt, metal ve tekstil geri dönüşümünde shredder ve kıyıcı makinelerinde kullanılan parçalayıcı bıçaklar. Darbe dayanımı yüksek çeliklerden üretim.',
+    categoryId: 'machine-knives',
+    subcategoryId: 'recycling-knives',
+    image: '/images/products/parcalayici-bicak.jpg',
+    variants: [
+      { id: 'parcalayici-bicak-standard', sku: 'PARCALAYICI-001', inStock: true },
+    ],
+    specifications: {
+      material: 'Yüksek Kalite Çelik',
+      hardness: 'HRC 58-62',
+    },
+    features: ['Darbe dayanımı', 'Shredder uyumlu', 'Ağır iş koşulları'],
+    applications: ['Plastik geri dönüşüm', 'Shredder makineleri', 'Kıyıcı sistemleri', 'Malzeme parçalama'],
+    isFeatured: false,
+    isActive: true,
+    order: 402,
+  },
 ];
 
 // Scraped ürün tipi (JSON dosyasından gelen veri yapısı)

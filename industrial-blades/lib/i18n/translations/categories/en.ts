@@ -487,20 +487,25 @@ export const subcategoriesEn: SubcategoryTranslations = {
   
   'recycling-knives': {
     name: 'Recycling Knives',
-    description: 'Professional knives for recycling facilities. Durable cutting systems used in plastic, paper, metal and textile recycling with crusher, granulator and shredder machines.',
+    description: 'Professional knives for recycling facilities. Durable cutting systems used in plastic, paper, metal and textile recycling with crusher, granulator, pelletizer and shredder machines.',
     seoKeywords: [
       // Primary terms
       'recycling knife', 'recycling blade', 'crusher knife', 'granulator knife',
+      // Pelletizer terms
+      'pelletizer blade', 'pelletizer knife', 'pelletizing blade', 'granulating blade',
+      'Erema blade', 'GALA blade', 'NGR blade', 'BKG blade',
+      'underwater pelletizer', 'die face cutter', 'die face pelletizer',
       // Machine types
       'shredder blade', 'chipper knife', 'shredder knife', 'grinder knife',
       // Material types
       'plastic crusher knife', 'PET bottle crusher', 'film recycling',
       'paper crusher', 'textile crusher', 'rubber crusher',
-      // Technical
+      // Technical — Materials
+      'D2 steel', 'M2 HSS', 'TiN coating', 'tungsten carbide',
       'high wear resistance', 'impact resistance', 'hardened steel',
       'rotor knife', 'fixed knife', 'moving knife',
       // Commercial
-      'recycling knife price', 'crusher knife supplier'
+      'recycling knife price', 'crusher knife supplier', 'pelletizer blade manufacturer'
     ],
   },
   
