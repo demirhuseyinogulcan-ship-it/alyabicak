@@ -351,7 +351,7 @@ const fr = {
     askStock: 'Demander le stock',
     whatsappMessage: 'Bonjour, je vous contacte depuis alyabicak.com. Je souhaiterais obtenir des informations sur le produit {{code}} - {{name}}.',
     emailSubject: 'Demande de Devis: {{code}} - {{name}}',
-    emailBody: 'Bonjour,\n\nJe vous contacte depuis alyabicak.com.\n\nJe souhaiterais obtenir un devis pour le produit {{code}} - {{name}}.\n\nCordialement',
+    emailBody: 'Bonjour,\n\nJe vous contacte depuis alyabicak.com.\n\nJe souhaiterais recevoir une offre de prix pour le produit {{code}} - {{name}}.\n\nCordialement',
     technicalSpecs: 'Caractéristiques Techniques',
     whyThisProduct: 'Pourquoi ce Produit?',
     applications: 'Applications',

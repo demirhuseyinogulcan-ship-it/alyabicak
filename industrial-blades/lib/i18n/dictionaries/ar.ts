@@ -351,7 +351,7 @@ const ar = {
     askStock: 'استفسر عن التوفر',
     whatsappMessage: 'مرحباً، أتواصل من alyablade.com. أود الحصول على معلومات عن {{code}} - {{name}}.',
     emailSubject: 'طلب عرض سعر: {{code}} - {{name}}',
-    emailBody: 'مرحباً،\n\nأتواصل معكم من alyablade.com.\n\nأود طلب عرض سعر لـ {{code}} - {{name}}.\n\nمع أطيب التحيات',
+    emailBody: 'مرحباً،\n\nأتواصل معكم من alyablade.com.\n\nأرجو تزويدي بعرض سعر لـ {{code}} - {{name}}.\n\nمع أطيب التحيات',
     technicalSpecs: 'المواصفات الفنية',
     whyThisProduct: 'لماذا هذا المنتج؟',
     applications: 'التطبيقات',

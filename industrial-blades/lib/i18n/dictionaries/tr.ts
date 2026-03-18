@@ -350,7 +350,7 @@ const tr = {
     askStock: 'Stok sorunuz',
     whatsappMessage: 'Merhaba, alyabicak.com\'dan ulaşıyorum. {{code}} - {{name}} ürünü hakkında bilgi almak istiyorum.',
     emailSubject: 'Teklif Talebi: {{code}} - {{name}}',
-    emailBody: 'Merhaba,\n\nSizlere alyabicak.com\'dan ulaşıyorum.\n\n{{code}} - {{name}} ürünü için teklif almak istiyorum.\n\nSaygılarımla',
+    emailBody: 'Merhaba,\n\nSizlere alyabicak.com\'dan ulaşıyorum.\n\n{{code}} - {{name}} ürünü için fiyat teklifi rica ederim.\n\nSaygılarımla',
     technicalSpecs: 'Teknik Özellikler',
     whyThisProduct: 'Neden Bu Ürün?',
     applications: 'Kullanım Alanları',

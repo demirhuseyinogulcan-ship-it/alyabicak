@@ -351,7 +351,7 @@ const ru = {
     askStock: 'Уточнить наличие',
     whatsappMessage: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о {{code}} - {{name}}.',
     emailSubject: 'Запрос цены: {{code}} - {{name}}',
-    emailBody: 'Здравствуйте,\n\nОбращаюсь к вам с alyablade.com.\n\nЯ хотел бы запросить цену на {{code}} - {{name}}.\n\nС уважением',
+    emailBody: 'Здравствуйте,\n\nОбращаюсь к вам с alyablade.com.\n\nПрошу предоставить ценовое предложение на {{code}} - {{name}}.\n\nС уважением',
     technicalSpecs: 'Технические Характеристики',
     whyThisProduct: 'Почему Этот Продукт?',
     applications: 'Применение',

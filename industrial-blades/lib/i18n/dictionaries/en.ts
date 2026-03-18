@@ -350,7 +350,7 @@ const en = {
     askStock: 'Ask for availability',
     whatsappMessage: 'Hello, I am reaching out from alyablade.com. I would like to get information about {{code}} - {{name}}.',
     emailSubject: 'Quote Request: {{code}} - {{name}}',
-    emailBody: 'Hello,\n\nI am reaching out from alyablade.com.\n\nI would like to request a quote for {{code}} - {{name}}.\n\nBest regards',
+    emailBody: 'Hello,\n\nI am reaching out from alyablade.com.\n\nI would like to request a price quote for {{code}} - {{name}}.\n\nBest regards',
     technicalSpecs: 'Technical Specifications',
     whyThisProduct: 'Why This Product?',
     applications: 'Applications',
