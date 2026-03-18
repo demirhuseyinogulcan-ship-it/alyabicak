@@ -279,7 +279,7 @@ const MANUAL_PRODUCTS: Product[] = [
     slug: 'taneciklendirici-bicak',
     slugEN: 'granulator-blade-recycling',
     code: 'TANECIK',
-    name: 'Taneciklendirici Bıçak — Plastik Geri Dönüşüm',
+    name: 'Taneciklendirici Bıçak — Plastik Geri Dönüşüm Bıçakları',
     description: 'Plastik geri dönüşüm tesislerinde granülatör makinelerinde kullanılan taneciklendirici bıçaklar. Yüksek aşınma dirençli çelikten üretim.',
     categoryId: 'machine-knives',
     subcategoryId: 'recycling-knives',
