@@ -86,6 +86,7 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     availableWidths: 'Mevcut Genişlikler',
     surfaceFinish: 'Yüzey İşlemi',
     mounting: 'Montaj Tipi',
+    profile: 'Profil',
   },
   en: {
     material: 'Material',
@@ -152,6 +153,7 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     availableWidths: 'Available Widths',
     surfaceFinish: 'Surface Finish',
     mounting: 'Mounting',
+    profile: 'Profile',
   },
   ar: {
     material: 'المادة',
@@ -218,6 +220,7 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     availableWidths: 'العروض المتاحة',
     surfaceFinish: 'تشطيب السطح',
     mounting: 'نوع التركيب',
+    profile: 'النمط',
   },
   ru: {
     material: 'Материал',
@@ -284,6 +287,7 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     availableWidths: 'Доступные ширины',
     surfaceFinish: 'Обработка поверхности',
     mounting: 'Монтаж',
+    profile: 'Профиль',
   },
   fr: {
     material: 'Matériau',
@@ -350,6 +354,7 @@ const specLabelTranslations: Record<string, Record<string, string>> = {
     availableWidths: 'Largeurs disponibles',
     surfaceFinish: 'Finition de surface',
     mounting: 'Montage',
+    profile: 'Profil',
   },
 };
 

@@ -448,6 +448,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HRC 58-64': 'HRC 58-64',
     'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
     'Die Face / Su Altı Peletleme': 'Die Face / Su Altı Peletleme',
+
+    // Granül Bıçakları (Granulator Blades) Değerleri
+    'D2 / 2379 (DIN 1.2379) / HSS': 'D2 / 2379 (DIN 1.2379) / HSS',
+    'HRC 55-64': 'HRC 55-64',
+    'Düz / Eğimli / Segmentli': 'Düz / Eğimli / Segmentli',
+    'Cıvatalı / Geçmeli (Kanal)': 'Cıvatalı / Geçmeli (Kanal)',
+    '100–600mm × 5–40mm': '100–600mm × 5–40mm',
   },
 
   // =============================================================================
@@ -888,6 +895,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HRC 58-64': 'HRC 58-64',
     'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
     'Die Face / Su Altı Peletleme': 'Die Face / Underwater Pelletizing',
+
+    // Granulator Blades Values
+    'D2 / 2379 (DIN 1.2379) / HSS': 'D2 / 2379 (DIN 1.2379) / HSS',
+    'HRC 55-64': 'HRC 55-64',
+    'Düz / Eğimli / Segmentli': 'Flat / Angled / Segmented',
+    'Cıvatalı / Geçmeli (Kanal)': 'Bolted / Slide-in (Channel)',
+    '100–600mm × 5–40mm': '100–600mm × 5–40mm',
   },
 
   // =============================================================================
@@ -1293,6 +1307,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HRC 58-64': 'HRC 58-64',
     'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
     'Die Face / Su Altı Peletleme': 'قطع وجه القالب / التحبيب تحت الماء',
+
+    // قيم شفرات المحبب
+    'D2 / 2379 (DIN 1.2379) / HSS': 'D2 / 2379 (DIN 1.2379) / HSS',
+    'HRC 55-64': 'HRC 55-64',
+    'Düz / Eğimli / Segmentli': 'مسطح / مائل / مقطعي',
+    'Cıvatalı / Geçmeli (Kanal)': 'بالبراغي / بالقنوات',
+    '100–600mm × 5–40mm': '100–600mm × 5–40mm',
   },
 
   // =============================================================================
@@ -1733,6 +1754,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HRC 58-64': 'HRC 58-64',
     'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
     'Die Face / Su Altı Peletleme': 'Face de filière / Granulation sous-marine',
+
+    // Valeurs lames de granulateur
+    'D2 / 2379 (DIN 1.2379) / HSS': 'D2 / 2379 (DIN 1.2379) / HSS',
+    'HRC 55-64': 'HRC 55-64',
+    'Düz / Eğimli / Segmentli': 'Plat / Incliné / Segmenté',
+    'Cıvatalı / Geçmeli (Kanal)': 'Boulonné / Glissière (Canal)',
+    '100–600mm × 5–40mm': '100–600mm × 5–40mm',
   },
 
   // =============================================================================
@@ -2173,6 +2201,13 @@ export const specValueTranslations: Record<string, Record<string, string>> = {
     'HRC 58-64': 'HRC 58-64',
     'EREMA, GALA, NGR, BKG, Econ': 'EREMA, GALA, NGR, BKG, Econ',
     'Die Face / Su Altı Peletleme': 'Резка на лицевой стороне / Подводная грануляция',
+
+    // Значения ножей гранулятора
+    'D2 / 2379 (DIN 1.2379) / HSS': 'D2 / 2379 (DIN 1.2379) / HSS',
+    'HRC 55-64': 'HRC 55-64',
+    'Düz / Eğimli / Segmentli': 'Плоский / Наклонный / Сегментный',
+    'Cıvatalı / Geçmeli (Kanal)': 'Болтовой / Канальный',
+    '100–600mm × 5–40mm': '100–600mm × 5–40mm',
   },
 };
 

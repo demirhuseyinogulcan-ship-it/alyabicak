@@ -30,15 +30,23 @@ const translations: Record<string, { title: string; note: string }> = {
 
 /* ── Column label translations ─────────────────────────────── */
 const colLabels: Record<string, Record<string, string>> = {
-  // Groups
+  // Groups — genel
   'Ölçüler':    { en: 'Dimensions', fr: 'Dimensions', ar: 'الأبعاد', ru: 'Размеры' },
+  'Boyutlar':   { en: 'Dimensions', fr: 'Dimensions', ar: 'الأبعاد', ru: 'Размеры' },
   'Bileme':     { en: 'Grinding', fr: 'Affûtage', ar: 'الشحذ', ru: 'Заточка' },
   'Çelik':      { en: 'Steel', fr: 'Acier', ar: 'الفولاذ', ru: 'Сталь' },
   'Montaj':     { en: 'Mounting', fr: 'Montage', ar: 'التركيب', ru: 'Монтаж' },
-  // Columns
+  // Groups — pelet bıçakları
+  'Makine':     { en: 'Machine', fr: 'Machine', ar: 'الآلة', ru: 'Машина' },
+  'Çelik / Kaplama Seçenekleri': { en: 'Steel / Coating Options', fr: 'Options Acier / Revêtement', ar: 'خيارات الفولاذ / الطلاء', ru: 'Сталь / Покрытие' },
+  // Groups — granül bıçakları
+  'Bıçak Tipi': { en: 'Blade Type', fr: 'Type de Lame', ar: 'نوع الشفرة', ru: 'Тип ножа' },
+  'Çelik Seçenekleri': { en: 'Steel Options', fr: 'Options Acier', ar: 'خيارات الفولاذ', ru: 'Варианты стали' },
+  // Columns — genel
   'Dış Çap':    { en: 'Outer Ø', fr: 'Ø Ext.', ar: 'القطر الخارجي', ru: 'Нар. Ø' },
   'İç Çap':     { en: 'Inner Ø', fr: 'Ø Int.', ar: 'القطر الداخلي', ru: 'Вн. Ø' },
   'Kalınlık':   { en: 'Thickness', fr: 'Épaisseur', ar: 'السماكة', ru: 'Толщина' },
+  'Uzunluk':    { en: 'Length', fr: 'Longueur', ar: 'الطول', ru: 'Длина' },
   'Tek Açı':    { en: 'Single Bevel', fr: 'Simple', ar: 'أحادي', ru: 'Одностор.' },
   'Çift Açı':   { en: 'Double Bevel', fr: 'Double', ar: 'مزدوج', ru: 'Двустор.' },
   'Konkav':     { en: 'Concave', fr: 'Concave', ar: 'مقعر', ru: 'Вогнутая' },
@@ -46,7 +54,40 @@ const colLabels: Record<string, Record<string, string>> = {
   'Kilitli':    { en: 'Self-Locking', fr: 'Auto-bloquant', ar: 'ذاتي القفل', ru: 'Самоблок.' },
   'Kesici Kalınlık': { en: 'Edge Th.', fr: 'Ép. Coupe', ar: 'سمك القطع', ru: 'Толщ. реза' },
   'Kal. "C"':       { en: 'Th. "C"', fr: 'Ép. "C"', ar: 'سمك "C"', ru: 'Толщ. "C"' },
+  // Columns — pelet bıçakları
+  'Ölçü (A×B)': { en: 'Size (A×B)', fr: 'Taille (A×B)', ar: 'المقاس (A×B)', ru: 'Размер (A×B)' },
+  'Karbon':     { en: 'Carbon', fr: 'Carbone', ar: 'كربون', ru: 'Углерод.' },
+  'TiN Kaplama': { en: 'TiN Coating', fr: 'Revêtement TiN', ar: 'طلاء TiN', ru: 'Покрытие TiN' },
+  // Columns — granül bıçakları
+  'Profil':     { en: 'Profile', fr: 'Profil', ar: 'النمط', ru: 'Профиль' },
+  'D2/2379':    { en: 'D2/2379', fr: 'D2/2379', ar: 'D2/2379', ru: 'D2/2379' },
+  'HSS':        { en: 'HSS', fr: 'HSS', ar: 'HSS', ru: 'HSS' },
+  // Row values — granül bıçakları
+  'Düz':        { en: 'Flat', fr: 'Plat', ar: 'مسطح', ru: 'Плоский' },
+  'Eğimli':     { en: 'Angled', fr: 'Incliné', ar: 'مائل', ru: 'Наклонный' },
+  'Segmentli':  { en: 'Segmented', fr: 'Segmenté', ar: 'مقطعي', ru: 'Сегментный' },
 };
+
+/* ── Note translations for specTable ───────────────────────── */
+const noteTranslations: Record<string, Record<string, string>> = {
+  'Tablodaki ölçüler standart aralıktır. Farklı makine ve boyut taleplerine yönelik özel üretim yapılmaktadır. Detaylı bilgi için iletişime geçiniz.': {
+    en: 'The dimensions listed in the table are standard ranges. Custom manufacturing is available for different machine and size requirements. Please contact us for details.',
+    fr: 'Les dimensions indiquées dans le tableau sont des gammes standard. La fabrication sur mesure est disponible pour différentes exigences de machines et de tailles. Contactez-nous pour plus de détails.',
+    ar: 'الأبعاد المذكورة في الجدول هي نطاقات قياسية. يتوفر تصنيع مخصص لمتطلبات الآلات والأحجام المختلفة. يرجى الاتصال بنا للحصول على التفاصيل.',
+    ru: 'Размеры, указанные в таблице, являются стандартными диапазонами. Возможно изготовление на заказ для различных требований к оборудованию и размерам. Свяжитесь с нами для получения подробной информации.',
+  },
+  'Tabloda belirtilen standart ölçüler dışında farklı makine ve boyut taleplerine yönelik özel üretim yapılmaktadır. Detaylı bilgi için iletişime geçiniz.': {
+    en: 'Custom manufacturing is available for machine and size requirements beyond the standard dimensions listed in the table. Please contact us for details.',
+    fr: 'La fabrication sur mesure est disponible pour les exigences de machines et de tailles au-delà des dimensions standard indiquées dans le tableau. Contactez-nous pour plus de détails.',
+    ar: 'يتوفر تصنيع مخصص لمتطلبات الآلات والأحجام خارج نطاق الأبعاد القياسية المذكورة في الجدول. يرجى الاتصال بنا للحصول على التفاصيل.',
+    ru: 'Возможно изготовление на заказ для требований к оборудованию и размерам, выходящих за рамки стандартных размеров, указанных в таблице. Свяжитесь с нами для получения подробной информации.',
+  },
+};
+
+function tNote(note: string, locale: string): string {
+  if (locale === 'tr') return note;
+  return noteTranslations[note]?.[locale] || note;
+}
 
 function tCol(label: string, locale: string): string {
   if (locale === 'tr') return label;
@@ -136,7 +177,7 @@ function SpecTableCore({ data, locale, t }: { data: SpecTableData; locale: strin
                       )
                     ) : (
                       <span className="text-[13px] font-medium text-steel-800">
-                        {cell}
+                        {typeof cell === 'string' ? tCol(cell, locale) : cell}
                       </span>
                     )}
                   </td>
@@ -151,7 +192,7 @@ function SpecTableCore({ data, locale, t }: { data: SpecTableData; locale: strin
       {data.note !== false && (
         <div className="px-3 py-2 bg-white border-t border-gray-200">
           <p className="text-[10px] text-gray-500 font-medium">
-            {data.note || t.note}
+            {data.note ? tNote(data.note, locale) : t.note}
           </p>
         </div>
       )}
