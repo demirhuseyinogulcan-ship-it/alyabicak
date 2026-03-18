@@ -167,7 +167,7 @@ export default async function FAQPage({ params }: PageProps) {
             </div>
             <div className="flex flex-wrap gap-3">
               <Button
-                href={getWhatsAppUrl(locale)}
+                href={getWhatsAppUrl(dict.whatsapp?.defaultMessage)}
                 target="_blank"
                 variant="primary"
                 size="md"

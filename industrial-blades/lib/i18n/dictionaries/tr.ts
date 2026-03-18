@@ -348,9 +348,9 @@ const tr = {
     availableSizes: 'Mevcut Ölçüler',
     inStock: 'Stokta mevcut',
     askStock: 'Stok sorunuz',
-    whatsappMessage: 'Merhaba, {{code}} - {{name}} ürünü hakkında bilgi almak istiyorum.',
+    whatsappMessage: 'Merhaba, alyabicak.com\'dan ulaşıyorum. {{code}} - {{name}} ürünü hakkında bilgi almak istiyorum.',
     emailSubject: 'Teklif Talebi: {{code}} - {{name}}',
-    emailBody: 'Merhaba,\n\n{{code}} - {{name}} ürünü için teklif almak istiyorum.\n\nSaygılarımla',
+    emailBody: 'Merhaba,\n\nSizlere alyabicak.com\'dan ulaşıyorum.\n\n{{code}} - {{name}} ürünü için teklif almak istiyorum.\n\nSaygılarımla',
     technicalSpecs: 'Teknik Özellikler',
     whyThisProduct: 'Neden Bu Ürün?',
     applications: 'Kullanım Alanları',
@@ -400,7 +400,7 @@ const tr = {
 
   // Hero Slider
   heroSlider: {
-    whatsappMessage: 'Merhaba, {{title}} hakkında bilgi almak istiyorum.',
+    whatsappMessage: 'Merhaba, alyabicak.com\'dan ulaşıyorum. {{title}} hakkında bilgi almak istiyorum.',
   },
 
   // Sheffield Section
@@ -463,9 +463,9 @@ const tr = {
     blogMessage: 'Merhaba, alyabicak.com bülten sayfasından yazıyorum.',
     subcategoryMessage: 'Merhaba, "{{subcategory}}" ürünü hakkında bilgi almak istiyorum. (alyabicak.com)',
     categoryMessages: {
-      industrialBlades: 'Merhaba, Sanayi Jiletleri hakkında bilgi almak istiyorum.',
-      machineKnives: 'Merhaba, Makina Bıçakları hakkında bilgi almak istiyorum.',
-      safetyKnives: 'Merhaba, İş Güvenliği & El Bıçakları hakkında bilgi almak istiyorum.',
+      industrialBlades: 'Merhaba, alyabicak.com\'dan ulaşıyorum. Sanayi Jiletleri hakkında bilgi almak istiyorum.',
+      machineKnives: 'Merhaba, alyabicak.com\'dan ulaşıyorum. Makina Bıçakları hakkında bilgi almak istiyorum.',
+      safetyKnives: 'Merhaba, alyabicak.com\'dan ulaşıyorum. İş Güvenliği & El Bıçakları hakkında bilgi almak istiyorum.',
     },
     tooltip: 'Size nasıl yardımcı olabiliriz?',
     chatTitle: 'WhatsApp ile Yazın',

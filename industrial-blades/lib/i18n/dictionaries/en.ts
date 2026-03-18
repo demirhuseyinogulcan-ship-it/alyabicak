@@ -348,9 +348,9 @@ const en = {
     availableSizes: 'Available Sizes',
     inStock: 'In Stock',
     askStock: 'Ask for availability',
-    whatsappMessage: 'Hello, I would like to get information about {{code}} - {{name}}.',
+    whatsappMessage: 'Hello, I am reaching out from alyablade.com. I would like to get information about {{code}} - {{name}}.',
     emailSubject: 'Quote Request: {{code}} - {{name}}',
-    emailBody: 'Hello,\n\nI would like to request a quote for {{code}} - {{name}}.\n\nBest regards',
+    emailBody: 'Hello,\n\nI am reaching out from alyablade.com.\n\nI would like to request a quote for {{code}} - {{name}}.\n\nBest regards',
     technicalSpecs: 'Technical Specifications',
     whyThisProduct: 'Why This Product?',
     applications: 'Applications',
@@ -400,7 +400,7 @@ const en = {
 
   // Hero Slider
   heroSlider: {
-    whatsappMessage: 'Hello, I would like to get information about {{title}}.',
+    whatsappMessage: 'Hello, I am reaching out from alyablade.com. I would like to get information about {{title}}.',
   },
 
   // Sheffield Section
@@ -463,9 +463,9 @@ const en = {
     blogMessage: 'Hello, I am writing from alyablade.com blog page.',
     subcategoryMessage: 'Hello, I would like to get information about "{{subcategory}}". (alyablade.com)',
     categoryMessages: {
-      industrialBlades: 'Hello, I would like to get information about Industrial Blades.',
-      machineKnives: 'Hello, I would like to get information about Machine Knives.',
-      safetyKnives: 'Hello, I would like to get information about Safety & Utility Knives.',
+      industrialBlades: 'Hello, I am reaching out from alyablade.com. I would like to get information about Industrial Blades.',
+      machineKnives: 'Hello, I am reaching out from alyablade.com. I would like to get information about Machine Knives.',
+      safetyKnives: 'Hello, I am reaching out from alyablade.com. I would like to get information about Safety & Utility Knives.',
     },
     tooltip: 'How can we help you?',
     chatTitle: 'Chat on WhatsApp',

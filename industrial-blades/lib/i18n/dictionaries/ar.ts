@@ -349,9 +349,9 @@ const ar = {
     availableSizes: 'المقاسات المتوفرة',
     inStock: 'متوفر',
     askStock: 'استفسر عن التوفر',
-    whatsappMessage: 'مرحباً، أود الحصول على معلومات عن {{code}} - {{name}}.',
+    whatsappMessage: 'مرحباً، أتواصل من alyablade.com. أود الحصول على معلومات عن {{code}} - {{name}}.',
     emailSubject: 'طلب عرض سعر: {{code}} - {{name}}',
-    emailBody: 'مرحباً،\n\nأود طلب عرض سعر لـ {{code}} - {{name}}.\n\nمع أطيب التحيات',
+    emailBody: 'مرحباً،\n\nأتواصل معكم من alyablade.com.\n\nأود طلب عرض سعر لـ {{code}} - {{name}}.\n\nمع أطيب التحيات',
     technicalSpecs: 'المواصفات الفنية',
     whyThisProduct: 'لماذا هذا المنتج؟',
     applications: 'التطبيقات',
@@ -401,7 +401,7 @@ const ar = {
 
   // Hero Slider
   heroSlider: {
-    whatsappMessage: 'مرحباً، أود الحصول على معلومات عن {{title}}.',
+    whatsappMessage: 'مرحباً، أتواصل من alyablade.com. أود الحصول على معلومات عن {{title}}.',
   },
 
   // Sheffield Section
@@ -464,9 +464,9 @@ const ar = {
     blogMessage: 'مرحباً، أكتب من صفحة المدونة في alyablade.com.',
     subcategoryMessage: 'مرحباً، أود الحصول على معلومات عن "{{subcategory}}". (alyablade.com)',
     categoryMessages: {
-      industrialBlades: 'مرحباً، أود الحصول على معلومات عن الشفرات الصناعية.',
-      machineKnives: 'مرحباً، أود الحصول على معلومات عن سكاكين الآلات.',
-      safetyKnives: 'مرحباً، أود الحصول على معلومات عن سكاكين الأمان والاستخدام العام.',
+      industrialBlades: 'مرحباً، أتواصل من alyablade.com. أود الحصول على معلومات عن الشفرات الصناعية.',
+      machineKnives: 'مرحباً، أتواصل من alyablade.com. أود الحصول على معلومات عن سكاكين الآلات.',
+      safetyKnives: 'مرحباً، أتواصل من alyablade.com. أود الحصول على معلومات عن سكاكين الأمان والاستخدام العام.',
     },
     tooltip: 'كيف يمكننا مساعدتك؟',
     chatTitle: 'محادثة واتساب',

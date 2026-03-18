@@ -349,9 +349,9 @@ const ru = {
     availableSizes: 'Доступные размеры',
     inStock: 'В наличии',
     askStock: 'Уточнить наличие',
-    whatsappMessage: 'Здравствуйте, я хотел бы получить информацию о {{code}} - {{name}}.',
+    whatsappMessage: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о {{code}} - {{name}}.',
     emailSubject: 'Запрос цены: {{code}} - {{name}}',
-    emailBody: 'Здравствуйте,\n\nЯ хотел бы запросить цену на {{code}} - {{name}}.\n\nС уважением',
+    emailBody: 'Здравствуйте,\n\nОбращаюсь к вам с alyablade.com.\n\nЯ хотел бы запросить цену на {{code}} - {{name}}.\n\nС уважением',
     technicalSpecs: 'Технические Характеристики',
     whyThisProduct: 'Почему Этот Продукт?',
     applications: 'Применение',
@@ -401,7 +401,7 @@ const ru = {
 
   // Hero Slider
   heroSlider: {
-    whatsappMessage: 'Здравствуйте, я хотел бы получить информацию о {{title}}.',
+    whatsappMessage: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о {{title}}.',
   },
 
   // Sheffield Section
@@ -464,9 +464,9 @@ const ru = {
     blogMessage: 'Здравствуйте, я пишу со страницы блога alyablade.com.',
     subcategoryMessage: 'Здравствуйте, я хотел бы получить информацию о "{{subcategory}}". (alyablade.com)',
     categoryMessages: {
-      industrialBlades: 'Здравствуйте, я хотел бы получить информацию о Промышленных Лезвиях.',
-      machineKnives: 'Здравствуйте, я хотел бы получить информацию о Машинных Ножах.',
-      safetyKnives: 'Здравствуйте, я хотел бы получить информацию о Защитных и Универсальных Ножах.',
+      industrialBlades: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о Промышленных Лезвиях.',
+      machineKnives: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о Машинных Ножах.',
+      safetyKnives: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о Защитных и Универсальных Ножах.',
     },
     tooltip: 'Чем мы можем вам помочь?',
     chatTitle: 'Написать в WhatsApp',

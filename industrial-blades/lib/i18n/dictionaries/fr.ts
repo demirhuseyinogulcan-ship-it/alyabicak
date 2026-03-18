@@ -349,9 +349,9 @@ const fr = {
     availableSizes: 'Tailles Disponibles',
     inStock: 'En stock',
     askStock: 'Demander le stock',
-    whatsappMessage: 'Bonjour, je souhaiterais obtenir des informations sur le produit {{code}} - {{name}}.',
+    whatsappMessage: 'Bonjour, je vous contacte depuis alyabicak.com. Je souhaiterais obtenir des informations sur le produit {{code}} - {{name}}.',
     emailSubject: 'Demande de Devis: {{code}} - {{name}}',
-    emailBody: 'Bonjour,\n\nJe souhaiterais obtenir un devis pour le produit {{code}} - {{name}}.\n\nCordialement',
+    emailBody: 'Bonjour,\n\nJe vous contacte depuis alyabicak.com.\n\nJe souhaiterais obtenir un devis pour le produit {{code}} - {{name}}.\n\nCordialement',
     technicalSpecs: 'Caractéristiques Techniques',
     whyThisProduct: 'Pourquoi ce Produit?',
     applications: 'Applications',
@@ -401,7 +401,7 @@ const fr = {
 
   // Hero Slider
   heroSlider: {
-    whatsappMessage: 'Bonjour, je souhaiterais obtenir des informations sur {{title}}.',
+    whatsappMessage: 'Bonjour, je vous contacte depuis alyabicak.com. Je souhaiterais obtenir des informations sur {{title}}.',
   },
 
   // Sheffield Section
@@ -464,9 +464,9 @@ const fr = {
     blogMessage: 'Bonjour, j\'écris depuis la page blog de alyabicak.com.',
     subcategoryMessage: 'Bonjour, je souhaiterais obtenir des informations sur le produit "{{subcategory}}". (alyabicak.com)',
     categoryMessages: {
-      industrialBlades: 'Bonjour, je souhaiterais obtenir des informations sur les Rasoirs Industriels.',
-      machineKnives: 'Bonjour, je souhaiterais obtenir des informations sur les Couteaux de Machine.',
-      safetyKnives: 'Bonjour, je souhaiterais obtenir des informations sur la Sécurité au Travail & Cutters Manuels.',
+      industrialBlades: 'Bonjour, je vous contacte depuis alyabicak.com. Je souhaiterais obtenir des informations sur les Rasoirs Industriels.',
+      machineKnives: 'Bonjour, je vous contacte depuis alyabicak.com. Je souhaiterais obtenir des informations sur les Couteaux de Machine.',
+      safetyKnives: 'Bonjour, je vous contacte depuis alyabicak.com. Je souhaiterais obtenir des informations sur la Sécurité au Travail & Cutters Manuels.',
     },
     tooltip: 'Comment pouvons-nous vous aider?',
     chatTitle: 'Écrire sur WhatsApp',
