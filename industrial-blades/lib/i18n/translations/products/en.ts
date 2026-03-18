@@ -2500,9 +2500,57 @@ export const productsEn: Record<string, ProductTranslation> = {
   },
   'pelet-bicaklari': {
     name: 'Pelletizer Blades | EREMA, GALA & NGR Compatible Pelletizer Knives',
-    description: 'High-quality pelletizer blades for EREMA, GALA and NGR plastic recycling machines. Available in D2, M2 HSS steel and TiN coated options. Underwater pelletizer knives, die face cutters in 40.6mm, 44mm and 46mm sizes. Custom granulating blades for plastic pelletizing systems.',
-    features: ['D2, M2 HSS, Carbon Steel options', 'TiN coating option', 'EREMA, GALA, NGR compatible', 'Underwater pelletizing system'],
-    applications: ['Plastic recycling', 'Pelletizing machines', 'Granule production', 'Underwater pelletizing'],
+    subtitle: 'D2, M2 HSS, Carbon Steel — TiN Coating Option — Underwater Pelletizing',
+    description: 'Pelletizer blades fully compatible with EREMA, GALA and NGR plastic recycling machines. Superior wear resistance with D2 and M2 HSS steel options; optional TiN coating extends blade life 3–5×. Production in 40.6 mm, 44 mm and 46 mm standard sizes for underwater pelletizing and die face cutter systems — custom sizes on request.',
+    features: ['D2, M2 HSS, Carbon Steel options', 'TiN coating option', 'EREMA, GALA, NGR machine compatibility', 'Underwater pelletizing system', '40.6–46 mm size range', 'Custom size manufacturing'],
+    benefits: [
+      { title: '3 Steel Grades', description: 'D2, M2 HSS and Carbon Steel — optimum material for every budget and performance need', icon: 'Layers' },
+      { title: 'TiN Coating — 3–5× Life', description: 'Titanium Nitride coating raises surface hardness to ~2300 HV; reduces friction, improves pellet quality', icon: 'Sparkles' },
+      { title: 'Direct Fit for 5 Brands', description: 'Ready-to-install production in standard sizes for EREMA, GALA, NGR, BKG and Econ machines', icon: 'Settings' },
+      { title: 'Standard + Custom Sizes', description: '40.6 mm, 44 mm and 46 mm standard dimensions; custom sizes available for other machine models', icon: 'Maximize' },
+    ],
+    applications: ['Plastic Recycling', 'Underwater Pelletizing', 'Granule & Compound Production', 'Polymer Extrusion'],
+    longDescription: `<p>Pelletizer blades (die face cutters) are critical cutting components in plastic recycling lines that convert molten polymer into uniform, homogeneous small granules. Rotating at high speed over a die plate, they shear the plastic strands emerging from the extruder and quench them instantly with water, ensuring consistent pellet size.</p>
+
+<h3>What Is Underwater Pelletizing?</h3>
+<p>Underwater pelletizing is a high-efficiency granulation method in which molten plastic is cut by rotating blades the instant it exits the die holes and cooled immediately in a water chamber. Compared with conventional air-cooled systems, it produces rounder, more homogeneous pellets and is used with a wide range of polymers including PE, PP, PET and PS.</p>
+
+<h3>Compatible Machine Brands</h3>
+<ul>
+  <li><strong>EREMA:</strong> 46×24 mm and 46×13 mm — The world's most widely used plastic recycling system manufacturer; compatible with Intarema and Vacurema series.</li>
+  <li><strong>GALA:</strong> 40.6×20.6 mm — A leading brand in high-capacity underwater pelletizing systems.</li>
+  <li><strong>NGR:</strong> 44×20 mm and 44×13 mm — Austrian-origin, patented recycling technology; compatible with S:GRAN and P:REACT series.</li>
+</ul>
+
+<h3>Steel Types & Coating</h3>
+<ul>
+  <li><strong>D2 Tool Steel:</strong> High-chromium cold-work steel, HRC 58–62. Outstanding wear resistance delivers extended service life on standard and high-throughput production lines.</li>
+  <li><strong>M2 HSS (High Speed Steel):</strong> HRC 62–64. Superior heat resistance prevents performance loss under heavy-duty conditions; provides the longest blade life.</li>
+  <li><strong>Carbon Steel:</strong> HRC 58–60. A cost-effective, reliable option for standard applications.</li>
+  <li><strong>TiN Coating (Titanium Nitride):</strong> Raises surface hardness to ~2300 HV, boosting wear resistance 3–5×; reduces friction and improves pellet quality. Applicable over D2 and M2 HSS substrates.</li>
+</ul>
+
+<h3>Applications</h3>
+<ul>
+  <li>Plastic recycling plants — PE, PP, PET, PS pelletizing</li>
+  <li>Underwater pelletizing systems</li>
+  <li>Hot die face pelletizing</li>
+  <li>Plastic granule and compound production lines</li>
+  <li>Polymer extrusion line output pelletizing</li>
+</ul>
+
+<p><em>NOTE: Custom manufacturing is available for machine and size requirements beyond the standard dimensions listed in the table.</em></p>`,
+    seo: {
+      title: 'Pelletizer Blades — EREMA GALA NGR Compatible | D2, M2 HSS, TiN | Alya Blade',
+      description: 'Pelletizer blades for EREMA, GALA and NGR plastic recycling machines. D2, M2 HSS steel and TiN coated die face cutters. Underwater pelletizer knives in 40.6 mm, 44 mm and 46 mm sizes. Custom granulating blades for pelletizing systems.',
+      keywords: [
+        'pelletizer blades', 'pelletizer knives', 'die face cutter',
+        'Erema pelletizer blade', 'GALA pelletizer blade', 'NGR pelletizer blade',
+        'underwater pelletizer blade', 'underwater pelletizing knife',
+        'D2 pelletizer blade', 'M2 HSS pelletizer', 'TiN coated pelletizer blade',
+        'plastic recycling blade', 'granulator blade', 'pellet cutter',
+      ],
+    },
   },
   'taneciklendirici': {
     name: 'Granulator Blade — Plastic Recycling',

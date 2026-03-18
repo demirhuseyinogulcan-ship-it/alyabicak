@@ -7763,22 +7763,25 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     categoryId: 'machine-knives',
     subcategoryId: 'recycling-knives',
     tags: ['pelet bıçağı', 'peletleyici bıçak', 'pelletizer blade', 'Erema bıçak', 'GALA bıçak', 'NGR bıçak', 'granül bıçağı', 'die face cutter', 'su altı peletleyici', 'underwater pelletizer', 'D2 pelet', 'M2 HSS pelet', 'TiN kaplama pelet'],
-    shortDescription: 'EREMA, GALA ve NGR plastik geri dönüşüm makineleri için yüksek kalite pelet bıçakları. D2, M2 HSS ve TiN kaplamalı peletleyici bıçaklar. Su altı peletleme sistemleri için 40.6mm, 44mm ve 46mm ölçülerde üretim. Granül bıçakları ve die face cutter çözümleri.',
-    longDescription: `<p>Pelet bıçakları (pelletizer blades / die face cutter), plastik geri dönüşüm tesislerinde erimiş plastik ipliklerini düzgün, küçük peletlere kesmek için kullanılır. Dönen bir bıçak ve sabit bir kalıp plakası (die plate) ile çalışarak tutarlı pelet boyutları elde edilmesini sağlar.</p>
+    shortDescription: 'EREMA, GALA ve NGR plastik geri dönüşüm makinelerine tam uyumlu pelet bıçakları. D2 ve M2 HSS çelik seçenekleri ile üstün aşınma direnci; opsiyonel TiN kaplama ile bıçak ömrünü 3-5 kat uzatma imkânı. Su altı peletleme (underwater pelletizing) ve sıcak kalıp yüzü (die face) sistemleri için 40.6 mm, 44 mm ve 46 mm standart ölçülerde üretim — özel boyutlar talep üzerine.',
+    longDescription: `<p>Pelet bıçakları (pelletizer blade / die face cutter), plastik geri dönüşüm hatlarında erimiş polimeri düzgün ve homojen küçük granüllere dönüştüren kritik kesim elemanlarıdır. Kalıp plakası (die plate) üzerinde yüksek devirle dönerek, ekstrüderden çıkan plastik ipliklerini keser ve su ile anında soğutarak tekdüze pellet boyutu sağlar.</p>
+
+<h3>Su Altı Peletleme Nedir?</h3>
+<p>Su altı peletleme (underwater pelletizing), erimiş plastiğin kalıp deliklerinden çıktığı anda dönen bıçaklarla kesilip su ortamında anında soğutulduğu yüksek verimli bir granülleme yöntemidir. Geleneksel hava soğutmalı sistemlere kıyasla daha yuvarlak, daha homojen pellet elde edilir; PE, PP, PET, PS başta olmak üzere çok çeşitli polimerlerde kullanılır.</p>
 
 <h3>Uyumlu Makine Markaları</h3>
 <ul>
-  <li><strong>EREMA:</strong> 46×24mm ve 46×13mm ölçülerinde. Dünya çapında en yaygın plastik geri dönüşüm sistemi üreticisi.</li>
-  <li><strong>GALA:</strong> 40.6×20.6mm ölçüsünde. Yüksek kapasiteli su altı peletleme sistemleri.</li>
-  <li><strong>NGR:</strong> 44×20mm ve 44×13mm ölçülerinde. Avusturya menşeli geri dönüşüm teknolojisi.</li>
+  <li><strong>EREMA:</strong> 46×24 mm ve 46×13 mm — Dünya çapında en yaygın plastik geri dönüşüm sistemi üreticisi; Intarema ve Vacurema serilerine uyumlu.</li>
+  <li><strong>GALA:</strong> 40.6×20.6 mm — Yüksek kapasiteli su altı peletleme sistemlerinde lider marka.</li>
+  <li><strong>NGR:</strong> 44×20 mm ve 44×13 mm — Avusturya menşeli, patentli geri dönüşüm teknolojisi; S:GRAN ve P:REACT serilerine uyumlu.</li>
 </ul>
 
 <h3>Çelik Tipleri ve Kaplama</h3>
 <ul>
-  <li><strong>D2 Takım Çeliği:</strong> Yüksek kromlu soğuk iş çeliği. HRC 58-62 sertlik, üstün aşınma direnci. Standart ve yoğun üretim hatları için.</li>
-  <li><strong>M2 HSS (Yüksek Hız Çeliği):</strong> HRC 62-64 sertlik, yüksek sıcaklık dayanımı. Ağır iş koşullarında uzun bıçak ömrü.</li>
-  <li><strong>Karbon Çeliği:</strong> HRC 58-60 sertlik. Ekonomik seçenek, standart uygulamalar için.</li>
-  <li><strong>TiN Kaplama (Titanyum Nitrür):</strong> Aşınma direncini 3-5 kat artırır. Sürtünmeyi azaltır, bıçak ömrünü uzatır. D2 ve M2 HSS üzerine uygulanabilir.</li>
+  <li><strong>D2 Takım Çeliği:</strong> Yüksek kromlu soğuk iş çeliği, HRC 58-62. Üstün aşınma direnci sayesinde standart ve yoğun üretim hatlarında uzun kullanım ömrü sunar.</li>
+  <li><strong>M2 HSS (Yüksek Hız Çeliği):</strong> HRC 62-64 sertlik. Yüksek sıcaklık dayanımı ile ağır iş koşullarında performans düşüşü yaşanmaz; en uzun bıçak ömrünü sağlar.</li>
+  <li><strong>Karbon Çeliği:</strong> HRC 58-60 sertlik. Düşük maliyetli, standart uygulamalar için ekonomik ve güvenilir seçenek.</li>
+  <li><strong>TiN Kaplama (Titanyum Nitrür):</strong> Yüzey sertliğini ~2300 HV değerine çıkararak aşınma direncini 3-5 kat artırır; sürtünmeyi azaltır ve pelet kalitesini iyileştirir. D2 ile M2 HSS altlık üzerine uygulanabilir.</li>
 </ul>
 
 <h3>Kullanım Alanları</h3>
@@ -7786,8 +7789,8 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
   <li>Plastik geri dönüşüm tesisleri — PE, PP, PET, PS peletleme</li>
   <li>Su altı peletleme sistemleri (underwater pelletizing)</li>
   <li>Sıcak kalıp yüzü peletleme (hot die face pelletizing)</li>
-  <li>Plastik granül üretim hatları</li>
-  <li>Polimer ekstrüzyon hatları</li>
+  <li>Plastik granül ve kompound üretim hatları</li>
+  <li>Polimer ekstrüzyon hatlarında çıkış peletleme</li>
 </ul>
 
 <p><em>NOT: Tablodaki standart ölçüler dışında farklı makine ve boyut talepleri için özel üretim yapılmaktadır.</em></p>`,
@@ -7823,17 +7826,17 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
     },
 
     applications: [
-      { title: 'Plastik Geri Dönüşüm', icon: 'Recycle', description: 'PE, PP, PET, PS plastik geri dönüşüm tesislerinde peletleme' },
-      { title: 'Su Altı Peletleme', icon: 'Droplets', description: 'Underwater pelletizing sistemlerinde hassas kesim' },
-      { title: 'Granül Üretimi', icon: 'Circle', description: 'Plastik granül ve pellet üretim hatlarında' },
-      { title: 'Polimer Ekstrüzyon', icon: 'Factory', description: 'Ekstrüzyon hatlarında çıkış peletleme' },
+      { title: 'Plastik Geri Dönüşüm', icon: 'Recycle', description: 'PE, PP, PET ve PS geri dönüşüm tesislerinde yüksek verimli peletleme' },
+      { title: 'Su Altı Peletleme', icon: 'Droplets', description: 'EREMA, GALA, NGR su altı peletleme (underwater pelletizing) sistemlerinde hassas kesim' },
+      { title: 'Granül & Kompound Üretimi', icon: 'Circle', description: 'Plastik granül, masterbatch ve kompound üretim hatlarında düzgün pelet ebadı' },
+      { title: 'Polimer Ekstrüzyon', icon: 'Factory', description: 'Ekstrüzyon hattı çıkışında sıcak kalıp yüzü (die face) peletleme' },
     ],
 
     benefits: [
-      { title: '3 Çelik Seçeneği', description: 'D2, M2 HSS ve Karbon Çelik — uygulamaya göre optimum malzeme seçimi', icon: 'Layers' },
-      { title: 'TiN Kaplama Opsiyonu', description: 'Titanyum Nitrür kaplama ile 3-5 kat artırılmış aşınma direnci', icon: 'Sparkles' },
-      { title: 'Çoklu Makine Uyumu', description: 'EREMA, GALA, NGR, BKG, Econ makinelerine uyumlu üretim', icon: 'Settings' },
-      { title: '3 Boyut Grubu', description: '40.6mm, 44mm ve 46mm ölçülerinde standart üretim', icon: 'Maximize' },
+      { title: '3 Farklı Çelik Seçeneği', description: 'D2, M2 HSS ve Karbon Çelik — her bütçe ve performans ihtiyacına uygun optimum malzeme', icon: 'Layers' },
+      { title: 'TiN Kaplama ile 3-5× Ömür', description: 'Titanyum Nitrür kaplama yüzey sertliğini ~2300 HV\'ye çıkarır; sürtünmeyi azaltır, pelet kalitesini artırır', icon: 'Sparkles' },
+      { title: '5 Marka Doğrudan Uyum', description: 'EREMA, GALA, NGR, BKG ve Econ makinelerine takılmaya hazır standart ölçülerde üretim', icon: 'Settings' },
+      { title: 'Standart + Özel Üretim', description: '40.6 mm, 44 mm ve 46 mm standart boyutlar; farklı makine modelleri için özel ölçü imkânı', icon: 'Maximize' },
     ],
 
     features: ['D2, M2 HSS, Karbon Çelik seçenekleri', 'TiN kaplama opsiyonu', 'EREMA, GALA, NGR makine uyumu', 'Su altı peletleme sistemi', '40.6-46mm boyut aralığı', 'Özel ölçü üretimi'],
@@ -7874,7 +7877,7 @@ export const PRODUCTS_EXTENDED: ProductExtended[] = [
 
     seo: {
       title: 'Pelet Bıçakları - Erema & NGR Uyumlu | D2, M2 HSS, TiN Kaplama | Alya Bıçak',
-      description: 'EREMA, GALA ve NGR plastik geri dönüşüm makineleri için yüksek kalite pelet bıçakları. D2, M2 HSS ve TiN kaplamalı peletleyici bıçaklar. Su altı peletleme sistemleri için 40.6mm, 44mm ve 46mm ölçülerde üretim. Granül bıçakları ve die face cutter çözümleri.',
+      description: 'EREMA, GALA ve NGR plastik geri dönüşüm makinelerine tam uyumlu pelet bıçakları. D2 ve M2 HSS çelik seçenekleri ile üstün aşınma direnci; opsiyonel TiN kaplama ile bıçak ömrünü 3-5 kat uzatma imkânı. Su altı peletleme ve sıcak kalıp yüzü sistemleri için 40.6 mm, 44 mm ve 46 mm standart ölçülerde üretim.',
       keywords: [
         'pelet bıçağı', 'pelet bıçakları', 'peletleyici bıçak', 'peletleme bıçağı',
         'Erema pelet bıçağı', 'Erema bıçak', 'GALA pelet bıçağı', 'NGR pelet bıçağı',

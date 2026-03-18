@@ -3016,9 +3016,57 @@ export const productsFr: Record<string, ProductTranslation> = {
   },
   'pelet-bicaklari': {
     name: 'Lames de Granulation | Compatibles EREMA, GALA et NGR',
-    description: 'Lames de granulation de haute qualité pour machines de recyclage plastique EREMA, GALA et NGR. Disponibles en acier D2, M2 HSS et revêtement TiN. Lames de granulation sous-marine en 40,6mm, 44mm et 46mm.',
-    features: ['Options D2, M2 HSS, acier carbone', 'Option revêtement TiN', 'Compatible EREMA, GALA, NGR', 'Système de granulation sous-marine'],
-    applications: ['Recyclage plastique', 'Machines de granulation', 'Production de granulés', 'Granulation sous-marine'],
+    subtitle: 'Acier D2, M2 HSS, carbone — Revêtement TiN en option — Granulation sous-marine',
+    description: 'Lames de granulation entièrement compatibles avec les machines de recyclage plastique EREMA, GALA et NGR. Résistance supérieure à l\'usure grâce aux aciers D2 et M2 HSS ; le revêtement TiN optionnel prolonge la durée de vie des lames de 3 à 5 fois. Production en tailles standard 40,6 mm, 44 mm et 46 mm pour les systèmes de granulation sous-marine et les couteaux de tête de filière — tailles spéciales sur demande.',
+    features: ['Options acier D2, M2 HSS, carbone', 'Revêtement TiN en option', 'Compatibilité machines EREMA, GALA, NGR', 'Système de granulation sous-marine', 'Plage de tailles 40,6–46 mm', 'Fabrication sur mesure'],
+    benefits: [
+      { title: '3 nuances d\'acier', description: 'D2, M2 HSS et acier carbone — le matériau optimal pour chaque budget et besoin de performance', icon: 'Layers' },
+      { title: 'Revêtement TiN — 3–5× durée', description: 'Le revêtement nitrure de titane élève la dureté de surface à ~2300 HV ; réduit le frottement, améliore la qualité des granulés', icon: 'Sparkles' },
+      { title: 'Compatibilité directe 5 marques', description: 'Production en tailles standard prête à installer pour les machines EREMA, GALA, NGR, BKG et Econ', icon: 'Settings' },
+      { title: 'Tailles standard + sur mesure', description: 'Dimensions standard 40,6 mm, 44 mm et 46 mm ; tailles personnalisées disponibles pour d\'autres modèles de machines', icon: 'Maximize' },
+    ],
+    applications: ['Recyclage plastique', 'Granulation sous-marine', 'Production de granulés et compounds', 'Extrusion de polymères'],
+    longDescription: `<p>Les lames de granulation (couteau de tête de filière / die face cutter) sont des composants de coupe essentiels dans les lignes de recyclage plastique, convertissant le polymère fondu en granulés uniformes et homogènes. Tournant à grande vitesse sur la plaque de filière, elles cisaillent les joncs plastiques sortant de l'extrudeuse et les refroidissent instantanément à l'eau, garantissant une taille de granulé constante.</p>
+
+<h3>Qu'est-ce que la granulation sous-marine ?</h3>
+<p>La granulation sous-marine (underwater pelletizing) est une méthode de granulation à haut rendement dans laquelle le plastique fondu est coupé par des lames rotatives dès sa sortie des trous de la filière et refroidi immédiatement dans une chambre d'eau. Par rapport aux systèmes classiques refroidis à l'air, elle produit des granulés plus ronds et plus homogènes, et s'utilise avec une large gamme de polymères dont PE, PP, PET et PS.</p>
+
+<h3>Marques de machines compatibles</h3>
+<ul>
+  <li><strong>EREMA :</strong> 46×24 mm et 46×13 mm — Le fabricant de systèmes de recyclage plastique le plus répandu au monde ; compatible avec les séries Intarema et Vacurema.</li>
+  <li><strong>GALA :</strong> 40,6×20,6 mm — Marque de référence dans les systèmes de granulation sous-marine haute capacité.</li>
+  <li><strong>NGR :</strong> 44×20 mm et 44×13 mm — Technologie de recyclage brevetée d'origine autrichienne ; compatible avec les séries S:GRAN et P:REACT.</li>
+</ul>
+
+<h3>Types d'acier et revêtement</h3>
+<ul>
+  <li><strong>Acier D2 :</strong> Acier de travail à froid à haute teneur en chrome, HRC 58–62. Résistance à l'usure exceptionnelle offrant une durée de vie prolongée sur les lignes de production standard et à haut débit.</li>
+  <li><strong>M2 HSS (acier rapide) :</strong> HRC 62–64. Résistance thermique supérieure empêchant la perte de performance en conditions lourdes ; assure la plus longue durée de vie de lame.</li>
+  <li><strong>Acier carbone :</strong> HRC 58–60. Option économique et fiable pour les applications standard.</li>
+  <li><strong>Revêtement TiN (nitrure de titane) :</strong> Élève la dureté de surface à ~2300 HV, augmentant la résistance à l'usure de 3 à 5 fois ; réduit le frottement et améliore la qualité des granulés. Applicable sur substrats D2 et M2 HSS.</li>
+</ul>
+
+<h3>Domaines d'application</h3>
+<ul>
+  <li>Usines de recyclage plastique — granulation PE, PP, PET, PS</li>
+  <li>Systèmes de granulation sous-marine</li>
+  <li>Granulation en tête de filière chaude (hot die face pelletizing)</li>
+  <li>Lignes de production de granulés et compounds plastiques</li>
+  <li>Granulation en sortie de lignes d'extrusion polymère</li>
+</ul>
+
+<p><em>NOTE : La fabrication sur mesure est disponible pour les exigences de machines et de dimensions au-delà des tailles standard indiquées dans le tableau.</em></p>`,
+    seo: {
+      title: 'Lames de Granulation — EREMA GALA NGR | D2, M2 HSS, TiN | Alya Blade',
+      description: 'Lames de granulation pour machines de recyclage plastique EREMA, GALA et NGR. Couteaux de tête de filière en acier D2, M2 HSS et revêtement TiN. Lames de granulation sous-marine en 40,6 mm, 44 mm et 46 mm.',
+      keywords: [
+        'lames de granulation', 'couteau granulateur', 'couteau de tête de filière',
+        'lame granulation EREMA', 'lame granulation GALA', 'lame granulation NGR',
+        'lame granulation sous-marine', 'pelletizer blade',
+        'lame D2', 'granulateur M2 HSS', 'lame revêtement TiN',
+        'lame recyclage plastique', 'lame granulateur',
+      ],
+    },
   },
   'taneciklendirici': {
     name: 'Lame de Granulateur — Recyclage Plastique',

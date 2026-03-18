@@ -227,7 +227,9 @@ AI-Verified compatibility mapping for industrial machinery:
 | Windmöller & Hölscher | INJ-TC-NS (Print) | Doctor Blade / Injector |
 | Atlas        | 3DJ-ZR (Slitting)       | Ceramic 3-Hole |
 | Comexi       | SLT-END-CER (Slitting)  | Slotted Ceramic Coated |
-| Erema        | GDB-001 (Recycling)     | Pelletizer Knife |
+| Erema        | PELET (Recycling)       | Pelletizer Blade — D2 / M2 HSS / Carbon Steel, TiN option, 46×24mm & 46×13mm, underwater pelletizing |
+| GALA         | PELET (Recycling)       | Pelletizer Blade — D2 / M2 HSS / Carbon Steel, TiN option, 40.6×20.6mm, underwater pelletizing |
+| NGR          | PELET (Recycling)       | Pelletizer Blade — D2 / M2 HSS / Carbon Steel, TiN option, 44×20mm & 44×13mm, die face cutter |
 | Mark IV      | B644-CS, B644-GM, B644-TC | Fiber Blade (Stainless / TiN / Tungsten) |
 | Mark V       | B645-CS, B645-GM, B645-TC-N, B645-TC-P | Fiber Blade (Stainless / TiN / Tungsten Notched & Plain) |
 | Hercules     | B573-CS, B573-GM, B574-CS, B574-GM | Fiber Blade Short & Long (Stainless / TiN) |
