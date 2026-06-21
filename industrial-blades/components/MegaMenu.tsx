@@ -1,195 +1,277 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+/**
+ * MegaMenu Component - Performance Optimized
+ *
+ * Optimizasyonlar:
+ * 1. Framer Motion kaldırıldı → Saf CSS transitions (GPU-accelerated)
+ * 2. prefetch={false} ile gereksiz network requestleri engellendi
+ * 3. will-change ile browser'a hint verildi
+ * 4. transition-all → transition-colors/transform (spesifik)
+ * 5. Hover timeout 300ms → 100ms (daha responsive)
+ * 6. Memoized components ile re-render optimizasyonu
+ */
+
+import { useState, useRef, useEffect, useCallback, memo } from 'react'
 import { ChevronRight } from 'lucide-react'
 import { CategoryView } from '@/lib/types'
 import Link from 'next/link'
+import { useLocale } from '@/lib/i18n/client'
+import type { Dictionary } from '@/lib/i18n'
 
 interface MegaMenuProps {
   categories: CategoryView[]
   isOpen: boolean
   onClose: () => void
+  locale?: string
 }
 
+// Subcategory Card - Memoized for performance
+const SubcategoryCard = memo(function SubcategoryCard({
+  subcategory,
+  categorySlug,
+  onClose,
+  locale = 'tr',
+  dictionary,
+}: {
+  subcategory: CategoryView['subcategories'][0]
+  categorySlug: string
+  onClose: () => void
+  locale?: string
+  dictionary?: Dictionary
+}) {
+  return (
+    <Link
+      href={`/${locale}/categories/${categorySlug}/${subcategory.slug}`}
+      prefetch={false} // ⚡ Critical: Prevent mass prefetching
+      onClick={onClose}
+      className="group relative overflow-hidden rounded-lg border border-steel-200
+                 hover:border-primary-300 hover:shadow-md
+                 transition-[border-color,box-shadow] duration-200"
+    >
+      {/* İçerik */}
+      <div className="relative z-10 p-2.5 h-full flex flex-col justify-between min-h-[70px]">
+        <div>
+          <h4 className="font-medium text-xs text-steel-900 group-hover:text-primary-600
+                         transition-colors duration-150 line-clamp-2">
+            {subcategory.name}
+          </h4>
+        </div>
+        <div className="mt-1 text-[10px] font-medium text-primary-600">
+          {subcategory.productCount} {dictionary?.common?.products || 'products'}
+        </div>
+      </div>
+    </Link>
+  )
+})
+
+// Category Item - Memoized
+const CategoryItem = memo(function CategoryItem({
+  category,
+  isActive,
+  onEnter,
+  onLeave,
+  onClose,
+  locale = 'tr',
+}: {
+  category: CategoryView
+  isActive: boolean
+  onEnter: () => void
+  onLeave: () => void
+  onClose: () => void
+  locale?: string
+}) {
+  return (
+    <div onMouseEnter={onEnter} onMouseLeave={onLeave}>
+      <Link
+        href={`/${locale}/categories/${category.slug}`}
+        prefetch={false}
+        onClick={onClose}
+        className={`
+          flex items-center justify-between px-3 py-2.5 rounded-lg
+          transition-colors duration-150 group
+          ${isActive
+            ? 'bg-primary-50 text-primary-600'
+            : 'hover:bg-steel-50 text-steel-700'
+          }
+        `}
+      >
+        <div className="flex-1">
+          <span className="font-medium text-sm">{category.name}</span>
+          <span className="text-xs text-steel-400 ml-1.5">
+            ({category.totalProductCount})
+          </span>
+        </div>
+        <ChevronRight
+          className={`w-4 h-4 transition-transform duration-150 ${
+            isActive ? 'translate-x-1 text-primary-500' : 'text-steel-400'
+          }`}
+        />
+      </Link>
+    </div>
+  )
+})
+
 export default function MegaMenu({ categories, isOpen, onClose }: MegaMenuProps) {
+  const { locale, dictionary } = useLocale()
   const [activeCategory, setActiveCategory] = useState<string | null>(null)
+  const [isVisible, setIsVisible] = useState(false)
   const menuRef = useRef<HTMLDivElement>(null)
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
-  // İlk kategoriyi otomatik aktif yap
+  // Mount/unmount animation handling
   useEffect(() => {
-    if (isOpen && categories.length > 0) {
-      setActiveCategory(categories[0].id)
-    } else if (!isOpen) {
-      setActiveCategory(null)
+    if (isOpen) {
+      // Immediate show
+      setIsVisible(true)
+      if (categories.length > 0) {
+        setActiveCategory(categories[0].id)
+      }
+    } else {
+      // Delay unmount for exit animation
+      const timer = setTimeout(() => {
+        setIsVisible(false)
+        setActiveCategory(null)
+      }, 150)
+      return () => clearTimeout(timer)
     }
   }, [isOpen, categories])
 
-  // Dışarı tıklanınca kapat
+  // ESC tuşu ile kapat
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
         onClose()
       }
     }
 
     if (isOpen) {
-      document.addEventListener('mousedown', handleClickOutside)
+      document.addEventListener('keydown', handleKeyDown)
     }
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('keydown', handleKeyDown)
     }
   }, [isOpen, onClose])
 
-  const handleCategoryEnter = (categoryId: string) => {
+  const handleCategoryEnter = useCallback((categoryId: string) => {
     if (hoverTimeoutRef.current) {
       clearTimeout(hoverTimeoutRef.current)
     }
     setActiveCategory(categoryId)
-  }
+  }, [])
 
-  const handleCategoryLeave = () => {
+  const handleCategoryLeave = useCallback(() => {
+    // Reduced timeout for snappier feel
     hoverTimeoutRef.current = setTimeout(() => {
-      setActiveCategory(null)
-    }, 300)
-  }
+      // Keep active category, don't null it
+    }, 100)
+  }, [])
 
-  const handleSubcategoryEnter = () => {
+  const handleSubcategoryEnter = useCallback(() => {
     if (hoverTimeoutRef.current) {
       clearTimeout(hoverTimeoutRef.current)
     }
-  }
+  }, [])
+
+  // Aktif kategorinin verilerini al
+  const activeCategoryData = categories.find(cat => cat.id === activeCategory)
+
+  // Don't render if not visible
+  if (!isVisible) return null
 
   return (
-    <AnimatePresence>
-      {isOpen && (
-        <motion.div
-          ref={menuRef}
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.2 }}
-          className="absolute left-0 right-0 top-full bg-white border-t border-gray-200 shadow-xl z-50"
-        >
-          <div className="container mx-auto px-6 py-8">
-            <div className="grid grid-cols-4 gap-8">
-              {/* Ana Kategoriler - Sol taraf */}
-              <div className="col-span-1 border-r border-gray-200 pr-6">
-                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">
-                  Kategoriler
-                </h3>
-                <nav className="space-y-1">
-                  {categories.map((category) => (
-                    <div
-                      key={category.id}
-                      onMouseEnter={() => handleCategoryEnter(category.id)}
-                      onMouseLeave={handleCategoryLeave}
-                    >
-                      <Link
-                        href={`/kategoriler/${category.slug}`}
-                        onClick={() => onClose()}
-                        className={`
-                          flex items-center justify-between px-4 py-3 rounded-lg
-                          transition-all duration-200 group
-                          ${activeCategory === category.id 
-                            ? 'bg-primary-50 text-primary-600' 
-                            : 'hover:bg-gray-50 text-gray-700'
-                          }
-                        `}
-                      >
-                        <div className="flex-1">
-                          <span className="font-medium">{category.name}</span>
-                          <span className="text-xs text-gray-400 ml-2">
-                            ({category.totalProductCount})
-                          </span>
-                        </div>
-                        <ChevronRight 
-                          className={`w-4 h-4 transition-transform ${
-                            activeCategory === category.id ? 'translate-x-1' : ''
-                          }`}
-                        />
-                      </Link>
-                    </div>
-                  ))}
-                </nav>
-              </div>
-
-              {/* Alt Kategoriler - Sağ taraf */}
-              <div 
-                className="col-span-3"
-                onMouseEnter={handleSubcategoryEnter}
-                onMouseLeave={handleCategoryLeave}
-              >
-                <AnimatePresence mode="wait">
-                  {activeCategory && (
-                    <motion.div
-                      key={activeCategory}
-                      initial={{ opacity: 0, x: 20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: -20 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      {categories
-                        .filter(cat => cat.id === activeCategory)
-                        .map(category => (
-                          <div key={category.id}>
-                            <div className="mb-6">
-                              <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                                {category.name}
-                              </h3>
-                              <p className="text-gray-600">
-                                {category.description}
-                              </p>
-                            </div>
-
-                            <div className="grid grid-cols-3 gap-4">
-                              {category.subcategories.map((subcategory) => (
-                                <Link
-                                  key={subcategory.id}
-                                  href={`/kategoriler/${category.slug}/${subcategory.slug}`}
-                                  className="group p-4 rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-all duration-200"
-                                  onClick={() => {
-                                    onClose()
-                                  }}
-                                >
-                                  <h4 className="font-semibold text-gray-900 group-hover:text-primary-600 mb-1">
-                                    {subcategory.name}
-                                  </h4>
-                                  {subcategory.description && (
-                                    <p className="text-sm text-gray-600 line-clamp-2">
-                                      {subcategory.description}
-                                    </p>
-                                  )}
-                                  <div className="mt-2 text-sm text-gray-500">
-                                    {subcategory.productCount} ürün
-                                  </div>
-                                </Link>
-                              ))}
-                            </div>
-
-                            {/* Tümünü Gör */}
-                            <div className="mt-6 pt-6 border-t border-gray-200">
-                              <Link
-                                href={`/kategoriler/${category.slug}`}
-                                className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium"
-                                onClick={() => onClose()}
-                              >
-                                Tüm {category.name} Ürünlerini Gör
-                                <ChevronRight className="w-4 h-4 ml-1" />
-                              </Link>
-                            </div>
-                          </div>
-                        ))}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            </div>
+    <div
+      ref={menuRef}
+      className={`
+        absolute left-0 right-0 top-full bg-white border-t border-steel-200 shadow-2xl z-50
+        transition-[opacity,transform] duration-150 ease-out
+        will-change-[opacity,transform]
+        ${isOpen
+          ? 'opacity-100 translate-y-0'
+          : 'opacity-0 -translate-y-2 pointer-events-none'
+        }
+      `}
+    >
+      <div className="container mx-auto px-4 py-6">
+        <div className="grid grid-cols-12 gap-6">
+          {/* Ana Kategoriler - Sol taraf */}
+          <div className="col-span-3 border-r border-steel-200 pr-4">
+            <h3 className="text-xs font-semibold text-steel-500 uppercase tracking-wider mb-3">
+              {dictionary?.nav?.categories || 'Categories'}
+            </h3>
+            <nav className="space-y-0.5">
+              {categories.map((category) => (
+                <CategoryItem
+                  key={category.id}
+                  category={category}
+                  isActive={activeCategory === category.id}
+                  onEnter={() => handleCategoryEnter(category.id)}
+                  onLeave={handleCategoryLeave}
+                  onClose={onClose}
+                  locale={locale}
+                />
+              ))}
+            </nav>
           </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+
+          {/* Alt Kategoriler - Sağ taraf */}
+          <div
+            className="col-span-9"
+            onMouseEnter={handleSubcategoryEnter}
+            onMouseLeave={handleCategoryLeave}
+          >
+            {activeCategoryData && (
+              <div
+                key={activeCategory}
+                className="animate-fade-in"
+                style={{ animationDuration: '100ms' }}
+              >
+                {/* Kategori Başlığı */}
+                <div className="mb-4">
+                  <h3 className="text-xl font-semibold text-steel-900 mb-1">
+                    {activeCategoryData.name}
+                  </h3>
+                  {activeCategoryData.description && (
+                    <p className="text-sm text-steel-600 line-clamp-1">
+                      {activeCategoryData.description}
+                    </p>
+                  )}
+                </div>
+
+                {/* Alt Kategori Kartları */}
+                <div className="max-h-[400px] overflow-y-auto pr-2 scrollbar-thin">
+                  <div className="grid grid-cols-4 gap-2">
+                    {activeCategoryData.subcategories.map((subcategory) => (
+                      <SubcategoryCard
+                        key={subcategory.id}
+                        subcategory={subcategory}
+                        categorySlug={activeCategoryData.slug}
+                        onClose={onClose}
+                        locale={locale}
+                        dictionary={dictionary}
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Tümünü Gör */}
+                <div className="mt-4 pt-4 border-t border-steel-100">
+                  <Link
+                    href={`/${locale}/categories/${activeCategoryData.slug}`}
+                    prefetch={false}
+                    onClick={onClose}
+                    className="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 font-medium transition-colors duration-150"
+                  >
+                    {dictionary?.nav?.viewAllProducts?.replace('{{category}}', activeCategoryData.name) || `View All ${activeCategoryData.name} Products`}
+                    <ChevronRight className="w-4 h-4 ml-1" />
+                  </Link>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }

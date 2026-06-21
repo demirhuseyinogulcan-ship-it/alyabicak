@@ -1,6 +1,6 @@
 /**
  * UI Components - Merkezi Export
- * 
+ *
  * Kullanım:
  * import { Button, Card, Badge } from '@/components/ui'
  */
@@ -10,7 +10,7 @@ export { default as Button } from './Button'
 export type { ButtonProps } from './Button'
 
 // Card
-export { 
+export {
   default as Card,
   CardImage,
   CardContent,
@@ -19,7 +19,7 @@ export {
   CardFooter,
   CardBadge,
 } from './Card'
-export type { 
+export type {
   CardProps,
   CardImageProps,
   CardContentProps,
@@ -34,7 +34,7 @@ export { default as Badge, StatusBadge, CountBadge } from './Badge'
 export type { BadgeProps, StatusBadgeProps, CountBadgeProps } from './Badge'
 
 // Skeleton
-export { 
+export {
   default as Skeleton,
   SkeletonText,
   SkeletonCard,

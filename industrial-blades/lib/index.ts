@@ -1,6 +1,6 @@
 /**
  * Alya Bıçak - Lib Merkezi Export
- * 
+ *
  * Tüm kütüphane erişimi bu dosya üzerinden yapılabilir
  */
 

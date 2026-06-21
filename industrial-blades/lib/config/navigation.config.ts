@@ -1,55 +1,82 @@
 /**
  * Navigation Configuration
- * Merkezi navigasyon yapılandırması
+ * Merkezi navigasyon yapılandırması - i18n destekli
  */
 
 export interface NavItem {
-  title: string
+  titleKey: string // Dictionary key
+  title?: string // Fallback or computed title
   href: string
   hasMegaMenu?: boolean
   isExternal?: boolean
   icon?: string
 }
 
+// Navigation items with dictionary keys
 export const mainNavigation: NavItem[] = [
   {
-    title: 'Endüstriyel Kesiciler',
+    titleKey: 'nav.industrialCutters',
     href: '/#kategoriler',
     hasMegaMenu: true,
   },
   {
-    title: 'Sheffield Kalitesi',
-    href: '/sheffield-kalitesi',
+    titleKey: 'nav.qualityStandards',
+    href: '/quality-standards',
   },
   {
-    title: 'Bülten',
-    href: '/bulten',
+    titleKey: 'nav.blog',
+    href: '/newsletter',
   },
   {
-    title: 'Danışmanlık',
-    href: '/danismanlik',
+    titleKey: 'nav.consulting',
+    href: '/consulting',
   },
   {
-    title: 'Hakkımızda',
-    href: '/hakkimizda',
+    titleKey: 'nav.about',
+    href: '/about',
   },
   {
-    title: 'İletişim',
-    href: '/iletisim',
+    titleKey: 'nav.contact',
+    href: '/contact',
   },
 ]
 
+// Helper to get localized navigation
+export function getLocalizedNavigation(locale: string): NavItem[] {
+  return mainNavigation.map(item => ({
+    ...item,
+    href: item.href.startsWith('/#')
+      ? `/${locale}${item.href}`
+      : `/${locale}${item.href}`,
+  }))
+}
+
 export const footerNavigation = {
   quickLinks: [
-    { title: 'Hakkımızda', href: '/hakkimizda' },
-    { title: 'Endüstriyel Kesiciler', href: '/kategoriler' },
-    { title: 'Bülten', href: '/bulten' },
-    { title: 'Danışmanlık', href: '/danismanlik' },
-    { title: 'İletişim', href: '/iletisim' },
+    { titleKey: 'nav.about', href: '/about' },
+    { titleKey: 'nav.industrialCutters', href: '/categories' },
+    { titleKey: 'nav.blog', href: '/newsletter' },
+    { titleKey: 'nav.consulting', href: '/consulting' },
+    { titleKey: 'nav.contact', href: '/contact' },
   ],
   legal: [
-    { title: 'KVKK Aydınlatma Metni', href: '/kvkk' },
-    { title: 'Çerez Politikası', href: '/cerez-politikasi' },
+    { titleKey: 'footer.privacy', href: '/privacy-policy' },
+    { titleKey: 'footer.cookies', href: '/cookie-policy' },
+    { titleKey: 'nav.faq', href: '/faq' },
   ],
+}
+
+// Get localized footer navigation
+export function getLocalizedFooterNavigation(locale: string) {
+  return {
+    quickLinks: footerNavigation.quickLinks.map(item => ({
+      ...item,
+      href: `/${locale}${item.href}`,
+    })),
+    legal: footerNavigation.legal.map(item => ({
+      ...item,
+      href: `/${locale}${item.href}`,
+    })),
+  }
 }
 

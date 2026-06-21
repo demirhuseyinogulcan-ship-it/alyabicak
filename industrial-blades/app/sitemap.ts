@@ -1,56 +1,173 @@
 import { MetadataRoute } from 'next'
+import { headers } from 'next/headers'
 import { getAllCategories, getAllSubcategories } from '@/lib/data/categories'
-import { getAllProducts } from '@/lib/data/products'
+import { getAllProducts, getProductCountBySubcategory } from '@/lib/data/products'
+import { blogService } from '@/lib/data/blog'
+import { i18nConfig, type Locale } from '@/lib/i18n/config'
+import { getDomainUrl, getHreflangUrls, type SupportedLocale } from '@/lib/config/domains'
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.alyabicak.com' // Gerçek domain ile değiştirilecek
+/**
+ * Domain-aware sitemap
+ *
+ * Google Best Practice: Her domain sadece kendi URL'lerini sitemap'e dahil etmeli.
+ * - alyabicak.com/sitemap.xml → Sadece /tr/ URL'leri
+ * - alyablade.com/sitemap.xml → Sadece /en/, /ar/, /ru/, /fr/ URL'leri
+ *
+ * NOT: Ürünü olmayan alt kategoriler sitemap'e dahil edilmez (Soft 404 önleme)
+ *
+ * lastModified Stratejisi:
+ * - Static sayfalar → sabit tarih (son büyük içerik güncellemesi)
+ * - Blog → post.updatedAt || post.publishedAt (gerçek tarih)
+ * - Ürünler/Kategoriler → sabit tarih (veri değiştiğinde commit'te güncellenir)
+ *
+ * NOT: new Date() kullanmak her build'de tüm URL'leri "yeni" gösterir,
+ * Google crawl budget'ını israf eder ve lastModified güvenilirliğini düşürür.
+ */
 
-  // Ana sayfalar
-  const routes = [
+// Son veri güncellemesi tarihi — veri dosyaları değiştiğinde bu tarihi güncelleyin
+const LAST_DATA_UPDATE = new Date('2026-03-04')
+const LAST_CONTENT_UPDATE = new Date('2026-03-04')
+
+// Generate URL for a specific locale
+function getLocalizedUrl(locale: Locale, path: string): string {
+  return `${getDomainUrl(locale as SupportedLocale)}/${locale}${path}`
+}
+
+// Generate hreflang alternates for all locales
+function getAlternates(path: string): Record<string, string> {
+  return getHreflangUrls(path)
+}
+
+/**
+ * Domain'e göre hangi locale'lerin sitemap'e dahil edileceğini belirle
+ */
+function getLocalesForDomain(host: string): Locale[] {
+  const isTurkishDomain = host.includes('alyabicak.com')
+  if (isTurkishDomain) {
+    return ['tr'] as Locale[]
+  }
+  // Global domain: TR hariç tüm diller
+  return i18nConfig.locales.filter(l => l !== 'tr') as Locale[]
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Domain-aware: Host header'dan hangi domain olduğunu belirle
+  const headersList = await headers()
+  const host = headersList.get('host') || headersList.get('x-forwarded-host') || 'alyablade.com'
+  const locales = getLocalesForDomain(host)
+
+  // Ana sayfalar (her dil için)
+  const staticRoutes = [
     '',
-    '/hakkimizda',
-    '/iletisim',
-    '/danismanlik',
-    '/sheffield-kalitesi',
-    '/urunler',
-    '/kategoriler',
-  ].map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1 : 0.8,
-  }))
+    '/about',
+    '/contact',
+    '/consulting',
+    '/quality-standards',
+    '/categories',
+    '/newsletter',
+    '/catalog',
+    '/faq',
+    '/privacy-policy',
+    '/cookie-policy',
+  ]
 
-  // Kategori sayfaları
+  // Her dil için static route'lar
+  const routes = locales.flatMap((locale) =>
+    staticRoutes.map((route) => ({
+      url: getLocalizedUrl(locale, route),
+      lastModified: LAST_CONTENT_UPDATE,
+      changeFrequency: 'weekly' as const,
+      priority: route === '' ? 1 : 0.8,
+      alternates: {
+        languages: getAlternates(route),
+      },
+    }))
+  )
+
+  // Kategori sayfaları (her dil için)
   const categories = getAllCategories()
   const subcategories = getAllSubcategories()
-  
-  const categoryRoutes = categories.map((category) => ({
-    url: `${baseUrl}/kategoriler/${category.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.7,
-  }))
 
-  // Alt kategori sayfaları
-  const subcategoryRoutes = subcategories.map((subcategory) => {
-    const parentCategory = categories.find(c => c.subcategoryIds.includes(subcategory.id))
-    return {
-      url: `${baseUrl}/kategoriler/${parentCategory?.slug}/${subcategory.slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
-    }
-  })
+  const categoryRoutes = locales.flatMap((locale) =>
+    categories.map((category) => {
+      const path = `/categories/${category.slug}`
+      return {
+        url: getLocalizedUrl(locale, path),
+        lastModified: LAST_DATA_UPDATE,
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+        alternates: {
+          languages: getAlternates(path),
+        },
+      }
+    })
+  )
 
-  // Ürün sayfaları
+  // Alt kategori sayfaları (her dil için)
+  // SADECE ürünü olan alt kategorileri dahil et - Soft 404 önleme
+  const subcategoriesWithProducts = subcategories.filter(sub => getProductCountBySubcategory(sub.id) > 0)
+
+  const subcategoryRoutes = locales.flatMap((locale) =>
+    subcategoriesWithProducts.map((subcategory) => {
+      const parentCategory = categories.find(c => c.subcategoryIds.includes(subcategory.id))
+      const path = `/categories/${parentCategory?.slug}/${subcategory.slug}`
+      return {
+        url: getLocalizedUrl(locale, path),
+        lastModified: LAST_DATA_UPDATE,
+        changeFrequency: 'weekly' as const,
+        priority: 0.6,
+        alternates: {
+          languages: getAlternates(path),
+        },
+      }
+    })
+  )
+
+  // Ürün sayfaları (her dil için) — locale-aware slug desteği
   const products = getAllProducts()
-  const productRoutes = products.map((product) => ({
-    url: `${baseUrl}/urunler/${product.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.5,
-  }))
+  const productRoutes = locales.flatMap((locale) =>
+    products.map((product) => {
+      // Non-TR locale'lerde slugEN varsa onu kullan
+      const localizedSlug = (locale !== 'tr' && product.slugEN) ? product.slugEN : product.slug
+      const path = `/products/${localizedSlug}`
 
-  return [...routes, ...categoryRoutes, ...subcategoryRoutes, ...productRoutes]
+      // Hreflang: her locale için doğru slug
+      const productHreflangs: Record<string, string> = {}
+      for (const loc of i18nConfig.locales) {
+        const locSlug = (loc !== 'tr' && product.slugEN) ? product.slugEN : product.slug
+        productHreflangs[loc] = getLocalizedUrl(loc as Locale, `/products/${locSlug}`)
+      }
+      productHreflangs['x-default'] = getLocalizedUrl('en' as Locale, `/products/${product.slugEN || product.slug}`)
+
+      return {
+        url: getLocalizedUrl(locale, path),
+        lastModified: LAST_DATA_UPDATE,
+        changeFrequency: 'monthly' as const,
+        priority: 0.5,
+        alternates: {
+          languages: productHreflangs,
+        },
+      }
+    })
+  )
+
+  // Blog yazıları (her dil için) — gerçek tarihler kullanılır
+  const blogSlugs = blogService.getAllSlugs()
+  const blogRoutes = locales.flatMap((locale) =>
+    blogSlugs.map((slug) => {
+      const post = blogService.getPostBySlug(slug, locale)
+      const path = `/newsletter/${slug}`
+      return {
+        url: getLocalizedUrl(locale, path),
+        lastModified: post?.updatedAt ? new Date(post.updatedAt) : post?.publishedAt ? new Date(post.publishedAt) : LAST_CONTENT_UPDATE,
+        changeFrequency: 'monthly' as const,
+        priority: 0.6,
+        alternates: {
+          languages: getAlternates(path),
+        },
+      }
+    })
+  )
+
+  return [...routes, ...categoryRoutes, ...subcategoryRoutes, ...productRoutes, ...blogRoutes]
 }

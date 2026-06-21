@@ -17,6 +17,8 @@ export interface BlogPost {
   readingTime: number // dakika
   featured?: boolean
   seo?: BlogSEO
+  faq?: { question: string; answer: string }[]
+  _isFallback?: boolean // true = locale'e özgü çeviri yok, TR fallback kullanılıyor
 }
 
 export interface BlogAuthor {
@@ -31,6 +33,7 @@ export interface BlogCategory {
   name: string
   slug: string
   description?: string
+  dictionaryKey: 'technicalArticles' | 'productGuides' | 'sectorNews' | 'fairsEvents' | 'companyNews'
 }
 
 export interface BlogSEO {
@@ -40,37 +43,42 @@ export interface BlogSEO {
   focusKeyword?: string
 }
 
-// Sabit kategoriler
+// Sabit kategoriler - Teknik Yazılar öncelikli (B2B değer sıralaması)
 export const BLOG_CATEGORIES: BlogCategory[] = [
   {
-    id: 'sektor-haberleri',
-    name: 'Sektör Haberleri',
-    slug: 'sektor-haberleri',
-    description: 'Endüstriyel kesici sektöründen güncel haberler',
+    id: 'teknik-yazilar',
+    name: 'Teknik Yazılar',
+    slug: 'teknik-yazilar',
+    description: 'Çelik kalitesi, metalürji ve teknik bilgiler',
+    dictionaryKey: 'technicalArticles',
   },
   {
     id: 'urun-rehberleri',
     name: 'Ürün Rehberleri',
     slug: 'urun-rehberleri',
     description: 'Doğru bıçak seçimi için kapsamlı rehberler',
+    dictionaryKey: 'productGuides',
   },
   {
-    id: 'teknik-yazilar',
-    name: 'Teknik Yazılar',
-    slug: 'teknik-yazilar',
-    description: 'Çelik kalitesi, bakım ve teknik bilgiler',
+    id: 'sektor-haberleri',
+    name: 'Sektör Haberleri',
+    slug: 'sektor-haberleri',
+    description: 'Endüstriyel kesici sektöründen güncel haberler',
+    dictionaryKey: 'sectorNews',
   },
   {
     id: 'fuarlar',
     name: 'Fuarlar & Etkinlikler',
     slug: 'fuarlar',
     description: 'Sektörel fuarlar ve etkinlikler',
+    dictionaryKey: 'fairsEvents',
   },
   {
     id: 'sirket-haberleri',
     name: 'Şirket Haberleri',
     slug: 'sirket-haberleri',
     description: 'Alya Bıçak kurumsal haberler',
+    dictionaryKey: 'companyNews',
   },
 ]
 

@@ -1,15 +1,39 @@
 'use client';
 
-import { 
-  Clock, 
-  Shield, 
-  Wrench, 
+import {
+  Clock,
+  Shield,
+  Wrench,
   TrendingUp,
   CheckCircle2,
+  CheckCircle,
   Zap,
-  type LucideIcon 
+  Target,
+  Settings,
+  Gauge,
+  DollarSign,
+  Eye,
+  Award,
+  Check,
+  Sparkles,
+  Box,
+  Diamond,
+  Heart,
+  Flame,
+  Wind,
+  Star,
+  RotateCw,
+  RefreshCw,
+  Droplet,
+  Layers,
+  Scissors,
+  Triangle,
+  Maximize,
+  Lock,
+  type LucideIcon
 } from 'lucide-react';
 import type { ProductBenefit } from '@/lib/types/product.types';
+import { useLocale } from '@/lib/i18n/client';
 
 // Icon mapping
 const iconMap: Record<string, LucideIcon> = {
@@ -18,52 +42,78 @@ const iconMap: Record<string, LucideIcon> = {
   Wrench,
   TrendingUp,
   CheckCircle2,
+  CheckCircle,
   Zap,
+  Target,
+  Settings,
+  Gauge,
+  DollarSign,
+  Eye,
+  Award,
+  Check,
+  Sparkles,
+  Box,
+  Diamond,
+  Heart,
+  Flame,
+  Wind,
+  Star,
+  RotateCw,
+  RefreshCw,
+  Droplet,
+  Layers,
+  Scissors,
+  Triangle,
+  Maximize,
+  Lock,
 };
-
-// Default benefits (eğer ürün için özel tanımlanmadıysa)
-const DEFAULT_BENEFITS: ProductBenefit[] = [
-  {
-    title: 'Uzun Ömür',
-    description: 'Daha az bıçak değişimi, daha düşük toplam maliyet',
-    icon: 'Clock',
-  },
-  {
-    title: 'Üretim Sürekliliği',
-    description: 'Makine duruş sürelerini minimize eder',
-    icon: 'TrendingUp',
-  },
-  {
-    title: 'Teknik Destek',
-    description: 'Türkiye\'de yetkili distribütör garantisi',
-    icon: 'Wrench',
-  },
-];
 
 interface WhyThisProductProps {
   benefits?: ProductBenefit[];
   title?: string;
 }
 
-export function WhyThisProduct({ 
-  benefits = DEFAULT_BENEFITS, 
-  title = 'Neden Bu Ürün?' 
+export function WhyThisProduct({
+  benefits,
+  title
 }: WhyThisProductProps) {
-  const displayBenefits = benefits.length > 0 ? benefits : DEFAULT_BENEFITS;
+  const { dictionary: t } = useLocale();
+
+  // Default benefits - çeviri destekli
+  const defaultBenefits: ProductBenefit[] = [
+    {
+      title: t.productDetail.benefits.longLife,
+      description: t.productDetail.benefits.longLifeDesc,
+      icon: 'Clock',
+    },
+    {
+      title: t.productDetail.benefits.continuity,
+      description: t.productDetail.benefits.continuityDesc,
+      icon: 'TrendingUp',
+    },
+    {
+      title: t.productDetail.benefits.support,
+      description: t.productDetail.benefits.supportDesc,
+      icon: 'Wrench',
+    },
+  ];
+
+  const displayTitle = title || t.productDetail.whyThisProduct;
+  const displayBenefits = benefits && benefits.length > 0 ? benefits : defaultBenefits;
 
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <h2 className="text-xl font-semibold text-steel-900 mb-8">
-          {title}
+          {displayTitle}
         </h2>
-        
+
         {/* Benefit Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {displayBenefits.map((benefit, index) => {
-            const IconComponent = benefit.icon ? iconMap[benefit.icon] : CheckCircle2;
-            
+            const IconComponent = benefit.icon ? (iconMap[benefit.icon] || CheckCircle2) : CheckCircle2;
+
             return (
               <div
                 key={index}
@@ -73,7 +123,7 @@ export function WhyThisProduct({
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-steel-100 flex items-center justify-center">
                   <IconComponent className="w-5 h-5 text-steel-600" />
                 </div>
-                
+
                 {/* Content */}
                 <div>
                   <h3 className="font-medium text-steel-900">
@@ -87,40 +137,6 @@ export function WhyThisProduct({
             );
           })}
         </div>
-      </div>
-    </section>
-  );
-}
-
-// Alternatif: Minimal liste versiyonu
-export function WhyThisProductList({ 
-  benefits = DEFAULT_BENEFITS, 
-  title = 'Neden Bu Ürün?' 
-}: WhyThisProductProps) {
-  const displayBenefits = benefits.length > 0 ? benefits : DEFAULT_BENEFITS;
-
-  return (
-    <section className="py-8">
-      <div className="container mx-auto px-4">
-        <h2 className="text-lg font-medium text-steel-900 mb-4">
-          {title}
-        </h2>
-        
-        <ul className="space-y-3">
-          {displayBenefits.map((benefit, index) => (
-            <li 
-              key={index}
-              className="flex items-start gap-3"
-            >
-              <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0" />
-              <div>
-                <span className="font-medium text-steel-800">{benefit.title}</span>
-                <span className="text-steel-500"> — </span>
-                <span className="text-steel-600">{benefit.description}</span>
-              </div>
-            </li>
-          ))}
-        </ul>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 /**
  * Veri Katmanı - Merkezi Export
- * 
+ *
  * Tüm veri erişimi bu dosya üzerinden yapılmalı
  */
 

@@ -1,42 +1,13 @@
-﻿import HeroSlider from '@/components/HeroSlider'
-import CategoryGrid from '@/components/CategoryGrid'
-import SheffieldSection from '@/components/SheffieldSection'
-import DurhamDuplexBadge from '@/components/DurhamDuplexBadge'
-import ConsultingSection from '@/components/ConsultingSection'
-import BestSellers from '@/components/BestSellers'
-import BlogSection from '@/components/BlogSection'
-import ValueProposition from '@/components/ValueProposition'
-import TrustLogos from '@/components/TrustLogos'
-import { siteConfig } from '@/lib/config'
+﻿import { permanentRedirect } from 'next/navigation'
+import { headers } from 'next/headers'
 
-export default function HomePage() {
-  return (
-    <>
-      <HeroSlider />
-      
-      {/* Trust Logos - Müşteri/Sertifika Logoları */}
-      <TrustLogos />
-      
-      {/* Value Proposition - Neden Alya? */}
-      <ValueProposition />
-      
-      {/* Kategoriler */}
-      <CategoryGrid />
-      
-      {/* Durham Duplex - Marka Ortaklığı */}
-      <DurhamDuplexBadge />
-      
-      {/* Sheffield Kalitesi */}
-      <SheffieldSection />
-      
-      {/* Blog/Bülten - Sadece aktifse göster */}
-      {siteConfig.features.enableBlog && <BlogSection />}
-      
-      {/* Danışmanlık */}
-      <ConsultingSection />
-      
-      {/* En Çok Satanlar */}
-      <BestSellers />
-    </>
-  )
+/**
+ * Root Page - Permanent Redirect to locale (308)
+ * Domain-aware: alyabicak.com → /tr, alyablade.com → /en
+ */
+export default async function RootPage() {
+  const headersList = await headers()
+  const host = headersList.get('host') || ''
+  const locale = host.includes('alyabicak.com') ? 'tr' : 'en'
+  permanentRedirect(`/${locale}`)
 }

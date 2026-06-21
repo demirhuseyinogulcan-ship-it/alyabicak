@@ -14,6 +14,8 @@ import { Search, X, ArrowRight, Clock, Package, Sparkles } from 'lucide-react'
 import { productService } from '@/lib/services'
 import { categoryService } from '@/lib/services'
 import { ProductCardView } from '@/lib/types'
+import { useLocale } from '@/lib/i18n/client'
+import { trackSearch, trackProductClick } from '@/lib/analytics'
 
 interface SearchModalProps {
   isOpen: boolean
@@ -36,6 +38,7 @@ const saveRecentSearch = (query: string) => {
 }
 
 export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
+  const { locale, dictionary: t } = useLocale()
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<ProductCardView[]>([])
   const [isSearching, setIsSearching] = useState(false)
@@ -70,11 +73,14 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     const timer = setTimeout(() => {
       if (query.trim().length >= 2) {
         setIsSearching(true)
-        const searchResults = productService.search(query)
-        const cardViews = searchResults.map(p => productService.toCardView(p))
+        const searchResults = productService.search(query, locale)
+        const cardViews = searchResults.map(p => productService.toCardView(p, locale))
         setResults(cardViews)
         setIsSearching(false)
         setSelectedIndex(0)
+
+        // Track search query in analytics
+        trackSearch(query.trim(), cardViews.length)
       } else {
         setResults([])
       }
@@ -103,7 +109,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         e.preventDefault()
         if (results[selectedIndex]) {
           saveRecentSearch(query)
-          window.location.href = `/urunler/${results[selectedIndex].slug}`
+          window.location.href = `/${locale}/products/${results[selectedIndex].slug}`
         }
         break
     }
@@ -129,15 +135,15 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   if (!isOpen) return null
 
   const modalContent = (
-    <div 
+    <div
       className="fixed inset-0 z-[100] flex items-start justify-center pt-[15vh] px-4"
       onClick={onClose}
     >
       {/* Backdrop */}
       <div className="absolute inset-0 bg-steel-900/60 backdrop-blur-sm" />
-      
+
       {/* Modal */}
-      <div 
+      <div
         className="relative w-full max-w-2xl bg-white rounded-2xl shadow-floating overflow-hidden"
         onClick={e => e.stopPropagation()}
       >
@@ -149,11 +155,11 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ürün, kategori veya kod ara..."
+            placeholder={t.searchModal.placeholder}
             className="flex-1 text-lg text-steel-900 placeholder:text-steel-400 outline-none bg-transparent"
           />
           {query && (
-            <button 
+            <button
               onClick={() => setQuery('')}
               className="p-1 text-steel-400 hover:text-steel-600 transition-colors"
             >
@@ -167,7 +173,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
 
         {/* Content */}
         <div className="max-h-[60vh] overflow-y-auto">
-          
+
           {/* Yükleniyor */}
           {isSearching && (
             <div className="flex items-center justify-center py-12">
@@ -179,19 +185,19 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
           {!isSearching && results.length > 0 && (
             <div ref={resultsRef} className="py-2">
               <div className="px-4 py-2 text-xs font-medium text-steel-400 uppercase tracking-wider">
-                {results.length} ürün bulundu
+                {results.length} {t.searchModal.resultsFound}
               </div>
               {results.map((product, index) => (
                 <Link
                   key={product.id}
-                  href={`/urunler/${product.slug}`}
+                  href={`/${locale}/products/${product.slug}`}
                   onClick={() => {
                     saveRecentSearch(query)
                     onClose()
                   }}
                   className={`flex items-center gap-4 px-4 py-3 transition-colors ${
-                    index === selectedIndex 
-                      ? 'bg-primary-50' 
+                    index === selectedIndex
+                      ? 'bg-primary-50'
                       : 'hover:bg-steel-50'
                   }`}
                 >
@@ -210,19 +216,13 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                       </div>
                     )}
                   </div>
-                  
+
                   {/* Ürün Bilgisi */}
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-xs px-2 py-0.5 bg-primary-100 text-primary-700 rounded-full font-medium">
                         {product.categoryName}
                       </span>
-                      {product.isFeatured && (
-                        <span className="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full font-medium flex items-center gap-1">
-                          <Sparkles className="w-3 h-3" />
-                          Öne Çıkan
-                        </span>
-                      )}
                     </div>
                     <h4 className="font-semibold text-steel-900 truncate">
                       {product.name}
@@ -230,11 +230,11 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                     <div className="flex items-center gap-2 text-sm text-steel-500">
                       <span>{product.code}</span>
                       {product.hasVariants && (
-                        <span>• {product.variantCount} varyant</span>
+                        <span>• {product.variantCount} {t.searchModal.variants}</span>
                       )}
                     </div>
                   </div>
-                  
+
                   {/* Arrow */}
                   <ArrowRight className={`w-5 h-5 flex-shrink-0 transition-colors ${
                     index === selectedIndex ? 'text-primary-600' : 'text-steel-300'
@@ -248,9 +248,9 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
           {!isSearching && query.length >= 2 && results.length === 0 && (
             <div className="py-12 text-center">
               <Package className="w-12 h-12 text-steel-300 mx-auto mb-3" />
-              <p className="text-steel-600 font-medium">Sonuç bulunamadı</p>
+              <p className="text-steel-600 font-medium">{t.searchModal.noResults}</p>
               <p className="text-sm text-steel-400 mt-1">
-                "{query}" için ürün bulunamadı. Farklı bir arama deneyin.
+                "{query}" {t.searchModal.noResultsFor}
               </p>
             </div>
           )}
@@ -263,7 +263,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 <div className="mb-6">
                   <div className="px-4 py-2 text-xs font-medium text-steel-400 uppercase tracking-wider flex items-center gap-2">
                     <Clock className="w-3.5 h-3.5" />
-                    Son Aramalar
+                    {t.searchModal.recentSearches}
                   </div>
                   <div className="flex flex-wrap gap-2 px-4">
                     {recentSearches.map((search, i) => (
@@ -282,13 +282,13 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
               {/* Hızlı Erişim */}
               <div>
                 <div className="px-4 py-2 text-xs font-medium text-steel-400 uppercase tracking-wider">
-                  Kategoriler
+                  {t.searchModal.categories}
                 </div>
                 <div className="grid grid-cols-2 gap-2 px-4">
-                  {categoryService.getAllCategoriesWithCounts().map(cat => (
+                  {categoryService.getAllCategoriesWithCounts(locale).map(cat => (
                     <Link
                       key={cat.id}
-                      href={`/kategoriler/${cat.slug}`}
+                      href={`/${locale}/categories/${cat.slug}`}
                       onClick={onClose}
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-steel-50 transition-colors"
                     >
@@ -297,7 +297,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                       </div>
                       <div>
                         <div className="font-medium text-steel-900 text-sm">{cat.name}</div>
-                        <div className="text-xs text-steel-400">{cat.totalProductCount} ürün</div>
+                        <div className="text-xs text-steel-400">{cat.totalProductCount} {t.searchModal.products}</div>
                       </div>
                     </Link>
                   ))}
@@ -313,14 +313,14 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             <span className="flex items-center gap-1">
               <kbd className="px-1.5 py-0.5 bg-white rounded border border-steel-200">↑</kbd>
               <kbd className="px-1.5 py-0.5 bg-white rounded border border-steel-200">↓</kbd>
-              gezinmek için
+              {t.searchModal.navigateHint}
             </span>
             <span className="flex items-center gap-1">
               <kbd className="px-1.5 py-0.5 bg-white rounded border border-steel-200">↵</kbd>
-              seçmek için
+              {t.searchModal.selectHint}
             </span>
           </div>
-          <span className="hidden sm:block">Alya Bıçak Arama</span>
+          <span className="hidden sm:block">{t.searchModal.searchTitle}</span>
         </div>
       </div>
     </div>

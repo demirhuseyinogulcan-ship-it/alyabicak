@@ -14,11 +14,11 @@ interface VideoBackgroundProps {
   overlayOpacity?: number
 }
 
-export default function VideoBackground({ 
-  videoSrc, 
-  posterSrc, 
+export default function VideoBackground({
+  videoSrc,
+  posterSrc,
   overlay = true,
-  overlayOpacity = 0.7 
+  overlayOpacity = 0.7
 }: VideoBackgroundProps) {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false)
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -29,7 +29,7 @@ export default function VideoBackground({
         setIsVideoLoaded(true)
       }
       videoRef.current.addEventListener('loadeddata', handleLoadedData)
-      
+
       // Cleanup
       return () => {
         if (videoRef.current) {
@@ -42,15 +42,15 @@ export default function VideoBackground({
   return (
     <div className="absolute inset-0 z-0">
       {/* Poster Image - Anında gösterilir */}
-      <div 
+      <div
         className="absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000"
-        style={{ 
+        style={{
           backgroundImage: `url(${posterSrc})`,
           opacity: isVideoLoaded ? 0 : 1,
           pointerEvents: isVideoLoaded ? 'none' : 'auto'
         }}
       />
-      
+
       {/* Video - Arka planda yüklenir, hazır olunca fade-in yapar */}
       <video
         ref={videoRef}
@@ -64,11 +64,11 @@ export default function VideoBackground({
       >
         <source src={videoSrc} type="video/mp4" />
       </video>
-      
+
       {/* Optional Overlay */}
       {overlay && (
-        <div 
-          className="absolute inset-0 bg-steel-900" 
+        <div
+          className="absolute inset-0 bg-steel-900"
           style={{ opacity: overlayOpacity / 100 }}
         />
       )}

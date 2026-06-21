@@ -1,13 +1,30 @@
 /**
  * 404 Not Found Page
- * Sayfa bulunamadığında gösterilen özel sayfa
+ * Global 404 - cookies'den locale okuyarak çok dilli destek
+ *
+ * Not: Bu sayfa Server Component olduğu için cookies() kullanıyoruz.
+ * Next.js App Router'da not-found.tsx özel bir dosya olduğundan
+ * [locale] klasörüne taşınamaz, bu yüzden burada cookie okuyoruz.
  */
 
 import Link from 'next/link'
-import { Home, Search, ArrowLeft } from 'lucide-react'
+import { cookies } from 'next/headers'
+import { Home, Search } from 'lucide-react'
 import { Button } from '@/components/ui'
+import { isLocale } from '@/lib/i18n/config'
+import { getDictionary } from '@/lib/i18n/dictionaries'
 
-export default function NotFound() {
+export default async function NotFound() {
+  // Cookie'den locale oku, yoksa default kullan
+  const cookieStore = await cookies()
+  const localeCookie = cookieStore.get('NEXT_LOCALE')?.value
+  const locale = (localeCookie && isLocale(localeCookie))
+    ? localeCookie
+    : 'tr' as const
+
+  const dict = await getDictionary(locale)
+  const t = dict.notFoundPage
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-steel-50 to-white">
       <div className="container mx-auto px-4">
@@ -28,52 +45,52 @@ export default function NotFound() {
 
           {/* Content */}
           <h1 className="text-3xl md:text-4xl font-bold text-steel-900 mb-4">
-            Sayfa Bulunamadı
+            {t.subtitle}
           </h1>
           <p className="text-lg text-steel-600 mb-8 max-w-md mx-auto">
-            Aradığınız sayfa taşınmış, silinmiş veya hiç var olmamış olabilir.
+            {t.description}
           </p>
 
           {/* Actions */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/" size="lg" icon={Home} iconPosition="left">
-              Ana Sayfaya Dön
+            <Button href={`/${locale}`} size="lg" icon={Home} iconPosition="left">
+              {t.backHome}
             </Button>
-            <Button href="/kategoriler" variant="outline" size="lg">
-              Ürünleri İncele
+            <Button href={`/${locale}/categories`} variant="outline" size="lg">
+              {t.browseProducts}
             </Button>
           </div>
 
           {/* Quick Links */}
           <div className="mt-12 pt-8 border-t border-steel-200">
-            <p className="text-sm text-steel-500 mb-4">Popüler Sayfalar</p>
+            <p className="text-sm text-steel-500 mb-4">{t.popularPages}</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link 
-                href="/kategoriler/sanayi-jiletleri" 
+              <Link
+                href={`/${locale}/categories/industrial-blades`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
-                Sanayi Jiletleri
+                {t.industrialBlades}
               </Link>
               <span className="text-steel-300">•</span>
-              <Link 
-                href="/kategoriler/makina-bicaklari" 
+              <Link
+                href={`/${locale}/categories/machine-knives`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
-                Makina Bıçakları
+                {t.machineKnives}
               </Link>
               <span className="text-steel-300">•</span>
-              <Link 
-                href="/danismanlik" 
+              <Link
+                href={`/${locale}/consulting`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
-                Danışmanlık
+                {t.consulting}
               </Link>
               <span className="text-steel-300">•</span>
-              <Link 
-                href="/iletisim" 
+              <Link
+                href={`/${locale}/contact`}
                 className="text-primary-600 hover:text-primary-700 font-medium"
               >
-                İletişim
+                {t.contact}
               </Link>
             </div>
           </div>

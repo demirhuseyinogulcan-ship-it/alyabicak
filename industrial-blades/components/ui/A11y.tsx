@@ -18,9 +18,9 @@ export interface SkipLinkProps {
  * Skip to main content link
  * Klavye kullanıcıları için navigasyonu atlama
  */
-export function SkipLink({ 
-  href = '#main-content', 
-  children = 'Ana içeriğe geç' 
+export function SkipLink({
+  href = '#main-content',
+  children = 'Ana içeriğe geç'
 }: SkipLinkProps) {
   return (
     <a
@@ -73,8 +73,8 @@ export interface LiveRegionProps {
  * ARIA Live Region
  * Dinamik içerik değişikliklerini screen reader'a duyurur
  */
-export function LiveRegion({ 
-  children, 
+export function LiveRegion({
+  children,
   mode = 'polite',
   atomic = true,
 }: LiveRegionProps) {
@@ -104,7 +104,7 @@ export interface FocusTrapProps {
  */
 export function FocusTrap({ children, active = true }: FocusTrapProps) {
   if (!active) return <>{children}</>
-  
+
   return (
     <div
       role="dialog"

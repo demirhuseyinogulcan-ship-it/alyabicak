@@ -57,17 +57,20 @@ export interface ProductSpecifications {
 /** Ana ürün */
 export interface Product extends BaseEntity, DisplayInfo {
   code: string;             // Ürün kodu (görüntüleme için)
+  slugEN?: string;          // English slug for non-TR locales (SEO)
   categoryId: string;       // Ana kategori ID
-  subcategoryId: string;    // Alt kategori ID
+  subcategoryId?: string;   // Alt kategori ID (opsiyonel - bazı ürünler doğrudan kategoride)
   brandId?: string;         // Marka ID (Durham Duplex, OLFA vb.)
-  
+
   variants: ProductVariant[];
   specifications: ProductSpecifications;
-  
+
+  images?: string[];        // Ürün galeri görselleri (opsiyonel)
   features?: string[];      // Öne çıkan özellikler
   applications?: string[];  // Kullanım alanları
   certifications?: string[]; // ISO, FDA vb.
-  
+  availableSizes?: string[]; // Mevcut ölçüler (SEO için: 43x22x0.10mm, 43x22x0.15mm vb.)
+
   isFeatured: boolean;
   isActive: boolean;
   order?: number;
@@ -83,6 +86,7 @@ export interface SubCategory extends BaseEntity, DisplayInfo {
   icon?: string;            // Lucide icon name
   order: number;
   isActive: boolean;
+  seoKeywords?: string[];   // SEO anahtar kelimeleri (opsiyonel)
 }
 
 /** Ana kategori */
@@ -127,6 +131,7 @@ export interface HeroSlide {
   subtitle?: string;
   description: string;
   image: string;
+  imageAlt?: string; // SEO için görsel açıklaması
   ctaText?: string;
   ctaLink?: string;
   order: number;
@@ -156,6 +161,7 @@ export interface ProductCardView {
   name: string;
   code: string;
   image?: string;
+  images?: string[];        // Ürün galeri görselleri (opsiyonel)
   categoryName: string;
   subcategoryName: string;
   brandName?: string;
@@ -168,7 +174,7 @@ export interface ProductCardView {
 /** Ürün detay görünümü - Tam veri */
 export interface ProductDetailView extends Product {
   category: Category;
-  subcategory: SubCategory;
+  subcategory?: SubCategory;  // Opsiyonel - bazı ürünler doğrudan kategoride
   brand?: Brand;
   relatedProducts: ProductCardView[];
 }

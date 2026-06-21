@@ -1,0 +1,152 @@
+{
+  "locale": "tr",
+  "categories": {
+    "arizagiderme": "Arıza Giderme & Performans",
+    "celik": "Çelik Türleri & Teknik Bilgi",
+    "kaplama": "Kaplama & Yüzey İşlemleri",
+    "teknik": "Teknik Spesifikasyonlar",
+    "ozelUretim": "Özel Üretim & Hizmetler",
+    "siparis": "Sipariş & Teslimat",
+    "genel": "Genel Bilgiler"
+  },
+  "questions": [
+    {
+      "id": "bicak-cok-cabuk-koreliyor",
+      "question": "Bıçaklarımız çok çabuk köreliyor, ne yapmalıyız?",
+      "answer": "Hızlı körelmenin birkaç nedeni olabilir: 1) Malzeme uyumsuzluğu - kesilen malzeme bıçak çeliğinden sert olabilir (cam elyaf, metal iplik). Bu durumda tungsten karbür veya seramik kaplamalı bıçak gerekir. 2) Yanlış açı - çok ince açı (under 20°) kırılganlık yaratır, kalın malzemelerde 25-30° ideal. 3) Isı birikimi - yüksek hızda sürtünme çeliği yumuşatır. Soğutma sistemi veya daha düşük hız düşünün. 4) Çelik kalitesi - düşük karbonlu çelik dayanıksızdır. D2 veya HSS çeliğe geçiş ömrü 3-5 kat uzatır.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "kesim-yuzeyi-puruzlu",
+      "question": "Kesim yüzeyi pürüzlü çıkıyor, temiz kesim alamıyoruz",
+      "answer": "Pürüzlü kesimin ana nedenleri: 1) Körelmiş bıçak - mikroskobik çapaklar oluşmuş demektir, değişim zamanı. 2) Yanlış bıçak geometrisi - dalgalı kenar düz kesim için uygun değil, düz kenarlı bıçak kullanın. 3) Titreşim - makine ayarsız veya bıçak gevşek takılmış. Sıkma torklarını kontrol edin. 4) Malzeme kayması - kesim anında malzeme hareket ediyor. Baskı ayarını artırın veya vakumlu tabla kullanın. 5) Hız uyumsuzluğu - çok hızlı kesim erir, çok yavaş yırtar.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "bicak-cok-cabuk-kiriliyor",
+      "question": "Bıçaklarımız çok çabuk kırılıyor, neden?",
+      "answer": "Kırılma genellikle aşırı sertlik veya yanlış kullanımdan kaynaklanır: 1) Çelik seçimi - 62+ HRC sertlikteki çelikler kırılgandır. Darbe olan uygulamalarda 58-60 HRC yeterli. 2) Açı hatası - çok dar açı (15° altı) kırılmaya davetiye çıkarır. 3) Yan kuvvetler - bıçak sadece dikey kuvvete dayanıklıdır, yanal baskı kırar. Kesim geometrisini gözden geçirin. 4) Malzeme sertliği - bıçaktan sert malzeme keserken (metal, taş) kırılma kaçınılmaz. Tungsten karbür gerekli. 5) Termal şok - çok sıcak bıçağı soğuk suyla soğutmak çatlatır.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "kesim-hizi-dustu",
+      "question": "Üretim hızımız düştü, bıçaklar mı sorunlu?",
+      "answer": "Verimlilik kaybının bıçakla ilgili nedenleri: 1) Körelme - görsel olarak fark edilmese bile mikroskobik düzeyde körelme başlamıştır. Kesim gücü artmış = motor zorlanıyor = hız düşüyor. 2) Yanlış profil - düz bıçakla yuvarlak kesim yapmak verimsizdir. Uygulamaya özel profil seçin. 3) Bıçak değişim sıklığı - 'kırılana kadar kullan' politikası maliyetli. Planlı değişim hem kaliteyi hem hızı korur. Kesim başına maliyet analizi yapmanızı öneririz - çoğu durumda kaliteli bıçak toplam maliyeti düşürür.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "bicak-makinaya-uymuyor",
+      "question": "Aldığımız bıçak makinemize uymuyor",
+      "answer": "Uyumsuzluk sorunları için: 1) Ölçü toleransı - endüstriyel bıçaklarda ±0.05mm tolerans kritiktir. Orijinal bıçağın tam ölçülerini (uzunluk, genişlik, kalınlık, delik çapı, delik merkez mesafesi) bize iletin. 2) Bağlantı tipi - tek delik, çift delik, kanal, mengene tipi farklıdır. 3) Marka farklılıkları - bazı makine üreticileri özel ölçü kullanır. Makine marka/model bilgisiyle beraber numune gönderirseniz birebir üretim yapabiliriz. 4) Aşınmış yuva - eski makinelerde bıçak yuvası aşınmış olabilir, makine bakımı gerekebilir.",
+      "category": "arizagiderme"
+    },
+    {
+      "id": "d2-hss-farki",
+      "question": "D2 çelik ile HSS çelik arasındaki fark nedir?",
+      "answer": "D2 ve HSS farklı amaçlar için optimize edilmiş çeliklerdir. D2 (1.2379): Yüksek krom (%12), yüksek aşınma direnci, 60-62 HRC sertlik. Soğuk kesim, kağıt/karton, plastik için ideal. Dezavantajı: Darbelere karşı kırılgan. HSS (Yüksek Hız Çeliği - M2, M42): Kobalt ve tungsten alaşımlı, ısıya dayanıklı (600°C'ye kadar sertliğini korur). Metal kesim, yüksek hızlı uygulamalar için. D2'den pahalı ama ısılı ortamlarda vazgeçilmez. Basit kural: Soğuk kesim = D2, sıcak/hızlı kesim = HSS.",
+      "category": "celik"
+    },
+    {
+      "id": "tungsten-karbur-ne-zaman",
+      "question": "Tungsten karbür bıçak ne zaman gerekli?",
+      "answer": "Tungsten karbür (TC) aşırı aşındırıcı malzemeler için şarttır: 1) Cam elyaf takviyeli plastikler (GRP/FRP) 2) Karbon fiber kompozitler 3) Seramik kaplamalar 4) Aşındırıcı katkılı kauçuklar 5) Metal dolgulu malzemeler. TC, çelikten 3-4 kat sert (1400+ HV) ama kırılgandır - sadece düz kesim hareketlerinde kullanın. Maliyet yüksek olsa da bu malzemelerde çelik bıçak dakikalar içinde biter, TC aylarca dayanır. ROI hesabı yapmadan 'pahalı' demeyin.",
+      "category": "celik"
+    },
+    {
+      "id": "paslanmaz-celik-avantaj",
+      "question": "Paslanmaz çelik bıçak avantajı nedir?",
+      "answer": "Paslanmaz çelik (AISI 420, 440C) %13+ krom içerir ve korozyona dirençlidir. Kullanım alanları: 1) Gıda sektörü - FDA/EC1935 uyumlu, hijyenik 2) Nemli ortamlar - su bazlı kesim, açık hava 3) Kimyasal temas - asidik/bazik malzemeler. Dezavantajı: Aynı sertlikte karbonlu çelikten daha hızlı körelir. 440C yeterli sertlik (58-60 HRC) sağlar ama D2 kadar keskin tutulamaz. Gıda/nem yoksa karbonlu çelik tercih edin.",
+      "category": "celik"
+    },
+    {
+      "id": "bicak-sertligi-hrc",
+      "question": "Bıçak sertliği (HRC) ne anlama gelir?",
+      "answer": "HRC (Rockwell C) çelik sertliğinin ölçü birimidir. Endüstriyel bıçaklarda: 55-58 HRC: Darbe dayanımı yüksek, esnek. Giyotin bıçakları, kalın metal kesim. 58-60 HRC: Dengeli. Çoğu genel amaçlı uygulama. 60-62 HRC: Keskinlik tutma yüksek. Kağıt, film, ince kesimler. 62+ HRC: Ultra sert ama kırılgan. Sadece kontrollü ortamlar. Yüksek HRC = daha uzun keskinlik ama kırılganlık riski. Uygulamanıza göre doğru dengeyi seçin.",
+      "category": "celik"
+    },
+    {
+      "id": "sheffield-celigi-farki",
+      "question": "Sheffield çeliğinin farkı nedir?",
+      "answer": "Sheffield, İngiltere 700+ yıllık çelik üretim geleneğine sahiptir. Sheffield çeliğinin özellikleri: 1) Yüksek saflık - düşük kükürt/fosfor oranı, homojen yapı 2) Kontrollü ısıl işlem - hassas sertlik dağılımı 3) İnce tane yapısı - daha keskin ve dayanıklı kenar. İngiliz çeliği özellikle jilet tipi ince kesicilerde fark yaratır. Durham Duplex gibi köklü üreticiler bu gelenekten yararlanır. Ucuz Uzak Doğu çeliğinde lot farklılıkları, tutarsız sertlik sık görülür.",
+      "category": "celik"
+    },
+    {
+      "id": "titanyum-kaplama-avantaj",
+      "question": "Titanyum nitrür (TiN) kaplama ne işe yarar?",
+      "answer": "TiN kaplama (altın sarısı renk) bıçak yüzeyine ince seramik tabaka ekler: 1) Sertlik artışı - yüzey sertliği 2300 HV'ye çıkar (çelik 800 HV) 2) Sürtünme azalması - malzeme yapışması önlenir 3) Aşınma direnci - ömür 2-5 kat artar. Dezavantajları: Kaplama aşındığında tekrar kaplanamaz. Bileme gerektiğinde kaplama gider. Yüksek hacimli, bıçak değiştirmeli uygulamalarda idealdir. Bilemeli kullanımda maliyet etkin değil.",
+      "category": "kaplama"
+    },
+    {
+      "id": "dlc-kaplama-ne-zaman",
+      "question": "DLC (Diamond-Like Carbon) kaplama ne zaman tercih edilir?",
+      "answer": "DLC, elmasa yakın sertlikte (3000+ HV) karbon kaplamadır. Kullanım alanları: 1) Yapışkan malzemeler - silikon, kauçuk, etiket kesiminde yapışmayı önler 2) Ultra temiz kesim - gıda, medikal, elektronik 3) Düşük sürtünme gerektiren uygulamalar. TiN'den pahalı ama yapışkan malzemelerde vazgeçilmez. Siyah rengiyle estetik de sağlar. Özellikle bantlı, etiketli malzeme kesiminde bıçak üzerinde kalıntı bırakmaz.",
+      "category": "kaplama"
+    },
+    {
+      "id": "kaplama-vs-kaplamasiz",
+      "question": "Kaplamalı mı kaplamasız bıçak mı tercih etmeliyim?",
+      "answer": "Karar kriterleri: KAPLAMALI tercih edin: Yüksek adet üretim, bıçak değişimi zor, yapışkan malzeme, aşındırıcı ortam. KAPLAMASIZ tercih edin: Düşük hacim, sık bileme yapılıyor, maliyet kritik, temiz malzeme kesimi. Kaplama maliyeti bıçak fiyatını %30-100 artırır. Ama doğru uygulamada değişim sayısını yarıya indirerek toplam maliyeti düşürür. Emin değilseniz önce kaplamasız deneyin, performans yetersizse kaplamalıya geçin.",
+      "category": "kaplama"
+    },
+    {
+      "id": "tolerans-neden-onemli",
+      "question": "Bıçak toleransı neden önemli?",
+      "answer": "Tolerans, belirtilen ölçüden sapma aralığıdır. Örnek: 100mm ±0.05mm = 99.95-100.05mm kabul edilir. Neden kritik: 1) Makine uyumu - gevşek bıçak titrer, sıkı bıçak takmak imkansız 2) Kesim kalitesi - eşit olmayan bıçak kalınlığı dalgalı kesim yapar 3) Güvenlik - aşırı tolerans kazaya davetiye. Kaliteli üreticiler ±0.02-0.05mm tutturur. Ucuz bıçaklarda ±0.2mm tolerans 'normal' kabul edilir ki bu 10 kat fazla sapmadır.",
+      "category": "teknik"
+    },
+    {
+      "id": "kesim-acisi-secimi",
+      "question": "Doğru kesim açısı nasıl seçilir?",
+      "answer": "Kesim açısı malzeme ve uygulamaya göre değişir: 15-20°: Çok keskin, yumuşak malzemeler (kağıt, film). Kırılgan. 20-25°: Dengeli, çoğu tekstil ve plastik için ideal. 25-30°: Dayanıklı, kalın/sert malzemeler, darbe olan kesimler. 30-40°: Çok dayanıklı, metal kesim, ağır hizmet. Tek taraflı (chisel) vs çift taraflı (V-edge): Tek taraf hassas kesim için, çift taraf genel amaçlı. Emin değilseniz 22-25° çift taraflı ile başlayın.",
+      "category": "teknik"
+    },
+    {
+      "id": "bicak-olculeri-standart",
+      "question": "Endüstriyel bıçak ölçüleri standart mı?",
+      "answer": "Kısmen. Bazı kategorilerde standartlar var: Trapez jilet: 61mm x 19mm (evrensel) Tek taraflı jilet: Standart #9 (38mm) ve #12 (44mm). Maket bıçağı: 9mm, 18mm, 25mm genişlik standart. Ancak makine bıçakları çoğunlukla makine üreticisine özeldir. Her marka kendi ölçülerini kullanır. Bu yüzden sipariş verirken daima mevcut bıçağınızın ölçülerini veya makine marka/modelini belirtin. Numune göndermek en garantili yöntem.",
+      "category": "teknik"
+    },
+    {
+      "id": "ozel-bicak-uretimi",
+      "question": "Özel ölçü/profil bıçak üretebiliyor musunuz?",
+      "answer": "Evet. İstanbul'daki tesisimizde CNC hassasiyetinde özel üretim yapıyoruz: 1) Teknik çizim veya numune gönderin 2) Malzeme ve kaplama seçeneklerini tartışalım 3) Prototip üretimi (1-2 hafta) 4) Onay sonrası seri üretime geçiş. Minimum sipariş: Prototip için adet sınırı yok. Seri üretimde maliyete göre belirlenir. Özel profiller: Dairesel, dalgalı, çentikli, delikli, her geometri mümkün. Kritik olan tolerans ve malzeme spesifikasyonlarının net olması.",
+      "category": "ozelUretim"
+    },
+    {
+      "id": "teknik-destek",
+      "question": "Teknik danışmanlık hizmeti veriyor musunuz?",
+      "answer": "Evet, ücretsiz teknik destek sağlıyoruz: 1) Doğru bıçak seçimi - uygulamanıza en uygun çelik, kaplama, geometri 2) Problem çözme - mevcut kesim sorunlarınızı analiz ediyoruz 3) Maliyet optimizasyonu - kesim başına maliyet analizi 4) Numune testi - yeni bıçakları üretiminizde deneme imkanı. İletişim kanalları: Telefon, WhatsApp, e-posta. Gerekirse yerinde ziyaret de yapıyoruz (İstanbul ve çevre iller). Satış baskısı yapmadan, doğru çözümü bulmaya odaklanıyoruz.",
+      "category": "ozelUretim"
+    },
+    {
+      "id": "minimum-siparis",
+      "question": "Minimum sipariş miktarı nedir?",
+      "answer": "Standart stok ürünlerimizde (jiletler) paket içi adetler geçerlidir (genellikle 10'lu, 100'lü veya 250'li kutular). Özel üretim makine bıçaklarında ise adet sayısı önemlidir. Yüksek adetli üretimlerde maliyet düşeceği için düşük adetli üretimlere göre daha avantajlı fiyatlandırma sunuyoruz.",
+      "category": "siparis"
+    },
+    {
+      "id": "teslimat-suresi",
+      "question": "Teslimat ne kadar sürer?",
+      "answer": "Stok durumuna göre: Stokta olan standart ürünler: Aynı gün kargo, 1-3 iş günü teslimat (yurt içi). Yurt dışı: Ülkeye göre 5-15 iş günü. Özel üretimlerde 6-8 hafta civarı.",
+      "category": "siparis"
+    },
+    {
+      "id": "yurt-disi-satis",
+      "question": "Yurt dışına satış yapıyor musunuz?",
+      "answer": "Evet, 35'ten fazla ülkeye ihracat yapıyoruz. Orta Doğu, Avrupa, Afrika ve Asya'daki müşterilerimize düzenli sevkiyat gerçekleştiriyoruz.",
+      "category": "siparis"
+    },
+    {
+      "id": "alya-kimdir",
+      "question": "Alya Bıçak kimdir?",
+      "answer": "Alya, 30+ yıllık deneyimle endüstriyel kesici tedariği yapan İstanbul merkezli bir firmadır. Tekstil makineleri yedek parça üretimi ve endüstriyel bıçak tedarikinde uzmanız. Durham Duplex'in (Sheffield, İngiltere - 1910'dan beri) Türkiye ve çevre bölgelerinin yetkili distribütörüyüz. 35'ten fazla ülkeye ihracat yapıyoruz. Farkımız: Sadece satış değil, teknik çözüm ortağıyız. Uygulamanıza en uygun bıçağı seçmenize yardımcı oluyoruz.",
+      "category": "genel"
+    },
+    {
+      "id": "alya-farki",
+      "question": "Alya'nın diğer tedarikçilerden farkı nedir?",
+      "answer": "30 yıllık sektör deneyimimizle sadece ürün satmıyoruz, teknik çözüm ortağınız oluyoruz. Prosesinizi anlıyor, doğru çelik ve kaplamayı öneriyoruz. Dürüst yaklaşımımızla, basit bir iş için pahalı çözüm önermeyiz. Kaliteli bıçağı Türkiye'de erişilebilir kılıyoruz.",
+      "category": "genel"
+    }
+  ]
+}

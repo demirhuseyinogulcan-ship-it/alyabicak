@@ -17,6 +17,7 @@ export interface BreadcrumbProps {
   separator?: 'chevron' | 'slash'
   className?: string
   variant?: 'default' | 'light'
+  homeLabel?: string
 }
 
 export default function Breadcrumb({
@@ -25,15 +26,16 @@ export default function Breadcrumb({
   separator = 'chevron',
   className = '',
   variant = 'default',
+  homeLabel = 'Home',
 }: BreadcrumbProps) {
-  const allItems: BreadcrumbItem[] = showHome 
-    ? [{ label: 'Ana Sayfa', href: '/' }, ...items]
+  const allItems: BreadcrumbItem[] = showHome
+    ? [{ label: homeLabel, href: '/' }, ...items]
     : items
 
-  const textColor = variant === 'light' 
-    ? 'text-white/70 hover:text-white' 
+  const textColor = variant === 'light'
+    ? 'text-white/70 hover:text-white'
     : 'text-steel-500 hover:text-steel-900'
-  
+
   const activeColor = variant === 'light'
     ? 'text-white'
     : 'text-steel-900'
@@ -43,8 +45,8 @@ export default function Breadcrumb({
     : 'text-steel-400'
 
   return (
-    <nav 
-      aria-label="Breadcrumb" 
+    <nav
+      aria-label="Breadcrumb"
       className={`flex items-center flex-wrap gap-1 text-sm ${className}`}
     >
       {allItems.map((item, index) => {
@@ -75,8 +77,8 @@ export default function Breadcrumb({
                 )}
               </span>
             ) : (
-              <Link 
-                href={item.href} 
+              <Link
+                href={item.href}
                 className={`transition-colors ${textColor}`}
               >
                 {isFirst && showHome ? (
@@ -97,9 +99,9 @@ export default function Breadcrumb({
 }
 
 // Schema.org BreadcrumbList için JSON-LD oluşturucu
-export function generateBreadcrumbSchema(items: BreadcrumbItem[], baseUrl: string) {
-  const allItems = [{ label: 'Ana Sayfa', href: '/' }, ...items]
-  
+export function generateBreadcrumbSchema(items: BreadcrumbItem[], baseUrl: string, homeLabel: string = 'Home') {
+  const allItems = [{ label: homeLabel, href: '/' }, ...items]
+
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',

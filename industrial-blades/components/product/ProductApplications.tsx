@@ -1,19 +1,41 @@
 'use client';
 
-import { 
-  Factory, 
-  Warehouse, 
-  Package, 
-  Wrench, 
+import {
+  Factory,
+  Warehouse,
+  Package,
+  Wrench,
   Scissors,
   Truck,
   ShoppingBag,
   Printer,
   Beef,
   Recycle,
-  type LucideIcon 
+  FileText,
+  Film,
+  Flame,
+  Droplets,
+  Sparkles,
+  Tag,
+  Cpu,
+  Heart,
+  Battery,
+  UtensilsCrossed,
+  Layers,
+  Shield,
+  Zap,
+  Wind,
+  Target,
+  Box,
+  Utensils,
+  RotateCw,
+  Fish,
+  Newspaper,
+  RefreshCw,
+  type LucideIcon
 } from 'lucide-react';
 import type { ProductApplication } from '@/lib/types/product.types';
+import { useLocale } from '@/lib/i18n/client';
 
 // Icon mapping
 const iconMap: Record<string, LucideIcon> = {
@@ -27,6 +49,27 @@ const iconMap: Record<string, LucideIcon> = {
   Printer,
   Beef,
   Recycle,
+  FileText,
+  Film,
+  Flame,
+  Droplets,
+  Sparkles,
+  Tag,
+  Cpu,
+  Heart,
+  Battery,
+  UtensilsCrossed,
+  Layers,
+  Shield,
+  Zap,
+  Wind,
+  Target,
+  Box,
+  Utensils,
+  RotateCw,
+  Fish,
+  Newspaper,
+  RefreshCw,
 };
 
 interface ProductApplicationsProps {
@@ -34,10 +77,13 @@ interface ProductApplicationsProps {
   title?: string;
 }
 
-export function ProductApplications({ 
-  applications, 
-  title = 'Kullanım Alanları' 
+export function ProductApplications({
+  applications,
+  title
 }: ProductApplicationsProps) {
+  const { dictionary: t } = useLocale();
+  const displayTitle = title || t.productDetail.applications;
+
   if (!applications || applications.length === 0) return null;
 
   return (
@@ -45,14 +91,14 @@ export function ProductApplications({
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <h2 className="text-xl font-semibold text-steel-900 mb-6">
-          {title}
+          {displayTitle}
         </h2>
-        
+
         {/* Application Tags */}
         <div className="flex flex-wrap gap-3">
           {applications.map((app, index) => {
-            const IconComponent = app.icon ? iconMap[app.icon] : null;
-            
+            const IconComponent = app.icon ? (iconMap[app.icon] || null) : null;
+
             return (
               <div
                 key={index}
@@ -69,13 +115,13 @@ export function ProductApplications({
             );
           })}
         </div>
-        
+
         {/* Açıklamalı versiyon (eğer description varsa) */}
         {applications.some(app => app.description) && (
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {applications.filter(app => app.description).map((app, index) => {
-              const IconComponent = app.icon ? iconMap[app.icon] : null;
-              
+              const IconComponent = app.icon ? (iconMap[app.icon] || null) : null;
+
               return (
                 <div
                   key={index}

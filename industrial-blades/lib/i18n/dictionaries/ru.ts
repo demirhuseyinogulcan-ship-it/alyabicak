@@ -1,0 +1,693 @@
+/**
+ * Russian Translation File
+ * Rusça Çeviri Dosyası
+ */
+
+const ru = {
+  // Meta & SEO
+  meta: {
+    title: 'Промышленные Лезвия | Премиум Машинные Ножи | Alya Blade',
+    description: 'Поставщик промышленных лезвий премиум-качества. Продольные лезвия, машинные ножи, защитные резаки, сменные лезвия. Одобрено FDA/USDA. 30+ лет опыта. Доставка по всему миру.',
+    keywords: 'промышленные лезвия, продольные лезвия, машинные ножи, защитные резаки, трапецевидные лезвия, твердосплавные лезвия, титановое покрытие, лезвия OLFA, лезвия для переработки, лезвия FDA, нержавеющая сталь, углеродистая сталь, гранулятор, упаковка',
+  },
+
+  // Navigation
+  nav: {
+    home: 'Главная',
+    products: 'Продукция',
+    categories: 'Категории',
+    industrialCutters: 'Промышленные Лезвия',
+    qualityStandards: 'Стандарты Качества',
+    blog: 'Блог',
+    consulting: 'Консалтинг',
+    faq: 'FAQ',
+    about: 'О Нас',
+    contact: 'Контакты',
+    catalog: 'э-Каталог',
+    search: 'Поиск',
+    allCategories: 'Все Категории',
+    viewAll: 'Смотреть Все',
+    moreItems: 'ещё',
+    viewAllCategories: 'Все Категории →',
+    viewAllProducts: 'Все продукты {{category}}',
+    whatsappContact: 'Связаться через WhatsApp',
+    selectLanguage: 'Выбрать язык',
+    searchPlaceholder: 'Поиск продукции...',
+  },
+
+  // Common
+  common: {
+    learnMore: 'Подробнее',
+    viewDetails: 'Детали',
+    requestQuote: 'Запросить Цену',
+    contact: 'Контакты',
+    whatsapp: 'Написать в WhatsApp',
+    phone: 'Телефон',
+    email: 'Email',
+    address: 'Адрес',
+    loading: 'Загрузка...',
+    error: 'Произошла ошибка',
+    notFound: 'Страница Не Найдена',
+    backToHome: 'На Главную',
+    previous: 'Предыдущий',
+    next: 'Следующий',
+    close: 'Закрыть',
+    open: 'Открыть',
+    yes: 'Да',
+    no: 'Нет',
+    save: 'Сохранить',
+    cancel: 'Отмена',
+    submit: 'Отправить',
+    search: 'Поиск',
+    filter: 'Фильтр',
+    sort: 'Сортировка',
+    all: 'Все',
+    inStock: 'В наличии',
+    outOfStock: 'Нет в наличии',
+    new: 'Новинка',
+    featured: 'Рекомендуемые',
+    products: 'продукты',
+    subcategories: 'подкатегории',
+  },
+
+  // Hero Section
+  hero: {
+    title: 'Промышленные Режущие Решения',
+    subtitle: 'Профессиональные промышленные лезвия',
+    cta: 'Смотреть Продукцию',
+    ctaSecondary: 'Получить Предложение',
+  },
+
+  // Categories
+  categories: {
+    title: 'Категории Продукции',
+    subtitle: 'Высококачественные промышленные режущие лезвия, разработанные специально для каждой отрасли',
+    industrialBlades: 'Промышленные Лезвия',
+    machineBlades: 'Машинные Ножи',
+    safetyKnives: 'Защитные и Универсальные Ножи',
+    viewCategory: 'Смотреть Категорию',
+    subcategories: 'Подкатегории',
+    productsInCategory: 'Товары в категории',
+    subcategoryMetaTitle: '{{name}} | {{count}} Видов | {{brand}}',
+    subcategoryMetaDesc: '{{description}} {{count}} моделей в наличии. Углеродистая сталь, нержавеющая сталь и карбид вольфрама. Премиум качество.',
+  },
+
+  // Products
+  products: {
+    title: 'Продукция',
+    specifications: 'Технические Характеристики',
+    material: 'Материал',
+    hardness: 'Твёрдость',
+    coating: 'Покрытие',
+    thickness: 'Толщина',
+    dimensions: 'Размеры',
+    origin: 'Происхождение',
+    brand: 'Бренд',
+    code: 'Артикул',
+    features: 'Характеристики',
+    applications: 'Применение',
+    relatedProducts: 'Сопутствующие Товары',
+    whyThisProduct: 'Почему Этот Продукт?',
+    requestInfo: 'Запросить Информацию',
+    addToInquiry: 'Добавить в Запрос',
+    downloadDatasheet: 'Скачать Спецификацию',
+  },
+
+  // About
+  about: {
+    title: 'О Нас',
+    subtitle: 'Ведущий турецкий поставщик промышленных лезвий',
+    yearsExperience: 'Лет Опыта',
+    exportCountries: 'Стран Экспорта',
+    satisfiedCustomers: 'Довольных Клиентов',
+    productVariety: 'Видов Продукции',
+    ourStory: 'Наша История',
+    ourMission: 'Наша Миссия',
+    ourVision: 'Наше Видение',
+    ourValues: 'Наши Ценности',
+    quality: 'Качество',
+    reliability: 'Надёжность',
+    innovation: 'Инновации',
+    customerFocus: 'Клиентоориентированность',
+    credentialsBar: {
+      founded: 'Основана',
+      countries: '35 Стран',
+      export: 'Экспорт',
+      sameDay: 'В тот же день',
+      shipping: 'Доставка',
+      customers: 'Клиенты',
+      products: 'Продукция',
+    },
+  },
+
+  // Contact
+  contact: {
+    title: 'Контакты',
+    subtitle: 'Свяжитесь с нами по любым вопросам',
+    emailSubjectGeneral: 'Запрос информации',
+    form: {
+      name: 'Ваше Имя',
+      email: 'Ваш Email',
+      phone: 'Ваш Телефон',
+      company: 'Название Компании',
+      subject: 'Тема',
+      message: 'Ваше Сообщение',
+      send: 'Отправить Сообщение',
+      sending: 'Отправка...',
+      success: 'Ваше сообщение успешно отправлено!',
+      error: 'Не удалось отправить сообщение. Пожалуйста, попробуйте снова.',
+    },
+    info: {
+      title: 'Контактная Информация',
+      addressTitle: 'Адрес',
+      phoneTitle: 'Телефон',
+      emailTitle: 'Email',
+      workingHours: 'Рабочее Время',
+      workingHoursValue: 'Понедельник - Пятница: 08:30 - 18:00',
+    },
+  },
+
+  // Blog
+  blog: {
+    title: 'Блог',
+    subtitle: 'Последние новости, руководства и технические статьи о промышленных резаках',
+    readMore: 'Читать Далее',
+    viewAll: 'Смотреть Все Статьи',
+    readTime: 'мин чтения',
+    author: {
+      name: 'Alya Blade',
+      title: 'Редактор',
+    },
+    categories: {
+      all: 'Все',
+      sectorNews: 'Новости Отрасли',
+      productGuides: 'Руководства по Продукции',
+      technicalArticles: 'Технические Статьи',
+      fairsEvents: 'Выставки и Мероприятия',
+      companyNews: 'Новости Компании',
+    },
+    featured: 'Рекомендуемые',
+    latestPosts: 'Последние Публикации',
+    relatedPosts: 'Похожие Публикации',
+    noPostsYet: 'Пока нет опубликованных статей.',
+    comingSoon: 'Скоро мы поделимся полезным контентом о промышленных резаках.',
+    sidebarCtaTitle: 'Есть вопросы?',
+    sidebarCtaText: 'Мы рады помочь вам с техническими вопросами.',
+    sidebarCtaButton: 'Связаться с нами',
+    share: 'Поделиться:',
+    shareOnTwitter: 'Поделиться в Twitter',
+    shareOnLinkedIn: 'Поделиться в LinkedIn',
+    shareOnWhatsApp: 'Поделиться в WhatsApp',
+  },
+
+  // Consulting
+  consulting: {
+    title: 'Консалтинг',
+    subtitle: 'Профессиональная поддержка в выборе промышленных резаков',
+    services: 'Наши Услуги',
+    process: 'Процесс',
+    cta: 'Получить Бесплатную Консультацию',
+  },
+
+  // Footer
+  footer: {
+    company: 'Компания',
+    quickLinks: 'Быстрые Ссылки',
+    categories: 'Категории',
+    contact: 'Контакты',
+    newsletter: 'Рассылка',
+    newsletterText: 'Будьте в курсе наших последних новостей',
+    subscribe: 'Подписаться',
+    rights: 'Все права защищены.',
+    privacy: 'Политика Конфиденциальности',
+    cookies: 'Политика Cookie',
+    terms: 'Условия Использования',
+    companyDescription: 'Обслуживаем лидеров отрасли в области промышленных лезвий и ножей для машин уже более {{years}} лет.',
+  },
+
+  // Cookie Consent
+  cookies: {
+    title: 'Использование Cookie',
+    message: 'Этот сайт использует cookie для улучшения вашего опыта.',
+    accept: 'Принять',
+    decline: 'Отклонить',
+    learnMore: 'Подробнее',
+  },
+
+  // 404 Page
+  notFoundPage: {
+    title: '404',
+    subtitle: 'Страница Не Найдена',
+    description: 'Страница, которую вы ищете, возможно, была перемещена, удалена или никогда не существовала.',
+    backHome: 'На Главную',
+    browseProducts: 'Смотреть Продукцию',
+    popularPages: 'Популярные Страницы',
+    industrialBlades: 'Промышленные Лезвия',
+    machineKnives: 'Машинные Ножи',
+    consulting: 'Консалтинг',
+    contact: 'Контакты',
+  },
+
+  // Error Page
+  errorPage: {
+    title: 'Что-то Пошло Не Так',
+    description: 'При загрузке страницы произошла ошибка. Пожалуйста, попробуйте снова или вернитесь на главную страницу.',
+    tryAgain: 'Попробовать Снова',
+    backHome: 'На Главную',
+  },
+
+  // Product Not Found
+  productNotFound: {
+    title: 'Товар Не Найден',
+    description: 'Товар, который вы ищете, не существует или был удалён. Пожалуйста, просмотрите другие наши товары.',
+    browseProducts: 'Смотреть Продукцию',
+    backHome: 'Главная',
+    needHelp: 'Нужна помощь?',
+    contactUs: 'Свяжитесь с нами',
+  },
+
+  // Validation Messages
+  validation: {
+    nameMin: 'Имя должно содержать минимум 2 символа',
+    nameMax: 'Имя не может превышать 100 символов',
+    emailInvalid: 'Пожалуйста, введите корректный email адрес',
+    phoneMin: 'Номер телефона должен содержать минимум 10 символов',
+    phoneMax: 'Номер телефона не может превышать 20 символов',
+    phoneInvalid: 'Пожалуйста, введите корректный номер телефона',
+    companyMax: 'Название компании не может превышать 100 символов',
+    subjectRequired: 'Пожалуйста, выберите тему',
+    messageMin: 'Сообщение должно содержать минимум 10 символов',
+    messageMax: 'Сообщение не может превышать 2000 символов',
+    consentRequired: 'Требуется согласие с политикой конфиденциальности',
+    invalidValue: 'Недопустимое значение',
+    invalidFormData: 'Недопустимые данные формы',
+    searchMin: 'Поисковый запрос должен содержать минимум 2 символа',
+    searchMax: 'Поисковый запрос не может превышать 100 символов',
+  },
+
+  // API Messages
+  apiMessages: {
+    rateLimited: 'Слишком много запросов. Пожалуйста, подождите минуту.',
+    invalidFormData: 'Неверные данные формы',
+    successMessage: 'Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.',
+    developmentMode: 'Сообщение получено (режим разработки).',
+    emailNotConfigured: 'Служба email не настроена.',
+    genericError: 'Произошла ошибка. Пожалуйста, попробуйте позже.',
+  },
+
+  // FAQ Page
+  faq: {
+    badge: 'Центр помощи',
+    title: 'Часто задаваемые вопросы',
+    subtitle: 'Все вопросы и ответы о промышленных лезвиях',
+    needHelp: 'Не нашли свой вопрос?',
+    needHelpDesc: 'Наша команда экспертов будет рада вам помочь.',
+    whatsapp: 'Написать в WhatsApp',
+    call: 'Позвоните нам',
+  },
+
+  // Catalog
+  catalog: {
+    title: 'э-Каталог',
+    subtitle: 'Скачайте наш цифровой каталог со всей продукцией',
+    heroTitle: 'Каталоги продукции',
+    heroDesc: 'Просмотрите или скачайте наши PDF-каталоги',
+    download: 'Скачать Каталог',
+    view: 'Смотреть Онлайн',
+    pdfViewer: 'Просмотр PDF',
+    // Viewer (view/[slug]) labels
+    viewer: {
+      back: 'Назад',
+      copyCitation: 'Копировать без скачивания',
+      share: 'Поделиться',
+      citationCopied: 'Скопировано',
+      zoomIn: 'Увеличить',
+      zoomOut: 'Уменьшить',
+      zoomReset: 'Сброс',
+      fullscreen: 'Полный экран',
+    },
+  },
+
+  // Quality
+  quality: {
+    title: 'Стандарты Качества',
+    subtitle: 'Мы придерживаемся высочайших стандартов качества',
+    certifications: 'Наши Сертификаты',
+    processes: 'Наши Процессы Качества',
+  },
+
+  // Product Detail
+  productDetail: {
+    premiumSteel: 'Премиум Сталь',
+    new: 'Новинка',
+    prevImage: 'Предыдущее изображение',
+    nextImage: 'Следующее изображение',
+    image: 'Изображение',
+    requestQuote: 'Запросить Цену',
+    whatsappChat: 'Написать в WhatsApp',
+    bulkOrderInfo: 'Свяжитесь с нами для оптовых заказов или технической консультации.',
+    availableSizes: 'Доступные размеры',
+    inStock: 'В наличии',
+    askStock: 'Уточнить наличие',
+    whatsappMessage: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о {{code}} - {{name}}.',
+    emailSubject: 'Запрос цены: {{code}} - {{name}}',
+    emailBody: 'Здравствуйте,\n\nОбращаюсь к вам с alyablade.com.\n\nПрошу предоставить ценовое предложение на {{code}} - {{name}}.\n\nС уважением',
+    technicalSpecs: 'Технические Характеристики',
+    whyThisProduct: 'Почему Этот Продукт?',
+    applications: 'Применение',
+    relatedProducts: 'Сопутствующие Товары',
+    viewAllProducts: 'Смотреть все товары',
+    benefits: {
+      longLife: 'Долгий Срок Службы',
+      longLifeDesc: 'Меньше замен лезвий, ниже общая стоимость',
+      continuity: 'Непрерывность Производства',
+      continuityDesc: 'Минимизирует простои оборудования',
+      support: 'Техническая Поддержка',
+      supportDesc: 'Гарантия авторизованного дистрибьютора в Турции',
+    },
+  },
+
+  // Contact Form
+  contactForm: {
+    name: 'ФИО',
+    email: 'Email',
+    phone: 'Телефон',
+    company: 'Компания',
+    subject: 'Тема',
+    message: 'Сообщение',
+    selectSubject: 'Выберите тему',
+    subjects: {
+      priceQuote: 'Запрос Цены',
+      productInfo: 'Информация о Товаре',
+      consulting: 'Консалтинг',
+      customProduction: 'Индивидуальное Производство',
+      other: 'Другое',
+    },
+    namePlaceholder: 'Ваше полное имя',
+    emailPlaceholder: 'example@email.com',
+    phonePlaceholder: '+7 999 123 45 67',
+    companyPlaceholder: 'Название компании',
+    messagePlaceholder: 'Введите ваше сообщение здесь...',
+    required: 'обязательно',
+    characters: 'символов',
+    kvkkConsent: 'Политика Конфиденциальности',
+    kvkkConsentText: ' и соглашаюсь с обработкой моих персональных данных.',
+    privacyConsent: 'Отправляя эту форму, вы соглашаетесь с нашей политикой конфиденциальности.',
+    send: 'Отправить Сообщение',
+    sending: 'Отправка...',
+    successMessage: 'Ваше сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.',
+    errorMessage: 'Произошла ошибка. Пожалуйста, попробуйте снова или свяжитесь с нами по телефону.',
+  },
+
+  // Hero Slider
+  heroSlider: {
+    whatsappMessage: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о {{title}}.',
+  },
+
+  // Sheffield Section
+  sheffield: {
+    title: 'Наши Стандарты Качества',
+    description: 'Промышленные лезвия из стали высочайшего качества сокращают простои оборудования и повышают эффективность производства.',
+    moreInfo: 'Подробнее',
+    qualityTitle: 'Стандарты Качества',
+    features: {
+      sheffieldQuality: 'Стандарт качества Alya',
+      sheffieldQualityDesc: 'Высококачественное сырьё и производство',
+      highPerformance: 'Высокая Производительность',
+      highPerformanceDesc: 'Долгий срок службы и острая резка',
+      durability: 'Долговечность',
+      durabilityDesc: 'Максимальная устойчивость к износу',
+      fastDelivery: 'Быстрая Доставка',
+      fastDeliveryDesc: 'Быстрая доставка по всему миру',
+    },
+    standards: {
+      fda: 'Соответствует FDA',
+      fdaDesc: 'Стандарты пищевой безопасности',
+      usda: 'Одобрено USDA',
+      usdaDesc: 'Сертификат Министерства сельского хозяйства США',
+      iso: 'ISO 9001:2015',
+      isoDesc: 'Система управления качеством',
+    },
+  },
+
+  // Value Proposition
+  valueProposition: {
+    badge: 'Почему Alya Blades?',
+    title: 'Качественное Сырьё,',
+    titleHighlight: 'Долгосрочная Экономия',
+    description: 'Промышленные резаки из высококачественной стали сокращают простои оборудования и повышают эффективность вашего производства.',
+    learnMore: 'Подробнее',
+    props: {
+      lessDowntime: 'Меньше Простоев',
+      lessDowntimeDesc: 'Качественная сталь = долгий срок службы = меньше замен. Ваша производственная линия работает без перерывов.',
+      lessDowntimeHighlight: 'Эффективность',
+      longLife: 'Долгий Срок Службы Лезвий',
+      longLifeDesc: 'Значительно дольше стандартных лезвий благодаря высококачественному сырью и точному производственному процессу.',
+      longLifeHighlight: 'Долговечность',
+      fdaCompliant: 'Соответствие FDA и USDA',
+      fdaCompliantDesc: 'Безопасно для использования в пищевой, фармацевтической и других отраслях, требующих гигиены. Международные сертификаты.',
+      fdaCompliantHighlight: 'Пищевая Безопасность',
+      experience: '30 Лет Отраслевого Опыта',
+      experienceDesc: 'Мы работаем с ведущими компаниями Турции. Техническое консультирование и послепродажная поддержка.',
+      experienceHighlight: 'Экспертная Поддержка',
+    },
+  },
+
+  // WhatsApp Button
+  whatsapp: {
+    defaultMessage: 'Здравствуйте, я пишу с alyablade.com. Я хотел бы получить информацию.',
+    homeMessage: 'Здравствуйте, я пишу с главной страницы alyablade.com. Я хотел бы получить информацию.',
+    categoriesMessage: 'Здравствуйте, я пишу со страницы категорий продукции alyablade.com.',
+    consultingMessage: 'Здравствуйте, я пишу со страницы консалтинга alyablade.com. Я хотел бы получить консультацию.',
+    contactMessage: 'Здравствуйте, я пишу со страницы контактов alyablade.com.',
+    aboutMessage: 'Здравствуйте, я пишу со страницы о нас alyablade.com.',
+    blogMessage: 'Здравствуйте, я пишу со страницы блога alyablade.com.',
+    subcategoryMessage: 'Здравствуйте, я хотел бы получить информацию о "{{subcategory}}". (alyablade.com)',
+    categoryMessages: {
+      industrialBlades: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о Промышленных Лезвиях.',
+      machineKnives: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о Машинных Ножах.',
+      safetyKnives: 'Здравствуйте, я обращаюсь с alyablade.com. Я хотел бы получить информацию о Защитных и Универсальных Ножах.',
+    },
+    tooltip: 'Чем мы можем вам помочь?',
+    chatTitle: 'Написать в WhatsApp',
+    greeting: 'Здравствуйте! 👋',
+    greetingText: 'Чем мы можем вам помочь? Задавайте ваши вопросы.',
+    startChat: 'Начать Чат',
+    responseTime: 'Обычно мы отвечаем в течение нескольких минут',
+  },
+
+  // Trust Logos / Certifications
+  trustLogos: {
+    certifications: {
+      iso: { name: 'ISO 9001:2015', desc: 'Управление Качеством' },
+      fda: { name: 'FDA', desc: 'Пищевая Безопасность' },
+      usda: { name: 'USDA', desc: 'Одобрено США' },
+    },
+    stats: {
+      exportCountries: { value: '35+', label: 'Стран Экспорта' },
+      yearsExperience: { value: '30', label: 'Лет Опыта' },
+      productVariety: { value: '500+', label: 'Видов Продукции' },
+    },
+  },
+
+  // Breadcrumb
+  breadcrumb: {
+    home: 'Главная',
+  },
+
+  // Search Modal
+  searchModal: {
+    placeholder: 'Поиск товаров, категорий или артикулов...',
+    resultsFound: 'товаров найдено',
+    variants: 'вариантов',
+    noResults: 'Результаты не найдены',
+    noResultsFor: 'Товары не найдены. Попробуйте другой поисковый запрос.',
+    recentSearches: 'Недавние Поиски',
+    categories: 'Категории',
+    products: 'товаров',
+    navigateHint: 'для навигации',
+    selectHint: 'для выбора',
+    searchTitle: 'Поиск Alya Blade',
+  },
+
+  // Category Pages
+  categoryPage: {
+    customSolutions: 'Индивидуальные Решения',
+    customSolutionsDesc: 'Мы предлагаем услуги индивидуального проектирования и производства помимо стандартной продукции.',
+    inCategory: 'содержит',
+    subcategoriesExist: '',
+    productsFound: 'товаров найдено',
+    variant: 'вариантов',
+    noProductsYet: 'Пока нет товаров',
+    noProductsDesc: 'В этой категории пока нет товаров. Скоро появятся!',
+    browseOther: 'Смотреть Другие Категории',
+    otherSubcategories: 'Другие подкатегории {{category}}',
+    cantFindTitle: 'Не нашли то, что искали?',
+    cantFindDesc: 'Мы предлагаем услуги индивидуального производства и проектирования под ваши потребности.',
+  },
+
+  // Product Detail Page
+  productPage: {
+    detailedInfo: 'Подробная Информация',
+    compatibleParts: 'Совместимые Запчасти',
+    home: 'Главная',
+  },
+
+  // Best Sellers Section
+  bestSellers: {
+    title: 'Бестселлеры',
+    subtitle: 'Самые популярные товары среди наших клиентов',
+    viewProduct: 'Смотреть Товар',
+    viewDetails: 'Детали',
+    viewAllCategories: 'Все Категории Продукции',
+    inStock: 'В наличии',
+    outOfStock: 'Нет в наличии',
+    variantOptions: 'вариантов',
+  },
+
+  // Category Grid Section
+  categoryGrid: {
+    title: 'Категории Продукции',
+    subtitle: 'Высококачественные промышленные режущие лезвия, разработанные специально для каждой отрасли',
+    viewDetails: 'Детали',
+    products: 'товаров',
+    more: 'ещё',
+  },
+
+  // Consulting Section
+  consultingSection: {
+    badge: 'Экспертный Консалтинг',
+    title: 'Профессиональная Поддержка в Выборе Лезвий',
+    description: 'Каждый материал требует своей техники резки. Пластик, металл, бумага, продукты питания... Что бы вы ни резали, мы поможем найти наиболее подходящее лезвие.',
+    freeConsulting: 'Бесплатная Консультация',
+    support247: 'Поддержка 24/7',
+    helpText: 'Какое лезвие для какого материала? Наши эксперты помогут вам.',
+    steps: {
+      step1Title: 'Анализ Материала',
+      step1Desc: 'Мы анализируем материал, который вы будете резать',
+      step2Title: 'Рекомендация Лезвия',
+      step2Desc: 'Мы рекомендуем индивидуальную модель лезвия для вас',
+      step3Title: 'Тестирование и Оптимизация',
+      step3Desc: 'Мы оптимизируем производительность резки',
+    },
+    cta: 'Получить Бесплатную Консультацию',
+    whatsappCta: 'WhatsApp',
+  },
+
+  // Hero Slider Features
+  heroFeatures: {
+    sheffieldQuality: 'Стандарт качества Alya',
+    customProduction: 'Индивидуальное Производство',
+    fastDelivery: 'Быстрая Доставка',
+    prevSlide: 'Предыдущий Слайд',
+    nextSlide: 'Следующий Слайд',
+  },
+
+  // Durham Duplex Badge Section
+  durhamDuplex: {
+    tagline: 'Острые как бритва с 1910 года',
+    intro: '115 лет',
+    description: 'Мы являемся дистрибьютором в Турции промышленных лезвий мирового класса.',
+    certifications: {
+      isoTitle: 'ISO 9001:2015',
+      isoDesc: 'Система управления качеством',
+      fdaTitle: 'Соответствует FDA',
+      fdaDesc: 'Одобрено для пищевой безопасности',
+      usdaTitle: 'Одобрено USDA',
+      usdaDesc: 'Одобрено Министерством сельского хозяйства США',
+      ukTitle: 'Международный стандарт',
+      ukDesc: 'Производство мирового класса',
+    },
+    cta: 'Подробнее',
+    imageAlt: 'Лезвия Durham Duplex',
+    stats: {
+      experience: 'Лет Опыта',
+      products: 'Видов Продукции',
+      location: 'Мировой',
+    },
+  },
+
+  // Cookie Consent
+  cookieConsent: {
+    description: 'Мы используем cookie для улучшения вашего опыта на нашем сайте. Необходимые cookie требуются для работы сайта.',
+    policyLink: 'Политика Cookie',
+    settings: 'Настройки',
+    acceptNecessary: 'Только Необходимые',
+    acceptAll: 'Принять Все',
+    preferencesTitle: 'Настройки Cookie',
+    preferencesDescription: 'Вы можете выбрать, какие cookie использовать.',
+    alwaysActive: 'Всегда активны',
+    back: 'Назад',
+    savePreferences: 'Сохранить Настройки',
+    necessary: {
+      title: 'Необходимые Cookie',
+      description: 'Требуются для правильной работы сайта. Нельзя отключить.',
+    },
+    analytics: {
+      title: 'Аналитические Cookie',
+      description: 'Помогают нам понять, как вы используете сайт.',
+    },
+    functional: {
+      title: 'Функциональные cookie-файлы',
+      description: 'Запоминают ваши предпочтения (например, выбор языка).',
+    },
+  },
+
+  // Steel Chart
+  steelChart: {
+    title: 'Распределение использования стали по секторам',
+    yAxis: 'Миллион тонн',
+    tooltipTotal: 'Всего',
+    yearDistribution: 'Распределение года',
+    legend: {
+      metalUrunleri: 'Металлические изделия',
+      otomotiv: 'Автомобилестроение',
+      boru: 'Трубы и профили',
+      makine: 'Машиностроение',
+      insaat: 'Строительство',
+      yapiCeligi: 'Конструкционная сталь',
+      elektrik: 'Электрика и электроника',
+      gemi: 'Судостроение',
+      diger: 'Другое',
+    },
+  },
+
+  // Blade Comparison Chart (HSS vs WC blog post)
+  bladeComparison: {
+    radarTitle: 'HSS против Карбида Вольфрама',
+    radarSubtitle: 'Сравнение по шести критическим параметрам',
+    lifespanTitle: 'Сравнение Срока Службы Резки',
+    lifespanSubtitle: 'Средняя дистанция резки (км)',
+    hss: 'HSS',
+    wc: 'Карбид Вольфрама',
+    yAxisKm: 'км',
+    axes: {
+      hardness: 'Твёрдость',
+      toughness: 'Вязкость',
+      wearResistance: 'Износостойкость',
+      cost: 'Ценовое Преимущество',
+      sharpenability: 'Лёгкость Заточки',
+      thermalResistance: 'Термостойкость',
+    },
+    bars: {
+      plainHss: 'HSS без покрытия',
+      ceramicHss: 'HSS с керамическим покрытием',
+      tungstenCarbide: 'Карбид Вольфрама',
+    },
+  },
+
+  // Blade Cost Chart (TCO comparison)
+  bladeCost: {
+    title: 'Совокупная Стоимость Владения (TCO)',
+    subtitle: 'Сравнение накопленных затрат по дистанции резки',
+    xAxis: 'Дистанция Резки (км)',
+    yAxis: 'Общая Стоимость (относительная)',
+    hss: 'HSS без покрытия',
+    ceramicHss: 'HSS с керамическим покрытием',
+    wc: 'Карбид Вольфрама',
+    breakEvenNote: 'Точка безубыточности',
+  },
+
+};
+
+export default ru;

@@ -1,7 +1,7 @@
 /**
  * Protected Image Component
  * Görselleri kopyalamaya/indirmeye karşı korur
- * 
+ *
  * Koruma yöntemleri:
  * 1. Sağ tık engelleme
  * 2. Şeffaf overlay katmanı
@@ -57,19 +57,19 @@ export default function ImageProtected({
         draggable={false}
         {...props}
       />
-      
+
       {/* Şeffaf koruma katmanı */}
-      <div 
+      <div
         className="absolute inset-0 z-10"
         onContextMenu={handleContextMenu}
         onDragStart={handleDragStart}
-        style={{ 
+        style={{
           userSelect: 'none',
           WebkitUserSelect: 'none',
           WebkitTouchCallout: 'none',
         }}
       />
-      
+
       {/* Uyarı mesajı */}
       {showWarning && (
         <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/50 animate-fade-in">

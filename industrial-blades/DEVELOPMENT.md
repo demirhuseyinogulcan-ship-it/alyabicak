@@ -125,7 +125,7 @@ const categories = categoryService.getAllCategoriesWithCounts();
 const featuredProducts = productService.getFeaturedCards();
 
 // Kategoriye göre ürünleri al
-const categoryProducts = productService.getCategoryCards('sanayi-jiletleri');
+const categoryProducts = productService.getCategoryCards('industrial-blades');
 
 // Arama yap
 const searchResults = productService.search('trapez');
@@ -147,14 +147,124 @@ const searchResults = productService.search('trapez');
 
 ## Yapılacaklar 🚧
 
-- [ ] Ürün detay sayfası (`/urunler/[slug]`)
-- [ ] Ürün listeleme sayfası (`/urunler`)
+- [ ] Ürün detay sayfası (`/products/[slug]`)
+- [ ] Ürün listeleme sayfası (`/products`)
 - [ ] Sheffield Kalitesi sayfası
 - [ ] Blog/İçerik sayfaları
 - [ ] Görsel optimizasyonu
 - [ ] Backend entegrasyonu (form gönderimi)
 - [ ] Google Analytics
 - [ ] Google Search Console
+
+---
+
+## 🌐 DOMAIN & URL LOKALİZASYON STRATEJİSİ
+
+### Planlanan Domain Yapısı
+
+| Domain | Hedef Kitle | Diller |
+|--------|-------------|--------|
+| `alyabicak.com` | Türkiye | Türkçe (varsayılan) |
+| `alyablade.com` | Global | İngilizce, Arapça, diğer diller |
+
+### Mevcut Durum (Ocak 2026)
+```
+alyabicak.com/tr/products/...  ✅ Çalışıyor
+alyabicak.com/en/products/...  ✅ Çalışıyor (Türkçe path)
+alyabicak.com/ar/products/...  ✅ Çalışıyor (Türkçe path)
+```
+
+### Hedef Durum (İleride)
+```
+alyabicak.com/tr/products/...        ✅ Türkiye
+alyablade.com/en/products/...       🎯 Global - İngilizce path
+alyablade.com/ar/منتجات/...         🎯 Global - Arapça path
+```
+
+### Geçiş Planı
+
+| Aşama | İçerik | Durum |
+|-------|--------|-------|
+| **Aşama 1** | Site canlıya çıksın (alyabicak.com) | 🔄 Devam |
+| **Aşama 2** | Ürün görselleri & içerikleri tamamlansın | ⏳ Bekliyor |
+| **Aşama 3** | alyablade.com domain alınsın | ⏳ Bekliyor |
+| **Aşama 4** | Multi-domain setup (Vercel) | ⏳ Bekliyor |
+| **Aşama 5** | GeoIP redirect (opsiyonel) | ⏳ Bekliyor |
+| **Aşama 6** | URL path lokalizasyonu | ⏳ Bekliyor |
+
+### Teknik Notlar
+
+**Middleware Güncellemesi Gerekecek:**
+```typescript
+// middleware.ts - İleride eklenecek
+const domain = request.headers.get('host');
+const isGlobalDomain = domain?.includes('alyablade');
+
+if (isGlobalDomain) {
+  // Global domain için İngilizce varsayılan
+  defaultLocale = 'en';
+}
+```
+
+**Vercel Multi-Domain Setup:**
+```json
+// vercel.json - İleride eklenecek
+{
+  "domains": [
+    { "domain": "alyabicak.com", "primary": true },
+    { "domain": "alyablade.com" }
+  ]
+}
+```
+
+### Neden Şimdi Değil?
+
+1. **SEO Riski**: Domain + URL değişikliği birlikte = Ciddi indeksleme kaybı
+2. **301 Redirect Haritası**: 762+ sayfa için redirect gerekir
+3. **Test İhtiyacı**: Önce tek domain'de stabilize olmalı
+4. **Öncelik**: İçerik (ürünler, görseller) daha kritik
+
+---
+
+## 🌍 ÇEVİRİ DURUMU
+
+### Mevcut Çeviri İstatistikleri (Ocak 2026)
+
+| Dil | Çevrilen Ürün | Toplam Ürün | Oran |
+|-----|---------------|-------------|------|
+| Türkçe | 166 (master) | 166 | ✅ %100 |
+| İngilizce | 169 | 166 | ✅ %100 |
+| Arapça | 169 | 166 | ✅ %100 |
+
+> **Not**: Tüm çeviriler Ocak 2026 itibarıyla tamamlandı.
+
+### Eksik Çevirileri Tamamlama
+
+Çeviriler `lib/i18n/translations/products/` klasöründe:
+- `tr.ts` - Master data (override için)
+- `en.ts` - İngilizce çeviriler
+- `ar.ts` - Arapça çeviriler ✅ TAMAMLANDI
+
+**Fallback Sistemi:**
+- Çeviri yoksa → Türkçe (master) gösterilir
+- Bu sayede site çalışmaya devam eder
+
+**Çeviri Ekleme Formatı:**
+```typescript
+'urun-id': {
+  name: 'Ürün Adı (çevrilmiş)',
+  description: 'Açıklama (çevrilmiş)',
+  features: ['Özellik 1', 'Özellik 2'],
+  applications: ['Kullanım Alanı 1'],
+},
+```
+
+### Toplu Çeviri Stratejisi
+
+1. **Manuel Çeviri** (Önerilen): Daha doğru, SEO için daha iyi
+2. **AI Destekli**: İlk taslak için kullanılabilir, sonra manuel düzeltme
+
+---
 
 ## Çalıştırma
 

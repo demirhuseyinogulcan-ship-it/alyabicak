@@ -1,9 +1,14 @@
 /**
  * Site Konfigürasyonu
  * Merkezi yapılandırma dosyası - Production'da environment variable kullanın
- * 
+ *
+ * Multi-domain Strategy:
+ * - alyabicak.com → Turkish content
+ * - alyablade.com → English & Global languages
+ *
  * Environment Variables (.env.local):
- * NEXT_PUBLIC_SITE_URL=https://www.alyabicak.com
+ * NEXT_PUBLIC_SITE_URL=https://alyabicak.com
+ * NEXT_PUBLIC_GLOBAL_URL=https://alyablade.com
  * NEXT_PUBLIC_PHONE=+90 (216) 575 17 91
  * NEXT_PUBLIC_WHATSAPP=905350504613
  * NEXT_PUBLIC_EMAIL=info@alyatekstil.com
@@ -12,13 +17,23 @@
 export const siteConfig = {
   // Site Bilgileri
   name: 'Alya Bıçak',
-  tagline: 'Endüstriyel Kesici Bıçaklar | Sheffield Kalitesi',
-  description: 'Alya Bıçak - Endüstriyel kesici bıçaklar, makina bıçakları, sanayi jiletleri. Sheffield kalitesi ile üretilmiş profesyonel bıçaklar. 28+ yıllık tecrübe.',
-  
-  // URL'ler
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.alyabicak.com',
+  tagline: 'Endüstriyel Kesici Bıçaklar | Alya Kalite Standardı',
+  description: 'Alya Bıçak - Endüstriyel kesici bıçaklar, makina bıçakları, sanayi jiletleri. Yüksek kalite çeliklerden üretilmiş profesyonel bıçaklar. 30 yıllık tecrübe.',
+
+  // URL'ler - Multi-domain
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://alyabicak.com',      // Turkish domain
+  globalUrl: process.env.NEXT_PUBLIC_GLOBAL_URL || 'https://alyablade.com', // Global domain
   mainSiteUrl: 'https://www.alyatekstil.com',
-  
+
+  // Domain mapping
+  domains: {
+    tr: 'https://alyabicak.com',
+    en: 'https://alyablade.com',
+    ar: 'https://alyablade.com',
+    ru: 'https://alyablade.com',
+    fr: 'https://alyablade.com',
+  },
+
   // İletişim Bilgileri
   contact: {
     phone: process.env.NEXT_PUBLIC_PHONE || '+90 (216) 575 17 91',
@@ -43,7 +58,7 @@ export const siteConfig = {
       description: 'Pazartesi - Cuma: 09:00 - 18:00 | Hafta sonu: Kapalı',
     },
   },
-  
+
   // Şirket Bilgileri
   company: {
     legalName: 'Alya Tekstil Sanayi Ticaret Ltd. Şti.',
@@ -52,26 +67,27 @@ export const siteConfig = {
     exportCountries: 35,
     distributorRegions: ['Türkiye', 'Orta Doğu', 'Balkanlar', 'Orta Asya'],
   },
-  
+
   // Sosyal Medya
   social: {
     facebook: '',
-    instagram: '',
-    linkedin: '',
+    instagram: 'https://www.instagram.com/alya_tekstil_sanayi/',
+    linkedin: 'https://www.linkedin.com/company/alya-ltd./',
     twitter: '',
     youtube: '',
+    wechat: '+90 535 050 46 13', // WeChat ID
   },
-  
+
   // SEO
   seo: {
     keywords: [
       'alya bıçak',
-      'alya bıçakları', 
+      'alya bıçakları',
       'endüstriyel bıçak',
       'kesici bıçak',
       'makina bıçağı',
       'sanayi jileti',
-      'sheffield bıçak',
+      'FDA onaylı bıçak',
       'özel üretim bıçak',
       'endüstriyel kesici',
       'martor alternatifi',
@@ -82,16 +98,16 @@ export const siteConfig = {
     ] as const,
     defaultOgImage: '/images/og-image.jpg',
   },
-  
+
   // Özellikler
   features: {
     enableWhatsApp: true,
     enableContactForm: true,
-    enableProductSearch: false, // TODO: Arama özelliği eklendiğinde true yap
-    enableBlog: false, // TODO: Blog eklendiğinde true yap
-    enableMultiLanguage: false, // TODO: Çoklu dil eklendiğinde true yap
-    enableAnalytics: false, // TODO: Analytics eklendiğinde true yap
-    enableCookieConsent: false, // TODO: Cookie consent eklendiğinde true yap
+    enableProductSearch: true, // Aktif
+    enableBlog: true, // ✅ Bülten/Blog AKTIF
+    enableMultiLanguage: true, // ✅ Çoklu dil AKTIF
+    enableAnalytics: true, // ✅ Analytics AKTIF (GA4 + Clarity + Vercel)
+    enableCookieConsent: true, // KVKK uyumu için aktif
   },
 } as const;
 
@@ -111,12 +127,17 @@ export function getPhoneUrl(): string {
   return `tel:${siteConfig.contact.phoneRaw}`;
 }
 
+// CC adresi: Tüm mailto linklerinde info@ + satis3@ birlikte gider
+const CC_EMAIL = 'satis3@alyatekstil.com';
+
 export function getEmailUrl(subject?: string): string {
   const baseUrl = `mailto:${siteConfig.contact.email}`;
+  const params: string[] = [];
+  params.push(`cc=${encodeURIComponent(CC_EMAIL)}`);
   if (subject) {
-    return `${baseUrl}?subject=${encodeURIComponent(subject)}`;
+    params.push(`subject=${encodeURIComponent(subject)}`);
   }
-  return baseUrl;
+  return `${baseUrl}?${params.join('&')}`;
 }
 
 export function getGoogleMapsUrl(): string {

@@ -18,8 +18,8 @@ const roundedStyles = {
   full: 'rounded-full',
 }
 
-export default function Skeleton({ 
-  className = '', 
+export default function Skeleton({
+  className = '',
   width,
   height,
   rounded = 'md',
@@ -45,10 +45,10 @@ export function SkeletonText({ lines = 3, className = '' }: { lines?: number; cl
   return (
     <div className={`space-y-2 ${className}`}>
       {Array.from({ length: lines }).map((_, i) => (
-        <Skeleton 
-          key={i} 
-          height={16} 
-          className={i === lines - 1 ? 'w-3/4' : 'w-full'} 
+        <Skeleton
+          key={i}
+          height={16}
+          className={i === lines - 1 ? 'w-3/4' : 'w-full'}
         />
       ))}
     </div>
@@ -76,7 +76,7 @@ export function SkeletonCard({ className = '' }: { className?: string }) {
 export function SkeletonProductCard({ className = '' }: { className?: string }) {
   return (
     <div className={`bg-white rounded-xl overflow-hidden shadow-sm ${className}`}>
-      <Skeleton className="aspect-square w-full" rounded="none" />
+      <Skeleton className="aspect-video w-full" rounded="none" />
       <div className="p-4 space-y-3">
         <Skeleton height={12} className="w-1/3" />
         <Skeleton height={20} className="w-full" />
@@ -96,21 +96,21 @@ export function SkeletonAvatar({ size = 40 }: { size?: number }) {
 }
 
 // Button Skeleton
-export function SkeletonButton({ 
+export function SkeletonButton({
   size = 'md',
   fullWidth = false,
-}: { 
+}: {
   size?: 'sm' | 'md' | 'lg'
-  fullWidth?: boolean 
+  fullWidth?: boolean
 }) {
   const heights = { sm: 32, md: 40, lg: 48 }
   const widths = { sm: 80, md: 120, lg: 160 }
-  
+
   return (
-    <Skeleton 
-      height={heights[size]} 
-      width={fullWidth ? '100%' : widths[size]} 
-      rounded="lg" 
+    <Skeleton
+      height={heights[size]}
+      width={fullWidth ? '100%' : widths[size]}
+      rounded="lg"
     />
   )
 }
@@ -120,10 +120,10 @@ export function SkeletonTableRow({ columns = 4 }: { columns?: number }) {
   return (
     <div className="flex gap-4 py-4 border-b border-steel-100">
       {Array.from({ length: columns }).map((_, i) => (
-        <Skeleton 
-          key={i} 
-          height={16} 
-          className={`flex-1 ${i === 0 ? 'max-w-[200px]' : ''}`} 
+        <Skeleton
+          key={i}
+          height={16}
+          className={`flex-1 ${i === 0 ? 'max-w-[200px]' : ''}`}
         />
       ))}
     </div>
@@ -131,11 +131,11 @@ export function SkeletonTableRow({ columns = 4 }: { columns?: number }) {
 }
 
 // Grid Skeleton
-export function SkeletonGrid({ 
-  count = 6, 
+export function SkeletonGrid({
+  count = 6,
   columns = 3,
   type = 'card',
-}: { 
+}: {
   count?: number
   columns?: number
   type?: 'card' | 'product'
@@ -150,7 +150,7 @@ export function SkeletonGrid({
   return (
     <div className={`grid ${colsClass} gap-6`}>
       {Array.from({ length: count }).map((_, i) => (
-        type === 'product' 
+        type === 'product'
           ? <SkeletonProductCard key={i} />
           : <SkeletonCard key={i} />
       ))}

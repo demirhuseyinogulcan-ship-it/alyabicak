@@ -1,55 +1,54 @@
 /**
  * Trust Logos Section
  * Güvenilirlik göstergesi - Sertifikalar ve ülke dağılımı
- * 
+ *
  * Not: Müşteri logoları gizlilik nedeniyle gösterilmiyor
  * Bunun yerine sertifikalar ve ihracat bilgisi gösteriliyor
  */
 
 'use client'
 
-const certifications = [
-  { name: 'ISO 9001:2015', desc: 'Kalite Yönetimi' },
-  { name: 'FDA', desc: 'Gıda Güvenliği' },
-  { name: 'USDA', desc: 'ABD Onaylı' },
-  { name: 'Made in Sheffield', desc: 'İngiltere' },
-]
-
-const stats = [
-  { value: '35+', label: 'Ülkeye İhracat' },
-  { value: '28', label: 'Yıllık Deneyim' },
-  { value: '500+', label: 'Ürün Çeşidi' },
-]
+import { useLocale } from '@/lib/i18n/client'
 
 export default function TrustLogos() {
+  const { dictionary: t } = useLocale()
+
+  const certifications = [
+    { name: t.trustLogos.certifications.iso.name, desc: t.trustLogos.certifications.iso.desc },
+    { name: t.trustLogos.certifications.fda.name, desc: t.trustLogos.certifications.fda.desc },
+    { name: t.trustLogos.certifications.usda.name, desc: t.trustLogos.certifications.usda.desc },
+  ]
+
+  const stats = [
+    { value: t.trustLogos.stats.exportCountries.value, label: t.trustLogos.stats.exportCountries.label },
+    { value: t.trustLogos.stats.yearsExperience.value, label: t.trustLogos.stats.yearsExperience.label },
+    { value: t.trustLogos.stats.productVariety.value, label: t.trustLogos.stats.productVariety.label },
+  ]
+
   return (
     <section className="py-6 bg-steel-900 border-y border-steel-800">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
-          
+
           {/* Certifications */}
           <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-10">
             {certifications.map((cert) => (
-              <div 
+              <div
                 key={cert.name}
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
               >
                 <div className="w-2 h-2 bg-primary-500 rounded-full" />
                 <div>
                   <span className="font-semibold text-sm">{cert.name}</span>
-                  <span className="text-xs text-white/50 ml-1 hidden sm:inline">· {cert.desc}</span>
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Divider */}
-          <div className="hidden lg:block w-px h-10 bg-steel-700" />
-
           {/* Stats */}
           <div className="flex items-center gap-8">
             {stats.map((stat, i) => (
-              <div 
+              <div
                 key={stat.label}
                 className="text-center"
               >

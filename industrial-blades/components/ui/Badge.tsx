@@ -78,9 +78,9 @@ const statusConfig = {
 
 export function StatusBadge({ status, children }: StatusBadgeProps) {
   const config = statusConfig[status]
-  
+
   return (
-    <Badge 
+    <Badge
       variant={config.variant}
       icon={<span className={`w-2 h-2 rounded-full ${config.dot}`} />}
     >
@@ -98,7 +98,7 @@ export interface CountBadgeProps {
 
 export function CountBadge({ count, max = 99, variant = 'primary' }: CountBadgeProps) {
   const displayCount = count > max ? `${max}+` : count.toString()
-  
+
   return (
     <Badge variant={variant} size="sm" rounded="full">
       {displayCount}

@@ -23,10 +23,10 @@ export interface CardProps {
   hover?: boolean
 }
 
-export function Card({ 
-  variant = 'default', 
-  href, 
-  className = '', 
+export function Card({
+  variant = 'default',
+  href,
+  className = '',
   children,
   hover = true,
 }: CardProps) {
@@ -64,9 +64,9 @@ const aspectRatios = {
   wide: 'aspect-[16/9]',
 }
 
-export function CardImage({ 
-  src, 
-  alt, 
+export function CardImage({
+  src,
+  alt,
   fallbackIcon,
   overlay = true,
   aspectRatio = 'video',
@@ -173,8 +173,8 @@ const badgeVariants = {
   danger: 'bg-red-500 text-white',
 }
 
-export function CardBadge({ 
-  children, 
+export function CardBadge({
+  children,
   position = 'top-right',
   variant = 'primary',
 }: CardBadgeProps) {
