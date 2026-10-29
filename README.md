@@ -1,8 +1,10 @@
 # Alya Bıçak
 
-Website and product catalogue for an industrial blade supplier: industrial razor blades, machine knives, vacuum packaging blades and safety knives. Buyers browse by category and sub-category, open product pages and request a quote by email. The site is in Turkish.
+Website and product catalogue for an industrial blade supplier: industrial razor blades, machine knives, vacuum packaging blades and safety knives. Buyers browse by category and sub-category, open product pages and request a quote by email.
 
-**Live demo:** [alyabicak.vercel.app](https://alyabicak.vercel.app)
+**Live demo:** [alya.demo.commitius.com](https://alya.demo.commitius.com) (not indexed by search engines; product photos are replaced by a placeholder)
+
+The demo runs the latest version from the [`codex/sobesoft-current-2026-07-14`](https://github.com/demirhuseyinogulcan-ship-it/alyabicak/tree/codex/sobesoft-current-2026-07-14) branch: five languages (Turkish, English, Arabic, Russian, French), a PDF catalogue viewer and a blade simulator. This README describes the first Turkish version on `main`.
 
 ![Alya home page](docs/screenshot.jpg)
 
